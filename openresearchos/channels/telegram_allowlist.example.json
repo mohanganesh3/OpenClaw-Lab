@@ -1,0 +1,6 @@
+{
+  "allow_all": false,
+  "allowed_senders": [
+    "telegram:user-id-or-username"
+  ]
+}
