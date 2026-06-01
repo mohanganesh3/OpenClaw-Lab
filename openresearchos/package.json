@@ -1,0 +1,17 @@
+{
+  "name": "openresearchos",
+  "version": "0.1.0",
+  "description": "OpenClaw-native research operating system with traceable literature, review, and local experiment loops.",
+  "type": "module",
+  "private": true,
+  "bin": {
+    "openresearch": "./src/openresearch.mjs"
+  },
+  "scripts": {
+    "demo": "node src/openresearch.mjs demo --topic \"traceable autonomous research agents that use reviewer simulation and micro-experiments to reduce weak research ideas\"",
+    "smoke": "node src/openresearch.mjs smoke"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
