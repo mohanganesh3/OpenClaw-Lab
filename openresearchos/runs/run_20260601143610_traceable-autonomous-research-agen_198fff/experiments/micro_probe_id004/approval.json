@@ -1,0 +1,21 @@
+{
+  "approved": true,
+  "approved_by": "demo_user",
+  "approval_note": "Approved before execution.",
+  "approved_at": "2026-06-01T14:43:52.663Z",
+  "budget": {
+    "runtime_minutes": "1-5",
+    "max_disk_mb": 250,
+    "max_dataset_download_gb": 0,
+    "max_reruns": 5
+  },
+  "allowed_commands": [
+    "uv run python src/research_probe.py",
+    "python3 src/research_probe.py"
+  ],
+  "disallowed_commands": [
+    "rm -rf",
+    "curl | sh",
+    "executing untrusted repositories"
+  ]
+}

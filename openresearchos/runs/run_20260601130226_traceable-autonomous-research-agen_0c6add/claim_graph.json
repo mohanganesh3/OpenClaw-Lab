@@ -1,0 +1,171 @@
+{
+  "claims": [
+    {
+      "claim_id": "CL001",
+      "evidence_id": "EV001",
+      "text": "This source is relevant to machine, learning, deployment, challenges and should be used as evidence, not authority without verification.",
+      "support": "metadata_summary_pending_pdf_confirmation"
+    },
+    {
+      "claim_id": "CL002",
+      "evidence_id": "EV002",
+      "text": "This source is relevant to social, science, society, manifesto and should be used as evidence, not authority without verification.",
+      "support": "metadata_summary_pending_pdf_confirmation"
+    },
+    {
+      "claim_id": "CL003",
+      "evidence_id": "EV003",
+      "text": "This source is relevant to generative, agent-based, modeling, computational and should be used as evidence, not authority without verification.",
+      "support": "metadata_summary_pending_pdf_confirmation"
+    },
+    {
+      "claim_id": "CL004",
+      "evidence_id": "EV004",
+      "text": "This source is relevant to green, vehicle, routing, problem and should be used as evidence, not authority without verification.",
+      "support": "metadata_summary_pending_pdf_confirmation"
+    },
+    {
+      "claim_id": "CL005",
+      "evidence_id": "EV005",
+      "text": "This source is relevant to computing, taxonomy, systematic, review and should be used as evidence, not authority without verification.",
+      "support": "metadata_summary_pending_pdf_confirmation"
+    },
+    {
+      "claim_id": "CL006",
+      "evidence_id": "EV006",
+      "text": "This source is relevant to mental, health, improving, services and should be used as evidence, not authority without verification.",
+      "support": "metadata_summary_pending_pdf_confirmation"
+    },
+    {
+      "claim_id": "CL007",
+      "evidence_id": "EV007",
+      "text": "This source is relevant to emotion, psychology, neuroscience, current and should be used as evidence, not authority without verification.",
+      "support": "metadata_summary_pending_pdf_confirmation"
+    },
+    {
+      "claim_id": "CL008",
+      "evidence_id": "EV008",
+      "text": "This source is relevant to design, metamaterials, multiscale, data-driven and should be used as evidence, not authority without verification.",
+      "support": "metadata_summary_pending_pdf_confirmation"
+    },
+    {
+      "claim_id": "CL009",
+      "evidence_id": "EV009",
+      "text": "This source is relevant to water, technologies, drinking, treatment and should be used as evidence, not authority without verification.",
+      "support": "metadata_summary_pending_pdf_confirmation"
+    },
+    {
+      "claim_id": "CL010",
+      "evidence_id": "EV010",
+      "text": "This source is relevant to habs, research, future, climate and should be used as evidence, not authority without verification.",
+      "support": "metadata_summary_pending_pdf_confirmation"
+    },
+    {
+      "claim_id": "CL011",
+      "evidence_id": "EV011",
+      "text": "This source is relevant to droplets, physicochemical, hydrodynamics, equilibrium and should be used as evidence, not authority without verification.",
+      "support": "metadata_summary_pending_pdf_confirmation"
+    },
+    {
+      "claim_id": "CL012",
+      "evidence_id": "EV012",
+      "text": "This source is relevant to capabilities, dynamic, organizational, model and should be used as evidence, not authority without verification.",
+      "support": "metadata_summary_pending_pdf_confirmation"
+    },
+    {
+      "claim_id": "CL013",
+      "evidence_id": "EV013",
+      "text": "This source is relevant to quantum, technology, military, applications and should be used as evidence, not authority without verification.",
+      "support": "metadata_summary_pending_pdf_confirmation"
+    },
+    {
+      "claim_id": "CL014",
+      "evidence_id": "EV014",
+      "text": "This source is relevant to sensing, event, spatiotemporal, detection and should be used as evidence, not authority without verification.",
+      "support": "metadata_summary_pending_pdf_confirmation"
+    },
+    {
+      "claim_id": "CL015",
+      "evidence_id": "EV015",
+      "text": "This source is relevant to field, incumbents, change, movement and should be used as evidence, not authority without verification.",
+      "support": "metadata_summary_pending_pdf_confirmation"
+    }
+  ],
+  "links": [
+    {
+      "from": "EV001",
+      "relation": "suggests_gap",
+      "to": "Need a traceable test that connects machine to experiment decisions and reviewer outcomes."
+    },
+    {
+      "from": "EV002",
+      "relation": "suggests_gap",
+      "to": "Need a traceable test that connects social to experiment decisions and reviewer outcomes."
+    },
+    {
+      "from": "EV003",
+      "relation": "suggests_gap",
+      "to": "Need a traceable test that connects generative to experiment decisions and reviewer outcomes."
+    },
+    {
+      "from": "EV004",
+      "relation": "suggests_gap",
+      "to": "Need a traceable test that connects green to experiment decisions and reviewer outcomes."
+    },
+    {
+      "from": "EV005",
+      "relation": "suggests_gap",
+      "to": "Need a traceable test that connects computing to experiment decisions and reviewer outcomes."
+    },
+    {
+      "from": "EV006",
+      "relation": "suggests_gap",
+      "to": "Need a traceable test that connects mental to experiment decisions and reviewer outcomes."
+    },
+    {
+      "from": "EV007",
+      "relation": "suggests_gap",
+      "to": "Need a traceable test that connects emotion to experiment decisions and reviewer outcomes."
+    },
+    {
+      "from": "EV008",
+      "relation": "suggests_gap",
+      "to": "Need a traceable test that connects design to experiment decisions and reviewer outcomes."
+    },
+    {
+      "from": "EV009",
+      "relation": "suggests_gap",
+      "to": "Need a traceable test that connects water to experiment decisions and reviewer outcomes."
+    },
+    {
+      "from": "EV010",
+      "relation": "suggests_gap",
+      "to": "Need a traceable test that connects habs to experiment decisions and reviewer outcomes."
+    },
+    {
+      "from": "EV011",
+      "relation": "suggests_gap",
+      "to": "Need a traceable test that connects droplets to experiment decisions and reviewer outcomes."
+    },
+    {
+      "from": "EV012",
+      "relation": "suggests_gap",
+      "to": "Need a traceable test that connects capabilities to experiment decisions and reviewer outcomes."
+    },
+    {
+      "from": "EV013",
+      "relation": "suggests_gap",
+      "to": "Need a traceable test that connects quantum to experiment decisions and reviewer outcomes."
+    },
+    {
+      "from": "EV014",
+      "relation": "suggests_gap",
+      "to": "Need a traceable test that connects sensing to experiment decisions and reviewer outcomes."
+    },
+    {
+      "from": "EV015",
+      "relation": "suggests_gap",
+      "to": "Need a traceable test that connects field to experiment decisions and reviewer outcomes."
+    }
+  ]
+}

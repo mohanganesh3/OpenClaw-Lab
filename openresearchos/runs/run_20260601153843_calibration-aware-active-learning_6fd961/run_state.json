@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "run_id": "run_20260601153843_calibration-aware-active-learning_6fd961",
+  "topic": "calibration-aware active learning for medical imaging",
+  "created_at": "2026-06-01T15:38:43.714Z",
+  "updated_at": "2026-06-01T15:40:12.520Z",
+  "current_state": "EVIDENCE_LOCKED",
+  "scope_classification": {
+    "label": "local_experiment",
+    "rationale": "The topic can be explored with small simulations, synthetic data, or lightweight local experiments on the Mac."
+  },
+  "search_queries": [
+    "calibration-aware active learning for medical imaging recent papers",
+    "calibration-aware active learning for medical imaging benchmark evaluation",
+    "calibration-aware active learning for medical imaging reproducibility agents",
+    "calibration-aware active learning for medical imaging reviewer simulation",
+    "calibration-aware active learning for medical imaging automated scientific discovery",
+    "calibration-aware active learning for medical imaging failure modes",
+    "calibration-aware active learning for medical imaging openreview",
+    "calibration-aware active learning for medical imaging github implementation"
+  ],
+  "evidence_ids": [
+    "EV001",
+    "EV002",
+    "EV003",
+    "EV004",
+    "EV005",
+    "EV006",
+    "EV007",
+    "EV008",
+    "EV009",
+    "EV010",
+    "EV011",
+    "EV012",
+    "EV013",
+    "EV014",
+    "EV015",
+    "EV016",
+    "EV017",
+    "EV018",
+    "EV019",
+    "EV020"
+  ],
+  "parsed_papers": [],
+  "claim_graph": {
+    "claims": [],
+    "links": []
+  },
+  "research_gaps": [],
+  "idea_tree": [],
+  "reviewer_scores": [],
+  "experiment_candidates": [],
+  "approval_status": {},
+  "micro_probe_results": [],
+  "probe_results": [],
+  "ablation_results": [],
+  "mvp_results": [],
+  "failed_ideas": [],
+  "validation_results": [],
+  "paper_readiness_level": "RRL-1",
+  "final_output_path": null,
+  "history": [
+    {
+      "at": "2026-06-01T15:38:43.714Z",
+      "state": "TOPIC_SCOPED",
+      "detail": "The topic can be explored with small simulations, synthetic data, or lightweight local experiments on the Mac."
+    },
+    {
+      "at": "2026-06-01T15:38:43.714Z",
+      "state": "SEARCH_PLAN_CREATED",
+      "detail": "8 queries created."
+    },
+    {
+      "at": "2026-06-01T15:38:49.154Z",
+      "state": "LITERATURE_DISCOVERY_RUNNING",
+      "detail": "Starting structured literature discovery."
+    },
+    {
+      "at": "2026-06-01T15:40:12.519Z",
+      "state": "EVIDENCE_LOCKED",
+      "detail": "20 evidence items indexed."
+    }
+  ],
+  "discovery_errors": []
+}

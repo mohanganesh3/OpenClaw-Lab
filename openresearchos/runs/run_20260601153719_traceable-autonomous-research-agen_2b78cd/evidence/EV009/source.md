@@ -1,0 +1,243 @@
+# EV009: AgentBench: Evaluating LLMs as Agents
+
+URL: https://arxiv.org/abs/2308.03688
+
+Source: fallback_seed
+
+Year: 2023
+
+Accessed: 2026-06-01T15:37:19.776Z
+
+## Abstract Or Metadata
+
+Introduces agent evaluation tasks and motivates structured benchmarks for agent behavior rather than isolated text quality.
+
+## Fetched Snapshot (via OpenClaw infer web fetch)
+
+
+
+[2308.03688] AgentBench: Evaluating LLMs as Agents
+
+Skip to main content
+
+Learn about arXiv becoming an independent nonprofit.
+
+We gratefully acknowledge support from the Simons Foundation,  member institutions , and all contributors.
+
+Donate
+
+&gt;
+
+cs
+
+&gt;  arXiv:2308.03688
+
+Help  |  Advanced Search
+
+All fields
+
+Title
+
+Author
+
+Abstract
+
+Comments
+
+Journal reference
+
+ACM classification
+
+MSC classification
+
+Report number
+
+arXiv identifier
+
+DOI
+
+ORCID
+
+arXiv author ID
+
+Help pages
+
+Full text
+
+Search
+
+open search
+
+GO
+
+open navigation menu
+
+quick links
+
+Login
+
+Help Pages
+
+About
+
+-->
+
+Computer Science > Artificial Intelligence
+
+arXiv:2308.03688  (cs)
+
+[Submitted on 7 Aug 2023 ( v1 ), last revised 4 Oct 2025 (this version, v3)]
+
+Title: AgentBench: Evaluating LLMs as Agents
+
+Authors:  Xiao Liu ,  Hao Yu ,  Hanchen Zhang ,  Yifan Xu ,  Xuanyu Lei ,  Hanyu Lai ,  Yu Gu ,  Hangliang Ding ,  Kaiwen Men ,  Kejuan Yang ,  Shudan Zhang ,  Xiang Deng ,  Aohan Zeng ,  Zhengxiao Du ,  Chenhui Zhang ,  Sheng Shen ,  Tianjun Zhang ,  Yu Su ,  Huan Sun ,  Minlie Huang ,  Yuxiao Dong ,  Jie Tang
+
+View a PDF of the paper titled AgentBench: Evaluating LLMs as Agents, by Xiao Liu and 21 other authors
+
+View PDF
+
+HTML (experimental)
+
+Abstract: The potential of Large Language Model (LLM) as agents has been widely acknowledged recently. Thus, there is an urgent need to quantitatively \textit{evaluate LLMs as agents} on challenging tasks in interactive environments. We present AgentBench, a multi-dimensional benchmark that consists of 8 distinct environments to assess LLM-as-Agent&#39;s reasoning and decision-making abilities. Our extensive test over \num API-based and open-sourced (OSS) LLMs shows that, while top commercial LLMs present a strong ability of acting as agents in complex environments, there is a significant disparity in performance between them and many OSS competitors that are no larger than 70B. We identify the typical reasons of failures in environments and LLMs, showing that poor long-term reasoning, decision-making, and instruction following abilities are the main obstacles for developing usable LLM agents. Improving instruction following and training on high quality multi-round alignment data could improve agent performance. And different from existing assumptions, training on code present ambivalent impacts on different agent tasks. Datasets, environments, and an integrated evaluation package for AgentBench are released at  this https URL .
+
+Comments:
+
+Published in ICLR 2024
+
+Subjects:
+
+Artificial Intelligence (cs.AI) ; Computation and Language (cs.CL); Machine Learning (cs.LG)
+
+Cite as:
+
+arXiv:2308.03688  [cs.AI]
+
+&nbsp;
+
+(or
+
+arXiv:2308.03688v3  [cs.AI]  for this version)
+
+&nbsp;
+
+https://doi.org/10.48550/arXiv.2308.03688
+
+Focus to learn more
+
+arXiv-issued DOI via DataCite
+
+Submission history  From: Xiao Liu [ view email ]
+
+[v1]
+
+Mon, 7 Aug 2023 16:08:11 UTC (20,331 KB)
+
+[v2]
+
+Wed, 25 Oct 2023 07:41:24 UTC (20,908 KB)
+
+[v3]
+
+Sat, 4 Oct 2025 03:54:18 UTC (20,753 KB)
+
+Full-text links:
+
+Access Paper:
+
+View a PDF of the paper titled AgentBench: Evaluating LLMs as Agents, by Xiao Liu and 21 other authors
+
+View PDF
+
+HTML (experimental)
+
+TeX Source
+
+view license
+
+Current browse context:  cs.AI
+
+&lt;&nbsp;prev
+
+&nbsp; | &nbsp;
+
+next&nbsp;&gt;
+
+new
+
+|
+
+recent
+
+|
+
+2023-08
+
+Change to browse by:
+
+cs
+
+cs.CL
+
+cs.LG
+
+References &amp; Citations
+
+NASA ADS
+
+Google Scholar
+
+Semantic Scholar
+
+export BibTeX citation
+
+Loading...
+
+BibTeX formatted citation
+
+&times;
+
+loading...
+
+Data provided by:
+
+Bookmark
+
+Bibliographic Tools
+
+Bibliographic and Citation Tools
+
+Bibliographic Explorer Toggle
+
+Bibliographic Explorer
+
+( What is the Explorer? )
+
+Connected Papers Toggle
+
+Connected Papers
+
+( What is Connected Papers? )
+
+Litmaps Toggle
+
+Litmaps
+
+( What is Litmaps? )
+
+scite.ai Toggle
+
+scite Smart Citations
+
+( What are Smart Citations? )
+
+Code, Data, Media
+
+Code, Data and Media Associated with this Article
+
+alphaXiv Toggle
+
+alphaXiv
+
+( What is alphaXiv? )
+
+Links t

@@ -1,0 +1,26 @@
+{
+  "experiment_id": "micro_probe_id010",
+  "run_id": "run_20260601125931_traceable-autonomous-research-agen_092d82",
+  "idea_id": "ID010",
+  "level": "micro_probe",
+  "label": "Micro-Probe",
+  "hypothesis": "Human Approval Gates for Agent Experiments for traceable autonomous research will improve guided idea selection utility over a random baseline under a controlled synthetic research-loop simulation.",
+  "method": "Simulate noisy research candidates from the run's reviewer and novelty features, then compare evidence-weighted selection against random selection.",
+  "metric": "guided_selection_utility_minus_random_baseline",
+  "baseline": "random idea selection",
+  "ablation_plan": [
+    "guided score without novelty penalty",
+    "guided score without reviewer score",
+    "guided score without evidence support"
+  ],
+  "dataset": "synthetic data generated from current run evidence, idea features, reviewer scores, and novelty risk",
+  "expected_result": "Guided selection should beat random selection by a positive margin; otherwise the idea is too weak for promotion.",
+  "failure_interpretation": "A weak or negative margin means the mechanism does not yet justify promotion and should be revised or killed.",
+  "runtime_budget_minutes": "1-5",
+  "max_disk_mb": 250,
+  "max_dataset_download_gb": 0,
+  "max_reruns": 5,
+  "allowed_network_actions": [],
+  "fixed_seed": 1729,
+  "created_at": "2026-06-01T12:59:31.752Z"
+}

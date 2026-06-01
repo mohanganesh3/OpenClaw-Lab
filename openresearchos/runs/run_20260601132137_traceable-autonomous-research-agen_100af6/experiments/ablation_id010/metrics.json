@@ -1,0 +1,29 @@
+{
+  "experiment_id": "ablation_id010",
+  "run_id": "run_20260601132137_traceable-autonomous-research-agen_100af6",
+  "idea_id": "ID010",
+  "level": "ablation",
+  "seed": 1729,
+  "trials": 256,
+  "random_mean": 0.841556,
+  "guided_mean": 0.869992,
+  "improvement": 0.028436,
+  "selected_idea_utility": 0.86748,
+  "success": true,
+  "ablations": {
+    "no_reviewer": {
+      "mean": 0.845664,
+      "delta_vs_guided": -0.024328
+    },
+    "no_evidence": {
+      "mean": 0.862475,
+      "delta_vs_guided": -0.007517
+    },
+    "no_novelty": {
+      "mean": 0.861058,
+      "delta_vs_guided": -0.008934
+    }
+  },
+  "python": "3.13.7",
+  "platform": "macOS-26.1-arm64-arm-64bit-Mach-O"
+}

@@ -1,0 +1,1462 @@
+[
+  {
+    "idea_id": "ID001",
+    "average_score": 6.42,
+    "decision": "accept",
+    "next_action": "RUN_MICRO_PROBE",
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 6.5,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add direct competitor comparison and search query log."
+        ],
+        "required_experiments": [
+          "Run novelty tribunal before any paper claim."
+        ],
+        "missing_related_work": [
+          "EV001",
+          "EV002",
+          "EV003"
+        ]
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 7.2,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add baseline and ablation before MVP claims."
+        ],
+        "required_experiments": [
+          "Micro-probe with random baseline.",
+          "Probe with evidence-weighted baseline."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Theory/Mechanism Reviewer",
+        "score": 6.4,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Tighten mechanism into falsifiable prediction."
+        ],
+        "required_experiments": [
+          "Test whether the mechanism improves selection utility under controlled noise."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Reproducibility Reviewer",
+        "score": 6,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Record seed, command, environment, stdout, stderr, and metrics."
+        ],
+        "required_experiments": [
+          "Run with fixed seed and persist config."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Venue Reviewer",
+        "score": 6,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Position as workshop candidate until stronger empirical evidence exists."
+        ],
+        "required_experiments": [
+          "Add venue-fit checklist after results."
+        ],
+        "missing_related_work": []
+      }
+    ]
+  },
+  {
+    "idea_id": "ID002",
+    "average_score": 6.72,
+    "decision": "accept",
+    "next_action": "RUN_MICRO_PROBE",
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 7,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add direct competitor comparison and search query log."
+        ],
+        "required_experiments": [
+          "Run novelty tribunal before any paper claim."
+        ],
+        "missing_related_work": [
+          "EV001",
+          "EV002",
+          "EV003"
+        ]
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 7.6,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add baseline and ablation before MVP claims."
+        ],
+        "required_experiments": [
+          "Micro-probe with random baseline.",
+          "Probe with evidence-weighted baseline."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Theory/Mechanism Reviewer",
+        "score": 6.8,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Tighten mechanism into falsifiable prediction."
+        ],
+        "required_experiments": [
+          "Test whether the mechanism improves selection utility under controlled noise."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Reproducibility Reviewer",
+        "score": 6.4,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Record seed, command, environment, stdout, stderr, and metrics."
+        ],
+        "required_experiments": [
+          "Run with fixed seed and persist config."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Venue Reviewer",
+        "score": 5.8,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Position as workshop candidate until stronger empirical evidence exists."
+        ],
+        "required_experiments": [
+          "Add venue-fit checklist after results."
+        ],
+        "missing_related_work": []
+      }
+    ]
+  },
+  {
+    "idea_id": "ID003",
+    "average_score": 7.1,
+    "decision": "accept",
+    "next_action": "RUN_MICRO_PROBE",
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 7.3,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add direct competitor comparison and search query log."
+        ],
+        "required_experiments": [
+          "Run novelty tribunal before any paper claim."
+        ],
+        "missing_related_work": [
+          "EV001",
+          "EV002",
+          "EV003"
+        ]
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 8,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add baseline and ablation before MVP claims."
+        ],
+        "required_experiments": [
+          "Micro-probe with random baseline.",
+          "Probe with evidence-weighted baseline."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Theory/Mechanism Reviewer",
+        "score": 7.2,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Tighten mechanism into falsifiable prediction."
+        ],
+        "required_experiments": [
+          "Test whether the mechanism improves selection utility under controlled noise."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Reproducibility Reviewer",
+        "score": 6.8,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Record seed, command, environment, stdout, stderr, and metrics."
+        ],
+        "required_experiments": [
+          "Run with fixed seed and persist config."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Venue Reviewer",
+        "score": 6.2,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Position as workshop candidate until stronger empirical evidence exists."
+        ],
+        "required_experiments": [
+          "Add venue-fit checklist after results."
+        ],
+        "missing_related_work": []
+      }
+    ]
+  },
+  {
+    "idea_id": "ID004",
+    "average_score": 7.7,
+    "decision": "accept",
+    "next_action": "RUN_MICRO_PROBE",
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 7.7,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add direct competitor comparison and search query log."
+        ],
+        "required_experiments": [
+          "Run novelty tribunal before any paper claim."
+        ],
+        "missing_related_work": [
+          "EV001",
+          "EV002",
+          "EV003"
+        ]
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 8.5,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add baseline and ablation before MVP claims."
+        ],
+        "required_experiments": [
+          "Micro-probe with random baseline.",
+          "Probe with evidence-weighted baseline."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Theory/Mechanism Reviewer",
+        "score": 7.7,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Tighten mechanism into falsifiable prediction."
+        ],
+        "required_experiments": [
+          "Test whether the mechanism improves selection utility under controlled noise."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Reproducibility Reviewer",
+        "score": 7.3,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Record seed, command, environment, stdout, stderr, and metrics."
+        ],
+        "required_experiments": [
+          "Run with fixed seed and persist config."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Venue Reviewer",
+        "score": 7.3,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Position as workshop candidate until stronger empirical evidence exists."
+        ],
+        "required_experiments": [
+          "Add venue-fit checklist after results."
+        ],
+        "missing_related_work": []
+      }
+    ]
+  },
+  {
+    "idea_id": "ID005",
+    "average_score": 8,
+    "decision": "accept",
+    "next_action": "RUN_MICRO_PROBE",
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 8.2,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add direct competitor comparison and search query log."
+        ],
+        "required_experiments": [
+          "Run novelty tribunal before any paper claim."
+        ],
+        "missing_related_work": [
+          "EV001",
+          "EV002",
+          "EV003"
+        ]
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 8.9,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add baseline and ablation before MVP claims."
+        ],
+        "required_experiments": [
+          "Micro-probe with random baseline.",
+          "Probe with evidence-weighted baseline."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Theory/Mechanism Reviewer",
+        "score": 8.1,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Tighten mechanism into falsifiable prediction."
+        ],
+        "required_experiments": [
+          "Test whether the mechanism improves selection utility under controlled noise."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Reproducibility Reviewer",
+        "score": 7.7,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Record seed, command, environment, stdout, stderr, and metrics."
+        ],
+        "required_experiments": [
+          "Run with fixed seed and persist config."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Venue Reviewer",
+        "score": 7.1,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Position as workshop candidate until stronger empirical evidence exists."
+        ],
+        "required_experiments": [
+          "Add venue-fit checklist after results."
+        ],
+        "missing_related_work": []
+      }
+    ]
+  },
+  {
+    "idea_id": "ID006",
+    "average_score": 6.3,
+    "decision": "accept",
+    "next_action": "RUN_MICRO_PROBE",
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 6.5,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add direct competitor comparison and search query log."
+        ],
+        "required_experiments": [
+          "Run novelty tribunal before any paper claim."
+        ],
+        "missing_related_work": [
+          "EV001",
+          "EV002",
+          "EV003"
+        ]
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 7.2,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add baseline and ablation before MVP claims."
+        ],
+        "required_experiments": [
+          "Micro-probe with random baseline.",
+          "Probe with evidence-weighted baseline."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Theory/Mechanism Reviewer",
+        "score": 6.4,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Tighten mechanism into falsifiable prediction."
+        ],
+        "required_experiments": [
+          "Test whether the mechanism improves selection utility under controlled noise."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Reproducibility Reviewer",
+        "score": 6,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Record seed, command, environment, stdout, stderr, and metrics."
+        ],
+        "required_experiments": [
+          "Run with fixed seed and persist config."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Venue Reviewer",
+        "score": 5.4,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Position as workshop candidate until stronger empirical evidence exists."
+        ],
+        "required_experiments": [
+          "Add venue-fit checklist after results."
+        ],
+        "missing_related_work": []
+      }
+    ]
+  },
+  {
+    "idea_id": "ID007",
+    "average_score": 6.82,
+    "decision": "accept",
+    "next_action": "RUN_MICRO_PROBE",
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 6.9,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add direct competitor comparison and search query log."
+        ],
+        "required_experiments": [
+          "Run novelty tribunal before any paper claim."
+        ],
+        "missing_related_work": [
+          "EV001",
+          "EV002",
+          "EV003"
+        ]
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 7.6,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add baseline and ablation before MVP claims."
+        ],
+        "required_experiments": [
+          "Micro-probe with random baseline.",
+          "Probe with evidence-weighted baseline."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Theory/Mechanism Reviewer",
+        "score": 6.8,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Tighten mechanism into falsifiable prediction."
+        ],
+        "required_experiments": [
+          "Test whether the mechanism improves selection utility under controlled noise."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Reproducibility Reviewer",
+        "score": 6.4,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Record seed, command, environment, stdout, stderr, and metrics."
+        ],
+        "required_experiments": [
+          "Run with fixed seed and persist config."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Venue Reviewer",
+        "score": 6.4,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Position as workshop candidate until stronger empirical evidence exists."
+        ],
+        "required_experiments": [
+          "Add venue-fit checklist after results."
+        ],
+        "missing_related_work": []
+      }
+    ]
+  },
+  {
+    "idea_id": "ID008",
+    "average_score": 7.12,
+    "decision": "accept",
+    "next_action": "RUN_MICRO_PROBE",
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 7.4,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add direct competitor comparison and search query log."
+        ],
+        "required_experiments": [
+          "Run novelty tribunal before any paper claim."
+        ],
+        "missing_related_work": [
+          "EV001",
+          "EV002",
+          "EV003"
+        ]
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 8,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add baseline and ablation before MVP claims."
+        ],
+        "required_experiments": [
+          "Micro-probe with random baseline.",
+          "Probe with evidence-weighted baseline."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Theory/Mechanism Reviewer",
+        "score": 7.2,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Tighten mechanism into falsifiable prediction."
+        ],
+        "required_experiments": [
+          "Test whether the mechanism improves selection utility under controlled noise."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Reproducibility Reviewer",
+        "score": 6.8,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Record seed, command, environment, stdout, stderr, and metrics."
+        ],
+        "required_experiments": [
+          "Run with fixed seed and persist config."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Venue Reviewer",
+        "score": 6.2,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Position as workshop candidate until stronger empirical evidence exists."
+        ],
+        "required_experiments": [
+          "Add venue-fit checklist after results."
+        ],
+        "missing_related_work": []
+      }
+    ]
+  },
+  {
+    "idea_id": "ID009",
+    "average_score": 7.6,
+    "decision": "accept",
+    "next_action": "RUN_MICRO_PROBE",
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 7.8,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add direct competitor comparison and search query log."
+        ],
+        "required_experiments": [
+          "Run novelty tribunal before any paper claim."
+        ],
+        "missing_related_work": [
+          "EV001",
+          "EV002",
+          "EV003"
+        ]
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 8.5,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add baseline and ablation before MVP claims."
+        ],
+        "required_experiments": [
+          "Micro-probe with random baseline.",
+          "Probe with evidence-weighted baseline."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Theory/Mechanism Reviewer",
+        "score": 7.7,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Tighten mechanism into falsifiable prediction."
+        ],
+        "required_experiments": [
+          "Test whether the mechanism improves selection utility under controlled noise."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Reproducibility Reviewer",
+        "score": 7.3,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Record seed, command, environment, stdout, stderr, and metrics."
+        ],
+        "required_experiments": [
+          "Run with fixed seed and persist config."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Venue Reviewer",
+        "score": 6.7,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Position as workshop candidate until stronger empirical evidence exists."
+        ],
+        "required_experiments": [
+          "Add venue-fit checklist after results."
+        ],
+        "missing_related_work": []
+      }
+    ]
+  },
+  {
+    "idea_id": "ID010",
+    "average_score": 8.1,
+    "decision": "accept",
+    "next_action": "RUN_MICRO_PROBE",
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 8.1,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add direct competitor comparison and search query log."
+        ],
+        "required_experiments": [
+          "Run novelty tribunal before any paper claim."
+        ],
+        "missing_related_work": [
+          "EV001",
+          "EV002",
+          "EV003"
+        ]
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 8.9,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add baseline and ablation before MVP claims."
+        ],
+        "required_experiments": [
+          "Micro-probe with random baseline.",
+          "Probe with evidence-weighted baseline."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Theory/Mechanism Reviewer",
+        "score": 8.1,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Tighten mechanism into falsifiable prediction."
+        ],
+        "required_experiments": [
+          "Test whether the mechanism improves selection utility under controlled noise."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Reproducibility Reviewer",
+        "score": 7.7,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Record seed, command, environment, stdout, stderr, and metrics."
+        ],
+        "required_experiments": [
+          "Run with fixed seed and persist config."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Venue Reviewer",
+        "score": 7.7,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Position as workshop candidate until stronger empirical evidence exists."
+        ],
+        "required_experiments": [
+          "Add venue-fit checklist after results."
+        ],
+        "missing_related_work": []
+      }
+    ]
+  },
+  {
+    "idea_id": "ID011",
+    "average_score": 6.3,
+    "decision": "accept",
+    "next_action": "RUN_MICRO_PROBE",
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 6.5,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add direct competitor comparison and search query log."
+        ],
+        "required_experiments": [
+          "Run novelty tribunal before any paper claim."
+        ],
+        "missing_related_work": [
+          "EV001",
+          "EV002",
+          "EV003"
+        ]
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 7.2,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add baseline and ablation before MVP claims."
+        ],
+        "required_experiments": [
+          "Micro-probe with random baseline.",
+          "Probe with evidence-weighted baseline."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Theory/Mechanism Reviewer",
+        "score": 6.4,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Tighten mechanism into falsifiable prediction."
+        ],
+        "required_experiments": [
+          "Test whether the mechanism improves selection utility under controlled noise."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Reproducibility Reviewer",
+        "score": 6,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Record seed, command, environment, stdout, stderr, and metrics."
+        ],
+        "required_experiments": [
+          "Run with fixed seed and persist config."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Venue Reviewer",
+        "score": 5.4,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Position as workshop candidate until stronger empirical evidence exists."
+        ],
+        "required_experiments": [
+          "Add venue-fit checklist after results."
+        ],
+        "missing_related_work": []
+      }
+    ]
+  },
+  {
+    "idea_id": "ID012",
+    "average_score": 6.7,
+    "decision": "accept",
+    "next_action": "RUN_MICRO_PROBE",
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 6.9,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add direct competitor comparison and search query log."
+        ],
+        "required_experiments": [
+          "Run novelty tribunal before any paper claim."
+        ],
+        "missing_related_work": [
+          "EV001",
+          "EV002",
+          "EV003"
+        ]
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 7.6,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add baseline and ablation before MVP claims."
+        ],
+        "required_experiments": [
+          "Micro-probe with random baseline.",
+          "Probe with evidence-weighted baseline."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Theory/Mechanism Reviewer",
+        "score": 6.8,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Tighten mechanism into falsifiable prediction."
+        ],
+        "required_experiments": [
+          "Test whether the mechanism improves selection utility under controlled noise."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Reproducibility Reviewer",
+        "score": 6.4,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Record seed, command, environment, stdout, stderr, and metrics."
+        ],
+        "required_experiments": [
+          "Run with fixed seed and persist config."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Venue Reviewer",
+        "score": 5.8,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Position as workshop candidate until stronger empirical evidence exists."
+        ],
+        "required_experiments": [
+          "Add venue-fit checklist after results."
+        ],
+        "missing_related_work": []
+      }
+    ]
+  },
+  {
+    "idea_id": "ID013",
+    "average_score": 7.24,
+    "decision": "accept",
+    "next_action": "RUN_MICRO_PROBE",
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 7.4,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add direct competitor comparison and search query log."
+        ],
+        "required_experiments": [
+          "Run novelty tribunal before any paper claim."
+        ],
+        "missing_related_work": [
+          "EV001",
+          "EV002",
+          "EV003"
+        ]
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 8,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add baseline and ablation before MVP claims."
+        ],
+        "required_experiments": [
+          "Micro-probe with random baseline.",
+          "Probe with evidence-weighted baseline."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Theory/Mechanism Reviewer",
+        "score": 7.2,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Tighten mechanism into falsifiable prediction."
+        ],
+        "required_experiments": [
+          "Test whether the mechanism improves selection utility under controlled noise."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Reproducibility Reviewer",
+        "score": 6.8,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Record seed, command, environment, stdout, stderr, and metrics."
+        ],
+        "required_experiments": [
+          "Run with fixed seed and persist config."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Venue Reviewer",
+        "score": 6.8,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Position as workshop candidate until stronger empirical evidence exists."
+        ],
+        "required_experiments": [
+          "Add venue-fit checklist after results."
+        ],
+        "missing_related_work": []
+      }
+    ]
+  },
+  {
+    "idea_id": "ID014",
+    "average_score": 7.56,
+    "decision": "accept",
+    "next_action": "RUN_MICRO_PROBE",
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 7.6,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add direct competitor comparison and search query log."
+        ],
+        "required_experiments": [
+          "Run novelty tribunal before any paper claim."
+        ],
+        "missing_related_work": [
+          "EV001",
+          "EV002",
+          "EV003"
+        ]
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 8.5,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add baseline and ablation before MVP claims."
+        ],
+        "required_experiments": [
+          "Micro-probe with random baseline.",
+          "Probe with evidence-weighted baseline."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Theory/Mechanism Reviewer",
+        "score": 7.7,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Tighten mechanism into falsifiable prediction."
+        ],
+        "required_experiments": [
+          "Test whether the mechanism improves selection utility under controlled noise."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Reproducibility Reviewer",
+        "score": 7.3,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Record seed, command, environment, stdout, stderr, and metrics."
+        ],
+        "required_experiments": [
+          "Run with fixed seed and persist config."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Venue Reviewer",
+        "score": 6.7,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Position as workshop candidate until stronger empirical evidence exists."
+        ],
+        "required_experiments": [
+          "Add venue-fit checklist after results."
+        ],
+        "missing_related_work": []
+      }
+    ]
+  },
+  {
+    "idea_id": "ID015",
+    "average_score": 7.98,
+    "decision": "accept",
+    "next_action": "RUN_MICRO_PROBE",
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 8.1,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add direct competitor comparison and search query log."
+        ],
+        "required_experiments": [
+          "Run novelty tribunal before any paper claim."
+        ],
+        "missing_related_work": [
+          "EV001",
+          "EV002",
+          "EV003"
+        ]
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 8.9,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add baseline and ablation before MVP claims."
+        ],
+        "required_experiments": [
+          "Micro-probe with random baseline.",
+          "Probe with evidence-weighted baseline."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Theory/Mechanism Reviewer",
+        "score": 8.1,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Tighten mechanism into falsifiable prediction."
+        ],
+        "required_experiments": [
+          "Test whether the mechanism improves selection utility under controlled noise."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Reproducibility Reviewer",
+        "score": 7.7,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Record seed, command, environment, stdout, stderr, and metrics."
+        ],
+        "required_experiments": [
+          "Run with fixed seed and persist config."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Venue Reviewer",
+        "score": 7.1,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Position as workshop candidate until stronger empirical evidence exists."
+        ],
+        "required_experiments": [
+          "Add venue-fit checklist after results."
+        ],
+        "missing_related_work": []
+      }
+    ]
+  },
+  {
+    "idea_id": "ID016",
+    "average_score": 6.42,
+    "decision": "accept",
+    "next_action": "RUN_MICRO_PROBE",
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 6.5,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add direct competitor comparison and search query log."
+        ],
+        "required_experiments": [
+          "Run novelty tribunal before any paper claim."
+        ],
+        "missing_related_work": [
+          "EV001",
+          "EV002",
+          "EV003"
+        ]
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 7.2,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add baseline and ablation before MVP claims."
+        ],
+        "required_experiments": [
+          "Micro-probe with random baseline.",
+          "Probe with evidence-weighted baseline."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Theory/Mechanism Reviewer",
+        "score": 6.4,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Tighten mechanism into falsifiable prediction."
+        ],
+        "required_experiments": [
+          "Test whether the mechanism improves selection utility under controlled noise."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Reproducibility Reviewer",
+        "score": 6,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Record seed, command, environment, stdout, stderr, and metrics."
+        ],
+        "required_experiments": [
+          "Run with fixed seed and persist config."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Venue Reviewer",
+        "score": 6,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Position as workshop candidate until stronger empirical evidence exists."
+        ],
+        "required_experiments": [
+          "Add venue-fit checklist after results."
+        ],
+        "missing_related_work": []
+      }
+    ]
+  },
+  {
+    "idea_id": "ID017",
+    "average_score": 6.7,
+    "decision": "accept",
+    "next_action": "RUN_MICRO_PROBE",
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 6.9,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add direct competitor comparison and search query log."
+        ],
+        "required_experiments": [
+          "Run novelty tribunal before any paper claim."
+        ],
+        "missing_related_work": [
+          "EV001",
+          "EV002",
+          "EV003"
+        ]
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 7.6,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add baseline and ablation before MVP claims."
+        ],
+        "required_experiments": [
+          "Micro-probe with random baseline.",
+          "Probe with evidence-weighted baseline."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Theory/Mechanism Reviewer",
+        "score": 6.8,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Tighten mechanism into falsifiable prediction."
+        ],
+        "required_experiments": [
+          "Test whether the mechanism improves selection utility under controlled noise."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Reproducibility Reviewer",
+        "score": 6.4,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Record seed, command, environment, stdout, stderr, and metrics."
+        ],
+        "required_experiments": [
+          "Run with fixed seed and persist config."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Venue Reviewer",
+        "score": 5.8,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Position as workshop candidate until stronger empirical evidence exists."
+        ],
+        "required_experiments": [
+          "Add venue-fit checklist after results."
+        ],
+        "missing_related_work": []
+      }
+    ]
+  },
+  {
+    "idea_id": "ID018",
+    "average_score": 7.1,
+    "decision": "accept",
+    "next_action": "RUN_MICRO_PROBE",
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 7.3,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add direct competitor comparison and search query log."
+        ],
+        "required_experiments": [
+          "Run novelty tribunal before any paper claim."
+        ],
+        "missing_related_work": [
+          "EV001",
+          "EV002",
+          "EV003"
+        ]
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 8,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add baseline and ablation before MVP claims."
+        ],
+        "required_experiments": [
+          "Micro-probe with random baseline.",
+          "Probe with evidence-weighted baseline."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Theory/Mechanism Reviewer",
+        "score": 7.2,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Tighten mechanism into falsifiable prediction."
+        ],
+        "required_experiments": [
+          "Test whether the mechanism improves selection utility under controlled noise."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Reproducibility Reviewer",
+        "score": 6.8,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Record seed, command, environment, stdout, stderr, and metrics."
+        ],
+        "required_experiments": [
+          "Run with fixed seed and persist config."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Venue Reviewer",
+        "score": 6.2,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Position as workshop candidate until stronger empirical evidence exists."
+        ],
+        "required_experiments": [
+          "Add venue-fit checklist after results."
+        ],
+        "missing_related_work": []
+      }
+    ]
+  },
+  {
+    "idea_id": "ID019",
+    "average_score": 7.72,
+    "decision": "accept",
+    "next_action": "RUN_MICRO_PROBE",
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 7.8,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add direct competitor comparison and search query log."
+        ],
+        "required_experiments": [
+          "Run novelty tribunal before any paper claim."
+        ],
+        "missing_related_work": [
+          "EV001",
+          "EV002",
+          "EV003"
+        ]
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 8.5,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add baseline and ablation before MVP claims."
+        ],
+        "required_experiments": [
+          "Micro-probe with random baseline.",
+          "Probe with evidence-weighted baseline."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Theory/Mechanism Reviewer",
+        "score": 7.7,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Tighten mechanism into falsifiable prediction."
+        ],
+        "required_experiments": [
+          "Test whether the mechanism improves selection utility under controlled noise."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Reproducibility Reviewer",
+        "score": 7.3,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Record seed, command, environment, stdout, stderr, and metrics."
+        ],
+        "required_experiments": [
+          "Run with fixed seed and persist config."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Venue Reviewer",
+        "score": 7.3,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Position as workshop candidate until stronger empirical evidence exists."
+        ],
+        "required_experiments": [
+          "Add venue-fit checklist after results."
+        ],
+        "missing_related_work": []
+      }
+    ]
+  },
+  {
+    "idea_id": "ID020",
+    "average_score": 7.98,
+    "decision": "accept",
+    "next_action": "RUN_MICRO_PROBE",
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 8.1,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add direct competitor comparison and search query log."
+        ],
+        "required_experiments": [
+          "Run novelty tribunal before any paper claim."
+        ],
+        "missing_related_work": [
+          "EV001",
+          "EV002",
+          "EV003"
+        ]
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 8.9,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add baseline and ablation before MVP claims."
+        ],
+        "required_experiments": [
+          "Micro-probe with random baseline.",
+          "Probe with evidence-weighted baseline."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Theory/Mechanism Reviewer",
+        "score": 8.1,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Tighten mechanism into falsifiable prediction."
+        ],
+        "required_experiments": [
+          "Test whether the mechanism improves selection utility under controlled noise."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Reproducibility Reviewer",
+        "score": 7.7,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Record seed, command, environment, stdout, stderr, and metrics."
+        ],
+        "required_experiments": [
+          "Run with fixed seed and persist config."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Venue Reviewer",
+        "score": 7.1,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Position as workshop candidate until stronger empirical evidence exists."
+        ],
+        "required_experiments": [
+          "Add venue-fit checklist after results."
+        ],
+        "missing_related_work": []
+      }
+    ]
+  }
+]

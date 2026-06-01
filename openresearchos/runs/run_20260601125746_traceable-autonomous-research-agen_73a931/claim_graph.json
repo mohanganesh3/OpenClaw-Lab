@@ -1,0 +1,61 @@
+{
+  "claims": [
+    {
+      "claim_id": "CL001",
+      "evidence_id": "EV001",
+      "text": "This source is relevant to automated, scientific, discovery, scientist and should be used as evidence, not authority without verification.",
+      "support": "metadata_summary_pending_pdf_confirmation"
+    },
+    {
+      "claim_id": "CL002",
+      "evidence_id": "EV002",
+      "text": "This source is relevant to automated, scientific, discovery, search and should be used as evidence, not authority without verification.",
+      "support": "metadata_summary_pending_pdf_confirmation"
+    },
+    {
+      "claim_id": "CL003",
+      "evidence_id": "EV003",
+      "text": "This source is relevant to research, agent, laboratory, agents and should be used as evidence, not authority without verification.",
+      "support": "metadata_summary_pending_pdf_confirmation"
+    },
+    {
+      "claim_id": "CL004",
+      "evidence_id": "EV004",
+      "text": "This source is relevant to machine, learning, evaluating, agents and should be used as evidence, not authority without verification.",
+      "support": "metadata_summary_pending_pdf_confirmation"
+    },
+    {
+      "claim_id": "CL005",
+      "evidence_id": "EV005",
+      "text": "This source is relevant to research, engineering, systems, aibuildai-2 and should be used as evidence, not authority without verification.",
+      "support": "metadata_summary_pending_pdf_confirmation"
+    }
+  ],
+  "links": [
+    {
+      "from": "EV001",
+      "relation": "suggests_gap",
+      "to": "Need a traceable test that connects automated to experiment decisions and reviewer outcomes."
+    },
+    {
+      "from": "EV002",
+      "relation": "suggests_gap",
+      "to": "Need a traceable test that connects automated to experiment decisions and reviewer outcomes."
+    },
+    {
+      "from": "EV003",
+      "relation": "suggests_gap",
+      "to": "Need a traceable test that connects research to experiment decisions and reviewer outcomes."
+    },
+    {
+      "from": "EV004",
+      "relation": "suggests_gap",
+      "to": "Need a traceable test that connects machine to experiment decisions and reviewer outcomes."
+    },
+    {
+      "from": "EV005",
+      "relation": "suggests_gap",
+      "to": "Need a traceable test that connects research to experiment decisions and reviewer outcomes."
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "latest_experiment": "mvp_id010",
+  "latest_metrics": {
+    "experiment_id": "mvp_id010",
+    "run_id": "run_20260601125931_traceable-autonomous-research-agen_092d82",
+    "idea_id": "ID010",
+    "level": "mvp",
+    "seed": 1729,
+    "trials": 384,
+    "random_mean": 0.842761,
+    "guided_mean": 0.870461,
+    "improvement": 0.0277,
+    "selected_idea_utility": 0.86748,
+    "success": true,
+    "ablations": {
+      "no_reviewer": {
+        "mean": 0.842872,
+        "delta_vs_guided": -0.027589
+      },
+      "no_evidence": {
+        "mean": 0.861073,
+        "delta_vs_guided": -0.009389
+      },
+      "no_novelty": {
+        "mean": 0.863415,
+        "delta_vs_guided": -0.007047
+      }
+    },
+    "python": "3.13.7",
+    "platform": "macOS-26.1-arm64-arm-64bit-Mach-O"
+  },
+  "all_results": [
+    {
+      "experiment_id": "micro_probe_id010",
+      "idea_id": "ID010",
+      "level": "micro_probe",
+      "metrics_path": "/Users/mohanganesh/OpenClaw-Lab/openresearchos/runs/run_20260601125931_traceable-autonomous-research-agen_092d82/experiments/micro_probe_id010/metrics.json",
+      "result_summary_path": "/Users/mohanganesh/OpenClaw-Lab/openresearchos/runs/run_20260601125931_traceable-autonomous-research-agen_092d82/experiments/micro_probe_id010/result_summary.md",
+      "review_path": "/Users/mohanganesh/OpenClaw-Lab/openresearchos/runs/run_20260601125931_traceable-autonomous-research-agen_092d82/experiments/micro_probe_id010/review_after_run.md",
+      "next_action": "PROMOTE_TO_NEXT_LEVEL",
+      "success": true,
+      "completed_at": "2026-06-01T12:59:32.124Z"
+    },
+    {
+      "experiment_id": "probe_id010",
+      "idea_id": "ID010",
+      "level": "probe",
+      "metrics_path": "/Users/mohanganesh/OpenClaw-Lab/openresearchos/runs/run_20260601125931_traceable-autonomous-research-agen_092d82/experiments/probe_id010/metrics.json",
+      "result_summary_path": "/Users/mohanganesh/OpenClaw-Lab/openresearchos/runs/run_20260601125931_traceable-autonomous-research-agen_092d82/experiments/probe_id010/result_summary.md",
+      "review_path": "/Users/mohanganesh/OpenClaw-Lab/openresearchos/runs/run_20260601125931_traceable-autonomous-research-agen_092d82/experiments/probe_id010/review_after_run.md",
+      "next_action": "ADD_ABLATION",
+      "success": true,
+      "completed_at": "2026-06-01T13:00:08.195Z"
+    },
+    {
+      "experiment_id": "mvp_id010",
+      "idea_id": "ID010",
+      "level": "mvp",
+      "metrics_path": "/Users/mohanganesh/OpenClaw-Lab/openresearchos/runs/run_20260601125931_traceable-autonomous-research-agen_092d82/experiments/mvp_id010/metrics.json",
+      "result_summary_path": "/Users/mohanganesh/OpenClaw-Lab/openresearchos/runs/run_20260601125931_traceable-autonomous-research-agen_092d82/experiments/mvp_id010/result_summary.md",
+      "review_path": "/Users/mohanganesh/OpenClaw-Lab/openresearchos/runs/run_20260601125931_traceable-autonomous-research-agen_092d82/experiments/mvp_id010/review_after_run.md",
+      "next_action": "NARROW_CLAIM",
+      "success": true,
+      "completed_at": "2026-06-01T13:00:24.395Z"
+    },
+    {
+      "experiment_id": "mvp_id010",
+      "level": "mvp",
+      "metrics": {
+        "experiment_id": "mvp_id010",
+        "run_id": "run_20260601125931_traceable-autonomous-research-agen_092d82",
+        "idea_id": "ID010",
+        "level": "mvp",
+        "seed": 1729,
+        "trials": 384,
+        "random_mean": 0.842761,
+        "guided_mean": 0.870461,
+        "improvement": 0.0277,
+        "selected_idea_utility": 0.86748,
+        "success": true,
+        "ablations": {
+          "no_reviewer": {
+            "mean": 0.842872,
+            "delta_vs_guided": -0.027589
+          },
+          "no_evidence": {
+            "mean": 0.861073,
+            "delta_vs_guided": -0.009389
+          },
+          "no_novelty": {
+            "mean": 0.863415,
+            "delta_vs_guided": -0.007047
+          }
+        },
+        "python": "3.13.7",
+        "platform": "macOS-26.1-arm64-arm-64bit-Mach-O"
+      }
+    }
+  ]
+}

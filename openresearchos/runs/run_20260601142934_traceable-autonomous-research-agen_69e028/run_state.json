@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "run_id": "run_20260601142934_traceable-autonomous-research-agen_69e028",
+  "topic": "traceable autonomous research agents that use reviewer simulation and micro-experiments to reduce weak research ideas",
+  "created_at": "2026-06-01T14:29:34.670Z",
+  "updated_at": "2026-06-01T14:29:34.672Z",
+  "current_state": "LITERATURE_DISCOVERY_RUNNING",
+  "scope_classification": {
+    "label": "survey_only",
+    "rationale": "The request is primarily mapping or taxonomy oriented, so validated contribution claims should be limited."
+  },
+  "search_queries": [
+    "traceable autonomous research agents that use reviewer simulation and micro-experiments to reduce weak research ideas recent papers",
+    "traceable autonomous research agents that use reviewer simulation and micro-experiments to reduce weak research ideas benchmark evaluation",
+    "traceable autonomous research agents that use reviewer simulation and micro-experiments to reduce weak research ideas reproducibility agents",
+    "traceable autonomous research agents that use reviewer simulation and micro-experiments to reduce weak research ideas reviewer simulation",
+    "traceable autonomous research agents that use reviewer simulation and micro-experiments to reduce weak research ideas automated scientific discovery",
+    "traceable autonomous research agents that use reviewer simulation and micro-experiments to reduce weak research ideas failure modes",
+    "traceable autonomous research agents that use reviewer simulation and micro-experiments to reduce weak research ideas openreview",
+    "traceable autonomous research agents that use reviewer simulation and micro-experiments to reduce weak research ideas github implementation"
+  ],
+  "evidence_ids": [],
+  "parsed_papers": [],
+  "claim_graph": {
+    "claims": [],
+    "links": []
+  },
+  "research_gaps": [],
+  "idea_tree": [],
+  "reviewer_scores": [],
+  "experiment_candidates": [],
+  "approval_status": {},
+  "micro_probe_results": [],
+  "probe_results": [],
+  "ablation_results": [],
+  "mvp_results": [],
+  "failed_ideas": [],
+  "validation_results": [],
+  "paper_readiness_level": "RRL-0",
+  "final_output_path": null,
+  "history": [
+    {
+      "at": "2026-06-01T14:29:34.670Z",
+      "state": "TOPIC_SCOPED",
+      "detail": "The request is primarily mapping or taxonomy oriented, so validated contribution claims should be limited."
+    },
+    {
+      "at": "2026-06-01T14:29:34.670Z",
+      "state": "SEARCH_PLAN_CREATED",
+      "detail": "8 queries created."
+    },
+    {
+      "at": "2026-06-01T14:29:34.672Z",
+      "state": "LITERATURE_DISCOVERY_RUNNING",
+      "detail": "Starting structured literature discovery."
+    }
+  ]
+}

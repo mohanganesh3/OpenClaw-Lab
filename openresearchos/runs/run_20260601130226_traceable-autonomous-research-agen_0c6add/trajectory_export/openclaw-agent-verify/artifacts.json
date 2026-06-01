@@ -1,0 +1,51 @@
+{
+  "traceSchema": "openclaw-trajectory",
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-01T13:06:59.767Z",
+  "traceId": "5bbce6b7-11c9-4342-8602-a6e2f0a249a5",
+  "sessionId": "5bbce6b7-11c9-4342-8602-a6e2f0a249a5",
+  "sessionKey": "agent:main:openresearchos-verify",
+  "finalStatus": "error",
+  "aborted": false,
+  "externalAbort": false,
+  "timedOut": false,
+  "idleTimedOut": false,
+  "timedOutDuringCompaction": false,
+  "timedOutDuringToolExecution": false,
+  "promptErrorSource": null,
+  "terminalError": "non_deliverable_terminal_turn",
+  "usage": {
+    "input": 20767,
+    "output": 133,
+    "total": 20900
+  },
+  "promptCache": {
+    "lastCallUsage": {
+      "input": 0,
+      "output": 0,
+      "cacheRead": 0,
+      "cacheWrite": 0,
+      "total": 0
+    },
+    "lastCacheTouchAt": 1780319205972
+  },
+  "compactionCount": 0,
+  "assistantTexts": [],
+  "finalPromptText": "[Mon 2026-06-01 18:36 GMT+5:30] Use the openresearchos-coordinator skill. Reply in two sentences: confirm OpenResearchOS skills are available and name the smoke command. Do not run shell commands.",
+  "itemLifecycle": {
+    "startedCount": 1,
+    "completedCount": 1,
+    "activeCount": 0
+  },
+  "toolMetas": [
+    {
+      "toolName": "read",
+      "meta": "from ~/OpenClaw-Lab/openresearchos/skills/research-coordinator/SKILL.md"
+    }
+  ],
+  "didSendViaMessagingTool": false,
+  "successfulCronAdds": 0,
+  "messagingToolSentTexts": [],
+  "messagingToolSentMediaUrls": [],
+  "messagingToolSentTargets": []
+}

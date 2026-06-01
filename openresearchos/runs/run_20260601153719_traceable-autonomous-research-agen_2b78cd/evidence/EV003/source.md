@@ -1,0 +1,219 @@
+# EV003: Agent Laboratory: Using LLM Agents as Research Assistants
+
+URL: https://arxiv.org/abs/2501.04227
+
+Source: fallback_seed
+
+Year: 2025
+
+Accessed: 2026-06-01T15:37:19.776Z
+
+## Abstract Or Metadata
+
+Describes agentic research assistance across literature review, experimentation, and report writing, highlighting the need for human oversight and reproducibility controls.
+
+## Fetched Snapshot (via OpenClaw infer web fetch)
+
+
+
+[2501.04227] Agent Laboratory: Using LLM Agents as Research Assistants
+
+Skip to main content
+
+Learn about arXiv becoming an independent nonprofit.
+
+We gratefully acknowledge support from the Simons Foundation,  member institutions , and all contributors.
+
+Donate
+
+&gt;
+
+cs
+
+&gt;  arXiv:2501.04227
+
+Help  |  Advanced Search
+
+All fields
+
+Title
+
+Author
+
+Abstract
+
+Comments
+
+Journal reference
+
+ACM classification
+
+MSC classification
+
+Report number
+
+arXiv identifier
+
+DOI
+
+ORCID
+
+arXiv author ID
+
+Help pages
+
+Full text
+
+Search
+
+GO
+
+quick links
+
+Login
+
+Help Pages
+
+About
+
+-->
+
+Computer Science > Human-Computer Interaction
+
+arXiv:2501.04227  (cs)
+
+[Submitted on 8 Jan 2025 ( v1 ), last revised 17 Jun 2025 (this version, v2)]
+
+Title: Agent Laboratory: Using LLM Agents as Research Assistants
+
+Authors:  Samuel Schmidgall ,  Yusheng Su ,  Ze Wang ,  Ximeng Sun ,  Jialian Wu ,  Xiaodong Yu ,  Jiang Liu ,  Michael Moor ,  Zicheng Liu ,  Emad Barsoum
+
+View a PDF of the paper titled Agent Laboratory: Using LLM Agents as Research Assistants, by Samuel Schmidgall and 9 other authors
+
+View PDF
+
+Abstract: Historically, scientific discovery has been a lengthy and costly process, demanding substantial time and resources from initial conception to final results. To accelerate scientific discovery, reduce research costs, and improve research quality, we introduce Agent Laboratory, an autonomous LLM-based framework capable of completing the entire research process. This framework accepts a human-provided research idea and progresses through three stages--literature review, experimentation, and report writing to produce comprehensive research outputs, including a code repository and a research report, while enabling users to provide feedback and guidance at each stage. We deploy Agent Laboratory with various state-of-the-art LLMs and invite multiple researchers to assess its quality by participating in a survey, providing human feedback to guide the research process, and then evaluate the final paper. We found that: (1) Agent Laboratory driven by o1-preview generates the best research outcomes; (2) The generated machine learning code is able to achieve state-of-the-art performance compared to existing methods; (3) Human involvement, providing feedback at each stage, significantly improves the overall quality of research; (4) Agent Laboratory significantly reduces research expenses, achieving an 84% decrease compared to previous autonomous research methods. We hope Agent Laboratory enables researchers to allocate more effort toward creative ideation rather than low-level coding and writing, ultimately accelerating scientific discovery.
+
+Subjects:
+
+Human-Computer Interaction (cs.HC) ; Artificial Intelligence (cs.AI); Computation and Language (cs.CL); Machine Learning (cs.LG)
+
+Cite as:
+
+arXiv:2501.04227  [cs.HC]
+
+&nbsp;
+
+(or
+
+arXiv:2501.04227v2  [cs.HC]  for this version)
+
+&nbsp;
+
+https://doi.org/10.48550/arXiv.2501.04227
+
+Focus to learn more
+
+arXiv-issued DOI via DataCite
+
+Submission history  From: Samuel Schmidgall [ view email ]
+
+[v1]
+
+Wed, 8 Jan 2025 01:58:42 UTC (7,619 KB)
+
+[v2]
+
+Tue, 17 Jun 2025 16:19:14 UTC (2,785 KB)
+
+Full-text links:
+
+Access Paper:
+
+View a PDF of the paper titled Agent Laboratory: Using LLM Agents as Research Assistants, by Samuel Schmidgall and 9 other authors
+
+View PDF
+
+TeX Source
+
+view license
+
+Current browse context:
+
+cs.HC
+
+&lt;&nbsp;prev
+
+&nbsp; | &nbsp;
+
+next&nbsp;&gt;
+
+new
+
+|
+
+recent
+
+|
+
+2025-01
+
+Change to browse by:
+
+cs
+
+cs.AI
+
+cs.CL
+
+cs.LG
+
+References &amp; Citations
+
+NASA ADS
+
+Google Scholar
+
+Semantic Scholar
+
+export BibTeX citation
+
+Loading...
+
+BibTeX formatted citation
+
+&times;
+
+loading...
+
+Data provided by:
+
+Bookmark
+
+Bibliographic Tools
+
+Bibliographic and Citation Tools
+
+Bibliographic Explorer Toggle
+
+Bibliographic Explorer
+
+( What is the Explorer? )
+
+Connected Papers Toggle
+
+Connected Papers
+
+( What is Connected Papers? )
+
+Litmaps Toggle
+
+Litmaps
+
+( What is Litmaps? )
+
+scite.ai Toggle
+
+scite Smart Citations
+
+( What are

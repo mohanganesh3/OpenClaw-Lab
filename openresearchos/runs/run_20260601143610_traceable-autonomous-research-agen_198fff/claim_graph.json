@@ -1,0 +1,116 @@
+{
+  "claims": [
+    {
+      "claim_id": "CL001",
+      "evidence_id": "EV001",
+      "text": "The paper introduces an automated scientific discovery pipeline that can generate ideas, write code, run experiments, and draft papers, representing a step towards fully automated open-ended scientific discovery.",
+      "support": "metadata_summary_pending_pdf_confirmation"
+    },
+    {
+      "claim_id": "CL002",
+      "evidence_id": "EV002",
+      "text": "This source is relevant to automated, scientific, discovery, search and should be used as evidence, not authority without verification.",
+      "support": "metadata_summary_pending_pdf_confirmation"
+    },
+    {
+      "claim_id": "CL003",
+      "evidence_id": "EV003",
+      "text": "This source is relevant to research, agent, laboratory, agents and should be used as evidence, not authority without verification.",
+      "support": "metadata_summary_pending_pdf_confirmation"
+    },
+    {
+      "claim_id": "CL004",
+      "evidence_id": "EV004",
+      "text": "This source is relevant to machine, learning, evaluating, agents and should be used as evidence, not authority without verification.",
+      "support": "metadata_summary_pending_pdf_confirmation"
+    },
+    {
+      "claim_id": "CL005",
+      "evidence_id": "EV005",
+      "text": "AIBuildAI-2 presents a framework for AI systems that can autonomously build and improve other AI systems through multi-agent research and engineering loops with traceability requirements.",
+      "support": "metadata_summary_pending_pdf_confirmation"
+    },
+    {
+      "claim_id": "CL006",
+      "evidence_id": "EV006",
+      "text": "This source is relevant to agents, verbal, memory, reflexion and should be used as evidence, not authority without verification.",
+      "support": "metadata_summary_pending_pdf_confirmation"
+    },
+    {
+      "claim_id": "CL007",
+      "evidence_id": "EV007",
+      "text": "This source is relevant to iterative, refinement, self-refine, self-feedback and should be used as evidence, not authority without verification.",
+      "support": "metadata_summary_pending_pdf_confirmation"
+    },
+    {
+      "claim_id": "CL008",
+      "evidence_id": "EV008",
+      "text": "This source is relevant to open-ended, agent, voyager, embodied and should be used as evidence, not authority without verification.",
+      "support": "metadata_summary_pending_pdf_confirmation"
+    },
+    {
+      "claim_id": "CL009",
+      "evidence_id": "EV009",
+      "text": "This source is relevant to agent, agentbench, evaluating, llms and should be used as evidence, not authority without verification.",
+      "support": "metadata_summary_pending_pdf_confirmation"
+    },
+    {
+      "claim_id": "CL010",
+      "evidence_id": "EV010",
+      "text": "Demonstrates how agents can operate computer interfaces to solve software engineering tasks, with relevance to local experiment execution and reproducible command logs.",
+      "support": "metadata_summary_pending_pdf_confirmation"
+    }
+  ],
+  "links": [
+    {
+      "from": "EV001",
+      "relation": "suggests_gap",
+      "to": "The paper reveals the gap in evaluating and ensuring reliability of fully automated scientific discovery systems."
+    },
+    {
+      "from": "EV002",
+      "relation": "suggests_gap",
+      "to": "Need a traceable test that connects automated to experiment decisions and reviewer outcomes."
+    },
+    {
+      "from": "EV003",
+      "relation": "suggests_gap",
+      "to": "Need a traceable test that connects research to experiment decisions and reviewer outcomes."
+    },
+    {
+      "from": "EV004",
+      "relation": "suggests_gap",
+      "to": "Need a traceable test that connects machine to experiment decisions and reviewer outcomes."
+    },
+    {
+      "from": "EV005",
+      "relation": "suggests_gap",
+      "to": "The paper focuses on the framework for AI systems that build and improve other AI systems but may not address how to ensure the quality, safety, and ethical alignment of these self-improving systems."
+    },
+    {
+      "from": "EV006",
+      "relation": "suggests_gap",
+      "to": "Need a traceable test that connects agents to experiment decisions and reviewer outcomes."
+    },
+    {
+      "from": "EV007",
+      "relation": "suggests_gap",
+      "to": "Need a traceable test that connects iterative to experiment decisions and reviewer outcomes."
+    },
+    {
+      "from": "EV008",
+      "relation": "suggests_gap",
+      "to": "Need a traceable test that connects open-ended to experiment decisions and reviewer outcomes."
+    },
+    {
+      "from": "EV009",
+      "relation": "suggests_gap",
+      "to": "Need a traceable test that connects agent to experiment decisions and reviewer outcomes."
+    },
+    {
+      "from": "EV010",
+      "relation": "suggests_gap",
+      "to": "How agents can effectively interact with software development environments to perform complex software engineering tasks."
+    }
+  ]
+}

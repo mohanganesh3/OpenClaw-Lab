@@ -1,0 +1,67 @@
+{
+  "latest_experiment": "micro_probe_id010",
+  "latest_metrics": {
+    "experiment_id": "micro_probe_id010",
+    "run_id": "run_20260601130226_traceable-autonomous-research-agen_0c6add",
+    "idea_id": "ID010",
+    "level": "micro_probe",
+    "seed": 1729,
+    "trials": 96,
+    "random_mean": 0.787364,
+    "guided_mean": 0.821414,
+    "improvement": 0.034049,
+    "selected_idea_utility": 0.82896,
+    "success": true,
+    "ablations": {
+      "no_reviewer": {
+        "mean": 0.815484,
+        "delta_vs_guided": -0.005929
+      },
+      "no_evidence": {
+        "mean": 0.810151,
+        "delta_vs_guided": -0.011263
+      },
+      "no_novelty": {
+        "mean": 0.808542,
+        "delta_vs_guided": -0.012871
+      }
+    },
+    "python": "3.13.7",
+    "platform": "macOS-26.1-arm64-arm-64bit-Mach-O"
+  },
+  "all_results": [
+    {
+      "experiment_id": "micro_probe_id010",
+      "level": "micro_probe",
+      "metrics": {
+        "experiment_id": "micro_probe_id010",
+        "run_id": "run_20260601130226_traceable-autonomous-research-agen_0c6add",
+        "idea_id": "ID010",
+        "level": "micro_probe",
+        "seed": 1729,
+        "trials": 96,
+        "random_mean": 0.787364,
+        "guided_mean": 0.821414,
+        "improvement": 0.034049,
+        "selected_idea_utility": 0.82896,
+        "success": true,
+        "ablations": {
+          "no_reviewer": {
+            "mean": 0.815484,
+            "delta_vs_guided": -0.005929
+          },
+          "no_evidence": {
+            "mean": 0.810151,
+            "delta_vs_guided": -0.011263
+          },
+          "no_novelty": {
+            "mean": 0.808542,
+            "delta_vs_guided": -0.012871
+          }
+        },
+        "python": "3.13.7",
+        "platform": "macOS-26.1-arm64-arm-64bit-Mach-O"
+      }
+    }
+  ]
+}

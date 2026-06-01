@@ -1,0 +1,95 @@
+# Research Map
+
+Run: `run_20260601142057_traceable-autonomous-research-agen_dd7c50`
+
+Topic: traceable autonomous research agents smoke f9d738
+
+Scope: `local_experiment`
+
+## Evidence Clusters
+
+### EV001: The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery
+
+Focus: automated, scientific, discovery, scientist, fully, open-ended
+
+### EV002: The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search
+
+Focus: automated, scientific, discovery, search, scientist-v2, workshop-level
+
+### EV003: Agent Laboratory: Using LLM Agents as Research Assistants
+
+Focus: Agent-based research assistance, LLM-powered literature review, Automated experimentation, Report generation, Human oversight mechanisms, Reproducibility controls
+
+### EV004: MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering
+
+Focus: machine, learning, evaluating, agents, engineering, mle-bench
+
+### EV005: AIBuildAI-2: Scalable Agentic AI Research and Engineering
+
+Focus: research, engineering, systems, aibuildai-2, scalable, agentic
+
+### EV006: Reflexion: Language Agents with Verbal Reinforcement Learning
+
+Focus: agents, verbal, memory, reflexion, language, reinforcement
+
+### EV007: Self-Refine: Iterative Refinement with Self-Feedback
+
+Focus: iterative, refinement, self-refine, self-feedback, studies, generation
+
+### EV008: Voyager: An Open-Ended Embodied Agent with Large Language Models
+
+Focus: open-ended, agent, voyager, embodied, large, language
+
+### EV009: AgentBench: Evaluating LLMs as Agents
+
+Focus: agent, agentbench, evaluating, llms, agents, introduces
+
+### EV010: SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering
+
+Focus: interfaces, software, swe-agent, agent-computer, enable, automated
+
+## Gap Map
+
+### G01
+
+Traceability gap: agents may produce ideas without an auditable chain from source evidence to experiment decision.
+
+Evidence: EV001, EV002, EV003, EV004, EV005
+
+Keywords: traceable, need, agents, source, relevant, should
+
+### G02
+
+Review gap: simulated reviewer feedback is often generated after the fact instead of controlling whether an idea proceeds.
+
+Evidence: EV002, EV003, EV004, EV005, EV006
+
+Keywords: source, relevant, should, evidence, authority, verification
+
+### G03
+
+Experiment timing gap: many research agents run experiments late, after committing to an idea, rather than using cheap probes during ideation.
+
+Evidence: EV003, EV004, EV005, EV006, EV007
+
+Keywords: evidence, authority, verification, test, connects, experiment
+
+### G04
+
+Failure memory gap: rejected ideas and failed probes are often lost instead of shaping the next search iteration.
+
+Evidence: EV004, EV005, EV006, EV007, EV008
+
+Keywords: test, connects, experiment, decisions, reviewer, outcomes
+
+### G05
+
+Venue-fit gap: agent outputs often lack explicit comparison to workshop and conference expectations.
+
+Evidence: EV005, EV006, EV007, EV008, EV009
+
+Keywords: decisions, reviewer, outcomes, research, automated, scientific
+
+## Quality Rule
+
+These gaps are hypotheses for research planning, not claims of novelty. The Novelty Tribunal must search for near-identical prior work before an idea advances.

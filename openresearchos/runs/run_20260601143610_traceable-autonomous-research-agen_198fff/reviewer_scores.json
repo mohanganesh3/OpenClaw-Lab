@@ -1,0 +1,1670 @@
+[
+  {
+    "idea_id": "ID001",
+    "average_score": 6.42,
+    "decision": "accept",
+    "next_action": "RUN_MICRO_PROBE",
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 6.5,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add direct competitor comparison and search query log."
+        ],
+        "required_experiments": [
+          "Run novelty tribunal before any paper claim."
+        ],
+        "missing_related_work": [
+          "EV001",
+          "EV002",
+          "EV003"
+        ]
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 7.2,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add baseline and ablation before MVP claims."
+        ],
+        "required_experiments": [
+          "Micro-probe with random baseline.",
+          "Probe with evidence-weighted baseline."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Theory/Mechanism Reviewer",
+        "score": 6.4,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Tighten mechanism into falsifiable prediction."
+        ],
+        "required_experiments": [
+          "Test whether the mechanism improves selection utility under controlled noise."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Reproducibility Reviewer",
+        "score": 6,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Record seed, command, environment, stdout, stderr, and metrics."
+        ],
+        "required_experiments": [
+          "Run with fixed seed and persist config."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Venue Reviewer",
+        "score": 6,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Position as workshop candidate until stronger empirical evidence exists."
+        ],
+        "required_experiments": [
+          "Add venue-fit checklist after results."
+        ],
+        "missing_related_work": []
+      }
+    ]
+  },
+  {
+    "idea_id": "ID002",
+    "average_score": 6.72,
+    "decision": "accept",
+    "next_action": "RUN_MICRO_PROBE",
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 7,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add direct competitor comparison and search query log."
+        ],
+        "required_experiments": [
+          "Run novelty tribunal before any paper claim."
+        ],
+        "missing_related_work": [
+          "EV001",
+          "EV002",
+          "EV003"
+        ]
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 7.6,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add baseline and ablation before MVP claims."
+        ],
+        "required_experiments": [
+          "Micro-probe with random baseline.",
+          "Probe with evidence-weighted baseline."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Theory/Mechanism Reviewer",
+        "score": 6.8,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Tighten mechanism into falsifiable prediction."
+        ],
+        "required_experiments": [
+          "Test whether the mechanism improves selection utility under controlled noise."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Reproducibility Reviewer",
+        "score": 6.4,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Record seed, command, environment, stdout, stderr, and metrics."
+        ],
+        "required_experiments": [
+          "Run with fixed seed and persist config."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Venue Reviewer",
+        "score": 5.8,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Position as workshop candidate until stronger empirical evidence exists."
+        ],
+        "required_experiments": [
+          "Add venue-fit checklist after results."
+        ],
+        "missing_related_work": []
+      }
+    ]
+  },
+  {
+    "idea_id": "ID003",
+    "average_score": 7.1,
+    "decision": "accept",
+    "next_action": "RUN_MICRO_PROBE",
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 7.3,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add direct competitor comparison and search query log."
+        ],
+        "required_experiments": [
+          "Run novelty tribunal before any paper claim."
+        ],
+        "missing_related_work": [
+          "EV001",
+          "EV002",
+          "EV003"
+        ]
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 8,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add baseline and ablation before MVP claims."
+        ],
+        "required_experiments": [
+          "Micro-probe with random baseline.",
+          "Probe with evidence-weighted baseline."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Theory/Mechanism Reviewer",
+        "score": 7.2,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Tighten mechanism into falsifiable prediction."
+        ],
+        "required_experiments": [
+          "Test whether the mechanism improves selection utility under controlled noise."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Reproducibility Reviewer",
+        "score": 6.8,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Record seed, command, environment, stdout, stderr, and metrics."
+        ],
+        "required_experiments": [
+          "Run with fixed seed and persist config."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Venue Reviewer",
+        "score": 6.2,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Position as workshop candidate until stronger empirical evidence exists."
+        ],
+        "required_experiments": [
+          "Add venue-fit checklist after results."
+        ],
+        "missing_related_work": []
+      }
+    ]
+  },
+  {
+    "idea_id": "ID004",
+    "average_score": 7.7,
+    "decision": "accept",
+    "next_action": "RUN_MICRO_PROBE",
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 7.7,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add direct competitor comparison and search query log."
+        ],
+        "required_experiments": [
+          "Run novelty tribunal before any paper claim."
+        ],
+        "missing_related_work": [
+          "EV001",
+          "EV002",
+          "EV003"
+        ]
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 8.5,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add baseline and ablation before MVP claims."
+        ],
+        "required_experiments": [
+          "Micro-probe with random baseline.",
+          "Probe with evidence-weighted baseline."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Theory/Mechanism Reviewer",
+        "score": 7.7,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Tighten mechanism into falsifiable prediction."
+        ],
+        "required_experiments": [
+          "Test whether the mechanism improves selection utility under controlled noise."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Reproducibility Reviewer",
+        "score": 7.3,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Record seed, command, environment, stdout, stderr, and metrics."
+        ],
+        "required_experiments": [
+          "Run with fixed seed and persist config."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Venue Reviewer",
+        "score": 7.3,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Position as workshop candidate until stronger empirical evidence exists."
+        ],
+        "required_experiments": [
+          "Add venue-fit checklist after results."
+        ],
+        "missing_related_work": []
+      }
+    ]
+  },
+  {
+    "idea_id": "ID005",
+    "average_score": 4,
+    "decision": "reject",
+    "next_action": "RUN_ADDITIONAL_SEARCH",
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 5,
+        "fatal_flaws": [
+          "LLM review unavailable — manual review required"
+        ],
+        "fixable_flaws": [],
+        "required_experiments": [],
+        "missing_related_work": [],
+        "decision": "revise",
+        "justification": "Automated review was unavailable. Manual review required before promotion."
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 5,
+        "fatal_flaws": [
+          "LLM review unavailable — manual review required"
+        ],
+        "fixable_flaws": [],
+        "required_experiments": [],
+        "missing_related_work": [],
+        "decision": "revise",
+        "justification": "Automated review was unavailable. Manual review required before promotion."
+      },
+      {
+        "reviewer": "Theory/Mechanism Reviewer",
+        "score": 5,
+        "fatal_flaws": [
+          "LLM review unavailable — manual review required"
+        ],
+        "fixable_flaws": [],
+        "required_experiments": [],
+        "missing_related_work": [],
+        "decision": "revise",
+        "justification": "Automated review was unavailable. Manual review required before promotion."
+      },
+      {
+        "reviewer": "Reproducibility Reviewer",
+        "score": 2,
+        "fatal_flaws": [
+          "No experimental details provided",
+          "No code or implementation specified",
+          "No datasets or data sources documented",
+          "No environment specifications or dependencies listed"
+        ],
+        "fixable_flaws": [
+          "Provide detailed experimental protocol and methodology",
+          "Share complete code repository with all dependencies",
+          "Document datasets, preprocessing steps, and data splits",
+          "Specify computational environment and hardware requirements"
+        ],
+        "required_experiments": [
+          "Complete implementation of the venue-aware claim narrowing system",
+          "Baseline comparisons with random selection and existing methods",
+          "Ablation studies on different components of the mechanism",
+          "Statistical analysis of results with proper significance testing"
+        ],
+        "missing_related_work": [
+          "Recent work on agent-based scientific discovery systems",
+          "Venue-aware recommendation and selection literature",
+          "Traceability frameworks for autonomous research systems"
+        ],
+        "decision": "reject",
+        "justification": "The proposal lacks essential reproducibility elements including experimental details, code, datasets, and environment specifications. Without these, the work cannot be reproduced or evaluated."
+      },
+      {
+        "reviewer": "Venue Reviewer",
+        "score": 3,
+        "fatal_flaws": [
+          "No specific experiment described",
+          "Novelty claim not specified"
+        ],
+        "fixable_flaws": [
+          "Vague mechanism description",
+          "Unclear differentiation from existing AI scientist work",
+          "Metric not well-defined"
+        ],
+        "required_experiments": [
+          "Implement and test the venue-aware claim narrowing mechanism",
+          "Compare against baseline methods using the guided_selection_utility_minus_random_baseline metric",
+          "Demonstrate improvement over existing AI scientist approaches"
+        ],
+        "missing_related_work": [
+          "More recent work on autonomous research agents",
+          "Research on claim verification and validation in AI systems",
+          "Work on scientific reasoning and evaluation metrics"
+        ],
+        "decision": "reject",
+        "justification": "This work lacks essential components for publication including specific experiments and a clear novelty claim. The mechanism is vaguely described and doesn't clearly differentiate from existing AI scientist work. Significant revisions would be needed before it could be considered for any venue."
+      }
+    ]
+  },
+  {
+    "idea_id": "ID006",
+    "average_score": 6.3,
+    "decision": "accept",
+    "next_action": "RUN_MICRO_PROBE",
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 6.5,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add direct competitor comparison and search query log."
+        ],
+        "required_experiments": [
+          "Run novelty tribunal before any paper claim."
+        ],
+        "missing_related_work": [
+          "EV001",
+          "EV002",
+          "EV003"
+        ]
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 7.2,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add baseline and ablation before MVP claims."
+        ],
+        "required_experiments": [
+          "Micro-probe with random baseline.",
+          "Probe with evidence-weighted baseline."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Theory/Mechanism Reviewer",
+        "score": 6.4,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Tighten mechanism into falsifiable prediction."
+        ],
+        "required_experiments": [
+          "Test whether the mechanism improves selection utility under controlled noise."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Reproducibility Reviewer",
+        "score": 6,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Record seed, command, environment, stdout, stderr, and metrics."
+        ],
+        "required_experiments": [
+          "Run with fixed seed and persist config."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Venue Reviewer",
+        "score": 5.4,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Position as workshop candidate until stronger empirical evidence exists."
+        ],
+        "required_experiments": [
+          "Add venue-fit checklist after results."
+        ],
+        "missing_related_work": []
+      }
+    ]
+  },
+  {
+    "idea_id": "ID007",
+    "average_score": 6.82,
+    "decision": "accept",
+    "next_action": "RUN_MICRO_PROBE",
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 6.9,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add direct competitor comparison and search query log."
+        ],
+        "required_experiments": [
+          "Run novelty tribunal before any paper claim."
+        ],
+        "missing_related_work": [
+          "EV001",
+          "EV002",
+          "EV003"
+        ]
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 7.6,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add baseline and ablation before MVP claims."
+        ],
+        "required_experiments": [
+          "Micro-probe with random baseline.",
+          "Probe with evidence-weighted baseline."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Theory/Mechanism Reviewer",
+        "score": 6.8,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Tighten mechanism into falsifiable prediction."
+        ],
+        "required_experiments": [
+          "Test whether the mechanism improves selection utility under controlled noise."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Reproducibility Reviewer",
+        "score": 6.4,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Record seed, command, environment, stdout, stderr, and metrics."
+        ],
+        "required_experiments": [
+          "Run with fixed seed and persist config."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Venue Reviewer",
+        "score": 6.4,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Position as workshop candidate until stronger empirical evidence exists."
+        ],
+        "required_experiments": [
+          "Add venue-fit checklist after results."
+        ],
+        "missing_related_work": []
+      }
+    ]
+  },
+  {
+    "idea_id": "ID008",
+    "average_score": 7.12,
+    "decision": "accept",
+    "next_action": "RUN_MICRO_PROBE",
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 7.4,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add direct competitor comparison and search query log."
+        ],
+        "required_experiments": [
+          "Run novelty tribunal before any paper claim."
+        ],
+        "missing_related_work": [
+          "EV001",
+          "EV002",
+          "EV003"
+        ]
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 8,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add baseline and ablation before MVP claims."
+        ],
+        "required_experiments": [
+          "Micro-probe with random baseline.",
+          "Probe with evidence-weighted baseline."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Theory/Mechanism Reviewer",
+        "score": 7.2,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Tighten mechanism into falsifiable prediction."
+        ],
+        "required_experiments": [
+          "Test whether the mechanism improves selection utility under controlled noise."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Reproducibility Reviewer",
+        "score": 6.8,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Record seed, command, environment, stdout, stderr, and metrics."
+        ],
+        "required_experiments": [
+          "Run with fixed seed and persist config."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Venue Reviewer",
+        "score": 6.2,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Position as workshop candidate until stronger empirical evidence exists."
+        ],
+        "required_experiments": [
+          "Add venue-fit checklist after results."
+        ],
+        "missing_related_work": []
+      }
+    ]
+  },
+  {
+    "idea_id": "ID009",
+    "average_score": 7.6,
+    "decision": "accept",
+    "next_action": "RUN_MICRO_PROBE",
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 7.8,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add direct competitor comparison and search query log."
+        ],
+        "required_experiments": [
+          "Run novelty tribunal before any paper claim."
+        ],
+        "missing_related_work": [
+          "EV001",
+          "EV002",
+          "EV003"
+        ]
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 8.5,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add baseline and ablation before MVP claims."
+        ],
+        "required_experiments": [
+          "Micro-probe with random baseline.",
+          "Probe with evidence-weighted baseline."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Theory/Mechanism Reviewer",
+        "score": 7.7,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Tighten mechanism into falsifiable prediction."
+        ],
+        "required_experiments": [
+          "Test whether the mechanism improves selection utility under controlled noise."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Reproducibility Reviewer",
+        "score": 7.3,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Record seed, command, environment, stdout, stderr, and metrics."
+        ],
+        "required_experiments": [
+          "Run with fixed seed and persist config."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Venue Reviewer",
+        "score": 6.7,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Position as workshop candidate until stronger empirical evidence exists."
+        ],
+        "required_experiments": [
+          "Add venue-fit checklist after results."
+        ],
+        "missing_related_work": []
+      }
+    ]
+  },
+  {
+    "idea_id": "ID010",
+    "average_score": 4.4,
+    "decision": "reject",
+    "next_action": "RUN_ADDITIONAL_SEARCH",
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 7,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "The mechanism description lacks sufficient technical detail on how natural-language judgments are converted to explicit state objects",
+          "The metric 'guided_selection_utility_minus_random_baseline' needs formal definition and justification",
+          "No experimental protocol is specified to validate the proposed approach"
+        ],
+        "required_experiments": [
+          "Implement and test the human approval gate system on a benchmark scientific discovery task",
+          "Compare the proposed system against baseline autonomous research agents",
+          "Evaluate the effectiveness of the metric in measuring meaningful progress"
+        ],
+        "missing_related_work": [
+          "Human-in-the-loop AI systems literature",
+          "Explainable AI and interpretable machine learning papers",
+          "Falsifiable scientific methods in computational research",
+          "Recent work on agent-based scientific discovery systems"
+        ],
+        "decision": "revise",
+        "justification": "The concept of human approval gates for agent experiments addresses an important gap in autonomous research systems and shows novelty compared to existing work. However, the proposal lacks sufficient technical detail and experimental validation to be publishable in its current form."
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 3,
+        "fatal_flaws": [
+          "No experimental design specified",
+          "No baselines defined",
+          "No statistical validity plan",
+          "No reproducibility details",
+          "No clear novelty claim"
+        ],
+        "fixable_flaws": [
+          "Need to specify concrete experimental protocol",
+          "Need to define evaluation metrics more precisely",
+          "Need to identify appropriate baselines",
+          "Need to specify statistical analysis methods"
+        ],
+        "required_experiments": [
+          "Define and implement the human approval gate mechanism",
+          "Compare against random selection baseline",
+          "Ablation study of different gate configurations",
+          "Statistical validation of results"
+        ],
+        "missing_related_work": [
+          "More detailed comparison with AI Scientist papers",
+          "Related work on human-in-the-loop AI systems",
+          "Work on automated scientific discovery evaluation"
+        ],
+        "decision": "reject",
+        "justification": "The proposal lacks essential experimental details including design, baselines, metrics, and statistical analysis. It appears to be a concept rather than a concrete experimental plan that can be evaluated or reproduced."
+      },
+      {
+        "reviewer": "Theory/Mechanism Reviewer",
+        "score": 4,
+        "fatal_flaws": [
+          "No specific experiment is described",
+          "No clear novelty claim is made",
+          "The mechanism is too abstract and lacks implementation details"
+        ],
+        "fixable_flaws": [
+          "Could provide more detail on how the conversion from natural language to explicit metrics would work",
+          "Could specify the experimental setup",
+          "Could clarify the novelty claim"
+        ],
+        "required_experiments": [
+          "A concrete experiment demonstrating the human approval gate mechanism",
+          "Evaluation of the proposed metric on real research tasks"
+        ],
+        "missing_related_work": [
+          "Papers on human-in-the-loop AI systems",
+          "Work on interpretable AI metrics",
+          "Research on scientific reproducibility and validation"
+        ],
+        "decision": "reject",
+        "justification": "The proposal lacks sufficient detail on the proposed mechanism, has no specific experiment described, and doesn't clearly articulate its novelty. While the general idea of making research progress more falsifiable is interesting, the proposal needs significant development before it could be considered publishable."
+      },
+      {
+        "reviewer": "Reproducibility Reviewer",
+        "score": 5,
+        "fatal_flaws": [
+          "LLM review unavailable — manual review required"
+        ],
+        "fixable_flaws": [],
+        "required_experiments": [],
+        "missing_related_work": [],
+        "decision": "revise",
+        "justification": "Automated review was unavailable. Manual review required before promotion."
+      },
+      {
+        "reviewer": "Venue Reviewer",
+        "score": 3,
+        "fatal_flaws": [
+          "No specific experiment described",
+          "Vague mechanism without implementation details",
+          "No clear novelty claim or differentiation from existing work"
+        ],
+        "fixable_flaws": [
+          "Need to define the 'guided_selection_utility_minus_random_baseline' metric",
+          "Should provide concrete examples of how the approval gates would work",
+          "Need to specify the experimental setup and evaluation protocol"
+        ],
+        "required_experiments": [
+          "Implement and test the approval gate mechanism on a specific research task",
+          "Compare against baseline approaches without approval gates",
+          "Evaluate the effectiveness of the metric in measuring progress"
+        ],
+        "missing_related_work": [
+          "Human-in-the-loop AI systems and their evaluation",
+          "Accountability and interpretability in autonomous agents",
+          "Falsifiability metrics in AI-driven research"
+        ],
+        "decision": "reject",
+        "justification": "The proposal lacks essential details including a specific experiment, implementation details, and clear novelty claims. It needs substantial development before it could be suitable for workshop or conference presentation."
+      }
+    ]
+  },
+  {
+    "idea_id": "ID011",
+    "average_score": 6.3,
+    "decision": "accept",
+    "next_action": "RUN_MICRO_PROBE",
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 6.5,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add direct competitor comparison and search query log."
+        ],
+        "required_experiments": [
+          "Run novelty tribunal before any paper claim."
+        ],
+        "missing_related_work": [
+          "EV001",
+          "EV002",
+          "EV003"
+        ]
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 7.2,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add baseline and ablation before MVP claims."
+        ],
+        "required_experiments": [
+          "Micro-probe with random baseline.",
+          "Probe with evidence-weighted baseline."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Theory/Mechanism Reviewer",
+        "score": 6.4,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Tighten mechanism into falsifiable prediction."
+        ],
+        "required_experiments": [
+          "Test whether the mechanism improves selection utility under controlled noise."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Reproducibility Reviewer",
+        "score": 6,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Record seed, command, environment, stdout, stderr, and metrics."
+        ],
+        "required_experiments": [
+          "Run with fixed seed and persist config."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Venue Reviewer",
+        "score": 5.4,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Position as workshop candidate until stronger empirical evidence exists."
+        ],
+        "required_experiments": [
+          "Add venue-fit checklist after results."
+        ],
+        "missing_related_work": []
+      }
+    ]
+  },
+  {
+    "idea_id": "ID012",
+    "average_score": 6.7,
+    "decision": "accept",
+    "next_action": "RUN_MICRO_PROBE",
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 6.9,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add direct competitor comparison and search query log."
+        ],
+        "required_experiments": [
+          "Run novelty tribunal before any paper claim."
+        ],
+        "missing_related_work": [
+          "EV001",
+          "EV002",
+          "EV003"
+        ]
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 7.6,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add baseline and ablation before MVP claims."
+        ],
+        "required_experiments": [
+          "Micro-probe with random baseline.",
+          "Probe with evidence-weighted baseline."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Theory/Mechanism Reviewer",
+        "score": 6.8,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Tighten mechanism into falsifiable prediction."
+        ],
+        "required_experiments": [
+          "Test whether the mechanism improves selection utility under controlled noise."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Reproducibility Reviewer",
+        "score": 6.4,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Record seed, command, environment, stdout, stderr, and metrics."
+        ],
+        "required_experiments": [
+          "Run with fixed seed and persist config."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Venue Reviewer",
+        "score": 5.8,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Position as workshop candidate until stronger empirical evidence exists."
+        ],
+        "required_experiments": [
+          "Add venue-fit checklist after results."
+        ],
+        "missing_related_work": []
+      }
+    ]
+  },
+  {
+    "idea_id": "ID013",
+    "average_score": 7.24,
+    "decision": "accept",
+    "next_action": "RUN_MICRO_PROBE",
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 7.4,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add direct competitor comparison and search query log."
+        ],
+        "required_experiments": [
+          "Run novelty tribunal before any paper claim."
+        ],
+        "missing_related_work": [
+          "EV001",
+          "EV002",
+          "EV003"
+        ]
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 8,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add baseline and ablation before MVP claims."
+        ],
+        "required_experiments": [
+          "Micro-probe with random baseline.",
+          "Probe with evidence-weighted baseline."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Theory/Mechanism Reviewer",
+        "score": 7.2,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Tighten mechanism into falsifiable prediction."
+        ],
+        "required_experiments": [
+          "Test whether the mechanism improves selection utility under controlled noise."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Reproducibility Reviewer",
+        "score": 6.8,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Record seed, command, environment, stdout, stderr, and metrics."
+        ],
+        "required_experiments": [
+          "Run with fixed seed and persist config."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Venue Reviewer",
+        "score": 6.8,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Position as workshop candidate until stronger empirical evidence exists."
+        ],
+        "required_experiments": [
+          "Add venue-fit checklist after results."
+        ],
+        "missing_related_work": []
+      }
+    ]
+  },
+  {
+    "idea_id": "ID014",
+    "average_score": 7.56,
+    "decision": "accept",
+    "next_action": "RUN_MICRO_PROBE",
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 7.6,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add direct competitor comparison and search query log."
+        ],
+        "required_experiments": [
+          "Run novelty tribunal before any paper claim."
+        ],
+        "missing_related_work": [
+          "EV001",
+          "EV002",
+          "EV003"
+        ]
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 8.5,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add baseline and ablation before MVP claims."
+        ],
+        "required_experiments": [
+          "Micro-probe with random baseline.",
+          "Probe with evidence-weighted baseline."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Theory/Mechanism Reviewer",
+        "score": 7.7,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Tighten mechanism into falsifiable prediction."
+        ],
+        "required_experiments": [
+          "Test whether the mechanism improves selection utility under controlled noise."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Reproducibility Reviewer",
+        "score": 7.3,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Record seed, command, environment, stdout, stderr, and metrics."
+        ],
+        "required_experiments": [
+          "Run with fixed seed and persist config."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Venue Reviewer",
+        "score": 6.7,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Position as workshop candidate until stronger empirical evidence exists."
+        ],
+        "required_experiments": [
+          "Add venue-fit checklist after results."
+        ],
+        "missing_related_work": []
+      }
+    ]
+  },
+  {
+    "idea_id": "ID015",
+    "average_score": 3.8,
+    "decision": "reject",
+    "next_action": "RUN_ADDITIONAL_SEARCH",
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 6,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "The idea needs more specific details about how the failure report generator would work in practice",
+          "The mechanism for converting natural-language research judgement into explicit objects needs more elaboration",
+          "The novelty claim needs to be more clearly articulated and justified"
+        ],
+        "required_experiments": [
+          "A concrete implementation of the failure report generator with a case study",
+          "Comparison with existing automated scientific discovery systems",
+          "Evaluation of the guided_selection_utility_minus_random_baseline metric"
+        ],
+        "missing_related_work": [
+          "Work on reproducible research and research transparency",
+          "Studies on scientific failure analysis and learning from failures",
+          "Research on automated hypothesis generation and testing"
+        ],
+        "decision": "revise",
+        "justification": "The idea addresses an important gap in making research progress more transparent and falsifiable, but needs more specific details and clearer articulation of its novelty. The concept builds on existing work in automated scientific discovery and agent-based research assistance, so it needs to clearly differentiate itself."
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 3,
+        "fatal_flaws": [
+          "No experiment specified",
+          "No novelty claim specified",
+          "Vague metric definition",
+          "No statistical validity plan"
+        ],
+        "fixable_flaws": [
+          "Need to specify proper baselines beyond random",
+          "Need to define the guided_selection_utility metric precisely",
+          "Need to include ablation studies",
+          "Need to specify statistical tests and sample sizes",
+          "Need to detail reproducibility measures"
+        ],
+        "required_experiments": [
+          "Define and implement the Research Failure Report Generator",
+          "Compare against multiple baselines (random, heuristic, existing methods)",
+          "Ablation study of different components",
+          "Statistical analysis of results"
+        ],
+        "missing_related_work": [
+          "Need to explicitly position against AI Scientist papers",
+          "Need to discuss relation to MLE-bench and agent evaluation frameworks",
+          "Need to address how this differs from Reflexion and Self-Refine approaches"
+        ],
+        "decision": "reject",
+        "justification": "The proposal lacks essential experimental details, proper metric definitions, and novelty claims. Without a specified experiment or clear differentiation from existing work, this cannot be properly evaluated or reproduced."
+      },
+      {
+        "reviewer": "Theory/Mechanism Reviewer",
+        "score": 3,
+        "fatal_flaws": [
+          "Mechanism lacks sufficient detail on how natural language judgments are converted to explicit objects",
+          "No clear differentiation from existing automated research systems",
+          "Metric definition is incomplete and lacks justification"
+        ],
+        "fixable_flaws": [
+          "Need to specify implementation details of the failure report generator",
+          "Should address potential issues like metric gaming and overhead",
+          "Requires clearer explanation of novelty and advantages over existing approaches"
+        ],
+        "required_experiments": [
+          "Prototype implementation with concrete examples of failure report generation",
+          "Comparison study against existing automated research systems",
+          "Ablation study to test the necessity of explicit metric tracking"
+        ],
+        "missing_related_work": [
+          "Work on formal verification in AI research systems",
+          "Studies on metric-driven optimization in autonomous agents",
+          "Research on explainable AI for scientific discovery"
+        ],
+        "decision": "reject",
+        "justification": "The proposal lacks sufficient detail on the core mechanism and fails to demonstrate clear novelty or advantages over existing automated research systems. The metric definition is incomplete and the approach needs substantial development before it can be properly evaluated."
+      },
+      {
+        "reviewer": "Reproducibility Reviewer",
+        "score": 2,
+        "fatal_flaws": [
+          "No experiment specified - the core methodology is completely undefined",
+          "No fixed seeds or deterministic run parameters mentioned",
+          "No clear commands or procedures for reproducing the work"
+        ],
+        "fixable_flaws": [
+          "Missing environment logging specifications",
+          "No documented datasets or data sources",
+          "No implementation details for the failure report generator"
+        ],
+        "required_experiments": [
+          "Define and implement the research failure report generator",
+          "Specify the guided_selection_utility_minus_random_baseline metric calculation",
+          "Create reproducible experimental protocol with fixed seeds"
+        ],
+        "missing_related_work": [
+          "Implementation details from 'The AI Scientist' papers",
+          "Specific methodology from 'MLE-bench' for evaluation",
+          "Technical details from 'Reflexion' for agent evaluation"
+        ],
+        "decision": "reject",
+        "justification": "The proposal lacks any experimental specification, making it impossible to reproduce. Without defined procedures, parameters, or implementation details, the core contribution cannot be verified or built upon."
+      },
+      {
+        "reviewer": "Venue Reviewer",
+        "score": 5,
+        "fatal_flaws": [
+          "LLM review unavailable — manual review required"
+        ],
+        "fixable_flaws": [],
+        "required_experiments": [],
+        "missing_related_work": [],
+        "decision": "revise",
+        "justification": "Automated review was unavailable. Manual review required before promotion."
+      }
+    ]
+  },
+  {
+    "idea_id": "ID016",
+    "average_score": 6.42,
+    "decision": "accept",
+    "next_action": "RUN_MICRO_PROBE",
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 6.5,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add direct competitor comparison and search query log."
+        ],
+        "required_experiments": [
+          "Run novelty tribunal before any paper claim."
+        ],
+        "missing_related_work": [
+          "EV001",
+          "EV002",
+          "EV003"
+        ]
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 7.2,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add baseline and ablation before MVP claims."
+        ],
+        "required_experiments": [
+          "Micro-probe with random baseline.",
+          "Probe with evidence-weighted baseline."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Theory/Mechanism Reviewer",
+        "score": 6.4,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Tighten mechanism into falsifiable prediction."
+        ],
+        "required_experiments": [
+          "Test whether the mechanism improves selection utility under controlled noise."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Reproducibility Reviewer",
+        "score": 6,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Record seed, command, environment, stdout, stderr, and metrics."
+        ],
+        "required_experiments": [
+          "Run with fixed seed and persist config."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Venue Reviewer",
+        "score": 6,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Position as workshop candidate until stronger empirical evidence exists."
+        ],
+        "required_experiments": [
+          "Add venue-fit checklist after results."
+        ],
+        "missing_related_work": []
+      }
+    ]
+  },
+  {
+    "idea_id": "ID017",
+    "average_score": 6.7,
+    "decision": "accept",
+    "next_action": "RUN_MICRO_PROBE",
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 6.9,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add direct competitor comparison and search query log."
+        ],
+        "required_experiments": [
+          "Run novelty tribunal before any paper claim."
+        ],
+        "missing_related_work": [
+          "EV001",
+          "EV002",
+          "EV003"
+        ]
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 7.6,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add baseline and ablation before MVP claims."
+        ],
+        "required_experiments": [
+          "Micro-probe with random baseline.",
+          "Probe with evidence-weighted baseline."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Theory/Mechanism Reviewer",
+        "score": 6.8,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Tighten mechanism into falsifiable prediction."
+        ],
+        "required_experiments": [
+          "Test whether the mechanism improves selection utility under controlled noise."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Reproducibility Reviewer",
+        "score": 6.4,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Record seed, command, environment, stdout, stderr, and metrics."
+        ],
+        "required_experiments": [
+          "Run with fixed seed and persist config."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Venue Reviewer",
+        "score": 5.8,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Position as workshop candidate until stronger empirical evidence exists."
+        ],
+        "required_experiments": [
+          "Add venue-fit checklist after results."
+        ],
+        "missing_related_work": []
+      }
+    ]
+  },
+  {
+    "idea_id": "ID018",
+    "average_score": 7.1,
+    "decision": "accept",
+    "next_action": "RUN_MICRO_PROBE",
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 7.3,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add direct competitor comparison and search query log."
+        ],
+        "required_experiments": [
+          "Run novelty tribunal before any paper claim."
+        ],
+        "missing_related_work": [
+          "EV001",
+          "EV002",
+          "EV003"
+        ]
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 8,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add baseline and ablation before MVP claims."
+        ],
+        "required_experiments": [
+          "Micro-probe with random baseline.",
+          "Probe with evidence-weighted baseline."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Theory/Mechanism Reviewer",
+        "score": 7.2,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Tighten mechanism into falsifiable prediction."
+        ],
+        "required_experiments": [
+          "Test whether the mechanism improves selection utility under controlled noise."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Reproducibility Reviewer",
+        "score": 6.8,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Record seed, command, environment, stdout, stderr, and metrics."
+        ],
+        "required_experiments": [
+          "Run with fixed seed and persist config."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Venue Reviewer",
+        "score": 6.2,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Position as workshop candidate until stronger empirical evidence exists."
+        ],
+        "required_experiments": [
+          "Add venue-fit checklist after results."
+        ],
+        "missing_related_work": []
+      }
+    ]
+  },
+  {
+    "idea_id": "ID019",
+    "average_score": 3.6,
+    "decision": "reject",
+    "next_action": "RUN_ADDITIONAL_SEARCH",
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 6,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "The idea needs more specific details about the restart policy mechanism",
+          "The metric definition needs more clarity and justification"
+        ],
+        "required_experiments": [
+          "A concrete implementation of the restart policy",
+          "Empirical evaluation comparing the proposed approach to existing methods"
+        ],
+        "missing_related_work": [
+          "Papers on search algorithms in AI research",
+          "Work on failure analysis in autonomous systems",
+          "Research on falsifiability in AI systems"
+        ],
+        "decision": "revise",
+        "justification": "The idea introduces a novel approach to search restart policies in autonomous research, but lacks sufficient detail and empirical validation. It builds on existing work in agentic search and iterative refinement but needs more specific implementation details and experimental validation to be publishable."
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 2,
+        "fatal_flaws": [
+          "No experiment specified - the core methodology is completely undefined",
+          "No clear novelty claim - it's unclear what specifically is new about this approach",
+          "No baselines defined - cannot evaluate if the proposed method actually works",
+          "No statistical validity plan - no mention of how results will be validated"
+        ],
+        "fixable_flaws": [
+          "Could be addressed with proper experimental design and methodology",
+          "Missing detailed evaluation metrics and procedures",
+          "Lacks ablation studies to isolate the contribution of the restart policy"
+        ],
+        "required_experiments": [
+          "Define complete experimental setup with control conditions",
+          "Establish baseline methods for comparison",
+          "Implement detailed evaluation metrics beyond the single proposed metric",
+          "Design statistical analysis plan with appropriate significance testing",
+          "Create reproducibility protocol with code and data availability"
+        ],
+        "missing_related_work": [
+          "Recent work on autonomous research agents and self-improvement",
+          "Literature on search algorithms and restart policies in AI",
+          "Studies on evaluation metrics for autonomous research systems",
+          "Work on memory and iterative processes in AI agents"
+        ],
+        "decision": "reject",
+        "justification": "The proposal lacks any experimental details, making it impossible to evaluate. Without defined experiments, baselines, or clear novelty claims, this cannot be considered a valid research contribution. The idea has potential but requires complete redesign of the experimental approach."
+      },
+      {
+        "reviewer": "Theory/Mechanism Reviewer",
+        "score": 3,
+        "fatal_flaws": [
+          "The mechanism of converting natural language judgments to explicit objects is not well-justified or explained",
+          "No clear theoretical foundation for why this approach would improve autonomous research outcomes",
+          "The proposed metric 'guided_selection_utility_minus_random_baseline' is undefined and lacks specificity"
+        ],
+        "fixable_flaws": [
+          "Needs clearer positioning relative to existing AI Scientist literature",
+          "Requires detailed mechanism description with concrete examples",
+          "Should provide theoretical justification for the falsifiability claim"
+        ],
+        "required_experiments": [
+          "Define and implement specific metrics for the guided_selection_utility_minus_random_baseline",
+          "Compare against baseline approaches in controlled experiments",
+          "Demonstrate the mechanism works with actual research tasks"
+        ],
+        "missing_related_work": [
+          "Should engage more deeply with 'The AI Scientist' papers (EV001, EV002)",
+          "Missing discussion of explicit representations in AI systems literature",
+          "Should reference work on falsifiability and scientific methodology in AI"
+        ],
+        "decision": "reject",
+        "justification": "The proposal lacks sufficient theoretical justification and mechanism detail. While the idea of making research progress falsifiable is interesting, the approach is not well-defined, lacks specific metrics, and doesn't clearly explain why converting to explicit objects would improve autonomous research outcomes."
+      },
+      {
+        "reviewer": "Reproducibility Reviewer",
+        "score": 2,
+        "fatal_flaws": [
+          "No experiment specified - critical for reproducibility",
+          "No novelty claim specified - impossible to evaluate contribution",
+          "Metric 'guided_selection_utility_minus_random_baseline' lacks clear measurement procedures",
+          "No implementation details or algorithms described",
+          "No datasets, environments, or logging procedures specified",
+          "No mention of random seeds, deterministic runs, or environment logging"
+        ],
+        "fixable_flaws": [
+          "Related work list could be more comprehensive with recent autonomous research papers",
+          "Mechanism description is too high-level and needs technical implementation details"
+        ],
+        "required_experiments": [
+          "Complete experimental protocol with specific datasets and environments",
+          "Baseline comparisons with existing autonomous research methods",
+          "Ablation studies to validate the proposed search restart mechanism",
+          "Statistical analysis of results with proper significance testing"
+        ],
+        "missing_related_work": [
+          "Recent work on autonomous research agents beyond 2023",
+          "Papers specifically on search restart policies in AI research",
+          "Work on falsifiable scientific discovery and reproducible AI research"
+        ],
+        "decision": "reject",
+        "justification": "The research idea lacks critical components for reproducibility including a specified experiment, novelty claim, and implementation details. Without these essential elements, the work cannot be reproduced or properly evaluated."
+      },
+      {
+        "reviewer": "Venue Reviewer",
+        "score": 5,
+        "fatal_flaws": [
+          "LLM review unavailable — manual review required"
+        ],
+        "fixable_flaws": [],
+        "required_experiments": [],
+        "missing_related_work": [],
+        "decision": "revise",
+        "justification": "Automated review was unavailable. Manual review required before promotion."
+      }
+    ]
+  },
+  {
+    "idea_id": "ID020",
+    "average_score": 3.8,
+    "decision": "reject",
+    "next_action": "RUN_ADDITIONAL_SEARCH",
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 5,
+        "fatal_flaws": [
+          "LLM review unavailable — manual review required"
+        ],
+        "fixable_flaws": [],
+        "required_experiments": [],
+        "missing_related_work": [],
+        "decision": "revise",
+        "justification": "Automated review was unavailable. Manual review required before promotion."
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 2,
+        "fatal_flaws": [
+          "No specific experiment is described",
+          "No clear baseline comparison is specified",
+          "Metric is vague and not well-defined",
+          "No statistical analysis plan is mentioned",
+          "No reproducibility details are provided"
+        ],
+        "fixable_flaws": [
+          "Novelty claim is not specified",
+          "No ablation studies are mentioned",
+          "No clear evaluation protocol is described"
+        ],
+        "required_experiments": [
+          "Define and implement the mac-local probe harness",
+          "Create baseline comparison with existing research agent frameworks",
+          "Design controlled experiments to test the harness effectiveness",
+          "Implement statistical analysis plan",
+          "Provide reproducibility details and code"
+        ],
+        "missing_related_work": [
+          "Recent work on agent evaluation frameworks",
+          "Studies on reproducibility in AI research agents",
+          "Comparative studies of different research agent architectures"
+        ],
+        "decision": "reject",
+        "justification": "The proposal lacks essential experimental details including specific experiments, baselines, and evaluation protocols. Without these critical components, the work cannot be properly evaluated or reproduced."
+      },
+      {
+        "reviewer": "Theory/Mechanism Reviewer",
+        "score": 5,
+        "fatal_flaws": [
+          "LLM review unavailable — manual review required"
+        ],
+        "fixable_flaws": [],
+        "required_experiments": [],
+        "missing_related_work": [],
+        "decision": "revise",
+        "justification": "Automated review was unavailable. Manual review required before promotion."
+      },
+      {
+        "reviewer": "Reproducibility Reviewer",
+        "score": 2,
+        "fatal_flaws": [
+          "No experiment specified",
+          "No fixed seeds mentioned",
+          "No clear commands provided",
+          "No logged environments documented",
+          "No datasets documented",
+          "No deterministic runs specified"
+        ],
+        "fixable_flaws": [
+          "Need to specify the exact experiment protocol",
+          "Need to document the software environment",
+          "Need to provide clear reproduction commands"
+        ],
+        "required_experiments": [
+          "A complete specification of the mac-local probe harness experiment",
+          "Benchmark experiments with fixed seeds",
+          "Ablation studies to validate the mechanism"
+        ],
+        "missing_related_work": [
+          "Need to cite specific implementation details from related papers",
+          "Need to reference standard benchmarks for agent evaluation"
+        ],
+        "decision": "reject",
+        "justification": "The proposal lacks any experimental specification, making it impossible to reproduce. Without details on seeds, commands, environments, datasets, or deterministic runs, the work cannot be validated."
+      },
+      {
+        "reviewer": "Venue Reviewer",
+        "score": 5,
+        "fatal_flaws": [
+          "LLM review unavailable — manual review required"
+        ],
+        "fixable_flaws": [],
+        "required_experiments": [],
+        "missing_related_work": [],
+        "decision": "revise",
+        "justification": "Automated review was unavailable. Manual review required before promotion."
+      }
+    ]
+  }
+]

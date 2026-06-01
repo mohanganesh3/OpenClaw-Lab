@@ -1,0 +1,29 @@
+{
+  "experiment_id": "probe_id010",
+  "run_id": "run_20260601132137_traceable-autonomous-research-agen_100af6",
+  "idea_id": "ID010",
+  "level": "probe",
+  "seed": 1729,
+  "trials": 192,
+  "random_mean": 0.838873,
+  "guided_mean": 0.871969,
+  "improvement": 0.033096,
+  "selected_idea_utility": 0.86748,
+  "success": true,
+  "ablations": {
+    "no_reviewer": {
+      "mean": 0.843878,
+      "delta_vs_guided": -0.028092
+    },
+    "no_evidence": {
+      "mean": 0.859161,
+      "delta_vs_guided": -0.012808
+    },
+    "no_novelty": {
+      "mean": 0.861303,
+      "delta_vs_guided": -0.010666
+    }
+  },
+  "python": "3.13.7",
+  "platform": "macOS-26.1-arm64-arm-64bit-Mach-O"
+}

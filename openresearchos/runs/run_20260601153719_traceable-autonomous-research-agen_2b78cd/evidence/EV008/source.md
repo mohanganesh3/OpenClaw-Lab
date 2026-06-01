@@ -1,0 +1,239 @@
+# EV008: Voyager: An Open-Ended Embodied Agent with Large Language Models
+
+URL: https://arxiv.org/abs/2305.16291
+
+Source: fallback_seed
+
+Year: 2023
+
+Accessed: 2026-06-01T15:37:19.776Z
+
+## Abstract Or Metadata
+
+Demonstrates open-ended skill acquisition with memory and iterative exploration, relevant to long-running agent loops and durable lessons.
+
+## Fetched Snapshot (via OpenClaw infer web fetch)
+
+
+
+[2305.16291] Voyager: An Open-Ended Embodied Agent with Large Language Models
+
+Skip to main content
+
+Learn about arXiv becoming an independent nonprofit.
+
+We gratefully acknowledge support from the Simons Foundation,  member institutions , and all contributors.
+
+Donate
+
+&gt;
+
+cs
+
+&gt;  arXiv:2305.16291
+
+Help  |  Advanced Search
+
+All fields
+
+Title
+
+Author
+
+Abstract
+
+Comments
+
+Journal reference
+
+ACM classification
+
+MSC classification
+
+Report number
+
+arXiv identifier
+
+DOI
+
+ORCID
+
+arXiv author ID
+
+Help pages
+
+Full text
+
+Search
+
+open search
+
+GO
+
+open navigation menu
+
+quick links
+
+Login
+
+Help Pages
+
+About
+
+-->
+
+Computer Science > Artificial Intelligence
+
+arXiv:2305.16291  (cs)
+
+[Submitted on 25 May 2023 ( v1 ), last revised 19 Oct 2023 (this version, v2)]
+
+Title: Voyager: An Open-Ended Embodied Agent with Large Language Models
+
+Authors:  Guanzhi Wang ,  Yuqi Xie ,  Yunfan Jiang ,  Ajay Mandlekar ,  Chaowei Xiao ,  Yuke Zhu ,  Linxi Fan ,  Anima Anandkumar
+
+View a PDF of the paper titled Voyager: An Open-Ended Embodied Agent with Large Language Models, by Guanzhi Wang and 7 other authors
+
+View PDF
+
+Abstract: We introduce Voyager, the first LLM-powered embodied lifelong learning agent in Minecraft that continuously explores the world, acquires diverse skills, and makes novel discoveries without human intervention. Voyager consists of three key components: 1) an automatic curriculum that maximizes exploration, 2) an ever-growing skill library of executable code for storing and retrieving complex behaviors, and 3) a new iterative prompting mechanism that incorporates environment feedback, execution errors, and self-verification for program improvement. Voyager interacts with GPT-4 via blackbox queries, which bypasses the need for model parameter fine-tuning. The skills developed by Voyager are temporally extended, interpretable, and compositional, which compounds the agent&#39;s abilities rapidly and alleviates catastrophic forgetting. Empirically, Voyager shows strong in-context lifelong learning capability and exhibits exceptional proficiency in playing Minecraft. It obtains 3.3x more unique items, travels 2.3x longer distances, and unlocks key tech tree milestones up to 15.3x faster than prior SOTA. Voyager is able to utilize the learned skill library in a new Minecraft world to solve novel tasks from scratch, while other techniques struggle to generalize. We open-source our full codebase and prompts at  this https URL .
+
+Comments:
+
+Project website and open-source codebase:  this https URL
+
+Subjects:
+
+Artificial Intelligence (cs.AI) ; Machine Learning (cs.LG)
+
+Cite as:
+
+arXiv:2305.16291  [cs.AI]
+
+&nbsp;
+
+(or
+
+arXiv:2305.16291v2  [cs.AI]  for this version)
+
+&nbsp;
+
+https://doi.org/10.48550/arXiv.2305.16291
+
+Focus to learn more
+
+arXiv-issued DOI via DataCite
+
+Submission history  From: Guanzhi Wang [ view email ]
+
+[v1]
+
+Thu, 25 May 2023 17:46:38 UTC (13,286 KB)
+
+[v2]
+
+Thu, 19 Oct 2023 16:27:03 UTC (13,649 KB)
+
+Full-text links:
+
+Access Paper:
+
+View a PDF of the paper titled Voyager: An Open-Ended Embodied Agent with Large Language Models, by Guanzhi Wang and 7 other authors
+
+View PDF
+
+TeX Source
+
+view license
+
+Current browse context:  cs.AI
+
+&lt;&nbsp;prev
+
+&nbsp; | &nbsp;
+
+next&nbsp;&gt;
+
+new
+
+|
+
+recent
+
+|
+
+2023-05
+
+Change to browse by:
+
+cs
+
+cs.LG
+
+References &amp; Citations
+
+NASA ADS
+
+Google Scholar
+
+Semantic Scholar
+
+5 blog links
+
+( what is this? )
+
+export BibTeX citation
+
+Loading...
+
+BibTeX formatted citation
+
+&times;
+
+loading...
+
+Data provided by:
+
+Bookmark
+
+Bibliographic Tools
+
+Bibliographic and Citation Tools
+
+Bibliographic Explorer Toggle
+
+Bibliographic Explorer
+
+( What is the Explorer? )
+
+Connected Papers Toggle
+
+Connected Papers
+
+( What is Connected Papers? )
+
+Litmaps Toggle
+
+Litmaps
+
+( What is Litmaps? )
+
+scite.ai Toggle
+
+scite Smart Citations
+
+( What are Smart Citations? )
+
+Code, Data, Media
+
+Code, Data and Media Associated with this Article
+
+alphaXiv Toggle
+
+alphaXiv
+
+( What is alphaXiv? )
+
+Links to Code Toggle
+
+CatalyzeX 

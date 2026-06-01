@@ -1,0 +1,16 @@
+{
+  "captured_at": "2026-06-01T13:05:23.365Z",
+  "os": "Darwin 25.1.0",
+  "platform": "darwin",
+  "arch": "arm64",
+  "cpu_model": "Apple M4",
+  "cpu_count": 10,
+  "total_memory_gb": 16,
+  "node": "v24.16.0",
+  "uv_path": "/Users/mohanganesh/.local/bin/uv",
+  "uv_version": "uv 0.10.9 (f675560f3 2026-03-06)",
+  "python_path": "/opt/homebrew/bin/python3",
+  "python_version": null,
+  "mps_availability": "not_checked_without_torch",
+  "command_used": "/Users/mohanganesh/.local/bin/uv run --project /Users/mohanganesh/OpenClaw-Lab/openresearchos/runs/run_20260601130522_traceable-autonomous-research-agen_b97651/experiments/micro_probe_id010 python src/research_probe.py"
+}

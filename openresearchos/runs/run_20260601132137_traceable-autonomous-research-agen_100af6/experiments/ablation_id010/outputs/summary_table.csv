@@ -1,0 +1,5 @@
+metric,value
+random_mean,0.841556
+guided_mean,0.869992
+improvement,0.028436
+selected_idea_utility,0.86748

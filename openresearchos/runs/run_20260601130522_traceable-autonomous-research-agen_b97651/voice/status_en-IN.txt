@@ -1,0 +1,1 @@
+OpenResearchOS run 20260601130522_tra. State TRACE_EXPORTED. Readiness RRL-3. Evidence 10. Ideas 20. Micro 1. Probe 0. MVP 0. Final failure report.
