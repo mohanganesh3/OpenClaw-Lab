@@ -1,0 +1,6 @@
+{
+  "introduction": "[2512.23412] MindWatcher: Toward Smarter Multimodal Tool-Integrated Reasoning\n\nMindWatcher: Toward Smarter Multimodal Tool-Integrated Reasoning\n\nMindGPT-ov Team\n\nLi Auto Inc\n\nTraditional workflow-base",
+  "method": "non in agentic RL.\nThe agent reasoning framework, MWE-Bench, three smaller-scale agent models (2B, 3B, and 4B) distilled from MindWatcher 32B, and related resources will be open-sourced.\n\n–\n\nLast Upda",
+  "results": "gent is responsible for decision‑making, while tool‑specialized agents execute designated subtasks. This architecture has become highly popular in the industry and significantly improves system flexib",
+  "conclusion": "s, and training frameworks. High‑quality reasoning trajectories involving multiple tools and multi‑step interactions are extremely difficult to construct manually. SFT‑based training  [ 24 ,  6 ]  oft"
+}

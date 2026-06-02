@@ -1,0 +1,46 @@
+{
+  "title": "Routing Absorption in Sparse Attention: Why Random Gates Are Hard to Beat",
+  "authors": "Not specified in provided text",
+  "abstract": "This paper investigates why end-to-end sparse attention training fails when the structure clearly exists. The authors introduce the concept of 'routing absorption', where the model's parameters continuously adapt to compensate for any mask imposed, making the gate's predictions carry little more information about attention structure than chance. The paper presents four controlled experiments on a 31M-parameter model to isolate different aspects of the absorption mechanism.",
+  "keywords": [
+    "Sparse Attention",
+    "Routing Absorption",
+    "Attention Mechanisms",
+    "Transformer Models",
+    "MoE"
+  ],
+  "methodology": {
+    "model": "6-layer, 256-dimensional, 4-head pre-norm transformer",
+    "parameters": "approximately 31M",
+    "dataset": "WikiText-103",
+    "training_details": {
+      "chunk_size": "512 tokens",
+      "batch_size": 16,
+      "learning_rate_schedule": "cosine"
+    },
+    "baseline_performance": "37.32 perplexity"
+  },
+  "key_findings": [
+    "In end-to-end training, the model's parameters adapt to compensate for the gate's mask",
+    "The gate's mask is 'absorbed' into the Q/K/V representations",
+    "Removing the gate or replacing it with random noise changes almost nothing",
+    "The gate's predictions carry little more information about attention structure than chance"
+  ],
+  "experiments": [
+    "Four controlled experiments on a 31M-parameter model",
+    "Preliminary scale evidence from Qwen3-1.7B (55× larger scale)"
+  ],
+  "related_work": "The paper connects its results to the Mixture-of-Experts (MoE) literature",
+  "conclusions": "The paper concludes that end-to-end sparse attention training fails due to routing absorption, where the model's parameters adapt to compensate for the gate's mask.",
+  "evidence_id": "EV037",
+  "year": 2026,
+  "arxiv_id": "2603.02227",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

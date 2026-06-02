@@ -1,0 +1,6 @@
+{
+  "introduction": "[2603.28211] Explaining CLIP Zero-shot Predictions Through Concepts\n\nExplaining CLIP Zero-shot Predictions Through Concepts\n\nOnat Ozdemir 1,2\n\nAnders Christensen 3,4,5\n\nStephan Alaniz 6\n\nZeynep Akata ",
+  "method": "available at  https://github.com/oonat/ezpc .\n\n1  Introduction\n\nFigure 1 :\n\nOverview of EZPC.  CLIP image and text embeddings are projected into a shared concept space using a learnable matrix\n\nA  A\n\n",
+  "results": "efforts to mitigate these issues by leveraging vision-language models  [ 22 ,  35 ,  37 ]  reduce annotation costs, but still require task-specific training and cannot generalize to unseen classes.\n\nI",
+  "conclusion": "s similarity structure in the concept space. The resulting model not only interprets CLIP’s predictions through meaningful concepts but also retains high zero-shot accuracy across diverse datasets.\n\nC"
+}

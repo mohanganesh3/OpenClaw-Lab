@@ -1,0 +1,31 @@
+{
+  "title": "Learning Adaptive Parallel Reasoning with Language Models",
+  "authors": [
+    "Gandhi et al."
+  ],
+  "year": 2025,
+  "method": "Adaptive Parallel Reasoning (APR)",
+  "key_innovations": [
+    "Parent-child threading mechanism with spawn() and join() operations",
+    "End-to-end reinforcement learning to optimize overall task success"
+  ],
+  "framework": "SGLang",
+  "applications": [
+    "Countdown reasoning task"
+  ],
+  "benefits": [
+    "Higher performance within same context window",
+    "Reduced latency",
+    "Elimination of redundant computation"
+  ],
+  "evidence_id": "EV015",
+  "arxiv_id": "2504.15466",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

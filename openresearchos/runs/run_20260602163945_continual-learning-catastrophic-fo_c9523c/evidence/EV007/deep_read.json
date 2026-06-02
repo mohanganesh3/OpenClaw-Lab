@@ -1,0 +1,26 @@
+{
+  "method_summary": "The CLDRM framework integrates the learning without forgetting continual learning method into the ResNet-34 architecture for structural damage recognition, using gradual feature fusion to maintain performance across multiple tasks.",
+  "key_innovation": "Integration of learning without forgetting continual learning into ResNet-34 for structural damage recognition with gradual feature fusion",
+  "datasets_used": [],
+  "baselines_compared": [],
+  "key_results": {},
+  "best_result": "",
+  "limitations_stated": [],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "unknown",
+  "compute_required": "unknown",
+  "can_run_on_macbook": "unknown",
+  "evidence_id": "EV007",
+  "title": "Continual‐learning‐based framework for structural damage recognition",
+  "year": 2022,
+  "arxiv_id": "2408.15513",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 5470,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

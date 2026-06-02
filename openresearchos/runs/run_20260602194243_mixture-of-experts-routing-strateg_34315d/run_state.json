@@ -1,0 +1,242 @@
+{
+  "schema_version": 1,
+  "run_id": "run_20260602194243_mixture-of-experts-routing-strateg_34315d",
+  "topic": "mixture of experts routing strategies (cycle 1)",
+  "created_at": "2026-06-02T19:42:59.303Z",
+  "updated_at": "2026-06-02T20:19:00.675Z",
+  "current_state": "TRACE_EXPORTED",
+  "scope_classification": {
+    "label": "local_experiment",
+    "rationale": "The topic can be explored with small simulations, synthetic data, or lightweight local experiments on the Mac.",
+    "feasibility_note": "Yes, experimenting with mixture of experts routing strategies on your MacBook M4 with 36GB RAM and Apple MPS GPU is highly feasible, especially for moderate-sized models. Suitable public datasets include GLUE for language tasks, ImageNet for vision experiments, and WikiText-103 for language modeling benchmarks. For comprehensive experiments testing various routing strategies, you can expect training times ranging from 4-8 hours for smaller models to 1-2 days for larger MoE architectures."
+  },
+  "search_queries": [
+    "expert routing methods",
+    "top-k routing",
+    "gating network design",
+    "load balancing experts",
+    "moe in NLP",
+    "moe for vision",
+    "moe benchmarks",
+    "expert routing evaluation",
+    "moe limitations",
+    "expert underutilization",
+    "moe vs dense",
+    "sparse models comparison",
+    "moe training datasets",
+    "mixture of experts survey",
+    "cycle 1 routing"
+  ],
+  "evidence_ids": [
+    "EV001",
+    "EV002",
+    "EV003",
+    "EV004",
+    "EV005",
+    "EV006",
+    "EV007",
+    "EV008",
+    "EV009",
+    "EV010",
+    "EV011",
+    "EV012",
+    "EV013",
+    "EV014",
+    "EV015",
+    "EV016",
+    "EV017",
+    "EV018",
+    "EV019",
+    "EV020",
+    "EV021",
+    "EV022",
+    "EV023",
+    "EV024",
+    "EV025",
+    "EV026",
+    "EV027",
+    "EV028",
+    "EV029",
+    "EV030",
+    "EV031",
+    "EV032",
+    "EV033",
+    "EV034",
+    "EV035",
+    "EV036",
+    "EV037",
+    "EV038",
+    "EV039",
+    "EV040",
+    "EV041",
+    "EV042",
+    "EV043",
+    "EV044",
+    "EV045",
+    "EV046",
+    "EV047",
+    "EV048",
+    "EV049",
+    "EV050",
+    "EV051",
+    "EV052",
+    "EV053",
+    "EV054",
+    "EV055",
+    "EV056",
+    "EV057",
+    "EV058",
+    "EV059",
+    "EV060",
+    "EV061",
+    "EV062",
+    "EV063",
+    "EV064",
+    "EV065",
+    "EV066",
+    "EV067",
+    "EV068",
+    "EV069",
+    "EV070"
+  ],
+  "parsed_papers": [],
+  "claim_graph": {
+    "claims": [],
+    "links": []
+  },
+  "research_gaps": [
+    {
+      "gap_id": "G01",
+      "text": "Current routing strategies often treat load balancing and expert specialization as separate objectives, leading to a suboptimal equilibrium. A truly effective strategy must dynamically balance the computational load across experts while simultaneously encouraging them to develop distinct, non-overlapping specializations.",
+      "keywords": [],
+      "evidence_ids": [
+        "EV001",
+        "EV002"
+      ],
+      "testable": true,
+      "difficulty": "medium",
+      "source": "llm"
+    },
+    {
+      "gap_id": "G02",
+      "text": "Existing routing strategies are primarily designed for unimodal data like text, where a single token is routed to one or more experts. This approach is insufficient for multi-modal inputs (e.g., image-text pairs), where different modalities may require different expert pathways and routing logic.",
+      "keywords": [],
+      "evidence_ids": [
+        "EV003"
+      ],
+      "testable": true,
+      "difficulty": "hard",
+      "source": "llm"
+    },
+    {
+      "gap_id": "G03",
+      "text": "The routing decisions made by the gating network are often opaque 'black boxes,' making it difficult to debug model failures or understand its reasoning process. A gap exists in developing routing strategies that are both effective and inherently interpretable, allowing us to understand *why* a token was sent to a specific expert.",
+      "keywords": [],
+      "evidence_ids": [
+        "EV004"
+      ],
+      "testable": true,
+      "difficulty": "medium",
+      "source": "llm"
+    },
+    {
+      "gap_id": "G04",
+      "text": "Routing in MoE models is typically static, determined by the learned gating network before or during the forward pass. This ignores the potential for the model to adapt its computational path based on the context of the entire input sequence or even previous outputs, which could be more efficient and powerful.",
+      "keywords": [],
+      "evidence_ids": [
+        "EV005"
+      ],
+      "testable": true,
+      "difficulty": "hard",
+      "source": "llm"
+    },
+    {
+      "gap_id": "G05",
+      "text": "The routing mechanism itself can be a vulnerability. An adversary could craft inputs designed to systematically overload specific experts or force the model into a low-capacity routing configuration, degrading performance or leaking information about the model's internal structure.",
+      "keywords": [],
+      "evidence_ids": [
+        "EV006"
+      ],
+      "testable": true,
+      "difficulty": "medium",
+      "source": "llm"
+    },
+    {
+      "gap_id": "G06",
+      "text": "As the number of experts scales to thousands, the computational cost of the routing step (selecting top-k experts and computing their outputs) can become a bottleneck. Current strategies do not explicitly account for the communication and computation costs of the routing mechanism itself when making routing decisions.",
+      "keywords": [],
+      "evidence_ids": [
+        "EV007"
+      ],
+      "testable": true,
+      "difficulty": "hard",
+      "source": "llm"
+    }
+  ],
+  "idea_tree": [],
+  "reviewer_scores": [],
+  "experiment_candidates": [],
+  "approval_status": {},
+  "micro_probe_results": [],
+  "probe_results": [],
+  "ablation_results": [],
+  "mvp_results": [],
+  "failed_ideas": [],
+  "validation_results": [],
+  "paper_readiness_level": "RRL-0",
+  "final_output_path": "/Users/mohanganesh/OpenClaw-Lab/openresearchos/runs/run_20260602194243_mixture-of-experts-routing-strateg_34315d/research_failure_report.md",
+  "history": [
+    {
+      "at": "2026-06-02T19:42:59.303Z",
+      "state": "TOPIC_SCOPED",
+      "detail": "The topic can be explored with small simulations, synthetic data, or lightweight local experiments on the Mac."
+    },
+    {
+      "at": "2026-06-02T19:42:59.303Z",
+      "state": "SEARCH_PLAN_CREATED",
+      "detail": "15 queries created (LLM-generated)."
+    },
+    {
+      "at": "2026-06-02T19:43:03.261Z",
+      "state": "LITERATURE_DISCOVERY_RUNNING",
+      "detail": "Starting structured literature discovery."
+    },
+    {
+      "at": "2026-06-02T19:43:15.524Z",
+      "state": "EVIDENCE_LOCKED",
+      "detail": "70 papers found (target was 50+)."
+    },
+    {
+      "at": "2026-06-02T19:58:41.738Z",
+      "state": "RESEARCH_MAP_READY",
+      "detail": "Research map generated."
+    },
+    {
+      "at": "2026-06-02T19:58:41.740Z",
+      "state": "GAPS_IDENTIFIED",
+      "detail": "6 gaps identified."
+    },
+    {
+      "at": "2026-06-02T20:18:59.833Z",
+      "state": "PAPER_READINESS_REVIEW",
+      "detail": "research_failure_report_required"
+    },
+    {
+      "at": "2026-06-02T20:18:59.836Z",
+      "state": "PAPER_DRAFTED_OR_STOPPED",
+      "detail": "Failure report produced."
+    },
+    {
+      "at": "2026-06-02T20:18:59.836Z",
+      "state": "VENUE_FIT_DONE",
+      "detail": "Venue fit written."
+    },
+    {
+      "at": "2026-06-02T20:18:59.836Z",
+      "state": "TRACE_EXPORTED",
+      "detail": "Trace export command written."
+    }
+  ],
+  "discovery_errors": [],
+  "method_matrix": []
+}

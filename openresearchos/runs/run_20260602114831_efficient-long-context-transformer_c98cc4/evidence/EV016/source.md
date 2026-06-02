@@ -1,0 +1,10 @@
+# EV016: Deep learning–based spectrum sensing for cognitive wireless sensor networks using MMA blind equalization with CNN–transformer architecture
+
+URL: https://www.semanticscholar.org/paper/039779785c8f8fbf639897a1203971ec7553369d
+Year: 2026
+Source: semantic_scholar
+Arxiv: n/a
+
+## Abstract
+
+Spectrum sensing is one of the prominent mechanisms used in Dynamic Spectrum Access (DSA) systems to exploit available free spectrum bands while not causing interference to primary users and for efficient utilization of scarce radio spectrum for wireless services. In the context of cognitive radio sensor networks, channel distortions and noise uncertainty, especially at low signal-to-noise ratio (SNR) levels reduce the reliability of spectrum sensing. To overcome these issues, in the proposed work, a deep learning-based blind equalization-aided spectrum sensing model is proposed, which leverages the Multi-Modulus Algorithm (MMA) in a CNN–Transformer network for spectrum sensing. The MMA blind equalization method is used as a preprocessing stage to mitigate channel-induced distortions under Rayleigh Fading Channel and AWGN noise. The goal of blind equalization is to refine the received signal samples to mitigate the distortions caused by the channel so that the following deep learning architecture can be able to classify the presence or absence of a primary user signal to identify available free channels of the spectrum. The resulting equalized samples are passed to a CNN–Transformer hybrid model that leverages convolutional layers to capture relevant local features, while the Transformer network supports the spectral occupancy classification task by focusing on long-range dependencies. The approach was tested with SNRs from −20 to +18 dB, measuring detection probability, false alarm probability, and sensing error probability. Experimental results show that the proposed approach outperforms existing models by achieving better performance at low-SNR conditions in terms of high detection probability and false alarm and sensing error reductions.

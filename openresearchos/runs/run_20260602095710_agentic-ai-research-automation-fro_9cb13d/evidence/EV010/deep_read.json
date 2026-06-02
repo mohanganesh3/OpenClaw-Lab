@@ -1,0 +1,30 @@
+{
+  "method_summary": "The paper describes a conceptual framework for integrating generative AI into information access systems, focusing on two paradigms: direct information generation and information synthesis.",
+  "key_innovation": "Proposing a unified categorization of generative AI's impact on information access into 'information generation' and 'information synthesis' paradigms.",
+  "datasets_used": [],
+  "baselines_compared": [
+    "Traditional information retrieval systems such as search engines and recommendation platforms"
+  ],
+  "key_results": {},
+  "best_result": "",
+  "limitations_stated": [
+    "Traditional systems fall short for less common (long-tail) information needs and creative creation scenarios."
+  ],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "medium",
+  "compute_required": "Not specified",
+  "can_run_on_macbook": false,
+  "evidence_id": "EV010",
+  "title": "Foundations of GenIR",
+  "year": 2025,
+  "arxiv_id": "2501.02842",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

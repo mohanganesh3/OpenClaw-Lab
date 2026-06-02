@@ -1,0 +1,6 @@
+{
+  "introduction": "[2502.12677] Spiking Vision Transformer with Saccadic Attention\n\nSpiking Vision Transformer with Saccadic\n\nAttention\n\nShuai Wang  1  , Malu Zhang  1  , Dehao Zhang  1  , Ammar Belatreche  2  ,  Yichen",
+  "method": "tskiy,  2020 )  revolutionize the traditional computer vision field, achieving higher performance in many vision tasks such as image classification  (Chen et al.,  2021 ; Han et al.,  2023 )  and obje",
+  "results": "K\n\n) pairs. However, they fail to account for whether the Dot-Product is well-suited to the binary spike characteristics of SNNs.\nSubsequently, inspired by Metaformer  (Yu et al.,  2023 ) , Spike-driv",
+  "conclusion": "further develop a SNN-based Saccadic Vision Transformer. The summary contributions are as follows:\n\n•\n\nWe thoroughly analyze the reasons for the mismatch between the vanilla self-attention mechanism a"
+}

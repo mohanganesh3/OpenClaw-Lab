@@ -1,0 +1,49 @@
+{
+  "title": "Multiagent Continual Coordination via Progressive Task Contextualization",
+  "method": {
+    "problem": "Limitations of mainstream cooperative MARL methods that assume agents have access to data from all tasks simultaneously",
+    "approach": "Continual Reinforcement Learning to avoid catastrophic forgetting while enabling knowledge transfer",
+    "framework": "MACPro",
+    "components": [
+      {
+        "name": "multi-agent task context extraction module",
+        "mechanism": "product-of-expert (POE) mechanism to extract and integrate information into a latent space"
+      },
+      {
+        "name": "contrastive regularizer",
+        "purpose": "optimize learned representation by pulling similar tasks together and pushing dissimilar ones apart"
+      },
+      {
+        "name": "expandable multi-head policy architecture",
+        "description": "separate independent heads that are synchronously expanded with newly instantiated contexts"
+      },
+      {
+        "name": "shared feature extraction module",
+        "description": "shared across different task contexts"
+      },
+      {
+        "name": "policy distillation",
+        "purpose": "approximate policy head selection process using local information of each agent in centralized training"
+      }
+    ]
+  },
+  "evaluation": {
+    "benchmarks": [
+      "level-based foraging (LBF)",
+      "predator-prey (PP)",
+      "StarCraft Multi-Agent Challenge benchmark (SMAC)"
+    ],
+    "setting": "continual setting"
+  },
+  "evidence_id": "EV025",
+  "year": 2023,
+  "arxiv_id": "2305.13937",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

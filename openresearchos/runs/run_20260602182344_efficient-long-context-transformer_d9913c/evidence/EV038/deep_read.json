@@ -1,0 +1,63 @@
+{
+  "paper_title": "Exploring Diffusion Transformer Designs via Grafting",
+  "methodology": {
+    "name": "Grafting",
+    "description": "A two-stage approach for editing pretrained diffusion transformer architectures",
+    "stages": [
+      {
+        "name": "Activation Distillation",
+        "purpose": "Transfers functionality of original operator to new operator using regression objective"
+      },
+      {
+        "name": "Lightweight Finetuning",
+        "purpose": "Mitigates error propagation from integrating multiple new operators"
+      }
+    ],
+    "strategies": [
+      "Operator replacement",
+      "Adding operators",
+      "Removing operators",
+      "Architecture restructuring"
+    ]
+  },
+  "key_questions": [
+    {
+      "question": "Operator initialization",
+      "description": "How to initialize a new operator before integrating it into the computational graph"
+    },
+    {
+      "question": "Error accumulation",
+      "description": "How to mitigate error propagation as multiple operators are integrated into the computational graph"
+    }
+  ],
+  "results": {
+    "fid_score": 2.77,
+    "comparison": "Better quality than other models of comparable depth"
+  },
+  "resources": {
+    "code_and_models": "grafting.stanford.edu"
+  },
+  "authors": {
+    "equal_contribution": "*",
+    "equal_senior_authorship": "†",
+    "liquid_ai_affiliation": "‡",
+    "correspondence": "{keshik,poli}@stanford.edu"
+  },
+  "applications": [
+    "Image generation",
+    "Video generation"
+  ],
+  "inspiration": "Horticultural grafting, where efficient components (scions) are integrated into established systems (rootstock)",
+  "evidence_id": "EV038",
+  "title": "Exploring Diffusion Transformer Designs via Grafting",
+  "year": 2025,
+  "arxiv_id": "2506.05340",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7997,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

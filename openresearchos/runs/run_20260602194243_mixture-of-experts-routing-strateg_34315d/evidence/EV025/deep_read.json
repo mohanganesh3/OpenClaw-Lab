@@ -1,0 +1,42 @@
+{
+  "title": "DMSC: Dynamic Multi-Scale Coordination Framework for Time Series Forecasting",
+  "field": "Time Series Forecasting (TSF)",
+  "applications": [
+    "energy consumption",
+    "healthcare monitoring",
+    "transportation scheduling",
+    "weather forecasting",
+    "economics",
+    "urban computing"
+  ],
+  "challenges": [
+    "non-stationarity",
+    "complex interconnections",
+    "modeling multiscale temporal dependencies",
+    "balancing fine-grained local details and holistic global trends"
+  ],
+  "proposed_solution": "Dynamic Multi-Scale Coordination (DMSC) framework",
+  "key_features": [
+    "dynamically decomposes time series",
+    "extracts features across scales",
+    "addresses fixed-scale decomposition limitations",
+    "improves holistic dependency modeling"
+  ],
+  "limitations_of_existing_approaches": [
+    "dependence on fixed-scale decomposition strategies",
+    "fragmented processing of temporal dependencies and cross-variable interactions",
+    "simplistic fusion methods that fail to leverage heterogeneous dominance patterns",
+    "quadratic parameter growth with increasing input lengths and scale counts"
+  ],
+  "evidence_id": "EV025",
+  "year": 2025,
+  "arxiv_id": "2508.02753",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

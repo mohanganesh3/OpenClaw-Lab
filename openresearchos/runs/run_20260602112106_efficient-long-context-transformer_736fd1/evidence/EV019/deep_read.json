@@ -1,0 +1,26 @@
+{
+  "paper_title": "LeViT: a Vision Transformer in ConvNet’s Clothing for Faster Inference",
+  "model_name": "LeViT",
+  "claims_or_findings": [
+    "LeViT spends less time calculating the attention Q"
+  ],
+  "figure_references": [
+    "Figure 4"
+  ],
+  "method_components": [
+    "Vision Transformer",
+    "ConvNet"
+  ],
+  "evidence_id": "EV019",
+  "title": "LeViT: a Vision Transformer in ConvNet’s Clothing for Faster Inference",
+  "year": 2021,
+  "arxiv_id": "2104.01136",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 5166,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

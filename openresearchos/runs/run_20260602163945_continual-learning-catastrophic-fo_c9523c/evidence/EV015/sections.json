@@ -1,0 +1,6 @@
+{
+  "introduction": "[2210.16365] Elastic Weight Consolidation Improves the Robustness of Self-Supervised Learning Methods under Transfer\n\n\\foreach  \\x\n\nin a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z\n\n\\foreach  \\x",
+  "method": "ns have recently gained\npopularity within the deep learning community, bridging the gap with\nsupervised discriminative methods in vision\n (Caron et al.,  2021 ; Goyal et al.,  2021 ; Grill et al.,  20",
+  "results": "e a method to alleviate\nthis. Finally, we show that with ViT-B/16 this regularization can be used\nto improve worst group accuracy on Waterbirds  (Sagawa et al.,  2019 )  and\nCeleb-A  (Liu et al.,  201",
+  "conclusion": ")\n\n≈\n\n−\n\n1  2\n\n​\n\n(\n\nθ  −\n\nθ  SSL\n\n)\n\n⊤\n\n​  H  ​\n\n(\n\nθ  SSL\n\n)\n\n​\n\n(\n\nθ  −\n\nθ  SSL\n\n)\n\n=\n\n−\n\n1  2\n\n​\n\n‖\n\nθ  −\n\nθ  SSL\n\n‖\n\nH  ​\n\n(\n\nθ  SSL\n\n)\n\n2\n\n.\n\n𝑝\n\nconditional  𝜃\n\nsubscript  𝒟\n\nSSL\n\n1  2\n\nsuper"
+}

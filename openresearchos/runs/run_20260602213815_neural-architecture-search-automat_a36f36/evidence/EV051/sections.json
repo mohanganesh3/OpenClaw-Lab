@@ -1,0 +1,6 @@
+{
+  "introduction": "[2001.08437] Multi-objective Neural Architecture Search via Non-stationary Policy Gradient\n\nMulti-objective Neural Architecture Search\n via Non-stationary Policy Gradient\n\nZewei Chen, Fengwei Zhou, Ge",
+  "method": "objectives such as inference time and energy consumption must be considered.\nThe trade-off among different objectives is typically captured by the Pareto front, i.e., the set of Pareto-optimal archite",
+  "results": "ization to obtain an optimal policy for a similar scalarization. For evolution, we can\ncontinuously change the policy to produce architectures that Pareto-dominate existing ones.\nInspired by this obse",
+  "conclusion": "ture to better balance exploration and exploitation, which is inspired by prior work on multi-armed bandits ( ? ).\nFurthermore, a common challenge for NAS concerns architecture evaluation.\nTechniques "
+}

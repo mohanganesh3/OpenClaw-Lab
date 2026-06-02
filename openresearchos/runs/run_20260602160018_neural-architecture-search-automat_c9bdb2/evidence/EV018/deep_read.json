@@ -1,0 +1,38 @@
+{
+  "title": "GeNAS: Neural Architecture Search with Better Generalization",
+  "focus": "Improving generalization of architectures found through Neural Architecture Search (NAS)",
+  "methodology": {
+    "problem": "Quantitative measurement of generalizability during architecture search is under-explored",
+    "approach": "Finding an optimal proxy measurement to discriminate generalizable architectures",
+    "comparison": "Angle-Based Search (ABS) vs. Flatness-Based Search (FBS)",
+    "previous_methods": [
+      "DARTS (differentiable search)",
+      "SPOS (evolutionary search)",
+      "RLNAS's Angle-Based Search (ABS)"
+    ],
+    "limitations": "Performance-based search (PBS) methods show poor generalizability on test sets and other tasks"
+  },
+  "key_findings": [
+    "Low correlation between angle measure and flatness measure on NAS-Bench-201",
+    "Architectures with fast convergence during training tend to show better generalizability",
+    "ABS estimates angle between initial and final network parameters as a proxy for generalizability",
+    "Flat loss minima can achieve low generalization error even with distribution gaps"
+  ],
+  "datasets": [
+    "CIFAR-10",
+    "CIFAR-100",
+    "ImageNet16-120"
+  ],
+  "benchmark": "NAS-Bench-201",
+  "evidence_id": "EV018",
+  "year": 2023,
+  "arxiv_id": "2305.08611",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7997,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

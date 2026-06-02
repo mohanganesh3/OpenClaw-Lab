@@ -1,0 +1,47 @@
+{
+  "title": "Smooth Variational Graph Embeddings for Efficient Neural Architecture Search",
+  "authors": "Not specified in provided text",
+  "abstract": "The paper introduces Smooth Variational Graph Embeddings (SVGe), a two-sided variational encoder-decoder GNN for neural architecture search. It improves upon D-VAE by being three times faster, showing improved Bayesian Optimization results, being applicable to various NAS search spaces (ENAS, NAS-Bench-101, NAS-Bench-201), allowing supervised learning of architecture performance prediction, and extrapolating from observed architectures at test time.",
+  "index_terms": [
+    "representation learning",
+    "neural architecture search",
+    "graph neural network",
+    "deep learning"
+  ],
+  "method": {
+    "model": "Smooth Variational Graph Embeddings (SVGe)",
+    "description": "A two-sided variational encoder-decoder GNN for neural architecture search",
+    "architecture": {
+      "input": "Neural architecture graph",
+      "encoder": "Two GNN modules (forward encoder and backward encoder) to create a latent representation",
+      "decoder": "Decodes forward and backward pass separately, generating two graphs sequentially",
+      "output": "Union of the two generated graphs"
+    },
+    "foundation": "Inherits from variational autoencoders"
+  },
+  "results": {
+    "performance": [
+      "Three times faster than D-VAE",
+      "Improved Bayesian Optimization results on ENAS search space"
+    ],
+    "applicability": [
+      "Can be applied to NAS-Bench-101 and NAS-Bench-201 search spaces",
+      "Allows supervised learning of architecture performance prediction",
+      "Can extrapolate from observed architectures at test time"
+    ]
+  },
+  "contributions": [
+    "Introduction of a novel graph variational autoencoder, SVGe"
+  ],
+  "evidence_id": "EV013",
+  "year": 2020,
+  "arxiv_id": "2010.04683",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

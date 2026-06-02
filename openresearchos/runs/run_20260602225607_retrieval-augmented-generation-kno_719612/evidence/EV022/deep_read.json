@@ -1,0 +1,44 @@
+{
+  "title": "Privacy Challenges and Solutions in Retrieval-Augmented Generation-Enhanced LLMs for Healthcare Chatbots: A Review of Applications, Risks, and Future Directions",
+  "keywords": [
+    "Data Privacy",
+    "Retrieval-Augmented Generation",
+    "Large Language Models",
+    "Privacy-Preserving",
+    "Privacy Risks",
+    "Healthcare Informatics",
+    "Clinical Applications"
+  ],
+  "abstract": "Large Language Models (LLMs) are rapidly transforming healthcare delivery, supporting diverse applications from patient care and education to clinical documentation and decision support. However, their deployment in high-stakes clinical environments is constrained by well-documented limitations, such as hallucinations, inherent data biases, and the lack of explainability, which compromise safe and accountable use of LLMs. Retrieval-Augmented Generation (RAG) has emerged as a promising solution to this challenge by conditioning generation on curated information from authoritative sources, including clinical guidelines, textbooks, and medical records. RAG mitigates LLM limitations through a three-step process: (i) embedding and indexing vetted medical knowledge, (ii) retrieving context relevant to user queries, and (iii) conditioning the generator on that context. Despite these advantages, the integration of RAG into healthcare workflows introduces unique and complex privacy challenges that extend beyond those encountered in traditional health information technology or standalone LLMs.",
+  "methodology": "This review provides researchers and practitioners with a structured framework for understanding privacy vulnerabilities in healthcare RAG and offers a roadmap toward developing systems that achieve both clinical effectiveness and robust privacy preservation.",
+  "results": "Healthcare RAG deployments are being integrated into high-stakes workflows, including triage chatbots, discharge counselling, guideline lookup, radiology consultation, and rare disease support, that routinely process patient-linked text, institution-specific documents, and population-level datasets. Even when data repositories are considered \"de-identified,\" they remain vulnerable to privacy breaches. Techniques such as embedding inversion attacks, prompt injection, and membership inference can re-identify individuals or re-expose sensitive information. The incorporation of retrieval mechanisms into LLM pipelines fundamentally reshapes the privacy risk surface. Healthcare RAG systems may handle sensitive health information (SHI), including protected health information (PHI) and institution-specific knowledge (i.e., internal clinical protocols, supplier contracts, operational staffing models and metrics), across multiple architectural components (indexers, vector stores, re-rankers, generators) and computational boundaries (on-device, on-premises, cloud). Each processing stage, cache layer, and data transformation introduces potential leakage channels. Beyond classical threats such as database compromise and insecure APIs, RAG introduces content-driven attack vectors: prompt injection that coerces unsaf",
+  "authors": [
+    "mahapatra",
+    "xu",
+    "kelly",
+    "son",
+    "neha",
+    "busch",
+    "kreimeyer",
+    "huang",
+    "anderson"
+  ],
+  "publication_year": 2025,
+  "focus_areas": [
+    "Privacy challenges in healthcare RAG",
+    "Privacy-preserving techniques for RAG",
+    "Applications of RAG in healthcare",
+    "Privacy risks in healthcare chatbots"
+  ],
+  "evidence_id": "EV022",
+  "year": 2025,
+  "arxiv_id": "2511.11347",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

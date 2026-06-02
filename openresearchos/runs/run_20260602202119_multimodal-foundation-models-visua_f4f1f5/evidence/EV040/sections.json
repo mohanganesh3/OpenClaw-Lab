@@ -1,0 +1,6 @@
+{
+  "introduction": "Commonsense for Zero-Shot Natural Language Video Localization\n\nIntroduction\n\nRelated Work\n\nNatural Language Video Localization (NLVL)\n\nWeakly Supervised and Zero-shot NLVL Methods\n\nCommonsense in Vide",
+  "method": "NLVL models exclusively with raw video data by dynamically generating video segments and pseudo-query annotations.\nHowever, existing pseudo-queries often lack grounding in the source video, resulting ",
+  "results": "red with meticulous annotations of video moments and corresponding textual descriptions. Figure\n\n1\n\nillustrates the annotation requirements for different levels of supervision in NLVL. Fully supervise",
+  "conclusion": "m et al.  2021 ; Mun, Cho, and Han  2020 ) . However, in the zero-shot/pseudo-supervised setting, where queries are in a simpler form without structural information, finding common ground between moda"
+}

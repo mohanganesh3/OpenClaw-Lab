@@ -1,0 +1,39 @@
+{
+  "method_summary": "Zero-shot learning approach with two levels of independent queries, including chain-of-thought prompting, to evaluate LLM chatbots on Alzheimer's dementia detection from spontaneous speech recordings.",
+  "key_innovation": "Evaluation of ChatGPT and Bard for Alzheimer's dementia detection using zero-shot learning with chain-of-thought prompting",
+  "datasets_used": [
+    "spontaneous speech recordings (dataset not explicitly named)"
+  ],
+  "baselines_compared": [
+    "ChatGPT (GPT-4)",
+    "Bard",
+    "chance-level performance"
+  ],
+  "key_results": {
+    "AD_detection_recall": "89%",
+    "AD_detection_F1_score": "71%",
+    "CN_detection_true_negative_rate": "56%",
+    "CN_detection_F1_score": "62%"
+  },
+  "best_result": "Bard achieved 89% recall and 71% F1 score for AD detection",
+  "limitations_stated": [
+    "LLM chatbots do not currently satisfy clinical application for Alzheimer's detection"
+  ],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "medium",
+  "compute_required": "not specified",
+  "can_run_on_macbook": false,
+  "evidence_id": "EV025",
+  "title": "Performance Assessment of ChatGPT vs Bard in Detecting Alzheimer's Dementia",
+  "year": 2024,
+  "arxiv_id": "2402.01751",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 5172,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

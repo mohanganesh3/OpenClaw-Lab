@@ -1,0 +1,6 @@
+{
+  "introduction": "[2602.19261] DGPO: RL-Steered Graph Diffusion for Neural Architecture Generation\n\nDGPO: RL-Steered Graph Diffusion for\n Neural Architecture Generation\n\nAleksei Liuliakov\n\n,\nLuca Hermes\n\n,\nBarbara Hamm",
+  "method": "ibutions, with recent extensions to graph-structured data  [ 1 ]  enabling direct generation of molecular graphs and other combinatorial objects.\nReinforcement learning (RL) fine-tuning steers pretrai",
+  "results": ".32 percentage points of the full-data model and extrapolating up to 7.3pp beyond its training ceiling.\nWe provide additional evidence for reward-driven steering via bidirectional control, where inver",
+  "conclusion": "gnment.\nGDPO  [ 3 ]  adapts the framework to molecular graph generation using reward-weighted denoising trajectories.\nThese methods operate on undirected structures (images, molecules); DGPO extends t"
+}

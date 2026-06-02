@@ -1,0 +1,124 @@
+{
+  "paper_title": "Branch, or Layer? Zeroth-Order Optimization for Continual Learning of Vision-Language Models",
+  "architectures": [
+    {
+      "type": "Convolutional architectures",
+      "examples": [
+        "ResNet"
+      ]
+    },
+    {
+      "type": "Vision Transformer (ViT)",
+      "variants": [
+        "vit_1",
+        "vit_2",
+        "vit_3"
+      ]
+    },
+    {
+      "type": "CLIP-based methods",
+      "variants": [
+        "clip_cl_1",
+        "clip_cl_2"
+      ]
+    },
+    {
+      "type": "ZSCL",
+      "description": "Introduces unlabeled reference dataset for knowledge distillation"
+    },
+    {
+      "type": "Mod-X",
+      "description": "Maintains consistency in multimodal representation spaces through loss functions"
+    },
+    {
+      "type": "MoE4Adapter",
+      "description": "Uses Parameter-Efficient Fine-Tuning (PEFT) strategies"
+    }
+  ],
+  "optimization_strategies": [
+    {
+      "type": "First-order (FO) optimization",
+      "examples": [
+        "SGD",
+        "Adam"
+      ],
+      "reference": "overview_opti"
+    },
+    {
+      "type": "Zeroth-order (ZO) optimization",
+      "examples": [
+        "MeZO",
+        "MaZO"
+      ],
+      "references": [
+        "mezo",
+        "maskzo"
+      ]
+    },
+    {
+      "type": "Parameter-Efficient Fine-Tuning (PEFT)",
+      "variants": [
+        "peft",
+        "peft1",
+        "peft2"
+      ]
+    },
+    {
+      "type": "ZeroFlow",
+      "description": "Compares FO optimization strategies and finds ZO advantages in alleviating catastrophic forgetting"
+    }
+  ],
+  "approaches": [
+    {
+      "name": "ZSCL",
+      "description": "Introduces unlabeled reference dataset for knowledge distillation to guide parameter space optimization"
+    },
+    {
+      "name": "Mod-X",
+      "description": "Maintains consistency in multimodal representation spaces through specially designed loss functions"
+    },
+    {
+      "name": "MoE4Adapter",
+      "description": "Adopts PEFT strategies to reduce computational overhead while maintaining competitive performance"
+    },
+    {
+      "name": "MeZO and MaZO",
+      "description": "Leverage ZO optimization to address memory challenges in fine-tuning large language models"
+    },
+    {
+      "name": "ZeroFlow",
+      "description": "Systematically compares FO optimization strategies and discovers ZO advantages in alleviating catastrophic forgetting"
+    }
+  ],
+  "investigations": [
+    {
+      "name": "Investigation 1",
+      "question": "Can ZO and FO collaborate for global model optimization across branches?",
+      "method": "Implement ZO in either the visual or linguistic modality branch while retaining FO in the other",
+      "result": "Significantly outperforms the naive full-ZO approach"
+    },
+    {
+      "name": "Investigation 2",
+      "question": "Can ZO and FO collaborate for hierarchical optimization within branch layers?",
+      "method": "Deploy ZO only in specific layers (e.g., odd or consecutive layers) within a single branch while keeping FO in the remaining layers",
+      "result": "Yields better results, with certain configurations surpassing the full-FO baseline"
+    }
+  ],
+  "stabilization_mechanism": {
+    "target": "Visual branch",
+    "purpose": "Constrain ZO's search range",
+    "benefit": "Improves optimization convergence and overall continual learning performance"
+  },
+  "evidence_id": "EV026",
+  "title": "Branch, or Layer? Zeroth-Order Optimization for Continual Learning of Vision-Language Models",
+  "year": 2025,
+  "arxiv_id": "2506.12409",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

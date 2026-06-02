@@ -1,0 +1,6 @@
+{
+  "introduction": "[2110.06018] On the Security Risks of AutoML\n\nOn the Security Risks of AutoML\n\nRen Pang\n Pennsylvania State University\n\nZhaohan Xi\n Pennsylvania State University\n\nShouling Ji\n Zhejiang University\n\nXia",
+  "method": "to mitigate such drawbacks, including increasing cell depth and suppressing skip connects, which lead to several promising research directions.\n\n1  Introduction\n\nAutomated Machine Learning (AutoML) re",
+  "results": "–  If so, what are the possible root causes of such vulnerability?\n\nRQ3 –  Further, how would ML practitioners mitigate such drawbacks in designing and operating NAS?\n\nThe answers to these key questio",
+  "conclusion": "odel performance. We deem understanding the fundamental trade-off between model performance, attack robustness and search efficiency as an important topic for further investigation.\n\nContributions –  "
+}

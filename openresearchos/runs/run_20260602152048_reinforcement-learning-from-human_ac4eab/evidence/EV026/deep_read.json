@@ -1,0 +1,62 @@
+{
+  "paper_title": "Beyond Correctness: Evaluating Subjective Writing Preferences Across Cultures",
+  "metadata": {
+    "dataset": {
+      "name": "WritingPreferenceBench",
+      "description": "A cross-lingual dataset of 1,800 human-annotated preference pairs designed to isolate subjective writing quality by neutralizing objective confounds.",
+      "size": 1800,
+      "languages": [
+        "English",
+        "Chinese"
+      ],
+      "confounds_neutralized": [
+        "grammatical errors",
+        "factual mistakes",
+        "length differences"
+      ],
+      "quality_dimensions": [
+        "creativity",
+        "stylistic sophistication",
+        "emotional resonance"
+      ]
+    },
+    "evaluation": {
+      "models_evaluated": 21,
+      "model_types": [
+        "sequence-based reward models (SC-RM)",
+        "zero-shot language model judges",
+        "generative reward models (GenRM)"
+      ],
+      "key_metrics": {
+        "sequence_based_rm_accuracy": "52.7%",
+        "zero_shot_llm_accuracy": "53.9%",
+        "generative_rm_accuracy": "81.8%",
+        "performance_gap": "29-percentage-point gap between generative reward models and other architectures."
+      },
+      "key_findings": [
+        "Sequence-based and zero-shot models perform at near-random levels on subjective preference tasks.",
+        "Generative reward models with explicit reasoning chains achieve significantly higher accuracy (81.8%).",
+        "All evaluated architectures exhibit severe genre instability (mean standard deviation 10.9%).",
+        "Performance does not consistently improve with model scale (e.g., 27B vs 8B)."
+      ]
+    },
+    "benchmark_limitations_identified": [
+      "RewardBench conflates safety with preference.",
+      "WritingBench mixes creative with functional tasks.",
+      "LitBench uses Reddit upvotes as quality proxies.",
+      "Existing benchmarks predominantly focus on English, leaving cross-lingual preference evaluation largely unexplored."
+    ]
+  },
+  "evidence_id": "EV026",
+  "title": "Beyond Correctness: Evaluating Subjective Writing Preferences Across Cultures",
+  "year": 2025,
+  "arxiv_id": "2510.14616",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

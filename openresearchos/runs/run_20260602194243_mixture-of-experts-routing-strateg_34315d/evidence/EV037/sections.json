@@ -1,0 +1,6 @@
+{
+  "introduction": "[2603.02227] Routing Absorption in Sparse Attention: Why Random Gates Are Hard to Beat\n\nRouting Absorption in Sparse Attention:\n Why Random Gates Are Hard to Beat\n\nKeston Aquino-Michaels\n No Way Labs\n",
+  "method": "arning from sparsification, sidestep this entirely.\n\n1  Introduction\n\nAttention is concentrated.\nIn a 31M-parameter transformer trained on WikiText-103, the top 64\nout of 512 key positions per query c",
+  "results": "ed Q/K/V projections\nenable cross-layer compensation that makes absorption more severe.\n\nThe contribution of this paper is not a method but an analysis.\nWe present four controlled experiments on a 31M",
+  "conclusion": "k\n\n(  h  )\n\n)\n\n⊤\n\n/\n\nd  gate\n\nG^{(h)}=(xW_{gq}^{(h)})(xW_{gk}^{(h)})^{\\top}/\\sqrt{d_{\\text{gate}}}\n\n.\nWith\n\nd  gate\n\nd_{\\text{gate}}\n\n=32, this adds 393K parameters (1.3% of the model).\n\nWe use this s"
+}

@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "run_id": "run_20260602123449_efficient-long-context-transformer_f4a531",
+  "topic": "efficient long-context transformers",
+  "created_at": "2026-06-02T12:35:26.162Z",
+  "updated_at": "2026-06-02T12:35:26.162Z",
+  "current_state": "SEARCH_PLAN_CREATED",
+  "scope_classification": {
+    "label": "local_experiment",
+    "rationale": "The topic can be explored with small simulations, synthetic data, or lightweight local experiments on the Mac.",
+    "feasibility_note": "Yes, experimenting with efficient long-context transformers is feasible on your MacBook M4 with 36GB RAM and MPS GPU, though you'll need to carefully select models and batch sizes to stay within memory constraints. Suitable datasets include Long Range Arena (LRA) for systematic long-context evaluation, PG19 for long-form text modeling, and CodeParrot for long code sequence generation. Expect initial setup and data preprocessing to take 1-2 hours, with training experiments ranging from 30 minutes"
+  },
+  "search_queries": [
+    "sparse attention",
+    "linear attention",
+    "state space models",
+    "sliding window attention",
+    "long document summarization",
+    "genomics transformers",
+    "time series forecasting",
+    "longbench evaluation",
+    "ruler benchmark",
+    "memory scalability",
+    "position encoding issues",
+    "mamba architecture",
+    "rwkv transformers",
+    "long context datasets",
+    "efficient transformers survey"
+  ],
+  "evidence_ids": [],
+  "parsed_papers": [],
+  "claim_graph": {
+    "claims": [],
+    "links": []
+  },
+  "research_gaps": [],
+  "idea_tree": [],
+  "reviewer_scores": [],
+  "experiment_candidates": [],
+  "approval_status": {},
+  "micro_probe_results": [],
+  "probe_results": [],
+  "ablation_results": [],
+  "mvp_results": [],
+  "failed_ideas": [],
+  "validation_results": [],
+  "paper_readiness_level": "RRL-0",
+  "final_output_path": null,
+  "history": [
+    {
+      "at": "2026-06-02T12:35:26.162Z",
+      "state": "TOPIC_SCOPED",
+      "detail": "The topic can be explored with small simulations, synthetic data, or lightweight local experiments on the Mac."
+    },
+    {
+      "at": "2026-06-02T12:35:26.162Z",
+      "state": "SEARCH_PLAN_CREATED",
+      "detail": "15 queries created (LLM-generated)."
+    }
+  ]
+}

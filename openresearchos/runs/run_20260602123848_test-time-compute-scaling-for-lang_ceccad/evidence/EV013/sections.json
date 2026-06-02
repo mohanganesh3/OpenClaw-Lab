@@ -1,0 +1,6 @@
+{
+  "introduction": "[2502.01694] Metastable Dynamics of Chain-of-Thought Reasoning: Provable Benefits of Search, RL and Distillation\n\n\\etocdepthtag\n\n.tocmtchapter\n \\etocsettagdepth mtchaptersubsection\n \\etocsettagdepth m",
+  "method": "bullet\n\n∙  \\bullet\n\n∙  \\bullet\n\n∙  \\bullet\n\n∙  \\bullet\n\n∙  \\bullet\n\n∙  \\bullet\n\n∙  \\bullet\n\n∙  \\bullet\n\n∙  \\bullet\n\n∙  \\bullet\n\n∙  \\bullet\n\n∙  \\bullet\n\ndistillation\n\nX  in\n\nX_{\\operatorname{in}}\n\nX  o",
+  "results": "through pretraining  ( Jones ,\n\n2021  ;  Snell et al. ,\n\n2024  ;  Wu et al. ,\n\n2024  ) .\n\nReasoning LLMs follow the chain-of-thought (CoT)  ( Nye et al. ,\n\n2021  ;  Wei et al. ,\n\n2022  )  format where",
+  "conclusion": "describes systems with multiple locally stable states separated by high energy barriers, leading to a timescale separation between local and global transitions (e.g., a reasoner may become stuck at a "
+}

@@ -1,0 +1,10 @@
+# EV005: Supervised Detail-Guided Multiscale State-Space Model for Pan-Sharpening
+
+URL: https://www.semanticscholar.org/paper/000ce38cfa710f8bb2ec777369d079a731313db3
+Year: 2025
+Source: semantic_scholar
+Arxiv: n/a
+
+## Abstract
+
+Pan-sharpening reconstructs the high-resolution multispectral (HR-MS) image from its corresponding panchromatic (PAN) image and low-resolution multispectral (LR-MS) image. However, existing deep learning (DL)-based pan-sharpening methods typically suffer from three challenges: 1) the vanilla LR-MS image upsampling employed by them fails to consider domain knowledge, thereby disregarding crucial information; 2) while remote sensing images exhibit multiscale complex land features, existing methods fail to fully exploit crucial multiscale spatial information, that is, scale transformation layers in their models are not effective; and 3) existing convolutional neural network (CNN) and transformer-based pan-sharpening backbones are constrained by inherent local receptive fields or quadratic computational complexity, making them difficult to balance their effectiveness and efficiency. To address these issues, we propose a novel supervised detail-guided multiscale state-space model for pan-sharpening, namely SDMSPan. Our SDMSPan consists of three residual state-space modules (Res-SSMs) that are responsible for handling image information at three spatial scales, where each Res-SSM aims to model both local and long-range dependencies between PAN and LR-MS images at a specific spatial scale with lower computational cost. Between each pair of Res-SSMs, a novel detail-guided upsampling block (DGUB) is proposed to apply spatial details of the PAN image to guide effective and task-aware intermediate feature upsampling, where a novel multiscale intermediate spatial-spectral supervision strategy is also proposed to supervise the training of every DGUB. Experimental results demonstrate that our proposed approach significantly outperforms other state-of-the-art methods in performance. Our code is provided at https://github.com/zhaomengjiao123/SDMSPan.

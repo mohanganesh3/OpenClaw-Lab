@@ -1,0 +1,6 @@
+{
+  "introduction": "[2502.20395] R2-T2: Re-Routing in Test-Time for Multimodal Mixture-of-Experts\n\nR2-T2: Re-Routing in Test-Time for Multimodal Mixture-of-Experts\n\nZhongyang Li\n\nZiyue Li\n\nTianyi Zhou\n\nAbstract\n\nIn large",
+  "method": "s and LMMs)  (Shazeer et al.,  2017 )  without (significantly) increasing the inference cost. Specifically, it allows us to increase the total number of experts, which provides finer-grained expertise",
+  "results": "(aligning visual features with language) to\n\n𝐈  aux\n\n\\mathbf{I}_{\\textsc{aux}}\n\n(aligning visual features with auxiliary computer vision features).\nThis expert shift is crucial in correcting the init",
+  "conclusion": "ve the routing weights in test-time without training any model parameters.\n\nSince routing weights encode the choices of experts with essential knowledge and key skills acquired by the input task, and "
+}

@@ -1,0 +1,82 @@
+{
+  "paper_title": "Metastable Dynamics of Chain-of-Thought Reasoning: Provable Benefits of Search, RL and Distillation",
+  "key_concepts": [
+    "Chain-of-Thought (CoT) reasoning",
+    "Metastable dynamics",
+    "Search techniques",
+    "Reinforcement Learning (RL)",
+    "Distillation methods"
+  ],
+  "methodology": {
+    "approach": "Models reasoning as graph traversal",
+    "graph_structure": "Dense clusters connected by sparse, low-probability edges",
+    "step_classification": {
+      "easy": "Within-cluster reasoning steps",
+      "hard": "Inter-cluster reasoning steps"
+    },
+    "process": [
+      "Use search to identify hard reasoning steps",
+      "Fine-tune models via RL",
+      "Distill coarse-grained dynamics into smaller models"
+    ]
+  },
+  "key_findings": [
+    "Inference computation can drastically improve reasoning capabilities",
+    "Pretraining and inference are distinct computational phases",
+    "Scaling inference computation provides advantages beyond pretraining"
+  ],
+  "related_work": [
+    {
+      "technique": "Chain-of-Thought (CoT)",
+      "references": [
+        "Nye et al., 2021",
+        "Wei et al., 2022"
+      ]
+    },
+    {
+      "technique": "RL-based approaches",
+      "references": [
+        "Bai et al., 2022"
+      ]
+    },
+    {
+      "technique": "Process reward modeling",
+      "references": [
+        "Lightman et al., 2023",
+        "Uesato et al., 2022"
+      ]
+    },
+    {
+      "technique": "Monte-Carlo Tree Search (MCTS)",
+      "references": [
+        "Silver et al., 2018",
+        "Feng et al., 2023b",
+        "Trinh et al., 2024",
+        "Xie et al., 2024"
+      ]
+    },
+    {
+      "technique": "Data self-generation",
+      "references": [
+        "Zelikman et al., 2022",
+        "Kumar et al., 2024"
+      ]
+    }
+  ],
+  "theoretical_contributions": [
+    "Expressive power and statistical efficiency of CoT",
+    "Learning on graphs as abstraction of complex reasoning tasks"
+  ],
+  "evidence_id": "EV013",
+  "title": "Metastable Dynamics of Chain-of-Thought Reasoning: Provable Benefits of Search, RL and Distillation",
+  "year": 2025,
+  "arxiv_id": "2502.01694",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

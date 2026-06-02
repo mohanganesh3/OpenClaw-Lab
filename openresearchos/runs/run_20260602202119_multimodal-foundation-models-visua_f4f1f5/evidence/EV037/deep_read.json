@@ -1,0 +1,37 @@
+{
+  "paper_title": "Ground-A-Video: Zero-shot Grounded Video Editing using Text-to-image Diffusion Models",
+  "method": {
+    "background": "Diffusion models have revolutionized text-to-image generation, but extending this to video domain faces computational challenges",
+    "approaches": [
+      "Repurposing T2I diffusion model weights for video data training",
+      "Fine-tuning T2I models on single videos",
+      "Manipulating attention maps (self-attention, cross-attention)",
+      "Using ControlNet for structure-consistent output"
+    ],
+    "challenges": "Extending T2I success to video domain requires training on expensive video datasets"
+  },
+  "results": {
+    "attribute_changes_formula": "Δτ = {τa→τa', τb→τb', τc→τc, ..., ∅→τnew}",
+    "issues_with_existing_models": [
+      "Degraded frame consistency",
+      "Severe semantic misalignment",
+      "Neglecting intended attribute edits",
+      "Modifying wrong elements",
+      "Mixing separate edits",
+      "Struggling to preserve unchanged regions"
+    ],
+    "root_cause": "The Cross-Attention layer is the single domain where complex semantic changes occur"
+  },
+  "evidence_id": "EV037",
+  "title": "Ground-A-Video: Zero-shot Grounded Video Editing using Text-to-image Diffusion Models",
+  "year": 2023,
+  "arxiv_id": "2310.01107",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

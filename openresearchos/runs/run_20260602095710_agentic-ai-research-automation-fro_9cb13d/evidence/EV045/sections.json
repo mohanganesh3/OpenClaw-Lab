@@ -1,0 +1,6 @@
+{
+  "introduction": "[2606.02544] SimSD: Simple Speculative Decoding in Diffusion Language Models\n\nSkip to main content\n\nLearn about arXiv becoming an independent nonprofit.\n\nWe gratefully acknowledge support from the Sim",
+  "method": "models. In AR decoding, the causal mask preserves temporally valid token-level contexts, enabling a target model to verify multiple drafted tokens in a single forward pass. In contrast, dLLMs rely on ",
+  "results": "uage (cs.CL) ; Artificial Intelligence (cs.AI)\n\nACM &nbsp;classes:\n\nI.2.7\n\nCite as:\n\narXiv:2606.02544  [cs.CL]\n\n&nbsp;\n\n(or\n\narXiv:2606.02544v1  [cs.CL]  for this version)\n\n&nbsp;\n\nhttps://doi.org/10.",
+  "conclusion": "CatalyzeX? )\n\nDagsHub Toggle\n\nDagsHub\n\n( What is DagsHub? )\n\nGotitPub Toggle\n\nGotit.pub\n\n( What is GotitPub? )\n\nHuggingface Toggle\n\nHugging Face\n\n( What is Huggingface? )\n\nScienceCast Toggle\n\nScienceC"
+}

@@ -1,0 +1,6 @@
+{
+  "introduction": "[2510.23479] MergeMix: A Unified Augmentation Paradigm for Visual and Multi-Modal Understanding\n\nMergeMix: A Unified Augmentation Paradigm for Visual and Multi-Modal Understanding\n\nXin Jin  1,⋆\n\nSiyua",
+  "method": "odal reasoning. Since MLLMs are typically pre-trained on massive web-scale datasets, forcing them to possess a wide range of knowledge and general reasoning capabilities, Supervised Fine-Tuning (SFT) ",
+  "results": "ixing ratios.\nHowever, two main challenges arise as illustrated in Figure\n\n1  : (1) achieving an optimal trade-off between efficiency and performance of mixup augmentations that rely on saliency-based",
+  "conclusion": "he mixed image with more continuous features.\n\n(b)\n\nWe design a training paradigm for supervised fine-tuning of MLLMs by generating augmented images as losers, building preference pairs with raw image"
+}

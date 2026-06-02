@@ -1,0 +1,78 @@
+{
+  "title": "Let LRMs Break Free from Overthinking via Self-Braking Tuning",
+  "authors": [
+    {
+      "name": "First author",
+      "contribution": "Equal contribution",
+      "affiliation": "Zhejiang University (internship)"
+    },
+    {
+      "name": "Second author",
+      "contribution": "Equal contribution",
+      "affiliation": "Not specified"
+    },
+    {
+      "name": "Corresponding author",
+      "contribution": "Corresponding author",
+      "affiliation": "Not specified"
+    }
+  ],
+  "methodology": {
+    "name": "Self-Braking Tuning (SBT)",
+    "description": "A framework that teaches LRMs to autonomously identify and terminate redundant reasoning",
+    "key_insight": "LRMs can be trained to develop an internal braking mechanism that recognizes when further reasoning becomes unproductive"
+  },
+  "results": {
+    "token_reduction": "Up to 60%",
+    "accuracy": "Comparable to unconstrained models",
+    "benchmarks": [
+      "AIME",
+      "AMC",
+      "MATH500",
+      "GSM8K"
+    ],
+    "comparisons": [
+      {
+        "model": "Qwen2.5-Math-1.5B-Instruct with SBT",
+        "dataset": "OpenR1-Math as SFT dataset",
+        "outcome": "Substantial reduction in tokens consumed during inference while maintaining comparable accuracy"
+      }
+    ]
+  },
+  "related_work": {
+    "approaches": [
+      {
+        "type": "Model optimization",
+        "methods": [
+          "Reinforcement learning (RL)",
+          "Supervised fine-tuning (SFT)"
+        ]
+      },
+      {
+        "type": "Reasoning output optimization",
+        "methods": [
+          "Dynamically reducing reasoning steps",
+          "Reducing output length"
+        ]
+      },
+      {
+        "type": "Adding external restrictions",
+        "methods": [
+          "Token budgets",
+          "Additional constraint mechanisms"
+        ]
+      }
+    ]
+  },
+  "evidence_id": "EV004",
+  "year": 2025,
+  "arxiv_id": "2505.14604",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7997,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

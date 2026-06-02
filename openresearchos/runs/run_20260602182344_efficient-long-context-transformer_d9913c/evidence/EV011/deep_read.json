@@ -1,0 +1,61 @@
+{
+  "title": "SparseMM: Head Sparsity Emerges from Visual Concept Responses in MLLMs",
+  "summary": "This paper investigates how visual concepts are processed in Multimodal Large Language Models (MLLMs). It identifies a small subset of attention heads, termed 'visual heads', that are disproportionately responsible for visual comprehension. The authors find these heads are both sparse (less than 5% of total heads) and universal (emerging across different architectures and attention paradigms). Based on this, they propose SparseMM, a KV-Cache optimization framework to accelerate inference by leveraging this sparsity.",
+  "methodology": {
+    "visual_head_identification": {
+      "approach": "A training-free framework using targeted cross-modal response analysis.",
+      "anchor_task": "OCR (Optical Character Recognition) to establish precise text-to-visual input correspondence.",
+      "process": "Tracing activation from generated words back to spatially aligned image patches to measure how specific attention heads mediate visual-text alignment.",
+      "output": "Computation of 'visual scores' to rank attention heads by their visual responsiveness."
+    },
+    "optimization_framework": {
+      "name": "SparseMM",
+      "type": "KV-Cache optimization framework",
+      "principle": "Exploits the sparsity of visual heads to achieve accelerated inference.",
+      "problem_addressed": "Computational overhead of maintaining full KV-Caches for complex multimodal inputs (e.g., high-resolution images, video)."
+    }
+  },
+  "results": {
+    "key_findings": [
+      {
+        "property": "Sparsity",
+        "description": "Less than 5% of attention heads are intrinsically visual-active across layers, even in models trained with extensive multimodal data."
+      },
+      {
+        "property": "Universality",
+        "description": "Visual heads emerge consistently across diverse LLM architectures (e.g., Vicuna, Qwen2) and generalize to multiple attention paradigms (e.g., multi-head attention, grouped query attention)."
+      },
+      {
+        "property": "Generalizability",
+        "description": "The identified visual heads, discovered using the OCR task, are task-agnostic and remain dominant in other vision-language tasks like object recognition and scene understanding."
+      }
+    ]
+  },
+  "key_contributions": [
+    "The first systematic investigation into how visual concepts are processed within LLMs.",
+    "Discovery and formalization of the 'sparsity' and 'universality' properties of visual heads.",
+    "A training-free framework for identifying visual heads using OCR-based cross-modal analysis.",
+    "Introduction of SparseMM, a practical KV-Cache optimization framework that leverages visual head sparsity for faster inference."
+  ],
+  "keywords": [
+    "SparseMM",
+    "Multimodal Large Language Models (MLLMs)",
+    "Head Sparsity",
+    "Visual Heads",
+    "KV-Cache Optimization",
+    "Attention Mechanisms",
+    "OCR",
+    "Cross-modal Alignment"
+  ],
+  "evidence_id": "EV011",
+  "year": 2025,
+  "arxiv_id": "2506.05344",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7997,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

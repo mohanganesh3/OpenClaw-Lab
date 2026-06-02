@@ -1,0 +1,6 @@
+{
+  "introduction": "[2506.19610] V2T-CoT: From Vision to Text Chain-of-Thought for Medical Reasoning and Diagnosis\n\n\\useunder\n\n\\ul\n\n1\n\n1  institutetext:  Zhejiang Key Laboratory of Medical Imaging Artificial Intelligence",
+  "method": "enchmarks demonstrate state-of-the-art performance, achieving substantial improvements in both performance and interpretability.\n\nKeywords:  Med-VQA Vision Language Model Chain of Thought.\n\n1  Introdu",
+  "results": "nical reasoning chains, are limited by: annotation data scarcity due to manual labeling costs; absence of specialized instruction-tuning datasets for training reasoning paths  [ 31 ,  27 ] . These lim",
+  "conclusion": "ons.\n\n•\n\nWe constructed  R-Med 39K  (Instruction-Tuning dataset) with reasoning paths from four Med-VQA datasets for Text CoT, integrating them into VLM training for reliable rationale validated by bo"
+}

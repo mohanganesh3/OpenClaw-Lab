@@ -1,0 +1,46 @@
+{
+  "title": "A Distributed Gaussian Process Model for Multi-Robot Mapping",
+  "problem_domain": [
+    "Agriculture",
+    "Space exploration"
+  ],
+  "proposed_solution": {
+    "name": "DistGP",
+    "description": "A multi-robot algorithm to fit an arbitrary global function using only local observation and computation with peer-to-peer communication",
+    "key_technique": "Sparse GPs with inducing points as local summaries"
+  },
+  "methodology": {
+    "initial_approach": "Tree-structured GPs (TSGPs)",
+    "improvement": "Loopy model that relaxes tree constraint to allow cycles",
+    "inference_method": "Gaussian Belief Propagation (GBP)",
+    "communication": "Asynchronous message passing"
+  },
+  "results": {
+    "accuracy": "Loopy model shows substantial improvement in accuracy over TSGPs",
+    "adaptability": "Better suited to dynamic and asynchronous settings",
+    "performance": "Outperforms DiNNO in experimental evaluation"
+  },
+  "contributions": [
+    "New distributed GP model trainable with GBP, outperforming TSGPs",
+    "Empirical analysis showing model can be built on-the-fly with distributed, asynchronous inference",
+    "Experimental evaluation on environmental monitoring and occupancy mapping, showing superior performance to DiNNO"
+  ],
+  "related_work": {
+    "most_similar": "DiNNO: A distributed NN optimizer for multi-robot learning",
+    "other_approaches": [
+      "Distributed neural maps using consensus ADMM",
+      "Distributed neural maps using direct regularization"
+    ]
+  },
+  "evidence_id": "EV001",
+  "year": 2026,
+  "arxiv_id": "2603.07351",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "introduction": "[2109.00328] Memory-Free Generative Replay For Class-Incremental Learning\n\nMemory-Free Generative Replay For Class-Incremental Learning\n\nXiaomeng Xin\n\n†\n\n†\n\n\\dagger\n\nYiran Zhong\n\n‡\n\n‡\n\n\\ddagger\n\nYunzh",
+  "method": "hat our strategy outperforms existing memory-free methods with a clear margin. Code is available at  https://github.com/xmengxin/MFGR .\n\n1  Introduction\n\nIncremental learning addresses a critical prob",
+  "results": "emantics space ,  i.e .  , the fine-grained classes.\n\nConsider the cartoon example in Fig.\n\n1  . What the above regularization method essentially does is to project a new task image onto the weight ve",
+  "conclusion": "diverse.\n\nOur method tackles the Achilles’ heel of the regularization-based class-incremental learning. First, we conceptually and experimentally show that the fine-grained old classes are the most vu"
+}

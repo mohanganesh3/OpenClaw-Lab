@@ -1,0 +1,51 @@
+{
+  "title": "DraCo: Draft as CoT for Text-to-Image Preview and Rare Concept Generation",
+  "project_url": "https://github.com/CaraJ7/DraCo",
+  "methodology": {
+    "name": "Draft-as-CoT (DraCo)",
+    "description": "An interleaved CoT reasoning approach that fully leverages the unified framework for text-to-image generation",
+    "steps": [
+      "Draft sketching",
+      "Draft verification",
+      "Corrective refinement"
+    ]
+  },
+  "key_features": [
+    "Generates a low-resolution draft image as visual planning",
+    "Verifies the draft with the model's understanding capability to check for semantic misalignments",
+    "Refines and enriches the draft through selective correction and super-resolution",
+    "Leverages both textual and visual content for better planning and verification"
+  ],
+  "figures": [
+    {
+      "number": 1,
+      "title": "Conceptual Comparison of CoT Reasoning for T2I Generation"
+    },
+    {
+      "number": 2,
+      "title": "Visualization of DraCo Output"
+    },
+    {
+      "number": 3,
+      "title": "Framework of DraCo"
+    }
+  ],
+  "related_works": [
+    "unified multimodal large language models (MLLMs)",
+    "chain-of-thought (CoT) reasoning",
+    "Image-Gen-CoT",
+    "Bagel",
+    "Jiang et al. (2025) CoT method"
+  ],
+  "evidence_id": "EV028",
+  "year": 2025,
+  "arxiv_id": "2512.05112",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

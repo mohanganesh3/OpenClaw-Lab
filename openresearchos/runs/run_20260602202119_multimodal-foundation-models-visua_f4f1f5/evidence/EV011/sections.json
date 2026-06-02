@@ -1,0 +1,6 @@
+{
+  "introduction": "[2410.02615] LoGra-Med: Long Context Multi-Graph Alignment for Medical Vision-Language Model\n\nLoGra-Med: Long Context Multi-Graph Alignment for Medical Vision-Language Model\n\nDuy M. H. Nguyen  1,2,3  ",
+  "method": "e captions or questions may differ from training instances, and learn cross-modal associations, linking visual elements with various textual interpretations.\nTo scale our algorithm to the med-MLLM set",
+  "results": "medical images, clinical notes, and diagnostic criteria  (Xie et al.,  2024 ) . These datasets are used to adapt general-purpose MLLM, aiming to transfer foundational knowledge of generic concepts and",
+  "conclusion": "n trained on\n\n100  %\n\npercent  100\n\n100\\%\n\n. Both models were fine-tuned on two medical visual question-answering tasks - VQA-RAD  (Lau et al.,  2018 )  and PathVQA  (He et al.,  2020 )  - and their a"
+}

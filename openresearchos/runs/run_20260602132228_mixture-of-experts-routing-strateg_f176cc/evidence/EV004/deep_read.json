@@ -1,0 +1,67 @@
+{
+  "title": "Mixture-of-Transformers Learn Faster: A Theoretical Study on Classification Problems",
+  "authors": "Not specified in provided text",
+  "abstract": "This paper introduces the Mixture-of-Transformers (MoT) model, where each transformer block acts as a distinct expert with its own attention and FFN layers, with a gating network that dynamically assigns data to specialized experts. The paper provides the first theoretical analysis with benefit characterization for full-transformer specialization, studying how attention- and FFN-level specialization interact and how such architectures converge during training.",
+  "keywords": [
+    "Mixture-of-Transformers",
+    "Mixture-of-Experts",
+    "Self-Attention",
+    "Feed-Forward Networks",
+    "Theoretical Analysis",
+    "Convergence Rate"
+  ],
+  "methodology": {
+    "model": "Mixture-of-Transformers (MoT) with specialized transformer blocks",
+    "architecture": "Each transformer block has its own attention and FFN layers with a gating network for data assignment",
+    "training_process": "Three-stage training algorithm with continuous gating updates",
+    "stages": [
+      "Stage 1: Freeze self-attention, train FFNs to encourage diversity",
+      "Stage 2: Freeze FFNs, train attention layers",
+      "Stage 3: Fine-tune FFNs to reinforce specialization"
+    ],
+    "theoretical_setup": "Mixture-of-classification setup"
+  },
+  "results": {
+    "specialization": "Each transformer expert specializes in a distinct class of tasks",
+    "routing": "Gating network accurately routes data samples to the correct expert",
+    "attention_benefit": "Self-attention reduces training loss by extracting relevant classification signals",
+    "convergence": "Expected prediction loss converges to within ϵ-accuracy in 𝒪(log(ϵ⁻¹)) iterations via gradient descent",
+    "improvement": "Significantly shortens convergence time from 𝒪(ϵ⁻¹) to 𝒪(log(ϵ⁻¹)) compared to existing multi-head transformers"
+  },
+  "contributions": [
+    "First theoretical analysis with benefit characterization for full-transformer specialization",
+    "Three-stage training algorithm with continuous gating updates",
+    "Theoretical guarantees on convergence of MoT architecture to optimum",
+    "Demonstration of MoT's advantage over attention-absent MoE models"
+  ],
+  "references": [
+    "[1]",
+    "[14]",
+    "[15]",
+    "[16]",
+    "[18]",
+    "[17]",
+    "[19]",
+    "[20]",
+    "[21]",
+    "[22]",
+    "[23]",
+    "[7]",
+    "[13]",
+    "[25]",
+    "[3]",
+    "[24]",
+    "[9]"
+  ],
+  "evidence_id": "EV004",
+  "year": 2025,
+  "arxiv_id": "2510.27004",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7997,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

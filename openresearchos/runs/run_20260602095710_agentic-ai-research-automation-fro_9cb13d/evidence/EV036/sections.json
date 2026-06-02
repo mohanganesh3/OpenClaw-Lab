@@ -1,0 +1,6 @@
+{
+  "introduction": "[2604.00187] Explainable AI for Blind and Low-Vision Users: Navigating Trust, Modality, and Interpretability in the Agentic Era\n\nExplainable AI for Blind and Low-Vision Users: Navigating Trust, Modali",
+  "method": "sage patterns across environmental perception and decision support, we identify a significant modality gap. Empirical evidence suggests that while BLV users highly value conversational explanations, t",
+  "results": "ations  ( pieceIt ) . The current approach to Explainable AI (XAI) makes this problem worse. The Human-Centered Explainable AI (HCXAI) movement tries to look beyond math and understand how people actu",
+  "conclusion": "rly in a task, the user has no easy way to catch the error  ( hallucinationHCXAI ) . Researchers have suggested using conversational AI to introduce “cognitive forcing,” encouraging users to ask quest"
+}

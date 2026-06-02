@@ -1,0 +1,6 @@
+{
+  "introduction": "[2106.11197] Iterative Network Pruning with Uncertainty Regularization for Lifelong Sentiment Classification\n\nIterative Network Pruning with Uncertainty Regularization\n\nfor Lifelong Sentiment Classifi",
+  "method": "ights in BERT, which enables positive backward transfer, i.e. learning new tasks improves performance on past tasks while protecting old knowledge from being lost.\nIn addition, we propose a task-speci",
+  "results": "; Wang\net al . ,  2016 ; Wen et al . ,  2019 ) . Powerful deep neural networks\nhave to depend on large amounts of annotated\ntraining resources. However, labeling large datasets is usually time-consumi",
+  "conclusion": ") . On the one hand, a sentiment classifier is expected to reuse previously acquired knowledge, but focusing too much on stability may hinder the classifier from quickly adapting to new tasks.\nOn the "
+}

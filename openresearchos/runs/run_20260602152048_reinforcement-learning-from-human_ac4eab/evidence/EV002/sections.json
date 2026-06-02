@@ -1,0 +1,6 @@
+{
+  "introduction": "[2409.06957] Formatting Instructions for ICLR 2025 Conference Submissions\n\nFormatting Instructions for ICLR 2025\n\nConference Submissions\n\nAntiquus S. Hippocampus, Natalia Cerebro &amp; Amelie P. Amygd",
+  "method": "e.pdf  contains these\ninstructions and illustrates the\nvarious formatting requirements your ICLR paper must satisfy.\nSubmissions must be made using  L a T e X  and the style files\n iclr2025_conference",
+  "results": "s are in small caps,\nflush left and in point size 10. One line space before the third level\nheading and 1/2 line space after the third level heading.\n\n4  Citations, figures, tables, references\n\nThese ",
+  "conclusion": "white or in color.\n\nFigure 1:  Sample figure caption.\n\n4.4  Tables\n\nAll tables must be centered, neat, clean and legible. Do not use hand-drawn\ntables. The table number and title always appear before "
+}

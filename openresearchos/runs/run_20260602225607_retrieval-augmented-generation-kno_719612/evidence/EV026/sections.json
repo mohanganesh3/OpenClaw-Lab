@@ -1,0 +1,6 @@
+{
+  "introduction": "[2508.17767] ISACL: Internal State Analyzer for Copyrighted Training Data Leakage\n\nISACL: Internal State Analyzer for Copyrighted Training Data Leakage\n\nGuangwei Zhang 1  ,\n Qisheng Su 2  ,\n Jiateng L",
+  "method": "Abstract\n\nLarge Language Models (LLMs) have revolutionized Natural Language Processing (NLP) but pose risks of inadvertently exposing copyrighted or proprietary data, especially when such data is used",
+  "results": "potential leaks. By using a curated dataset of copyrighted materials, we trained a neural network classifier to identify risks, allowing for early intervention by stopping the generation process or al",
+  "conclusion": "gates the risk of copyrighted data leakage, offering a scalable solution that fits smoothly into AI workflows, ensuring compliance with copyright regulations while maintaining high-quality text genera"
+}

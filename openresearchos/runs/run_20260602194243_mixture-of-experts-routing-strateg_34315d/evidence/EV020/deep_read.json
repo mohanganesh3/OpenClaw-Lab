@@ -1,0 +1,63 @@
+{
+  "title": "CNC-Net: Self-Supervised Learning for CNC Machining Operations",
+  "authors": "Not specified in the provided text",
+  "abstract": "CNC-Net is a DNN-based approach designed to simulate generic CNC machines in a self-supervised manner, capable of constructing target objects without relying on ground truth labels. It incrementally learns the production of target 3D shapes, determining subsequent operations by implicitly modeling milling and drilling operations.",
+  "introduction": {
+    "background": "CNC machines have revolutionized manufacturing by producing complex products with better precision, efficiency, and robustness in diverse industries, from aerospace to medical devices.",
+    "challenges": [
+      "Traditional CNC programming requires intricate sets of instructions crafted by CAM software",
+      "Process introduces bottlenecks due to its labor-intensive nature and reliance on expert knowledge",
+      "Adapting CNC machines to new tasks typically involves extensive reprogramming",
+      "Intricate search space for operations on complex objects involving NP-hard problems presents a challenge in labeling optimal solutions as ground truth"
+    ],
+    "related_work": "Recent studies use deep neural networks (DNNs) to explore 3D objects using Constructive Solid Geometry (CSG) operations, employing both simple and more complex primitives.",
+    "solution": "Incorporating deep learning techniques into CNC machining offers a transformative solution to address these challenges.",
+    "potential_impact": "The ability of DNNs to learn complex patterns from data makes them an ideal candidate for revolutionizing CNC manufacturing, which can pave the way for automation, adaptive programming, and efficient utilization of CNC machines."
+  },
+  "method": {
+    "approach": "Deep Neural Networks (DNNs)",
+    "type": "Self-supervised learning",
+    "key_features": [
+      "Incremental learning of 3D shape production",
+      "Implicit modeling of milling and drilling operations",
+      "Representation of tools as cylindrical primitives",
+      "Determination of tool radius and path coordinates",
+      "Capability to rotate workpiece along X and Y axes",
+      "Modeling 3D shapes by subtracting operations (union of cylindrical primitives)"
+    ]
+  },
+  "results": {
+    "performance": "Competitive performance compared to state-of-the-art CAD reconstruction methods",
+    "datasets": [
+      "ABC dataset (industrial objects)",
+      "ShapeNet dataset (intricate objects)"
+    ]
+  },
+  "contributions": [
+    "Introduction of CNC-Net, a pioneer self-supervised and DNN-based approach for simulating CNC machines",
+    "CNC-Net learns to automatically find the sequential operations required for sculpting 3D shapes"
+  ],
+  "keywords": [
+    "CNC machining",
+    "Self-supervised learning",
+    "Deep neural networks",
+    "3D shape reconstruction",
+    "CNC simulation"
+  ],
+  "applications": [
+    "CNC machining",
+    "Manufacturing automation",
+    "Adaptive programming"
+  ],
+  "evidence_id": "EV020",
+  "year": 2023,
+  "arxiv_id": "2312.09925",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7997,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

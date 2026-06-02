@@ -1,0 +1,35 @@
+{
+  "title": "HPS: Hard Preference Sampling for Human Preference Alignment",
+  "framework": "HPS (Hard Preference Sampling)",
+  "problem": "Limitations in existing human preference alignment methods",
+  "existing_methods": [
+    "Reinforcement Learning from Human Feedback (RLHF)",
+    "Direct Preference Optimization (DPO)",
+    "Identity Preference Optimization (IPO)",
+    "Self-Play Preference Optimization (SPPO)"
+  ],
+  "underlying_models": [
+    "Plackett-Luce (PL) model",
+    "Bradley-Terry (BT) model"
+  ],
+  "limitations": [
+    "Fail to handle harmful responses effectively",
+    "Overlook nuanced differences among dispreferred responses",
+    "Computational inefficiency, especially with PL loss"
+  ],
+  "contributions": [
+    "Introduction of the HPS framework",
+    "Addressing limitations of existing methods"
+  ],
+  "evidence_id": "EV019",
+  "year": 2025,
+  "arxiv_id": "2502.14400",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7997,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

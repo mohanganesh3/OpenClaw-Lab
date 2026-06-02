@@ -1,0 +1,6 @@
+{
+  "introduction": "[2506.05977] Mitigating Catastrophic Forgetting with Adaptive Transformer Block Expansion in Federated Fine-Tuning\n\nMitigating Catastrophic Forgetting with Adaptive Transformer Block Expansion in Fede",
+  "method": "echanism with a dynamic trainable-block allocation strategy.\nSpecifically, FedBE expands trainable blocks within the model architecture, structurally separating newly learned task-specific knowledge f",
+  "results": "M backbone and only updating inserted parameters, PEFT methods significantly reduce computation overhead on the client side. Moreover, as only these modules are transmitted between clients and the ser",
+  "conclusion": "m generalization.\n\nFurthermore, we observe that the catastrophic forgetting issue is exacerbated in federated fine-tuning, primarily due to the inherent challenge of  data heterogeneity ,\nwhich arise "
+}

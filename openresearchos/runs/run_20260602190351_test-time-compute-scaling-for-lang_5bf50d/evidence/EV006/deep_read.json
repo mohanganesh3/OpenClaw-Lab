@@ -1,0 +1,49 @@
+{
+  "title": "Scaling Test-Time Compute to Achieve IOI Gold Medal with Open-Weight Models",
+  "method": {
+    "benchmarks": [
+      "LiveCodeBench",
+      "Codeforces"
+    ],
+    "competitions": [
+      "IOI",
+      "IMO",
+      "ICPC"
+    ],
+    "approaches": [
+      "GenCluster"
+    ],
+    "models_compared": [
+      "gpt-oss-120b",
+      "DeepSeek-R1-0528",
+      "Qwen3-235B-A22B"
+    ],
+    "techniques": [
+      "candidate solution generation",
+      "filtering",
+      "behavioral clustering",
+      "ranking with tournament",
+      "round-robin submission"
+    ]
+  },
+  "results": {
+    "key_achievement": "gpt-oss-120b achieved IOI 2025 gold-level performance using GenCluster",
+    "scalability": "GenCluster improves scores with increased compute and larger generation budgets"
+  },
+  "contributions": [
+    "GenCluster: a scalable test-time compute approach for competitive programming",
+    "Demonstration that gpt-oss-120b is superior on IOI problems",
+    "Validation of GenCluster's scalability with increased compute"
+  ],
+  "evidence_id": "EV006",
+  "year": 2025,
+  "arxiv_id": "2510.14232",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

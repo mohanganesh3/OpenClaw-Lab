@@ -1,0 +1,6 @@
+{
+  "introduction": "[2511.16402] Trustworthy AI in the Agentic Lakehouse: from Concurrency to Governance\n\nTrustworthy AI in the Agentic Lakehouse: from Concurrency to Governance\n\nJacopo Tagliabue 1 ,\nFederico Bianchi 2 ,",
+  "method": "ly adapt to the access patterns of a  swarm  of cheap AI agents  ( tagliabue2025safeuntrustedproofcarryingai ) . In particular, managing agents that run queries and build data pipelines on a lakehouse",
+  "results": "paper is organized as follows: Section\n\n2\n\nintroduces concurrency ideas from the MVCC literature, to provide a concrete, extremely successful mental model that guides our search for similar lakehouse ",
+  "conclusion": "00  500\n\nas if\n\nU  2\n\nU_{2}\n\n’s update never started. On the write path, transactions are used to prevent incorrect updates and race conditions: two transactions won’t both commit conflicting writes t"
+}

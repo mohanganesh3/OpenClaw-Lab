@@ -1,0 +1,44 @@
+{
+  "title": "ESSA: Evolutionary Strategies for Scalable Alignment",
+  "authors": "Not specified in the provided text",
+  "abstract": "This paper proposes ESSA (Evolutionary Strategies for Scalable Alignment), a framework for aligning Large Language Models using Evolutionary Strategies. The approach addresses limitations of RLHF and its variants by offering high parallelizability, efficient scaling, robustness with sparse rewards, and reduced memory requirements.",
+  "methodology": {
+    "approach": "Evolutionary Strategies for LLM alignment",
+    "key_techniques": [
+      "Adaptation of LoRA technique to the ES paradigm",
+      "Inference-only mode without gradient computations"
+    ],
+    "evaluation": {
+      "benchmarks": "Mathematical reasoning benchmarks",
+      "reward_signal": "Accuracy",
+      "comparison_baseline": "GRPO method"
+    }
+  },
+  "contributions": [
+    "Adaptation of LoRA technique to the ES paradigm",
+    "Demonstration of faster convergence and better data efficiency compared to GRPO",
+    "Demonstration of efficient scaling across distributed compute environments and avoidance of memory bottlenecks"
+  ],
+  "advantages": [
+    "Highly parallelizable",
+    "Scales efficiently across many computing nodes",
+    "Remains robust with sparse rewards",
+    "Requires less memory by operating in inference-only mode without gradient computations"
+  ],
+  "related_work": [
+    "RLHF with PPO or REINFORCE",
+    "Online alignment methods like RLOO and GRPO",
+    "Offline alignment methods"
+  ],
+  "evidence_id": "EV015",
+  "year": 2025,
+  "arxiv_id": "2507.04453",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

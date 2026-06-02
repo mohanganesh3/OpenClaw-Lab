@@ -1,0 +1,6 @@
+{
+  "introduction": "[2212.07126] Explainability of Text Processing and Retrieval Methods: A Critical Survey\n\n\\setupctable\n\nbotcap, captionskip=2pt, mincapwidth=2in, framebg=1 1 1, framefg=0 0 0, framerule=0pt, framesep=0",
+  "method": "a substantial body of research has\nfocused on methods for providing high-level, human-understandable\n interpretations  or  explanations  of the inner workings of, as\nwell as the results produced by, i",
+  "results": "many parameters, often numbering in the millions.  As a consequence, in recent\ntimes, the research community has devoted a good deal of attention to\nproviding high-level, intuitive explanations of the",
+  "conclusion": "the datasets that were used for experimental\nevaluation.\n\nOrganization of the survey:\n\nThe remainder of this survey is\norganised as follows. Section\n\n2\n\nlists existing surveys\nthat cover explainabilit"
+}

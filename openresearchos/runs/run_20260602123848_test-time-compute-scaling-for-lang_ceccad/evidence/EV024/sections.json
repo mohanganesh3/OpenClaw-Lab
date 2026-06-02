@@ -1,0 +1,6 @@
+{
+  "introduction": "[2410.21333] Mind Your Step (by Step): Chain-of-Thought can Reduce Performance on Tasks where Thinking Makes Humans Worse\n\nMind Your Step (by Step): Chain-of-Thought can Reduce Performance on Tasks wh",
+  "method": "dering cases where thinking has negative consequences for human performance can help us identify settings where it negatively impacts models. By connecting the literature on human deliberation with ev",
+  "results": "tive to understand and predict when CoT has a negative effect on model performance.\n\nA key challenge for determining the limits of CoT is the sheer variety of tasks for which LLMs and LMMs are used. W",
+  "conclusion": "gstler-Schooler,  1990 ; Dijksterhuis,  2004 ; Van den Bos &amp; Poletiek,  2008 ,  inter alia ) . We chose six well-studied types of tasks from psychology that satisfy this, selected the most represe"
+}

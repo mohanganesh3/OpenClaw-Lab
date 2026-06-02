@@ -1,0 +1,38 @@
+{
+  "method_summary": "ClinEnv is an interactive benchmark that evaluates LLMs as attending physicians through Longitudinal Inpatient Simulation, where models must query four specialized agents at each decision stage before committing to medications, procedures, and diagnoses.",
+  "key_innovation": "Making the information-acquisition gap directly measurable through scoring both decisions and the information gathering process.",
+  "datasets_used": [
+    "real inpatient admissions"
+  ],
+  "baselines_compared": [
+    "seven models"
+  ],
+  "key_results": {
+    "decision_F1": 0.31,
+    "diagnosis_F1": 0.51,
+    "management_F1": 0.17
+  },
+  "best_result": "0.31 decision F1 for the strongest model",
+  "limitations_stated": [
+    "Models struggle with management decisions",
+    "Models continue to issue redundant queries as cases progress",
+    "Information-acquisition gap is invisible to outcome-only evaluation"
+  ],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "medium",
+  "compute_required": null,
+  "can_run_on_macbook": null,
+  "evidence_id": "EV040",
+  "title": "ClinEnv: An Interactive Multi-Stage Long Horizon EHR Environment for Agents",
+  "year": 2026,
+  "arxiv_id": "2606.02568",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 5427,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "paper_title": "Continual Unsupervised Domain Adaptation for Semantic Segmentation",
+  "problem_definition": {
+    "motivation": "Pixel-level labeling for real-world images is costly in time and labor. A domain discrepancy exists between synthetic images (which are easier to label) and real-world images.",
+    "limitation_of_existing_methods": "Existing Unsupervised Domain Adaptation (UDA) methods are limited because they typically focus on a single-target setting, which is impractical for real-world scenarios with multiple, sequentially introduced target domains. Applying these methods to a continual UDA setting results in catastrophic forgetting of previously learned domains."
+  },
+  "proposed_method": {
+    "name": "Expanding Target-specific Memory (ETM) framework",
+    "core_idea": "To overcome catastrophic forgetting in a Continual UDA setting, the framework introduces a dedicated memory for each target domain. When testing on a previous domain, the corresponding stored memory is used to restore performance.",
+    "key_components": [
+      {
+        "name": "Target-specific Memory (TM)",
+        "description": "A lightweight sub-memory that is initiated, trained, and stored for each target domain. It is designed to hold unique information corresponding to each domain's specific discrepancy."
+      },
+      {
+        "name": "Double Hinge Adversarial (DHA) loss",
+        "description": "A loss function designed to enhance the performance of the framework."
+      }
+    ]
+  },
+  "experimental_setup": {
+    "baseline_method": "AdaptSegNet [32]",
+    "datasets": {
+      "previous_work_comparison": "A single synthetic dataset [30]",
+      "this_work_evaluation": "Multiple real-world datasets"
+    }
+  },
+  "key_findings": {
+    "main_result": "The ETM framework successfully alleviates catastrophic forgetting for previously learned target domains when adapting to new ones sequentially.",
+    "qualitative_evidence": "Qualitative results (Fig. 1(c)) demonstrate that the proposed framework mitigates forgetting on the previous target domain compared to the baseline UDA method.",
+    "comparison_with_related_work": "The style transfer method from Wu et al. [38] was found to be insufficient for overcoming catastrophic forgetting on multiple real-world datasets, as style transfer alone could not handle considerable domain discrepancies."
+  },
+  "evidence_id": "EV017",
+  "title": "Continual Unsupervised Domain Adaptation for Semantic Segmentation",
+  "year": 2020,
+  "arxiv_id": "2010.09236",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7996,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

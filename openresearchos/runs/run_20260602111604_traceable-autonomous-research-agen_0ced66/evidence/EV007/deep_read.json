@@ -1,0 +1,51 @@
+{
+  "paper_title": "Self-Refine: Iterative Refinement with Self-Feedback",
+  "method_name": "Self-Refine",
+  "method_description": "An iterative self-refinement algorithm that alternates between feedback and refine steps, using the same language model for both generating feedback and refining outputs without additional training or external supervision.",
+  "key_characteristics": [
+    "Uses the same language model for both generating feedback and refining outputs",
+    "Does not require additional training",
+    "Does not require external supervision or reward models",
+    "Does not involve human assistance",
+    "Uses few-shot prompting to guide the model",
+    "Iterates until a specified number of iterations or until the model determines no further refinement is needed"
+  ],
+  "algorithm_steps": [
+    "Generate an initial output from model M",
+    "Pass the output back to the same model to get feedback",
+    "Pass the feedback back to the same model to refine the previously generated output",
+    "Repeat steps 2-3 until stopping condition is met"
+  ],
+  "applications": [
+    "Dialogue response generation",
+    "Enhancing program readability",
+    "Natural language generation",
+    "Source-code generation"
+  ],
+  "evaluation": {
+    "tasks_evaluated": 7,
+    "domains": [
+      "Natural language",
+      "Source-code generation"
+    ],
+    "results": "Outperforms direct generation from strong LLMs"
+  },
+  "implementation": {
+    "models_used": [
+      "GPT-3.5"
+    ],
+    "prompting_technique": "Few-shot prompting"
+  },
+  "evidence_id": "EV007",
+  "title": "Self-Refine: Iterative Refinement with Self-Feedback",
+  "year": 2023,
+  "arxiv_id": "2303.17651",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7996,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

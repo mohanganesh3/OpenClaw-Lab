@@ -1,0 +1,10 @@
+# EV015: Elastic Weight Consolidation Improves the Robustness of Self-Supervised Learning Methods under Transfer
+
+URL: https://www.semanticscholar.org/paper/00865fb90e961f833253e227aa8b03ab11d9317b
+Year: 2022
+Source: semantic_scholar
+Arxiv: 2210.16365
+
+## Abstract
+
+Self-supervised representation learning (SSL) methods provide an effective label-free initial condition for fine-tuning downstream tasks. However, in numerous realistic scenarios, the downstream task might be biased with respect to the target label distribution. This in turn moves the learned fine-tuned model posterior away from the initial (label) bias-free self-supervised model posterior. In this work, we re-interpret SSL fine-tuning under the lens of Bayesian continual learning and consider regularization through the Elastic Weight Consolidation (EWC) framework. We demonstrate that self-regularization against an initial SSL backbone improves worst sub-group performance in Waterbirds by 5% and Celeb-A by 2% when using the ViT-B/16 architecture. Furthermore, to help simplify the use of EWC with SSL, we pre-compute and publicly release the Fisher Information Matrix (FIM), evaluated with 10,000 ImageNet-1K variates evaluated on large modern SSL architectures including ViT-B/16 and ResNet50 trained with DINO.

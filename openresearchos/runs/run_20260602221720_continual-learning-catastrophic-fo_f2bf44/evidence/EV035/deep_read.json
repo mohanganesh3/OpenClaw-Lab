@@ -1,0 +1,50 @@
+{
+  "title": "The Choice of Divergence: A Neglected Key to Mitigating Diversity Collapse in Reinforcement Learning with Verifiable Reward",
+  "concepts": [
+    "Reinforcement Learning with Verifiable Rewards (RLVR)",
+    "Diversity collapse",
+    "f-divergence",
+    "KL-divergence",
+    "Entropy collapse",
+    "Pass@k metric",
+    "Pass@1 metric"
+  ],
+  "methodology": {
+    "approach": "Uses f-divergence computed using generator functions",
+    "requirements": "Requires sampling from initial policy, no online reference model needed",
+    "focus": "Proper selection of divergence measure"
+  },
+  "findings": [
+    "RLVR-tuned models improve Pass@1 but often degrade Pass@k performance",
+    "Entropy collapse reduces solution diversity",
+    "Approaches like GRPO and DAPO without KL-divergence still show decline in Pass@k",
+    "Temperature coefficient α in entropy regularization is difficult to tune"
+  ],
+  "datasets": [
+    "Bird (original SQL dataset)",
+    "Spider (another SQL dataset from different domain)",
+    "Math (mathematical tasks)"
+  ],
+  "related_work": [
+    "Soft Actor-Critic (SAC)",
+    "GRPO (Shao et al., 2024)",
+    "DAPO (Yu et al., 2025)",
+    "Deepseek-R1"
+  ],
+  "code_repository": "https://github.com/seamoke/DPH-RL",
+  "figure_1": {
+    "left_panel": "Performance of model trained on Bird dataset across different test sets",
+    "right_panel": "Distributions of reverse-KL and forward-KL"
+  },
+  "evidence_id": "EV035",
+  "year": 2025,
+  "arxiv_id": "2509.07430",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

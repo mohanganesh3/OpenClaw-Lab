@@ -1,0 +1,41 @@
+{
+  "paper_title": "Stabilizing Reinforcement Learning with LLMs: Formulation and Practices",
+  "research_focus": "Reinforcement Learning with Large Language Models",
+  "key_problem": "Mismatch between sequence-level rewards and token-level optimization objectives in RL with LLMs, leading to training stability issues",
+  "proposed_solution": "Novel formulation using surrogate token-level objective as first-order approximation of sequence-level reward",
+  "key_insights": [
+    "Surrogate token-level objective is valid when training-inference discrepancy and policy staleness are minimized",
+    "Importance sampling weight is inherent component of surrogate token-level objective",
+    "Clipping mechanism restrains policy staleness",
+    "Routing Replay approach reduces both training-inference discrepancy and policy staleness for MoE models"
+  ],
+  "methodology": {
+    "model_size": "30B MoE model",
+    "computational_resources": "Hundreds of thousands of GPU hours",
+    "stability_metrics": [
+      "Training-inference KL divergence",
+      "Entropy"
+    ]
+  },
+  "key_findings": [
+    "For on-policy training, basic policy gradient algorithm with importance sampling correction yields highest training stability",
+    "Off-policy updates can accelerate convergence but require careful combination with other techniques"
+  ],
+  "definitions": {
+    "stable_training": "Training process where model performance steadily improves and internal state evolves smoothly",
+    "on_policy": "Rollout policy identical to target policy",
+    "off_policy": "Rollout policy different from target policy"
+  },
+  "evidence_id": "EV006",
+  "title": "Stabilizing Reinforcement Learning with LLMs: Formulation and Practices",
+  "year": 2025,
+  "arxiv_id": "2512.01374",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

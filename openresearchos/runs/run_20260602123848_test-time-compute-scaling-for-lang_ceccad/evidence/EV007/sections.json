@@ -1,0 +1,6 @@
+{
+  "introduction": "[2503.21602] GenEdit: Compounding Operators and Continuous Improvement to Tackle Text-to-SQL in the Enterprise\n\nGenEdit: Compounding Operators and Continuous Improvement to Tackle Text-to-SQL in the E",
+  "method": "dge set edits are recommended through an interactive copilot, allowing users to iterate on their feedback and to regenerate SQL queries as needed. Each generation uses staged edits which update the ge",
+  "results": "onym within this company has a very specific meaning and associated calculations;\nthe query cannot be answered without understanding such specifics.\nAn LLM might in fact have a different interpretatio",
+  "conclusion": "HHDHJZYW24  ;  wang2024macsql\n\n. Our approach however deviates in important ways.  GenEdit  operators do not retrieve or produce separate context fed to the LLM for generation;\ninstead, they compound,"
+}

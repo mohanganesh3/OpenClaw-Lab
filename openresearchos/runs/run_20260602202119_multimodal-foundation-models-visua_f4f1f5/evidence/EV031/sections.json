@@ -1,0 +1,6 @@
+{
+  "introduction": "[2603.29692] SkeletonContext: Skeleton-side Context Prompt Learning for Zero-Shot Skeleton-based Action Recognition\n\nSkeletonContext: Skeleton-side Context Prompt Learning for Zero-Shot\n\nSkeleton-base",
+  "method": "ntext achieves state-of-the-art performance under both conventional and generalized zero-shot settings, validating its effectiveness in reasoning about context and distinguishing fine-grained, visuall",
+  "results": "50 ] , or designing more powerful skeleton encoders  [ 48 ,  21 ,  22 ] .\nHowever, skeleton sequences, unlike raw videos, lack detailed appearance and contextual cues, such as the keyboard in the acti",
+  "conclusion": "dge from a pretrained language model, resulting in context-enhanced skeleton representations.\nWe further enhance the Cross-Modal Context Prompt Module by designing a differential joint encoder to mode"
+}

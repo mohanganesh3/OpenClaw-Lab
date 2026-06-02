@@ -1,0 +1,33 @@
+{
+  "method_summary": "DrPO samples candidates from the current generator, ranks them with a target reward, and uses high- and low-scoring samples to synthesize a feature-space update direction consisting of a non-parametric dipole preference field plus reference drift.",
+  "key_innovation": "Removal of reward-model backpropagation while maintaining single-step inference for one-step generative models, enabling training with large, black-box, or non-differentiable rewards.",
+  "datasets_used": [
+    "HPSv3",
+    "GenEval"
+  ],
+  "baselines_compared": [
+    "reward-gradient-free one-step preference baselines"
+  ],
+  "key_results": {
+    "HPSv3_computation_reduction": "3.51×"
+  },
+  "best_result": "Reduces HPSv3 training computation by 3.51× under matched effective-batch setting",
+  "limitations_stated": [],
+  "code_available": null,
+  "code_url": null,
+  "reproducibility": null,
+  "compute_required": null,
+  "can_run_on_macbook": null,
+  "evidence_id": "EV051",
+  "title": "Drifting Preference Optimization for One-Step Generative Models",
+  "year": 2026,
+  "arxiv_id": "2606.02521",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 5461,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

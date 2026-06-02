@@ -1,0 +1,43 @@
+{
+  "title": "Rapid Model Architecture Adaption for Meta-Learning",
+  "methodology": {
+    "approach": "Hardware-aware Meta Network Architecture Search (H-Meta-NAS)",
+    "framework": "Model-Agnostic Meta-Learning (MAML)",
+    "techniques": [
+      "Global Expansion (GE)",
+      "Adaptive Number of Layers (ANL)"
+    ],
+    "goal": "Integrate MAML framework into hardware-aware NAS to reduce search complexity"
+  },
+  "key_contributions": [
+    "Proposed Hardware-aware Meta Network Architecture Search (H-Meta-NAS)",
+    "Theoretical reduction of search complexity from O(THC) to O(1)",
+    "Enabled rapid adaptation of model architectures to unseen tasks on new hardware systems"
+  ],
+  "challenges_addressed": [
+    "Over-parameterized sub-models in classic NAS search space causing overfitting in few-shot learning",
+    "Prolonged hardware profiling with many tasks and scarce computation resources"
+  ],
+  "results": {
+    "complexity_reduction": "From O(THC) to O(1)",
+    "capability": "Rapid adaptation of model architectures to unseen tasks on new hardware systems"
+  },
+  "applications": [
+    "Image classification",
+    "Language modeling",
+    "Facial recognition",
+    "Speech recognition"
+  ],
+  "setup": "Many-task many-device few-shot learning setup",
+  "evidence_id": "EV005",
+  "year": 2021,
+  "arxiv_id": "2109.04925",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

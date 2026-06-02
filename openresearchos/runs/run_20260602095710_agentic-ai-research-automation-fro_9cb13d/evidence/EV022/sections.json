@@ -1,0 +1,6 @@
+{
+  "introduction": "[2601.11903] AEMA: Verifiable Evaluation Framework for Trustworthy and Controlled Agentic LLM Systems\n\n\\correspondingauthor\n\nKeerthi Koneru ( keerthi.koneru@accenture.com ). All work was done during t",
+  "method": "eal-world complexity, and verifiability of their internal decisions. These properties motivate evaluation frameworks that provide auditable transparency and bounded autonomy under human oversight.\n\nEv",
+  "results": "bility and reproducibility than human evaluation. The  LLM-as-a-Judge  paradigm has been adopted for a wide range of tasks such as instruction\n\nInstructionFollowing  , summarization\n\nSummarization  , ",
+  "conclusion": "GEMMAS\n\nintroduces graph-based metrics that measure\ncollaboration efficiency and redundancy in multi-agent reasoning. WorFEval\n\nWorFEval\n\ncompares\nworkflow graphs against ground-truth structures using"
+}

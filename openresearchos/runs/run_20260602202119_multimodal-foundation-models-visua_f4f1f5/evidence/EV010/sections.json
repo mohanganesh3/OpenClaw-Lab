@@ -1,0 +1,6 @@
+{
+  "introduction": "[2312.02949] LLaVA-Grounding: Grounded Visual Chat with Large Multimodal Models\n\n\\useunder\n\n\\ul\n\nLLaVA-Grounding: Grounded Visual Chat with Large Multimodal Models\n\nHao Zhang  ♠∗3  ,  Hongyang Li  ♢∗ ",
+  "method": "husiasm has led to a surge in the development of large multimodal models (LLMs). Previous LMMs, such as LLaVA  [  18  ]  and miniGPT-4  [  49  ] , have demonstrated exceptional visual chat abilities b",
+  "results": "model for grounding, but this approach can be constrained by the performance of the language encoder in the grounding model. Shikra  [  3  ]  engages in referential dialog, which includes grounded cha",
+  "conclusion": "enabling both box and pixel-level grounding simultaneously.\n\nTo evaluate the capability of grounded visual chat, we introduce the Grounding Bench, a benchmark that assesses grounding and chat performa"
+}

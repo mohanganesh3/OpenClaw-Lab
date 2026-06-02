@@ -1,0 +1,6 @@
+{
+  "introduction": "[2509.09751] Meta-Learning Reinforcement Learning for Crypto-Return Prediction\n\nMeta-Learning Reinforcement Learning for Crypto-Return Prediction\n\nJunqiao Wang 1,2  ,\n Zhaoyang Guan 3  ,\n Guanyu Liu 1",
+  "method": "ity of Science and Technology,\n 5 Queen’s University,\n\n6 University of Toronto,\n 7 TrueNorth,\n 8 Tsinghua University,\n\n9 Emory University,\n 10 University of Macau\n\nCorrespondence:\n\nty.shi@mail.utoront",
+  "results": "s.\nEach prediction is then scored by the Judge using a multi-dimensional reward vector, which the Meta-Judge uses to enforce preference consistency and evaluate the Judge itself.\n\nOur contributions ar",
+  "conclusion": "ues show promise for more robust decision-making, their application to cryptocurrency markets remains underexplored. Our work addresses this gap by integrating both on-chain and off-chain signals with"
+}

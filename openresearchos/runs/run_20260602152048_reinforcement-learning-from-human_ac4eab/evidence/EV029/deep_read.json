@@ -1,0 +1,72 @@
+{
+  "title": "Comparative Analysis Based on DeepSeek, ChatGPT, and Google Gemini: Features, Techniques, Performance, Future Prospects",
+  "index_terms": [
+    "Artificial Intelligence",
+    "DeepSeek",
+    "ChatGPT",
+    "Copilot",
+    "Google Gemini",
+    "LLM",
+    "Technology",
+    "Performance",
+    "Data Analysis",
+    "Data Collection"
+  ],
+  "sections": [
+    "METHOD SECTION",
+    "I (Introduction)",
+    "I-A (Motivations)",
+    "I-B (Related Study)",
+    "RESULTS SECTION"
+  ],
+  "focus_areas": [
+    "Comparative study of DeepSeek, ChatGPT, and Gemini",
+    "Analysis of methods and materials",
+    "Data selection criteria",
+    "State-of-the-art features",
+    "Technological comparison",
+    "Dataset analysis",
+    "Future potential guidance for LLM-based AI research"
+  ],
+  "techniques": [
+    {
+      "model": "DeepSeek",
+      "technique": "Mixture-of-experts (MoE) approach",
+      "description": "Accurately selects only the most relevant parameters to be used during prediction, reducing computational expenses and boosting efficiency"
+    },
+    {
+      "model": "ChatGPT",
+      "technique": "Reinforcement learning from human feedback (RLHF)",
+      "description": "Enhances conversational skills by generating context-aware and fluent responses"
+    },
+    {
+      "model": "Gemini",
+      "technique": "Multimodal design",
+      "description": "Merges text, images, and audio, enabling processing and production of outputs across different data types"
+    }
+  ],
+  "applications": [
+    "Healthcare",
+    "Finance",
+    "Education",
+    "Customer service"
+  ],
+  "cited_researchers": [
+    "Smith et al.",
+    "Rojas and Kim",
+    "Johnson et al.",
+    "Park and Gupta (2024)",
+    "Anderson et al."
+  ],
+  "evidence_id": "EV029",
+  "year": 2025,
+  "arxiv_id": "2503.04783",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

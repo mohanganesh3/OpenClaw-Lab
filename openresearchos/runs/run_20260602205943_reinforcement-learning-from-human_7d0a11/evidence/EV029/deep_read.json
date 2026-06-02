@@ -1,0 +1,48 @@
+{
+  "title": "Recommender systems and reinforcement learning for human-building interaction and context aware support: A text mining-driven review of scientific literature",
+  "authors": [
+    "Wenhao Zhang",
+    "Matias Quintana",
+    "Clayton Miller"
+  ],
+  "journal": "Energy and Buildings",
+  "keywords": [
+    "Reinforcement Learning",
+    "Recommender Systems",
+    "Building Operations",
+    "Building Energy Efficiency",
+    "Word Embeddings",
+    "Natural Language Processing"
+  ],
+  "abstract": "This paper presents a text-mining-driven review of 27,000 scientific articles to explore the application of recommender systems and reinforcement learning in building control and occupant interaction. The study elucidates detailed relationships among recommender algorithms, system types, input data, interventions, and platforms. It identifies the most commonly used algorithms, well-established applications, and emerging opportunities in the field, such as predictive maintenance, product recommendation, and optimizing environments for specific needs like sleep and productivity. The review notes limitations in capturing subtle academic nuances and suggests future improvements involving the integration and fine-tuning of pre-trained language models.",
+  "methodology": {
+    "type": "Text mining-driven literature review",
+    "techniques": [
+      "Word Embeddings"
+    ],
+    "scope": {
+      "articles_reviewed": 27000
+    }
+  },
+  "results": [
+    "27,000 full-text articles related to recommendation systems and the built environment were extracted for text mining.",
+    "Detailed relationships among recommender algorithms, system types, input data, interventions, and platforms were elucidated.",
+    "Word embeddings were used to extract the relationship between keywords.",
+    "The most commonly used algorithms, well-established applications, and emerging opportunities in building control and occupant interaction were discussed."
+  ],
+  "limitations_and_future_work": {
+    "limitations": "The method has limitations in capturing subtle academic nuances.",
+    "future_work": "Future improvements could involve integrating and fine-tuning pre-trained language models to better interpret complex texts."
+  },
+  "evidence_id": "EV029",
+  "year": 2024,
+  "arxiv_id": "2411.08734",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

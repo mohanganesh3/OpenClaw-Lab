@@ -1,0 +1,61 @@
+{
+  "title": "Branch, or Layer? Zeroth-Order Optimization for Continual Learning of Vision-Language Models",
+  "authors": null,
+  "abstract": "The paper explores zeroth-order optimization for continual learning in vision-language models, investigating whether ZO optimization should be applied at the branch level or layer level. The authors find that naive full-ZO optimization causes divergence, but collaborative FO-ZO approaches at both branch and layer levels show promise, with certain configurations surpassing full-FO baselines.",
+  "keywords": [
+    "continual learning",
+    "vision-language models",
+    "zeroth-order optimization",
+    "parameter-efficient fine-tuning",
+    "cross-modal interaction"
+  ],
+  "methodologies": [
+    "Parameter-Efficient Fine-Tuning (PEFT)",
+    "Zeroth-Order (ZO) Optimization",
+    "First-Order (FO) Optimization",
+    "Knowledge Distillation",
+    "Cross-modal Interaction Consistency"
+  ],
+  "models": [
+    "ResNet (res_2, res_3)",
+    "Vision Transformer (ViT: vit_1, vit_2, vit_3)",
+    "CLIP-based methods (clip_cl_1, clip_cl_2)",
+    "ZSCL",
+    "Mod-X",
+    "MoE4Adapter"
+  ],
+  "optimizations": [
+    "SGD",
+    "Adam",
+    "MeZO",
+    "MaZO",
+    "ZeroFlow"
+  ],
+  "key_findings": [
+    "Naive full-ZO optimization causes training divergence and failure to converge",
+    "Collaborative FO-ZO approaches at branch level significantly outperform naive full-ZO",
+    "Collaborative FO-ZO approaches at layer level yield better results, with some configurations surpassing full-FO baseline",
+    "Visual branch exhibits stronger fluctuations under ZO than language branch",
+    "A stabilization mechanism for the visual branch improves optimization convergence and continual learning performance"
+  ],
+  "research_questions": [
+    "Can ZO and FO collaborate for global model optimization across branches?",
+    "Can ZO and FO collaborate for hierarchical optimization within branch layers?"
+  ],
+  "applications": [
+    "Continual Learning",
+    "Vision-Language Models",
+    "Parameter-Efficient Fine-Tuning"
+  ],
+  "evidence_id": "EV026",
+  "year": 2025,
+  "arxiv_id": "2506.12409",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

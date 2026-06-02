@@ -1,0 +1,6 @@
+{
+  "introduction": "[2604.06916] FP4 Explore, BF16 Train: Diffusion Reinforcement Learning via Efficient Rollout Scaling\n\nSkip to main content\n\nLearn about arXiv becoming an independent nonprofit.\n\nWe gratefully acknowle",
+  "method": "nal diffusion models (e.g., FLUX.1-12B) imposes a heavy computational burden. To alleviate this bottleneck, we explore the integration of FP4 quantization into Diffusion RL rollouts. Yet, we identify ",
+  "results": ".LG) ; Artificial Intelligence (cs.AI); Computer Vision and Pattern Recognition (cs.CV)\n\nCite as:\n\narXiv:2604.06916  [cs.LG]\n\n&nbsp;\n\n(or\n\narXiv:2604.06916v1  [cs.LG]  for this version)\n\n&nbsp;\n\nhttps",
+  "conclusion": "oggle\n\nDagsHub\n\n( What is DagsHub? )\n\nGotitPub Toggle\n\nGotit.pub\n\n( What is GotitPub? )\n\nHuggingface Toggle\n\nHugging Face\n\n( What is Huggingface? )\n\nScienceCast Toggle\n\nScienceCast\n\n( What is ScienceC"
+}

@@ -1,0 +1,6 @@
+{
+  "introduction": "[2104.01136] Supplementary material for LeViT: a Vision Transformer in ConvNet’s Clothing for Faster Inference\n\nSupplementary material for\n\nLeViT: a Vision Transformer in ConvNet’s Clothing for Faster",
+  "method": "e Figure 4 of the main paper).\n\nLeViT spends less time calculating the attention\n\nQ  ​\n\nK  T\n\n𝑄\n\nsuperscript  𝐾  𝑇\n\nQK^{T}\n\n, but more time on the subsequent matrix product\n\nA  ​  V\n\n𝐴  𝑉\n\nAV\n\n. ",
+  "results": "shape.\n\nWe test the effect of the LeViT pyramid structure, we replace the three stages with a single stage of depth 11 at resolution\n\n14  ×  14\n\n14  14\n\n14\\times 14\n\n. To preserve the FLOP count, we t",
+  "conclusion": "t values of the bias are low enough (-20) to suppress the attention between the two pixels, since they are input to a softmax.\n\nWe can observe that some heads are quite uniform, while other heads spec"
+}

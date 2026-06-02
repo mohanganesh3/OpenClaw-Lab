@@ -1,0 +1,65 @@
+{
+  "title": "LORE: A Large Generative Model for Search Relevance",
+  "abstract": "LORE is a complete, replicable blueprint for LLM-based relevance modeling that spans the entire lifecycle. The paper presents a two-stage training paradigm: first using progressive CoT synthesis and Supervised Fine-Tuning (SFT) to instill comprehensive capabilities, then applying Reinforcement Learning (RL) to align the model with human preferences. The authors constructed a benchmark called RAIR for evaluation and designed a query-based stratified deployment strategy for real-time computation.",
+  "structure": {
+    "sections": [
+      "Introduction",
+      "Theoretical Framework",
+      "Method",
+      "Experiment",
+      "Application",
+      "Discussion",
+      "Evolutionary Trajectory",
+      "Conclusion",
+      "Contributors"
+    ],
+    "theoretical_framework_subsections": [
+      "Task Definition",
+      "Deep Analysis of Relevance Modeling"
+    ],
+    "method_subsections": [
+      "Overview",
+      "Preliminary Exploration",
+      "SFT: Comprehensive Reasoning Capability Injection",
+      "RL: Relevance-Oriented Human Preference Alignment",
+      "Evaluation: Comprehensive Relevance Benchmark"
+    ]
+  },
+  "key_components": [
+    "Feature Construction",
+    "Model Selection",
+    "Prompt Optimization",
+    "SFT: Comprehensive Reasoning Capability Injection",
+    "RL: Relevance-Oriented Human Preference Alignment",
+    "Evaluation: Comprehensive Relevance Benchmark (RAIR)"
+  ],
+  "key_insights": [
+    "Naive teacher CoT distillation results in negative effects",
+    "Long CoT is not necessary for better performance",
+    "Discussion on Multimodal Modeling: VLM or Two-Stage LLM?"
+  ],
+  "evolutionary_trajectory": [
+    "LORE 1.0: Foundation Consolidation",
+    "LORE 2.0: Deep reasoning",
+    "LORE 3.0: Rule Adherence and Multi-modality"
+  ],
+  "applications": [
+    "Practical solution for developing advanced e-commerce relevance systems",
+    "Methodological reference for domain-specific post-training"
+  ],
+  "benchmarks": [
+    "RAIR: A comprehensive benchmark tailored to evaluate core capabilities"
+  ],
+  "deployment_strategy": "Query-based stratified deployment strategy for real-time computation",
+  "evidence_id": "EV048",
+  "year": 2025,
+  "arxiv_id": "2512.03025",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7997,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Dynamic Policy Fusion for User Alignment Without Re-Interaction",
+  "problem": "Users may desire policies that deviate from optimal policies to accommodate personal preferences, but traditional approaches require retraining RL agents from scratch, which is challenging and inefficient.",
+  "approach": "A policy fusion-based approach to learn a personalized policy that respects human preferences while satisfying task objectives.",
+  "methodology": {
+    "trajectory_scoring": "Trajectories used to learn the task are numerically scored to reflect alignment with human preferences",
+    "intent_inference": "LSTM is used to infer user intent and construct an intent-specific policy",
+    "policy_fusion": "The task-specific policy is fused with the intent-specific policy",
+    "bounded_divergence": "The approach ensures bounded divergence from the task-specific policy",
+    "zero_shot": "No additional environment interactions are required"
+  },
+  "contributions": [
+    "Policy fusion-based approach for personalized policy learning without retraining",
+    "Identification of limitations with static policy fusion (dominance issues)",
+    "Dynamic policy fusion approach that regulates dominance by adjusting temperature parameter of Boltzmann distribution"
+  ],
+  "applications": "Navigation scenarios where users prefer avoiding toll roads or scenic routes",
+  "theoretical_guarantees": "Bounded divergence of personalized policy with respect to task-specific policy",
+  "evidence_id": "EV039",
+  "year": 2024,
+  "arxiv_id": "2409.20016",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

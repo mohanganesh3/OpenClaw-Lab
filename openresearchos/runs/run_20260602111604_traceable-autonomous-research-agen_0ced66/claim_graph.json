@@ -1,0 +1,138 @@
+{
+  "claims": [
+    {
+      "claim_id": "CL001",
+      "evidence_id": "EV001",
+      "text": "The AI Scientist generates novel research ideas, writes code, executes experiments, visualizes results, writes full scientific papers, and runs a simulated review process in an automated, iterative fashion.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": "Papers exceeding acceptance threshold at a top machine learning conference"
+    },
+    {
+      "claim_id": "CL002",
+      "evidence_id": "EV002",
+      "text": "Extends automated scientific discovery with stronger search and review-like iteration, motivating stricter gates for novelty, experiment quality, and paper readiness.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL003",
+      "evidence_id": "EV003",
+      "text": "Describes agentic research assistance across literature review, experimentation, and report writing, highlighting the need for human oversight and reproducibility controls.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL004",
+      "evidence_id": "EV004",
+      "text": "Created a benchmark using Kaggle competitions to evaluate ML agents on real-world ML engineering tasks, using human baselines from Kaggle leaderboards and open-source agent scaffolds.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "Kaggle competitions"
+      ],
+      "best_result": "OpenAI's o1-preview with AIDE scaffolding achieved at least the level of a Kaggle bronze medal in 16.9% of competitions."
+    },
+    {
+      "claim_id": "CL005",
+      "evidence_id": "EV005",
+      "text": "AIBuildAI-2 is a knowledge-enhanced agent with an external, evolving knowledge system for automatically building AI models, featuring a hierarchical organization of curated AI development knowledge with dynamic context loading.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": "70.7% medal rate on MLE-Bench"
+    },
+    {
+      "claim_id": "CL006",
+      "evidence_id": "EV006",
+      "text": "Uses verbal feedback and memory to help agents improve across trials, motivating explicit failure memory and revision loops.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL007",
+      "evidence_id": "EV007",
+      "text": "Studies iterative generation, feedback, and refinement, providing background for reviewer-style critique and revision policies.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL008",
+      "evidence_id": "EV008",
+      "text": "Demonstrates open-ended skill acquisition with memory and iterative exploration, relevant to long-running agent loops and durable lessons.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL009",
+      "evidence_id": "EV009",
+      "text": "Introduces agent evaluation tasks and motivates structured benchmarks for agent behavior rather than isolated text quality.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL010",
+      "evidence_id": "EV010",
+      "text": "Shows how agents can operate computer interfaces to solve software tasks, relevant to local experiment execution and reproducible command logs.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    }
+  ],
+  "links": [
+    {
+      "from": "EV001",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: The development of a fully automated system that can perform the entire scientific discovery process from idea generation to paper writing and evaluation."
+    },
+    {
+      "from": "EV002",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See deep_read.json for details"
+    },
+    {
+      "from": "EV003",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See deep_read.json for details"
+    },
+    {
+      "from": "EV004",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: MLE-bench, a benchmark that evaluates ML agents on real-world Kaggle competitions using human baselines."
+    },
+    {
+      "from": "EV005",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: A hierarchical, evolving knowledge system that allows the agent to dynamically load relevant context and ground decisions in externally verifiable expertise while continuously learning from its own experiences."
+    },
+    {
+      "from": "EV006",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See deep_read.json for details"
+    },
+    {
+      "from": "EV007",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See deep_read.json for details"
+    },
+    {
+      "from": "EV008",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See deep_read.json for details"
+    },
+    {
+      "from": "EV009",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See deep_read.json for details"
+    },
+    {
+      "from": "EV010",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See deep_read.json for details"
+    }
+  ]
+}

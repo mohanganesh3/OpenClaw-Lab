@@ -1,0 +1,51 @@
+{
+  "title": "A Framework for Fine-Tuning LLMs using Heterogeneous Feedback",
+  "method": {
+    "process": "Fine-tuning process",
+    "steps": [
+      "Collecting examples of desired model behavior",
+      "Performing supervised learning (SFT)",
+      "Training a reward model based on binary human preference data",
+      "Refining using RLHF with PPO algorithm"
+    ],
+    "limitations": "Methods require data of a single supervision type, restricting the scope of preference data",
+    "datasets_mentioned": [
+      "OASST",
+      "WinoGrande",
+      "Anthropic HHH",
+      "OpenPlatypus"
+    ],
+    "recent_work": "Filtering fine-tuning datasets to reduce cost and increase quality"
+  },
+  "results": {
+    "contribution": "Framework to use multiple fine-tuning data types",
+    "benefits": [
+      "Permitting use of more fine-tuning datasets",
+      "Fine-tuning for multiple tasks simultaneously",
+      "Fine-tuning for different goals (e.g., logical reasoning and bias reduction)",
+      "Providing a more accurate view of human preference"
+    ],
+    "framework_steps": [
+      "Concatenating datasets into heterogeneous feedback",
+      "Scoring samples based on quality and prompt diversity",
+      "Removing a fraction of samples (hyperparameter)",
+      "Applying standard fine-tuning methods to a pre-trained LLM"
+    ],
+    "key_innovation": "Projecting all datasets into a unified format (binary preference)"
+  },
+  "notation": {
+    "dataset": "𝒟 = {(P_i, A_i,0, A_i,1)}_i=1^M",
+    "training_dataset": "D_train"
+  },
+  "evidence_id": "EV012",
+  "year": 2024,
+  "arxiv_id": "2408.02861",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

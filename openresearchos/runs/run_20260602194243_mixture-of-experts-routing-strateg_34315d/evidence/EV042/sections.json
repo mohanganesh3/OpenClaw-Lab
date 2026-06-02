@@ -1,0 +1,6 @@
+{
+  "introduction": "[2512.07628] MoCA: Mixture-of-Components Attention for Scalable Compositional 3D Generation\n\nMoCA: Mixture-of-Components Attention for Scalable Compositional 3D Generation\n\nZhiqi Li\n\n,1,2\n\nWenhuan Li ",
+  "method": "e modeling of physically plausible interactions, all of which are essential for applications ranging from virtual production and game asset creation to robotics and computer-aided design.\n\nRecently, 3",
+  "results": "and forearm, while modeling the position of a chair primarily correlates with the nearby table. Blindly enabling every token to attend to all others allocates computational resources and memory to num",
+  "conclusion": ",  2025 ) , enabling efficient yet powerful compositional 3D generation.\n\nWe evaluate MoCA across both object-level and scene-level 3D generation tasks. For object-level generation, MoCA generates a 3"
+}

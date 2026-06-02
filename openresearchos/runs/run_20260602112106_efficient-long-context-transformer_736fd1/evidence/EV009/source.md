@@ -1,0 +1,10 @@
+# EV009: Exploring the Accuracy and Performance: A Comparative Analysis of Deep Learning Techniques for ICD Prediction from Clinical Notes
+
+URL: https://www.semanticscholar.org/paper/00187d3b51223f3b281b1f712d84822b7b4c6fa9
+Year: 2025
+Source: semantic_scholar
+Arxiv: n/a
+
+## Abstract
+
+Accurate and efficient prediction of International Classification of Diseases (ICD) codes from clinical notes is critical for streamlining healthcare operations. These ICD codes, which classify diagnoses, symptoms, and procedures, play a vital role in ensuring accurate medical documentation and facilitating healthcare data analysis. The increasing volume of clinical data makes manual ICD coding labor-intensive and prone to error, highlighting the need for automated methods. This paper aims to provide a comprehensive analysis of the accuracy and computational performance of four state-of-the-art deep learning models. The compared models are based on four different techniques: Convolutional Neural Network (CNN), Long Short-Term Memory (LSTM), CNN-Attention hybrid technique, and Transformers for the automation of ICD code prediction using the MIMIC-III dataset. These models are evaluated across multiple evaluation metrics: Micro F1-score, Macro F1-score, AUC-ROC, and AUC-PR for accuracy evaluation and GFLOPs, GMACs, inference time, and number of parameters for computational performance examination. A proposed data preprocessing pipeline in this paper enhances the detection accuracy of the compared models with average ratios up to 9.22, 13.37, 4.37, and 7.47 for Micro F1-score, Macro F1-score, AUC-ROC, and AUC-PR, respectively. The findings in experimental results reveal that Bio-ClinicalBERT, the transformer-based model, achieves the highest accuracy, with a Micro F1-score of 0.8319, though it is computationally expensive. In contrast, CAML, the CNN-based model, offers a favorable balance between accuracy and computational performance. This work contributes to the ongoing development of ICD prediction systems and offers recommendations for optimizing both accuracy and efficiency in electronic health record (EHR) systems.

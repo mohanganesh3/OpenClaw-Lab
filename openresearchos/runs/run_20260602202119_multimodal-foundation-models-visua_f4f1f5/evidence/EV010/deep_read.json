@@ -1,0 +1,50 @@
+{
+  "title": "LLaVA-Grounding: Grounded Visual Chat with Large Multimodal Models",
+  "methodology": {
+    "data_creation": {
+      "approach": "Human-labeled object detection data",
+      "tools": [
+        "GPT-4"
+      ],
+      "process": "GPT-4 provided with chat data and ground-truth instances, instructed to match instances with noun phrases",
+      "data_size": "150K grounded visual chat data points",
+      "advantage": "Minimal noise in data annotation pipeline"
+    },
+    "network_architecture": {
+      "approach": "Connecting output features of Language Model (LLM) with a grounding model",
+      "details": "Incomplete in the provided text"
+    }
+  },
+  "results": {
+    "previous_models_limitations": [
+      "Struggled with fine-grained understanding of images and visual grounding",
+      "Treated grounding as a distinct task requiring customized prompts",
+      "Text responses changed significantly when tasked with grounding",
+      "Could only generate short captions during grounding",
+      "Only supported outputting coordinates as text",
+      "Lacked pixel-wise grounding and referring capabilities"
+    ]
+  },
+  "key_contributions": [
+    "Data creation: 150K grounded visual chat data points",
+    "Network architecture: Connecting output features of LLM with a grounding model",
+    "Benchmarking: Grounding-Bench"
+  ],
+  "comparisons": {
+    "LLaVA-G": "Achieves a good trade-off between visual grounding and visual chat abilities",
+    "CogVLM": "Has separate models for grounding (CogVLM-Grounding) and chat (CogVLM-Chat)",
+    "BuboGPT": "Maintains chat capability using external grounding model but constrained by language encoder performance",
+    "Shikra": "Engages in referential dialog but has limited performance due to data scarcity"
+  },
+  "evidence_id": "EV010",
+  "year": 2023,
+  "arxiv_id": "2312.02949",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

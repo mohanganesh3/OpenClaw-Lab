@@ -1,0 +1,51 @@
+{
+  "title": "MeVe: A Modular System for Memory Verification and Effective Context Control in Language Models",
+  "authors": "Not specified in the excerpt",
+  "abstract": "MeVe is a new method that fundamentally redesigns retrieval, verification, prioritization, and budgeting as separate, configurable, and auditable phases. It transforms the RAG pipeline from a singular operation into a structured, multi-stage process with explicit control over content quality and composition. MeVe does not aim to substitute RAG but instead redefines traditional RAG as one possible configuration within a more sophisticated, memory-aware architecture.",
+  "keywords": [
+    "Retrieval-Augmented Generation (RAG)",
+    "Memory verification",
+    "Context control",
+    "Large Language Models (LLMs)",
+    "Modular architecture",
+    "Information retrieval"
+  ],
+  "introduction": {
+    "motivation": "As models continue to utilize larger context windows and retrieve information from external memory, the key challenge shifts from simple information retrieval to smart contextual management, including dynamic fetching of contextually relevant knowledge, rigorous verification of its relevance, and efficient composition.",
+    "problem": "Traditional RAG systems commonly operate by performing a direct, often 'top-k' semantic search against a pre-indexed knowledge base, retrieving the most similar documents and directly appending them to the LLMs input prompt. This can lead to issues such as including irrelevant, redundant or even contradictory information, leading to 'context pollution' and degrading the quality of LLM responses."
+  },
+  "methodology": {
+    "name": "MeVe",
+    "description": "A modular system that decomposes the RAG pipeline into separate phases for retrieval, verification, prioritization, and budgeting.",
+    "key_features": [
+      "Modular decomposition of the RAG pipeline",
+      "Explicit verification of information",
+      "Strict retrieval mechanisms",
+      "Configurable and auditable phases"
+    ]
+  },
+  "results": {
+    "main_findings": "The MeVe framework provides a modular and systematic approach to LLM context management, leading to enhanced efficiency and control in tasks involving large amounts of knowledge.",
+    "benefits": [
+      "Alleviates typical failure modes in RAG systems",
+      "Reduces context confusion",
+      "Prevents propagation of irrelevant or misleading information",
+      "Addresses context pollution and hallucinations"
+    ]
+  },
+  "related_work": {
+    "main_approach": "Retrieval-Augmented Generation (RAG) enhances LLMs by anchoring them to external knowledge.",
+    "limitations": "The standard top-k paradigm is vulnerable to 'distractor documents' which are semantically similar but contextually irrelevant. Sophisticated methods like re-ranking are typically applied as secondary corrections to an already formed, imperfect candidate pool."
+  },
+  "evidence_id": "EV010",
+  "year": 2025,
+  "arxiv_id": "2509.01514",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

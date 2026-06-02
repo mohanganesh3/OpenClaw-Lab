@@ -1,0 +1,35 @@
+{
+  "title": "Footprint-Guided Exemplar-Free Continual Histopathology Report Generation",
+  "authors": "Not provided in the text",
+  "abstract": "This paper introduces a footprint-based generative replay framework for continual whole slide image (WSI) report generation. The approach addresses the challenge of catastrophic forgetting in evolving clinical settings by compressing each domain into a compact domain footprint in a frozen embedding space, combining a representative codebook with lightweight slide-level composition statistics. These footprints enable exemplar-free rehearsal by synthesizing pseudo-WSIs, avoiding the need to store WSIs or large feature archives while maintaining prior-domain competence.",
+  "problem_statement": "Most WSI report-generation systems are developed in a static training regime, but in practice, deployment is continual with new datasets arriving over time. Repeated cumulative retraining is computationally costly and may be infeasible due to storage and governance constraints. Naïve fine-tuning on incoming data leads to catastrophic forgetting. Rehearsal is challenging because WSIs are represented as variable-length sets of patch embeddings, making storage costly, and long-term retention of patient data may be restricted.",
+  "proposed_solution": "A footprint-based generative replay framework that builds on a HistoGPT-style vision-language generator. The method compresses each domain into a compact domain footprint in a frozen embedding space, combining a representative codebook with lightweight slide-level composition statistics. These footprints enable exemplar-free rehearsal by synthesizing pseudo-WSIs.",
+  "key_contributions": [
+    "A storage-efficient continual learning framework for WSI report generation",
+    "Avoids retaining raw exemplars or large feature archives",
+    "Supports domain-agnostic inference",
+    "Addresses the core constraint of continual deployment: retaining prior-domain competence without keeping WSIs"
+  ],
+  "technical_approach": {
+    "foundation": "HistoGPT-style vision-language generator",
+    "embedding_space": "Frozen embedding space",
+    "components": [
+      "Representative codebook",
+      "Lightweight slide-level composition statistics"
+    ],
+    "method": "Synthesizes pseudo-WSIs for exemplar-free rehearsal",
+    "output": "Pseudo reports obtained from synthesized WSIs"
+  },
+  "applications": "Continual learning in histopathology report generation for evolving clinical settings",
+  "evidence_id": "EV033",
+  "year": 2026,
+  "arxiv_id": "2602.23817",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

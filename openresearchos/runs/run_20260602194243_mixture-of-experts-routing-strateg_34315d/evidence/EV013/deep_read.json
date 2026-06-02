@@ -1,0 +1,65 @@
+{
+  "title": "SA-EMO: Structure-Aligned Encoder Mixture of Operators for Generalizable Full-waveform Inversion",
+  "keywords": [
+    "Full Waveform Inversion",
+    "Neural Operators",
+    "Structure-Aligned Encoder",
+    "Seismic Imaging",
+    "MoE"
+  ],
+  "problem": "Existing data-driven FWI models exhibit inconsistent cross-type generalization and degraded high-frequency reconstruction under complex geological conditions due to temporal-spatial and structural misalignment between the waveform domain and the velocity domain.",
+  "solution": {
+    "name": "SA-EMO (Structure-Aligned Encoder-Mixture-of-Operators) framework",
+    "components": [
+      {
+        "name": "Structure-aligned encoder",
+        "description": "Learns a physically consistent projection from raw wavefields to a latent space that aligns with the target velocity structure."
+      },
+      {
+        "name": "Four complementary neural operator experts",
+        "description": "FNO, WNO, MNO, and LNO jointly capture global, multiscale, hierarchical, and local physical priors within this latent space."
+      },
+      {
+        "name": "Adaptive routing mechanism",
+        "description": "Fuses experts via type-weighted and group-weighted aggregation with strong-weak activation, dynamically balancing dominant and auxiliary experts to adapt to different geological regimes."
+      }
+    ],
+    "training": "The entire system is trained with a hybrid spatial-spectral loss for unified optimization."
+  },
+  "results": {
+    "encoder": "Primarily improves per-type inversion accuracy.",
+    "routing": "Enhances cross-type generalization.",
+    "quantitative": {
+      "dataset": "OpenFWI",
+      "test_case": "CurveVelB",
+      "before": {
+        "MAE": 0.104,
+        "RMSE": 0.147,
+        "SSIM": 0.903
+      },
+      "after": {
+        "MAE": 0.085,
+        "RMSE": 0.125,
+        "SSIM": 0.925
+      }
+    },
+    "robustness": "Strong-weak routing enhances robustness across all ten sub-datasets and preserves structural continuity on the Marmousi2 dataset, demonstrating strong out-of-distribution (OOD) generalization."
+  },
+  "contributions": [
+    "Proposed a structure-aligned encoder that explicitly aligns waveform and velocity domains, achieving balanced spectral energy and improved single-operator accuracy.",
+    "Introduced an operator-level mixture-of-experts that integrates FNO, WNO, MNO, and LNO to jointly capture global, multiscale, and local physical priors in a unified latent space.",
+    "Designed a strong-weak activation routing mechanism within a hierarchical type- and group-weighted framework, improving cross-type generalization and interpretability without explicit type labels.",
+    "Conducted extensive experiments on ten OpenFWI sub-datasets and the OOD Marmousi2 dataset, showing that the encoder improves accuracy while routing enhances generalization."
+  ],
+  "evidence_id": "EV013",
+  "year": 2025,
+  "arxiv_id": "2511.11627",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7997,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

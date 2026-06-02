@@ -1,0 +1,55 @@
+{
+  "title": "Training Matryoshka Mixture-of-Experts for Elastic Inference-Time Expert Utilization",
+  "authors": "Not specified in provided excerpt",
+  "publication_year": "Not specified in provided excerpt",
+  "keywords": [
+    "Matryoshka Representation Learning",
+    "Mixture-of-Experts",
+    "Elastic Inference",
+    "Large Language Models",
+    "Expert Utilization",
+    "Deep Learning"
+  ],
+  "abstract": "This paper addresses the challenge of elastic inference in large-scale Mixture-of-Experts (MoE) models. The authors identify a fundamental brittleness in current MoE models, where reducing the number of activated experts leads to sharp performance degradation. They propose Matryoshka MoE (M-MoE), a training strategy that instills coarse-to-fine granularity within the MoE's expert routing mechanism to enable true inference-time elasticity.",
+  "main_contributions": [
+    "Identification of brittleness in current MoE models for elastic inference",
+    "Proposal of Matryoshka MoE (M-MoE) as a solution for elastic inference",
+    "Demonstration that current MoE models cannot deliver on the promise of true inference-time elasticity",
+    "Introduction of a layer-wise approach for expert routing in M-MoE"
+  ],
+  "methodology": {
+    "approach": "Matryoshka MoE (M-MoE) training strategy",
+    "key_innovation": "Layer-wise approach for expert routing with coarse-to-fine granularity",
+    "alternatives_explored": "Randomizing expert count for global batch"
+  },
+  "experiments": {
+    "models_evaluated": [
+      "DeepSeek-V2-Lite",
+      "Qwen3-30B-A3B-Base",
+      "RedNote-Dots.LLM1.Base"
+    ],
+    "evaluation_metrics": [
+      "MMLU score"
+    ],
+    "key_results": {
+      "expert_scaling": "Increasing experts yields minimal performance gains while reducing experts causes sharp degradation",
+      "visualization": "Figure 1 shows performance across varying numbers of activated experts"
+    }
+  },
+  "applications": [
+    "Elastic inference for large-scale models",
+    "Adaptable deployments of MoE models",
+    "Dynamic adaptation of computational footprint for diverse user requirements"
+  ],
+  "evidence_id": "EV052",
+  "year": 2025,
+  "arxiv_id": "2509.26520",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "introduction": "[2505.01475] CodeSSM: Towards State Space Models for Code Understanding\n\nCodeSSM: Towards State Space Models for Code Understanding\n\nShweta Verma 1, *\n\n,\n Abhinav Anand 1, *\n\n,\n Mira Mezini 1,2,3\n\n1 T",
+  "method": "lf-supervised training objective. This is followed by a supervised finetuning process on a smaller labeled dataset.\n\nHowever, the performance gain offered by the transformer models comes with some tra",
+  "results": "based on SSM, which we call CodeSSM, on a small code dataset with masked language modeling (MLM)  (Devlin et al.,  2019 ) . We evaluated our model on multiple code understanding benchmarks. We also in",
+  "conclusion": "nd more complex training objectives for future work.\n\nSummary of contributions:\n\n•\n\nWe conduct the first systematic evaluation of State Space Models (SSMs) for code understanding, introducing a specia"
+}

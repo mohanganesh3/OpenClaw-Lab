@@ -1,0 +1,28 @@
+{
+  "method_summary": "A proactive approach examining LLMs' internal states before text generation using a neural network classifier integrated with a Retrieval-Augmented Generation (RAG) system to detect potential copyright leaks",
+  "key_innovation": "Examining LLMs' internal states before text generation to proactively detect potential copyright data leaks",
+  "datasets_used": [
+    "curated dataset of copyrighted materials"
+  ],
+  "baselines_compared": [],
+  "key_results": {},
+  "best_result": null,
+  "limitations_stated": [],
+  "code_available": null,
+  "code_url": null,
+  "reproducibility": null,
+  "compute_required": null,
+  "can_run_on_macbook": null,
+  "evidence_id": "EV026",
+  "title": "ISACL: Internal State Analyzer for Copyrighted Training Data Leakage",
+  "year": 2025,
+  "arxiv_id": "2508.17767",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 1962,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

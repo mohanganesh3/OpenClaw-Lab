@@ -1,0 +1,33 @@
+{
+  "method_summary": "Analyzed 1,178 safety and reliability papers from 9,439 generative AI papers written by 5 AI companies and 6 universities using OpenAI's o3-mini for classification and regex keyword searches for high-risk domains",
+  "key_innovation": "First comprehensive analysis quantifying the concentration of AI governance research within corporate entities and identifying post-deployment research gaps",
+  "datasets_used": [
+    "Anthropic and OpenAI websites",
+    "OpenAlex database"
+  ],
+  "baselines_compared": [
+    "Corporate AI vs Academic AI research impact"
+  ],
+  "key_results": {
+    "citation_concentration": "Google DeepMind has more citations than top 4 academic institutions combined"
+  },
+  "best_result": "AI governance research is highly concentrated within a handful of uniquely resourced and integrated AI tech companies",
+  "limitations_stated": [],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "medium",
+  "compute_required": "not specified",
+  "can_run_on_macbook": false,
+  "evidence_id": "EV009",
+  "title": "Real-World Gaps in AI Governance Research",
+  "year": 2025,
+  "arxiv_id": "2505.00174",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

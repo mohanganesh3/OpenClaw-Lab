@@ -1,0 +1,10 @@
+# EV009: Structural Anchors and Reasoning Fragility:Understanding CoT Robustness in LLM4Code
+
+URL: https://www.semanticscholar.org/paper/003ef0e6fbaf5ba1c27082613d8cadf1df020251
+Year: 2026
+Source: semantic_scholar
+Arxiv: 2604.12214
+
+## Abstract
+
+Chain-of-Thought (CoT) prompting is widely used to elicit explicit reasoning from large language models for code (LLM4Code). However, its impact on robustness and the stability of reasoning trajectories under realistic input perturbations remains poorly understood. Prior work has largely evaluated CoT through final correctness, leaving a critical gap in understanding how CoT reshapes internal uncertainty dynamics and why it sometimes harms rather than helps code generation. We suggest that CoT is not uniformly beneficial; instead, its robustness depends on whether perturbations destabilize structurally sensitive commitment points along the reasoning-to-code trajectory. We conduct a controlled, large-scale empirical study of CoT across six models and two code benchmarks (MHPP and BigCodeBench), subjecting task docstrings to systematic character-, word-, and sentence-level perturbations. We instrument full generation traces with token-level uncertainty and define three novel structural anchors: reasoning-code transition, symbolic commitment, and algorithmic articulation. Findings: (1) CoT does not yield uniform performance or robustness gains: its benefits are contingent on model family, task structure, and prompt explicitness. (2) CoT and No-CoT exhibit distinct robustness profiles, with different perturbation families triggering different failure modes. (3) We identify three recurrent trajectory deformations--Lengthening, Branching, and Simplification--that systematically emerge when perturbations interact with structural anchors and explain failure patterns. (4) Early-stage uncertainty serves as a reliable diagnostic signal for localizing where trajectory instability begins around sensitive anchors. These results provide a unified explanation for CoT's mixed performance and suggest design principles for building more robust reasoning-based code generators.

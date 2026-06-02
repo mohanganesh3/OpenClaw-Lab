@@ -1,0 +1,57 @@
+{
+  "title": "S3LLM: Large-Scale Scientific Software Understanding with LLMs using Source, Metadata, and Document",
+  "abstract": "Demonstrates the potential of using locally deployed open-source LLMs for the rapid understanding of large-scale scientific computing software, eliminating the need for extensive coding expertise, and thereby making the process more efficient and effective.",
+  "keywords": [
+    "Large-Scale Scientific Software",
+    "Large Language Models",
+    "Research Software Analysis",
+    "E3SM Land Model",
+    "Retrieval Augmented Generation (RAG)",
+    "LLM",
+    "LLaMA",
+    "ChatGPT"
+  ],
+  "methodology": "Using locally deployed open-source LLMs for understanding large-scale scientific computing software",
+  "application_domain": "Large-scale scientific computing software",
+  "specific_example": "E3SM Land Model",
+  "availability": "https://github.com/ResponsibleAILab/s3llm",
+  "problem_addressed": {
+    "description": "Understanding large-scale scientific software is challenging due to multiple programming languages, large code volume, and inadequate documentation",
+    "specific_challenges": [
+      "Multiple programming languages including older ones like Fortran and Pascal",
+      "Large volume of code (millions of lines)",
+      "Less than ideal documentation"
+    ]
+  },
+  "existing_solutions": [
+    {
+      "name": "Doxygen",
+      "purpose": "Documentation generation and static code analysis"
+    },
+    {
+      "name": "Sphinx",
+      "purpose": "Documentation across various formats (HTML, LaTeX, ePub, Texinfo, manual pages, plain text)"
+    }
+  ],
+  "limitations_of_existing_solutions": [
+    "Primarily tailored for static code analysis",
+    "Lack capability to accommodate dynamic queries",
+    "Challenge in formulating queries in both instructed and structured formats"
+  ],
+  "proposed_solution": {
+    "name": "S3LLM",
+    "description": "A framework providing a user-friendly interface for interacting with complex scientific computing software through conversational, natural language queries",
+    "approach": "Using large language models to make software comprehension more accessible and intuitive"
+  },
+  "evidence_id": "EV016",
+  "year": 2024,
+  "arxiv_id": "2403.10588",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

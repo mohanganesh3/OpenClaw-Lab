@@ -1,0 +1,6 @@
+{
+  "introduction": "[2601.02708] CREAM: Continual Retrieval on Dynamic Streaming Corpora with Adaptive Soft Memory\n\n\\setcctype\n\nby\n\nCREAM: Continual Retrieval on Dynamic Streaming Corpora with Adaptive Soft Memory\n\nHuiJe",
+  "method": "val, Continual Retrieval, Self-supervision.\n\n†\n\n†  copyright:  acmlicensed\n\n†\n\n†  journalyear:  2026\n\n†\n\n†  copyright:  cc\n\n†\n\n†  conference:  Proceedings of the 32nd ACM SIGKDD Conference on Knowledg",
+  "results": "a drug in the medical domain, whereas it denotes a person or agency in the business context. If an IR system has not adapted to the new domain, it may return irrelevant medical documents, potentially ",
+  "conclusion": "e referred to as  hard memory . Query-document pairs are sampled from hard memory to update the encoder, while new documents relevant to the predefined queries are added from the streaming corpora. Th"
+}

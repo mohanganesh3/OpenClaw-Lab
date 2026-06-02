@@ -1,0 +1,6 @@
+{
+  "introduction": "[2504.03897] MaxTDA: Robust Statistical Inference for Maximal Persistence in Topological Data Analysis\n\nMaxTDA: Robust Statistical Inference for Maximal Persistence in Topological Data Analysis\n\nSixtu",
+  "method": "cally significant topological features is essential for revealing underlying structural properties in complex datasets. Numerical simulations across varied datasets, including an example from exoplane",
+  "results": "sters, filaments, and voids from noise, aiding in constraining the cosmological model  (Pranav et al.,,  2017 ; Xu et al.,,  2019 ) .\n\nIdentifying statistically significant features, particularly, the",
+  "conclusion": "work is to develop an inference method that builds on these robust methods, while mitigating the reduction in the persistence of the features, in order to enhance a feature’s statistical significance."
+}

@@ -1,0 +1,42 @@
+{
+  "title": "CLIP-Lite: Information Efficient Visual Representation Learning with Language Supervision",
+  "authors": "Not explicitly mentioned in provided text",
+  "abstract": "CLIP-Lite is an information-efficient variation of CLIP that works effectively in smaller data regimes, requires fewer negative sample pairs during training, and provides comparable or superior performance on standard benchmarks against other methods trained at the same scale.",
+  "methodology": {
+    "approach": "Contrastive learning between vision and language modalities",
+    "base_model": "Based on CLIP but with modifications to reduce negative sample requirements",
+    "key_technique": "Uses a lower bound based on Jensen-Shannon Divergence to maximize mutual information",
+    "negative_sampling": "Requires only one negative example pair for each positive example pair"
+  },
+  "innovations": [
+    "Reduces number of negative examples in a training batch from O(n²) (like CLIP) to O(n)",
+    "Works effectively in smaller data regimes",
+    "Uses Jensen-Shannon Divergence-based lower bound instead of InfoNCE"
+  ],
+  "datasets": [
+    "ImageNet dataset (for comparison)",
+    "Internet-sized dataset of image-caption pairs"
+  ],
+  "benchmarks": "Standard benchmarks (not specified in provided text)",
+  "comparisons": [
+    "Compared to CLIP (Radford et al., 2021)",
+    "Compared to VirTex (Desai and Johnson, 2021)",
+    "Compared to traditional image classification networks pre-trained on ImageNet"
+  ],
+  "key_advantages": [
+    "Information efficient",
+    "Useful in smaller data regimes",
+    "Does not rely on as many negative sample pairs during training"
+  ],
+  "evidence_id": "EV045",
+  "year": 2021,
+  "arxiv_id": "2112.07133",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

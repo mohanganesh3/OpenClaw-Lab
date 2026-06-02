@@ -1,0 +1,6 @@
+{
+  "introduction": "[2509.01514] MeVe: A Modular System for Memory Verification and Effective Context Control in Language Models\n\n1\n\n1  institutetext:\n\nIndependent Researcher\n\nAlta, Norway\n\nMeVe: A Modular System for Mem",
+  "method": "ext  [ 6 ]\n\n[ 7 ] . As models continue to utilize larger context windows and retrieve information from external memory, the key challenge shifts from simple information retrieval to smart contextual m",
+  "results": "urable, and auditable phases  [ 4 ]\n\n[ 19 ] . MeVe’s key contribution is its modular decomposition of the RAG pipeline, transforming it from a singular operation into a structured, multi-stage process",
+  "conclusion": "and the Need for Filtering\n\nThe introduction of Long-Context Architectures, such as in Ring Attention systems or those controlled by MemGPT, enables LLMs to process much greater levels of information "
+}

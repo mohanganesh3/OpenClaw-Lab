@@ -1,0 +1,6 @@
+{
+  "introduction": "[2509.11708] From Evaluation to Enhancement: Large Language Models for Zero-Knowledge Proof Code Generation\n\nFrom Evaluation to Enhancement: Large Language Models for Zero-Knowledge Proof Code Generat",
+  "method": "ents on\nCircom and Noir show substantial gains, with success rates improving from\n17.35% to 83.38% and from 32.21% to 90.05%, respectively. With\n ZK-Eval  and  ZK-Coder , we establish a foundation for",
+  "results": "constraints  over finite\nfields. Its development requires reasoning about finite field arithmetic,\nconstraint systems, and  gadgets  — a novel concept advocated by modern\nZKP frameworks to encode reus",
+  "conclusion": "aises\nthe question:  to what extent can modern LLMs assist in generating ZK code\nfrom natural language specifications?  Answering this question requires more\nthan surface-level benchmarking. Compared "
+}

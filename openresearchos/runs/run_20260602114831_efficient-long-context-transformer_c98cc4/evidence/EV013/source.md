@@ -1,0 +1,10 @@
+# EV013: GLCViT: A Multiscale Visual Transformer Framework for Hotspot Prediction in Film and Television Dissemination
+
+URL: https://www.semanticscholar.org/paper/037b15cfc9c5e678fc9f8c2772251e930e37eed9
+Year: 2025
+Source: semantic_scholar
+Arxiv: n/a
+
+## Abstract
+
+Traditional hotspot prediction methods, which rely on statistical features or shallow neural networks, often fail to effectively capture the complex temporal dynamics and semantic evolution inherent in this context. To address this challenge, this paper proposes a hierarchical temporal feature extraction framework designed to accommodate both long-term trends and short-term surges in hotspot propagation. This framework integrates a Hidden Markov Model with dynamic texture modeling and enhances the representation of nonlinear dynamic patterns through a segmented linear approximation strategy. Furthermore, to overcome the computational limitations of traditional Vision Transformers (ViTs) in resource-constrained environments, a hierarchical attention mechanism combined with an attention pooling strategy is introduced, along with a dual-scale input pathway. Building on these innovations, the paper presents the Global-Local Context Vision Transformer (GLCViT) module, which synergistically incorporates windowed attention and a multi-scale depthwise separable convolutional structure to effectively model global semantic dependencies across cameras and fine-grained boundary features within a single camera. Experimental results demonstrate that the proposed model achieves notable performance improvements on the MovieNet and ViralVideos-50K datasets, reducing the prediction error for propagation breaking points to just 0.5 hours and achieving a prediction accuracy of nearly 95%. The proposed architecture not only enhances prediction accuracy and accelerates training convergence but also confirms the viability and scalability of the ViT framework for modeling the propagation of film and television content, thereby offering technical support for the development of efficient and interpretable hotspot prediction systems.

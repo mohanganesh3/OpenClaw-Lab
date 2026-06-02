@@ -1,0 +1,6 @@
+{
+  "introduction": "[2308.03688] AgentBench: Evaluating LLMs as Agents\n\n\\useunder\n\n\\ul\n\n\\doparttoc  \\faketableofcontents\n\nAgentBench : Evaluating LLMs as Agents\n\nXiao Liu\n\nTsinghua University\n\nHao Yu\n\nTsinghua University",
+  "method": "package for  AgentBench  are released at  https://github.com/THUDM/AgentBench .\n\n1\n\n1  footnotetext:  XL and HY are lead authors that contributed equally. Email:  {shawliu9,longinyh}@gmail.com\n\n2\n\n2  ",
+  "results": "nchmark to evaluate LLM-as-Agent presents a critical challenge.\nHistorically, text-based game environments  (Osborne et al.,  2022 ; Côté et al.,  2019 ; Hausknecht et al.,  2020 ; Urbanek et al.,  20",
+  "conclusion": "late interactive environments where text-only LLMs can operate as autonomous agents.\n AgentBench  thus systematically evaluate an LLM’s core abilities, including following instructions  (Ouyang et al."
+}

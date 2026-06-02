@@ -1,0 +1,34 @@
+{
+  "method_summary": "A trust-aware post-routing framework that reweights clients using returned-evidence feedback, including retrieval relevance, profile consistency, and cross-client agreement",
+  "key_innovation": "The trust-aware post-routing framework that reweights clients based on returned-evidence feedback to suppress persistent hijacking over recurring queries",
+  "datasets_used": [
+    "MedQA-USMLE"
+  ],
+  "baselines_compared": [
+    "encrypted routing",
+    "Byzantine-robust Federated Learning (FL) rules"
+  ],
+  "key_results": {},
+  "best_result": "",
+  "limitations_stated": [
+    "Existing defenses do not close this gap",
+    "Byzantine-robust Federated Learning (FL) rules transfer poorly to heterogeneous routing profiles"
+  ],
+  "code_available": true,
+  "code_url": null,
+  "reproducibility": "",
+  "compute_required": "",
+  "can_run_on_macbook": false,
+  "evidence_id": "EV021",
+  "title": "A Wolf in Sheep's Clothing: Targeted Routing Hijacking in Federated RAG",
+  "year": 2026,
+  "arxiv_id": "2605.28112",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 5580,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

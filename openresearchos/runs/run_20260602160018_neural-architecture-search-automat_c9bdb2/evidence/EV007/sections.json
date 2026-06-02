@@ -1,0 +1,6 @@
+{
+  "introduction": "[2102.05348] Regional Attention with Architecture-Rebuilt 3D Network for RGB-D Gesture Recognition\n\nRegional Attention with Architecture-Rebuilt 3D Network\n for RGB-D Gesture Recognition\n\nBenjia Zhou ",
+  "method": "njia/RAAR3DNet.\n\nIntroduction\n\nGesture is produced as part of deliberate action and signs, involving the motion of the up body, especially the arms, hands, and fingers. Video-based classification make",
+  "results": "oposed method. (a) the structure of the entire RAAR3DNet. (b) the inner structure of automatically rebuilt cell1, cell2, and cell3.\nEach cell is composed of two input nodes, four intermediate nodes an",
+  "conclusion": "nd detector network in the testing stage. Therefore, it may be more reasonable if the attention maps of gesture regions are learned along with the task of gesture recognition in the same network.\n\nIns"
+}

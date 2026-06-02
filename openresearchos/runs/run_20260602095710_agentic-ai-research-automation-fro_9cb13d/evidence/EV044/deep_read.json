@@ -1,0 +1,26 @@
+{
+  "method_summary": "MDA (Mixture-Density Representation) predicts multiple depth hypotheses and their probabilities per pixel to address depth ambiguity at boundaries, extending naturally to transparent objects and sky regions.",
+  "key_innovation": "Mixture-density representation that allows predicting multiple depth hypotheses per pixel instead of a single depth value.",
+  "datasets_used": [],
+  "baselines_compared": [],
+  "key_results": {},
+  "best_result": "",
+  "limitations_stated": [],
+  "code_available": null,
+  "code_url": null,
+  "reproducibility": null,
+  "compute_required": null,
+  "can_run_on_macbook": null,
+  "evidence_id": "EV044",
+  "title": "Modeling Depth Ambiguity: A Mixture-Density Representation for Flying-Point-Free Depth Estimation",
+  "year": 2026,
+  "arxiv_id": "2606.02552",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 5541,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

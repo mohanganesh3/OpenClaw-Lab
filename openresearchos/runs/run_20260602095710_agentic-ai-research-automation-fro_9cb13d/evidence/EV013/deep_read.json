@@ -1,0 +1,28 @@
+{
+  "method_summary": "This paper is a chapter discussing research challenges and opportunities in agentic AI reliability, focusing on topics like cascading failures, dynamic environments, and testing methodologies.",
+  "key_innovation": "The paper synthesizes and outlines key research directions and challenges in the field of agentic AI reliability, rather than presenting a single novel technical method.",
+  "datasets_used": [],
+  "baselines_compared": [],
+  "key_results": {},
+  "best_result": "",
+  "limitations_stated": [
+    "The paper acknowledges that reliability mechanisms can be resource-intensive."
+  ],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "low",
+  "compute_required": null,
+  "can_run_on_macbook": null,
+  "evidence_id": "EV013",
+  "title": "Looking Forward: Challenges and Opportunities in Agentic AI Reliability",
+  "year": 2025,
+  "arxiv_id": "2511.11921",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 4703,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

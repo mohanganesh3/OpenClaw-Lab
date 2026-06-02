@@ -1,0 +1,31 @@
+{
+  "method_summary": "Proposes using MVCC principles to manage concurrency in lakehouses for AI agents, with data and compute isolation through a unified API to simplify governance challenges.",
+  "key_innovation": "Novel abstractions and isolation primitives for an 'agent-first lakehouse' called Bauplan, which accommodates usage patterns of swarms of agents and simplifies governance through a concise API surface.",
+  "datasets_used": [],
+  "baselines_compared": [
+    "traditional OLAP systems",
+    "monolithic SQL-only transactional databases like Postgres"
+  ],
+  "key_results": {},
+  "best_result": "Not applicable - this is a position paper without empirical results",
+  "limitations_stated": [
+    "A direct mapping of existing techniques from traditional databases will not work in a distributed, heterogeneous system such as a lakehouse"
+  ],
+  "code_available": true,
+  "code_url": null,
+  "reproducibility": "medium",
+  "compute_required": "Not specified",
+  "can_run_on_macbook": false,
+  "evidence_id": "EV005",
+  "title": "Trustworthy AI in the Agentic Lakehouse: from Concurrency to Governance",
+  "year": 2025,
+  "arxiv_id": "2511.16402",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

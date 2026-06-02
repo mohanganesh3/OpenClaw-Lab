@@ -1,0 +1,6 @@
+{
+  "introduction": "[2505.19680] Cut out and Replay: A Simple yet Versatile Strategy for Multi-Label Online Continual Learning\n\nCut out and Replay: A Simple yet Versatile Strategy for Multi-Label Online Continual Learnin",
+  "method": "hallenges in MOCL compared with traditional OCL: (1) Massive missing past and future labels in both coming data stream and memory buffer. (2) Severe class imbalance that persists in the memory buffer ",
+  "results": "rategy to balance head and tail classes in replay-based approaches. To address the computational inefficiency of PRS,  (Liang &amp; Li,  2022 )  developed Optimizing Class Distribution in Memory (OCDM",
+  "conclusion": "s in offline multi-label learning  (Zhang &amp; Wu,  2014 ) . Suppose we can successfully identify label-specific regions in images through a straightforward cut-out-and-replay mechanism, i.e., cuttin"
+}

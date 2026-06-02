@@ -1,0 +1,6 @@
+{
+  "introduction": "[2204.05862] Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback\n\nTraining a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback\n\nYunta",
+  "method": "mlessness (Red Teaming) Datasets\n\n2.3  Models Deployed to the Feedback Interface and Associated Data Distributions\n\n2.4  Comparing Models with Elo Scores\n\n3  Preference Modeling for Helpfulness and Ha",
+  "results": "stions\n\nC.2  InstructGPT Prompts\n\nC.3  LaMDA Prompts\n\nD  Details on Data Collection and Crowdworkers\n\nD.1  Overview\n\nD.2  Instructions and Interface\n\nD.3  Data Quality Measurement Challenges\n\nE  Detai",
+  "conclusion": "nswering questions, writing or editing documents, or discussing plans and decisions. For harmlessness, we invite crowdworkers to adversarially probe or ‘red-team’ our language models in order to provo"
+}

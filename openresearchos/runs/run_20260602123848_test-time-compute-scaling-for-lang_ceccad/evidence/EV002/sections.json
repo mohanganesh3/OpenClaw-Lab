@@ -1,0 +1,6 @@
+{
+  "introduction": "[2510.22993] Can Language Models Compose Skills In-Context?\n\nCan Language Models Compose Skills In-Context?\n\nZidong Liu\n\nzidongliu@connect.hku.hk . The University of Hong Kong.\n\nZhuoyan Xu\n\nzhuoyan.xu",
+  "method": "omposite ones, which is essential given the exponential number of possible compositions that prevents learning each individually. Ideally, models should be able to compose skills demonstrated in-conte",
+  "results": "es the essence of the in-context composition and focuses on understanding the key factor behind the observations. The analysis confirms that ignorance of the compositional structure can harm the perfo",
+  "conclusion": "earning (ICL).\n ZWF  +\n\n( 21 ); LBM  +\n\n( 22 ); MLH  +\n\n( 22 ); WWT  +\n\n( 23 )  analyze the sensitivity of LLMs to in-context examples.\n RHB ( 22 ); LSZ  +\n\n( 22 ); HKW  +\n\n( 23 ); WZS  +\n\n( 23 )  pro"
+}

@@ -1,0 +1,46 @@
+{
+  "title": "How to Leverage Predictive Uncertainty Estimates for Reducing Catastrophic Forgetting in Online Continual Learning",
+  "keywords": [
+    "Uncertainty",
+    "Online Continual Learning",
+    "Catastrophic Forgetting"
+  ],
+  "conference": {
+    "name": "3rd Workshop on Uncertainty Reasoning and Quantification in Decision Making",
+    "date": "August 26, 2024",
+    "location": "Barcelona, Spain"
+  },
+  "problem_domain": {
+    "main_topic": "Online Continual Learning",
+    "challenge": "Catastrophic Forgetting"
+  },
+  "methodology": {
+    "approach": "Investigating predictive uncertainty estimates for memory management",
+    "comparison": "Uncertainty-based approaches vs. other memory management strategies",
+    "focus": "Different types of samples (uncertain vs. representative) for memory management"
+  },
+  "key_findings": [
+    "Predictive uncertainty measures help reduce catastrophic forgetting in different settings",
+    "Investigation into which type of data points (easiest-to-forget or easiest-to-remember) are more effective in combating CF"
+  ],
+  "related_work": [
+    "Memory-based strategies for preventing catastrophic forgetting",
+    "Random, gradient-based, and loss-based memory management approaches",
+    "Bang et al. (2021) method combining predictive uncertainty and data augmentation"
+  ],
+  "research_questions": [
+    "How to effectively use predictive uncertainty scores for memory management",
+    "Which type of data points (uncertain vs. representative) are more effective in reducing CF"
+  ],
+  "evidence_id": "EV041",
+  "year": 2024,
+  "arxiv_id": "2407.07668",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

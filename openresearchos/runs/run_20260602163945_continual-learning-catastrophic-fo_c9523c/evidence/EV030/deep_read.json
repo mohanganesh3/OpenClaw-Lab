@@ -1,0 +1,61 @@
+{
+  "paper_title": "Learning Fast, Learning Slow: A General Continual Learning Method based on Complementary Learning System",
+  "problem": "Catastrophic forgetting in continual learning for deep neural networks, where performance on previously learned tasks drops drastically as new information is acquired from non-stationary data distributions.",
+  "existing_approaches": [
+    {
+      "type": "Regularization-based methods",
+      "description": "Penalize changes in the network weights"
+    },
+    {
+      "type": "Network expansion-based methods",
+      "description": "Dedicate a distinct set of network parameters to distinct tasks"
+    },
+    {
+      "type": "Rehearsal-based methods",
+      "description": "Maintain a memory buffer and replay samples from previous tasks"
+    }
+  ],
+  "proposed_solution": {
+    "name": "CLS-ER (Complementary Learning System Experience Replay)",
+    "components": [
+      {
+        "type": "Episodic memory",
+        "function": "Stores samples"
+      },
+      {
+        "type": "Semantic memories",
+        "subtypes": [
+          {
+            "type": "Short-term semantic memory",
+            "function": "Mimics rapid adaptation of information"
+          },
+          {
+            "type": "Long-term semantic memory",
+            "function": "Mimics slow adaptation of information"
+          }
+        ],
+        "implementation": "Maintained by taking exponential moving average of the working model's weights"
+      }
+    ],
+    "mechanism": "The two memories interact to extract consolidated replay activation patterns and enforce a consistency loss on the update of the working model",
+    "goal": "New knowledge is acquired while aligning the decision boundary with semantic memories for effective knowledge consolidation"
+  },
+  "theoretical_foundation": {
+    "theory": "Complementary Learning Systems (CLS) theory",
+    "description": "Efficient learning requires two complementary learning systems: the hippocampus exhibits short-term adaptation and rapid learning of episodic information which is then gradually consolidated to the neocortex for slow learning of structured information",
+    "inspiration": "The brain's ability to continually acquire, consolidate, and transfer knowledge over time"
+  },
+  "key_innovation": "Modeling both the fast learning system (hippocampus-like) and slow learning system (neocortex-like) in DNNs, which was identified as missing in existing approaches",
+  "evidence_id": "EV030",
+  "title": "Learning Fast, Learning Slow: A General Continual Learning Method based on Complementary Learning System",
+  "year": 2022,
+  "arxiv_id": "2201.12604",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

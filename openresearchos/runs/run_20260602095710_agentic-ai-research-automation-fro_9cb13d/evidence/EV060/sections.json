@@ -1,0 +1,6 @@
+{
+  "introduction": "[2606.02475] Physics-Informed Residuals for Adaptive Mesh Refinement in Finite-Difference PDE Solvers\n\nSkip to main content\n\nLearn about arXiv becoming an independent nonprofit.\n\nWe gratefully acknowl",
+  "method": "mesh refinement. The PINN residual is sampled over the domain, converted into cellwise indicators, and used to guide refinement before the final approximation is computed by a finite-difference solver",
+  "results": "ngineering, Finance, and Science (cs.CE); Machine Learning (cs.LG)\n\nMSC  classes:\n\n65M06, 65M22, 65M50, 65M60, 35Q30, 35Q55, 76D05\n\nCite as:\n\narXiv:2606.02475  [math.NA]\n\n&nbsp;\n\n(or\n\narXiv:2606.02475",
+  "conclusion": "Code Toggle\n\nCatalyzeX Code Finder for Papers\n\n( What is CatalyzeX? )\n\nDagsHub Toggle\n\nDagsHub\n\n( What is DagsHub? )\n\nGotitPub Toggle\n\nGotit.pub\n\n( What is GotitPub? )\n\nHuggingface Toggle\n\nHugging Fac"
+}

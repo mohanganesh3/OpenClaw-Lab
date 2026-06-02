@@ -1,0 +1,59 @@
+{
+  "title": "Reference-Aligned Retrieval-Augmented Question Answering over Heterogeneous Proprietary Documents",
+  "authors": [
+    {
+      "name": ".paek",
+      "affiliation": "Emory University"
+    },
+    {
+      "name": "shinsun.lee",
+      "affiliation": "Emory University"
+    },
+    {
+      "name": "jinho.choi",
+      "affiliation": "Emory University"
+    }
+  ],
+  "domain": "Automotive Engineering",
+  "specific_focus": "QA for vehicle crash collision tests",
+  "methodology": {
+    "approach": "Retrieval-Augmented Generation (RAG)",
+    "key_components": [
+      "Data generation pipeline for heterogeneous documents",
+      "Advanced re-ranking phase",
+      "Reference-matching algorithm",
+      "Multi-perspective evaluation"
+    ],
+    "goal": "Fully local system for data privacy and independence"
+  },
+  "challenges_addressed": [
+    "Integration of heterogeneous and unstructured documents",
+    "Limited inherent knowledge in low-resource domains",
+    "Data privacy and security concerns",
+    "Limited research on retrieval ranking and document tracing",
+    "Inadequate evaluation methods for RAG systems"
+  ],
+  "sections": {
+    "3.1": "Data generation pipeline",
+    "3.2": "Advanced re-ranking phase",
+    "3.3": "Answer evaluation",
+    "3.4": "Reference-matching algorithm"
+  },
+  "figures": [
+    {
+      "number": 1,
+      "description": "RAG system workflow showing retrieval, re-ranking, answer generation, and reference alignment"
+    }
+  ],
+  "evidence_id": "EV018",
+  "year": 2025,
+  "arxiv_id": "2502.19596",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7997,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

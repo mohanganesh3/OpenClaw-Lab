@@ -1,0 +1,36 @@
+{
+  "method_summary": "The Empower method fine-tunes language models by maximizing human empowerment using only offline text data, without requiring explicit human feedback or verifiable rewards.",
+  "key_innovation": "A self-supervised approach to tuning assistive language models based on maximizing human empowerment using only offline data.",
+  "datasets_used": [
+    "offline text data"
+  ],
+  "baselines_compared": [
+    "strong baseline",
+    "SFT baseline"
+  ],
+  "key_results": {
+    "user_study_preference": "78%",
+    "acceptance_rate_improvement": "31%",
+    "suggestion_reduction": "38%",
+    "simulated_success_rate_improvement": "192%"
+  },
+  "best_result": "192% increase in success rate of simulated human programmer on challenging coding questions",
+  "limitations_stated": [],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "not specified",
+  "compute_required": "not specified",
+  "can_run_on_macbook": false,
+  "evidence_id": "EV007",
+  "title": "Training LLM Agents to Empower Humans",
+  "year": 2025,
+  "arxiv_id": "2510.13709",
+  "full_text_tool": "arxiv_abstract_openclaw",
+  "full_text_chars": 5491,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

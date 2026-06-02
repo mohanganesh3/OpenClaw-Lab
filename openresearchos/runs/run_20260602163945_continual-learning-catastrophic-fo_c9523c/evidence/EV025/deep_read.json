@@ -1,0 +1,52 @@
+{
+  "title": "Multiagent Continual Coordination via Progressive Task Contextualization",
+  "authors": "Not specified in the provided text",
+  "abstract": "The paper introduces a continual coordination framework in cooperative Multi-Agent Reinforcement Learning (MARL) where tasks appear sequentially. The authors develop a multi-agent task context extraction module using a product-of-expert (POE) mechanism, an expandable multi-head policy architecture, and policy distillation to approximate policy head selection. They propose a method called MACPro and evaluate it on benchmarks like level-based foraging (LBF), predator-prey (PP), and StarCraft Multi-Agent Challenge (SMAC).",
+  "problem_statement": "Mainstream cooperative MARL methods are restricted to being trained in one single task or multiple tasks simultaneously, assuming agents have access to data from all tasks at all times, which is unrealistic for physical agents in the real world that can only attend to one task at a time.",
+  "methodology": {
+    "approach": "Continual coordination framework in cooperative MARL",
+    "components": [
+      "Multi-agent task context extraction module using product-of-expert (POE) mechanism",
+      "Contrastive regularizer to optimize learned representation",
+      "Expandable multi-head policy architecture with independent heads",
+      "Shared feature extraction module",
+      "Policy distillation for approximating policy head selection process",
+      "CTDE (Centralized Training with Decentralized Execution) paradigm"
+    ]
+  },
+  "contributions": [
+    "Development of a continual coordination framework in cooperative MARL",
+    "Introduction of MACPro method",
+    "Evaluation on various benchmarks in continual setting"
+  ],
+  "evaluation_benchmarks": [
+    "Level-based foraging (LBF)",
+    "Predator-prey (PP)",
+    "StarCraft Multi-Agent Challenge (SMAC)"
+  ],
+  "related_work": {
+    "cooperative_marl_methods": [
+      "Policy-based methods",
+      "Value-based series",
+      "Efficient communication",
+      "Zero-shot coordination (ZSC)",
+      "Policy robustness"
+    ],
+    "continual_reinforcement_learning": [
+      "Regularization-based approaches",
+      "Experience maintaining techniques",
+      "Task structure sharing categories"
+    ]
+  },
+  "evidence_id": "EV025",
+  "year": 2023,
+  "arxiv_id": "2305.13937",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

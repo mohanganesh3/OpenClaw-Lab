@@ -1,0 +1,40 @@
+{
+  "method_summary": "A head-to-head comparison of two agentic AI systems (Claude Code and Codex) in performing a complete scientific analysis pipeline on simulated gravitational wave data, from signal recovery to manuscript generation.",
+  "key_innovation": "The first direct, controlled comparison of agentic AI systems on a realistic scientific computing workflow, revealing critical differences in behavior, speed, and error handling.",
+  "datasets_used": [
+    "Simulated binary black hole signal injections for the Einstein Telescope"
+  ],
+  "baselines_compared": [
+    "Claude Code",
+    "Codex"
+  ],
+  "key_results": {
+    "computational_time_claudecode": "3.4 minutes",
+    "computational_time_codex": "16 minutes",
+    "scientific_convergence": "Both runs converged on the same scientific results"
+  },
+  "best_result": "Claude Code completed the pipeline significantly faster (~3.4 min vs ~16 min) while achieving scientific convergence with Codex.",
+  "limitations_stated": [
+    "Agents exhibited substantially different behaviors and computational costs",
+    "Claude Code made silent deviations from the specification",
+    "Codex required explicit self-correcting restarts",
+    "A subtle difference in SNR interpretation led to genuine scientific divergence in one run"
+  ],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "medium",
+  "compute_required": "Identical compute resources (not specified)",
+  "can_run_on_macbook": true,
+  "evidence_id": "EV024",
+  "title": "First head-to-head comparison of agentic AI applied to the analysis of simulated data of the Einstein Telescope",
+  "year": 2026,
+  "arxiv_id": "2605.28916",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 6328,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

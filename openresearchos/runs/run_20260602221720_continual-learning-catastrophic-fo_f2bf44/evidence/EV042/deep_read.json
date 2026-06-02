@@ -1,0 +1,50 @@
+{
+  "title": "Online Hierarchical Policy Learning using Physics Priors for Robot Navigation in Unknown Environments",
+  "methodology": {
+    "approach": "Modular-NTFields (mNTFields)",
+    "description": "A modular, hierarchical approach for robot navigation in unknown environments",
+    "key_components": [
+      "Online sparse navigation graph construction from local observations",
+      "NTFields integration for detailed cost-to-go maps",
+      "Local Eikonal equation solving for obstacle management",
+      "Temporal Difference Metric Learning (TDM) for improved convergence"
+    ],
+    "advantages": [
+      "Compact and efficient representation for rapid global planning",
+      "Effective management of obstacles and complex geometries",
+      "Alleviates scalability issues of traditional NTFields"
+    ]
+  },
+  "results": {
+    "performance": "Outperforms existing methods in large, complex, unknown indoor environments",
+    "metrics": {
+      "navigation_speed": "Significantly faster",
+      "success_rate": "Higher"
+    },
+    "deployment": "Successfully deployed on a quadruped robot navigating through multiple rooms and narrow passages"
+  },
+  "related_work": [
+    "Traditional mapping approaches (occupancy or SDF maps)",
+    "Probabilistic roadmaps (PRMs) from sensor data",
+    "Neural Time Fields (NTFields)",
+    "Sampling-based approaches",
+    "Grid-based methods"
+  ],
+  "challenges_addressed": [
+    "Computational overhead in traditional mapping approaches",
+    "Memory-intensive computations in PRMs for large environments",
+    "Scaling issues and spectral bias in NTFields",
+    "Navigation in unknown, complex environments"
+  ],
+  "evidence_id": "EV042",
+  "year": 2025,
+  "arxiv_id": "2510.01519",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

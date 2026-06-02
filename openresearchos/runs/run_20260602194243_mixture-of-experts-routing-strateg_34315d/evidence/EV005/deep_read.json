@@ -1,0 +1,66 @@
+{
+  "title": "R2-T2: Re-Routing in Test-Time for Multimodal Mixture-of-Experts",
+  "authors": [
+    "Not specified in the provided text"
+  ],
+  "abstract": "R2-T2 is a method for optimizing routing weights in test-time for multimodal Mixture-of-Experts (MoE) models, addressing issues of modality imbalance and information bottlenecks in vision-language models.",
+  "key_concepts": [
+    "Mixture-of-Experts (MoE)",
+    "Multimodal models",
+    "Vision-Language Models (VLMs)",
+    "Test-time optimization",
+    "k-nearest neighbors (kNN)",
+    "Expert routing"
+  ],
+  "problem_addressed": [
+    "Modality imbalance in vision-language models",
+    "Information bottleneck from visual perception to reasoning",
+    "Suboptimal expert selection in multimodal MoE models"
+  ],
+  "proposed_solution": {
+    "name": "R2-T2",
+    "description": "Optimizes routing weights at test-time by finding similar cases from a reference set and adjusting expert selection accordingly.",
+    "method": "Uses k-nearest neighbors (kNN) from correctly predicted samples to adjust routing weights."
+  },
+  "architecture": {
+    "type": "Multimodal Mixture-of-Experts",
+    "components": [
+      "Multiple vision encoders",
+      "Language Model (LLM)",
+      "Router for expert selection",
+      "R2-T2 for test-time routing optimization"
+    ],
+    "expert_types": [
+      "Language-focused experts",
+      "Auxiliary computer vision experts"
+    ]
+  },
+  "key_findings": [
+    "R2-T2 can correct initial wrong predictions by shifting from suboptimal experts",
+    "Improved performance on spatial reasoning tasks",
+    "Better generalization to unseen tasks"
+  ],
+  "references": [
+    "Shazeer et al., 2017",
+    "Lepikhin et al., 2020",
+    "Fedus et al., 2022",
+    "Zhu et al., 2023",
+    "Schrodi et al., 2024",
+    "Yao et al., 2024",
+    "Lin et al., 2024",
+    "Lee et al., 2025",
+    "Zong et al., 2024",
+    "Shi et al., 2024"
+  ],
+  "evidence_id": "EV005",
+  "year": 2025,
+  "arxiv_id": "2502.20395",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

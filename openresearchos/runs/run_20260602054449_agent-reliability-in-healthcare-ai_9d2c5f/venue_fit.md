@@ -1,0 +1,24 @@
+# Venue Fit
+
+Topic: agent reliability in healthcare AI
+
+Readiness: `RRL-0`
+
+## Current Fit
+
+Research-system demo and failure-aware report, not a paper submission yet.
+
+## Strongest Venue Story
+
+- AI-Build-AI / agentic research systems demo.
+- Workshop on autonomous agents for scientific discovery.
+- Reproducibility and evaluation workshop if the experiment harness is expanded.
+
+## Missing For Strong Conference Submission
+
+- Need at least one recent source for the Freshness Gate.
+- Need a successful micro-probe.
+- Need a successful probe before baseline-backed claims.
+- Need a successful ablation before paper-supporting claims.
+- Need an MVP experiment before paper-supporting claims.
+- Average reviewer score is below 6.0.

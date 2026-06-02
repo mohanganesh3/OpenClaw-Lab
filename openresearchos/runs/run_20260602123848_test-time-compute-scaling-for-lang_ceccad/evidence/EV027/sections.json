@@ -1,0 +1,6 @@
+{
+  "introduction": "[2405.02517] Mothman at SemEval-2024 Task 9: An Iterative System for Chain-of-Thought Prompt Optimization\n\nMothman at SemEval-2024 Task 9:\n An Iterative System for Chain-of-Thought Prompt Optimization",
+  "method": "yzing and evaluating their reasoning capacities. The  BrainTeaser  shared task  (Jiang et al.,  2023 )  (Jiang et al.,  2024 )  is designed to elicit and evaluate lateral thinking through two English-",
+  "results": "task in natural language processing with broad applications both in academia and in industry  (Hirschman and Gaizauskas,  2001 ) . Recent work such as CommonSenseQA (CSQA)  (Talmor et al.,  2018 )  an",
+  "conclusion": "es the situational context without changing the misleading premise. The SR dataset was generated with an open-source rephrasing tool while the CR dataset was generated using  GPT-4 ; both sets were ma"
+}

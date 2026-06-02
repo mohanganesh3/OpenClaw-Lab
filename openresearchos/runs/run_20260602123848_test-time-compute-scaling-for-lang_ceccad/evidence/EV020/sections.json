@@ -1,0 +1,6 @@
+{
+  "introduction": "[2503.03854] Vision-Language Models Struggle to Align Entities across Modalities\n\nVision-Language Models Struggle to Align Entities across Modalities\n\nIñigo Alonso 1  ,\n Ander Salaberria 2  ,\n Gorka A",
+  "method": "y of the Basque Country UPV/EHU,\n\nCorrespondence:\n\nialonso@ed.ad.uk\n\n1  Introduction\n\nSeveral real-world applications demand the ability to perform cross-modal entity linking, i.e., being able to alig",
+  "results": "t contains synthetic images of 3D scenes aligned with textual representations of those scenes (Figure\n\n1  ). We use synthetic images to control for all the variables of the problem and to easily gener",
+  "conclusion": "that MATE is a useful resource for evaluating the cross-modal alignment capabilities of current models. While human performance remains consistently high, VLMs suffer a significant drop as scene compl"
+}

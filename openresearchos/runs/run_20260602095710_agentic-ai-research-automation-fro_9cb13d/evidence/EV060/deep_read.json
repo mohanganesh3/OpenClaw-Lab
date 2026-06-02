@@ -1,0 +1,47 @@
+{
+  "method_summary": "Uses Physics-Informed Neural Network residuals as cellwise indicators for adaptive mesh refinement in finite-difference PDE solvers",
+  "key_innovation": "Transferring physics-informed diagnostic information from PINNs into finite-difference mesh adaptation",
+  "datasets_used": [
+    "One-dimensional viscous Burgers equation",
+    "2D nonlinear Schrödinger equation",
+    "3D incompressible Navier-Stokes system"
+  ],
+  "baselines_compared": [
+    "Uniform refinement",
+    "PINN-threshold refinement",
+    "PINN-Dörfler refinement",
+    "Gradient indicator",
+    "Random refinement"
+  ],
+  "key_results": {
+    "relative_L2_error_PINN_threshold": 0.021067,
+    "degrees_of_freedom_PINN_threshold": 60,
+    "relative_L2_error_uniform": 0.022617,
+    "degrees_of_freedom_uniform": 192,
+    "error_reduction_percentage": 67.5,
+    "relative_L2_error_PINN_Dörfler": 0.021264,
+    "degrees_of_freedom_PINN_Dörfler": 58
+  },
+  "best_result": "PINN-threshold refinement achieves relative L² error 0.021067 with 60 degrees of freedom, compared to 0.022617 for uniform refinement with 192 degrees of freedom",
+  "limitations_stated": [
+    "Gradient indicator remains slightly more accurate",
+    "PINN residuals don't consistently outperform gradient or uniform baselines in 2D/3D tests"
+  ],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "medium",
+  "compute_required": "Not specified",
+  "can_run_on_macbook": false,
+  "evidence_id": "EV060",
+  "title": "Physics-Informed Residuals for Adaptive Mesh Refinement in Finite-Difference PDE Solvers",
+  "year": 2026,
+  "arxiv_id": "2606.02475",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 6076,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

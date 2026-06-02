@@ -1,0 +1,55 @@
+{
+  "paper_title": "A Real-Time Energy and Cost Efficient Vehicle Route Assignment Neural Recommender System",
+  "methodology": {
+    "problem_definition": {
+      "description": "Vehicle assignment problems where n vehicles need to be deployed over m ≤ n trips",
+      "objective": "Optimize for energy consumption and cost"
+    },
+    "system_architecture": {
+      "name": "POLARIS",
+      "description": "Argonne-based high-performance, open-source agent-based modeling framework for simulating large-scale transportation systems",
+      "deployment": "Deployed and integrated into POLARIS"
+    },
+    "method": {
+      "approach": "Agent-based transportation modeling combined with high-fidelity vehicle system simulation",
+      "implementation": "Models truck routes across Chicago and its suburbs under various scenarios",
+      "data_generation": "Generates a large backbone dataset of vehicle-route energy outcomes"
+    },
+    "variables": [
+      "Vehicle classes",
+      "Powertrain fleet distribution",
+      "Vehicle technology",
+      "Automation and connectivity levels",
+      "Population",
+      "Driving modes",
+      "Ride-sharing extent",
+      "E-commerce impact"
+    ],
+    "evaluation_metric": {
+      "name": "Total Cost of Ownership (TCO)",
+      "assumption": "The lowest-cost powertrain option captures driving conditions and number of miles driven over the vehicle's lifetime"
+    },
+    "key_technologies": [
+      "Neural recommender systems",
+      "Machine learning",
+      "MDHD",
+      "Trucks",
+      "Vehicle assignment",
+      "Energy consumption",
+      "Cost",
+      "TCO"
+    ]
+  },
+  "evidence_id": "EV034",
+  "title": "A Real-Time Energy and Cost Efficient Vehicle Route Assignment Neural Recommender System",
+  "year": 2021,
+  "arxiv_id": "2110.10887",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7997,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

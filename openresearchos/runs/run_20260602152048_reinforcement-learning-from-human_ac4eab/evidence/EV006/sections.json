@@ -1,0 +1,6 @@
+{
+  "introduction": "[2605.23945] Accelerating Long-Tail Generation in Synchronous RLHF Training via Adaptive Tensor Parallelism\n\nSkip to main content\n\nLearn about arXiv becoming an independent nonprofit.\n\nWe gratefully a",
+  "method": "ring decoding, leaving GPUs underutilized while a few long responses remain unfinished. Mainstream frameworks employ a static tensor parallelism (TP) configuration that cannot adapt to changing batch ",
+  "results": "as:\n\narXiv:2605.23945  [cs.AI]\n\n&nbsp;\n\n(or\n\narXiv:2605.23945v1  [cs.AI]  for this version)\n\n&nbsp;\n\nhttps://doi.org/10.48550/arXiv.2605.23945\n\nFocus to learn more\n\narXiv-issued DOI via DataCite\n\nSubm",
+  "conclusion": "( What is DagsHub? )\n\nGotitPub Toggle\n\nGotit.pub\n\n( What is GotitPub? )\n\nHuggingface Toggle\n\nHugging Face\n\n( What is Huggingface? )\n\nScienceCast Toggle\n\nScienceCast\n\n( What is ScienceCast? )\n\nDemos\n\nD"
+}

@@ -1,0 +1,6 @@
+{
+  "introduction": "[2510.04286] SliceMoE: Routing Embedding Slices Instead of Tokens for Fine-Grained and Balanced Transformer Scaling\n\nSkip to main content\n\nLearn about arXiv becoming an independent nonprofit.\n\nWe grat",
+  "method": "zation. We introduce SliceMoE, an architecture that routes contiguous slices of a token&#39;s hidden vector. A d-dimensional embedding is partitioned into S slices, and for each slice, a lightweight s",
+  "results": "rshil Vejendla [ view email ]\n\n[v1]\n\nSun, 5 Oct 2025 16:57:32 UTC (7,718 KB)\n\nFull-text links:\n\nAccess Paper:\n\nView a PDF of the paper titled SliceMoE: Routing Embedding Slices Instead of Tokens for F",
+  "conclusion": "ngface? )\n\nScienceCast Toggle\n\nScienceCast\n\n( What is ScienceCast? )\n\nDemos\n\nDemos\n\nReplicate Toggle\n\nReplicate\n\n( What is Replicate? )\n\nSpaces Toggle\n\nHugging Face Spaces\n\n( What is Spaces? )\n\nSpaces"
+}

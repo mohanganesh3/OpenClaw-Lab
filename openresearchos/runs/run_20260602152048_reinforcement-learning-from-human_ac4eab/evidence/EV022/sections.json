@@ -1,0 +1,6 @@
+{
+  "introduction": "[2505.20622] SeqPO-SiMT: Sequential Policy Optimization for Simultaneous Machine Translation\n\nSeqPO-SiMT: Sequential Policy Optimization for\n\nSimultaneous Machine Translation\n\nTing Xu\n\n♠  \\spadesuit\n\n",
+  "method": "the offline translation of high-performing LLMs, including Qwen-2.5-7B-Instruct and LLaMA-3-8B-Instruct.\n\nSeqPO-SiMT: Sequential Policy Optimization for\n\nSimultaneous Machine Translation\n\nTing Xu\n\n♠  ",
+  "results": "ques to SiMT appears to be a promising approach for improving its performance. However, we find that traditional RLHF methods like PPO  (Schulman et al.,  2017 )  and DPO  (Rafailov et al.,  2024 )  c",
+  "conclusion": "to\n\nZh and Zh\n\n→  \\to\n\nEn SiMT tasks, including formal spoken language, informal spoken language, specialized knowledge domains, and news articles. Performance is measured using a range of comprehensi"
+}

@@ -1,0 +1,26 @@
+{
+  "method_summary": "ProbMoE is a probabilistic routing framework that models expert selection as a distribution over cardinality-constrained expert subsets and formulates routing as probabilistic inference in discrete subset space.",
+  "key_innovation": "ProbMoE Exact-k routing which samples k-expert subsets in the forward pass and uses gradients through each expert's exact marginal probability as a tractable surrogate for the true gradient.",
+  "datasets_used": [],
+  "baselines_compared": [],
+  "key_results": {},
+  "best_result": "",
+  "limitations_stated": [],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "medium",
+  "compute_required": "",
+  "can_run_on_macbook": false,
+  "evidence_id": "EV038",
+  "title": "ProbMoE: Differentiable Probabilistic Routing for Mixture-of-Experts",
+  "year": 2026,
+  "arxiv_id": "2606.01509",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 5249,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

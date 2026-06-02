@@ -1,0 +1,6 @@
+{
+  "introduction": "[2508.21016] Inference-Time Alignment Control for Diffusion Models with Reinforcement Learning Guidance\n\nInference-Time Alignment Control for Diffusion Models with\n\nReinforcement Learning Guidance\n\nLu",
+  "method": "unprecedented flexibility in controlling generative alignment. Our approach provides a practical and theoretically sound solution for enhancing and controlling diffusion model alignment at inference. ",
+  "results": "eting the iterative denoising process as a multi-step decision-making problem, which facilitates the application of RL algorithms—such as REINFORCE  (Williams  1992 ; Mohamed et al.  2020 ; Black et a",
+  "conclusion": "e-tuning, but crucially, it requires no additional training.\n\nEmpirical results on downstream tasks demonstrate that RLG enhances the performance of RL fine-tuned models across various model types (di"
+}

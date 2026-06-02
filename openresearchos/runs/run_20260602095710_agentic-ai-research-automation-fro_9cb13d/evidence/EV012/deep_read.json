@@ -1,0 +1,26 @@
+{
+  "method_summary": "The authors organized a hackathon to explore the use of generative AI for research and education in materials science, focusing on participants' ability to critically evaluate and use AI-generated content for software trials and development.",
+  "key_innovation": "A structured hackathon design that emphasizes the critical evaluation of AI-generated content for scientific workflows, rather than just its generation.",
+  "datasets_used": [],
+  "baselines_compared": [],
+  "key_results": {},
+  "best_result": "",
+  "limitations_stated": [],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "low",
+  "compute_required": "Not specified",
+  "can_run_on_macbook": false,
+  "evidence_id": "EV012",
+  "title": "Exploring utilization of generative AI for research and education in data-driven materials science",
+  "year": 2025,
+  "arxiv_id": "2504.08817",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "method_summary": "Research paper: PVT-SSD: Single-Stage 3D Object Detector with Point-Voxel Transformer",
+  "key_innovation": "See full text",
+  "datasets_used": [],
+  "baselines_compared": [],
+  "key_results": {},
+  "best_result": null,
+  "limitations_stated": [],
+  "code_available": true,
+  "code_url": "https://github.com/Nightmare-n/PVT-SSD",
+  "reproducibility": "unknown",
+  "compute_required": "unknown",
+  "can_run_on_macbook": true,
+  "evidence_id": "EV018",
+  "title": "PVT-SSD: Single-Stage 3D Object Detector with Point-Voxel Transformer",
+  "year": 2023,
+  "arxiv_id": "2305.06621",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

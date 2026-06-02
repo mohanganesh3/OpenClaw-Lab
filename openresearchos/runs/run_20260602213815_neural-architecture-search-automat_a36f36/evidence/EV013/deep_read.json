@@ -1,0 +1,37 @@
+{
+  "title": "Smooth Variational Graph Embeddings for Efficient Neural Architecture Search",
+  "index_terms": [
+    "representation learning",
+    "neural architecture search",
+    "graph neural network",
+    "deep learning"
+  ],
+  "problem_statement": "Automated Neural Architecture Search (NAS) is crucial for advancing computer vision but existing methods are either computationally expensive (requiring thousands of evaluations) or yield sub-optimal results. Recent efficient methods like continuous relaxations and weight-sharing are faster but often compromise on performance.",
+  "proposed_method": {
+    "name": "Smooth Variational Graph embedding (SVGe)",
+    "description": "A two-sided variational encoder-decoder graph neural network (GNN) designed to learn smooth embeddings for neural architecture graphs. It uses separate forward and backward GNN modules in the encoder to create a latent representation. A decoder then generates forward and backward pass graphs separately from this latent representation. SVGe is designed to learn smooth graph embeddings without imposing structural constraints on the search space, leading to efficient training and high reconstruction ability.",
+    "figure_description": "Figure 1 illustrates the SVGe model architecture. The encoder (left) uses two GNN modules, a forward encoder (green) and a backward encoder (red), to create an informative latent representation h_G. The decoder (right) takes this latent vector and decodes forward (green) and backward (red) pass graphs separately in a sequential manner. The union of these two graphs is the final output of SVGe."
+  },
+  "results_and_contributions": {
+    "key_findings": [
+      "SVGe is three times faster than the previous state-of-the-art D-VAE model.",
+      "It shows improved Bayesian Optimization (BO) results on the ENAS search space.",
+      "It can be directly applied to other search spaces such as NAS-Bench-101 and NAS-Bench-201, unlike D-VAE.",
+      "It allows for supervised learning of architecture performance prediction and can extrapolate to propose high-performing architectures outside the original search space at low cost."
+    ],
+    "contributions": [
+      "Introduction of a novel graph variational autoencoder, SVGe."
+    ]
+  },
+  "evidence_id": "EV013",
+  "year": 2020,
+  "arxiv_id": "2010.04683",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

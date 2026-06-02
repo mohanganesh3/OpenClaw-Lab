@@ -1,0 +1,6 @@
+{
+  "introduction": "[2505.16849] Walk&amp;Retrieve: Simple Yet Effective Zero-shot Retrieval-Augmented Generation via Knowledge Graph Walks\n\nWalk&amp;Retrieve: Simple Yet Effective Zero-shot Retrieval-Augmented Generatio",
+  "method": "right:  acmlicensed\n\n†\n\n†  journalyear:  2025\n\n†\n\n†  doi:  XXXXXXX.XXXXXXX\n\n†\n\n†  conference:  Information Retrieval’s Role in RAG Systems; July 17,\n2025; Padua, Italy\n\n†\n\n†  ccs:  Information systems",
+  "results": "-based RAG systems retrieve relevant facts as nodes, triplets, paths, or subgraphs using graph search algorithms, or parametric retrievers based on graph neural networks or language models  (Peng et a",
+  "conclusion": "Second, RAG systems that directly reason over KGs with LLMs perform a step-by-step graph traversal for fact retrieval  (Jin et al.,  2024 ; Sun et al.,  2024a ; Ma et al.,  2024 ) . This requires mult"
+}

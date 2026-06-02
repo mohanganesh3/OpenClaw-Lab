@@ -1,0 +1,28 @@
+{
+  "method_summary": "Research paper: Reflexion: Language Agents with Verbal Reinforcement Learning",
+  "key_innovation": "See full text",
+  "datasets_used": [
+    "HumanEval"
+  ],
+  "baselines_compared": [],
+  "key_results": {},
+  "best_result": null,
+  "limitations_stated": [],
+  "code_available": true,
+  "code_url": "https://github.com/noahshinn024/reflexion",
+  "reproducibility": "unknown",
+  "compute_required": "unknown",
+  "can_run_on_macbook": true,
+  "evidence_id": "EV065",
+  "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+  "year": 2023,
+  "arxiv_id": "2303.11366",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

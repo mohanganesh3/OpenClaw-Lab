@@ -1,0 +1,56 @@
+{
+  "title": "CATCH: Context-based Meta Reinforcement Learning for Transferrable Architecture Search",
+  "authors": "Not specified in the provided text",
+  "abstract": "CATCH is a novel context-guided meta reinforcement learning framework for neural architecture search that is both search space-agnostic and swiftly adaptive to new tasks. The framework addresses the limitations of current NAS methods that lack mechanisms to seek and preserve information for reuse across tasks.",
+  "methodology": {
+    "name": "CATCH (Context-based Meta Reinforcement Learning)",
+    "components": [
+      {
+        "name": "Context Encoder",
+        "description": "Encodes task properties into latent context variables using amortized variational inference",
+        "technique": "Amortized variational inference [1, 38, 24]"
+      },
+      {
+        "name": "RL Controller",
+        "description": "Makes sequential decisions to generate candidate networks in a stochastic manner"
+      },
+      {
+        "name": "Network Evaluator",
+        "description": "Evaluates the generated networks"
+      }
+    ],
+    "approach": "Meta Reinforcement Learning [38, 25]",
+    "task_definition": "Problems that share the same action space but differ in reward functions. In NAS, the change of either the dataset or domain (e.g. from classification to detection) alters the underlying reward function, and thus can be treated as different tasks.",
+    "figure_reference": "Figure 1: Shows the overall framework of CATCH with its three core components"
+  },
+  "problem_addressed": [
+    "Current NAS methods lack mechanisms to seek and preserve information that can be meaningfully reused",
+    "Inefficient repeated search from scratch for new tasks",
+    "Need for solutions that can efficiently handle multiple tasks",
+    "Need for solutions that are widely applicable to different search spaces",
+    "Need for solutions that maintain competency across various settings"
+  ],
+  "advantages": [
+    "Search space-agnostic (universal)",
+    "Swiftly adaptive to new tasks (efficient)",
+    "Balances universality and efficiency"
+  ],
+  "related_work": [
+    "Meta-learning for one-shot NAS [28, 15]",
+    "Meta Reinforcement Learning [38, 25]",
+    "Various NAS efficiency improvement algorithms [33, 37]",
+    "Works searching for architectures that perform well across tasks [23, 36]",
+    "Recent critiques of one-shot methods [56, 26]"
+  ],
+  "evidence_id": "EV044",
+  "year": 2020,
+  "arxiv_id": "2007.09380",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

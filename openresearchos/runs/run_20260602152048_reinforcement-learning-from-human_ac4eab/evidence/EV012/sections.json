@@ -1,0 +1,6 @@
+{
+  "introduction": "[2408.02861] A Framework for Fine-Tuning LLMs using Heterogeneous Feedback\n\nA Framework for Fine-Tuning LLMs using Heterogeneous Feedback\n\nRyan Aponte  1  ,\n Ryan A. Rossi  2  ,\n Shunan Guo 2  ,\n Fran",
+  "method": "022 ) . The fine-tuning process generally begins with collecting examples of desired model behavior and performing supervised learning. Some models stop at SFT  Chiang et al. ( 2023 ) , while Instruct",
+  "results": "s simultaneously, such as for logical reasoning and to reduce bias, and provides a more accurate view of human preference by broadening the scope of fine-tuning data. Our framework selects a high-qual",
+  "conclusion": "us prohibiting ranking.\n\n2.2  Secondary fine-tuning dataset\n\nGiven a dataset\n\n𝒟  ∗\n\nsuperscript  𝒟\n\n\\mathcal{D^{*}}\n\nof user-specific prompts and responses (question-answer tuples):\n\n𝒟  ∗\n\n=\n\n{\n\n(\n"
+}

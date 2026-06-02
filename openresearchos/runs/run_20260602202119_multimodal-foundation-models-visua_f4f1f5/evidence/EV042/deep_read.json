@@ -1,0 +1,34 @@
+{
+  "method_summary": "VANGUARD framework that unifies anomaly classification, spatial grounding, and chain-of-thought reasoning within a single VLM using a three-stage curriculum training approach and teacher-student annotation pipeline",
+  "key_innovation": "Three-stage curriculum training approach with classifier warmup, LoRA-adapted spatial grounding, and chain-of-thought generation",
+  "datasets_used": [
+    "UCA Dataset",
+    "UCF-Crime",
+    "XD-Violence",
+    "ShanghaiTech"
+  ],
+  "baselines_compared": [],
+  "key_results": {
+    "ROC-AUC": 94,
+    "F1": 84
+  },
+  "best_result": "94% ROC-AUC with 84% F1 on UCF-Crime",
+  "limitations_stated": [],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "medium",
+  "compute_required": "unknown",
+  "can_run_on_macbook": false,
+  "evidence_id": "EV042",
+  "title": "Reasoning-Guided Grounding: Elevating Video Anomaly Detection through Multimodal Large Language Models",
+  "year": 2026,
+  "arxiv_id": "2605.02912",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 5863,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

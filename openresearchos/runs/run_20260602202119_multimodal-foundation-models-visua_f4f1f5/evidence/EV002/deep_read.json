@@ -1,0 +1,46 @@
+{
+  "title": "VLM2Vec: Training Vision-Language Models for Massive Multimodal Embedding Tasks",
+  "components": {
+    "benchmark": {
+      "name": "MMEB (Massive Multimodal Embedding Benchmark)",
+      "description": "A universal multimodal embedding benchmark",
+      "datasets": 36,
+      "task_categories": [
+        "classification",
+        "visual question answering",
+        "retrieval",
+        "visual grounding"
+      ],
+      "task_format": "Ranking tasks where the model follows instructions, processes a query, and selects the correct target from candidates"
+    },
+    "model": {
+      "name": "Vlm2Vec",
+      "description": "An embedding model adapted from vision-language models (VLMs)",
+      "capabilities": [
+        "following instructions",
+        "performing various multimodal embedding tasks",
+        "accommodating any combination of image and text modalities"
+      ]
+    }
+  },
+  "limitations_in_current_research": [
+    "Studies typically evaluate visual embeddings on isolated tasks",
+    "Most existing models either process text and images separately or perform shallow fusion",
+    "Limited reasoning and generalization capabilities, particularly in zero-shot scenarios"
+  ],
+  "related_work": [
+    "MTEB (Massive Text Embedding Benchmark) for text embeddings",
+    "CLIP, BLIP, and SigLIP for multimodal embeddings"
+  ],
+  "evidence_id": "EV002",
+  "year": 2024,
+  "arxiv_id": "2410.05160",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

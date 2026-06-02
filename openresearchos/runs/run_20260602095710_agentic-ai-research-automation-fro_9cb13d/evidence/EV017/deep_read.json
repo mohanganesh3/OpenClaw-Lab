@@ -1,0 +1,26 @@
+{
+  "method_summary": "Research paper: Beyond principlism: Practical strategies for ethical AI use in research practices",
+  "key_innovation": "See full text",
+  "datasets_used": [],
+  "baselines_compared": [],
+  "key_results": {},
+  "best_result": null,
+  "limitations_stated": [],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "unknown",
+  "compute_required": "unknown",
+  "can_run_on_macbook": true,
+  "evidence_id": "EV017",
+  "title": "Beyond principlism: Practical strategies for ethical AI use in research practices",
+  "year": 2024,
+  "arxiv_id": "2401.15284",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 6200,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "title": "Adapter-Enhanced Semantic Prompting for Continual Learning",
+  "problem": {
+    "description": "Continual Learning (CL) enables models to continuously learn from evolving data streams and adapt to new environments, addressing challenges like data privacy and memory resource limitations.",
+    "challenges": [
+      "Catastrophic forgetting: Overwriting of old knowledge when learning new tasks",
+      "Memory burden from retaining samples",
+      "Privacy leakage risks from retaining samples",
+      "Increased model size and slower inference speed from adding new branches"
+    ]
+  },
+  "existingApproaches": [
+    {
+      "name": "Sample retention",
+      "description": "Retaining a few representative samples from old tasks for knowledge replay",
+      "limitations": [
+        "Memory burden",
+        "Privacy leakage risks"
+      ]
+    },
+    {
+      "name": "Network branching",
+      "description": "Adding new branches to the network for each new task",
+      "limitations": [
+        "Increased model size",
+        "Slower inference speed",
+        "Lower efficiency"
+      ]
+    },
+    {
+      "name": "Prompt-based methods",
+      "description": "Using visual prompts to update image features",
+      "limitations": [
+        "Rely solely on visual information",
+        "Struggle with generalization when training data is limited"
+      ]
+    }
+  ],
+  "proposedSolution": {
+    "name": "Adapter-Enhanced Semantic Prompting (AESP)",
+    "components": [
+      {
+        "name": "Semantic prompts (S-Prompts)",
+        "description": "Introduces semantic information to enhance the generalization of the pre-trained ViT model"
+      },
+      {
+        "name": "Adapter modules",
+        "description": "Small, learnable adapter modules integrated into each layer of the ViT to help the model better accommodate semantic information"
+      },
+      {
+        "name": "Visual Transformer (ViT)",
+        "description": "Pre-trained model that is adapted with the AESP framework"
+      }
+    ],
+    "advantages": [
+      "Combines multimodal features",
+      "More generalized and adaptable across tasks",
+      "Maintains robustness when encountering unseen samples",
+      "Focuses on shared semantic features rather than relying solely on specific visual features"
+    ]
+  },
+  "evidence_id": "EV029",
+  "year": 2024,
+  "arxiv_id": "2412.11074",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

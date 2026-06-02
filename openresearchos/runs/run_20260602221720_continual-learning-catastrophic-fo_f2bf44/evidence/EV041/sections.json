@@ -1,0 +1,6 @@
+{
+  "introduction": "[2407.07668] How to Leverage Predictive Uncertainty Estimates for Reducing Catastrophic Forgetting in Online Continual Learning\n\nHow to Leverage Predictive Uncertainty Estimates for\n\nReducing Catastro",
+  "method": "e log-likelihood. Finally, we demonstrate that the use of predictive uncertainty measures helps in reducing CF in different settings.\n\nUncertainty, Online Continual Learning, Catastrophic Forgetting\n\n",
+  "results": "opulate and update the memory with meaningful and representative samples, and how to efficiently sample from the memory respectively. Although many approaches have been developed in this direction – r",
+  "conclusion": "ertainty (bottom-k) – or the marginal ones (i.e., the top-k with the  highest  uncertainty). In the first part of this work, we evaluate and compare different combinations of uncertainty scores and so"
+}

@@ -1,0 +1,6 @@
+{
+  "introduction": "[2501.07825] An Efficient Sparse Hardware Accelerator for Spike-Driven Transformer This work was supported in part by the Shenzhen Science and Technology Program 2023A007. Corresponding author: Wendon",
+  "method": "ational latency. Experimental results indicate that compared to existing SNNs accelerators, our design achieves up to 13.24\n\n×  \\times\n\nand 1.33\n\n×  \\times\n\nimprovements in terms of throughput and ene",
+  "results": "he inherent characteristics of spiking neurons, without incorporating optimizations for specific layers like maxpooling and spike-driven self-attention (SDSA). Additionally, the dual spike inputs of s",
+  "conclusion": "behaviors can be summarized by the following equations:\n\nT  ​  e  ​  m  ​  p  ​\n\n[  t  ]\n\n\\displaystyle Temp[t]\n\n=\n\nS  ​\n\n[  t  ]\n\n​\n\nV\n\nr  ​  e  ​  s  ​  e  ​  t\n\n+\n\n(\n\n1  −\n\nS  ​\n\n[  t  ]\n\n)\n\n​\n\n(\n\n"
+}

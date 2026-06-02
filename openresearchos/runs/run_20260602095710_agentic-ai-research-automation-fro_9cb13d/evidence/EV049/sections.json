@@ -1,0 +1,6 @@
+{
+  "introduction": "[2606.02526] Why Not Hyperparameter-Friendly Optimisation? A Monotonic Adaptive Norm Rescaling Approach For Long-Tailed Recognition\n\nSkip to main content\n\nLearn about arXiv becoming an independent non",
+  "method": "lution. During the classifier retraining stage, adaptive norm rescaling is a popular technique. It adjusts the per-class weight norms via parameter regularization, which inevitably introduces hyperpar",
+  "results": "gistration)\n\nSubmission history  From: Shuo Zhang [ view email ]\n\n[v1]\n\nMon, 1 Jun 2026 17:34:38 UTC (8,042 KB)\n\nFull-text links:\n\nAccess Paper:\n\nView a PDF of the paper titled Why Not Hyperparameter-",
+  "conclusion": "ggingface Toggle\n\nHugging Face\n\n( What is Huggingface? )\n\nScienceCast Toggle\n\nScienceCast\n\n( What is ScienceCast? )\n\nDemos\n\nDemos\n\nReplicate Toggle\n\nReplicate\n\n( What is Replicate? )\n\nSpaces Toggle\n\nH"
+}

@@ -1,0 +1,56 @@
+{
+  "paper_title": "Parameters as Experts: Adapting Vision Models with Dynamic Parameter Routing",
+  "method_section": {
+    "approaches_discussed": [
+      {
+        "name": "Prompt-based tuning",
+        "example": "VPT (Visual Prompt Tuning)",
+        "description": "Inserts learnable tokens into input sequence of Vision Transformers"
+      },
+      {
+        "name": "Adapter-based PEFT",
+        "examples": [
+          "LoRA",
+          "AdaptFormer",
+          "Mona"
+        ],
+        "description": "Lightweight modules for efficient fine-tuning"
+      }
+    ],
+    "identified_challenges": [
+      {
+        "name": "Representation deficiency",
+        "description": "Adapters use input-agnostic low-rank modeling which limits feature representation capacity for complex tasks"
+      },
+      {
+        "name": "Feature redundancy",
+        "description": "Lack of cross-layer interaction leads to redundant representations across network layers"
+      }
+    ],
+    "proposed_solution": {
+      "name": "AdaRoute",
+      "description": "Dynamic parameter routing approach for vision model adaptation"
+    },
+    "experimental_setup": {
+      "backbone_model": "Swin-L pre-trained on ImageNet-21K",
+      "fine_tuning_dataset": "COCO2017",
+      "framework": "Mask R-CNN",
+      "evaluation_metrics": [
+        "Effective Receptive Field (ERF)",
+        "Centered Kernel Alignment (CKA)"
+      ]
+    }
+  },
+  "evidence_id": "EV030",
+  "title": "Parameters as Experts: Adapting Vision Models with Dynamic Parameter Routing",
+  "year": 2026,
+  "arxiv_id": "2602.06862",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

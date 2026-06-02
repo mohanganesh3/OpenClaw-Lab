@@ -1,0 +1,26 @@
+{
+  "method_summary": "Research paper: Universal crystal material property prediction via multi-view geometric fusion in graph transformers",
+  "key_innovation": "See full text",
+  "datasets_used": [],
+  "baselines_compared": [],
+  "key_results": {},
+  "best_result": null,
+  "limitations_stated": [],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "unknown",
+  "compute_required": "unknown",
+  "can_run_on_macbook": true,
+  "evidence_id": "EV004",
+  "title": "Universal crystal material property prediction via multi-view geometric fusion in graph transformers",
+  "year": 2025,
+  "arxiv_id": "2507.15303",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 5707,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

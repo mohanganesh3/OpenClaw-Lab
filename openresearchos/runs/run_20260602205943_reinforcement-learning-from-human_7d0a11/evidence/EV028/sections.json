@@ -1,0 +1,6 @@
+{
+  "introduction": "[2308.12573] Conditional Kernel Imitation Learning for Continuous State Environments\n\nConditional Kernel Imitation Learning for Continuous State Environments\n\nRishabh Agrawal 1 ,\nNathan Dahlin 2 ,\nRah",
+  "method": "s in the Atari suite  (Mnih et al.  2015 )  to Go  (Silver et al.  2016 )  and StarCraft  (Vinyals et al.  2019 ) , and to protein structure prediction systems  (Jumper et al.  2021 ) , etc. A fundame",
+  "results": "n of errors in the agent’s performance  (Ross and Bagnell  2010 )  resulting in a limited practical ability to generalize effectively.\n\nTo address the issue of compounding errors that can afflict meth",
+  "conclusion": "erated on the fly. We make no such assumption in our problem formulation.\n\nIn this paper, we aim to develop imitation learning algorithms that do not need reward-feedback, do not rely on distribution "
+}

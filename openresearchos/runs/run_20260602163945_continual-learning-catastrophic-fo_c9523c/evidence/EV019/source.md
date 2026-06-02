@@ -1,0 +1,10 @@
+# EV019: How to Develop a Memory Game for Clinical Courses: A Leading Approach to the Interaction of Education
+
+URL: https://www.semanticscholar.org/paper/00be9a1b17b4cf597a3b040ddda854c743d9d20c
+Year: 2024
+Source: semantic_scholar
+Arxiv: n/a
+
+## Abstract
+
+: The integration of educational games has significantly transformed pedagogical approaches, emphasizing the importance of constantly updating educational programs. High-quality games motivate students and foster engagement, surpassing traditional methods. Addressing this need, this protocol study aimed to provide practical instruction on developing a memory game. Educational memory games have been found to enhance intrinsic motivation in learners and are particularly beneficial for clinical subjects. The design of memory games involves three components: Pedagogical level, design level, and modeling of learning content. Adjusting elements, such as the number and nature of items, time limits, feedback mechanisms, and task difficulty, can fine-tune the effectiveness of a memory game. The memory game consists of 2 main components: Learning and scoring, and it is designed using Articulate Storyline software. The learning phase focuses on mastering correct methods; however, the scoring phase evaluates learning retention and comprehension. Memory games can be adapted to different formats supported by educational websites and learning management systems. They are an effective tool for enhancing cognitive development and memory retention; however, it is important to consider the audience’s age, learning goals, genre, and assessment approaches when determining the ideal content level. Memory games can be used to identify learning challenges, promote active student engagement and collaboration, and improve learning outcomes. Educators must continually evolve their methods to resonate with new generations of learners, and success in implementing memory games depends on considering lesson characteristics, student needs, and instructor expertise.

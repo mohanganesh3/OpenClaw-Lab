@@ -1,0 +1,26 @@
+{
+  "method_summary": "Research paper: Ring Attention with Blockwise Transformers for Near-Infinite Context",
+  "key_innovation": "See full text",
+  "datasets_used": [],
+  "baselines_compared": [],
+  "key_results": {},
+  "best_result": null,
+  "limitations_stated": [],
+  "code_available": true,
+  "code_url": "https://github.com/lhao499/llm_large_context",
+  "reproducibility": "unknown",
+  "compute_required": "unknown",
+  "can_run_on_macbook": true,
+  "evidence_id": "EV011",
+  "title": "Ring Attention with Blockwise Transformers for Near-Infinite Context",
+  "year": 2023,
+  "arxiv_id": "2310.01889",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7996,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

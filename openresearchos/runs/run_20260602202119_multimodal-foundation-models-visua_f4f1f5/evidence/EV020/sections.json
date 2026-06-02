@@ -1,0 +1,6 @@
+{
+  "introduction": "[2508.02890] VisuCraft: Enhancing Large Vision-Language Models for Complex Visual-Guided Creative Content Generation via Structured Information Extraction\n\nVisuCraft: Enhancing Large Vision-Language M",
+  "method": "modalities has led to the emergence of powerful Large Vision-Language Models (LVLMs)  [ 1 ,  2 ,  3 ] . These models possess remarkable capabilities in understanding and generating content from multim",
+  "results": "with off-the-shelf LVLMs such as LLaVA  [ 7 ]  and InstructBLIP  [ 7 ] . The core of VisuCraft comprises two key components: a  multimodal structured information extractor  and a  dynamic prompt gener",
+  "conclusion": "the uniqueness, imagination, and novelty of the generated output. Instruction Adherence quantifies the degree to which the generated content follows the user’s specific textual directives. Our experim"
+}

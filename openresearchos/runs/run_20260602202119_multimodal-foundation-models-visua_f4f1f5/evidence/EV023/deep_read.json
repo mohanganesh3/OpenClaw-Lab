@@ -1,0 +1,60 @@
+{
+  "title": "S-Chain: Structured Visual Chain-of-Thought For Medicine",
+  "dataset": {
+    "name": "S-Chain",
+    "size": "12,000 expert-annotated medical images",
+    "features": [
+      "bounding boxes",
+      "structured visual CoT (SV-CoT)"
+    ],
+    "languages": 16,
+    "vqa_pairs": "over 700k"
+  },
+  "models_benchmarked": {
+    "medical_vlms": [
+      "ExGra-Med",
+      "LLaVA-Med"
+    ],
+    "general_purpose_vlms": [
+      "Qwen2.5-VL",
+      "InternVL2.5"
+    ]
+  },
+  "key_findings": [
+    "SV-CoT supervision improves interpretability, grounding fidelity, and robustness",
+    "Auto-generated CoTs often lack structure and explicit correspondence to image regions"
+  ],
+  "contributions": [
+    "Introduction of S-Chain dataset",
+    "Benchmarking of various VLMs",
+    "Study of retrieval-augmented generation synergy",
+    "Proposal of a new mechanism for visual evidence and reasoning alignment"
+  ],
+  "related_work": {
+    "auto_generation_approaches": [
+      {
+        "name": "MC-CoT",
+        "description": "Leverages modular pipelines where LLMs generate reasoning steps in zero-shot settings"
+      },
+      {
+        "name": "MedCoT",
+        "description": "Introduces hierarchical expert verification to refine auto-generated rationales"
+      },
+      {
+        "name": "PMC-VQA",
+        "description": "Relies on template-based or synthetic QA generation"
+      }
+    ]
+  },
+  "evidence_id": "EV023",
+  "year": 2025,
+  "arxiv_id": "2510.22728",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

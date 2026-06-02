@@ -1,0 +1,6 @@
+{
+  "introduction": "[2311.17945] Contrastive Vision-Language Alignment Makes Efficient Instruction Learner\n\nContrastive Vision-Language Alignment Makes Efficient Instruction Learner\n\nLizhao Liu  1,2\n\n1\n\n1  1 Equal contri",
+  "method": "nt instruction learner. For example, using only 10% instruction tuning data, we reach 95% performance of state-of-the-art method LLaVA  [  30  ]  on the zero-shot ScienceQA-Image benchmark.\n\n1  Introd",
+  "results": "language features into a pre-trained Chinchilla LLM  [  19  ] . Different from them, lightweight adaptation methods such as LLaMA-Adapter  [  15  ,\n\n52  ]  and LLaVA  [  32  ,\n\n30  ]  propose to learn",
+  "conclusion": "aligned visual adapters, our CG-VLM provides  only  large similarities to the corresponding concepts.  2\n\n2\n\n2  More visualization results are put in the supplementary.\n\nIn this paper, we propose Cont"
+}

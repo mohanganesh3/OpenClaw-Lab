@@ -1,0 +1,57 @@
+{
+  "paper_title": "SHE: Stepwise Hybrid Examination Reinforcement Learning Framework for E-commerce Search Relevance",
+  "methodology": {
+    "framework_name": "TaoSR-SHE (Tao Search Relevance - SHE)",
+    "core_algorithm": "Stepwise Reward Policy Optimization (SRPO)",
+    "key_components": [
+      "Hybrid reward model combining generative stepwise reward model and human-annotated offline verifier",
+      "Prioritization of learning from critical correct and incorrect reasoning steps"
+    ],
+    "incorporated_techniques": [
+      "Diversified data filtering to encourage exploration across varied reasoning paths and mitigate policy entropy collapse",
+      "Multi-stage curriculum learning to foster progressive capability growth"
+    ],
+    "advantages": [
+      "Improves reasoning quality and relevance-prediction accuracy in large-scale e-commerce settings",
+      "Outperforms SFT, DPO, GRPO, and other baselines",
+      "Enhances interpretability and robustness"
+    ]
+  },
+  "keywords": [
+    "E-commerce Search",
+    "Stepwise Verification",
+    "Reward Model",
+    "RLVR",
+    "Curriculum Learning",
+    "Data Diversity"
+  ],
+  "metadata": {
+    "copyright": "ACM licensed",
+    "journal_year": 2018,
+    "doi": "XXXXXXX.XXXXXXX",
+    "conference": "Make sure to enter the correct conference title from your rights confirmation email; Oct, 2025",
+    "isbn": "978-1-4503-XXXX-X/2018/06",
+    "ccs": "Information systems Language models"
+  },
+  "figure_1_description": "TaoSR-SHE integrates several key techniques for advanced reinforcement learning: (A) difficulty sampling, (B) diverse sampling, (C) generative stepwise reward training, and (D) stepwise hybrid examination in reinforcement learning",
+  "results": {
+    "research_focus": "E-commerce search relevance evaluation using Large Language Models with Chain-of-Thought reasoning",
+    "challenges_addressed": [
+      "Overfitting in SFT and DPO methods",
+      "Poor generalization on complex or out-of-distribution queries",
+      "Sparse rewards in RLVR leading to inefficient credit assignment and reward hacking"
+    ]
+  },
+  "evidence_id": "EV015",
+  "title": "SHE: Stepwise Hybrid Examination Reinforcement Learning Framework for E-commerce Search Relevance",
+  "year": 2025,
+  "arxiv_id": "2510.07972",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

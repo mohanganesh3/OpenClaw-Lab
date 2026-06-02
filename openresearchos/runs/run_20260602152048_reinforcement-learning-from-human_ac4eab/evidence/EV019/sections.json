@@ -1,0 +1,6 @@
+{
+  "introduction": "[2502.14400] HPS: Hard Preference Sampling for Human Preference Alignment\n\nHPS: Hard Preference Sampling for Human Preference Alignment\n\nXiandong Zou\n\nWanyu Lin\n\nYuchen Li\n\nPan Zhou\n\nAbstract\n\nAlignin",
+  "method": "tion  (Bai et al.,  2022b ; Yao et al.,  2024 ) . Consequently, selecting and aligning the model’s responses and behaviors with desired human values is crucial to developing safe, effective, and contr",
+  "results": "sential in tasks requiring strict safeguards. The BT loss (e.g., DPO  (Rafailov et al.,  2024 ) , R-DPO  (Park et al.,  2024 ) , Online DPO  (Dong et al.,  2024 ) , and KTO  (Ethayarajh et al.,  2024 ",
+  "conclusion": "metric, and contrastive learning  (Schroff et al.,  2015 ; Oh Song et al.,  2016 ; Robinson et al.,  2020 ) , emphasizing the importance of “hard” examples—dispreferred responses closely resembling th"
+}

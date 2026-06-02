@@ -1,0 +1,34 @@
+{
+  "method_summary": "POLARIS is a modular orchestration framework for back-office automation that treats the process as planning over typed agents, using a Chain-of-Action planner for type-checked DAGs, a rubric-based selector for policy-aware selection, and guarded execution with validators and compiled policy checks.",
+  "key_innovation": "The key innovation is treating back-office automation as planning over typed agents with type-sound composition, policy-aware rubric-based selection, and validator-gated execution that prevents external side effects before validation.",
+  "datasets_used": [
+    "synthetic invoice suites",
+    "SROIE benchmark"
+  ],
+  "baselines_compared": [
+    "prior multi-agent DAG systems",
+    "common stacks with untyped I/O",
+    "best-of-N prompting systems",
+    "systems lacking compiled policy checks"
+  ],
+  "key_results": {},
+  "best_result": null,
+  "limitations_stated": [],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": null,
+  "compute_required": null,
+  "can_run_on_macbook": false,
+  "evidence_id": "EV001",
+  "title": "POLARIS: Typed Planning and Governed Execution for Agentic AI in Back-Office Automation",
+  "year": 2026,
+  "arxiv_id": "2601.11816",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "introduction": "[2606.02521] Drifting Preference Optimization for One-Step Generative Models\n\nSkip to main content\n\nLearn about arXiv becoming an independent nonprofit.\n\nWe gratefully acknowledge support from the Sim",
+  "method": "ing method for deterministic one-step generators. For each prompt, DrPO samples candidates from the current generator, ranks them with a target reward, and uses high- and low-scoring samples to synthe",
+  "results": "ite (pending registration)\n\nSubmission history  From: Jiang Zhou [ view email ]\n\n[v1]\n\nMon, 1 Jun 2026 17:31:49 UTC (17,011 KB)\n\nFull-text links:\n\nAccess Paper:\n\nView a PDF of the paper titled Driftin",
+  "conclusion": "ace? )\n\nScienceCast Toggle\n\nScienceCast\n\n( What is ScienceCast? )\n\nDemos\n\nDemos\n\nReplicate Toggle\n\nReplicate\n\n( What is Replicate? )\n\nSpaces Toggle\n\nHugging Face Spaces\n\n( What is Spaces? )\n\nSpaces To"
+}

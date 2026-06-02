@@ -1,0 +1,76 @@
+{
+  "title": "Decoding the Delta: Unifying Remote Sensing Change Detection and Understanding with Multimodal Large Language Models",
+  "keywords": [
+    "Multimodal Large Language Models",
+    "Remote Sensing",
+    "Change Detection",
+    "Visual Question Answering"
+  ],
+  "datasets": {
+    "Delta-QA": {
+      "name": "Delta-QA",
+      "type": "Comprehensive benchmark",
+      "samples": 180000,
+      "temporal_frames": "2-3",
+      "land_cover_types": 15,
+      "features": {
+        "pixel_mask": true,
+        "textual_qa": true,
+        "unified_qa_and_mask_reasoning": true
+      },
+      "resolution": "0.5-30",
+      "annotation_scale": "180k Instructs"
+    },
+    "compared_datasets": [
+      "SECOND",
+      "Landsat",
+      "WUSU",
+      "LevirSCD",
+      "JL1",
+      "SECOND-CC",
+      "RSCC",
+      "LEVIR-CC",
+      "CC-Foundation",
+      "LEVIR-MCI",
+      "ChangeChat",
+      "DVL-Bench"
+    ]
+  },
+  "methodology": {
+    "model": "Delta-LLaVA",
+    "type": "MLLM framework for multi-temporal remote sensing interpretation",
+    "innovations": [
+      {
+        "name": "Change-Enhanced Attention module",
+        "description": "Systematically isolates and amplifies visual differences"
+      },
+      {
+        "name": "Change-SEG module",
+        "description": "Utilizes Change Prior Embedding to extract differentiable difference features as input for the LLM"
+      },
+      {
+        "name": "Local Causal Attention",
+        "description": "Prevents cross-temporal contextual leakage"
+      }
+    ]
+  },
+  "cognitive_dimensions": "Four progressive cognitive dimensions for change interpretation",
+  "results": {
+    "performance": "Delta-LLaVA outperforms leading generalist MLLMs and specialized segmentation models",
+    "strengths": [
+      "Complex change deduction",
+      "High-precision boundary localization"
+    ]
+  },
+  "evidence_id": "EV014",
+  "year": 2026,
+  "arxiv_id": "2604.14044",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "introduction": "[2501.11002] pMixFed: Efficient Personalized Federated Learning through Adaptive Layer-Wise Mixup\n\n(cvpr)\n\nPackage cvpr Warning: Incorrect paper size - CVPR uses paper size ‘letter’. Please load docum",
+  "method": "s. Our code is available for reproducing our results:  https://github.com/YasMinSdt/pMixFed .\n\n1  Introduction\n\nFigure 1 :\n\nDiscrepancy between personalized and global shared layers in Partial PFL:  (",
+  "results": "Personalized FL (PFL) methods handle data heterogeneity by considering both generalization and personalization during the training stage. Since there is a trade-off between generalization and personal",
+  "conclusion": "catastrophic forgetting of the previously shared global knowledge after only a few rounds of local training because the shared global model can be completely overwritten by local updates leading to ge"
+}

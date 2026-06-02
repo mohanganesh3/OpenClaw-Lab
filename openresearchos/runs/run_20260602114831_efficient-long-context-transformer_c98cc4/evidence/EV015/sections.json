@@ -1,0 +1,6 @@
+{
+  "introduction": "[2602.01194] EMFormer: Efficient Multi-Scale Transformer for Accumulative Context Weather Forecasting\n\nEMFormer: Efficient Multi-Scale Transformer for Accumulative Context\n\nWeather Forecasting\n\nHao Ch",
+  "method": "ial differential equations  (Bauer et al.,  2015 ; Lynch,  2008 ; Kalnay,  2002 ) , but it suffers from cumulative errors and high computation. In contrast, data‑driven models  (Kurth et al.,  2023 ; ",
+  "results": "design an efficient framework that reduces computational cost during training and finetuning.\n\nTo address the efficiency and stability bottlenecks in long-context forecasting, we propose  a novel pipe",
+  "conclusion": "mposite objective function featuring a sinusoidal weighting mechanism to address the heterogeneity of atmospheric data. This includes a latitude-adaptive term, which accounts for spatial distortion an"
+}

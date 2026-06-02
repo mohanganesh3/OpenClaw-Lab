@@ -1,0 +1,47 @@
+{
+  "title": "Reinforcement Learning From Imperfect Corrective Actions And Proxy Rewards",
+  "authors": "Not specified in the provided text",
+  "abstract": "This paper addresses the challenge of defining high-quality reward signals in reinforcement learning. When rewards are misspecified, RL agents learn unexpected and unwanted behaviors. The paper proposes a framework where RL agents learn from two sources: proxy rewards and corrective actions. Proxy rewards are imperfect reward functions that approximately specify the task, while corrective actions are provided by human labelers who can correct an agent's action by demonstrating a better one. The paper argues that learning from both sources simultaneously, even though both may be imperfect, can be beneficial.",
+  "methodology": {
+    "validation_tasks": [
+      "Atari games",
+      "autonomous driving on highway"
+    ],
+    "approach": "Learning from two sources of signals: proxy rewards and corrective actions",
+    "key_claims": [
+      "Better align with human preferences than baseline methods",
+      "More sample-efficient than baseline methods",
+      "Can overcome non-optimality of corrective actions thanks to guidance from proxy rewards"
+    ]
+  },
+  "results": "The paper claims experimental validation showing benefits of learning from both proxy rewards and corrective actions simultaneously.",
+  "keywords": [
+    "reinforcement learning",
+    "proxy rewards",
+    "corrective actions",
+    "human feedback",
+    "reward specification"
+  ],
+  "related_approaches": [
+    "Behavior cloning",
+    "Inverse reinforcement learning",
+    "(Inverse) reward design",
+    "Reinforcement learning from human feedback"
+  ],
+  "limitations_of_related_approaches": [
+    "May require a perfect demonstrator",
+    "May require a reliable expert to provide correct labels",
+    "May assume the agent only learns from human feedback, which would require too many queries"
+  ],
+  "evidence_id": "EV045",
+  "year": 2024,
+  "arxiv_id": "2410.05782",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

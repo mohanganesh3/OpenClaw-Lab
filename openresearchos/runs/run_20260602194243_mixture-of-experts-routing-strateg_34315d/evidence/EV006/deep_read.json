@@ -1,0 +1,26 @@
+{
+  "method_summary": "DrDiff introduces three core technologies: dynamic expert scheduling for intelligent resource allocation, Hierarchical Sparse Attention reducing complexity from O(n²) to O(n), and soft absorption guidance optimization with DPM-solver++ to reduce diffusion steps.",
+  "key_innovation": "Hierarchical Sparse Attention (HSA) mechanism that adaptively adjusts attention patterns according to input lengths while maintaining model performance.",
+  "datasets_used": [],
+  "baselines_compared": [],
+  "key_results": {},
+  "best_result": "",
+  "limitations_stated": [],
+  "code_available": null,
+  "code_url": null,
+  "reproducibility": null,
+  "compute_required": null,
+  "can_run_on_macbook": null,
+  "evidence_id": "EV006",
+  "title": "DrDiff: Dynamic Routing Diffusion with Hierarchical Attention for Breaking the Efficiency-Quality Trade-off",
+  "year": 2025,
+  "arxiv_id": "2509.02785",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 5195,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

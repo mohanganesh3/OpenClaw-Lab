@@ -1,0 +1,48 @@
+{
+  "title": "Can Language Models Compose Skills In-Context?",
+  "authors": "Not explicitly listed in provided text",
+  "research_question": "Can language models compose skills in-context, specifically whether they can solve queries for novel composite tasks combining several simple tasks when provided with in-context examples?",
+  "methodology": {
+    "approach": "Systematic empirical studies and theoretical analysis",
+    "models_tested": [
+      "TLI+",
+      "TMS+",
+      "KOB+",
+      "GDJ+",
+      "GYZ+"
+    ],
+    "tasks": "Linguistic and logical tasks from XSL designed for probing composition abilities",
+    "key_aspect": "Models need to learn novel skills and compositions during inference"
+  },
+  "key_findings": [
+    "Simple task examples can hurt performance on composite queries rather than improve it",
+    "Models generally do not recognize the composition and do not align simple task examples with corresponding steps",
+    "Even Chain-of-Thought (CoT) examples may mismatch skills to wrong steps",
+    "Inner attention analysis provides further evidence"
+  ],
+  "theoretical_analysis": {
+    "finding": "Ignorance of compositional structure can harm performance, while aligning examples to appropriate steps can potentially improve it",
+    "setting": "Stylized setting that captures the essence of in-context composition"
+  },
+  "proposed_solution": {
+    "name": "Expanded Chain-of-Thought (ExpCoT)",
+    "approach": "Views simple task examples as composite task examples with missing steps and expands them into CoT format with missing steps marked by special symbols",
+    "benefit": "Explicitly aligns examples with corresponding steps to improve performance"
+  },
+  "contributions": [
+    "Systematic experiments investigating in-context composition ability of representative open-source language models",
+    "Theoretical analysis explaining empirical observations and revealing that explicitly aligning in-context examples with corresponding steps can help accomplish composite tasks",
+    "Proof-of-concept method that significantly improves in-context composition performance"
+  ],
+  "evidence_id": "EV002",
+  "year": 2025,
+  "arxiv_id": "2510.22993",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

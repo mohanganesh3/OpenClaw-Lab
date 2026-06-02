@@ -1,0 +1,56 @@
+{
+  "title": "LangBridge: Interpreting Image as a Combination of Language Embeddings",
+  "authors": [
+    "† ∗ Equal contribution"
+  ],
+  "main_contributions": [
+    "Enables interpretable vision-language alignment by grounding visual representations in LLM vocab embedding",
+    "Plug-and-play design ensures efficient reuse across multiple LLMs with nearly no performance degradation",
+    "Can be directly applied to larger models while maintaining competitive performance"
+  ],
+  "architecture": {
+    "visual_feature_extraction": "Vision Transformers (ViTs)",
+    "embedding_method": "Decomposes visual features into weighted combinations of LLM's vocabulary vectors to form visual embeddings",
+    "comparison": "Unlike MLP approaches that directly map visual features into LLM's text embedding space"
+  },
+  "methodology": {
+    "analysis_stages": [
+      "Pretrain-100 steps",
+      "Pretrain-1000 steps",
+      "Pretrain-2000 steps",
+      "SFT-tuned Model"
+    ],
+    "process": [
+      "Extract visual features using Vision Transformers",
+      "Transform them through stage-specific MLPs into visual embeddings",
+      "Compute cosine similarities between visual embeddings and text embeddings",
+      "Identify top semantically related text tokens for each visual embedding"
+    ]
+  },
+  "key_findings": [
+    "Visual embeddings demonstrate strong correlations with semantically-related text tokens",
+    "MLPs effectively map visual features into the text embedding space of LLMs"
+  ],
+  "limitations_addressed": [
+    "Poor understanding of how MLPs bridge the modality gap",
+    "MLP adapter requires retraining when switching LLM backbones due to input dimension mismatch"
+  ],
+  "related_work": {
+    "baseline_approach": "Mainstream LVLMs following LLaVA architecture using MLPs",
+    "alternative_approach": "Ovis method using visual embedding table to produce structural visual embeddings"
+  },
+  "availability": {
+    "project_page": "https://jiaqiliao77.github.io/LangBridge.github.io/"
+  },
+  "evidence_id": "EV028",
+  "year": 2025,
+  "arxiv_id": "2503.19404",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

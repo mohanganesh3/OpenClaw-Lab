@@ -1,0 +1,32 @@
+{
+  "title": "SkeletonContext: Skeleton-side Context Prompt Learning for Zero-Shot Skeleton-based Action Recognition",
+  "problem_statement": "Existing zero-shot skeleton-based action recognition (ZSSAR) methods struggle because skeleton data lacks contextual cues (e.g., objects), creating a semantic gap that hinders the discrimination of visually similar actions.",
+  "method_name": "SkeletonContext",
+  "method_type": "Prompt-based framework",
+  "method_description": "SkeletonContext is a framework that enriches skeletal motion representations with language-driven contextual knowledge. It works by first extracting action-related contextual descriptions (e.g., associated objects and environments) from Large Language Models (LLMs) and then injecting this reconstructed contextual semantics into the skeleton representations.",
+  "key_innovation": "The reconstruction and injection of language-driven contextual semantics into skeleton representations to bridge the semantic gap and improve cross-modal alignment.",
+  "knowledge_source": "Large Language Models (LLMs)",
+  "results_claims": "The method achieves state-of-the-art performance in both conventional and generalized zero-shot settings, validating its effectiveness in reasoning about context and distinguishing fine-grained, visually similar actions.",
+  "availability": {
+    "repository": "https://github.com/NingWang2049/skeletoncontext"
+  },
+  "keywords": [
+    "Zero-Shot Skeleton-based Action Recognition",
+    "Prompt Learning",
+    "Contextual Semantics",
+    "Large Language Models (LLMs)",
+    "Cross-modal Alignment",
+    "Skeleton-based Action Recognition"
+  ],
+  "evidence_id": "EV031",
+  "year": 2026,
+  "arxiv_id": "2603.29692",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

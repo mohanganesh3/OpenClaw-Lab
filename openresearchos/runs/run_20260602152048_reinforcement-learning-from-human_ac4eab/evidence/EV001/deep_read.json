@@ -1,0 +1,29 @@
+{
+  "method_summary": "The paper converts the preference poisoning problem into a structured binary sparse approximation problem and develops two attack methods: Binary-Aware Lattice Attack (BAL-A) using lattice reduction algorithms and Binary Matching Pursuit Attack (BMP-A) adapting binary matching pursuit to non-normalized gradient dictionaries.",
+  "key_innovation": "The conversion of the preference poisoning problem into a structured binary sparse approximation problem and the development of two novel attack methods (BAL-A and BMP-A) that efficiently solve this problem.",
+  "datasets_used": [
+    "Stanford Human Preferences dataset",
+    "synthetic dictionaries"
+  ],
+  "baselines_compared": [],
+  "key_results": {},
+  "best_result": "",
+  "limitations_stated": [],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "medium",
+  "compute_required": "not specified",
+  "can_run_on_macbook": false,
+  "evidence_id": "EV001",
+  "title": "Efficient Preference Poisoning Attack on Offline RLHF",
+  "year": 2026,
+  "arxiv_id": "2605.02495",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 5335,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "introduction": "[2504.00661] \\model: Boosting Mixture of LoRA Experts Fine-Tuning with a Hybrid Routing Mechanism\n\n\\model : Boosting Mixture of LoRA Experts Fine-Tuning with a Hybrid Routing Mechanism\n\nDengchun Li 1 ",
+  "method": "f-the-art MoLE method, MoLA, by 2.3%. We also conduct a comprehensive ablation study to evaluate the contributions of  \\model ’s key components.\n\n1  Introduction\n\nInstruction-based fine-tuning of larg",
+  "results": "2018 ; Nie et al.,  2021 ; Wu et al.,  2024c ; Dou et al.,  2024 ; Pan et al.,  2024 ) .\nHowever, this comes at the cost of significant computational overhead, as all experts are involved in the compu",
+  "conclusion": "del training.\nThese challenges are illustrated in Figure\n\n1  .\n\nTo address these challenges, we propose  \\model  ( Dyn amic Routing for  M ixture  o f  L oRA  E xperts), a hybrid routing approach desi"
+}

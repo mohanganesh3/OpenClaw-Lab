@@ -1,0 +1,6 @@
+{
+  "introduction": "[2402.16915] More Than Routing: Joint GPS and Route Modeling for Refine Trajectory Representation Learning\n\nMore Than Routing: Joint GPS and Route Modeling for Refine Trajectory Representation Learnin",
+  "method": "e a novel representation learning framework that  J oint  G PS and  R oute  M odelling based on self-supervised technology, namely  JGRM .\nWe consider GPS trajectory and route as the two modes of a si",
+  "results": "on methods has emerged as a critical topic. Trajectory representation learning focuses on transforming raw trajectory data into meaningful and compact representations that can be used for a variety of",
+  "conclusion": "o words in natural language), ignoring the fact that a road segment is a real geographic entity that can interact with objects that pass through it. For example, when a road segment is congested, the "
+}

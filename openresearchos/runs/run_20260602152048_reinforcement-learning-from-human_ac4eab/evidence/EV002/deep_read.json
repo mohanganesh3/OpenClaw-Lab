@@ -1,0 +1,95 @@
+{
+  "paper_title": "Policy Filtration for RLHF to Mitigate Noise in Reward Models",
+  "paper_type": "Research paper",
+  "conference": "ICLR 2025",
+  "formatting_requirements": {
+    "submission_format": "LaTeX",
+    "style_files": [
+      "iclr2025_conference.sty",
+      "iclr2025_conference.bst"
+    ],
+    "latex_version": "LaTeX 2e",
+    "page_dimensions": {
+      "width": "5.5 inches (33 picas)",
+      "height": "9 inches (54 picas)",
+      "left_margin": "1.5 inches (9 picas)"
+    },
+    "text_formatting": {
+      "type_size": "10 point",
+      "vertical_spacing": "11 points",
+      "typeface": "Times New Roman",
+      "paragraph_separation": "1/2 line space",
+      "paragraph_indentation": "None"
+    },
+    "title_formatting": {
+      "size": "17 point",
+      "style": "small caps",
+      "alignment": "left-aligned"
+    },
+    "page_top_margin": "1 inch (6 picas)",
+    "author_formatting": {
+      "name_style": "boldface",
+      "placement": "each name above corresponding address",
+      "order": "lead author first",
+      "same_address": "can be on same line"
+    },
+    "page_limit": {
+      "main_text": "10 pages",
+      "citations": "unlimited"
+    },
+    "heading_formatting": {
+      "first_level": {
+        "style": "small caps",
+        "alignment": "flush left",
+        "size": "12 point"
+      },
+      "second_level": {
+        "style": "small caps",
+        "alignment": "flush left",
+        "size": "10 point"
+      },
+      "third_level": {
+        "style": "small caps",
+        "alignment": "flush left",
+        "size": "10 point"
+      }
+    },
+    "citation_formatting": {
+      "package": "natbib",
+      "format": "authors' last names and year",
+      "et_al_usage": "for more than two authors",
+      "in_sentence": "use \\citet{}",
+      "out_of_sentence": "use \\citep{}"
+    },
+    "reference_formatting": {
+      "order": "alphabetical order of authors",
+      "style": "any consistent style acceptable"
+    },
+    "footnote_formatting": {
+      "indicator": "number in text",
+      "placement": "bottom of page",
+      "preceding_element": "horizontal rule of 2 inches (12 picas)"
+    },
+    "figure_formatting": {
+      "quality": "neat, clean, legible",
+      "lines": "dark enough for reproduction",
+      "numbering": "consecutive",
+      "caption_position": "after figure",
+      "caption_spacing": "one line space before and after",
+      "caption_style": "lowercase (except first word and proper nouns)",
+      "separation": "caption should not be separated from figure"
+    }
+  },
+  "evidence_id": "EV002",
+  "title": "Policy Filtration for RLHF to Mitigate Noise in Reward Models",
+  "year": 2024,
+  "arxiv_id": "2409.06957",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "introduction": "[2201.12725] Generalized Global Ranking-Aware Neural Architecture Ranker for Efficient Image Classifier Search\n\nGeneralized Global Ranking-Aware Neural Architecture Ranker for Efficient Image Classifi",
+  "method": "arch. On the vast search space of NAS-Bench-101, the NAR easily finds the architecture with top 0.01‰ performance only by sampling. It also generalizes well to different image datasets of NAS-Bench-20",
+  "results": "architectures and suffer the ranking problem, i.e., the architectures with similar ground-truth performance have the incorrect predicted rankings due to the prediction bias, as shown in the top of Fig",
+  "conclusion": "utionary algorithms  [ 16 ,  28 ] , which requires additional training cost and complicates the NAS pipeline. Interestingly, we can benefit from collecting the distributions of the top quality tiers a"
+}

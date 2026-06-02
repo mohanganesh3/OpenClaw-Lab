@@ -1,0 +1,36 @@
+{
+  "title": "Unlocking the Address Book: Dissecting the Sparse Semantic Structure of LLM Key-Value Caches via Sparse Autoencoders",
+  "method": "Sparse Semantic Self-Attention (STA-Attention) using Top-K Sparse Autoencoders (SAEs)",
+  "key_findings": [
+    "KV information lies on a low-dimensional, sparse semantic manifold",
+    "Hierarchical addressing mechanism with functional stratification of attention",
+    "Discovery of the 'Semantic Elbow' at K=8 where Top-8 active latents recover over 80% of Key vector directionality",
+    "Key-Value asymmetry: Keys are sparse (routing) while Values are dense (logical payloads)",
+    "Dual-Budget Strategy (K_key=8, K_val=16) maximizes compression while preserving reasoning capabilities"
+  ],
+  "models_tested": [
+    "Yi",
+    "Mistral",
+    "Llama-2"
+  ],
+  "performance": "Matches zero-shot performance and perplexity of dense baselines (K=128) with significantly reduced memory",
+  "technical_details": {
+    "top_k_value": 8,
+    "dual_budget": {
+      "key": 8,
+      "value": 16
+    },
+    "semantic_elbow_recovery": "over 80% of Key vector directionality"
+  },
+  "evidence_id": "EV046",
+  "year": 2025,
+  "arxiv_id": "2512.10547",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

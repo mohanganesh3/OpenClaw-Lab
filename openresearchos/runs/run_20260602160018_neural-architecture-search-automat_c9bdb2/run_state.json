@@ -1,0 +1,244 @@
+{
+  "schema_version": 1,
+  "run_id": "run_20260602160018_neural-architecture-search-automat_c9bdb2",
+  "topic": "neural architecture search automated machine learning",
+  "created_at": "2026-06-02T16:00:49.844Z",
+  "updated_at": "2026-06-02T16:37:22.309Z",
+  "current_state": "TRACE_EXPORTED",
+  "scope_classification": {
+    "label": "local_experiment",
+    "rationale": "The topic can be explored with small simulations, synthetic data, or lightweight local experiments on the Mac.",
+    "feasibility_note": "Yes, neural architecture search is feasible on your MacBook M4 with 36GB RAM and MPS GPU, especially with smaller datasets and constrained search spaces. Suitable public datasets include CIFAR-10/100 for image classification, PTB for language modeling, and NAS-Bench-101 for pre-computed architecture benchmarks. Small-scale experiments might take several hours to a few days, while medium-scale searches could require a week or more of computation time. Consider using NAS-Bench-101 to minimize comp"
+  },
+  "search_queries": [
+    "NAS methods",
+    "RL NAS",
+    "Evolutionary NAS",
+    "Differentiable NAS",
+    "NAS applications",
+    "NAS computer vision",
+    "NAS benchmarks",
+    "NAS ImageNet",
+    "NAS limitations",
+    "NAS cost",
+    "NAS vs AutoML",
+    "Human-designed architectures",
+    "NAS search datasets",
+    "NAS survey",
+    "NAS instability"
+  ],
+  "evidence_ids": [
+    "EV001",
+    "EV002",
+    "EV003",
+    "EV004",
+    "EV005",
+    "EV006",
+    "EV007",
+    "EV008",
+    "EV009",
+    "EV010",
+    "EV011",
+    "EV012",
+    "EV013",
+    "EV014",
+    "EV015",
+    "EV016",
+    "EV017",
+    "EV018",
+    "EV019",
+    "EV020",
+    "EV021",
+    "EV022",
+    "EV023",
+    "EV024",
+    "EV025",
+    "EV026",
+    "EV027",
+    "EV028",
+    "EV029",
+    "EV030",
+    "EV031",
+    "EV032",
+    "EV033",
+    "EV034",
+    "EV035",
+    "EV036",
+    "EV037",
+    "EV038",
+    "EV039",
+    "EV040",
+    "EV041",
+    "EV042",
+    "EV043",
+    "EV044",
+    "EV045",
+    "EV046",
+    "EV047",
+    "EV048",
+    "EV049",
+    "EV050",
+    "EV051",
+    "EV052",
+    "EV053",
+    "EV054",
+    "EV055",
+    "EV056",
+    "EV057",
+    "EV058",
+    "EV059",
+    "EV060",
+    "EV061",
+    "EV062",
+    "EV063",
+    "EV064",
+    "EV065",
+    "EV066",
+    "EV067",
+    "EV068",
+    "EV069"
+  ],
+  "parsed_papers": [],
+  "claim_graph": {
+    "claims": [],
+    "links": []
+  },
+  "research_gaps": [
+    {
+      "gap_id": "G01",
+      "text": "Current NAS methods are notoriously data-hungry, requiring large datasets like ImageNet to find effective architectures. This limits their applicability in domains with limited data, such as medical imaging or rare event detection.",
+      "keywords": [],
+      "evidence_ids": [
+        "EV001",
+        "EV003"
+      ],
+      "testable": true,
+      "difficulty": "medium",
+      "source": "llm"
+    },
+    {
+      "gap_id": "G02",
+      "text": "NAS often produces complex, non-intuitive architectures that are difficult for humans to analyze and understand. The lack of interpretability makes it hard to trust these models and to transfer knowledge from one search to another.",
+      "keywords": [],
+      "evidence_ids": [
+        "EV002"
+      ],
+      "testable": true,
+      "difficulty": "hard",
+      "source": "llm"
+    },
+    {
+      "gap_id": "G03",
+      "text": "Most NAS research is siloed within a single task, such as image classification. It remains unclear whether the search strategies and learned priors from one task can be effectively transferred to a different task like object detection or semantic segmentation.",
+      "keywords": [],
+      "evidence_ids": [
+        "EV001",
+        "EV005"
+      ],
+      "testable": true,
+      "difficulty": "medium",
+      "source": "llm"
+    },
+    {
+      "gap_id": "G04",
+      "text": "Standard NAS optimizes for clean-data accuracy, often ignoring model robustness to adversarial attacks or distribution shifts. This can lead to models that are brittle in real-world deployment where data is noisy or intentionally manipulated.",
+      "keywords": [],
+      "evidence_ids": [
+        "EV004"
+      ],
+      "testable": true,
+      "difficulty": "medium",
+      "source": "llm"
+    },
+    {
+      "gap_id": "G05",
+      "text": "The design of NAS search spaces is largely heuristic, lacking a formal theoretical framework to predict which spaces will lead to better or more generalizable models. This results in a trial-and-error approach to defining the search problem itself.",
+      "keywords": [],
+      "evidence_ids": [
+        "EV002",
+        "EV006"
+      ],
+      "testable": true,
+      "difficulty": "hard",
+      "source": "llm"
+    },
+    {
+      "gap_id": "G06",
+      "text": "While hardware-aware NAS exists, it often focuses on a single hardware metric like latency. Real-world deployment requires balancing multiple objectives including accuracy, latency, energy consumption, and memory footprint, which current methods do not optimally handle.",
+      "keywords": [],
+      "evidence_ids": [
+        "EV003",
+        "EV005"
+      ],
+      "testable": true,
+      "difficulty": "medium",
+      "source": "llm"
+    }
+  ],
+  "idea_tree": [],
+  "reviewer_scores": [],
+  "experiment_candidates": [],
+  "approval_status": {},
+  "micro_probe_results": [],
+  "probe_results": [],
+  "ablation_results": [],
+  "mvp_results": [],
+  "failed_ideas": [],
+  "validation_results": [],
+  "paper_readiness_level": "RRL-0",
+  "final_output_path": "/Users/mohanganesh/OpenClaw-Lab/openresearchos/runs/run_20260602160018_neural-architecture-search-automat_c9bdb2/research_failure_report.md",
+  "history": [
+    {
+      "at": "2026-06-02T16:00:49.844Z",
+      "state": "TOPIC_SCOPED",
+      "detail": "The topic can be explored with small simulations, synthetic data, or lightweight local experiments on the Mac."
+    },
+    {
+      "at": "2026-06-02T16:00:49.844Z",
+      "state": "SEARCH_PLAN_CREATED",
+      "detail": "15 queries created (LLM-generated)."
+    },
+    {
+      "at": "2026-06-02T16:00:55.516Z",
+      "state": "LITERATURE_DISCOVERY_RUNNING",
+      "detail": "Starting structured literature discovery."
+    },
+    {
+      "at": "2026-06-02T16:01:08.051Z",
+      "state": "EVIDENCE_LOCKED",
+      "detail": "69 papers found (target was 50+)."
+    },
+    {
+      "at": "2026-06-02T16:16:58.729Z",
+      "state": "RESEARCH_MAP_READY",
+      "detail": "Research map generated."
+    },
+    {
+      "at": "2026-06-02T16:16:58.739Z",
+      "state": "GAPS_IDENTIFIED",
+      "detail": "6 gaps identified."
+    },
+    {
+      "at": "2026-06-02T16:37:20.822Z",
+      "state": "PAPER_READINESS_REVIEW",
+      "detail": "research_failure_report_required"
+    },
+    {
+      "at": "2026-06-02T16:37:20.826Z",
+      "state": "PAPER_DRAFTED_OR_STOPPED",
+      "detail": "Failure report produced."
+    },
+    {
+      "at": "2026-06-02T16:37:20.826Z",
+      "state": "VENUE_FIT_DONE",
+      "detail": "Venue fit written."
+    },
+    {
+      "at": "2026-06-02T16:37:20.826Z",
+      "state": "TRACE_EXPORTED",
+      "detail": "Trace export command written."
+    }
+  ],
+  "discovery_errors": [],
+  "method_matrix": []
+}

@@ -1,0 +1,6 @@
+{
+  "introduction": "[2405.17956] Hybrid Preference Optimization: Augmenting Direct Preference Optimization with Auxiliary Objectives\n\nHybrid Preference Optimization: Augmenting Direct Preference Optimization with Auxilia",
+  "method": "e.g., producing intelligent responses to questions or high-quality code. In order to further refine the LM’s capabilities to tailor responses to human preferences, we leverage human-labeled preference",
+  "results": "as the Kahneman-Tversky Prospect Theory  (Kahneman and Tversky,,  1979 ; Ethayarajh et al.,,  2024 ) , or generalizations to arbitrary\n\nΨ\n\nΨ\n\n\\Psi\n\n-preference optimization objectives  (Azar et al.,, ",
+  "conclusion": "al.,,  2021 ; Rame et al.,,  2024 ) . RLHF is often performed with on-policy methods such as Proximal Policy Optimization (PPO)  (Schulman et al.,,  2017 ) , but these have been shown to be computatio"
+}

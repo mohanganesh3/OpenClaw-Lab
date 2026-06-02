@@ -1,0 +1,26 @@
+{
+  "method_summary": "A three-tier architecture using complex wave patterns with amplitude-phase structure, featuring a Morphological Mapper that transforms inputs into semantic waveforms, a Field Memory Layer that stores knowledge as distributed holographic traces and retrieves via phase interference, and a Non-Contextual Generator that produces output guided by resonance rather than fixed context.",
+  "key_innovation": "Eliminating sequential token dependence by encoding meaning as complex wave patterns with amplitude-phase structure and retrieving knowledge via phase interference in a holographic memory system.",
+  "datasets_used": [],
+  "baselines_compared": [],
+  "key_results": {},
+  "best_result": "",
+  "limitations_stated": [],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "low",
+  "compute_required": "not specified",
+  "can_run_on_macbook": false,
+  "evidence_id": "EV007",
+  "title": "Phase-Coded Memory and Morphological Resonance: A Next-Generation Retrieval-Augmented Generator Architecture",
+  "year": 2025,
+  "arxiv_id": "2511.11848",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 5322,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

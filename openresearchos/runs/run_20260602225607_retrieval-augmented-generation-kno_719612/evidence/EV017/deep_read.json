@@ -1,0 +1,80 @@
+{
+  "paper_title": "Comprehensive and Practical Evaluation of Retrieval-Augmented Generation Systems for Medical Question Answering",
+  "methodology": {
+    "approach": "Retrieval-Augmented Generation (RAG) for medical question answering",
+    "challenges": "Healthcare applications require careful evaluation of RAG systems due to potential for factual errors in retrieved documents",
+    "previous_benchmarks": [
+      {
+        "name": "MedEval",
+        "authors": "He et al. 2023",
+        "description": "Large-scale, expert-annotated benchmark covering various medical tasks and domains"
+      },
+      {
+        "name": "MIRAGE",
+        "authors": "Xiong et al. 2024",
+        "description": "Benchmark covering 5 medical QA datasets"
+      },
+      {
+        "name": "RAGAS",
+        "authors": "Es et al. 2023",
+        "qualities": [
+          "Faithfulness",
+          "Answer Relevance",
+          "Context Precision-Recall"
+        ]
+      },
+      {
+        "name": "RGB",
+        "authors": "Chen et al. 2024b",
+        "abilities": [
+          "noise robustness",
+          "negative rejection",
+          "information integration",
+          "counterfactual robustness"
+        ]
+      }
+    ]
+  },
+  "results": {
+    "benchmark": {
+      "name": "Medical Retrieval-Augmented Generation Benchmark (MedRGB)",
+      "basis": "Questions from 4 medical QA datasets from MIRAGE",
+      "test_scenarios": [
+        {
+          "name": "Standard-RAG",
+          "description": "Evaluates LLM performance with multiple retrieved signal documents"
+        },
+        {
+          "name": "Sufficiency",
+          "description": "Evaluates LLM reliability with noise documents, includes 'Insufficient Information' option"
+        },
+        {
+          "name": "Integration",
+          "description": "Evaluates LLM ability to answer multiple supporting questions and integrate information"
+        },
+        {
+          "name": "Robustness",
+          "description": "Evaluates LLM resiliency to factual errors in retrieved context"
+        }
+      ],
+      "size": "3480 instances for 4 test scenarios",
+      "evaluation": "7 LLMs (both commercial and open-source)"
+    }
+  },
+  "contributions": [
+    "Established MedRGB with four test scenarios for evaluating LLMs for medical QA tasks in RAG settings",
+    "First comprehensive benchmark for this purpose"
+  ],
+  "evidence_id": "EV017",
+  "title": "Comprehensive and Practical Evaluation of Retrieval-Augmented Generation Systems for Medical Question Answering",
+  "year": 2024,
+  "arxiv_id": "2411.09213",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7996,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

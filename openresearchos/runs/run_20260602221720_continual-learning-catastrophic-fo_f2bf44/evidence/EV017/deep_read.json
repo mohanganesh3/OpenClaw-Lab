@@ -1,0 +1,39 @@
+{
+  "paper_title": "Continual Unsupervised Domain Adaptation for Semantic Segmentation",
+  "methodology": {
+    "problem": "Pixel-level labeling for real-world images requires high time and labor costs",
+    "existing_approach": "Unsupervised Domain Adaptation (UDA) techniques adapt networks trained on synthetic images to real images",
+    "limitation": "Most existing UDA methods focus on single-target settings, which is impractical for real-world scenarios",
+    "proposed_solution": "Continual UDA scenario where a network trained on a source domain adapts to multiple target domains presented sequentially",
+    "key_challenge": "Catastrophic forgetting when applying existing UDA methods to Continual UDA setting",
+    "framework": "Expanding Target-specific Memory (ETM) framework",
+    "components": [
+      {
+        "name": "Target-specific Memory (TM)",
+        "description": "Lightweight sub-memory for each target domain containing unique information corresponding to each domain discrepancy"
+      },
+      {
+        "name": "Double Hinge Adversarial (DHA) loss",
+        "description": "Enhances the model performance"
+      }
+    ]
+  },
+  "results": {
+    "baseline": "AdaptSegNet",
+    "finding": "Traditional UDA methods suffer from catastrophic forgetting when applied to Continual UDA tasks",
+    "improvement": "ETM framework alleviates forgetting by expanding Target-specific Memory",
+    "validation": "Qualitative results show that the framework mitigates forgetting on previously learned target domains"
+  },
+  "evidence_id": "EV017",
+  "title": "Continual Unsupervised Domain Adaptation for Semantic Segmentation",
+  "year": 2020,
+  "arxiv_id": "2010.09236",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7996,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

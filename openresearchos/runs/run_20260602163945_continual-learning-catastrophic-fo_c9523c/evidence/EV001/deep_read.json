@@ -1,0 +1,44 @@
+{
+  "title": "A Distributed Gaussian Process Model for Multi-Robot Mapping",
+  "authors": "Not specified in the provided text",
+  "abstract": "Presents DistGP, a multi-robot algorithm for fitting an arbitrary global function using only local observation and computation with peer-to-peer communication. Uses sparse GPs with inducing points that act as local summaries and enables decentralized inference with GBP.",
+  "methodology": {
+    "core_approach": "Distributed Gaussian Process (DistGP)",
+    "technique": "Sparse GPs with inducing points",
+    "inference_method": "Gaussian Belief Propagation (GBP)",
+    "baseline": "Tree-structured GPs (TSGPs)",
+    "innovation": "Loopy model that relaxes tree constraint to allow cycles",
+    "communication": "Peer-to-peer with asynchronous message passing"
+  },
+  "applications": [
+    "Agriculture",
+    "Space exploration",
+    "Environmental monitoring",
+    "Occupancy mapping"
+  ],
+  "key_contributions": [
+    "A new distributed GP model trainable with GBP that outperforms TSGPs",
+    "Empirical analysis showing the model can be built on-the-fly with distributed, asynchronous inference",
+    "Experimental evaluation showing superior performance to DiNNO"
+  ],
+  "related_work": [
+    "DiNNO (Distributed NN optimiser) by Yu et al.",
+    "Other distributed neural maps using CADMM or direct regularization"
+  ],
+  "technical_details": {
+    "inducing_points": "Gaussian distributed, act as local summaries",
+    "consistency_constraints": "Local rather than global weight-space constraints",
+    "scalability": "Each robot stores only a local map estimate"
+  },
+  "evidence_id": "EV001",
+  "year": 2026,
+  "arxiv_id": "2603.07351",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

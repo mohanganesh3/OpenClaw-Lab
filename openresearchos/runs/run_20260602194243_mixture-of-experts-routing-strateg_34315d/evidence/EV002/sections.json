@@ -1,0 +1,6 @@
+{
+  "introduction": "[2406.19598] Mixture of In-Context Experts Enhance LLMs’ Long Context Awareness\n\nMixture of In-Context Experts\n\nEnhance LLMs’ Long Context Awareness\n\nHongzhan Lin  1\n\nAng Lv  1\n\n1\n\n1  footnotemark:\n\n1",
+  "method": "ng strategy entails freezing LLM parameters and exclusively updating routers for only a few steps.\nWhen applied to open-source LLMs including Llama and Mistral, MoICE surpasses prior methods across mu",
+  "results": "ference algorithm named  Ms-PoE .\nMs-PoE enhances the utility of position-aware heads by re-scaling the positional embedding indices, equivalent to assigning each head a unique RoPE angle. Figure\n\n1\n\n",
+  "conclusion": "router within each attention head, which discerns the potentially important tokens for the head and dynamically selects\n\nK\n\n𝐾\n\nK\n\nRoPE angles that provide comprehensive awareness of these tokens for "
+}

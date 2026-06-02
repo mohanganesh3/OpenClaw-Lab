@@ -1,0 +1,67 @@
+{
+  "title": "Iterative Network Pruning with Uncertainty Regularization for Lifelong Sentiment Classification",
+  "authors": [
+    {
+      "name": "Binzong Geng",
+      "affiliation": "SIAT, Chinese Academy of Sciences (intern)",
+      "note": "This work was done when Binzong Geng interned at SIAT, Chinese Academy of Sciences."
+    },
+    {
+      "name": "Fajie Yuan",
+      "affiliation": "Tencent (past), Westlake University (current)",
+      "note": "This work was done when Fajie Yuan worked at Tencent (past affiliation) and Westlake University (current affiliation)."
+    },
+    {
+      "name": "Min Yang",
+      "role": "corresponding author"
+    }
+  ],
+  "publication": {
+    "conference": "44th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR '21)",
+    "date": "July 11-15, 2021",
+    "location": "Virtual Event, Canada",
+    "price": "$15.00",
+    "doi": "10.1145/3404835.3462902",
+    "isbn": "978-1-4503-8037-9/21/07",
+    "year": 2021,
+    "copyright": "acmcopyright"
+  },
+  "keywords": [
+    "Lifelong learning",
+    "sentiment classification",
+    "network pruning",
+    "uncertainty regularization"
+  ],
+  "method": {
+    "name": "IPRLS (Iterative Pruning with Residual Learning System)",
+    "base_network": "BERT",
+    "key_features": [
+      "Task-specific low-dimensional residual function in parallel to each layer of BERT",
+      "Enables positive backward transfer (learning new tasks improves performance on past tasks)",
+      "Protects old knowledge from being lost when learning new tasks"
+    ]
+  },
+  "experiments": {
+    "datasets": "16 popular review corpora",
+    "results": "IPRLS significantly outperforms strong baselines for lifelong sentiment classification"
+  },
+  "availability": {
+    "code": "https://github.com/siat-nlp/IPRLS",
+    "data": "https://github.com/siat-nlp/IPRLS"
+  },
+  "ccs_classifications": [
+    "Computing Methodologies: Lifelong Learning",
+    "Applied Computing: Document Management and Text Processing"
+  ],
+  "evidence_id": "EV034",
+  "year": 2021,
+  "arxiv_id": "2106.11197",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "title": "More Than Routing: Joint GPS and Route Modeling for Refine Trajectory Representation Learning",
+  "method": {
+    "name": "JGRM (Joint GPS and Route Modeling)",
+    "type": "Self-supervised representation learning framework",
+    "components": [
+      "Two encoders (route and GPS trajectory encoders)",
+      "Shared transformer for inter-modal information interaction",
+      "Three self-supervised tasks for training"
+    ],
+    "approach": "Fuses GPS trajectory and route information through inter-modal information interaction"
+  },
+  "validation": {
+    "datasets": "Two real datasets",
+    "performance": "Outperforms existing methods in both road segment representation and trajectory representation tasks",
+    "source_code": "https://anonymous.4open.science/r/JGRM-DAD6/"
+  },
+  "keywords": [
+    "Trajectory representation learning",
+    "Spatio-temporal data mining",
+    "Self-supervised learning"
+  ],
+  "conference": {
+    "location": "Singapore",
+    "date": "MAY 13–17, 2024"
+  },
+  "research_focus": {
+    "main_topic": "Trajectory representation learning",
+    "applications": [
+      "Travel time estimation",
+      "Trajectory classification",
+      "Top-k similar trajectory query"
+    ]
+  },
+  "methodology_evolution": [
+    "Sequential models for specific downstream tasks",
+    "Seq2seq-based methods with reconstructive loss",
+    "Route trajectory-based methods with NLP techniques (Word2Vec, BERT)",
+    "Graph neural networks for spatial relationships",
+    "Two-step methods combining spatial and temporal modeling",
+    "Self-supervised training methods"
+  ],
+  "evidence_id": "EV035",
+  "year": 2024,
+  "arxiv_id": "2402.16915",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

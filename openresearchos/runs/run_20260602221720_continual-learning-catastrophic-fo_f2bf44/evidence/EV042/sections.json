@@ -1,0 +1,6 @@
+{
+  "introduction": "[2510.01519] Online Hierarchical Policy Learning using Physics Priors for Robot Navigation in Unknown Environments\n\nOnline Hierarchical Policy Learning using Physics Priors for Robot Navigation in Unk",
+  "method": "large, unknown environments presents significant challenges in robotics, where both mapping and planning are crucial yet difficult tasks. Traditional mapping approaches often generate occupancy or sig",
+  "results": "capturing the connectivity between different subparts of a large environment. This high-level strategy is informed by our low-level method and yields a compact and efficient representation, allowing f",
+  "conclusion": "rast, our hierarchical representation enables efficient pathfinding for arbitrary start-goal pairs without requiring exhaustive search over large maps.\n\nRecent data-driven approaches such as reinforce"
+}

@@ -1,0 +1,6 @@
+{
+  "introduction": "[2512.05546] Conscious Gaze: Adaptive Attention Mechanisms for Hallucination Mitigation in Vision-Language Models\n\nConscious Gaze: Adaptive Attention Mechanisms for Hallucination Mitigation in Vision-",
+  "method": "itive Demand Sensor to detect this drift and triggers intervention, successfully restoring visual focus (blue line).\n\nVision-Language Models (VLMs) already power multimedia retrieval, creative assista",
+  "results": "tigating ,  huang2024opera ] . Similarly, naive attention amplification (e.g., PAINT) boosts all visual slots indiscriminately, lacking precision  [ arif2025paint ] . Even interaction-guided methods l",
+  "conclusion": "e maintaining robust performance on general multimodal tasks.\n\nII\n\nRelated Work\n\nHallucination in VLMs primarily stems from text inertia, attention sinks in decoder layers  [ xiao2024streamingllm ] , "
+}

@@ -1,0 +1,41 @@
+{
+  "title": "Explaining Online Reinforcement Learning Decisions of Self-Adaptive Systems",
+  "authors": [],
+  "abstract": "Not explicitly provided in the text.",
+  "keywords": [
+    "Self-adaptive system",
+    "Online reinforcement learning",
+    "Deep reinforcement learning",
+    "XRL-DINE",
+    "Design time uncertainty"
+  ],
+  "methodology": {
+    "technique": "XRL-DINE",
+    "description": "A combined technique that overcomes the respective limitations of the individual techniques.",
+    "implementation": "Proof-of-concept implementation",
+    "evaluation": "Qualitative and quantitative results of applying XRL-DINE to a self-adaptive system exemplar"
+  },
+  "results": [
+    "Online RL means that reinforcement learning is employed at runtime",
+    "The self-adaptive system can learn from actual operational data and leverage information only available at runtime",
+    "Initially, research on self-adaptive systems leveraged RL algorithms that represent learned knowledge as a value function",
+    "Tabular approaches for value functions exhibit key limitations",
+    "Deep RL addresses disadvantages by representing learned knowledge as a neural network"
+  ],
+  "publication_details": {
+    "journal": "Not provided",
+    "conference": "Not provided",
+    "year": "Not provided"
+  },
+  "evidence_id": "EV032",
+  "year": 2022,
+  "arxiv_id": "2210.05931",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7997,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "introduction": "[2606.02552] Modeling Depth Ambiguity: A Mixture-Density Representation for Flying-Point-Free Depth Estimation\n\nSkip to main content\n\nLearn about arXiv becoming an independent nonprofit.\n\nWe gratefull",
+  "method": "ingle depth hypothesis. At boundaries, a pixel can straddle a foreground and a background surface, so its true depth is ambiguous between the two. A model that predicts a single depth cannot keep both",
+  "results": "oi.org/10.48550/arXiv.2606.02552\n\nFocus to learn more\n\narXiv-issued DOI via DataCite (pending registration)\n\nSubmission history  From: Siyuan Bian [ view email ]\n\n[v1]\n\nMon, 1 Jun 2026 17:50:28 UTC (3",
+  "conclusion": "Gotit.pub\n\n( What is GotitPub? )\n\nHuggingface Toggle\n\nHugging Face\n\n( What is Huggingface? )\n\nScienceCast Toggle\n\nScienceCast\n\n( What is ScienceCast? )\n\nDemos\n\nDemos\n\nReplicate Toggle\n\nReplicate\n\n( Wh"
+}

@@ -1,0 +1,6 @@
+{
+  "introduction": "GRIP: In-Parameter Graph Reasoning through Fine-Tuning Large Language Models\n\n1  Introduction\n\n2  Related Works\n\n3  The limitation of graph-to-sequence based inference\n\n4  Methods\n\n4.1  Preliminaries\n",
+  "method": "res, yet often yield sub-optimal results due to poor modality alignment. Inspired by in-parameter knowledge injection for test-time adaptation of LLMs, we propose GRIP, a novel framework that equips L",
+  "results": "ssive token overhead or degraded inference performance\n\n( instructGLM ) , making this approach impractical for large graphs. In particular, for scenarios requiring  reasoning over the same graph with ",
+  "conclusion": "raph, we design context memorization and summarization tasks to inject graph knowledge into the LoRA parameters. We then construct various QA tasks on the graph to enable the LLM to effectively retrie"
+}

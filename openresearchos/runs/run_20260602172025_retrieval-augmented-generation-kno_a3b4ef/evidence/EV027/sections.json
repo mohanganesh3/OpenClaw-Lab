@@ -1,0 +1,6 @@
+{
+  "introduction": "[2604.06710] ATANT: An Evaluation Framework for AI Continuity\n\nATANT: An Evaluation Framework for AI Continuity\n\nSamuel Sameer Tanguturi\n\nAffiliation:  Kenotic Labs\n\nAffiliation:\n\nsam@kenoticlabs.com\n",
+  "method": "input, the system responds, and the moment ends. Whatever persists is typically prompt context, conversation history, or retrieved notes. This is adequate for single-turn tasks but insufficient for an",
+  "results": "Scale) that provide a sequenced roadmap for building and validating continuity systems.\n\n•\n\nReference implementation results  across 5 test suite iterations, including honest reporting of failures, li",
+  "conclusion": "isolation. ATANT differs in three ways: (1) it tests the full write-path-to-read-path pipeline, not retrieval alone; (2) it uses naturalistic multi-turn narratives, not synthetic fact pairs; (3) its c"
+}

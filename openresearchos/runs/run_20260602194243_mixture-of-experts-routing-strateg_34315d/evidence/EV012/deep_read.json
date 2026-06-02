@@ -1,0 +1,56 @@
+{
+  "title": "MoGERNN: An Inductive Traffic Predictor for Unobserved Locations in Dynamic Sensing Networks",
+  "keywords": [
+    "spatio-temporal extrapolation",
+    "traffic state estimation",
+    "traffic prediction",
+    "kriging",
+    "inductive graph representation learning",
+    "mixture of experts"
+  ],
+  "highlights": [
+    "A novel inductive spatio-temporal graph representation model (MoGERNN) is proposed, providing accurate speed predictions at both unobserved and observed locations.",
+    "The proposed MoGERNN works well under dynamically changed sensor network without the need for retraining, enhancing the robustness and reducing the training cost.",
+    "Experiments demonstrate MoGERNN outperforms four baseline methods in terms of prediction performance and adaptability of the dynamic sensing network on two real-world datasets.",
+    "MoGERNN is able to accurately predict congestion evolution, even at locations where no sensors are installed.",
+    "Tests performed with different numbers of available sensors, demonstrating the consistent superiority of MoGERNN."
+  ],
+  "affiliations": [
+    {
+      "id": "a",
+      "organization": "Institute of Intelligent Transportation Systems, College of Civil Engineering and Architecture, Zhejiang University",
+      "city": "Hangzhou",
+      "country": "China"
+    },
+    {
+      "id": "b",
+      "organization": "Traffic Engineering group, Institute for Transport Planning and Systems, ETH Zurich",
+      "city": "Zurich",
+      "country": "Switzerland"
+    },
+    {
+      "id": "c",
+      "organization": "ZJU-UIUC Institute, Zhejiang University",
+      "city": "Haining",
+      "country": "China"
+    }
+  ],
+  "problem": {
+    "name": "Forecasting Unobserved Nodes Under a Dynamic Sensing network (FUNDS)",
+    "issues": [
+      "Prediction of the state for unobserved locations",
+      "Dynamically changing sensor networks"
+    ]
+  },
+  "evidence_id": "EV012",
+  "year": 2025,
+  "arxiv_id": "2501.12281",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

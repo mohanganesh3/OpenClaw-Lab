@@ -1,0 +1,26 @@
+{
+  "method_summary": "The study employs a granular decomposition of NIST CSF 2.0 functions into specific tasks, linking essential AI agent properties (autonomy, adaptive learning, real-time responsiveness) to subcategory security requirements, and outlines graduated levels of autonomy (assisted, augmented, fully autonomous).",
+  "key_innovation": "A unified cybersecurity AI agent selection and decision support framework that links AI agent properties to NIST CSF 2.0 subcategories and provides graduated autonomy levels for different organizational maturity stages.",
+  "datasets_used": [],
+  "baselines_compared": [],
+  "key_results": {},
+  "best_result": "",
+  "limitations_stated": [],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "low",
+  "compute_required": "not specified",
+  "can_run_on_macbook": false,
+  "evidence_id": "EV023",
+  "title": "A cybersecurity AI agent selection and decision support framework",
+  "year": 2025,
+  "arxiv_id": "2510.01751",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 5363,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

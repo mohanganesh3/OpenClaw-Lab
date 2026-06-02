@@ -1,0 +1,38 @@
+{
+  "paper_title": "Elastic Weight Consolidation Improves the Robustness of Self-Supervised Learning Methods under Transfer",
+  "methodology": {
+    "main_approach": "Elastic Weight Consolidation (EWC) for improving robustness of Self-Supervised Learning (SSL) methods under transfer",
+    "theoretical_framework": "Bayesian continual learning",
+    "key_technique": "Regularization using Fisher Information Matrix (FIM)",
+    "models_used": [
+      "DINO models pre-trained with ViT-B/16 architecture",
+      "DINO models pre-trained with ResNet50 architecture"
+    ],
+    "datasets": [
+      "ImageNet1k (subset)",
+      "CIFAR10",
+      "Waterbirds",
+      "Celeb-A"
+    ],
+    "validation_method": "Analyzing reverse transfer performance from CIFAR10 fine-tuning",
+    "problem_addressed": "Catastrophic forgetting during fine-tuning of SSL models"
+  },
+  "results": {
+    "improvement_waterbirds": "5% improvement in worst group accuracy",
+    "improvement_celeba": "2% improvement in worst group accuracy",
+    "fim_issue": "FIM for ViT-B/16 is poorly conditioned, making it impossible to fully recover SSL performance on ImageNet1k",
+    "solution_proposed": "Method to alleviate poor conditioning of FIM for ViT-B/16"
+  },
+  "evidence_id": "EV015",
+  "title": "Elastic Weight Consolidation Improves the Robustness of Self-Supervised Learning Methods under Transfer",
+  "year": 2022,
+  "arxiv_id": "2210.16365",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "title": "Application of Attention Mechanism with Bidirectional Long Short-Term Memory (BiLSTM) and CNN for Human Conflict Detection using Computer Vision",
+  "authors": "Not specified in the provided text",
+  "publication_venue": "Not specified in the provided text",
+  "year": 2025,
+  "abstract": "This paper explores the application of attention mechanisms combined with BiLSTM and CNN for human conflict detection using computer vision. It addresses the limitations of conventional surveillance monitoring systems and proposes a deep learning approach for automated incident detection in surveillance videos.",
+  "methodology": {
+    "techniques": [
+      "Bidirectional Long Short-Term Memory (BiLSTM)",
+      "Convolutional Neural Network (CNN)",
+      "Attention Mechanism"
+    ],
+    "application": "Human conflict detection in surveillance videos using computer vision"
+  },
+  "data": {
+    "requirements": [
+      "Large volume of data",
+      "Variance in class data",
+      "Good resolution"
+    ],
+    "challenges": [
+      "Limited publicly available datasets",
+      "Low quality of video frames in public datasets",
+      "Variations in video resolution, frame frequency, lighting conditions, and camera angles"
+    ]
+  },
+  "key_findings": [
+    "Increasing dataset size from 500 to 1,600 videos improves model accuracy by 6%",
+    "Large datasets and transfer learning are important for effective surveillance systems"
+  ],
+  "references": [
+    {
+      "authors": "Dashdamirov",
+      "year": 2024,
+      "contribution": "Evaluated deep learning techniques for violence detection in videos"
+    },
+    {
+      "authors": "Datta et al.",
+      "year": 2002,
+      "contribution": "Analyzed trajectory of movements and orientation of body limbs to detect violent behavior"
+    },
+    {
+      "authors": "Nguyen et al.",
+      "year": 2005,
+      "contribution": "Introduced hierarchical hidden Markov model (HHMM) for recognizing aggressive attitudes"
+    },
+    {
+      "authors": "Kim and Grauman",
+      "year": 2009,
+      "contribution": "Combined probabilistic PCA with Markov Random Fields for violence detection"
+    },
+    {
+      "authors": "Mahadevan et al.",
+      "year": 2010,
+      "contribution": "Proposed technique evaluating elements like blood, flames, movement intensity, and sound volume"
+    }
+  ],
+  "evidence_id": "EV021",
+  "arxiv_id": "2502.18555",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

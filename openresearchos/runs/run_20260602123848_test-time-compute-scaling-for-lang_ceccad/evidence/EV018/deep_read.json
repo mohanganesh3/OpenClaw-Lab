@@ -1,0 +1,68 @@
+{
+  "title": "MindWatcher: Toward Smarter Multimodal Tool-Integrated Reasoning",
+  "authors": {
+    "correspondence": "chenwei10@lixiang.com"
+  },
+  "resources": {
+    "code": "https://github.com/TIMMY-CHAN/MindWatcher",
+    "huggingface": "https://huggingface.co/datasets/Lost-Cloud/MWE-Bench"
+  },
+  "last_updated": "December 29, 2025",
+  "key_components": {
+    "models": [
+      {
+        "name": "MindWatcher",
+        "parameters": 32,
+        "type": "Large Language Model"
+      },
+      {
+        "name": "Distilled Model 1",
+        "parameters": 2,
+        "type": "Agent Model"
+      },
+      {
+        "name": "Distilled Model 2",
+        "parameters": 3,
+        "type": "Agent Model"
+      },
+      {
+        "name": "Distilled Model 3",
+        "parameters": 4,
+        "type": "Agent Model"
+      }
+    ],
+    "frameworks": [
+      {
+        "name": "MWE-Bench",
+        "type": "Agent Reasoning Framework"
+      }
+    ]
+  },
+  "research_focus": [
+    "Tool-Integrated Reasoning (TIR)",
+    "Multimodal reasoning",
+    "Large Language Models (LLMs)",
+    "Agent systems"
+  ],
+  "key_contributions": [
+    "Development of MindWatcher for multimodal tool-integrated reasoning",
+    "Creation of MWE-Bench as an evaluation framework",
+    "Distillation of smaller models from the 32B MindWatcher model"
+  ],
+  "related_work": [
+    "Gemini 2.5 Pro",
+    "ReAct paradigm",
+    "Multi-agent systems"
+  ],
+  "evidence_id": "EV018",
+  "year": 2025,
+  "arxiv_id": "2512.23412",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

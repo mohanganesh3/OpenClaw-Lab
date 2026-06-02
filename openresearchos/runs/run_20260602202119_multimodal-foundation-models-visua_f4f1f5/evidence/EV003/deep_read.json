@@ -1,0 +1,32 @@
+{
+  "method_summary": "Procedurally generates tasks by overlaying geometric primitives on images to provide dense supervision for visual grounding in MLLMs",
+  "key_innovation": "The use of procedurally generated geometric primitives to provide dense supervision that disentangles visual grounding from semantic priors",
+  "datasets_used": [
+    "What'sUp benchmark",
+    "CV-Bench-2D"
+  ],
+  "baselines_compared": [],
+  "key_results": {
+    "What'sUp": "+20% (instruction tuning) / +5.5% (finetuning)",
+    "CV-Bench-2D": "+13.3% (instruction tuning) / +8.3% (finetuning)"
+  },
+  "best_result": "20% improvement on What'sUp benchmark",
+  "limitations_stated": [],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "not mentioned",
+  "compute_required": "not mentioned",
+  "can_run_on_macbook": false,
+  "evidence_id": "EV003",
+  "title": "PGT: Procedurally Generated Tasks for improving visual grounding in MLLMs",
+  "year": 2026,
+  "arxiv_id": "2605.23883",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 5313,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

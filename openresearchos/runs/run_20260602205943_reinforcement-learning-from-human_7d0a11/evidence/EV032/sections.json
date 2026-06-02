@@ -1,0 +1,6 @@
+{
+  "introduction": "[2210.05931] Explaining Online Reinforcement Learning Decisions of Self-Adaptive Systems\n\nExplaining Online Reinforcement Learning Decisions of Self-Adaptive Systems\n\nFelix Feit, Andreas Metzger, Klau",
+  "method": "hine learning literature.\nThe combined technique, XRL-DINE, overcomes the respective limitations of the individual techniques.\nWe present a proof-of-concept implementation of XRL-DINE, as well as qual",
+  "results": "actual operational data and thus leverages information only available at runtime.\nA recent survey indicates that since 2019 the use of learning dominates over the use of predetermined and static polic",
+  "conclusion": "le to relate this parametrization to concrete RL decisions.\nDeep RL thus essentially appears as a black box  [ 10 ] .\nYet, understanding the decisions made by Deep RL systems is key to (1) increase tr"
+}

@@ -1,0 +1,1251 @@
+{
+  "run_id": "run_20260602095710_agentic-ai-research-automation-fro_9cb13d",
+  "topic": "Agentic AI Research Automation: from paper reading to experiment execution",
+  "generated_at": "2026-06-02T10:56:30.483Z",
+  "papers_with_deep_read": 69,
+  "macbook_friendly": 46,
+  "with_code": 9,
+  "method_matrix": [
+    {
+      "evidence_id": "EV001",
+      "title": "POLARIS: Typed Planning and Governed Execution for Agentic AI in Back-Office Automation",
+      "year": 2026,
+      "method": "POLARIS is a modular orchestration framework for back-office automation that treats the process as planning over typed agents, using a Chain-of-Action planner for type-checked DAGs, a rubric-based selector for policy-aware selection, and guarded execution with validators and compiled policy checks.",
+      "datasets_used": [
+        "synthetic invoice suites",
+        "SROIE benchmark"
+      ],
+      "baselines_compared": [
+        "prior multi-agent DAG systems",
+        "common stacks with untyped I/O",
+        "best-of-N prompting systems",
+        "systems lacking compiled policy checks"
+      ],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": false,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV002",
+      "title": "Towards trustworthy agentic AI: a comprehensive survey of safety, robustness, privacy, and system security",
+      "year": 2026,
+      "method": "The paper presents a comprehensive survey methodology that systematically examines trustworthy agentic AI through two core dimensions (Safety and Robustness, Privacy and System Security), identifying risks across agent workflows, and consolidating evaluation into a unified metrics-and-benchmarks framework.",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [
+        "self-evolving agents",
+        "runtime monitoring and verification",
+        "privacy-preserving personalization",
+        "trust-utility trade-off"
+      ],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": false,
+      "compute_required": "N/A"
+    },
+    {
+      "evidence_id": "EV003",
+      "title": "Security, privacy, and agentic AI in a regulatory view: From definitions and distinctions to provisions and reflections",
+      "year": 2026,
+      "method": "The paper is a literature review and conceptual analysis, not a technical study with a specific method.",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [
+        "The paper acknowledges conceptual ambiguity around key regulatory terms."
+      ],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": false,
+      "compute_required": "N/A"
+    },
+    {
+      "evidence_id": "EV004",
+      "title": "Securing the Agent: Vendor-Neutral, Multitenant Enterprise Retrieval and Tool Use",
+      "year": 2026,
+      "method": "Research paper: Securing the Agent: Vendor-Neutral, Multitenant Enterprise Retrieval and Tool Use",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV005",
+      "title": "Trustworthy AI in the Agentic Lakehouse: from Concurrency to Governance",
+      "year": 2025,
+      "method": "Proposes using MVCC principles to manage concurrency in lakehouses for AI agents, with data and compute isolation through a unified API to simplify governance challenges.",
+      "datasets_used": [],
+      "baselines_compared": [
+        "traditional OLAP systems",
+        "monolithic SQL-only transactional databases like Postgres"
+      ],
+      "best_result": "Not applicable - this is a position paper without empirical results",
+      "key_results": {},
+      "limitations": [
+        "A direct mapping of existing techniques from traditional databases will not work in a distributed, heterogeneous system such as a lakehouse"
+      ],
+      "code_available": true,
+      "code_url": null,
+      "can_run_on_macbook": false,
+      "compute_required": "Not specified"
+    },
+    {
+      "evidence_id": "EV006",
+      "title": "Socio-technical aspects of Agentic AI",
+      "year": 2025,
+      "method": "The paper presents a socio-technical analysis of agentic AI using the MAD-BAD-SAD construct as an analytical lens, examining how architectural choices in perception, cognition, planning, execution, and memory introduce dependencies related to data governance, accountability, transparency, safety, and sustainability.",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": "Not applicable",
+      "key_results": {},
+      "limitations": [
+        "Societal, ethical, economic, environmental, and governance implications of agentic AI remain weakly integrated into technical treatments"
+      ],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": false,
+      "compute_required": "Not applicable"
+    },
+    {
+      "evidence_id": "EV007",
+      "title": "Caging the Agents: A Zero Trust Security Architecture for Autonomous AI in Healthcare",
+      "year": 2026,
+      "method": "Research paper: Caging the Agents: A Zero Trust Security Architecture for Autonomous AI in Healthcare",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV008",
+      "title": "PaperOrchestra: A Multi-Agent Framework for Automated AI Research Paper Writing",
+      "year": 2026,
+      "method": "Research paper: PaperOrchestra: A Multi-Agent Framework for Automated AI Research Paper Writing",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV009",
+      "title": "Real-World Gaps in AI Governance Research",
+      "year": 2025,
+      "method": "Analyzed 1,178 safety and reliability papers from 9,439 generative AI papers written by 5 AI companies and 6 universities using OpenAI's o3-mini for classification and regex keyword searches for high-risk domains",
+      "datasets_used": [
+        "Anthropic and OpenAI websites",
+        "OpenAlex database"
+      ],
+      "baselines_compared": [
+        "Corporate AI vs Academic AI research impact"
+      ],
+      "best_result": "AI governance research is highly concentrated within a handful of uniquely resourced and integrated AI tech companies",
+      "key_results": {
+        "citation_concentration": "Google DeepMind has more citations than top 4 academic institutions combined"
+      },
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": false,
+      "compute_required": "not specified"
+    },
+    {
+      "evidence_id": "EV010",
+      "title": "Foundations of GenIR",
+      "year": 2025,
+      "method": "The paper describes a conceptual framework for integrating generative AI into information access systems, focusing on two paradigms: direct information generation and information synthesis.",
+      "datasets_used": [],
+      "baselines_compared": [
+        "Traditional information retrieval systems such as search engines and recommendation platforms"
+      ],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [
+        "Traditional systems fall short for less common (long-tail) information needs and creative creation scenarios."
+      ],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": false,
+      "compute_required": "Not specified"
+    },
+    {
+      "evidence_id": "EV011",
+      "title": "Claw AI Lab: An Autonomous Multi-Agent Research Team",
+      "year": 2026,
+      "method": "Research paper: Claw AI Lab: An Autonomous Multi-Agent Research Team",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV012",
+      "title": "Exploring utilization of generative AI for research and education in data-driven materials science",
+      "year": 2025,
+      "method": "The authors organized a hackathon to explore the use of generative AI for research and education in materials science, focusing on participants' ability to critically evaluate and use AI-generated content for software trials and development.",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": false,
+      "compute_required": "Not specified"
+    },
+    {
+      "evidence_id": "EV013",
+      "title": "Looking Forward: Challenges and Opportunities in Agentic AI Reliability",
+      "year": 2025,
+      "method": "This paper is a chapter discussing research challenges and opportunities in agentic AI reliability, focusing on topics like cascading failures, dynamic environments, and testing methodologies.",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [
+        "The paper acknowledges that reliability mechanisms can be resource-intensive."
+      ],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV014",
+      "title": "Paper2Agent: Reimagining Research Papers As Interactive and Reliable AI Agents",
+      "year": 2025,
+      "method": "Paper2Agent transforms static research papers into interactive AI agents by extracting the associated codebase, setting up a reproducible environment, wrapping core analytical features as MCP (Model Context Protocol) tools, and deploying a remote server that an AI agent can connect to for natural language interaction with the paper's methods.",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": false,
+      "compute_required": "not specified"
+    },
+    {
+      "evidence_id": "EV015",
+      "title": "Right-to-Act: A Pre-Execution Non-Compensatory Decision Protocol for AI Systems",
+      "year": 2026,
+      "method": "Research paper: Right-to-Act: A Pre-Execution Non-Compensatory Decision Protocol for AI Systems",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV016",
+      "title": "Sola-Visibility-ISPM: Benchmarking Agentic AI for Identity Security Posture Management Visibility",
+      "year": 2026,
+      "method": "The paper introduces a benchmark called Sola-Visibility-ISPM to evaluate agentic AI systems on Identity Security Posture Management tasks, defining nine operational dimensions for assessment.",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": false,
+      "compute_required": "not specified"
+    },
+    {
+      "evidence_id": "EV017",
+      "title": "Beyond principlism: Practical strategies for ethical AI use in research practices",
+      "year": 2024,
+      "method": "Research paper: Beyond principlism: Practical strategies for ethical AI use in research practices",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV018",
+      "title": "SBOMs into Agentic AIBOMs: Schema Extensions, Agentic Orchestration, and Reproducibility Evaluation",
+      "year": 2026,
+      "method": "Research paper: SBOMs into Agentic AIBOMs: Schema Extensions, Agentic Orchestration, and Reproducibility Evaluation",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV019",
+      "title": "Persistent AI Agents in Academic Research: A Single-Investigator Implementation Case Study",
+      "year": 2026,
+      "method": "Research paper: Persistent AI Agents in Academic Research: A Single-Investigator Implementation Case Study",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV020",
+      "title": "Safe, Untrusted, \"Proof-Carrying\" AI Agents: toward the agentic lakehouse",
+      "year": 2025,
+      "method": "The paper introduces programmable lakehouse abstractions for modeling the data lifecycle, operationalizes a prototype for pipeline repair using a ReAct loop, and addresses safety objections for high-stakes automation.",
+      "datasets_used": [
+        "NYC taxi dataset"
+      ],
+      "baselines_compared": [],
+      "best_result": "No specific headline result provided",
+      "key_results": {},
+      "limitations": [
+        "The prototype is presented as a feasibility demonstration rather than a full-fledged experimental benchmark"
+      ],
+      "code_available": true,
+      "code_url": "https://github.com/BauplanLabs/the-agentic-lakehouse",
+      "can_run_on_macbook": false,
+      "compute_required": "Not specified"
+    },
+    {
+      "evidence_id": "EV021",
+      "title": "Architectures for Building Agentic AI",
+      "year": 2025,
+      "method": "Proposes agentic architectures that reconcile traditional autonomous agent concepts with modern generative models, focusing on reliability through componentisation, interfaces, and supervision.",
+      "datasets_used": [],
+      "baselines_compared": [
+        "Traditional autonomous agents (reactive, deliberative, BDI architectures)"
+      ],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": false,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV022",
+      "title": "AEMA: Verifiable Evaluation Framework for Trustworthy and Controlled Agentic LLM Systems",
+      "year": 2026,
+      "method": "Research paper: AEMA: Verifiable Evaluation Framework for Trustworthy and Controlled Agentic LLM Systems",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV023",
+      "title": "A cybersecurity AI agent selection and decision support framework",
+      "year": 2025,
+      "method": "The study employs a granular decomposition of NIST CSF 2.0 functions into specific tasks, linking essential AI agent properties (autonomy, adaptive learning, real-time responsiveness) to subcategory security requirements, and outlines graduated levels of autonomy (assisted, augmented, fully autonomous).",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": false,
+      "compute_required": "not specified"
+    },
+    {
+      "evidence_id": "EV024",
+      "title": "First head-to-head comparison of agentic AI applied to the analysis of simulated data of the Einstein Telescope",
+      "year": 2026,
+      "method": "A head-to-head comparison of two agentic AI systems (Claude Code and Codex) in performing a complete scientific analysis pipeline on simulated gravitational wave data, from signal recovery to manuscript generation.",
+      "datasets_used": [
+        "Simulated binary black hole signal injections for the Einstein Telescope"
+      ],
+      "baselines_compared": [
+        "Claude Code",
+        "Codex"
+      ],
+      "best_result": "Claude Code completed the pipeline significantly faster (~3.4 min vs ~16 min) while achieving scientific convergence with Codex.",
+      "key_results": {
+        "computational_time_claudecode": "3.4 minutes",
+        "computational_time_codex": "16 minutes",
+        "scientific_convergence": "Both runs converged on the same scientific results"
+      },
+      "limitations": [
+        "Agents exhibited substantially different behaviors and computational costs",
+        "Claude Code made silent deviations from the specification",
+        "Codex required explicit self-correcting restarts",
+        "A subtle difference in SNR interpretation led to genuine scientific divergence in one run"
+      ],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "Identical compute resources (not specified)"
+    },
+    {
+      "evidence_id": "EV025",
+      "title": "AI for Auto-Research: Roadmap &amp; User Guide",
+      "year": 2026,
+      "method": "End-to-end analysis of AI across the complete research lifecycle, organized into four epistemological phases: Creation, Writing, Validation, and Dissemination, studying developments through April 2026.",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [
+        "AI systems still fabricate results under scientific pressure",
+        "AI systems miss hidden errors",
+        "AI systems fail to judge novelty reliably",
+        "Generated ideas often degrade after implementation",
+        "Research code lags behind pattern-matching benchmarks",
+        "End-to-end autonomous systems haven't consistently reached major-venue acceptance standards",
+        "Greater automation can obscure rather than eliminate failure modes"
+      ],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": false,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV026",
+      "title": "Towards Execution-Grounded Automated AI Research",
+      "year": 2026,
+      "method": "The authors built a high-throughput automated executor to implement and evaluate LLM-generated research ideas in parallel, using the execution results as feedback to guide an evolutionary search and reinforcement learning process for the ideator model.",
+      "datasets_used": [],
+      "baselines_compared": [
+        "GRPO",
+        "nanoGPT",
+        "best-of-N"
+      ],
+      "best_result": "Execution-guided evolutionary search found a post-training recipe outperforming the GRPO baseline by 21.4 percentage points on math reasoning.",
+      "key_results": {
+        "post_training_recipe_performance": "69.4% vs 48.0% (GRPO baseline)",
+        "pre_training_wallclock_time": "19.7 minutes vs 35.9 minutes (nanoGPT baseline)",
+        "execution_rate": "over 90%"
+      },
+      "limitations": [
+        "RL causes the ideator model to converge on a few easy-to-implement ideas, resulting in a collapse in thinking length and idea diversity.",
+        "Only Claude-4.5-Opus shows a clear scaling curve, while both Claude-4.5-Sonnet and GPT-5 tend to saturate early."
+      ],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": false,
+      "compute_required": "GPU-intensive (implied by LLM pre-training and post-training on 1.5B models)"
+    },
+    {
+      "evidence_id": "EV027",
+      "title": "The Denario project: Deep knowledge AI agents for scientific discovery",
+      "year": 2025,
+      "method": "The paper applies methods from quantum physics and machine learning to astrophysical data.",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [
+        "The provided text does not contain a limitations section.",
+        "The provided text does not contain a results section."
+      ],
+      "code_available": true,
+      "code_url": "this URL",
+      "can_run_on_macbook": false,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV028",
+      "title": "AutoResearch AI: Towards AI-Powered Research Automation for Scientific Discovery",
+      "year": 2026,
+      "method": "This paper presents a survey and framework for AutoResearch, analyzing the spectrum of AI-powered scientific workflow automation from human-steered 'Vibe Research' to fully autonomous AI-led systems.",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [
+        "AutoResearch autonomy is domain-conditioned, being more credible in structured, executable, and rapidly verifiable settings but limited in embodied, delayed, heterogeneous, ethical, or institutionally accountable contexts."
+      ],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": false,
+      "compute_required": "N/A"
+    },
+    {
+      "evidence_id": "EV029",
+      "title": "AI-Researcher: Autonomous Scientific Innovation",
+      "year": 2025,
+      "method": "Research paper: AI-Researcher: Autonomous Scientific Innovation",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": true,
+      "code_url": "https://github.com/HKUDS/AI-Researcher",
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV030",
+      "title": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery",
+      "year": 2024,
+      "method": "Research paper: The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV031",
+      "title": "Robin: A multi-agent system for automating scientific discovery",
+      "year": 2025,
+      "method": "Research paper: Robin: A multi-agent system for automating scientific discovery",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV032",
+      "title": "The Future of Scientific Publishing: Automated Article Generation",
+      "year": 2024,
+      "method": "The paper describes a software tool that generates academic articles by analyzing Python code and datasets, without using advanced language models.",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [
+        "The paper does not explicitly state any limitations."
+      ],
+      "code_available": true,
+      "code_url": "Not specified in the provided text",
+      "can_run_on_macbook": false,
+      "compute_required": "Not specified in the provided text"
+    },
+    {
+      "evidence_id": "EV033",
+      "title": "Experiment-as-Code Labs: A Declarative Stack for AI-Driven Scientific Discovery",
+      "year": 2026,
+      "method": "A declarative stack that encodes experiments as configurations, which are compiled to device-level APIs for AI-driven scientific discovery.",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [
+        "The paper acknowledges that Eureka moments could occur at any time while operating lab instruments, which may not be fully captured by the proposed automated system."
+      ],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": false,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV034",
+      "title": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
+      "year": 2025,
+      "method": "The AI Scientist-v2 uses a progressive agentic tree-search methodology managed by an experiment manager agent, eliminates human-authored code templates, and integrates a Vision-Language Model feedback loop for figure refinement.",
+      "datasets_used": [],
+      "baselines_compared": [
+        "The AI Scientist-v1 (Lu et al., 2024 arXiv:2408.06292)"
+      ],
+      "best_result": "One manuscript exceeded the average human acceptance threshold at ICLR workshop peer review",
+      "key_results": {
+        "ICLR workshop acceptance": "Exceeded average human acceptance threshold"
+      },
+      "limitations": [],
+      "code_available": true,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "not specified"
+    },
+    {
+      "evidence_id": "EV035",
+      "title": "Honest Lying: Understanding Memory Confabulation in Reflexive Agents",
+      "year": 2026,
+      "method": "Research paper: Honest Lying: Understanding Memory Confabulation in Reflexive Agents",
+      "datasets_used": [
+        "HumanEval"
+      ],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV036",
+      "title": "Explainable AI for Blind and Low-Vision Users: Navigating Trust, Modality, and Interpretability in the Agentic Era",
+      "year": 2026,
+      "method": "Conceptual analysis of XAI challenges for BLV users, identifying the modality gap and proposing accessible XAI approaches",
+      "datasets_used": [],
+      "baselines_compared": [
+        "SHAP",
+        "GradCAM"
+      ],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV037",
+      "title": "Mitigating Perceptual Judgment Bias in Multimodal LLM-as-a-Judge via Perceptual Perturbation and Reward Modeling",
+      "year": 2026,
+      "method": "Research paper: Mitigating Perceptual Judgment Bias in Multimodal LLM-as-a-Judge via Perceptual Perturbation and Rew",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV038",
+      "title": "ProtoAda: Prototype-Guided Adaptive Adapter Expansion and Geometric Consolidation for Multimodal Continual Instruction Tuning",
+      "year": 2026,
+      "method": "Research paper: ProtoAda: Prototype-Guided Adaptive Adapter Expansion and Geometric Consolidation for Multimodal Con",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV039",
+      "title": "AdaCodec: A Predictive Visual Code for Video MLLMs",
+      "year": 2026,
+      "method": "Research paper: AdaCodec: A Predictive Visual Code for Video MLLMs",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV040",
+      "title": "ClinEnv: An Interactive Multi-Stage Long Horizon EHR Environment for Agents",
+      "year": 2026,
+      "method": "ClinEnv is an interactive benchmark that evaluates LLMs as attending physicians through Longitudinal Inpatient Simulation, where models must query four specialized agents at each decision stage before committing to medications, procedures, and diagnoses.",
+      "datasets_used": [
+        "real inpatient admissions"
+      ],
+      "baselines_compared": [
+        "seven models"
+      ],
+      "best_result": "0.31 decision F1 for the strongest model",
+      "key_results": {
+        "decision_F1": 0.31,
+        "diagnosis_F1": 0.51,
+        "management_F1": 0.17
+      },
+      "limitations": [
+        "Models struggle with management decisions",
+        "Models continue to issue redundant queries as cases progress",
+        "Information-acquisition gap is invisible to outcome-only evaluation"
+      ],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV041",
+      "title": "IntraShuffler: A Privacy Preserving Framework for Heterogeneous DP Federated Learning",
+      "year": 2026,
+      "method": "Research paper: IntraShuffler: A Privacy Preserving Framework for Heterogeneous DP Federated Learning",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV042",
+      "title": "Permissive Safety Through Trusted Inference: Verifiable Belief-Space Neural Safety Filters for Assured Interactive Robotics",
+      "year": 2026,
+      "method": "Research paper: Permissive Safety Through Trusted Inference: Verifiable Belief-Space Neural Safety Filters for Assur",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV043",
+      "title": "From Layers to Submodules: Rethinking Granularity in Replacement-Based LLM Compression",
+      "year": 2026,
+      "method": "Research paper: From Layers to Submodules: Rethinking Granularity in Replacement-Based LLM Compression",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV044",
+      "title": "Modeling Depth Ambiguity: A Mixture-Density Representation for Flying-Point-Free Depth Estimation",
+      "year": 2026,
+      "method": "MDA (Mixture-Density Representation) predicts multiple depth hypotheses and their probabilities per pixel to address depth ambiguity at boundaries, extending naturally to transparent objects and sky regions.",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV045",
+      "title": "SimSD: Simple Speculative Decoding in Diffusion Language Models",
+      "year": 2026,
+      "method": "Research paper: SimSD: Simple Speculative Decoding in Diffusion Language Models",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV046",
+      "title": "Tracking the Behavioral Trajectories of Adapting Agents",
+      "year": 2026,
+      "method": "They define traits as directions in text embedding space, train a linear model on labeled skill diffs, and score skill edits by projecting embedding diffs onto trait vectors.",
+      "datasets_used": [
+        "68 labeled skill diff pairs for the trait of propensity to seek sensitive data"
+      ],
+      "baselines_compared": [],
+      "best_result": "91.2% sign classification accuracy on 68 labeled skill diff pairs",
+      "key_results": {
+        "sign classification accuracy": "91.2%",
+        "Spearman rank correlation": "0.82"
+      },
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV047",
+      "title": "SafeSteer: Localized On-Policy Distillation for Efficient Safety Alignment",
+      "year": 2026,
+      "method": "Research paper: SafeSteer: Localized On-Policy Distillation for Efficient Safety Alignment",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV048",
+      "title": "Auditing Asset-Specific Preferences in Financial Large Language Models: Evidence from Bitcoin Representations and Portfolio Allocation",
+      "year": 2026,
+      "method": "Research paper: Auditing Asset-Specific Preferences in Financial Large Language Models: Evidence from Bitcoin Repres",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV049",
+      "title": "Why Not Hyperparameter-Friendly Optimisation? A Monotonic Adaptive Norm Rescaling Approach For Long-Tailed Recognition",
+      "year": 2026,
+      "method": "Research paper: Why Not Hyperparameter-Friendly Optimisation? A Monotonic Adaptive Norm Rescaling Approach For Long-",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV050",
+      "title": "Moment-Video: Diagnosing Temporal Fidelity of Video MLLMs on Momentary Visual Events",
+      "year": 2026,
+      "method": "Introduces Moment-Video, a benchmark with 1,000 human-verified video-QA pairs across 7 domains and 25 subcategories, covering four task types: Temporal Occurrence, Temporal Counting, Action Description, and Temporal Reasoning.",
+      "datasets_used": [
+        "Moment-Video"
+      ],
+      "baselines_compared": [
+        "33 proprietary and open-source MLLMs"
+      ],
+      "best_result": "Seed-2.0-Pro achieves 39.6% overall accuracy",
+      "key_results": {
+        "overall_accuracy": 39.6
+      },
+      "limitations": [
+        "Denser frame sampling improves some models but does not eliminate the bottleneck",
+        "Longer videos introduce stronger temporal-localization challenges",
+        "Current video MLLMs lack temporally faithful representations for capturing, preserving, and using brief but decisive visual evidence"
+      ],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": false,
+      "compute_required": "unspecified"
+    },
+    {
+      "evidence_id": "EV051",
+      "title": "Drifting Preference Optimization for One-Step Generative Models",
+      "year": 2026,
+      "method": "DrPO samples candidates from the current generator, ranks them with a target reward, and uses high- and low-scoring samples to synthesize a feature-space update direction consisting of a non-parametric dipole preference field plus reference drift.",
+      "datasets_used": [
+        "HPSv3",
+        "GenEval"
+      ],
+      "baselines_compared": [
+        "reward-gradient-free one-step preference baselines"
+      ],
+      "best_result": "Reduces HPSv3 training computation by 3.51× under matched effective-batch setting",
+      "key_results": {
+        "HPSv3_computation_reduction": "3.51×"
+      },
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV052",
+      "title": "A Biconvex Formulation for Stable Transport of Mixture Models with a Unique Solution",
+      "year": 2026,
+      "method": "Optimal Mixture Transport (OMT) reformulates the transport problem as a strictly biconvex optimization over mixture models, decoupling computational complexity from sample size.",
+      "datasets_used": [
+        "synthetic benchmarks",
+        "real-world datasets",
+        "image data",
+        "large-scale single-cell RNA sequencing measurements"
+      ],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": false,
+      "compute_required": "not specified"
+    },
+    {
+      "evidence_id": "EV053",
+      "title": "Towards Automated Discovery: A Review of Generative Models, Multimodal Learning and Closed-Loop Workflows in Inverse Materials Design",
+      "year": 2026,
+      "method": "Survey and comparative analysis of generative models for inverse materials design, examining variational autoencoders, normalizing flows, autoregressive formulations, and diffusion models with multimodal learning approaches.",
+      "datasets_used": [
+        "large databases of chemical-structural data"
+      ],
+      "baselines_compared": [
+        "variational autoencoders",
+        "normalizing flows",
+        "autoregressive formulations",
+        "diffusion models"
+      ],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [
+        "surrogate exploitation",
+        "diversity collapse",
+        "distribution shift",
+        "stability-synthesizability gap"
+      ],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": false,
+      "compute_required": "not specified"
+    },
+    {
+      "evidence_id": "EV054",
+      "title": "Bridging the Last Mile of Time Series Forecasting with LLM Agents",
+      "year": 2026,
+      "method": "Research paper: Bridging the Last Mile of Time Series Forecasting with LLM Agents",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV055",
+      "title": "Monitoring Agentic Systems Before They're Reliable",
+      "year": 2026,
+      "method": "Three-tiered monitoring approach (within-run, cross-run, structural) using variance-based characterization with FMEA-inspired severity classification to prioritize findings",
+      "datasets_used": [
+        "synthetic testbed with 220 runs across 120 document bundles"
+      ],
+      "baselines_compared": [
+        "clean baselines"
+      ],
+      "best_result": "Structural monitor identifies integration gap with perfect consistency (CV = 0.00)",
+      "key_results": {
+        "within_run_cv": 0.02,
+        "cross_run_cv": 1.25,
+        "cross_run_l2_error": 24,
+        "structural_cv": 0,
+        "automated_tracking_rate": 97
+      },
+      "limitations": [
+        "specific calibrations are domain-specific"
+      ],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "not specified"
+    },
+    {
+      "evidence_id": "EV056",
+      "title": "Expressivity of congruence-based architectures for DNNs on positive-definite matrices",
+      "year": 2026,
+      "method": "Research paper: Expressivity of congruence-based architectures for DNNs on positive-definite matrices",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV057",
+      "title": "RASER: Recoverability-Aware Selective Escalation Router for Multi-Hop Question Answering",
+      "year": 2026,
+      "method": "Research paper: RASER: Recoverability-Aware Selective Escalation Router for Multi-Hop Question Answering",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV058",
+      "title": "Iteris: Agentic Research Loops for Computational Mathematics",
+      "year": 2026,
+      "method": "Research paper: Iteris: Agentic Research Loops for Computational Mathematics",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV059",
+      "title": "Ghost Tool Calls: Issue-Time Privacy for Speculative Agent Tools",
+      "year": 2026,
+      "method": "Implementation of Speculative Tool Privacy Contracts as a runtime abstraction to handle observation before commitment as a first-class effect, distinct from state mutation.",
+      "datasets_used": [],
+      "baselines_compared": [
+        "post-hoc filters",
+        "read-only restrictions",
+        "access-control allow-lists"
+      ],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [
+        "no commit-time cleanup",
+        "read-only restriction",
+        "access-control allow-list unsends what an observer already holds"
+      ],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV060",
+      "title": "Physics-Informed Residuals for Adaptive Mesh Refinement in Finite-Difference PDE Solvers",
+      "year": 2026,
+      "method": "Uses Physics-Informed Neural Network residuals as cellwise indicators for adaptive mesh refinement in finite-difference PDE solvers",
+      "datasets_used": [
+        "One-dimensional viscous Burgers equation",
+        "2D nonlinear Schrödinger equation",
+        "3D incompressible Navier-Stokes system"
+      ],
+      "baselines_compared": [
+        "Uniform refinement",
+        "PINN-threshold refinement",
+        "PINN-Dörfler refinement",
+        "Gradient indicator",
+        "Random refinement"
+      ],
+      "best_result": "PINN-threshold refinement achieves relative L² error 0.021067 with 60 degrees of freedom, compared to 0.022617 for uniform refinement with 192 degrees of freedom",
+      "key_results": {
+        "relative_L2_error_PINN_threshold": 0.021067,
+        "degrees_of_freedom_PINN_threshold": 60,
+        "relative_L2_error_uniform": 0.022617,
+        "degrees_of_freedom_uniform": 192,
+        "error_reduction_percentage": 67.5,
+        "relative_L2_error_PINN_Dörfler": 0.021264,
+        "degrees_of_freedom_PINN_Dörfler": 58
+      },
+      "limitations": [
+        "Gradient indicator remains slightly more accurate",
+        "PINN residuals don't consistently outperform gradient or uniform baselines in 2D/3D tests"
+      ],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": false,
+      "compute_required": "Not specified"
+    },
+    {
+      "evidence_id": "EV061",
+      "title": "MCP-Persona: Benchmarking LLM Agents on Real-World Personal Applications via Environment Simulation",
+      "year": 2026,
+      "method": "Research paper: MCP-Persona: Benchmarking LLM Agents on Real-World Personal Applications via Environment Simulation",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV062",
+      "title": "Agent Laboratory: Using LLM Agents as Research Assistants",
+      "year": 2025,
+      "method": "Agent Laboratory is a framework that uses LLM agents to automate the research process in three stages: literature review, experimentation, and report writing, based on a human-provided research idea.",
+      "datasets_used": [],
+      "baselines_compared": [
+        "previous autonomous research methods"
+      ],
+      "best_result": "Agent Laboratory driven by o1-preview generates the best research outcomes and achieves state-of-the-art performance in machine learning code.",
+      "key_results": {
+        "research_expense_reduction": "84% decrease compared to previous autonomous research methods"
+      },
+      "limitations": [
+        "Human involvement, providing feedback at each stage, significantly improves the overall quality of research."
+      ],
+      "code_available": true,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV063",
+      "title": "MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering",
+      "year": 2024,
+      "method": "Research paper: MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV064",
+      "title": "AIBuildAI-2: Scalable Agentic AI Research and Engineering",
+      "year": 2026,
+      "method": "Research paper: AIBuildAI-2: Scalable Agentic AI Research and Engineering",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV065",
+      "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+      "year": 2023,
+      "method": "Research paper: Reflexion: Language Agents with Verbal Reinforcement Learning",
+      "datasets_used": [
+        "HumanEval"
+      ],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": true,
+      "code_url": "https://github.com/noahshinn024/reflexion",
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV066",
+      "title": "Self-Refine: Iterative Refinement with Self-Feedback",
+      "year": 2023,
+      "method": "Research paper: Self-Refine: Iterative Refinement with Self-Feedback",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV067",
+      "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+      "year": 2023,
+      "method": "Research paper: Voyager: An Open-Ended Embodied Agent with Large Language Models",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV068",
+      "title": "AgentBench: Evaluating LLMs as Agents",
+      "year": 2023,
+      "method": "AgentBench is a multi-dimensional benchmark designed to evaluate LLM-as-Agent across a spectrum of different environments, encompassing eight distinct environments categorized into three types of groundings: Code, Game, and Web.",
+      "datasets_used": [
+        "Operating System",
+        "Database",
+        "Knowledge Graph",
+        "Digital Card Game",
+        "Lateral Thinking Puzzles",
+        "House-Holding",
+        "Web Shopping",
+        "Web Browsing"
+      ],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [
+        "Lack of a systematic and standard benchmark to evaluate LLM-as-Agent",
+        "Previous text-based game environments suffer from closed, discrete action spaces",
+        "Previous embodied agent simulators don't accurately reflect practical use cases of LLMs",
+        "Most benchmarks focus on single environments and fail to provide comprehensive overview"
+      ],
+      "code_available": true,
+      "code_url": "https://github.com/THUDM/AgentBench",
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV069",
+      "title": "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
+      "year": 2024,
+      "method": "Research paper: SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "introduction": "[2507.21072] Snap, Segment, Deploy: A Visual Data and Detection Pipeline for Wearable Industrial Assistants\n\nSnap, Segment, Deploy: A Visual Data and Detection Pipeline for Wearable Industrial Assista",
+  "method": "r framework offers a deployable solution for real-time, privacy-preserving smart assistance in industrial environments. We will release the Gear8 dataset and source code upon acceptance.\n\nI\n\nINTRODUCT",
+  "results": "age Models (LLMs) to deliver real-time, context-aware guidance during assembly tasks. The system comprises a lightweight object detection module for part identification, a speech-to-text interface for",
+  "conclusion": "uipment.\n\n•\n\nWe introduce a two-stage training strategy, Background-Agnostic Refinement (BAR), which improves detection robustness under domain shift without modifying model architecture.\n\nII\n\nRelated"
+}

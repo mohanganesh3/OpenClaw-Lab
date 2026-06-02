@@ -1,0 +1,87 @@
+{
+  "title": "Stable Reasoning, Unstable Responses: Mitigating LLM Deception via Stability Asymmetry",
+  "authors": [
+    {
+      "name": "Guoxi Zhang",
+      "affiliations": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "Jiawei Chen",
+      "affiliations": [
+        1
+      ]
+    },
+    {
+      "name": "Tianzhuo Yang",
+      "affiliations": [
+        1
+      ]
+    },
+    {
+      "name": "Lang Qin",
+      "affiliations": [
+        3
+      ]
+    },
+    {
+      "name": "Juntao Dai",
+      "affiliations": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "Yaodong Yang",
+      "affiliations": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "Jingwei Yi",
+      "affiliations": [
+        2
+      ]
+    }
+  ],
+  "affiliations": [
+    "Institute for Artificial Intelligence, Peking University",
+    "Beijing Academy of Artificial Intelligence",
+    "School of Chinese as a Second Language, Peking University"
+  ],
+  "corresponding_emails": [
+    "jwyi1029@gmail.com",
+    "yaodong.yang@pku.edu.cn"
+  ],
+  "keywords": [
+    "LLM deception",
+    "intrinsic deception",
+    "stability asymmetry",
+    "Stability Asymmetry Regularization",
+    "perturbation-based metrics"
+  ],
+  "methodology": {
+    "core_concept": "Stability Asymmetry Regularization (SAR)",
+    "approach": "Penalizes high internal stability co-occurring with low external stability during optimization",
+    "metrics": "Perturbation-based stability metrics applied independently to Chain of Thought (CoT) and final response"
+  },
+  "key_findings": [
+    "Intrinsic deception exhibits high internal stability with low external stability",
+    "This signature cleanly separates deception from truthfulness and hallucination",
+    "Deceptive models maintain stable internal reasoning while providing unstable external responses"
+  ],
+  "evidence_id": "EV008",
+  "year": 2026,
+  "arxiv_id": "2603.26846",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

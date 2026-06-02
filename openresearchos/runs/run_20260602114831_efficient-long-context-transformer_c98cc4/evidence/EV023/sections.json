@@ -1,0 +1,6 @@
+{
+  "introduction": "[2508.03555] PyLate: Flexible Training and Retrieval for Late Interaction Models\n\nPyLate: Flexible Training and Retrieval for Late Interaction Models\n\nAntoine Chaffin\n\nantoine.chaffin@lighton.ai\n\n0000",
+  "method": "ng GTE-ModernColBERT and Reason-ModernColBERT, demonstrating its practical utility for both research and production environments.\n\n†\n\n†  copyright:  none\n\n†\n\n†  conference:  Make sure to enter the cor",
+  "results": "is getting bigger, and thus dense models struggle at handling long context  (Zhu et al.,  2024 ; Ognawala and Cureton-Griffiths,  2025 ) . This is particularly damaging considering modern pipelines ar",
+  "conclusion": "els, many of which are developed and released using the Sentence Transformers library, are publicly available on platforms like Hugging Face at the time of writing ( huggingface.co/models?library=sent"
+}

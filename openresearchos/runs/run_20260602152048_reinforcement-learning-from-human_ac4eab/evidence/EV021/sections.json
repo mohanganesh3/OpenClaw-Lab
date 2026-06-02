@@ -1,0 +1,6 @@
+{
+  "introduction": "[2510.01555] Rethinking KL Regularization in RLHF: From Value Estimation to Gradient Optimization\n\nRethinking KL Regularization in RLHF: From Value Estimation to Gradient Optimization\n\nKezhao Liu\n\nliu",
+  "method": "n}}\n\nas loss ’ methods are biased due to neglected importance sampling, and we propose a principled correction. Our findings provide a comprehensive, gradient-based rationale for choosing and correctl",
+  "results": "al for designing robust and effective RLHF algorithms.\n\nWe perform a systematic, gradient-based analysis of the KL loss to address these issues. We first establish a unified framework that connects tw",
+  "conclusion": "cal Correction.  We analyze popular alternative approaches, showing that ‘\n\n𝒌  𝟑\n\n\\bm{k_{3}}\n\nas loss ’ (used in GRPO) is a biased first-order approximation of the principled gradient, leading to we"
+}

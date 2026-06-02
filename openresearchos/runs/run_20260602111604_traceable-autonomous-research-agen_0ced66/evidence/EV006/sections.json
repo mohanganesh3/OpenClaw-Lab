@@ -1,0 +1,6 @@
+{
+  "introduction": "[2303.11366] Reflexion: Language Agents with Verbal Reinforcement Learning\n\nReflexion: Language Agents with\n\nVerbal Reinforcement Learning\n\nNoah Shinn\n\nNortheastern University\n\nnoahshinn024@gmail.com\n",
+  "method": "Recent works such as ReAct  [ 30 ] , SayCan  [ 1 ] ,\nToolformer  [ 22 ] , HuggingGPT  [ 23 ] ,\ngenerative agents  [ 19 ] , and WebGPT  [ 17 ] \nhave demonstrated the feasibility of\nautonomous decision-",
+  "results": "uristics for common failure\ncases, and self-evaluation such as binary classification using LLMs (decision-making) or\nself-written unit tests (programming). In all implementations, the evaluation signa",
+  "conclusion": "ired with a choice of LLM parameters.\n\n•\n\nWe explore this emergent property of  self-reflection  in LLMs and empirically\nshow that self-reflection is extremely useful to learn complex tasks over a han"
+}

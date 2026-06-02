@@ -1,0 +1,6 @@
+{
+  "introduction": "[2509.16127] BaseReward: A Strong Baseline for Multimodal Reward Model\n\nBaseReward: A Strong Baseline for Multimodal Reward Model\n\nYi-Fan Zhang  ∗,2  , Haihua Yang  ♠,∗,1  , Huanyu Zhang  2  , Yang Sh",
+  "method": "nchmarks, we integrate BaseReward into a real-world reinforcement learning pipeline, successfully enhancing an MLLM’s performance across various perception, reasoning, and conversational tasks. This w",
+  "results": "; Zhang et al.,  2025a ) , effectively steering the models toward safer, more reliable, and user-aligned behaviors.\n\nWhile the concept of reward modeling is well-established for text-only Large Langua",
+  "conclusion": "m detailed ablations on the reward head’s structure, including the number of layers and the choice of activation functions.\n\n•\n\nTraining Strategies:  We analyze the impact of common regularization tec"
+}

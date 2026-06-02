@@ -1,0 +1,6 @@
+{
+  "introduction": "[2604.06840] MirageBackdoor: A Stealthy Attack that Induces Think-Well-Answer-Wrong Reasoning\n\nMirageBackdoor: A Stealthy Attack that Induces Think-Well-Answer-Wrong Reasoning\n\nEqual contribution.\n\n† ",
+  "method": "longside a tailored training procedure, MirageBD enables the triggered model to preserve clean CoTs while selectively steering the final answer toward a specific target, significantly enhancing the st",
+  "results": "e wrong answers by explicitly corrupting the reasoning process when triggered. However, such conspicuous reasoning errors are readily detected by prevailing process-monitoring defenses  ( korbak2025ch",
+  "conclusion": "lly shifts the poisoning paradigm by appending an auxiliary attacker-controlled segment after the standard user-visible output. This post-output continuation serves as a dedicated channel for training"
+}

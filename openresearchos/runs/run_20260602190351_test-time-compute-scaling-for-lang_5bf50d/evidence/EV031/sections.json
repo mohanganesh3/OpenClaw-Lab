@@ -1,0 +1,6 @@
+{
+  "introduction": "[2311.17007] Computational Hypergraph Discovery, a Gaussian Process framework for connecting the dots\n\n†\n\n†  † Department of Computing and Mathematical Sciences, California Institute of Technology, Pa",
+  "method": "paper, we introduce an interpretable GP framework for Type 3 problems, targeting the data-driven discovery and completion of computational hypergraphs.\nOur approach is based on a kernel generalization",
+  "results": "ibly the missing vertices) and then approximate its unknown functions and unobserved variables.\n\nFigure 1 .\n\nThe three levels of complexity of function approximation.\n\nThe scope of these problems is i",
+  "conclusion": "paper, we do not impose these assumptions, and thus, these particular techniques may not be applicable.\n\nFigure 2 .\n\nFormal description of Type 2 problems.\n\n1.2.  Type 2 problems: Formal description a"
+}

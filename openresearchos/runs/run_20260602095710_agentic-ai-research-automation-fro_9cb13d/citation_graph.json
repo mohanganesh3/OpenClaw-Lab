@@ -1,0 +1,350 @@
+{
+  "nodes": [
+    {
+      "id": "EV001",
+      "title": "POLARIS: Typed Planning and Governed Execution for Agentic AI in Back-Office Automation",
+      "year": 2026
+    },
+    {
+      "id": "EV002",
+      "title": "Towards trustworthy agentic AI: a comprehensive survey of safety, robustness, privacy, and system security",
+      "year": 2026
+    },
+    {
+      "id": "EV003",
+      "title": "Security, privacy, and agentic AI in a regulatory view: From definitions and distinctions to provisions and reflections",
+      "year": 2026
+    },
+    {
+      "id": "EV004",
+      "title": "Securing the Agent: Vendor-Neutral, Multitenant Enterprise Retrieval and Tool Use",
+      "year": 2026
+    },
+    {
+      "id": "EV005",
+      "title": "Trustworthy AI in the Agentic Lakehouse: from Concurrency to Governance",
+      "year": 2025
+    },
+    {
+      "id": "EV006",
+      "title": "Socio-technical aspects of Agentic AI",
+      "year": 2025
+    },
+    {
+      "id": "EV007",
+      "title": "Caging the Agents: A Zero Trust Security Architecture for Autonomous AI in Healthcare",
+      "year": 2026
+    },
+    {
+      "id": "EV008",
+      "title": "PaperOrchestra: A Multi-Agent Framework for Automated AI Research Paper Writing",
+      "year": 2026
+    },
+    {
+      "id": "EV009",
+      "title": "Real-World Gaps in AI Governance Research",
+      "year": 2025
+    },
+    {
+      "id": "EV010",
+      "title": "Foundations of GenIR",
+      "year": 2025
+    },
+    {
+      "id": "EV011",
+      "title": "Claw AI Lab: An Autonomous Multi-Agent Research Team",
+      "year": 2026
+    },
+    {
+      "id": "EV012",
+      "title": "Exploring utilization of generative AI for research and education in data-driven materials science",
+      "year": 2025
+    },
+    {
+      "id": "EV013",
+      "title": "Looking Forward: Challenges and Opportunities in Agentic AI Reliability",
+      "year": 2025
+    },
+    {
+      "id": "EV014",
+      "title": "Paper2Agent: Reimagining Research Papers As Interactive and Reliable AI Agents",
+      "year": 2025
+    },
+    {
+      "id": "EV015",
+      "title": "Right-to-Act: A Pre-Execution Non-Compensatory Decision Protocol for AI Systems",
+      "year": 2026
+    },
+    {
+      "id": "EV016",
+      "title": "Sola-Visibility-ISPM: Benchmarking Agentic AI for Identity Security Posture Management Visibility",
+      "year": 2026
+    },
+    {
+      "id": "EV017",
+      "title": "Beyond principlism: Practical strategies for ethical AI use in research practices",
+      "year": 2024
+    },
+    {
+      "id": "EV018",
+      "title": "SBOMs into Agentic AIBOMs: Schema Extensions, Agentic Orchestration, and Reproducibility Evaluation",
+      "year": 2026
+    },
+    {
+      "id": "EV019",
+      "title": "Persistent AI Agents in Academic Research: A Single-Investigator Implementation Case Study",
+      "year": 2026
+    },
+    {
+      "id": "EV020",
+      "title": "Safe, Untrusted, \"Proof-Carrying\" AI Agents: toward the agentic lakehouse",
+      "year": 2025
+    },
+    {
+      "id": "EV021",
+      "title": "Architectures for Building Agentic AI",
+      "year": 2025
+    },
+    {
+      "id": "EV022",
+      "title": "AEMA: Verifiable Evaluation Framework for Trustworthy and Controlled Agentic LLM Systems",
+      "year": 2026
+    },
+    {
+      "id": "EV023",
+      "title": "A cybersecurity AI agent selection and decision support framework",
+      "year": 2025
+    },
+    {
+      "id": "EV024",
+      "title": "First head-to-head comparison of agentic AI applied to the analysis of simulated data of the Einstein Telescope",
+      "year": 2026
+    },
+    {
+      "id": "EV025",
+      "title": "AI for Auto-Research: Roadmap &amp; User Guide",
+      "year": 2026
+    },
+    {
+      "id": "EV026",
+      "title": "Towards Execution-Grounded Automated AI Research",
+      "year": 2026
+    },
+    {
+      "id": "EV027",
+      "title": "The Denario project: Deep knowledge AI agents for scientific discovery",
+      "year": 2025
+    },
+    {
+      "id": "EV028",
+      "title": "AutoResearch AI: Towards AI-Powered Research Automation for Scientific Discovery",
+      "year": 2026
+    },
+    {
+      "id": "EV029",
+      "title": "AI-Researcher: Autonomous Scientific Innovation",
+      "year": 2025
+    },
+    {
+      "id": "EV030",
+      "title": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery",
+      "year": 2024
+    },
+    {
+      "id": "EV031",
+      "title": "Robin: A multi-agent system for automating scientific discovery",
+      "year": 2025
+    },
+    {
+      "id": "EV032",
+      "title": "The Future of Scientific Publishing: Automated Article Generation",
+      "year": 2024
+    },
+    {
+      "id": "EV033",
+      "title": "Experiment-as-Code Labs: A Declarative Stack for AI-Driven Scientific Discovery",
+      "year": 2026
+    },
+    {
+      "id": "EV034",
+      "title": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
+      "year": 2025
+    },
+    {
+      "id": "EV035",
+      "title": "Honest Lying: Understanding Memory Confabulation in Reflexive Agents",
+      "year": 2026
+    },
+    {
+      "id": "EV036",
+      "title": "Explainable AI for Blind and Low-Vision Users: Navigating Trust, Modality, and Interpretability in the Agentic Era",
+      "year": 2026
+    },
+    {
+      "id": "EV037",
+      "title": "Mitigating Perceptual Judgment Bias in Multimodal LLM-as-a-Judge via Perceptual Perturbation and Reward Modeling",
+      "year": 2026
+    },
+    {
+      "id": "EV038",
+      "title": "ProtoAda: Prototype-Guided Adaptive Adapter Expansion and Geometric Consolidation for Multimodal Continual Instruction Tuning",
+      "year": 2026
+    },
+    {
+      "id": "EV039",
+      "title": "AdaCodec: A Predictive Visual Code for Video MLLMs",
+      "year": 2026
+    },
+    {
+      "id": "EV040",
+      "title": "ClinEnv: An Interactive Multi-Stage Long Horizon EHR Environment for Agents",
+      "year": 2026
+    },
+    {
+      "id": "EV041",
+      "title": "IntraShuffler: A Privacy Preserving Framework for Heterogeneous DP Federated Learning",
+      "year": 2026
+    },
+    {
+      "id": "EV042",
+      "title": "Permissive Safety Through Trusted Inference: Verifiable Belief-Space Neural Safety Filters for Assured Interactive Robotics",
+      "year": 2026
+    },
+    {
+      "id": "EV043",
+      "title": "From Layers to Submodules: Rethinking Granularity in Replacement-Based LLM Compression",
+      "year": 2026
+    },
+    {
+      "id": "EV044",
+      "title": "Modeling Depth Ambiguity: A Mixture-Density Representation for Flying-Point-Free Depth Estimation",
+      "year": 2026
+    },
+    {
+      "id": "EV045",
+      "title": "SimSD: Simple Speculative Decoding in Diffusion Language Models",
+      "year": 2026
+    },
+    {
+      "id": "EV046",
+      "title": "Tracking the Behavioral Trajectories of Adapting Agents",
+      "year": 2026
+    },
+    {
+      "id": "EV047",
+      "title": "SafeSteer: Localized On-Policy Distillation for Efficient Safety Alignment",
+      "year": 2026
+    },
+    {
+      "id": "EV048",
+      "title": "Auditing Asset-Specific Preferences in Financial Large Language Models: Evidence from Bitcoin Representations and Portfolio Allocation",
+      "year": 2026
+    },
+    {
+      "id": "EV049",
+      "title": "Why Not Hyperparameter-Friendly Optimisation? A Monotonic Adaptive Norm Rescaling Approach For Long-Tailed Recognition",
+      "year": 2026
+    },
+    {
+      "id": "EV050",
+      "title": "Moment-Video: Diagnosing Temporal Fidelity of Video MLLMs on Momentary Visual Events",
+      "year": 2026
+    },
+    {
+      "id": "EV051",
+      "title": "Drifting Preference Optimization for One-Step Generative Models",
+      "year": 2026
+    },
+    {
+      "id": "EV052",
+      "title": "A Biconvex Formulation for Stable Transport of Mixture Models with a Unique Solution",
+      "year": 2026
+    },
+    {
+      "id": "EV053",
+      "title": "Towards Automated Discovery: A Review of Generative Models, Multimodal Learning and Closed-Loop Workflows in Inverse Materials Design",
+      "year": 2026
+    },
+    {
+      "id": "EV054",
+      "title": "Bridging the Last Mile of Time Series Forecasting with LLM Agents",
+      "year": 2026
+    },
+    {
+      "id": "EV055",
+      "title": "Monitoring Agentic Systems Before They're Reliable",
+      "year": 2026
+    },
+    {
+      "id": "EV056",
+      "title": "Expressivity of congruence-based architectures for DNNs on positive-definite matrices",
+      "year": 2026
+    },
+    {
+      "id": "EV057",
+      "title": "RASER: Recoverability-Aware Selective Escalation Router for Multi-Hop Question Answering",
+      "year": 2026
+    },
+    {
+      "id": "EV058",
+      "title": "Iteris: Agentic Research Loops for Computational Mathematics",
+      "year": 2026
+    },
+    {
+      "id": "EV059",
+      "title": "Ghost Tool Calls: Issue-Time Privacy for Speculative Agent Tools",
+      "year": 2026
+    },
+    {
+      "id": "EV060",
+      "title": "Physics-Informed Residuals for Adaptive Mesh Refinement in Finite-Difference PDE Solvers",
+      "year": 2026
+    },
+    {
+      "id": "EV061",
+      "title": "MCP-Persona: Benchmarking LLM Agents on Real-World Personal Applications via Environment Simulation",
+      "year": 2026
+    },
+    {
+      "id": "EV062",
+      "title": "Agent Laboratory: Using LLM Agents as Research Assistants",
+      "year": 2025
+    },
+    {
+      "id": "EV063",
+      "title": "MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering",
+      "year": 2024
+    },
+    {
+      "id": "EV064",
+      "title": "AIBuildAI-2: Scalable Agentic AI Research and Engineering",
+      "year": 2026
+    },
+    {
+      "id": "EV065",
+      "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+      "year": 2023
+    },
+    {
+      "id": "EV066",
+      "title": "Self-Refine: Iterative Refinement with Self-Feedback",
+      "year": 2023
+    },
+    {
+      "id": "EV067",
+      "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+      "year": 2023
+    },
+    {
+      "id": "EV068",
+      "title": "AgentBench: Evaluating LLMs as Agents",
+      "year": 2023
+    },
+    {
+      "id": "EV069",
+      "title": "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
+      "year": 2024
+    }
+  ],
+  "edges": []
+}

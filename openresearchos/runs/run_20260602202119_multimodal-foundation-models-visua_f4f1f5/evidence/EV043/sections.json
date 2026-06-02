@@ -1,0 +1,6 @@
+{
+  "introduction": "[2410.10491] Learning to Ground VLMs without Forgetting\n\nLearning to Ground VLMs without Forgetting\n\nAritra Bhowmik\n\nMohammad Mahdi Derakhshani  1\n\n1  footnotemark:\n\n1\n\nDennis Koelma\n\nMartin R. Oswald",
+  "method": "a )  leveraged extensive image-caption data for multimodal training, while generative models like Flamingo  (Alayrac et al.,  2022 )  and BLIP2  (Li et al.,  2023 )  generate descriptive captions for ",
+  "results": "our work.\n\nSpecifically, we introduce LynX ( Lin king e X perts for visual grounding), a novel framework that leverages a Dual Mixture of Experts (MoE) architecture. This design allows the model to sp",
+  "conclusion": "ting their open-ended generative nature.\n\nFigure 1:\n\nContributions overview.  Our contributions include  (a)  enabling a pre-trained caption-based vision-language model to learn new grounding skills b"
+}

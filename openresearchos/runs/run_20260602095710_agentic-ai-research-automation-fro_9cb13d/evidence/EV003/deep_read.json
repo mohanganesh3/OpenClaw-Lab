@@ -1,0 +1,28 @@
+{
+  "method_summary": "The paper is a literature review and conceptual analysis, not a technical study with a specific method.",
+  "key_innovation": "No technical innovation is presented; the paper's contribution is a synthesized overview of challenges and regulatory responses.",
+  "datasets_used": [],
+  "baselines_compared": [],
+  "key_results": {},
+  "best_result": "",
+  "limitations_stated": [
+    "The paper acknowledges conceptual ambiguity around key regulatory terms."
+  ],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "N/A",
+  "compute_required": "N/A",
+  "can_run_on_macbook": false,
+  "evidence_id": "EV003",
+  "title": "Security, privacy, and agentic AI in a regulatory view: From definitions and distinctions to provisions and reflections",
+  "year": 2026,
+  "arxiv_id": "2603.18914",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7997,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

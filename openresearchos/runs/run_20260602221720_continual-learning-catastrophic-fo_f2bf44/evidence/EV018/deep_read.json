@@ -1,0 +1,71 @@
+{
+  "title": "HAMMER: Hamiltonian Curiosity Augmented Large Language Model Reinforcement",
+  "sections": {
+    "method": {
+      "focus": "Reinforcement Learning with Verifiable Rewards (RLVR)",
+      "algorithms": [
+        {
+          "name": "Group Relative Policy Optimization (GRPO)",
+          "description": "Extends Proximal Policy Optimization (PPO) by sampling groups of responses to estimate group-relative advantages",
+          "variants": [
+            "Decoupled Clip",
+            "Dynamic sAmpling Policy Optimization (DAPO)"
+          ]
+        },
+        {
+          "name": "Proximal Policy Optimization (PPO)",
+          "description": "Base algorithm that GRPO extends"
+        }
+      ],
+      "data_strategies": [
+        {
+          "name": "Curriculum Learning (CL)",
+          "description": "Applied to LLM reinforcement learning, typically using difficulty-based sequencing of Chain-of-Thought (CoT) annotations",
+          "approaches": [
+            "Easy-to-hard progression",
+            "Diversity-based methods"
+          ]
+        },
+        {
+          "name": "Coreset Selection (CS)",
+          "description": "Sampling methods with reduction-oriented design",
+          "limitations": "Performance bottlenecks"
+        }
+      ]
+    },
+    "results": {
+      "focus": "Challenges in RLVR",
+      "issues": [
+        "High variance and unstable convergence",
+        "Early stage training difficulties",
+        "Limitations of traditional curriculum learning approaches"
+      ],
+      "proposed_solution": "Exploring diversity-based methods as an alternative to difficulty-based approaches"
+    }
+  },
+  "key_concepts": [
+    "Reinforcement Learning with Verifiable Rewards (RLVR)",
+    "Group Relative Policy Optimization (GRPO)",
+    "Proximal Policy Optimization (PPO)",
+    "Curriculum Learning (CL)",
+    "Coreset Selection (CS)",
+    "Chain-of-Thought (CoT) annotations"
+  ],
+  "challenges": [
+    "High variance in RLVR",
+    "Unstable convergence, particularly in early training stages",
+    "Performance bottlenecks in sampling methods",
+    "Limitations of difficulty-based curriculum learning"
+  ],
+  "evidence_id": "EV018",
+  "year": 2025,
+  "arxiv_id": "2509.25240",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7997,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

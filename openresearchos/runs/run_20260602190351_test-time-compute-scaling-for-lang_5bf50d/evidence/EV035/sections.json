@@ -1,0 +1,6 @@
+{
+  "introduction": "[2012.08215] Generative model for reciprocity and community detection in networks\n\n†\n\n†  thanks:  Contributed equally.\n\nGenerative model for reciprocity and community detection in networks\n\nHadiseh Sa",
+  "method": "ntroduction\n\nReciprocity in directed networks, i.e., the tendency of a pair of nodes to form mutual connections between each other\n [ wasserman1994social ] , is an important feature of many social rel",
+  "results": "y. In addition, communities are often interpretable objects and may correspond to functional unit, hence the value of including them in the model formulation.\nIncorporating reciprocity as well as comm",
+  "conclusion": "as a measured network property that needs to be reproduced (often together with other network properties like the degree) by sampling networks using statistical mechanics principles, e.g., maximum ent"
+}

@@ -1,0 +1,43 @@
+{
+  "paper_title": "HAMMER: Hamiltonian Curiosity Augmented Large Language Model Reinforcement",
+  "key_algorithm": "Group Relative Policy Optimization (GRPO)",
+  "algorithm_proposer": "Shao et al. (2024)",
+  "base_algorithm": "Proximal Policy Optimization (PPO) by Schulman et al. (2017)",
+  "mathematical_formulation": {
+    "policy_ratio": "ρ_t = π_θ(o_t|q,o_<t) / π_θ_old(o_t|q,o_<t)",
+    "objective_function": "J(θ) = E{ (1/G)∑_{i=1}^G (1/|o_i|)∑_{t=1}^{|o_i|} min(ρ_{i,t}Â_{i,t},clip(ρ_{i,t},1-ε,1+ε)Â_{i,t}) - βD_KL }",
+    "normalized_advantage": "Â_{i,t} = (r_{i,t} - mean(r_{i,t})) / std(r_{i,t})",
+    "kl_penalty": "βD_KL with penalty factor β"
+  },
+  "training_process": {
+    "sampling": "Samples groups of responses {o_i}_{i=1}^G ∼ π_θ(·|q)",
+    "reward_model": "Uses reward r_{i,t} for each response at each timestep"
+  },
+  "algorithm_variants": [
+    "Decoupled Clip",
+    "Dynamic sAmpling Policy Optimization (DAPO) by Yu et al. (2025)"
+  ],
+  "data_centric_approaches": [
+    "Curriculum Learning (CL)",
+    "Chain-of-Thought (CoT) annotations",
+    "Difficulty-based sequencing",
+    "Coreset Selection (CS)"
+  ],
+  "challenges": [
+    "High variance and unstable convergence in early training",
+    "Early imbalance between easy and hard samples",
+    "Local optimization issues"
+  ],
+  "evidence_id": "EV018",
+  "title": "HAMMER: Hamiltonian Curiosity Augmented Large Language Model Reinforcement",
+  "year": 2025,
+  "arxiv_id": "2509.25240",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7997,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

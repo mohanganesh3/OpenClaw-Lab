@@ -1,0 +1,730 @@
+[
+  {
+    "idea_id": "ID001",
+    "average_score": 6.6,
+    "decision": "reject",
+    "next_action": "RUN_ADDITIONAL_SEARCH",
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 6,
+        "fatal_flaws": [
+          "Incomplete novelty claim (truncated sentence)",
+          "Unclear integration of PRISMA 2020 with XAI/healthcare testing"
+        ],
+        "fixable_flaws": [
+          "Vague metric definition (consensus accuracy context)",
+          "Lack of comparison to existing benchmarking frameworks"
+        ],
+        "decision": "revise",
+        "justification": "While combining XAI with healthcare scenario testing shows promise, the current description lacks clarity in methodology and novelty completion, requiring refinement to demonstrate true innovation beyond existing XAI/healthcare literature."
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 7,
+        "fatal_flaws": [
+          "No explicit baseline models/systems specified for comparison"
+        ],
+        "fixable_flaws": [
+          "Lack of details on synthetic data validation against real-world clinical datasets"
+        ],
+        "decision": "revise",
+        "justification": "While novel in combining XAI with dynamic healthcare testing, the absence of baseline comparisons and unclear synthetic data validation raise concerns about benchmark reliability."
+      },
+      {
+        "reviewer": "Theory/Mechanism Reviewer",
+        "score": 7,
+        "fatal_flaws": [
+          "PRISMA 2020 guidelines are designed for systematic reviews, not directly for evaluating AI reliability in dynamic scenarios"
+        ],
+        "fixable_flaws": [
+          "Novelty claim requires clearer differentiation from existing XAI frameworks"
+        ],
+        "decision": "revise",
+        "justification": "While the mechanism combines relevant concepts, the application of PRISMA 2020 to AI benchmarking requires stronger theoretical grounding. The integration of XAI principles with dynamic testing needs more explicit differentiation from prior work."
+      },
+      {
+        "reviewer": "Reproducibility Reviewer",
+        "score": 6,
+        "fatal_flaws": [
+          "No details on synthetic data generation/validation process",
+          "No description of dynamic scenario implementation"
+        ],
+        "fixable_flaws": [
+          "Need expert panel selection/consensus protocol",
+          "Requires clarification of XAI integration methodology"
+        ],
+        "decision": "revise",
+        "justification": "While novel in concept, critical reproducibility elements like data generation and scenario implementation lack sufficient detail for replication."
+      },
+      {
+        "reviewer": "Venue Reviewer",
+        "score": 7,
+        "fatal_flaws": [
+          "Limited validation of synthetic data representativeness"
+        ],
+        "fixable_flaws": [
+          "Incomplete novelty differentiation from prior XAI frameworks"
+        ],
+        "decision": "revise",
+        "justification": "Promising framework but requires stronger validation of synthetic data and clearer novelty distinction"
+      }
+    ]
+  },
+  {
+    "idea_id": "ID002",
+    "average_score": 4.4,
+    "decision": "reject",
+    "next_action": "RUN_ADDITIONAL_SEARCH",
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 7,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Lacks direct evidence of environmental volatility measurement methodology",
+          "Unclear comparison to existing dynamic evaluation frameworks"
+        ],
+        "decision": "revise",
+        "justification": "While the core concept is innovative, the provided evidence doesn't sufficiently support claims about environmental volatility handling or comparison to existing dynamic frameworks."
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 4,
+        "fatal_flaws": [
+          "No baseline specification for comparison",
+          "Unclear integration of environmental variables in RL training"
+        ],
+        "fixable_flaws": [
+          "Lack of details on volatility measurement",
+          "No comparison to existing static frameworks in high-volatility scenarios"
+        ],
+        "decision": "reject",
+        "justification": "Critical lack of baseline specification and unclear environmental variable integration undermine experimental validity."
+      },
+      {
+        "reviewer": "Theory/Mechanism Reviewer",
+        "score": 4,
+        "fatal_flaws": [
+          "No direct evidence cited for reinforcement learning application in this context",
+          "Unclear link between digital transformation research and RL mechanism"
+        ],
+        "fixable_flaws": [
+          "Novelty claim requires stronger comparison to existing dynamic frameworks",
+          "Metric definition lacks statistical validation details"
+        ],
+        "decision": "revise",
+        "justification": "While the concept is promising, the mechanism's theoretical grounding requires stronger empirical support and clearer differentiation from existing approaches."
+      },
+      {
+        "reviewer": "Reproducibility Reviewer",
+        "score": 4,
+        "fatal_flaws": [
+          "No implementation details or code provided",
+          "No experimental protocol or dataset description"
+        ],
+        "fixable_flaws": [
+          "Lacks baseline comparison specifics",
+          "No discussion of evaluation environment variability"
+        ],
+        "decision": "reject",
+        "justification": "Critical components for reproduction (implementation, protocol, data) are missing; insufficient detail to validate claims."
+      },
+      {
+        "reviewer": "Venue Reviewer",
+        "score": 3,
+        "fatal_flaws": [
+          "No empirical validation",
+          "Overly broad novelty claim without prior work analysis"
+        ],
+        "fixable_flaws": [
+          "Unclear reinforcement learning implementation details",
+          "Missing comparative baseline evaluation"
+        ],
+        "decision": "reject",
+        "justification": "Lacks empirical evidence and fails to substantiate novelty claim with prior research analysis required for conference-level submission."
+      }
+    ]
+  },
+  {
+    "idea_id": "ID003",
+    "average_score": 6.6,
+    "decision": "reject",
+    "next_action": "RUN_ADDITIONAL_SEARCH",
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 8,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Lack of direct evidence addressing clinical workflow integration challenges in cited references"
+        ],
+        "decision": "revise",
+        "justification": "While the application of context-aware attention mechanisms to clinical XAI appears novel, the provided evidence does not sufficiently demonstrate prior art exclusion in clinical workflow integration."
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 6,
+        "fatal_flaws": [
+          "No baseline comparison with existing XAI methods in clinical context"
+        ],
+        "fixable_flaws": [
+          "Lack of quantitative metrics beyond subjective comprehension",
+          "No mention of real-world clinical validation"
+        ],
+        "decision": "revise",
+        "justification": "While the concept is novel, the absence of baseline comparisons with established XAI approaches in clinical settings undermines the experiment's validity and novelty claim."
+      },
+      {
+        "reviewer": "Theory/Mechanism Reviewer",
+        "score": 6,
+        "fatal_flaws": [
+          "Lack of clinical-specific attention mechanism design justification",
+          "No evidence linking attention to clinician comprehension metrics"
+        ],
+        "fixable_flaws": [
+          "Add clinical validation of attention relevance",
+          "Include comparative analysis with non-attention baselines"
+        ],
+        "decision": "revise",
+        "justification": "While innovative, the mechanism's clinical adaptation lacks theoretical grounding in provided evidence and requires empirical validation of attention's causal relationship with comprehension outcomes."
+      },
+      {
+        "reviewer": "Reproducibility Reviewer",
+        "score": 6,
+        "fatal_flaws": [
+          "No primary studies or empirical validation provided to support claims",
+          "No details on simulation environment or clinician participant selection"
+        ],
+        "fixable_flaws": [
+          "Lack of algorithmic implementation specifics for attention mechanism",
+          "No description of clinical data stream characteristics used in experiments"
+        ],
+        "decision": "revise",
+        "justification": "While the concept is promising, critical reproducibility elements like experimental protocols and validation methodology remain unspecified. Direct evidence of meeting the comprehension metric in simulations is required."
+      },
+      {
+        "reviewer": "Venue Reviewer",
+        "score": 7,
+        "fatal_flaws": [
+          "Lacks direct clinical validation in real-world settings",
+          "No comparison to existing XAI methods in healthcare"
+        ],
+        "fixable_flaws": [
+          "Needs clearer differentiation from general XAI frameworks",
+          "Should address scalability for diverse clinical workflows"
+        ],
+        "decision": "revise",
+        "justification": "Promising novelty in context-aware XAI but requires empirical validation and comparative analysis against established methods."
+      }
+    ]
+  },
+  {
+    "idea_id": "ID004",
+    "average_score": 6.62,
+    "decision": "accept",
+    "next_action": "RUN_MICRO_PROBE",
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 6.9,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add direct competitor comparison and search query log."
+        ],
+        "required_experiments": [
+          "Run novelty tribunal before any paper claim."
+        ],
+        "missing_related_work": [
+          "EV001",
+          "EV002",
+          "EV003"
+        ]
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 7.5,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add baseline and ablation before MVP claims."
+        ],
+        "required_experiments": [
+          "Micro-probe with random baseline.",
+          "Probe with evidence-weighted baseline."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Theory/Mechanism Reviewer",
+        "score": 6.7,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Tighten mechanism into falsifiable prediction."
+        ],
+        "required_experiments": [
+          "Test whether the mechanism improves selection utility under controlled noise."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Reproducibility Reviewer",
+        "score": 6.3,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Record seed, command, environment, stdout, stderr, and metrics."
+        ],
+        "required_experiments": [
+          "Run with fixed seed and persist config."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Venue Reviewer",
+        "score": 5.7,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Position as workshop candidate until stronger empirical evidence exists."
+        ],
+        "required_experiments": [
+          "Add venue-fit checklist after results."
+        ],
+        "missing_related_work": []
+      }
+    ]
+  },
+  {
+    "idea_id": "ID005",
+    "average_score": 6.62,
+    "decision": "accept",
+    "next_action": "RUN_MICRO_PROBE",
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 6.9,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add direct competitor comparison and search query log."
+        ],
+        "required_experiments": [
+          "Run novelty tribunal before any paper claim."
+        ],
+        "missing_related_work": [
+          "EV001",
+          "EV002",
+          "EV003"
+        ]
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 7.5,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add baseline and ablation before MVP claims."
+        ],
+        "required_experiments": [
+          "Micro-probe with random baseline.",
+          "Probe with evidence-weighted baseline."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Theory/Mechanism Reviewer",
+        "score": 6.7,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Tighten mechanism into falsifiable prediction."
+        ],
+        "required_experiments": [
+          "Test whether the mechanism improves selection utility under controlled noise."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Reproducibility Reviewer",
+        "score": 6.3,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Record seed, command, environment, stdout, stderr, and metrics."
+        ],
+        "required_experiments": [
+          "Run with fixed seed and persist config."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Venue Reviewer",
+        "score": 5.7,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Position as workshop candidate until stronger empirical evidence exists."
+        ],
+        "required_experiments": [
+          "Add venue-fit checklist after results."
+        ],
+        "missing_related_work": []
+      }
+    ]
+  },
+  {
+    "idea_id": "ID006",
+    "average_score": 6,
+    "decision": "reject",
+    "next_action": "RUN_ADDITIONAL_SEARCH",
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 7,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Lacks explicit comparison to prior legal-AI comparative studies",
+          "PRISMA application to non-medical domains needs justification"
+        ],
+        "decision": "revise",
+        "justification": "While novel in applying systematic review methods to AI accountability laws, needs to better differentiate from existing framework comparison studies and clarify PRISMA's suitability for legal analysis."
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 6,
+        "fatal_flaws": [
+          "Lacks explicit baseline jurisdiction for comparison"
+        ],
+        "fixable_flaws": [
+          "Needs clearer PRISMA adaptation justification for legal analysis"
+        ],
+        "decision": "revise",
+        "justification": "Novel approach but baseline jurisdiction definition is critical for conflict measurement"
+      },
+      {
+        "reviewer": "Theory/Mechanism Reviewer",
+        "score": 6,
+        "fatal_flaws": [
+          "PRISMA guidelines are designed for systematic reviews of biomedical literature, not legal framework analysis - unproven adaptation"
+        ],
+        "fixable_flaws": [
+          "Lack of justification for selecting specific NLP techniques/legal ontologies",
+          "No discussion of jurisdictional variability in AI capability definitions"
+        ],
+        "decision": "revise",
+        "justification": "While novel in applying evidence synthesis to legal comparison, the mechanism's core methodology requires substantial justification for adapting PRISMA beyond biomedical contexts and addressing domain-specific challenges in legal text analysis."
+      },
+      {
+        "reviewer": "Reproducibility Reviewer",
+        "score": 4,
+        "fatal_flaws": [
+          "No description of legal data sources or NLP preprocessing pipeline",
+          "No disclosure of jurisdiction selection criteria"
+        ],
+        "fixable_flaws": [
+          "Unclear conflict identification protocol",
+          "No inter-rater reliability metrics"
+        ],
+        "decision": "revise",
+        "justification": "While the framework concept is novel, critical methodological components required for reproduction are missing, particularly in legal data handling and conflict quantification."
+      },
+      {
+        "reviewer": "Venue Reviewer",
+        "score": 7,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Lacks technical depth in NLP/ontology implementation",
+          "Needs clearer jurisdictional scope definition"
+        ],
+        "decision": "accept",
+        "justification": "Novel application of evidence synthesis to legal AI accountability analysis aligns with interdisciplinary conference themes, though methodological details require strengthening."
+      }
+    ]
+  },
+  {
+    "idea_id": "ID007",
+    "average_score": 4.6,
+    "decision": "reject",
+    "next_action": "RUN_ADDITIONAL_SEARCH",
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 7,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Lacks direct evidence of bidirectional compatibility in healthcare context"
+        ],
+        "decision": "revise",
+        "justification": "While the concept is relevant to digital transformation, the provided evidence doesn't substantiate the novelty claim of bidirectional compatibility in healthcare legacy systems."
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 4,
+        "fatal_flaws": [
+          "No baseline comparison against existing compatibility methods",
+          "Unclear evaluation of bidirectional compatibility claims"
+        ],
+        "fixable_flaws": [
+          "Lack of real-world testing beyond simulation",
+          "Insufficient detail on legacy system diversity"
+        ],
+        "decision": "reject",
+        "justification": "Critical lack of baseline comparisons and empirical validation in real healthcare IT environments undermines claims of efficacy and novelty."
+      },
+      {
+        "reviewer": "Theory/Mechanism Reviewer",
+        "score": 6,
+        "fatal_flaws": [
+          "Lack of direct evidence linking proposed mechanism to healthcare IT compatibility challenges",
+          "No prior work addressing bidirectional compatibility gap in references"
+        ],
+        "fixable_flaws": [
+          "Add domain-specific protocol examples",
+          "Include comparative analysis with existing adapter frameworks"
+        ],
+        "decision": "revise",
+        "justification": "While the concept is relevant, current evidence doesn't sufficiently justify novel bidirectional claims or healthcare-specific technical requirements."
+      },
+      {
+        "reviewer": "Reproducibility Reviewer",
+        "score": 3,
+        "fatal_flaws": [
+          "No technical details on adapter architecture",
+          "No public dataset or simulation environment specifications"
+        ],
+        "fixable_flaws": [
+          "Missing comparison to existing compatibility methods",
+          "No error analysis on 5% failed transactions"
+        ],
+        "decision": "reject",
+        "justification": "Lacks sufficient technical details for implementation and validation; supporting evidence focuses on general concepts rather than reproducibility of specific claims."
+      },
+      {
+        "reviewer": "Venue Reviewer",
+        "score": 3,
+        "fatal_flaws": [
+          "Lack of direct evidence supporting technical claims",
+          "Cited references unrelated to legacy system compatibility"
+        ],
+        "fixable_flaws": [
+          "Add case studies or empirical validation",
+          "Include prior work on bidirectional compatibility"
+        ],
+        "decision": "reject",
+        "justification": "Submission lacks technical depth and relevant evidence for claimed novelty in legacy system adaptation."
+      }
+    ]
+  },
+  {
+    "idea_id": "ID008",
+    "average_score": 6.62,
+    "decision": "accept",
+    "next_action": "RUN_MICRO_PROBE",
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 6.9,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add direct competitor comparison and search query log."
+        ],
+        "required_experiments": [
+          "Run novelty tribunal before any paper claim."
+        ],
+        "missing_related_work": [
+          "EV001",
+          "EV002",
+          "EV003"
+        ]
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 7.5,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add baseline and ablation before MVP claims."
+        ],
+        "required_experiments": [
+          "Micro-probe with random baseline.",
+          "Probe with evidence-weighted baseline."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Theory/Mechanism Reviewer",
+        "score": 6.7,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Tighten mechanism into falsifiable prediction."
+        ],
+        "required_experiments": [
+          "Test whether the mechanism improves selection utility under controlled noise."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Reproducibility Reviewer",
+        "score": 6.3,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Record seed, command, environment, stdout, stderr, and metrics."
+        ],
+        "required_experiments": [
+          "Run with fixed seed and persist config."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Venue Reviewer",
+        "score": 5.7,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Position as workshop candidate until stronger empirical evidence exists."
+        ],
+        "required_experiments": [
+          "Add venue-fit checklist after results."
+        ],
+        "missing_related_work": []
+      }
+    ]
+  },
+  {
+    "idea_id": "ID009",
+    "average_score": 6.62,
+    "decision": "accept",
+    "next_action": "RUN_MICRO_PROBE",
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 6.9,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add direct competitor comparison and search query log."
+        ],
+        "required_experiments": [
+          "Run novelty tribunal before any paper claim."
+        ],
+        "missing_related_work": [
+          "EV001",
+          "EV002",
+          "EV003"
+        ]
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 7.5,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add baseline and ablation before MVP claims."
+        ],
+        "required_experiments": [
+          "Micro-probe with random baseline.",
+          "Probe with evidence-weighted baseline."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Theory/Mechanism Reviewer",
+        "score": 6.7,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Tighten mechanism into falsifiable prediction."
+        ],
+        "required_experiments": [
+          "Test whether the mechanism improves selection utility under controlled noise."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Reproducibility Reviewer",
+        "score": 6.3,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Record seed, command, environment, stdout, stderr, and metrics."
+        ],
+        "required_experiments": [
+          "Run with fixed seed and persist config."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Venue Reviewer",
+        "score": 5.7,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Position as workshop candidate until stronger empirical evidence exists."
+        ],
+        "required_experiments": [
+          "Add venue-fit checklist after results."
+        ],
+        "missing_related_work": []
+      }
+    ]
+  },
+  {
+    "idea_id": "ID010",
+    "average_score": 6.62,
+    "decision": "accept",
+    "next_action": "RUN_MICRO_PROBE",
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 6.9,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add direct competitor comparison and search query log."
+        ],
+        "required_experiments": [
+          "Run novelty tribunal before any paper claim."
+        ],
+        "missing_related_work": [
+          "EV001",
+          "EV002",
+          "EV003"
+        ]
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 7.5,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add baseline and ablation before MVP claims."
+        ],
+        "required_experiments": [
+          "Micro-probe with random baseline.",
+          "Probe with evidence-weighted baseline."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Theory/Mechanism Reviewer",
+        "score": 6.7,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Tighten mechanism into falsifiable prediction."
+        ],
+        "required_experiments": [
+          "Test whether the mechanism improves selection utility under controlled noise."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Reproducibility Reviewer",
+        "score": 6.3,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Record seed, command, environment, stdout, stderr, and metrics."
+        ],
+        "required_experiments": [
+          "Run with fixed seed and persist config."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Venue Reviewer",
+        "score": 5.7,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Position as workshop candidate until stronger empirical evidence exists."
+        ],
+        "required_experiments": [
+          "Add venue-fit checklist after results."
+        ],
+        "missing_related_work": []
+      }
+    ]
+  }
+]

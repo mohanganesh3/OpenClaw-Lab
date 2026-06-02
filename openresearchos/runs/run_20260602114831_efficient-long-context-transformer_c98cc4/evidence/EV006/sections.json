@@ -1,0 +1,6 @@
+{
+  "introduction": "[2501.07970] Comprehensive Metapath-based Heterogeneous Graph Transformer for Gene-Disease Association Prediction\n\nComprehensive Metapath-based Heterogeneous Graph Transformer for Gene-Disease Associa",
+  "method": "trates superior robustness compared to state-of-the-art approaches.\nAblation studies and visualizations validate COMET’s effectiveness, providing valuable insights for advancing human health research.",
+  "results": "ological networks for predicting GDA using  graph representation learning based-methods . It is formulated as a link prediction task, where relationships between diseases and genes can be learned from",
+  "conclusion": "rrent methods  [ 25 ,  10 ]  do not fully capture complex relationships in bioinformatics networks, potentially overlooking important gene–disease associations critical for understanding diseases and "
+}

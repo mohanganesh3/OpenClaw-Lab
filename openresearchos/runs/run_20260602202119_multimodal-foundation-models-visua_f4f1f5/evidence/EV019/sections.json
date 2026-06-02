@@ -1,0 +1,6 @@
+{
+  "introduction": "[2508.02951] MedBLINK: Probing Basic Perception in Multimodal Language Models for Medicine\n\nMedBLINK: Probing Basic Perception in Multimodal Language Models for Medicine\n\nMahtab Bigverdi*  1\n\nWisdom O",
+  "method": "al intelligence (AI) systems to be adopted, they must demonstrate competence not only on complex benchmarks, but also on simple, intuitive tasks. The same expectation holds perhaps even more criticall",
+  "results": "berately simple, asking models to perform basic visual perception rather than complex reasoning.\nFigure\n\n1\n\nillustrates one example from each task, including cases like visual depth estimation and ima",
+  "conclusion": "]  for histopathology.\n\nMultimodal Benchmarks in Medicine : Growing medical MLM development has spurred numerous benchmarks evaluating performance across modalities and tasks, primarily assessing medi"
+}

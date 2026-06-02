@@ -1,0 +1,6 @@
+{
+  "introduction": "[2601.14525] Towards Execution-Grounded Automated AI Research\n\nTowards Execution-Grounded Automated AI Research\n\nChenglei Si\n\nZitong Yang\n\nYejin Choi\n\nEmmanuel Candès\n\nDiyi Yang\n\nTatsunori Hashimoto\n\n",
+  "method": "ed executor as a reward function to teach LLMs to generate more effective ideas through evolutionary search and RL. We only update the ideator in the learning process.\n\nWe envision automated AI resear",
+  "results": "nded research problems, with over 90% execution rates on the pre-training environment with Claude-4.5-Sonnet and Claude-4.5-Opus.\n\nTo analyze whether grounding on execution-feedback can improve LLM id",
+  "conclusion": "ck to improve effectiveness through evolutionary search and RL.\nExecution-guided evolutionary search is sample-efficient and effective, but shows limited scaling.\nRL from execution reward suffers from"
+}

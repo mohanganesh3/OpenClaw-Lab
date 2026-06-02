@@ -1,0 +1,50 @@
+{
+  "paper_title": "PIPA: Preference Alignment as Prior-Informed Statistical Estimation",
+  "methodology": {
+    "name": "Prior-Informed Preference Alignment (PIPA)",
+    "approach": "Maximum likelihood estimation (MLE) with prior constraints",
+    "framework": "Probabilistic framework",
+    "variants": [
+      "PIPA-M",
+      "PIPA-N"
+    ],
+    "key_characteristics": [
+      "RL-free",
+      "Accommodates unpaired data",
+      "Extends to step-level annotations",
+      "Learns token-level credit assignment"
+    ]
+  },
+  "theoretical_analysis": {
+    "focus": "Suboptimality of supervised fine-tuning (SFT)",
+    "perspective": "Statistical estimation"
+  },
+  "relationships_to_existing_methods": {
+    "DPO": "Special case of PIPA with specific prior information and loss",
+    "KTO": "Special case of PIPA with different prior information and loss"
+  },
+  "advantages": [
+    "Unified framework addressing multiple challenges",
+    "Versatile plug-in loss design",
+    "Integrates with existing alignment frameworks",
+    "Enables test-time search through per-token value estimations"
+  ],
+  "contributions": [
+    "Formulation of preference alignment as prior-informed conditional probability estimation",
+    "Analysis of SFT suboptimality",
+    "Unified framework integrating solutions to various challenges",
+    "Token-level credit assignment capability"
+  ],
+  "evidence_id": "EV043",
+  "title": "PIPA: Preference Alignment as Prior-Informed Statistical Estimation",
+  "year": 2025,
+  "arxiv_id": "2502.05773",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7997,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

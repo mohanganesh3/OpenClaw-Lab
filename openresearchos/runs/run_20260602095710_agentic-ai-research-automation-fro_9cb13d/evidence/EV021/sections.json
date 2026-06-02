@@ -1,0 +1,6 @@
+{
+  "introduction": "[2512.09458] Chapter 3: Architectures for Building Agentic AI\n\n1\n\n1  institutetext:  Slawomir Nowaczyk\n\n2\n\n2  institutetext:  Center for Applied Intelligent Systems Research, Halmstad University, Swed",
+  "method": "on and propose actions), while the  agentic architecture  supplies the  machinery  (how proposals are validated, enacted, bounded, and recorded).\n\nUnderstanding the relation of  Agentic GenAI  with  c",
+  "results": "ul degradation, auditability, and human-override paths. Architectures make these properties tractable by: (i) isolating  responsibilities  in modules whose contracts we can reason about; (ii) interpos",
+  "conclusion": "oposals into either valid commands or actionable error reports.\n\nControl and assurance loops . Monitors compare planned with observed behaviour; critics and verifiers check factuality, policy complian"
+}

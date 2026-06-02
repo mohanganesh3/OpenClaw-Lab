@@ -1,0 +1,33 @@
+{
+  "paper_title": "MedBLINK: Probing Basic Perception in Multimodal Language Models for Medicine",
+  "benchmark_name": "MedBLINK",
+  "benchmark_description": "A benchmark designed to probe basic perceptual capabilities in multimodal language models for medicine",
+  "number_of_tasks": 8,
+  "task_selection": "Chosen in consultation with a senior radiologist",
+  "task_focus": "Perceptually simple but clinically meaningful tasks",
+  "models_evaluated": [
+    "GPT-4o",
+    "Claude 3.5 Sonnet",
+    "Med-Flamingo",
+    "LLaVA-Med",
+    "RadFM"
+  ],
+  "total_models_evaluated": 19,
+  "human_accuracy": 96.4,
+  "best_model_accuracy": 65,
+  "evaluation_method": "Visual question answering (VQA) tasks",
+  "key_finding": "Models struggle with basic perceptual tasks, revealing a fundamental gap in current evaluation protocols",
+  "significance": "Models must master low-effort perceptual tasks before being trusted for diagnostic reasoning",
+  "evidence_id": "EV019",
+  "title": "MedBLINK: Probing Basic Perception in Multimodal Language Models for Medicine",
+  "year": 2025,
+  "arxiv_id": "2508.02951",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

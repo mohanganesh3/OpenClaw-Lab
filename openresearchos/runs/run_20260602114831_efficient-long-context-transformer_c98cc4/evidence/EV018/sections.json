@@ -1,0 +1,6 @@
+{
+  "introduction": "[2305.06621] PVT-SSD: Single-Stage 3D Object Detector with Point-Voxel Transformer\n\nPVT-SSD: Single-Stage 3D Object Detector with Point-Voxel Transformer\n\nHonghui Yang 1,3\n\n∗\n\n*\n\nWenxiao Wang 2\n\nMingh",
+  "method": "ection from point clouds has become increasingly popular thanks to its wide applications, e.g., autonomous driving and virtual reality.\nTo process unordered point clouds, Transformer  [ 51 ]  has rece",
+  "results": "2D voxels by merging voxels along the height dimension to further reduce the number of voxels.\nThe  sample  operation is then applied to select a representative set of voxels.\nWe finally  lift  sample",
+  "conclusion": "]  project them onto regular voxels.\nVoxelNet  [ 76 ]  leverages PointNet  [ 40 ]  to generate a voxel-wise representation and applies standard 3D and 2D convolutions for object detection.\nPointPillar"
+}

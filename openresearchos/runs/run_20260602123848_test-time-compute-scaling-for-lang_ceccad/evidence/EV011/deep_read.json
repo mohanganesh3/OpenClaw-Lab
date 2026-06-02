@@ -1,0 +1,41 @@
+{
+  "paper_title": "GemDetox at TextDetox CLEF 2025: Enhancing a Massively Multilingual Model for Text Detoxification on Low-resource Languages",
+  "keywords": [
+    "Multilingual text detoxification",
+    "Large Language Models",
+    "Parameter-efficient fine-tuning",
+    "Chain-of-Thought",
+    "Data augmentation"
+  ],
+  "introduction": {
+    "topic": "Text detoxification for digital communication and social media platforms",
+    "problem": "Need for moderation and content detoxification strategies to address toxic language, hate speech, and harassment",
+    "context": "Multilingual Text Detoxification task at PAN 2025",
+    "task_description": "Rewriting toxic text into non-toxic form while preserving meaning across 15 typologically diverse languages",
+    "focus": "Explicit toxicity (obscene or offensive lexicon) - implicit toxicity excluded"
+  },
+  "methodology": {
+    "approach": "Builds on 2024 paradigm of fine-tuning large-scale multilingual pretrained transformer models",
+    "model_selection": "Model with extensive multilingual pre-training yet lightweight features",
+    "techniques": [
+      "Chain-of-Thought prompting",
+      "Data augmentation"
+    ]
+  },
+  "results": {
+    "performance": "Strong performance across all languages",
+    "key_finding": "Data augmentation is especially effective for low-resource languages, narrowing the gap with high-resource counterparts"
+  },
+  "evidence_id": "EV011",
+  "title": "GemDetox at TextDetox CLEF 2025: Enhancing a Massively Multilingual Model for Text Detoxification on Low-resource Languages",
+  "year": 2025,
+  "arxiv_id": "2510.01250",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

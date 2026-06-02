@@ -1,0 +1,39 @@
+{
+  "method_summary": "The paper examines inverse scaling relationships between test-time compute and accuracy, evaluating models across four categories of tasks: simple counting tasks with distractors, regression tasks with spurious features, deduction tasks with constraint tracking, and advanced AI risks.",
+  "key_innovation": "Identification of five distinct failure modes that occur when models reason for longer periods, suggesting that test-time compute scaling may inadvertently reinforce problematic reasoning patterns.",
+  "datasets_used": [
+    "Simple counting tasks with distractors",
+    "Regression tasks with spurious features",
+    "Deduction tasks with constraint tracking",
+    "Advanced AI risks"
+  ],
+  "baselines_compared": [
+    "Claude models",
+    "OpenAI o-series models",
+    "Claude Sonnet 4"
+  ],
+  "key_results": {},
+  "best_result": "Not specified in the excerpt",
+  "limitations_stated": [
+    "Test-time compute scaling may inadvertently reinforce problematic reasoning patterns",
+    "Models show difficulties in maintaining focus on complex deductive tasks",
+    "Extended reasoning may amplify concerning behaviors"
+  ],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "Not specified in the excerpt",
+  "compute_required": "Not specified in the excerpt",
+  "can_run_on_macbook": false,
+  "evidence_id": "EV026",
+  "title": "Inverse Scaling in Test-Time Compute",
+  "year": 2025,
+  "arxiv_id": "2507.14417",
+  "full_text_tool": "arxiv_abstract_openclaw",
+  "full_text_chars": 5956,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

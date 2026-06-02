@@ -1,0 +1,50 @@
+{
+  "title": "Learning to Route Among Specialized Experts for Zero-Shot Generalization",
+  "method": {
+    "name": "PHATGOOSE",
+    "description": "A method for routing among specialized experts that makes adaptive per-token and per-module expert choices",
+    "key_features": [
+      "Uses post-hoc routing",
+      "Can outperform explicit multitask training",
+      "Uses sigmoid gates for routing",
+      "Implements top-k routing mechanism"
+    ],
+    "code_url": "https://github.com/r-three/phatgoose"
+  },
+  "components": {
+    "specialized_modules": [
+      "LoRA (Low-Rank Adapters)",
+      "(IA)³ vectors"
+    ],
+    "routing_mechanism": {
+      "type": "sigmoid gates",
+      "selection": "top-k routing based on dot product with activations"
+    }
+  },
+  "findings": [
+    "PHATGOOSE outperforms other methods for recycling experts",
+    "PHATGOOSE outperforms explicit multitask training",
+    "PHATGOOSE nearly matches the performance of an oracle routing scheme",
+    "Can improve zero-shot generalization of a base language model"
+  ],
+  "context": {
+    "background": "Proliferation of fine-tuned 'expert' models specialized to particular tasks or domains",
+    "peft_adoption": "Over 17,000 adapters based on the peft library on Hugging Face Model Hub",
+    "advantage": "Provides a path to decentralized development of generalist language models"
+  },
+  "figures": {
+    "figure_1": "Shows average performance of different multitask training and expert routing methods",
+    "figure_2": "Visualizes how PHATGOOSE learns to route among specialized modules"
+  },
+  "evidence_id": "EV016",
+  "year": 2024,
+  "arxiv_id": "2402.05859",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

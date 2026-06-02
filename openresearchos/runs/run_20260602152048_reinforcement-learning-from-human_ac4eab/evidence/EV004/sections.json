@@ -1,0 +1,6 @@
+{
+  "introduction": "[2503.22480] Probabilistic Uncertain Reward Model: A Natural Generalization of Bradley-Terry Reward Model\n\nProbabilistic Uncertain Reward Model: A Natural Generalization of Bradley-Terry Reward Model\n",
+  "method": "ethods in both stability and effectiveness.\n\n1  Introduction\n\nReinforcement learning from human feedback (RLHF) has emerged as a critical pathway for aligning LLMs with human values  Hu et al. ( 2024 ",
+  "results": "he underlying uncertainty into deterministic scalar values, forcing the policy to treat all reward signals as equally reliable. Consequently, the agent will inevitably overfit to the spurious correlat",
+  "conclusion": "btaining a higher maximum reward.\nWe also implement this framework with minimal code modifications: converting a deterministic BTRM to PURM, the calculation of Bhattacharyya-based uncertainty, and lev"
+}

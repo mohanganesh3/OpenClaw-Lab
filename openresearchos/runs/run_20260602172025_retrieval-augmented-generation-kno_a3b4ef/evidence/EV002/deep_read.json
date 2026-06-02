@@ -1,0 +1,43 @@
+{
+  "title": "S3LLM: Large-Scale Scientific Software Understanding with LLMs using Source, Metadata, and Document",
+  "paper_info": {
+    "keywords": [
+      "Large-Scale Scientific Software",
+      "Large Language Models",
+      "Research Software Analysis",
+      "E3SM Land Model",
+      "Retrieval Augmented Generation (RAG)",
+      "LLM",
+      "LLaMA",
+      "ChatGPT"
+    ],
+    "source_url": "https://github.com/ResponsibleAILab/s3llm"
+  },
+  "methodology": {
+    "core_approach": "Using locally deployed open-source LLMs for the rapid understanding of large-scale scientific computing software.",
+    "key_benefit": "Eliminating the need for extensive coding expertise to make the process more efficient and effective."
+  },
+  "purpose": {
+    "main_goal": "To provide a user-friendly interface for interacting with complex scientific computing software through conversational, natural language queries.",
+    "problem_addressed": [
+      "Complexity of large-scale scientific software due to multiple programming languages (e.g., Fortran, Pascal).",
+      "Large volume of code (millions of lines) hindering comprehensive understanding.",
+      "Poor or inadequate documentation for scientific software systems."
+    ]
+  },
+  "related_tools_mentioned": [
+    "Doxygen",
+    "Sphinx"
+  ],
+  "evidence_id": "EV002",
+  "year": 2024,
+  "arxiv_id": "2403.10588",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

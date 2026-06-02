@@ -1,0 +1,6 @@
+{
+  "introduction": "[2110.15232] Guided Evolution for Neural Architecture Search\n\nGuided Evolution for Neural Architecture Search\n\nVasco Lopes\n NOVA Lincs, Universidade da Beira Interior\n\nvasco.lopes@ubi.pt\n\n&amp;Miguel ",
+  "method": "is  ( Conneau et al. ,\n\n2017  ) , amongst many others  ( Khan et al. ,\n\n2020  ) . Their inherent capability of feature extraction allows CNNs to be easily applied and transferred to different problems",
+  "results": "he goal of a NAS method is to, based on the search method, efficiently search a large set of possible networks to find an optimal architecture for a given problem. Despite the excellent results obtain",
+  "conclusion": "llor et al. ,\n\n2021  ) . These methods are time efficient and capable of performing good correlations between the score and respective accuracies when the architectures are trained.\n\nThis paper propos"
+}

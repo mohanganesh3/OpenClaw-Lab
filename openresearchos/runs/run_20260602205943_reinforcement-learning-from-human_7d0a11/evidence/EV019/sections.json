@@ -1,0 +1,6 @@
+{
+  "introduction": "[2107.00359] Model Mediated Teleoperation with a Hand-Arm Exoskeleton in Long Time Delays Using Reinforcement Learning\n\nModel Mediated Teleoperation with a Hand-Arm Exoskeleton in Long Time Delays Usi",
+  "method": "d to the object position after the demonstration. The results also show DMPs to be effective at adapting to new conditions where there is no uncertainty involved.\n\nI\n\nINTRODUCTION\n\nTeleoperation provi",
+  "results": "ys. The robot configurations can be pre-recorded and used as a look-up table. The corresponding configurations can be selected based on the closest object position to the current position  [ 1 ] . To ",
+  "conclusion": "presence system can be extended to interact in a mixed media environment of fluid, gas, and solids up to the fingertips to realize an even more immersive user experience  [ 12 ] .\n\nThe bilateral teleo"
+}

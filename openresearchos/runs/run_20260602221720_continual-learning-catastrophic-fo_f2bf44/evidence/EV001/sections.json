@@ -1,0 +1,6 @@
+{
+  "introduction": "[2603.07351] A Distributed Gaussian Process Model for Multi-Robot Mapping\n\nA Distributed Gaussian Process Model for Multi-Robot Mapping\n\nSeth Nabarro  1∗  , Mark van der Wilk  2\n\nand Andrew J. Davison",
+  "method": "agriculture  [ 1 ]  or space exploration  [ 21 ] , which involve many robots accumulating large datasets in poorly connected regions. Further, centralised approaches can be slow where robots may need ",
+  "results": "exploits all robot encounters and converges with asynchronous message passing.\nOur proposed loopy factor graph model is illustrated in Fig.\n\n1  .\n\nOur motivations are similar to Yu et al.  [ 22 ] , wh",
+  "conclusion": "s consistent with its neighbours. We argue DistGP is:\n\n1.\n\nmore scalable.  For problems with large areas and large numbers of robots, each robot having a global map is inefficient and reaching consens"
+}

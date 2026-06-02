@@ -1,0 +1,6 @@
+{
+  "introduction": "[2509.26520] Training Matryoshka Mixture-of-Experts for Elastic Inference-Time Expert Utilization\n\nTraining Matryoshka Mixture-of-Experts for Elastic Inference-Time Expert Utilization\n\nYaoxiang Wang  ",
+  "method": "l layers. Our work paves the way for more practical and adaptable deployments of large-scale MoE models.\n\n1  Introduction\n\nThe landscape of artificial intelligence is increasingly dominated by large-s",
+  "results": "xperts. The intuition is powerful: at inference time, one could simply select fewer experts for a coarse but fast prediction, or more experts for a fine-grained, higher-quality output, effectively cre",
+  "conclusion": "ined information, and additional experts progressively adding finer-grained detail, thereby fostering a more versatile model.\n\nOur experiments demonstrate that a single M-MoE model can achieve remarka"
+}

@@ -1,0 +1,1085 @@
+{
+  "schema_version": 1,
+  "run_id": "run_20260602163945_continual-learning-catastrophic-fo_c9523c",
+  "topic": "continual learning catastrophic forgetting prevention",
+  "created_at": "2026-06-02T16:40:34.870Z",
+  "updated_at": "2026-06-02T17:17:52.972Z",
+  "current_state": "TRACE_EXPORTED",
+  "scope_classification": {
+    "label": "local_experiment",
+    "rationale": "The topic can be explored with small simulations, synthetic data, or lightweight local experiments on the Mac.",
+    "feasibility_note": "Yes, this topic is highly feasible on your MacBook M4, as the 36GB RAM and MPS GPU are well-suited for standard continual learning benchmarks, especially when fine-tuning pre-trained models. Suitable public datasets include Split CIFAR-100 for a classic vision benchmark, Permuted MNIST for a simpler sequential task, and CORe50 for a more challenging object recognition scenario. Experimenting with a standard model like ResNet-18 on Split CIFAR-100 across 5 tasks could take approximately 4-8 hours"
+  },
+  "search_queries": [
+    "continual learning methods",
+    "catastrophic forgetting regularization",
+    "replay buffer techniques",
+    "dynamic neural architectures",
+    "continual learning robotics",
+    "autonomous driving CL",
+    "continual learning benchmarks",
+    "cl evaluation metrics",
+    "continual learning limitations",
+    "continual learning approaches comparison",
+    "continual learning datasets",
+    "split-cifar dataset",
+    "continual learning survey",
+    "catastrophic forgetting problem",
+    "plasticity stability dilemma"
+  ],
+  "evidence_ids": [
+    "EV001",
+    "EV002",
+    "EV003",
+    "EV004",
+    "EV005",
+    "EV006",
+    "EV007",
+    "EV008",
+    "EV009",
+    "EV010",
+    "EV011",
+    "EV012",
+    "EV013",
+    "EV014",
+    "EV015",
+    "EV016",
+    "EV017",
+    "EV018",
+    "EV019",
+    "EV020",
+    "EV021",
+    "EV022",
+    "EV023",
+    "EV024",
+    "EV025",
+    "EV026",
+    "EV027",
+    "EV028",
+    "EV029",
+    "EV030",
+    "EV031",
+    "EV032",
+    "EV033",
+    "EV034",
+    "EV035",
+    "EV036",
+    "EV037",
+    "EV038",
+    "EV039",
+    "EV040",
+    "EV041",
+    "EV042",
+    "EV043",
+    "EV044",
+    "EV045",
+    "EV046",
+    "EV047",
+    "EV048",
+    "EV049",
+    "EV050",
+    "EV051",
+    "EV052",
+    "EV053",
+    "EV054",
+    "EV055",
+    "EV056",
+    "EV057",
+    "EV058",
+    "EV059",
+    "EV060",
+    "EV061",
+    "EV062",
+    "EV063",
+    "EV064",
+    "EV065",
+    "EV066",
+    "EV067",
+    "EV068",
+    "EV069"
+  ],
+  "parsed_papers": [],
+  "claim_graph": {
+    "claims": [],
+    "links": []
+  },
+  "research_gaps": [
+    {
+      "gap_id": "G01",
+      "text": "Traceability gap: agents may produce ideas without an auditable chain from source evidence to experiment decision.",
+      "keywords": [
+        "continual",
+        "learning",
+        "catastrophic",
+        "forgetting",
+        "prevention"
+      ],
+      "evidence_ids": [
+        "EV001",
+        "EV002",
+        "EV003",
+        "EV004",
+        "EV005"
+      ],
+      "testable": true,
+      "difficulty": "medium",
+      "source": "template"
+    },
+    {
+      "gap_id": "G02",
+      "text": "Review gap: simulated reviewer feedback is often generated after the fact instead of controlling whether an idea proceeds.",
+      "keywords": [
+        "forgetting",
+        "prevention"
+      ],
+      "evidence_ids": [
+        "EV002",
+        "EV003",
+        "EV004",
+        "EV005",
+        "EV006"
+      ],
+      "testable": true,
+      "difficulty": "medium",
+      "source": "template"
+    },
+    {
+      "gap_id": "G03",
+      "text": "Experiment timing gap: many research agents run experiments late, after committing to an idea, rather than using cheap probes during ideation.",
+      "keywords": [],
+      "evidence_ids": [
+        "EV003",
+        "EV004",
+        "EV005",
+        "EV006",
+        "EV007"
+      ],
+      "testable": true,
+      "difficulty": "medium",
+      "source": "template"
+    },
+    {
+      "gap_id": "G04",
+      "text": "Failure memory gap: rejected ideas and failed probes are often lost instead of shaping the next search iteration.",
+      "keywords": [],
+      "evidence_ids": [
+        "EV004",
+        "EV005",
+        "EV006",
+        "EV007",
+        "EV008"
+      ],
+      "testable": true,
+      "difficulty": "medium",
+      "source": "template"
+    },
+    {
+      "gap_id": "G05",
+      "text": "Venue-fit gap: agent outputs often lack explicit comparison to workshop and conference expectations.",
+      "keywords": [],
+      "evidence_ids": [
+        "EV005",
+        "EV006",
+        "EV007",
+        "EV008",
+        "EV009"
+      ],
+      "testable": true,
+      "difficulty": "medium",
+      "source": "template"
+    }
+  ],
+  "idea_tree": [
+    {
+      "idea_id": "I01",
+      "title": "Idea Provenance Tracker for Continual Learning Systems",
+      "source_gap_id": "G01",
+      "scope": "method",
+      "pitch": "A system that tracks and visualizes the complete lineage of ideas and decisions in continual learning research.",
+      "mechanism": "Implement a blockchain-inspired ledger system that records every idea generation, modification, and selection with timestamps and attribution.",
+      "metric": "Decision quality score based on idea lineage awareness",
+      "has_clear_metric": true,
+      "experiment_sketch": null,
+      "novelty_claim": null,
+      "risk": "medium",
+      "evidence_support": 1,
+      "local_feasibility": 1,
+      "novelty_risk": 0.077,
+      "base_score": 5.5,
+      "keywords": [
+        "continual",
+        "learning",
+        "idea",
+        "provenance",
+        "tracker",
+        "systems"
+      ],
+      "status": "rejected",
+      "corpus_overlap_hash": "3537405e99",
+      "source": "llm",
+      "reviewer_average": 4,
+      "reviewer_decision": "reject",
+      "next_action": "RUN_ADDITIONAL_SEARCH"
+    },
+    {
+      "idea_id": "I02",
+      "title": "Dynamic Review Feedback Generator for Continual Learning",
+      "source_gap_id": "G02",
+      "scope": "method",
+      "pitch": "An AI system that generates contextually relevant reviewer feedback for continual learning research ideas.",
+      "mechanism": "Use a transformer model trained on actual peer reviews to generate realistic, nuanced feedback that considers the specific challenges of continual learning.",
+      "metric": "Human reviewer agreement score with AI-generated feedback",
+      "has_clear_metric": true,
+      "experiment_sketch": null,
+      "novelty_claim": null,
+      "risk": "medium",
+      "evidence_support": 1,
+      "local_feasibility": 1,
+      "novelty_risk": 0.071,
+      "base_score": 5.5,
+      "keywords": [
+        "feedback",
+        "continual",
+        "learning",
+        "dynamic",
+        "review",
+        "generator"
+      ],
+      "status": "rejected",
+      "corpus_overlap_hash": "51be559a98",
+      "source": "llm",
+      "reviewer_average": 3.5,
+      "reviewer_decision": "reject",
+      "next_action": "RUN_ADDITIONAL_SEARCH"
+    },
+    {
+      "idea_id": "I03",
+      "title": "Adaptive Experiment Scheduling for Continual Learning Research",
+      "source_gap_id": "G03",
+      "scope": "method",
+      "pitch": "A system that optimizes when to run experiments based on resource availability and research priorities.",
+      "mechanism": "Implement a reinforcement learning agent that learns optimal experiment scheduling by considering computational costs, expected value, and time constraints.",
+      "metric": "Research time efficiency ratio",
+      "has_clear_metric": true,
+      "experiment_sketch": null,
+      "novelty_claim": null,
+      "risk": "medium",
+      "evidence_support": 1,
+      "local_feasibility": 1,
+      "novelty_risk": 0.057,
+      "base_score": 5.5,
+      "keywords": [
+        "research",
+        "adaptive",
+        "experiment",
+        "scheduling",
+        "continual",
+        "learning"
+      ],
+      "status": "rejected",
+      "corpus_overlap_hash": "d89b1973ac",
+      "source": "llm",
+      "reviewer_average": 4,
+      "reviewer_decision": "reject",
+      "next_action": "RUN_ADDITIONAL_SEARCH"
+    },
+    {
+      "idea_id": "I04",
+      "title": "Failure Pattern Repository for Continual Learning",
+      "source_gap_id": "G04",
+      "scope": "method",
+      "pitch": "A database that captures, categorizes, and retrieves failed approaches to prevent repeated mistakes in continual learning research.",
+      "mechanism": "Create a structured knowledge graph of failed experiments, their contexts, and reasons for failure, with semantic search capabilities.",
+      "metric": "Reduction in repeated failures",
+      "has_clear_metric": true,
+      "experiment_sketch": null,
+      "novelty_claim": null,
+      "risk": "medium",
+      "evidence_support": 1,
+      "local_feasibility": 1,
+      "novelty_risk": 0.067,
+      "base_score": 5.5,
+      "keywords": [
+        "continual",
+        "learning",
+        "failure",
+        "pattern",
+        "repository",
+        "database"
+      ],
+      "status": "rejected",
+      "corpus_overlap_hash": "98bbfafb5e",
+      "source": "llm",
+      "reviewer_average": 3.75,
+      "reviewer_decision": "reject",
+      "next_action": "RUN_ADDITIONAL_SEARCH"
+    },
+    {
+      "idea_id": "I05",
+      "title": "Idea Evolution Visualizer for Continual Learning",
+      "source_gap_id": "G01",
+      "scope": "method",
+      "pitch": "An interactive visualization tool that shows how ideas evolve over time in continual learning research.",
+      "mechanism": "Build a network graph that traces idea connections, modifications, and evolutionary paths with interactive exploration capabilities.",
+      "metric": "Time to identify promising research directions",
+      "has_clear_metric": true,
+      "experiment_sketch": null,
+      "novelty_claim": null,
+      "risk": "medium",
+      "evidence_support": 1,
+      "local_feasibility": 1,
+      "novelty_risk": 0.056,
+      "base_score": 5.5,
+      "keywords": [
+        "continual",
+        "learning",
+        "idea",
+        "evolution",
+        "visualizer",
+        "interactive"
+      ],
+      "status": "rejected",
+      "corpus_overlap_hash": "3fab735c6d",
+      "source": "llm",
+      "reviewer_average": 4,
+      "reviewer_decision": "reject",
+      "next_action": "RUN_ADDITIONAL_SEARCH"
+    },
+    {
+      "idea_id": "I06",
+      "title": "Multi-Perspective Review System for Continual Learning",
+      "source_gap_id": "G02",
+      "scope": "method",
+      "pitch": "A system that generates reviews from multiple expert perspectives to provide comprehensive feedback on continual learning ideas.",
+      "mechanism": "Train specialized models for different subdomains of continual learning and have them provide perspective-specific reviews.",
+      "metric": "Idea robustness score based on multi-perspective feedback",
+      "has_clear_metric": true,
+      "experiment_sketch": null,
+      "novelty_claim": null,
+      "risk": "medium",
+      "evidence_support": 1,
+      "local_feasibility": 1,
+      "novelty_risk": 0.087,
+      "base_score": 5.5,
+      "keywords": [
+        "system",
+        "continual",
+        "learning",
+        "multi-perspective",
+        "review",
+        "generates"
+      ],
+      "status": "rejected",
+      "corpus_overlap_hash": "1c3a3f87bb",
+      "source": "llm",
+      "reviewer_average": 3,
+      "reviewer_decision": "reject",
+      "next_action": "RUN_ADDITIONAL_SEARCH"
+    }
+  ],
+  "reviewer_scores": [
+    {
+      "idea_id": "I01",
+      "average_score": 4,
+      "phase1_avg": 4,
+      "decision": "reject",
+      "next_action": "RUN_ADDITIONAL_SEARCH",
+      "fatal_flaws": [
+        "The core concept of tracking idea lineage is not novel, as it directly applies existing data provenance and version control paradigms without a clear technical innovation.",
+        "The proposal is extremely vague, failing to define a unique value proposition, target users, or a specific research problem that this system would solve.",
+        "Missing falsifiable hypothesis; the proposal is an engineering artifact without a testable claim of utility.",
+        "Missing baseline comparisons and evaluation protocol; the system's effectiveness cannot be measured.",
+        "Missing details on reproducibility (seeds) and computational requirements.",
+        "Prior reviews indicate 3 fatal flaws in theory/mechanism and 3 in reproducibility, confirming these critical omissions.",
+        "The contribution is ambiguous; it's unclear if the novelty lies in the knowledge graph schema, the visualization technique, or the system itself, which is more of an infrastructure project.",
+        "Capturing the 'lineage of ideas' is fraught with difficulty; the system risks creating a misleadingly objective record of a highly subjective and contextual research process.",
+        "No public dataset specified or provided",
+        "No code repository or implementation details provided"
+      ],
+      "fixable_flaws": [
+        "The proposal lacks a defined hypothesis, dataset, and baseline for evaluation.",
+        "The technical implementation, data model, and visualization methods are completely unspecified.",
+        "The authors could define a clear hypothesis about the tracker's utility (e.g., debugging efficiency).",
+        "They could propose a benchmark suite of continual learning tasks and define relevant baselines for tracking provenance.",
+        "The paper needs to focus on a specific, narrow sub-domain of continual learning to demonstrate the system's value, rather than making a broad claim for all of CL research.",
+        "The evaluation is currently just a plan. It needs to be fleshed out into a concrete experimental protocol, such as a user study with specific tasks and metrics to measure the system's effectiveness.",
+        "Missing information about fixed seeds for random processes",
+        "No computational requirements or environment specifications provided"
+      ],
+      "revised_idea": null,
+      "reviewers": [
+        {
+          "reviewer": "Novelty Reviewer",
+          "score": 5,
+          "fatal_flaws": [
+            "The core concept of tracking idea lineage is not novel, as it directly applies existing data provenance and version control paradigms without a clear technical innovation.",
+            "The proposal is extremely vague, failing to define a unique value proposition, target users, or a specific research problem that this system would solve."
+          ],
+          "fixable_flaws": [
+            "The proposal lacks a defined hypothesis, dataset, and baseline for evaluation.",
+            "The technical implementation, data model, and visualization methods are completely unspecified."
+          ],
+          "decision": "reject",
+          "justification": "This proposal lacks novelty, as it describes a system for tracking provenance that is a direct application of existing concepts from data management and software engineering. The idea is too ill-defined to demonstrate a unique technical challenge or a compelling reason for its existence over established tools."
+        },
+        {
+          "reviewer": "Experimental Reviewer",
+          "score": 2,
+          "fatal_flaws": [
+            "Missing falsifiable hypothesis; the proposal is an engineering artifact without a testable claim of utility.",
+            "Missing baseline comparisons and evaluation protocol; the system's effectiveness cannot be measured.",
+            "Missing details on reproducibility (seeds) and computational requirements.",
+            "Prior reviews indicate 3 fatal flaws in theory/mechanism and 3 in reproducibility, confirming these critical omissions."
+          ],
+          "fixable_flaws": [
+            "The authors could define a clear hypothesis about the tracker's utility (e.g., debugging efficiency).",
+            "They could propose a benchmark suite of continual learning tasks and define relevant baselines for tracking provenance."
+          ],
+          "decision": "reject",
+          "justification": "The proposal lacks a falsifiable hypothesis and any defined evaluation protocol, making its claims untestable and the work unreproducible. Prior reviews confirm these are fatal theoretical and reproducibility flaws."
+        },
+        {
+          "reviewer": "Theory/Mechanism Reviewer",
+          "score": 7,
+          "fatal_flaws": [
+            "The contribution is ambiguous; it's unclear if the novelty lies in the knowledge graph schema, the visualization technique, or the system itself, which is more of an infrastructure project.",
+            "Capturing the 'lineage of ideas' is fraught with difficulty; the system risks creating a misleadingly objective record of a highly subjective and contextual research process."
+          ],
+          "fixable_flaws": [
+            "The paper needs to focus on a specific, narrow sub-domain of continual learning to demonstrate the system's value, rather than making a broad claim for all of CL research.",
+            "The evaluation is currently just a plan. It needs to be fleshed out into a concrete experimental protocol, such as a user study with specific tasks and metrics to measure the system's effectiveness."
+          ],
+          "decision": "revise",
+          "justification": "The idea addresses a critical meta-problem in ML research by formalizing the lineage of decisions. Its theoretical basis in knowledge graphs and HCI is sound, but the paper must more clearly define its novel scientific contribution and provide a concrete, compelling use case with a rigorous user study evaluation."
+        },
+        {
+          "reviewer": "Reproducibility Reviewer",
+          "score": 2,
+          "fatal_flaws": [
+            "No public dataset specified or provided",
+            "No code repository or implementation details provided"
+          ],
+          "fixable_flaws": [
+            "Missing information about fixed seeds for random processes",
+            "No computational requirements or environment specifications provided"
+          ],
+          "decision": "reject",
+          "justification": "The paper lacks essential reproducibility components including public datasets, fixed seeds, and code availability, making it impossible to verify or build upon the proposed system."
+        }
+      ]
+    },
+    {
+      "idea_id": "I02",
+      "average_score": 3.5,
+      "phase1_avg": 3.5,
+      "decision": "reject",
+      "next_action": "RUN_ADDITIONAL_SEARCH",
+      "fatal_flaws": [
+        "No falsifiable hypothesis is stated, making the core contribution untestable.",
+        "No baselines are proposed, preventing any evaluation of the system's effectiveness.",
+        "The proposal lacks details on reproducibility and compute, rendering the system a black box.",
+        "The prior review history indicates significant, unresolved issues with theoretical grounding and reproducibility.",
+        "The proposal lacks a clear, testable hypothesis, which is the foundation of any research contribution.",
+        "It provides no theoretical justification or proposed mechanism for how the 'Dynamic Review Feedback Generator' would be built or function.",
+        "There is no proposed evaluation methodology to measure the system's performance or validity against human reviewers.",
+        "No public data specified for the proposed system",
+        "No fixed seeds mentioned for reproducibility",
+        "No compute documentation provided",
+        "No code availability mentioned"
+      ],
+      "fixable_flaws": [
+        "Consider conducting a more comprehensive literature review beyond the provided prior works to fully assess novelty",
+        "The authors must formulate a clear, falsifiable hypothesis comparing their system to strong baselines like GPT-4 or a retrieval-augmented model.",
+        "A detailed experimental protocol, including model specifics and reproducibility measures, is required.",
+        "The scope of the 'continual learning' domain needs to be better defined to ensure the generated feedback is contextually relevant.",
+        "The 'prior work' section is too sparse and generic to properly situate the idea within the existing literature.",
+        "The term 'Dynamic' is not defined, leaving the core mechanism ambiguous (e.g., does it adapt its feedback style or learn from new papers over time?).",
+        "Specify a public dataset for evaluation",
+        "Include seed setting for reproducibility",
+        "Provide compute documentation",
+        "Make code available"
+      ],
+      "revised_idea": null,
+      "reviewers": [
+        {
+          "reviewer": "Novelty Reviewer",
+          "score": 7,
+          "fatal_flaws": [],
+          "fixable_flaws": [
+            "Consider conducting a more comprehensive literature review beyond the provided prior works to fully assess novelty"
+          ],
+          "decision": "accept",
+          "justification": "This idea appears novel as it proposes an AI system for generating reviewer feedback, which is not covered in the provided prior works. A more comprehensive literature review would be recommended."
+        },
+        {
+          "reviewer": "Experimental Reviewer",
+          "score": 2,
+          "fatal_flaws": [
+            "No falsifiable hypothesis is stated, making the core contribution untestable.",
+            "No baselines are proposed, preventing any evaluation of the system's effectiveness.",
+            "The proposal lacks details on reproducibility and compute, rendering the system a black box.",
+            "The prior review history indicates significant, unresolved issues with theoretical grounding and reproducibility."
+          ],
+          "fixable_flaws": [
+            "The authors must formulate a clear, falsifiable hypothesis comparing their system to strong baselines like GPT-4 or a retrieval-augmented model.",
+            "A detailed experimental protocol, including model specifics and reproducibility measures, is required.",
+            "The scope of the 'continual learning' domain needs to be better defined to ensure the generated feedback is contextually relevant."
+          ],
+          "decision": "reject",
+          "justification": "The proposal lacks a falsifiable hypothesis and baselines, making it impossible to evaluate its scientific contribution. Furthermore, it fails to address reproducibility and compute, aligning with prior fatal flaws in theory and reproducibility."
+        },
+        {
+          "reviewer": "Theory/Mechanism Reviewer",
+          "score": 3,
+          "fatal_flaws": [
+            "The proposal lacks a clear, testable hypothesis, which is the foundation of any research contribution.",
+            "It provides no theoretical justification or proposed mechanism for how the 'Dynamic Review Feedback Generator' would be built or function.",
+            "There is no proposed evaluation methodology to measure the system's performance or validity against human reviewers."
+          ],
+          "fixable_flaws": [
+            "The 'prior work' section is too sparse and generic to properly situate the idea within the existing literature.",
+            "The term 'Dynamic' is not defined, leaving the core mechanism ambiguous (e.g., does it adapt its feedback style or learn from new papers over time?)."
+          ],
+          "decision": "reject",
+          "justification": "The core idea is interesting but the proposal is critically incomplete, lacking a hypothesis, a proposed mechanism, and an evaluation plan. It is an idea, not a research contribution."
+        },
+        {
+          "reviewer": "Reproducibility Reviewer",
+          "score": 2,
+          "fatal_flaws": [
+            "No public data specified for the proposed system",
+            "No fixed seeds mentioned for reproducibility",
+            "No compute documentation provided",
+            "No code availability mentioned"
+          ],
+          "fixable_flaws": [
+            "Specify a public dataset for evaluation",
+            "Include seed setting for reproducibility",
+            "Provide compute documentation",
+            "Make code available"
+          ],
+          "decision": "reject",
+          "justification": "The submission lacks all essential reproducibility components including data, code, compute details, and seed settings. Without these critical elements, the research cannot be verified or built upon by the community."
+        }
+      ]
+    },
+    {
+      "idea_id": "I03",
+      "average_score": 4,
+      "phase1_avg": 4,
+      "decision": "reject",
+      "next_action": "RUN_ADDITIONAL_SEARCH",
+      "fatal_flaws": [
+        "No falsifiable hypothesis stated",
+        "No baselines defined for comparison",
+        "No reproducibility measures (seeds) mentioned",
+        "No computational requirements specified",
+        "No dataset specified for evaluation",
+        "No theoretical justification for why adaptive scheduling improves continual learning research",
+        "Missing mechanism for quantifying research priorities and resource availability",
+        "No hypothesis or baseline to evaluate the proposed system",
+        "No dataset specified or made publicly available",
+        "No mention of fixed seeds for experimental reproducibility",
+        "No computational environment documentation",
+        "No code availability"
+      ],
+      "fixable_flaws": [
+        "Need to clearly define the research problem being addressed",
+        "Could potentially define clear evaluation metrics",
+        "Could identify appropriate baselines for comparison",
+        "Could specify computational requirements",
+        "Could identify suitable datasets for evaluation",
+        "Need to specify theoretical framework (e.g., multi-armed bandits, reinforcement learning)",
+        "Should define metrics for research priority assessment",
+        "Requires mathematical formulation of the scheduling optimization problem",
+        "Could potentially add dataset information in revision",
+        "Could specify fixed seeds and random initialization procedures",
+        "Could document computational requirements and environment setup"
+      ],
+      "revised_idea": null,
+      "reviewers": [
+        {
+          "reviewer": "Novelty Reviewer",
+          "score": 9,
+          "fatal_flaws": [],
+          "fixable_flaws": [
+            "Need to clearly define the research problem being addressed"
+          ],
+          "decision": "accept",
+          "justification": "The idea presents a novel approach to optimizing experiment scheduling based on resources and priorities, which is not covered in the prior work. This could significantly improve research efficiency and resource utilization."
+        },
+        {
+          "reviewer": "Experimental Reviewer",
+          "score": 2,
+          "fatal_flaws": [
+            "No falsifiable hypothesis stated",
+            "No baselines defined for comparison",
+            "No reproducibility measures (seeds) mentioned",
+            "No computational requirements specified",
+            "No dataset specified for evaluation"
+          ],
+          "fixable_flaws": [
+            "Could potentially define clear evaluation metrics",
+            "Could identify appropriate baselines for comparison",
+            "Could specify computational requirements",
+            "Could identify suitable datasets for evaluation"
+          ],
+          "decision": "reject",
+          "justification": "The proposal lacks essential experimental components including a falsifiable hypothesis, baselines, reproducibility measures, and computational requirements, making it impossible to properly evaluate the proposed system."
+        },
+        {
+          "reviewer": "Theory/Mechanism Reviewer",
+          "score": 3,
+          "fatal_flaws": [
+            "No theoretical justification for why adaptive scheduling improves continual learning research",
+            "Missing mechanism for quantifying research priorities and resource availability",
+            "No hypothesis or baseline to evaluate the proposed system"
+          ],
+          "fixable_flaws": [
+            "Need to specify theoretical framework (e.g., multi-armed bandits, reinforcement learning)",
+            "Should define metrics for research priority assessment",
+            "Requires mathematical formulation of the scheduling optimization problem"
+          ],
+          "decision": "revise",
+          "justification": "The concept lacks theoretical grounding and mechanistic detail. Must provide mathematical framework and justification for why this approach would outperform existing methods."
+        },
+        {
+          "reviewer": "Reproducibility Reviewer",
+          "score": 2,
+          "fatal_flaws": [
+            "No dataset specified or made publicly available",
+            "No mention of fixed seeds for experimental reproducibility",
+            "No computational environment documentation",
+            "No code availability"
+          ],
+          "fixable_flaws": [
+            "Could potentially add dataset information in revision",
+            "Could specify fixed seeds and random initialization procedures",
+            "Could document computational requirements and environment setup"
+          ],
+          "decision": "reject",
+          "justification": "The paper lacks fundamental reproducibility components including dataset specification, fixed seeds, computational documentation, and code availability, making it impossible to verify or build upon the claimed results."
+        }
+      ]
+    },
+    {
+      "idea_id": "I04",
+      "average_score": 3.75,
+      "phase1_avg": 3.75,
+      "decision": "reject",
+      "next_action": "RUN_ADDITIONAL_SEARCH",
+      "fatal_flaws": [
+        "Missing dataset and baseline specifications",
+        "No clear implementation plan for repository construction and maintenance",
+        "No falsifiable hypothesis is stated",
+        "No fair baselines are defined for comparison",
+        "No seeds or initial data points are specified",
+        "No compute requirements or infrastructure details are provided",
+        "Theoretical foundation is unclear (3 fatal flaws identified by Theory/Mechanism reviewer)",
+        "Reproducibility issues are significant (3 fatal flaws identified by Reproducibility reviewer)",
+        "No theoretical justification explaining why failure patterns in continual learning are systematic rather than random",
+        "Missing mechanism for how researchers would practically use the repository to avoid mistakes",
+        "No code provided or linked",
+        "No datasets mentioned or linked",
+        "No computational requirements specified",
+        "No information about fixed seeds or random number generation"
+      ],
+      "fixable_flaws": [
+        "Need to define categorization schema for failure patterns",
+        "Specify retrieval mechanisms and interfaces",
+        "Outline methods for validating and curating repository entries",
+        "Could benefit from clearer problem formulation",
+        "Evaluation methodology needs to be specified",
+        "Implementation details are missing",
+        "No clear implementation plan for how the repository would be populated and maintained",
+        "Missing evaluation methodology or ablation test mechanism",
+        "No positioning relative to existing literature on knowledge sharing in ML"
+      ],
+      "revised_idea": null,
+      "reviewers": [
+        {
+          "reviewer": "Novelty Reviewer",
+          "score": 8,
+          "fatal_flaws": [
+            "Missing dataset and baseline specifications",
+            "No clear implementation plan for repository construction and maintenance"
+          ],
+          "fixable_flaws": [
+            "Need to define categorization schema for failure patterns",
+            "Specify retrieval mechanisms and interfaces",
+            "Outline methods for validating and curating repository entries"
+          ],
+          "decision": "revise",
+          "justification": "The failure pattern repository concept is novel in continual learning, though related repositories exist in other domains. It lacks essential implementation details and validation approaches."
+        },
+        {
+          "reviewer": "Experimental Reviewer",
+          "score": 2,
+          "fatal_flaws": [
+            "No falsifiable hypothesis is stated",
+            "No fair baselines are defined for comparison",
+            "No seeds or initial data points are specified",
+            "No compute requirements or infrastructure details are provided",
+            "Theoretical foundation is unclear (3 fatal flaws identified by Theory/Mechanism reviewer)",
+            "Reproducibility issues are significant (3 fatal flaws identified by Reproducibility reviewer)"
+          ],
+          "fixable_flaws": [
+            "Could benefit from clearer problem formulation",
+            "Evaluation methodology needs to be specified",
+            "Implementation details are missing"
+          ],
+          "decision": "reject",
+          "justification": "The proposal lacks essential experimental components including a falsifiable hypothesis, fair baselines, and implementation details. With 6 fatal flaws identified across prior reviews, the work is not ready for acceptance."
+        },
+        {
+          "reviewer": "Theory/Mechanism Reviewer",
+          "score": 3,
+          "fatal_flaws": [
+            "No theoretical justification explaining why failure patterns in continual learning are systematic rather than random",
+            "Missing mechanism for how researchers would practically use the repository to avoid mistakes"
+          ],
+          "fixable_flaws": [
+            "No clear implementation plan for how the repository would be populated and maintained",
+            "Missing evaluation methodology or ablation test mechanism",
+            "No positioning relative to existing literature on knowledge sharing in ML"
+          ],
+          "decision": "reject",
+          "justification": "The idea lacks sufficient theoretical foundation and practical implementation details. While the concept of documenting failures has merit, there's no clear mechanism for why this would systematically improve continual learning research or how it would be integrated into existing workflows."
+        },
+        {
+          "reviewer": "Reproducibility Reviewer",
+          "score": 2,
+          "fatal_flaws": [
+            "No code provided or linked",
+            "No datasets mentioned or linked",
+            "No computational requirements specified",
+            "No information about fixed seeds or random number generation"
+          ],
+          "fixable_flaws": [],
+          "decision": "reject",
+          "justification": "The paper provides no information about code availability, datasets, computational requirements, or experimental setup, making it impossible to reproduce or build upon the proposed failure pattern repository."
+        }
+      ]
+    },
+    {
+      "idea_id": "I05",
+      "average_score": 4,
+      "phase1_avg": 4,
+      "decision": "reject",
+      "next_action": "RUN_ADDITIONAL_SEARCH",
+      "fatal_flaws": [
+        "No falsifiable hypothesis is stated",
+        "No fair baselines are identified",
+        "No seeds or initialization methods are specified",
+        "No compute requirements are outlined",
+        "Prior reviews indicate multiple fatal flaws in novelty, theory, and reproducibility",
+        "The core concept of visualizing research evolution is not novel without a unique contribution.",
+        "There is no proposed experimental validation (e.g., user study) to demonstrate the tool's utility.",
+        "No information provided about code availability",
+        "No details about dataset used for the visualization tool",
+        "No information about computational requirements or environment"
+      ],
+      "fixable_flaws": [
+        "Need to formulate a clear hypothesis about what the visualization tool will achieve",
+        "Need to identify existing visualization tools as baselines",
+        "Need to specify initialization methods or seeds for the visualization",
+        "Need to outline computational requirements",
+        "The methodology for extracting and linking 'ideas' from papers is completely undefined.",
+        "The specific novel contribution of this tool over existing bibliometric software is not articulated.",
+        "A clear hypothesis and evaluation plan are missing."
+      ],
+      "revised_idea": null,
+      "reviewers": [
+        {
+          "reviewer": "Novelty Reviewer",
+          "score": 9,
+          "fatal_flaws": [],
+          "fixable_flaws": [],
+          "decision": "accept",
+          "justification": "The Idea Evolution Visualizer for Continual Learning appears novel as none of the prior works focus on visualizing idea evolution over time. This tool could provide valuable insights into research trajectories and identify emerging patterns in the field."
+        },
+        {
+          "reviewer": "Experimental Reviewer",
+          "score": 2,
+          "fatal_flaws": [
+            "No falsifiable hypothesis is stated",
+            "No fair baselines are identified",
+            "No seeds or initialization methods are specified",
+            "No compute requirements are outlined",
+            "Prior reviews indicate multiple fatal flaws in novelty, theory, and reproducibility"
+          ],
+          "fixable_flaws": [
+            "Need to formulate a clear hypothesis about what the visualization tool will achieve",
+            "Need to identify existing visualization tools as baselines",
+            "Need to specify initialization methods or seeds for the visualization",
+            "Need to outline computational requirements"
+          ],
+          "decision": "reject",
+          "justification": "The proposal lacks essential experimental components including a falsifiable hypothesis, baselines, seeds, and compute requirements. Prior reviews indicate multiple fatal flaws across novelty, theory, and reproducibility dimensions."
+        },
+        {
+          "reviewer": "Theory/Mechanism Reviewer",
+          "score": 3,
+          "fatal_flaws": [
+            "The core concept of visualizing research evolution is not novel without a unique contribution.",
+            "There is no proposed experimental validation (e.g., user study) to demonstrate the tool's utility."
+          ],
+          "fixable_flaws": [
+            "The methodology for extracting and linking 'ideas' from papers is completely undefined.",
+            "The specific novel contribution of this tool over existing bibliometric software is not articulated.",
+            "A clear hypothesis and evaluation plan are missing."
+          ],
+          "decision": "revise",
+          "justification": "The idea lacks a clear novel contribution and, critically, any plan for experimental validation. It needs a detailed methodology for idea extraction and a user study to prove its utility."
+        },
+        {
+          "reviewer": "Reproducibility Reviewer",
+          "score": 2,
+          "fatal_flaws": [
+            "No information provided about code availability",
+            "No details about dataset used for the visualization tool",
+            "No information about computational requirements or environment"
+          ],
+          "fixable_flaws": [],
+          "decision": "reject",
+          "justification": "The paper lacks essential reproducibility information including code availability, dataset details, and computational specifications. Without these elements, it's impossible to verify or reproduce the reported visualization tool."
+        }
+      ]
+    },
+    {
+      "idea_id": "I06",
+      "average_score": 3,
+      "phase1_avg": 3,
+      "decision": "reject",
+      "next_action": "RUN_ADDITIONAL_SEARCH",
+      "fatal_flaws": [
+        "The proposal lacks a concrete, novel mechanism for generating multi-perspective reviews, rendering it a high-level concept rather than an inventive system.",
+        "Hypothesis not clearly stated",
+        "No dataset specified",
+        "No baselines mentioned",
+        "No seed information provided",
+        "No compute requirements specified",
+        "Lack of reproducibility (4 fatal flaws in reproducibility reviews)",
+        "The core concept of 'expert perspectives' is not defined, making the proposal a high-level idea without a concrete, testable mechanism.",
+        "The system appears to be a repackaging of existing evaluation metrics (e.g., accuracy, forgetting rate) rather than a novel evaluation framework or theory.",
+        "No results provided (RESULTS marked as N/A)",
+        "No information about data availability",
+        "No mention of fixed random seeds",
+        "No computational requirements documented",
+        "No code repository provided"
+      ],
+      "fixable_flaws": [
+        "The idea needs a detailed technical contribution, such as a new algorithm, model architecture, or evaluation framework, to be considered novel and impactful.",
+        "Need to clearly state the hypothesis",
+        "Need to specify the dataset used",
+        "Need to establish fair baselines",
+        "Need to provide seed information",
+        "Need to detail compute requirements",
+        "The proposal lacks a detailed architecture for the review system, including how perspectives are generated and how the final review is synthesized.",
+        "The contribution is ambiguous; it is unclear if the work is a new benchmark, a software framework, or a theoretical analysis.",
+        "The proposed experiments, dataset, and baselines are not specified, making it impossible to assess the system's effectiveness.",
+        "Provide complete experimental results",
+        "Document data sources and preprocessing",
+        "Specify random seeds used in experiments",
+        "Include computational requirements",
+        "Release code with clear documentation"
+      ],
+      "revised_idea": null,
+      "reviewers": [
+        {
+          "reviewer": "Novelty Reviewer",
+          "score": 3,
+          "fatal_flaws": [
+            "The proposal lacks a concrete, novel mechanism for generating multi-perspective reviews, rendering it a high-level concept rather than an inventive system."
+          ],
+          "fixable_flaws": [
+            "The idea needs a detailed technical contribution, such as a new algorithm, model architecture, or evaluation framework, to be considered novel and impactful."
+          ],
+          "decision": "revise",
+          "justification": "The idea is not directly similar to the provided prior work, but it is too vague to be considered novel. A harsh novelty review requires a concrete, inventive contribution, which is currently missing."
+        },
+        {
+          "reviewer": "Experimental Reviewer",
+          "score": 3,
+          "fatal_flaws": [
+            "Hypothesis not clearly stated",
+            "No dataset specified",
+            "No baselines mentioned",
+            "No seed information provided",
+            "No compute requirements specified",
+            "Lack of reproducibility (4 fatal flaws in reproducibility reviews)"
+          ],
+          "fixable_flaws": [
+            "Need to clearly state the hypothesis",
+            "Need to specify the dataset used",
+            "Need to establish fair baselines",
+            "Need to provide seed information",
+            "Need to detail compute requirements"
+          ],
+          "decision": "reject",
+          "justification": "The paper lacks essential experimental details including hypothesis, dataset, baselines, and reproducibility measures. With 4 fatal reproducibility flaws identified by reviewers, the paper cannot be properly evaluated."
+        },
+        {
+          "reviewer": "Theory/Mechanism Reviewer",
+          "score": 4,
+          "fatal_flaws": [
+            "The core concept of 'expert perspectives' is not defined, making the proposal a high-level idea without a concrete, testable mechanism.",
+            "The system appears to be a repackaging of existing evaluation metrics (e.g., accuracy, forgetting rate) rather than a novel evaluation framework or theory."
+          ],
+          "fixable_flaws": [
+            "The proposal lacks a detailed architecture for the review system, including how perspectives are generated and how the final review is synthesized.",
+            "The contribution is ambiguous; it is unclear if the work is a new benchmark, a software framework, or a theoretical analysis.",
+            "The proposed experiments, dataset, and baselines are not specified, making it impossible to assess the system's effectiveness."
+          ],
+          "decision": "revise",
+          "justification": "The proposal addresses a valid need for more nuanced CL evaluation but is currently too abstract and lacks a novel, concrete contribution. The authors must define the 'expert perspectives' and demonstrate how their system provides unique, actionable insights beyond existing metrics."
+        },
+        {
+          "reviewer": "Reproducibility Reviewer",
+          "score": 2,
+          "fatal_flaws": [
+            "No results provided (RESULTS marked as N/A)",
+            "No information about data availability",
+            "No mention of fixed random seeds",
+            "No computational requirements documented",
+            "No code repository provided"
+          ],
+          "fixable_flaws": [
+            "Provide complete experimental results",
+            "Document data sources and preprocessing",
+            "Specify random seeds used in experiments",
+            "Include computational requirements",
+            "Release code with clear documentation"
+          ],
+          "decision": "reject",
+          "justification": "The paper lacks essential reproducibility components and fails to provide results, making it impossible to evaluate the proposed system's effectiveness."
+        }
+      ]
+    }
+  ],
+  "experiment_candidates": [],
+  "approval_status": {},
+  "micro_probe_results": [],
+  "probe_results": [],
+  "ablation_results": [],
+  "mvp_results": [],
+  "failed_ideas": [
+    {
+      "idea_id": "I01",
+      "title": "Idea Provenance Tracker for Continual Learning Systems",
+      "reason": "Reviewer Council rejected the idea."
+    },
+    {
+      "idea_id": "I02",
+      "title": "Dynamic Review Feedback Generator for Continual Learning",
+      "reason": "Reviewer Council rejected the idea."
+    },
+    {
+      "idea_id": "I03",
+      "title": "Adaptive Experiment Scheduling for Continual Learning Research",
+      "reason": "Reviewer Council rejected the idea."
+    },
+    {
+      "idea_id": "I04",
+      "title": "Failure Pattern Repository for Continual Learning",
+      "reason": "Reviewer Council rejected the idea."
+    },
+    {
+      "idea_id": "I05",
+      "title": "Idea Evolution Visualizer for Continual Learning",
+      "reason": "Reviewer Council rejected the idea."
+    },
+    {
+      "idea_id": "I06",
+      "title": "Multi-Perspective Review System for Continual Learning",
+      "reason": "Reviewer Council rejected the idea."
+    }
+  ],
+  "validation_results": [],
+  "paper_readiness_level": "RRL-0",
+  "final_output_path": "/Users/mohanganesh/OpenClaw-Lab/openresearchos/runs/run_20260602163945_continual-learning-catastrophic-fo_c9523c/research_failure_report.md",
+  "history": [
+    {
+      "at": "2026-06-02T16:40:34.870Z",
+      "state": "TOPIC_SCOPED",
+      "detail": "The topic can be explored with small simulations, synthetic data, or lightweight local experiments on the Mac."
+    },
+    {
+      "at": "2026-06-02T16:40:34.870Z",
+      "state": "SEARCH_PLAN_CREATED",
+      "detail": "15 queries created (LLM-generated)."
+    },
+    {
+      "at": "2026-06-02T16:40:38.696Z",
+      "state": "LITERATURE_DISCOVERY_RUNNING",
+      "detail": "Starting structured literature discovery."
+    },
+    {
+      "at": "2026-06-02T16:40:51.298Z",
+      "state": "EVIDENCE_LOCKED",
+      "detail": "69 papers found (target was 50+)."
+    },
+    {
+      "at": "2026-06-02T16:56:35.072Z",
+      "state": "RESEARCH_MAP_READY",
+      "detail": "Research map generated."
+    },
+    {
+      "at": "2026-06-02T16:56:35.073Z",
+      "state": "GAPS_IDENTIFIED",
+      "detail": "5 gaps identified."
+    },
+    {
+      "at": "2026-06-02T16:56:37.796Z",
+      "state": "IDEA_TREE_GENERATED",
+      "detail": "Generating grounded ideas from method comparison matrix."
+    },
+    {
+      "at": "2026-06-02T16:57:09.875Z",
+      "state": "REVIEWER_PASS_1_RUNNING",
+      "detail": "Multi-turn adversarial Reviewer Council started."
+    },
+    {
+      "at": "2026-06-02T17:16:36.557Z",
+      "state": "IDEAS_REVISED_OR_REJECTED",
+      "detail": "6 ideas rejected; 0 candidates retained."
+    },
+    {
+      "at": "2026-06-02T17:16:36.557Z",
+      "state": "NOVELTY_TRIBUNAL_RUNNING",
+      "detail": "Near-duplicate comparison completed against evidence index and Semantic Scholar."
+    },
+    {
+      "at": "2026-06-02T17:16:36.557Z",
+      "state": "IDEAS_SHORTLISTED",
+      "detail": "0 ideas available for experiment planning (validated by real micro-probes)."
+    },
+    {
+      "at": "2026-06-02T17:16:36.557Z",
+      "state": "MICRO_PROBE_REVIEWED",
+      "detail": "0 ideas tested on Mac terminal. 0 show real signal."
+    },
+    {
+      "at": "2026-06-02T17:17:52.020Z",
+      "state": "PAPER_READINESS_REVIEW",
+      "detail": "research_failure_report_required"
+    },
+    {
+      "at": "2026-06-02T17:17:52.023Z",
+      "state": "PAPER_DRAFTED_OR_STOPPED",
+      "detail": "Failure report produced."
+    },
+    {
+      "at": "2026-06-02T17:17:52.023Z",
+      "state": "VENUE_FIT_DONE",
+      "detail": "Venue fit written."
+    },
+    {
+      "at": "2026-06-02T17:17:52.023Z",
+      "state": "TRACE_EXPORTED",
+      "detail": "Trace export command written."
+    }
+  ],
+  "discovery_errors": [],
+  "method_matrix": []
+}

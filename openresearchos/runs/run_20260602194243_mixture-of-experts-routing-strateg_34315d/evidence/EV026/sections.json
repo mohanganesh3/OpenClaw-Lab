@@ -1,0 +1,6 @@
+{
+  "introduction": "[2106.04426] Hash Layers For Large Sparse Models\n\nHash Layers For Large Sparse Models\n\nStephen Roller  Sainbayar Sukhbaatar  Arthur Szlam  Jason Weston\n\nFacebook AI Research\n\nAbstract\n\nWe investigate ",
+  "method": "ing  [ 8 ] . MoE models allow increasing the number of parameters in the model while holding steady the number of computations that affect a given sample.\n\nA key component to a MoE model is the routin",
+  "results": "d in which conditions. Given that when training very large models one may typically have only one shot given the required compute budget, and experimenters will be unable to try many parameter choices",
+  "conclusion": "er is composed of self-attention and FFN sublayers, where FFNs are two-layer fully connected networks\n\n𝐡  ¯\n\nt  l\n\n=\n\nSelfAttn  ​\n\n(\n\n𝐡  t\n\nl  −  1\n\n)\n\n𝐡  t  l\n\n=\n\nFFN  ​\n\n(\n\n𝐡  ¯\n\nt  l\n\n)\n\n.\n\nfor"
+}

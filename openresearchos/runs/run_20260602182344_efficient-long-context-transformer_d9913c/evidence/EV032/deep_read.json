@@ -1,0 +1,44 @@
+{
+  "title": "Sparse Multi-Modal Transformer with Masking for Alzheimer's Disease Classification",
+  "method_name": "Sparse Multi-Modal Transformer with Masking",
+  "acronym": "SMMT",
+  "application_domain": "Alzheimer's Disease Classification",
+  "problem_statement": "To address the limitations of existing multi-modal transformers for AD classification, which suffer from high computational cost and poor performance with missing data.",
+  "method_details": {
+    "type": "Hybrid fusion framework",
+    "key_innovations": [
+      "Cluster-based sparse attention mechanism to reduce computational cost.",
+      "Modality-wise masking strategy to improve generalization with incomplete data."
+    ],
+    "compared_to_model": "Cascaded Multi-Modal Mixing Transformer (3MT)",
+    "limitations_of_compared_model": [
+      "Computational complexity scales quadratically with sequence length (O(n^2)).",
+      "Lacks explicit mechanisms to handle missing modalities."
+    ]
+  },
+  "data_and_dataset": {
+    "data_modalities": [
+      "Structural MRI",
+      "Cognitive scores",
+      "Genetic markers"
+    ],
+    "dataset_used": "ADNI"
+  },
+  "results_and_performance": {
+    "accuracy_full_data": "97.05%",
+    "accuracy_low_data": "84.96%",
+    "low_data_percentage": "20%",
+    "efficiency_improvement": "40.4% reduction in training energy consumption compared to 3MT."
+  },
+  "evidence_id": "EV032",
+  "year": 2025,
+  "arxiv_id": "2512.14491",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

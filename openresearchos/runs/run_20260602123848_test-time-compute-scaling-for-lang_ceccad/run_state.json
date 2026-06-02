@@ -1,0 +1,244 @@
+{
+  "schema_version": 1,
+  "run_id": "run_20260602123848_test-time-compute-scaling-for-lang_ceccad",
+  "topic": "test-time compute scaling for language models",
+  "created_at": "2026-06-02T12:39:42.182Z",
+  "updated_at": "2026-06-02T13:19:57.876Z",
+  "current_state": "TRACE_EXPORTED",
+  "scope_classification": {
+    "label": "local_experiment",
+    "rationale": "The topic can be explored with small simulations, synthetic data, or lightweight local experiments on the Mac.",
+    "feasibility_note": "Yes, this research topic is highly feasible on a MacBook M4 with 36GB RAM, as it involves inference-time experiments rather than training, which the MPS GPU handles well. Suitable public datasets include MMLU for broad knowledge testing, GSM8K for mathematical reasoning, and HumanEval for code generation. Experimenting with a model like Llama 3 8B, comparing zero-shot and Chain-of-Thought prompting across these datasets, would likely take a few hours to complete."
+  },
+  "search_queries": [
+    "Chain of Thought",
+    "Tree of Thoughts",
+    "Self-consistency inference",
+    "Test-time training",
+    "Compute scaling inference",
+    "Math problem solving",
+    "Code generation",
+    "Scientific reasoning",
+    "Reasoning benchmarks",
+    "GSM8K scaling",
+    "Inference cost limits",
+    "Diminishing returns inference",
+    "Distilled LLM models",
+    "Retrieval augmented generation",
+    "LLM reasoning survey"
+  ],
+  "evidence_ids": [
+    "EV001",
+    "EV002",
+    "EV003",
+    "EV004",
+    "EV005",
+    "EV006",
+    "EV007",
+    "EV008",
+    "EV009",
+    "EV010",
+    "EV011",
+    "EV012",
+    "EV013",
+    "EV014",
+    "EV015",
+    "EV016",
+    "EV017",
+    "EV018",
+    "EV019",
+    "EV020",
+    "EV021",
+    "EV022",
+    "EV023",
+    "EV024",
+    "EV025",
+    "EV026",
+    "EV027",
+    "EV028",
+    "EV029",
+    "EV030",
+    "EV031",
+    "EV032",
+    "EV033",
+    "EV034",
+    "EV035",
+    "EV036",
+    "EV037",
+    "EV038",
+    "EV039",
+    "EV040",
+    "EV041",
+    "EV042",
+    "EV043",
+    "EV044",
+    "EV045",
+    "EV046",
+    "EV047",
+    "EV048",
+    "EV049",
+    "EV050",
+    "EV051",
+    "EV052",
+    "EV053",
+    "EV054",
+    "EV055",
+    "EV056",
+    "EV057",
+    "EV058",
+    "EV059",
+    "EV060",
+    "EV061",
+    "EV062",
+    "EV063",
+    "EV064",
+    "EV065",
+    "EV066",
+    "EV067",
+    "EV068",
+    "EV069",
+    "EV070"
+  ],
+  "parsed_papers": [],
+  "claim_graph": {
+    "claims": [],
+    "links": []
+  },
+  "research_gaps": [
+    {
+      "gap_id": "G01",
+      "text": "While test-time compute scaling (e.g., via Chain-of-Thought or self-consistency) improves performance, the formal relationship between compute and capability is unknown. We lack a 'scaling law' for test-time compute, making it difficult to predict performance gains from increased inference cost.",
+      "keywords": [],
+      "evidence_ids": [
+        "EV001",
+        "EV002"
+      ],
+      "testable": true,
+      "difficulty": "medium",
+      "source": "llm"
+    },
+    {
+      "gap_id": "G02",
+      "text": "Increasing test-time compute dramatically raises inference latency and monetary cost. There is no established framework for determining the optimal amount of compute to allocate for a given task under specific budget or latency constraints.",
+      "keywords": [],
+      "evidence_ids": [
+        "EV003"
+      ],
+      "testable": true,
+      "difficulty": "medium",
+      "source": "llm"
+    },
+    {
+      "gap_id": "G03",
+      "text": "We observe performance gains from techniques like Chain-of-Thought, but we lack a mechanistic understanding of *why* they work. It is unclear if the intermediate steps represent genuine reasoning or are simply a useful heuristic for the model.",
+      "keywords": [],
+      "evidence_ids": [
+        "EV001"
+      ],
+      "testable": true,
+      "difficulty": "hard",
+      "source": "llm"
+    },
+    {
+      "gap_id": "G04",
+      "text": "Most research demonstrates test-time scaling on a single domain (e.g., math). We don't know if the strategies that work best for one type of reasoning (e.g., arithmetic) are effective for others (e.g., commonsense, code generation).",
+      "keywords": [],
+      "evidence_ids": [
+        "EV001",
+        "EV004"
+      ],
+      "testable": true,
+      "difficulty": "medium",
+      "source": "llm"
+    },
+    {
+      "gap_id": "G05",
+      "text": "Models are trained on static data, but test-time compute allows them to 'reason' over that data in new ways. We don't know how to train models specifically to be more amenable to test-time scaling, or how pre-training data influences its effectiveness.",
+      "keywords": [],
+      "evidence_ids": [
+        "EV005"
+      ],
+      "testable": true,
+      "difficulty": "hard",
+      "source": "llm"
+    },
+    {
+      "gap_id": "G06",
+      "text": "Most research focuses on scaling within a single modality (text). How does test-time compute scaling work when a model must integrate information from multiple modalities, like images and text, or interact with external tools?",
+      "keywords": [],
+      "evidence_ids": [
+        "EV003",
+        "EV006"
+      ],
+      "testable": true,
+      "difficulty": "hard",
+      "source": "llm"
+    }
+  ],
+  "idea_tree": [],
+  "reviewer_scores": [],
+  "experiment_candidates": [],
+  "approval_status": {},
+  "micro_probe_results": [],
+  "probe_results": [],
+  "ablation_results": [],
+  "mvp_results": [],
+  "failed_ideas": [],
+  "validation_results": [],
+  "paper_readiness_level": "RRL-0",
+  "final_output_path": "/Users/mohanganesh/OpenClaw-Lab/openresearchos/runs/run_20260602123848_test-time-compute-scaling-for-lang_ceccad/research_failure_report.md",
+  "history": [
+    {
+      "at": "2026-06-02T12:39:42.182Z",
+      "state": "TOPIC_SCOPED",
+      "detail": "The topic can be explored with small simulations, synthetic data, or lightweight local experiments on the Mac."
+    },
+    {
+      "at": "2026-06-02T12:39:42.182Z",
+      "state": "SEARCH_PLAN_CREATED",
+      "detail": "15 queries created (LLM-generated)."
+    },
+    {
+      "at": "2026-06-02T12:39:46.367Z",
+      "state": "LITERATURE_DISCOVERY_RUNNING",
+      "detail": "Starting structured literature discovery."
+    },
+    {
+      "at": "2026-06-02T12:39:59.636Z",
+      "state": "EVIDENCE_LOCKED",
+      "detail": "70 papers found (target was 50+)."
+    },
+    {
+      "at": "2026-06-02T12:55:54.669Z",
+      "state": "RESEARCH_MAP_READY",
+      "detail": "Research map generated."
+    },
+    {
+      "at": "2026-06-02T12:55:54.670Z",
+      "state": "GAPS_IDENTIFIED",
+      "detail": "6 gaps identified."
+    },
+    {
+      "at": "2026-06-02T13:19:55.724Z",
+      "state": "PAPER_READINESS_REVIEW",
+      "detail": "research_failure_report_required"
+    },
+    {
+      "at": "2026-06-02T13:19:55.730Z",
+      "state": "PAPER_DRAFTED_OR_STOPPED",
+      "detail": "Failure report produced."
+    },
+    {
+      "at": "2026-06-02T13:19:55.730Z",
+      "state": "VENUE_FIT_DONE",
+      "detail": "Venue fit written."
+    },
+    {
+      "at": "2026-06-02T13:19:55.730Z",
+      "state": "TRACE_EXPORTED",
+      "detail": "Trace export command written."
+    }
+  ],
+  "discovery_errors": [],
+  "method_matrix": []
+}

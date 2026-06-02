@@ -1,0 +1,6 @@
+{
+  "introduction": "[2604.21396] VG-CoT: Towards Trustworthy Visual Reasoning via Grounded Chain-of-Thought\n\nVG-CoT: Towards Trustworthy Visual Reasoning via Grounded Chain-of-Thought\n\nAbstract\n\nThe advancement of Large ",
+  "method": "rsity 1\n\nDepartment of Artificial Intelligence, Chung-Ang University 2\n\n{banggeuk, khyun8072, cocoro357, ybkim85}@cau.ac.kr\n\nAbstract content\n\n1.  Introduction\n\nThe development of Large Language Model",
+  "results": "ships or multi-step reasoning. This suggests the need for a dataset that can support the learning of complex, local region-based reasoning in a scalable and efficient manner.\n\nExisting multimodal Chai",
+  "conclusion": "ii) Finally, using the generated reasoning process as a clue, visual evidence is more precisely captured through a text-based object detection model. This automated pipeline effectively solves the cos"
+}

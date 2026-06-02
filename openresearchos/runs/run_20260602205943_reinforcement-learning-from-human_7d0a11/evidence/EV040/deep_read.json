@@ -1,0 +1,52 @@
+{
+  "title": "Bridging the Gap in Vision Language Models in Identifying Unsafe Concepts Across Modalities",
+  "code_availability": "https://github.com/TrustAIRLab/SaferVLM",
+  "disclaimer": "This paper shows examples of unsafe concepts/images. Reader discretion is advised.",
+  "introduction": {
+    "models_mentioned": [
+      "GPT-4V",
+      "LLaVA",
+      "GPT-4o"
+    ],
+    "applications": [
+      "content moderation"
+    ],
+    "unsafe_concepts": [
+      "hate symbols",
+      "violent imagery",
+      "sexually explicit content"
+    ],
+    "key_challenge": "modality gap - inconsistencies in VLMs' responses depending on whether input is text or image"
+  },
+  "research_questions": [
+    "Can VLMs effectively recognize various unsafe concepts? Does the modality gap consistently exist in VLMs when identifying unsafe concepts across different modalities?",
+    "If the modality gap consistently exists, how can we bridge the gap with the minimum impact on VLMs' general capabilities?"
+  ],
+  "methodology": {
+    "dataset": {
+      "name": "UnsafeConcepts",
+      "size": "75 unsafe concepts and 1.5K associated images",
+      "categories": "nine categories"
+    },
+    "definitions": {
+      "visual_unsafe_concept": "an image that presents a certain unsafe concept",
+      "textual_unsafe_concept": "text describing an unsafe concept"
+    },
+    "models_tested": "eight popular models (both open-source and commercial VLMs)",
+    "evaluation_metrics": [
+      "perception",
+      "alignment"
+    ]
+  },
+  "evidence_id": "EV040",
+  "year": 2025,
+  "arxiv_id": "2507.11155",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

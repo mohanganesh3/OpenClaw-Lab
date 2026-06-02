@@ -1,0 +1,44 @@
+{
+  "title": "Structural Anchors and Reasoning Fragility:Understanding CoT Robustness in LLM4Code",
+  "authors": "Not specified in excerpt",
+  "abstract": "This paper examines the robustness of Chain-of-Thought (CoT) prompting in Large Language Models for Code (LLM4Code), identifying three trajectory deformations (Lengthening, Branching, and Simplification) and suggesting design principles for more robust reasoning-based code generators.",
+  "methodology": {
+    "approach": "Analysis of how perturbations interact with structural anchors in reasoning trajectories",
+    "focus": "Examining failure modes under different perturbations and measuring predictive power of early-stage uncertainty",
+    "metrics": "AUROC (Area Under Receiver Operating Characteristic) for uncertainty prediction"
+  },
+  "key_findings": [
+    "CoT is not universally beneficial for code generation robustness",
+    "Its value depends on how perturbations interact with structurally sensitive anchors",
+    "When anchors are destabilized, reasoning trajectories exhibit specific patterns (Lengthening, Branching, Simplification) that correlate with failures",
+    "Early-stage uncertainty is weakly predictive of final correctness (AUROC ≈ 0.55–0.60) but serves as a diagnostic signal"
+  ],
+  "design_principles": [
+    "Anchor-aware training",
+    "Perturbation-aware prompting",
+    "Uncertainty-guided trajectory monitoring"
+  ],
+  "index_terms": [
+    "Large Language Model",
+    "Large Language Model for Code",
+    "Model Robustness",
+    "Chain-of-Thought (CoT)",
+    "Uncertainty"
+  ],
+  "introduction_highlights": [
+    "LLM4Code models like CodeLlama, DeepSeek-Coder, and Qwen have shown impressive capabilities but remain unstable under prompt variations",
+    "Robust reasoning is crucial for agentic software engineering systems that interact with external tools",
+    "Minor linguistic perturbations can drastically change reasoning behavior and output correctness"
+  ],
+  "evidence_id": "EV009",
+  "year": 2026,
+  "arxiv_id": "2604.12214",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

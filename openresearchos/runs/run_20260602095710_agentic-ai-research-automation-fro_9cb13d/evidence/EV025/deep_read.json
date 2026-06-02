@@ -1,0 +1,34 @@
+{
+  "method_summary": "End-to-end analysis of AI across the complete research lifecycle, organized into four epistemological phases: Creation, Writing, Validation, and Dissemination, studying developments through April 2026.",
+  "key_innovation": "Identification of a sharp, stage-dependent boundary between reliable assistance and unreliable autonomy in AI systems for research, along with a structured taxonomy, benchmark suite, and tool inventory.",
+  "datasets_used": [],
+  "baselines_compared": [],
+  "key_results": {},
+  "best_result": "",
+  "limitations_stated": [
+    "AI systems still fabricate results under scientific pressure",
+    "AI systems miss hidden errors",
+    "AI systems fail to judge novelty reliably",
+    "Generated ideas often degrade after implementation",
+    "Research code lags behind pattern-matching benchmarks",
+    "End-to-end autonomous systems haven't consistently reached major-venue acceptance standards",
+    "Greater automation can obscure rather than eliminate failure modes"
+  ],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "low",
+  "compute_required": "",
+  "can_run_on_macbook": false,
+  "evidence_id": "EV025",
+  "title": "AI for Auto-Research: Roadmap &amp; User Guide",
+  "year": 2026,
+  "arxiv_id": "2605.18661",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 5826,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

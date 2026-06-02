@@ -1,0 +1,28 @@
+{
+  "method_summary": "The paper describes a software tool that generates academic articles by analyzing Python code and datasets, without using advanced language models.",
+  "key_innovation": "A software tool for automated academic article generation that operates without reliance on advanced language model agents.",
+  "datasets_used": [],
+  "baselines_compared": [],
+  "key_results": {},
+  "best_result": "",
+  "limitations_stated": [
+    "The paper does not explicitly state any limitations."
+  ],
+  "code_available": true,
+  "code_url": "Not specified in the provided text",
+  "reproducibility": "Not specified in the provided text",
+  "compute_required": "Not specified in the provided text",
+  "can_run_on_macbook": false,
+  "evidence_id": "EV032",
+  "title": "The Future of Scientific Publishing: Automated Article Generation",
+  "year": 2024,
+  "arxiv_id": "2404.17586",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 5305,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

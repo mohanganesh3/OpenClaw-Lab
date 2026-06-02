@@ -1,0 +1,10 @@
+# EV014: Turbulence Blur Text Extraction with Large Reasoning Models Ensemble Attention & Context Engineering
+
+URL: https://www.semanticscholar.org/paper/00521acb8d135fc6abf1928ce271b90c41288c74
+Year: 2025
+Source: semantic_scholar
+Arxiv: n/a
+
+## Abstract
+
+Atmospheric turbulence severely degrades text visibility in long-range optical imaging, rendering traditional optical character recognition (OCR) nearly ineffective with accuracy rates of only $\mathbf{6}-\mathbf{1 2} \boldsymbol{\%}$. Standard vision-language models (VLMs) show marginal improvement at $\mathbf{9 - 1 5 \%}$ accuracy, revealing fundamental limitations of pattern-matching approaches for severely distorted images. This paper introduces a novel framework that leverages Large Reasoning MultiModals (LRMs) through an attention-guided ensemble architecture with context engineering and chain-of-thought prompting. Our approach integrates seven state-of-the-art reasoning models Gemini 2.5 Flash, Qwen2.5-VL-72B, DeepSeek-V3.1 (671 B hybrid reasoning model), GPT-4o, Claude 3.5 Sonnet, GLM-4.1V-Thinking, and Kimi-VL-combining their complementary reasoning capabilities through weighted consensus aggregation. The system employs a multi-scale spatial attention mechanism to identify text regions (achieving $16-34 \%$ coverage) and comprehensive context engineering to guide systematic text reconstruction. our ensemble achieves 84.7 % character accuracy, representing a $9.8 \times$ improvement over traditional OCR and $7.2 \times$ improvement over standard VLMs. Among individual models, DeepSeekV3.1's hybrid reasoning architecture achieves the highest singlemodel accuracy (61.8 %), demonstrating the effectiveness of large-scale mixture-of-experts architectures with thinking modes. This work establishes that reasoning capabilities, rather than pattern matching, are essential for text extraction under severe atmospheric distortion, opening new directions for robust visual understanding in challenging imaging conditions.

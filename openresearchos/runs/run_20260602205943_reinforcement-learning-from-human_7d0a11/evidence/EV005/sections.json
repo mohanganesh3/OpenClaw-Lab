@@ -1,0 +1,6 @@
+{
+  "introduction": "[2402.06734] Corruption Robust Offline Reinforcement Learning with Human Feedback\n\nCorruption Robust Offline Reinforcement Learning\n\nwith Human Feedback\n\nDebmalya Mandal\n Dept. of Computer Science\n Un",
+  "method": "assumptions. To our knowledge, ours is the first work that provides provable corruption robust offline RLHF methods.\n\n\\doparttoc  \\faketableofcontents\n\n1  Introduction\n\nReinforcement Learning from Hum",
+  "results": "raceful scalability amidst increasing corruption levels?\n\nType of Coverage\n\nSuboptimality Gap\n\nRobust RL Oracle\n\n# Oracle Calls\n\nUniform (\n\nξ\n\n𝜉\n\n\\xi\n\n)\n\nO  ​\n\n(\n\nH  3\n\n+\n\nH  ​  d\n\nξ\n\n​\n\nε\n\n1  −\n\no  ",
+  "conclusion": "we design a new robust offline RL method (algorithm (  7  )) that also returns an estimate of the sub-gradient (first order access). Using algorithm (  7  ), we can improve the dependence on\n\nε\n\n𝜀\n\n\\"
+}

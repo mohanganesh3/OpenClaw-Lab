@@ -1,0 +1,6 @@
+{
+  "introduction": "[2305.13937] Multi-agent Continual Coordination via Progressive Task Contextualization\n\nMulti-agent Continual Coordination via Progressive Task Contextualization\n\nLei Yuan 1,2 , Lihe Li 1 , Ziqian Zha",
+  "method": "[ 1 ] , and achieved great progress in multiple aspects, like path finding  [ 2 ] , active voltage control  [ 3 ] , and dynamic algorithm configuration  [ 4 ] . Among the multitudinous methods, resear",
+  "results": "del this problem as multi-task  [ 9 ]  or just uni-modal coordination among teammates  [ 28 ] . In light of the significance and ubiquity of cooperative MARL, it is thus imperative to consider the con",
+  "conclusion": "ility and its potential to be integrated with different value-based methods to enhance their continual learning ability. Visualization experiments provide additional insight into how MACPro works.\n\n2 "
+}

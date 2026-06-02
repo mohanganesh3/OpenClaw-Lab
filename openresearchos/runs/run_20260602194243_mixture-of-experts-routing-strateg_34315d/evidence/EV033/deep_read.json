@@ -1,0 +1,38 @@
+{
+  "method_summary": "SliceMoE is an architecture that routes contiguous slices of a token's hidden vector instead of entire tokens, with each slice processed by top-k experts and outputs reassembled to maintain per-token FLOP efficiency.",
+  "key_innovation": "Routing embedding slices instead of tokens for fine-grained and balanced Transformer scaling.",
+  "datasets_used": [
+    "WikiText-103",
+    "WMT En-De",
+    "three text-classification datasets"
+  ],
+  "baselines_compared": [
+    "parameter-matched token-MoE",
+    "dense baselines"
+  ],
+  "key_results": {
+    "inference_speed": "up to 1.7x faster",
+    "perplexity": "12 to 18 percent lower",
+    "expert_balance": "improved",
+    "expertise_interpretability": "syntactic versus semantic subspaces"
+  },
+  "best_result": "up to 1.7x faster inference than dense baselines",
+  "limitations_stated": [],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "medium",
+  "compute_required": "not specified",
+  "can_run_on_macbook": false,
+  "evidence_id": "EV033",
+  "title": "SliceMoE: Routing Embedding Slices Instead of Tokens for Fine-Grained and Balanced Transformer Scaling",
+  "year": 2025,
+  "arxiv_id": "2510.04286",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 5204,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

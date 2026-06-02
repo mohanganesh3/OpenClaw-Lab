@@ -1,0 +1,39 @@
+{
+  "paper_title": "Autoregressive Multi-trait Essay Scoring via Reinforcement Learning with Scoring-aware Multiple Rewards",
+  "method": {
+    "name": "Scoring-aware Multi-reward Reinforcement Learning (SaMRL)",
+    "key_components": [
+      "Constructs multiple rewards of bi-directional QWK and MSE penalty",
+      "Introduces trait-wise comparison for QWK",
+      "Integrates with batch-wise calculation to construct bi-directional QWK reward"
+    ],
+    "approach": "Treats AES as a generation paradigm, leveraging token generation probability distributions for policy gradient",
+    "advantages": [
+      "Enables direct parameter updates based on scoring-aware metrics (MSE or QWK) during training",
+      "Overcomes limitations of previous methods that were restricted to classification approach"
+    ]
+  },
+  "results": {
+    "datasets": [
+      "ASAP",
+      "ASAP++"
+    ],
+    "performance": "Scoring enhancement over robust baselines across traits and prompts",
+    "key_findings": [
+      "Comprehensive Analyses reveal robustness of SaMRL compared to single-reward applications and unidirectional use of QWK rewards",
+      "Significant improvements observed on prompts with broader score range"
+    ]
+  },
+  "evidence_id": "EV016",
+  "title": "Autoregressive Multi-trait Essay Scoring via Reinforcement Learning with Scoring-aware Multiple Rewards",
+  "year": 2024,
+  "arxiv_id": "2409.17472",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

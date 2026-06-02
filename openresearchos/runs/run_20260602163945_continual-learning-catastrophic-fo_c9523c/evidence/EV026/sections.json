@@ -1,0 +1,6 @@
+{
+  "introduction": "[2506.12409] Branch, or Layer? Zeroth-Order Optimization for Continual Learning of Vision-Language Models\n\nBranch, or Layer? Zeroth-Order Optimization for Continual Learning of Vision-Language Models\n",
+  "method": "volutional architectures (e.g., ResNet\n\nerd\n\n;\n\nres_2\n\n;\n\nres_3\n\n;\n\npose\n\nand ViT\n\nvit_1\n\n;\n\nvit_2\n\n;\n\nvit_3\n\n).\nRecently, Vision-Language Models (VLMs)-based CL approaches have attracted growing rese",
+  "results": "he application of zero-order (ZO) optimization in Vision-Language Continual Learning (VLCL) remains understudied. Therefore, we conduct an in-depth exploration of ZO in VLCL using the state-of-the-art",
+  "conclusion": "lity and exploration.\n\n•\n\nOur layer-wise granular approach selectively deploys ZO in specific layers alongside FO in others, leveraging their synergy to escape local optima and enhance optimization ef"
+}

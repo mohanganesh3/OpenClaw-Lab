@@ -1,0 +1,35 @@
+{
+  "method_summary": "RoPeSLR is a 3D RoPE-guided Sparse-LowRank attention framework that addresses the RoPE Dilemma by using a head-wise low-rank parameterization with learnable 3D Absolute Positional Embedding injection to preserve the orthogonal relative-position structure of 3D Rotary Position Embeddings.",
+  "key_innovation": "The decoupling of the DiT attention manifold into a high-frequency semantic spike set (O(L^(3/2)) sparsity) and an extreme low-rank (O(d_h log L)) background continuum while preserving 3D RoPE structure.",
+  "datasets_used": [
+    "Wan2.1-1.3B",
+    "HunyuanVideo-13B"
+  ],
+  "baselines_compared": [
+    "standard linear attention"
+  ],
+  "key_results": {
+    "FLOPs_reduction": "10× fewer FLOPs at 90% sparsity on Wan2.1-1.3B",
+    "inference_speedup": "2.26× end-to-end inference speedup on HunyuanVideo-13B",
+    "generation_fidelity": "less than 1.3% average VBench degradation"
+  },
+  "best_result": "10× fewer FLOPs at 90% sparsity on Wan2.1-1.3B",
+  "limitations_stated": [],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "not specified",
+  "compute_required": "not specified",
+  "can_run_on_macbook": false,
+  "evidence_id": "EV045",
+  "title": "RoPeSLR: 3D RoPE-driven Sparse-LowRank Attention for Efficient Diffusion Transformers",
+  "year": 2026,
+  "arxiv_id": "2605.20659",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 5763,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

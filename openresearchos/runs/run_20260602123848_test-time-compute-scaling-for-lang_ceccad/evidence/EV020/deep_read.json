@@ -1,0 +1,44 @@
+{
+  "title": "Vision-Language Models Struggle to Align Entities across Modalities",
+  "authors": [
+    {
+      "name": "ialonso",
+      "affiliation": "University of the Basque Country (UPV/EHU)",
+      "email": "ialonso@ed.ad.uk"
+    }
+  ],
+  "abstract": "This paper analyzes the capabilities of current Vision-Language Models (VLMs) for cross-modal entity linking. The authors introduce a new multimodal question-answering benchmark called MATE, which contains synthetic images of 3D scenes aligned with textual representations. The study finds that while humans achieve almost perfect performance, current VLMs struggle to consistently align attributes across modalities, especially in image-to-text tasks.",
+  "methodology": {
+    "benchmark_name": "MATE (Multimodal Alignment Task Evaluation)",
+    "data": "Synthetic images of 3D scenes aligned with textual representations",
+    "task": "Cross-modal entity linking through question-answering",
+    "variants": [
+      "Image-to-text: Identify object based on visual attribute and retrieve name from text",
+      "Text-to-image: Locate object using name and determine color from image"
+    ],
+    "models_evaluated": "Open- and closed-weight VLMs"
+  },
+  "results": [
+    "VLMs and humans show very different behaviors for cross-modal entity linking",
+    "VLMs perform worse than humans, especially for image-to-text tasks",
+    "VLM performance is influenced by number of objects and target attributes, while human performance is stable",
+    "The real challenge is in the cross-modal setting, not within a single modality"
+  ],
+  "applications": [
+    "Autonomous driving",
+    "Multimodal code generation",
+    "Multimodal fake news detection",
+    "Multimodal scene understanding"
+  ],
+  "evidence_id": "EV020",
+  "year": 2025,
+  "arxiv_id": "2503.03854",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

@@ -1,0 +1,2174 @@
+{
+  "schema_version": 1,
+  "run_id": "run_20260602054449_agent-reliability-in-healthcare-ai_9d2c5f",
+  "topic": "agent reliability in healthcare AI",
+  "created_at": "2026-06-02T05:44:49.880Z",
+  "updated_at": "2026-06-02T07:29:38.079Z",
+  "current_state": "TRACE_EXPORTED",
+  "scope_classification": {
+    "label": "local_experiment",
+    "rationale": "The topic can be explored with small simulations, synthetic data, or lightweight local experiments on the Mac."
+  },
+  "search_queries": [
+    "agent reliability in healthcare AI recent papers",
+    "agent reliability in healthcare AI benchmark evaluation",
+    "agent reliability in healthcare AI reproducibility agents",
+    "agent reliability in healthcare AI reviewer simulation",
+    "agent reliability in healthcare AI automated scientific discovery",
+    "agent reliability in healthcare AI failure modes",
+    "agent reliability in healthcare AI openreview",
+    "agent reliability in healthcare AI github implementation"
+  ],
+  "evidence_ids": [
+    "EV001",
+    "EV002",
+    "EV003",
+    "EV004",
+    "EV005",
+    "EV006",
+    "EV007",
+    "EV008",
+    "EV009",
+    "EV010",
+    "EV011",
+    "EV012",
+    "EV013",
+    "EV014",
+    "EV015",
+    "EV016",
+    "EV017",
+    "EV018",
+    "EV019",
+    "EV020"
+  ],
+  "parsed_papers": [
+    {
+      "evidence_id": "EV001",
+      "title": "IJSR Reliable Research Journal - IJSR for Academic Papers",
+      "year": null,
+      "url": "https://duckduckgo.com/y.js?ad_domain=ijsr.net&ad_provider=bingv7aa&ad_type=txad&click_metadata=u8bNmpQGTrxem7YRoo%2DKs7eRs8codi1spL984QjVJ5i_2HslUXvNXJAGL5ExZVAMzX444tV4u_9XYH%2DNWqVruaw2IWJPrHXprgAVpRzPUW6t6lH6LhWSB0S_d3zf6u5Z0q0%2DBNyujDcp5czWOLg0kIO4GQqs4ra3h7iNy5AuOXY.iSYgS9Pa6Ck3pzYyacK1%2Dg&rut=e229e6ed2c61b273fc71300c80ba1a9a00953894953d318e8eedc2018e72b7de&u3=https%3A%2F%2Fwww.bing.com%2Faclick%3Fld%3De8KZb2N4hi16%2Dy9Dk7JqICIzVUCUyAngVIknbnmf6rSky8rx03Kk%2DgsYGKsSQSnwINxeT%2DLZRkcf2f85lX%2DNaa4VruC1f3KzAwCmurWqENYRQuNsiYvh4p5YsD%2D%2DVJK2SF9xFMM09Gry6nmoNfYrGAVP%2DUdJy1K5Nnb7OXoRxwH26Pbpn__SsilW4Mx9MN1%2DhfiOpWyPt55p7M_1SPjnPiRYYfMJk%26u%3DaHR0cHMlM2ElMmYlMmZ3d3cuaWpzci5uZXQlMmYlM2Z1dG1fc291cmNlJTNkYmluZyUyNnZ0X2tleXdvcmQlM2RhJTI1MjByZXNlYXJjaCUyNTIwcGFwZXIlMjZ2dF9jYW1wYWlnbiUzZDY3ODMxMTUwMCUyNnZ0X2FkZ3JvdXAlM2QxMjYzMzQwNTg5MjkxODExJTI2dnRfbG9jX2ludGVyZXN0JTNkJTI2dnRfcGh5c2ljYWwlM2QxNTU5MjUlMjZ2dF9tYXRjaHR5cGUlM2RwJTI2dnRfbmV0d29yayUzZHMlMjZ2dF9wbGFjZW1lbnQlM2QlMjZtc2Nsa2lkJTNkMTQ2OTY5ZGZhM2ZjMTdlZWExNzkwM2MxY2UyNmIwNGElMjZ1dG1fbWVkaXVtJTNkY3BjJTI2dXRtX2NhbXBhaWduJTNkQ2FtcGFpZ24lMjUyMEluZGlhJTI2dXRtX3Rlcm0lM2RhJTI1MjByZXNlYXJjaCUyNTIwcGFwZXIlMjZ1dG1fY29udGVudCUzZENhbXBhaWduJTI1MjBJbmRpYQ%26rlid%3D146969dfa3fc17eea17903c1ce26b04a&vqd=4-24749163984490697220981885271516146101&iurl=%7B1%7DIG%3DE557365648C94961A5DEA8888C77023E%26CID%3D3F57061AB728691A02731176B6D068EC%26ID%3DDevEx%2C5039.1",
+      "core_claim": "The paper claims to provide a platform for easy and global publishing of academic research, positioning itself as a significant player in the academic publishing landscape.",
+      "method_or_focus": [
+        "Content aggregation and curation",
+        "Global publishing platform development",
+        "User-friendly submission interface design"
+      ],
+      "limitations": [
+        "The abstract does not specify any peer-review process or quality control mechanisms.",
+        "No information is provided on the journal's impact factor, indexing, or academic credibility."
+      ],
+      "possible_gap": "The paper reveals a gap in the transparency of the journal's academic rigor and peer-review standards, leaving open questions about the quality and validity of the published research."
+    },
+    {
+      "evidence_id": "EV002",
+      "title": "Pega Artificial Intelligence - Artificial Intelligence",
+      "year": null,
+      "url": "https://duckduckgo.com/y.js?ad_domain=pega.com&ad_provider=bingv7aa&ad_type=txad&click_metadata=PVlk8envyDBoUyd3qFwys8d5Iyb8zBr3CskrG9d2XUxA5pQwTpSoc2%2D6UekT6jExQpcrwFCYlWK6CSak1Vw2u_XNlHwe3QhvgxLX5qjEdLfPFELWMTR4Uec1t2gloQnmiNGBaj83IUME740qwdQmz9klDQa21_FV93VSgeknMTs.N5rkC%2Dr%2D%2DhAksASkdeUHjA&rut=8491e4f894531fff13753b5e21d950fb68f80a165925bd1f5f2ae3d10c5b246c&u3=https%3A%2F%2Fwww.bing.com%2Faclick%3Fld%3De8TaEbyJgXOHhP6Sx0fPTVvzVUCUzc_LZLbg8tJ8Fq2bvqgxds8hEM4iFC2w2GoLVO8AnGLWyqQV19zQtLx0x4fU8AoffFrRsdhjN93dySqvwlH1QUL_jb%2DC2fXOTctbKkHffVkX8TZvlVkJ2YVvT3qgaFFLvgAOs_2%2DT14Gjv7j7kxB2bM3f2PWVD321N8fYgeQjb_1XuvfLY4ww_GKf08Wy4hP4%26u%3DaHR0cHMlM2ElMmYlMmZhZC5kb3VibGVjbGljay5uZXQlMmZzZWFyY2hhZHMlMmZsaW5rJTJmY2xpY2slM2ZsaWQlM2Q0MzcwMDA3MDM1NDkwNjAxMCUyNmRzX3Nfa3dnaWQlM2Q1ODcwMDAwNzc0NjY1NTIzNyUyNmRzX2FfY2lkJTNkNDAwODE3MjUwJTI2ZHNfYV9jYWlkJTNkMTY2NTIzNDk1MjYlMjZkc19hX2FnaWQlM2QxMzIxNTg2MTczODIlMjZkc19hX2xpZCUzZGt3ZC0yOTY5MjA0MDk1MTAlMjYlMjZkc19lX2FkaWQlM2Q4MTQzMjY3OTg1NjQ3MiUyNmRzX2VfdGFyZ2V0X2lkJTNka3dkLTgxNDMyNzk2MzUzNTU1JTNhbG9jLTkwJTI2JTI2ZHNfZV9uZXR3b3JrJTNkcyUyNmRzX3VybF92JTNkMiUyNmRzX2Rlc3RfdXJsJTNkaHR0cHMlM2ElMmYlMmZ3d3cucGVnYS5jb20lMmZhaS1pbm5vdmF0aW9uJTNmdXRtX3NvdXJjZSUzZGJpbmclMjZ1dG1fbWVkaXVtJTNkY3BjJTI2dXRtX2NhbXBhaWduJTNkQl9JbmRpYV9Ob25CcmFuZF9BSV9DRV9Ccm9hZF8oQ1BOLTExMTA2NylfRU4lMjZ1dG1fdGVybSUzZGludGVsbGlnZW5jZSUyNTIwYXJ0aWZpY2lhbCUyNmdsb2MlM2QxNTU5MjUlMjZ1dG1fY29udGVudCUzZHBjcmlkJTdjJTdjcGt3JTdja3dkLTgxNDMyNzk2MzUzNTU1JTNhbG9jLTkwJTdjcG10JTdjcCU3Y3BkdiU3Y2MlN2MlMjZnY2xpZCUzZGQ1NTgyN2UwYTg3OTE5YzU2MmUxNGRmZWM1YTM3ODE2JTI2Z2Nsc3JjJTNkM3AuZHMlMjYlMjZtc2Nsa2lkJTNkZDU1ODI3ZTBhODc5MTljNTYyZTE0ZGZlYzVhMzc4MTYlMjZ1dG1fc291cmNlJTNkYmluZyUyNnV0bV9tZWRpdW0lM2RjcGMlMjZ1dG1fY2FtcGFpZ24lM2RCX0luZGlhX05vbkJyYW5kX0FJX0NFX0Jyb2FkXyhDUE4tMTExMDY3KV9FTiUyNnV0bV90ZXJtJTNkaW50ZWxsaWdlbmNlJTI1MjBhcnRpZmljaWFsJTI2dXRtX2NvbnRlbnQlM2RBSQ%26rlid%3Dd55827e0a87919c562e14dfec5a37816&vqd=4-193533423568329377493065606104671912559&iurl=%7B1%7DIG%3DE557365648C94961A5DEA8888C77023E%26CID%3D3F57061AB728691A02731176B6D068EC%26ID%3DDevEx%2C5044.1",
+      "core_claim": "The paper claims that Pega Artificial Intelligence provides powerful and unprecedented applications for enterprises to achieve limitless outcomes.",
+      "method_or_focus": [
+        "Enterprise AI application development",
+        "Intelligence automation",
+        "Business process optimization"
+      ],
+      "limitations": [
+        "No specific limitations are mentioned in the provided abstract.",
+        "The abstract lacks technical details to assess limitations."
+      ],
+      "possible_gap": "The abstract does not specify the technical methods or datasets used, leaving a gap in understanding the specific AI techniques and their validation."
+    },
+    {
+      "evidence_id": "EV003",
+      "title": "[2602.16666] Towards a Science of AI Agent Reliability - arXiv.org",
+      "year": null,
+      "url": "https://arxiv.org/abs/2602.16666",
+      "core_claim": "This source is relevant to agents, agent, science, reliability and should be used as evidence, not authority without verification.",
+      "method_or_focus": [
+        "agents",
+        "agent",
+        "science",
+        "reliability",
+        "arxiv",
+        "increasingly"
+      ],
+      "limitations": [
+        "evaluation quality and benchmark coverage need scrutiny",
+        "agent behavior needs traceability and failure analysis"
+      ],
+      "possible_gap": "Need a traceable test that connects agents to experiment decisions and reviewer outcomes."
+    },
+    {
+      "evidence_id": "EV004",
+      "title": "Towards a Science of AI Agent Reliability | Arxiv - DeepPaper",
+      "year": null,
+      "url": "https://arxiv.deeppaper.ai/papers/2602.16666v1",
+      "core_claim": "This source is relevant to reliability, science, agent, arxiv and should be used as evidence, not authority without verification.",
+      "method_or_focus": [
+        "reliability",
+        "science",
+        "agent",
+        "arxiv",
+        "deeppaper",
+        "summary"
+      ],
+      "limitations": [
+        "agent behavior needs traceability and failure analysis"
+      ],
+      "possible_gap": "Need a traceable test that connects reliability to experiment decisions and reviewer outcomes."
+    },
+    {
+      "evidence_id": "EV005",
+      "title": "An autonomous agent for auditing and improving the reliability of ...",
+      "year": null,
+      "url": "https://www.aimodels.fyi/papers/arxiv/autonomous-agent-auditing-improving-reliability-clinical-ai",
+      "core_claim": "ModelAuditor is an autonomous agent for auditing and improving the reliability of clinical AI models by detecting and addressing performance issues in machine learning systems for healthcare.",
+      "method_or_focus": [
+        "Novel auditing approach for AI model performance",
+        "Autonomous agent framework for model improvement",
+        "Performance issue detection and resolution",
+        "Healthcare-specific AI enhancement techniques"
+      ],
+      "limitations": [
+        "Healthcare AI models struggle under real-world challenging conditions",
+        "Limited information on scalability to diverse clinical scenarios"
+      ],
+      "possible_gap": "There is a gap in autonomous systems that can effectively audit and improve the reliability of clinical AI models, particularly in handling challenging real-world conditions where healthcare AI models typically struggle."
+    },
+    {
+      "evidence_id": "EV006",
+      "title": "Health AI Hub",
+      "year": null,
+      "url": "https://arxiv-health.org/",
+      "core_claim": "The Health AI Hub is a curated platform that aggregates and presents the latest AI-powered medical research papers from arXiv on a daily basis.",
+      "method_or_focus": [
+        "Daily curation of arXiv papers",
+        "Aggregation and indexing of research",
+        "Web-based platform for dissemination"
+      ],
+      "limitations": [
+        "The platform's value is contingent on the quality and availability of papers on arXiv.",
+        "It does not present novel research findings itself, only curates existing work."
+      ],
+      "possible_gap": "The platform does not provide a systematic review or meta-analysis of the curated papers, leaving a gap in synthesized insights across the field."
+    },
+    {
+      "evidence_id": "EV007",
+      "title": "AgenticHealthAI/Awesome-AI-Agents-for-Healthcare",
+      "year": null,
+      "url": "https://github.com/AgenticHealthAI/Awesome-AI-Agents-for-Healthcare",
+      "core_claim": "This repository provides a curated, comprehensive list of research papers, projects, and resources on the application of Agentic AI and AI agents in healthcare.",
+      "method_or_focus": [
+        "Curation and organization of existing literature",
+        "Systematic categorization of resources by application domain",
+        "Compilation of a comprehensive bibliography and resource list"
+      ],
+      "limitations": [
+        "The repository itself is a list, not a primary research contribution, and thus lacks novel experimental validation.",
+        "The quality and completeness of the curated list depend on the maintainers' ongoing efforts and community contributions."
+      ],
+      "possible_gap": "The repository highlights a gap in consolidated, agent-based solutions for healthcare administration and patient dialogue, suggesting a need for more integrated and deployable agent systems in these specific areas."
+    },
+    {
+      "evidence_id": "EV008",
+      "title": "(PDF) The Role of Agentic Artificial Intelligence in Healthcare: A ...",
+      "year": null,
+      "url": "https://www.researchgate.net/publication/394380606_The_Role_of_Agentic_Artificial_Intelligence_in_Healthcare_A_Systematic_Review",
+      "core_claim": "This source is relevant to agentic, healthcare, role, artificial and should be used as evidence, not authority without verification.",
+      "method_or_focus": [
+        "agentic",
+        "healthcare",
+        "role",
+        "artificial",
+        "intelligence",
+        "background"
+      ],
+      "limitations": [
+        "agent behavior needs traceability and failure analysis"
+      ],
+      "possible_gap": "Need a traceable test that connects agentic to experiment decisions and reviewer outcomes."
+    },
+    {
+      "evidence_id": "EV009",
+      "title": "AgentClinic: a multimodal benchmark for tool-using clinical AI agents",
+      "year": null,
+      "url": "https://agentclinic.github.io/",
+      "core_claim": "AgentClinic is introduced as a multimodal agent benchmark for evaluating LLMs in simulated clinical environments that includes patient interactions, multimodal data collection under incomplete information, and tool usage across nine medical specialties and seven languages.",
+      "method_or_focus": [
+        "Multimodal agent benchmark design",
+        "Simulated clinical environments",
+        "Patient interaction modeling",
+        "Multimodal data collection under incomplete information",
+        "Tool usage evaluation"
+      ],
+      "limitations": [
+        "Simulated environments may not fully capture real clinical complexity",
+        "Incomplete information scenarios may not represent all clinical challenges",
+        "The benchmark may not cover all medical specialties or languages"
+      ],
+      "possible_gap": "There is a lack of comprehensive evaluation frameworks for LLMs in clinical settings that require tool usage, patient interaction, and handling incomplete information across multiple medical specialties and languages."
+    },
+    {
+      "evidence_id": "EV010",
+      "title": "MedAgentBench: A Virtual EHR Environment to Benchmark Medical LLM Agents",
+      "year": null,
+      "url": "https://ai.nejm.org/doi/full/10.1056/AIdbp2500144",
+      "core_claim": "MedAgentBench introduces a virtual Electronic Health Record (EHR) environment designed to benchmark the capabilities of Large Language Model (LLM) agents in medical applications.",
+      "method_or_focus": [
+        "Creation of a virtual EHR environment for benchmarking",
+        "Development of standardized evaluation protocols for medical LLM agents",
+        "Design of complex interactive healthcare tasks",
+        "Implementation of agent evaluation frameworks"
+      ],
+      "limitations": [
+        "Lack of standardized datasets for benchmarking medical LLM agents",
+        "Difficulty in evaluating performance on complex tasks in interactive healthcare",
+        "Current healthcare staff shortages that need addressing"
+      ],
+      "possible_gap": "The paper reveals the critical gap in standardized datasets for benchmarking medical LLM agents, making it difficult to evaluate their performance on complex tasks in interactive healthcare."
+    },
+    {
+      "evidence_id": "EV011",
+      "title": "[PDF] AgentClinic: a multimodal agent benchmark to evaluate AI in ...",
+      "year": null,
+      "url": "https://www.semanticscholar.org/paper/AgentClinic%3A-a-multimodal-agent-benchmark-to-AI-in-Schmidgall-Ziaei/274c5e690df6ca44c62430a39f3f8e4a6d9e5b79",
+      "core_claim": "This source is relevant to multimodal, agentclinic, agent, benchmark and should be used as evidence, not authority without verification.",
+      "method_or_focus": [
+        "multimodal",
+        "agentclinic",
+        "agent",
+        "benchmark",
+        "evaluate",
+        "here"
+      ],
+      "limitations": [
+        "evaluation quality and benchmark coverage need scrutiny",
+        "agent behavior needs traceability and failure analysis"
+      ],
+      "possible_gap": "Need a traceable test that connects multimodal to experiment decisions and reviewer outcomes."
+    },
+    {
+      "evidence_id": "EV012",
+      "title": "Stanford Researchers Introduced MedAgentBench: A Real-World Benchmark ...",
+      "year": null,
+      "url": "https://www.marktechpost.com/2025/09/16/stanford-researchers-introduced-medagentbench-a-real-world-benchmark-for-healthcare-ai-agents/",
+      "core_claim": "Stanford researchers introduced MedAgentBench, a new benchmark suite designed to evaluate large language model agents in healthcare contexts through a virtual electronic health record environment that requires multi-step clinical task execution.",
+      "method_or_focus": [
+        "Creation of a virtual EHR environment",
+        "Design of multi-step clinical task scenarios",
+        "Development of benchmark evaluation framework",
+        "Design of healthcare-specific AI agent tasks"
+      ],
+      "limitations": [
+        "Limited scope of clinical tasks covered in the benchmark",
+        "No mention of validation with real healthcare professionals",
+        "Unclear generalizability to diverse healthcare settings"
+      ],
+      "possible_gap": "The paper reveals a gap in evaluating LLM agents through interactive clinical tasks rather than static question-answering, highlighting the need for more realistic healthcare AI evaluation frameworks."
+    },
+    {
+      "evidence_id": "EV013",
+      "title": "Paper page - AgentClinic: a multimodal agent benchmark to evaluate AI ...",
+      "year": null,
+      "url": "https://huggingface.co/papers/2405.07960",
+      "core_claim": "This source is relevant to paper, page, agentclinic, multimodal and should be used as evidence, not authority without verification.",
+      "method_or_focus": [
+        "paper",
+        "page",
+        "agentclinic",
+        "multimodal",
+        "agent",
+        "benchmark"
+      ],
+      "limitations": [
+        "evaluation quality and benchmark coverage need scrutiny",
+        "agent behavior needs traceability and failure analysis"
+      ],
+      "possible_gap": "Need a traceable test that connects paper to experiment decisions and reviewer outcomes."
+    },
+    {
+      "evidence_id": "EV014",
+      "title": "AI agent in healthcare: applications, evaluations, and future ...",
+      "year": null,
+      "url": "https://www.nature.com/articles/s44387-026-00076-4",
+      "core_claim": "This source is relevant to healthcare, future, agent, applications and should be used as evidence, not authority without verification.",
+      "method_or_focus": [
+        "healthcare",
+        "future",
+        "agent",
+        "applications",
+        "evaluations",
+        "review"
+      ],
+      "limitations": [
+        "agent behavior needs traceability and failure analysis",
+        "reviewer simulation should be validated against concrete criteria"
+      ],
+      "possible_gap": "Need a traceable test that connects healthcare to experiment decisions and reviewer outcomes."
+    },
+    {
+      "evidence_id": "EV015",
+      "title": "VoltAgent/awesome-ai-agent-papers - GitHub",
+      "year": null,
+      "url": "https://github.com/VoltAgent/awesome-ai-agent-papers",
+      "core_claim": "This repository provides a curated collection of research papers on AI agents published in 2026, covering key topics like multi-agent coordination, memory & RAG, tooling, evaluation, and security.",
+      "method_or_focus": [
+        "Literature curation",
+        "Thematic organization",
+        "Community-sourced aggregation"
+      ],
+      "limitations": [
+        "The collection is limited to papers from a single source (arXiv) and a single year (2026).",
+        "The repository is a list and does not synthesize findings or propose a new unified framework."
+      ],
+      "possible_gap": "There is a gap in consolidated surveys that synthesize the state-of-the-art across these diverse AI agent topics, as this repository only lists papers without providing a comparative analysis."
+    },
+    {
+      "evidence_id": "EV016",
+      "title": "Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities and challenges toward responsible AI",
+      "year": 2019,
+      "url": "https://doi.org/10.1016/j.inffus.2019.12.012",
+      "core_claim": "This paper provides a comprehensive review of Explainable AI concepts, develops a taxonomy of XAI approaches, and identifies opportunities and challenges for responsible AI development.",
+      "method_or_focus": [
+        "Systematic literature review",
+        "Taxonomy development",
+        "Conceptual analysis",
+        "Comparative analysis of XAI approaches"
+      ],
+      "limitations": [
+        "Lack of standardized evaluation metrics for XAI",
+        "Scalability issues in explaining complex models",
+        "Trade-offs between model performance and explainability"
+      ],
+      "possible_gap": "There is a need for standardized evaluation frameworks and benchmarks for XAI methods across different domains and model types."
+    },
+    {
+      "evidence_id": "EV017",
+      "title": "PRISMA 2020 explanation and elaboration: updated guidance and exemplars for reporting systematic reviews",
+      "year": 2021,
+      "url": "https://doi.org/10.1136/bmj.n160",
+      "core_claim": "The PRISMA 2020 statement provides updated guidance and exemplars for reporting systematic reviews, including a checklist of 27 items with explanations and bullet points for detailed recommendations to improve transparency, completeness, and accuracy of reporting.",
+      "method_or_focus": [
+        "Explanation and elaboration of reporting guidelines",
+        "Bullet points for detailed reporting recommendations",
+        "Examples from published reviews"
+      ],
+      "limitations": [
+        "No evaluation of PRISMA 2020 effectiveness in improving reporting quality",
+        "No discussion of implementation challenges"
+      ],
+      "possible_gap": "The paper doesn't address how to measure the impact of PRISMA 2020 on actual reporting practices or identify barriers to implementation of the updated guidelines."
+    },
+    {
+      "evidence_id": "EV018",
+      "title": "Review of deep learning: concepts, CNN architectures, challenges, applications, future directions",
+      "year": 2021,
+      "url": "https://doi.org/10.1186/s40537-021-00444-8",
+      "core_claim": "This paper provides a comprehensive review of deep learning using a holistic approach to offer a more complete understanding of DL, covering concepts, architectures, challenges, applications, and future directions.",
+      "method_or_focus": [
+        "Deep learning (DL)",
+        "Convolutional Neural Networks (CNNs)",
+        "CNN architectures (AlexNet, HR.Net)",
+        "Computational tools (FPGA, GPU, CPU)"
+      ],
+      "limitations": [
+        "Previous reviews only tackled one aspect of DL, leading to an overall lack of knowledge",
+        "Existing research gaps and challenges in the field"
+      ],
+      "possible_gap": "The paper reveals that previous DL reviews were too narrow, focusing on single aspects rather than providing a holistic view of the field, which limits comprehensive understanding."
+    },
+    {
+      "evidence_id": "EV019",
+      "title": "Digital transformation: A multidisciplinary reflection and research agenda",
+      "year": 2019,
+      "url": "https://doi.org/10.1016/j.jbusres.2019.09.022",
+      "core_claim": "The paper identifies three stages of digital transformation (digitization, digitalization, and digital transformation), growth strategies for digital firms, required assets and capabilities, organizational structures, and consequences for performance metrics, while providing a research agenda for future studies.",
+      "method_or_focus": [
+        "Literature review",
+        "Identification and delineation of concepts",
+        "Development of research agenda"
+      ],
+      "limitations": [
+        "Need for a research agenda indicates many open questions",
+        "Limited understanding of how organizational structures affect transformation",
+        "Unclear how performance metrics should be adapted"
+      ],
+      "possible_gap": "The paper reveals a gap in understanding how specific organizational structures and adapted performance metrics contribute to successful digital transformation."
+    },
+    {
+      "evidence_id": "EV020",
+      "title": "Opinion Paper: “So what if ChatGPT wrote it?” Multidisciplinary perspectives on opportunities, challenges and implications of generative conversational AI for research, practice and policy",
+      "year": 2023,
+      "url": "https://doi.org/10.1016/j.ijinfomgt.2023.102642",
+      "core_claim": "This paper provides multidisciplinary perspectives on ChatGPT and generative conversational AI, highlighting both opportunities and challenges across various fields, while identifying areas for further research.",
+      "method_or_focus": [
+        "Literature review",
+        "Expert opinion synthesis",
+        "Multi-disciplinary analysis"
+      ],
+      "limitations": [
+        "Disruptions to existing practices",
+        "Threats to privacy and security",
+        "Consequences of biases, misuse, and misinformation"
+      ],
+      "possible_gap": "The paper reveals a gap in understanding the optimal combinations of human and generative AI for various tasks and identifying ways to assess the accuracy of text produced by generative AI."
+    }
+  ],
+  "claim_graph": {
+    "claims": [
+      {
+        "claim_id": "CL001",
+        "evidence_id": "EV001",
+        "text": "The paper claims to provide a platform for easy and global publishing of academic research, positioning itself as a significant player in the academic publishing landscape.",
+        "support": "metadata_summary_pending_pdf_confirmation"
+      },
+      {
+        "claim_id": "CL002",
+        "evidence_id": "EV002",
+        "text": "The paper claims that Pega Artificial Intelligence provides powerful and unprecedented applications for enterprises to achieve limitless outcomes.",
+        "support": "metadata_summary_pending_pdf_confirmation"
+      },
+      {
+        "claim_id": "CL003",
+        "evidence_id": "EV003",
+        "text": "This source is relevant to agents, agent, science, reliability and should be used as evidence, not authority without verification.",
+        "support": "metadata_summary_pending_pdf_confirmation"
+      },
+      {
+        "claim_id": "CL004",
+        "evidence_id": "EV004",
+        "text": "This source is relevant to reliability, science, agent, arxiv and should be used as evidence, not authority without verification.",
+        "support": "metadata_summary_pending_pdf_confirmation"
+      },
+      {
+        "claim_id": "CL005",
+        "evidence_id": "EV005",
+        "text": "ModelAuditor is an autonomous agent for auditing and improving the reliability of clinical AI models by detecting and addressing performance issues in machine learning systems for healthcare.",
+        "support": "metadata_summary_pending_pdf_confirmation"
+      },
+      {
+        "claim_id": "CL006",
+        "evidence_id": "EV006",
+        "text": "The Health AI Hub is a curated platform that aggregates and presents the latest AI-powered medical research papers from arXiv on a daily basis.",
+        "support": "metadata_summary_pending_pdf_confirmation"
+      },
+      {
+        "claim_id": "CL007",
+        "evidence_id": "EV007",
+        "text": "This repository provides a curated, comprehensive list of research papers, projects, and resources on the application of Agentic AI and AI agents in healthcare.",
+        "support": "metadata_summary_pending_pdf_confirmation"
+      },
+      {
+        "claim_id": "CL008",
+        "evidence_id": "EV008",
+        "text": "This source is relevant to agentic, healthcare, role, artificial and should be used as evidence, not authority without verification.",
+        "support": "metadata_summary_pending_pdf_confirmation"
+      },
+      {
+        "claim_id": "CL009",
+        "evidence_id": "EV009",
+        "text": "AgentClinic is introduced as a multimodal agent benchmark for evaluating LLMs in simulated clinical environments that includes patient interactions, multimodal data collection under incomplete information, and tool usage across nine medical specialties and seven languages.",
+        "support": "metadata_summary_pending_pdf_confirmation"
+      },
+      {
+        "claim_id": "CL010",
+        "evidence_id": "EV010",
+        "text": "MedAgentBench introduces a virtual Electronic Health Record (EHR) environment designed to benchmark the capabilities of Large Language Model (LLM) agents in medical applications.",
+        "support": "metadata_summary_pending_pdf_confirmation"
+      },
+      {
+        "claim_id": "CL011",
+        "evidence_id": "EV011",
+        "text": "This source is relevant to multimodal, agentclinic, agent, benchmark and should be used as evidence, not authority without verification.",
+        "support": "metadata_summary_pending_pdf_confirmation"
+      },
+      {
+        "claim_id": "CL012",
+        "evidence_id": "EV012",
+        "text": "Stanford researchers introduced MedAgentBench, a new benchmark suite designed to evaluate large language model agents in healthcare contexts through a virtual electronic health record environment that requires multi-step clinical task execution.",
+        "support": "metadata_summary_pending_pdf_confirmation"
+      },
+      {
+        "claim_id": "CL013",
+        "evidence_id": "EV013",
+        "text": "This source is relevant to paper, page, agentclinic, multimodal and should be used as evidence, not authority without verification.",
+        "support": "metadata_summary_pending_pdf_confirmation"
+      },
+      {
+        "claim_id": "CL014",
+        "evidence_id": "EV014",
+        "text": "This source is relevant to healthcare, future, agent, applications and should be used as evidence, not authority without verification.",
+        "support": "metadata_summary_pending_pdf_confirmation"
+      },
+      {
+        "claim_id": "CL015",
+        "evidence_id": "EV015",
+        "text": "This repository provides a curated collection of research papers on AI agents published in 2026, covering key topics like multi-agent coordination, memory & RAG, tooling, evaluation, and security.",
+        "support": "metadata_summary_pending_pdf_confirmation"
+      },
+      {
+        "claim_id": "CL016",
+        "evidence_id": "EV016",
+        "text": "This paper provides a comprehensive review of Explainable AI concepts, develops a taxonomy of XAI approaches, and identifies opportunities and challenges for responsible AI development.",
+        "support": "metadata_summary_pending_pdf_confirmation"
+      },
+      {
+        "claim_id": "CL017",
+        "evidence_id": "EV017",
+        "text": "The PRISMA 2020 statement provides updated guidance and exemplars for reporting systematic reviews, including a checklist of 27 items with explanations and bullet points for detailed recommendations to improve transparency, completeness, and accuracy of reporting.",
+        "support": "metadata_summary_pending_pdf_confirmation"
+      },
+      {
+        "claim_id": "CL018",
+        "evidence_id": "EV018",
+        "text": "This paper provides a comprehensive review of deep learning using a holistic approach to offer a more complete understanding of DL, covering concepts, architectures, challenges, applications, and future directions.",
+        "support": "metadata_summary_pending_pdf_confirmation"
+      },
+      {
+        "claim_id": "CL019",
+        "evidence_id": "EV019",
+        "text": "The paper identifies three stages of digital transformation (digitization, digitalization, and digital transformation), growth strategies for digital firms, required assets and capabilities, organizational structures, and consequences for performance metrics, while providing a research agenda for future studies.",
+        "support": "metadata_summary_pending_pdf_confirmation"
+      },
+      {
+        "claim_id": "CL020",
+        "evidence_id": "EV020",
+        "text": "This paper provides multidisciplinary perspectives on ChatGPT and generative conversational AI, highlighting both opportunities and challenges across various fields, while identifying areas for further research.",
+        "support": "metadata_summary_pending_pdf_confirmation"
+      }
+    ],
+    "links": [
+      {
+        "from": "EV001",
+        "relation": "suggests_gap",
+        "to": "The paper reveals a gap in the transparency of the journal's academic rigor and peer-review standards, leaving open questions about the quality and validity of the published research."
+      },
+      {
+        "from": "EV002",
+        "relation": "suggests_gap",
+        "to": "The abstract does not specify the technical methods or datasets used, leaving a gap in understanding the specific AI techniques and their validation."
+      },
+      {
+        "from": "EV003",
+        "relation": "suggests_gap",
+        "to": "Need a traceable test that connects agents to experiment decisions and reviewer outcomes."
+      },
+      {
+        "from": "EV004",
+        "relation": "suggests_gap",
+        "to": "Need a traceable test that connects reliability to experiment decisions and reviewer outcomes."
+      },
+      {
+        "from": "EV005",
+        "relation": "suggests_gap",
+        "to": "There is a gap in autonomous systems that can effectively audit and improve the reliability of clinical AI models, particularly in handling challenging real-world conditions where healthcare AI models typically struggle."
+      },
+      {
+        "from": "EV006",
+        "relation": "suggests_gap",
+        "to": "The platform does not provide a systematic review or meta-analysis of the curated papers, leaving a gap in synthesized insights across the field."
+      },
+      {
+        "from": "EV007",
+        "relation": "suggests_gap",
+        "to": "The repository highlights a gap in consolidated, agent-based solutions for healthcare administration and patient dialogue, suggesting a need for more integrated and deployable agent systems in these specific areas."
+      },
+      {
+        "from": "EV008",
+        "relation": "suggests_gap",
+        "to": "Need a traceable test that connects agentic to experiment decisions and reviewer outcomes."
+      },
+      {
+        "from": "EV009",
+        "relation": "suggests_gap",
+        "to": "There is a lack of comprehensive evaluation frameworks for LLMs in clinical settings that require tool usage, patient interaction, and handling incomplete information across multiple medical specialties and languages."
+      },
+      {
+        "from": "EV010",
+        "relation": "suggests_gap",
+        "to": "The paper reveals the critical gap in standardized datasets for benchmarking medical LLM agents, making it difficult to evaluate their performance on complex tasks in interactive healthcare."
+      },
+      {
+        "from": "EV011",
+        "relation": "suggests_gap",
+        "to": "Need a traceable test that connects multimodal to experiment decisions and reviewer outcomes."
+      },
+      {
+        "from": "EV012",
+        "relation": "suggests_gap",
+        "to": "The paper reveals a gap in evaluating LLM agents through interactive clinical tasks rather than static question-answering, highlighting the need for more realistic healthcare AI evaluation frameworks."
+      },
+      {
+        "from": "EV013",
+        "relation": "suggests_gap",
+        "to": "Need a traceable test that connects paper to experiment decisions and reviewer outcomes."
+      },
+      {
+        "from": "EV014",
+        "relation": "suggests_gap",
+        "to": "Need a traceable test that connects healthcare to experiment decisions and reviewer outcomes."
+      },
+      {
+        "from": "EV015",
+        "relation": "suggests_gap",
+        "to": "There is a gap in consolidated surveys that synthesize the state-of-the-art across these diverse AI agent topics, as this repository only lists papers without providing a comparative analysis."
+      },
+      {
+        "from": "EV016",
+        "relation": "suggests_gap",
+        "to": "There is a need for standardized evaluation frameworks and benchmarks for XAI methods across different domains and model types."
+      },
+      {
+        "from": "EV017",
+        "relation": "suggests_gap",
+        "to": "The paper doesn't address how to measure the impact of PRISMA 2020 on actual reporting practices or identify barriers to implementation of the updated guidelines."
+      },
+      {
+        "from": "EV018",
+        "relation": "suggests_gap",
+        "to": "The paper reveals that previous DL reviews were too narrow, focusing on single aspects rather than providing a holistic view of the field, which limits comprehensive understanding."
+      },
+      {
+        "from": "EV019",
+        "relation": "suggests_gap",
+        "to": "The paper reveals a gap in understanding how specific organizational structures and adapted performance metrics contribute to successful digital transformation."
+      },
+      {
+        "from": "EV020",
+        "relation": "suggests_gap",
+        "to": "The paper reveals a gap in understanding the optimal combinations of human and generative AI for various tasks and identifying ways to assess the accuracy of text produced by generative AI."
+      }
+    ]
+  },
+  "research_gaps": [
+    {
+      "gap_id": "G01",
+      "text": "Traceability gap: agents may produce ideas without an auditable chain from source evidence to experiment decision.",
+      "keywords": [
+        "paper",
+        "agent",
+        "healthcare",
+        "research",
+        "agents",
+        "reliability"
+      ],
+      "evidence_ids": [
+        "EV001",
+        "EV002",
+        "EV003",
+        "EV004",
+        "EV005"
+      ],
+      "testable": true,
+      "difficulty": "medium",
+      "source": "template"
+    },
+    {
+      "gap_id": "G02",
+      "text": "Review gap: simulated reviewer feedback is often generated after the fact instead of controlling whether an idea proceeds.",
+      "keywords": [
+        "research",
+        "agents",
+        "reliability",
+        "need",
+        "benchmark",
+        "multimodal"
+      ],
+      "evidence_ids": [
+        "EV002",
+        "EV003",
+        "EV004",
+        "EV005",
+        "EV006"
+      ],
+      "testable": true,
+      "difficulty": "medium",
+      "source": "template"
+    },
+    {
+      "gap_id": "G03",
+      "text": "Experiment timing gap: many research agents run experiments late, after committing to an idea, rather than using cheap probes during ideation.",
+      "keywords": [
+        "need",
+        "benchmark",
+        "multimodal",
+        "provides",
+        "outcomes",
+        "clinical"
+      ],
+      "evidence_ids": [
+        "EV003",
+        "EV004",
+        "EV005",
+        "EV006",
+        "EV007"
+      ],
+      "testable": true,
+      "difficulty": "medium",
+      "source": "template"
+    },
+    {
+      "gap_id": "G04",
+      "text": "Failure memory gap: rejected ideas and failed probes are often lost instead of shaping the next search iteration.",
+      "keywords": [
+        "provides",
+        "outcomes",
+        "clinical",
+        "papers",
+        "reveals",
+        "artificial"
+      ],
+      "evidence_ids": [
+        "EV004",
+        "EV005",
+        "EV006",
+        "EV007",
+        "EV008"
+      ],
+      "testable": true,
+      "difficulty": "medium",
+      "source": "template"
+    },
+    {
+      "gap_id": "G05",
+      "text": "Venue-fit gap: agent outputs often lack explicit comparison to workshop and conference expectations.",
+      "keywords": [
+        "papers",
+        "reveals",
+        "artificial",
+        "applications",
+        "source",
+        "relevant"
+      ],
+      "evidence_ids": [
+        "EV005",
+        "EV006",
+        "EV007",
+        "EV008",
+        "EV009"
+      ],
+      "testable": true,
+      "difficulty": "medium",
+      "source": "template"
+    }
+  ],
+  "idea_tree": [
+    {
+      "idea_id": "ID001",
+      "title": "Evidence Chain Visualization for AI Agents",
+      "source_gap_id": "G01",
+      "scope": "system",
+      "pitch": "A system that visualizes the complete evidence chain from source to decision for AI research agents.",
+      "mechanism": "By creating a visual representation of the agent's reasoning process, researchers can verify the logical flow of evidence.",
+      "metric": "Percentage of agent decisions with complete evidence chain visualization",
+      "has_clear_metric": true,
+      "experiment_sketch": "Implement a visualization tool that tracks and displays the evidence chain for a research agent on a MacBook M4.",
+      "novelty_claim": "First system to provide real-time visualization of AI agent evidence chains.",
+      "risk": "low",
+      "evidence_support": 1,
+      "local_feasibility": 1,
+      "novelty_risk": 0.074,
+      "base_score": 5.5,
+      "keywords": [
+        "evidence",
+        "chain",
+        "agents",
+        "visualization",
+        "system",
+        "visualizes"
+      ],
+      "status": "shortlisted",
+      "corpus_overlap_hash": "c221c1acb9",
+      "source": "llm",
+      "reviewer_average": 6.62,
+      "reviewer_decision": "accept",
+      "next_action": "RUN_MICRO_PROBE"
+    },
+    {
+      "idea_id": "ID002",
+      "title": "Traceability Metrics for AI Research Agents",
+      "source_gap_id": "G01",
+      "scope": "evaluation",
+      "pitch": "A set of metrics to evaluate the traceability of AI research agents' decision-making processes.",
+      "mechanism": "By quantifying the completeness and quality of evidence chains, we can assess and improve agent traceability.",
+      "metric": "Traceability score based on evidence chain completeness and logical consistency",
+      "has_clear_metric": true,
+      "experiment_sketch": "Develop and test traceability metrics on existing research agents using only MacBook M4 resources.",
+      "novelty_claim": "First comprehensive framework for measuring AI agent traceability.",
+      "risk": "medium",
+      "evidence_support": 1,
+      "local_feasibility": 1,
+      "novelty_risk": 0.136,
+      "base_score": 5.5,
+      "keywords": [
+        "traceability",
+        "metrics",
+        "research",
+        "agents",
+        "evaluate",
+        "decision-making"
+      ],
+      "status": "shortlisted",
+      "corpus_overlap_hash": "8779e1f8c9",
+      "source": "llm",
+      "reviewer_average": 6.58,
+      "reviewer_decision": "accept",
+      "next_action": "RUN_MICRO_PROBE"
+    },
+    {
+      "idea_id": "ID003",
+      "title": "Proactive Reviewer Feedback Integration",
+      "source_gap_id": "G02",
+      "scope": "method",
+      "pitch": "A framework that generates simulated reviewer feedback in real-time during idea development to guide research direction.",
+      "mechanism": "By simulating reviewer criteria before idea completion, researchers can iteratively improve proposals based on anticipated feedback rather than receiving it post-hoc.",
+      "metric": "Reduction in time from idea inception to acceptance by 30% compared to traditional post-hoc feedback",
+      "has_clear_metric": true,
+      "experiment_sketch": "Implement a prototype that generates reviewer feedback at 25%, 50%, and 75% completion of research ideas and measure impact on acceptance rates.",
+      "novelty_claim": "First system to integrate simulated reviewer feedback as a continuous guide rather than a retrospective evaluation.",
+      "risk": "medium",
+      "evidence_support": 1,
+      "local_feasibility": 1,
+      "novelty_risk": 0.065,
+      "base_score": 5.5,
+      "keywords": [
+        "reviewer",
+        "feedback",
+        "proactive",
+        "integration",
+        "framework",
+        "generates"
+      ],
+      "status": "rejected",
+      "corpus_overlap_hash": "dde1769abb",
+      "source": "llm",
+      "reviewer_average": 5,
+      "reviewer_decision": "reject",
+      "next_action": "RUN_ADDITIONAL_SEARCH"
+    },
+    {
+      "idea_id": "ID004",
+      "title": "Predictive Research Idea Vetting",
+      "source_gap_id": "G02",
+      "scope": "system",
+      "pitch": "A system that predicts research idea viability using simulated reviewer scoring before full development.",
+      "mechanism": "By training on historical review data, the system can forecast reviewer scores and suggest modifications to improve acceptance probability.",
+      "metric": "Accuracy of predicting reviewer scores within ±10% on a test set of 100 research ideas",
+      "has_clear_metric": true,
+      "experiment_sketch": "Build a classifier trained on past review data to predict scores for new ideas and validate against actual reviewer outcomes.",
+      "novelty_claim": "Novel approach to using historical review patterns to proactively shape research ideas before submission.",
+      "risk": "low",
+      "evidence_support": 1,
+      "local_feasibility": 1,
+      "novelty_risk": 0.067,
+      "base_score": 5.5,
+      "keywords": [
+        "research",
+        "idea",
+        "predictive",
+        "vetting",
+        "system",
+        "predicts"
+      ],
+      "status": "shortlisted",
+      "corpus_overlap_hash": "52d3ffc171",
+      "source": "llm",
+      "reviewer_average": 6.62,
+      "reviewer_decision": "accept",
+      "next_action": "RUN_MICRO_PROBE"
+    },
+    {
+      "idea_id": "ID005",
+      "title": "Early Experimentation Framework",
+      "source_gap_id": "G03",
+      "scope": "method",
+      "pitch": "A framework that structures research agents to conduct cheap probes during ideation, reducing late-stage experiment failures.",
+      "mechanism": "By embedding mandatory low-cost validation checkpoints before major commitments, agents gather evidence earlier in the research process.",
+      "metric": "Reduction in late-stage experiment failures by 40% compared to baseline agents",
+      "has_clear_metric": true,
+      "experiment_sketch": "Implement the framework on a MacBook M4 and compare experiment timing distributions between control and treatment groups on standard research tasks.",
+      "novelty_claim": "First systematic framework that formalizes the timing of experiments within autonomous research workflows.",
+      "risk": "medium",
+      "evidence_support": 1,
+      "local_feasibility": 1,
+      "novelty_risk": 0.063,
+      "base_score": 5.5,
+      "keywords": [
+        "framework",
+        "early",
+        "experimentation",
+        "structures",
+        "research",
+        "agents"
+      ],
+      "status": "rejected",
+      "corpus_overlap_hash": "0b56be5d67",
+      "source": "llm",
+      "reviewer_average": 4.4,
+      "reviewer_decision": "reject",
+      "next_action": "RUN_ADDITIONAL_SEARCH"
+    },
+    {
+      "idea_id": "ID006",
+      "title": "Adaptive Cost-Benefit Scheduler",
+      "source_gap_id": "G03",
+      "scope": "system",
+      "pitch": "A dynamic scheduler that optimizes experiment timing based on information gain potential and resource costs.",
+      "mechanism": "The scheduler continuously evaluates the expected value of information versus experiment costs to determine optimal timing.",
+      "metric": "Increase in research efficiency measured by information gained per computational resource unit",
+      "has_clear_metric": true,
+      "experiment_sketch": "Test the scheduler on a MacBook M4 using simulated research environments with varying resource constraints and information landscapes.",
+      "novelty_claim": "Novel approach to experiment scheduling that explicitly balances information value against temporal and computational costs.",
+      "risk": "medium",
+      "evidence_support": 1,
+      "local_feasibility": 1,
+      "novelty_risk": 0.024,
+      "base_score": 5.5,
+      "keywords": [
+        "scheduler",
+        "adaptive",
+        "cost-benefit",
+        "dynamic",
+        "optimizes",
+        "experiment"
+      ],
+      "status": "rejected",
+      "corpus_overlap_hash": "45005d053f",
+      "source": "llm",
+      "reviewer_average": 3.8,
+      "reviewer_decision": "reject",
+      "next_action": "RUN_ADDITIONAL_SEARCH"
+    },
+    {
+      "idea_id": "ID007",
+      "title": "Failure Pattern Repository for Healthcare AI",
+      "source_gap_id": "G04",
+      "scope": "system",
+      "pitch": "Creates a structured database of failed healthcare AI experiments that agents can reference to avoid repeating mistakes.",
+      "mechanism": "By cataloging failure patterns with contextual metadata, agents can recognize similar situations and adapt their strategies accordingly.",
+      "metric": "Reduction in repeated failure rates across multiple research cycles",
+      "has_clear_metric": true,
+      "experiment_sketch": "Implement a failure pattern repository and test on 100 simulated healthcare AI experiments to measure reduction in repeated failures",
+      "novelty_claim": "First system to transform failed experiments into actionable knowledge bases for autonomous healthcare AI research",
+      "risk": "medium",
+      "evidence_support": 1,
+      "local_feasibility": 1,
+      "novelty_risk": 0.081,
+      "base_score": 5.5,
+      "keywords": [
+        "healthcare",
+        "failure",
+        "pattern",
+        "repository",
+        "creates",
+        "structured"
+      ],
+      "status": "shortlisted",
+      "corpus_overlap_hash": "21d9063ecf",
+      "source": "llm",
+      "reviewer_average": 6.6,
+      "reviewer_decision": "accept",
+      "next_action": "RUN_MICRO_PROBE"
+    },
+    {
+      "idea_id": "ID008",
+      "title": "Adaptive Failure Learning Framework",
+      "source_gap_id": "G04",
+      "scope": "method",
+      "pitch": "Develops a meta-learning approach where healthcare AI agents extract general principles from specific failures.",
+      "mechanism": "Agents analyze failed experiments to identify underlying principles, creating transferable knowledge for future tasks.",
+      "metric": "Improvement in success rate when encountering novel problems after failure exposure",
+      "has_clear_metric": true,
+      "experiment_sketch": "Train healthcare AI agents on failure-enriched datasets and compare performance on novel medical tasks",
+      "novelty_claim": "Novel approach to transform specific failures into generalizable knowledge for healthcare AI agents",
+      "risk": "medium",
+      "evidence_support": 1,
+      "local_feasibility": 1,
+      "novelty_risk": 0.085,
+      "base_score": 5.5,
+      "keywords": [
+        "adaptive",
+        "failure",
+        "learning",
+        "framework",
+        "develops",
+        "meta-learning"
+      ],
+      "status": "rejected",
+      "corpus_overlap_hash": "0e25906bd2",
+      "source": "llm",
+      "reviewer_average": 4,
+      "reviewer_decision": "reject",
+      "next_action": "RUN_ADDITIONAL_SEARCH"
+    },
+    {
+      "idea_id": "ID009",
+      "title": "Venue-Fit Output Validator",
+      "source_gap_id": "G05",
+      "scope": "system",
+      "pitch": "A validation system that checks AI agent outputs against venue-specific academic standards before submission.",
+      "mechanism": "By comparing outputs to venue guidelines and past successful submissions, the system identifies gaps in academic presentation.",
+      "metric": "Percentage of outputs passing venue-fit validation without human revision",
+      "has_clear_metric": true,
+      "experiment_sketch": "Implement a validation layer that checks research paper drafts against IJSR and arXiv guidelines using keyword matching and style analysis.",
+      "novelty_claim": "First system to explicitly evaluate AI outputs against venue-specific academic expectations rather than general quality metrics.",
+      "risk": "medium",
+      "evidence_support": 1,
+      "local_feasibility": 1,
+      "novelty_risk": 0.04,
+      "base_score": 5.5,
+      "keywords": [
+        "venue-fit",
+        "output",
+        "validator",
+        "validation",
+        "system",
+        "checks"
+      ],
+      "status": "shortlisted",
+      "corpus_overlap_hash": "686f17a1e2",
+      "source": "llm",
+      "reviewer_average": 6.62,
+      "reviewer_decision": "accept",
+      "next_action": "RUN_MICRO_PROBE"
+    },
+    {
+      "idea_id": "ID010",
+      "title": "Academic Context Adapter",
+      "source_gap_id": "G05",
+      "scope": "method",
+      "pitch": "A method that transforms AI agent outputs to match the specific style and format requirements of different academic venues.",
+      "mechanism": "By analyzing successful papers from target venues and applying style transformation rules, the adapter aligns outputs with venue expectations.",
+      "metric": "Reduction in revision cycles needed for venue acceptance after adaptation",
+      "has_clear_metric": true,
+      "experiment_sketch": "Create a style transformation module that rewrites research abstracts to match the tone and structure of IJSR versus arXiv papers.",
+      "novelty_claim": "Novel approach to venue-specific output adaptation using learned style patterns from successful publications.",
+      "risk": "low",
+      "evidence_support": 1,
+      "local_feasibility": 1,
+      "novelty_risk": 0.04,
+      "base_score": 5.5,
+      "keywords": [
+        "academic",
+        "context",
+        "adapter",
+        "method",
+        "transforms",
+        "agent"
+      ],
+      "status": "rejected",
+      "corpus_overlap_hash": "24b46211cd",
+      "source": "llm",
+      "reviewer_average": 4,
+      "reviewer_decision": "reject",
+      "next_action": "RUN_ADDITIONAL_SEARCH"
+    }
+  ],
+  "reviewer_scores": [
+    {
+      "idea_id": "ID001",
+      "average_score": 6.62,
+      "decision": "accept",
+      "next_action": "RUN_MICRO_PROBE",
+      "reviewers": [
+        {
+          "reviewer": "Novelty Reviewer",
+          "score": 6.9,
+          "fatal_flaws": [],
+          "fixable_flaws": [
+            "Add direct competitor comparison and search query log."
+          ],
+          "required_experiments": [
+            "Run novelty tribunal before any paper claim."
+          ],
+          "missing_related_work": [
+            "EV001",
+            "EV002",
+            "EV003"
+          ]
+        },
+        {
+          "reviewer": "Experimental Reviewer",
+          "score": 7.5,
+          "fatal_flaws": [],
+          "fixable_flaws": [
+            "Add baseline and ablation before MVP claims."
+          ],
+          "required_experiments": [
+            "Micro-probe with random baseline.",
+            "Probe with evidence-weighted baseline."
+          ],
+          "missing_related_work": []
+        },
+        {
+          "reviewer": "Theory/Mechanism Reviewer",
+          "score": 6.7,
+          "fatal_flaws": [],
+          "fixable_flaws": [
+            "Tighten mechanism into falsifiable prediction."
+          ],
+          "required_experiments": [
+            "Test whether the mechanism improves selection utility under controlled noise."
+          ],
+          "missing_related_work": []
+        },
+        {
+          "reviewer": "Reproducibility Reviewer",
+          "score": 6.3,
+          "fatal_flaws": [],
+          "fixable_flaws": [
+            "Record seed, command, environment, stdout, stderr, and metrics."
+          ],
+          "required_experiments": [
+            "Run with fixed seed and persist config."
+          ],
+          "missing_related_work": []
+        },
+        {
+          "reviewer": "Venue Reviewer",
+          "score": 5.7,
+          "fatal_flaws": [],
+          "fixable_flaws": [
+            "Position as workshop candidate until stronger empirical evidence exists."
+          ],
+          "required_experiments": [
+            "Add venue-fit checklist after results."
+          ],
+          "missing_related_work": []
+        }
+      ]
+    },
+    {
+      "idea_id": "ID002",
+      "average_score": 6.58,
+      "decision": "accept",
+      "next_action": "RUN_MICRO_PROBE",
+      "reviewers": [
+        {
+          "reviewer": "Novelty Reviewer",
+          "score": 6.7,
+          "fatal_flaws": [],
+          "fixable_flaws": [
+            "Add direct competitor comparison and search query log."
+          ],
+          "required_experiments": [
+            "Run novelty tribunal before any paper claim."
+          ],
+          "missing_related_work": [
+            "EV001",
+            "EV002",
+            "EV003"
+          ]
+        },
+        {
+          "reviewer": "Experimental Reviewer",
+          "score": 7.5,
+          "fatal_flaws": [],
+          "fixable_flaws": [
+            "Add baseline and ablation before MVP claims."
+          ],
+          "required_experiments": [
+            "Micro-probe with random baseline.",
+            "Probe with evidence-weighted baseline."
+          ],
+          "missing_related_work": []
+        },
+        {
+          "reviewer": "Theory/Mechanism Reviewer",
+          "score": 6.7,
+          "fatal_flaws": [],
+          "fixable_flaws": [
+            "Tighten mechanism into falsifiable prediction."
+          ],
+          "required_experiments": [
+            "Test whether the mechanism improves selection utility under controlled noise."
+          ],
+          "missing_related_work": []
+        },
+        {
+          "reviewer": "Reproducibility Reviewer",
+          "score": 6.3,
+          "fatal_flaws": [],
+          "fixable_flaws": [
+            "Record seed, command, environment, stdout, stderr, and metrics."
+          ],
+          "required_experiments": [
+            "Run with fixed seed and persist config."
+          ],
+          "missing_related_work": []
+        },
+        {
+          "reviewer": "Venue Reviewer",
+          "score": 5.7,
+          "fatal_flaws": [],
+          "fixable_flaws": [
+            "Position as workshop candidate until stronger empirical evidence exists."
+          ],
+          "required_experiments": [
+            "Add venue-fit checklist after results."
+          ],
+          "missing_related_work": []
+        }
+      ]
+    },
+    {
+      "idea_id": "ID003",
+      "average_score": 5,
+      "decision": "reject",
+      "next_action": "RUN_ADDITIONAL_SEARCH",
+      "reviewers": [
+        {
+          "reviewer": "Novelty Reviewer",
+          "score": 6,
+          "fatal_flaws": [],
+          "fixable_flaws": [
+            "Lacks technical depth on how reviewer criteria are simulated and validated",
+            "Missing discussion of potential biases in simulated feedback generation",
+            "No clear comparison with existing research assistance tools",
+            "Mechanism for generating realistic reviewer feedback not specified"
+          ],
+          "required_experiments": [
+            "Benchmark against existing research assistance tools",
+            "Validation study comparing simulated vs actual reviewer feedback",
+            "Ablation study on different feedback generation strategies",
+            "Longitudinal study tracking researcher satisfaction and outcomes"
+          ],
+          "missing_related_work": [
+            "AI-powered academic writing assistance systems",
+            "Automated peer review tools and their limitations",
+            "Research guidance systems in other domains",
+            "Expert system approaches to feedback generation"
+          ],
+          "decision": "revise",
+          "justification": "The core concept of simulated reviewer feedback during development shows novelty, but the idea lacks technical depth and proper positioning against existing work. Requires substantial expansion of technical details and experimental validation."
+        },
+        {
+          "reviewer": "Experimental Reviewer",
+          "score": 4,
+          "fatal_flaws": [
+            "No clear baseline or control group specified",
+            "No statistical validity considerations (sample size, tests, etc.)",
+            "No reproducibility information (code, data, protocols)",
+            "No validation of how simulated feedback will be generated",
+            "No consideration of confounding variables or biases"
+          ],
+          "fixable_flaws": [
+            "Metrics need refinement and justification",
+            "Experimental design needs more detail",
+            "Ablation studies required",
+            "Literature review needed to support novelty claim"
+          ],
+          "required_experiments": [
+            "Pilot study to validate the feedback generation mechanism",
+            "Power analysis to determine appropriate sample size",
+            "Ablation studies to identify key components",
+            "Longitudinal study to measure sustained impact"
+          ],
+          "missing_related_work": [
+            "Research on AI-assisted writing and feedback systems",
+            "Studies on peer review process optimization",
+            "Work on simulated expert systems",
+            "Research on iterative design processes in academic contexts"
+          ],
+          "decision": "reject",
+          "justification": "The proposal lacks essential experimental rigor with no clear baseline, statistical considerations, or reproducibility measures. The simulated feedback mechanism itself needs validation before any impact study can be meaningful."
+        },
+        {
+          "reviewer": "Theory/Mechanism Reviewer",
+          "score": 6,
+          "fatal_flaws": [],
+          "fixable_flaws": [
+            "The novelty claim appears overstated without comprehensive literature review",
+            "Evidence provided doesn't directly support the core mechanism",
+            "The 30% reduction metric lacks justification and baseline data"
+          ],
+          "required_experiments": [
+            "Pilot study to validate accuracy of simulated reviewer feedback",
+            "A/B testing of timing points (25%, 50%, 75%) vs other intervals",
+            "Validation study comparing simulated vs actual reviewer responses"
+          ],
+          "missing_related_work": [
+            "Literature on simulation-based feedback systems in academic contexts",
+            "Research on iterative proposal development methodologies",
+            "Studies on AI-assisted academic writing and review processes"
+          ],
+          "decision": "revise",
+          "justification": "The concept has theoretical merit but requires stronger validation of the core assumption that simulated feedback can effectively guide research. The mechanism needs empirical support and the novelty claim needs to be substantiated with comprehensive literature review."
+        },
+        {
+          "reviewer": "Reproducibility Reviewer",
+          "score": 5,
+          "fatal_flaws": [
+            "OpenClaw model turn unavailable — manual review required"
+          ],
+          "fixable_flaws": [],
+          "required_experiments": [],
+          "missing_related_work": [],
+          "decision": "revise",
+          "justification": "Automated review was unavailable via openclaw infer model run. Manual review required."
+        },
+        {
+          "reviewer": "Venue Reviewer",
+          "score": 4,
+          "fatal_flaws": [
+            "Overstated novelty claim without proper literature review",
+            "Lack of technical details on reviewer simulation mechanism",
+            "No consideration of feedback accuracy or quality validation"
+          ],
+          "fixable_flaws": [
+            "Missing comprehensive related work analysis",
+            "Experimental design lacks rigor and proper controls",
+            "No discussion of ethical implications or potential biases"
+          ],
+          "required_experiments": [
+            "Implement and test the prototype across multiple research domains",
+            "Compare simulated feedback quality against actual reviewer feedback",
+            "Longitudinal study measuring actual impact on acceptance rates and research quality"
+          ],
+          "missing_related_work": [
+            "AI writing assistants and real-time feedback systems",
+            "Research proposal evaluation tools and frameworks",
+            "Automated peer review systems literature",
+            "Human-computer interaction studies on feedback timing"
+          ],
+          "decision": "reject",
+          "justification": "The proposal lacks sufficient technical detail and proper literature review to support its novelty claims. The experimental design is inadequate and doesn't address fundamental challenges of simulating reviewer feedback accurately. Without addressing these core issues, the work is not ready for publication."
+        }
+      ]
+    },
+    {
+      "idea_id": "ID004",
+      "average_score": 6.62,
+      "decision": "accept",
+      "next_action": "RUN_MICRO_PROBE",
+      "reviewers": [
+        {
+          "reviewer": "Novelty Reviewer",
+          "score": 6.9,
+          "fatal_flaws": [],
+          "fixable_flaws": [
+            "Add direct competitor comparison and search query log."
+          ],
+          "required_experiments": [
+            "Run novelty tribunal before any paper claim."
+          ],
+          "missing_related_work": [
+            "EV001",
+            "EV002",
+            "EV003"
+          ]
+        },
+        {
+          "reviewer": "Experimental Reviewer",
+          "score": 7.5,
+          "fatal_flaws": [],
+          "fixable_flaws": [
+            "Add baseline and ablation before MVP claims."
+          ],
+          "required_experiments": [
+            "Micro-probe with random baseline.",
+            "Probe with evidence-weighted baseline."
+          ],
+          "missing_related_work": []
+        },
+        {
+          "reviewer": "Theory/Mechanism Reviewer",
+          "score": 6.7,
+          "fatal_flaws": [],
+          "fixable_flaws": [
+            "Tighten mechanism into falsifiable prediction."
+          ],
+          "required_experiments": [
+            "Test whether the mechanism improves selection utility under controlled noise."
+          ],
+          "missing_related_work": []
+        },
+        {
+          "reviewer": "Reproducibility Reviewer",
+          "score": 6.3,
+          "fatal_flaws": [],
+          "fixable_flaws": [
+            "Record seed, command, environment, stdout, stderr, and metrics."
+          ],
+          "required_experiments": [
+            "Run with fixed seed and persist config."
+          ],
+          "missing_related_work": []
+        },
+        {
+          "reviewer": "Venue Reviewer",
+          "score": 5.7,
+          "fatal_flaws": [],
+          "fixable_flaws": [
+            "Position as workshop candidate until stronger empirical evidence exists."
+          ],
+          "required_experiments": [
+            "Add venue-fit checklist after results."
+          ],
+          "missing_related_work": []
+        }
+      ]
+    },
+    {
+      "idea_id": "ID005",
+      "average_score": 4.4,
+      "decision": "reject",
+      "next_action": "RUN_ADDITIONAL_SEARCH",
+      "reviewers": [
+        {
+          "reviewer": "Novelty Reviewer",
+          "score": 4,
+          "fatal_flaws": [
+            "Overstated novelty claim of being 'first systematic framework'",
+            "Insufficient differentiation from multi-fidelity optimization and active learning approaches"
+          ],
+          "fixable_flaws": [
+            "Need to properly situate within existing literature on experimental design and validation",
+            "Should provide more specific technical details of the framework",
+            "Need to address how this differs from existing Bayesian optimization approaches"
+          ],
+          "required_experiments": [
+            "Comprehensive literature review comparing with multi-fidelity optimization methods",
+            "Ablation study comparing different checkpoint timing strategies",
+            "Broader evaluation across multiple research domains"
+          ],
+          "missing_related_work": [
+            "Multi-fidelity optimization literature",
+            "Bayesian optimization with cheap and expensive models",
+            "Active learning with validation checkpoints",
+            "Resource-aware AI systems literature"
+          ],
+          "decision": "reject",
+          "justification": "The framework concept of early validation checkpoints is not novel, as similar approaches exist in multi-fidelity optimization, Bayesian optimization, and active learning. The claim of being 'first systematic framework' is overstated, and the idea lacks sufficient differentiation from existing work."
+        },
+        {
+          "reviewer": "Experimental Reviewer",
+          "score": 6,
+          "fatal_flaws": [
+            "Lack of precise definition for 'late-stage experiment failures'",
+            "Disconnect between experiment focus (timing distributions) and claimed outcome (failure reduction)",
+            "No mention of statistical power analysis or sample size determination"
+          ],
+          "fixable_flaws": [
+            "Insufficient detail on baseline agents",
+            "Missing ablation studies",
+            "Lack of specific software environment details for reproducibility",
+            "Unclear definition of 'standard research tasks'",
+            "Need for more thorough literature review to substantiate novelty claim"
+          ],
+          "required_experiments": [
+            "Define and operationalize 'late-stage experiment failures'",
+            "Conduct ablation studies to understand component contributions",
+            "Perform statistical power analysis and determine appropriate sample size",
+            "Specify and document software environment and random seeds",
+            "Conduct more thorough literature review"
+          ],
+          "missing_related_work": [
+            "Papers on early experimentation or early validation in research workflows",
+            "Papers on the timing of experiments in autonomous systems",
+            "Papers on the cost-benefit analysis of early vs. late experimentation"
+          ],
+          "decision": "revise",
+          "justification": "The proposed experiment lacks the necessary details for statistical validity and reproducibility. The metric is not precisely defined, and there's a disconnect between the experiment's focus (timing distributions) and the claimed outcome (failure reduction). Additionally, the novelty claim needs to be substantiated with a more thorough literature review."
+        },
+        {
+          "reviewer": "Theory/Mechanism Reviewer",
+          "score": 5,
+          "fatal_flaws": [
+            "OpenClaw model turn unavailable — manual review required"
+          ],
+          "fixable_flaws": [],
+          "required_experiments": [],
+          "missing_related_work": [],
+          "decision": "revise",
+          "justification": "Automated review was unavailable via openclaw infer model run. Manual review required."
+        },
+        {
+          "reviewer": "Reproducibility Reviewer",
+          "score": 2,
+          "fatal_flaws": [
+            "No fixed seeds specified for reproducible experiments",
+            "No clear commands provided for running experiments",
+            "No environment logging or version specifications",
+            "No documented datasets or data sources",
+            "No information about ensuring deterministic runs"
+          ],
+          "fixable_flaws": [
+            "Need to specify exact experimental commands and procedures",
+            "Must document software versions and dependencies",
+            "Should define baseline and control group methodologies",
+            "Need to clarify how 'experiment failures' are measured and counted"
+          ],
+          "required_experiments": [
+            "Run pilot experiments with fixed seeds to establish baseline failure rates",
+            "Document complete experimental protocol with step-by-step commands",
+            "Provide environment specification including OS, Python version, and all dependencies",
+            "Create reproducible dataset or specify exact data sources"
+          ],
+          "missing_related_work": [
+            "Recent work on AI agent reliability and reproducibility (beyond the cited papers)",
+            "Papers on experimental design for autonomous research systems",
+            "Studies on early validation techniques in research workflows"
+          ],
+          "decision": "reject",
+          "justification": "The proposal lacks essential reproducibility elements including fixed seeds, clear commands, environment logging, and documented datasets. Without these critical details, the experiment cannot be reproduced or verified, making it unsuitable for publication."
+        },
+        {
+          "reviewer": "Venue Reviewer",
+          "score": 5,
+          "fatal_flaws": [
+            "OpenClaw model turn unavailable — manual review required"
+          ],
+          "fixable_flaws": [],
+          "required_experiments": [],
+          "missing_related_work": [],
+          "decision": "revise",
+          "justification": "Automated review was unavailable via openclaw infer model run. Manual review required."
+        }
+      ]
+    },
+    {
+      "idea_id": "ID006",
+      "average_score": 3.8,
+      "decision": "reject",
+      "next_action": "RUN_ADDITIONAL_SEARCH",
+      "reviewers": [
+        {
+          "reviewer": "Novelty Reviewer",
+          "score": 5,
+          "fatal_flaws": [
+            "OpenClaw model turn unavailable — manual review required"
+          ],
+          "fixable_flaws": [],
+          "required_experiments": [],
+          "missing_related_work": [],
+          "decision": "revise",
+          "justification": "Automated review was unavailable via openclaw infer model run. Manual review required."
+        },
+        {
+          "reviewer": "Experimental Reviewer",
+          "score": 4,
+          "fatal_flaws": [
+            "No clear baselines specified for comparison",
+            "Metric definition lacks specificity (how to quantify 'information gained')",
+            "No statistical analysis plan mentioned",
+            "Novelty claim is questionable given existing work in active learning and optimal experimental design"
+          ],
+          "fixable_flaws": [
+            "Need to specify ablation studies",
+            "Missing details on experimental setup and simulation environments",
+            "No mention of reproducibility measures (code, data, random seeds)",
+            "Related work section is insufficient and not directly relevant"
+          ],
+          "required_experiments": [
+            "Compare against multiple baseline scheduling approaches",
+            "Ablation studies to isolate contributions of scheduler components",
+            "Experiments across different types of information landscapes",
+            "Statistical analysis with confidence intervals and significance testing"
+          ],
+          "missing_related_work": [
+            "Active learning literature (e.g., Settles 2009)",
+            "Bayesian experimental design papers",
+            "Information-theoretic approaches to experiment selection",
+            "Related work on adaptive scheduling in computational research"
+          ],
+          "decision": "reject",
+          "justification": "The proposal lacks sufficient technical detail, proper baseline comparisons, and statistical rigor. The novelty claim is questionable given existing work in related fields. The experiment design is too vague to be reproducible or properly evaluated."
+        },
+        {
+          "reviewer": "Theory/Mechanism Reviewer",
+          "score": 4,
+          "fatal_flaws": [
+            "Mathematical framework for calculating expected value of information is not specified",
+            "No clear methodology for quantifying 'information gain potential' in practice"
+          ],
+          "fixable_flaws": [
+            "Related work section is irrelevant to the proposed mechanism",
+            "Experimental design lacks real-world validation",
+            "Implementation details and algorithms not specified"
+          ],
+          "required_experiments": [
+            "Mathematical validation of information value calculation formulas",
+            "Comparison against established scheduling strategies (greedy, random, etc.)",
+            "Case studies in actual research domains with real resource constraints"
+          ],
+          "missing_related_work": [
+            "Optimal experimental design literature",
+            "Active learning and Bayesian optimization approaches",
+            "Information-theoretic experimental planning methods",
+            "Previous work on research resource optimization"
+          ],
+          "decision": "revise",
+          "justification": "The core concept of balancing information value against costs is theoretically sound but lacks the mathematical specification and practical implementation details needed for a complete proposal. The mechanism needs rigorous formulation and connection to existing literature on optimal experimental design."
+        },
+        {
+          "reviewer": "Reproducibility Reviewer",
+          "score": 2,
+          "fatal_flaws": [
+            "No fixed seeds or random number generation control specified",
+            "No clear commands or procedures for running the experiment",
+            "No environment logging or version control information",
+            "No documented datasets or simulated environments",
+            "No mention of deterministic execution"
+          ],
+          "fixable_flaws": [
+            "Need to specify exact software versions and dependencies",
+            "Need to provide detailed experimental protocol",
+            "Need to document the simulated environments used",
+            "Need to establish baseline comparisons"
+          ],
+          "required_experiments": [
+            "Implementation of the scheduler with fixed seeds",
+            "Baseline experiments with random scheduling",
+            "Ablation study on different cost models",
+            "Reproducibility tests across different hardware"
+          ],
+          "missing_related_work": [
+            "Previous work on adaptive scheduling in research",
+            "Information theory applications in experiment design",
+            "Resource allocation strategies in research computing"
+          ],
+          "decision": "reject",
+          "justification": "The experiment lacks critical reproducibility elements including fixed seeds, clear commands, environment logging, and documented datasets. Without these fundamental components, the experiment cannot be reproduced or validated."
+        },
+        {
+          "reviewer": "Venue Reviewer",
+          "score": 4,
+          "fatal_flaws": [
+            "Insufficient experimental validation beyond a single MacBook M4 test",
+            "Lack of comparative analysis with existing scheduling approaches",
+            "Missing theoretical foundation and mathematical formulation"
+          ],
+          "fixable_flaws": [
+            "Need for comprehensive experiments across diverse research environments",
+            "Should include baseline comparisons with traditional scheduling methods",
+            "Requires detailed mathematical framework for information value calculation"
+          ],
+          "required_experiments": [
+            "Test on multiple hardware configurations and research domains",
+            "Compare against established scheduling algorithms",
+            "Validate in real-world research scenarios, not just simulations"
+          ],
+          "missing_related_work": [
+            "Bayesian experimental design literature",
+            "Active learning scheduling approaches",
+            "Resource allocation in research workflows",
+            "Information-theoretic approaches to experiment optimization"
+          ],
+          "decision": "reject",
+          "justification": "The work presents an interesting concept but lacks sufficient experimental validation and theoretical grounding for publication. The single MacBook M4 test is inadequate, and the novelty claim is not well-supported by the provided evidence. The work needs substantial development before it could be considered for any academic venue."
+        }
+      ]
+    },
+    {
+      "idea_id": "ID007",
+      "average_score": 6.6,
+      "decision": "accept",
+      "next_action": "RUN_MICRO_PROBE",
+      "reviewers": [
+        {
+          "reviewer": "Novelty Reviewer",
+          "score": 6.8,
+          "fatal_flaws": [],
+          "fixable_flaws": [
+            "Add direct competitor comparison and search query log."
+          ],
+          "required_experiments": [
+            "Run novelty tribunal before any paper claim."
+          ],
+          "missing_related_work": [
+            "EV001",
+            "EV002",
+            "EV003"
+          ]
+        },
+        {
+          "reviewer": "Experimental Reviewer",
+          "score": 7.5,
+          "fatal_flaws": [],
+          "fixable_flaws": [
+            "Add baseline and ablation before MVP claims."
+          ],
+          "required_experiments": [
+            "Micro-probe with random baseline.",
+            "Probe with evidence-weighted baseline."
+          ],
+          "missing_related_work": []
+        },
+        {
+          "reviewer": "Theory/Mechanism Reviewer",
+          "score": 6.7,
+          "fatal_flaws": [],
+          "fixable_flaws": [
+            "Tighten mechanism into falsifiable prediction."
+          ],
+          "required_experiments": [
+            "Test whether the mechanism improves selection utility under controlled noise."
+          ],
+          "missing_related_work": []
+        },
+        {
+          "reviewer": "Reproducibility Reviewer",
+          "score": 6.3,
+          "fatal_flaws": [],
+          "fixable_flaws": [
+            "Record seed, command, environment, stdout, stderr, and metrics."
+          ],
+          "required_experiments": [
+            "Run with fixed seed and persist config."
+          ],
+          "missing_related_work": []
+        },
+        {
+          "reviewer": "Venue Reviewer",
+          "score": 5.7,
+          "fatal_flaws": [],
+          "fixable_flaws": [
+            "Position as workshop candidate until stronger empirical evidence exists."
+          ],
+          "required_experiments": [
+            "Add venue-fit checklist after results."
+          ],
+          "missing_related_work": []
+        }
+      ]
+    },
+    {
+      "idea_id": "ID008",
+      "average_score": 4,
+      "decision": "reject",
+      "next_action": "RUN_ADDITIONAL_SEARCH",
+      "reviewers": [
+        {
+          "reviewer": "Novelty Reviewer",
+          "score": 5,
+          "fatal_flaws": [
+            "OpenClaw model turn unavailable — manual review required"
+          ],
+          "fixable_flaws": [],
+          "required_experiments": [],
+          "missing_related_work": [],
+          "decision": "revise",
+          "justification": "Automated review was unavailable via openclaw infer model run. Manual review required."
+        },
+        {
+          "reviewer": "Experimental Reviewer",
+          "score": 5,
+          "fatal_flaws": [
+            "OpenClaw model turn unavailable — manual review required"
+          ],
+          "fixable_flaws": [],
+          "required_experiments": [],
+          "missing_related_work": [],
+          "decision": "revise",
+          "justification": "Automated review was unavailable via openclaw infer model run. Manual review required."
+        },
+        {
+          "reviewer": "Theory/Mechanism Reviewer",
+          "score": 5,
+          "fatal_flaws": [
+            "OpenClaw model turn unavailable — manual review required"
+          ],
+          "fixable_flaws": [],
+          "required_experiments": [],
+          "missing_related_work": [],
+          "decision": "revise",
+          "justification": "Automated review was unavailable via openclaw infer model run. Manual review required."
+        },
+        {
+          "reviewer": "Reproducibility Reviewer",
+          "score": 2,
+          "fatal_flaws": [
+            "No fixed seeds specified for random processes",
+            "No clear commands or instructions for running the experiment",
+            "No information about environment logging",
+            "No documentation of datasets used",
+            "No mention of deterministic runs"
+          ],
+          "fixable_flaws": [
+            "Provide detailed implementation of the failure analysis mechanism",
+            "Specify the exact datasets and preprocessing steps",
+            "Include hyperparameters and optimization details"
+          ],
+          "required_experiments": [
+            "Baseline comparison with standard meta-learning approaches",
+            "Ablation study on the contribution of failure analysis",
+            "Cross-validation on multiple healthcare domains"
+          ],
+          "missing_related_work": [
+            "Failure-driven learning approaches in healthcare",
+            "Meta-learning for medical AI agents",
+            "Reliability assessment methods for AI agents in healthcare"
+          ],
+          "decision": "reject",
+          "justification": "The experiment lacks critical reproducibility elements including fixed seeds, clear commands, environment logging, and dataset documentation. Without these details, the experiment cannot be reliably reproduced."
+        },
+        {
+          "reviewer": "Venue Reviewer",
+          "score": 3,
+          "fatal_flaws": [
+            "Lacks specific methodology and implementation details",
+            "No experimental results or preliminary findings presented",
+            "Unclear novelty claim - the concept of learning from failures is not new"
+          ],
+          "fixable_flaws": [
+            "Needs more detailed description of the proposed framework",
+            "Requires specific experimental setup and evaluation metrics",
+            "Should include preliminary results or proof-of-concept"
+          ],
+          "required_experiments": [
+            "Implement the adaptive failure learning framework with specific algorithms",
+            "Conduct experiments on well-defined healthcare AI tasks",
+            "Compare against baseline methods and report quantitative results"
+          ],
+          "missing_related_work": [
+            "Learning from failure in machine learning literature",
+            "Meta-learning approaches for healthcare AI",
+            "Reliability and robustness methods for AI agents in healthcare"
+          ],
+          "decision": "reject",
+          "justification": "The work lacks sufficient detail, experimental validation, and clear novelty to be appropriate for any venue beyond arXiv. It requires substantial development and empirical evaluation before it can be considered for presentation at workshops or conferences."
+        }
+      ]
+    },
+    {
+      "idea_id": "ID009",
+      "average_score": 6.62,
+      "decision": "accept",
+      "next_action": "RUN_MICRO_PROBE",
+      "reviewers": [
+        {
+          "reviewer": "Novelty Reviewer",
+          "score": 6.9,
+          "fatal_flaws": [],
+          "fixable_flaws": [
+            "Add direct competitor comparison and search query log."
+          ],
+          "required_experiments": [
+            "Run novelty tribunal before any paper claim."
+          ],
+          "missing_related_work": [
+            "EV001",
+            "EV002",
+            "EV003"
+          ]
+        },
+        {
+          "reviewer": "Experimental Reviewer",
+          "score": 7.5,
+          "fatal_flaws": [],
+          "fixable_flaws": [
+            "Add baseline and ablation before MVP claims."
+          ],
+          "required_experiments": [
+            "Micro-probe with random baseline.",
+            "Probe with evidence-weighted baseline."
+          ],
+          "missing_related_work": []
+        },
+        {
+          "reviewer": "Theory/Mechanism Reviewer",
+          "score": 6.7,
+          "fatal_flaws": [],
+          "fixable_flaws": [
+            "Tighten mechanism into falsifiable prediction."
+          ],
+          "required_experiments": [
+            "Test whether the mechanism improves selection utility under controlled noise."
+          ],
+          "missing_related_work": []
+        },
+        {
+          "reviewer": "Reproducibility Reviewer",
+          "score": 6.3,
+          "fatal_flaws": [],
+          "fixable_flaws": [
+            "Record seed, command, environment, stdout, stderr, and metrics."
+          ],
+          "required_experiments": [
+            "Run with fixed seed and persist config."
+          ],
+          "missing_related_work": []
+        },
+        {
+          "reviewer": "Venue Reviewer",
+          "score": 5.7,
+          "fatal_flaws": [],
+          "fixable_flaws": [
+            "Position as workshop candidate until stronger empirical evidence exists."
+          ],
+          "required_experiments": [
+            "Add venue-fit checklist after results."
+          ],
+          "missing_related_work": []
+        }
+      ]
+    },
+    {
+      "idea_id": "ID010",
+      "average_score": 4,
+      "decision": "reject",
+      "next_action": "RUN_ADDITIONAL_SEARCH",
+      "reviewers": [
+        {
+          "reviewer": "Novelty Reviewer",
+          "score": 5,
+          "fatal_flaws": [
+            "OpenClaw model turn unavailable — manual review required"
+          ],
+          "fixable_flaws": [],
+          "required_experiments": [],
+          "missing_related_work": [],
+          "decision": "revise",
+          "justification": "Automated review was unavailable via openclaw infer model run. Manual review required."
+        },
+        {
+          "reviewer": "Experimental Reviewer",
+          "score": 4,
+          "fatal_flaws": [
+            "The proposed metric (reduction in revision cycles) is impractical to measure and lacks objectivity",
+            "No clear baselines are specified for comparison",
+            "The experiment lacks statistical validity with no mention of sample sizes or statistical tests",
+            "No ablation studies are planned to understand the contribution of different components"
+          ],
+          "fixable_flaws": [
+            "The experiment should include more direct and objective metrics for style adaptation quality",
+            "Need to specify clear baselines for comparison",
+            "Should include statistical analysis plan",
+            "Missing ablation studies"
+          ],
+          "required_experiments": [
+            "Implement and evaluate the style transformation module with objective metrics",
+            "Conduct ablation studies to understand the contribution of different components",
+            "Compare against existing style transfer methods as baselines",
+            "Perform statistical analysis to ensure the results are significant"
+          ],
+          "missing_related_work": [
+            "Style transfer for academic writing",
+            "Text adaptation for specific domains or venues",
+            "Automatic paper formatting and style compliance"
+          ],
+          "decision": "reject",
+          "justification": "The proposed experiment lacks methodological rigor with no clear baselines, impractical metrics, and no statistical validity. The experiment would need significant revisions to address these fundamental issues before it could be considered for publication."
+        },
+        {
+          "reviewer": "Theory/Mechanism Reviewer",
+          "score": 4,
+          "fatal_flaws": [
+            "The mechanism lacks specificity - unclear how 'style transformation rules' would be derived or implemented",
+            "No consideration of how to preserve semantic meaning while changing style",
+            "No discussion of how to handle domain-specific conventions that vary beyond just style"
+          ],
+          "fixable_flaws": [
+            "The proposal needs to specify the technical approach for learning and applying style patterns",
+            "Should address how to evaluate the quality of the transformed content",
+            "Needs to consider the interaction between style and content in academic writing"
+          ],
+          "required_experiments": [
+            "A detailed implementation of the style transformation module",
+            "Evaluation of the transformed abstracts for both style accuracy and content preservation",
+            "Comparison with human-written papers for the same venues",
+            "Study of actual revision cycles before and after using the adapter"
+          ],
+          "missing_related_work": [
+            "Style transfer literature in NLP",
+            "Academic writing assistance tools",
+            "Citation formatting and adaptation research",
+            "Previous work on venue-specific writing conventions"
+          ],
+          "decision": "reject",
+          "justification": "The proposal lacks sufficient theoretical grounding and technical specificity. The mechanism is vaguely defined, with no clear approach for learning and applying style transformation rules while preserving semantic content. The novelty claim is unsubstantiated without addressing related work in style transfer and academic writing assistance."
+        },
+        {
+          "reviewer": "Reproducibility Reviewer",
+          "score": 2,
+          "fatal_flaws": [
+            "No fixed seeds specified for random processes",
+            "No clear commands or procedures provided",
+            "No logged environment information",
+            "No documented datasets for training/testing",
+            "No information about deterministic runs"
+          ],
+          "fixable_flaws": [
+            "Provide detailed experimental protocol",
+            "Document all software dependencies and versions",
+            "Specify dataset sources and preprocessing steps",
+            "Include random seed values for reproducibility"
+          ],
+          "required_experiments": [
+            "Complete experimental protocol with all steps",
+            "Environment specification including software versions",
+            "Dataset documentation with sources and preprocessing",
+            "Code implementation with random seed values"
+          ],
+          "missing_related_work": [
+            "Style transfer in academic writing",
+            "Text style adaptation for different publication venues",
+            "Neural approaches to academic writing style modification"
+          ],
+          "decision": "reject",
+          "justification": "The experiment lacks essential reproducibility elements including fixed seeds, clear commands, environment logging, dataset documentation, and deterministic run specifications. Without these fundamental components, the experiment cannot be reproduced or verified by other researchers."
+        },
+        {
+          "reviewer": "Venue Reviewer",
+          "score": 5,
+          "fatal_flaws": [
+            "OpenClaw model turn unavailable — manual review required"
+          ],
+          "fixable_flaws": [],
+          "required_experiments": [],
+          "missing_related_work": [],
+          "decision": "revise",
+          "justification": "Automated review was unavailable via openclaw infer model run. Manual review required."
+        }
+      ]
+    }
+  ],
+  "experiment_candidates": [
+    {
+      "idea_id": "ID001",
+      "title": "Evidence Chain Visualization for AI Agents",
+      "level": "micro_probe",
+      "status": "planned",
+      "metric": "Percentage of agent decisions with complete evidence chain visualization",
+      "baseline": "random idea selection under controlled synthetic utility"
+    },
+    {
+      "idea_id": "ID004",
+      "title": "Predictive Research Idea Vetting",
+      "level": "micro_probe",
+      "status": "planned",
+      "metric": "Accuracy of predicting reviewer scores within ±10% on a test set of 100 research ideas",
+      "baseline": "random idea selection under controlled synthetic utility"
+    },
+    {
+      "idea_id": "ID009",
+      "title": "Venue-Fit Output Validator",
+      "level": "micro_probe",
+      "status": "planned",
+      "metric": "Percentage of outputs passing venue-fit validation without human revision",
+      "baseline": "random idea selection under controlled synthetic utility"
+    }
+  ],
+  "approval_status": {},
+  "micro_probe_results": [],
+  "probe_results": [],
+  "ablation_results": [],
+  "mvp_results": [],
+  "failed_ideas": [
+    {
+      "idea_id": "ID003",
+      "title": "Proactive Reviewer Feedback Integration",
+      "reason": "Reviewer Council rejected the idea."
+    },
+    {
+      "idea_id": "ID005",
+      "title": "Early Experimentation Framework",
+      "reason": "Reviewer Council rejected the idea."
+    },
+    {
+      "idea_id": "ID006",
+      "title": "Adaptive Cost-Benefit Scheduler",
+      "reason": "Reviewer Council rejected the idea."
+    },
+    {
+      "idea_id": "ID008",
+      "title": "Adaptive Failure Learning Framework",
+      "reason": "Reviewer Council rejected the idea."
+    },
+    {
+      "idea_id": "ID010",
+      "title": "Academic Context Adapter",
+      "reason": "Reviewer Council rejected the idea."
+    }
+  ],
+  "validation_results": [],
+  "paper_readiness_level": "RRL-0",
+  "final_output_path": "/Users/mohanganesh/OpenClaw-Lab/openresearchos/runs/run_20260602054449_agent-reliability-in-healthcare-ai_9d2c5f/research_failure_report.md",
+  "history": [
+    {
+      "at": "2026-06-02T05:44:49.880Z",
+      "state": "TOPIC_SCOPED",
+      "detail": "The topic can be explored with small simulations, synthetic data, or lightweight local experiments on the Mac."
+    },
+    {
+      "at": "2026-06-02T05:44:49.880Z",
+      "state": "SEARCH_PLAN_CREATED",
+      "detail": "8 queries created."
+    },
+    {
+      "at": "2026-06-02T05:44:55.109Z",
+      "state": "LITERATURE_DISCOVERY_RUNNING",
+      "detail": "Starting structured literature discovery."
+    },
+    {
+      "at": "2026-06-02T05:46:16.890Z",
+      "state": "EVIDENCE_LOCKED",
+      "detail": "20 evidence items indexed."
+    },
+    {
+      "at": "2026-06-02T05:54:26.213Z",
+      "state": "PAPERS_PARSED",
+      "detail": "20 paper/source summaries written."
+    },
+    {
+      "at": "2026-06-02T05:54:26.215Z",
+      "state": "CLAIM_GRAPH_BUILT",
+      "detail": "20 evidence-linked claims created."
+    },
+    {
+      "at": "2026-06-02T05:55:30.989Z",
+      "state": "RESEARCH_MAP_READY",
+      "detail": "Research map generated."
+    },
+    {
+      "at": "2026-06-02T05:55:30.990Z",
+      "state": "GAPS_IDENTIFIED",
+      "detail": "5 gaps identified."
+    },
+    {
+      "at": "2026-06-02T06:04:32.528Z",
+      "state": "IDEA_TREE_GENERATED",
+      "detail": "Generating 20 candidate ideas."
+    },
+    {
+      "at": "2026-06-02T06:06:06.296Z",
+      "state": "REVIEWER_PASS_1_RUNNING",
+      "detail": "Reviewer Council pass 1 started."
+    },
+    {
+      "at": "2026-06-02T06:18:11.779Z",
+      "state": "IDEAS_REVISED_OR_REJECTED",
+      "detail": "5 ideas rejected; 3 candidates retained."
+    },
+    {
+      "at": "2026-06-02T06:18:11.779Z",
+      "state": "NOVELTY_TRIBUNAL_RUNNING",
+      "detail": "Near-duplicate comparison completed against evidence index and Semantic Scholar."
+    },
+    {
+      "at": "2026-06-02T06:18:11.779Z",
+      "state": "IDEAS_SHORTLISTED",
+      "detail": "3 ideas available for experiment planning."
+    },
+    {
+      "at": "2026-06-02T07:29:36.465Z",
+      "state": "PAPER_READINESS_REVIEW",
+      "detail": "research_failure_report_required"
+    },
+    {
+      "at": "2026-06-02T07:29:36.467Z",
+      "state": "PAPER_DRAFTED_OR_STOPPED",
+      "detail": "Failure report produced."
+    },
+    {
+      "at": "2026-06-02T07:29:36.467Z",
+      "state": "VENUE_FIT_DONE",
+      "detail": "Venue fit written."
+    },
+    {
+      "at": "2026-06-02T07:29:36.467Z",
+      "state": "TRACE_EXPORTED",
+      "detail": "Trace export command written; run OpenClaw export from the active session."
+    }
+  ],
+  "discovery_errors": []
+}

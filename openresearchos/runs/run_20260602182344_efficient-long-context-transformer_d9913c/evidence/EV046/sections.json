@@ -1,0 +1,6 @@
+{
+  "introduction": "[2307.01694] Spike-driven Transformer\n\nSpike-driven Transformer\n\nMan Yao  1,2,3  , Jiakui Hu  1,4∗  , Zhaokun Zhou  3,4∗  , Li Yuan  3,4  ,\n\nYonghong Tian  3,4\n\n,  Bo Xu  1\n\n,  Guoqi Li  1\n\n1  Institu",
+  "method": "-of-the-art result in the SNN field. The source code is available at  Spike-driven Transfromer .\n\n1  Introduction\n\nOne of the most crucial computational characteristics of bio-inspired Spiking Neural ",
+  "results": "lly given that current spiking Transformers are hardly usable on neuromorphic chips. To address this issue, we propose a novel Spike-driven Transformer that achieves the spike-driven nature of SNNs th",
+  "conclusion": "ltiplication, scale and softmax. The attention map is then used to weight the\n\nV\n\n𝑉\n\nV\n\n(another matrix multiplication). The typical spiking self-attentions in the current spiking Transformers  [ 20 "
+}

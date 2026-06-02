@@ -1,0 +1,6 @@
+{
+  "introduction": "[2509.04482] Energy Landscapes Enable Reliable Abstention in Retrieval-Augmented Large Language Models for Healthcare\n\n[1] \\fnm Gabriel Davis  \\sur Jones\n\n1] \\orgdiv Oxford Digital Health Labs, Nuffie",
+  "method": "clusion or exclusion of specific negative types (hard, easy, mixed) sharpens decision boundaries but is not essential for generalisation to hard cases. These results demonstrate that energy-based abst",
+  "results": "query should trigger abstention:\n(i) domain-irrelevant prompts that fall outside healthcare expertise, for example questions related to finance or economics, where the correct behaviour is immediate r",
+  "conclusion": "decision theory, and selective prediction formalises the coverage–risk trade-off with standard risk–coverage evaluation  [ 4 ,  9 ,  5 ,  10 ] . Post-hoc calibration and conformal prediction can suppo"
+}

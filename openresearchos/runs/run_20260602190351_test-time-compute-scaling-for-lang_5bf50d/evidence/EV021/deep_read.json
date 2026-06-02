@@ -1,0 +1,28 @@
+{
+  "method_summary": "Research paper: Parallel iterative solvers for discretized reduced optimality systems",
+  "key_innovation": "See full text",
+  "datasets_used": [
+    "math"
+  ],
+  "baselines_compared": [],
+  "key_results": {},
+  "best_result": null,
+  "limitations_stated": [],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "unknown",
+  "compute_required": "unknown",
+  "can_run_on_macbook": true,
+  "evidence_id": "EV021",
+  "title": "Parallel iterative solvers for discretized reduced optimality systems",
+  "year": 2023,
+  "arxiv_id": "2312.12282",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7997,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "introduction": "[2504.14177] Direct Advantage Regression: Aligning LLMs with Online AI Reward\n\nDirect Advantage Regression: Aligning LLMs with Online AI Reward\n\nLi He\n\nHe Zhao\n\nStephen Wan\n\nDadong Wang\n\nLina Yao\n\nTon",
+  "method": "learns directly from preference labels between pairs of on-policy responses collected in each online iteration. This results in a minimized distributional shift between the preference dataset and the ",
+  "results": "uning (SFT) loss, DAR iteratively increases the log probability of sampled responses proportional to their advantage, meanwhile effectively avoiding reward hacking  (Ziegler et al.,  2020 ; Bai et al.",
+  "conclusion": "del is trained separately using solely human preferences or AI preferences. Their findings indicated that the models via RLAIF were more preferred, while the cost of RLAIF is ten times cheaper. Moreov"
+}

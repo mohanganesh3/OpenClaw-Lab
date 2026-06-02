@@ -1,0 +1,75 @@
+{
+  "title": "Cost-Minimized Label-Flipping Poisoning Attack to LLM Alignment",
+  "authors": [
+    "wei2023neurips",
+    "chao2023jailbreaking",
+    "Mehrotra2024neurips",
+    "zou2023universal",
+    "greshake2023aisec",
+    "Liu2024usenix",
+    "wan2023poisoning",
+    "Shu2023neurips",
+    "wu2024preference",
+    "rlhfpoison",
+    "pathmanathan2024poisoning",
+    "baumgartner2024best",
+    "pathmanathan2024advbdgen",
+    "tramer2024universal"
+  ],
+  "objective": "Theoretically investigate the minimum cost of label-flipping attacks to steer LLM policies toward target policies during RLHF/DPO alignment phase",
+  "methodology": {
+    "attack_type": "Label-flipping data poisoning attack",
+    "attacker_role": "Annotator providing binary preference labels",
+    "attack_scope": "RLHF/DPO alignment phase",
+    "approach": "Formulated as convex/linear optimization problem",
+    "key_technique": "Deriving tight lower and upper bounds on minimum number of label flips"
+  },
+  "contributions": [
+    "First theoretical analysis of minimal cost for label-flipping attacks during RLHF/DPO alignment",
+    "Derivation of tight bounds on minimum number of label flips needed",
+    "Post-processing method to reduce attack cost while preserving poisoning effect",
+    "Exploits redundancy in data when dataset size > feature dimension"
+  ],
+  "related_work": {
+    "jail_breaking": [
+      "wei2023neurips",
+      "chao2023jailbreaking",
+      "Mehrotra2024neurips",
+      "zou2023universal"
+    ],
+    "prompt_injection": [
+      "greshake2023aisec",
+      "Liu2024usenix"
+    ],
+    "data_poisoning": [
+      "wan2023poisoning",
+      "Shu2023neurips",
+      "wu2024preference",
+      "rlhfpoison",
+      "pathmanathan2024poisoning",
+      "baumgartner2024best",
+      "pathmanathan2024advbdgen",
+      "tramer2024universal"
+    ]
+  },
+  "alignment_methods": [
+    "RLHF",
+    "DPO"
+  ],
+  "training_pipeline": [
+    "pre-training",
+    "supervised fine-tuning (SFT)",
+    "alignment"
+  ],
+  "evidence_id": "EV010",
+  "year": 2025,
+  "arxiv_id": "2511.09105",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7997,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "title": "Off-Policy Corrected Reward Modeling for Reinforcement Learning from Human Feedback",
+  "methodology": {
+    "problem": "Overoptimization (Goodharting) in RLHF where the reward model becomes inaccurate as the RL model diverges from the SFT model",
+    "proposed_solution": "Off-Policy Corrected Reward Modeling (OCRM) using importance weighting to correct for distribution shift",
+    "approach": "Multiple training stages, each consisting of training a corrected RM with importance weighting and then performing multiple policy updates",
+    "approximation": "Instead of retraining the RM after each policy update, the method uses multiple policy updates between RM trainings"
+  },
+  "key_concepts": [
+    "Reinforcement Learning from Human Feedback (RLHF)",
+    "Supervised Fine-Tuning (SFT)",
+    "Reward Modeling",
+    "Overoptimization (Goodharting)",
+    "Distribution Shift",
+    "Importance Weighting (IW)",
+    "Off-Policy Corrected Reward Modeling (OCRM)"
+  ],
+  "pipeline": [
+    "Standard RLHF pipeline: SFT → Reward Modeling → Reinforcement Learning",
+    "OCRM pipeline: Train corrected RM with IW → Perform multiple policy updates → Repeat"
+  ],
+  "main_findings": "Standard RLHF methods provide inconsistent reward model parameter estimates after the first policy update, leading to non-convergence to optimal policy even with unlimited data and training iterations",
+  "advantages": "OCRM iteratively improves RM accuracy on current policy samples and converges to higher final rewards without additional data",
+  "comparison": "Compared to standard Proximal Policy Optimization (PPO)-RLHF, OCRM avoids early stagnation and achieves better final rewards",
+  "evidence_id": "EV006",
+  "year": 2025,
+  "arxiv_id": "2507.15507",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

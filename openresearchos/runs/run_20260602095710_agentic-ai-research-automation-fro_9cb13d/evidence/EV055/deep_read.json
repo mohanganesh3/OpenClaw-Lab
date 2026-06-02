@@ -1,0 +1,38 @@
+{
+  "method_summary": "Three-tiered monitoring approach (within-run, cross-run, structural) using variance-based characterization with FMEA-inspired severity classification to prioritize findings",
+  "key_innovation": "Variance-based monitoring scope characterization that distinguishes deterministic stage defects, stochastic integration consequences, and structural integration gaps",
+  "datasets_used": [
+    "synthetic testbed with 220 runs across 120 document bundles"
+  ],
+  "baselines_compared": [
+    "clean baselines"
+  ],
+  "key_results": {
+    "within_run_cv": 0.02,
+    "cross_run_cv": 1.25,
+    "cross_run_l2_error": 24,
+    "structural_cv": 0,
+    "automated_tracking_rate": 97
+  },
+  "best_result": "Structural monitor identifies integration gap with perfect consistency (CV = 0.00)",
+  "limitations_stated": [
+    "specific calibrations are domain-specific"
+  ],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "medium",
+  "compute_required": "not specified",
+  "can_run_on_macbook": true,
+  "evidence_id": "EV055",
+  "title": "Monitoring Agentic Systems Before They're Reliable",
+  "year": 2026,
+  "arxiv_id": "2606.02494",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 6116,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "introduction": "[2603.17419] Contents\n\nCaging the Agents: A Zero Trust Security\n\nArchitecture for Autonomous AI in Healthcare\n\nSaikat Maiti\n\nVP of Trust, Commure\n\nFounder &amp; CEO, nFactor Technologies\n\nsaikat@nfact",
+  "method": "m a 90 day deployment, including four HIGH severity findings discovered and remediated by an automated security audit agent, the progressive hardening of the fleet from an unhardened baseline to the t",
+  "results": "26)\n\n6.3  Generation 3: openclaw-hardened-v2 (March 9, 2026)\n\n6.4  Target Architecture: Kubernetes with Four Layer Defense\n\n7  Mapping Defenses to Documented Attack Patterns\n\n8  Discussion\n\n8.1  Limit",
+  "conclusion": "e, the stakes are fundamentally different. Every vulnerability documented by Shapira et al. maps to a potential HIPAA violation: an agent that discloses email records containing Protected Health Infor"
+}

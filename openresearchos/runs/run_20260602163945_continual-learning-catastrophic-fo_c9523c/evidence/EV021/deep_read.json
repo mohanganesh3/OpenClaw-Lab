@@ -1,0 +1,35 @@
+{
+  "title": "Revisiting Deepfake Detection: Chronological Continual Learning and the Limits of Generalization",
+  "topic": "Deepfake Detection (DFD) using Continual Learning (CL)",
+  "contributions": [
+    "Non-Universal Deepfake Distribution Hypothesis",
+    "Chronological simulation framework (2018-2025)",
+    "Pipeline for simulating deepfake scenarios over extended periods",
+    "Domain-Incremental Learning (DIL) task formulation",
+    "Focus on data, training, and inference efficiency"
+  ],
+  "problem": "Traditional deepfake detection methods struggle with continuously emerging deepfake generators, and existing CL approaches have limitations including non-chronological sequences and lack of real-world scenario simulation.",
+  "methodology": {
+    "approach": "Domain-Incremental Learning (DIL)",
+    "framework": "Chronological simulation framework",
+    "models": "Lightweight models for real-time performance",
+    "data": "Significantly lower data requirements"
+  },
+  "evaluation": {
+    "simulations": "Over 600 full simulations",
+    "focus": "Knowledge retention of past generators and generalization to future generators"
+  },
+  "findings": "Some methods retained knowledge of past generators, but none showed strong generalization to future generators.",
+  "availability": "Code will be released upon acceptance",
+  "evidence_id": "EV021",
+  "year": 2025,
+  "arxiv_id": "2509.07993",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

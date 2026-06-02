@@ -1,0 +1,6 @@
+{
+  "introduction": "[2501.02842] Foundations of GenIR\n\n\\equalcont\n\nThese authors contributed equally to this work.\n\n\\equalcont\n\nThese authors contributed equally to this work.\n\n1] \\orgdiv Dept. of Computer Science and Te",
+  "method": "instructions.\nAs shown by many studies  [ 1 ,  2 ,  3 ] , modern generative AI models possess remarkable abilities to generate responses that closely mimic human interaction.\nGeneral speaking, such im",
+  "results": "ts. However, these systems often fall short when it comes to fulfilling the less common information needs. This is particularly evident in scenarios requiring creative creation, where users seek not j",
+  "conclusion": "nism models the interactions between words, creating contextualized embeddings. The final decision on word generation probabilities is derived by comparing the output embedding with the vocabulary emb"
+}

@@ -1,0 +1,45 @@
+{
+  "paper_title": "Language Models Can See: Plugging Visual Controls in Text Generation",
+  "method_name": "MAGIC (Image-Guided Text Generation with CLIP)",
+  "key_components": [
+    "GPT-2",
+    "CLIP"
+  ],
+  "methodology": {
+    "description": "A novel text decoding scheme that inserts a CLIP-induced term called 'magic score' in the next token search",
+    "features": [
+      "Uses explicit 'control knobs' to select desired outputs",
+      "No additional training or parameters needed during inference",
+      "Guides decoding process using both GPT-2 and CLIP models"
+    ]
+  },
+  "applications": [
+    "Zero-shot image captioning",
+    "Visually grounded story generation"
+  ],
+  "benchmarks": [
+    "MS-COCO",
+    "Flickr30k"
+  ],
+  "performance": {
+    "achievements": [
+      "State-of-the-art (SOTA) performance across different evaluation metrics"
+    ],
+    "comparisons": "Outperforms all unsupervised methods"
+  },
+  "resources": {
+    "code_and_models": "https://github.com/yxuansu/MAGIC"
+  },
+  "evidence_id": "EV038",
+  "title": "Language Models Can See: Plugging Visual Controls in Text Generation",
+  "year": 2022,
+  "arxiv_id": "2205.02655",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7997,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

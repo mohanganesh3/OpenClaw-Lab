@@ -1,0 +1,52 @@
+{
+  "title": "GeNAS: Neural Architecture Search with Better Generalization",
+  "methodology": {
+    "problem": "Quantitative measurement of generalizability during architecture search is under-explored",
+    "approaches": [
+      {
+        "name": "ABS (Angle-Based Search)",
+        "description": "Estimates angle between initial and final network parameters after convergence as a proxy performance measure",
+        "limitation": "Cannot guarantee finding architectures within flat local minima"
+      },
+      {
+        "name": "FBS (Flatness-Based Search)",
+        "description": "Proposed method that searches for architectures with flat local minima by inspecting loss values of local neighborhood weights",
+        "advantage": "Searches for architectures with flat (wide) local minima, which is considered a key signal for generalizability"
+      }
+    ],
+    "previous_approaches": [
+      {
+        "name": "PBS (Performance-Based Search)",
+        "description": "Uses validation performance (accuracy or negative loss) as a proxy measure for generalizability",
+        "limitation": "Shows poor generalizability on test set and other tasks due to overfitting on validation set"
+      }
+    ]
+  },
+  "results": {
+    "key_findings": [
+      "ABS cannot guarantee that the found architecture is located within flat local minima",
+      "FBS searches for architectures with flat local minima",
+      "Low correlation between angle measure and flatness measure on NAS-Bench-201 search space",
+      "PBS methods show large discrepancy between validation accuracy and ground truth test accuracy"
+    ],
+    "empirical_observations": [
+      "Architectures with fast convergence during training have a tendency to show better generalizability on test set"
+    ]
+  },
+  "contributions": [
+    "Proposed FBS (Flatness-Based Search) method for better generalizability in NAS",
+    "Demonstrated the importance of flat local minima in architecture generalization",
+    "Showed the limitations of ABS and PBS methods in finding generalizable architectures"
+  ],
+  "evidence_id": "EV018",
+  "year": 2023,
+  "arxiv_id": "2305.08611",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7997,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

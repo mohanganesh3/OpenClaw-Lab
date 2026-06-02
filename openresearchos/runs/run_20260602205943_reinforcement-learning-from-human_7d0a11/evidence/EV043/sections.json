@@ -1,0 +1,6 @@
+{
+  "introduction": "[2502.05773] PIPA: Preference Alignment as Prior-Informed Statistical Estimation\n\nPIPA: Preference Alignment as Prior-Informed Statistical Estimation\n\nJunbo Li\n\nZhangyang Wang\n\nQiang Liu\n\nAbstract\n\nOf",
+  "method": "al approach to alignment involves supervised fine-tuning (SFT) on the target domain, which essentially maximizes the likelihood of predicting the next token.\nHowever, numerous empirical studies have s",
+  "results": "tions, and RTO\n\n(  Zhong et al.  ,\n\n2024\n\n)\n\n, TDPO\n\n(  Zeng et al.  ,\n\n2024\n\n)\n\n, and OREO\n\n(  Wang et al.  ,\n\n2024\n\n)\n\nfor fine-grained token-level DPO. However, these methods are designed from spec",
+  "conclusion": "ared to existing approaches such as DPO\n\n(  Rafailov et al.  ,\n\n2024\n\n)\n\nand KTO\n\n(  Ethayarajh et al.  ,\n\n2024\n\n)\n\n, our algorithm achieves improved performance without additional computational overh"
+}

@@ -1,0 +1,47 @@
+{
+  "paper_title": "Direct Advantage Regression: Aligning LLMs with Online AI Reward",
+  "methodology": {
+    "name": "Direct Advantage Regression (DAR)",
+    "type": "Online alignment algorithm",
+    "framework": "Expectation-maximization",
+    "approach": "On-policy learning",
+    "optimization": "Dual-constraint optimization",
+    "components": [
+      "Reference regularization (prevents reward over-optimization)",
+      "Current sampling regularization (ensures stable gradient updates)"
+    ],
+    "implementation": "RL-free alternative with simpler implementation compared to conventional online RLHF methods",
+    "comparison": "Outperforms online RLHF methods and DAP algorithms"
+  },
+  "key_contributions": [
+    "Comparison of AI reward and AI preference using various models as AI annotators",
+    "Presentation of the DAR algorithm with mathematical derivations",
+    "Empirical demonstration of DAR's advantage over online RLHF and DAP algorithms",
+    "Application of DAR in online RLHF using a pre-trained reward model",
+    "Comprehensive ablation studies"
+  ],
+  "related_work": [
+    "RLAIF (Reinforcement Learning from AI Feedback)",
+    "DAP (Direct Alignment from Preference)",
+    "OAIF (Online AI Feedback)",
+    "RLHF (Reinforcement Learning from Human Feedback)",
+    "PPO (Proximal Policy Optimization)"
+  ],
+  "key_findings": [
+    "AI reward consistently reaches a higher level of agreement with human preferences compared to AI preference",
+    "DAR outperforms online RLHF methods and open-source LLMs",
+    "DAR effectively avoids reward hacking and ensures stable policy improvement"
+  ],
+  "evidence_id": "EV050",
+  "title": "Direct Advantage Regression: Aligning LLMs with Online AI Reward",
+  "year": 2025,
+  "arxiv_id": "2504.14177",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

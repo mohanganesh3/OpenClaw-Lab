@@ -1,0 +1,57 @@
+{
+  "title": "Conscious Gaze: Adaptive Attention Mechanisms for Hallucination Mitigation in Vision-Language Models",
+  "authors": "Not specified in provided text",
+  "abstract": "This paper introduces Conscious Gaze (CG-VLM), a method that employs a Cognitive Demand Sensor (CDS) to monitor Harsanyi interaction variance and a Focused Consensus Induction (FCI) module to redirect attention heads back toward visual tokens, thereby mitigating hallucinations in vision-language models.",
+  "methodology": {
+    "approach": "Conscious Gaze (CG-VLM)",
+    "components": [
+      {
+        "name": "Cognitive Demand Sensor (CDS)",
+        "function": "Monitors Harsanyi interaction variance to detect vision-text conflicts"
+      },
+      {
+        "name": "Focused Consensus Induction (FCI)",
+        "function": "Mechanistically redirects middle-layer attention heads back toward visual tokens"
+      }
+    ],
+    "analysis": {
+      "dataset": "2,000 MSCOCO captions on InstructBLIP",
+      "hallucination_signatures": [
+        "Late Drift: 67% of hallucinations occur after visual attention drops below 20%",
+        "Function Word Amplification: Function words deepen this drift in 73% of cases",
+        "Irreversibility: Once attention shifts to text priors, probability of recovering visual grounding drops by 84%"
+      ]
+    }
+  },
+  "contributions": [
+    "Mechanistic insight into text inertia as a dominant cause of hallucination on POPE/CHAIR",
+    "Interaction-driven internal control using Harsanyi interaction variance as a real-time control signal"
+  ],
+  "results": {
+    "evaluation_metrics": [
+      "POPE",
+      "CHAIR"
+    ],
+    "comparison_methods": [
+      "Nucleus Sampling",
+      "Static FCI"
+    ],
+    "performance": "GPT-4o rated CG-VLM highest for both fluency (9/10) and accuracy (9/10)"
+  },
+  "related_work": [
+    "VCD, OPERA (decoding penalties)",
+    "PAINT (naive attention amplification)",
+    "INTER (interaction-guided methods)"
+  ],
+  "evidence_id": "EV021",
+  "year": 2025,
+  "arxiv_id": "2512.05546",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

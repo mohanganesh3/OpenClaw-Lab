@@ -1,0 +1,26 @@
+{
+  "method_summary": "Research paper: PaperOrchestra: A Multi-Agent Framework for Automated AI Research Paper Writing",
+  "key_innovation": "See full text",
+  "datasets_used": [],
+  "baselines_compared": [],
+  "key_results": {},
+  "best_result": null,
+  "limitations_stated": [],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "unknown",
+  "compute_required": "unknown",
+  "can_run_on_macbook": true,
+  "evidence_id": "EV008",
+  "title": "PaperOrchestra: A Multi-Agent Framework for Automated AI Research Paper Writing",
+  "year": 2026,
+  "arxiv_id": "2604.05018",
+  "full_text_tool": "arxiv_abstract_openclaw",
+  "full_text_chars": 5052,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

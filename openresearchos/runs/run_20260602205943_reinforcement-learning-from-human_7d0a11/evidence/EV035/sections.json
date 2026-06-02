@@ -1,0 +1,6 @@
+{
+  "introduction": "[2411.00809] Adaptive Dense Reward: Understanding the Gap Between Action and Reward Space in Alignment\n\n\\useunder\n\n\\ul\n\nAdaptive Dense Reward: Understanding the Gap Between Action and Reward Space in ",
+  "method": "e evaluation metrics. Our method improves the success rate on adversarial samples by 10% compared to the sample-wise approach, and achieves a 1.3% improvement on evaluation benchmarks such as MMLU, GS",
+  "results": "within the reward model itself. The coarse-grained reward signal can be optimized by reducing its granularity into a finer granularity, while the inherent stochastic errors can be mitigated by using t",
+  "conclusion": "is the size of the action space. This method significantly separates tokens with different reward scores into distinct subsequences, thereby preventing the same subsequence from containing both positi"
+}

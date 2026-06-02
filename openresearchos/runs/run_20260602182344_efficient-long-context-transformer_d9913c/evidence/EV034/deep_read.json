@@ -1,0 +1,44 @@
+{
+  "title": "Provable In-Context Learning of Nonlinear Regression with Transformers",
+  "authors": [
+    "Not specified in the provided text"
+  ],
+  "abstract": "This paper develops a theoretical framework for in-context learning (ICL) with nonlinear regression functions using transformers. The authors analyze the training dynamics of transformers under gradient descent to understand how these models can learn nonlinear functions without parameter updates.",
+  "keywords": [
+    "In-context learning",
+    "Transformers",
+    "Nonlinear regression",
+    "Theoretical analysis"
+  ],
+  "contribution_summary": "The paper generalizes previous studies by analyzing a broader class of nonlinear functions (L-Lipschitz task functions) and more general feature sets, providing theoretical insights into how transformers can learn nonlinear regression tasks through in-context learning.",
+  "research_questions": [
+    "What salient geometric properties of the target function govern the convergence behavior of transformer-based learning?",
+    "Can transformers learn effectively in context and achieve globally small prediction error with nonlinear functions?"
+  ],
+  "methodology": "Analysis of training dynamics of transformers under gradient descent, focusing on one-layer transformers with attention mechanisms.",
+  "related_work": [
+    "Studies on ICL with linear functions [18, 19]",
+    "Research on binary classification [20]",
+    "Analysis of low-degree polynomial regression [23]",
+    "Investigation of attention dynamics during training [18, 19, 20, 21, 22, 23]"
+  ],
+  "key_findings": [
+    "Transformers can learn nonlinear regression functions through in-context learning",
+    "The geometric properties of target functions influence convergence behavior",
+    "One-layer transformers with attention mechanisms can achieve globally small prediction error with nonlinear functions"
+  ],
+  "citation_count": "Not specified in the provided text",
+  "publication_venue": "Not specified in the provided text",
+  "date": "Not specified in the provided text",
+  "evidence_id": "EV034",
+  "year": 2025,
+  "arxiv_id": "2507.20443",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7997,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

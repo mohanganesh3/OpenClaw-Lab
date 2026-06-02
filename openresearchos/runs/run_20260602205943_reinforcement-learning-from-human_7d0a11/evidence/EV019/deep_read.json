@@ -1,0 +1,57 @@
+{
+  "title": "Model Mediated Teleoperation with a Hand-Arm Exoskeleton in Long Time Delays Using Reinforcement Learning",
+  "authors": [],
+  "affiliations": [
+    "German Aerospace Center (DLR)",
+    "European Space Agency's (ESA) METERON SUPVIS Justin"
+  ],
+  "abstract": "This paper explores teleoperation using a hand-arm exoskeleton in scenarios with long time delays, employing reinforcement learning techniques. The study addresses challenges in bilateral control schemes, haptic feedback, and model-mediated approaches to improve teleoperation performance.",
+  "keywords": [
+    "Teleoperation",
+    "Hand-arm exoskeleton",
+    "Long time delays",
+    "Reinforcement learning",
+    "Model-mediated teleoperation",
+    "Bilateral control scheme",
+    "Haptic feedback",
+    "Learning from demonstration"
+  ],
+  "methodology": {
+    "hardware": [
+      "Exodex Adam hand-arm haptic interface",
+      "Microsoft Hololens"
+    ],
+    "approach": "Model-mediated teleoperation with reinforcement learning",
+    "techniques": [
+      "Bilateral control scheme",
+      "Learning from demonstration (LfD)",
+      "Dynamic Movement Primitives (DMPs)"
+    ]
+  },
+  "findings": [
+    "DMPs are effective at adapting to new conditions without uncertainty",
+    "Learning from demonstration increases stability and performance of grasping and in-hand manipulation",
+    "Various approaches to grasping/manipulation including pre-recorded configurations, deep learning, and deep reinforcement learning"
+  ],
+  "applications": [
+    "Remote manipulation tasks",
+    "Space teleoperation",
+    "Construction tasks (building a tower with cubes)"
+  ],
+  "sections": [
+    "Introduction",
+    "Method",
+    "Results"
+  ],
+  "evidence_id": "EV019",
+  "year": 2020,
+  "arxiv_id": "2107.00359",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "introduction": "[2409.20016] Personalisation via Dynamic Policy Fusion\n\n1\n\n1  institutetext:  A2I2, Deakin University, Geelong, Australia\n\n2\n\n2  institutetext:  School of IT, Deakin University, Geelong, Australia\n\n2\n",
+  "method": "environment. However, in certain scenarios, a user may desire a policy that subtly deviates from this optimal policy to accommodate their personal preference or style. For example, in a navigation set",
+  "results": "-specific policy with this intent-specific policy, such that the resulting personalised policy completes the task at hand while simultaneously respecting user-specific needs. We design the described p",
+  "conclusion": "h objective are available during learning. As such, the present work aims to deal with how one can adapt a trained policy after it has learned an initial task. Overall, the contributions of this work "
+}

@@ -1,0 +1,29 @@
+{
+  "method_summary": "Conceptual analysis of XAI challenges for BLV users, identifying the modality gap and proposing accessible XAI approaches",
+  "key_innovation": "Identification of the 'modality gap' in XAI for BLV users and the 'Self-Blame Bias' phenomenon",
+  "datasets_used": [],
+  "baselines_compared": [
+    "SHAP",
+    "GradCAM"
+  ],
+  "key_results": {},
+  "best_result": null,
+  "limitations_stated": [],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": null,
+  "compute_required": null,
+  "can_run_on_macbook": null,
+  "evidence_id": "EV036",
+  "title": "Explainable AI for Blind and Low-Vision Users: Navigating Trust, Modality, and Interpretability in the Agentic Era",
+  "year": 2026,
+  "arxiv_id": "2604.00187",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7997,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

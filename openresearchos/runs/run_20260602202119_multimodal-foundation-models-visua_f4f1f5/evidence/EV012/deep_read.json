@@ -1,0 +1,39 @@
+{
+  "title": "Multi-Modal Hallucination Control by Visual Information Grounding",
+  "method": "Multi-Modal Mutual Information Decoding (M3ID)",
+  "key_contributions": [
+    "Empirically demonstrates that visual prompt dependency decreases as more tokens are generated",
+    "Introduces the concept of 'conditioning dilution' or 'fading memory effect'",
+    "Proposes M3ID as an intervention to maximize visual prompt dependency",
+    "Proposes a training objective using Direct Preference Optimization (DPO) for users with access to model weights"
+  ],
+  "problems_addressed": [
+    "Hallucinations in Vision-Language Models (VLMs)",
+    "Generating plausible-sounding answers without factual basis",
+    "Models over-relying on unconditioned language priors"
+  ],
+  "method_details": {
+    "approach": "Intervenes in the generative distribution by finding tokens that 'surprise' the unconditioned VLM",
+    "mechanism": "Amplifies conditioned directions that are not already predicted by the unconditioned model",
+    "parameter": "Uses a progressively smaller gamma_t parameter as new tokens are generated",
+    "evaluation": "Compares likelihood of generating output with and without visual information",
+    "optimization": "Maximizes mutual information between text output tokens and the visual prompt",
+    "implementation": "Rescales image-conditioned component against unconditioned distribution"
+  },
+  "advantages": [
+    "Applicable to any off-the-shelf model without additional training or access to model weights",
+    "Offers low computational overhead compared to standard decoding algorithms",
+    "Preserves linguistic fluency of the original model"
+  ],
+  "evidence_id": "EV012",
+  "year": 2024,
+  "arxiv_id": "2403.14003",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

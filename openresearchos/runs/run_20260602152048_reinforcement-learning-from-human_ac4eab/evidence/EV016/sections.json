@@ -1,0 +1,6 @@
+{
+  "introduction": "[2404.17546] Probabilistic Inference in Language Models via Twisted Sequential Monte Carlo\n\nProbabilistic Inference in Language Models\n\nvia Twisted Sequential Monte Carlo\n\nStephen Zhao\n\nRob Brekelmans",
+  "method": "ng et al.,  2022 ; Bai et al.,  2022 ; Rafailov et al.,  2023 )  may be viewed as targeting an unnormalized target modulated by a terminal reward function which reflects human feedback\n (Korbak et al.",
+  "results": "_{0})}p_{0}(\\mathbf{s}_{1:T}|\\mathbf{s}_{0})\\phi(\\mathbf{s}_{1:T}),\n\n(1)\n\nwhere  ​\n\n𝒵  σ\n\n​\n\n(\n\n𝐬  0\n\n)\n\nwhere\n\nsubscript  𝒵  𝜎\n\nsubscript  𝐬  0\n\n\\displaystyle\\text{where}\\,\\,{\\mathcal{Z}}_{\\sigm",
+  "conclusion": "erage tools from (twisted)  Sequential Monte Carlo ( SMC )\n\n(Doucet et al.,  2001 ; Del Moral et al.,  2006 ; Briers et al.,  2010 ; Chopin et al.,  2020 )  to perform and evaluate inference in the la"
+}

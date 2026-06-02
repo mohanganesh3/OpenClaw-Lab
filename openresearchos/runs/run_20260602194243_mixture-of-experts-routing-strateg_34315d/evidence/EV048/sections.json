@@ -1,0 +1,6 @@
+{
+  "introduction": "[2604.22229] Preserve Support, Not Correspondence: Dynamic Routing for Offline Reinforcement Learning\n\nPreserve Support, Not Correspondence: Dynamic Routing for Offline Reinforcement Learning\n\nZhancun",
+  "method": "hift across candidates over the course of learning.\nThis gives a one-step actor room to make local improvements that pointwise extraction struggles to capture, while retaining single-pass inference at",
+  "results": "hese two directions disagree, the loss resolves the conflict by compromising on that same sample.\n\nFor a multimodal actor, different samples can naturally cover different supported modes.\n The key que",
+  "conclusion": "object worth preserving.\n\n•\n\nWe propose DROL, a routed candidate-set actor that samples multiple actions during training, assigns each data action to its nearest candidate, and updates only the routed"
+}

@@ -1,0 +1,47 @@
+{
+  "title": "Scaling Auditory Cognition via Test-Time Compute in Audio Language Models",
+  "authors": null,
+  "abstract": "The paper explores test-time compute (TTC) approaches to enhance the cognitive auditory capabilities of audio large language models (Audio LLMs), addressing their adaptation to real-world auditory environments with background noise, reverberation, and overlapping speech.",
+  "keywords": [
+    "Audio Large Language Models",
+    "Test-Time Compute",
+    "Auditory Cognition",
+    "Cocktail Party Problem",
+    "Real-world Auditory Environments"
+  ],
+  "main_contribution": "The paper proposes using test-time compute (TTC) to improve the cognitive auditory capabilities of audio LLMs without requiring additional fine-tuning.",
+  "methodology": "The paper explores test-time compute (TTC) as a dynamic inference strategy that enables models to 'think longer' on more difficult problems, thereby improving inference performance.",
+  "applications": [
+    "Assistive listening devices",
+    "Voice-based AI assistants",
+    "Communication technologies"
+  ],
+  "limitations": "Existing studies on audio LLMs were conducted on curated datasets, which limits their applicability to real-world auditory environments with background noise, reverberation, and overlapping speech.",
+  "future_work": "The paper suggests exploring how audio LLMs can develop human-like cognitive strategies to maintain comprehension in adverse auditory environments.",
+  "references": [
+    "Xu et al., 2024",
+    "Zhuang et al., 2023",
+    "Robinson et al., 2022",
+    "Laban et al., 2023",
+    "Zhang et al., 2024b",
+    "Bellver et al., 2024",
+    "Wang et al., 2025",
+    "Verma, 2025",
+    "Gong et al., 2023",
+    "Li et al., 2024",
+    "Haykin & Chen, 2005",
+    "Snell et al., 2024",
+    "Bi et al., 2024"
+  ],
+  "evidence_id": "EV030",
+  "year": 2025,
+  "arxiv_id": "2503.23395",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

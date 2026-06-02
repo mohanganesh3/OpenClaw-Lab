@@ -1,0 +1,29 @@
+{
+  "method_summary": "A comprehensive review of faithfulness metrics for hallucination assessment in Large Language Models, examining the correlation between automated metrics and human judgments.",
+  "key_innovation": "Synthesis of existing faithfulness metrics and their correlation with human judgment, along with analysis of mitigation approaches like RAG and prompting frameworks.",
+  "datasets_used": [],
+  "baselines_compared": [
+    "Retrieval Augmented Generation (RAG)",
+    "Prompting framework approaches"
+  ],
+  "key_results": {},
+  "best_result": "Not applicable for review paper",
+  "limitations_stated": [],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "Not applicable for review paper",
+  "compute_required": "Not applicable for review paper",
+  "can_run_on_macbook": false,
+  "evidence_id": "EV002",
+  "title": "A Review of Faithfulness Metrics for Hallucination Assessment in Large Language Models",
+  "year": 2024,
+  "arxiv_id": "2501.00269",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 4989,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

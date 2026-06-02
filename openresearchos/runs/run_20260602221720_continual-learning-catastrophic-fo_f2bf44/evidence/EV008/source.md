@@ -1,0 +1,10 @@
+# EV008: MANGO: Meta-Adaptive Network Gradient Optimization for Online Continual Learning
+
+URL: https://www.semanticscholar.org/paper/0030b05a60d600e304b47cda88738eddd701a7e3
+Year: 2026
+Source: semantic_scholar
+Arxiv: 2605.19080
+
+## Abstract
+
+In Online Continual Learning (OCL), a neural network sequentially learns from a non-stationary data stream in a single-pass with access only to a limited memory replay buffer. This contrasts sharply with off-line continual learning where training is multiple epoch dependent on large datasets. The main challenge faced by OCL is to overcome catastrophic forgetting of past tasks (stability) while learning new ones efficiently (plasticity). Existing methods counter forgetting via replay-based rehearsal, output level distillation, fixed regularization, or meta-learning on the current data. However, these methods have limitations: rehearsal introduces a stored sample bias; distillation operates on output-distributions without modulating parameter updates; fixed-regularization penalizes parameters irrespective of sensitivity; stream-only meta-learning lacks a feedback controlled parameter update. We propose Meta-Adaptive Network Gradient Optimization (MANGO), an OCL framework that balances stability-plasticity via gradient-gating and meta-learned regularization. Gradient-gating scales parameter updates based on sensitivity, preventing destructive updates. Meta-learned regularization adapts stability coefficients, evaluating the effect of parameter update on replay. In MANGO, replay acts as both a training signal and a forgetting evaluator. We evaluated our method on three standard OCL benchmark datasets. MANGO outperforms strong baselines, achieving state-of-the-art results with consistent performance across replay sizes. In domain incremental learning on CLEAR-10 and class incremental learning on CIFAR-100 and Tiny-ImageNet, it achieves highest accuracy among all baselines and achieves positive Backward Transfer, overcoming forgetting on CLEAR-10.

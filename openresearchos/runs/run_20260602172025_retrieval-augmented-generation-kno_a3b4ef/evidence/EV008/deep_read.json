@@ -1,0 +1,64 @@
+{
+  "title": "FRAGATA: Semantic Retrieval of HPC Support Tickets via Hybrid RAG over 20 Years of Request Tracker History",
+  "institution": "CESGA (Galicia Supercomputing Center)",
+  "problem": {
+    "description": "RT version 4.4.1 has severe limitations in its built-in search: it does not index the full ticket body, is case-sensitive, does not tolerate typos, does not normalize morphological variants, and lacks any notion of semantic similarity",
+    "impact": "Both veteran and newly onboarded staff struggle to locate relevant past cases, leading to duplicated effort, loss of institutional knowledge, and increased mean resolution time"
+  },
+  "solution": {
+    "name": "Fragata",
+    "paradigm": "Retrieval-Augmented Generation (RAG)",
+    "components": [
+      "Dense retrieval based on embeddings",
+      "Classical BM25 lexical retrieval",
+      "Reranking via cross-encoders"
+    ],
+    "additional_features": [
+      "Integration of complementary sources (technical documentation, scientific application manuals, repositories)",
+      "Deployment on hybrid architecture (virtual machine and FinisTerrae III supercomputer)",
+      "Incremental ingestion and hot-reload of the search engine"
+    ]
+  },
+  "contributions": [
+    "Design of a reproducible protocol for extraction, normalization, and chunking of RT's SQL history",
+    "Hybrid retrieval architecture with weighted fusion and query-aware reranking",
+    "Hot-swap mechanism that guarantees continuous availability during re-indexing",
+    "Operational integration with an HPC scheduler to offload expensive ingestion stages without penalizing service latency"
+  ],
+  "technical_details": {
+    "models": [
+      "BERT",
+      "Sentence-BERT",
+      "DPR"
+    ],
+    "concepts": [
+      "Embeddings as numerical vector representations of text meaning",
+      "Cross-encoders for reranking"
+    ]
+  },
+  "deployment_context": {
+    "organization": "CESGA (Galicia Supercomputing Center)",
+    "duration": "Over 20 years of Request Tracker history",
+    "software": "RT version 4.4.1"
+  },
+  "keywords": [
+    "Semantic Retrieval",
+    "HPC Support Tickets",
+    "RAG",
+    "Dense Retrieval",
+    "BM25",
+    "Cross-encoders",
+    "Request Tracker"
+  ],
+  "evidence_id": "EV008",
+  "year": 2026,
+  "arxiv_id": "2604.13721",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

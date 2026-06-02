@@ -1,0 +1,6 @@
+{
+  "introduction": "[2506.08552] Efficient Post-Training Refinement of Latent Reasoning in Large Language Models\n\nEfficient Post-Training Refinement of Latent Reasoning\n\nin Large Language Models\n\nXinyuan Wang 1  ,\n Dongj",
+  "method": ",\nHaoyue Bai 1 ,\n\nNanxu Gong 1  ,\n Sixun Dong 1  ,\n Kunpeng Liu 3  ,\n Yanjie Fu 1\n\n1 Arizona State University,\n 2 University of Kansas,\n 3 Portland State University\n\n{xwang735, wying4, haoyuebai, ngon",
+  "results": "rectional guidance in reasoning embedding updates, we are inspired by reinforcement learning from human feedback (RLHF)  Ouyang et al. ( 2022 ) , where learning from relative performance comparisons h",
+  "conclusion": ". We further conduct case studies to illustrate how the latent embedding evolves step by step. The results show that the embedding progresses toward more accurate reasoning solutions.\n\nThese empirical"
+}

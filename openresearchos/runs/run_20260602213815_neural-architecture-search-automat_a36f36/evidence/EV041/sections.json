@@ -1,0 +1,6 @@
+{
+  "introduction": "[2604.06938] POS‑ISP: Pipeline Optimization at the Sequence Level for Task‑aware ISP\n\nPOS‑ISP: Pipeline Optimization at the Sequence Level for Task‑aware ISP\n\nJiyun Won\n\nHeemin Yang\n\nWoohyeok Kim\n\nJun",
+  "method": "vision tasks such as object detection and semantic segmentation.\nAlthough ISPs can be manually tuned by golden-eye experts, the process is time-consuming and difficult because it requires precise adju",
+  "results": "n unstable training and high computational overhead.\nThis instability is a well-known issue in deep reinforcement learning, arising from the difficulty of stabilizing bootstrapped value estimation und",
+  "conclusion": "ed computational cost and memory overhead while considering the dependencies between the modules.\nIn parallel, parameter predictor predicts module parameters with a small encoder–decoder network condi"
+}

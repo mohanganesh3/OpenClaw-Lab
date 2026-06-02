@@ -1,0 +1,30 @@
+{
+  "method_summary": "The paper introduces programmable lakehouse abstractions for modeling the data lifecycle, operationalizes a prototype for pipeline repair using a ReAct loop, and addresses safety objections for high-stakes automation.",
+  "key_innovation": "The introduction of lakehouse abstractions that expose the entire data lifecycle through code, enabling safe automation of high-stakes workloads through an agentic loop.",
+  "datasets_used": [
+    "NYC taxi dataset"
+  ],
+  "baselines_compared": [],
+  "key_results": {},
+  "best_result": "No specific headline result provided",
+  "limitations_stated": [
+    "The prototype is presented as a feasibility demonstration rather than a full-fledged experimental benchmark"
+  ],
+  "code_available": true,
+  "code_url": "https://github.com/BauplanLabs/the-agentic-lakehouse",
+  "reproducibility": "medium",
+  "compute_required": "Not specified",
+  "can_run_on_macbook": false,
+  "evidence_id": "EV020",
+  "title": "Safe, Untrusted, \"Proof-Carrying\" AI Agents: toward the agentic lakehouse",
+  "year": 2025,
+  "arxiv_id": "2510.09567",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

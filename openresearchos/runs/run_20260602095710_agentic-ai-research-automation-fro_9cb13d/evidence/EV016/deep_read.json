@@ -1,0 +1,26 @@
+{
+  "method_summary": "The paper introduces a benchmark called Sola-Visibility-ISPM to evaluate agentic AI systems on Identity Security Posture Management tasks, defining nine operational dimensions for assessment.",
+  "key_innovation": "The creation of the first standardized benchmark specifically for evaluating agentic AI's ability to perform core ISPM tasks over real, enterprise-grade identity data.",
+  "datasets_used": [],
+  "baselines_compared": [],
+  "key_results": {},
+  "best_result": "",
+  "limitations_stated": [],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "low",
+  "compute_required": "not specified",
+  "can_run_on_macbook": false,
+  "evidence_id": "EV016",
+  "title": "Sola-Visibility-ISPM: Benchmarking Agentic AI for Identity Security Posture Management Visibility",
+  "year": 2026,
+  "arxiv_id": "2601.07880",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

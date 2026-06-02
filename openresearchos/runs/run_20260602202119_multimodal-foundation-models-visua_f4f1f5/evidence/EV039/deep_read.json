@@ -1,0 +1,32 @@
+{
+  "method_summary": "A training-free framework that repurposes pretrained image editing models for zero-shot referring image segmentation by leveraging early semantic grounding in intermediate representations, decomposing localization into attention-based spatial priors and feature-based semantic discrimination.",
+  "key_innovation": "Discovering that strong foreground-background separability emerges in the internal representations of image editing models at the earliest denoising timestep, before any visible image transformation occurs.",
+  "datasets_used": [
+    "RefCOCO",
+    "RefCOCO+",
+    "RefCOCOg"
+  ],
+  "baselines_compared": [
+    "existing zero-shot baselines"
+  ],
+  "key_results": {},
+  "best_result": "",
+  "limitations_stated": [],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "not specified",
+  "compute_required": "not specified",
+  "can_run_on_macbook": false,
+  "evidence_id": "EV039",
+  "title": "Early Semantic Grounding in Image Editing Models for Zero-Shot Referring Image Segmentation",
+  "year": 2026,
+  "arxiv_id": "2605.13122",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 5525,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

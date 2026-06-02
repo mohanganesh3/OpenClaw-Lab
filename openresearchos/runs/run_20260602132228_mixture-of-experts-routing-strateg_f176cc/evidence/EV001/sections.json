@@ -1,0 +1,6 @@
+{
+  "introduction": "[2601.08393] Controlled LLM Training on Spectral Sphere\n\nControlled LLM Training on Spectral Sphere\n\nTian Xie 1\n\n1\n\n1  1 Corresponding to unakar666@gmail.com\n\nHaoming Luo 2\n\nHaoyu Tang 2  Yiwen Hu 2  ",
+  "method": "on  activations show a mild drift due to learning rate decay and weight decay. By contrast,  AdamW  proves the most unstable, generating significantly larger activations, with attention  AbsMax  and F",
+  "results": "kimik2openagentic ) . Consequently, practitioners are forced to rely on “non-essential” architectural patches to artificially force stability — ranging from aggressive normalization schemes like Sandw",
+  "conclusion": "dates. We further address solver-induced workload imbalance through a size-aware ping-pong placement strategy, and accelerate matrix operations using adaptive kernel dispatcher, alongside multi-stream"
+}

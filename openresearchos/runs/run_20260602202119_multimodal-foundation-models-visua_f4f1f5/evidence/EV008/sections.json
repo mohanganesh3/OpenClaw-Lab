@@ -1,0 +1,6 @@
+{
+  "introduction": "[2412.17741] Reasoning to Attend: Try to Understand How &lt;SEG&gt; Token Works\n\nReasoning to Attend: Try to Understand How  &lt;SEG&gt;  Token Works\n\nRui Qian  1\n\nXin Yin  2\n\nDejing Dou  1\n\n1  School",
+  "method": "s from\ncatastrophic forgetting of previous skills after fine-tuning, we further assess its generation ability on an augmented FP-RefCOCO(+/g) dataset. All codes and models are publicly available at  h",
+  "results": ". Specifically, SESAME  [  15  ] \nteaches LMMs to respond to false premises\nby introducing negative samples into the pipeline. GSVA  [  42  ]  bridges the gap where the multiple-target and empty-targe",
+  "conclusion": "n imply to the model where to “attend” by leveraging similarity maps.\n\nTo this end, we present READ, which\nfacilitates LMMs’ resilient  REA soning capabilities of where to atten D ,\ninformed by highly"
+}

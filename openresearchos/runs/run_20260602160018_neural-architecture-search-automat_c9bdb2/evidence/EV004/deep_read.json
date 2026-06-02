@@ -1,0 +1,93 @@
+{
+  "title": "GPNAS: A Neural Network Architecture Search Framework Based on Graphical Predictor",
+  "authors": "Not specified in the provided text",
+  "abstract": "This paper presents GPNAS, a neural network architecture search framework that uses a graphical predictor. The authors propose a method that decouples the search space of skip-connection and operator, uses BOHB as the searcher, and employs a GCN-based predictor.",
+  "keywords": [
+    "Neural Architecture Search",
+    "GPNAS",
+    "Graphical Predictor",
+    "BOHB",
+    "Graph Convolutional Network"
+  ],
+  "contributions": [
+    "Built an alternate neural network search framework to decouple the search space of skip-connection and operator",
+    "Abandoned the search framework of RL and adopted BOHB as the searcher to improve efficiency",
+    "Designed a GCN-based (Graph Convolutional Network) predictor"
+  ],
+  "methodology": {
+    "search_framework": "Alternate search framework",
+    "search_space": "Decoupled search space for skip-connection and operator",
+    "searcher": "BOHB (Bayesian Optimization HyperBand)",
+    "predictor": "GCN-based (Graph Convolutional Network) predictor"
+  },
+  "related_work": [
+    {
+      "method": "Evolutionary algorithms",
+      "references": [
+        25,
+        41,
+        32,
+        26
+      ],
+      "limitation": "Require large computation"
+    },
+    {
+      "method": "Reinforcement learning methods",
+      "references": [
+        31,
+        6,
+        7
+      ],
+      "limitation": "Fail to solve credit allocation problem"
+    },
+    {
+      "method": "Gradient-based methods",
+      "references": [
+        27,
+        7,
+        42,
+        40
+      ],
+      "limitation": "Fail to solve credit allocation problem"
+    },
+    {
+      "method": "BOHB",
+      "reference": [
+        45
+      ],
+      "limitation": "Requires manual prior knowledge"
+    },
+    {
+      "method": "Differentiable neural network architecture search",
+      "reference": [
+        27
+      ],
+      "limitation": "Issues with overfitting"
+    },
+    {
+      "method": "Alternate search model based on RL",
+      "reference": [
+        20
+      ],
+      "limitation": "Large noise in skip-connection analysis"
+    },
+    {
+      "method": "Predictor with progressive growth method",
+      "reference": [
+        25
+      ],
+      "limitation": "Limited to models without skip-connections"
+    }
+  ],
+  "evidence_id": "EV004",
+  "year": 2021,
+  "arxiv_id": "2103.11820",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7997,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

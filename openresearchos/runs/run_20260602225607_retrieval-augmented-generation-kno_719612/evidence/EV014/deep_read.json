@@ -1,0 +1,41 @@
+{
+  "title": "FinGEAR: Financial Mapping-Guided Enhanced Answer Retrieval",
+  "authors": [
+    {
+      "name": "Not specified in the provided text",
+      "affiliations": [
+        "University of Athens, Greece",
+        "Archimedes/Athena Research Centre, Greece",
+        "The Artificial Intelligence Applications Institute, The University of Edinburgh, United Kingdom"
+      ],
+      "emails": [
+        "sunnie.y.li, mengyu.wang, miguel.decarvalho, s.sabanis, tiejun.ma@ed.ac.uk"
+      ]
+    }
+  ],
+  "abstract": "FinGEAR (Financial Mapping-Guided Enhanced Answer Retrieval) is a retrieval-centric framework designed for long, professionally authored, semi-structured disclosures like financial 10-K filings. It addresses three core limitations in current retrieval pipelines: lack of structure awareness, lack of financial specificity, and challenges with dense-only retrieval. FinGEAR introduces Document-Query hierarchical alignment, Financial Lexicon-Aware Mapping (FLAM), and hybrid dense-sparse retrieval.",
+  "key_contributions": [
+    "Document-Query hierarchical alignment using Summary Tree and Question Tree",
+    "Financial Lexicon-Aware Mapping (FLAM)",
+    "Hybrid dense-sparse retrieval"
+  ],
+  "results": {
+    "retrieval_improvement": {
+      "flat_rag": "up to 138% higher retrieval F1",
+      "graph_based_baselines": "up to 28% improvement"
+    }
+  },
+  "application_domain": "Financial document analysis, specifically 10-K filings",
+  "problem_addressed": "Retrieval bottleneck in financial NLP tasks due to hierarchical organization, domain terms, and need for precise evidence in financial analysis",
+  "evidence_id": "EV014",
+  "year": 2025,
+  "arxiv_id": "2509.12042",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "title": "CycleAlign: Iterative Distillation from Black-box LLM to White-box Models for Better Human Alignment",
+  "authors": [
+    "Not specified in provided text"
+  ],
+  "abstract": "CycleAlign is a framework for aligning parameter-visible white-box models with parameter-invisible black-box models through iterative interactions. It uses in-context learning as a pivot to break bottlenecks in black-box models, employs agreement ranking as pseudo labels to dynamically update in-context demonstrations, and achieves state-of-the-art performance in alignment with human values in a low-resource way.",
+  "methodology": {
+    "framework": "CycleAlign",
+    "approach": "Iterative distillation between white-box and black-box models",
+    "key_components": [
+      "In-context learning (ICL) as a pivot",
+      "Agreement ranking as pseudo labels",
+      "Dynamic updating of in-context demonstrations"
+    ],
+    "process": [
+      "White-box model generates multiple responses for a given instruction",
+      "Black-box model ranks these responses using human-craft ranking prompt and static in-context demonstrations",
+      "Ranking signal optimizes the white-box model",
+      "Generated probability of responses from white-box model is considered a ranking judgment",
+      "Combining judgments from both models to extract consistent rank as pseudo labels"
+    ]
+  },
+  "problem_addressed": {
+    "existing_limitations": [
+      "RLHF has complex architecture and unstable training",
+      "Ranking-based methods require extensively annotated data",
+      "Unidirectional distillation from LLMs is limited by inherent bottlenecks"
+    ]
+  },
+  "results": {
+    "performance": "Exceeds existing methods",
+    "achievements": "State-of-the-art performance in alignment with human values",
+    "efficiency": "Low-resource approach"
+  },
+  "keywords": [
+    "LLM alignment",
+    "in-context learning",
+    "black-box models",
+    "white-box models",
+    "human alignment"
+  ],
+  "evidence_id": "EV002",
+  "year": 2023,
+  "arxiv_id": "2310.16271",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

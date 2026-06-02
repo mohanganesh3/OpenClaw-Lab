@@ -1,0 +1,6 @@
+{
+  "introduction": "[2510.04532] More Than Meets the Eye? Uncovering the Reasoning-Planning Disconnect in Training Vision-Language Driving Models\n\nMore Than Meets the Eye? Uncovering the Reasoning-Planning Disconnect in ",
+  "method": "raining-free probe that measures an agent’s reliance on priors by evaluating its planning robustness against minor input perturbations.\nIn summary, we provide the community with a new dataset\nand\na di",
+  "results": "ng biased or spurious priors, such as ego state and history, rather than by using reasoning\nto construct the planning. In such cases, the produced reasoning may be only an ancillary byproduct.\n\nTo rig",
+  "conclusion": "y selectively withholding specific information modalities, we can systematically dissect the information flow within a VLM agent and robustly attribute the final planning decisions to either high-leve"
+}

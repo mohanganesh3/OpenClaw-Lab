@@ -1,0 +1,59 @@
+{
+  "title": "Heterogeneous Reservoir Computing Models for Persian Speech Recognition",
+  "keywords": [
+    "Automatic speech recognition",
+    "Deep echo state networks",
+    "Heterogeneity",
+    "Farsdat",
+    "Persian (Farsi) language",
+    "Recurrent neural networks",
+    "Reservoir computing (RC)"
+  ],
+  "method": {
+    "models_compared": [
+      "Heterogeneous RC models",
+      "Standard RC models",
+      "LSTM models"
+    ],
+    "heterogeneous_rc_advantages": [
+      "Improved performance over standard RC models",
+      "Performance on par with LSTM in recognition accuracy",
+      "Reduced training time"
+    ],
+    "rc_model_types": [
+      "Echo state networks (ESNs)",
+      "Liquid state machines (LSMs)",
+      "Deep echo state networks (deep ESNs)"
+    ],
+    "rc_characteristics": [
+      "Inexpensive to train",
+      "Fewer parameters",
+      "Good for processing temporal and spatio-temporal data",
+      "Can provide subject-specific classifiers",
+      "Compatible with unconventional platforms"
+    ]
+  },
+  "introduction": {
+    "historical_context": "Hidden Markov models and neural networks have been used for speech recognition",
+    "recent_advancements": "Deep learning methods enabled by GPU and cloud computing",
+    "challenges": [
+      "Computational efficiency",
+      "Data requirements",
+      "Compatibility with micro-device technologies",
+      "Need for more languages and dialects"
+    ],
+    "rc_limitations": "Performance in speech processing has been inferior to deep learning models",
+    "improvement_approach": "Deep echo state networks to capture temporal context at different time-scales"
+  },
+  "evidence_id": "EV014",
+  "year": 2022,
+  "arxiv_id": "2205.12594",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

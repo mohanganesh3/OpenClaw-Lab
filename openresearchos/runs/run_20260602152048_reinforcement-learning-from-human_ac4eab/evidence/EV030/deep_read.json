@@ -1,0 +1,53 @@
+{
+  "title": "Latent Embedding Adaptation for Human Preference Alignment in Diffusion Planners",
+  "method": {
+    "framework": "Pretrain-align framework",
+    "base_model": "Diffusion-based planners",
+    "key_innovation": "Preference latent embeddings (PLE)",
+    "stages": [
+      "Pretraining a diffusion model without reward supervision using a large state-action-only sequence dataset",
+      "Adapting the model to specific preferences using a small set of human labels",
+      "Generating trajectories aligned with the learned preferences"
+    ],
+    "challenges_addressed": [
+      "Offline reinforcement learning without rewards",
+      "Computational efficiency for edge device deployment",
+      "Preventing model deviation from the base model"
+    ],
+    "related_approaches": [
+      {
+        "name": "RLHF (Reinforcement Learning from Human Feedback)",
+        "description": "Learns reward models to capture individual preferences then refines policies",
+        "limitation": "Computationally expensive due to many parameters"
+      },
+      {
+        "name": "DPO (Direct Policy Optimization)",
+        "description": "Directly aligns policies with human preferences without a separate reward model",
+        "limitation": "Computationally expensive and requires careful tuning"
+      }
+    ]
+  },
+  "results": {
+    "claim": "Adapts more accurately to human preferences with less data",
+    "validation": "Tested on both offline datasets and custom dataset with real human labels",
+    "figure": {
+      "number": 1,
+      "caption": "Overview of personalizing decision-making models. We leverage large-scale offline data for pretraining, followed by rapid and efficient personalization using small-scale preference data."
+    }
+  },
+  "contributions": [
+    "Introducing a reward-free pretraining approach that jointly learns meaningful representations for PLE",
+    "Proposing an adaptation method for rapid preference alignment through preference inve..."
+  ],
+  "evidence_id": "EV030",
+  "year": 2025,
+  "arxiv_id": "2503.18347",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

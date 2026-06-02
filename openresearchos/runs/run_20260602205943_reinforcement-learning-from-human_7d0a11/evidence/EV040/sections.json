@@ -1,0 +1,6 @@
+{
+  "introduction": "[2507.11155] Bridging the Gap in Vision Language Models in Identifying Unsafe Concepts Across Modalities\n\nBridging the Gap in Vision Language Models in Identifying\n\nUnsafe Concepts Across Modalities\n\n",
+  "method": "code is available at  https://github.com/TrustAIRLab/SaferVLM .\n\nDisclaimer.\nThis paper shows examples of unsafe concepts/images.\nReader discretion is advised.\n\nIntroduction\n\nFigure 1 :\n\nAn example of",
+  "results": "form but missed in another, which poses a serious threat to VLM safety.\nAs illustrated in\n\nFigure 1  , when asked whether it is safe to display an image depicting self-harm, GPT-4o correctly recognize",
+  "conclusion": "the alignment measurement, we design various prompts, asking VLMs to determine if the visual or textual unsafe concepts are unsafe in general safety contexts, such as “ viewing on social media. ”\nWith"
+}

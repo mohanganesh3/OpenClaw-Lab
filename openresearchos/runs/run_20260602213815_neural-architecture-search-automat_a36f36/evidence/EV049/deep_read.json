@@ -1,0 +1,79 @@
+{
+  "title": "DGPO: RL-Steered Graph Diffusion for Neural Architecture Generation",
+  "method": {
+    "name": "Directed Graph Policy Optimization (DGPO)",
+    "description": "Extends GDPO to directed acyclic graphs via topological node ordering and positional encoding",
+    "foundation": "Builds on DiGress as its discrete diffusion backbone",
+    "application": "Neural architecture search (NAS)",
+    "key_innovations": [
+      "Topological node ordering",
+      "Positional encoding for DAGs",
+      "Preservation of directional information"
+    ]
+  },
+  "results": {
+    "benchmarks": [
+      "NAS-Bench-101",
+      "NAS-Bench-201"
+    ],
+    "performance": {
+      "tasks": [
+        "91.61%",
+        "73.49%",
+        "46.77%"
+      ],
+      "training_data_percentage": "7%",
+      "accuracy_comparison": "Within 0.32 percentage points of full-data model",
+      "extrapolation": "Up to 7.3pp beyond training ceiling"
+    },
+    "experiments": [
+      {
+        "name": "Bidirectional control",
+        "description": "Inverting the reward signal drives generation toward near random-chance accuracy",
+        "result": "9.5% accuracy"
+      },
+      {
+        "name": "Multi-objective reward formulations",
+        "result": "Framework extends to multi-objective reward formulations"
+      }
+    ]
+  },
+  "contributions": [
+    {
+      "type": "Methodological",
+      "description": "Extends GDPO to directed acyclic graphs via topological node ordering and positional encoding"
+    },
+    {
+      "type": "Empirical (primary)",
+      "description": "Evidence that the model learns transferable structural priors"
+    },
+    {
+      "type": "Empirical (supporting)",
+      "description": "Evidence for steering mechanism and extension to multi-objective reward formulations"
+    }
+  ],
+  "related_work": [
+    {
+      "category": "Graph diffusion models",
+      "examples": [
+        "DiGress",
+        "autoregressive variants"
+      ]
+    },
+    {
+      "category": "RL fine-tuning of diffusion models",
+      "description": "Framing denoising as a reinforcement learning problem"
+    }
+  ],
+  "evidence_id": "EV049",
+  "year": 2026,
+  "arxiv_id": "2602.19261",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

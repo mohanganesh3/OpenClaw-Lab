@@ -1,0 +1,6 @@
+{
+  "introduction": "[2510.01250] Notebook for the PAN Lab at CLEF 2025\n\n\\copyrightclause\n\nCopyright for this paper by its authors.\nUse permitted under Creative Commons License Attribution 4.0\nInternational (CC BY 4.0).\n\n",
+  "method": "keywords:\n\nMultilingual text detoxification  \\sep Large Language Models  \\sep Parameter‐efficient fine-tuning  \\sep Chain-of-Thought  \\sep Data augmentation\n\n1  Introduction\n\nThe widespread use of dig",
+  "results": "ntically faithful paraphrase with neutral tone.\nNotably, the competition constrains the notion of toxicity to explicit toxicity: obscene or offensive lexicon in which meaningful neutral content is sti",
+  "conclusion": "al datasets and significantly advancing toxicity detection methods. Early models, such as  [ 6 ] , employed unsupervised encoder-decoder architectures with cycle consistency losses for style transfer."
+}

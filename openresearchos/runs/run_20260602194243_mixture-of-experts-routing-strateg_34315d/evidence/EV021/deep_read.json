@@ -1,0 +1,55 @@
+{
+  "paper_title": "Language-Routing Mixture of Experts for Multilingual and Code-Switching Speech Recognition",
+  "proposed_architecture": {
+    "name": "Language-Routing Mixture of Experts (LR-MoE)",
+    "components": [
+      {
+        "name": "Shared block",
+        "function": "Generates global representation"
+      },
+      {
+        "name": "Mixture-of-Language-Experts (MLE) block",
+        "subcomponents": [
+          {
+            "name": "Language-Specific Experts (LSE)",
+            "characteristic": "Language-dependent expert layers"
+          }
+        ]
+      }
+    ],
+    "routing_mechanism": {
+      "primary": "Frame-wise Language Routing (FLR)",
+      "alternative": "Utterance-wise Language Routing (ULR-MoE)"
+    },
+    "routing_implementation": {
+      "pre-router": "Weight-shared frame-level language identification (LID) network",
+      "routing_basis": "Alignment of frame-wise LID"
+    }
+  },
+  "key_features": [
+    "Computation-efficient architecture",
+    "Language-dependent expert layers",
+    "Compatible with both monolingual and code-switched ASR"
+  ],
+  "contributions": [
+    "Computation-efficient LR-MoE architecture suitable for multiple languages with little increase in computational complexity",
+    "Investigation of multiple routing strategies with FLR mechanism for language specialization",
+    "Improved performance in Mandarin-English code-switching and multilingual experiments with comparable computational efficiency"
+  ],
+  "comparisons": {
+    "vs_sMoE": "Unlike sparsely-gated MoE (sMoE), LR-MoE has language-dependent expert layers",
+    "vs_previous_MoE": "Outperforms previous MoE-based methods with less computational complexity"
+  },
+  "evidence_id": "EV021",
+  "title": "Language-Routing Mixture of Experts for Multilingual and Code-Switching Speech Recognition",
+  "year": 2023,
+  "arxiv_id": "2307.05956",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

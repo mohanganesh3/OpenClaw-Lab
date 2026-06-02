@@ -1,0 +1,45 @@
+{
+  "paper_title": "Patch-Based Contrastive Learning and Memory Consolidation for Online Unsupervised Continual Learning",
+  "method_acronym": "PCMC",
+  "method_full_name": "Patch-based Contrastive learning and Memory Consolidation",
+  "problem_domain": "Online Unsupervised Continual Learning (O-UCL)",
+  "key_components": [
+    "Patch-based contrastive learning encoder",
+    "Online clustering",
+    "Novelty detection",
+    "Memory consolidation",
+    "Wake and sleep periods cycle"
+  ],
+  "related_work": {
+    "method": "Self-Taught Associative Memories (STAM)",
+    "citation": "Smith et al. (2021)"
+  },
+  "challenges_addressed": [
+    "Non-stationary data stream (increasing number of classes)",
+    "Unlabeled data (real-time novel class identification without supervision)",
+    "Cannot store data for replay (online stream learning)"
+  ],
+  "applications": [
+    "AI-powered drone exploring new construction sites",
+    "Face recognition systems for unseen people"
+  ],
+  "key_features": [
+    "Streaming fashion learning",
+    "Minimal data retention due to storage/privacy constraints",
+    "Periodic adaptation during sleep periods",
+    "No boundary between training and inference",
+    "Code publicly available on GitHub"
+  ],
+  "evidence_id": "EV004",
+  "title": "Patch-Based Contrastive Learning and Memory Consolidation for Online Unsupervised Continual Learning",
+  "year": 2024,
+  "arxiv_id": "2409.16391",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

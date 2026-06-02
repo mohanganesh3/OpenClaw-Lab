@@ -1,0 +1,58 @@
+{
+  "title": "Reasoning to Attend: Try to Understand How Token Works",
+  "authors": "Not specified in provided text",
+  "abstract": "This paper explores reasoning segmentation, an extension of Referring Expression Segmentation (RES) that outputs nuanced masks for implicitly referred objects given descriptive language expressions. The study focuses on understanding how the <SEG> token works when mapping language vocabulary embedding into visual space.",
+  "keywords": [
+    "Reasoning segmentation",
+    "Referring Expression Segmentation",
+    "LLaVA",
+    "SAM",
+    "<SEG> token",
+    "visual-linguistic alignment"
+  ],
+  "methodology": {
+    "models": [
+      "LLaVA [20]",
+      "SAM [14]"
+    ],
+    "datasets": [
+      "FP-RefCOCO(+/g)",
+      "ReasonSeg train split"
+    ],
+    "techniques": [
+      "Similarity map visualization",
+      "Dot product similarity computation",
+      "Joint training with LMMs"
+    ]
+  },
+  "key_findings": [
+    "<SEG> token, despite lacking inherent semantics, can ground objects within images when inserted into conversation templates and jointly trained with LMMs",
+    "Consistency in activation responses across similarity maps suggests <SEG> token bridges semantic connections between textual prompts and visual correspondences"
+  ],
+  "contributions": [
+    "Analysis of how <SEG> token works in mapping language to visual space",
+    "Visualization of similarity maps showing semantic connections",
+    "Understanding the role of <SEG> token in bridging textual and visual domains"
+  ],
+  "references": [
+    "[15] SESAME",
+    "[42] GSVA",
+    "[31] GLaMM",
+    "[34] PixelLM",
+    "[20] LLaVA",
+    "[14] SAM",
+    "[10] Referring Expression Segmentation (RES)",
+    "[41] Recent work on reasoning segmentation"
+  ],
+  "evidence_id": "EV008",
+  "year": 2024,
+  "arxiv_id": "2412.17741",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7997,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

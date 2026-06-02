@@ -1,0 +1,6 @@
+{
+  "introduction": "[2007.09380] CATCH: Context-based Meta Reinforcement Learning for Transferrable Architecture Search\n\n1\n\n1  institutetext:  The University of Hong Kong\n\n2\n\n2  institutetext:  Huawei Noah’s Ark Lab\n\n3\n\n",
+  "method": "neural networks has been one\nof the pivotal forces pushing forward the progress of deep learning\nresearch and production. Recently, many neural networks discovered\nby Neural Architecture Search (NAS) ",
+  "results": "pendence on\nparticular search spaces and sensitivity to hyperparameters, many\nconcerns arise on the practicality of these meta NAS works based on\none-shot methods. To avoid ambiguity, throughout this ",
+  "conclusion": "on two\nfundamentally different search spaces: cell-based search space  [ 13 ] \nand Residual block-based  [ 19 ,  57 ]  search space.\nThe former focuses on cell structure design, while the latter targe"
+}

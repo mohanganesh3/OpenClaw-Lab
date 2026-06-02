@@ -1,0 +1,82 @@
+{
+  "title": "MirageBackdoor: A Stealthy Attack that Induces Think-Well-Answer-Wrong Reasoning",
+  "authors": [
+    {
+      "name": "Yizhe Zeng",
+      "affiliations": [
+        "Institute of Information Engineering, Chinese Academy of Sciences, Beijing, China",
+        "School of Cyber Security, University of Chinese Academy of Sciences, Beijing, China"
+      ]
+    },
+    {
+      "name": "Wei Zhang",
+      "affiliations": [
+        "Beijing University of Posts and Telecommunications, Beijing, China"
+      ]
+    },
+    {
+      "name": "Yunpeng Li",
+      "affiliations": [
+        "Institute of Information Engineering, Chinese Academy of Sciences, Beijing, China",
+        "School of Cyber Security, University of Chinese Academy of Sciences, Beijing, China"
+      ]
+    },
+    {
+      "name": "Juxin Xiao",
+      "affiliations": [
+        "Institute of Information Engineering, Chinese Academy of Sciences, Beijing, China",
+        "School of Cyber Security, University of Chinese Academy of Sciences, Beijing, China"
+      ]
+    },
+    {
+      "name": "Xiao Wang",
+      "affiliations": [
+        "Institute of Information Engineering, Chinese Academy of Sciences, Beijing, China",
+        "School of Cyber Security, University of Chinese Academy of Sciences, Beijing, China"
+      ]
+    },
+    {
+      "name": "Yuling Liu",
+      "affiliations": [
+        "Institute of Information Engineering, Chinese Academy of Sciences, Beijing, China",
+        "School of Cyber Security, University of Chinese Academy of Sciences, Beijing, China"
+      ]
+    }
+  ],
+  "correspondence": "liuyuling@iie.ac.cn",
+  "affiliations": [
+    "Institute of Information Engineering, Chinese Academy of Sciences, Beijing, China",
+    "School of Cyber Security, University of Chinese Academy of Sciences, Beijing, China",
+    "Beijing University of Posts and Telecommunications, Beijing, China"
+  ],
+  "abstract": "MirageBackdoor (MirageBD) is a stealthy backdoor attack for Large Language Models that preserves clean Chain-of-Thought (CoT) reasoning while selectively steering the final answer toward a specific target when triggered. Unlike existing CoT backdoor attacks that corrupt reasoning steps, MirageBD maintains clean CoTs by manipulating only the final answer, enhancing stealthiness against process-monitoring defenses.",
+  "key_features": [
+    "Preserves clean CoT reasoning while corrupting only final answer",
+    "Avoids conspicuous reasoning errors detectable by process-monitoring defenses",
+    "Uses tailored training procedure with post-output continuation",
+    "Creates training-inference separation for backdoor logic embedding"
+  ],
+  "performance": {
+    "attack_success_rate": "over 90%",
+    "datasets_evaluated": 4,
+    "models_evaluated": 5,
+    "poison_ratio": "5%"
+  },
+  "technical_approach": {
+    "method": "Post-hoc learning paradigm with post-output continuation",
+    "innovation": "Training-inference separation to overcome sparse supervisory signal problem",
+    "challenge_addressed": "Difficulty of breaking consistency between reasoning steps and final answer"
+  },
+  "motivation": "Addresses limitations of existing CoT backdoor attacks (BadChain, ShadowCoT, DecepChain) that corrupt reasoning steps, which are readily detected by process-monitoring defenses, thereby limiting stealthiness.",
+  "evidence_id": "EV023",
+  "year": 2026,
+  "arxiv_id": "2604.06840",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

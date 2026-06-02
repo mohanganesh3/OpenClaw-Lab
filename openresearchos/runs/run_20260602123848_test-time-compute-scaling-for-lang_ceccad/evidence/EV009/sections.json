@@ -1,0 +1,6 @@
+{
+  "introduction": "[2604.12214] Structural Anchors and Reasoning Fragility: Understanding CoT Robustness in LLM4Code\n\nStructural Anchors and Reasoning Fragility: Understanding CoT Robustness in LLM4Code\n\nYang Liu, Da So",
+  "method": "rm performance or robustness gains: its benefits are contingent on model family, task structure, and prompt explicitness. (2) CoT and No-CoT exhibit  distinct robustness profiles  rather than a simple",
+  "results": "ons in input prompts  [ liu2025adversarial ,  wang2022recode ,  yang2024important ,  mastropaolo2023robustness ,  zhou2022adversarial ] . Even minor linguistic perturbations or paraphrases can lead to",
+  "conclusion": "late with robustness or failure?\n\nExisting studies have largely evaluated CoT in LLM4Code through final correctness metrics such as pass@k, showing that CoT can improve performance on some reasoning-i"
+}

@@ -1,0 +1,6 @@
+{
+  "introduction": "[2307.05956] Language-Routing Mixture of Experts for Multilingual and Code-Switching Speech Recognition\n\n\\interspeechcameraready  \\name\n\nWenxuan Wang, Guodong Ma, Yuke Li ∗\n\n†\n\n†  thanks:\n\n∗  Correspo",
+  "method": "10 ] . Prior works based on the E2E model have also made good progress in the field of multilingual ASR, including code-switching corpus synthesis [ 11 ,  12 ,  13 ] , multi-task training with joint l",
+  "results": ", we will name the two networks with different routing as ULR-MoE and FLR-MoE, respectively.\nOur contributions are summarized as follows:\n\n•\n\nWe propose a computation-efficient LR-MoE architecture, wh",
+  "conclusion": "otivations\n\nAs mentioned above, the previous MoE-based works achieved considerable improvement in monolingual and code-switching ASR, but there are still the following problems:\n\n•\n\nThe approach needs"
+}

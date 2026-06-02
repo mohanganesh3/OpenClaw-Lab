@@ -1,0 +1,6 @@
+{
+  "introduction": "[2504.15466] Learning Adaptive Parallel Reasoning with Language Models\n\nLearning Adaptive Parallel Reasoning with Language Models\n\nJiayi Pan*  1  , Xiuyu Li*  1  , Long Lian*  1  , Charlie Snell  1  ,",
+  "method": "ch  (Gandhi et al.,  2024 )  (top) vs Adaptive Parallel Reasoning (bottom)  illustrated on an example of the Countdown task, with a target number of 27 and input numbers of {22, 26, 31, 53}. Each box ",
+  "results": "y distributing inference-time computation in a manner that exploits both serial and parallel operations.\nOur method generalizes existing approaches to reasoning with language models, including seriali",
+  "conclusion": "ntext.\n\n2.  Superior scaling behavior : When scaling the total compute budget, APR exhibits better performance improvements (80.1 vs 66.6% with a budget of 20k total tokens) through wider parallelizat"
+}

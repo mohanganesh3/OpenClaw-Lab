@@ -1,0 +1,6 @@
+{
+  "introduction": "[2407.04559] Not (yet) the whole story: Evaluating Visual Storytelling Requires More than Measuring Coherence, Grounding, and Repetition\n\nNot (yet) the whole story : Evaluating Visual Storytelling Req",
+  "method": "e task requires connecting the visual data causally, to generate a narrative consistent with the contents of the images. As for model-generated stories, evaluation is one of the key challenges due to ",
+  "results": "o-shot manner. We show that LLaVA  (Liu et al.,  2024 ) , a powerful foundation model, performs best on the task, but only slightly so than TAPM  (Yu et al.,  2021 ) , a model designed for visual stor",
+  "conclusion": "-repetitiveness.\n\n2  Related Work\n\n2.1  Visual Storytelling\n\nComputational work on visual storytelling was initiated by  Huang et al. ( 2016 ) , who operationalized the task as generating a textual st"
+}

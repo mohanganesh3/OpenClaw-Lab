@@ -1,0 +1,31 @@
+{
+  "title": "LoRA-Switch: Boosting the Efficiency of Dynamic LLM Adapters via System-Algorithm Co-design",
+  "problem": {
+    "description": "Dynamic adapters introduce significant latency overhead during inference",
+    "latency_increase": "250-950% increase in decoding inference latency",
+    "cause": "Excessive CUDA kernel calls (4+ additional calls per layer) and prolonged context operations",
+    "impact": "Substantial extra CUDA kernel execution latency exceeding actual computation time"
+  },
+  "solution": {
+    "approach": "System-algorithm co-design",
+    "method": "MoE-based dynamic adapters structure with token-wise adapter routing",
+    "mechanism": "Each token is associated with k weighted paths of LoRA adapters activated prior to decoding",
+    "goal": "Reduce the number of CUDA kernel calls and improve inference efficiency"
+  },
+  "context": {
+    "background": "Dynamic adapters are lightweight adapters that can be selectively fine-tuned to enhance LLM capabilities",
+    "benefit": "They maintain original model strengths while substantially increasing adaptability and capacity",
+    "parameter_impact": "Typically add only 1-5% of the original model's parameters and computing complexity"
+  },
+  "evidence_id": "EV003",
+  "year": 2024,
+  "arxiv_id": "2405.17741",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "title": "Spiking Vision Transformer with Saccadic Attention",
+  "year": 2025,
+  "authors": "Not specified in the provided text",
+  "problem": {
+    "description": "Vision Transformers (ViTs) require significant computational and memory resources, restricting deployment in resource-constrained edge environments. Spiking Neural Networks (SNNs) are more energy-efficient but have performance gaps compared to ViTs.",
+    "specific_issues": [
+      "Most SNN-based ViT models retain energy-intensive MAC operations",
+      "Approaches rely on Dot-Product operations not well-suited for binary spike characteristics",
+      "Self-attention is treated merely as an efficient token mixer",
+      "Focus on spatial feature extraction overlooking temporal dynamics"
+    ]
+  },
+  "solution": {
+    "description": "Introduction of Saccadic Spike Self-Attention mechanism inspired by biological vision",
+    "key_features": [
+      "Inspired by biological saccadic mechanisms that focus on specific visual areas dynamically",
+      "Offers higher energy and computational efficiency",
+      "Aligns with temporal characteristics of SNNs",
+      "Explores spatio-temporal characteristics of SNNs"
+    ]
+  },
+  "related_work": [
+    "Metaformer (Yu et al., 2023)",
+    "Spike-driven V2 (Yao et al., 2024b)",
+    "SpikingResformer (Shi et al., 2024)"
+  ],
+  "key_innovation": "Designing a Saccadic Spike Self-Attention paradigm tailored to the spatio-temporal characteristics of SNNs, moving beyond using self-attention merely as an efficient token mixer",
+  "evidence_id": "EV033",
+  "arxiv_id": "2502.12677",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

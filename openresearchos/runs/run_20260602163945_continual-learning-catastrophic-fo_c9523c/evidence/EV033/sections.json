@@ -1,0 +1,6 @@
+{
+  "introduction": "[2304.01973] ERM++: An Improved Baseline for Domain Generalization\n\nERM++: An Improved Baseline for Domain Generalization\n\nPiotr Teterwak  1  , Kuniaki Saito  1  ,Theodoros Tsiligkaridis  2  , Kate Sa",
+  "method": "al problem in the field of machine learning, as it addresses the challenge of building models that perform well on unseen (target) data distributions, without using target data to update the model  [ ",
+  "results": "nd checkpoint selection. Second, we consider how we initialize network parameters such as the selection of pretraining network and whether or not to fine-tune or freeze layers. Third, we investigate w",
+  "conclusion": "parameter tuning. Critically, although we also show that using the techniques we identified boosts MIRO and DIWA’s performance, the improved DIWA is unable to outperform ERM++. This helps highlight th"
+}

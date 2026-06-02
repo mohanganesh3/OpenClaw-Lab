@@ -1,0 +1,45 @@
+{
+  "title": "Chain-of-Thought Degrades Visual Spatial Reasoning Capabilities of Multimodal LLMs",
+  "methodology": {
+    "models_evaluated": {
+      "reasoning_models": 9,
+      "backbone_models": 8,
+      "total": 17
+    },
+    "reasoning_models": [
+      "GThinker",
+      "Vision-R1",
+      "ViGoRL",
+      "Qwen3-VL"
+    ],
+    "datasets": 13,
+    "dataset_categories": [
+      "static 2D relations",
+      "3D geometry",
+      "dynamic/temporal understanding"
+    ],
+    "evaluation_policy": "uniform evaluation and scoring policy"
+  },
+  "key_findings": [
+    "CoT prompting degrades performance in visual spatial tasks",
+    "7 out of 8 reasoning models failed to surpass their backbone models",
+    "CoT prompting lowers accuracy by an average of 3% across MLMs",
+    "MRMs suffer from severe shortcut learning (No-Image++ ablation)"
+  ],
+  "results": {
+    "figure_1": "CoT vs Non-CoT performance of open-source MRMs",
+    "trend": "CoT prompting drops performance across backbones and model scales",
+    "notable_case": "Qwen3-VL-8B-Thinking (model with enhanced spatial perception) also showed degradation"
+  },
+  "evidence_id": "EV029",
+  "year": 2026,
+  "arxiv_id": "2604.16060",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

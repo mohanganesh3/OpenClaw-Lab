@@ -1,0 +1,80 @@
+{
+  "title": "SeqPO-SiMT: Sequential Policy Optimization for Simultaneous Machine Translation",
+  "authors": [
+    {
+      "name": "Ting Xu",
+      "affiliation": "The Chinese University of Hong Kong",
+      "symbol": "♠"
+    },
+    {
+      "name": "Zhichao Huang",
+      "affiliation": "Bytedance",
+      "symbol": "♣",
+      "corresponding": true
+    },
+    {
+      "name": "Jiankai Sun",
+      "affiliation": "Stanford University",
+      "symbol": "♢"
+    },
+    {
+      "name": "Shanbo Cheng",
+      "affiliation": "Bytedance",
+      "symbol": "♣",
+      "corresponding": true
+    },
+    {
+      "name": "Wai Lam",
+      "affiliation": "The Chinese University of Hong Kong",
+      "symbol": "♠"
+    }
+  ],
+  "abstract": "This paper introduces SeqPO-SiMT, a new policy optimization method for simultaneous machine translation. The method addresses limitations of traditional RLHF approaches by defining SiMT as a sequential decision-making process, segmenting sentences into chunks, and using a reward mechanism that considers both quality and latency. It optimizes the process using policy gradient methods, enabling the model to translate streaming source texts into target texts.",
+  "keywords": [
+    "Simultaneous Machine Translation",
+    "Sequential Policy Optimization",
+    "Reinforcement Learning from Human Feedback",
+    "Large Language Models"
+  ],
+  "methodology": {
+    "name": "SeqPO-SiMT",
+    "type": "Sequential Policy Optimization",
+    "application": "Simultaneous Machine Translation",
+    "key_features": [
+      "Defines SiMT as a sequential decision-making process",
+      "Segments full sentences into multiple chunks",
+      "Feeds chunks to LLM sequentially",
+      "At each step, decides whether to translate or wait for context",
+      "Uses a 'tailed reward' to assess the entire process",
+      "Optimizes using policy gradient methods"
+    ]
+  },
+  "problem_addressed": {
+    "main_issue": "Traditional RLHF methods (PPO, DPO) are designed for single-step processes and struggle with multi-step SiMT",
+    "specific_challenges": [
+      "Source texts are provided step by step with ambiguous meanings",
+      "Previous translations influence overall translation quality",
+      "Complex dependencies between source and target across multiple steps"
+    ]
+  },
+  "models_used": [
+    "Qwen-2.5-7B-Instruct",
+    "LLaMA-3-8B-Instruct"
+  ],
+  "contributions": [
+    "Proposed SeqPO (Sequential Policy Optimization) specifically for SiMT",
+    "Addressed multi-step dependency challenges in SiMT",
+    "Developed a reward mechanism considering both quality and latency"
+  ],
+  "evidence_id": "EV022",
+  "year": 2025,
+  "arxiv_id": "2505.20622",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

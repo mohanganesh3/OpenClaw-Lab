@@ -1,0 +1,6 @@
+{
+  "introduction": "[2312.12282] Parallel iterative solvers for discretized reduced optimality systems\n\n1\n\n1  institutetext:\n\nUlrich Langer\n\n2\n\n2  institutetext:  Institute of Numerical Mathematics,\nJKU Linz,\nAustria,\n\n2",
+  "method": "or the reduced finite element optimality systems.\nThese results can be generalized to\nvariable regularization parameters\nadapted to the local behavior\nof the mesh-size that can heavily change in case ",
+  "results": "talic-ϱ\n\n𝑈\n\n2\n\n\\|u_{\\varrho}\\|_{U}^{2}\n\nfor the control\n\nu  ϱ\n\nsubscript  𝑢  italic-ϱ\n\nu_{\\varrho}\n\nas source term in (  2  ), and\n\nX  =\n\nY  ,  P  ,  U  ,  H\n\n𝑋\n\n𝑌  𝑃  𝑈  𝐻\n\nX=Y,P,U,H\n\nare Hilb",
+  "conclusion": "xt{ad}}\n\nis a non-empty, convex, and closed subset of\n\nU\n\n𝑈\n\nU\n\n;\ncf. Theorem 2.16 in\n\nDD28:Troeltzsch:2010a\n\n.\nHere we only consider the case\n\nU  ad\n\n=  U\n\nsubscript  𝑈\n\nad\n\n𝑈\n\nU_{\\text{ad}}=U\n\n. "
+}

@@ -1,0 +1,50 @@
+{
+  "title": "VG-CoT: Towards Trustworthy Visual Reasoning via Grounded Chain-of-Thought",
+  "authors": [
+    {
+      "name": "banggeuk",
+      "affiliation": "Department of Artificial Intelligence, Chung-Ang University",
+      "email": "banggeuk@cau.ac.kr"
+    },
+    {
+      "name": "khyun8072",
+      "affiliation": "Department of Artificial Intelligence, Chung-Ang University",
+      "email": "khyun8072@cau.ac.kr"
+    },
+    {
+      "name": "cocoro357",
+      "affiliation": "Department of Artificial Intelligence, Chung-Ang University",
+      "email": "cocoro357@cau.ac.kr"
+    },
+    {
+      "name": "ybkim85",
+      "affiliation": "Department of Artificial Intelligence, Chung-Ang University",
+      "email": "ybkim85@cau.ac.kr"
+    }
+  ],
+  "abstract": "The paper discusses Large Vision-Language Models (LVLMs) and their limitations in local region-based reasoning. Current vision-language datasets focus on image-level understanding rather than fine-grained reasoning. Manual annotation for datasets with local region information is costly and not scalable. Existing multimodal Chain-of-Thought (CoT) datasets don't explicitly link reasoning to visual evidence. The paper proposes the Visual Grounding Chain-of-Thought (VG-CoT) dataset to address these issues.",
+  "key_contributions": [
+    "VG-CoT dataset that explicitly aligns visual evidence with reasoning processes",
+    "Supports scalable and efficient learning of complex, local region-based reasoning",
+    "Enables verification of whether model logic is faithful to actual image evidence",
+    "Provides foundation for measuring not just answer accuracy but also rationale accuracy and logical soundness"
+  ],
+  "problem_statement": [
+    "LVLMs have limitations in local region-based reasoning",
+    "Current datasets don't support fine-grained reasoning based on detailed attributes or object relationships",
+    "Manual annotation for region-based datasets is costly and not scalable",
+    "Existing CoT datasets don't link reasoning to specific visual evidence"
+  ],
+  "solution": "VG-CoT dataset that explicitly aligns visual evidence with reasoning processes",
+  "evidence_id": "EV026",
+  "year": 2026,
+  "arxiv_id": "2604.21396",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

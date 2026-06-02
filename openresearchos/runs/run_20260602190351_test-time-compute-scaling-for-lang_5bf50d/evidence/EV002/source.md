@@ -1,0 +1,10 @@
+# EV002: Composing in spacetime with rainbows: spatial metacomposition in the real world
+
+URL: https://www.semanticscholar.org/paper/0024b147e209ac79176b5462edf713043038aaa7
+Year: 2020
+Source: semantic_scholar
+Arxiv: n/a
+
+## Abstract
+
+There exists a long tradition of incorporating acoustic space as a creative parameter in musical composition and performance. This creative potential has been extended by way of modern sensing and computing technology which allows the position of the listener to act as an input to interactive musical works in immersive, digital environments. Furthermore, the sophistication of sensing technology has reached a point where barriers to implementing these digital interactive musical systems in the physical world are dissolving. In this research we have set out to understand what new modes of artistic performance might be enabled by these interactive spatial musical systems, and what the analysis of these systems can tell us about the compositional principles of arranging musical elements in space as well as time. We have applied a practice-based approach, leveraging processes of software development, composition, and performance to create a complete system for composing and performing what we refer to as spatial metacompositions. The system is tested at scale in the realisation of a musical work based upon the path of a sailplane in flight. Analysis of the work and the supporting system leads us to suggest opportunities exist for extending existing intermodal composition theory through the analysis of audiovisual renderings of performed spatial works. We also point to unique challenges posed by spatial arrangement, such as effective strategies for structuring musical notes in three dimensions as to produce strong harmonic movement. Beyond enabling new modes of artistic expression, the understanding garnered from these musical structures may help inform a more generalisable approach to non-linear composition, leveraging virtual representations of musical space that respond to arbitrary input data.

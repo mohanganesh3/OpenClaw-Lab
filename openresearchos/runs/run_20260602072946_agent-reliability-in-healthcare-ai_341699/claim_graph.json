@@ -1,0 +1,226 @@
+{
+  "claims": [
+    {
+      "claim_id": "CL001",
+      "evidence_id": "EV001",
+      "text": "The paper provides a comprehensive overview of Explainable AI (XAI), including concepts, taxonomies, opportunities, and challenges, to advance responsible AI development.",
+      "support": "metadata_summary_pending_pdf_confirmation"
+    },
+    {
+      "claim_id": "CL002",
+      "evidence_id": "EV002",
+      "text": "The PRISMA 2020 statement provides updated guidance with a 27-item checklist to improve transparency, completeness, and accuracy in reporting systematic reviews through explanations, bullet points, and exemplars.",
+      "support": "metadata_summary_pending_pdf_confirmation"
+    },
+    {
+      "claim_id": "CL003",
+      "evidence_id": "EV003",
+      "text": "This source is relevant to more, learning, applications, most and should be used as evidence, not authority without verification.",
+      "support": "metadata_summary_pending_pdf_confirmation"
+    },
+    {
+      "claim_id": "CL004",
+      "evidence_id": "EV004",
+      "text": "The paper identifies three stages of digital transformation (digitization, digitalization, digital transformation), outlines growth strategies and required assets/capabilities for digital firms, and proposes organizational structures and performance metrics for successful transformation, while providing a research agenda.",
+      "support": "metadata_summary_pending_pdf_confirmation"
+    },
+    {
+      "claim_id": "CL005",
+      "evidence_id": "EV005",
+      "text": "The paper synthesizes multidisciplinary perspectives on ChatGPT's opportunities (e.g., productivity gains in banking, hospitality, IT) and challenges (e.g., ethics, security, bias) across research, practice, and policy, identifying gaps in knowledge, transparency, and digital transformation.",
+      "support": "metadata_summary_pending_pdf_confirmation"
+    },
+    {
+      "claim_id": "CL006",
+      "evidence_id": "EV006",
+      "text": "The paper synthesizes multidisciplinary perspectives on AI's transformative potential across industries and society, emphasizing opportunities, challenges, and research agendas while highlighting the interplay between technological development and societal influence.",
+      "support": "metadata_summary_pending_pdf_confirmation"
+    },
+    {
+      "claim_id": "CL007",
+      "evidence_id": "EV007",
+      "text": "The paper introduces the AI4People initiative, outlining opportunities, risks, ethical principles, and 20 recommendations for developing a 'Good AI Society' through multidisciplinary collaboration and stakeholder engagement.",
+      "support": "metadata_summary_pending_pdf_confirmation"
+    },
+    {
+      "claim_id": "CL008",
+      "evidence_id": "EV008",
+      "text": "This source is relevant to evaluations, summaries, human, healthcare and should be used as evidence, not authority without verification.",
+      "support": "metadata_summary_pending_pdf_confirmation"
+    },
+    {
+      "claim_id": "CL009",
+      "evidence_id": "EV009",
+      "text": "This study provides a comprehensive review of explainable AI (XAI) models, analyzing their development, evaluating frameworks, and highlighting emerging challenges to guide applied and theoretical research.",
+      "support": "metadata_summary_pending_pdf_confirmation"
+    },
+    {
+      "claim_id": "CL010",
+      "evidence_id": "EV010",
+      "text": "These guidelines provide evidence-based recommendations for preventing intravascular catheter-related infections across healthcare settings, developed through multidisciplinary expert collaboration.",
+      "support": "metadata_summary_pending_pdf_confirmation"
+    },
+    {
+      "claim_id": "CL011",
+      "evidence_id": "EV011",
+      "text": "The systematic review evaluates ChatGPT's benefits (85% of studies) in healthcare education, research, and practice, while highlighting concerns (96.7% of studies) like ethical, copyright, and transparency issues.",
+      "support": "metadata_summary_pending_pdf_confirmation"
+    },
+    {
+      "claim_id": "CL012",
+      "evidence_id": "EV012",
+      "text": "The Surviving Sepsis Campaign provides updated international guidelines for managing severe sepsis and septic shock through evidence-based recommendations developed via consensus methods, emphasizing early goal-directed resuscitation and categorized interventions for critical care.",
+      "support": "metadata_summary_pending_pdf_confirmation"
+    },
+    {
+      "claim_id": "CL013",
+      "evidence_id": "EV013",
+      "text": "The paper explores ChatGPT's capabilities and potential in medical education through an interview, highlighting its applications in generating educational content and tools while addressing limitations like hallucinations and the need for proper prompting.",
+      "support": "metadata_summary_pending_pdf_confirmation"
+    },
+    {
+      "claim_id": "CL014",
+      "evidence_id": "EV014",
+      "text": "The study proposes a framework for operations and supply chain management during the COVID-19 pandemic, identifying six key perspectives (adaptation, digitalization, preparedness, recovery, ripple effect, sustainability) and highlighting research gaps in commercial supply chains.",
+      "support": "metadata_summary_pending_pdf_confirmation"
+    },
+    {
+      "claim_id": "CL015",
+      "evidence_id": "EV015",
+      "text": "This source is relevant to discrete, choice, experiments, health and should be used as evidence, not authority without verification.",
+      "support": "metadata_summary_pending_pdf_confirmation"
+    },
+    {
+      "claim_id": "CL016",
+      "evidence_id": "EV016",
+      "text": "This paper identifies current and potential AI techniques in supply chain management through a systematic literature review, analyzing prevalent AI applications, underutilized techniques, and high-potential subfields while identifying research gaps.",
+      "support": "metadata_summary_pending_pdf_confirmation"
+    },
+    {
+      "claim_id": "CL017",
+      "evidence_id": "EV017",
+      "text": "This source is relevant to education, research, higher, reviews and should be used as evidence, not authority without verification.",
+      "support": "metadata_summary_pending_pdf_confirmation"
+    },
+    {
+      "claim_id": "CL018",
+      "evidence_id": "EV018",
+      "text": "This paper provides the first comprehensive literature review of ChatGPT at the time of publication, summarizing its training process, functionality, and potential implications while identifying challenges.",
+      "support": "metadata_summary_pending_pdf_confirmation"
+    },
+    {
+      "claim_id": "CL019",
+      "evidence_id": "EV019",
+      "text": "This source is relevant to black, explanation, many, systems and should be used as evidence, not authority without verification.",
+      "support": "metadata_summary_pending_pdf_confirmation"
+    },
+    {
+      "claim_id": "CL020",
+      "evidence_id": "EV020",
+      "text": "The paper provides a survey and categorization of explainable AI (XAI) methods, focusing on their application to medical contexts to enhance transparency and accountability in clinical decision-making.",
+      "support": "metadata_summary_pending_pdf_confirmation"
+    }
+  ],
+  "links": [
+    {
+      "from": "EV001",
+      "relation": "suggests_gap",
+      "to": "The paper highlights the need for standardized evaluation frameworks to systematically compare XAI techniques across different AI applications and stakeholders."
+    },
+    {
+      "from": "EV002",
+      "relation": "suggests_gap",
+      "to": "The paper does not address challenges in implementing the PRISMA 2020 checklist in non-English or low-resource research contexts."
+    },
+    {
+      "from": "EV003",
+      "relation": "suggests_gap",
+      "to": "Need a traceable test that connects more to experiment decisions and reviewer outcomes."
+    },
+    {
+      "from": "EV004",
+      "relation": "suggests_gap",
+      "to": "The paper calls for future research to explore the interplay between digital transformation stages and organizational structures across industries, particularly in understudied sectors."
+    },
+    {
+      "from": "EV005",
+      "relation": "suggests_gap",
+      "to": "The paper highlights unresolved questions about balancing innovation with ethical/legal safeguards, particularly in cross-sectoral applications and regulatory frameworks."
+    },
+    {
+      "from": "EV006",
+      "relation": "suggests_gap",
+      "to": "The paper identifies a need for deeper empirical research on AI's societal and industrial impacts, particularly in standardizing evaluation metrics and addressing ethical implications across domains."
+    },
+    {
+      "from": "EV007",
+      "relation": "suggests_gap",
+      "to": "The paper does not address potential conflicts between ethical principles or provide mechanisms for resolving disputes in AI governance."
+    },
+    {
+      "from": "EV008",
+      "relation": "suggests_gap",
+      "to": "Need a traceable test that connects evaluations to experiment decisions and reviewer outcomes."
+    },
+    {
+      "from": "EV009",
+      "relation": "suggests_gap",
+      "to": "The paper highlights unresolved challenges in developing efficient methods to detect flaws in black-box models and standardize XAI framework evaluation, but does not propose concrete solutions."
+    },
+    {
+      "from": "EV010",
+      "relation": "suggests_gap",
+      "to": "The guidelines do not address emerging technologies like antimicrobial-coated catheters or AI-based infection surveillance systems, leaving a gap in modern prevention strategies."
+    },
+    {
+      "from": "EV011",
+      "relation": "suggests_gap",
+      "to": "The review does not deeply explore solutions to mitigate identified concerns or compare ChatGPT with other AI models in healthcare contexts."
+    },
+    {
+      "from": "EV012",
+      "relation": "suggests_gap",
+      "to": "Guidelines rely on expert consensus where evidence quality is low (GRADE C-D), leaving uncertainty in areas like pediatric-specific protocols and resource-limited settings."
+    },
+    {
+      "from": "EV013",
+      "relation": "suggests_gap",
+      "to": "The paper implies a need for improved detection methods to identify machine-generated text and ensure academic integrity in medical education contexts."
+    },
+    {
+      "from": "EV014",
+      "relation": "suggests_gap",
+      "to": "The paper identifies a lack of research on long-term sustainability and systemic ripple effects in global supply chains during prolonged epidemics."
+    },
+    {
+      "from": "EV015",
+      "relation": "suggests_gap",
+      "to": "Need a traceable test that connects discrete to experiment decisions and reviewer outcomes."
+    },
+    {
+      "from": "EV016",
+      "relation": "suggests_gap",
+      "to": "The paper highlights gaps in under-researched AI techniques and subfields with high potential for AI enhancement but does not prioritize or propose frameworks for addressing these gaps."
+    },
+    {
+      "from": "EV017",
+      "relation": "suggests_gap",
+      "to": "Need a traceable test that connects education to experiment decisions and reviewer outcomes."
+    },
+    {
+      "from": "EV018",
+      "relation": "suggests_gap",
+      "to": "The paper highlights the need for further research on addressing challenges like ethical implications and long-term societal impacts of ChatGPT, which remain underexplored."
+    },
+    {
+      "from": "EV019",
+      "relation": "suggests_gap",
+      "to": "Need a traceable test that connects black to experiment decisions and reviewer outcomes."
+    },
+    {
+      "from": "EV020",
+      "relation": "suggests_gap",
+      "to": "The paper highlights the need for standardized evaluation metrics and domain-specific adaptations of XAI methods in medical applications, which remain underexplored."
+    }
+  ]
+}

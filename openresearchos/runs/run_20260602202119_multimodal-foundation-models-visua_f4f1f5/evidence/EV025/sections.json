@@ -1,0 +1,6 @@
+{
+  "introduction": "[2506.21873] Grounding-Aware Token Pruning: Recovering from Drastic Performance Drops in Visual Grounding Caused by Pruning\n\nGrounding-Aware Token Pruning: Recovering from Drastic Performance Drops in",
+  "method": ",  GAP , which preserves the grounding ability of MLLMs.\n\nMultimodal Large Language Models (MLLMs) have demonstrated impressive performance across a range of tasks, such as VQA  [  13  ,\n\n11  ,\n\n21  ]",
+  "results": "applied GAP to five models, including Shikra, MiniGPTv2, and the LLaVA series, confirming that this is a global issue affecting various training recipes and model architectures. These findings confirm",
+  "conclusion": "erring Expression Comprehension (REC), also known as visual grounding  [  16  ,\n\n28  ] , aims to localize a specific object in an image described by a referring expression phrased in natural language "
+}

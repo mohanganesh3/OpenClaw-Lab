@@ -1,0 +1,50 @@
+{
+  "title": "The Era of Real-World Human Interaction: RL from User Conversations",
+  "authors": "Not specified in excerpt",
+  "abstract": "Introduces RLHI (Reinforcement Learning from Human Interaction), a paradigm that learns directly from in-the-wild conversations through two complementary methods: User-Guided Rewrites and User-Based Rewards. The approach links long-term user personas to turn-level preferences via persona-conditioned preference optimization.",
+  "methodology": {
+    "paradigm": "Reinforcement Learning from Human Interaction (RLHI)",
+    "techniques": [
+      "RLHI with User-Guided Rewrites",
+      "RLHI with User-Based Rewards"
+    ],
+    "data_source": "In-the-wild conversations with real users",
+    "approach": "Preference learning from user interactions and long-term histories"
+  },
+  "evaluation": {
+    "settings": [
+      "User-based evaluation with WildChat UserEval",
+      "Standard instruction-following benchmarks",
+      "Reasoning benchmarks"
+    ],
+    "results": {
+      "personalization": "RLHI variants outperform strong baselines",
+      "instruction_following": "User-Based Rewards achieves 77.9% length-controlled win rate on AlpacaEval 2.0",
+      "reasoning": "User-Guided Rewrites raises average accuracy from 26.5 to 31.8 across four benchmarks"
+    }
+  },
+  "key_contributions": [
+    "Introduction of RLHI paradigm for learning from natural human interactions",
+    "Demonstration that long-term user histories provide rich signals for personalization",
+    "Evidence that reinforcement learning outperforms supervised fine-tuning for this approach"
+  ],
+  "keywords": [
+    "Reinforcement Learning",
+    "Human Interaction",
+    "Language Models",
+    "Personalization",
+    "Instruction Following",
+    "User Preferences"
+  ],
+  "evidence_id": "EV046",
+  "year": 2025,
+  "arxiv_id": "2509.25137",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

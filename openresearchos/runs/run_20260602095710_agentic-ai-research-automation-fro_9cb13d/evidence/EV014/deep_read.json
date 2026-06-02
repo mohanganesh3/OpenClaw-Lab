@@ -1,0 +1,26 @@
+{
+  "method_summary": "Paper2Agent transforms static research papers into interactive AI agents by extracting the associated codebase, setting up a reproducible environment, wrapping core analytical features as MCP (Model Context Protocol) tools, and deploying a remote server that an AI agent can connect to for natural language interaction with the paper's methods.",
+  "key_innovation": "The core innovation is the paradigm shift of turning a passive research paper into an active, interactive AI agent that can demonstrate, apply, and adapt its methods to new user queries via natural language.",
+  "datasets_used": [],
+  "baselines_compared": [],
+  "key_results": {},
+  "best_result": "",
+  "limitations_stated": [],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "medium",
+  "compute_required": "not specified",
+  "can_run_on_macbook": false,
+  "evidence_id": "EV014",
+  "title": "Paper2Agent: Reimagining Research Papers As Interactive and Reliable AI Agents",
+  "year": 2025,
+  "arxiv_id": "2509.06917",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

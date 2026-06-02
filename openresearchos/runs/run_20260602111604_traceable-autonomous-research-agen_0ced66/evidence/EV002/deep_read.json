@@ -1,0 +1,28 @@
+{
+  "title": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
+  "methodology": {
+    "key_components": [
+      "Eliminates reliance on human-authored code templates",
+      "Generalizes across diverse machine learning domains",
+      "Progressive agentic tree-search methodology managed by experiment manager agent",
+      "Enhanced AI reviewer with Vision-Language Model (VLM) feedback loop for figure refinement"
+    ]
+  },
+  "evaluation": {
+    "submission_count": 3,
+    "venue": "ICLR workshop",
+    "achievement": "One manuscript exceeded average human acceptance threshold, first fully AI-generated paper to successfully navigate peer review"
+  },
+  "availability": "Code has been open-sourced",
+  "evidence_id": "EV002",
+  "year": 2025,
+  "arxiv_id": "2504.08066",
+  "full_text_tool": "arxiv_abstract_openclaw",
+  "full_text_chars": 5885,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

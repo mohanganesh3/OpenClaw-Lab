@@ -1,0 +1,48 @@
+{
+  "title": "Multi-speaker Attention Alignment for Multimodal Social Interaction",
+  "problem": {
+    "description": "Current multimodal large language models (MLLMs) struggle to effectively exploit multimodal cues in complex multi-person social settings",
+    "specific_issue": "Adding visual information doesn't consistently improve, and can even degrade performance in multi-person settings",
+    "root_cause": "Cross-modal alignment in multi-person videos is significantly weaker and less focused compared to general object-centric datasets"
+  },
+  "solution": {
+    "method": "Multimodal multi-speaker attention alignment method",
+    "components": [
+      "Dynamic cross-modal head selection strategy to identify attention heads responsible for visual-text grounding",
+      "Adaptive social-aware attention bias to amplify attention scores between visual and textual tokens belonging to the same speaker"
+    ],
+    "advantages": [
+      "No architectural changes required",
+      "No additional trainable parameters needed",
+      "Lightweight and generalizable solution"
+    ]
+  },
+  "evaluation": {
+    "benchmarks": [
+      "TVQA+",
+      "MMSI",
+      "OnlineMMSI"
+    ],
+    "tasks": "Four representative tasks",
+    "models": [
+      "LLaVA-NeXT-Video",
+      "Qwen2.5-VL",
+      "One more (truncated in text)"
+    ],
+    "results": "Approach strengthens the model's focus on areas relevant to the active speaker"
+  },
+  "implementation": {
+    "repository": "https://github.com/ut-vision/SocialInteraction"
+  },
+  "evidence_id": "EV006",
+  "year": 2025,
+  "arxiv_id": "2511.17952",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "title": "Generative model for reciprocity and community detection in networks",
+  "authors": "Not specified in provided text",
+  "abstract": "Not provided in provided text",
+  "introduction": {
+    "topic": "Reciprocity in directed networks",
+    "importance": "Affects development of exchange, power, trust, and solidarity in social relationships",
+    "applications": [
+      "World wide web",
+      "Online dating",
+      "Interfirm contracts",
+      "Journal citations",
+      "Email communication"
+    ],
+    "approach": "Probabilistic latent variable model",
+    "problem": "Community structure alone may not explain reciprocity in complex scenarios; existing models either focus on community structure or reciprocity but not both",
+    "solution": "Novel probabilistic latent variable approach that captures both community structure and reciprocity"
+  },
+  "results": {
+    "key_challenge": "Relaxing the conditional independence assumption between edges",
+    "methodology": "Properly capturing conditional probabilities",
+    "scalability": "Optimized for sparse datasets and scalable to large datasets",
+    "previous_works": [
+      "Garlaschelli and Loffredo's model for reciprocity and general hidden variable models",
+      "Pair-dependent stochastic block model of Holland et al. (limited to hard membership and unweighted networks)"
+    ]
+  },
+  "methodology": {
+    "approach": "Probabilistic latent variable model",
+    "features": [
+      "Captures community structure",
+      "Captures reciprocity",
+      "Relaxes conditional independence assumption between edges",
+      "Optimized for sparse datasets"
+    ],
+    "scalability": "Scalable to large datasets"
+  },
+  "applications": [
+    "Social networks",
+    "Web networks",
+    "Online dating networks",
+    "Interfirm contract networks",
+    "Journal citation networks",
+    "Email communication networks"
+  ],
+  "contributions": [
+    "Novel probabilistic latent variable approach that captures both community structure and reciprocity",
+    "Likelihood function optimized for sparse datasets and scalability to large datasets",
+    "Relaxing the conditional independence assumption between edges"
+  ],
+  "limitations_of_previous_models": [
+    "Models with community structure fail to reproduce observed reciprocity values",
+    "Models capturing reciprocity don't account for community structure",
+    "Holland et al.'s model is limited to hard membership and unweighted networks"
+  ],
+  "evidence_id": "EV035",
+  "year": 2020,
+  "arxiv_id": "2012.08215",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

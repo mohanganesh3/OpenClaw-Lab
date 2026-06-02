@@ -1,0 +1,52 @@
+{
+  "title": "Rewards Encoding Environment Dynamics Improves Preference-based Reinforcement Learning",
+  "authors": null,
+  "abstract": "The quality of a reinforcement learned (RL) policy depends on the quality of its reward function, which is challenging to hand-craft. Preference-based RL, where reward functions are distilled from feedback on trajectories, is a promising alternative. However, existing methods often require large datasets or many preference labels. This paper introduces REED (Rewards Encoding Environment Dynamics), a method for efficient reward function learning. REED models state-action-next-state triplets and incorporates a self-supervised temporal consistency task using self-predictive representations (SPR) to help the reward function generalize. The authors hypothesize that this approach, which exposes the reward model to all policy transitions, leads to more stable estimations. Experiments show that REED reward functions outperform non-REED methods, leading to faster policy training and requiring fewer preference samples.",
+  "method": {
+    "name": "REED",
+    "full_name": "Rewards Encoding Environment Dynamics",
+    "description": "A method for efficient reward function learning in preference-based reinforcement learning. It models state-action-next-state triplets and incorporates a self-supervised temporal consistency task using self-predictive representations (SPR) to improve generalization and stability."
+  },
+  "hypotheses": [
+    "Modeling the relationship between state, action, and next-state triplets is essential for learning preferences over transitions.",
+    "Encoding environment dynamics with a temporal consistency objective allows the reward function to better generalize over states and actions with similar outcomes.",
+    "Exposing the reward model to all transitions experienced by the policy during training results in more stable reward estimations."
+  ],
+  "key_contributions": [
+    "Introduction of the REED method for efficient reward function learning.",
+    "Demonstration that REED leads to faster policy training.",
+    "Demonstration that REED reduces the number of preference samples needed.",
+    "Empirical evidence that REED outperforms non-REED reward functions across various conditions (dataset sizes, labeling quality, tasks)."
+  ],
+  "related_work": [
+    "Preference-based RL methods like DAgger and TAMER.",
+    "Learning reward functions from preference labels over sets of trajectories.",
+    "Learning policies directly from human feedback.",
+    "Inferring reward functions from task success.",
+    "Self-predictive representations (SPR)."
+  ],
+  "results": [
+    "REED reward functions outperform non-REED reward functions across different preference dataset sizes, quality of preference labelling, and tasks.",
+    "REED leads to faster policy training.",
+    "REED reduces the number of preference samples needed."
+  ],
+  "keywords": [
+    "Reinforcement Learning",
+    "Preference-based Reinforcement Learning",
+    "Reward Function Learning",
+    "Environment Dynamics",
+    "Human Feedback",
+    "Self-Supervised Learning"
+  ],
+  "evidence_id": "EV024",
+  "year": 2022,
+  "arxiv_id": "2211.06527",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

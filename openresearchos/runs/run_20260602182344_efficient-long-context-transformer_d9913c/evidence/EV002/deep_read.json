@@ -1,0 +1,47 @@
+{
+  "title": "Robust and Efficient Average Consensus with Non-Coherent Over-the-Air Aggregation",
+  "problem": "Achieving average consensus in large-scale wireless multi-agent systems",
+  "traditional_approaches": [
+    "Distributed linear iteration where agents linearly combine their own state values with neighbors' values",
+    "Classical studies assuming either perfect communication or imperfect communication with link-level noise, packet losses, or delay"
+  ],
+  "challenges": [
+    "Access control and interference management are critical for achieving efficient and accurate average consensus",
+    "Assigning orthogonal resource blocks to different nodes/links is highly inefficient for extremely large networks"
+  ],
+  "proposed_solution": "Over-the-air (OTA) computation that leverages signal superposition to aggregate data from distributed nodes",
+  "ota_benefits": [
+    "Allows N senders to transmit simultaneously using the same frequency resources",
+    "Increases spectral efficiency by a factor of N"
+  ],
+  "limitations_of_typical_ota": [
+    "Relies on coherent transmission requiring perfect channel state information (CSI)",
+    "Nearly impossible to achieve constructive phase-coherent combination in fully decentralized systems with multiple receivers",
+    "Estimating CSI of all links leads to substantial signaling overhead"
+  ],
+  "non_coherent_ota": {
+    "mechanism": "Uses energy-based coding and decoding without needing phase information",
+    "previous_work_10": "Used for wireless multi-agent optimization with decentralized gradient descent (DGD)",
+    "previous_work_11": "Used for average consensus but resulted in stochastic bias in the consensus value"
+  },
+  "proposed_approach": {
+    "algorithm": "Average consensus algorithm based on decentralized projected gradient descent (D-PGD) with non-coherent OTA aggregation",
+    "achievements": [
+      "Achieves mean square consensus on the average of agents' initial state values without bias",
+      "Includes transmit power control and receive scaling method to accelerate convergence"
+    ]
+  },
+  "evaluation": "Simulation results show fast and robust convergence to average consensus",
+  "network_representation": "Time-invariant undirected graph 𝒢 = (𝒩, ℰ)",
+  "evidence_id": "EV002",
+  "year": 2025,
+  "arxiv_id": "2504.05729",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7997,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

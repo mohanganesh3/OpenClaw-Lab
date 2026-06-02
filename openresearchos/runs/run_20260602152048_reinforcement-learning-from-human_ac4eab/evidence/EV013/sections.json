@@ -1,0 +1,6 @@
+{
+  "introduction": "[2310.02743] Reward Model Ensembles Help Mitigate Overoptimization\n\nReward Model Ensembles Help Mitigate Overoptimization\n\nThomas Coste  ➀ , Usman Anwar  ➀ , Robert Kirk  ➁ , David Krueger  ➀\n\n➀ Unive",
+  "method": "sed conservative optimization can effectively counter overoptimization.\n\n1  Introduction\n\nWith the advent of large language models, reinforcement learning from human feedback (RLHF) has emerged as a p",
+  "results": "r et al.,  2019 ; Stiennon et al.,  2020 ; Dubois et al.,  2023 ) . To simulate that disagreement and to better reflect the real-world RLHF, we extend the setup to include\n\n25  %\n\npercent  25\n\n25\\%\n\nl",
+  "conclusion": "erparameters it introduces (e.g. size of the ensemble).\n\nFigure 1:  RLHF pipeline used in this work - our modifications on top of the standard RLHF setup used in  Gao et al. ( 2023 )  are highlighted "
+}

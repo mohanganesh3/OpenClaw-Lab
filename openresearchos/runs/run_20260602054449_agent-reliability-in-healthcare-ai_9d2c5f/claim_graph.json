@@ -1,0 +1,226 @@
+{
+  "claims": [
+    {
+      "claim_id": "CL001",
+      "evidence_id": "EV001",
+      "text": "The paper claims to provide a platform for easy and global publishing of academic research, positioning itself as a significant player in the academic publishing landscape.",
+      "support": "metadata_summary_pending_pdf_confirmation"
+    },
+    {
+      "claim_id": "CL002",
+      "evidence_id": "EV002",
+      "text": "The paper claims that Pega Artificial Intelligence provides powerful and unprecedented applications for enterprises to achieve limitless outcomes.",
+      "support": "metadata_summary_pending_pdf_confirmation"
+    },
+    {
+      "claim_id": "CL003",
+      "evidence_id": "EV003",
+      "text": "This source is relevant to agents, agent, science, reliability and should be used as evidence, not authority without verification.",
+      "support": "metadata_summary_pending_pdf_confirmation"
+    },
+    {
+      "claim_id": "CL004",
+      "evidence_id": "EV004",
+      "text": "This source is relevant to reliability, science, agent, arxiv and should be used as evidence, not authority without verification.",
+      "support": "metadata_summary_pending_pdf_confirmation"
+    },
+    {
+      "claim_id": "CL005",
+      "evidence_id": "EV005",
+      "text": "ModelAuditor is an autonomous agent for auditing and improving the reliability of clinical AI models by detecting and addressing performance issues in machine learning systems for healthcare.",
+      "support": "metadata_summary_pending_pdf_confirmation"
+    },
+    {
+      "claim_id": "CL006",
+      "evidence_id": "EV006",
+      "text": "The Health AI Hub is a curated platform that aggregates and presents the latest AI-powered medical research papers from arXiv on a daily basis.",
+      "support": "metadata_summary_pending_pdf_confirmation"
+    },
+    {
+      "claim_id": "CL007",
+      "evidence_id": "EV007",
+      "text": "This repository provides a curated, comprehensive list of research papers, projects, and resources on the application of Agentic AI and AI agents in healthcare.",
+      "support": "metadata_summary_pending_pdf_confirmation"
+    },
+    {
+      "claim_id": "CL008",
+      "evidence_id": "EV008",
+      "text": "This source is relevant to agentic, healthcare, role, artificial and should be used as evidence, not authority without verification.",
+      "support": "metadata_summary_pending_pdf_confirmation"
+    },
+    {
+      "claim_id": "CL009",
+      "evidence_id": "EV009",
+      "text": "AgentClinic is introduced as a multimodal agent benchmark for evaluating LLMs in simulated clinical environments that includes patient interactions, multimodal data collection under incomplete information, and tool usage across nine medical specialties and seven languages.",
+      "support": "metadata_summary_pending_pdf_confirmation"
+    },
+    {
+      "claim_id": "CL010",
+      "evidence_id": "EV010",
+      "text": "MedAgentBench introduces a virtual Electronic Health Record (EHR) environment designed to benchmark the capabilities of Large Language Model (LLM) agents in medical applications.",
+      "support": "metadata_summary_pending_pdf_confirmation"
+    },
+    {
+      "claim_id": "CL011",
+      "evidence_id": "EV011",
+      "text": "This source is relevant to multimodal, agentclinic, agent, benchmark and should be used as evidence, not authority without verification.",
+      "support": "metadata_summary_pending_pdf_confirmation"
+    },
+    {
+      "claim_id": "CL012",
+      "evidence_id": "EV012",
+      "text": "Stanford researchers introduced MedAgentBench, a new benchmark suite designed to evaluate large language model agents in healthcare contexts through a virtual electronic health record environment that requires multi-step clinical task execution.",
+      "support": "metadata_summary_pending_pdf_confirmation"
+    },
+    {
+      "claim_id": "CL013",
+      "evidence_id": "EV013",
+      "text": "This source is relevant to paper, page, agentclinic, multimodal and should be used as evidence, not authority without verification.",
+      "support": "metadata_summary_pending_pdf_confirmation"
+    },
+    {
+      "claim_id": "CL014",
+      "evidence_id": "EV014",
+      "text": "This source is relevant to healthcare, future, agent, applications and should be used as evidence, not authority without verification.",
+      "support": "metadata_summary_pending_pdf_confirmation"
+    },
+    {
+      "claim_id": "CL015",
+      "evidence_id": "EV015",
+      "text": "This repository provides a curated collection of research papers on AI agents published in 2026, covering key topics like multi-agent coordination, memory & RAG, tooling, evaluation, and security.",
+      "support": "metadata_summary_pending_pdf_confirmation"
+    },
+    {
+      "claim_id": "CL016",
+      "evidence_id": "EV016",
+      "text": "This paper provides a comprehensive review of Explainable AI concepts, develops a taxonomy of XAI approaches, and identifies opportunities and challenges for responsible AI development.",
+      "support": "metadata_summary_pending_pdf_confirmation"
+    },
+    {
+      "claim_id": "CL017",
+      "evidence_id": "EV017",
+      "text": "The PRISMA 2020 statement provides updated guidance and exemplars for reporting systematic reviews, including a checklist of 27 items with explanations and bullet points for detailed recommendations to improve transparency, completeness, and accuracy of reporting.",
+      "support": "metadata_summary_pending_pdf_confirmation"
+    },
+    {
+      "claim_id": "CL018",
+      "evidence_id": "EV018",
+      "text": "This paper provides a comprehensive review of deep learning using a holistic approach to offer a more complete understanding of DL, covering concepts, architectures, challenges, applications, and future directions.",
+      "support": "metadata_summary_pending_pdf_confirmation"
+    },
+    {
+      "claim_id": "CL019",
+      "evidence_id": "EV019",
+      "text": "The paper identifies three stages of digital transformation (digitization, digitalization, and digital transformation), growth strategies for digital firms, required assets and capabilities, organizational structures, and consequences for performance metrics, while providing a research agenda for future studies.",
+      "support": "metadata_summary_pending_pdf_confirmation"
+    },
+    {
+      "claim_id": "CL020",
+      "evidence_id": "EV020",
+      "text": "This paper provides multidisciplinary perspectives on ChatGPT and generative conversational AI, highlighting both opportunities and challenges across various fields, while identifying areas for further research.",
+      "support": "metadata_summary_pending_pdf_confirmation"
+    }
+  ],
+  "links": [
+    {
+      "from": "EV001",
+      "relation": "suggests_gap",
+      "to": "The paper reveals a gap in the transparency of the journal's academic rigor and peer-review standards, leaving open questions about the quality and validity of the published research."
+    },
+    {
+      "from": "EV002",
+      "relation": "suggests_gap",
+      "to": "The abstract does not specify the technical methods or datasets used, leaving a gap in understanding the specific AI techniques and their validation."
+    },
+    {
+      "from": "EV003",
+      "relation": "suggests_gap",
+      "to": "Need a traceable test that connects agents to experiment decisions and reviewer outcomes."
+    },
+    {
+      "from": "EV004",
+      "relation": "suggests_gap",
+      "to": "Need a traceable test that connects reliability to experiment decisions and reviewer outcomes."
+    },
+    {
+      "from": "EV005",
+      "relation": "suggests_gap",
+      "to": "There is a gap in autonomous systems that can effectively audit and improve the reliability of clinical AI models, particularly in handling challenging real-world conditions where healthcare AI models typically struggle."
+    },
+    {
+      "from": "EV006",
+      "relation": "suggests_gap",
+      "to": "The platform does not provide a systematic review or meta-analysis of the curated papers, leaving a gap in synthesized insights across the field."
+    },
+    {
+      "from": "EV007",
+      "relation": "suggests_gap",
+      "to": "The repository highlights a gap in consolidated, agent-based solutions for healthcare administration and patient dialogue, suggesting a need for more integrated and deployable agent systems in these specific areas."
+    },
+    {
+      "from": "EV008",
+      "relation": "suggests_gap",
+      "to": "Need a traceable test that connects agentic to experiment decisions and reviewer outcomes."
+    },
+    {
+      "from": "EV009",
+      "relation": "suggests_gap",
+      "to": "There is a lack of comprehensive evaluation frameworks for LLMs in clinical settings that require tool usage, patient interaction, and handling incomplete information across multiple medical specialties and languages."
+    },
+    {
+      "from": "EV010",
+      "relation": "suggests_gap",
+      "to": "The paper reveals the critical gap in standardized datasets for benchmarking medical LLM agents, making it difficult to evaluate their performance on complex tasks in interactive healthcare."
+    },
+    {
+      "from": "EV011",
+      "relation": "suggests_gap",
+      "to": "Need a traceable test that connects multimodal to experiment decisions and reviewer outcomes."
+    },
+    {
+      "from": "EV012",
+      "relation": "suggests_gap",
+      "to": "The paper reveals a gap in evaluating LLM agents through interactive clinical tasks rather than static question-answering, highlighting the need for more realistic healthcare AI evaluation frameworks."
+    },
+    {
+      "from": "EV013",
+      "relation": "suggests_gap",
+      "to": "Need a traceable test that connects paper to experiment decisions and reviewer outcomes."
+    },
+    {
+      "from": "EV014",
+      "relation": "suggests_gap",
+      "to": "Need a traceable test that connects healthcare to experiment decisions and reviewer outcomes."
+    },
+    {
+      "from": "EV015",
+      "relation": "suggests_gap",
+      "to": "There is a gap in consolidated surveys that synthesize the state-of-the-art across these diverse AI agent topics, as this repository only lists papers without providing a comparative analysis."
+    },
+    {
+      "from": "EV016",
+      "relation": "suggests_gap",
+      "to": "There is a need for standardized evaluation frameworks and benchmarks for XAI methods across different domains and model types."
+    },
+    {
+      "from": "EV017",
+      "relation": "suggests_gap",
+      "to": "The paper doesn't address how to measure the impact of PRISMA 2020 on actual reporting practices or identify barriers to implementation of the updated guidelines."
+    },
+    {
+      "from": "EV018",
+      "relation": "suggests_gap",
+      "to": "The paper reveals that previous DL reviews were too narrow, focusing on single aspects rather than providing a holistic view of the field, which limits comprehensive understanding."
+    },
+    {
+      "from": "EV019",
+      "relation": "suggests_gap",
+      "to": "The paper reveals a gap in understanding how specific organizational structures and adapted performance metrics contribute to successful digital transformation."
+    },
+    {
+      "from": "EV020",
+      "relation": "suggests_gap",
+      "to": "The paper reveals a gap in understanding the optimal combinations of human and generative AI for various tasks and identifying ways to assess the accuracy of text produced by generative AI."
+    }
+  ]
+}

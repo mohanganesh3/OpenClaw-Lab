@@ -1,0 +1,6 @@
+{
+  "introduction": "[2402.12656] HyperMoE: Paying Attention to Unselected Experts in Mixture of Experts via Dynamic Transfer.\n\nHyperMoE: Paying Attention to Unselected Experts in Mixture of Experts via Dynamic Transfer.\n",
+  "method": "et al.,,  2020 ; Achiam et al.,,  2023 ; Touvron et al.,,  2023 ) . The remarkable capabilities of these models are attributed to the enhancements in their scale. Nevertheless, the scaling of dense mo",
+  "results": "he number of available experts to improve performance or preserving a lower level of available experts to ensure sparsity, as depicted in Figure\n\n1  .\n\nTo mitigate this contradiction, one solution wou",
+  "conclusion": "e speed compared to the standard MoE.\n\nWe evaluate HyperMoE on 20 representative NLP datasets across diverse tasks: sequence classification, extractive question answering, summarization, and text gene"
+}

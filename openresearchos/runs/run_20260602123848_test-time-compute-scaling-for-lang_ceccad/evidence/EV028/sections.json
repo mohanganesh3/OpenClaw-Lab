@@ -1,0 +1,6 @@
+{
+  "introduction": "[2512.05112] DraCo: Draft as CoT for Text-to-Image Preview and Rare Concept Generation\n\nDraCo : Draft as CoT for Text-to-Image Preview and Rare Concept Generation\n\nDongzhi Jiang  ∗1  , Renrui Zhang  ∗",
+  "method": "utperforming direct generation and other generation methods empowered by CoT.\nThe project is at  https://github.com/CaraJ7/DraCo .\n\n1  Introduction\n\nFigure 1 :\n\nConceptual Comparison of CoT Reasoning ",
+  "results": "systems  [ mai2025agent ,  wei2025webagent ] . While several pioneering works have extended CoT to text-to-image (T2I) generation tasks  [ guo2025can ,  jiang2025cot ,  bagel ,  zhang2025reasongen ,  ",
+  "conclusion": "ntrast, planning with a draft image could sufficiently display all the essential visual information during planning. Second, reasoning with a draft image provides an opportunity to preview the image t"
+}

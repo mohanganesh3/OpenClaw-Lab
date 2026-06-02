@@ -1,0 +1,34 @@
+{
+  "title": "Rewarding Structural Conformance of Reasoning using Process Mining",
+  "method": {
+    "framework": "PM4GRPO (Process Mining for GRPO)",
+    "key_concept": "Thinking is a Process (THIP)",
+    "approach": "Extract reasoning traces of a pretrained teacher model as event logs and use Process Mining to evaluate reasoning quality at the process level",
+    "techniques": [
+      "Inductive miner (IM) to construct process models from the policy model's reasoning process",
+      "Alignment-based conformance checking (CC) to compare induced process models with the teacher model's reasoning process"
+    ],
+    "reward_design": "Integrates process-level conformance checking into the reward signal of GRPO",
+    "philosophy": "Encourages reasoning alignment while preserving the model's freedom of thought"
+  },
+  "results": {
+    "section": "Section 3",
+    "content": "Presents experimental results demonstrating the effectiveness of PM4GRPO"
+  },
+  "paper_structure": {
+    "section_2": "Describes the proposed PM4GRPO framework in detail",
+    "section_3": "Presents experimental results",
+    "section_4": "Concludes the paper with a summary and future research directions"
+  },
+  "evidence_id": "EV009",
+  "year": 2025,
+  "arxiv_id": "2510.25065",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7997,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "method_summary": "Optimal Mixture Transport (OMT) reformulates the transport problem as a strictly biconvex optimization over mixture models, decoupling computational complexity from sample size.",
+  "key_innovation": "A strictly biconvex formulation for transport of mixture models that guarantees a unique global minimizer and stable transport maps.",
+  "datasets_used": [
+    "synthetic benchmarks",
+    "real-world datasets",
+    "image data",
+    "large-scale single-cell RNA sequencing measurements"
+  ],
+  "baselines_compared": [],
+  "key_results": {},
+  "best_result": "",
+  "limitations_stated": [],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "high",
+  "compute_required": "not specified",
+  "can_run_on_macbook": false,
+  "evidence_id": "EV052",
+  "title": "A Biconvex Formulation for Stable Transport of Mixture Models with a Unique Solution",
+  "year": 2026,
+  "arxiv_id": "2606.02515",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 5076,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

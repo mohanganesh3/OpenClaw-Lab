@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "run_id": "run_20260602083219_agent-reliability-in-clinical-ai-s_cd5d38",
+  "topic": "agent reliability in clinical AI systems",
+  "created_at": "2026-06-02T08:32:19.191Z",
+  "updated_at": "2026-06-02T08:32:19.191Z",
+  "current_state": "SEARCH_PLAN_CREATED",
+  "scope_classification": {
+    "label": "local_experiment",
+    "rationale": "The topic can be explored with small simulations, synthetic data, or lightweight local experiments on the Mac."
+  },
+  "search_queries": [
+    "agent reliability in clinical AI systems recent papers",
+    "agent reliability in clinical AI systems benchmark evaluation",
+    "agent reliability in clinical AI systems reproducibility agents",
+    "agent reliability in clinical AI systems reviewer simulation",
+    "agent reliability in clinical AI systems automated scientific discovery",
+    "agent reliability in clinical AI systems failure modes",
+    "agent reliability in clinical AI systems openreview",
+    "agent reliability in clinical AI systems github implementation"
+  ],
+  "evidence_ids": [],
+  "parsed_papers": [],
+  "claim_graph": {
+    "claims": [],
+    "links": []
+  },
+  "research_gaps": [],
+  "idea_tree": [],
+  "reviewer_scores": [],
+  "experiment_candidates": [],
+  "approval_status": {},
+  "micro_probe_results": [],
+  "probe_results": [],
+  "ablation_results": [],
+  "mvp_results": [],
+  "failed_ideas": [],
+  "validation_results": [],
+  "paper_readiness_level": "RRL-0",
+  "final_output_path": null,
+  "history": [
+    {
+      "at": "2026-06-02T08:32:19.191Z",
+      "state": "TOPIC_SCOPED",
+      "detail": "The topic can be explored with small simulations, synthetic data, or lightweight local experiments on the Mac."
+    },
+    {
+      "at": "2026-06-02T08:32:19.191Z",
+      "state": "SEARCH_PLAN_CREATED",
+      "detail": "8 queries created."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "title": "Learning Fast, Learning Slow: A General Continual Learning Method based on Complementary Learning System",
+  "methodology": {
+    "problem": "Catastrophic forgetting in deep neural networks during continual learning",
+    "approaches": [
+      {
+        "type": "Regularization-based methods",
+        "description": "Penalize changes in network weights"
+      },
+      {
+        "type": "Network expansion-based methods",
+        "description": "Dedicate distinct set of network parameters to distinct tasks"
+      },
+      {
+        "type": "Rehearsal-based methods",
+        "description": "Maintain a memory buffer and replay samples from previous tasks",
+        "effectiveness": "Proven more effective in challenging CL tasks"
+      }
+    ],
+    "inspiration": "Complementary Learning Systems (CLS) theory in the brain",
+    "proposed_method": "CLS-ER (CLS Experience Replay)",
+    "mechanism": {
+      "type": "Dual-memory learning mechanism",
+      "components": [
+        {
+          "name": "Episodic memory",
+          "function": "Stores samples"
+        },
+        {
+          "name": "Semantic memories",
+          "function": "Build short-term and long-term memories of learned representations",
+          "implementation": "Exponential moving average of working model's weights with varying time windows and frequencies"
+        }
+      ],
+      "interaction": "Extract consolidated replay activation patterns and enforce a consistency loss on the update of the working model to prevent rapid changes and align decision boundary"
+    }
+  },
+  "evidence_id": "EV030",
+  "year": 2022,
+  "arxiv_id": "2201.12604",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

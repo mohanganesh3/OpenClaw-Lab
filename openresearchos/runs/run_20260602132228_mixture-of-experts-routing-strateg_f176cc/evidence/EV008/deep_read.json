@@ -1,0 +1,58 @@
+{
+  "paper_title": "OmniMoE: An Efficient MoE by Orchestrating Atomic Experts at Scale",
+  "method_section": {
+    "problem_statement": {
+      "moe_bottlenecks": "MoEs improve parameter efficiency but suffer from bandwidth bottlenecks due to scattered, fragmented memory accesses",
+      "coarse_grained_issues": "Coarse-grained MoEs suffer from imprecise activation and low flexibility, leading to computational waste",
+      "fine_grained_challenges": "Fine-grained MoEs face limited expressivity, routing overhead, and hardware inefficiency"
+    },
+    "omni_moe_solution": {
+      "approach": "Employs a universally activated shared dense MLP",
+      "key_innovation": "Uses expert-centric scheduling to reorganize fine-grained expert fetches into contiguous, coalesced memory accesses",
+      "benefits": "Achieves both high parameter efficiency and hardware-efficient execution"
+    },
+    "moe_architecture_categories": {
+      "coarse_grained": {
+        "description": "Dominant paradigm in large-scale language models",
+        "implementation": "Each expert is a complete dense FFN",
+        "advantages": "Hardware-efficient dense matmuls (via Tensor Cores), contiguous VRAM access",
+        "examples": [
+          {
+            "name": "DeepSeek-V3",
+            "expert_count": 256
+          },
+          {
+            "name": "KIMI-K2",
+            "expert_count": 384
+          }
+        ],
+        "limitations": "Imprecise activation, computational waste, rigid size restricts scaling flexibility"
+      },
+      "fine_grained": {
+        "description": "Utilize millions of lightweight experts (e.g., embeddings)",
+        "example": {
+          "name": "PEER",
+          "design": "Product Key Memory (PKM) style design"
+        },
+        "advantages": "Precise routing and fine-grained control over both model capacity and activated parameters",
+        "challenges": [
+          "Limited expressivity: existing designs reduce experts to static parameter vectors, restricting to linear vector aggregation",
+          "Routing overhead: scaling to large expert pool increases routing cost and load imbalance",
+          "Hardware inefficiency: scattered activations trigger random memory I/O, shifting execution from compute-bound to memory-bound"
+        ]
+      }
+    }
+  },
+  "evidence_id": "EV008",
+  "title": "OmniMoE: An Efficient MoE by Orchestrating Atomic Experts at Scale",
+  "year": 2026,
+  "arxiv_id": "2602.05711",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

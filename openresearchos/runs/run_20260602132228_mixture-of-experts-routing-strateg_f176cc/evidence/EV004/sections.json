@@ -1,0 +1,6 @@
+{
+  "introduction": "[2510.27004] Mixture-of-Transformers Learn Faster: A Theoretical Study on Classification Problems\n\nMixture-of-Transformers Learn Faster: A Theoretical Study on Classification Problems\n\nHongbo Li\n\nDepa",
+  "method": "specialization and learning dynamics, providing practical guidance for designing efficient large-scale models.\n\n1  Introduction\n\nRecently, the transformer architecture  [ 1 ]  has emerged as the found",
+  "results": "on alignment—something prior work has not addressed.\nWe summarize our main contributions as follows.\n\n•\n\nTo the best of our knowledge, this paper presents the  first theoretical analysis with benefit ",
+  "conclusion": "er.\nAs a result, MoT benefits from the strong convexity of the per-expert loss functions, enabling faster and more stable convergence.\n\n•\n\nFinally, our  extensive real-data experiments  validate our t"
+}

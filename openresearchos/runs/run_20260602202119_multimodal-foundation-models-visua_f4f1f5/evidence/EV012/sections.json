@@ -1,0 +1,6 @@
+{
+  "introduction": "[2403.14003] Multi-Modal Hallucination Control by Visual Information Grounding\n\nMulti-Modal Hallucination Control by Visual Information Grounding\n\nAlessandro Favero\n\nLuca Zancato\n\nMatthew Trager\n\nSidd",
+  "method": "d 24%.\n\n1  Introduction\n\nFigure 1 :\n\nMulti-Modal Mutual Information Decoding (M3ID). \nGiven a VLM\n\np\n\n𝑝\n\np\n\n, an image\n\nc\n\n𝑐\n\nc\n\n, and a text prompt, M3ID intervenes in the generative distribution b",
+  "results": "nt, our prompt dependency measure is always well-defined even without any ground truth annotations.\n\nOur first contribution is to empirically demonstrate that the visual prompt dependency measure decr",
+  "conclusion": "as follows:\n\n1.\n\nWe propose a visual prompt dependency measure (PDM) to assess whether a model output is ungrounded with respect to the visual input. Empirically, we demonstrate that PDM decreases as "
+}

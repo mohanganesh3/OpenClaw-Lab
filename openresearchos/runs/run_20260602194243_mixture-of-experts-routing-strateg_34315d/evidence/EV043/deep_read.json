@@ -1,0 +1,41 @@
+{
+  "paper_title": "End-to-End Training for Autoregressive Video Diffusion via Self-Resampling",
+  "method": {
+    "name": "Resampling Forcing",
+    "description": "An end-to-end, teacher-free training framework for autoregressive video diffusion models",
+    "key_components": [
+      "Self-resampling mechanism: The model induces errors in history frames and uses this degraded history for next-frame prediction",
+      "History routing mechanism: Dynamically retrieves the most relevant history frames via a parameter-free router",
+      "Per-frame diffusion loss under causal masking"
+    ],
+    "advantages": [
+      "Mitigates error accumulation in autoregressive video diffusion models",
+      "Achieves generation quality comparable to state-of-the-art distilled models",
+      "Enables native long-video training",
+      "Maintains near-constant attention complexity in long-horizon rollout"
+    ]
+  },
+  "problems_addressed": [
+    "Exposure bias (train-test mismatch)",
+    "Error accumulation leading to video collapse",
+    "Attention complexity with expanding historical context",
+    "Limitations of existing methods like Self Forcing"
+  ],
+  "applications": [
+    "Game simulation",
+    "Interactive content creation",
+    "Temporal reasoning"
+  ],
+  "evidence_id": "EV043",
+  "title": "End-to-End Training for Autoregressive Video Diffusion via Self-Resampling",
+  "year": 2025,
+  "arxiv_id": "2512.15702",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

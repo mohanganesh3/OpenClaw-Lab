@@ -1,0 +1,47 @@
+{
+  "title": "ARES: Alternating Reinforcement Learning and Supervised Fine-Tuning for Enhanced Multi-Modal Chain-of-Thought Reasoning Through Diverse AI Feedback",
+  "authors": "Not specified in provided text",
+  "abstract": "Not provided in excerpt",
+  "method": {
+    "name": "ARES",
+    "description": "Alternating Reinforcement Learning and Supervised Fine-Tuning using diverse AI feedback",
+    "key_features": [
+      "Alternates between RL and SFT",
+      "Uses sentence-level feedback instead of ranking-based feedback",
+      "Employs an advanced AI model as a 'Teacher' for feedback"
+    ]
+  },
+  "results": {
+    "main_finding": "Improved rationale reasoning leads to a 2.5% increase in inference answer accuracy on average for multi-modal datasets",
+    "improvements": [
+      "Addresses ranking-based feedback limitations",
+      "Reduces instability of RL process",
+      "Enables diverse improvements beyond pretraining distribution"
+    ]
+  },
+  "challenges_addressed": [
+    "Ranking-based feedback limitations where valuable parts of less preferred samples are disregarded",
+    "Instability of RL process requiring extensive hyperparameter tuning",
+    "Generation of repetitive words and truncated sentences"
+  ],
+  "code_repository": "https://github.com/Amyyyyeah/ARES",
+  "introduction": {
+    "context": "Large Language Models (LLMs) and Large Multimodal Models demonstrate remarkable performance but often generate toxic and biased content",
+    "existing_methods": [
+      "RLHF",
+      "RLAIF"
+    ],
+    "limitations": "Ranking-based feedback and instability of RL process"
+  },
+  "evidence_id": "EV027",
+  "year": 2024,
+  "arxiv_id": "2407.00087",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

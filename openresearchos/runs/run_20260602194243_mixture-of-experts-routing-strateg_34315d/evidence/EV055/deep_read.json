@@ -1,0 +1,32 @@
+{
+  "title": "Mixture of Group Experts for Learning Invariant Representations",
+  "authors": [],
+  "conference": {
+    "name": "33rd ACM International Conference on Multimedia",
+    "dates": "October 27-31, 2025",
+    "location": "Dublin, Ireland"
+  },
+  "publication_year": 2025,
+  "doi": "XXXXXXX.XXXXXXX",
+  "isbn": "978-1-4503-XXXX-X/2018/06",
+  "submission_id": 4041,
+  "abstract": "This paper proposes a novel regularization technique for Mixture-of-Experts (MoE) models called Mixture of Group Experts (MoGE). The approach applies group sparsity regularization to the routing inputs rather than directly constraining the experts, promoting greater diversity and specialization among experts without requiring modifications to the MoE architecture.",
+  "key_contributions": [
+    "Reinterpreting the combination of top-k routing and experts as a form of sparse representation",
+    "Proposing a novel regularization technique applied to routing inputs to promote diversity and specialization",
+    "Demonstrating that the approach can be directly applied to any MoE model without architectural modifications"
+  ],
+  "methodology": "The paper introduces group sparsity regularization in MoE layers, partitioning the input of top-k routing into groups to naturally extend grouping to subsequent experts.",
+  "problem_addressed": "The lack of diversity and specialization among experts in MoE models, which leads to redundant experts and undermines performance.",
+  "evidence_id": "EV055",
+  "year": 2025,
+  "arxiv_id": "2504.09265",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

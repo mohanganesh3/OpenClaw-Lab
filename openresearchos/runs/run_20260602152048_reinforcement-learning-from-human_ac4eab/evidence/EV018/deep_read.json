@@ -1,0 +1,42 @@
+{
+  "title": "Calibrating the Confidence of Large Language Models by Eliciting Fidelity",
+  "method": {
+    "problem": "RLHF-optimized language models exhibit overconfidence issues where the probability of generating a token doesn't match the likelihood of it being correct",
+    "baseline": "Pre-trained language models have well-calibrated confidence scores through per-token logits",
+    "proposed_solution": {
+      "approach": "Decompose model confidence into two dimensions: uncertainty about the question and fidelity to the answer",
+      "uncertainty_measurement": "Information entropy of frequency distribution of sampled answers",
+      "fidelity_assessment": "Replace model's answer with 'All other options are wrong' to assess fidelity"
+    }
+  },
+  "results": {
+    "experimental_data": "GPT-3.5-Turbo",
+    "evaluation_datasets": "Four different MCQA datasets",
+    "visualizations": [
+      "Figure 1: Reliability diagram showing calibration effects",
+      "Figure 2: Fidelity assessment method"
+    ]
+  },
+  "background": {
+    "technologies": [
+      "RLHF",
+      "RLAIF"
+    ],
+    "related_work": [
+      "Temperature-Tuning (post-hoc logit-based method)",
+      "Verbalization-based methods requiring prompt engineering",
+      "Aggregation of logit-based and verbalization-based confidence"
+    ]
+  },
+  "evidence_id": "EV018",
+  "year": 2024,
+  "arxiv_id": "2404.02655",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7997,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

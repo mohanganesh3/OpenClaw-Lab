@@ -1,0 +1,26 @@
+{
+  "method_summary": "The paper proposes modifying the controller in Efficient Neural Architecture Search (ENAS) from REINFORCE to PPO (Proximal Policy Optimization) to improve sample efficiency in neural architecture search.",
+  "key_innovation": "Replacing REINFORCE with PPO as the reinforcement learning algorithm for the controller in ENAS",
+  "datasets_used": [],
+  "baselines_compared": [],
+  "key_results": {},
+  "best_result": "",
+  "limitations_stated": [],
+  "code_available": null,
+  "code_url": null,
+  "reproducibility": null,
+  "compute_required": null,
+  "can_run_on_macbook": null,
+  "evidence_id": "EV032",
+  "title": "Improving the sample-efficiency of neural architecture search with reinforcement learning",
+  "year": 2021,
+  "arxiv_id": "2110.06751",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 5850,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

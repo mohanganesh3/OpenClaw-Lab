@@ -1,0 +1,6 @@
+{
+  "introduction": "[2403.10588] S3LLM: Large-Scale Scientific Software Understanding with LLMs using Source, Metadata, and Document\n\n1\n\n1  institutetext:  University of North Texas, Denton, TX 76207, USA\n\n1\n\n1  email:  ",
+  "method": "emonstrates the potential of using locally deployed open-source LLMs for the rapid understanding of large-scale scientific computing software, eliminating the need for extensive coding expertise, and ",
+  "results": "for producing exhaustive documentation across various formats, including HTML, LaTeX (for printable PDF versions), ePub, Texinfo, manual pages, and plain text. Nonetheless, the currently available too",
+  "conclusion": "the proposed  S3LLM  can handle various types of tasks for large-scale scientific software understanding including source code query, metadata analysis, and text-based technical report understanding. "
+}

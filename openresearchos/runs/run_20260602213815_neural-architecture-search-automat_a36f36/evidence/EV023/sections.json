@@ -1,0 +1,6 @@
+{
+  "introduction": "[2105.09356] Generative Adversarial Neural Architecture Search\n\nGenerative Adversarial Neural Architecture Search\n\nSeyed Saeed Changiz Rezaei 1\n\n*\n\n*  * Equal Contribution. Correspondence to: Di Niu ¡",
+  "method": "on many computer vision tasks  Elsken  et al.  ( 2018 ) .\nSince the underlying search space of architectures grows exponentially as a function of the architecture size, searching for an optimum neural",
+  "results": "t inspired by the  Cross Entropy  (CE) method  Rubinstein and\nKroese ( 2013 )  in importance sampling, which iteratively retrains an architecture generator to fit to the distribution of winning archit",
+  "conclusion": "orporate ad-hoc hard constraints and its ability to further improve existing strong architectures found by other NAS methods.\nThrough experiments on ImageNet, we show that GA-NAS can enhance Efficient"
+}

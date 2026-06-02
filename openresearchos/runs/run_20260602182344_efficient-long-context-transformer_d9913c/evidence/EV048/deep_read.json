@@ -1,0 +1,69 @@
+{
+  "title": "Explainability of Text Processing and Retrieval Methods: A Survey",
+  "abstract": "This paper provides an organized summary of major research efforts in explainability in textual information processing and retrieval. It aims to complement existing surveys by discussing more recent work in areas already covered and focusing on areas not addressed by previous surveys.",
+  "scope": {
+    "communities": [
+      "Information Retrieval (IR)",
+      "Natural Language Processing (NLP)",
+      "Machine Learning/Deep Learning (DL)"
+    ],
+    "venues": [
+      "SIGIR",
+      "CIKM",
+      "WSDM",
+      "WWW",
+      "ACL family",
+      "AAAI",
+      "ICML",
+      "ICLR",
+      "NeurIPS",
+      "FAccT",
+      "IPM"
+    ],
+    "papers_selected": 41
+  },
+  "key_points": [
+    "Historically, text processing used interpretable features like words, phrases, counts, morphology, parts of speech, and grammatical structures",
+    "Recent advances in Deep Machine Learning have revolutionized text processing but made models less interpretable",
+    "Text is now represented as dense vectors in high-dimensional spaces",
+    "There's growing research interest in explainability of these complex models",
+    "Several surveys already exist in this area, and this paper aims to complement them"
+  ],
+  "related_surveys": [
+    {
+      "authors": "Søgaard, 2021",
+      "type": "general"
+    },
+    {
+      "authors": "Madsen et al., 2022",
+      "type": "general"
+    },
+    {
+      "authors": "Zini and Awad, 2022",
+      "type": "general"
+    },
+    {
+      "authors": "Anand et al., 2022",
+      "type": "general"
+    },
+    {
+      "authors": "Belinkov and Glass, 2019",
+      "type": "specialized"
+    },
+    {
+      "authors": "Dufter et al., 2022",
+      "type": "specialized"
+    }
+  ],
+  "evidence_id": "EV048",
+  "year": 2022,
+  "arxiv_id": "2212.07126",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

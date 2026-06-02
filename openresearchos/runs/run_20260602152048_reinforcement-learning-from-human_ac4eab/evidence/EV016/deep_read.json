@@ -1,0 +1,26 @@
+{
+  "method_summary": "Research paper: Probabilistic Inference in Language Models via Twisted Sequential Monte Carlo",
+  "key_innovation": "See full text",
+  "datasets_used": [],
+  "baselines_compared": [],
+  "key_results": {},
+  "best_result": null,
+  "limitations_stated": [],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "unknown",
+  "compute_required": "unknown",
+  "can_run_on_macbook": true,
+  "evidence_id": "EV016",
+  "title": "Probabilistic Inference in Language Models via Twisted Sequential Monte Carlo",
+  "year": 2024,
+  "arxiv_id": "2404.17546",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

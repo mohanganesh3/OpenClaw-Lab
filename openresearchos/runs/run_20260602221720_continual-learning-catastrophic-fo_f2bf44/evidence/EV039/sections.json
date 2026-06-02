@@ -1,0 +1,6 @@
+{
+  "introduction": "[2210.10325] Improving Stability of Fine-Tuning Pretrained Language Models via Component-Wise Gradient Norm Clipping\n\nImproving Stability of Fine-Tuning Pretrained Language Models\n\nvia Component-Wise ",
+  "method": ".e., PLMs may lose their rich domain-agnostic knowledge acquired by language model pretraining in the process of fine-tuning.\nThrough layer-replacement experiments between pretrained models and fine-t",
+  "results": "4\n\n4\n\n4\n\niterations as we observe that the performance is almost stable by the fourth iteration. As different layers can have components with different dimensionalities, we show the component-wise max",
+  "conclusion": "R^{(k)}=\\{\\theta^{(i)},L-k\\leq i\\leq L\\}\n\n, where\n\nθ\n\n(  i  )\n\n​\n\n(\n\nL  −  k\n\n+  1\n\n≤  i  ≤  L\n\n)\n\nsuperscript  𝜃  𝑖\n\n𝐿  𝑘\n\n1\n\n𝑖\n\n𝐿\n\n\\theta^{(i)}(L-k+1\\leq i\\leq L)\n\nis also tuned in\n\nk  −  1\n\n\ud835"
+}

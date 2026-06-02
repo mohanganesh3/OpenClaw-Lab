@@ -1,0 +1,32 @@
+{
+  "title": "LLaMA-MoE: Building Mixture-of-Experts from LLaMA with Continual Pre-Training",
+  "authors": "Cai et al., 2024",
+  "methodology": {
+    "approach": "Building MoE models from existing dense LLMs",
+    "base_model": "LLaMA",
+    "key_challenges": [
+      "How to effectively construct experts from Feed-Forward Networks (FFNs) in existing LLMs",
+      "How to overcome performance decrease when changing from dense to sparse models"
+    ],
+    "expert_construction_methods": "Four different methods explored",
+    "training_strategy": "Continual pre-training with both dynamic and static data sampling strategies",
+    "training_data_size": "200B tokens"
+  },
+  "contributions": [
+    "Proposed a framework to develop MoE models from existing decoder-style LLMs by splitting FFNs and continual pre-training",
+    "Explored different splitting methods for expert construction",
+    "Investigated both dynamic and static data sampling strategies for continual pre-training",
+    "Validated the effectiveness of LLaMA-MoE models on various tasks"
+  ],
+  "evidence_id": "EV023",
+  "year": 2024,
+  "arxiv_id": "2406.16554",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

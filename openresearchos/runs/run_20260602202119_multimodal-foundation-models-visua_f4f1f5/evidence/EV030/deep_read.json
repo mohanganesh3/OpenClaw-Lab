@@ -1,0 +1,45 @@
+{
+  "paper_title": "Visual Position Prompt for MLLM Based Visual Grounding",
+  "method": {
+    "name": "VPP-LLaVA",
+    "components": [
+      "Global VPP for global position reference",
+      "Local VPP for local position reference"
+    ],
+    "advantages": "Requires fewer training samples compared to other MLLMs like MiniGPT-v2",
+    "availability": "Code and VPP-SFT dataset available at https://github.com/WayneTomas/VPP-LLaVA"
+  },
+  "index_terms": [
+    "Multimodal large language model",
+    "Visual grounding",
+    "Visual prompt",
+    "Prompt learning"
+  ],
+  "key_findings": [
+    "MLLMs like LLaVA-v1.5 show inaccuracies in visual grounding (size and shape issues)",
+    "Providing positional references significantly improves spatial understanding",
+    "Models struggle with precise coordinate alignment with spatial information"
+  ],
+  "applications": [
+    "Image segmentation",
+    "Remote sensing",
+    "Human-robot interaction"
+  ],
+  "limitations": [
+    "MLLMs still face challenges in precise spatial reasoning",
+    "Models struggle to effectively interpret and utilize spatial cues",
+    "Need for more effective strategies to improve spatial alignment and object localization"
+  ],
+  "evidence_id": "EV030",
+  "title": "Visual Position Prompt for MLLM Based Visual Grounding",
+  "year": 2025,
+  "arxiv_id": "2503.15426",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

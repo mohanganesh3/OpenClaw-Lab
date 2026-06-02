@@ -1,0 +1,6 @@
+{
+  "introduction": "Moral Self-correction is Not An Innate Capability in Language Models Warning: Examples in this paper contain offensive and upsetting language.\n\n1  Introduction\n\n2  Related Works\n\n3  Moral Self-correct",
+  "method": "and (2) a mechanistic analysis of the hidden states to examine how key components of self-correction, such as Chain-of-Thought (CoT) and external feedback, interact to facilitate moral self-correction",
+  "results": "e other works enhance self-correction through additional fine-tuning, e.g., reinforcement learning  (Kumar  et al. ,  2024 ; Qu  et al. ,  2024 ) .\n\nMoral self-correction was first introduced by  Gang",
+  "conclusion": "tream tasks.\nOtherwise, its effectiveness likely arises from shallow heuristics  (Aru  et al. ,  2023 ; Shapira  et al. ,  2024 ) , making task-specific fine-tuning the only viable approach for improv"
+}

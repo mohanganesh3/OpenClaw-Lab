@@ -1,0 +1,6 @@
+{
+  "introduction": "[2503.09730] Local Look-Ahead Guidance via Verifier-in-the-Loop for Automated Theorem Proving\n\nLocal Look-Ahead Guidance via Verifier-in-the-Loop for\nAutomated Theorem Proving\n\nSara Rajaee\n\ns.rajaee@u",
+  "method": "success of methods like AlphaZero, to build models that search the proof space and provide step wise or holistic solutions  (Lample et al.,  2022 ; Xin et al.,  2024a ; Gloeckle et al.,  2024 ; Anthon",
+  "results": "sing tactics.\n\nTo preserve the desirable computational efficiency of ReProver and simultaneously address this problem, the natural choice is to fine-tune the model to remove syntactic errors and incre",
+  "conclusion": "d that is designed based on Lean feedback. Given the pre-trained ReProver model from  Yang et al. ( 2023 ) , we sample different tactics from its output for each proof state in the training set and us"
+}

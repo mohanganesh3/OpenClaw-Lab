@@ -1,0 +1,6 @@
+{
+  "introduction": "[2503.22051] [Preprint] Non-Monotonic Attention-based Read/Write Policy Learning for Simultaneous Translation\n\n[Preprint] Non-Monotonic Attention-based Read/Write Policy Learning for Simultaneous Tran",
+  "method": "th conventional translation systems, which waits to process the entire input before starting the translation. Simultaneous translation is particularly beneficial for translating live speech in real-ti",
+  "results": "lation (write). This read/write policy decision makes the model capable of generating a translation as soon as the model has seen enough information at the input.\n\nIn addition to the MA approach, ther",
+  "conclusion": "atency and accuracy trade-off : The calibration threshold of the read/write binary classifier becomes the inference time hyper-parameter instead of training time parameter as in monotonic attention i."
+}

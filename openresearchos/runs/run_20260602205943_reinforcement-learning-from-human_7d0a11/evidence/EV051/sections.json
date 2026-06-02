@@ -1,0 +1,6 @@
+{
+  "introduction": "[2602.14069] Open Rubric System: Scaling Reinforcement Learning with Pairwise Adaptive Rubric\n\nOpen Rubric System: Scaling Reinforcement Learning with Pairwise Adaptive Rubric\n\nRuipeng Jia\n\nQwen Large",
+  "method": "ity in open-ended settings.\nTo keep principles consistent yet editable across various domains, we introduce a two-level meta-rubric refinement pipeline (automated evolutionary refinement for general p",
+  "results": "ple, often competing dimensions,\nand there is typically no explicit reference answer or ground-truth signal.\nOne line of work follows the  LLM-as-a-Judge  paradigm  ( zheng2023judgingllm ) , and attem",
+  "conclusion": "work attempts to refine rubrics or eliciting criteria in a semi-static or online fashion  ( zhang2025chasing ;  rezaei2025onlinerubric ;  li2026rubrichub ) .\nHowever, in most cases the final training "
+}

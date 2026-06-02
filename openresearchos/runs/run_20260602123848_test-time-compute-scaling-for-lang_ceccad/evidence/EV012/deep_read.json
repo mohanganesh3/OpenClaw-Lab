@@ -1,0 +1,68 @@
+{
+  "title": "Moral Self-correction is Not An Innate Capability in Language Models",
+  "authors": [
+    {
+      "name": "Guangliang Liu",
+      "affiliation": "Michigan State University",
+      "email": "liuguan5@msu.edu"
+    },
+    {
+      "name": "Zimo Qi",
+      "affiliation": "Johns Hopkins University",
+      "email": "zqi15@jh.edu"
+    },
+    {
+      "name": "Xitong Zhang",
+      "affiliation": "Michigan State University",
+      "email": "zhangxit@msu.edu"
+    },
+    {
+      "name": "Lu Cheng",
+      "affiliation": "University of Illinois Chicago",
+      "email": "lucheng@uic.edu"
+    },
+    {
+      "name": "Kristen Marie Johnson",
+      "affiliation": "Michigan State University",
+      "email": "kristenj@msu.edu"
+    }
+  ],
+  "affiliations": [
+    "Michigan State University",
+    "Johns Hopkins University",
+    "University of Illinois Chicago"
+  ],
+  "sections": [
+    "Introduction",
+    "Results Section",
+    "Method Section"
+  ],
+  "main_finding": "Moral self-correction is not an inherent capability of LLMs, as they are neither morally sensitive nor able to effectively incorporate external feedback during the self-correction process.",
+  "types_of_self_correction": [
+    {
+      "name": "Intrinsic self-correction",
+      "description": "Relies solely on prompts that specify the desired objective of outputs"
+    },
+    {
+      "name": "Extrinsic self-correction",
+      "description": "Uses external feedback from humans or stronger LLMs to detect flaws in responses and improve model outputs"
+    }
+  ],
+  "key_components_analyzed": [
+    "Chain-of-Thought (CoT)",
+    "External feedback",
+    "Hidden states"
+  ],
+  "warning": "The paper contains offensive and upsetting language in examples",
+  "evidence_id": "EV012",
+  "year": 2024,
+  "arxiv_id": "2410.20513",
+  "full_text_tool": "arxiv_html2_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

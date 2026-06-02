@@ -1,0 +1,48 @@
+{
+  "title": "Scaling Laws for Reward Model Overoptimization in Direct Alignment Algorithms",
+  "authors": "Not specified in provided text",
+  "publication_venue": "Not specified in provided text",
+  "publication_date": "Not specified in provided text",
+  "abstract": "Not provided in provided text",
+  "keywords": [
+    "Large Language Models",
+    "Reinforcement Learning from Human Feedback",
+    "Direct Alignment Algorithms",
+    "Reward Over-optimization",
+    "Goodhart's Law"
+  ],
+  "methodology": {
+    "approach": "Extensive empirical experimentation",
+    "techniques": [
+      "Direct Alignment Algorithms (DAAs)",
+      "Reinforcement Learning",
+      "KL-divergence budgets"
+    ],
+    "experiments": "Experiments across different model scales and hyperparameters",
+    "unification": "Unifying different recent methods under the DAA framework"
+  },
+  "results": {
+    "main_findings": [
+      "DAAs exhibit reward over-optimization trends similar to traditional RLHF methods",
+      "Performance degradation patterns at different KL-divergence budgets",
+      "Performance within a single epoch is not always consistent for DAAs",
+      "The under-constrained nature of the optimization problem in DAAs explains these phenomena"
+    ]
+  },
+  "introduction": {
+    "context": "Advancements in Large Language Models (LLMs) and their applications",
+    "problem": "Goodhart's Law as a core issue with RLHF, leading to reward over-optimization",
+    "solution": "Direct Alignment Algorithms (DAAs) as a new class of algorithms that bypass traditional RLHF pipeline"
+  },
+  "evidence_id": "EV038",
+  "year": 2024,
+  "arxiv_id": "2406.02900",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7996,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

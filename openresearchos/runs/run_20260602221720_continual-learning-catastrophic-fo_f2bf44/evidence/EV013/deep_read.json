@@ -1,0 +1,39 @@
+{
+  "title": "CREAM: Continual Retrieval on Dynamic Streaming Corpora with Adaptive Soft Memory",
+  "authors": [],
+  "publication": {
+    "conference": "Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.1 (KDD '26)",
+    "date": "August 09–13, 2026",
+    "location": "Jeju Island, Republic of Korea",
+    "doi": "10.1145/3770854.3780281",
+    "isbn": "979-8-4007-2258-5/2026/08",
+    "copyright": "ACM licensed (cc)"
+  },
+  "keywords": [
+    "Continual Retrieval",
+    "Self-supervision",
+    "Information systems",
+    "Novelty in information retrieval"
+  ],
+  "resource_availability": {
+    "source_code": "10.6084/m9.figshare.30957539"
+  },
+  "sections": [
+    "Introduction",
+    "Background",
+    "Existing Efforts",
+    "Results"
+  ],
+  "focus": "Addressing challenges in information retrieval in online environments, particularly real-time retrieval-augmented generation and agentic context engineering, with a focus on domain shifts and avoiding catastrophic forgetting through memory-based continual learning approaches.",
+  "evidence_id": "EV013",
+  "year": 2026,
+  "arxiv_id": "2601.02708",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

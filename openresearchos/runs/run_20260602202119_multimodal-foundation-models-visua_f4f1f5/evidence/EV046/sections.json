@@ -1,0 +1,6 @@
+{
+  "introduction": "[2204.03647] Adapting CLIP For Phrase Localization Without Further Training\n\nAdapting CLIP For Phrase Localization Without Further Training\n\nJiahao Li\n\nGreg Shakhnarovich\n\nRaymond A. Yeh\n Toyota Techn",
+  "method": "ounding boxes). The annotation process to collect such a training set is expensive, labor intensive, and error-prone, especially, when a large dataset is necessary to effectively train these deep mode",
+  "results": "lt, we can compute per-pixel similarity scores with a given text query to obtain a heatmap. Localizing the described object in the text query becomes a score maximization problem,  i.e .  , finding a ",
+  "conclusion": "ing query text,  e.g .  , ranking these proposals based on embedding similarity to the text query. (b) In contrast, one-stage methods  [ 27 ,  28 ]  build an end-to-end pipeline without an intermediat"
+}

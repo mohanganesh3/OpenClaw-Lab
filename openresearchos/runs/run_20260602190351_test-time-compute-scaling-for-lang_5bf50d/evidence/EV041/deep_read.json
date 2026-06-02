@@ -1,0 +1,41 @@
+{
+  "title": "MaxTDA: Robust Statistical Inference for Maximal Persistence in Topological Data Analysis",
+  "keywords": [
+    "Kernel Density Estimation",
+    "Level-Set Estimation",
+    "Persistent Homology",
+    "Robust Inference"
+  ],
+  "introduction": {
+    "main_concept": "Topological Data Analysis (TDA)",
+    "central_tool": "Persistent Homology",
+    "method": "Analyzes data through a filtration (sequence of nested topological spaces) derived from the data, and computes homological invariants across different scales",
+    "representation": "Features are represented in persistence diagrams as points with coordinates corresponding to their birth and death times",
+    "applications": [
+      "Material science: reveals significant voids that inform properties like permeability and strength",
+      "Signal processing: uncovers persistent circular features from time-delay embeddings that highlight underlying periodic dynamics",
+      "Astronomy: distinguishes important cosmic structures such as clusters, filaments, and voids from noise"
+    ]
+  },
+  "method": {
+    "status": "Section header present but content not provided in the extracted text"
+  },
+  "results": {
+    "main_challenge": "Identifying statistically significant features, particularly the most persistent, or maximal persistent ones is challenging because persistence diagrams lack a canonical vector space structure",
+    "problem_with_existing_methods": "Methods such as kernel smoothing, developed within robust topological analysis, are employed to mitigate noise but also often reduce the lifetimes (i.e., persistences) of the maximal persistent features. The systematic underestimation of the lifetimes of these features is an artifact of the smoothing mechanisms typically employed in these robust methods.",
+    "objective": "To enable statistical inference for maximal persistent features by addressing these limitations",
+    "statistical_framework": "The paper defines a probability distribution ℙ on a space 𝒳 ⊂ ℝ^d with compact support, and aims to recover the topology of 𝕏 by defining a smoothing function ϕ: 𝒳 → ℝ. This function, commonly a kernel density estimate (KDE), kernel distance, or distance-to-a-measure (DTM) function, is parameterized to suppress noise or reweight outliers.",
+    "validation": "Numerical simulations across varied datasets, including an example from exoplanet astronomy, highlight the effectiveness of MaxTDA in recovering true topological signals."
+  },
+  "evidence_id": "EV041",
+  "year": 2025,
+  "arxiv_id": "2504.03897",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

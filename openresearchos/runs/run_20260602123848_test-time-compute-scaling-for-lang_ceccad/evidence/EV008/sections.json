@@ -1,0 +1,6 @@
+{
+  "introduction": "[2603.26846] Stable Reasoning, Unstable Responses: Mitigating LLM Deception via Stability Asymmetry\n\nStable Reasoning, Unstable Responses:\n\nMitigating LLM Deception via Stability Asymmetry\n\nGuoxi Zhan",
+  "method": "rading general model capability.\n\nStable Reasoning, Unstable Responses:\n\nMitigating LLM Deception via Stability Asymmetry\n\nGuoxi Zhang 1,2\n\n†\n\n†  thanks:  This work was completed during an internship ",
+  "results": "and undermining the reliability of semantic supervision  Baker  et al.  ( 2025 ); Korbak  et al.  ( 2025 ) .\nThis critical vulnerability motivates our core research question:\n\nCan intrinsic deception ",
+  "conclusion": "ing their deceptive intent within the CoT.\n\nOur contributions are summarized as follows:\n\n•\n\nGrounded in cognitive psychology, we formalize stability asymmetry as a distinctive structural signature of"
+}

@@ -1,0 +1,6 @@
+{
+  "introduction": "[2511.12207] Mixture of States: Routing Token-Level Dynamics for Multimodal Generation\n\n1]KAUST\n2]Meta AI\n \\contribution [†]Joint First Authors\n \\contribution [∗]Core Contributors\n\nMixture of States: ",
+  "method": "of modern AI, enabling models to synthesize high-quality visual content such as images and videos from conditional inputs  (Rombach et al.,  2022 ; Gao et al.,  2025 ; Baldridge et al.,  2024 ; Polyak",
+  "results": "tional fusion than cross-attention and often yield stronger performance, its computational cost is often prohibitive, scaling quadratically with the combined sequence length; iii)  MoT (Mixture-of-Tra",
+  "conclusion": "ayers, rather than using a single, shared layer embedding to represent all tokens uniformly. This supports a  more granular, token-level view  of context conditioning.\n\n(a)\n\nCross-Attention\n\n(b)\n\nSelf"
+}

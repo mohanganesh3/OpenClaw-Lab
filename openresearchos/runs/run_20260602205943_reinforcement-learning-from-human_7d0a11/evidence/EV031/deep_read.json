@@ -1,0 +1,30 @@
+{
+  "method_summary": "AlignDiff is a framework that uses RL from Human Feedback (RLHF) to quantify human preferences and guide diffusion planning for zero-shot behavior customization, covering both abstractness and mutability.",
+  "key_innovation": "AlignDiff framework that leverages RLHF to quantify human preferences and utilizes them to guide diffusion planning for zero-shot behavior customization",
+  "datasets_used": [
+    "multi-perspective human feedback datasets"
+  ],
+  "baselines_compared": [
+    "other baselines"
+  ],
+  "key_results": {},
+  "best_result": "",
+  "limitations_stated": [],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "",
+  "compute_required": "",
+  "can_run_on_macbook": false,
+  "evidence_id": "EV031",
+  "title": "AlignDiff: Aligning Diverse Human Preferences via Behavior-Customisable Diffusion Model",
+  "year": 2023,
+  "arxiv_id": "2310.02054",
+  "full_text_tool": "arxiv_abstract_openclaw",
+  "full_text_chars": 5491,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

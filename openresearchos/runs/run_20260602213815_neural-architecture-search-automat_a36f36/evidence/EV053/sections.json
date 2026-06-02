@@ -1,0 +1,6 @@
+{
+  "introduction": "[2011.14632] Optimizing the Neural Architecture of Reinforcement Learning Agents\n\n\\tocauthor\n\nNina Mazyavkina, Samir Moustafa, Ilya Trofimov, Evgeny Burnaev\n\n1\n\n1  institutetext:  Skolkovo Institute o",
+  "method": "focuses on automating the ways to find the optimal architecture for the specific tasks.\n\nAnother family of methods that has been gaining popularity is reinforcement learning (RL) and deep reinforcemen",
+  "results": "g time of a single neural network.\nMost of the NAS methods were developed for computer vision applications, the major part – for the object classification problem.\nAt the same time, reinforcement lear",
+  "conclusion": "ultaneously with the training of networks themselves.\nThe one-shot methods are: ENAS  [ 28 ] , numerous modifications of DARTS  [ 23 ,  40 ,  7 ,  21 ,  10 ,  6 ] , single path one-shot  [ 15 ] , rand"
+}

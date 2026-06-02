@@ -1,0 +1,6 @@
+{
+  "introduction": "[2511.17952] Multi-speaker Attention Alignment for Multimodal Social Interaction\n\nMulti-speaker Attention Alignment for Multimodal Social Interaction\n\nLiangyang Ouyang  Yifei Huang  Mingfang Zhang\n\nCa",
+  "method": "available at  https://github.com/ut-vision/SocialInteraction .\n\n1  Introduction\n\nUnderstanding social interaction requires modeling multi-party human behaviors through both verbal and non-verbal cues,",
+  "results": "iency. We find that the cross-modal alignment in multi-person videos is significantly weaker and less focused compared to the alignment observed in general object-centric datasets like COCO  [ lin2014",
+  "conclusion": "art performance on three task settings and remains highly competitive on the remaining one.\nAttention visualizations further confirm that our approach successfully guides the model to focus on speaker"
+}

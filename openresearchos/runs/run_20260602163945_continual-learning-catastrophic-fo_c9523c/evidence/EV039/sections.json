@@ -1,0 +1,6 @@
+{
+  "introduction": "[2410.07812] Temporal-Difference Variational Continual Learning\n\nTemporal-Difference\n\nVariational Continual Learning\n\nLuckeciano C. Melo  1,2\n\nAlessandro Abate  2\n\nYarin Gal  1\n\n1 OATML, University of",
+  "method": "standard VCL and non-variational approaches.\n\nA fundamental aspect of robust Machine Learning (ML) models is to learn from non-stationary sequential data. In this scenario, two main properties are nec",
+  "results": "t update and compounds after successive recursions. If a particular estimation is especially poor, the error will be carried over to the next step entirely, which can dramatically degrade model‘s perf",
+  "conclusion": "{Q}\n\nthat approximates the true posterior\n\np  ​\n\n(\n\n𝜽  ∣\n\n𝒟\n\n1  :  t\n\n)\n\n𝑝\n\nconditional  𝜽\n\nsubscript  𝒟\n\n:  1  𝑡\n\np(\\bm{\\theta}\\mid\\mathcal{D}_{1:t})\n\nvia minimizing the KL divergence\n\n𝒟\n\nK  ​"
+}

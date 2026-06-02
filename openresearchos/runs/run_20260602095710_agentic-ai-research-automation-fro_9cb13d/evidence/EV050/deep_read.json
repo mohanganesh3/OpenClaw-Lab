@@ -1,0 +1,36 @@
+{
+  "method_summary": "Introduces Moment-Video, a benchmark with 1,000 human-verified video-QA pairs across 7 domains and 25 subcategories, covering four task types: Temporal Occurrence, Temporal Counting, Action Description, and Temporal Reasoning.",
+  "key_innovation": "Moment-Video benchmark specifically designed to diagnose temporal fidelity of video MLLMs through momentary visual event understanding, focusing on transient visual evidence rather than persistent objects or global context.",
+  "datasets_used": [
+    "Moment-Video"
+  ],
+  "baselines_compared": [
+    "33 proprietary and open-source MLLMs"
+  ],
+  "key_results": {
+    "overall_accuracy": 39.6
+  },
+  "best_result": "Seed-2.0-Pro achieves 39.6% overall accuracy",
+  "limitations_stated": [
+    "Denser frame sampling improves some models but does not eliminate the bottleneck",
+    "Longer videos introduce stronger temporal-localization challenges",
+    "Current video MLLMs lack temporally faithful representations for capturing, preserving, and using brief but decisive visual evidence"
+  ],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "medium",
+  "compute_required": "unspecified",
+  "can_run_on_macbook": false,
+  "evidence_id": "EV050",
+  "title": "Moment-Video: Diagnosing Temporal Fidelity of Video MLLMs on Momentary Visual Events",
+  "year": 2026,
+  "arxiv_id": "2606.02522",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 5960,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

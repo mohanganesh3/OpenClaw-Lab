@@ -1,0 +1,6 @@
+{
+  "introduction": "[2410.05160] VLM2Vec: Training Vision-Language Models for Massive Multimodal Embedding Tasks\n\nVLM2Vec: Training Vision-Language Models for Massive Multimodal Embedding Tasks\n\nZiyan Jiang  1\n\n, Rui Men",
+  "method": "and out-of-distribution datasets in MMEB.\n\nhttps://tiger-ai-lab.github.io/VLM2Vec/\n\n1  Introduction\n\nFigure 1:  We develop a universal multimodal embedding benchmark, MMEB, along with  Vlm2Vec , an em",
+  "results": "trated promising results on the MTEB benchmark. However, progress in multimodal embeddings has been relatively slower. Despite advancements in text embeddings, the lack of both benchmarks and methodol",
+  "conclusion": "e-trained vision-language model Phi-3.5-V  (Abdin et al.,  2024 )  as the backbone for  Vlm2Vec . In contrast to other multimodal embedding models like UniIR  (Wei et al.,  2023 )  and MagicLens  (Zha"
+}

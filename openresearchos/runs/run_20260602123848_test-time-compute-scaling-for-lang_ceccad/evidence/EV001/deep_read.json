@@ -1,0 +1,80 @@
+{
+  "title": "Dialogue Ontology Relation Extraction via Constrained Chain-of-Thought Decoding",
+  "authors": [
+    "renato.vukovic",
+    "david.arps",
+    "niekerk",
+    "ruppik",
+    "linh",
+    "heckmi",
+    "gasic"
+  ],
+  "affiliation": "Heine University Düsseldorf",
+  "paper_type": "Research Paper",
+  "main_topic": "Task-Oriented Dialogue (TOD) Systems",
+  "key_concepts": [
+    "Task-oriented dialogue (TOD) systems",
+    "Dialogue ontology with three levels: domains, slots, and values",
+    "Dialogue ontology relation extraction (DORE)",
+    "Constrained Chain-of-Thought (CoT) decoding",
+    "Large Language Models (LLMs)",
+    "Transfer learning"
+  ],
+  "problem_addressed": [
+    "State-of-the-art TOD systems rely on fixed ontologies",
+    "Difficulty in transferring TOD systems to new domains",
+    "Manual ontology labeling is error-prone and expensive",
+    "Need to leverage existing labeled datasets for new domains"
+  ],
+  "proposed_solution": [
+    "Using constrained CoT-decoding for dialogue ontology extraction",
+    "Relation extraction approach for hierarchy establishment",
+    "Using instruction-tuned LLMs with one-shot and few-shot learning"
+  ],
+  "methodology": [
+    "Dialogue term extraction followed by hierarchy establishment",
+    "Relation extraction (RE) for hierarchy establishment",
+    "Constrained decoding where prediction is limited to input terms"
+  ],
+  "datasets_mentioned": [
+    "MultiWOZ 2.1",
+    "Customer service recordings (unlabeled)"
+  ],
+  "related_work": [
+    "Nguyen et al. (2023)",
+    "Hudeček and Dusek (2023)",
+    "Heck et al. (2022)",
+    "Brusco and Gravano (2023)",
+    "Eric et al. (2020)",
+    "Rosenbaum et al. (2022)",
+    "Gung et al. (2023)",
+    "Vukovic et al. (2022)",
+    "Hudeček et al. (2021)",
+    "Yu et al. (2022)",
+    "Genest et al. (2022)",
+    "Xu et al. (2023)",
+    "Brown et al. (2020)",
+    "Ouyang et al. (2022)",
+    "Heck et al. (2023)"
+  ],
+  "key_figure": {
+    "reference": "Figure 1",
+    "description": "Example of constrained CoT-decoding for dialogue ontology extraction from MultiWOZ 2.1",
+    "elements": {
+      "domains": "Highlighted in green",
+      "slots": "Highlighted in yellow",
+      "values": "Highlighted in red"
+    }
+  },
+  "evidence_id": "EV001",
+  "year": 2024,
+  "arxiv_id": "2408.02361",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

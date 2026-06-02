@@ -1,0 +1,26 @@
+{
+  "METHOD SECTION": {
+    "problem_domain": "Numerical integration of large-scale stiff systems of ODEs, which arise from the spatial discretization of PDEs using the method of lines.",
+    "standard_approach": "Implicit methods are preferred for stiff systems. A common implementation is the Jacobian-Free Newton-Krylov algorithm, which uses a Newton iteration and a Krylov subspace solver for the linear systems.",
+    "limitation_of_standard_approach": "The main challenge with implicit methods is constructing an effective preconditioner for the Krylov solver, which is often difficult and a subject of research.",
+    "proposed_alternative": "Exponential integrators are presented as an efficient alternative. They have good stability properties allowing for large timesteps and can offer computational savings per timestep compared to implicit integrators, especially when a fast preconditioner is not available.",
+    "core_computational_task": "The dominant cost of exponential integrators is the computation of exponential-like φ-functions applied to a vector.",
+    "standard_technique_for_task": "Krylov subspace methods are used to efficiently compute these matrix functions by projecting the matrix onto a low-dimensional subspace.",
+    "specific_algorithm_and_its_limitation": "For non-symmetric matrices, the Arnoldi iteration is the standard Krylov method. However, its parallel scalability is poor due to the global communication required for inner products in the Gram-Schmidt orthogonalization process, which becomes a bottleneck."
+  },
+  "RESULTS SECTION": {
+    "status": "The provided text for the RESULTS SECTION is truncated. No specific results, performance metrics, or comparative analyses could be extracted from the given content."
+  },
+  "evidence_id": "EV003",
+  "title": "Low-synchronization Arnoldi Methods for the Matrix Exponential with Application to Exponential Integrators",
+  "year": 2024,
+  "arxiv_id": "2410.14917",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7996,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

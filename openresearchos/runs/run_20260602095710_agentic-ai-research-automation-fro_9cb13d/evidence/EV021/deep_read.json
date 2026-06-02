@@ -1,0 +1,28 @@
+{
+  "method_summary": "Proposes agentic architectures that reconcile traditional autonomous agent concepts with modern generative models, focusing on reliability through componentisation, interfaces, and supervision.",
+  "key_innovation": "Reconciliation of traditional autonomous agent architectures with modern generative models while maintaining reliability.",
+  "datasets_used": [],
+  "baselines_compared": [
+    "Traditional autonomous agents (reactive, deliberative, BDI architectures)"
+  ],
+  "key_results": {},
+  "best_result": "",
+  "limitations_stated": [],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "",
+  "compute_required": "",
+  "can_run_on_macbook": false,
+  "evidence_id": "EV021",
+  "title": "Architectures for Building Agentic AI",
+  "year": 2025,
+  "arxiv_id": "2512.09458",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

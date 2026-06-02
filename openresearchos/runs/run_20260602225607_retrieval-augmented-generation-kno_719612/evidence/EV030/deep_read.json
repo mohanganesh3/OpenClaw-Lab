@@ -1,0 +1,66 @@
+{
+  "title": "From Evaluation to Enhancement: Large Language Models for Zero-Knowledge Proof Code Generation",
+  "keywords": [
+    "Zero-Knowledge Proofs",
+    "Large Language Models",
+    "Code Generation"
+  ],
+  "publication_info": {
+    "copyright": "acmlicensed",
+    "journal_year": 2025,
+    "publication_month": 9,
+    "doi": "XXXXXXX.XXXXXXX",
+    "journal_volume": "X",
+    "journal_number": "X",
+    "article": "X"
+  },
+  "ccs_categories": [
+    "Software and its engineering → Automatic programming",
+    "Security and privacy → Cryptography",
+    "Software and its engineering → Domain specific languages",
+    "Computing methodologies → Natural language processing"
+  ],
+  "key_findings": {
+    "frameworks": [
+      "ZK-Eval",
+      "ZK-Coder"
+    ],
+    "improvements": {
+      "circom": {
+        "before": 17.35,
+        "after": 83.38
+      },
+      "noir": {
+        "before": 32.21,
+        "after": 90.05
+      }
+    }
+  },
+  "introduction": {
+    "topic": "Zero-knowledge proofs (ZKPs)",
+    "definition": "Cryptographic primitives that allow one party to prove knowledge of a statement without revealing the underlying witness",
+    "applications": [
+      "Privacy-preserving authentication",
+      "Blockchain scalability",
+      "Finance and security domains"
+    ]
+  },
+  "results": {
+    "challenges": [
+      "ZK programming requires reasoning about finite field arithmetic, constraint systems, and gadgets",
+      "ZK programs describe how to prove correctness rather than how to execute computations",
+      "ZK programming is more time-consuming and requires more expertise than mainstream software development"
+    ]
+  },
+  "evidence_id": "EV030",
+  "year": 2025,
+  "arxiv_id": "2509.11708",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

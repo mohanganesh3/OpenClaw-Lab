@@ -1,0 +1,41 @@
+{
+  "title": "On the Security Risks of AutoML",
+  "focus": "Security implications and vulnerabilities in Neural Architecture Search (NAS)",
+  "research_questions": [
+    "Does NAS introduce new weaknesses, compared with the conventional ML practice?",
+    "If so, what are the possible root causes of such vulnerability?",
+    "How would ML practitioners mitigate such drawbacks in designing and operating NAS?"
+  ],
+  "key_findings": [
+    "NAS-generated models tend to suffer greater vulnerability to various malicious manipulations including adversarial evasion, model poisoning, backdoor injection, functionality stealing, and label-only membership inference",
+    "NAS tends to prematurely evaluate models before convergence, favoring models that converge fast, resulting in architectural properties that facilitate attacks",
+    "Potential remedies include post-NAS mitigation (e.g., adversarial training) and in-NAS strategies (e.g., increasing cell depth)"
+  ],
+  "methodology": "Extensive empirical study of 10 representative NAS methods, with both empirical and analytical evidence",
+  "key_concepts": [
+    "Automated Machine Learning (AutoML)",
+    "Neural Architecture Search (NAS)",
+    "Cell-based neural architecture search",
+    "Adversarial evasion",
+    "Model poisoning",
+    "Backdoor injection",
+    "Functionality stealing",
+    "Label-only membership inference"
+  ],
+  "application_domains": [
+    "Cybersecurity",
+    "Finance",
+    "Healthcare"
+  ],
+  "evidence_id": "EV012",
+  "year": 2021,
+  "arxiv_id": "2110.06018",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

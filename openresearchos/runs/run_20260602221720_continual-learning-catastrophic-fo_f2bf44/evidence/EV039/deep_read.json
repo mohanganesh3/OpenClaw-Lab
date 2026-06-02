@@ -1,0 +1,45 @@
+{
+  "paper_title": "Improving Stability of Fine-Tuning Pretrained Language Models via Component-Wise Gradient Norm Clipping",
+  "method_section": {
+    "problem_statement": {
+      "main_issue": "Pretrained Language Models (PLMs) may lose their rich domain-agnostic knowledge during fine-tuning",
+      "related_problem": "Catastrophic forgetting problem in top layers",
+      "cause": "Different components (feed-forward networks at different layers, fully connected matrices and biases at output layer) converge at varying speeds"
+    },
+    "previous_approach": {
+      "method": "Gradual Unfreezing (GU) method",
+      "description": "Fine-tuning from top to bottom layer by layer, unfreezing new layers only when layers above have been fine-tuned",
+      "reference": "Howard and Ruder (2018)"
+    },
+    "limitations": {
+      "observation": "Components in upper layers that have converged to local optima cannot easily be fine-tuned with newly unfrozen parameters",
+      "evidence": "Parameter updates for some layers become too small to be effective"
+    },
+    "proposed_solution": {
+      "method": "Component-wise gradient clipping method",
+      "basis": "Component-wise convergence speed divergences is the key challenge in fine-tuning stability"
+    },
+    "experimental_setup": {
+      "model": "BERT-large-uncased model",
+      "reference": "Devlin et al. (2019)",
+      "training_per_iteration": "3 epochs",
+      "runs_for_error_bars": "5 different runs"
+    },
+    "evaluation_metrics": {
+      "parameter_updates": "Component-wise maximum rooted mean squared difference for each layer",
+      "stability_measures": "Variance and failed run percentage"
+    }
+  },
+  "evidence_id": "EV039",
+  "title": "Improving Stability of Fine-Tuning Pretrained Language Models via Component-Wise Gradient Norm Clipping",
+  "year": 2022,
+  "arxiv_id": "2210.10325",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

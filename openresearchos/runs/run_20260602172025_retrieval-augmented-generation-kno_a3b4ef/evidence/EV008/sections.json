@@ -1,0 +1,6 @@
+{
+  "introduction": "[2604.13721] FRAGATA: Semantic Retrieval of HPC Support Tickets via Hybrid RAG over 20 Years of Request Tracker History\n\nFRAGATA: Semantic Retrieval of HPC Support Tickets via Hybrid RAG over 20 Years",
+  "method": "astructure, resolving incidents ranging from MPI compilation errors to storage quotas, Conda environment configuration, or network failures on GPU nodes. The Galicia Supercomputing Center (CESGA) has ",
+  "results": ". The system also integrates complementary sources (the centre’s technical documentation, scientific application manuals, and repositories) and is deployed on a hybrid architecture comprising a virtua",
+  "conclusion": "become the practical state of the art. These systems benefit especially from a subsequent  reranking  stage, in which a  cross-encoder\n\n[ nogueira2019passage ]  jointly evaluates the query and each ca"
+}

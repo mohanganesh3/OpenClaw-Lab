@@ -1,0 +1,6 @@
+{
+  "introduction": "[2105.06232] Retrieval-Free Knowledge-Grounded Dialogue Response Generation with Adapters\n\nRetrieval-Free Knowledge-Grounded Dialogue Response Generation with Adapters\n\nYan Xu, Etsuko Ishii ∗ , Samuel",
+  "method": "edge, resulting in superficial and un-intelligent responses when they dive into a specific topic  Li et al. ( 2020 ) . To overcome this limitation, many research works have focused on developing knowl",
+  "results": "language generation process. Efficiency plays an essential role in the practical use of dialogue systems, and it is necessary to limit resource requirements so as to generate responses faster and supp",
+  "conclusion": "with the parameters of pre-trained LMs and incorporate the acquired knowledge for KGD generation. In the model, lightweight adapters  Bapna and Firat ( 2019 )  are inserted into the pre-trained GPT-2 "
+}

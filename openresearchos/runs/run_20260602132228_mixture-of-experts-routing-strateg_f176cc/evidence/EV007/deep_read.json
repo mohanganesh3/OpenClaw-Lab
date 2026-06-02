@@ -1,0 +1,48 @@
+{
+  "paper_title": "EC2MoE: Adaptive End-Cloud Pipeline Collaboration Enabling Scalable Mixture-of-Experts Inference",
+  "method_section": {
+    "problem_statement": "Efficiently deploying Mixture-of-Experts (MoE) models in real environments is challenging due to their dynamic expert activation, which complicates resource scheduling, model placement, and communication. Relying solely on end devices is computationally intensive, while cloud-only execution introduces latency, is sensitive to network fluctuations, and underutilizes local resources.",
+    "core_technology": {
+      "name": "Mixture-of-Experts (MoE) architecture",
+      "description": "Enables substantial increases in parameter count without a proportional increase in computational cost by selectively activating a sparse subset of expert networks during inference."
+    },
+    "key_challenges": [
+      "Resource-constrained end devices struggle to support the intensive computational demands of high-capacity MoE models.",
+      "Cloud-only execution introduces latency overhead and is sensitive to network fluctuations.",
+      "The variability in expert activation patterns complicates system-level resource scheduling, model placement, and expert communication."
+    ]
+  },
+  "results_section": {
+    "proposed_solution": "EC2MoE, an adaptive framework that enables scalable and efficient MoE inference through end-cloud pipeline collaboration in heterogeneous distributed environments.",
+    "core_features": [
+      "Hardware-aware expert selection.",
+      "Coordinated execution across end and cloud.",
+      "Joint optimization of expert routing and inference scheduling."
+    ],
+    "claimed_benefits": "Achieves high throughput, low latency, and robust scalability under dynamic workloads."
+  },
+  "key_contributions": [
+    {
+      "contribution": "Hardware-aware lightweight group gate network",
+      "description": "Proposes a local expert selection mechanism based on device hardware characteristics and a lightweight group gate network module to adapt MoE expert selection to heterogeneous end-cloud environments.",
+      "benefit": "Significantly reduces inference latency and routing overhead while maintaining expert selection quality."
+    },
+    {
+      "contribution": "Collaborative end-cloud pipeline optimization mechanism",
+      "description": "Develops a mechanism that integrates a low-rank compression-based encoder-decoder and a route-aware heuristic pipeline scheduler for scalable MoE inference.",
+      "benefit": "Dynamically maps inference sub-tasks across end and cloud to reduce transmission costs and manage workloads efficiently."
+    }
+  ],
+  "evidence_id": "EV007",
+  "title": "EC2MoE: Adaptive End-Cloud Pipeline Collaboration Enabling Scalable Mixture-of-Experts Inference",
+  "year": 2025,
+  "arxiv_id": "2508.06024",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

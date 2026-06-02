@@ -1,0 +1,6 @@
+{
+  "introduction": "[2407.00087] ARES: Alternating Reinforcement Learning and Supervised Fine-Tuning for Enhanced Multi-Modal Chain-of-Thought Reasoning Through Diverse AI Feedback\n\nARES: Alternating Reinforcement Learni",
+  "method": "roved rationale reasoning leads to a 2.5% increase in inference answer accuracy on average for the multi-modal datasets.\n\n1\n\n1  1 Code:  https://github.com/Amyyyyeah/ARES\n\nARES: Alternating Reinforcem",
+  "results": "viate this issue,  Lightman et al. ( 2023 ); Luo et al. ( 2024 )  propose sentence-level feedback, applying it solely to the reward model without Reinforcement Learning (RL), called the Process-superv",
+  "conclusion": ".0\n\n1.0\n\n. Each score indicates how much a sentence contributes to solving the problem. This provides detailed reward feedback to the training model and can be applied to both mathematical and more ge"
+}

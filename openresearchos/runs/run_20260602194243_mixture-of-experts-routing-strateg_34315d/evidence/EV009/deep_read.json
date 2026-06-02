@@ -1,0 +1,56 @@
+{
+  "paper_title": "VersaVogue: Visual Expert Orchestration and Preference Alignment for Unified Fashion Synthesis",
+  "methodology": {
+    "approach": "Multi-Preference Optimization (MPO) pipeline",
+    "key_components": [
+      "Evaluators for content fidelity",
+      "Textual alignment evaluators",
+      "Perceptual quality evaluators"
+    ],
+    "optimization": "Direct Preference Optimization (DPO)",
+    "data_construction": "Preference data without human annotation or task-specific reward models"
+  },
+  "tasks_addressed": [
+    "Garment generation",
+    "Virtual dressing"
+  ],
+  "key_innovation": "Unified framework that bridges garment generation and virtual dressing as a multi-condition controllable generation problem",
+  "keywords": [
+    "Fashion image synthesis",
+    "Virtual dressing",
+    "Garment generation",
+    "Multi-conditional generation"
+  ],
+  "figure_1_description": "Differences in workflows between virtual try-on methods and VersaVogue. Try-on methods are restricted to showcase stage and rely on explicit model images, while VersaVogue establishes unified workflow from garment design to virtual dressing, synthesizing on-body results directly from text descriptions",
+  "related_work": {
+    "garment_generation": [
+      "DiffCloth"
+    ],
+    "virtual_dressing": [
+      "IMAGDressing",
+      "StableGarment",
+      "IMAGGarment"
+    ],
+    "conditioning_strategies": [
+      "lightweight adapters",
+      "static layer-wise injection",
+      "direct feature concatenation"
+    ]
+  },
+  "results": {
+    "performance": "Consistently outperforms existing methods in visual fidelity, semantic consistency, and fine-grained controllability",
+    "evaluation": "Extensive experiments on both garment generation and virtual dressing benchmarks"
+  },
+  "evidence_id": "EV009",
+  "title": "VersaVogue: Visual Expert Orchestration and Preference Alignment for Unified Fashion Synthesis",
+  "year": 2026,
+  "arxiv_id": "2604.07210",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

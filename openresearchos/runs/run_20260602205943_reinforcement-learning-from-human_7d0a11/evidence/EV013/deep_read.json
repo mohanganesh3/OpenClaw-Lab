@@ -1,0 +1,47 @@
+{
+  "title": "RLAnything: Forge Environment, Policy, and Reward Model in Completely Dynamic RL System",
+  "framework": {
+    "name": "RLAnything",
+    "type": "Dynamic Reinforcement Learning Framework",
+    "components": [
+      "Environment",
+      "Policy",
+      "Reward Model"
+    ],
+    "architecture": "Closed-loop system with continuous feedback between components"
+  },
+  "methodology": {
+    "approach": "Reinforcement Learning with Verifiable Rewards (RLVR)",
+    "key_features": [
+      "Integration of verifiable outcome rewards with step-wise signals",
+      "Joint optimization of reward model via consistency feedback",
+      "Automatic adaptation of environment tasks based on critic feedback"
+    ],
+    "feedback_mechanisms": {
+      "policy_feedback": "Receives integrated feedback from outcome rewards and step-wise signals",
+      "reward_model_feedback": "Optimized via outcome and self-consistency feedback",
+      "environment_feedback": "Adapted using critic feedback from policy and reward model"
+    }
+  },
+  "contributions": [
+    "Dynamic RL framework that forges environment, policy, and reward model",
+    "Amplifies learning signals across complex LLM or agentic scenarios",
+    "Improves training dynamics by aligning task difficulty with model capabilities"
+  ],
+  "insights": [
+    "Step-wise signals from reward models outperform scalar-based models",
+    "Adapting task difficulty improves both policy and reward model training",
+    "Environment tasks leverage critic feedback for automatic, targeted adaptation"
+  ],
+  "evidence_id": "EV013",
+  "year": 2026,
+  "arxiv_id": "2602.02488",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

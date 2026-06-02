@@ -1,0 +1,11 @@
+# EV017: LLaVA³: Representing 3D Scenes Like a Cubist Painter to Boost 3D Scene Understanding of VLMs
+
+URL: https://www.semanticscholar.org/paper/302489d67096700b616cdc4cad54bfe7ac82816b
+Year: 2026
+Source: semantic_scholar
+Arxiv: n/a
+
+## Abstract
+
+Developing a multi-modal language model capable of understanding 3D scenes remains challenging due to the limited availability of 3D training data, in contrast to the abundance of 2D datasets used for vision-language models (VLMs). As an alternative, we introduce LLaVA³ (pronounced LLaVA Cube), a novel method that improves the 3D scene understanding capabilities of VLMs using only multi-view 2D images, and without requiring any fine-tuning. Inspired by Cubist painters, who represented multiple viewpoints of a 3D object within a single 2D picture, we propose to describe the 3D scene for the VLM through omnidirectional visual representations of each object.
+These representations are derived from an intermediate multi-view 3D reconstruction of the scene. Extensive experiments on 3D visual question answering and 3D language grounding show that our approach significantly outperforms previous 2D-based VLM solutions.

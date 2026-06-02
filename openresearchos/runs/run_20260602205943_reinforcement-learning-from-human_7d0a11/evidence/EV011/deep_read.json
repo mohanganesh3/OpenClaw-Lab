@@ -1,0 +1,156 @@
+{
+  "title": "Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback",
+  "key_concepts": [
+    "Helpful and Harmless Assistant",
+    "Human Alignment",
+    "AI Safety",
+    "Honesty",
+    "Bias"
+  ],
+  "methods": [
+    "Reinforcement Learning from Human Feedback (RLHF)",
+    "Preference Modeling (PM)",
+    "Supervised Training (ST)",
+    "Context Distillation",
+    "Iterated Online RLHF",
+    "Out-of-Distribution (OOD) Detection",
+    "Red Teaming"
+  ],
+  "datasets": [
+    "Red Teaming Datasets",
+    "PALMS Prompts",
+    "LaMDA Prompts",
+    "InstructGPT Prompts",
+    "Stack Overflow Data",
+    "Crowdsourced Preference Data"
+  ],
+  "models": [
+    "Context-distilled models",
+    "RLHF models (Helpfulness and Harmlessness)",
+    "RLHF models (Helpfulness only)",
+    "Code-Finetuned Models",
+    "LaMDA",
+    "InstructGPT"
+  ],
+  "evaluation_metrics": [
+    "Elo Scores",
+    "Crowdworker Preference Frequency",
+    "Alignment Bonus",
+    "Honesty",
+    "Bias Evaluation (e.g., Gender Bias)",
+    "Robustness"
+  ],
+  "structure": {
+    "3": {
+      "title": "Preference Modeling for Helpfulness and Harmlessness",
+      "subsections": {
+        "3.1": "Models and Training Setup",
+        "3.2": "Basic Scaling Results",
+        "3.3": "Calibration of Preference Models and Implications for RL",
+        "3.4": "Evaluating Helpful and Harmless Preference Models"
+      }
+    },
+    "4": {
+      "title": "Reinforcement Learning from Human Feedback",
+      "subsections": {
+        "4.1": "Training Setup",
+        "4.2": "Robustness Experiments",
+        "4.3": "An Approximately Linear Relation Between D_KL and Reward",
+        "4.4": "Tension Between Helpfulness and Harmlessness in RLHF Training",
+        "4.5": "Iterated Online RLHF",
+        "4.6": "Evaluations: Alignment Bonus, Honesty, and Biases"
+      }
+    },
+    "5": {
+      "title": "Competing Objectives, Specialized Skills, and OOD Detection",
+      "subsections": {
+        "5.1": "Mixing Helpful and Harmless Objectives",
+        "5.2": "Summarization as a Specialized Skill",
+        "5.3": "Natural Language RLHF on Code-Finetuned Models",
+        "5.4": "Applying Out-of-Distribution Detection to Reject Strange or Harmful Requests"
+      }
+    },
+    "6": {
+      "title": "Qualitative Examples and Comparisons",
+      "subsections": {
+        "6.1": "Comparison with Human Writers",
+        "6.2": "Sensitive Questions and Avoidance versus Engagement",
+        "6.3": "Example Dialogues"
+      }
+    },
+    "7": {
+      "title": "Discussion",
+      "subsections": {
+        "7.1": "Limitations",
+        "7.2": "Alignment Data as a Public Good",
+        "7.3": "Broader Impacts"
+      }
+    },
+    "2.3": "Red Teaming Datasets",
+    "2.4": "Comparing Models with Elo Scores",
+    "A": {
+      "title": "Details, Analysis, and Evaluations of Supervised Training",
+      "subsections": {
+        "A.1": "Context Distillation",
+        "A.2": "Preference Modeling",
+        "A.3": "Scaling of PM with Model and Dataset Size"
+      }
+    },
+    "B": {
+      "title": "Details, Analysis, and Evaluations of RLHF",
+      "subsections": {
+        "B.1": "Training Setup",
+        "B.2": "More on Robustness Studies",
+        "B.3": "Details of ‘Online’ RLHF",
+        "B.4": "Robustness of ‘Online’ RLHF",
+        "B.5": "Crowdworker Comparisons and Elo Scores",
+        "B.6": "Elo Scores for Rejection Sampling Models",
+        "B.7": "Stack Overflow Results",
+        "B.8": "Further Analysis of RLHF on Code-Model Snapshots",
+        "B.9": "Details of Applying Out-of-Distribution Detection to Reject Strange or Harmful Requests",
+        "B.10": "Gender Bias Evaluation Details"
+      }
+    },
+    "C": {
+      "title": "Samples from PALMS, LaMDA, and InstructGPT Prompts",
+      "subsections": {
+        "C.1": "PALMS Sensitive Que... ",
+        "C.2": "InstructGPT Prompts",
+        "C.3": "LaMDA Prompts"
+      }
+    },
+    "D": {
+      "title": "Details on Data Collection and Crowdworkers",
+      "subsections": {
+        "D.1": "Overview",
+        "D.2": "Instructions and Interface",
+        "D.3": "Data Quality Measurement Challenges"
+      }
+    },
+    "E": {
+      "title": "Details on NLP Evaluations Formatting and Prompts"
+    }
+  },
+  "figures": [
+    {
+      "number": 1,
+      "description": "A plot summarizing crowdworker preferences for a variety of models, including context-distilled models, RLHF models trained on a ‘static’ dataset, and RLHF models trained by an iterated ‘online’ method for either helpfulness and harmlessness (HH) or for helpfulness only."
+    },
+    {
+      "number": 2,
+      "description": "A summary of the full training process."
+    }
+  ],
+  "key_findings_summary": "The paper demonstrates a method to train a helpful and harmless (HH) natural language assistant by collecting human preference data and applying preference modeling (PM) and reinforcement learning from human feedback (RLHF). The trained models are preferred over a 52B parameter context-distilled model in crowdworker evaluations. The paper highlights a tension between helpfulness and harmlessness during RLHF training and explores techniques like iterated online RLHF and out-of-distribution detection to manage it.",
+  "evidence_id": "EV011",
+  "year": 2022,
+  "arxiv_id": "2204.05862",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

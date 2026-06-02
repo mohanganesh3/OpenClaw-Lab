@@ -1,0 +1,6 @@
+{
+  "introduction": "[2205.12594] Heterogeneous Reservoir Computing Models for Persian Speech Recognition\n\nHeterogeneous Reservoir Computing Models for Persian Speech Recognition\n\nZohreh Ansari\n\nBiomedical Engineering Dep",
+  "method": "TM) model. Heterogeneous RC models (1) show improved performance to the standard RC models; (2) perform on par in terms of recognition accuracy with the LSTM, and (3) reduce the training time consider",
+  "results": "ethods, reservoir computing (RC) models (e.g., echo state networks (ESNs)  [ 9 ]  and liquid state machines (LSMs)  [ 10 ] ) have been proven inexpensive to train, have vastly fewer parameters, and re",
+  "conclusion": "his alteration could also strengthen RC-based speech recognition models. In this study, therefore, we chose to explore applicability of RC models in speech recognition. Besides, since to the best of o"
+}

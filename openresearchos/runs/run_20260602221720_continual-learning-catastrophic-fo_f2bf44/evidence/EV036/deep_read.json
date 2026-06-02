@@ -1,0 +1,44 @@
+{
+  "title": "Mitigating Catastrophic Forgetting with Adaptive Transformer Block Expansion in Federated Fine-Tuning",
+  "authors": "Not specified in provided text",
+  "abstract": "This paper introduces FedBE (Federated Block Expansion), a framework that expands trainable blocks within model architecture to structurally separate newly learned task-specific knowledge from original pre-trained representations. FedBE dynamically assigns these trainable blocks to clients based on their data distributions and computational capabilities, enabling better accommodation of heterogeneous federated environments and enhancing generalization ability. Experiments show FedBE achieves 12-74% higher accuracy retention on general tasks after fine-tuning and a model convergence acceleration ratio of 1.9-3.1× without degrading downstream task accuracy.",
+  "keywords": [
+    "Federated Learning",
+    "Fine-Tuning",
+    "LLM",
+    "Catastrophic Forgetting",
+    "Transformer Block Expansion"
+  ],
+  "problem": "Catastrophic forgetting in federated fine-tuning of large language models, where models adapted to new tasks forget previously acquired knowledge, resulting in performance degradation on previous tasks.",
+  "solution": "FedBE (Federated Block Expansion) with adaptive transformer block expansion and dynamic trainable-block allocation strategy.",
+  "contributions": [
+    "Dynamic trainable-block allocation strategy",
+    "Structural separation of new task-specific knowledge from pre-trained representations",
+    "Dynamic assignment of trainable blocks based on client data distributions and computational capabilities",
+    "Improved accuracy retention (12-74% higher)",
+    "Accelerated convergence (1.9-3.1× faster)"
+  ],
+  "methodology": "Federated fine-tuning with adaptive transformer block expansion, where trainable blocks are expanded within the model architecture and dynamically assigned to clients.",
+  "results": {
+    "accuracy_retention": "12-74% higher accuracy retention on general tasks after fine-tuning",
+    "convergence_acceleration": "1.9-3.1× model convergence acceleration",
+    "downstream_tasks": "No degradation in accuracy of downstream tasks"
+  },
+  "related_work": [
+    "FedNLP - collaborative optimization of full model parameters",
+    "FedAdapter and FedPETuning - parameter-efficient fine-tuning techniques",
+    "FedCurv - adds a Fisher information matrix for regularization",
+    "R-EWC - regularization-based method for catastrophic forgetting mitigation"
+  ],
+  "evidence_id": "EV036",
+  "year": 2025,
+  "arxiv_id": "2506.05977",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

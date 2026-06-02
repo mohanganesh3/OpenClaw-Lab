@@ -1,0 +1,6 @@
+{
+  "introduction": "[2410.15096] GDPO: Learning to Directly Align Language Models with Diversity Using GFlowNets\n\nGDPO: Learning to Directly Align Language Models\n with Diversity Using GFlowNets\n\nOh Joon Kwon  Daiki E. M",
+  "method": "-level details and meticulously tuned hyperparameters, making it difficult to reproduce its success with limited computational resources.\n\nTo simplify this complex RLHF pipeline, recent works have exp",
+  "results": "lowNet- D irect  P reference  O ptimization (GDPO), providing an efficient offline method for language model alignment.\nSimilar to DPO, GDPO learns the policy by extracting reward signals directly fro",
+  "conclusion": "Monte-Carlo (MCMC) methods and neural network-based generative models.\n\nThe policy interacts with an MDP, represented as a directed acyclic graph (DAG) augmented with some nonnegative function\n\nF\n\n𝐹\n"
+}

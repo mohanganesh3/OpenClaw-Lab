@@ -1,0 +1,63 @@
+{
+  "title": "Local Look-Ahead Guidance via Verifier-in-the-Loop for Automated Theorem Proving",
+  "topic": "Automated Theorem Proving",
+  "key_problems": [
+    "Syntactically incorrect tactics",
+    "Tactics not applicable to current proof state",
+    "High computational and training costs of RL-based approaches",
+    "Inefficiency in beam search due to invalid tactics"
+  ],
+  "existing_approaches": [
+    {
+      "name": "AlphaZero-like methods",
+      "type": "Reinforcement Learning",
+      "characteristics": "Search proof space and provide step-wise or holistic solutions",
+      "disadvantages": "High computational and training costs"
+    },
+    {
+      "name": "ReProver",
+      "type": "Supervised Learning (Imitation Learning)",
+      "components": [
+        "theorem",
+        "tactics",
+        "premises",
+        "state of proof"
+      ],
+      "advantages": "Order of magnitude smaller complexity and training time",
+      "disadvantages": "Generates syntactically incorrect or inapplicable tactics"
+    },
+    {
+      "name": "Feedback-based alignment methods",
+      "type": "Preference Optimization",
+      "examples": [
+        "RLHF",
+        "DPO",
+        "GRPO"
+      ],
+      "characteristics": "Use rewards from human feedback or other reward models"
+    }
+  ],
+  "proposed_solution": "Fine-tuning a pre-trained model that uses feedback from the verification tool",
+  "verification_systems": [
+    "Lean",
+    "Coq"
+  ],
+  "key_contributions": [
+    "Local Look-Ahead Guidance via Verifier-in-the-Loop",
+    "Addressing issues with syntactically incorrect and inapplicable tactics",
+    "Preserving computational efficiency while improving tactic quality",
+    "Implementing trajectory-level preferences in mathematical reasoning",
+    "Applicability to episodic reasoning tasks with stepwise verification"
+  ],
+  "evidence_id": "EV018",
+  "year": 2025,
+  "arxiv_id": "2503.09730",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

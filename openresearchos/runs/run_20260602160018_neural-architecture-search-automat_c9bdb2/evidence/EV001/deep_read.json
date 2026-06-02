@@ -1,0 +1,35 @@
+{
+  "title": "PhaseNAS: Language-Model Driven Architecture Search with Dynamic Phase Adaptation",
+  "problem_statement": "Current LLM-based neural architecture search (NAS) methods use static LLM configurations throughout the entire search process, leading to resource mismatch and inefficiency. Different search phases require different computational capabilities, yet current methods use fixed configurations regardless of phase requirements.",
+  "key_issues": [
+    "Resource Mismatch in Search Phases: Smaller models handle broad exploration efficiently, while architectural refinement demands larger models",
+    "Static Resource Allocation: Lack of adaptive mechanisms to match computational resources to search phase complexity",
+    "Ambiguous Architecture Representation: Rigid or specially-tokenized architecture descriptions introduce ambiguity and comprehension challenges for LLMs"
+  ],
+  "solution": {
+    "name": "PhaseNAS",
+    "description": "A dynamic, LLM-based neural architecture search framework with phase-aware adaptation",
+    "approach": "Two-phase approach with initial broad exploration followed by refinement, guided by real-time score thresholds",
+    "foundation": "Builds on recent LLM-based program synthesis efforts with structured templates to bridge natural language prompts with executable network components"
+  },
+  "key_contributions": [
+    "Phase-Aware Dynamic Search: Introduces a phase-aware controller that adaptively alternates between broad exploration and focused refinement based on performance distribution",
+    "Unified Architecture Template Language: Proposes structured, parameterized templates to bridge natural language prompts with executable network components"
+  ],
+  "applications": [
+    "Lightweight classification tasks",
+    "Object detection tasks (demonstrated with YOLOv8)"
+  ],
+  "experimental_focus": "Complex perception tasks common in unmanned systems, particularly object detection where NAS must optimize accuracy while considering constraints on parameters, FLOPs, and latency",
+  "evidence_id": "EV001",
+  "year": 2025,
+  "arxiv_id": "2507.20592",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

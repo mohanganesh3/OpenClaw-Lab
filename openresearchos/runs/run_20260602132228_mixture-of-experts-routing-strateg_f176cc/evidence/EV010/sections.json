@@ -1,0 +1,6 @@
+{
+  "introduction": "[2206.03382] 1 Introduction\n\nmarginparsep has been altered.\n topmargin has been altered.\n marginparwidth has been altered.\n marginparpush has been altered.\n\nThe page layout violates the ICML style. \nP",
+  "method": "tively runs a real-world MoE-based model named SwinV2-MoE, built upon Swin Transformer V2, a state-of-the-art computer vision architecture. On efficiency,  Tutel  accelerates SwinV2-MoE, achieving up ",
+  "results": "DL algorithms and systems.\nTo be specific, each MoE layer consists of a certain number of parallel experts that are distributed over accelerators (GPUs in this work), where each GPU dispatches each in",
+  "conclusion": "c MoE workload.\nThe key mechanism is  adaptive parallelism switching  that dynamically switches the parallelism strategy at every iteration without any extra overhead of switching. Specifically, unlik"
+}

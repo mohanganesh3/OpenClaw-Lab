@@ -1,0 +1,6 @@
+{
+  "introduction": "[2503.22996] Sparse Mixture of Experts as Unified Competitive Learning\n\nSparse Mixture of Experts as Unified Competitive Learning\n\nGiang Do  Hung Le  Truyen Tran\n\nApplied Artificial Intelligence Insti",
+  "method": "al.,  2017 )  and its variants  (Child et al.,  2019 ; Dai et al.,  2019b ) , which leverage large datasets and significant compute resources. However, training large Transformer models can be prohibi",
+  "results": "ancing router loss and task loss, leading to trade-offs, and (2) they still struggle with the fundamental limitations of either the Token Choice or Expert Choice approach.\n\nWhich approach is better fo",
+  "conclusion": "makes the following key contributions:\n\n•\n\nWe introduce a  Competitive Learning  perspective on SMoE, highlighting the weaknesses of existing approaches.\n\n•\n\nWe propose  USMoE , a robust and efficient"
+}

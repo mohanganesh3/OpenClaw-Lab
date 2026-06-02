@@ -1,0 +1,43 @@
+{
+  "title": "Reward Model Ensembles Help Mitigate Overoptimization",
+  "authors": "Not specified in provided text",
+  "abstract": "This paper investigates whether combining ensembles with conservative optimization can mitigate overoptimization in RLHF for language models. The authors found that ensemble-based conservative optimization not only mitigates overoptimization but also improves performance.",
+  "introduction": {
+    "topic": "Reinforcement Learning from Human Feedback (RLHF) for language models",
+    "problem": "Overoptimization - a phenomenon where policy optimization appears to make progress according to the learned reward model but regresses with respect to the true reward function",
+    "previous_work": "Gao et al. (2023) is the only work that studies overoptimization systematically, using a synthetic setup with a 'gold' reward model",
+    "research_question": "Whether combining ensembles with conservative optimization can help mitigate overoptimization"
+  },
+  "methodology": {
+    "setup": "Identical to Gao et al. (2023) with one modification: the addition of 25% label noise to better reflect real-world RLHF conditions",
+    "approach": "Using ensembles of reward models with conservative optimization"
+  },
+  "results": {
+    "main_finding": "Ensemble-based conservative optimization methods are effective in mitigating overoptimization and improving performance",
+    "comparison": "The approach is relatively inexpensive compared to acquiring larger reward models",
+    "compatibility": "The gains provided by the method are orthogonal to the gains achieved by increasing the reward model size"
+  },
+  "key_contributions": [
+    "First study of using ensembles to counter overoptimization in RLHF-based fine-tuning of language models",
+    "Ensemble-based conservative optimization eliminates overoptimization for BoN and results in up to 70% improvement in some cases",
+    "For PPO, ensemble-based conservative optimization typically outperforms single reward model optimization"
+  ],
+  "related_work": "Gao et al. (2023) which systematically studied overoptimization using a synthetic setup with a 'gold' reward model",
+  "key_findings": [
+    "Ensemble-based conservative optimization helps mitigate overoptimization",
+    "The approach results in improved performance",
+    "The method is relatively inexpensive compared to acquiring larger reward models",
+    "The gains provided by the method are orthogonal to the gains achieved by increasing the reward model size"
+  ],
+  "evidence_id": "EV013",
+  "year": 2023,
+  "arxiv_id": "2310.02743",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "introduction": "[2506.05340] Exploring Diffusion Transformer Designs via Grafting\n\nExploring Diffusion Transformer Designs via Grafting\n\nKeshigeyan Chandrasegaran\n\n∗‡1,2\n\nMichael Poli\n\n∗1,2\n\nDaniel Y. Fu\n\n3,4\n\nDongju",
+  "method": "\\times\n\nand yields better quality (FID: 2.77) than other models of comparable depth.\nTogether, we show that new diffusion model designs can be explored by grafting pretrained DiTs, with edits ranging ",
+  "results": "(MLP)\nin a DiT.\nA simple way to materialize this idea is to replace MHA or MLP operators with a convolutional operator, while preserving model quality.\nThis raises two key questions:\n(Q1)  operator in",
+  "conclusion": "ed using a model restructured via grafting (depth: 28\n\n→  \\rightarrow\n\n14) (Sec.\n\n6  ).\n\nThe space of architectural editing is vast, raising a practical question: what types of replacements should we "
+}

@@ -1,0 +1,6 @@
+{
+  "introduction": "[2401.06066] DeepSeekMoE: Towards Ultimate Expert Specialization in Mixture-of-Experts Language Models\n\n\\reportnumber\n\n001\n\n\\correspondingauthor Contribution during internship at DeepSeek-AI.\n\nDeepSee",
+  "method": "pproaches the performance of its dense counterpart with the same number of total parameters, which set the upper bound of MoE models.\nSubsequently, we scale up DeepSeekMoE to 16B parameters and show t",
+  "results": "022 ) , accompanied with remarkable performance.\nThese achievements underscore the considerable potential and promise of MoE language models.\n\nDespite the promising potential of MoE architectures, exi",
+  "conclusion": "ost, we also activate more fine-grained experts to enable a more flexible and adaptable combination of activated experts.\nFine-grained expert segmentation allows diverse knowledge to be decomposed mor"
+}

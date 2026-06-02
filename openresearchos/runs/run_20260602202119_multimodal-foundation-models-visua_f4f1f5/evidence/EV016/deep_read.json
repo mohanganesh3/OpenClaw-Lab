@@ -1,0 +1,44 @@
+{
+  "title": "Contrastive Vision-Language Alignment Makes Efficient Instruction Learner",
+  "key_findings": [
+    "Using only 10% instruction tuning data, reaches 95% performance of state-of-the-art method LLaVA on zero-shot ScienceQA-Image benchmark",
+    "Proposes a contrastive vision-language alignment approach that is more efficient than generative alignment methods",
+    "Addresses weak alignment between vision and language modalities in existing methods"
+  ],
+  "problem": {
+    "description": "Existing vision-language instruction following models require vision-language alignment mechanisms, but current generative alignment methods show weak alignment between modalities, making models data-hungry",
+    "challenges": [
+      "High-quality instruction data is hard to collect due to time-consuming process",
+      "Existing methods (LLaVA, LLaMA-Adapter) use generative alignment with image captioning loss"
+    ]
+  },
+  "previous_work": {
+    "heavyweight_adaptation": [
+      "BLIP-2",
+      "MiniGPT4",
+      "InstructBLIP",
+      "Flamingo"
+    ],
+    "lightweight_adaptation": [
+      "LLaMA-Adapter",
+      "LLaVA"
+    ]
+  },
+  "proposed_solution": "Contrastive vision-language alignment approach",
+  "evaluation": {
+    "benchmark": "ScienceQA-Image",
+    "evaluation_type": "Zero-shot",
+    "comparison_method": "LLaVA"
+  },
+  "evidence_id": "EV016",
+  "year": 2023,
+  "arxiv_id": "2311.17945",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7997,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "introduction": "[2602.05711] OmniMoE: An Efficient MoE by Orchestrating Atomic Experts at Scale\n\nOmniMoE: An Efficient MoE by Orchestrating Atomic Experts at Scale\n\nJingze Shi\n\nZhangyang Peng\n\nYizhang Zhu\n\nYifan Wu\n\n",
+  "method": "mproves parameter efficiency, but suffers from bandwidth bottlenecks due to scattered, fragmented memory accesses. (c) Our OmniMoE employs a universally activated shared dense MLP, and uses expert-cen",
+  "results": "ited hardware:\ncoarse granularity restricts scaling flexibility, forcing steep, discrete memory increments, when adjusting expert counts.\n\nFine-grained MoEs.  Fine-grained architectures seek to maximi",
+  "conclusion": "ctivation efficiency and flexibility.\nThis raises a key question:  Is it possible to reconcile the parameter efficiency of fine-grained models with the hardware efficiency of coarse-grained architectu"
+}

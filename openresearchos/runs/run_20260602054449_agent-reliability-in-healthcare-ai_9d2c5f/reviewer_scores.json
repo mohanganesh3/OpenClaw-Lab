@@ -1,0 +1,960 @@
+[
+  {
+    "idea_id": "ID001",
+    "average_score": 6.62,
+    "decision": "accept",
+    "next_action": "RUN_MICRO_PROBE",
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 6.9,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add direct competitor comparison and search query log."
+        ],
+        "required_experiments": [
+          "Run novelty tribunal before any paper claim."
+        ],
+        "missing_related_work": [
+          "EV001",
+          "EV002",
+          "EV003"
+        ]
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 7.5,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add baseline and ablation before MVP claims."
+        ],
+        "required_experiments": [
+          "Micro-probe with random baseline.",
+          "Probe with evidence-weighted baseline."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Theory/Mechanism Reviewer",
+        "score": 6.7,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Tighten mechanism into falsifiable prediction."
+        ],
+        "required_experiments": [
+          "Test whether the mechanism improves selection utility under controlled noise."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Reproducibility Reviewer",
+        "score": 6.3,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Record seed, command, environment, stdout, stderr, and metrics."
+        ],
+        "required_experiments": [
+          "Run with fixed seed and persist config."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Venue Reviewer",
+        "score": 5.7,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Position as workshop candidate until stronger empirical evidence exists."
+        ],
+        "required_experiments": [
+          "Add venue-fit checklist after results."
+        ],
+        "missing_related_work": []
+      }
+    ]
+  },
+  {
+    "idea_id": "ID002",
+    "average_score": 6.58,
+    "decision": "accept",
+    "next_action": "RUN_MICRO_PROBE",
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 6.7,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add direct competitor comparison and search query log."
+        ],
+        "required_experiments": [
+          "Run novelty tribunal before any paper claim."
+        ],
+        "missing_related_work": [
+          "EV001",
+          "EV002",
+          "EV003"
+        ]
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 7.5,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add baseline and ablation before MVP claims."
+        ],
+        "required_experiments": [
+          "Micro-probe with random baseline.",
+          "Probe with evidence-weighted baseline."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Theory/Mechanism Reviewer",
+        "score": 6.7,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Tighten mechanism into falsifiable prediction."
+        ],
+        "required_experiments": [
+          "Test whether the mechanism improves selection utility under controlled noise."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Reproducibility Reviewer",
+        "score": 6.3,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Record seed, command, environment, stdout, stderr, and metrics."
+        ],
+        "required_experiments": [
+          "Run with fixed seed and persist config."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Venue Reviewer",
+        "score": 5.7,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Position as workshop candidate until stronger empirical evidence exists."
+        ],
+        "required_experiments": [
+          "Add venue-fit checklist after results."
+        ],
+        "missing_related_work": []
+      }
+    ]
+  },
+  {
+    "idea_id": "ID003",
+    "average_score": 5,
+    "decision": "reject",
+    "next_action": "RUN_ADDITIONAL_SEARCH",
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 6,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Lacks technical depth on how reviewer criteria are simulated and validated",
+          "Missing discussion of potential biases in simulated feedback generation",
+          "No clear comparison with existing research assistance tools",
+          "Mechanism for generating realistic reviewer feedback not specified"
+        ],
+        "required_experiments": [
+          "Benchmark against existing research assistance tools",
+          "Validation study comparing simulated vs actual reviewer feedback",
+          "Ablation study on different feedback generation strategies",
+          "Longitudinal study tracking researcher satisfaction and outcomes"
+        ],
+        "missing_related_work": [
+          "AI-powered academic writing assistance systems",
+          "Automated peer review tools and their limitations",
+          "Research guidance systems in other domains",
+          "Expert system approaches to feedback generation"
+        ],
+        "decision": "revise",
+        "justification": "The core concept of simulated reviewer feedback during development shows novelty, but the idea lacks technical depth and proper positioning against existing work. Requires substantial expansion of technical details and experimental validation."
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 4,
+        "fatal_flaws": [
+          "No clear baseline or control group specified",
+          "No statistical validity considerations (sample size, tests, etc.)",
+          "No reproducibility information (code, data, protocols)",
+          "No validation of how simulated feedback will be generated",
+          "No consideration of confounding variables or biases"
+        ],
+        "fixable_flaws": [
+          "Metrics need refinement and justification",
+          "Experimental design needs more detail",
+          "Ablation studies required",
+          "Literature review needed to support novelty claim"
+        ],
+        "required_experiments": [
+          "Pilot study to validate the feedback generation mechanism",
+          "Power analysis to determine appropriate sample size",
+          "Ablation studies to identify key components",
+          "Longitudinal study to measure sustained impact"
+        ],
+        "missing_related_work": [
+          "Research on AI-assisted writing and feedback systems",
+          "Studies on peer review process optimization",
+          "Work on simulated expert systems",
+          "Research on iterative design processes in academic contexts"
+        ],
+        "decision": "reject",
+        "justification": "The proposal lacks essential experimental rigor with no clear baseline, statistical considerations, or reproducibility measures. The simulated feedback mechanism itself needs validation before any impact study can be meaningful."
+      },
+      {
+        "reviewer": "Theory/Mechanism Reviewer",
+        "score": 6,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "The novelty claim appears overstated without comprehensive literature review",
+          "Evidence provided doesn't directly support the core mechanism",
+          "The 30% reduction metric lacks justification and baseline data"
+        ],
+        "required_experiments": [
+          "Pilot study to validate accuracy of simulated reviewer feedback",
+          "A/B testing of timing points (25%, 50%, 75%) vs other intervals",
+          "Validation study comparing simulated vs actual reviewer responses"
+        ],
+        "missing_related_work": [
+          "Literature on simulation-based feedback systems in academic contexts",
+          "Research on iterative proposal development methodologies",
+          "Studies on AI-assisted academic writing and review processes"
+        ],
+        "decision": "revise",
+        "justification": "The concept has theoretical merit but requires stronger validation of the core assumption that simulated feedback can effectively guide research. The mechanism needs empirical support and the novelty claim needs to be substantiated with comprehensive literature review."
+      },
+      {
+        "reviewer": "Reproducibility Reviewer",
+        "score": 5,
+        "fatal_flaws": [
+          "OpenClaw model turn unavailable — manual review required"
+        ],
+        "fixable_flaws": [],
+        "required_experiments": [],
+        "missing_related_work": [],
+        "decision": "revise",
+        "justification": "Automated review was unavailable via openclaw infer model run. Manual review required."
+      },
+      {
+        "reviewer": "Venue Reviewer",
+        "score": 4,
+        "fatal_flaws": [
+          "Overstated novelty claim without proper literature review",
+          "Lack of technical details on reviewer simulation mechanism",
+          "No consideration of feedback accuracy or quality validation"
+        ],
+        "fixable_flaws": [
+          "Missing comprehensive related work analysis",
+          "Experimental design lacks rigor and proper controls",
+          "No discussion of ethical implications or potential biases"
+        ],
+        "required_experiments": [
+          "Implement and test the prototype across multiple research domains",
+          "Compare simulated feedback quality against actual reviewer feedback",
+          "Longitudinal study measuring actual impact on acceptance rates and research quality"
+        ],
+        "missing_related_work": [
+          "AI writing assistants and real-time feedback systems",
+          "Research proposal evaluation tools and frameworks",
+          "Automated peer review systems literature",
+          "Human-computer interaction studies on feedback timing"
+        ],
+        "decision": "reject",
+        "justification": "The proposal lacks sufficient technical detail and proper literature review to support its novelty claims. The experimental design is inadequate and doesn't address fundamental challenges of simulating reviewer feedback accurately. Without addressing these core issues, the work is not ready for publication."
+      }
+    ]
+  },
+  {
+    "idea_id": "ID004",
+    "average_score": 6.62,
+    "decision": "accept",
+    "next_action": "RUN_MICRO_PROBE",
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 6.9,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add direct competitor comparison and search query log."
+        ],
+        "required_experiments": [
+          "Run novelty tribunal before any paper claim."
+        ],
+        "missing_related_work": [
+          "EV001",
+          "EV002",
+          "EV003"
+        ]
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 7.5,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add baseline and ablation before MVP claims."
+        ],
+        "required_experiments": [
+          "Micro-probe with random baseline.",
+          "Probe with evidence-weighted baseline."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Theory/Mechanism Reviewer",
+        "score": 6.7,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Tighten mechanism into falsifiable prediction."
+        ],
+        "required_experiments": [
+          "Test whether the mechanism improves selection utility under controlled noise."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Reproducibility Reviewer",
+        "score": 6.3,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Record seed, command, environment, stdout, stderr, and metrics."
+        ],
+        "required_experiments": [
+          "Run with fixed seed and persist config."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Venue Reviewer",
+        "score": 5.7,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Position as workshop candidate until stronger empirical evidence exists."
+        ],
+        "required_experiments": [
+          "Add venue-fit checklist after results."
+        ],
+        "missing_related_work": []
+      }
+    ]
+  },
+  {
+    "idea_id": "ID005",
+    "average_score": 4.4,
+    "decision": "reject",
+    "next_action": "RUN_ADDITIONAL_SEARCH",
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 4,
+        "fatal_flaws": [
+          "Overstated novelty claim of being 'first systematic framework'",
+          "Insufficient differentiation from multi-fidelity optimization and active learning approaches"
+        ],
+        "fixable_flaws": [
+          "Need to properly situate within existing literature on experimental design and validation",
+          "Should provide more specific technical details of the framework",
+          "Need to address how this differs from existing Bayesian optimization approaches"
+        ],
+        "required_experiments": [
+          "Comprehensive literature review comparing with multi-fidelity optimization methods",
+          "Ablation study comparing different checkpoint timing strategies",
+          "Broader evaluation across multiple research domains"
+        ],
+        "missing_related_work": [
+          "Multi-fidelity optimization literature",
+          "Bayesian optimization with cheap and expensive models",
+          "Active learning with validation checkpoints",
+          "Resource-aware AI systems literature"
+        ],
+        "decision": "reject",
+        "justification": "The framework concept of early validation checkpoints is not novel, as similar approaches exist in multi-fidelity optimization, Bayesian optimization, and active learning. The claim of being 'first systematic framework' is overstated, and the idea lacks sufficient differentiation from existing work."
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 6,
+        "fatal_flaws": [
+          "Lack of precise definition for 'late-stage experiment failures'",
+          "Disconnect between experiment focus (timing distributions) and claimed outcome (failure reduction)",
+          "No mention of statistical power analysis or sample size determination"
+        ],
+        "fixable_flaws": [
+          "Insufficient detail on baseline agents",
+          "Missing ablation studies",
+          "Lack of specific software environment details for reproducibility",
+          "Unclear definition of 'standard research tasks'",
+          "Need for more thorough literature review to substantiate novelty claim"
+        ],
+        "required_experiments": [
+          "Define and operationalize 'late-stage experiment failures'",
+          "Conduct ablation studies to understand component contributions",
+          "Perform statistical power analysis and determine appropriate sample size",
+          "Specify and document software environment and random seeds",
+          "Conduct more thorough literature review"
+        ],
+        "missing_related_work": [
+          "Papers on early experimentation or early validation in research workflows",
+          "Papers on the timing of experiments in autonomous systems",
+          "Papers on the cost-benefit analysis of early vs. late experimentation"
+        ],
+        "decision": "revise",
+        "justification": "The proposed experiment lacks the necessary details for statistical validity and reproducibility. The metric is not precisely defined, and there's a disconnect between the experiment's focus (timing distributions) and the claimed outcome (failure reduction). Additionally, the novelty claim needs to be substantiated with a more thorough literature review."
+      },
+      {
+        "reviewer": "Theory/Mechanism Reviewer",
+        "score": 5,
+        "fatal_flaws": [
+          "OpenClaw model turn unavailable — manual review required"
+        ],
+        "fixable_flaws": [],
+        "required_experiments": [],
+        "missing_related_work": [],
+        "decision": "revise",
+        "justification": "Automated review was unavailable via openclaw infer model run. Manual review required."
+      },
+      {
+        "reviewer": "Reproducibility Reviewer",
+        "score": 2,
+        "fatal_flaws": [
+          "No fixed seeds specified for reproducible experiments",
+          "No clear commands provided for running experiments",
+          "No environment logging or version specifications",
+          "No documented datasets or data sources",
+          "No information about ensuring deterministic runs"
+        ],
+        "fixable_flaws": [
+          "Need to specify exact experimental commands and procedures",
+          "Must document software versions and dependencies",
+          "Should define baseline and control group methodologies",
+          "Need to clarify how 'experiment failures' are measured and counted"
+        ],
+        "required_experiments": [
+          "Run pilot experiments with fixed seeds to establish baseline failure rates",
+          "Document complete experimental protocol with step-by-step commands",
+          "Provide environment specification including OS, Python version, and all dependencies",
+          "Create reproducible dataset or specify exact data sources"
+        ],
+        "missing_related_work": [
+          "Recent work on AI agent reliability and reproducibility (beyond the cited papers)",
+          "Papers on experimental design for autonomous research systems",
+          "Studies on early validation techniques in research workflows"
+        ],
+        "decision": "reject",
+        "justification": "The proposal lacks essential reproducibility elements including fixed seeds, clear commands, environment logging, and documented datasets. Without these critical details, the experiment cannot be reproduced or verified, making it unsuitable for publication."
+      },
+      {
+        "reviewer": "Venue Reviewer",
+        "score": 5,
+        "fatal_flaws": [
+          "OpenClaw model turn unavailable — manual review required"
+        ],
+        "fixable_flaws": [],
+        "required_experiments": [],
+        "missing_related_work": [],
+        "decision": "revise",
+        "justification": "Automated review was unavailable via openclaw infer model run. Manual review required."
+      }
+    ]
+  },
+  {
+    "idea_id": "ID006",
+    "average_score": 3.8,
+    "decision": "reject",
+    "next_action": "RUN_ADDITIONAL_SEARCH",
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 5,
+        "fatal_flaws": [
+          "OpenClaw model turn unavailable — manual review required"
+        ],
+        "fixable_flaws": [],
+        "required_experiments": [],
+        "missing_related_work": [],
+        "decision": "revise",
+        "justification": "Automated review was unavailable via openclaw infer model run. Manual review required."
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 4,
+        "fatal_flaws": [
+          "No clear baselines specified for comparison",
+          "Metric definition lacks specificity (how to quantify 'information gained')",
+          "No statistical analysis plan mentioned",
+          "Novelty claim is questionable given existing work in active learning and optimal experimental design"
+        ],
+        "fixable_flaws": [
+          "Need to specify ablation studies",
+          "Missing details on experimental setup and simulation environments",
+          "No mention of reproducibility measures (code, data, random seeds)",
+          "Related work section is insufficient and not directly relevant"
+        ],
+        "required_experiments": [
+          "Compare against multiple baseline scheduling approaches",
+          "Ablation studies to isolate contributions of scheduler components",
+          "Experiments across different types of information landscapes",
+          "Statistical analysis with confidence intervals and significance testing"
+        ],
+        "missing_related_work": [
+          "Active learning literature (e.g., Settles 2009)",
+          "Bayesian experimental design papers",
+          "Information-theoretic approaches to experiment selection",
+          "Related work on adaptive scheduling in computational research"
+        ],
+        "decision": "reject",
+        "justification": "The proposal lacks sufficient technical detail, proper baseline comparisons, and statistical rigor. The novelty claim is questionable given existing work in related fields. The experiment design is too vague to be reproducible or properly evaluated."
+      },
+      {
+        "reviewer": "Theory/Mechanism Reviewer",
+        "score": 4,
+        "fatal_flaws": [
+          "Mathematical framework for calculating expected value of information is not specified",
+          "No clear methodology for quantifying 'information gain potential' in practice"
+        ],
+        "fixable_flaws": [
+          "Related work section is irrelevant to the proposed mechanism",
+          "Experimental design lacks real-world validation",
+          "Implementation details and algorithms not specified"
+        ],
+        "required_experiments": [
+          "Mathematical validation of information value calculation formulas",
+          "Comparison against established scheduling strategies (greedy, random, etc.)",
+          "Case studies in actual research domains with real resource constraints"
+        ],
+        "missing_related_work": [
+          "Optimal experimental design literature",
+          "Active learning and Bayesian optimization approaches",
+          "Information-theoretic experimental planning methods",
+          "Previous work on research resource optimization"
+        ],
+        "decision": "revise",
+        "justification": "The core concept of balancing information value against costs is theoretically sound but lacks the mathematical specification and practical implementation details needed for a complete proposal. The mechanism needs rigorous formulation and connection to existing literature on optimal experimental design."
+      },
+      {
+        "reviewer": "Reproducibility Reviewer",
+        "score": 2,
+        "fatal_flaws": [
+          "No fixed seeds or random number generation control specified",
+          "No clear commands or procedures for running the experiment",
+          "No environment logging or version control information",
+          "No documented datasets or simulated environments",
+          "No mention of deterministic execution"
+        ],
+        "fixable_flaws": [
+          "Need to specify exact software versions and dependencies",
+          "Need to provide detailed experimental protocol",
+          "Need to document the simulated environments used",
+          "Need to establish baseline comparisons"
+        ],
+        "required_experiments": [
+          "Implementation of the scheduler with fixed seeds",
+          "Baseline experiments with random scheduling",
+          "Ablation study on different cost models",
+          "Reproducibility tests across different hardware"
+        ],
+        "missing_related_work": [
+          "Previous work on adaptive scheduling in research",
+          "Information theory applications in experiment design",
+          "Resource allocation strategies in research computing"
+        ],
+        "decision": "reject",
+        "justification": "The experiment lacks critical reproducibility elements including fixed seeds, clear commands, environment logging, and documented datasets. Without these fundamental components, the experiment cannot be reproduced or validated."
+      },
+      {
+        "reviewer": "Venue Reviewer",
+        "score": 4,
+        "fatal_flaws": [
+          "Insufficient experimental validation beyond a single MacBook M4 test",
+          "Lack of comparative analysis with existing scheduling approaches",
+          "Missing theoretical foundation and mathematical formulation"
+        ],
+        "fixable_flaws": [
+          "Need for comprehensive experiments across diverse research environments",
+          "Should include baseline comparisons with traditional scheduling methods",
+          "Requires detailed mathematical framework for information value calculation"
+        ],
+        "required_experiments": [
+          "Test on multiple hardware configurations and research domains",
+          "Compare against established scheduling algorithms",
+          "Validate in real-world research scenarios, not just simulations"
+        ],
+        "missing_related_work": [
+          "Bayesian experimental design literature",
+          "Active learning scheduling approaches",
+          "Resource allocation in research workflows",
+          "Information-theoretic approaches to experiment optimization"
+        ],
+        "decision": "reject",
+        "justification": "The work presents an interesting concept but lacks sufficient experimental validation and theoretical grounding for publication. The single MacBook M4 test is inadequate, and the novelty claim is not well-supported by the provided evidence. The work needs substantial development before it could be considered for any academic venue."
+      }
+    ]
+  },
+  {
+    "idea_id": "ID007",
+    "average_score": 6.6,
+    "decision": "accept",
+    "next_action": "RUN_MICRO_PROBE",
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 6.8,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add direct competitor comparison and search query log."
+        ],
+        "required_experiments": [
+          "Run novelty tribunal before any paper claim."
+        ],
+        "missing_related_work": [
+          "EV001",
+          "EV002",
+          "EV003"
+        ]
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 7.5,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add baseline and ablation before MVP claims."
+        ],
+        "required_experiments": [
+          "Micro-probe with random baseline.",
+          "Probe with evidence-weighted baseline."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Theory/Mechanism Reviewer",
+        "score": 6.7,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Tighten mechanism into falsifiable prediction."
+        ],
+        "required_experiments": [
+          "Test whether the mechanism improves selection utility under controlled noise."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Reproducibility Reviewer",
+        "score": 6.3,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Record seed, command, environment, stdout, stderr, and metrics."
+        ],
+        "required_experiments": [
+          "Run with fixed seed and persist config."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Venue Reviewer",
+        "score": 5.7,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Position as workshop candidate until stronger empirical evidence exists."
+        ],
+        "required_experiments": [
+          "Add venue-fit checklist after results."
+        ],
+        "missing_related_work": []
+      }
+    ]
+  },
+  {
+    "idea_id": "ID008",
+    "average_score": 4,
+    "decision": "reject",
+    "next_action": "RUN_ADDITIONAL_SEARCH",
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 5,
+        "fatal_flaws": [
+          "OpenClaw model turn unavailable — manual review required"
+        ],
+        "fixable_flaws": [],
+        "required_experiments": [],
+        "missing_related_work": [],
+        "decision": "revise",
+        "justification": "Automated review was unavailable via openclaw infer model run. Manual review required."
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 5,
+        "fatal_flaws": [
+          "OpenClaw model turn unavailable — manual review required"
+        ],
+        "fixable_flaws": [],
+        "required_experiments": [],
+        "missing_related_work": [],
+        "decision": "revise",
+        "justification": "Automated review was unavailable via openclaw infer model run. Manual review required."
+      },
+      {
+        "reviewer": "Theory/Mechanism Reviewer",
+        "score": 5,
+        "fatal_flaws": [
+          "OpenClaw model turn unavailable — manual review required"
+        ],
+        "fixable_flaws": [],
+        "required_experiments": [],
+        "missing_related_work": [],
+        "decision": "revise",
+        "justification": "Automated review was unavailable via openclaw infer model run. Manual review required."
+      },
+      {
+        "reviewer": "Reproducibility Reviewer",
+        "score": 2,
+        "fatal_flaws": [
+          "No fixed seeds specified for random processes",
+          "No clear commands or instructions for running the experiment",
+          "No information about environment logging",
+          "No documentation of datasets used",
+          "No mention of deterministic runs"
+        ],
+        "fixable_flaws": [
+          "Provide detailed implementation of the failure analysis mechanism",
+          "Specify the exact datasets and preprocessing steps",
+          "Include hyperparameters and optimization details"
+        ],
+        "required_experiments": [
+          "Baseline comparison with standard meta-learning approaches",
+          "Ablation study on the contribution of failure analysis",
+          "Cross-validation on multiple healthcare domains"
+        ],
+        "missing_related_work": [
+          "Failure-driven learning approaches in healthcare",
+          "Meta-learning for medical AI agents",
+          "Reliability assessment methods for AI agents in healthcare"
+        ],
+        "decision": "reject",
+        "justification": "The experiment lacks critical reproducibility elements including fixed seeds, clear commands, environment logging, and dataset documentation. Without these details, the experiment cannot be reliably reproduced."
+      },
+      {
+        "reviewer": "Venue Reviewer",
+        "score": 3,
+        "fatal_flaws": [
+          "Lacks specific methodology and implementation details",
+          "No experimental results or preliminary findings presented",
+          "Unclear novelty claim - the concept of learning from failures is not new"
+        ],
+        "fixable_flaws": [
+          "Needs more detailed description of the proposed framework",
+          "Requires specific experimental setup and evaluation metrics",
+          "Should include preliminary results or proof-of-concept"
+        ],
+        "required_experiments": [
+          "Implement the adaptive failure learning framework with specific algorithms",
+          "Conduct experiments on well-defined healthcare AI tasks",
+          "Compare against baseline methods and report quantitative results"
+        ],
+        "missing_related_work": [
+          "Learning from failure in machine learning literature",
+          "Meta-learning approaches for healthcare AI",
+          "Reliability and robustness methods for AI agents in healthcare"
+        ],
+        "decision": "reject",
+        "justification": "The work lacks sufficient detail, experimental validation, and clear novelty to be appropriate for any venue beyond arXiv. It requires substantial development and empirical evaluation before it can be considered for presentation at workshops or conferences."
+      }
+    ]
+  },
+  {
+    "idea_id": "ID009",
+    "average_score": 6.62,
+    "decision": "accept",
+    "next_action": "RUN_MICRO_PROBE",
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 6.9,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add direct competitor comparison and search query log."
+        ],
+        "required_experiments": [
+          "Run novelty tribunal before any paper claim."
+        ],
+        "missing_related_work": [
+          "EV001",
+          "EV002",
+          "EV003"
+        ]
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 7.5,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add baseline and ablation before MVP claims."
+        ],
+        "required_experiments": [
+          "Micro-probe with random baseline.",
+          "Probe with evidence-weighted baseline."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Theory/Mechanism Reviewer",
+        "score": 6.7,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Tighten mechanism into falsifiable prediction."
+        ],
+        "required_experiments": [
+          "Test whether the mechanism improves selection utility under controlled noise."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Reproducibility Reviewer",
+        "score": 6.3,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Record seed, command, environment, stdout, stderr, and metrics."
+        ],
+        "required_experiments": [
+          "Run with fixed seed and persist config."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Venue Reviewer",
+        "score": 5.7,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Position as workshop candidate until stronger empirical evidence exists."
+        ],
+        "required_experiments": [
+          "Add venue-fit checklist after results."
+        ],
+        "missing_related_work": []
+      }
+    ]
+  },
+  {
+    "idea_id": "ID010",
+    "average_score": 4,
+    "decision": "reject",
+    "next_action": "RUN_ADDITIONAL_SEARCH",
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 5,
+        "fatal_flaws": [
+          "OpenClaw model turn unavailable — manual review required"
+        ],
+        "fixable_flaws": [],
+        "required_experiments": [],
+        "missing_related_work": [],
+        "decision": "revise",
+        "justification": "Automated review was unavailable via openclaw infer model run. Manual review required."
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 4,
+        "fatal_flaws": [
+          "The proposed metric (reduction in revision cycles) is impractical to measure and lacks objectivity",
+          "No clear baselines are specified for comparison",
+          "The experiment lacks statistical validity with no mention of sample sizes or statistical tests",
+          "No ablation studies are planned to understand the contribution of different components"
+        ],
+        "fixable_flaws": [
+          "The experiment should include more direct and objective metrics for style adaptation quality",
+          "Need to specify clear baselines for comparison",
+          "Should include statistical analysis plan",
+          "Missing ablation studies"
+        ],
+        "required_experiments": [
+          "Implement and evaluate the style transformation module with objective metrics",
+          "Conduct ablation studies to understand the contribution of different components",
+          "Compare against existing style transfer methods as baselines",
+          "Perform statistical analysis to ensure the results are significant"
+        ],
+        "missing_related_work": [
+          "Style transfer for academic writing",
+          "Text adaptation for specific domains or venues",
+          "Automatic paper formatting and style compliance"
+        ],
+        "decision": "reject",
+        "justification": "The proposed experiment lacks methodological rigor with no clear baselines, impractical metrics, and no statistical validity. The experiment would need significant revisions to address these fundamental issues before it could be considered for publication."
+      },
+      {
+        "reviewer": "Theory/Mechanism Reviewer",
+        "score": 4,
+        "fatal_flaws": [
+          "The mechanism lacks specificity - unclear how 'style transformation rules' would be derived or implemented",
+          "No consideration of how to preserve semantic meaning while changing style",
+          "No discussion of how to handle domain-specific conventions that vary beyond just style"
+        ],
+        "fixable_flaws": [
+          "The proposal needs to specify the technical approach for learning and applying style patterns",
+          "Should address how to evaluate the quality of the transformed content",
+          "Needs to consider the interaction between style and content in academic writing"
+        ],
+        "required_experiments": [
+          "A detailed implementation of the style transformation module",
+          "Evaluation of the transformed abstracts for both style accuracy and content preservation",
+          "Comparison with human-written papers for the same venues",
+          "Study of actual revision cycles before and after using the adapter"
+        ],
+        "missing_related_work": [
+          "Style transfer literature in NLP",
+          "Academic writing assistance tools",
+          "Citation formatting and adaptation research",
+          "Previous work on venue-specific writing conventions"
+        ],
+        "decision": "reject",
+        "justification": "The proposal lacks sufficient theoretical grounding and technical specificity. The mechanism is vaguely defined, with no clear approach for learning and applying style transformation rules while preserving semantic content. The novelty claim is unsubstantiated without addressing related work in style transfer and academic writing assistance."
+      },
+      {
+        "reviewer": "Reproducibility Reviewer",
+        "score": 2,
+        "fatal_flaws": [
+          "No fixed seeds specified for random processes",
+          "No clear commands or procedures provided",
+          "No logged environment information",
+          "No documented datasets for training/testing",
+          "No information about deterministic runs"
+        ],
+        "fixable_flaws": [
+          "Provide detailed experimental protocol",
+          "Document all software dependencies and versions",
+          "Specify dataset sources and preprocessing steps",
+          "Include random seed values for reproducibility"
+        ],
+        "required_experiments": [
+          "Complete experimental protocol with all steps",
+          "Environment specification including software versions",
+          "Dataset documentation with sources and preprocessing",
+          "Code implementation with random seed values"
+        ],
+        "missing_related_work": [
+          "Style transfer in academic writing",
+          "Text style adaptation for different publication venues",
+          "Neural approaches to academic writing style modification"
+        ],
+        "decision": "reject",
+        "justification": "The experiment lacks essential reproducibility elements including fixed seeds, clear commands, environment logging, dataset documentation, and deterministic run specifications. Without these fundamental components, the experiment cannot be reproduced or verified by other researchers."
+      },
+      {
+        "reviewer": "Venue Reviewer",
+        "score": 5,
+        "fatal_flaws": [
+          "OpenClaw model turn unavailable — manual review required"
+        ],
+        "fixable_flaws": [],
+        "required_experiments": [],
+        "missing_related_work": [],
+        "decision": "revise",
+        "justification": "Automated review was unavailable via openclaw infer model run. Manual review required."
+      }
+    ]
+  }
+]

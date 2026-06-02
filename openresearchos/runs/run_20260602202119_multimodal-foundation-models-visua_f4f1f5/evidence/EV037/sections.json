@@ -1,0 +1,6 @@
+{
+  "introduction": "[2310.01107] Ground-A-Video: Zero-shot Grounded Video Editing using Text-to-image Diffusion Models\n\nGround-A-Video: Zero-shot Grounded Video Editing using Text-to-image Diffusion Models\n\nHyeonho Jeong",
+  "method": "2022 ) , the advent of diffusion models  (Ho et al.,  2020 ; Song et al.,  2020b )  has revolutionized text-to-image (T2I) generation, making it increasingly accessible to generate high-quality images",
+  "results": "s, i.e.\n\nΔ  ​  τ\n\n=\n\n{\n\nτ  a\n\n→\n\nτ\n\na  ′\n\n,\n\nτ  b\n\n→\n\nτ\n\nb  ′\n\n,\n\nτ  c\n\n→\n\nτ  c\n\n,  …\n\n,\n\n∅  →\n\nτ\n\nn  ​  e  ​  w\n\n}\n\nΔ  𝜏\n\nformulae-sequence\n\n→\n\nsubscript  𝜏  𝑎\n\nsubscript  𝜏\n\nsuperscript  𝑎  ′\n\n",
+  "conclusion": "x semantic combination by localizing each semantic element with precise location.\nRecently, grounding has been successfully employed to text-to-image generation tasks.\n Li et al. ( 2023b )  and  Yang "
+}

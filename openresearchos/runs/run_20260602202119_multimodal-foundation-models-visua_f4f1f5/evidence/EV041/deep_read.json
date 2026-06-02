@@ -1,0 +1,29 @@
+{
+  "title": "Walk&Retrieve: Simple Yet Effective Zero-shot Retrieval-Augmented Generation via Knowledge Graph Walks",
+  "license": "acmlicensed",
+  "journal_year": 2025,
+  "doi": "XXXXXXX.XXXXXXX",
+  "conference": {
+    "name": "Information Retrieval's Role in RAG Systems",
+    "date": "July 17, 2025",
+    "location": "Padua, Italy"
+  },
+  "ccs_terms": [
+    "Information systems, Information retrieval",
+    "Information systems, Language models",
+    "Information systems, Question answering"
+  ],
+  "focus": "Retrieval-Augmented Generation (RAG) systems using Knowledge Graphs",
+  "method": "Walk&Retrieve framework combining walk-based graph traversal with knowledge verbalization",
+  "evidence_id": "EV041",
+  "year": 2025,
+  "arxiv_id": "2505.16849",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

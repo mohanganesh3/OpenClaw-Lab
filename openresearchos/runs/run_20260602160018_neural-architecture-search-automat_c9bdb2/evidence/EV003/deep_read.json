@@ -1,0 +1,41 @@
+{
+  "title": "Guided Evolution for Neural Architecture Search",
+  "methodology": {
+    "components": [
+      "Search space",
+      "Search method",
+      "Performance estimation strategy"
+    ],
+    "search_methods": [
+      "Reinforcement learning",
+      "Evolutionary strategies",
+      "Gradient-based methods"
+    ]
+  },
+  "results": {
+    "challenges": [
+      "High computational cost (months of GPU computation)",
+      "Failure to generalize to new datasets due to converging to local minima"
+    ],
+    "mitigation_approaches": [
+      "Cell-based design",
+      "Performance estimation strategies (low-fidelity estimates, learning curve extrapolations, statistical approaches)",
+      "One-shot methods"
+    ]
+  },
+  "applications": [
+    "Image problems",
+    "Text problems"
+  ],
+  "evidence_id": "EV003",
+  "year": 2021,
+  "arxiv_id": "2110.15232",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

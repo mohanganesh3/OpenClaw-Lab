@@ -1,0 +1,6 @@
+{
+  "introduction": "[2505.14604] Let LLMs Break Free from Overthinking via Self-Braking Tuning\n\nLet LLMs Break Free from Overthinking\n\nvia Self-Braking Tuning\n\nHaoran Zhao  1,2,*\n\n&amp; Yuchen Yan  1,*\n\n&amp; Yongliang S",
+  "method": "atical benchmarks (AIME, AMC, MATH500, GSM8K) demonstrate that our method reduces token consumption by up to 60% while maintaining comparable accuracy to unconstrained models.\n\n1\n\n1  footnotetext:\n\nTh",
+  "results": ";\n\nyeo2025demystifying ,  ) ; (2)  Reasoning output optimization : Dynamically reducing the number of reasoning steps and output length during inference\n\nma2025reasoning\n\n;\n\nyang2025dynamic\n\n;\n\nzhang2",
+  "conclusion": "wo complementary data construction strategies: (1) Self-Braking Tuning Exact (SBT-E), which strictly removes redundant reasoning segments based on predefined braking points, allowing the model to ente"
+}

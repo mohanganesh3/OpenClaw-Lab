@@ -1,0 +1,29 @@
+{
+  "title": "Token-Importance Guided Direct Preference Optimization",
+  "method": "Token-Importance Guided Direct Preference Optimization (TI-DPO)",
+  "problem": "Traditional Direct Preference Optimization (DPO) treats all tokens equally during preference optimization, which can lead to issues where critical tokens are not properly weighted, potentially overlooking important distinctions in generated responses.",
+  "solution": "TI-DPO uses gradient attribution to dynamically compute token-importance weights, focusing optimization on critical tokens that most influence human judgments.",
+  "key_innovations": [
+    "Uses gradient attribution to compute token-importance weights",
+    "Incorporates triplet loss with gradient-based token importance weighting",
+    "Constructs a 'good-bad' triplet relationship by incorporating intermediate generated outputs"
+  ],
+  "theoretical_contribution": "Theorem 4.2 proves that TI-DPO achieves a tighter loss bound than DPO, ensuring more stable optimization.",
+  "related_work": [
+    "Direct Preference Optimization (DPO)",
+    "ORPO, f-DPO, and CPO (preference optimization models)",
+    "TDPO, Logic-RL, RTO, and SimPO (token-level variants of DPO)"
+  ],
+  "applications": "Alignment of large language models (LLMs) with human preferences, particularly in scenarios where token-level precision is critical (e.g., medical advice generation).",
+  "evidence_id": "EV014",
+  "year": 2025,
+  "arxiv_id": "2505.19653",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

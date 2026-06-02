@@ -1,0 +1,38 @@
+{
+  "title": "Information-Theoretic Reward Decomposition for Generalizable RLHF",
+  "sections": {
+    "introduction": {
+      "topic": "Reinforcement Learning from Human Feedback (RLHF) for Large Language Models (LLMs) alignment",
+      "key_points": [
+        "Reward learning plays a pivotal role in RLHF methods",
+        "Standard reward training doesn't guarantee sufficient generalization capability",
+        "Reward models often focus on distinguishing chosen vs. rejected responses without considering the corresponding prompt",
+        "Uses Bradley-Terry (BT) model as an example to illustrate the issue"
+      ]
+    },
+    "results": {
+      "findings": [
+        "Reward models can maintain reward gaps even when prompts are replaced with other prompts",
+        "Responses can dominate the reward gap, leading to poor generalization",
+        "Identifies two components of reward value: 'prompt-free reward' and 'prompt-related reward'"
+      ],
+      "proposed_solution": "A novel method of decomposition from an information-theoretic perspective"
+    },
+    "method": {
+      "problem": "Failure case where the reward gap overly depends on responses",
+      "description": "Solid lines represent prompt-response pairs used in training, while dashed lines represent non-corresponding pairs",
+      "issue": "The reward gap generalizes poorly to novel prompt-response pairs"
+    }
+  },
+  "evidence_id": "EV027",
+  "year": 2025,
+  "arxiv_id": "2504.06020",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7997,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "introduction": "[2405.20421] Worse than Random? An Embarrassingly Simple Probing Evaluation of Large Multimodal Models in Medical VQA\n\nWorse than Random?\n\nAn Embarrassingly Simple Probing Evaluation of Large Multimod",
+  "method": "s the urgent need for more robust evaluation to ensure the reliability of LMMs in critical fields like medical diagnosis, and current LMMs are still far from applicable to those fields.\n https://githu",
+  "results": "ite the high accuracy reported on current Med-VQA tasks, our study reveals a significant vulnerability in LMMs when faced with adversarial questioning, as illustrated in Figure\n\n1  .\nThe performance d",
+  "conclusion": "ke Condition/Finding and Position, highlighting their limitations in handling fine-grained medical inquiries.  Second , introducing adversarial pairs significantly reduced the accuracy of all models, "
+}

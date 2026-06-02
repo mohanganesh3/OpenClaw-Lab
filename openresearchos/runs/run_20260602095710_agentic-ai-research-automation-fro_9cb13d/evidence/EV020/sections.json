@@ -1,0 +1,6 @@
+{
+  "introduction": "[2510.09567] Safe, Untrusted, “Proof-Carrying” AI Agents: toward the agentic lakehouse Thanks to [1] for coming up with a great title (a long time ago, for a different type of agents).\n\nSafe, Untruste",
+  "method": "r to these challenges: we detail lakehouse abstractions suitable for automation, and operationalize a prototype for an important use case:  repairing data pipelines .\n\nPipelines are a compelling case ",
+  "results": "experimental benchmark.\n\nWe believe that sharing working code is of great value to the community, especially in times of quickly shifting mental models. However, it is important to remember that our f",
+  "conclusion": "ng 1:  P as the Python file  p.py\n\n⬇\n\n@bauplan  .  model  (  materialization  =  \"REPLACE\"  ,\n\nname  =  \"A\"  )\n\n@bauplan  .  python  (  \"3.10\"  ,\n\npip  ={  \"pandas\"  :\n\n\"2.0\"  })\n\ndef\n\njoin_and_filter"
+}

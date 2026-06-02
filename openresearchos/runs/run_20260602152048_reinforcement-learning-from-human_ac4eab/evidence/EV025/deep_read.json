@@ -1,0 +1,35 @@
+{
+  "title": "ARES: Alternating Reinforcement Learning and Supervised Fine-Tuning for Enhanced Multi-Modal Chain-of-Thought Reasoning Through Diverse AI Feedback",
+  "code_repository": "https://github.com/Amyyyyeah/ARES",
+  "key_challenges": [
+    "Ranking-based feedback issues in RLHF and RLAIF",
+    "Instability in RL process requiring extensive hyperparameter tuning"
+  ],
+  "proposed_solution": "Alternating RL and SFT with sentence-level feedback from an AI Teacher",
+  "results": {
+    "accuracy_improvement": "2.5% increase in inference answer accuracy on average for multi-modal datasets"
+  },
+  "key_components": [
+    "RL (Reinforcement Learning)",
+    "SFT (Supervised Fine-Tuning)",
+    "AI Teacher for feedback",
+    "Multi-modal datasets"
+  ],
+  "related_work": [
+    "RLHF (Reinforcement Learning from Human Feedback)",
+    "RLAIF (Reinforcement Learning from AI Feedback)",
+    "PRM (Process-supervised Reward Model)",
+    "PPO (Proximal Policy Optimization)"
+  ],
+  "evidence_id": "EV025",
+  "year": 2024,
+  "arxiv_id": "2407.00087",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "method_summary": "Research paper: AI-Researcher: Autonomous Scientific Innovation",
+  "key_innovation": "See full text",
+  "datasets_used": [],
+  "baselines_compared": [],
+  "key_results": {},
+  "best_result": null,
+  "limitations_stated": [],
+  "code_available": true,
+  "code_url": "https://github.com/HKUDS/AI-Researcher",
+  "reproducibility": "unknown",
+  "compute_required": "unknown",
+  "can_run_on_macbook": true,
+  "evidence_id": "EV029",
+  "title": "AI-Researcher: Autonomous Scientific Innovation",
+  "year": 2025,
+  "arxiv_id": "2505.18705",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

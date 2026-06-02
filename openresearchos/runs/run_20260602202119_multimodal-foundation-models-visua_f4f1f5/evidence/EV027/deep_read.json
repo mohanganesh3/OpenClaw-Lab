@@ -1,0 +1,38 @@
+{
+  "method_summary": "SIRA is a training-free internal contrastive decoding framework that constructs a counterfactual reference inside the same LVLM by exploiting the staged information flow of multimodal transformers. It first lets image and text tokens interact through a shared prefix, forming an aligned multimodal state, then forks a counterfactual branch in later transformer layers where attention to image-token positions is masked.",
+  "key_innovation": "The staged information flow approach that creates a counterfactual branch within the same LVLM without external tools or training, using a shared prefix for multimodal alignment followed by a masked branch for language-prior-dominated contrast.",
+  "datasets_used": [
+    "POPE",
+    "CHAIR",
+    "AMBER"
+  ],
+  "baselines_compared": [
+    "two-pass contrastive decoding"
+  ],
+  "key_results": {
+    "hallucination_reduction": "consistently reduces hallucinations",
+    "overhead": "lower overhead than two-pass contrastive decoding",
+    "coverage": "preserves descriptive coverage"
+  },
+  "best_result": "Not numerically specified in the text",
+  "limitations_stated": [
+    "The provided text doesn't explicitly state limitations of the approach."
+  ],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "not specified",
+  "compute_required": "not specified",
+  "can_run_on_macbook": "not specified",
+  "evidence_id": "EV027",
+  "title": "Do We Really Need External Tools to Mitigate Hallucinations? SIRA: Shared-Prefix Internal Reconstruction of Attribution",
+  "year": 2026,
+  "arxiv_id": "2605.14621",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 5886,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

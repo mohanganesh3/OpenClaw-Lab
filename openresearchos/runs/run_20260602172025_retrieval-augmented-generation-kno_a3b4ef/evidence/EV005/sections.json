@@ -1,0 +1,6 @@
+{
+  "introduction": "[2511.19257] Medusa: Cross-Modal Transferable Adversarial Attacks on Multimodal Medical Retrieval-Augmented Generation\n\nMedusa: Cross-Modal Transferable Adversarial Attacks on Multimodal Medical Retri",
+  "method": "els and retrievers under appropriate parameter configuration, while remaining robust against four mainstream defenses, outperforming state-of-the-art baselines. Our results reveal critical vulnerabili",
+  "results": "more informative outputs in high-stakes environments. A prominent example from industry is Med-PaLM  (Singhal et al.,  2023 )  developed by Google Cloud, a medical VLM system that integrates multimoda",
+  "conclusion": "montis et al.,  2019 ) , which is a critical property for real-world attacks that operate under limited access assumptions. In  MMed-RAG  systems, where inputs generally span both images and text and "
+}

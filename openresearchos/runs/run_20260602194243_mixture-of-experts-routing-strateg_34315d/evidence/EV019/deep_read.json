@@ -1,0 +1,65 @@
+{
+  "title": "When Models Know When They Do Not Know: Calibration, Cascading, and Cleaning",
+  "authors": [
+    "Corresponding author"
+  ],
+  "abstract": "The paper introduces a unified framework for model calibration that applies to both vision and language models across diverse tasks. Based on two core observations about confidence and calibration, the authors propose applications in model cascading and data cleaning.",
+  "methodology": {
+    "core_observations": [
+      "For a single model, confidence functions defined as likelihoods from logits exhibit an approximate monotonic relation",
+      "Confidence calibrated on a validation set remains calibrated on a held-out test set"
+    ],
+    "applications": [
+      {
+        "name": "Model cascading",
+        "description": "A training-free cascading method using calibrated confidence to determine whether to invoke a larger model",
+        "tasks": [
+          "image classification",
+          "code generation",
+          "reasoning and math",
+          "knowledge-intensive QA"
+        ]
+      },
+      {
+        "name": "Data cleaning",
+        "description": "Using calibrated confidence with a mixture-of-experts approach for data cleaning",
+        "datasets": [
+          "ImageNet-1K",
+          "MMLU"
+        ]
+      }
+    ]
+  },
+  "results": {
+    "datasets": [
+      "ImageNet-1K",
+      "MBPP",
+      "BigCodeBench",
+      "ARC-Challenge",
+      "GSM8K",
+      "MMLU"
+    ],
+    "key_findings": [
+      "Cascading achieves an effective balance of accuracy and efficiency",
+      "Cascading two state-of-the-art models achieves accuracy beyond the previous state of the art on ImageNet-1K",
+      "Data cleaning method outperforms prior methods in both accuracy and detection power"
+    ]
+  },
+  "contributions": [
+    "Formalizing a unified framework for calibration, cascading, and cleaning",
+    "Demonstrating the reliability and cross-model comparability of calibrated confidence",
+    "Showing effective balance of accuracy and efficiency through cascading",
+    "Outperforming prior methods in data cleaning"
+  ],
+  "evidence_id": "EV019",
+  "year": 2026,
+  "arxiv_id": "2601.07965",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

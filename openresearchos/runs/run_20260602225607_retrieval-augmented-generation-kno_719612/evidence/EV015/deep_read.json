@@ -1,0 +1,33 @@
+{
+  "title": "Energy Landscapes Enable Reliable Abstention in Retrieval-Augmented Large Language Models for Healthcare",
+  "keywords": [
+    "Large language models",
+    "RAG",
+    "model uncertainty",
+    "hallucination detection",
+    "women's health"
+  ],
+  "abstract": "The paper discusses energy-based abstention scoring in Retrieval-Augmented Generation (RAG) systems for healthcare applications. It demonstrates that energy-based scoring provides more reliable confidence signals than probability-based softmax confidence, which is important for safe RAG systems.",
+  "introduction": "The paper introduces the challenge of LLMs generating fluent errors in healthcare applications and emphasizes the importance of robust abstention mechanisms. It discusses how RAG systems in healthcare can be constrained to cited sources with known provenance, which limits reliance on memorized web text and supports auditability.",
+  "methodology": "The paper mentions energy-based abstention scoring as a method that offers more reliable confidence signals than probability-based softmax confidence. It discusses how the inclusion or exclusion of specific negative types (hard, easy, mixed) sharpens decision boundaries but is not essential for generalization to hard cases.",
+  "results": "The paper identifies two classes of queries that should trigger abstention: (1) Domain-irrelevant prompts outside healthcare expertise (e.g., finance or economics questions) and (2) Domain-relevant but out-of-scope queries relative to the model's training or validation (e.g., applying pregnancy-specific protocols to non-pregnant adults). The paper also references prior work in women's health that underscores the need for principled abstention.",
+  "domain": "Healthcare",
+  "focus_area": "Women's health",
+  "technique": "Retrieval-Augmented Generation (RAG)",
+  "abstention_method": "Energy-based abstention scoring",
+  "comparison": "Energy-based scoring vs. probability-based softmax confidence",
+  "research_focus": "Abstention mechanisms in RAG systems for healthcare",
+  "problem_addressed": "LLMs generating fluent errors in healthcare applications when inputs fall outside scope or when retrieved evidence is sparse or misleading",
+  "solution_proposed": "Energy-based abstention scoring that offers more reliable confidence signals than probability-based softmax confidence",
+  "evidence_id": "EV015",
+  "year": 2025,
+  "arxiv_id": "2509.04482",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

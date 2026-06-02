@@ -1,0 +1,43 @@
+{
+  "paper_metadata": {
+    "title": "Corruption Robust Offline Reinforcement Learning with Human Feedback",
+    "method": "Corruption robust RLHF method reducing to corruption robust offline RL",
+    "key_innovation": "First work providing provable corruption robust offline RLHF methods",
+    "assumptions": "Not fully specified in provided text"
+  },
+  "method_details": {
+    "oracle_used": "R-LSVI [Zha+22]",
+    "coverage_types": [
+      "Uniform Coverage",
+      "Low Relative Condition Number",
+      "Generalized Coverage Ratio"
+    ],
+    "performance_metrics": {
+      "uniform_coverage": "O(ε^(1-o(1))) suboptimality gap",
+      "low_relative_condition_number": "O(ε^(1/4)) suboptimality gap",
+      "oracle_calls": "O(1/(εν)) where ν is generalized coverage ratio"
+    }
+  },
+  "results": {
+    "table_1_comparison": {
+      "uniform_coverage": "O((H³ + √(Hd))/ξ * ε^(1-o(1))) oracle calls",
+      "relative_condition_number": {
+        "R-LSVI": "O(H²dκ√(αε)) + O(H^(5/4)d^(3/4)(αε)^(1/4))",
+        "R-LSVI_zero_order": "O(H^(3/2)d^5/ε³)"
+      },
+      "generalized_coverage_ratio": "O(νκ√(ε)H²d^(3/2))"
+    }
+  },
+  "evidence_id": "EV005",
+  "title": "Corruption Robust Offline Reinforcement Learning with Human Feedback",
+  "year": 2024,
+  "arxiv_id": "2402.06734",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7997,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

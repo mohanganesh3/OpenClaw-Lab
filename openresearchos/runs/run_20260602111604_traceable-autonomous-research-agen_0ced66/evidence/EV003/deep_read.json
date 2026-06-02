@@ -1,0 +1,28 @@
+{
+  "title": "Agent Laboratory: Using LLM Agents as Research Assistants",
+  "method": "Agent Laboratory is a framework that accepts human-provided research ideas and progresses through three stages: literature review, experimentation, and report writing to produce comprehensive research outputs, including a code repository and a research report. Users can provide feedback and guidance at each stage.",
+  "implementation": "Agent Laboratory was deployed with various state-of-the-art LLMs. Multiple researchers participated in a survey to assess quality, provided human feedback to guide the research process, and evaluated the final papers.",
+  "findings": [
+    "Agent Laboratory driven by o1-preview generates the best research outcomes",
+    "The generated machine learning code achieves state-of-the-art performance compared to existing methods",
+    "Human involvement, providing feedback at each stage, significantly improves the overall quality of research",
+    "Agent Laboratory significantly reduces research expenses, achieving an 84% decrease compared to previous autonomous research methods"
+  ],
+  "subjects": [
+    "Human-Computer Interaction (cs.HC)",
+    "Artificial Intelligence (cs.AI)",
+    "Computation and Language (cs.CL)",
+    "Machine Learning (cs.LG)"
+  ],
+  "evidence_id": "EV003",
+  "year": 2025,
+  "arxiv_id": "2501.04227",
+  "full_text_tool": "arxiv_abstract_openclaw",
+  "full_text_chars": 5667,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

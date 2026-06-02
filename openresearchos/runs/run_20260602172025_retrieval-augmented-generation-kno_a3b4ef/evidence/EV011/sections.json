@@ -1,0 +1,6 @@
+{
+  "introduction": "[2508.19428] 1 Introduction\n\n\\TIBauthor\n\n[A. Beliaeva and T. Rahmatullaev]Aleksandra Beliaeva * \\affOne  \\affTwo  \\affThree  and Temurbek Rahmatullaev * \\affFour  \\affFive\n\n\\TIBaffiliations\n\n\\affOne S",
+  "method": "lexical augmentation\nTask B, which involves assigning types to given terms, is handled via a dual strategy. In the few-shot setting (for domains with labeled training data), we reuse the RAG scheme wi",
+  "results": "g, taxonomy induction, and non-taxonomic relation extraction—evaluated over diverse domains. The results suggest that, while base LLMs exhibit strong baseline capabilities, task-specific finetuning si",
+  "conclusion": "lar LLM-based system for ontology learning, covering term extraction, term typing, and taxonomy induction across Tasks A, B, and C of the LLMs4OL 2025 challenge.\n\n2.\n\nWe introduce a simple yet effecti"
+}

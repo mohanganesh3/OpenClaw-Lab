@@ -1,0 +1,6 @@
+{
+  "introduction": "[2010.04683] Smooth Variational Graph Embeddings for Efficient Neural Architecture Search The authors acknowledge support by the German Federal Ministry of Education and Research Foundation via the pr",
+  "method": "on or reinforcement learning.\n\nIndex Terms:\n\nrepresentation learning, neural architecture search, graph neural network, deep learning\n\nI\n\nIntroduction\n\nRecent progress in computer vision is to a large",
+  "results": "uous graph representations. D-VAE aggregates information in the architecture GNN alternatingly in the forward pass and in the backward pass to encode the neural network information flow. However, the ",
+  "conclusion": ".\n(iii) We conduct extensive evaluations on the ENAS  [ 13 ] , NAS-Bench-101  [ 22 ]  and NAS-Bench-201 [ 23 ]  search spaces and show that our approach allows for competitive BO results in all three "
+}

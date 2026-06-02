@@ -1,0 +1,70 @@
+{
+  "paper_title": "Elastic Weight Consolidation Improves the Robustness of Self-Supervised Learning Methods under Transfer",
+  "methodology": {
+    "approach": "Bayesian continual learning",
+    "technique": "Elastic Weight Consolidation (EWC)",
+    "regularizer": "Fisher Information Matrix (FIM)",
+    "conceptual_framework": "Treat SSL pre-training and fine-tuning as sequential tasks"
+  },
+  "models": [
+    {
+      "name": "DINO",
+      "architecture": "ViT-B/16",
+      "reference": "Caron et al., 2021"
+    },
+    {
+      "name": "DINO",
+      "architecture": "ResNet50",
+      "reference": "He et al., 2016"
+    }
+  ],
+  "datasets": [
+    {
+      "name": "ImageNet1k",
+      "reference": "Deng et al., 2009",
+      "usage": "Pre-training with subset for FIM computation"
+    },
+    {
+      "name": "CIFAR10",
+      "reference": "Not specified",
+      "usage": "Validation of FIM accuracy via reverse transfer"
+    },
+    {
+      "name": "Waterbirds",
+      "reference": "Sagawa et al., 2019",
+      "usage": "Evaluation for worst group accuracy improvement"
+    },
+    {
+      "name": "Celeb-A",
+      "reference": "Liu et al., 2015",
+      "usage": "Evaluation for worst group accuracy improvement"
+    }
+  ],
+  "key_findings": [
+    {
+      "observation": "FIM for ViT-B/16 is poorly conditioned",
+      "impact": "Makes it impossible to fully recover SSL performance on ImageNet1k"
+    },
+    {
+      "result": "Regularization improves worst group accuracy on Waterbirds by 5%",
+      "dataset": "Waterbirds"
+    },
+    {
+      "result": "Regularization improves worst group accuracy on Celeb-A by 2%",
+      "dataset": "Celeb-A"
+    }
+  ],
+  "problem_addressed": "Drift in self-supervised learning representations during fine-tuning to downstream tasks, and catastrophic forgetting in sequential learning",
+  "evidence_id": "EV015",
+  "title": "Elastic Weight Consolidation Improves the Robustness of Self-Supervised Learning Methods under Transfer",
+  "year": 2022,
+  "arxiv_id": "2210.16365",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "method_summary": "A declarative stack that encodes experiments as configurations, which are compiled to device-level APIs for AI-driven scientific discovery.",
+  "key_innovation": "The synthesis of a general, science- and instrument-independent stack bridging AI agents and automated lab equipment through declarative experiment configurations.",
+  "datasets_used": [],
+  "baselines_compared": [],
+  "key_results": {},
+  "best_result": "",
+  "limitations_stated": [
+    "The paper acknowledges that Eureka moments could occur at any time while operating lab instruments, which may not be fully captured by the proposed automated system."
+  ],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "low",
+  "compute_required": "",
+  "can_run_on_macbook": false,
+  "evidence_id": "EV033",
+  "title": "Experiment-as-Code Labs: A Declarative Stack for AI-Driven Scientific Discovery",
+  "year": 2026,
+  "arxiv_id": "2605.04375",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 5733,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

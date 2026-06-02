@@ -1,0 +1,37 @@
+{
+  "method_summary": "The authors built a high-throughput automated executor to implement and evaluate LLM-generated research ideas in parallel, using the execution results as feedback to guide an evolutionary search and reinforcement learning process for the ideator model.",
+  "key_innovation": "A large-scale, high-throughput automated idea executor capable of implementing and evaluating hundreds of LLM-generated research ideas for GPU-intensive, open-ended research problems in parallel.",
+  "datasets_used": [],
+  "baselines_compared": [
+    "GRPO",
+    "nanoGPT",
+    "best-of-N"
+  ],
+  "key_results": {
+    "post_training_recipe_performance": "69.4% vs 48.0% (GRPO baseline)",
+    "pre_training_wallclock_time": "19.7 minutes vs 35.9 minutes (nanoGPT baseline)",
+    "execution_rate": "over 90%"
+  },
+  "best_result": "Execution-guided evolutionary search found a post-training recipe outperforming the GRPO baseline by 21.4 percentage points on math reasoning.",
+  "limitations_stated": [
+    "RL causes the ideator model to converge on a few easy-to-implement ideas, resulting in a collapse in thinking length and idea diversity.",
+    "Only Claude-4.5-Opus shows a clear scaling curve, while both Claude-4.5-Sonnet and GPT-5 tend to saturate early."
+  ],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "medium",
+  "compute_required": "GPU-intensive (implied by LLM pre-training and post-training on 1.5B models)",
+  "can_run_on_macbook": false,
+  "evidence_id": "EV026",
+  "title": "Towards Execution-Grounded Automated AI Research",
+  "year": 2026,
+  "arxiv_id": "2601.14525",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "title": "Rapid Model Architecture Adaption for Meta-Learning",
+  "problem": {
+    "description": "Current NAS methods focus on single tasks with fixed hardware, but real deployments require multiple tasks and hardware platforms",
+    "complexity": "O(THC) where T=tasks, H=hardware platforms, C=constraints"
+  },
+  "key_concepts": [
+    "Few-shot learning: N-way K-shot formulation",
+    "Model-Agnostic Meta-Learning (MAML)",
+    "Hardware-aware NAS",
+    "H-Meta-NAS"
+  ],
+  "methodology": {
+    "approach": "Integration of MAML framework into hardware-aware NAS",
+    "novel_techniques": [
+      "Global Expansion (GE)",
+      "Adaptive Number of Layers (ANL)"
+    ],
+    "theoretical_complexity_reduction": "From O(THC) to O(1)"
+  },
+  "challenges_addressed": [
+    "Over-parameterization in NAS search space causing overfitting",
+    "Prolonged profiling of latency for sub-networks"
+  ],
+  "results": {
+    "maml_complexity": "Reduced from O(THC) to O(HC)",
+    "hardware_aware_nas_complexity": "Reduced from O(THC) to O(T)",
+    "h_meta_nas_complexity": "Theoretically reduced to O(1)"
+  },
+  "evidence_id": "EV005",
+  "year": 2021,
+  "arxiv_id": "2109.04925",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

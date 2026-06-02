@@ -1,0 +1,34 @@
+{
+  "method_summary": "PAT is an adaptive tensor parallelism method that dynamically reconfigures tensor parallelism during the generation stage of RLHF training, using a predictor-guided online reconfiguration method and a lightweight online reconfiguration mechanism.",
+  "key_innovation": "Dynamic reconfiguration of tensor parallelism during generation to adapt to changing batch characteristics, unlike static tensor parallelism used in mainstream frameworks.",
+  "datasets_used": [
+    "LLaMA3.1-8B",
+    "Qwen3-14B"
+  ],
+  "baselines_compared": [
+    "original VeRL setup"
+  ],
+  "key_results": {
+    "generation_latency_reduction": "34.6%",
+    "end_to_end_rlhf_training_iteration_latency_reduction": "27.2%"
+  },
+  "best_result": "PAT reduces generation latency by up to 34.6% and end-to-end RLHF training iteration latency by up to 27.2% compared to the original VeRL setup.",
+  "limitations_stated": [],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "not specified",
+  "compute_required": "not specified",
+  "can_run_on_macbook": false,
+  "evidence_id": "EV006",
+  "title": "Accelerating Long-Tail Generation in Synchronous RLHF Training via Adaptive Tensor Parallelism",
+  "year": 2026,
+  "arxiv_id": "2605.23945",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 5696,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

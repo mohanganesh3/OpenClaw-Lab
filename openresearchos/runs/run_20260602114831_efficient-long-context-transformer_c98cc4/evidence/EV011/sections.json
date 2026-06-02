@@ -1,0 +1,6 @@
+{
+  "introduction": "[2310.01889] Ring Attention with Blockwise Transformers for Near-Infinite Context\n\nRing Attention with Blockwise\n\nTransformers for Near-Infinite Context\n\nHao Liu, Matei Zaharia, Pieter Abbeel\n\nUC Berk",
+  "method": "uence length,\nwhich makes it challenging to scale to longer input sequences.\nLarge context Transformers are essential for\ntackling a diverse array of AI challenges, ranging from processing books and h",
+  "results": "of sequences that exceed millions in length without making approximations nor adding any overheads to communication and computation.\n\nThese components facilitate the efficient capture of long-range de",
+  "conclusion": "parallel transformers  [ 23 ]  to substantially reduce memory costs, enabling zero-overhead scaling of context size across tens of millions of tokens during both training and inference, and allowing f"
+}

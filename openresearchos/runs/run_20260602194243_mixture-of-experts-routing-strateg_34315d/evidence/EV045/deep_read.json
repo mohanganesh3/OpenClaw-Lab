@@ -1,0 +1,50 @@
+{
+  "title": "Mixture of States: Routing Token-Level Dynamics for Multimodal Generation",
+  "focus_tasks": [
+    "text-to-image generation",
+    "instruction-based image editing"
+  ],
+  "core_challenge": "effectively aligning textual and visual signals",
+  "modeling_objectives": {
+    "text_models": [
+      "contrastive learning",
+      "masked-token prediction",
+      "next-token prediction"
+    ],
+    "visual_models": [
+      "diffusion-based generation",
+      "flow matching"
+    ]
+  },
+  "backbone_architecture": "transformer architecture",
+  "fusion_strategies": [
+    {
+      "name": "Cross-attention methods",
+      "description": "insert new attention blocks into the visual model, projecting text embeddings onto key-value vectors to enable cross-modal token interactions"
+    },
+    {
+      "name": "Self-attention methods",
+      "description": "concatenate text and visual tokens into a unified sequence, processed by shared attention layers"
+    },
+    {
+      "name": "MoT (Mixture-of-Transformers)",
+      "description": "establishing layer-wise cross-modal connections by sharing key-value vectors between corresponding text and visual blocks"
+    }
+  ],
+  "design_principles": [
+    "Layer selection should be adaptive, not fixed",
+    "Conditional signals should be dynamic and timestep-dependent",
+    "[Third principle not visible in excerpt]"
+  ],
+  "evidence_id": "EV045",
+  "year": 2025,
+  "arxiv_id": "2511.12207",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "paper_title": "Hit-Detector: Hierarchical Trinity Architecture Search for Object Detection",
+  "methodology": {
+    "approach": "Neural Architecture Search (NAS)",
+    "key_innovation": "Hierarchical Trinity Architecture Search",
+    "description": "Searches for optimal architectures across all components of the detector (backbone, neck, and head) rather than just one component at a time"
+  },
+  "object_detection_components": [
+    {
+      "component": "Backbone",
+      "function": "Extracting semantic features",
+      "examples": [
+        "ResNet-50",
+        "ResNeXt-101"
+      ]
+    },
+    {
+      "component": "Neck",
+      "function": "Fusing multi-level features",
+      "examples": [
+        "Feature Pyramid Networks (FPN)"
+      ]
+    },
+    {
+      "component": "RPN",
+      "function": "Generating proposals (usually in two-stage detector)"
+    },
+    {
+      "component": "Head",
+      "function": "Object classification and bounding box regression"
+    }
+  ],
+  "key_findings": [
+    {
+      "model": "NAS-FPN",
+      "component": "Neck",
+      "mAP": "38.9%"
+    },
+    {
+      "model": "DetNAS",
+      "component": "Backbone",
+      "mAP": "40.2%"
+    },
+    {
+      "model": "NAS-FPN + DetNAS",
+      "description": "Straightforward combination",
+      "mAP": "39.4%"
+    },
+    {
+      "model": "Hit-Detector",
+      "description": "Proposed model",
+      "mAP": "41.4%"
+    }
+  ],
+  "benchmark": "COCO benchmark",
+  "model_parameters": {
+    "Hit-Detector": {
+      "backbone": "13.9M",
+      "neck": "2.7M",
+      "head": "9.9M"
+    },
+    "NAS-FPN": {
+      "backbone": "23.5M",
+      "neck": "30.4M",
+      "head": "14.3M"
+    },
+    "DetNAS": {
+      "backbone": "9.4M",
+      "neck": "2.8M",
+      "head": "15.6M"
+    }
+  },
+  "evidence_id": "EV026",
+  "title": "Hit-Detector: Hierarchical Trinity Architecture Search for Object Detection",
+  "year": 2020,
+  "arxiv_id": "2003.11818",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7997,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

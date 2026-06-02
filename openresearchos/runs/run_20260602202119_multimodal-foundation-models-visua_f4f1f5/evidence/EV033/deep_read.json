@@ -1,0 +1,34 @@
+{
+  "method_summary": "A retrieval-augmented framework using open-weight reasoning models with retrieved news articles and academic paper abstracts to assign AI exposure labels to occupation-task pairs in O*NET 30.2",
+  "key_innovation": "Using external evidence (news articles and academic abstracts) to ground AI exposure measurements rather than relying solely on model priors",
+  "datasets_used": [
+    "O*NET 30.2"
+  ],
+  "baselines_compared": [
+    "zero-shot baseline"
+  ],
+  "key_results": {
+    "preference_rate": "72%"
+  },
+  "best_result": "The grounded condition is preferred in over 72% of disagreement cases under both automatic and human evaluation",
+  "limitations_stated": [
+    "AI capabilities continue to change, requiring periodic reassessment of measurements"
+  ],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "high",
+  "compute_required": null,
+  "can_run_on_macbook": null,
+  "evidence_id": "EV033",
+  "title": "Jobs'AI Exposure Should Be Measured from Evidence, Not Model Priors",
+  "year": 2026,
+  "arxiv_id": "2605.15474",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 5543,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

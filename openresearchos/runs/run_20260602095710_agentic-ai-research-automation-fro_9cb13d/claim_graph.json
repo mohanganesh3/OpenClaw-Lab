@@ -1,0 +1,948 @@
+{
+  "claims": [
+    {
+      "claim_id": "CL001",
+      "evidence_id": "EV001",
+      "text": "POLARIS is a modular orchestration framework for back-office automation that treats the process as planning over typed agents, using a Chain-of-Action planner for type-checked DAGs, a rubric-based selector for policy-aware selection, and guarded execution with validators and compiled policy checks.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "synthetic invoice suites",
+        "SROIE benchmark"
+      ],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL002",
+      "evidence_id": "EV002",
+      "text": "The paper presents a comprehensive survey methodology that systematically examines trustworthy agentic AI through two core dimensions (Safety and Robustness, Privacy and System Security), identifying risks across agent workflows, and consolidating evaluation into a unified metrics-and-benchmarks framework.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL003",
+      "evidence_id": "EV003",
+      "text": "The paper is a literature review and conceptual analysis, not a technical study with a specific method.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL004",
+      "evidence_id": "EV004",
+      "text": "Research paper: Securing the Agent: Vendor-Neutral, Multitenant Enterprise Retrieval and Tool Use",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL005",
+      "evidence_id": "EV005",
+      "text": "Proposes using MVCC principles to manage concurrency in lakehouses for AI agents, with data and compute isolation through a unified API to simplify governance challenges.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": "Not applicable - this is a position paper without empirical results"
+    },
+    {
+      "claim_id": "CL006",
+      "evidence_id": "EV006",
+      "text": "The paper presents a socio-technical analysis of agentic AI using the MAD-BAD-SAD construct as an analytical lens, examining how architectural choices in perception, cognition, planning, execution, and memory introduce dependencies related to data governance, accountability, transparency, safety, and sustainability.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": "Not applicable"
+    },
+    {
+      "claim_id": "CL007",
+      "evidence_id": "EV007",
+      "text": "Research paper: Caging the Agents: A Zero Trust Security Architecture for Autonomous AI in Healthcare",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL008",
+      "evidence_id": "EV008",
+      "text": "Research paper: PaperOrchestra: A Multi-Agent Framework for Automated AI Research Paper Writing",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL009",
+      "evidence_id": "EV009",
+      "text": "Analyzed 1,178 safety and reliability papers from 9,439 generative AI papers written by 5 AI companies and 6 universities using OpenAI's o3-mini for classification and regex keyword searches for high-risk domains",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "Anthropic and OpenAI websites",
+        "OpenAlex database"
+      ],
+      "best_result": "AI governance research is highly concentrated within a handful of uniquely resourced and integrated AI tech companies"
+    },
+    {
+      "claim_id": "CL010",
+      "evidence_id": "EV010",
+      "text": "The paper describes a conceptual framework for integrating generative AI into information access systems, focusing on two paradigms: direct information generation and information synthesis.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL011",
+      "evidence_id": "EV011",
+      "text": "Research paper: Claw AI Lab: An Autonomous Multi-Agent Research Team",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL012",
+      "evidence_id": "EV012",
+      "text": "The authors organized a hackathon to explore the use of generative AI for research and education in materials science, focusing on participants' ability to critically evaluate and use AI-generated content for software trials and development.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL013",
+      "evidence_id": "EV013",
+      "text": "This paper is a chapter discussing research challenges and opportunities in agentic AI reliability, focusing on topics like cascading failures, dynamic environments, and testing methodologies.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL014",
+      "evidence_id": "EV014",
+      "text": "Paper2Agent transforms static research papers into interactive AI agents by extracting the associated codebase, setting up a reproducible environment, wrapping core analytical features as MCP (Model Context Protocol) tools, and deploying a remote server that an AI agent can connect to for natural language interaction with the paper's methods.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL015",
+      "evidence_id": "EV015",
+      "text": "Research paper: Right-to-Act: A Pre-Execution Non-Compensatory Decision Protocol for AI Systems",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL016",
+      "evidence_id": "EV016",
+      "text": "The paper introduces a benchmark called Sola-Visibility-ISPM to evaluate agentic AI systems on Identity Security Posture Management tasks, defining nine operational dimensions for assessment.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL017",
+      "evidence_id": "EV017",
+      "text": "Research paper: Beyond principlism: Practical strategies for ethical AI use in research practices",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL018",
+      "evidence_id": "EV018",
+      "text": "Research paper: SBOMs into Agentic AIBOMs: Schema Extensions, Agentic Orchestration, and Reproducibility Evaluation",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL019",
+      "evidence_id": "EV019",
+      "text": "Research paper: Persistent AI Agents in Academic Research: A Single-Investigator Implementation Case Study",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL020",
+      "evidence_id": "EV020",
+      "text": "The paper introduces programmable lakehouse abstractions for modeling the data lifecycle, operationalizes a prototype for pipeline repair using a ReAct loop, and addresses safety objections for high-stakes automation.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "NYC taxi dataset"
+      ],
+      "best_result": "No specific headline result provided"
+    },
+    {
+      "claim_id": "CL021",
+      "evidence_id": "EV021",
+      "text": "Proposes agentic architectures that reconcile traditional autonomous agent concepts with modern generative models, focusing on reliability through componentisation, interfaces, and supervision.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL022",
+      "evidence_id": "EV022",
+      "text": "Research paper: AEMA: Verifiable Evaluation Framework for Trustworthy and Controlled Agentic LLM Systems",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL023",
+      "evidence_id": "EV023",
+      "text": "The study employs a granular decomposition of NIST CSF 2.0 functions into specific tasks, linking essential AI agent properties (autonomy, adaptive learning, real-time responsiveness) to subcategory security requirements, and outlines graduated levels of autonomy (assisted, augmented, fully autonomous).",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL024",
+      "evidence_id": "EV024",
+      "text": "A head-to-head comparison of two agentic AI systems (Claude Code and Codex) in performing a complete scientific analysis pipeline on simulated gravitational wave data, from signal recovery to manuscript generation.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "Simulated binary black hole signal injections for the Einstein Telescope"
+      ],
+      "best_result": "Claude Code completed the pipeline significantly faster (~3.4 min vs ~16 min) while achieving scientific convergence with Codex."
+    },
+    {
+      "claim_id": "CL025",
+      "evidence_id": "EV025",
+      "text": "End-to-end analysis of AI across the complete research lifecycle, organized into four epistemological phases: Creation, Writing, Validation, and Dissemination, studying developments through April 2026.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL026",
+      "evidence_id": "EV026",
+      "text": "The authors built a high-throughput automated executor to implement and evaluate LLM-generated research ideas in parallel, using the execution results as feedback to guide an evolutionary search and reinforcement learning process for the ideator model.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": "Execution-guided evolutionary search found a post-training recipe outperforming the GRPO baseline by 21.4 percentage points on math reasoning."
+    },
+    {
+      "claim_id": "CL027",
+      "evidence_id": "EV027",
+      "text": "The paper applies methods from quantum physics and machine learning to astrophysical data.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL028",
+      "evidence_id": "EV028",
+      "text": "This paper presents a survey and framework for AutoResearch, analyzing the spectrum of AI-powered scientific workflow automation from human-steered 'Vibe Research' to fully autonomous AI-led systems.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL029",
+      "evidence_id": "EV029",
+      "text": "Research paper: AI-Researcher: Autonomous Scientific Innovation",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL030",
+      "evidence_id": "EV030",
+      "text": "Research paper: The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL031",
+      "evidence_id": "EV031",
+      "text": "Research paper: Robin: A multi-agent system for automating scientific discovery",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL032",
+      "evidence_id": "EV032",
+      "text": "The paper describes a software tool that generates academic articles by analyzing Python code and datasets, without using advanced language models.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL033",
+      "evidence_id": "EV033",
+      "text": "A declarative stack that encodes experiments as configurations, which are compiled to device-level APIs for AI-driven scientific discovery.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL034",
+      "evidence_id": "EV034",
+      "text": "The AI Scientist-v2 uses a progressive agentic tree-search methodology managed by an experiment manager agent, eliminates human-authored code templates, and integrates a Vision-Language Model feedback loop for figure refinement.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": "One manuscript exceeded the average human acceptance threshold at ICLR workshop peer review"
+    },
+    {
+      "claim_id": "CL035",
+      "evidence_id": "EV035",
+      "text": "Research paper: Honest Lying: Understanding Memory Confabulation in Reflexive Agents",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "HumanEval"
+      ],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL036",
+      "evidence_id": "EV036",
+      "text": "Conceptual analysis of XAI challenges for BLV users, identifying the modality gap and proposing accessible XAI approaches",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL037",
+      "evidence_id": "EV037",
+      "text": "Research paper: Mitigating Perceptual Judgment Bias in Multimodal LLM-as-a-Judge via Perceptual Perturbation and Rew",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL038",
+      "evidence_id": "EV038",
+      "text": "Research paper: ProtoAda: Prototype-Guided Adaptive Adapter Expansion and Geometric Consolidation for Multimodal Con",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL039",
+      "evidence_id": "EV039",
+      "text": "Research paper: AdaCodec: A Predictive Visual Code for Video MLLMs",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL040",
+      "evidence_id": "EV040",
+      "text": "ClinEnv is an interactive benchmark that evaluates LLMs as attending physicians through Longitudinal Inpatient Simulation, where models must query four specialized agents at each decision stage before committing to medications, procedures, and diagnoses.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "real inpatient admissions"
+      ],
+      "best_result": "0.31 decision F1 for the strongest model"
+    },
+    {
+      "claim_id": "CL041",
+      "evidence_id": "EV041",
+      "text": "Research paper: IntraShuffler: A Privacy Preserving Framework for Heterogeneous DP Federated Learning",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL042",
+      "evidence_id": "EV042",
+      "text": "Research paper: Permissive Safety Through Trusted Inference: Verifiable Belief-Space Neural Safety Filters for Assur",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL043",
+      "evidence_id": "EV043",
+      "text": "Research paper: From Layers to Submodules: Rethinking Granularity in Replacement-Based LLM Compression",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL044",
+      "evidence_id": "EV044",
+      "text": "MDA (Mixture-Density Representation) predicts multiple depth hypotheses and their probabilities per pixel to address depth ambiguity at boundaries, extending naturally to transparent objects and sky regions.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL045",
+      "evidence_id": "EV045",
+      "text": "Research paper: SimSD: Simple Speculative Decoding in Diffusion Language Models",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL046",
+      "evidence_id": "EV046",
+      "text": "They define traits as directions in text embedding space, train a linear model on labeled skill diffs, and score skill edits by projecting embedding diffs onto trait vectors.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "68 labeled skill diff pairs for the trait of propensity to seek sensitive data"
+      ],
+      "best_result": "91.2% sign classification accuracy on 68 labeled skill diff pairs"
+    },
+    {
+      "claim_id": "CL047",
+      "evidence_id": "EV047",
+      "text": "Research paper: SafeSteer: Localized On-Policy Distillation for Efficient Safety Alignment",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL048",
+      "evidence_id": "EV048",
+      "text": "Research paper: Auditing Asset-Specific Preferences in Financial Large Language Models: Evidence from Bitcoin Repres",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL049",
+      "evidence_id": "EV049",
+      "text": "Research paper: Why Not Hyperparameter-Friendly Optimisation? A Monotonic Adaptive Norm Rescaling Approach For Long-",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL050",
+      "evidence_id": "EV050",
+      "text": "Introduces Moment-Video, a benchmark with 1,000 human-verified video-QA pairs across 7 domains and 25 subcategories, covering four task types: Temporal Occurrence, Temporal Counting, Action Description, and Temporal Reasoning.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "Moment-Video"
+      ],
+      "best_result": "Seed-2.0-Pro achieves 39.6% overall accuracy"
+    },
+    {
+      "claim_id": "CL051",
+      "evidence_id": "EV051",
+      "text": "DrPO samples candidates from the current generator, ranks them with a target reward, and uses high- and low-scoring samples to synthesize a feature-space update direction consisting of a non-parametric dipole preference field plus reference drift.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "HPSv3",
+        "GenEval"
+      ],
+      "best_result": "Reduces HPSv3 training computation by 3.51× under matched effective-batch setting"
+    },
+    {
+      "claim_id": "CL052",
+      "evidence_id": "EV052",
+      "text": "Optimal Mixture Transport (OMT) reformulates the transport problem as a strictly biconvex optimization over mixture models, decoupling computational complexity from sample size.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "synthetic benchmarks",
+        "real-world datasets",
+        "image data",
+        "large-scale single-cell RNA sequencing measurements"
+      ],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL053",
+      "evidence_id": "EV053",
+      "text": "Survey and comparative analysis of generative models for inverse materials design, examining variational autoencoders, normalizing flows, autoregressive formulations, and diffusion models with multimodal learning approaches.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "large databases of chemical-structural data"
+      ],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL054",
+      "evidence_id": "EV054",
+      "text": "Research paper: Bridging the Last Mile of Time Series Forecasting with LLM Agents",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL055",
+      "evidence_id": "EV055",
+      "text": "Three-tiered monitoring approach (within-run, cross-run, structural) using variance-based characterization with FMEA-inspired severity classification to prioritize findings",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "synthetic testbed with 220 runs across 120 document bundles"
+      ],
+      "best_result": "Structural monitor identifies integration gap with perfect consistency (CV = 0.00)"
+    },
+    {
+      "claim_id": "CL056",
+      "evidence_id": "EV056",
+      "text": "Research paper: Expressivity of congruence-based architectures for DNNs on positive-definite matrices",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL057",
+      "evidence_id": "EV057",
+      "text": "Research paper: RASER: Recoverability-Aware Selective Escalation Router for Multi-Hop Question Answering",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL058",
+      "evidence_id": "EV058",
+      "text": "Research paper: Iteris: Agentic Research Loops for Computational Mathematics",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL059",
+      "evidence_id": "EV059",
+      "text": "Implementation of Speculative Tool Privacy Contracts as a runtime abstraction to handle observation before commitment as a first-class effect, distinct from state mutation.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL060",
+      "evidence_id": "EV060",
+      "text": "Uses Physics-Informed Neural Network residuals as cellwise indicators for adaptive mesh refinement in finite-difference PDE solvers",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "One-dimensional viscous Burgers equation",
+        "2D nonlinear Schrödinger equation",
+        "3D incompressible Navier-Stokes system"
+      ],
+      "best_result": "PINN-threshold refinement achieves relative L² error 0.021067 with 60 degrees of freedom, compared to 0.022617 for uniform refinement with 192 degrees of freedom"
+    },
+    {
+      "claim_id": "CL061",
+      "evidence_id": "EV061",
+      "text": "Research paper: MCP-Persona: Benchmarking LLM Agents on Real-World Personal Applications via Environment Simulation",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL062",
+      "evidence_id": "EV062",
+      "text": "Agent Laboratory is a framework that uses LLM agents to automate the research process in three stages: literature review, experimentation, and report writing, based on a human-provided research idea.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": "Agent Laboratory driven by o1-preview generates the best research outcomes and achieves state-of-the-art performance in machine learning code."
+    },
+    {
+      "claim_id": "CL063",
+      "evidence_id": "EV063",
+      "text": "Research paper: MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL064",
+      "evidence_id": "EV064",
+      "text": "Research paper: AIBuildAI-2: Scalable Agentic AI Research and Engineering",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL065",
+      "evidence_id": "EV065",
+      "text": "Research paper: Reflexion: Language Agents with Verbal Reinforcement Learning",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "HumanEval"
+      ],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL066",
+      "evidence_id": "EV066",
+      "text": "Research paper: Self-Refine: Iterative Refinement with Self-Feedback",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL067",
+      "evidence_id": "EV067",
+      "text": "Research paper: Voyager: An Open-Ended Embodied Agent with Large Language Models",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL068",
+      "evidence_id": "EV068",
+      "text": "AgentBench is a multi-dimensional benchmark designed to evaluate LLM-as-Agent across a spectrum of different environments, encompassing eight distinct environments categorized into three types of groundings: Code, Game, and Web.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "Operating System",
+        "Database",
+        "Knowledge Graph",
+        "Digital Card Game",
+        "Lateral Thinking Puzzles",
+        "House-Holding",
+        "Web Shopping",
+        "Web Browsing"
+      ],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL069",
+      "evidence_id": "EV069",
+      "text": "Research paper: SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    }
+  ],
+  "links": [
+    {
+      "from": "EV001",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: The key innovation is treating back-office automation as planning over typed agents with type-sound composition, policy-aware rubric-based selection, and validator-gated execution that prevents external side effects before validation."
+    },
+    {
+      "from": "EV002",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: A unified metrics-and-benchmarks hub that consolidates both outcome and process signals for consistent evaluation and deployment decisions of agentic systems."
+    },
+    {
+      "from": "EV003",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: No technical innovation is presented; the paper's contribution is a synthesized overview of challenges and regulatory responses."
+    },
+    {
+      "from": "EV004",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See full text"
+    },
+    {
+      "from": "EV005",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: Novel abstractions and isolation primitives for an 'agent-first lakehouse' called Bauplan, which accommodates usage patterns of swarms of agents and simplifies governance through a concise API surface."
+    },
+    {
+      "from": "EV006",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: The adoption of the MAD-BAD-SAD construct (Motivations, Applications, and Moral dilemmas; Biases, Accountability, and Dangers; and Societal impact, Adoption, and Design considerations) as an analytical framework for examining agentic AI systems."
+    },
+    {
+      "from": "EV007",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See full text"
+    },
+    {
+      "from": "EV008",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See full text"
+    },
+    {
+      "from": "EV009",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: First comprehensive analysis quantifying the concentration of AI governance research within corporate entities and identifying post-deployment research gaps"
+    },
+    {
+      "from": "EV010",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: Proposing a unified categorization of generative AI's impact on information access into 'information generation' and 'information synthesis' paradigms."
+    },
+    {
+      "from": "EV011",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See full text"
+    },
+    {
+      "from": "EV012",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: A structured hackathon design that emphasizes the critical evaluation of AI-generated content for scientific workflows, rather than just its generation."
+    },
+    {
+      "from": "EV013",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: The paper synthesizes and outlines key research directions and challenges in the field of agentic AI reliability, rather than presenting a single novel technical method."
+    },
+    {
+      "from": "EV014",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: The core innovation is the paradigm shift of turning a passive research paper into an active, interactive AI agent that can demonstrate, apply, and adapt its methods to new user queries via natural language."
+    },
+    {
+      "from": "EV015",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See full text"
+    },
+    {
+      "from": "EV016",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: The creation of the first standardized benchmark specifically for evaluating agentic AI's ability to perform core ISPM tasks over real, enterprise-grade identity data."
+    },
+    {
+      "from": "EV017",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See full text"
+    },
+    {
+      "from": "EV018",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See full text"
+    },
+    {
+      "from": "EV019",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See full text"
+    },
+    {
+      "from": "EV020",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: The introduction of lakehouse abstractions that expose the entire data lifecycle through code, enabling safe automation of high-stakes workloads through an agentic loop."
+    },
+    {
+      "from": "EV021",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: Reconciliation of traditional autonomous agent architectures with modern generative models while maintaining reliability."
+    },
+    {
+      "from": "EV022",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See full text"
+    },
+    {
+      "from": "EV023",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: A unified cybersecurity AI agent selection and decision support framework that links AI agent properties to NIST CSF 2.0 subcategories and provides graduated autonomy levels for different organizational maturity stages."
+    },
+    {
+      "from": "EV024",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: The first direct, controlled comparison of agentic AI systems on a realistic scientific computing workflow, revealing critical differences in behavior, speed, and error handling."
+    },
+    {
+      "from": "EV025",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: Identification of a sharp, stage-dependent boundary between reliable assistance and unreliable autonomy in AI systems for research, along with a structured taxonomy, benchmark suite, and tool inventory."
+    },
+    {
+      "from": "EV026",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: A large-scale, high-throughput automated idea executor capable of implementing and evaluating hundreds of LLM-generated research ideas for GPU-intensive, open-ended research problems in parallel."
+    },
+    {
+      "from": "EV027",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: Not explicitly stated in the provided text."
+    },
+    {
+      "from": "EV028",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: The introduction of the 'AutoResearch' framework, which organizes the field around five workflow conditions and proposes five evaluation dimensions (novelty, validity, impact, reliability, provenance) to assess AI research systems."
+    },
+    {
+      "from": "EV029",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See full text"
+    },
+    {
+      "from": "EV030",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See full text"
+    },
+    {
+      "from": "EV031",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See full text"
+    },
+    {
+      "from": "EV032",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: A software tool for automated academic article generation that operates without reliance on advanced language model agents."
+    },
+    {
+      "from": "EV033",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: The synthesis of a general, science- and instrument-independent stack bridging AI agents and automated lab equipment through declarative experiment configurations."
+    },
+    {
+      "from": "EV034",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: The novel progressive agentic tree-search methodology managed by a dedicated experiment manager agent that enables fully autonomous scientific discovery."
+    },
+    {
+      "from": "EV035",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See full text"
+    },
+    {
+      "from": "EV036",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: Identification of the 'modality gap' in XAI for BLV users and the 'Self-Blame Bias' phenomenon"
+    },
+    {
+      "from": "EV037",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See full text"
+    },
+    {
+      "from": "EV038",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See full text"
+    },
+    {
+      "from": "EV039",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See full text"
+    },
+    {
+      "from": "EV040",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: Making the information-acquisition gap directly measurable through scoring both decisions and the information gathering process."
+    },
+    {
+      "from": "EV041",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See full text"
+    },
+    {
+      "from": "EV042",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See full text"
+    },
+    {
+      "from": "EV043",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See full text"
+    },
+    {
+      "from": "EV044",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: Mixture-density representation that allows predicting multiple depth hypotheses per pixel instead of a single depth value."
+    },
+    {
+      "from": "EV045",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See full text"
+    },
+    {
+      "from": "EV046",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: Trait evaluation framework using embedding space directions and linear models for measuring agent behavioral changes"
+    },
+    {
+      "from": "EV047",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See full text"
+    },
+    {
+      "from": "EV048",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See full text"
+    },
+    {
+      "from": "EV049",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See full text"
+    },
+    {
+      "from": "EV050",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: Moment-Video benchmark specifically designed to diagnose temporal fidelity of video MLLMs through momentary visual event understanding, focusing on transient visual evidence rather than persistent objects or global context."
+    },
+    {
+      "from": "EV051",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: Removal of reward-model backpropagation while maintaining single-step inference for one-step generative models, enabling training with large, black-box, or non-differentiable rewards."
+    },
+    {
+      "from": "EV052",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: A strictly biconvex formulation for transport of mixture models that guarantees a unique global minimizer and stable transport maps."
+    },
+    {
+      "from": "EV053",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: Comprehensive synthesis of closed-loop workflows and failure modes in automated materials discovery, establishing evaluation frameworks for discovery-grade validation."
+    },
+    {
+      "from": "EV054",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See full text"
+    },
+    {
+      "from": "EV055",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: Variance-based monitoring scope characterization that distinguishes deterministic stage defects, stochastic integration consequences, and structural integration gaps"
+    },
+    {
+      "from": "EV056",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See full text"
+    },
+    {
+      "from": "EV057",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See full text"
+    },
+    {
+      "from": "EV058",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See full text"
+    },
+    {
+      "from": "EV059",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: Issue-time privacy policies that change or suppress speculative call arguments or destination projections before dispatch to reduce observer inference."
+    },
+    {
+      "from": "EV060",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: Transferring physics-informed diagnostic information from PINNs into finite-difference mesh adaptation"
+    },
+    {
+      "from": "EV061",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See full text"
+    },
+    {
+      "from": "EV062",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: The use of multiple LLM agents to autonomously execute the entire research pipeline from idea to final report, including code generation and performance evaluation."
+    },
+    {
+      "from": "EV063",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See full text"
+    },
+    {
+      "from": "EV064",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See full text"
+    },
+    {
+      "from": "EV065",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See full text"
+    },
+    {
+      "from": "EV066",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See full text"
+    },
+    {
+      "from": "EV067",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See full text"
+    },
+    {
+      "from": "EV068",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: AgentBench is the first systematic benchmark to evaluate LLM-as-Agent on a wide array of real-world challenges and 8 distinct environments."
+    },
+    {
+      "from": "EV069",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See full text"
+    }
+  ]
+}

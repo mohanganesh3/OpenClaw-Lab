@@ -1,0 +1,6 @@
+{
+  "introduction": "[2211.06527] Rewards Encoding Environment Dynamics Improves Preference-based Reinforcement Learning\n\nRewards Encoding Environment Dynamics Improves Preference-based Reinforcement Learning\n\nKatherine M",
+  "method": "Introduction\n\nThe quality of a reinforcement learned (RL) policy depends directly on the quality of the reward function used to train it. However, hand-crafting reward functions is very challenging, e",
+  "results": "nd (3) exposing the reward model to all transitions experienced by the policy during training will result in more stable reward estimations during reward and policy learning. Therefore, we incorporate",
+  "conclusion": "sped up policy learning via (1) intrinsically-motivated exploration and (2) relabelling the experience replay buffer. These two techniques aimed to improve both the sample complexity of the policy, an"
+}

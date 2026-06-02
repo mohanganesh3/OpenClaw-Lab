@@ -1,0 +1,6 @@
+{
+  "introduction": "[2502.12502] Efficient OpAmp Adaptation for Zoom Attention to Golden Contexts\n\nEfficient OpAmp Adaptation for Zoom Attention to Golden Contexts\n\nHaoyuan Wu\n\n♠  \\spadesuit\n\n,\n Rui Ming\n\n♠  \\spadesuit\n\n",
+  "method": "aisheng Zheng\n\n♡  \\heartsuit\n\n,\nZhuolun He\n\n♠  \\spadesuit\n\n,\n\n♣  \\clubsuit\n\n,\nBei Yu\n\n♠  \\spadesuit\n\n♠  \\spadesuit\n\nThe Chinese University of Hong Kong, Hong Kong SAR\n\n♡  \\heartsuit\n\nShanghai Artifici",
+  "results": "which has been fine-tuned specifically for long-context and RAG applications.\nThe visualization demonstrates that the Transformer architecture tends to allocate only a small proportion of attention sc",
+  "conclusion": "strategy significantly reduces computational costs compared to previous methods.\nAs demonstrated in\n\nFigure ˜ 2  , our Qwen2.5-OpAmp-72B model, trained with the OpAmp adaptation, achieves superior ave"
+}

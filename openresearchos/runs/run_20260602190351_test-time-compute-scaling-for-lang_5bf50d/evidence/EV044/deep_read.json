@@ -1,0 +1,26 @@
+{
+  "method_summary": "The paper proposes a new method for improving iterative Gaussian Processes by leveraging the known solution to a smaller system contained within a larger linear system, thereby improving solver convergence.",
+  "key_innovation": "Using the solution of a smaller system as a warm start for solving a larger system in iterative Gaussian Processes.",
+  "datasets_used": [],
+  "baselines_compared": [],
+  "key_results": {},
+  "best_result": "",
+  "limitations_stated": [],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "medium",
+  "compute_required": "not specified",
+  "can_run_on_macbook": false,
+  "evidence_id": "EV044",
+  "title": "Improving Iterative Gaussian Processes via Warm Starting Sequential Posteriors",
+  "year": 2025,
+  "arxiv_id": "2511.16340",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 4794,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

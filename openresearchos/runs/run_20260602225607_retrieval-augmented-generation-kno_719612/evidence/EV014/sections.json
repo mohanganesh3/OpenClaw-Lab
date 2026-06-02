@@ -1,0 +1,6 @@
+{
+  "introduction": "[2509.12042] FinGEAR: Financial Mapping-Guided Enhanced Answer Retrieval\n\nFinGEAR: Financial Mapping-Guided Enhanced Answer Retrieval\n\nYing Li 1\n\nMengyu Wang 1\n\nMiguel de Carvalho 1,2\n\nSotirios Sabani",
+  "method": "al University of Athens, Greece\n\n4 Archimedes/Athena Research Centre, Greece\n\n5 The Artificial Intelligence Applications Institute, The University of Edinburgh, United Kingdom\n\n{sunnie.y.li, mengyu.wa",
+  "results": "Wu et al. ( 2023 )  and Retrieval-Augmented Generation (RAG)  Lewis et al. ( 2021 )  have enabled progress in financial document analysis by grounding outputs in retrieved evidence. Our analysis ident",
+  "conclusion": "does not directly optimize for reasoning tasks, downstream experiments confirm that enhanced retrieval leads to better answer accuracy, reinforcing retrieval quality as the foundation of financial doc"
+}

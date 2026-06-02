@@ -1,0 +1,6 @@
+{
+  "introduction": "[2503.15426] Visual Position Prompt for MLLM based Visual Grounding\n\nVisual Position Prompt for MLLM based Visual Grounding\n\nWei Tang † ,\nYanpeng Sun,\nQinying Gu,\nand Zechao Li\n\nW. Tang, Y. Sun and Z.",
+  "method": "spite using fewer training samples compared to other MLLMs like MiniGPT-v2, which rely on much larger datasets (\n\n∼  \\sim\n\n21M samples). The code and VPP-SFT dataset will be available at https://githu",
+  "results": "g precise spatial reasoning like visual grounding. As illustrated in Fig.\n\n1\n\n(a), the grounding results from LLaVA-v1.5, for instance, reveal notable inaccuracies (the red box indicates the predicted",
+  "conclusion": ", we propose integrating positional references as prompts within MLLMs to improve their visual grounding capabilities. While the coordinate axis shown in Fig.\n\n1\n\n(b) provides a global spatial guide, "
+}

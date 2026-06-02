@@ -1,0 +1,101 @@
+{
+  "title": "ATANT: An Evaluation Framework for AI Continuity",
+  "authors": [
+    "logan2026cma",
+    "natangelo2025nct",
+    "packer2023memgpt",
+    "chhikara2025mem0",
+    "xu2025amem"
+  ],
+  "abstract": "ATANT is an evaluation framework for AI continuity that addresses gaps in formal definitions, testable requirements, and benchmarks for continuity systems. It provides a formal definition of continuity as an architectural layer, a model-independent evaluation methodology, a narrative test corpus, compliance levels, and reference implementation results.",
+  "keywords": [
+    "AI continuity",
+    "evaluation framework",
+    "persistence",
+    "memory systems",
+    "architectural layers",
+    "benchmark"
+  ],
+  "methodology": {
+    "formal_definition": {
+      "concept": "continuity as an architectural layer",
+      "properties": 7
+    },
+    "evaluation_methodology": {
+      "type": "model-independent",
+      "checkpoints": 10,
+      "paths_tested": [
+        "write",
+        "read"
+      ]
+    },
+    "test_corpus": {
+      "type": "narrative test corpus",
+      "stories": 250,
+      "questions": 1835,
+      "domains": 6
+    },
+    "compliance_levels": [
+      "Core",
+      "Stress",
+      "Cumulative",
+      "Scale"
+    ]
+  },
+  "contributions": [
+    "Formal definition of continuity with 7 required properties",
+    "Model-independent evaluation methodology with 10 checkpoints",
+    "Narrative test corpus of 250 stories across 6 life domains",
+    "4 compliance levels (Core, Stress, Cumulative, Scale)",
+    "Reference implementation results across 5 test suite iterations"
+  ],
+  "related_work": {
+    "memory_systems": [
+      {
+        "name": "MemGPT",
+        "description": "Introduces an operating system metaphor with tiered memory"
+      },
+      {
+        "name": "Mem0",
+        "description": "Provides a production-oriented memory layer"
+      },
+      {
+        "name": "A-MEM",
+        "description": "Proposes agentic memory with self-organizing capabilities"
+      }
+    ],
+    "architectural_frameworks": [
+      {
+        "name": "Continuum Memory Architecture (CMA)",
+        "description": "Defines 6 behavioral properties for long-horizon LLM agents"
+      },
+      {
+        "name": "Narrative Continuity Test",
+        "description": "Proposes a conceptual framework for evaluating identity persistence"
+      }
+    ]
+  },
+  "results": {
+    "reference_implementation": {
+      "test_iterations": 5,
+      "accuracy": "96% cumulative-scale accuracy"
+    },
+    "limitations": "Honest reporting of failures, limitations, and the active frontier"
+  },
+  "gaps_addressed": [
+    "A formal definition of what continuity means as a system property",
+    "A set of testable requirements that any continuity system must satisfy",
+    "A benchmark that measures continuity rather than retrieval accuracy alone"
+  ],
+  "evidence_id": "EV027",
+  "year": 2026,
+  "arxiv_id": "2604.06710",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

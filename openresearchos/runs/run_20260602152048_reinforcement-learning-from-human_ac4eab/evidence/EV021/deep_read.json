@@ -1,0 +1,29 @@
+{
+  "title": "Rethinking KL Regularization in RLHF: From Value Estimation to Gradient Optimization",
+  "authors": "Not specified in provided text",
+  "abstract": "This paper examines KL regularization in RLHF, shifting the focus from value estimation to gradient optimization. The authors perform a systematic, gradient-based analysis of the KL loss to address issues with current implementations.",
+  "main_contributions": [
+    "A Gradient-Centric Framework for KL Regularization",
+    "Identification of Principled KL Implementations",
+    "A systematic, gradient-based analysis of KL loss"
+  ],
+  "methodology": "The paper performs a systematic, gradient-based analysis of KL regularization in RLHF, establishing a unified framework to connect different implementation styles.",
+  "key_findings": [
+    "The choice of KL loss mathematical form should be guided by gradient-based optimization, not value estimation",
+    "The conventional 'k1 in reward' and 'k2 as loss' formulations are gradient equivalent and represent the principled approach",
+    "Popular alternatives like 'k3 as loss' are biased approximations"
+  ],
+  "applications": "RLHF in Large Language Models (LLMs) to align models with human values and improve performance in specialized reasoning tasks",
+  "focus": "KL regularization in RLHF for Large Language Models",
+  "evidence_id": "EV021",
+  "year": 2025,
+  "arxiv_id": "2510.01555",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

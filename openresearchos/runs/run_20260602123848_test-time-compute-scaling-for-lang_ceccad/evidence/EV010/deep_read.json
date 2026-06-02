@@ -1,0 +1,33 @@
+{
+  "title": "Segment-Level Attribution for Selective Learning of Long Reasoning Traces",
+  "methodology": {
+    "approach": "Segment-level attribution using Integrated Gradient (IG) attribution",
+    "key_innovation": "Direct calculation of each token's influence on correct answer prediction",
+    "problem_addressed": "Redundant segments in long Chain-of-Thought (CoT) reasoning traces",
+    "metrics": "Normalized strength across segments with low strength and high consistency"
+  },
+  "findings": [
+    "Unimportant segments cluster into distinctive redundant patterns",
+    "Incorrect CoTs typically have more segments and tokens than correct CoTs for the same queries",
+    "Existing methods (token-level analysis, perplexity, entropy) have limitations including false positives and false negatives",
+    "Verbosity without substance actively degrades reasoning performance as CoT length increases",
+    "Training LLMs on verbose CoT supervision with sparse positive contribution leads to models learning to imitate redundant behaviors"
+  ],
+  "key_concepts": [
+    "Chain-of-Thought (CoT) reasoning",
+    "Integrated Gradient (IG) attribution",
+    "Segment-level importance",
+    "Redundant patterns in reasoning traces"
+  ],
+  "evidence_id": "EV010",
+  "year": 2026,
+  "arxiv_id": "2602.00425",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

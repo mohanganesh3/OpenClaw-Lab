@@ -1,0 +1,67 @@
+{
+  "title": "TWIST & SCOUT: Grounding Multimodal LLM-Experts by Forget-Free Tuning",
+  "methodology": {
+    "approach": "Fine-tuning pre-trained Vision Language Models (VLMs) for spatial understanding",
+    "related_work": [
+      {
+        "model": "Flamingo",
+        "citation": "Alayrac et al., 2022",
+        "limitation": "Lacks object localization abilities"
+      },
+      {
+        "model": "BLIP2",
+        "citation": "Li et al., 2023",
+        "limitation": "Lacks object localization abilities"
+      },
+      {
+        "model": "PIN",
+        "citation": "Dorkenwald et al., 2024",
+        "limitation": "Suffers from catastrophic forgetting, synthetic data lacks inter-object relationships"
+      }
+    ],
+    "challenges": [
+      "Caption-based models lack object localization abilities",
+      "Pre-training with bounding boxes requires massive datasets and computational resources",
+      "Parameter-efficient methods like LoRA underfit due to complexity differences"
+    ]
+  },
+  "proposed_solution": {
+    "framework": "LynX (Lin king e X perts for visual grounding)",
+    "architecture": "Dual Mixture of Experts (MoE)",
+    "benefits": [
+      "Enables VLMs to acquire grounding capabilities via fine-tuning",
+      "Prevents catastrophic forgetting of pre-trained skills"
+    ],
+    "dataset": "SCouT (Synthetic Chain-of-Thought with Grounding)",
+    "dataset_features": [
+      "High-quality synthetic dataset",
+      "Step-by-step grounded chain-of-thought annotations",
+      "Captures meaningful spatial relationships and reasoning steps"
+    ],
+    "training_methodology": {
+      "approach": "Step-by-step training methodology",
+      "inspiration": "Lightman et al. (2023)",
+      "mechanism": "Breaking down tasks into intermediate steps with individual loss functions"
+    },
+    "evaluation": {
+      "method": "Open-source evaluation metric",
+      "purpose": "Fair comparison of VLMs with free-form grounded responses"
+    }
+  },
+  "contributions": [
+    "Introduction of LynX framework with Dual Mixture of Experts",
+    "Presentation of SCouT dataset",
+    "Proposal of step-by-step training methodology"
+  ],
+  "evidence_id": "EV043",
+  "year": 2024,
+  "arxiv_id": "2410.10491",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

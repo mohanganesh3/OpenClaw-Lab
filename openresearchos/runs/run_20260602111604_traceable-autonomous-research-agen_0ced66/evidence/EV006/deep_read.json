@@ -1,0 +1,61 @@
+{
+  "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+  "method": {
+    "name": "Reflexion",
+    "description": "An approach that uses verbal reinforcement to help agents learn from prior failings by converting binary or scalar feedback from the environment into verbal feedback, which is added as additional context for the LLM agent in the next episode.",
+    "feedback_generation_methods": [
+      "Simple binary environment feedback",
+      "Pre-defined heuristics for common failure cases",
+      "Self-evaluation using LLMs (decision-making) or self-written unit tests (programming)"
+    ]
+  },
+  "advantages": [
+    "Lightweight and doesn't require finetuning the LLM",
+    "Allows more nuanced forms of feedback compared to scalar rewards",
+    "More explicit and interpretable episodic memory over prior experiences",
+    "Provides more explicit hints for actions in future episodes"
+  ],
+  "disadvantages": [
+    "Relies on the power of the LLM's self-evaluation capabilities",
+    "No formal guarantee for success"
+  ],
+  "experiments": [
+    {
+      "type": "Decision-making tasks",
+      "description": "Sequential action choices over long trajectories",
+      "dataset": "AlfWorld",
+      "improvement": "22% in 12 iterative learning steps"
+    },
+    {
+      "type": "Reasoning tasks",
+      "description": "Knowledge-intensive, single-step generation improvement",
+      "dataset": "HotPotQA",
+      "improvement": "20%"
+    },
+    {
+      "type": "Programming tasks",
+      "description": "Teaching agents to effectively use external tools",
+      "dataset": "HumanEval",
+      "improvement": "Not specified in the provided text"
+    }
+  ],
+  "related_works": [
+    "ReAct",
+    "SayCan",
+    "Toolformer",
+    "HuggingGPT",
+    "Generative agents",
+    "WebGPT"
+  ],
+  "evidence_id": "EV006",
+  "year": 2023,
+  "arxiv_id": "2303.11366",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

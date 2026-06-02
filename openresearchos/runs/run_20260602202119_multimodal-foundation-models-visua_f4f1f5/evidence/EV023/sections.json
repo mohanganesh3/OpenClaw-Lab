@@ -1,0 +1,6 @@
+{
+  "introduction": "[2510.22728] S-Chain: Structured Visual Chain-of-Thought for Medicine\n\n\\useunder\n\n\\ul\n\n\\useunder\n\nS-Chain : Structured Visual Chain-of-Thought for Medicine\n\nKhai Le-Duc\n\n∗  *\n\n1,2\n\nDuy M. H. Nguyen\n\n∗",
+  "method": "and visual evidence. While Chain-of-Thought (CoT) prompting has shown promise in medical visual question answering (VQA), no large-scale expert-level dataset has captured stepwise reasoning with preci",
+  "results": "ecially promising for high-stakes fields like healthcare.\n\nDespite recent progress, training models with strong  CoT  reasoning still demands large amounts of annotated data, as models must learn to a",
+  "conclusion": "ng et al.,  2025 ) . These limitations highlight the need for high-quality, structured, and expert-grounded  CoT  annotations in the medical domain.\n\nTo address these challenges, we propose a new expe"
+}

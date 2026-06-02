@@ -1,0 +1,6 @@
+{
+  "introduction": "[2507.00589] Quantum Circuit Structure Optimization for Quantum Reinforcement Learning\n\nQuantum Circuit Structure Optimization for Quantum Reinforcement Learning\n\nSeok Bin Son and\nJoongheon Kim\n\nThis ",
+  "method": "einforcement learning (RL) has achieved remarkable progress across various application domains based on classical neural networks (NN). NN-based RL has been successfully applied to game playing, robot",
+  "results": "e in complex environments such as high-dimensional satellite communication networks, multi-UAV cooperative systems, and smart factories  [ 6 ,  7 ,  8 ] .\n\nFigure 1:  The structure of quantum neural n",
+  "conclusion": "in deep learning to automatically explore and optimize model structures based on data  [ 10 ,  11 ,  12 ] . It replaces manual design reliant on researcher intuition and significantly improves model p"
+}

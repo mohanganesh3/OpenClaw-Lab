@@ -1,0 +1,58 @@
+{
+  "title": "POS-ISP: Pipeline Optimization at the Sequence Level for Task-aware ISP",
+  "problem": "Optimizing Image Signal Processor (ISP) pipelines for computer vision tasks like object detection and semantic segmentation is challenging due to time-consuming manual tuning and limitations of existing automated approaches.",
+  "existingApproaches": [
+    {
+      "name": "Modular approaches",
+      "description": "Decompose ISP pipeline into operations like white balance and denoising, optimized in a task-driven manner.",
+      "limitations": "Optimizing remains difficult due to non-differentiable search procedures for selecting modules and tuning parameters."
+    },
+    {
+      "name": "Neural Architecture Search (NAS)",
+      "description": "Enables gradient-based optimization by mixing outputs of candidate modules.",
+      "limitations": "Reliance on mixture training causes inconsistency at inference where modules are discretely selected."
+    },
+    {
+      "name": "Reinforcement Learning (RL)",
+      "description": "Models ISP optimization as a stepwise RL formulation with sequential decision-making at each intermediate stage.",
+      "limitations": "Requires repeated evaluations and relies on future reward estimation, resulting in unstable training and high computational overhead."
+    }
+  ],
+  "proposedSolution": {
+    "name": "POS-ISP",
+    "type": "RL framework",
+    "approach": "Sequence-level optimization by evaluating the entire pipeline with a single final reward",
+    "components": [
+      {
+        "name": "sequence predictor",
+        "description": "A recurrent policy network that predicts the entire module sequence by leveraging contextual information from preceding modules"
+      },
+      {
+        "name": "parameter predictor",
+        "description": "Predicts module parameters"
+      }
+    ]
+  },
+  "advantages": [
+    "Avoids unstable future reward estimation",
+    "Captures dependencies between ISP modules",
+    "More stable optimization",
+    "Reduced memory and computation",
+    "Suitable for deployment on mobile or edge devices"
+  ],
+  "applications": [
+    "Object detection",
+    "Semantic segmentation"
+  ],
+  "evidence_id": "EV041",
+  "year": 2026,
+  "arxiv_id": "2604.06938",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7997,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

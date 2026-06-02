@@ -1,0 +1,6 @@
+{
+  "introduction": "[2508.02753] DMSC: Dynamic Multi-Scale Coordination Framework for Time Series Forecasting\n\nDMSC: Dynamic Multi-Scale Coordination Framework for Time Series Forecasting\n\nHaonan Yang 1 ,\nJianchao Tang 1",
+  "method": "e Series Forecasting (TSF) constitutes a pivotal capability across numerous fields such as energy consumption (Alvarez et al.  2010 ; Guo et al.  2015 ) , healthcare monitoring (Tran, Nguyen, and Shah",
+  "results": "trast, more effective alternatives focus on patch-wise and variable-wise decomposition operations that decompose sequence across feature and temporal dimensions. Such decomposition operations better p",
+  "conclusion": "sses intricate dependencies through a multi-layer progressive architecture and Adaptive Scale Routing Mixture-of-Experts (ASR-MoE). The multi-layer progressive cascade architecture incorporates Embedd"
+}

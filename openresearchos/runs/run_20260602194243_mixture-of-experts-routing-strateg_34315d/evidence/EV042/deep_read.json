@@ -1,0 +1,84 @@
+{
+  "title": "MoCA: Mixture-of-Components Attention for Scalable Compositional 3D Generation",
+  "authors": [],
+  "problemStatement": {
+    "description": "Existing 3D generative models have limitations in scalability and efficiency for compositional generation.",
+    "limitations": [
+      "Scalability of global attention: Naive global attention over all component tokens has O(N²L²) complexity, which is prohibitive for a large number of components (N).",
+      "Uniform attention wastes capacity: Not all components interact strongly, but existing models allocate resources to low-value interactions."
+    ]
+  },
+  "proposedSolution": {
+    "modelName": "MoCA (Mixture-of-Components Attention)",
+    "coreIdea": "A native compositional 3D generative model designed for efficient, scalable, and accurate compositional modeling of 3D objects and scenes."
+  },
+  "keyInnovations": [
+    {
+      "name": "Importance-based component routing",
+      "description": "A lightweight router module estimates the importance of other components for a given component and selects the top-k important components for sparse global attention.",
+      "inspiration": "MoE (Mixture-of-Experts) models."
+    },
+    {
+      "name": "Compression of distant components",
+      "description": "Components not selected by the router are compressed into compact tokens for global attention, preserving coarse-grained context while reducing the number of tokens in attention computations."
+    }
+  ],
+  "technicalDetails": {
+    "contextLengthFormula": "L_global = L + kL + (N-k-1) * (L/σ)",
+    "computationalComplexity": {
+      "previousMethods": "O(N²L²)",
+      "newMethodDescription": "Reduces complexity by using sparse attention and token compression."
+    }
+  },
+  "applications": [
+    "Virtual production",
+    "Game asset creation",
+    "Robotics",
+    "Computer-aided design (CAD)"
+  ],
+  "relatedWork": [
+    {
+      "type": "3D Diffusion Transformer (DiT) Models",
+      "citations": [
+        "Zhang et al., 2024",
+        "Li et al., 2025a",
+        "Zhao et al., 2025",
+        "Xiang et al., 2024"
+      ]
+    },
+    {
+      "type": "Compositional 3D Generation Works",
+      "citations": [
+        "Huang et al., 2025",
+        "Lin et al., 2025"
+      ]
+    },
+    {
+      "type": "Pre-trained 3D Shape Generators",
+      "citations": [
+        "Li et al., 2025a",
+        "Hunyuan3D et al., 2025",
+        "Xiang et al., 2024"
+      ]
+    },
+    {
+      "type": "MoE (Mixture-of-Experts) Models",
+      "citations": [
+        "Fei et al., 2024",
+        "Dai et al., 2024",
+        "Jiang et al., 2024"
+      ]
+    }
+  ],
+  "evidence_id": "EV042",
+  "year": 2025,
+  "arxiv_id": "2512.07628",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

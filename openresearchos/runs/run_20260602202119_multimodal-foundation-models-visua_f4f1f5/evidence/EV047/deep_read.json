@@ -1,0 +1,42 @@
+{
+  "title": "Explaining CLIP Zero-shot Predictions Through Concepts",
+  "method": {
+    "name": "EZPC",
+    "full_name": "Explaining CLIP Zero-shot Predictions Through Concepts",
+    "approach": "Projects CLIP image and text embeddings into a shared concept space using a learnable matrix",
+    "mechanism": {
+      "concept_space": "Projects CLIP embeddings into a shared concept space",
+      "explanation": "Provides concept-based explanations via Hadamard product",
+      "prediction": "Generates class logits via dot-product in concept space",
+      "optimization": "Jointly optimizes a matching loss and a reconstruction loss"
+    },
+    "implementation": {
+      "availability": "Available at https://github.com/oonat/ezpc",
+      "type": "Lightweight decomposition that doesn't require retraining CLIP"
+    }
+  },
+  "contributions": [
+    "Bridges the gap between interpretability of Concept Bottleneck Models (CBMs) and generalization ability of CLIP",
+    "Provides faithful, concept-level explanations of CLIP's predictions while maintaining zero-shot capabilities",
+    "Avoids the need for task-specific training or annotated concepts"
+  ],
+  "problem_addressed": {
+    "clip_limitation": "CLIP's embeddings are high-dimensional and entangled, offering little interpretability",
+    "cbm_limitations": [
+      "Require dense concept supervision (expensive/infeasible)",
+      "Operate under closed-world assumption, failing to generalize to unseen categories"
+    ],
+    "previous_approaches": "Still require task-specific training and cannot generalize to unseen classes"
+  },
+  "evidence_id": "EV047",
+  "year": 2026,
+  "arxiv_id": "2603.28211",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

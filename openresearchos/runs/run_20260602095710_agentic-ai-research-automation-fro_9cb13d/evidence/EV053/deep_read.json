@@ -1,0 +1,38 @@
+{
+  "method_summary": "Survey and comparative analysis of generative models for inverse materials design, examining variational autoencoders, normalizing flows, autoregressive formulations, and diffusion models with multimodal learning approaches.",
+  "key_innovation": "Comprehensive synthesis of closed-loop workflows and failure modes in automated materials discovery, establishing evaluation frameworks for discovery-grade validation.",
+  "datasets_used": [
+    "large databases of chemical-structural data"
+  ],
+  "baselines_compared": [
+    "variational autoencoders",
+    "normalizing flows",
+    "autoregressive formulations",
+    "diffusion models"
+  ],
+  "key_results": {},
+  "best_result": "",
+  "limitations_stated": [
+    "surrogate exploitation",
+    "diversity collapse",
+    "distribution shift",
+    "stability-synthesizability gap"
+  ],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "low",
+  "compute_required": "not specified",
+  "can_run_on_macbook": false,
+  "evidence_id": "EV053",
+  "title": "Towards Automated Discovery: A Review of Generative Models, Multimodal Learning and Closed-Loop Workflows in Inverse Materials Design",
+  "year": 2026,
+  "arxiv_id": "2606.02507",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 6098,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

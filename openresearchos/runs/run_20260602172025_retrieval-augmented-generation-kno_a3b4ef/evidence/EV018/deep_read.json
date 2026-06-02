@@ -1,0 +1,54 @@
+{
+  "title": "Efficient OpAmp Adaptation for Zoom Attention to Golden Contexts",
+  "authors": [
+    {
+      "name": "aisheng Zheng",
+      "affiliation": "The Chinese University of Hong Kong, Hong Kong SAR"
+    },
+    {
+      "name": "Zhuolun He",
+      "affiliation": "The Chinese University of Hong Kong, Hong Kong SAR"
+    },
+    {
+      "name": "Bei Yu",
+      "affiliation": "The Chinese University of Hong Kong, Hong Kong SAR"
+    }
+  ],
+  "affiliations": [
+    "The Chinese University of Hong Kong, Hong Kong SAR",
+    "Shanghai Artificial Intelligent Laboratory, China",
+    "ChatEDA Tech, China"
+  ],
+  "email": "hywu24,byu@cse.cuhk.edu.hk",
+  "keywords": [
+    "Large Language Models",
+    "Retrieval-Augmented Generation",
+    "Attention Mechanism",
+    "Parameter-Efficient Fine-Tuning",
+    "OpAmp Adaptation"
+  ],
+  "problem": "LLMs struggle to identify and extract key information from noisy contexts in RAG scenarios",
+  "solution": "OpAmp adaptation with adapters to refine attention mechanism",
+  "models_mentioned": [
+    "Llama3.1-8B-base",
+    "Llama3.1-8B-inst",
+    "Llama3-ChatQA2-8B",
+    "Qwen2.5-OpAmp-72B"
+  ],
+  "paper_sections": [
+    "Method Section",
+    "Results Section",
+    "Introduction"
+  ],
+  "evidence_id": "EV018",
+  "year": 2025,
+  "arxiv_id": "2502.12502",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

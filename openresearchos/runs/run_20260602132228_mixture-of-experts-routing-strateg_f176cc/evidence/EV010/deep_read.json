@@ -1,0 +1,47 @@
+{
+  "title": "Tutel: Adaptive Mixture-of-Experts at Scale",
+  "authors": [
+    {
+      "name": "Anonymous Author",
+      "email": "anon.email@domain.com"
+    }
+  ],
+  "institution": "Anonymous Institution",
+  "conference": "Machine Learning and Systems (MLSys) Conference",
+  "status": "Under review (preliminary work)",
+  "key_contribution": "Tutel: A system that accelerates Mixture-of-Experts (MoE) models",
+  "context": {
+    "moe_popularity": "Popular approach for scaling DNNs to trillion-plus parameters",
+    "previous_limitations": "Existing MoE frameworks are mostly based on static runtime execution"
+  },
+  "model_evaluated": {
+    "name": "SwinV2-MoE",
+    "base_architecture": "Swin Transformer V2"
+  },
+  "performance_metrics": {
+    "training_speedup": "1.55× over Fairseq",
+    "inference_speedup": "2.11× over Fairseq",
+    "workload_variation": "Up to 4.38× during training"
+  },
+  "effectiveness": {
+    "pretraining_accuracy": "Superior to dense model",
+    "downstream_tasks": "COCO object detection",
+    "comparison": "Superior accuracy compared to dense counterpart"
+  },
+  "technical_challenges": {
+    "dynamic_workload": "Workload of experts varies based on input data and gating function",
+    "parallelism_optimization": "Optimal parallelism differs depending on dynamic workload",
+    "redistribution_overhead": "Dynamic adjustment of parallelism typically incurs large redistribution overhead"
+  },
+  "evidence_id": "EV010",
+  "year": 2022,
+  "arxiv_id": "2206.03382",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "introduction": "[2510.07972] TaoSR-SHE: Stepwise Hybrid Examination Reinforcement Learning Framework for E-commerce Search Relevance\n\nTaoSR-SHE: Stepwise Hybrid Examination Reinforcement Learning Framework for E-comm",
+  "method": "ybrid  E xamination Reinforcement Learning framework for  Tao bao  S earch  R elevance ( TaoSR-SHE ). At its core is Stepwise Reward Policy Optimization (SRPO), a reinforcement learning algorithm that",
+  "results": "I  (Devlin et al.,  2019 ; Achiam et al.,  2023 )  and conversational interfaces in modern e-commerce search.\n\nTraditionally, search relevance has been framed as a classification problem. However, suc",
+  "conclusion": "rd-sample mining  with  curriculum learning . This allows the training curriculum to adapt to the model’s evolving capabilities, progressively focusing on more challenging samples to systematically im"
+}

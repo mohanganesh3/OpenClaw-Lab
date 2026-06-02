@@ -1,0 +1,34 @@
+{
+  "title": "Preserve Support, Not Correspondence: Dynamic Routing for Offline Reinforcement Learning",
+  "method": {
+    "name": "DROL (Dynamic Routing for Offline Reinforcement Learning)",
+    "type": "one-step actor approach for offline RL",
+    "key_innovation": "Dynamic routing where dataset actions are routed to the nearest candidate",
+    "process": "For each state, samples K candidate actions and routes each dataset action to its nearest candidate using k*(s,a) = arg min_{k∈[K]} ||â^k - a||₂². Only the winner gets updated with behavior cloning and Q-improvement.",
+    "advantage": "Allows different latent regions to specialize to different parts of local support while preserving one-step inference"
+  },
+  "results": {
+    "benchmarks": [
+      "OGBench",
+      "D4RL"
+    ],
+    "performance": "Competitive with the one-step FQL baseline, improving many OGBench task groups while remaining strong on both AntMaze and Adroit"
+  },
+  "problem_addressed": "Offline RL requires staying within action regions supported by a fixed dataset, which becomes harder on multimodal benchmarks like OGBench where nearby states can admit several distinct yet reasonable actions",
+  "comparison": {
+    "advantage_over_iterative_methods": "Avoids backpropagating through a long iterative sampler and keeps execution cheap",
+    "difference_from_FQL": "Unlike FQL-style extraction where ownership stays attached to the same sampled output, in DROL, ownership can transfer across candidates"
+  },
+  "project_page": "https://muzhancun.github.io/preprints/DROL",
+  "evidence_id": "EV048",
+  "year": 2026,
+  "arxiv_id": "2604.22229",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7997,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

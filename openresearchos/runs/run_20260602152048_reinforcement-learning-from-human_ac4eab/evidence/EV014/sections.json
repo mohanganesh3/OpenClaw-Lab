@@ -1,0 +1,6 @@
+{
+  "introduction": "[2505.19653] Token-Importance Guided Direct Preference Optimization\n\nToken-Importance Guided Direct Preference Optimization\n\nNing Yang 1\n\nHai Lin 1\n\nYibo Liu 1\n\nBaoliang Tian 2\n\nGuoqing Liu 3\n\nHaijun ",
+  "method": "dhere to human values  [  5  ,\n\n6  ] , producing beneficial and harmless content. Against this backdrop, Reinforcement Learning from Human Feedback (RLHF) has become a prevailing approach for achievin",
+  "results": "lly leverage the structural relationships between semantically similar responses. By contrast, we propose Token-Importance Guided Direct Preference Optimization (TI-DPO), using gradient attribution to",
+  "conclusion": "e compare TI-DPO with three base instruction models across multiple task dimensions with radar graphs. Additionally, ablation experiments confirm the necessity of its token-importance guidance and tri"
+}

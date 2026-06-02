@@ -1,0 +1,70 @@
+{
+  "paper_title": "Sparse Multi-Modal Transformer with Masking for Alzheimer's Disease Classification",
+  "source_sections": [
+    "METHOD SECTION",
+    "RESULTS SECTION"
+  ],
+  "problem_statement": {
+    "main_challenges": [
+      "Limited size of high-quality medical datasets, particularly for early-stage AD and MCI.",
+      "Heterogeneous and frequently incomplete clinical data, with common missing modalities."
+    ]
+  },
+  "proposed_method": {
+    "name": "Sparse Multi-Modal Transformer with Masking",
+    "acronym": "SMMT",
+    "description": "A hybrid fusion framework designed for efficient and robust AD classification, particularly in low-resource settings.",
+    "key_innovations": [
+      {
+        "name": "Cluster-based sparse attention mechanism",
+        "description": "Reduces computational cost by limiting attention computation within token clusters."
+      },
+      {
+        "name": "Modality-wise masking strategy",
+        "description": "Improves generalization by simulating missing modalities during training."
+      }
+    ]
+  },
+  "evaluation": {
+    "dataset": "ADNI dataset",
+    "results": [
+      {
+        "metric": "Accuracy (Full Data)",
+        "value": "97.05%"
+      },
+      {
+        "metric": "Accuracy (20% Data)",
+        "value": "84.96%"
+      },
+      {
+        "metric": "Energy Consumption Reduction",
+        "value": "40.4%"
+      }
+    ]
+  },
+  "related_work": {
+    "baseline_model": "Cascaded Multi-Modal Mixing Transformer (3MT)",
+    "older_approaches": [
+      "Convolutional Neural Networks (CNNs)",
+      "Support Vector Machines (SVMs)"
+    ]
+  },
+  "data_modalities": [
+    "Structural MRI",
+    "Cognitive scores",
+    "Genetic markers"
+  ],
+  "application_domain": "Alzheimer's Disease (AD) Classification",
+  "evidence_id": "EV029",
+  "title": "Sparse Multi-Modal Transformer with Masking for Alzheimer's Disease Classification",
+  "year": 2025,
+  "arxiv_id": "2512.14491",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "introduction": "[2606.02488] RASER: Recoverability-Aware Selective Escalation Router for Multi-Hop Question Answering\n\nSkip to main content\n\nLearn about arXiv becoming an independent nonprofit.\n\nWe gratefully acknowl",
+  "method": "decompose the question, which increases extra token cost, and it is not fitting when the LLM budget is tight. However, our analysis shows that lots of multi-hop questions are already answered correctl",
+  "results": "ng Li [ view email ]\n\n[v1]\n\nMon, 1 Jun 2026 16:59:36 UTC (2,001 KB)\n\nFull-text links:\n\nAccess Paper:\n\nView a PDF of the paper titled RASER: Recoverability-Aware Selective Escalation Router for Multi-H",
+  "conclusion": "Huggingface? )\n\nScienceCast Toggle\n\nScienceCast\n\n( What is ScienceCast? )\n\nDemos\n\nDemos\n\nReplicate Toggle\n\nReplicate\n\n( What is Replicate? )\n\nSpaces Toggle\n\nHugging Face Spaces\n\n( What is Spaces? )\n\nS"
+}

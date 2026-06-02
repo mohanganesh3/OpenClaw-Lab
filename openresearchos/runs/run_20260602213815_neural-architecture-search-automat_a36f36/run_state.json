@@ -1,0 +1,240 @@
+{
+  "schema_version": 1,
+  "run_id": "run_20260602213815_neural-architecture-search-automat_a36f36",
+  "topic": "neural architecture search automated machine learning (cycle 1)",
+  "created_at": "2026-06-02T21:38:40.932Z",
+  "updated_at": "2026-06-02T22:14:52.629Z",
+  "current_state": "TRACE_EXPORTED",
+  "scope_classification": {
+    "label": "local_experiment",
+    "rationale": "The topic can be explored with small simulations, synthetic data, or lightweight local experiments on the Mac.",
+    "feasibility_note": "The topic is feasible on your MacBook M4 with 36GB RAM and MPS GPU, especially for a Cycle 1 implementation focusing on smaller-scale NAS experiments. Suitable public datasets include CIFAR-10/CIFAR-100 for image classification, Fashion-MNIST for initial testing, and the UCI Wine Quality dataset for tabular data. Expect experiment times ranging from 8-16 hours for CIFAR-10 with a simplified NAS approach, potentially extending to 24-48 hours for more comprehensive searches on complex datasets."
+  },
+  "search_queries": [
+    "NAS methods",
+    "RL NAS",
+    "Evolutionary NAS",
+    "Gradient-based NAS",
+    "NAS applications",
+    "NAS computer vision",
+    "NAS NLP",
+    "NAS benchmarks",
+    "NAS limitations",
+    "AutoML vs NAS",
+    "NAS datasets",
+    "NAS survey",
+    "AutoML survey",
+    "NAS cost",
+    "NAS scalability"
+  ],
+  "evidence_ids": [
+    "EV001",
+    "EV002",
+    "EV003",
+    "EV004",
+    "EV005",
+    "EV006",
+    "EV007",
+    "EV008",
+    "EV009",
+    "EV010",
+    "EV011",
+    "EV012",
+    "EV013",
+    "EV014",
+    "EV015",
+    "EV016",
+    "EV017",
+    "EV018",
+    "EV019",
+    "EV020",
+    "EV021",
+    "EV022",
+    "EV023",
+    "EV024",
+    "EV025",
+    "EV026",
+    "EV027",
+    "EV028",
+    "EV029",
+    "EV030",
+    "EV031",
+    "EV032",
+    "EV033",
+    "EV034",
+    "EV035",
+    "EV036",
+    "EV037",
+    "EV038",
+    "EV039",
+    "EV040",
+    "EV041",
+    "EV042",
+    "EV043",
+    "EV044",
+    "EV045",
+    "EV046",
+    "EV047",
+    "EV048",
+    "EV049",
+    "EV050",
+    "EV051",
+    "EV052",
+    "EV053",
+    "EV054",
+    "EV055",
+    "EV056",
+    "EV057",
+    "EV058",
+    "EV059",
+    "EV060",
+    "EV061",
+    "EV062",
+    "EV063",
+    "EV064",
+    "EV065",
+    "EV066",
+    "EV067",
+    "EV068",
+    "EV069"
+  ],
+  "parsed_papers": [],
+  "claim_graph": {
+    "claims": [],
+    "links": []
+  },
+  "research_gaps": [
+    {
+      "gap_id": "G01",
+      "text": "Early NAS methods required thousands of model evaluations, making them inaccessible for most researchers and limiting the scale of architectures explored. This high cost created a significant barrier to entry and hindered the exploration of more complex search spaces.",
+      "keywords": [],
+      "evidence_ids": [
+        "EV001"
+      ],
+      "testable": true,
+      "difficulty": "medium",
+      "source": "llm"
+    },
+    {
+      "gap_id": "G02",
+      "text": "Early NAS relied on manually designed search spaces, which inherently constrained the architectures that could be discovered. The performance of NAS was often more dependent on the quality of the search space than the search algorithm itself, raising questions about its true autonomy.",
+      "keywords": [],
+      "evidence_ids": [
+        "EV002"
+      ],
+      "testable": true,
+      "difficulty": "hard",
+      "source": "llm"
+    },
+    {
+      "gap_id": "G03",
+      "text": "Architectures discovered by NAS on one dataset often failed to generalize to other datasets or even to different data augmentations of the same dataset. This suggested a risk of overfitting to the specific search task rather than learning a robust, transferable architecture.",
+      "keywords": [],
+      "evidence_ids": [
+        "EV003"
+      ],
+      "testable": true,
+      "difficulty": "medium",
+      "source": "llm"
+    },
+    {
+      "gap_id": "G04",
+      "text": "Due to the stochastic nature of algorithms like Reinforcement Learning and Evolutionary Algorithms, the NAS process was highly unstable. Running the same search multiple times would often yield different final architectures and performance, hindering scientific reproducibility.",
+      "keywords": [],
+      "evidence_ids": [
+        "EV004"
+      ],
+      "testable": true,
+      "difficulty": "easy",
+      "source": "llm"
+    },
+    {
+      "gap_id": "G05",
+      "text": "Early NAS systems were 'black boxes' with little to no mechanism for incorporating domain expert knowledge. This missed an opportunity to guide the search towards more practical, efficient, or theoretically sound architectures based on human intuition.",
+      "keywords": [],
+      "evidence_ids": [
+        "EV005"
+      ],
+      "testable": true,
+      "difficulty": "hard",
+      "source": "llm"
+    },
+    {
+      "gap_id": "G06",
+      "text": "The vast majority of 'Cycle 1' NAS research was focused on image classification. The core search algorithms were not designed to handle the sequential nature of NLP or the different data structures of reinforcement learning and tabular data.",
+      "keywords": [],
+      "evidence_ids": [
+        "EV006"
+      ],
+      "testable": true,
+      "difficulty": "hard",
+      "source": "llm"
+    }
+  ],
+  "idea_tree": [],
+  "reviewer_scores": [],
+  "experiment_candidates": [],
+  "approval_status": {},
+  "micro_probe_results": [],
+  "probe_results": [],
+  "ablation_results": [],
+  "mvp_results": [],
+  "failed_ideas": [],
+  "validation_results": [],
+  "paper_readiness_level": "RRL-0",
+  "final_output_path": "/Users/mohanganesh/OpenClaw-Lab/openresearchos/runs/run_20260602213815_neural-architecture-search-automat_a36f36/research_failure_report.md",
+  "history": [
+    {
+      "at": "2026-06-02T21:38:40.932Z",
+      "state": "TOPIC_SCOPED",
+      "detail": "The topic can be explored with small simulations, synthetic data, or lightweight local experiments on the Mac."
+    },
+    {
+      "at": "2026-06-02T21:38:40.932Z",
+      "state": "SEARCH_PLAN_CREATED",
+      "detail": "15 queries created (LLM-generated)."
+    },
+    {
+      "at": "2026-06-02T21:38:45.103Z",
+      "state": "LITERATURE_DISCOVERY_RUNNING",
+      "detail": "Starting structured literature discovery."
+    },
+    {
+      "at": "2026-06-02T21:38:56.717Z",
+      "state": "EVIDENCE_LOCKED",
+      "detail": "69 papers found (target was 50+)."
+    },
+    {
+      "at": "2026-06-02T21:54:20.567Z",
+      "state": "RESEARCH_MAP_READY",
+      "detail": "Research map generated."
+    },
+    {
+      "at": "2026-06-02T21:54:20.567Z",
+      "state": "GAPS_IDENTIFIED",
+      "detail": "6 gaps identified."
+    },
+    {
+      "at": "2026-06-02T22:14:51.693Z",
+      "state": "PAPER_READINESS_REVIEW",
+      "detail": "research_failure_report_required"
+    },
+    {
+      "at": "2026-06-02T22:14:51.698Z",
+      "state": "PAPER_DRAFTED_OR_STOPPED",
+      "detail": "Failure report produced."
+    },
+    {
+      "at": "2026-06-02T22:14:51.698Z",
+      "state": "VENUE_FIT_DONE",
+      "detail": "Venue fit written."
+    },
+    {
+      "at": "2026-06-02T22:14:51.698Z",
+      "state": "TRACE_EXPORTED",
+      "detail": "Trace export command written."
+    }
+  ],
+  "discovery_errors": [],
+  "method_matrix": []
+}

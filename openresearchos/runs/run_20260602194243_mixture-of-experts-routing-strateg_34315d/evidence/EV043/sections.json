@@ -1,0 +1,6 @@
+{
+  "introduction": "[2512.15702] End-to-End Training for Autoregressive Video Diffusion via Self-Resampling\n\n1]The Chinese University of Hong Kong\n2]ByteDance Seed\n3]ByteDance\n \\contribution [*]Work done at ByteDance See",
+  "method": "redicts the next frame conditioned on past context, thereby mirroring the  strict causal  nature of the physical world. Beyond world simulation, such a paradigm empowers a diverse array of application",
+  "results": "training of autoregressive video models from scratch. A bidirectional teacher can also leak future information, compromising the strict temporal causality of the student model. Additionally, extension",
+  "conclusion": "r history routing mechanism attains a sparse context with negligible quality loss, offering a viable memory design for long-horizon generation. We anticipate that this work will advance scalable train"
+}

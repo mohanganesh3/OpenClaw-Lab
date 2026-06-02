@@ -1,0 +1,6 @@
+{
+  "introduction": "[2509.07993] Revisiting Deepfake Detection: Chronological Continual Learning and the Limits of Generalization\n\nRevisiting Deepfake Detection: Chronological Continual Learning and the Limits of General",
+  "method": "existing generator. Such observations are the foundation of our newly proposed Non-Universal Deepfake Distribution Hypothesis.\n Code will be released upon acceptance.\n\n1  Introduction\n\nFigure 1 :\n\nIll",
+  "results": "t be directly related to real-world settings, as the experimental assumptions for training and evaluation do not reflect real conditions.\nFurthermore, no in-depth study on data efficiency has been con",
+  "conclusion": "rators on unbalanced classes.\nOur analysis using these metrics revealed a fundamental decorrelation between past and future generalization, challenging the assumption that deepfake detection models ca"
+}

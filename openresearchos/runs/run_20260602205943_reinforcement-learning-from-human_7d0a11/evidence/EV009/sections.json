@@ -1,0 +1,6 @@
+{
+  "introduction": "[2510.25065] Reasoning-Aware GRPO using Process Mining\n\nReasoning-Aware GRPO using Process Mining\n\nTaekhyun Park\n\nDept. of Data Science\n\nPusan National University\n\nBusan, Republic of Korea\n\npthpark1@p",
+  "method": "notable\nadvancement due to its simplified objective design and more stable optimization dynamics compared to traditional\napproaches such as DPO  [ 4 ]  and PPO  [ 5 ] .\nMotivated by these advantages, ",
+  "results": "tively measures how well this process model conforms to the Teacher Model’s reasoning (i.e., conformance checking) and integrates this measure into the reward signal.\n\n•\n\nPM4GRPO does not enforce the ",
+  "conclusion": "Group Sequence Policy Optimization\n\nRecently, GRPO is designed to fine-tune language models with group-level normalized rewards [ 3 ] .\nTypically, it optimizes the policy model by maximizing the expec"
+}

@@ -1,0 +1,6 @@
+{
+  "introduction": "[2010.09236] Continual Unsupervised Domain Adaptation for Semantic Segmentation\n\nContinual Unsupervised Domain Adaptation for Semantic Segmentation\n\nJoonhyuk Kim 1\n\nSahng-Min Yoo 2\n\n1\n\n1  footnotemark",
+  "method": "11 ,  3 ,  19 ,  15 ,  41 ,  42 ] . However, pixel-level labeling for datasets containing enormous real-world images usually requires a high cost of time and labor  [ 6 ,  34 ,  5 ,  43 ,  24 ] .\nTypi",
+  "results": "ve inferior performance when applied to multiple real-world datasets (see Sec.\n\n3.2  ). We see that the style transfer is not enough to overcome the catastrophic forgetting problem when considerable d",
+  "conclusion": "more suitable for the UDA objective. Without loss of generality, our framework can be applied to other adversarial learning-based UDA methods.\n\nThe main contribution of this paper is three-fold:\n\n•\n\nT"
+}

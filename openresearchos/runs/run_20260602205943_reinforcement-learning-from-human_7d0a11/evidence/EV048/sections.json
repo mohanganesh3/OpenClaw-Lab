@@ -1,0 +1,6 @@
+{
+  "introduction": "[2512.03025] LORE: A Large Generative Model for Search Relevance\n\nLORE: A Large Generative Model for Search Relevance\n\nChenji Lu  ∗  , Zhuo Chen  ∗  , Hui Zhao, Zhiyuan Zeng, Gang Zhao,\n\nJunjie Ren, R",
+  "method": "ibutions.  LORE is a complete, replicable blueprint for LLM-based relevance modeling that spans the entire lifecycle.\nFirst, we conducted systematic preliminary explorations into foundational training",
+  "results": "tion by SFT\n\n3.4  RL: Relevance-Oriented Human Preference Alignment\n\n3.4.1  Data construction\n\n3.4.2  Basic RL Framework\n\n3.4.3  Training Strategy Optimization\n\n3.5  Evaluation: Comprehensive Relevanc",
+  "conclusion": "gnificant blind spots remain.\nFor example, ELLM ( ELLM )  conceptualizes relevance as a process of attribute extraction and matching between queries and items. However, this approach falters in bounda"
+}

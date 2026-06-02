@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "run_id": "run_20260602093059_traceable-autonomous-research-agen_d92511",
+  "topic": "traceable autonomous research agents smoke 22e2dd",
+  "created_at": "2026-06-02T09:30:59.093Z",
+  "updated_at": "2026-06-02T09:31:02.049Z",
+  "current_state": "EVIDENCE_LOCKED",
+  "scope_classification": {
+    "label": "local_experiment",
+    "rationale": "The topic can be explored with small simulations, synthetic data, or lightweight local experiments on the Mac."
+  },
+  "search_queries": [
+    "traceable autonomous research agents smoke 22e2dd recent papers",
+    "traceable autonomous research agents smoke 22e2dd benchmark evaluation",
+    "traceable autonomous research agents smoke 22e2dd reproducibility agents",
+    "traceable autonomous research agents smoke 22e2dd reviewer simulation",
+    "traceable autonomous research agents smoke 22e2dd automated scientific discovery",
+    "traceable autonomous research agents smoke 22e2dd failure modes",
+    "traceable autonomous research agents smoke 22e2dd openreview",
+    "traceable autonomous research agents smoke 22e2dd github implementation"
+  ],
+  "evidence_ids": [
+    "EV001",
+    "EV002",
+    "EV003",
+    "EV004",
+    "EV005",
+    "EV006",
+    "EV007",
+    "EV008",
+    "EV009",
+    "EV010"
+  ],
+  "parsed_papers": [],
+  "claim_graph": {
+    "claims": [],
+    "links": []
+  },
+  "research_gaps": [],
+  "idea_tree": [],
+  "reviewer_scores": [],
+  "experiment_candidates": [],
+  "approval_status": {},
+  "micro_probe_results": [],
+  "probe_results": [],
+  "ablation_results": [],
+  "mvp_results": [],
+  "failed_ideas": [],
+  "validation_results": [],
+  "paper_readiness_level": "RRL-0",
+  "final_output_path": null,
+  "history": [
+    {
+      "at": "2026-06-02T09:30:59.093Z",
+      "state": "TOPIC_SCOPED",
+      "detail": "The topic can be explored with small simulations, synthetic data, or lightweight local experiments on the Mac."
+    },
+    {
+      "at": "2026-06-02T09:30:59.093Z",
+      "state": "SEARCH_PLAN_CREATED",
+      "detail": "8 queries created."
+    },
+    {
+      "at": "2026-06-02T09:31:02.047Z",
+      "state": "LITERATURE_DISCOVERY_RUNNING",
+      "detail": "Starting structured literature discovery."
+    },
+    {
+      "at": "2026-06-02T09:31:02.049Z",
+      "state": "EVIDENCE_LOCKED",
+      "detail": "10 papers found (target was 50+)."
+    }
+  ],
+  "discovery_errors": []
+}

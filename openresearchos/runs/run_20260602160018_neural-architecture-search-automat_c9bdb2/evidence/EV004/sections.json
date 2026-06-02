@@ -1,0 +1,6 @@
+{
+  "introduction": "[2103.11820] GPNAS: A Neural Network Architecture Search Framework Based on Graphical Predictor\n\nGPNAS: A Neural Network Architecture Search Framework Based on Graphical Predictor\n\n1 st  Dige Ai\n\ndept",
+  "method": "manual, using a multi-experiment approach to configure a good network by optimizing and adjusting different operators and their internal parameters.\n\nIn recent studies, NAS is considered to be a stati",
+  "results": "ed is improved, the training goal and evaluation goal of the searcher are not unified, which may lead to overfitting.\n\nJiang [ 20 ]  believed that the search paths of skip-connection and operator are ",
+  "conclusion": "function of operator-level, and combines them in the form of Cartesian product.This expanded the search space, but still kept the search performance at a high level thanks to our ”dual accelerators” a"
+}

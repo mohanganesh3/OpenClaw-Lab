@@ -1,0 +1,44 @@
+{
+  "paper_title": "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
+  "method": {
+    "approach": "Investigation of how interface design affects LM agent performance",
+    "system": "SWE-agent, a system that facilitates LM agents to autonomously use computers for software engineering tasks",
+    "key_features": [
+      "Custom agent-computer interface (ACI)",
+      "Enhanced ability to create and edit code files",
+      "Repository navigation capabilities",
+      "Test and program execution capabilities"
+    ],
+    "evaluation": {
+      "benchmarks": [
+        {
+          "name": "SWE-bench",
+          "pass_at_1_rate": 12.5
+        },
+        {
+          "name": "HumanEvalFix",
+          "pass_at_1_rate": 87.7
+        }
+      ],
+      "performance": "State-of-the-art, exceeding previous results with non-interactive LMs"
+    },
+    "insights": "How ACI design impacts agent behavior and performance"
+  },
+  "availability": {
+    "code": "Available at provided URL",
+    "data": "Available at provided URL",
+    "demo": "Available at provided URL"
+  },
+  "evidence_id": "EV010",
+  "title": "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
+  "year": 2024,
+  "arxiv_id": "2405.15793",
+  "full_text_tool": "arxiv_abstract_openclaw",
+  "full_text_chars": 5595,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

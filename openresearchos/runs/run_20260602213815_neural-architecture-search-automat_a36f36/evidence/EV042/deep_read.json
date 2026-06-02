@@ -1,0 +1,51 @@
+{
+  "method": {
+    "name": "Generalized Global Ranking-Aware Neural Architecture Ranker (NAR)",
+    "search_space": [
+      "NAS-Bench-101",
+      "NAS-Bench-201"
+    ],
+    "key_features": [
+      "Ranks architectures with quality tier",
+      "Scores architectures with relative metric",
+      "Uses global ranking of architectures according to ground-truth performance",
+      "Classifies architectures into multiple quality tiers",
+      "Learns features of quality tiers"
+    ],
+    "evaluation_datasets": [
+      "NAS-Bench-101",
+      "NAS-Bench-201 (with CIFAR-10, CIFAR-100, and ImageNet-16-120)"
+    ],
+    "performance": {
+      "nas_bench_101": "Finds top 0.01‰ performance architecture by sampling",
+      "nas_bench_201": "Generalizes well to different image datasets"
+    },
+    "problem_addressed": {
+      "main_issue": "Ranking problem in performance predictors",
+      "sub_issues": [
+        "Prediction bias leading to incorrect rankings",
+        "Generalization issues in contrastive methods"
+      ]
+    },
+    "approach": {
+      "method": "Utilizes quality distributions of the search space",
+      "process": [
+        "Classifies architectures into quality tiers by global rankings",
+        "Trains predictor by learning features of quality tiers",
+        "First classifies quality of architecture, then scores them"
+      ]
+    }
+  },
+  "evidence_id": "EV042",
+  "title": "Generalized Global Ranking-Aware Neural Architecture Ranker for Efficient Image Classifier Search",
+  "year": 2022,
+  "arxiv_id": "2201.12725",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

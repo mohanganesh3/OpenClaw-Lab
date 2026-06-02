@@ -1,0 +1,6 @@
+{
+  "introduction": "[2502.06327] Prompt-Driven Continual Graph Learning\n\nPrompt-Driven Continual Graph Learning\n\nQi Wang, Tianfei Zhou, Ye Yuan, and Rui Mao\n\nQi Wang is with Beijing Institute of Technology, Zhuhai, China",
+  "method": "le at  https://github.com/QiWang98/PromptCGL .\n\nIndex Terms:\n\nGraph Neural Networks, Continue Graph Learning, Prompt Learning, Graph Prompt Learning.\n\nI\n\nIntroduction\n\nGraphs are prevalent in numerous",
+  "results": "13 ,  14 ] . Recent advancements in CGL can be broadly categorized into regularization  [ 8 ] , architectural design  [ 15 ,  16 ] , and memory replay-based methods  [ 17 ,  18 ,  19 ] . Among these, ",
+  "conclusion": "ed by CGL are distinct, making existing graph prompt learning methods unsuitable for CGL scenarios. CGL requires the ability to continuously learn across  dynamic, incremental  settings, where new tas"
+}

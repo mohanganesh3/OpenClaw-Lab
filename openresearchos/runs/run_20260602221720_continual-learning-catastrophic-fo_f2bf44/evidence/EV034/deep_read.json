@@ -1,0 +1,55 @@
+{
+  "title": "Cut out and Replay: A Simple yet Versatile Strategy for Multi-Label Online Continual Learning",
+  "problem_domain": "Multi-Label Online Continual Learning (MOCL)",
+  "key_challenges": [
+    "Massive missing past and future labels in both data stream and memory buffer",
+    "Severe class imbalance that persists in the memory buffer",
+    "Pervasive missing labels: samples only annotated with labels from current task",
+    "Uncontrollable imbalanced classes following long-tailed distribution",
+    "Co-occurrence bias between head and tail classes"
+  ],
+  "objective": "Efficiently adapt the learning model to the current task while preventing catastrophic forgetting of previously learned tasks",
+  "previous_approaches": [
+    {
+      "authors": "Kim et al., 2020",
+      "method": "Partitioning Reservoir Sampling (PRS)",
+      "focus": "Balancing head and tail classes in replay-based approaches"
+    },
+    {
+      "authors": "Liang & Li, 2022",
+      "method": "Optimizing Class Distribution in Memory (OCDM)",
+      "focus": "Reforms memory updates as a sample selection optimization problem"
+    },
+    {
+      "authors": "Du et al., 2022",
+      "method": "Augmented Graph Convolutional Network (AGCN)",
+      "focus": "Generates predictions for previously seen classes while modeling dynamic label relationships"
+    },
+    {
+      "authors": "Dong et al., 2023",
+      "method": "Knowledge Restore and Transfer (KRT)",
+      "focus": "Combines dynamic pseudo-labeling for old classes with session-specific knowledge transfer"
+    },
+    {
+      "authors": "Du et al., 2024",
+      "method": "Asymmetric Knowledge Distillation (AKD) and Online Relabeling (OR)",
+      "focus": "Tackles both missing labels and class imbalance simultaneously"
+    }
+  ],
+  "limitations_of_previous_approaches": [
+    "Feature learning mechanisms have inherent limitations with multi-label data",
+    "Conventional approach of extracting a single feature vector per example suffers from co-occurrence bias",
+    "Techniques like pseudo-labeling and resampling are particularly problematic with missing labels and class imbalance"
+  ],
+  "evidence_id": "EV034",
+  "year": 2025,
+  "arxiv_id": "2505.19680",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

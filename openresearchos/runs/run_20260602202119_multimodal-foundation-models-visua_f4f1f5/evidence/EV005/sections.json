@@ -1,0 +1,6 @@
+{
+  "introduction": "[2410.04778] MM-R3: On (In-)Consistency of Multi-modal Large Language Models (MLLMs)\n\nMM-R 3 : On (In-)Consistency of Multi-modal Large Language Models (MLLMs)\n\nShih-Han Chou  1,2  , Shivam Chandhok  ",
+  "method": "e on widely used MLLMs such as BLIP-2 and LLaVa 1.5M in terms of consistency over their\nexisting counterparts.\n\nFigure 1:  (Left) Overall results of MLLMs on the MM-R 3  Benchmark. (Mid) Consider answ",
+  "results": "t outputs with the same semantic content inputs, remains broadly overlooked. This is a fundamental requirement for MLLMs to be reliably deployable for most tasks. Anecdotally, LLMs and, by extension, ",
+  "conclusion": "rs, may not lead to high consistency. In general, one can think of consistency as a necessary but not sufficient property of an AI system and one should seek to maximize  both\n\nconsistency  and  accur"
+}

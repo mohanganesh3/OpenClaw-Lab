@@ -1,0 +1,6 @@
+{
+  "introduction": "[2602.21626] Multi-Layer Scheduling for MoE-Based LLM Reasoning\n\nMulti-Layer Scheduling for MoE-Based LLM Reasoning\n\nYifan Sun1,\nGholamreza Haffari2,\nMinxian Xu3,\nRajkumar Buyya4,\nAdel N. Toosi1\n\nAbst",
+  "method": "ed rapidly  [ 16 ] , helping millions of users worldwide with tasks such as natural language understanding, content generation, programming assistance, and multimodal reasoning. From personal producti",
+  "results": "n expert parallelism, distributing experts across multiple GPUs or nodes. To further increase inference throughput and support large-batch processing, expert parallelism is often combined with data pa",
+  "conclusion": "erall, the proposed multi-layer scheduling framework delivers substantial performance improvements for MoE-based LLM serving. By jointly optimizing request-level prioritization, engine-level load-awar"
+}

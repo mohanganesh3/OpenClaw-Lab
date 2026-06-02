@@ -1,0 +1,6 @@
+{
+  "introduction": "[2005.09526] In-memory Implementation of On-chip Trainable and Scalable ANN for AI/ML Applications\n\nIn-memory Implementation of On-chip Trainable and Scalable ANN for AI/ML Applications\n\nAbhash Kumar,",
+  "method": "lculation, signed analog to digital conversion, and other necessary signal control units. The proposed architecture was trained and tested on the IRIS dataset which exhibits\n\n≈  46  ×\n\n\\approx 46\\time",
+  "results": "It is used in a wide variety of AI/ML applications because of its self-learning ability to produce output that is not just limited to the input provided to them. Most of these AI/ML algorithms are sof",
+  "conclusion": "ing the precision of parameters to even 1-b during inference [ 12 ,  13 ,  14 ]  can address the energy and latency issues to a some extent but they will lead to accuracy trade-off. Further, implement"
+}

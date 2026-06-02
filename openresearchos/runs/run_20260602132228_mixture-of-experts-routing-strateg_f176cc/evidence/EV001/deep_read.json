@@ -1,0 +1,42 @@
+{
+  "title": "Controlled LLM Training on Spectral Sphere",
+  "methodology": {
+    "core_principle": "Maximal Update Parametrization (μP)",
+    "key_constraint": "Spectral norms of weights and updates scale as Θ(√(d_out/d_in))",
+    "optimizers_compared": [
+      "AdamW",
+      "spectral optimizers",
+      "Muon"
+    ],
+    "new_optimizer": {
+      "name": "SSO (Spectral Sphere Optimization)",
+      "approach": "Steepest descent constrained within spectral sphere geometry",
+      "implementation": "Constrained optimization in tangent space with Lagrange multiplier search and retraction step"
+    }
+  },
+  "key_findings": [
+    "Conventional soft regularization methods are insufficient for long training horizons",
+    "Muon optimizer still exhibits unstable activations despite efficiency",
+    "SSO provides a mathematically unique solution that satisfies both steepest descent and μP constraints"
+  ],
+  "implementation_details": {
+    "framework": "Megatron",
+    "guidelines": [
+      "Optimal learning rate scaler",
+      "Critical atomic module granularity",
+      "Optimal spectral radius to control activation scales"
+    ]
+  },
+  "problem_addressed": "Simultaneous optimization of convergence speed and fundamental stability in LLM training",
+  "evidence_id": "EV001",
+  "year": 2026,
+  "arxiv_id": "2601.08393",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

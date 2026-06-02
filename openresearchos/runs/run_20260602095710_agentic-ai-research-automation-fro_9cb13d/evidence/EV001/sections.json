@@ -1,0 +1,6 @@
+{
+  "introduction": "[2601.11816] POLARIS: Typed Planning and Governed Execution for Agentic AI in Back-Office Automation\n\n\\correspondingauthor\n\nKeerthi Koneru ( keerthi.koneru@accenture.com ). All work was done during th",
+  "method": "ounts payable, contract checks) imposes requirements that generic multi-agent LLM stacks often fail to meet: actions must be auditable, operationally predictable, policy-aligned, and governed before a",
+  "results": "nput/output (I/O) in free-form messages, (b) treat plan generation as best-of-\n\nN  N\n\nprompting without structural diversity guarantees, (c) lack  compiled  policy checks that gate side effects, and (",
+  "conclusion": "his paper is organized as follows: Section\n\n2\n\nreviews prior advances in agentic process automation, benchmarking, and programmatic prompting. Section\n\n3\n\nintroduces the enterprise task setting, notat"
+}

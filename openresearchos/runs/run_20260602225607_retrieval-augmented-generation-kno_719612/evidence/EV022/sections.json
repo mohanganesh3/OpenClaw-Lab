@@ -1,0 +1,6 @@
+{
+  "introduction": "[2511.11347] Privacy Challenges and Solutions in RAG-Enhanced LLMs for Healthcare Chatbots: A Review of Applications, Risks, and Future Directions\n\nPrivacy Challenges and Solutions in RAG-Enhanced LLM",
+  "method": "propose actionable directions based on these limitations and conclude with a call to action. This review provides researchers and practitioners with a structured framework for understanding privacy vu",
+  "results": "standalone LLMs\n\nneha2025retrieval  . Healthcare RAG deployments are being integrated into high-stakes workflows, including triage chatbots, discharge counselling, guideline lookup, radiology consulta",
+  "conclusion": "individuals’ data were included in the database\n\nanderson2024my ;  li2025generating  . This creates a critical conflict: the same features that make RAG reliable and transparent, such as its use of re"
+}

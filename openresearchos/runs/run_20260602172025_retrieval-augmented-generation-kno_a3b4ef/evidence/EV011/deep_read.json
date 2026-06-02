@@ -1,0 +1,48 @@
+{
+  "title": "Heterogeneous LLM Methods for Ontology Learning (Few-Shot Prompting, Ensemble Typing, and Attention-Based Taxonomies)",
+  "authors": "Belyaeva Alex",
+  "keywords": [
+    "Large Language Models",
+    "Ontology engineering (OE)",
+    "Ontology Learning",
+    "Domain-specific knowledge",
+    "Retrieval Augmented Generation",
+    "Term Typing",
+    "Taxonomy Discovery"
+  ],
+  "tasks": [
+    {
+      "name": "Task A: Text2Onto",
+      "description": "Joint extraction of terms (A1) and their types (A2) from raw domain documents"
+    },
+    {
+      "name": "Task B: Term Typing",
+      "description": "Assigning types to given terms, evaluated in both few-shot (B1-B3) and zero-shot (B4-B6) settings",
+      "methods": {
+        "few_shot": "Uses RAG scheme with few-shot prompting",
+        "zero_shot": "Uses zero-shot classifier combining cosine similarity scores from multiple embedding models with confidence-based weighting"
+      }
+    },
+    {
+      "name": "Task C: Taxonomy Discovery",
+      "description": "Models taxonomy discovery as graph inference",
+      "methods": {
+        "approach": "Uses embeddings of type labels and trains a lightweight cross-attention layer to predict is-a relations by approximating a soft adjacency matrix"
+      }
+    }
+  ],
+  "code_repository": "https://github.com/BelyaevaAlex/LLMs4OL-Challenge-Alexbek",
+  "benchmark": "LLMs4OL 2025 benchmark",
+  "approach": "Modular, lightweight, and scalable system for ontology learning across heterogeneous domains",
+  "evidence_id": "EV011",
+  "year": 2025,
+  "arxiv_id": "2508.19428",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

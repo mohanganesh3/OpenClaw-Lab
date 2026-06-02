@@ -1,0 +1,31 @@
+{
+  "title": "Non-Monotonic Attention-based Read/Write Policy Learning for Simultaneous Translation",
+  "approach_name": "AliBaStr-MT (ALIgnment BAsed STReaming Machine Translation)",
+  "methodology": {
+    "base_model": "High quality pretrained non-streaming model",
+    "technique": "Non-monotonic attention as monotonic attention with learnable read/write module",
+    "read_write_module": "Binary classifier trained based on alignment from the pretrained model"
+  },
+  "advantages": [
+    "Training efficiency: Only trains a lightweight read/write classifier",
+    "Inference efficiency: Only needs to run a small classifier, which is fast",
+    "Easy fallback to non-streaming model"
+  ],
+  "related_approaches": [
+    "Monotonic Attention (MA) with attention and policy components",
+    "Wait-k approach with fixed size policy",
+    "Non-streaming model with heuristics to estimate threshold based on MT confidence"
+  ],
+  "problem_domain": "Simultaneous translation with trade-off between quality and latency",
+  "evidence_id": "EV009",
+  "year": 2025,
+  "arxiv_id": "2503.22051",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

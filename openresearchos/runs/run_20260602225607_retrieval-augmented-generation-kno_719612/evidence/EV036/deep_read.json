@@ -1,0 +1,49 @@
+{
+  "title": "Hybrid Retrieval for Hallucination Mitigation in Large Language Models: A Comparative Analysis",
+  "keywords": [
+    "Retrieval Augmented Generation",
+    "Large Language Models",
+    "Hallucination Mitigation",
+    "Retrieval Performance",
+    "Query Expansion",
+    "HaluBench"
+  ],
+  "focus": "Mitigating hallucinations in Large Language Models through hybrid retrieval methods",
+  "hallucination_types": [
+    "Intrinsic hallucinations (not faithful to the context)"
+  ],
+  "methodology": {
+    "approach": "Retrieval-Augmented Generation (RAG)",
+    "retrieval_methods": [
+      "Sparse retriever (BM25-based lexical matching)",
+      "Dense retriever (using embeddings from Sentence Transformers)",
+      "Hybrid approach (combining both methods)"
+    ],
+    "enhancements": [
+      "Query expansion module",
+      "Dynamic weighting"
+    ]
+  },
+  "contributions": [
+    "Uses a query expansion module to increase the coverage of the hybrid retrieval phase",
+    "Evaluates how different types of retrieval performance affect hallucinations in LLM generated outputs"
+  ],
+  "structure": [
+    "Introduction",
+    "Related Work",
+    "Methodology (hybrid retrieval methodology with query expansion and dynamic weighting)",
+    "Experimental setup and results",
+    "Conclusion with future work"
+  ],
+  "evidence_id": "EV036",
+  "year": 2025,
+  "arxiv_id": "2504.05324",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

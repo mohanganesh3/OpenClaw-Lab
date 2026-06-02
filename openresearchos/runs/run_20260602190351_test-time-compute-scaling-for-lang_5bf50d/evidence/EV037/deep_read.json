@@ -1,0 +1,26 @@
+{
+  "title": "GRIP: In-Parameter Graph Reasoning through Fine-Tuning Large Language Models",
+  "authors": "Not specified in the provided text",
+  "abstract": "GRIP is a novel framework that equips Large Language Models (LLMs) with the ability to internalize complex relational information from graphs through carefully designed fine-tuning tasks. The knowledge is efficiently stored within lightweight LoRA parameters, enabling the fine-tuned LLM to perform a wide range of graph-related tasks without requiring access to the original graph at inference time.",
+  "keywords": [
+    "Graph Learning",
+    "Graph Algorithm",
+    "Test Time Adaptation",
+    "Large Language Models"
+  ],
+  "ccs": "Computing methodologies Machine learning",
+  "introduction": "The paper discusses how LLMs like ChatGPT and DeepSeek have revolutionized AI but face challenges with tasks involving complex data structures like graphs. It categorizes existing approaches for adapting LLMs for graph-related tasks into two classes: directly applying LLMs to graph data by converting graphs into text sequences, and integrating specialized modules like Graph Neural Networks (GNNs) to process graph data before interaction with the LLM.",
+  "problem_statement": "The paper identifies limitations in existing approaches, including excessive token overhead or degraded inference performance when representing graphs as sequences, linear scaling of overhead with the number of queries, size of large-scale graphs exceeding the context window of LLMs, and limitations of sequential LLMs in solving graph tasks under node permutation.",
+  "proposed_solution": "The paper proposes embedding graph information directly into LLM parameters using Parameter-Efficient Fine-Tuning (PEFT) techniques such as LoRA.",
+  "evidence_id": "EV037",
+  "year": 2025,
+  "arxiv_id": "2511.07457",
+  "full_text_tool": "arxiv_html2_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "title": "Memory-Free Generative Replay For Class-Incremental Learning",
+  "method": {
+    "name": "Memory-Free Generative Replay",
+    "type": "memory-free",
+    "approach": "generative",
+    "stages": [
+      "knowledge recording",
+      "knowledge inheritance"
+    ]
+  },
+  "problem": "catastrophic forgetting in class-incremental learning",
+  "target_issue": "forgetting of fine-grained old classes",
+  "framework": {
+    "components": [
+      "generator",
+      "new task classifier"
+    ],
+    "training_process": "train generator first, then train new task classifier using mixed new and generated old task images"
+  },
+  "generator_properties": [
+    "high diversity",
+    "matching BN statistics of old classifier",
+    "low domain gap with new task data"
+  ],
+  "classifier_training": "uses mixed mini-batches of new task images and generated old task images",
+  "comparisons": "outperforms existing memory-free methods",
+  "resources": {
+    "code_repository": "https://github.com/xmengxin/MFGR"
+  },
+  "visualizations": [
+    {
+      "figure": "Fig. 1",
+      "purpose": "cartoon illustration of catastrophic forgetting on fine-grained old classes"
+    },
+    {
+      "figure": "Fig. 2",
+      "purpose": "shows the framework with knowledge recording and inheritance stages"
+    }
+  ],
+  "evidence_id": "EV032",
+  "year": 2021,
+  "arxiv_id": "2109.00328",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "paper_title": "Multi-objective Neural Architecture Search via Non-stationary Policy Gradient",
+  "problem_statement": {
+    "domain": "Multi-objective Neural Architecture Search (NAS)",
+    "goal": "To efficiently and accurately approximate the full Pareto front, which represents the trade-off between multiple objectives (e.g., inference time, energy consumption, accuracy, number of parameters).",
+    "challenges": [
+      "The number of possible architectures is very large.",
+      "Architecture evaluation is computationally expensive."
+    ]
+  },
+  "existing_approaches": [
+    {
+      "name": "Scalarization",
+      "description": "Combines multiple objectives into a single objective (e.g., using a weighted sum or product).",
+      "limitation": "Requires multiple runs with different scalarizations to obtain multiple Pareto-optimal solutions, which is computationally-intensive."
+    },
+    {
+      "name": "Evolution (Genetic Algorithms)",
+      "description": "Iteratively updates a population of architectures via crossovers, mutations, and elitist selection.",
+      "examples": [
+        {
+          "name": "LEMONADE",
+          "limitation": "Approximates the Pareto front well but at a relatively high search cost."
+        },
+        {
+          "name": "NSGA-Net",
+          "limitation": "Achieves lower cost by using low-fidelity estimates (e.g., training for only 25 epochs), which introduces high bias and can negatively impact the accuracy of the Pareto front approximation."
+        }
+      ]
+    }
+  ],
+  "proposed_solution": {
+    "name": "Non-stationary Policy Gradient (NPG)",
+    "core_idea": "To continuously adapt a single policy to efficiently generate Pareto-optimal architectures, inspired by adapting policies in scalarization and evolution.",
+    "framework": "Built upon a Reinforcement Learning (RL) framework, leveraging a non-stationary reward function to adapt the policy continuously.",
+    "advantage": "Allows for the efficient and accurate approximation of the entire Pareto front in a single run."
+  },
+  "proposed_framework": {
+    "name": "NPG-NAS",
+    "components": [
+      {
+        "name": "ADF (Annealing Desirability Function)",
+        "type": "Scalarization-based",
+        "mechanism": "Utilizes a target-based desirability function. It slowly anneals target values for all but one objective, gradually uncovering the entire Pareto front.",
+        "behavior": "Traverses the entire Pareto front from left to right."
+      },
+      {
+        "name": "ADC (Annealing Dominance-based Reward)",
+        "type": "Pareto dominance-based",
+        "mechanism": "An architecture receives a reward based on whether it dominates or is dominated by other architectures in the current Pareto front.",
+        "behavior": "Expands the Pareto front in bands, similar to evolutionary methods."
+      }
+    ],
+    "distinction_from_evolution": "Unlike evolution which uses genetic operations (crossovers, mutations) on existing individuals, NPG-NAS expands the Pareto front by sampling new architectures that are likely to dominate the current front."
+  },
+  "key_concepts": [
+    "Neural Architecture Search (NAS)",
+    "Pareto front / Pareto-optimal architectures",
+    "Scalarization",
+    "Evolution / Genetic algorithms",
+    "Non-stationary Policy Gradient (NPG)",
+    "Reinforcement Learning (RL)",
+    "Non-stationary reward function",
+    "Pareto dominance",
+    "ADF (Annealing Desirability Function)",
+    "ADC (Annealing Dominance-based Reward)",
+    "NPG-NAS"
+  ],
+  "evidence_id": "EV051",
+  "title": "Multi-objective Neural Architecture Search via Non-stationary Policy Gradient",
+  "year": 2020,
+  "arxiv_id": "2001.08437",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7997,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

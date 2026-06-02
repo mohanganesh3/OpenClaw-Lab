@@ -1,0 +1,54 @@
+{
+  "title": "Grounding-Aware Token Pruning: Recovering from Drastic Performance Drops in Visual Grounding Caused by Pruning",
+  "method": {
+    "name": "GAP (Grounding-Aware Token Pruning)",
+    "purpose": "Preserves the grounding ability of Multimodal Large Language Models (MLLMs)",
+    "problem_addressed": "Token pruning degrades grounding ability, impairing spatial relationships and bounding box predictions",
+    "root_cause": "Misaligned position IDs are the primary cause of performance drops after pruning",
+    "solution": "A simple modification that corrects position ID misalignments",
+    "applications": {
+      "pruning_methods": [
+        "PruMerge",
+        "TRIM",
+        "four baseline methods"
+      ],
+      "models": [
+        "Shikra",
+        "MiniGPTv2",
+        "LLaVA series"
+      ]
+    },
+    "advantages": [
+      "No additional training required",
+      "No additional memory overhead",
+      "No additional computational overhead"
+    ]
+  },
+  "results": {
+    "performance": "GAP consistently improves performance while preserving efficiency",
+    "applicability": "Demonstrated as a viable enhancement for grounding MLLMs",
+    "validation": "Applied to five models and six pruning methods"
+  },
+  "contributions": [
+    "Identified misaligned position IDs as the key factor behind grounding performance degradation",
+    "Proposed GAP to effectively recover lost performance",
+    "Validated GAP across five models and six pruning methods, demonstrating broad applicability"
+  ],
+  "background": {
+    "MLLM_capabilities": "Impressive performance across tasks like VQA and image captioning",
+    "REC_performance": "Models like MiniGPTv2 and Shikra achieve results comparable to specialized models",
+    "computational_challenge": "High computational costs and inefficiencies with increasing visual tokens",
+    "existing_solutions": "Various token pruning methods have been developed to address these issues"
+  },
+  "evidence_id": "EV025",
+  "year": 2025,
+  "arxiv_id": "2506.21873",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

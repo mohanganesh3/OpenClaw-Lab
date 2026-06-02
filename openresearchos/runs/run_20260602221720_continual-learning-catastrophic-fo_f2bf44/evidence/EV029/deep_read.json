@@ -1,0 +1,62 @@
+{
+  "paper_title": "Adapter-Enhanced Semantic Prompting for Continual Learning",
+  "method_section": {
+    "problem_statement": "Continual Learning (CL) suffers from catastrophic forgetting, where old knowledge is overwritten when learning new tasks, leading to a significant decline in performance for previous tasks.",
+    "existing_approaches": [
+      {
+        "approach_name": "Replay-based Methods",
+        "mechanism": "Retain a few representative samples from old tasks to be replayed with new task data.",
+        "limitations": [
+          "Imposes a memory burden.",
+          "Introduces privacy leakage risks."
+        ]
+      },
+      {
+        "approach_name": "Branch-based Methods",
+        "mechanism": "Add new branches to the network for each new task.",
+        "limitations": [
+          "Increases model size.",
+          "Results in slower inference speed and lower efficiency."
+        ]
+      },
+      {
+        "approach_name": "Prompt-based Methods",
+        "mechanism": "Learn visual prompts to adapt a pre-trained Visual Transformer (ViT) model to CL tasks.",
+        "limitations": [
+          "Rely solely on visual information.",
+          "May struggle with generalization, especially with limited and non-diverse training data."
+        ]
+      }
+    ]
+  },
+  "results_section": {
+    "proposed_solution": {
+      "name": "Adapter-Enhanced Semantic Prompting (AESP) framework",
+      "core_idea": "Introduce semantic information to enhance the generalization of a pre-trained ViT model for more adaptive visual feature learning.",
+      "key_components": [
+        {
+          "component_name": "Semantic Prompts (S-Prompts)",
+          "function": "To enrich semantic information by using class semantic information extracted from large language models.",
+          "purpose": "To create a more generalized feature space, enabling the model to focus on shared semantic features rather than specific visual ones, thus improving generalization."
+        },
+        {
+          "component_name": "Adapter Modules",
+          "function": "Small, learnable modules integrated into each layer of the ViT.",
+          "purpose": "To help the model accommodate semantic information and facilitate effective interaction between visual and semantic features, addressing their differing representations and feature spaces."
+        }
+      ]
+    }
+  },
+  "evidence_id": "EV029",
+  "title": "Adapter-Enhanced Semantic Prompting for Continual Learning",
+  "year": 2024,
+  "arxiv_id": "2412.11074",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

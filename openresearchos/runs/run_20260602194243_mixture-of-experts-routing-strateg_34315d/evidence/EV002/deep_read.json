@@ -1,0 +1,57 @@
+{
+  "title": "Mixture of In-Context Experts Enhance LLMs' Long Context Awareness",
+  "method": {
+    "name": "Mixture of In-Context Experts (MoICE)",
+    "description": "A novel plug-in for LLMs that integrates a router within each attention head",
+    "key_features": [
+      "Freezes LLM parameters and exclusively updates routers for only a few steps",
+      "Router selects several of the most suitable RoPE angles for each token",
+      "Selected RoPE angles collectively contribute to computing attention scores"
+    ],
+    "advantages": [
+      "Superior memory efficiency",
+      "Better performance compared to prior methods"
+    ]
+  },
+  "problem_addressed": {
+    "description": "LLMs' contextual awareness is not as powerful as widely believed, constraining their application in tasks demanding extensive contextual awareness",
+    "specific_issues": [
+      "Lost-in-middle phenomenon: LLMs exhibit weaker awareness of information in the middle of long context",
+      "RoPE (Rotary Positional Embedding) has mathematical properties that impede attention to specific positions in long context"
+    ]
+  },
+  "prior_methods": [
+    {
+      "name": "Attention Buckets (AB)",
+      "description": "Enhances context awareness by executing N inference instances with distinct RoPE angles and aggregating outputs",
+      "drawbacks": [
+        "Excessive redundant FFN calculations",
+        "High memory consumption"
+      ]
+    },
+    {
+      "name": "Ms-PoE",
+      "description": "Enhances utility of position-aware heads by re-scaling positional embedding indices",
+      "drawbacks": [
+        "Needs additional forward pass for RoPE angle assignment",
+        "Limited awareness of certain contextual positions",
+        "Static assignment of RoPE angle for each attention head throughout generation"
+      ]
+    }
+  ],
+  "results": {
+    "comparison": "MoICE demonstrates superior memory efficiency and performance compared to AB and Ms-PoE",
+    "visualization": "Figure 1 illustrates the approaches, showing MoICE's advantage over AB and Ms-PoE"
+  },
+  "evidence_id": "EV002",
+  "year": 2024,
+  "arxiv_id": "2406.19598",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

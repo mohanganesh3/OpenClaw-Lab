@@ -1,0 +1,54 @@
+{
+  "paper_title": "FNAS: Uncertainty-Aware Fast Neural Architecture Search",
+  "method_name": "Fast Neural Architecture Search (FNAS)",
+  "key_components": [
+    {
+      "name": "Uncertainty-Aware Critic (UAC)",
+      "purpose": "Learn the architecture-performance joint distribution from previous search processes in an unbiased manner"
+    },
+    {
+      "name": "Architecture Knowledge Pool (AKP)",
+      "purpose": "Restore block-level parameters and transfer parameter knowledge across different searching settings and tasks"
+    }
+  ],
+  "performance_improvements": {
+    "searching_time_reduction": "half",
+    "acceleration_factor": "~10x",
+    "example_mnas": {
+      "original_cost": "20,000 GPU hours",
+      "reduced_cost": "2,000 GPU hours"
+    }
+  },
+  "problems_addressed": [
+    "RL-based NAS requires unbearable computing resources",
+    "One-shot NAS has issues with inaccurate performance estimation due to weight sharing"
+  ],
+  "key_observations": [
+    "Optimal architectures for different tasks have common architecture knowledge",
+    "Parameter knowledge (weights) can be transferred across different searching settings and tasks"
+  ],
+  "experimental_details": {
+    "search_space": "Mobile Neural Architecture Search (MNAS)",
+    "rl_based_nas_requirements": {
+      "seminal_approach_generations": "12,800",
+      "mnas_and_mobilenet_v3_generations": "8000 or more",
+      "training_epochs_per_generation": "~5 epochs"
+    },
+    "computational_cost": {
+      "original_cost": "64 TPUv2 devices for 96 hours or 20,000 GPU hours on V100",
+      "reduced_cost_mnas": "2,000 GPU hours"
+    }
+  },
+  "evidence_id": "EV038",
+  "title": "FNAS: Uncertainty-Aware Fast Neural Architecture Search",
+  "year": 2021,
+  "arxiv_id": "2105.11694",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7997,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

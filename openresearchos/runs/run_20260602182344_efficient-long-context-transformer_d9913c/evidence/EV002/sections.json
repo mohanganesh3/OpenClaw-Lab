@@ -1,0 +1,6 @@
+{
+  "introduction": "[2504.05729] Robust and Efficient Average Consensus with Non-Coherent Over-the-Air Aggregation\n\nRobust and Efficient Average Consensus with Non-Coherent Over-the-Air Aggregation\n\nYuhang Deng, Zheng Ch",
+  "method": "is to agree on the average of agents’ initial state values. The interaction protocol and network topology can greatly affect the process of reaching consensus  [ 2 ] . The most classical interaction p",
+  "results": "e challenges have spurred research into non-coherent OTA aggregation  [ 10 ,  11 ] .\nIn  [ 10 ] , non-coherent OTA aggregation has been proposed for wireless multi-agent optimization systems employing",
+  "conclusion": "es the set of links. A pair of agents\n\ni  i\n\nand\n\nj  j\n\nis said to be connected if\n\n(  i  ,  j  )\n\n∈  ℰ\n\n(i,j)\\in\\mathcal{E}\n\n.\n\nEach agent has a real-valued state value\n\nx  n\n\n​\n\n[  t  ]\n\nx_{n}[t]\n\nw"
+}

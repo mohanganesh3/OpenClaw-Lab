@@ -1,0 +1,31 @@
+{
+  "method_summary": "The paper presents a comprehensive survey methodology that systematically examines trustworthy agentic AI through two core dimensions (Safety and Robustness, Privacy and System Security), identifying risks across agent workflows, and consolidating evaluation into a unified metrics-and-benchmarks framework.",
+  "key_innovation": "A unified metrics-and-benchmarks hub that consolidates both outcome and process signals for consistent evaluation and deployment decisions of agentic systems.",
+  "datasets_used": [],
+  "baselines_compared": [],
+  "key_results": {},
+  "best_result": "",
+  "limitations_stated": [
+    "self-evolving agents",
+    "runtime monitoring and verification",
+    "privacy-preserving personalization",
+    "trust-utility trade-off"
+  ],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "low",
+  "compute_required": "N/A",
+  "can_run_on_macbook": false,
+  "evidence_id": "EV002",
+  "title": "Towards trustworthy agentic AI: a comprehensive survey of safety, robustness, privacy, and system security",
+  "year": 2026,
+  "arxiv_id": "2605.23989",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 6047,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

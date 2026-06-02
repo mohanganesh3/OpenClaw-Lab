@@ -1,0 +1,6 @@
+{
+  "introduction": "[2510.14616] Beyond Correctness: Evaluating Subjective Writing Preferences Across Cultures\n\n\\contribution\n\nFull author list in Contributions\n\nBeyond Correctness: Evaluating Subjective Writing Preferen",
+  "method": "struction-following. However, our benchmark reveals a critical limitation: when we systematically remove objective quality signals (grammatical errors, factual mistakes, length differences), sequence-",
+  "results": "erence pairs (1,200 English, 600 Chinese) across 8 creative writing genres\nwhere both responses are grammatically correct, factually accurate, and length-matched. We focus on three dimensions of creat",
+  "conclusion": "ce pairs with systematic signal isolation across English and Chinese, enabling reproducible cross-lingual evaluation of subjective preference modeling.\n\n•\n\nEmpirical findings : Comprehensive evaluatio"
+}

@@ -1,0 +1,6 @@
+{
+  "introduction": "[2409.17472] Autoregressive Multi-trait Essay Scoring via Reinforcement Learning with Scoring-aware Multiple Rewards\n\nAutoregressive Multi-trait Essay Scoring via Reinforcement Learning with Scoring-a",
+  "method": "ntence Fluency , and  Organization . As providing multi-view assessment is essential for enhancing the learner’s writing skill, recent attention to automated essay scoring (AES) systems has shifted fr",
+  "results": "ation to construct a bi-directional QWK reward.\n\nApplying RL in AES is underexplored, and prior work  Wang et al. ( 2018 )  is limited to holistic scoring. Further, their method is restricted to the c",
+  "conclusion": "ores significantly improved all trait-scoring performance, achieving stat-of-the-art results. Further, it reduces the burden of designing separate trait-specific layers as it consecutively predicts fu"
+}

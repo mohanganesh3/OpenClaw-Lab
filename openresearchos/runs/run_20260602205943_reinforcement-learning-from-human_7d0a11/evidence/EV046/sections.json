@@ -1,0 +1,6 @@
+{
+  "introduction": "[2509.25137] The Era of Real-World Human Interaction: RL from User Conversations\n\n1]FAIR at Meta\n2]Johns Hopkins University\n \\contribution [†]Joint second author\n\nThe Era of Real-World Human Interacti",
+  "method": "al, and continual learning.\n\n1  Introduction\n\nToday, language model post-training primarily depends on static corpora of expert-annotated data: verifiable questions, fixed demonstrations, and rankings",
+  "results": "signals.\n\nTo achieve this vision, we introduce RLHI, a paradigm that learns directly from in-the-wild conversations through two complementary methods:\n(1)  RLHI with User-Guided Rewrites  (§  2.3  ), ",
+  "conclusion": "he world. Since these systems ultimately exist to assist humans, interaction with users becomes a natural and essential dimension of this shift. The  era of real-world human interaction  thus forms a "
+}

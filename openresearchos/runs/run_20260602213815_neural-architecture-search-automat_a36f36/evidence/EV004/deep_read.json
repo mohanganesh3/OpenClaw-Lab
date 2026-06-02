@@ -1,0 +1,51 @@
+{
+  "paper_title": "GPNAS: A Neural Network Architecture Search Framework Based on Graphical Predictor",
+  "problem_statement": "Existing Neural Architecture Search (NAS) methods have various defects, including high computational cost (evolutionary algorithms), failure to solve credit allocation (RL and gradient-based methods), reliance on manual priors (BOHB), search-space transplantation leading to overfitting (differentiable NAS), large noise in search analysis (alternate RL search), and limited versatility of predictors (LSTM-based predictor). These issues force compromises in practical applications.",
+  "proposed_solution": "The authors propose GPNAS, a framework that decouples the search space for skip-connections and operators. It replaces the RL searcher with BOHB for improved efficiency and utilizes a GCN-based (Graph Convolutional Network) predictor.",
+  "key_contributions": [
+    "An alternate neural network search framework that decouples the search space of skip-connection and operator, using BOHB instead of RL to improve efficiency.",
+    "A GCN-based (Graph Convolutional Network) predictor."
+  ],
+  "related_work": [
+    {
+      "method": "Evolutionary Algorithms (e.g., [25, 41, 32, 26])",
+      "critique": "Require a large amount of computation."
+    },
+    {
+      "method": "Reinforcement Learning-based methods (e.g., [31, 6, 7])",
+      "critique": "Reduced calculation cost but failed to solve the problem of credit allocation."
+    },
+    {
+      "method": "Gradient-based methods (e.g., [27, 7, 42, 40])",
+      "critique": "Reduced calculation cost but failed to solve the problem of credit allocation."
+    },
+    {
+      "method": "BOHB (Zela [45])",
+      "critique": "Relies on manual priors and requires strong model design ability from the engineer, which defeats the original purpose of NAS."
+    },
+    {
+      "method": "Differentiable Neural Architecture Search (Liu [27])",
+      "critique": "The searched cell structure is not directly applied to the target network, leading to a mismatch between training and evaluation goals and potential overfitting."
+    },
+    {
+      "method": "Alternate search model based on RL for decoupled search spaces (Jiang [20])",
+      "critique": "Analysis of the skip-connection search path has large noise, and searching for skip-connection using RL is considered inefficient."
+    },
+    {
+      "method": "A predictor using LSTM for progressive growth (Liu [25])",
+      "critique": "Limited to predicting the performance of child models without skip-connections, which greatly limits its versatility."
+    }
+  ],
+  "evidence_id": "EV004",
+  "title": "GPNAS: A Neural Network Architecture Search Framework Based on Graphical Predictor",
+  "year": 2021,
+  "arxiv_id": "2103.11820",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7997,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

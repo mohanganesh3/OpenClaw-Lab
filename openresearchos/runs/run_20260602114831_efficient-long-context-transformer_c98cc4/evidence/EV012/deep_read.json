@@ -1,0 +1,28 @@
+{
+  "method_summary": "Research paper: MatMamba: A Matryoshka State Space Model",
+  "key_innovation": "See full text",
+  "datasets_used": [
+    "ImageNet"
+  ],
+  "baselines_compared": [],
+  "key_results": {},
+  "best_result": null,
+  "limitations_stated": [],
+  "code_available": true,
+  "code_url": "https://github.com/ScaledFoundations/MatMamba",
+  "reproducibility": "unknown",
+  "compute_required": "unknown",
+  "can_run_on_macbook": true,
+  "evidence_id": "EV012",
+  "title": "MatMamba: A Matryoshka State Space Model",
+  "year": 2024,
+  "arxiv_id": "2410.06718",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

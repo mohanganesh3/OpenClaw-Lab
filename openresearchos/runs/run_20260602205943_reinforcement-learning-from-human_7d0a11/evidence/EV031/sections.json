@@ -1,0 +1,6 @@
+{
+  "introduction": "[2310.02054] AlignDiff: Aligning Diverse Human Preferences via Behavior-Customisable Diffusion Model\n\nSkip to main content\n\nLearn about arXiv becoming an independent nonprofit.\n\nWe gratefully acknowle",
+  "method": "we propose AlignDiff, a novel framework that leverages RL from Human Feedback (RLHF) to quantify human preferences, covering abstractness, and utilizes them to guide diffusion planning for zero-shot b",
+  "results": "0.48550/arXiv.2310.02054\n\nFocus to learn more\n\narXiv-issued DOI via DataCite\n\nSubmission history  From: Zibin Dong [ view email ]\n\n[v1]\n\nTue, 3 Oct 2023 13:53:08 UTC (2,568 KB)\n\n[v2]\n\nSun, 4 Feb 2024 ",
+  "conclusion": "( What is GotitPub? )\n\nHuggingface Toggle\n\nHugging Face\n\n( What is Huggingface? )\n\nScienceCast Toggle\n\nScienceCast\n\n( What is ScienceCast? )\n\nDemos\n\nDemos\n\nReplicate Toggle\n\nReplicate\n\n( What is Repli"
+}

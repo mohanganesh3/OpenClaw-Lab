@@ -1,0 +1,6 @@
+{
+  "introduction": "[2512.19122] BanglaForge: LLM Collaboration with Self-Refinement for Bangla Code Generation\n\nBanglaForge: LLM Collaboration with Self-Refinement for Bangla Code Generation\n\nMahir Labib Dihan, Sadif Ah",
+  "method": "emantically correct solutions, performing well on benchmarks like HumanEval  Chen et al. ( 2021 ) . These advances reduce the gap between human intent and code, making programming more accessible. How",
+  "results": "tion (\n\nP  b\n\nP_{b}\n\n) is translated into English (\n\nP  e\n\nP_{e}\n\n) and, together with unit tests, used to retrieve top-\n\nk  k\n\nbilingual examples.\nThe  Coder LLM  then generates Python code and addit",
+  "conclusion": "t_list  field of assert-based unit tests.\n\nFigure 2:  Example data point\n\nSplit\n\nPurpose\n\nSize\n\nTrial\n\nInitial experiments\n\n74\n\nDevelopment\n\nValidation\n\n400\n\nTest\n\nFinal evaluation\n\n500\n\nTable 1:  Dat"
+}

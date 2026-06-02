@@ -1,0 +1,61 @@
+{
+  "paper_title": "Prompt-Driven Continual Graph Learning",
+  "authors": [
+    {
+      "name": "QiWang98",
+      "affiliation": "https://github.com/QiWang98/PromptCGL"
+    }
+  ],
+  "index_terms": [
+    "Graph Neural Networks",
+    "Continue Graph Learning",
+    "Prompt Learning",
+    "Graph Prompt Learning"
+  ],
+  "method": {
+    "name": "PromptCGL",
+    "type": "Prompt-based learning paradigm for Continual Graph Learning",
+    "key_features": [
+      "Learns a fixed number of prompts for each unique task",
+      "Keeps GNN parameters unchanged during continual learning",
+      "Does not require memory buffer for storing historical data"
+    ]
+  },
+  "problems_addressed": [
+    "Traditional GNNs assume static graph structures",
+    "Replay-based CGL methods require substantial memory resources",
+    "Storage of historical node information raises privacy concerns"
+  ],
+  "related_work": {
+    "categories": [
+      "Regularization",
+      "Architectural design",
+      "Memory replay-based methods"
+    ],
+    "specific_methods": [
+      "CaT",
+      "SSM",
+      "ER-GNN"
+    ]
+  },
+  "datasets": [
+    "Reddit Dataset",
+    "Products Dataset"
+  ],
+  "key_findings": [
+    "PromptCGL shows leading performance regardless of memory buffer size",
+    "PromptCGL outperforms replay-based methods when buffer size decreases"
+  ],
+  "evidence_id": "EV031",
+  "title": "Prompt-Driven Continual Graph Learning",
+  "year": 2025,
+  "arxiv_id": "2502.06327",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7997,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

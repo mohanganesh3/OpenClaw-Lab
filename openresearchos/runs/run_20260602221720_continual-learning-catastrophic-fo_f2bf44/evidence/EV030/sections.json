@@ -1,0 +1,6 @@
+{
+  "introduction": "[2201.12604] Learning Fast, Learning Slow: A General Continual Learning Method based on Complementary Learning System\n\n\\sidecaptionvpos\n\nfiguret\n\nLearning Fast, Learning Slow: A General Continual Lear",
+  "method": "uly intelligent.\nThe major challenge towards enabling CL in deep neural networks (DNNs) is that the continual acquisition of incrementally available information from non-stationary data distributions ",
+  "results": "for CL. They highlight that many existing approaches only focus on modeling the prefrontal cortex directly and do not have a fast learning network which plays a critical role in enabling efficient CL ",
+  "conclusion": "tilize the task boundaries or make any strong assumption regarding the distribution of the data and tasks. We demonstrate the versatility and effectiveness of our method on a wide range of CL benchmar"
+}

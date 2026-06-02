@@ -1,0 +1,6 @@
+{
+  "introduction": "[2505.13308] Seek in the Dark: Reasoning via Test-Time Instance-Level Policy Gradient in Latent Space\n\nSeek in the Dark : Reasoning via Test-Time Instance-Level Policy Gradient in Latent Space\n\nmargin",
+  "method": "performance by increasing test-time computation without parameter updating. Unlike prior methods in this paradigm focused on token space, we propose leveraging latent space for more effective reasonin",
+  "results": "(Brown et al.,  2020 ; Chowdhery et al.,  2022 ; OpenAI,  2023 ; Zhao et al.,  2025 ) . Despite these advancements, LLMs still exhibit difficulties in reasoning, particularly in tasks that demand stru",
+  "conclusion": "il to fully leverage its semantic richness. As a result, their performance remains inferior to that of\n\nChain-of-Thought\n\n(  CoT  ). Nevertheless, these studies provide evidence supporting the adequac"
+}

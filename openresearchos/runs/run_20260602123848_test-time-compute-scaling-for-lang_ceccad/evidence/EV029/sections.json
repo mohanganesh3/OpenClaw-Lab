@@ -1,0 +1,6 @@
+{
+  "introduction": "[2604.16060] Chain-of-Thought Degrades Visual Spatial Reasoning Capabilities of Multimodal LLMs\n\nChain-of-Thought Degrades Visual Spatial Reasoning Capabilities of Multimodal LLMs\n\nSai Srinivas Kanche",
+  "method": "mathematical and logical domains. By leveraging Reinforcement Learning (RL)\n\nTULU3 ;  DeepSeekAI2025DeepSeekR1IR\n\nand long Chain-of-Thought (CoT)\n\ncot1 ;  cot2\n\ninference, MRMs demonstrate the ability",
+  "results": "nsufficient for robust spatial intelligence, highlighting the need for vision-centric training paradigms.\n\nModel\n\nCoT\n\nNon-CoT\n\nGThinker\n\n62.52\n\n39.38 (\n\n-23.14  %\n\n\\textbf{-23.14}\\%\n\n)\n\nR1-Ov\n\n46.88\n",
+  "conclusion": "0.42}\n\n27.09  0.42\n\n27.09_{0.42}\n\n13.30  0.30\n\n13.30_{0.30}\n\n56.16  0.16\n\n56.16_{0.16}\n\n\\rowcolor light-gray\nViGoRL-7B-Spatial\n\n55.84  0.20\n\n55.84_{0.20}\n\n52.51  0.26\n\n52.51_{0.26}\n\n76.59  0.27\n\n76.59"
+}

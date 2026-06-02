@@ -1,0 +1,31 @@
+{
+  "title": "HyperMoE: Towards Better Mixture of Experts via Transferring Among Experts",
+  "authors": "Not explicitly stated in the provided text",
+  "year": 2024,
+  "problem": "Trade-off in Mixture of Experts (MoE) models between selecting more experts (improving performance) and maintaining sparsity (reducing computational costs)",
+  "proposed_solution": "HyperMoE, a framework built upon hypernetworks that transfers knowledge from unselected experts to selected experts while maintaining sparsity",
+  "key_contributions": [
+    "HyperMoE framework built upon hypernetworks",
+    "Cross-expert information transfer",
+    "Cross-layer Hypernetworks for information flow among MoEs in different layers",
+    "Improved efficiency in parameters and computational costs"
+  ],
+  "methodology": {
+    "core_concept": "Using hypernetworks to capture information from every expert and achieve positive expert transfer by generating conditioned modules individually",
+    "components": [
+      "HyperExperts: Generated based on unselected experts' information to supplement selected experts while maintaining sparsity",
+      "Expert-shared hypernetwork: Captures information from every expert",
+      "Cross-layer Hypernetworks: Shared among all transformer layers to enable information flow among MoEs in different layers"
+    ]
+  },
+  "evidence_id": "EV008",
+  "arxiv_id": "2402.12656",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

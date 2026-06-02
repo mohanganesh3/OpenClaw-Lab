@@ -1,0 +1,57 @@
+{
+  "title": "SycoPhantasy: Quantifying Sycophancy and Hallucination in Small Open Weight VLMs for Vision-Language Scoring of Fantasy Characters",
+  "authors": [
+    {
+      "name": "Arya Shah",
+      "affiliation": "IIT Gandhinagar",
+      "email": "arya.shah@iitgn.ac.in"
+    },
+    {
+      "name": "Deepali Mishra",
+      "affiliation": "IIT Kanpur",
+      "email": "deepalim25@iitk.ac.in"
+    },
+    {
+      "name": "Chaklam Silpasuwanchai",
+      "affiliation": "Asian Institute of Technology",
+      "email": "chaklam@ait.asia"
+    }
+  ],
+  "abstract": "This paper introduces a testbed study using text-to-image fantasy character evaluation to study sycophantic behavior in Vision-Language Models (VLMs). The authors introduce the Bluffing Coefficient (Bc) as a novel metric to quantify the mismatch between a VLM's score and the evidence it cites. They found a strong inverse correlation between model size and sycophancy rate (r = -0.96, p = 0.002), ranging from 22.3% (LFM2-VL, 450M) to 6.0% (LLaVA-1.6, 7B).",
+  "methodology": {
+    "approach": "Text-to-image fantasy character evaluation as a proxy for VLM evaluator behavior",
+    "dataset": "Fantasy NPC descriptions with rich, structured, and verifiable visual attributes (150-250 words per description)",
+    "metric": "Bluffing Coefficient (Bc) computed as Bc = S_norm - R+ + R- (normalized score minus positive evidence recall plus negative recall)",
+    "tools": "spaCy for keyphrase extraction, sentence embeddings for matching model reasoning"
+  },
+  "results": {
+    "research_questions": [
+      "Do small, open-weight VLMs exhibit sycophantic behavior when evaluating image-text alignment?",
+      "Is there a relationship between model size and sycophancy?",
+      "What patterns emerge when we measure the gap between scores and cited visual evidence?"
+    ],
+    "findings": {
+      "model_size_vs_sycophancy": {
+        "correlation": "Strong inverse correlation (r = -0.96, p = 0.002)",
+        "range": "22.3% (LFM2-VL, 450M) to 6.0% (LLaVA-1.6, 7B)"
+      },
+      "models_studied": "Six open-weight VLMs (450M–8B parameters)"
+    }
+  },
+  "contributions": [
+    "The Bluffing Coefficient as a novel metric for quantifying score-evidence mismatch in VLM evaluations",
+    "A large-scale benchmark of 173,810 image-description pairs for studying sycophancy in visual scoring",
+    "An empirical analysis demonstrating a significant inverse relationship between model size and sycophancy"
+  ],
+  "evidence_id": "EV013",
+  "year": 2026,
+  "arxiv_id": "2604.24346",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

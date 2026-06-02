@@ -1,0 +1,10 @@
+# EV013: An Efficient Training Accelerator for Transformers With Hardware-Algorithm Co-Optimization
+
+URL: https://www.semanticscholar.org/paper/002431a77880b796a620db6c529f7586e6a659b9
+Year: 2023
+Source: semantic_scholar
+Arxiv: n/a
+
+## Abstract
+
+Transformers have achieved significant success in deep learning, and training Transformers efficiently on resource-constrained platforms has been attracting continuous attention for domain adaptions and privacy concerns. However, deploying Transformers training on these platforms is still challenging due to its dynamic workloads, intensive computations, and massive memory accesses. To address these issues, we propose an Efficient Training Accelerator for TRansformers (TRETA) through a hardware-algorithm co-optimization strategy. First, a hardware-friendly mixed-precision training algorithm is presented based on a compact and efficient data format, which significantly reduces the computation and memory requirements. Second, a flexible and scalable architecture is proposed to achieve high utilization of computing resources when processing arbitrary irregular general matrix multiplication (GEMM) operations during training. These irregular GEMMs lead to severe under-utilization when simply mapped on traditional systolic architectures. Third, we develop training-oriented architectures for the crucial Softmax and layer normalization functions in Transformers, respectively. These area-efficient modules have unified and flexible microarchitectures to meet various computation requirements of different training phases. Finally, TRETA is implemented under Taiwan Semiconductor Manufacturing Company (TSMC) 28-nm technology and evaluated on multiple benchmarks. The experimental results show that our training framework achieves the same accuracy as the full precision baseline. Moreover, TRETA can achieve 14.71 tera operations per second (TOPS) and 3.31 TOPS/W in terms of throughput and energy efficiency, respectively. Compared with prior arts, the proposed design shows 1.4– $24.5\times $ speedup and 1.5– $25.4\times $ energy efficiency improvement.

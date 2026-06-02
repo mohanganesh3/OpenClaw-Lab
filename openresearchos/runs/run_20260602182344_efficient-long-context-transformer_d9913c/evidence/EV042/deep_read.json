@@ -1,0 +1,47 @@
+{
+  "paper_title": "An Efficient Sparse Hardware Accelerator for Spike-Driven Transformer",
+  "index_terms": [
+    "Spiking Neuron Networks (SNNs)",
+    "Hardware Accelerator",
+    "Spike-Driven Transformer"
+  ],
+  "main_contributions": [
+    "Novel spike redundancy elimination computation method to fully utilize sparsity in Spike-driven Transformer",
+    "Low-complexity spike encoding and computing units to optimize multiple types of spiking computations",
+    "Hardware accelerator implementation on Xilinx Virtex Ultrascale FPGA"
+  ],
+  "experimental_results": {
+    "performance_improvement": "13.24×",
+    "energy_efficiency_improvement": "1.33×"
+  },
+  "dataset_used": "Cifar-10 dataset",
+  "key_techniques": [
+    "Spike redundancy elimination",
+    "Address comparison for spiking computations",
+    "Binary nature of SNNs for simple addition and comparison"
+  ],
+  "paper_structure": [
+    "Introduction",
+    "Preliminary of Spike Neuron Model",
+    "Results Section",
+    "Conclusion"
+  ],
+  "focus_areas": [
+    "Optimizing spiking computations by exploiting the binary nature of SNNs",
+    "Targeting Spike-driven Transformer architecture",
+    "Considering dual spike inputs of self-attention",
+    "Reducing hardware costs with lower power consumption and processing latency"
+  ],
+  "evidence_id": "EV042",
+  "title": "An Efficient Sparse Hardware Accelerator for Spike-Driven Transformer",
+  "year": 2025,
+  "arxiv_id": "2501.07825",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

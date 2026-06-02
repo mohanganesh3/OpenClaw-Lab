@@ -1,0 +1,34 @@
+{
+  "method_summary": "Demonstrates a single neuron perceptron optical neural network using 49 wavelengths for synapses, achieving 11.9 GigaOPS at 8 bits per operation.",
+  "key_innovation": "Using a microcomb for optical neural networks that can reach ultrahigh speeds.",
+  "datasets_used": [
+    "handwritten digit recognition",
+    "cancer cell detection"
+  ],
+  "baselines_compared": [],
+  "key_results": {
+    "GigaOPS": 11.9,
+    "Gbps": 95.2,
+    "handwritten_digit_accuracy": "over 90%",
+    "cancer_cell_accuracy": "85%"
+  },
+  "best_result": "11.9 GigaOPS operating speed",
+  "limitations_stated": [],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "unknown",
+  "compute_required": "unknown",
+  "can_run_on_macbook": false,
+  "evidence_id": "EV025",
+  "title": "Single perceptron at 12 GigaOPs based on a microcomb for versatile, high-speed scalable, optical neural networks",
+  "year": 2021,
+  "arxiv_id": "2105.10407",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 5361,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

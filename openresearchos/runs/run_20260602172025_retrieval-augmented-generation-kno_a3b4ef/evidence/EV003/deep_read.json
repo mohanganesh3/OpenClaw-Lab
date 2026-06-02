@@ -1,0 +1,48 @@
+{
+  "title": "Reference-Aligned Retrieval-Augmented Question Answering over Heterogeneous Proprietary Documents",
+  "authors": [
+    {
+      "name": ".paek",
+      "affiliation": "emory.edu"
+    },
+    {
+      "name": "shinsun.lee",
+      "affiliation": "emory.edu"
+    },
+    {
+      "name": "jinho.choi",
+      "affiliation": "emory.edu"
+    }
+  ],
+  "abstract": "This paper addresses challenges in Retrieval-Augmented Generation (RAG) for domain expert Question Answering (QA) systems in low-resource domains with heterogeneous data formats. The authors present a RAG development pipeline applied to automotive engineering, specifically for vehicle crash collision test QA. Their approach includes a data generation pipeline for internal automotive company documents, an advanced re-ranking phase, and a reference-matching algorithm to enhance accuracy and traceability.",
+  "methodology": {
+    "focus_domain": "Automotive engineering, specifically vehicle crash collision tests",
+    "key_components": [
+      "Data generation pipeline for internal automotive company documents",
+      "Advanced re-ranking phase",
+      "Reference-matching algorithm",
+      "Qualitative evaluation approach"
+    ],
+    "system_architecture": "Retrieves and re-ranks text chunks, generates answers using top-k relevant chunks, and ensures each part of the answer is backed by clear references"
+  },
+  "challenges_addressed": [
+    "Heterogeneous data formats in low-resource domains",
+    "Data privacy and security concerns restricting API-based LLMs",
+    "Limited research on improving ranking in the retrieval phase",
+    "Inadequate evaluation metrics for RAG systems"
+  ],
+  "results": "The system retrieves and re-ranks text chunks, generates answers using top-k relevant chunks, and ensures each part of the answer is backed by clear references. The example shown was originally in Korean and translated into English.",
+  "goal": "To create a fully local system ensuring data privacy and independence",
+  "citation": "This work addresses three key challenges in RAG systems and presents a development pipeline with application in the automotive engineering domain.",
+  "evidence_id": "EV003",
+  "year": 2025,
+  "arxiv_id": "2502.19596",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7997,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "introduction": "[2602.14078] 1 Introduction\n\nPolicy Gradient with Adaptive Entropy Annealing for Continual Fine-Tuning\n\nYaqian Zhang  1\n\nBernhard Pfahringer  1\n\nEibe Frank  1\n\nAlbert Bifet  1,2\n\n1. AI Institute, Univ",
+  "method": "regularization  (Buzzega  et al. ,  2020 ; Rebuffi  et al. ,  2017 ; Kirkpatrick  et al. ,  2017 ) , or parameter isolation  (Xu and Zhu,  2018 ; Mallya and Lazebnik,  2018 ; Hung  et al. ,  2019 ) . ",
+  "results": "EPG), a low-variance variant of REINFORCE  (Williams,  1992 ) , to directly optimize 0–1 loss.\n\nTo reveal CE’s limitations, we conduct a comparative analysis of CE and EPG in terms of gradient behavio",
+  "conclusion": "e EPG, a policy gradient method that directly optimizes 0–1 loss instead of surrogate objectives like CE.\n\n•\n\nWe provide theoretical and empirical evidence contrasting CE’s exploration bias with EPG’s"
+}

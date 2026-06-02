@@ -1,0 +1,10 @@
+# EV011: Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback
+
+URL: https://www.semanticscholar.org/paper/0286b2736a114198b25fb5553c671c33aed5d477
+Year: 2022
+Source: semantic_scholar
+Arxiv: 2204.05862
+
+## Abstract
+
+We apply preference modeling and reinforcement learning from human feedback (RLHF) to ﬁnetune language models to act as helpful and harmless assistants. We ﬁnd this alignment training improves performance on almost all NLP evaluations, and is fully compatible with training for specialized skills such as python coding and summarization. We explore an iterated online mode of training, where preference models and RL policies are updated on a weekly cadence with fresh human feedback data, efﬁciently improving our datasets and models. Finally, we investigate the robustness of RLHF training, and identify a roughly linear relation between the RL reward and the square root of the KL divergence between the policy and its initialization. Alongside our main results, we perform peripheral analyses on calibration, competing objectives, and the use of OOD detection, compare our models with human writers, and provide samples from our models using prompts appearing in recent related work. Figure These plots show that PM accuracy decreases as we focus exclusively on comparisons between pairs of samples with high score. We have normalized all preference models to have the same mean score on a held-out dataset so that they’re directly comparable, and then plotted accuracy for the comparisons where both samples have scores above a speciﬁc threshold.

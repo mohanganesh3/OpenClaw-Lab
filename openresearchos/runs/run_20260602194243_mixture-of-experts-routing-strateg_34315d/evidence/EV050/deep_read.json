@@ -1,0 +1,38 @@
+{
+  "method_summary": "The paper investigates when sparse Mixture of Experts (MoE) models help in vision tasks by examining the role of backbone compute leverage in sparse routing, evaluated under multi-seed protocols on various benchmarks.",
+  "key_innovation": "Identification of the 'compute-leverage pattern' - discovering that positive accuracy gaps in sparse MoE require a substantial fraction ρ of total FLOPs to be routed, and at ImageNet scale, multi-expert routing (k ≥ 2) is additionally required.",
+  "datasets_used": [
+    "CIFAR-10",
+    "CIFAR-100",
+    "Tiny-ImageNet",
+    "ImageNet-1K"
+  ],
+  "baselines_compared": [
+    "dense baselines",
+    "standard CNN architectures"
+  ],
+  "key_results": {
+    "CIFAR-100": "per-sample Soft MoE with softmax over experts rescues performance above dense baseline"
+  },
+  "best_result": "Not specified in excerpt",
+  "limitations_stated": [
+    "Not explicitly stated in excerpt"
+  ],
+  "code_available": false,
+  "code_url": "null",
+  "reproducibility": "high",
+  "compute_required": "Not specified in excerpt",
+  "can_run_on_macbook": false,
+  "evidence_id": "EV050",
+  "title": "When Does Sparse MoE Help in Vision? The Role of Backbone Compute Leverage in Sparse Routing",
+  "year": 2026,
+  "arxiv_id": "2605.15484",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 5439,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

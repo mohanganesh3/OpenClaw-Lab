@@ -1,0 +1,34 @@
+{
+  "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+  "authors": [],
+  "abstract": "Introduces Voyager, the first LLM-powered embodied lifelong learning agent. It operates in Minecraft to autonomously drive exploration, master a wide range of skills, and make new discoveries without human intervention.",
+  "methodology": "Voyager is an LLM-powered agent that uses an automatic curriculum, a skill library, and an iterative prompting mechanism. It interacts with a blackbox LLM (GPT-4) via prompting and in-context learning, using code as the action space and avoiding the need for model parameter access or gradient-based training.",
+  "key_components": [
+    "An automatic curriculum for open-ended exploration",
+    "A skill library for storing and retrieving complex behaviors",
+    "An iterative prompting mechanism that generates executable code for embodied control"
+  ],
+  "environment": "Minecraft",
+  "key_innovations": [
+    "First LLM-powered embodied lifelong learning agent",
+    "Continuously explores, plans, and develops new skills in open-ended environments",
+    "Makes new discoveries without human intervention",
+    "Uses code as the action space for complex, long-horizon tasks"
+  ],
+  "results": "Voyager discovers new Minecraft items and skills continually through self-driven exploration and significantly outperforms baseline methods. The agent demonstrates capabilities such as proposing suitable tasks based on its skill level, refining skills based on feedback, and continually exploring the world in a self-driven manner.",
+  "tools_and_technologies": [
+    "GPT-4 (as a blackbox LLM)",
+    "Code as the action space"
+  ],
+  "evidence_id": "EV008",
+  "year": 2023,
+  "arxiv_id": "2305.16291",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

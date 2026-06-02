@@ -1,0 +1,42 @@
+{
+  "title": "ERM++: An Improved Baseline for Domain Generalization",
+  "problem_domain": "Domain Generalization in machine learning",
+  "key_contribution": "ERM++ (Empirical Risk Minimization++), an improved baseline for domain generalization that outperforms state-of-the-art methods without requiring domain labels, architecture changes, or complex training strategies",
+  "methodology": {
+    "approach": "Critical evaluation of training pipeline components",
+    "themes": [
+      "How training data is used (including training length and checkpoint selection)",
+      "How network parameters are initialized (pretraining network selection, fine-tuning or freezing layers)",
+      "Weight-space regularization methods"
+    ]
+  },
+  "key_findings": [
+    "Improved performance on ImageNet does not necessarily lead to better generalization ability",
+    "Many methods evaluate models before they have converged",
+    "ERM++ uses an adaptive training procedure to determine sufficient training length"
+  ],
+  "related_work": [
+    "ERM (Empirical Risk Minimization)",
+    "DANN (Domain-Adversarial Neural Networks)",
+    "Adaptive Risk Minimization",
+    "DomainBed",
+    "SimSiam",
+    "MIRO",
+    "DIWA"
+  ],
+  "evaluation": {
+    "domains": 6,
+    "description": "Evaluated across six diverse domains"
+  },
+  "evidence_id": "EV033",
+  "year": 2023,
+  "arxiv_id": "2304.01973",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

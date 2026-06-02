@@ -1,0 +1,6 @@
+{
+  "introduction": "[2404.10876] Course Recommender Systems Need to Consider the Job Market\n\nCourse Recommender Systems Need to Consider the Job Market\n\nJibril Frej\n\njibril.frej@epfl.ch\n\n0009-0009-0631-0636\n\nML4ED Lab, I",
+  "method": "ction and Reinforcement Learning (RL) for alignment with the job market.\nWe provide empirical results using open-source data to demonstrate its effectiveness.\n\nRecommender System, Course Recommendatio",
+  "results": "se dynamics  (Sanguino Perez et al . ,  2022 ; Sakboonyarat and Tantatsanawong,  2019 ) , neglecting the crucial aspect of aligning course recommendations with real-time job market trends.\nThis limita",
+  "conclusion": "evaluation; ( RD2 ) Designing evaluation metrics to take into account alignment with the job market when evaluating the recommendations. ( RD3 ) Estimating user’s goal progress based on their profile "
+}

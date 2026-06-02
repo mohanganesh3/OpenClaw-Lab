@@ -1,0 +1,41 @@
+{
+  "paper_title": "Magnetic Preference Optimization: Achieving Last-iterate Convergence for Language Models Alignment",
+  "methodology": {
+    "approach": "Self-play methods for alignment of Large Language Models (LLMs)",
+    "technique": "Reinforcement Learning from Human Feedback (RLHF)",
+    "key_assumption": "Bradley-Terry (BT) assumption for preference modeling (presumes transitivity in human preferences)",
+    "proposed_solution": "Finding the Nash equilibrium (NE) of a two-player constant-sum game based on human preferences",
+    "existing_methods": [
+      "Self-Play Preference Optimization (SPO)",
+      "Nash Learning from Human Feedback (NLHF)"
+    ],
+    "implementation_details": {
+      "SPO": "Relies on Mirror Descent (MD) based Deep RL methods like PPO and SAC",
+      "NLHF": "Employs a geometric mixture of the current policy and a reference policy"
+    }
+  },
+  "results": {
+    "convergence_issue": "MD only guarantees average-iterate convergence to the NE, while the last-iterate policy tends to oscillate around the NE",
+    "implication": "A single LLM cannot fully align with human preferences without maintaining multiple models for joint inference",
+    "experimental_validation": {
+      "game": "Kuhn Poker",
+      "finding": "Classic Deep RL methods exhibit poor last-iterate convergence"
+    },
+    "limitations": {
+      "SPO": "Cannot achieve last-iterate convergence",
+      "NLHF": "Only converges to the NE of the KL regularized game, failing to capture true human preferences"
+    }
+  },
+  "evidence_id": "EV011",
+  "title": "Magnetic Preference Optimization: Achieving Last-iterate Convergence for Language Models Alignment",
+  "year": 2024,
+  "arxiv_id": "2410.16714",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

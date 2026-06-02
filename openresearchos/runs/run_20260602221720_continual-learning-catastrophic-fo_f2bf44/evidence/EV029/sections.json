@@ -1,0 +1,6 @@
+{
+  "introduction": "[2412.11074] Adapter-Enhanced Semantic Prompting for Continual Learning\n\nAdapter-Enhanced Semantic Prompting for Continual Learning\n\nBaocai Yin  1\n\nJi Zhao  1\n\nHuajie Jiang  1\n\nCorresponding authors\n\n",
+  "method": "56  ,\n\n47  ]  aims to enable models to continuously learn from evolving data streams and adapt to new environments.\nDifferent from traditional machine learning models  [  21  ,\n\n30  ]  that are traine",
+  "results": "l Transformer (ViT) with fewer parameters and higher efficiency.\nAs is shown in Figure\n\n1\n\n(a), these methods learn visual prompts to efficiently adapt the pre-trained ViT model to the CL tasks.\nHowev",
+  "conclusion": "eature adaptation, we propose a new prompt-key matching method that combines four matching strategies to ensure that the most relevant prompts are selected from the prompt pool.\nExtensive experiments "
+}

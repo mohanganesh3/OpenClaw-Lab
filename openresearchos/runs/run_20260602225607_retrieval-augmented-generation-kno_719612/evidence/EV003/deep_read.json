@@ -1,0 +1,86 @@
+{
+  "title": "BanglaForge: LLM Collaboration with Self-Refinement for Bangla Code Generation",
+  "problem": "Most existing code generation systems are designed for English inputs, leaving low-resource languages underserved. Models struggle with informal structures, domain-specific terms, and semantic nuances in languages like Bangla.",
+  "solution": "BanglaForge - a framework for generating executable code from Bangla task descriptions.",
+  "input_representation": {
+    "description": "Triple of Bangla description, English translation, and unit test assertions",
+    "purpose": "Leverages model's stronger English understanding while retaining Bangla context"
+  },
+  "key_components": [
+    {
+      "name": "Retrieval-augmented prompting",
+      "method": "TF-IDF to select relevant Bangla-Python pairs",
+      "purpose": "Improves in-context learning despite limited labeled data"
+    },
+    {
+      "name": "LLM-based translation component",
+      "method": "Translates Bangla instructions into English with glossary assistance",
+      "purpose": "Enables accurate cross-lingual code generation"
+    },
+    {
+      "name": "Iterative self-refinement protocol",
+      "method": "Leverages execution feedback to detect and correct errors across refinement cycles",
+      "purpose": "Improves code quality through multiple refinement cycles"
+    },
+    {
+      "name": "Dual-model architecture",
+      "components": [
+        "Coder LLM",
+        "Reviewer LLM"
+      ],
+      "purpose": "Generator focuses on functional correctness, reviewer enhances robustness, style, and coverage of edge cases"
+    }
+  ],
+  "performance": {
+    "metric": "Pass@1 accuracy",
+    "value": "84%",
+    "benchmark": "BLP-2025 Bangla Code Generation Benchmark"
+  },
+  "implementation": {
+    "url": "https://github.com/mahirlabibdihan/BanglaForge",
+    "purpose": "Facilitate reproducibility and further research"
+  },
+  "workflow": [
+    {
+      "step": 1,
+      "description": "Bangla instruction translated to English"
+    },
+    {
+      "step": 2,
+      "description": "Top-k bilingual examples retrieved"
+    },
+    {
+      "step": 3,
+      "description": "Coder LLM generates Python code and test cases"
+    },
+    {
+      "step": 4,
+      "description": "Reviewer LLM validates, refines, and re-prompts until all tests pass"
+    }
+  ],
+  "related_work": {
+    "evolution": "From word embeddings to specialized LLMs for Bangla",
+    "previous_work": [
+      "BnVec",
+      "TigerCoder",
+      "BanglaByT5"
+    ],
+    "gap": "Existing work largely focuses on pretraining and benchmarking without complete generation pipelines"
+  },
+  "dataset": {
+    "source": "Bangla Code Generation shared task (Task 2) at BLP-2025",
+    "objective": "Translate Bangla natural language programming prompts into Python functions that satisfy hidden unit tests",
+    "distribution": "Through official starter kit"
+  },
+  "evidence_id": "EV003",
+  "year": 2025,
+  "arxiv_id": "2512.19122",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

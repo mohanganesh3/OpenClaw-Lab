@@ -1,0 +1,6 @@
+{
+  "introduction": "[2502.19596] Trustworthy Answers, Messier Data: Bridging the Gap in Low-Resource Retrieval-Augmented Generation for Domain Expert Systems\n\nTrustworthy Answers, Messier Data: Bridging the Gap in Low-Re",
+  "method": ".paek, shinsun.lee, jinho.choi}@emory.edu\n\n1  Introduction\n\nRetrieval-Augmented Generation (RAG) has shown potential in reducing hallucinations and providing up-to-date knowledge in Large Language Mod",
+  "results": "use of the most relevant references.\n\nThe evaluation of RAG systems is also an area that has not been fully addressed. Many studies continue to rely on gold answer similarity metrics, such as overlapp",
+  "conclusion": "orpus and high-quality Q&amp;A pairs.\n\n•\n\nWe integrate re-ranking and reference matching to enhance retrieval precision and answer traceability, ensuring a reliable RAG system.  1\n\n1  1 The full RAG p"
+}

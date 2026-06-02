@@ -1,0 +1,6 @@
+{
+  "introduction": "[2402.05859] 1 Introduction\n\nmarginparsep has been altered.\n topmargin has been altered.\n marginparpush has been altered.\n\nThe page layout violates the ICML style. \nPlease do not change the page layou",
+  "method": "r post-hoc routing and, in some cases, outperforms explicit multitask training (which requires simultaneous data access).\nTo better understand the routing strategy learned by PHATGOOSE, we perform qua",
+  "results": "ection\n\n4\n\nfor more details.\n\nFigure 2:  Visualization of how PHATGOOSE learns to route among specialized modules. This diagram shows how routing is learned for a single module at a single layer; a PE",
+  "conclusion": "ight hope such an approach might be successful given the extensive evidence that multitask training improves zero-shot generalization  (Sanh et al.,  2021 ; Wei et al.,  2021 ; Mishra et al.,  2022 ) "
+}

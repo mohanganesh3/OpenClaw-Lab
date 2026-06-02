@@ -1,0 +1,44 @@
+{
+  "title": "Commonsense for Zero-Shot Natural Language Video Localization",
+  "methodology": {
+    "name": "CORONET",
+    "type": "zero-shot NLVL framework",
+    "key_components": [
+      "commonsense enhancement module",
+      "Graph Convolution Networks (GCN) for encoding commonsense information",
+      "cross-attention mechanisms"
+    ],
+    "data_requirements": "Only Raw Videos",
+    "technique": "dynamically generates video segments and pseudo-query annotations"
+  },
+  "improvements": {
+    "recall_thresholds": "up to 32.13%",
+    "mIoU": "up to 6.33%"
+  },
+  "problem_addressed": "existing pseudo-queries lack grounding in source video, resulting in unstructured and disjointed content",
+  "applications": [
+    "video moment retrieval",
+    "video question answering",
+    "video editing"
+  ],
+  "supervision_levels": {
+    "full": "Temporal Video Annotations + Text Queries",
+    "weak": "Text Queries",
+    "pseudo": "Only Raw Videos"
+  },
+  "limitations_of_existing_methods": [
+    "noisy pseudo-queries from object detectors and language models",
+    "missing semantic nuances when eliminating textual information"
+  ],
+  "evidence_id": "EV040",
+  "year": 2023,
+  "arxiv_id": "2312.17429",
+  "full_text_tool": "arxiv_html2_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Dr-LLaVA: Visual Instruction Tuning with Symbolic Clinical Grounding",
+  "core_problem": "Vision-Language Models (VLMs) exhibit hallucination in multi-turn clinical dialogues, where responses can be incoherent, contradictory, or logically misaligned, even if they are initially visually grounded. This issue is exacerbated by the scarcity of multimodal medical data and the difficulty of collecting expert (clinician) feedback for fine-tuning.",
+  "proposed_method": "The paper proposes using symbolic representations of diagnostic workflows to align multi-turn clinician-VLM conversations with valid clinical reasoning, thereby mitigating hallucination and ensuring coherence throughout the interaction.",
+  "key_concepts": [
+    "Vision-Language Models (VLMs)",
+    "Hallucination",
+    "Reinforcement Learning from Human Feedback (RLHF)",
+    "Symbolic Clinical Grounding",
+    "Multi-turn Dialogue",
+    "Clinical Reasoning"
+  ],
+  "related_work": [
+    "LLaVA-RLHF",
+    "LLaVA-Med",
+    "PathChat"
+  ],
+  "application_domain": "Medical / Clinical / Pathology",
+  "evidence_id": "EV001",
+  "year": 2024,
+  "arxiv_id": "2405.19567",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

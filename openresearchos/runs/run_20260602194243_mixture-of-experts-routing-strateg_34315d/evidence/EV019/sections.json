@@ -1,0 +1,6 @@
+{
+  "introduction": "[2601.07965] When Models Know When They Do Not Know Calibration, Cascading, and Cleaning\n\nWhen Models Know When They Do Not Know\n\nCalibration, Cascading, and Cleaning\n\nChenjie Hao  1  ,\nWeyl Lu  1  ,\n",
+  "method": "enabling models to recognize when they do not know is a practical step toward more efficient, reliable, and trustworthy AI.\n\n†\n\n†  footnotetext:\n\n†  \\dagger\n\nCorresponding author.\n\n1  Introduction\n\nMo",
+  "results": "routing signal—confidence advantage—that determines whether to invoke a larger model. On tasks spanning image classification (ImageNet-1K  (Russakovsky  et al. ,  2015 ) ), code generation (Mostly Bas",
+  "conclusion": "pairs and achieving superior performance with large–large pairs; and (3) we present a calibration-driven mixture-of-experts data cleaning approach that is simple, effective, and validated through huma"
+}

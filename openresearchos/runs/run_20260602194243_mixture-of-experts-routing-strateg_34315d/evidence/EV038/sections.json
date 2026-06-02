@@ -1,0 +1,6 @@
+{
+  "introduction": "[2606.01509] ProbMoE: Differentiable Probabilistic Routing for Mixture-of-Experts\n\nSkip to main content\n\nLearn about arXiv becoming an independent nonprofit.\n\nWe gratefully acknowledge support from th",
+  "method": ", a probabilistic routing framework that models expert selection as a distribution over cardinality-constrained expert subsets and formulates routing as probabilistic inference in this discrete subset",
+  "results": "26 00:16:36 UTC (2,931 KB)\n\nFull-text links:\n\nAccess Paper:\n\nView a PDF of the paper titled ProbMoE: Differentiable Probabilistic Routing for Mixture-of-Experts, by Heng Zhao and 3 other authors\n\nView",
+  "conclusion": "ienceCast? )\n\nDemos\n\nDemos\n\nReplicate Toggle\n\nReplicate\n\n( What is Replicate? )\n\nSpaces Toggle\n\nHugging Face Spaces\n\n( What is Spaces? )\n\nSpaces Toggle\n\nTXYZ.AI\n\n( What is TXYZ.AI? )\n\nRelated Papers\n\n"
+}

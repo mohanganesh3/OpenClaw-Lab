@@ -1,0 +1,6 @@
+{
+  "introduction": "[2305.08611] GeNAS: Neural Architecture Search with Better Generalization\n\nGeNAS: Neural Architecture Search with Better Generalization\n\nJoonhyun Jeong  1,2\n\nJoonsang Yu  1,3\n\nGeondo Park 2\n\nDongyoon ",
+  "method": "o the other datasets. For the widespread leverage of architectures found by NAS on the various tasks such as object detection  Lin  et al.  ( 2014 )  and segmentation  Cordts  et al.  ( 2016 )  (task-",
+  "results": ")  or negative of loss value  Liu  et al.  ( 2018b )  on a validation dataset.\nAlthough these performance-based  search  (PBS) methods find the optimal architecture for generalization on the validatio",
+  "conclusion": "ectures not  chosen  by ABS (i.e. small angle) might have better generalizability based on the flat property of loss minima. Table\n\n1\n\ncorroborates that angle is indeed in short of correlation with fl"
+}

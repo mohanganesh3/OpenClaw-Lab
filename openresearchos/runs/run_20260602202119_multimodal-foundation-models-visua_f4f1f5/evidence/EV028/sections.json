@@ -1,0 +1,6 @@
+{
+  "introduction": "[2503.19404] LangBridge: Interpreting Image as a Combination of Language Embeddings\n\nLangBridge: Interpreting Image as a Combination of Language Embeddings\n\nJiaqi Liao  1∗  , Yuwei Niu  6,8∗  , Fanqin",
+  "method": "d on Qwen2-0.5B can be directly applied to larger models such as LLaMA3-8B or Qwen2.5-14B while maintaining competitive performance. Overall, LangBridge enables interpretable vision-language alignment",
+  "results": "me research has explored how LLMs process transformed visual tokens  [  12  ,\n\n49  ] , few studies have investigated the fundamental alignment mechanisms of MLPs, and 2) the MLP adapter requires retra",
+  "conclusion": "om “We Plat” to “Shakespeare”, from “Kiss” to “Wed Kiss”. These relationships become increasingly well-defined through the training stages, confirming our hypothesis that MLPs gradually learn to map v"
+}

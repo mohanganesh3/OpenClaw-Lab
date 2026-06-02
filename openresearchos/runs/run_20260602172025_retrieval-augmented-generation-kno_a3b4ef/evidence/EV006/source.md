@@ -1,0 +1,10 @@
+# EV006: Orchestrating Intelligence: A Framework for Dynamic Task Decomposition and Role Specialization in Multi-Agent Generative AI Systems
+
+URL: https://www.semanticscholar.org/paper/00cbc56331f4644ef8199b5d08454ab46123a960
+Year: 2026
+Source: semantic_scholar
+Arxiv: n/a
+
+## Abstract
+
+The emergence of large language model (LLM)-based agents has catalyzed a paradigm shift in artificial intelligence, transitioning from monolithic single-model pipelines to collaborative multi-agent generative AI (MAGAI) systems capable of solving complex, open-ended tasks. Despite considerable progress in individual agent capabilities, the principled design of multi-agent architectures — encompassing dynamic task decomposition, inter-agent communication protocols, role specialization, and conflict resolution — remains an open research challenge. This paper proposes OrchestRAG, a novel framework for orchestrating multi-agent generative AI systems through a hierarchical planning layer combined with a retrieval-augmented generation (RAG) memory substrate. OrchestRAG introduces four core contributions: (1) a semantic task decomposer that partitions complex queries into subtask graphs, (2) a role-allocation engine that dynamically assigns specialized sub-agents based on competency embeddings, (3) a shared episodic memory module enabling asynchronous inter-agent knowledge transfer, and (4) a consensus arbitration mechanism that resolves conflicting agent outputs through evidence-weighted voting. Comprehensive evaluation across six benchmark datasets — spanning multi-hop reasoning, software engineering, biomedical question answering, and autonomous web navigation — demonstrates that OrchestRAG achieves a 23.4% improvement in task completion accuracy and a 31.7% reduction in token consumption relative to single-agent baselines, and outperforms three competing multi-agent frameworks. Ablation studies confirm the individual contribution of each architectural component. It is argued that structured orchestration is a necessary condition for reliable deployment of multi-agent AI in high-stakes enterprise environments.

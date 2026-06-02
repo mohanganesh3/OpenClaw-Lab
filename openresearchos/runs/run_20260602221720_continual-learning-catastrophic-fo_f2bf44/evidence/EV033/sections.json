@@ -1,0 +1,6 @@
+{
+  "introduction": "[2602.23817] Footprint-Guided Exemplar-Free Continual Histopathology Report Generation\n\n1\n\n1  institutetext:  Faculty of Informatics and Data Science, University of Regensburg, Germany\n\n2\n\n2  institut",
+  "method": "enerative replay as a practical solution for deployment in evolving clinical settings.\n\n1  Introduction\n\nGigapixel whole slide images (WSIs) contain rich morphological information that underlies diagn",
+  "results": "presented as variable-length sets of patch embeddings, making storage costly even when retaining only intermediate features rather than raw pixels; in addition, long-term retention of patient data may",
+  "conclusion": "urther cope with shifts in reporting conventions, we incorporate per-domain  report-style prototype  and condition the LLM through a lightweight style-prefix. At inference, we infer the most compatibl"
+}

@@ -1,0 +1,34 @@
+{
+  "method_summary": "BRACS is a training-free steering framework that monitors a vision-language model's attention to measure visual grounding and applies closed-form corrections to hidden states only when grounding deteriorates.",
+  "key_innovation": "Barrier-regulated adaptive closed-form steering that intervenes only when needed with analytically computed corrections",
+  "datasets_used": [
+    "hallucination benchmarks",
+    "four general multimodal benchmarks"
+  ],
+  "baselines_compared": [
+    "prior methods"
+  ],
+  "key_results": {
+    "CHAIR_s": 9.4,
+    "POPE_F1": 2.7
+  },
+  "best_result": "9.4 points reduction in CHAIR$_s$ and 2.7 points improvement in POPE F1",
+  "limitations_stated": [],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "medium",
+  "compute_required": "efficient",
+  "can_run_on_macbook": false,
+  "evidence_id": "EV024",
+  "title": "Mitigating Hallucination in Vision-Language Models through Barrier-Regulated Adaptive Closed-form Steering",
+  "year": 2026,
+  "arxiv_id": "2605.29881",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 5522,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "method_summary": "Clustering pharmacokinetic curves using unsupervised machine learning with Euclidean distance as the dissimilarity measure.",
+  "key_innovation": "Demonstrating that unsupervised clustering of PK curves can independently validate pharmacogenomic conclusions without genetic information.",
+  "datasets_used": [
+    "250 PK curves from a previous pharmacogenomic study"
+  ],
+  "baselines_compared": [
+    "Dynamic time warping",
+    "Fréchet distance",
+    "Correlation-based measures"
+  ],
+  "key_results": {},
+  "best_result": "Unsupervised ML clustering with Euclidean distance independently validated the same conclusions as reference pharmacogenomic results, first such demonstration.",
+  "limitations_stated": [],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "unknown",
+  "compute_required": "unknown",
+  "evidence_id": "EV006",
+  "title": "Clustering plasma concentration-time curves: applications of unsupervised learning in pharmacogenomics",
+  "year": 2022,
+  "arxiv_id": "2210.13310",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 6140,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

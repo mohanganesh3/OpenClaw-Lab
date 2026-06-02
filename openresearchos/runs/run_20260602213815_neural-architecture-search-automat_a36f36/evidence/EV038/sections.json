@@ -1,0 +1,6 @@
+{
+  "introduction": "[2105.11694] FNAS: Uncertainty-Aware Fast Neural Architecture Search\n\n\\floatsetup\n\n[table]capposition=top\n \\newfloatcommand capbtabboxtable[][ \\FBwidth ]\n\nFNAS: Uncertainty-Aware Fast Neural Architect",
+  "method": "can further reduce half of the searching time.\nExperiments on the Mobile Neural Architecture Search (MNAS)\n\n[\n\n30\n\n]\n\nsearch space show that the proposed Fast Neural Architecture Search (FNAS) acceler",
+  "results": "ot NAS family brings it continuous research attention. Instead of sampling a huge number of sub-networks, one-shot NAS assembles them into a single super-network. The parameters are shared between dif",
+  "conclusion": "ence Buffer (AEB) with an off-policy correctness factor to store the previously trained models for reusing in RL optimization, with half of the search time saved. Under the same environment as MNAS\n\n["
+}

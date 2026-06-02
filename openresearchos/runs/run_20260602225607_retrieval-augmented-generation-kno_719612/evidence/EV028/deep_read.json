@@ -1,0 +1,88 @@
+{
+  "paper_title": "CiteCheck: Towards Accurate Citation Faithfulness Detection",
+  "authors": [
+    {
+      "name": "xzyxzy",
+      "affiliation": "School of Computer Science, Peking University",
+      "email": "{xzyxzy}@pku.edu.cn"
+    },
+    {
+      "name": "11jj617",
+      "affiliation": "School of Computer Science, Peking University",
+      "email": "{11jj617}@pku.edu.cn"
+    },
+    {
+      "name": "yz_young",
+      "affiliation": "School of Computer Science, Peking University",
+      "email": "{yz_young}@pku.edu.cn"
+    },
+    {
+      "name": "wanghf",
+      "affiliation": "School of Computer Science, Peking University",
+      "email": "{wanghf}@pku.edu.cn"
+    },
+    {
+      "name": "shaohang",
+      "affiliation": "School of Computer Science, Peking University",
+      "email": "{shaohang}@stu.pku.edu.cn"
+    },
+    {
+      "name": "2100017789",
+      "affiliation": "School of Computer Science, Peking University",
+      "email": "{2100017789}@stu.pku.edu.cn"
+    },
+    {
+      "name": "lixiaoguang11",
+      "affiliation": "Huawei Noah's Ark Lab",
+      "email": "lixiaoguang11@huawei.com"
+    },
+    {
+      "name": "haochetan2-c",
+      "affiliation": "City University of Hong Kong",
+      "email": "haochetan2-c@my.cityu.edu.hk"
+    },
+    {
+      "name": "zhijiangguo",
+      "affiliation": "HKUST-GZ",
+      "email": "zhijiangguo@hkust-gz.edu.cn"
+    }
+  ],
+  "dataset": {
+    "name": "CiteCheck",
+    "description": "First large-scale Chinese dataset for citation faithfulness detection",
+    "size": 11307,
+    "components": {
+      "development_test": {
+        "positive_samples": 500,
+        "negative_samples": 500,
+        "total": 2000
+      },
+      "training": {
+        "total_samples": 9796,
+        "positive_samples": 4898,
+        "negative_samples": 4898
+      }
+    },
+    "annotation_method": "Two-stage annotation framework",
+    "data_augmentation": "LLM-based document modification for negative instances"
+  },
+  "key_contributions": [
+    "First comprehensive benchmark for Chinese citation faithfulness detection",
+    "Efficient data augmentation strategy reducing annotation costs by 86%",
+    "Validation of dataset quality and utility with parameter-efficient fine-tuning"
+  ],
+  "problem_domain": "Citation faithfulness in Retrieval-Augmented Generation (RAG) systems",
+  "technical_approach": "Parameter-efficient fine-tuning on 7B-8B parameter models",
+  "evidence_id": "EV028",
+  "title": "CiteCheck: Towards Accurate Citation Faithfulness Detection",
+  "year": 2025,
+  "arxiv_id": "2502.10881",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

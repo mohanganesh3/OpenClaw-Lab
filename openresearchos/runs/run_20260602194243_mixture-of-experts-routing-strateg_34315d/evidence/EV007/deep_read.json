@@ -1,0 +1,42 @@
+{
+  "title": "MoEs Are Stronger than You Think: Hyper-Parallel Inference Scaling with RoE",
+  "authors": "Not fully specified in provided text",
+  "year": 2025,
+  "abstract": "This paper introduces hyper-parallel scaling, a novel inference paradigm that allocates additional computation at test time to diversify a model's internal computations, thereby improving the quality of each generated token. The authors propose Roster of Experts (RoE), a training-free inference technique for Mixture-of-Experts (MoE) models that adds controlled stochasticity to the router's expert selection, runs multiple stochastic forward passes per token, and aggregates the resulting logits into a single, higher-quality prediction.",
+  "key_contributions": [
+    "Introduction of hyper-parallel scaling paradigm",
+    "Development of Roster of Experts (RoE), a training-free inference technique for MoE models",
+    "Implementation of specialized caching mechanism to reduce KV-cache size"
+  ],
+  "methodology": {
+    "focus": "Mixture-of-Experts (MoE) models",
+    "approach": "RoE adds controlled stochasticity to the router's expert selection, runs multiple stochastic forward passes per token, and aggregates the resulting logits into a single prediction",
+    "optimization": "Exploits overlap across forward passes and merges them into a single batched call to the LLM, with specialized caching mechanism"
+  },
+  "comparison_with_existing_approaches": {
+    "sequential_scaling": "Examples include Chain-of-Thought (Wei et al., 2022) where the model produces longer, more structured outputs",
+    "parallel_scaling": "Examples include self-consistency (Wang et al., 2022) where multiple independent sequences are generated and then aggregated",
+    "hyper_parallel_scaling": "Novel paradigm that increases the model's internal compute during inference to enhance the quality of every generated token"
+  },
+  "evaluation": {
+    "focus": "Greedy decoding quality",
+    "approach": "Isolates gains attributable to hyper-parallel scaling by focusing on greedy decoding quality throughout the paper"
+  },
+  "keywords": [
+    "Mixture-of-Experts",
+    "Hyper-Parallel Scaling",
+    "Roster of Experts",
+    "Inference Scaling",
+    "Test-Time Scaling"
+  ],
+  "evidence_id": "EV007",
+  "arxiv_id": "2509.17238",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

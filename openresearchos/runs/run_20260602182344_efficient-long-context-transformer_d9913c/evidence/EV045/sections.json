@@ -1,0 +1,6 @@
+{
+  "introduction": "[2605.20659] RoPeSLR: 3D RoPE-driven Sparse-LowRank Attention for Efficient Diffusion Transformers\n\nSkip to main content\n\nLearn about arXiv becoming an independent nonprofit.\n\nWe gratefully acknowledg",
+  "method": "xtreme sparsity due to the &#34;RoPE Dilemma&#34;: standard linear attention fails to preserve the orthogonal relative-position structure of 3D Rotary Position Embeddings (RoPE), neutralizing vital di",
+  "results": "05.20659  [cs.CV]\n\n&nbsp;\n\n(or\n\narXiv:2605.20659v1  [cs.CV]  for this version)\n\n&nbsp;\n\nhttps://doi.org/10.48550/arXiv.2605.20659\n\nFocus to learn more\n\narXiv-issued DOI via DataCite\n\nSubmission histor",
+  "conclusion": "ub Toggle\n\nDagsHub\n\n( What is DagsHub? )\n\nGotitPub Toggle\n\nGotit.pub\n\n( What is GotitPub? )\n\nHuggingface Toggle\n\nHugging Face\n\n( What is Huggingface? )\n\nScienceCast Toggle\n\nScienceCast\n\n( What is Scie"
+}

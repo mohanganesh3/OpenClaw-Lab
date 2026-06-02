@@ -1,0 +1,41 @@
+{
+  "title": "VisuCraft: Enhancing Large Vision-Language Models for Complex Visual-Guided Creative Content Generation via Structured Information Extraction",
+  "methodology": {
+    "approach": "Enhancement framework for existing LVLMs",
+    "components": [
+      "Multimodal structured information extractor",
+      "Dynamic prompt generation module"
+    ],
+    "training_datasets": [
+      "ImageNet",
+      "COCO",
+      "OpenImages"
+    ],
+    "evaluation_dataset": "ImageStoryGen-500K"
+  },
+  "applications": [
+    "Story generation",
+    "Poetry composition",
+    "Marketing copy creation"
+  ],
+  "challenges_addressed": [
+    "Generating long-form text with high visual fidelity",
+    "Achieving genuine creativity in generated content",
+    "Adhering to nuanced user instructions"
+  ],
+  "integrated_models": [
+    "LLaVA",
+    "InstructBLIP"
+  ],
+  "evidence_id": "EV020",
+  "year": 2025,
+  "arxiv_id": "2508.02890",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

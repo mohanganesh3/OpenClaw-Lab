@@ -1,0 +1,6 @@
+{
+  "introduction": "[2510.23027] Towards Stable and Effective Reinforcement Learning for Mixture-of-Experts\n\nTowards Stable and Effective Reinforcement\n Learning for Mixture-of-Experts\n\nDi Zhang †‡  Xun Wu †  Shaohan Hua",
+  "method": "el capacity  (FZS,  22 ) . By activating only a small subset of experts per token, MoE models achieve higher parameter efficiency while keeping computation cost nearly constant, making them particular",
+  "results": "o quantifies the degree of routing deviation for each token and is used to softly rescale IS weights. In doing so,  RSPO  reduces gradient variance and mitigates divergence caused by router instabilit",
+  "conclusion": "the following objective:\n\n𝒥  GRPO\n\n​\n\n(  θ  )\n\n=\n\n𝔼\n\nx  ∼  𝒟  ,\n\n{\n\ny  i\n\n}\n\ni  =  1\n\nG\n\n∼\n\nπ\n\nθ  old\n\n(  ⋅  |  x  )\n\n​\n\n[\n\n1  G\n\n​\n\n∑\n\ni  =  1\n\nG\n\n1\n\n|\n\ny  i\n\n|\n\n​\n\n∑\n\nt  =  1\n\n|\n\ny  i\n\n|\n\nmin\n\n⁡\n"
+}

@@ -1,0 +1,43 @@
+{
+  "title": "Spike-driven Transformer",
+  "abstract": "The paper proposes a novel Spike-driven Transformer that achieves the spike-driven nature of Spiking Neural Networks (SNNs) throughout the network while maintaining good task performance. It redesigns two core modules of Transformer (Vanilla Self-Attention and Multi-Layer Perceptron) to have a spike-driven paradigm.",
+  "key_contributions": [
+    "Redesign of Vanilla Self-Attention (VSA) to Spike-Driven Self-Attention (SDSA)",
+    "Redesign of Multi-Layer Perceptron (MLP) to have a spike-driven paradigm",
+    "Achieving spike-driven nature throughout the network",
+    "Maintaining good task performance"
+  ],
+  "technical_details": {
+    "approach": "Uses only binary spikes for communication between neurons",
+    "operations": "Only mask and sparse additions",
+    "time_complexity": "Linear with both token and channel dimensions",
+    "energy_consumption": "Almost no energy consumption for the self-attention operator"
+  },
+  "problem_addressed": [
+    "Previous spiking Transformers had poor task accuracy",
+    "Existing approaches relied on hybrid computing, which limited the benefits of SNN's low energy cost",
+    "Current spiking Transformers are hardly usable on neuromorphic chips"
+  ],
+  "methodology": {
+    "focus": "Redesigning core Transformer modules (VSA and MLP) to have a spike-driven paradigm",
+    "input_type": "Binary spikes",
+    "operations": "Only mask and sparse addition operations"
+  },
+  "results": [
+    "Achieves spike-driven nature throughout the network",
+    "Maintains good task performance",
+    "Has linear time complexity with both token and channel dimensions",
+    "Has almost no energy consumption for the self-attention operator"
+  ],
+  "evidence_id": "EV046",
+  "year": 2023,
+  "arxiv_id": "2307.01694",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "title": "Meta-Learning Reinforcement Learning for Crypto-Return Prediction",
+  "authors": [
+    {
+      "name": "Not specified",
+      "affiliation": "Queen's University"
+    },
+    {
+      "name": "Not specified",
+      "affiliation": "University of Toronto"
+    },
+    {
+      "name": "Not specified",
+      "affiliation": "TrueNorth"
+    },
+    {
+      "name": "Not specified",
+      "affiliation": "Tsinghua University"
+    },
+    {
+      "name": "Not specified",
+      "affiliation": "Emory University"
+    },
+    {
+      "name": "Not specified",
+      "affiliation": "University of Macau"
+    }
+  ],
+  "correspondence": "ty.shi@mail.utoronto.ca",
+  "framework": {
+    "name": "Meta-RL-Crypto",
+    "components": [
+      {
+        "name": "Actor",
+        "function": "Processes on-chain metrics, news, and sentiment to generate next-day forecasts for crypto-assets"
+      },
+      {
+        "name": "Judge",
+        "function": "Evaluates forecasts using a multi-objective reward vector"
+      },
+      {
+        "name": "Meta-Judge",
+        "function": "Refines the Judge's reward policy through preference comparisons"
+      }
+    ],
+    "reward_vector": [
+      "Absolute returns",
+      "Sharpe ratio",
+      "Drawdown control",
+      "Sentiment alignment"
+    ]
+  },
+  "performance": {
+    "tested_assets": [
+      "BTC",
+      "ETH",
+      "SOL"
+    ],
+    "comparisons": [
+      "Informer",
+      "PatchTST",
+      "MACD",
+      "GPT-4-based baselines"
+    ],
+    "claims": "Outperforms Informer and PatchTST, outperforms traditional indicators like MACD, matches or surpasses GPT-4-based baselines"
+  },
+  "key_innovation": "Triple-loop learning process where a single LLM takes on three distinct roles (Actor, Judge, Meta-Judge) for continuous self-improvement without human intervention",
+  "evidence_id": "EV021",
+  "year": 2025,
+  "arxiv_id": "2509.09751",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

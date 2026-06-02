@@ -1,0 +1,6 @@
+{
+  "introduction": "[2512.01374] Stabilizing Reinforcement Learning with LLMs: Formulation and Practices\n\nStabilizing Reinforcement Learning with LLMs:\n\nFormulation and Practices\n\nChujie Zheng\n\nKai Dang\n\nBowen Yu  †\n\n†  ",
+  "method": "al.,  2025 ; Yang et al.,  2025 ) , while a stable training process  1\n\n1  1 By  stable training , we refer to a training process in which model performance steadily improves over training steps—refle",
+  "results": "tive as its first-order approximation.\nSpecifically, this approximation is likely to hold only when both (1) the numerical discrepancy between the training and inference engines (i.e., the training–in",
+  "conclusion": "e final performance.\nThis motivates future work to focus more on RL itself rather than overly on the specifics of cold-start initialization, as differences arising from the latter are expected to vani"
+}

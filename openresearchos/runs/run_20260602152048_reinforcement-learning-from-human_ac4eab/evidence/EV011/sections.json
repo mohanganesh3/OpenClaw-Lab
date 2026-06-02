@@ -1,0 +1,6 @@
+{
+  "introduction": "[2410.16714] Magnetic Preference Optimization: Achieving Last-iterate Convergence for Language Models Alignment\n\nMagnetic Preference Optimization: Achieving Last-iterate Convergence for Language Model",
+  "method": "hting the potential of self-play methods in alignment.\n\n1  Introduction\n\nSelf-play has emerged as an effective method for improving model performance, particularly in domains that require strategic de",
+  "results": "PPO  (Schulman et al.,  2017 )  and SAC  (Haarnoja et al.,  2018 )  to learn the NE of the preference-based game. However, from a theoretical perspective, MD only guarantees average-iterate convergenc",
+  "conclusion": "e generalized preference model that frames the alignment problem as a two-player constant-sum game. Existing methods either converge to the NE of a regularized game or require maintaining multiple mod"
+}

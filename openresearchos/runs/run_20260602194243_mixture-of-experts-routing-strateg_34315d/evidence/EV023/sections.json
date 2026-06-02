@@ -1,0 +1,6 @@
+{
+  "introduction": "[2406.16554] LLaMA-MoE: Building Mixture-of-Experts from LLaMA with Continual Pre-training\n\nLLaMA-MoE: Building Mixture-of-Experts\n\nfrom LLaMA with Continual Pre-training\n\nTong Zhu  1\n\n,  Xiaoye Qu  2",
+  "method": "Cai et al.,  2024 )  have presented remarkable understanding and reasoning capabilities on a wide range of tasks  (Lu et al.,  2024 ; Su et al.,  2024a ,  b ; Tao et al.,  2024 ) .\nNowadays, scaling m",
+  "results": "nd,  overcoming the performance decrease entailed by\nchanging the network structure  from dense to sparse remains challenging.\nDue to the reduction in the amount of activated parameters and the newly ",
+  "conclusion": "n deep learning.\nThis work added an MoE layer which was stacked between LSTM, resulting in state-of-the-art results in language modeling and machine translation benchmarks.\nSubsequently, the MoE layer"
+}

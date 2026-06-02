@@ -1,0 +1,6 @@
+{
+  "introduction": "[2506.01850] MoDA: Modulation Adapter for Fine-Grained Visual Grounding in Instructional MLLMs\n\nMoDA: Modulation Adapter for Fine-Grained Visual Grounding in Instructional MLLMs\n\nWayner Barrios  1\n\nAn",
+  "method": "vision research in a similar path and ultimately led to the development of Multimodal Large Language Models (MLLMs). MLLMs emerged as the integration of pretrained visual encoders with large language ",
+  "results": ". To mitigate this, some works incorporate multiple specialized visual encoders to extract complementary features  Tong et al. ( 2024 ); Kar et al. ( 2024 ) , while others fine-tune CLIP to better pre",
+  "conclusion": "esentation in order to provide a reliable answer.\n\nIn natural language processing, dynamic attention masking mechanisms have proven effective in emphasizing task-relevant tokens without significantly "
+}

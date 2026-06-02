@@ -1,0 +1,37 @@
+{
+  "title": "Hash Layers For Large Sparse Models",
+  "abstract": "This paper introduces a simple, sparse, and efficient routing strategy for Mixture-of-Experts (MoE) models, called Hash Layers. The method routes input tokens to fixed expert modules using a hash function. It requires no extra parameters, no changes to the objective function, and is presented as a robust, fast, and easy-to-implement alternative to existing methods like Switch Transformers and BASE Layers, particularly for training very large models with limited compute budgets.",
+  "methodology": {
+    "problem": "Routing (gating) in MoE models can be computationally expensive or lead to issues like expert imbalance or over-specialization. Existing sparse methods like Switch Transformers require load balancing terms, and BASE Layers use complex assignment algorithms.",
+    "solution": "A new routing strategy called 'Hash Layers'.",
+    "mechanism": "Tokens are routed to fixed expert modules based on a hash of their input representation. This is applied by replacing the standard Feed-Forward Network (FFN) in a Transformer with an MoE version.",
+    "key_characteristics": [
+      "Simple",
+      "Sparse",
+      "Efficient",
+      "No extra parameters",
+      "No change to objective function or assignment algorithm",
+      "Robust",
+      "Fast",
+      "Easy to implement"
+    ]
+  },
+  "results": {
+    "claims": [
+      "The Hash Layer approach is effective on a number of datasets.",
+      "It compares favorably to Switch Transformers and BASE Layers.",
+      "It is advocated as a strong candidate for training very large models with limited compute budgets ('one shot')."
+    ]
+  },
+  "evidence_id": "EV026",
+  "year": 2021,
+  "arxiv_id": "2106.04426",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

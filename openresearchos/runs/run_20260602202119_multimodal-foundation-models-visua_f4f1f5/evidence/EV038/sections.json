@@ -1,0 +1,6 @@
+{
+  "introduction": "[2205.02655] Language Models Can See: Plugging Visual Controls in Text Generation\n\nLanguage Models Can See:\n Plugging Visual Controls in Text Generation\n\nYixuan Su  ♠,\n\nTian Lan  ♢,\n\nYahui Liu  ♣,\n\n2\n",
+  "method": "o capable of performing visually grounded story generation given both an image and a text prompt. Our code, models and other related resources are publicly released at  https://github.com/yxuansu/MAGI",
+  "results": "ge-text pairs, they directly train on the pseudo data. However, such methods are usually limited by the object detectors that are trained with a fixed set of labels.\nThe closest to our proposal is Zer",
+  "conclusion": "lso test our approach on visually grounded story generation (Section\n\nsection\n\n5  ). In this task, given an image and a text prompt, MAGIC can generate high-quality stories that outperform strong base"
+}

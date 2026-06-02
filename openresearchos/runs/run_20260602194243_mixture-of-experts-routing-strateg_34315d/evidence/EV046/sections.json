@@ -1,0 +1,6 @@
+{
+  "introduction": "[2512.10547] Unlocking the Address Book: Dissecting the Sparse Semantic Structure of LLM Key-Value Caches via Sparse Autoencoders\n\nUnlocking the Address Book: Dissecting the Sparse Semantic Structure\n",
+  "method": "antly focusing on numerical approximations like quantization  ( sheng2023flexgen )  or attention-based token pruning  ( zhang2023h2o ) . However, these methods treat the KV cache as a generic numerica",
+  "results": "cially, we address the shrinkage bias of standard\n\nL  1\n\nL_{1}\n\n-regularized SAEs  ( tibshirani1996regression )  that degrades dot-product calculations. Adopting Top-K SAEs enforces a hard sparsity bu",
+  "conclusion": "ominantly treat the KV cache as a generic numerical container, optimizing for geometric approximations while remaining agnostic to the underlying  semantic  manifold of the attention mechanism.\n\nMecha"
+}

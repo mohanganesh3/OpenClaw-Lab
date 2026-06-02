@@ -1,0 +1,6 @@
+{
+  "introduction": "[2511.09105] Cost-Minimized Label-Flipping Poisoning Attack to LLM Alignment\n\nCost-Minimized Label-Flipping Poisoning Attack to LLM Alignment\n\nShigeki Kusaka \\equalcontrib  1 ,\nKeita Saito \\equalcontr",
+  "method": "de jail-breaking  ( wei2023neurips ;  chao2023jailbreaking ;  Mehrotra2024neurips ;  zou2023universal )  and prompt injection  ( greshake2023aisec ;  Liu2024usenix ) , where attackers craft malicious ",
+  "results": ",  y  ,  z  )\n\n(x,y,z)\n\n, they can arbitrarily set the preference label\n\nw  w\n\n.\nOur goal is to determine the minimum number of label flips from the benign labels required to induce the attacker’s des",
+  "conclusion": "y\n\nand\n\nz  z\n\nare two candidate outputs, and\n\nw  ∈\n\n{\n\n−  1\n\n,  1  }\n\nw\\in\\{-1,1\\}\n\nis the preference label indicating whether\n\ny  y\n\nis preferred to\n\nz  z\n\n(\n\nw  =  1\n\nw=1\n\n) or not (\n\nw  =\n\n−  1\n\nw="
+}

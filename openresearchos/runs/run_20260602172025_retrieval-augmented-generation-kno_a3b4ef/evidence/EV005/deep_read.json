@@ -1,0 +1,50 @@
+{
+  "title": "Medusa: Cross-Modal Transferable Adversarial Attacks on Multimodal Medical Retrieval-Augmented Generation",
+  "authors": [
+    {
+      "name": "Yi Liu",
+      "role": "lead_author"
+    },
+    {
+      "name": "Authors marked with *",
+      "role": "equal_contribution"
+    }
+  ],
+  "corresponding_author": {
+    "symbol": "✉"
+  },
+  "support": {
+    "program": "Zhejiang Leading Innovative and Entrepreneur Team Introduction Program",
+    "grant_number": "2024R01007"
+  },
+  "publication": {
+    "conference": "31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+    "abbreviation": "KDD '26",
+    "date": "August 9-13, 2026",
+    "location": "Jeju, Korea",
+    "doi": "XXXXXXX.XXXXXXX",
+    "isbn": "978-1-4503-XXXX-X/2018/06",
+    "copyright": "acmlicensed",
+    "year": 2026
+  },
+  "keywords": [
+    "Multimodal Medical Retrieval-Augmented Generation",
+    "Cross-Modal Adversarial Attacks",
+    "Black Box"
+  ],
+  "code_data_availability": {
+    "url": "https://anonymous.4open.science/r/MMed-RAG-Attack-F05A"
+  },
+  "abstract": "This paper presents a method for extracting structured metadata from a research paper. It focuses on cross-modal transferable adversarial attacks on multimodal medical retrieval-augmented generation (MMed-RAG) systems. The method remains robust against four mainstream defenses and outperforms state-of-the-art baselines. Results reveal vulnerabilities in MMed-RAG systems and highlight the need for robustness benchmarking in safety-critical medical applications.",
+  "evidence_id": "EV005",
+  "year": 2025,
+  "arxiv_id": "2511.19257",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

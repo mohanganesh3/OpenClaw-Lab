@@ -1,0 +1,6 @@
+{
+  "introduction": "[2510.14232] Scaling Test-Time Compute to Achieve IOI Gold Medal with Open-Weight Models\n\nScaling Test-Time Compute to Achieve\n IOI Gold Medal with Open-Weight Models\n\nMehrzad Samadi, Aleksander Ficek",
+  "method": "has motivated a shift toward more challenging benchmarks like LiveCodeBench  (Jain et al.,  2025 )  and Codeforces  (Penedo et al.,  2025 ) , which feature significantly more complex competitive progr",
+  "results": "ance at ICPC 2025 using proprietary methods.\n\nDespite their impressive results, the techniques and models used to achieve gold-level performance at such competitions are rarely disclosed. In contrast,",
+  "conclusion": "achieved using only  open-weight models  combined with a transparent and reproducible  test-time compute  strategy.\n\n3.\n\nWe show that scaling  GenCluster  consistently improves scores, providing a pro"
+}

@@ -1,0 +1,6 @@
+{
+  "introduction": "[2003.11818] Hit-Detector: Hierarchical Trinity Architecture Search for Object Detection\n\nHit-Detector: Hierarchical Trinity Architecture Search for Object Detection\n\nJianyuan Guo  1,2  ,\nKai Han  2  ",
+  "method": "s been widely applied in the real world, such as autonomous vehicles and surveillance video. The advancement of deep learning results in a number of convolutional neural network based solutions of obj",
+  "results": "30.4)\n\n2fc (14.3)\n\n38.9\n\nBackbone baseline\n\nRes50 (23.5)\n\nFPN (3.3)\n\n4c1fc (15.6)\n\n36.8\n\nDetNAS\n\n[  7  ]\n\nDetNet (9.4)\n\nFPN (2.8)\n\n4c1fc (15.6)\n\n40.2\n\nNAS-FPN + DetNAS\n\nDetNet (9.4)\n\nNAS-FPN (29.7)\n\n4",
+  "conclusion": "to mine the proper sub search space from the large volume of operation candidates. In particular, our proposed  Hit-Detector  framework consists of two key procedures as shown in Fig.\n\n1  . First, giv"
+}

@@ -1,0 +1,42 @@
+{
+  "title": "Revisiting Deepfake Detection: Chronological Continual Learning and the Limits of Generalization",
+  "hypothesis": "Non-Universal Deepfake Distribution Hypothesis",
+  "methodology": {
+    "framework": "Simulation framework spanning from 2018 to 2025",
+    "dataset_selection": "Time protocol for dataset selection",
+    "data_extraction": "Custom batch extraction simulating real-world data stream scenarios",
+    "problem_framing": "Domain-Incremental Learning (DIL) task",
+    "model_approach": "Lightweight models for real-time performance on smartphones",
+    "training_data": "Chronological simulation using datasets ordered by time"
+  },
+  "results": {
+    "simulations_conducted": "Over 600 full simulations",
+    "key_finding": "While some methods retained knowledge of past generators, none exhibited strong generalization to future ones"
+  },
+  "criticisms_of_prior_work": [
+    "Utilize a very limited evaluation set (≤2K samples)",
+    "Employ a not chronological sequence of deepfake generators",
+    "Do not address DFD as a real-world scenario"
+  ],
+  "proposed_solution": {
+    "approach": "Pipeline that chronologically simulates deepfake scenarios over extended periods",
+    "strategy": "Simulate sequence of tasks as random sample from datastream",
+    "goals": [
+      "Better capture real-world deepfake scenarios",
+      "Avoid choice bias on generator sequence",
+      "Maintain consistent detector size, speed, and memory usage",
+      "Focus on data, training, and inference efficiency"
+    ]
+  },
+  "evidence_id": "EV021",
+  "year": 2025,
+  "arxiv_id": "2509.07993",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

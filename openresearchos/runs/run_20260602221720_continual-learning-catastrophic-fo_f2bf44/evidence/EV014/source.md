@@ -1,0 +1,10 @@
+# EV014: Fatigue driving detection technology based on EEG signal
+
+URL: https://www.semanticscholar.org/paper/006e1385f490300793e0382a3bf10c4027e2a489
+Year: 2024
+Source: semantic_scholar
+Arxiv: n/a
+
+## Abstract
+
+Fatigue, significantly impacting daily work and life, is a common state triggered by overexertion. Given these statistics, the development of reliable fatigue driving detection technology becomes critical to enhancing road safety. Therefore, fatigue driving detection technology is essential to reduce accidents and improve traffic safety. Effectively detecting fatigue has become a significant topic of interest among researchers. Methods for detecting fatigue that rely on physiological data are viewed as the most objective and precise. Current methods mainly rely on facial expression observation and physiological signal monitoring, such as yawning and blinking. Although these methods are effective, lighting and environmental changes may affect the results of facial expression-based detection. In contrast, electroencephalography (EEG) signals, as physiological signals that directly reflect human mental states, can reduce environmental interference with detection results. This paper reviews recent advancements in classification algorithms for EEG-based fatigue detection. In the majority of studies, traditional machine learning algorithms and manual feature extraction methods are commonly employed as the primary techniques for fatigue detection. In addition, deep learning algorithms, which have demonstrated significant results on large-scale datasets, have also been applied to fatigue detection. However, training for long-term calibration against subjects remains challenging in practical applications. Given the increasing demands in this field, researchers must continually explore efficient decoding algorithms and design rational experimental paradigms. Additionally, they need to gather and accumulate standardized data to enable the widespread application of fast and accurate fatigue detection methods or systems.

@@ -1,0 +1,44 @@
+{
+  "paper_title": "Adaptive Segment-level Reward: Bridging the Gap Between Action and Reward Space in Alignment",
+  "method": {
+    "name": "Adaptive Message-wise RLHF",
+    "key_features": [
+      "Identifies key signals through rewards and generalized advantages during generation",
+      "Allows adaptive partitioning of samples into sub-sequences",
+      "Provides flexible control over gradient propagation",
+      "Enhances model learning capabilities",
+      "Reduces model hallucinations"
+    ],
+    "improvements": {
+      "adversarial_samples": "10% improvement in success rate compared to sample-wise approach",
+      "evaluation_benchmarks": "1.3% improvement on MMLU, GSM8K, HumanEval"
+    }
+  },
+  "results": {
+    "error_sources": [
+      "Coarse-grained nature of reward signals compared to actual rewards",
+      "Inherent stochastic errors within the reward model itself"
+    ],
+    "optimization_strategies": [
+      "Reduce granularity of coarse-grained reward signals",
+      "Use overall reward of longer sequences to represent individual tokens/subsequences"
+    ],
+    "key_findings": [
+      "Need to align information density gap within sequences with reward signals",
+      "Token-wise rewards exhibit significant fluctuations and high noise levels",
+      "Step-wise approach allows tokens at same step to have different rewards"
+    ]
+  },
+  "evidence_id": "EV035",
+  "title": "Adaptive Segment-level Reward: Bridging the Gap Between Action and Reward Space in Alignment",
+  "year": 2024,
+  "arxiv_id": "2411.00809",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

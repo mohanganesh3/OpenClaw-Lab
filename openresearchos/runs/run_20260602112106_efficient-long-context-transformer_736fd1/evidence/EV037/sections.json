@@ -1,0 +1,6 @@
+{
+  "introduction": "[2110.04202] Exploiting the Intrinsic Neighborhood Structure for Source-free Domain Adaptation\n\nExploiting the Intrinsic Neighborhood Structure for Source-free Domain Adaptation\n\nShiqi Yang  1  , Yaxi",
+  "method": "de is available in  https://github.com/Albert0147/SFDA_neighbors .\n\n1  Introduction\n\nMost deep learning methods rely on training on large amount of labeled data, while they cannot generalize well to a",
+  "results": "ed by pushed the features towards reciprocal neighbors heavily.\n\nIn this paper, we focus on closed-set source-free domain adaptation. Our main observation is that current DA methods do not exploit the",
+  "conclusion": "cord in their label prediction. In addition, we will also consider a weaker connection to the non-reciprocal neighbors. We define affinity values to describe the degree of connectivity between each da"
+}

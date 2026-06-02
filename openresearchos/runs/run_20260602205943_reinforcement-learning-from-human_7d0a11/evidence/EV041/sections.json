@@ -1,0 +1,6 @@
+{
+  "introduction": "[2505.20975] DreamBoothDPO: Improving Personalized Generation using Direct Preference Optimization\n\nDreamBoothDPO: Improving Personalized Generation using Direct Preference Optimization\n\nShamil Ayupov",
+  "method": "he integration of novel visual concepts into pre-trained models. However, this personalization often comes at the expense of prompt adherence, highlighting a fundamental trade-off between textual alig",
+  "results": "ty of key hyperparameters and identify configurations that balance performance and computational efficiency.\n\n•\n\nWe demonstrate the effectiveness of our approach through comprehensive experiments and ",
+  "conclusion": "ches suffer from diversity collapse and overfitting  ( REFLAIG,  ) . Direct Preference Optimization (DPO)  ( DiffDPO,  )  bypasses reward modeling but depends on manually curated preference data for c"
+}

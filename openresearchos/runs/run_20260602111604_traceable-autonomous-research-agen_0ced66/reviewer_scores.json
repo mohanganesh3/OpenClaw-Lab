@@ -1,0 +1,471 @@
+[
+  {
+    "idea_id": "ID001",
+    "average_score": 3.5,
+    "phase1_avg": 3.5,
+    "decision": "reject",
+    "next_action": "RUN_ADDITIONAL_SEARCH",
+    "fatal_flaws": [
+      "Hypothesis not clearly stated or falsifiable",
+      "No mention of seeds for reproducibility",
+      "No compute requirements specified",
+      "Reproducibility reviewer identified 4 fatal flaws",
+      "The core experimental design is undefined, with no specified hypothesis, dataset, or baseline.",
+      "There is no plan for public code or data availability, which is essential for reproducibility."
+    ],
+    "fixable_flaws": [
+      "Review unavailable",
+      "Need to clearly articulate a falsifiable hypothesis",
+      "Specify random seeds and initialization methods",
+      "Provide compute requirements for evaluation",
+      "Review unavailable",
+      "Missing compute documentation (hardware, software environment, costs).",
+      "Lack of a defined protocol for fixing random seeds across the agent's components."
+    ],
+    "revised_idea": null,
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 5,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Review unavailable"
+        ],
+        "decision": "revise",
+        "justification": "LLM review unavailable."
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 3,
+        "fatal_flaws": [
+          "Hypothesis not clearly stated or falsifiable",
+          "No mention of seeds for reproducibility",
+          "No compute requirements specified",
+          "Reproducibility reviewer identified 4 fatal flaws"
+        ],
+        "fixable_flaws": [
+          "Need to clearly articulate a falsifiable hypothesis",
+          "Specify random seeds and initialization methods",
+          "Provide compute requirements for evaluation"
+        ],
+        "decision": "reject",
+        "justification": "The research lacks a clear falsifiable hypothesis and critical reproducibility details. The reproducibility reviewer identified 4 fatal flaws indicating significant methodological issues."
+      },
+      {
+        "reviewer": "Theory/Mechanism Reviewer",
+        "score": 5,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Review unavailable"
+        ],
+        "decision": "revise",
+        "justification": "LLM review unavailable."
+      },
+      {
+        "reviewer": "Reproducibility Reviewer",
+        "score": 1,
+        "fatal_flaws": [
+          "The core experimental design is undefined, with no specified hypothesis, dataset, or baseline.",
+          "There is no plan for public code or data availability, which is essential for reproducibility."
+        ],
+        "fixable_flaws": [
+          "Missing compute documentation (hardware, software environment, costs).",
+          "Lack of a defined protocol for fixing random seeds across the agent's components."
+        ],
+        "decision": "revise",
+        "justification": "The submission lacks a defined hypothesis, dataset, and baseline, making the core experiment impossible to reproduce. Furthermore, there is no plan for code or compute documentation availability."
+      }
+    ]
+  },
+  {
+    "idea_id": "ID002",
+    "average_score": 3.5,
+    "phase1_avg": 3.5,
+    "decision": "reject",
+    "next_action": "RUN_ADDITIONAL_SEARCH",
+    "fatal_flaws": [
+      "Hypothesis is not clearly stated or falsifiable",
+      "No specification of baseline conditions for comparison",
+      "No reproducibility measures (seeds) specified",
+      "No computational requirements documented",
+      "No clear theoretical justification for the specific architecture of the review simulation system",
+      "No clear dataset or baseline defined for evaluation",
+      "No clear ablation testing strategy",
+      "The proposal lacks a specified dataset and baseline, making experimental implementation and evaluation impossible.",
+      "The central hypothesis is not a testable statement, preventing any meaningful assessment of the proposed system."
+    ],
+    "fixable_flaws": [
+      "Review unavailable",
+      "Incomplete description of evaluation methodology",
+      "Missing details on simulation parameters",
+      "No clear success metrics defined",
+      "Missing detailed mechanism description",
+      "No clear evaluation metrics beyond 'fatal flaws'",
+      "No clear connection to the broader research community's needs",
+      "The methodology for the 'Proactive Review Simulation System' is not described.",
+      "No evaluation metrics are provided to measure the 'traceability' or 'autonomy' of the agents."
+    ],
+    "revised_idea": null,
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 5,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Review unavailable"
+        ],
+        "decision": "revise",
+        "justification": "LLM review unavailable."
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 3,
+        "fatal_flaws": [
+          "Hypothesis is not clearly stated or falsifiable",
+          "No specification of baseline conditions for comparison",
+          "No reproducibility measures (seeds) specified",
+          "No computational requirements documented"
+        ],
+        "fixable_flaws": [
+          "Incomplete description of evaluation methodology",
+          "Missing details on simulation parameters",
+          "No clear success metrics defined"
+        ],
+        "decision": "reject",
+        "justification": "The research idea lacks methodological rigor with no falsifiable hypothesis, undefined baselines, and missing reproducibility specifications. The prior Theory/Mechanism reviewer identified two fatal flaws, indicating fundamental issues with the research design."
+      },
+      {
+        "reviewer": "Theory/Mechanism Reviewer",
+        "score": 4,
+        "fatal_flaws": [
+          "No clear theoretical justification for the specific architecture of the review simulation system",
+          "No clear dataset or baseline defined for evaluation",
+          "No clear ablation testing strategy"
+        ],
+        "fixable_flaws": [
+          "Missing detailed mechanism description",
+          "No clear evaluation metrics beyond 'fatal flaws'",
+          "No clear connection to the broader research community's needs"
+        ],
+        "decision": "revise",
+        "justification": "The idea has potential but lacks clear theoretical justification, defined datasets, and evaluation strategies. It needs more detail on the mechanism and how it improves upon existing approaches."
+      },
+      {
+        "reviewer": "Reproducibility Reviewer",
+        "score": 2,
+        "fatal_flaws": [
+          "The proposal lacks a specified dataset and baseline, making experimental implementation and evaluation impossible.",
+          "The central hypothesis is not a testable statement, preventing any meaningful assessment of the proposed system."
+        ],
+        "fixable_flaws": [
+          "The methodology for the 'Proactive Review Simulation System' is not described.",
+          "No evaluation metrics are provided to measure the 'traceability' or 'autonomy' of the agents."
+        ],
+        "decision": "reject",
+        "justification": "The proposal is fundamentally un-reproducible as it lacks a defined dataset and baseline for evaluation. Without a clear, testable hypothesis and experimental protocol, the core contribution cannot be assessed or validated."
+      }
+    ]
+  },
+  {
+    "idea_id": "ID003",
+    "average_score": 2.25,
+    "phase1_avg": 2.25,
+    "decision": "reject",
+    "next_action": "RUN_ADDITIONAL_SEARCH",
+    "fatal_flaws": [
+      "Significant overlap with existing autonomous research agent systems (EV001, EV002, EV003)",
+      "No clear differentiation from prior work on integrated experiment planning",
+      "No clearly defined falsifiable hypothesis (marked with '?')",
+      "Absence of fair baselines for comparison (marked with '?')",
+      "Missing information about seeds for reproducibility",
+      "No details on computational requirements",
+      "High number of fatal flaws identified in prior reviews (especially reproducibility)",
+      "The hypothesis, dataset, and baseline are undefined, making the core claim untestable and the experimental design impossible to evaluate.",
+      "The mechanism of 'integration' is not specified; it is unclear how the planning module interfaces with other agent components or what state it maintains.",
+      "Dataset not specified or made publicly available",
+      "No information on fixed seeds for reproducibility",
+      "No compute documentation provided",
+      "No code availability mentioned"
+    ],
+    "fixable_flaws": [
+      "Prior work section could be expanded to better position the contribution",
+      "The idea of an 'Integrated Experiment Planning Module' is promising but needs more specific details",
+      "The theoretical justification could be strengthened by formally defining the 'research state' and the objective function the planner optimizes.",
+      "The proposed ablation tests are not detailed; a concrete mechanism for comparing the integrated module against a non-integrated baseline is needed.",
+      "Provide public dataset with clear access instructions",
+      "Specify fixed seeds for all experiments",
+      "Document compute resources and environment specifications",
+      "Make code publicly available with clear instructions"
+    ],
+    "revised_idea": null,
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 2,
+        "fatal_flaws": [
+          "Significant overlap with existing autonomous research agent systems (EV001, EV002, EV003)",
+          "No clear differentiation from prior work on integrated experiment planning"
+        ],
+        "fixable_flaws": [],
+        "decision": "reject",
+        "justification": "The proposed experiment planning module for autonomous research agents substantially overlaps with existing work like The AI Scientist (EV001, EV002) and Agent Laboratory (EV003), which already implement similar capabilities."
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 2,
+        "fatal_flaws": [
+          "No clearly defined falsifiable hypothesis (marked with '?')",
+          "Absence of fair baselines for comparison (marked with '?')",
+          "Missing information about seeds for reproducibility",
+          "No details on computational requirements",
+          "High number of fatal flaws identified in prior reviews (especially reproducibility)"
+        ],
+        "fixable_flaws": [
+          "Prior work section could be expanded to better position the contribution",
+          "The idea of an 'Integrated Experiment Planning Module' is promising but needs more specific details"
+        ],
+        "decision": "reject",
+        "justification": "The research proposal lacks essential components including a falsifiable hypothesis, baselines, and reproducibility measures. With 10 total fatal flaws identified in prior reviews, the proposal requires significant revision before it can be considered for acceptance."
+      },
+      {
+        "reviewer": "Theory/Mechanism Reviewer",
+        "score": 3,
+        "fatal_flaws": [
+          "The hypothesis, dataset, and baseline are undefined, making the core claim untestable and the experimental design impossible to evaluate.",
+          "The mechanism of 'integration' is not specified; it is unclear how the planning module interfaces with other agent components or what state it maintains."
+        ],
+        "fixable_flaws": [
+          "The theoretical justification could be strengthened by formally defining the 'research state' and the objective function the planner optimizes.",
+          "The proposed ablation tests are not detailed; a concrete mechanism for comparing the integrated module against a non-integrated baseline is needed."
+        ],
+        "decision": "revise",
+        "justification": "The proposal lacks a defined hypothesis, dataset, and baseline, making it impossible to evaluate the claimed contribution of the 'Integrated Experiment Planning Module'. However, the core idea of a traceable, planning-centric agent for autonomous research is theoretically sound and addresses a key gap in prior work."
+      },
+      {
+        "reviewer": "Reproducibility Reviewer",
+        "score": 2,
+        "fatal_flaws": [
+          "Dataset not specified or made publicly available",
+          "No information on fixed seeds for reproducibility",
+          "No compute documentation provided",
+          "No code availability mentioned"
+        ],
+        "fixable_flaws": [
+          "Provide public dataset with clear access instructions",
+          "Specify fixed seeds for all experiments",
+          "Document compute resources and environment specifications",
+          "Make code publicly available with clear instructions"
+        ],
+        "decision": "reject",
+        "justification": "Critical reproducibility information missing. No evidence of public data, fixed seeds, compute documentation, or code availability."
+      }
+    ]
+  },
+  {
+    "idea_id": "ID004",
+    "average_score": 3.5,
+    "phase1_avg": 3.5,
+    "decision": "reject",
+    "next_action": "RUN_ADDITIONAL_SEARCH",
+    "fatal_flaws": [
+      "The Persistent Failure Memory System appears to be substantially similar to Reflexion (EV006) which already uses memory to help agents improve",
+      "No clear indication of what makes this approach fundamentally novel compared to existing agent memory systems",
+      "Hypothesis is not clearly stated or falsifiable",
+      "Baselines are not defined for fair comparison",
+      "No mention of seeds for reproducibility",
+      "No information about compute requirements",
+      "Lacks clear theoretical framework distinguishing from existing memory-based approaches",
+      "No specified dataset or baseline for evaluation",
+      "Dataset information not specified",
+      "No mention of fixed seeds for reproducibility",
+      "No computational documentation provided",
+      "No code availability mentioned"
+    ],
+    "fixable_flaws": [
+      "Complete the hypothesis statement",
+      "Define appropriate baselines for comparison",
+      "Specify seeds and reproducibility measures",
+      "Provide compute requirements and resource estimates",
+      "Needs to clarify novel aspects of failure memory compared to prior work",
+      "Should specify how traceability is measured and improved",
+      "Missing details on memory architecture and update mechanisms",
+      "Need to specify dataset sources and preprocessing",
+      "Implement and document fixed random seeds",
+      "Provide compute requirements and environment setup",
+      "Release code repository with clear documentation"
+    ],
+    "revised_idea": null,
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 2,
+        "fatal_flaws": [
+          "The Persistent Failure Memory System appears to be substantially similar to Reflexion (EV006) which already uses memory to help agents improve",
+          "No clear indication of what makes this approach fundamentally novel compared to existing agent memory systems"
+        ],
+        "fixable_flaws": [],
+        "decision": "reject",
+        "justification": "The idea lacks sufficient novelty as it appears to be a variation of existing memory-based agent improvement systems, particularly Reflexion (EV006) which already addresses using memory to help agents improve."
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 3,
+        "fatal_flaws": [
+          "Hypothesis is not clearly stated or falsifiable",
+          "Baselines are not defined for fair comparison",
+          "No mention of seeds for reproducibility",
+          "No information about compute requirements"
+        ],
+        "fixable_flaws": [
+          "Complete the hypothesis statement",
+          "Define appropriate baselines for comparison",
+          "Specify seeds and reproducibility measures",
+          "Provide compute requirements and resource estimates"
+        ],
+        "decision": "revise",
+        "justification": "The research idea lacks critical experimental details including a clear hypothesis, defined baselines, seeds, and compute requirements. These elements are essential for reproducible and rigorous scientific evaluation."
+      },
+      {
+        "reviewer": "Theory/Mechanism Reviewer",
+        "score": 6,
+        "fatal_flaws": [
+          "Lacks clear theoretical framework distinguishing from existing memory-based approaches",
+          "No specified dataset or baseline for evaluation"
+        ],
+        "fixable_flaws": [
+          "Needs to clarify novel aspects of failure memory compared to prior work",
+          "Should specify how traceability is measured and improved",
+          "Missing details on memory architecture and update mechanisms"
+        ],
+        "decision": "revise",
+        "justification": "The idea has potential but lacks theoretical clarity and experimental setup. Needs refinement to distinguish from existing work and provide proper evaluation framework."
+      },
+      {
+        "reviewer": "Reproducibility Reviewer",
+        "score": 3,
+        "fatal_flaws": [
+          "Dataset information not specified",
+          "No mention of fixed seeds for reproducibility",
+          "No computational documentation provided",
+          "No code availability mentioned"
+        ],
+        "fixable_flaws": [
+          "Need to specify dataset sources and preprocessing",
+          "Implement and document fixed random seeds",
+          "Provide compute requirements and environment setup",
+          "Release code repository with clear documentation"
+        ],
+        "decision": "reject",
+        "justification": "Lacks essential reproducibility components and has multiple fatal flaws from prior reviews."
+      }
+    ]
+  },
+  {
+    "idea_id": "ID005",
+    "average_score": 3.5,
+    "phase1_avg": 3.5,
+    "decision": "reject",
+    "next_action": "RUN_ADDITIONAL_SEARCH",
+    "fatal_flaws": [
+      "The idea focuses on a narrow functionality (venue-fit assessment) that could be integrated into existing agent frameworks rather than constituting a standalone research contribution.",
+      "No clear indication of how this module would differ from existing publication recommendation systems or venue analysis tools.",
+      "No explicit falsifiable hypothesis provided",
+      "Missing baseline comparisons for fair evaluation",
+      "No information on reproducibility measures (seeds, compute requirements)",
+      "No clearly articulated hypothesis or research question",
+      "No specified dataset or evaluation methodology",
+      "No clear baseline or comparison points defined",
+      "No detailed implementation plan or architecture described",
+      "No clear metrics for success defined",
+      "No public data availability mentioned",
+      "No fixed seeds specified for reproducibility",
+      "No compute documentation provided",
+      "No code repository linked",
+      "Hypothesis, dataset, and baseline sections are empty"
+    ],
+    "fixable_flaws": [
+      "Provide a more comprehensive system architecture showing how this module integrates with broader research workflows.",
+      "Demonstrate how this approach would significantly outperform existing venue recommendation methods.",
+      "Need to clarify the theoretical foundation and mechanism",
+      "Should provide more context on how this differs from related work",
+      "Missing details on experimental setup and evaluation metrics",
+      "The idea needs a more clearly articulated hypothesis",
+      "Dataset creation or identification needs to be specified",
+      "Baseline methods need to be defined",
+      "Expected contributions and novelty need clarification",
+      "Implementation details and architecture should be outlined",
+      "Could provide detailed methodology for reproducibility",
+      "Could release code and data upon publication"
+    ],
+    "revised_idea": null,
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 6,
+        "fatal_flaws": [
+          "The idea focuses on a narrow functionality (venue-fit assessment) that could be integrated into existing agent frameworks rather than constituting a standalone research contribution.",
+          "No clear indication of how this module would differ from existing publication recommendation systems or venue analysis tools."
+        ],
+        "fixable_flaws": [
+          "Provide a more comprehensive system architecture showing how this module integrates with broader research workflows.",
+          "Demonstrate how this approach would significantly outperform existing venue recommendation methods."
+        ],
+        "decision": "revise",
+        "justification": "The venue-fit assessment concept shows novelty in its specific focus but needs clearer differentiation from existing publication recommendation systems and a more comprehensive integration strategy."
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 2,
+        "fatal_flaws": [
+          "No explicit falsifiable hypothesis provided",
+          "Missing baseline comparisons for fair evaluation",
+          "No information on reproducibility measures (seeds, compute requirements)"
+        ],
+        "fixable_flaws": [
+          "Need to clarify the theoretical foundation and mechanism",
+          "Should provide more context on how this differs from related work",
+          "Missing details on experimental setup and evaluation metrics"
+        ],
+        "decision": "reject",
+        "justification": "The proposal lacks critical components including a falsifiable hypothesis, baseline comparisons, and reproducibility details. With 11 fatal flaws across prior reviews, the idea needs substantial revision before consideration."
+      },
+      {
+        "reviewer": "Theory/Mechanism Reviewer",
+        "score": 4,
+        "fatal_flaws": [
+          "No clearly articulated hypothesis or research question",
+          "No specified dataset or evaluation methodology",
+          "No clear baseline or comparison points defined",
+          "No detailed implementation plan or architecture described",
+          "No clear metrics for success defined"
+        ],
+        "fixable_flaws": [
+          "The idea needs a more clearly articulated hypothesis",
+          "Dataset creation or identification needs to be specified",
+          "Baseline methods need to be defined",
+          "Expected contributions and novelty need clarification",
+          "Implementation details and architecture should be outlined"
+        ],
+        "decision": "revise",
+        "justification": "The venue-fit assessment concept has theoretical merit but lacks essential methodological details and clear evaluation criteria. The proposal needs significant development to be implementable and testable."
+      },
+      {
+        "reviewer": "Reproducibility Reviewer",
+        "score": 2,
+        "fatal_flaws": [
+          "No public data availability mentioned",
+          "No fixed seeds specified for reproducibility",
+          "No compute documentation provided",
+          "No code repository linked",
+          "Hypothesis, dataset, and baseline sections are empty"
+        ],
+        "fixable_flaws": [
+          "Could provide detailed methodology for reproducibility",
+          "Could release code and data upon publication"
+        ],
+        "decision": "reject",
+        "justification": "The research lacks fundamental reproducibility components including data, code, and methodological details. Without these essential elements, the work cannot be properly evaluated or reproduced by the community."
+      }
+    ]
+  }
+]

@@ -1,0 +1,61 @@
+{
+  "title": "Algorithm to Compilation Co-design: An Integrated View of Neural Network Sparsity",
+  "authors": "Not specified in provided text",
+  "abstract": "This paper addresses the challenge of balancing expanding AI capabilities with making them broadly impactful through sparse neural networks. It examines interactions between model regularization, compilation, and inference execution to determine end-to-end performance.",
+  "keywords": [
+    "Neural network sparsity",
+    "Pruning",
+    "Lottery ticket hypothesis",
+    "Algorithm-compilation co-design",
+    "BERT",
+    "TVM compiler",
+    "BSR sparsity"
+  ],
+  "main_contributions": [
+    "Implementation of both unstructured and structured sparsification of attention weights in BERT",
+    "Use of BSR sparsity optimizations in the TVM compiler",
+    "Analysis of interactions between model regularization, compilation, and inference execution",
+    "Examination of how algorithms and compiler optimizations interact at different abstraction levels"
+  ],
+  "methods": [
+    "Structured Sparsification: Following conventional pruning formulation with optimization problem minimize Σf(w) + λ||w||p",
+    "Unstructured Sparsification: Implementation of pruning techniques",
+    "BSR Sparsity Optimizations: Block Sparse Row format optimizations in TVM compiler"
+  ],
+  "datasets": [
+    "BERT"
+  ],
+  "results": {
+    "key_findings": [
+      "Sparsity remains relevant in transformer models for computer vision and NLP",
+      "Current CPUs/GPUs don't immediately benefit from sparsity, but next-gen hardware has native support",
+      "Interactions between model regularization, compilation, and execution have critical effects on performance"
+    ],
+    "hardware_support": [
+      "NVIDIA A100",
+      "GraphCore IPU",
+      "Cerebras Wafer-Scale Engine"
+    ]
+  },
+  "references": [
+    "Brown et al. (2020)",
+    "Raffel et al. (2019)",
+    "LeCun et al. (1990)",
+    "Han et al. (2015)",
+    "Frankle and Carbin (2018)",
+    "Chen et al. (2020, 2021)",
+    "Elsen et al. (2020)",
+    "Chen et al. (2018)"
+  ],
+  "evidence_id": "EV039",
+  "year": 2021,
+  "arxiv_id": "2106.08846",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

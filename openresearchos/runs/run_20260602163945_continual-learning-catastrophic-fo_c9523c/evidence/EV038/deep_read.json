@@ -1,0 +1,50 @@
+{
+  "title": "Policy Gradient with Adaptive Entropy Annealing for Continual Fine-Tuning",
+  "problem": "Continual learning (CL) challenges, particularly the trade-off between stability (retaining past knowledge) and plasticity (acquiring new knowledge)",
+  "methodology": {
+    "approach": "Reformulating continual learning through a reinforcement learning (RL) lens",
+    "key_contributions": [
+      "Expected Policy Gradient (EPG) - a low-variance variant of REINFORCE",
+      "Direct optimization of 0-1 loss (misclassification error)",
+      "Adaptive entropy annealing strategy (aEPG)"
+    ],
+    "formulation": "Classification as a one-step Markov Decision Process (MDP)"
+  },
+  "related_work": {
+    "continual_learning_approaches": [
+      "Regularization (Buzzega et al., 2020; Rebuffi et al., 2017; Kirkpatrick et al., 2017)",
+      "Parameter isolation (Xu and Zhu, 2018; Mallya and Lazebnik, 2018; Hung et al., 2019)",
+      "Parameter-efficient fine-tuning (PEFT) methods"
+    ],
+    "peft_methods": [
+      "Prompts (Wang et al., 2022a, b)",
+      "LoRA (Liang and Li, 2024; Liu and Chang, 2025)",
+      "Adapters (Gao et al., 2024; Yu et al., 2024; Wang et al., 2025; Ermis et al., 2022)"
+    ],
+    "stability_techniques": [
+      "EMA-based fast-slow learning",
+      "Orthogonal subspace constraints with LoRA"
+    ]
+  },
+  "key_insights": {
+    "ce_limitations": "Prioritizes harder samples but risks destabilizing prior knowledge through excessive exploration",
+    "epg_advantages": "More exploitative, emphasizing easier samples that align with model predictions",
+    "entropy_dynamics": "EPG consistently produces lower-entropy output distributions than CE"
+  },
+  "results": {
+    "performance": "aEPG improves performance across four CL benchmarks",
+    "compatibility": "Works with multiple PEFT architectures (LoRA, Adapter, Prefix)",
+    "entropy_regularization": "Low-entropy objectives consistently improve continual learning"
+  },
+  "evidence_id": "EV038",
+  "year": 2026,
+  "arxiv_id": "2602.14078",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

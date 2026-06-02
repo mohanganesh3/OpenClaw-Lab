@@ -1,0 +1,57 @@
+{
+  "title": "ExGra-Med: Extended Context Graph Alignment for Medical Vision-Language Models",
+  "authors": [
+    {
+      "role": "Co-second contribution"
+    },
+    {
+      "role": "Co-senior authors"
+    }
+  ],
+  "method": {
+    "approach": "Extended Context Graph Alignment",
+    "learning_scheme": "Efficient end-to-end learning scheme based on advanced black-box gradient-estimation techniques",
+    "model": "LLaMa 7B",
+    "key_features": [
+      "Permits fast forward and backward steps through the LLM model",
+      "Learns cross-modal associations, linking visual elements with various textual interpretations",
+      "Scales to the med-MLLM setting"
+    ]
+  },
+  "results": {
+    "comparison_model": "LLAVA-Med",
+    "comparison_data": "600K image-text pairs from PMC-15M",
+    "performance_metrics": [
+      {
+        "task": "Medical VQA tasks",
+        "result": "Matches the performance of LLAVA-Med"
+      },
+      {
+        "task": "VQA-RAD",
+        "result": "Exceeds LLAVA-Med (both trained on 10% of data) by 20.13%",
+        "comparison_accuracy": "72.52% vs. 72.64%"
+      }
+    ],
+    "advantages": [
+      "Significantly outperforms LLAVA-Med when trained on only 10% of the data",
+      "Surpasses other SOTA pre-training methods and med-MLLM such as BiomedGPT on visual chatbot",
+      "Surpasses other SOTA pre-training methods and med-MLLM such as RadFM on zero-shot image classification with VQA"
+    ]
+  },
+  "introduction": {
+    "field": "Multi-Modal Large Language Models (MLLM) in the medical domain",
+    "critical_component": "Instruction-following (IF) data",
+    "key_finding": "Autoregressive learning is highly data-hungry during pre-training"
+  },
+  "evidence_id": "EV011",
+  "year": 2024,
+  "arxiv_id": "2410.02615",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

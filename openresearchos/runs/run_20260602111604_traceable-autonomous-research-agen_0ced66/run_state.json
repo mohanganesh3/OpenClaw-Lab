@@ -1,0 +1,1783 @@
+{
+  "schema_version": 1,
+  "run_id": "run_20260602111604_traceable-autonomous-research-agen_0ced66",
+  "topic": "traceable autonomous research agents smoke 49d1e9",
+  "created_at": "2026-06-02T11:17:09.104Z",
+  "updated_at": "2026-06-02T11:59:05.436Z",
+  "current_state": "MICRO_PROBE_REVIEWED",
+  "scope_classification": {
+    "label": "local_experiment",
+    "rationale": "The topic can be explored with small simulations, synthetic data, or lightweight local experiments on the Mac.",
+    "feasibility_note": "The research topic on traceable autonomous research agents is feasible on your MacBook M4 with 36GB RAM, as the MPS GPU can handle large language models and the ample RAM allows for processing substantial datasets. Suitable public datasets include the ArXiv Open Access Subset (for scientific papers), PubMed Central (for biomedical literature), and the Wikipedia Dumps (for general knowledge). Experimentation would likely take 2-4 hours for initial model training and 10-30 minutes per test run, de"
+  },
+  "search_queries": [
+    "traceable autonomous agents",
+    "research agent applications",
+    "autonomous agent benchmarks",
+    "agent limitations analysis",
+    "competing autonomous systems",
+    "research agent datasets",
+    "autonomous agent surveys",
+    "traceable AI research",
+    "autonomous research tools",
+    "agent evaluation metrics",
+    "autonomous system challenges",
+    "alternative research agents",
+    "research agent benchmarks",
+    "autonomous agent taxonomy",
+    "smoke 49d1e9 system"
+  ],
+  "evidence_ids": [
+    "EV001",
+    "EV002",
+    "EV003",
+    "EV004",
+    "EV005",
+    "EV006",
+    "EV007",
+    "EV008",
+    "EV009",
+    "EV010"
+  ],
+  "parsed_papers": [
+    {
+      "evidence_id": "EV001",
+      "title": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery",
+      "year": 2024,
+      "url": "https://arxiv.org/abs/2408.06292",
+      "arxiv_id": "2408.06292",
+      "core_claim": "The AI Scientist generates novel research ideas, writes code, executes experiments, visualizes results, writes full scientific papers, and runs a simulated review process in an automated, iterative fashion.",
+      "method_or_focus": [
+        "The development of a fully automated system that can perform the entire scientific discovery process from idea generation to paper writing and evaluation."
+      ],
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {
+        "paper_scores": "near-human performance",
+        "acceptance_threshold": "exceeded"
+      },
+      "best_result": "Papers exceeding acceptance threshold at a top machine learning conference",
+      "limitations": [],
+      "code_available": true,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "full_text_chars": 6031,
+      "full_text_tool": "arxiv_abstract_openclaw",
+      "possible_gap": "Based on full paper reading: The development of a fully automated system that can perform the entire scientific discovery process from idea generation to paper writing and evaluation.",
+      "deep_read": {
+        "method_summary": "The AI Scientist generates novel research ideas, writes code, executes experiments, visualizes results, writes full scientific papers, and runs a simulated review process in an automated, iterative fashion.",
+        "key_innovation": "The development of a fully automated system that can perform the entire scientific discovery process from idea generation to paper writing and evaluation.",
+        "datasets_used": [],
+        "baselines_compared": [],
+        "key_results": {
+          "paper_scores": "near-human performance",
+          "acceptance_threshold": "exceeded"
+        },
+        "best_result": "Papers exceeding acceptance threshold at a top machine learning conference",
+        "limitations_stated": [],
+        "code_available": true,
+        "code_url": null,
+        "reproducibility": "medium",
+        "compute_required": "low to moderate (cost < $15 per paper)",
+        "can_run_on_macbook": "likely",
+        "evidence_id": "EV001",
+        "title": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery",
+        "year": 2024,
+        "arxiv_id": "2408.06292",
+        "full_text_tool": "arxiv_abstract_openclaw",
+        "full_text_chars": 6031,
+        "sections_found": [
+          "introduction",
+          "method",
+          "results",
+          "conclusion"
+        ]
+      }
+    },
+    {
+      "evidence_id": "EV002",
+      "title": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
+      "year": 2025,
+      "url": "https://arxiv.org/abs/2504.08066",
+      "arxiv_id": "2504.08066",
+      "core_claim": "Extends automated scientific discovery with stronger search and review-like iteration, motivating stricter gates for novelty, experiment quality, and paper readiness.",
+      "method_or_focus": [],
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null,
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "full_text_chars": 5885,
+      "full_text_tool": "arxiv_abstract_openclaw",
+      "possible_gap": "Based on full paper reading: See deep_read.json for details",
+      "deep_read": {
+        "title": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
+        "methodology": {
+          "key_components": [
+            "Eliminates reliance on human-authored code templates",
+            "Generalizes across diverse machine learning domains",
+            "Progressive agentic tree-search methodology managed by experiment manager agent",
+            "Enhanced AI reviewer with Vision-Language Model (VLM) feedback loop for figure refinement"
+          ]
+        },
+        "evaluation": {
+          "submission_count": 3,
+          "venue": "ICLR workshop",
+          "achievement": "One manuscript exceeded average human acceptance threshold, first fully AI-generated paper to successfully navigate peer review"
+        },
+        "availability": "Code has been open-sourced",
+        "evidence_id": "EV002",
+        "year": 2025,
+        "arxiv_id": "2504.08066",
+        "full_text_tool": "arxiv_abstract_openclaw",
+        "full_text_chars": 5885,
+        "sections_found": [
+          "introduction",
+          "method",
+          "results",
+          "conclusion"
+        ]
+      }
+    },
+    {
+      "evidence_id": "EV003",
+      "title": "Agent Laboratory: Using LLM Agents as Research Assistants",
+      "year": 2025,
+      "url": "https://arxiv.org/abs/2501.04227",
+      "arxiv_id": "2501.04227",
+      "core_claim": "Describes agentic research assistance across literature review, experimentation, and report writing, highlighting the need for human oversight and reproducibility controls.",
+      "method_or_focus": [],
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null,
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "full_text_chars": 5667,
+      "full_text_tool": "arxiv_abstract_openclaw",
+      "possible_gap": "Based on full paper reading: See deep_read.json for details",
+      "deep_read": {
+        "title": "Agent Laboratory: Using LLM Agents as Research Assistants",
+        "method": "Agent Laboratory is a framework that accepts human-provided research ideas and progresses through three stages: literature review, experimentation, and report writing to produce comprehensive research outputs, including a code repository and a research report. Users can provide feedback and guidance at each stage.",
+        "implementation": "Agent Laboratory was deployed with various state-of-the-art LLMs. Multiple researchers participated in a survey to assess quality, provided human feedback to guide the research process, and evaluated the final papers.",
+        "findings": [
+          "Agent Laboratory driven by o1-preview generates the best research outcomes",
+          "The generated machine learning code achieves state-of-the-art performance compared to existing methods",
+          "Human involvement, providing feedback at each stage, significantly improves the overall quality of research",
+          "Agent Laboratory significantly reduces research expenses, achieving an 84% decrease compared to previous autonomous research methods"
+        ],
+        "subjects": [
+          "Human-Computer Interaction (cs.HC)",
+          "Artificial Intelligence (cs.AI)",
+          "Computation and Language (cs.CL)",
+          "Machine Learning (cs.LG)"
+        ],
+        "evidence_id": "EV003",
+        "year": 2025,
+        "arxiv_id": "2501.04227",
+        "full_text_tool": "arxiv_abstract_openclaw",
+        "full_text_chars": 5667,
+        "sections_found": [
+          "introduction",
+          "method",
+          "results",
+          "conclusion"
+        ]
+      }
+    },
+    {
+      "evidence_id": "EV004",
+      "title": "MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering",
+      "year": 2024,
+      "url": "https://arxiv.org/abs/2410.07095",
+      "arxiv_id": "2410.07095",
+      "core_claim": "Created a benchmark using Kaggle competitions to evaluate ML agents on real-world ML engineering tasks, using human baselines from Kaggle leaderboards and open-source agent scaffolds.",
+      "method_or_focus": [
+        "MLE-bench, a benchmark that evaluates ML agents on real-world Kaggle competitions using human baselines.",
+        "Kaggle competitions"
+      ],
+      "datasets_used": [
+        "Kaggle competitions"
+      ],
+      "baselines_compared": [
+        "Human baselines from Kaggle leaderboards"
+      ],
+      "key_results": {
+        "bronze_medal_achievement": "16.9%"
+      },
+      "best_result": "OpenAI's o1-preview with AIDE scaffolding achieved at least the level of a Kaggle bronze medal in 16.9% of competitions.",
+      "limitations": [
+        "Impact of contamination from pre-training"
+      ],
+      "code_available": true,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "full_text_chars": 5420,
+      "full_text_tool": "arxiv_abstract_openclaw",
+      "possible_gap": "Based on full paper reading: MLE-bench, a benchmark that evaluates ML agents on real-world Kaggle competitions using human baselines.",
+      "deep_read": {
+        "method_summary": "Created a benchmark using Kaggle competitions to evaluate ML agents on real-world ML engineering tasks, using human baselines from Kaggle leaderboards and open-source agent scaffolds.",
+        "key_innovation": "MLE-bench, a benchmark that evaluates ML agents on real-world Kaggle competitions using human baselines.",
+        "datasets_used": [
+          "Kaggle competitions"
+        ],
+        "baselines_compared": [
+          "Human baselines from Kaggle leaderboards"
+        ],
+        "key_results": {
+          "bronze_medal_achievement": "16.9%"
+        },
+        "best_result": "OpenAI's o1-preview with AIDE scaffolding achieved at least the level of a Kaggle bronze medal in 16.9% of competitions.",
+        "limitations_stated": [
+          "Impact of contamination from pre-training"
+        ],
+        "code_available": true,
+        "code_url": null,
+        "reproducibility": "medium",
+        "compute_required": null,
+        "can_run_on_macbook": null,
+        "evidence_id": "EV004",
+        "title": "MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering",
+        "year": 2024,
+        "arxiv_id": "2410.07095",
+        "full_text_tool": "arxiv_abstract_openclaw",
+        "full_text_chars": 5420,
+        "sections_found": [
+          "introduction",
+          "method",
+          "results",
+          "conclusion"
+        ]
+      }
+    },
+    {
+      "evidence_id": "EV005",
+      "title": "AIBuildAI-2: Scalable Agentic AI Research and Engineering",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2605.27873",
+      "arxiv_id": "2605.27873",
+      "core_claim": "AIBuildAI-2 is a knowledge-enhanced agent with an external, evolving knowledge system for automatically building AI models, featuring a hierarchical organization of curated AI development knowledge with dynamic context loading.",
+      "method_or_focus": [
+        "A hierarchical, evolving knowledge system that allows the agent to dynamically load relevant context and ground decisions in externally verifiable expertise while continuously learning from its own experiences."
+      ],
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {
+        "MLE-Bench medal rate": "70.7%",
+        "heart disease prediction competition rank": "top 6.6% among 4,370 human-expert teams"
+      },
+      "best_result": "70.7% medal rate on MLE-Bench",
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": false,
+      "full_text_chars": 5853,
+      "full_text_tool": "arxiv_html_openclaw",
+      "possible_gap": "Based on full paper reading: A hierarchical, evolving knowledge system that allows the agent to dynamically load relevant context and ground decisions in externally verifiable expertise while continuously learning from its own experiences.",
+      "deep_read": {
+        "method_summary": "AIBuildAI-2 is a knowledge-enhanced agent with an external, evolving knowledge system for automatically building AI models, featuring a hierarchical organization of curated AI development knowledge with dynamic context loading.",
+        "key_innovation": "A hierarchical, evolving knowledge system that allows the agent to dynamically load relevant context and ground decisions in externally verifiable expertise while continuously learning from its own experiences.",
+        "datasets_used": [],
+        "baselines_compared": [],
+        "key_results": {
+          "MLE-Bench medal rate": "70.7%",
+          "heart disease prediction competition rank": "top 6.6% among 4,370 human-expert teams"
+        },
+        "best_result": "70.7% medal rate on MLE-Bench",
+        "limitations_stated": [],
+        "code_available": false,
+        "code_url": null,
+        "reproducibility": null,
+        "compute_required": null,
+        "can_run_on_macbook": false,
+        "evidence_id": "EV005",
+        "title": "AIBuildAI-2: Scalable Agentic AI Research and Engineering",
+        "year": 2026,
+        "arxiv_id": "2605.27873",
+        "full_text_tool": "arxiv_html_openclaw",
+        "full_text_chars": 5853,
+        "sections_found": [
+          "introduction",
+          "method",
+          "results",
+          "conclusion"
+        ]
+      }
+    },
+    {
+      "evidence_id": "EV006",
+      "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+      "year": 2023,
+      "url": "https://arxiv.org/abs/2303.11366",
+      "arxiv_id": "2303.11366",
+      "core_claim": "Uses verbal feedback and memory to help agents improve across trials, motivating explicit failure memory and revision loops.",
+      "method_or_focus": [],
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null,
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "full_text_chars": 7998,
+      "full_text_tool": "arxiv_html_openclaw",
+      "possible_gap": "Based on full paper reading: See deep_read.json for details",
+      "deep_read": {
+        "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+        "method": {
+          "name": "Reflexion",
+          "description": "An approach that uses verbal reinforcement to help agents learn from prior failings by converting binary or scalar feedback from the environment into verbal feedback, which is added as additional context for the LLM agent in the next episode.",
+          "feedback_generation_methods": [
+            "Simple binary environment feedback",
+            "Pre-defined heuristics for common failure cases",
+            "Self-evaluation using LLMs (decision-making) or self-written unit tests (programming)"
+          ]
+        },
+        "advantages": [
+          "Lightweight and doesn't require finetuning the LLM",
+          "Allows more nuanced forms of feedback compared to scalar rewards",
+          "More explicit and interpretable episodic memory over prior experiences",
+          "Provides more explicit hints for actions in future episodes"
+        ],
+        "disadvantages": [
+          "Relies on the power of the LLM's self-evaluation capabilities",
+          "No formal guarantee for success"
+        ],
+        "experiments": [
+          {
+            "type": "Decision-making tasks",
+            "description": "Sequential action choices over long trajectories",
+            "dataset": "AlfWorld",
+            "improvement": "22% in 12 iterative learning steps"
+          },
+          {
+            "type": "Reasoning tasks",
+            "description": "Knowledge-intensive, single-step generation improvement",
+            "dataset": "HotPotQA",
+            "improvement": "20%"
+          },
+          {
+            "type": "Programming tasks",
+            "description": "Teaching agents to effectively use external tools",
+            "dataset": "HumanEval",
+            "improvement": "Not specified in the provided text"
+          }
+        ],
+        "related_works": [
+          "ReAct",
+          "SayCan",
+          "Toolformer",
+          "HuggingGPT",
+          "Generative agents",
+          "WebGPT"
+        ],
+        "evidence_id": "EV006",
+        "year": 2023,
+        "arxiv_id": "2303.11366",
+        "full_text_tool": "arxiv_html_openclaw",
+        "full_text_chars": 7998,
+        "sections_found": [
+          "introduction",
+          "method",
+          "results",
+          "conclusion"
+        ]
+      }
+    },
+    {
+      "evidence_id": "EV007",
+      "title": "Self-Refine: Iterative Refinement with Self-Feedback",
+      "year": 2023,
+      "url": "https://arxiv.org/abs/2303.17651",
+      "arxiv_id": "2303.17651",
+      "core_claim": "Studies iterative generation, feedback, and refinement, providing background for reviewer-style critique and revision policies.",
+      "method_or_focus": [],
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null,
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "full_text_chars": 7996,
+      "full_text_tool": "arxiv_html_openclaw",
+      "possible_gap": "Based on full paper reading: See deep_read.json for details",
+      "deep_read": {
+        "paper_title": "Self-Refine: Iterative Refinement with Self-Feedback",
+        "method_name": "Self-Refine",
+        "method_description": "An iterative self-refinement algorithm that alternates between feedback and refine steps, using the same language model for both generating feedback and refining outputs without additional training or external supervision.",
+        "key_characteristics": [
+          "Uses the same language model for both generating feedback and refining outputs",
+          "Does not require additional training",
+          "Does not require external supervision or reward models",
+          "Does not involve human assistance",
+          "Uses few-shot prompting to guide the model",
+          "Iterates until a specified number of iterations or until the model determines no further refinement is needed"
+        ],
+        "algorithm_steps": [
+          "Generate an initial output from model M",
+          "Pass the output back to the same model to get feedback",
+          "Pass the feedback back to the same model to refine the previously generated output",
+          "Repeat steps 2-3 until stopping condition is met"
+        ],
+        "applications": [
+          "Dialogue response generation",
+          "Enhancing program readability",
+          "Natural language generation",
+          "Source-code generation"
+        ],
+        "evaluation": {
+          "tasks_evaluated": 7,
+          "domains": [
+            "Natural language",
+            "Source-code generation"
+          ],
+          "results": "Outperforms direct generation from strong LLMs"
+        },
+        "implementation": {
+          "models_used": [
+            "GPT-3.5"
+          ],
+          "prompting_technique": "Few-shot prompting"
+        },
+        "evidence_id": "EV007",
+        "title": "Self-Refine: Iterative Refinement with Self-Feedback",
+        "year": 2023,
+        "arxiv_id": "2303.17651",
+        "full_text_tool": "arxiv_html_openclaw",
+        "full_text_chars": 7996,
+        "sections_found": [
+          "introduction",
+          "method",
+          "results",
+          "conclusion"
+        ]
+      }
+    },
+    {
+      "evidence_id": "EV008",
+      "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+      "year": 2023,
+      "url": "https://arxiv.org/abs/2305.16291",
+      "arxiv_id": "2305.16291",
+      "core_claim": "Demonstrates open-ended skill acquisition with memory and iterative exploration, relevant to long-running agent loops and durable lessons.",
+      "method_or_focus": [],
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null,
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "full_text_chars": 7998,
+      "full_text_tool": "arxiv_html_openclaw",
+      "possible_gap": "Based on full paper reading: See deep_read.json for details",
+      "deep_read": {
+        "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+        "authors": [],
+        "abstract": "Introduces Voyager, the first LLM-powered embodied lifelong learning agent. It operates in Minecraft to autonomously drive exploration, master a wide range of skills, and make new discoveries without human intervention.",
+        "methodology": "Voyager is an LLM-powered agent that uses an automatic curriculum, a skill library, and an iterative prompting mechanism. It interacts with a blackbox LLM (GPT-4) via prompting and in-context learning, using code as the action space and avoiding the need for model parameter access or gradient-based training.",
+        "key_components": [
+          "An automatic curriculum for open-ended exploration",
+          "A skill library for storing and retrieving complex behaviors",
+          "An iterative prompting mechanism that generates executable code for embodied control"
+        ],
+        "environment": "Minecraft",
+        "key_innovations": [
+          "First LLM-powered embodied lifelong learning agent",
+          "Continuously explores, plans, and develops new skills in open-ended environments",
+          "Makes new discoveries without human intervention",
+          "Uses code as the action space for complex, long-horizon tasks"
+        ],
+        "results": "Voyager discovers new Minecraft items and skills continually through self-driven exploration and significantly outperforms baseline methods. The agent demonstrates capabilities such as proposing suitable tasks based on its skill level, refining skills based on feedback, and continually exploring the world in a self-driven manner.",
+        "tools_and_technologies": [
+          "GPT-4 (as a blackbox LLM)",
+          "Code as the action space"
+        ],
+        "evidence_id": "EV008",
+        "year": 2023,
+        "arxiv_id": "2305.16291",
+        "full_text_tool": "arxiv_html_openclaw",
+        "full_text_chars": 7998,
+        "sections_found": [
+          "introduction",
+          "method",
+          "results",
+          "conclusion"
+        ]
+      }
+    },
+    {
+      "evidence_id": "EV009",
+      "title": "AgentBench: Evaluating LLMs as Agents",
+      "year": 2023,
+      "url": "https://arxiv.org/abs/2308.03688",
+      "arxiv_id": "2308.03688",
+      "core_claim": "Introduces agent evaluation tasks and motivates structured benchmarks for agent behavior rather than isolated text quality.",
+      "method_or_focus": [],
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null,
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "full_text_chars": 7998,
+      "full_text_tool": "arxiv_html_openclaw",
+      "possible_gap": "Based on full paper reading: See deep_read.json for details",
+      "deep_read": {
+        "title": "AgentBench: Evaluating LLMs as Agents",
+        "authors": [
+          "XL",
+          "HY"
+        ],
+        "affiliations": null,
+        "urls": {
+          "code": "https://github.com/THUDM/AgentBench",
+          "website": "https://llmbench.ai/agent"
+        },
+        "benchmark_name": "AgentBench",
+        "benchmark_type": "Multi-dimensional benchmark for evaluating LLM-as-Agent",
+        "environments": [
+          "Operating System",
+          "Database",
+          "Knowledge Graph",
+          "Digital Card Game",
+          "Lateral Thinking Puzzles",
+          "House-Holding",
+          "Web Shopping"
+        ],
+        "number_of_models_evaluated": 27,
+        "paper_section": "METHOD SECTION",
+        "evidence_id": "EV009",
+        "year": 2023,
+        "arxiv_id": "2308.03688",
+        "full_text_tool": "arxiv_html_openclaw",
+        "full_text_chars": 7998,
+        "sections_found": [
+          "introduction",
+          "method",
+          "results",
+          "conclusion"
+        ]
+      }
+    },
+    {
+      "evidence_id": "EV010",
+      "title": "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
+      "year": 2024,
+      "url": "https://arxiv.org/abs/2405.15793",
+      "arxiv_id": "2405.15793",
+      "core_claim": "Shows how agents can operate computer interfaces to solve software tasks, relevant to local experiment execution and reproducible command logs.",
+      "method_or_focus": [],
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null,
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "full_text_chars": 5595,
+      "full_text_tool": "arxiv_abstract_openclaw",
+      "possible_gap": "Based on full paper reading: See deep_read.json for details",
+      "deep_read": {
+        "paper_title": "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
+        "method": {
+          "approach": "Investigation of how interface design affects LM agent performance",
+          "system": "SWE-agent, a system that facilitates LM agents to autonomously use computers for software engineering tasks",
+          "key_features": [
+            "Custom agent-computer interface (ACI)",
+            "Enhanced ability to create and edit code files",
+            "Repository navigation capabilities",
+            "Test and program execution capabilities"
+          ],
+          "evaluation": {
+            "benchmarks": [
+              {
+                "name": "SWE-bench",
+                "pass_at_1_rate": 12.5
+              },
+              {
+                "name": "HumanEvalFix",
+                "pass_at_1_rate": 87.7
+              }
+            ],
+            "performance": "State-of-the-art, exceeding previous results with non-interactive LMs"
+          },
+          "insights": "How ACI design impacts agent behavior and performance"
+        },
+        "availability": {
+          "code": "Available at provided URL",
+          "data": "Available at provided URL",
+          "demo": "Available at provided URL"
+        },
+        "evidence_id": "EV010",
+        "title": "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
+        "year": 2024,
+        "arxiv_id": "2405.15793",
+        "full_text_tool": "arxiv_abstract_openclaw",
+        "full_text_chars": 5595,
+        "sections_found": [
+          "introduction",
+          "method",
+          "results",
+          "conclusion"
+        ]
+      }
+    }
+  ],
+  "claim_graph": {
+    "claims": [
+      {
+        "claim_id": "CL001",
+        "evidence_id": "EV001",
+        "text": "The AI Scientist generates novel research ideas, writes code, executes experiments, visualizes results, writes full scientific papers, and runs a simulated review process in an automated, iterative fashion.",
+        "support": "full_pdf_read_confirmed",
+        "datasets": [],
+        "best_result": "Papers exceeding acceptance threshold at a top machine learning conference"
+      },
+      {
+        "claim_id": "CL002",
+        "evidence_id": "EV002",
+        "text": "Extends automated scientific discovery with stronger search and review-like iteration, motivating stricter gates for novelty, experiment quality, and paper readiness.",
+        "support": "full_pdf_read_confirmed",
+        "datasets": [],
+        "best_result": null
+      },
+      {
+        "claim_id": "CL003",
+        "evidence_id": "EV003",
+        "text": "Describes agentic research assistance across literature review, experimentation, and report writing, highlighting the need for human oversight and reproducibility controls.",
+        "support": "full_pdf_read_confirmed",
+        "datasets": [],
+        "best_result": null
+      },
+      {
+        "claim_id": "CL004",
+        "evidence_id": "EV004",
+        "text": "Created a benchmark using Kaggle competitions to evaluate ML agents on real-world ML engineering tasks, using human baselines from Kaggle leaderboards and open-source agent scaffolds.",
+        "support": "full_pdf_read_confirmed",
+        "datasets": [
+          "Kaggle competitions"
+        ],
+        "best_result": "OpenAI's o1-preview with AIDE scaffolding achieved at least the level of a Kaggle bronze medal in 16.9% of competitions."
+      },
+      {
+        "claim_id": "CL005",
+        "evidence_id": "EV005",
+        "text": "AIBuildAI-2 is a knowledge-enhanced agent with an external, evolving knowledge system for automatically building AI models, featuring a hierarchical organization of curated AI development knowledge with dynamic context loading.",
+        "support": "full_pdf_read_confirmed",
+        "datasets": [],
+        "best_result": "70.7% medal rate on MLE-Bench"
+      },
+      {
+        "claim_id": "CL006",
+        "evidence_id": "EV006",
+        "text": "Uses verbal feedback and memory to help agents improve across trials, motivating explicit failure memory and revision loops.",
+        "support": "full_pdf_read_confirmed",
+        "datasets": [],
+        "best_result": null
+      },
+      {
+        "claim_id": "CL007",
+        "evidence_id": "EV007",
+        "text": "Studies iterative generation, feedback, and refinement, providing background for reviewer-style critique and revision policies.",
+        "support": "full_pdf_read_confirmed",
+        "datasets": [],
+        "best_result": null
+      },
+      {
+        "claim_id": "CL008",
+        "evidence_id": "EV008",
+        "text": "Demonstrates open-ended skill acquisition with memory and iterative exploration, relevant to long-running agent loops and durable lessons.",
+        "support": "full_pdf_read_confirmed",
+        "datasets": [],
+        "best_result": null
+      },
+      {
+        "claim_id": "CL009",
+        "evidence_id": "EV009",
+        "text": "Introduces agent evaluation tasks and motivates structured benchmarks for agent behavior rather than isolated text quality.",
+        "support": "full_pdf_read_confirmed",
+        "datasets": [],
+        "best_result": null
+      },
+      {
+        "claim_id": "CL010",
+        "evidence_id": "EV010",
+        "text": "Shows how agents can operate computer interfaces to solve software tasks, relevant to local experiment execution and reproducible command logs.",
+        "support": "full_pdf_read_confirmed",
+        "datasets": [],
+        "best_result": null
+      }
+    ],
+    "links": [
+      {
+        "from": "EV001",
+        "relation": "suggests_gap",
+        "to": "Based on full paper reading: The development of a fully automated system that can perform the entire scientific discovery process from idea generation to paper writing and evaluation."
+      },
+      {
+        "from": "EV002",
+        "relation": "suggests_gap",
+        "to": "Based on full paper reading: See deep_read.json for details"
+      },
+      {
+        "from": "EV003",
+        "relation": "suggests_gap",
+        "to": "Based on full paper reading: See deep_read.json for details"
+      },
+      {
+        "from": "EV004",
+        "relation": "suggests_gap",
+        "to": "Based on full paper reading: MLE-bench, a benchmark that evaluates ML agents on real-world Kaggle competitions using human baselines."
+      },
+      {
+        "from": "EV005",
+        "relation": "suggests_gap",
+        "to": "Based on full paper reading: A hierarchical, evolving knowledge system that allows the agent to dynamically load relevant context and ground decisions in externally verifiable expertise while continuously learning from its own experiences."
+      },
+      {
+        "from": "EV006",
+        "relation": "suggests_gap",
+        "to": "Based on full paper reading: See deep_read.json for details"
+      },
+      {
+        "from": "EV007",
+        "relation": "suggests_gap",
+        "to": "Based on full paper reading: See deep_read.json for details"
+      },
+      {
+        "from": "EV008",
+        "relation": "suggests_gap",
+        "to": "Based on full paper reading: See deep_read.json for details"
+      },
+      {
+        "from": "EV009",
+        "relation": "suggests_gap",
+        "to": "Based on full paper reading: See deep_read.json for details"
+      },
+      {
+        "from": "EV010",
+        "relation": "suggests_gap",
+        "to": "Based on full paper reading: See deep_read.json for details"
+      }
+    ]
+  },
+  "research_gaps": [
+    {
+      "gap_id": "G01",
+      "text": "Traceability gap: agents may produce ideas without an auditable chain from source evidence to experiment decision.",
+      "keywords": [
+        "paper",
+        "full",
+        "reading",
+        "agents",
+        "agent",
+        "deep"
+      ],
+      "evidence_ids": [
+        "EV001",
+        "EV002",
+        "EV003",
+        "EV004",
+        "EV005"
+      ],
+      "testable": true,
+      "difficulty": "medium",
+      "source": "template"
+    },
+    {
+      "gap_id": "G02",
+      "text": "Review gap: simulated reviewer feedback is often generated after the fact instead of controlling whether an idea proceeds.",
+      "keywords": [
+        "agents",
+        "agent",
+        "deep",
+        "read",
+        "json",
+        "details"
+      ],
+      "evidence_ids": [
+        "EV002",
+        "EV003",
+        "EV004",
+        "EV005",
+        "EV006"
+      ],
+      "testable": true,
+      "difficulty": "medium",
+      "source": "template"
+    },
+    {
+      "gap_id": "G03",
+      "text": "Experiment timing gap: many research agents run experiments late, after committing to an idea, rather than using cheap probes during ideation.",
+      "keywords": [
+        "read",
+        "json",
+        "details",
+        "automated",
+        "research",
+        "scientific"
+      ],
+      "evidence_ids": [
+        "EV003",
+        "EV004",
+        "EV005",
+        "EV006",
+        "EV007"
+      ],
+      "testable": true,
+      "difficulty": "medium",
+      "source": "template"
+    },
+    {
+      "gap_id": "G04",
+      "text": "Failure memory gap: rejected ideas and failed probes are often lost instead of shaping the next search iteration.",
+      "keywords": [
+        "automated",
+        "research",
+        "scientific",
+        "discovery",
+        "iterative",
+        "learning"
+      ],
+      "evidence_ids": [
+        "EV004",
+        "EV005",
+        "EV006",
+        "EV007",
+        "EV008"
+      ],
+      "testable": true,
+      "difficulty": "medium",
+      "source": "template"
+    },
+    {
+      "gap_id": "G05",
+      "text": "Venue-fit gap: agent outputs often lack explicit comparison to workshop and conference expectations.",
+      "keywords": [
+        "discovery",
+        "iterative",
+        "learning",
+        "engineering",
+        "open-ended",
+        "system"
+      ],
+      "evidence_ids": [
+        "EV005",
+        "EV006",
+        "EV007",
+        "EV008",
+        "EV009"
+      ],
+      "testable": true,
+      "difficulty": "medium",
+      "source": "template"
+    }
+  ],
+  "idea_tree": [
+    {
+      "idea_id": "ID001",
+      "title": "Traceable Research Agent Framework with Auditable Chain",
+      "source_gap_id": "G01",
+      "scope": "method",
+      "pitch": "Research idea for traceable autonomous research agents smoke 49d1e9.",
+      "mechanism": "Mechanism to be specified during experiment design.",
+      "metric": "improvement_over_baseline",
+      "has_clear_metric": false,
+      "experiment_sketch": null,
+      "novelty_claim": null,
+      "risk": "medium",
+      "evidence_support": 0.85,
+      "local_feasibility": 1,
+      "novelty_risk": 0.087,
+      "base_score": 5.5,
+      "keywords": [
+        "traceable",
+        "research",
+        "agent",
+        "framework",
+        "auditable",
+        "chain"
+      ],
+      "status": "rejected",
+      "corpus_overlap_hash": "0ec120d25d",
+      "source": "llm",
+      "reviewer_average": 3.5,
+      "reviewer_decision": "reject",
+      "next_action": "RUN_ADDITIONAL_SEARCH"
+    },
+    {
+      "idea_id": "ID002",
+      "title": "Proactive Review Simulation System",
+      "source_gap_id": "G02",
+      "scope": "method",
+      "pitch": "Research idea for traceable autonomous research agents smoke 49d1e9.",
+      "mechanism": "Mechanism to be specified during experiment design.",
+      "metric": "improvement_over_baseline",
+      "has_clear_metric": false,
+      "experiment_sketch": null,
+      "novelty_claim": null,
+      "risk": "medium",
+      "evidence_support": 0.85,
+      "local_feasibility": 1,
+      "novelty_risk": 0.045,
+      "base_score": 5.5,
+      "keywords": [
+        "proactive",
+        "review",
+        "simulation",
+        "system"
+      ],
+      "status": "rejected",
+      "corpus_overlap_hash": "f9e516be12",
+      "source": "llm",
+      "reviewer_average": 3.5,
+      "reviewer_decision": "reject",
+      "next_action": "RUN_ADDITIONAL_SEARCH"
+    },
+    {
+      "idea_id": "ID003",
+      "title": "Integrated Experiment Planning Module",
+      "source_gap_id": "G03",
+      "scope": "method",
+      "pitch": "Research idea for traceable autonomous research agents smoke 49d1e9.",
+      "mechanism": "Mechanism to be specified during experiment design.",
+      "metric": "improvement_over_baseline",
+      "has_clear_metric": false,
+      "experiment_sketch": null,
+      "novelty_claim": null,
+      "risk": "medium",
+      "evidence_support": 0.85,
+      "local_feasibility": 1,
+      "novelty_risk": 0.045,
+      "base_score": 5.5,
+      "keywords": [
+        "integrated",
+        "experiment",
+        "planning",
+        "module"
+      ],
+      "status": "rejected",
+      "corpus_overlap_hash": "270ee1b5d8",
+      "source": "llm",
+      "reviewer_average": 2.25,
+      "reviewer_decision": "reject",
+      "next_action": "RUN_ADDITIONAL_SEARCH"
+    },
+    {
+      "idea_id": "ID004",
+      "title": "Persistent Failure Memory System",
+      "source_gap_id": "G04",
+      "scope": "method",
+      "pitch": "Research idea for traceable autonomous research agents smoke 49d1e9.",
+      "mechanism": "Mechanism to be specified during experiment design.",
+      "metric": "improvement_over_baseline",
+      "has_clear_metric": false,
+      "experiment_sketch": null,
+      "novelty_claim": null,
+      "risk": "medium",
+      "evidence_support": 0.85,
+      "local_feasibility": 1,
+      "novelty_risk": 0.105,
+      "base_score": 5.5,
+      "keywords": [
+        "persistent",
+        "failure",
+        "memory",
+        "system"
+      ],
+      "status": "rejected",
+      "corpus_overlap_hash": "2dfa75f0f7",
+      "source": "llm",
+      "reviewer_average": 3.5,
+      "reviewer_decision": "reject",
+      "next_action": "RUN_ADDITIONAL_SEARCH"
+    },
+    {
+      "idea_id": "ID005",
+      "title": "Venue-Fit Assessment Module",
+      "source_gap_id": "G05",
+      "scope": "method",
+      "pitch": "Research idea for traceable autonomous research agents smoke 49d1e9.",
+      "mechanism": "Mechanism to be specified during experiment design.",
+      "metric": "improvement_over_baseline",
+      "has_clear_metric": false,
+      "experiment_sketch": null,
+      "novelty_claim": null,
+      "risk": "medium",
+      "evidence_support": 0.85,
+      "local_feasibility": 1,
+      "novelty_risk": 0,
+      "base_score": 5.5,
+      "keywords": [
+        "venue-fit",
+        "assessment",
+        "module"
+      ],
+      "status": "rejected",
+      "corpus_overlap_hash": "780f8ddcf6",
+      "source": "llm",
+      "reviewer_average": 3.5,
+      "reviewer_decision": "reject",
+      "next_action": "RUN_ADDITIONAL_SEARCH"
+    }
+  ],
+  "reviewer_scores": [
+    {
+      "idea_id": "ID001",
+      "average_score": 3.5,
+      "phase1_avg": 3.5,
+      "decision": "reject",
+      "next_action": "RUN_ADDITIONAL_SEARCH",
+      "fatal_flaws": [
+        "Hypothesis not clearly stated or falsifiable",
+        "No mention of seeds for reproducibility",
+        "No compute requirements specified",
+        "Reproducibility reviewer identified 4 fatal flaws",
+        "The core experimental design is undefined, with no specified hypothesis, dataset, or baseline.",
+        "There is no plan for public code or data availability, which is essential for reproducibility."
+      ],
+      "fixable_flaws": [
+        "Review unavailable",
+        "Need to clearly articulate a falsifiable hypothesis",
+        "Specify random seeds and initialization methods",
+        "Provide compute requirements for evaluation",
+        "Review unavailable",
+        "Missing compute documentation (hardware, software environment, costs).",
+        "Lack of a defined protocol for fixing random seeds across the agent's components."
+      ],
+      "revised_idea": null,
+      "reviewers": [
+        {
+          "reviewer": "Novelty Reviewer",
+          "score": 5,
+          "fatal_flaws": [],
+          "fixable_flaws": [
+            "Review unavailable"
+          ],
+          "decision": "revise",
+          "justification": "LLM review unavailable."
+        },
+        {
+          "reviewer": "Experimental Reviewer",
+          "score": 3,
+          "fatal_flaws": [
+            "Hypothesis not clearly stated or falsifiable",
+            "No mention of seeds for reproducibility",
+            "No compute requirements specified",
+            "Reproducibility reviewer identified 4 fatal flaws"
+          ],
+          "fixable_flaws": [
+            "Need to clearly articulate a falsifiable hypothesis",
+            "Specify random seeds and initialization methods",
+            "Provide compute requirements for evaluation"
+          ],
+          "decision": "reject",
+          "justification": "The research lacks a clear falsifiable hypothesis and critical reproducibility details. The reproducibility reviewer identified 4 fatal flaws indicating significant methodological issues."
+        },
+        {
+          "reviewer": "Theory/Mechanism Reviewer",
+          "score": 5,
+          "fatal_flaws": [],
+          "fixable_flaws": [
+            "Review unavailable"
+          ],
+          "decision": "revise",
+          "justification": "LLM review unavailable."
+        },
+        {
+          "reviewer": "Reproducibility Reviewer",
+          "score": 1,
+          "fatal_flaws": [
+            "The core experimental design is undefined, with no specified hypothesis, dataset, or baseline.",
+            "There is no plan for public code or data availability, which is essential for reproducibility."
+          ],
+          "fixable_flaws": [
+            "Missing compute documentation (hardware, software environment, costs).",
+            "Lack of a defined protocol for fixing random seeds across the agent's components."
+          ],
+          "decision": "revise",
+          "justification": "The submission lacks a defined hypothesis, dataset, and baseline, making the core experiment impossible to reproduce. Furthermore, there is no plan for code or compute documentation availability."
+        }
+      ]
+    },
+    {
+      "idea_id": "ID002",
+      "average_score": 3.5,
+      "phase1_avg": 3.5,
+      "decision": "reject",
+      "next_action": "RUN_ADDITIONAL_SEARCH",
+      "fatal_flaws": [
+        "Hypothesis is not clearly stated or falsifiable",
+        "No specification of baseline conditions for comparison",
+        "No reproducibility measures (seeds) specified",
+        "No computational requirements documented",
+        "No clear theoretical justification for the specific architecture of the review simulation system",
+        "No clear dataset or baseline defined for evaluation",
+        "No clear ablation testing strategy",
+        "The proposal lacks a specified dataset and baseline, making experimental implementation and evaluation impossible.",
+        "The central hypothesis is not a testable statement, preventing any meaningful assessment of the proposed system."
+      ],
+      "fixable_flaws": [
+        "Review unavailable",
+        "Incomplete description of evaluation methodology",
+        "Missing details on simulation parameters",
+        "No clear success metrics defined",
+        "Missing detailed mechanism description",
+        "No clear evaluation metrics beyond 'fatal flaws'",
+        "No clear connection to the broader research community's needs",
+        "The methodology for the 'Proactive Review Simulation System' is not described.",
+        "No evaluation metrics are provided to measure the 'traceability' or 'autonomy' of the agents."
+      ],
+      "revised_idea": null,
+      "reviewers": [
+        {
+          "reviewer": "Novelty Reviewer",
+          "score": 5,
+          "fatal_flaws": [],
+          "fixable_flaws": [
+            "Review unavailable"
+          ],
+          "decision": "revise",
+          "justification": "LLM review unavailable."
+        },
+        {
+          "reviewer": "Experimental Reviewer",
+          "score": 3,
+          "fatal_flaws": [
+            "Hypothesis is not clearly stated or falsifiable",
+            "No specification of baseline conditions for comparison",
+            "No reproducibility measures (seeds) specified",
+            "No computational requirements documented"
+          ],
+          "fixable_flaws": [
+            "Incomplete description of evaluation methodology",
+            "Missing details on simulation parameters",
+            "No clear success metrics defined"
+          ],
+          "decision": "reject",
+          "justification": "The research idea lacks methodological rigor with no falsifiable hypothesis, undefined baselines, and missing reproducibility specifications. The prior Theory/Mechanism reviewer identified two fatal flaws, indicating fundamental issues with the research design."
+        },
+        {
+          "reviewer": "Theory/Mechanism Reviewer",
+          "score": 4,
+          "fatal_flaws": [
+            "No clear theoretical justification for the specific architecture of the review simulation system",
+            "No clear dataset or baseline defined for evaluation",
+            "No clear ablation testing strategy"
+          ],
+          "fixable_flaws": [
+            "Missing detailed mechanism description",
+            "No clear evaluation metrics beyond 'fatal flaws'",
+            "No clear connection to the broader research community's needs"
+          ],
+          "decision": "revise",
+          "justification": "The idea has potential but lacks clear theoretical justification, defined datasets, and evaluation strategies. It needs more detail on the mechanism and how it improves upon existing approaches."
+        },
+        {
+          "reviewer": "Reproducibility Reviewer",
+          "score": 2,
+          "fatal_flaws": [
+            "The proposal lacks a specified dataset and baseline, making experimental implementation and evaluation impossible.",
+            "The central hypothesis is not a testable statement, preventing any meaningful assessment of the proposed system."
+          ],
+          "fixable_flaws": [
+            "The methodology for the 'Proactive Review Simulation System' is not described.",
+            "No evaluation metrics are provided to measure the 'traceability' or 'autonomy' of the agents."
+          ],
+          "decision": "reject",
+          "justification": "The proposal is fundamentally un-reproducible as it lacks a defined dataset and baseline for evaluation. Without a clear, testable hypothesis and experimental protocol, the core contribution cannot be assessed or validated."
+        }
+      ]
+    },
+    {
+      "idea_id": "ID003",
+      "average_score": 2.25,
+      "phase1_avg": 2.25,
+      "decision": "reject",
+      "next_action": "RUN_ADDITIONAL_SEARCH",
+      "fatal_flaws": [
+        "Significant overlap with existing autonomous research agent systems (EV001, EV002, EV003)",
+        "No clear differentiation from prior work on integrated experiment planning",
+        "No clearly defined falsifiable hypothesis (marked with '?')",
+        "Absence of fair baselines for comparison (marked with '?')",
+        "Missing information about seeds for reproducibility",
+        "No details on computational requirements",
+        "High number of fatal flaws identified in prior reviews (especially reproducibility)",
+        "The hypothesis, dataset, and baseline are undefined, making the core claim untestable and the experimental design impossible to evaluate.",
+        "The mechanism of 'integration' is not specified; it is unclear how the planning module interfaces with other agent components or what state it maintains.",
+        "Dataset not specified or made publicly available",
+        "No information on fixed seeds for reproducibility",
+        "No compute documentation provided",
+        "No code availability mentioned"
+      ],
+      "fixable_flaws": [
+        "Prior work section could be expanded to better position the contribution",
+        "The idea of an 'Integrated Experiment Planning Module' is promising but needs more specific details",
+        "The theoretical justification could be strengthened by formally defining the 'research state' and the objective function the planner optimizes.",
+        "The proposed ablation tests are not detailed; a concrete mechanism for comparing the integrated module against a non-integrated baseline is needed.",
+        "Provide public dataset with clear access instructions",
+        "Specify fixed seeds for all experiments",
+        "Document compute resources and environment specifications",
+        "Make code publicly available with clear instructions"
+      ],
+      "revised_idea": null,
+      "reviewers": [
+        {
+          "reviewer": "Novelty Reviewer",
+          "score": 2,
+          "fatal_flaws": [
+            "Significant overlap with existing autonomous research agent systems (EV001, EV002, EV003)",
+            "No clear differentiation from prior work on integrated experiment planning"
+          ],
+          "fixable_flaws": [],
+          "decision": "reject",
+          "justification": "The proposed experiment planning module for autonomous research agents substantially overlaps with existing work like The AI Scientist (EV001, EV002) and Agent Laboratory (EV003), which already implement similar capabilities."
+        },
+        {
+          "reviewer": "Experimental Reviewer",
+          "score": 2,
+          "fatal_flaws": [
+            "No clearly defined falsifiable hypothesis (marked with '?')",
+            "Absence of fair baselines for comparison (marked with '?')",
+            "Missing information about seeds for reproducibility",
+            "No details on computational requirements",
+            "High number of fatal flaws identified in prior reviews (especially reproducibility)"
+          ],
+          "fixable_flaws": [
+            "Prior work section could be expanded to better position the contribution",
+            "The idea of an 'Integrated Experiment Planning Module' is promising but needs more specific details"
+          ],
+          "decision": "reject",
+          "justification": "The research proposal lacks essential components including a falsifiable hypothesis, baselines, and reproducibility measures. With 10 total fatal flaws identified in prior reviews, the proposal requires significant revision before it can be considered for acceptance."
+        },
+        {
+          "reviewer": "Theory/Mechanism Reviewer",
+          "score": 3,
+          "fatal_flaws": [
+            "The hypothesis, dataset, and baseline are undefined, making the core claim untestable and the experimental design impossible to evaluate.",
+            "The mechanism of 'integration' is not specified; it is unclear how the planning module interfaces with other agent components or what state it maintains."
+          ],
+          "fixable_flaws": [
+            "The theoretical justification could be strengthened by formally defining the 'research state' and the objective function the planner optimizes.",
+            "The proposed ablation tests are not detailed; a concrete mechanism for comparing the integrated module against a non-integrated baseline is needed."
+          ],
+          "decision": "revise",
+          "justification": "The proposal lacks a defined hypothesis, dataset, and baseline, making it impossible to evaluate the claimed contribution of the 'Integrated Experiment Planning Module'. However, the core idea of a traceable, planning-centric agent for autonomous research is theoretically sound and addresses a key gap in prior work."
+        },
+        {
+          "reviewer": "Reproducibility Reviewer",
+          "score": 2,
+          "fatal_flaws": [
+            "Dataset not specified or made publicly available",
+            "No information on fixed seeds for reproducibility",
+            "No compute documentation provided",
+            "No code availability mentioned"
+          ],
+          "fixable_flaws": [
+            "Provide public dataset with clear access instructions",
+            "Specify fixed seeds for all experiments",
+            "Document compute resources and environment specifications",
+            "Make code publicly available with clear instructions"
+          ],
+          "decision": "reject",
+          "justification": "Critical reproducibility information missing. No evidence of public data, fixed seeds, compute documentation, or code availability."
+        }
+      ]
+    },
+    {
+      "idea_id": "ID004",
+      "average_score": 3.5,
+      "phase1_avg": 3.5,
+      "decision": "reject",
+      "next_action": "RUN_ADDITIONAL_SEARCH",
+      "fatal_flaws": [
+        "The Persistent Failure Memory System appears to be substantially similar to Reflexion (EV006) which already uses memory to help agents improve",
+        "No clear indication of what makes this approach fundamentally novel compared to existing agent memory systems",
+        "Hypothesis is not clearly stated or falsifiable",
+        "Baselines are not defined for fair comparison",
+        "No mention of seeds for reproducibility",
+        "No information about compute requirements",
+        "Lacks clear theoretical framework distinguishing from existing memory-based approaches",
+        "No specified dataset or baseline for evaluation",
+        "Dataset information not specified",
+        "No mention of fixed seeds for reproducibility",
+        "No computational documentation provided",
+        "No code availability mentioned"
+      ],
+      "fixable_flaws": [
+        "Complete the hypothesis statement",
+        "Define appropriate baselines for comparison",
+        "Specify seeds and reproducibility measures",
+        "Provide compute requirements and resource estimates",
+        "Needs to clarify novel aspects of failure memory compared to prior work",
+        "Should specify how traceability is measured and improved",
+        "Missing details on memory architecture and update mechanisms",
+        "Need to specify dataset sources and preprocessing",
+        "Implement and document fixed random seeds",
+        "Provide compute requirements and environment setup",
+        "Release code repository with clear documentation"
+      ],
+      "revised_idea": null,
+      "reviewers": [
+        {
+          "reviewer": "Novelty Reviewer",
+          "score": 2,
+          "fatal_flaws": [
+            "The Persistent Failure Memory System appears to be substantially similar to Reflexion (EV006) which already uses memory to help agents improve",
+            "No clear indication of what makes this approach fundamentally novel compared to existing agent memory systems"
+          ],
+          "fixable_flaws": [],
+          "decision": "reject",
+          "justification": "The idea lacks sufficient novelty as it appears to be a variation of existing memory-based agent improvement systems, particularly Reflexion (EV006) which already addresses using memory to help agents improve."
+        },
+        {
+          "reviewer": "Experimental Reviewer",
+          "score": 3,
+          "fatal_flaws": [
+            "Hypothesis is not clearly stated or falsifiable",
+            "Baselines are not defined for fair comparison",
+            "No mention of seeds for reproducibility",
+            "No information about compute requirements"
+          ],
+          "fixable_flaws": [
+            "Complete the hypothesis statement",
+            "Define appropriate baselines for comparison",
+            "Specify seeds and reproducibility measures",
+            "Provide compute requirements and resource estimates"
+          ],
+          "decision": "revise",
+          "justification": "The research idea lacks critical experimental details including a clear hypothesis, defined baselines, seeds, and compute requirements. These elements are essential for reproducible and rigorous scientific evaluation."
+        },
+        {
+          "reviewer": "Theory/Mechanism Reviewer",
+          "score": 6,
+          "fatal_flaws": [
+            "Lacks clear theoretical framework distinguishing from existing memory-based approaches",
+            "No specified dataset or baseline for evaluation"
+          ],
+          "fixable_flaws": [
+            "Needs to clarify novel aspects of failure memory compared to prior work",
+            "Should specify how traceability is measured and improved",
+            "Missing details on memory architecture and update mechanisms"
+          ],
+          "decision": "revise",
+          "justification": "The idea has potential but lacks theoretical clarity and experimental setup. Needs refinement to distinguish from existing work and provide proper evaluation framework."
+        },
+        {
+          "reviewer": "Reproducibility Reviewer",
+          "score": 3,
+          "fatal_flaws": [
+            "Dataset information not specified",
+            "No mention of fixed seeds for reproducibility",
+            "No computational documentation provided",
+            "No code availability mentioned"
+          ],
+          "fixable_flaws": [
+            "Need to specify dataset sources and preprocessing",
+            "Implement and document fixed random seeds",
+            "Provide compute requirements and environment setup",
+            "Release code repository with clear documentation"
+          ],
+          "decision": "reject",
+          "justification": "Lacks essential reproducibility components and has multiple fatal flaws from prior reviews."
+        }
+      ]
+    },
+    {
+      "idea_id": "ID005",
+      "average_score": 3.5,
+      "phase1_avg": 3.5,
+      "decision": "reject",
+      "next_action": "RUN_ADDITIONAL_SEARCH",
+      "fatal_flaws": [
+        "The idea focuses on a narrow functionality (venue-fit assessment) that could be integrated into existing agent frameworks rather than constituting a standalone research contribution.",
+        "No clear indication of how this module would differ from existing publication recommendation systems or venue analysis tools.",
+        "No explicit falsifiable hypothesis provided",
+        "Missing baseline comparisons for fair evaluation",
+        "No information on reproducibility measures (seeds, compute requirements)",
+        "No clearly articulated hypothesis or research question",
+        "No specified dataset or evaluation methodology",
+        "No clear baseline or comparison points defined",
+        "No detailed implementation plan or architecture described",
+        "No clear metrics for success defined",
+        "No public data availability mentioned",
+        "No fixed seeds specified for reproducibility",
+        "No compute documentation provided",
+        "No code repository linked",
+        "Hypothesis, dataset, and baseline sections are empty"
+      ],
+      "fixable_flaws": [
+        "Provide a more comprehensive system architecture showing how this module integrates with broader research workflows.",
+        "Demonstrate how this approach would significantly outperform existing venue recommendation methods.",
+        "Need to clarify the theoretical foundation and mechanism",
+        "Should provide more context on how this differs from related work",
+        "Missing details on experimental setup and evaluation metrics",
+        "The idea needs a more clearly articulated hypothesis",
+        "Dataset creation or identification needs to be specified",
+        "Baseline methods need to be defined",
+        "Expected contributions and novelty need clarification",
+        "Implementation details and architecture should be outlined",
+        "Could provide detailed methodology for reproducibility",
+        "Could release code and data upon publication"
+      ],
+      "revised_idea": null,
+      "reviewers": [
+        {
+          "reviewer": "Novelty Reviewer",
+          "score": 6,
+          "fatal_flaws": [
+            "The idea focuses on a narrow functionality (venue-fit assessment) that could be integrated into existing agent frameworks rather than constituting a standalone research contribution.",
+            "No clear indication of how this module would differ from existing publication recommendation systems or venue analysis tools."
+          ],
+          "fixable_flaws": [
+            "Provide a more comprehensive system architecture showing how this module integrates with broader research workflows.",
+            "Demonstrate how this approach would significantly outperform existing venue recommendation methods."
+          ],
+          "decision": "revise",
+          "justification": "The venue-fit assessment concept shows novelty in its specific focus but needs clearer differentiation from existing publication recommendation systems and a more comprehensive integration strategy."
+        },
+        {
+          "reviewer": "Experimental Reviewer",
+          "score": 2,
+          "fatal_flaws": [
+            "No explicit falsifiable hypothesis provided",
+            "Missing baseline comparisons for fair evaluation",
+            "No information on reproducibility measures (seeds, compute requirements)"
+          ],
+          "fixable_flaws": [
+            "Need to clarify the theoretical foundation and mechanism",
+            "Should provide more context on how this differs from related work",
+            "Missing details on experimental setup and evaluation metrics"
+          ],
+          "decision": "reject",
+          "justification": "The proposal lacks critical components including a falsifiable hypothesis, baseline comparisons, and reproducibility details. With 11 fatal flaws across prior reviews, the idea needs substantial revision before consideration."
+        },
+        {
+          "reviewer": "Theory/Mechanism Reviewer",
+          "score": 4,
+          "fatal_flaws": [
+            "No clearly articulated hypothesis or research question",
+            "No specified dataset or evaluation methodology",
+            "No clear baseline or comparison points defined",
+            "No detailed implementation plan or architecture described",
+            "No clear metrics for success defined"
+          ],
+          "fixable_flaws": [
+            "The idea needs a more clearly articulated hypothesis",
+            "Dataset creation or identification needs to be specified",
+            "Baseline methods need to be defined",
+            "Expected contributions and novelty need clarification",
+            "Implementation details and architecture should be outlined"
+          ],
+          "decision": "revise",
+          "justification": "The venue-fit assessment concept has theoretical merit but lacks essential methodological details and clear evaluation criteria. The proposal needs significant development to be implementable and testable."
+        },
+        {
+          "reviewer": "Reproducibility Reviewer",
+          "score": 2,
+          "fatal_flaws": [
+            "No public data availability mentioned",
+            "No fixed seeds specified for reproducibility",
+            "No compute documentation provided",
+            "No code repository linked",
+            "Hypothesis, dataset, and baseline sections are empty"
+          ],
+          "fixable_flaws": [
+            "Could provide detailed methodology for reproducibility",
+            "Could release code and data upon publication"
+          ],
+          "decision": "reject",
+          "justification": "The research lacks fundamental reproducibility components including data, code, and methodological details. Without these essential elements, the work cannot be properly evaluated or reproduced by the community."
+        }
+      ]
+    }
+  ],
+  "experiment_candidates": [],
+  "approval_status": {},
+  "micro_probe_results": [],
+  "probe_results": [],
+  "ablation_results": [],
+  "mvp_results": [],
+  "failed_ideas": [
+    {
+      "idea_id": "ID001",
+      "title": "Traceable Research Agent Framework with Auditable Chain",
+      "reason": "Reviewer Council rejected the idea."
+    },
+    {
+      "idea_id": "ID002",
+      "title": "Proactive Review Simulation System",
+      "reason": "Reviewer Council rejected the idea."
+    },
+    {
+      "idea_id": "ID003",
+      "title": "Integrated Experiment Planning Module",
+      "reason": "Reviewer Council rejected the idea."
+    },
+    {
+      "idea_id": "ID004",
+      "title": "Persistent Failure Memory System",
+      "reason": "Reviewer Council rejected the idea."
+    },
+    {
+      "idea_id": "ID005",
+      "title": "Venue-Fit Assessment Module",
+      "reason": "Reviewer Council rejected the idea."
+    }
+  ],
+  "validation_results": [],
+  "paper_readiness_level": "RRL-2",
+  "final_output_path": null,
+  "history": [
+    {
+      "at": "2026-06-02T11:17:09.104Z",
+      "state": "TOPIC_SCOPED",
+      "detail": "The topic can be explored with small simulations, synthetic data, or lightweight local experiments on the Mac."
+    },
+    {
+      "at": "2026-06-02T11:17:09.105Z",
+      "state": "SEARCH_PLAN_CREATED",
+      "detail": "15 queries created (LLM-generated)."
+    },
+    {
+      "at": "2026-06-02T11:17:11.551Z",
+      "state": "LITERATURE_DISCOVERY_RUNNING",
+      "detail": "Starting structured literature discovery."
+    },
+    {
+      "at": "2026-06-02T11:17:11.554Z",
+      "state": "EVIDENCE_LOCKED",
+      "detail": "10 papers found (target was 50+)."
+    },
+    {
+      "at": "2026-06-02T11:27:52.274Z",
+      "state": "PAPERS_PARSED",
+      "detail": "10 papers read (10 via full PDF)."
+    },
+    {
+      "at": "2026-06-02T11:27:52.274Z",
+      "state": "CLAIM_GRAPH_BUILT",
+      "detail": "10 evidence-linked claims created."
+    },
+    {
+      "at": "2026-06-02T11:28:47.204Z",
+      "state": "RESEARCH_MAP_READY",
+      "detail": "Research map generated."
+    },
+    {
+      "at": "2026-06-02T11:28:47.204Z",
+      "state": "GAPS_IDENTIFIED",
+      "detail": "5 gaps identified."
+    },
+    {
+      "at": "2026-06-02T11:28:48.767Z",
+      "state": "IDEA_TREE_GENERATED",
+      "detail": "Generating grounded ideas from method comparison matrix."
+    },
+    {
+      "at": "2026-06-02T11:29:57.673Z",
+      "state": "REVIEWER_PASS_1_RUNNING",
+      "detail": "Multi-turn adversarial Reviewer Council started."
+    },
+    {
+      "at": "2026-06-02T11:59:05.433Z",
+      "state": "IDEAS_REVISED_OR_REJECTED",
+      "detail": "5 ideas rejected; 0 candidates retained."
+    },
+    {
+      "at": "2026-06-02T11:59:05.433Z",
+      "state": "NOVELTY_TRIBUNAL_RUNNING",
+      "detail": "Near-duplicate comparison completed against evidence index and Semantic Scholar."
+    },
+    {
+      "at": "2026-06-02T11:59:05.433Z",
+      "state": "IDEAS_SHORTLISTED",
+      "detail": "0 ideas available for experiment planning (validated by real micro-probes)."
+    },
+    {
+      "at": "2026-06-02T11:59:05.433Z",
+      "state": "MICRO_PROBE_REVIEWED",
+      "detail": "0 ideas tested on Mac terminal. 0 show real signal."
+    }
+  ],
+  "discovery_errors": [],
+  "method_matrix": [
+    {
+      "evidence_id": "EV001",
+      "title": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery",
+      "year": 2024,
+      "method": "The AI Scientist generates novel research ideas, writes code, executes experiments, visualizes results, writes full scientific papers, and runs a simulated review process in an automated, iterative fashion.",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": "Papers exceeding acceptance threshold at a top machine learning conference",
+      "key_results": {
+        "paper_scores": "near-human performance",
+        "acceptance_threshold": "exceeded"
+      },
+      "limitations": [],
+      "code_available": true,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "low to moderate (cost < $15 per paper)"
+    },
+    {
+      "evidence_id": "EV002",
+      "title": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
+      "year": 2025,
+      "method": "Extends automated scientific discovery with stronger search and review-like iteration, motivating stricter gates for novelty, experiment quality, and paper readiness.",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV003",
+      "title": "Agent Laboratory: Using LLM Agents as Research Assistants",
+      "year": 2025,
+      "method": "Describes agentic research assistance across literature review, experimentation, and report writing, highlighting the need for human oversight and reproducibility controls.",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV004",
+      "title": "MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering",
+      "year": 2024,
+      "method": "Created a benchmark using Kaggle competitions to evaluate ML agents on real-world ML engineering tasks, using human baselines from Kaggle leaderboards and open-source agent scaffolds.",
+      "datasets_used": [
+        "Kaggle competitions"
+      ],
+      "baselines_compared": [
+        "Human baselines from Kaggle leaderboards"
+      ],
+      "best_result": "OpenAI's o1-preview with AIDE scaffolding achieved at least the level of a Kaggle bronze medal in 16.9% of competitions.",
+      "key_results": {
+        "bronze_medal_achievement": "16.9%"
+      },
+      "limitations": [
+        "Impact of contamination from pre-training"
+      ],
+      "code_available": true,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV005",
+      "title": "AIBuildAI-2: Scalable Agentic AI Research and Engineering",
+      "year": 2026,
+      "method": "AIBuildAI-2 is a knowledge-enhanced agent with an external, evolving knowledge system for automatically building AI models, featuring a hierarchical organization of curated AI development knowledge with dynamic context loading.",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": "70.7% medal rate on MLE-Bench",
+      "key_results": {
+        "MLE-Bench medal rate": "70.7%",
+        "heart disease prediction competition rank": "top 6.6% among 4,370 human-expert teams"
+      },
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": false,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV006",
+      "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+      "year": 2023,
+      "method": "Uses verbal feedback and memory to help agents improve across trials, motivating explicit failure memory and revision loops.",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV007",
+      "title": "Self-Refine: Iterative Refinement with Self-Feedback",
+      "year": 2023,
+      "method": "Studies iterative generation, feedback, and refinement, providing background for reviewer-style critique and revision policies.",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV008",
+      "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+      "year": 2023,
+      "method": "Demonstrates open-ended skill acquisition with memory and iterative exploration, relevant to long-running agent loops and durable lessons.",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV009",
+      "title": "AgentBench: Evaluating LLMs as Agents",
+      "year": 2023,
+      "method": "Introduces agent evaluation tasks and motivates structured benchmarks for agent behavior rather than isolated text quality.",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV010",
+      "title": "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
+      "year": 2024,
+      "method": "Shows how agents can operate computer interfaces to solve software tasks, relevant to local experiment execution and reproducible command logs.",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    }
+  ]
+}

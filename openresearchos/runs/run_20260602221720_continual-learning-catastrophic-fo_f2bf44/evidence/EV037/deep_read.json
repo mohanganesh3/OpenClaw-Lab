@@ -1,0 +1,37 @@
+{
+  "title": "pMixFed: Efficient Personalized Federated Learning through Adaptive Layer-Wise Mixup",
+  "code_repository": "https://github.com/YasMinSdt/pMixFed",
+  "research_domain": "Federated Learning",
+  "specialization": "Personalized Federated Learning (PFL)",
+  "key_challenges": [
+    "Data privacy",
+    "Catastrophic forgetting",
+    "Client drift problem",
+    "Non-IID (non-Independent and Identically Distributed) data"
+  ],
+  "related_methods": [
+    "FedAvg",
+    "Partial PFL (parameter decoupling)"
+  ],
+  "key_concepts": [
+    "Generalization vs. personalization trade-off",
+    "Layer-wise partitioning",
+    "Mixup technique"
+  ],
+  "problems_with_existing_approaches": [
+    "No 'one-size-fits-all' solution for model partitioning",
+    "Fixed partitioning strategy across all communication rounds can limit efficiency",
+    "Improper partitioning can lead to underfitting, overfitting, increased bias, and catastrophic forgetting"
+  ],
+  "evidence_id": "EV037",
+  "year": 2025,
+  "arxiv_id": "2501.11002",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7997,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

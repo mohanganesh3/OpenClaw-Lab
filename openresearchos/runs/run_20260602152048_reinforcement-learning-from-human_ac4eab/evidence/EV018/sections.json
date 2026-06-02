@@ -1,0 +1,6 @@
+{
+  "introduction": "[2404.02655] Calibrating the Confidence of Large Language Models by Eliciting Fidelity\n\nCalibrating the Confidence of Large Language Models by Eliciting Fidelity\n\nMozhi Zhang 1 ,\nMianqiu Huang 1 ,\nRun",
+  "method": ") acquire vast world knowledge and demonstrate powerful capabilities through pre-training  Brown et al. ( 2020 ); OpenAI ( 2023 ); Bubeck et al. ( 2023 ) . With technologies like RLHF  Ouyang et al. (",
+  "results": "mental data is derived from  GPT-3.5-Turbo .\n\nTo alleviate the issue of miscalibration, previous work focuses on two perspectives: the logit-based method and the verbalization-based method.\nLogit-base",
+  "conclusion": "oken log-probability, making it broadly applicable to various commercialized RLHF-LMs, which do not provide the per-token log-probability.\n\nTo have a closer look at the calibration of model confidence"
+}

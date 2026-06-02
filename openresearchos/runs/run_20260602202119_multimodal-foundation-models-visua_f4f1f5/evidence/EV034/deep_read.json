@@ -1,0 +1,41 @@
+{
+  "title": "UniVG-R1: Reasoning Guided Universal Visual Grounding with Reinforcement Learning",
+  "methodology": {
+    "approach": "Reinforcement Learning with GRPO training and cold-start initialization",
+    "base_models": [
+      "Qwen2-VL"
+    ],
+    "training_method": "GRPO training with cold-start initialization",
+    "reasoning_capability": "Incorporates explicit reasoning process during training"
+  },
+  "performance": {
+    "mig_bench": "9.1% improvement over previous methods",
+    "zero_shot_performance": "Average 23.4% improvement across four image and video reasoning grounding benchmarks"
+  },
+  "problem_addressed": "Conventional visual grounding struggles with implicit user instructions and complex visual contexts, particularly for multi-image scenarios",
+  "related_work": [
+    "RefCOCO",
+    "HiVG",
+    "LISA",
+    "LLMseg",
+    "Shikra",
+    "Griffon",
+    "Migician"
+  ],
+  "applications": [
+    "Visual grounding with complex instructions",
+    "Multi-image and video reasoning grounding",
+    "Universal visual grounding"
+  ],
+  "evidence_id": "EV034",
+  "year": 2025,
+  "arxiv_id": "2505.14231",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "title": "Towards Stable and Effective Reinforcement Learning for Mixture-of-Experts",
+  "problem": {
+    "main_challenge": "Applying RLVR to MoE models is highly challenging due to stability issues.",
+    "specific_difficulties": [
+      "Router fluctuation: The set of experts selected for the same input token varies significantly across policy updates.",
+      "Routing drift increases variance of importance sampling (IS) weights and can destabilize optimization or cause reward collapse.",
+      "Misalignment between token-level IS ratios (common in implementations) and sequence-level rewards (typical in RLVR) introduces additional variance."
+    ],
+    "failed_prior_approaches": [
+      "Freezing the router: This hampers model adaptability.",
+      "Routing replay: This restricts exploration and degrades performance."
+    ]
+  },
+  "proposed_method": {
+    "name": "Router-Shift Policy Optimization (RSPO)",
+    "description": "An RL algorithm specifically designed for MoE architectures to achieve stable and efficient training.",
+    "core_mechanism": "Introduces a 'router shift ratio' to softly rescale importance sampling (IS) weights, reducing gradient variance and mitigating divergence from router instability while preserving router adaptability.",
+    "key_components": [
+      "Router-aware rescaling strategy",
+      "Sequence-level aggregation of importance sampling ratios"
+    ]
+  },
+  "method_details": {
+    "router_shift_ratio": {
+      "definition": "Computed from router scores between the current and old policies.",
+      "purpose": "Quantifies the degree of routing deviation for each token and is used to adaptively reweight updates."
+    }
+  },
+  "evaluation": {
+    "models": [
+      "Qwen2.5 model",
+      "Qwen3-30B-A3B model"
+    ],
+    "tasks_and_benchmarks": [
+      "Countdown task",
+      "Multiple mathematical reasoning benchmarks"
+    ],
+    "outcome": "RSPO achieves more stable training and superior performance."
+  },
+  "key_contributions": [
+    "Proposal of RSPO, which combines a router-aware rescaling strategy with sequence-level aggregation of IS ratios to stabilize off-policy RL training for MoE models.",
+    "Introduction of a soft adjustment mechanism (router shift ratio) that quantifies routing deviation and adaptively reweights updates, limiting large updates while retaining router flexibility, unlike rigid control methods like router freezing or routing replay.",
+    "Demonstration of RSPO's stability and effectiveness on the countdown task and multiple mathematical reasoning benchmarks, highlighting the importance of router-aware strategies and sequence-level importance weighting in RL for MoE models."
+  ],
+  "evidence_id": "EV002",
+  "year": 2025,
+  "arxiv_id": "2510.23027",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

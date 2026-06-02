@@ -1,0 +1,76 @@
+{
+  "paper_title": "Worse than Random? An Embarrassingly Simple Probing Evaluation of Large Multimodal Models in Medical VQA",
+  "github_repository": "https://github.com/eric-ai-lab/ProbMed",
+  "methodology": {
+    "evaluation_approach": "Simple probing evaluation method with hallucination pairs",
+    "adversarial_testing": "Binary questions with adversarial pairs",
+    "dataset": {
+      "name": "ProbMed",
+      "source_datasets": [
+        "MedICaT",
+        "ChestX-ray14"
+      ],
+      "source_citations": [
+        "Subramanian et al., 2020",
+        "Wang et al., 2017"
+      ],
+      "number_of_images": 6303,
+      "modalities": [
+        "X-ray",
+        "MRI",
+        "CT scans"
+      ],
+      "organs_covered": [
+        "abdomen",
+        "brain",
+        "chest",
+        "spine"
+      ],
+      "number_of_qa_pairs": 57132,
+      "dimensions": [
+        "modality recognition",
+        "organ identification",
+        "abnormalities",
+        "clinical findings",
+        "positional reasoning"
+      ],
+      "metadata_generation": {
+        "tools": [
+          "GPT-4",
+          "positional reasoning module"
+        ],
+        "extracted_information": [
+          "abnormalities",
+          "condition names",
+          "locations"
+        ]
+      }
+    }
+  },
+  "results": {
+    "key_finding": "LMMs show significant vulnerability when faced with adversarial questioning",
+    "performance_drop": "Average decrease of 42% across tested models",
+    "specific_models_affected": [
+      "GPT-4V",
+      "Gemini Pro"
+    ],
+    "performance_comparison": "Advanced models performed worse than random guessing with adversarial pairs",
+    "evaluation_insight": "Models may appear accurate on standard evaluation but fail on adversarial evaluation"
+  },
+  "figures": {
+    "figure_1": "Accuracy of four LMMs on specialized medical diagnosis questions with and without adversarial pairs",
+    "figure_2": "Example illustrating potential for misleading accuracy in existing evaluations"
+  },
+  "evidence_id": "EV004",
+  "title": "Worse than Random? An Embarrassingly Simple Probing Evaluation of Large Multimodal Models in Medical VQA",
+  "year": 2024,
+  "arxiv_id": "2405.20421",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

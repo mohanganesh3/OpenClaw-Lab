@@ -1,0 +1,6 @@
+{
+  "introduction": "[2508.06024] EC2MoE: Adaptive End-Cloud Pipeline Collaboration Enabling Scalable Mixture-of-Experts Inference\n\nEC  2  MoE : Adaptive End-Cloud Pipeline Collaboration Enabling Scalable Mixture-of-Exper",
+  "method": "3 ) , driven by the rapid advancement of AI applications in areas such as natural language understanding, computer vision, and multi-modal reasoning  (Liang et al.  2024 ) . To meet this demand, resea",
+  "results": "o underutilization of local resources  (Deshpande et al.  2024 ) . Moreover, cloud-only execution becomes highly sensitive to network fluctuations  (Yu et al.  2024 ) , making it difficult to guarante",
+  "conclusion": "put by 2.2\n\n×  \\times\n\nto 5.1\n\n×  \\times\n\nand reduce end-to-end latency by 53% to 67%, and without sacrificing accuracy.\n\nRelated Works\n\nCloud-based MoE inference optimization\n\nCloud-based MoE inferen"
+}

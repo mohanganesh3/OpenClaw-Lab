@@ -1,0 +1,28 @@
+{
+  "method_summary": "This paper presents a survey and framework for AutoResearch, analyzing the spectrum of AI-powered scientific workflow automation from human-steered 'Vibe Research' to fully autonomous AI-led systems.",
+  "key_innovation": "The introduction of the 'AutoResearch' framework, which organizes the field around five workflow conditions and proposes five evaluation dimensions (novelty, validity, impact, reliability, provenance) to assess AI research systems.",
+  "datasets_used": [],
+  "baselines_compared": [],
+  "key_results": {},
+  "best_result": "",
+  "limitations_stated": [
+    "AutoResearch autonomy is domain-conditioned, being more credible in structured, executable, and rapidly verifiable settings but limited in embodied, delayed, heterogeneous, ethical, or institutionally accountable contexts."
+  ],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "low",
+  "compute_required": "N/A",
+  "can_run_on_macbook": false,
+  "evidence_id": "EV028",
+  "title": "AutoResearch AI: Towards AI-Powered Research Automation for Scientific Discovery",
+  "year": 2026,
+  "arxiv_id": "2605.23204",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 6102,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

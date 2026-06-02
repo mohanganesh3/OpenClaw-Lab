@@ -1,0 +1,36 @@
+{
+  "title": "Exploiting the Intrinsic Neighborhood Structure for Source-free Domain Adaptation",
+  "authors": "Not specified in the provided text",
+  "abstract": "This paper addresses source-free domain adaptation (SFDA), focusing on closed-set scenarios where source and target domains have the same categories. The authors observe that existing methods ignore the intrinsic neighborhood structure of target data in feature space, which can be valuable for SFDA. They propose a method that distinguishes between reciprocal and non-reciprocal neighbors, leveraging the finding that reciprocal neighbors are more trustworthy. The adaptation is achieved by pushing features towards reciprocal neighbors heavily.",
+  "methodology": {
+    "focus": "Closed-set source-free domain adaptation",
+    "key_insight": "Target data of the same class forms clusters in the embedding space even after domain shift",
+    "approach": "Exploiting the intrinsic neighborhood structure of target data",
+    "technique": "Distinguishing between reciprocal and non-reciprocal neighbors",
+    "adaptation_method": "Pushing features towards reciprocal neighbors heavily"
+  },
+  "results": {
+    "observation": "Approximately 75% of nearest neighbors have the correct label",
+    "finding": "Reciprocal neighbors are more trustworthy than non-reciprocal nearest neighbors",
+    "visualization": "t-SNE visualization shows significant cluster structure is preserved in target features"
+  },
+  "related_works": [
+    "USFDA - addresses universal domain adaptation",
+    "SF - addresses open-set domain adaptation",
+    "SHOT - for closed-set domain adaptation based on mutual information maximization and pseudo labeling",
+    "3C-GAN - for closed-set domain adaptation based on target-style image generation with a conditional GAN",
+    "BAIT - extends MCD to the SFDA setting"
+  ],
+  "github_repository": "https://github.com/Albert0147/SFDA_neighbors",
+  "evidence_id": "EV037",
+  "year": 2021,
+  "arxiv_id": "2110.04202",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "paper_title": "PhaseNAS: Language-Model Driven Architecture Search with Dynamic Phase Adaptation",
+  "problem_statement": "Current LLM-based neural architecture search methods use static configurations throughout the search process, leading to resource inefficiency and poor performance in complex tasks.",
+  "key_limitations": [
+    "Resource Mismatch in Search Phases: Fixed LLM configurations regardless of search phase requirements",
+    "Static Resource Allocation: Lack of adaptive mechanisms to match computational resources to search phase complexity",
+    "Ambiguous Architecture Representation: Rigid or specially-tokenized architecture descriptions causing comprehension challenges for LLMs"
+  ],
+  "proposed_solution": {
+    "name": "PhaseNAS",
+    "description": "A dynamic, LLM-based neural architecture search framework with phase-aware resource allocation",
+    "approach": "Two-phase approach: initial broad exploration followed by refinement phase",
+    "phase_transition": "Guided by real-time score thresholds"
+  },
+  "application_domains": [
+    "Lightweight classification tasks",
+    "Complex perception tasks (object detection) in unmanned systems"
+  ],
+  "baseline": "YOLOv8",
+  "key_contributions": [
+    {
+      "name": "Phase-Aware Dynamic Search",
+      "description": "Introduces a phase-aware controller that adaptively alternates between broad exploration and focused refinement, guided by the distribution of top-performing architectures"
+    },
+    {
+      "name": "Unified Architecture Template Language",
+      "description": "Proposes a structured, parameterized template language to bridge natural language prompts with executable network components"
+    }
+  ],
+  "evidence_id": "EV001",
+  "title": "PhaseNAS: Language-Model Driven Architecture Search with Dynamic Phase Adaptation",
+  "year": 2025,
+  "arxiv_id": "2507.20592",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

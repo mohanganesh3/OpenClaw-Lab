@@ -1,0 +1,6 @@
+{
+  "introduction": "[2504.06020] Information-Theoretic Reward Decomposition for Generalizable RLHF\n\nInformation-Theoretic Reward Decomposition for Generalizable RLHF\n\nLiyuan Mao\n\nHaoran Xu\n\nAmy Zhang\n\nWeinan Zhang\n\nChenj",
+  "method": "ailure case where the reward gap overly depends on the responses. Solid lines represent corresponding prompt-response pairs (used in training), while dashed lines represent non-corresponding pairs (un",
+  "results": "the reward model only takes the responses as the input. For the reward model that separately calculates rewards for chosen and rejected prompt-response pairs, the situation becomes similar as the inpu",
+  "conclusion": "evaluations based on commonly used datasets and base models.\nIn toy examples, the extracted prompt-free and prompt-related reward gaps characterize the reward model’s preference bias about response-on"
+}

@@ -1,0 +1,6 @@
+{
+  "introduction": "[2106.02229] Differentiable Architecture Search for Reinforcement Learning\n\nDifferentiable Architecture Search for\n\nReinforcement Learning\n\nYingjie Miao  ∗\n\nXingyou Song  ∗\n\nJohn D. Co-Reyes\n\nDaiyi Pe",
+  "method": ".,,  2020 )  constantly proposed at a rapid speed. From a broader perspective, one may wonder how far we may push the limits of differentiable search, as differentiability is the cornerstone of all de",
+  "results": ", in robotics subfields such as grasping  (Kalashnikov et al.,,  2018 ; Rao et al.,,  2020 ) , cameras collect very detailed real-world images (ex: 472 x 472, 4x larger than ImageNet  (Russakovsky et ",
+  "conclusion": "ntitatively that discretized cells gradually evolve to better architectures. However, we also demonstrate how this can fail, especially if the corresponding supernet fails to train, with further exten"
+}

@@ -1,0 +1,41 @@
+{
+  "paper_title": "MoDA: Modulation Adapter for Fine-Grained Visual Grounding in Instructional MLLMs",
+  "method": {
+    "name": "Modulation Adapter (MoDA)",
+    "description": "A lightweight, plug-and-play module that modulates visual embeddings via cross-attention using language tokens as guidance",
+    "key_features": [
+      "Enables selective, task-driven attention",
+      "Does not modify the underlying architecture",
+      "Does not require additional supervision",
+      "Improves alignment between vision and language representations"
+    ],
+    "context": "Part of Multimodal Large Language Models (MLLMs) that integrate pretrained visual encoders with large language models via lightweight adapter modules"
+  },
+  "problem_addressed": {
+    "main_issue": "State-of-the-art MLLMs struggle with fine-grained visual grounding, leading to hallucinations in scenes requiring detailed reasoning over visual inputs",
+    "definition_of_hallucinations": "Model outputs that are inconsistent with the actual image semantics",
+    "identified_bottleneck": "CLIP-based visual encoder, commonly employed in MLLM, due to its patch-based representations that fail to capture localized details"
+  },
+  "results_example": {
+    "illustration": "A 3×3 grid simulating CLIP's visual tokenization over a sleeping French bulldog clutching a plush toy",
+    "findings": [
+      "None of the patches contain uniform and unique visual elements",
+      "Patch 5 contains the dog's torso together with part of the stuffed toy and the cushioned bed",
+      "Patch 6 covers the dog's head and ear resting on the hardwood floor",
+      "Multiple semantic elements are embedded into a single high-dimensional representation",
+      "When tokens blend unrelated concepts, it becomes harder for attention mechanisms to disentangle them"
+    ]
+  },
+  "evidence_id": "EV018",
+  "title": "MoDA: Modulation Adapter for Fine-Grained Visual Grounding in Instructional MLLMs",
+  "year": 2025,
+  "arxiv_id": "2506.01850",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

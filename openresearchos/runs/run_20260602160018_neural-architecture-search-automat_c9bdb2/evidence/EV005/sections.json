@@ -1,0 +1,6 @@
+{
+  "introduction": "[2109.04925] Rapid Model Architecture Adaption for Meta-Learning\n\nRapid Model Architecture Adaption for Meta-Learning\n\nYiren Zhao\n\nUniversity of Cambridge\n\nyaz21@cam.ac.uk\n\n&amp;Xitong Gao\n\nShenzhen I",
+  "method": "and Le,  2016 ; Liu et al.,  2018 ) , language  (Guo et al.,  2019 ; So et al.,  2019 )  and graph data  (Zhao et al.,  2020 ) .\nThe automation not only reduces the human effort required for architect",
+  "results": ".,  2017 ) .\nMAML then becomes a powerful and elegant approach for few-shot learning – its ability to quickly adapt to new tasks can potentially shrink the\n\n𝒪  ​\n\n(\n\nT  ​  H  ​  C\n\n)\n\n𝒪\n\n𝑇  𝐻  𝐶\n",
+  "conclusion": "lso present a novel layer-wise profiling strategy to allow reuse of profiling information across different tasks.\n\nIn this paper, we make the following contributions:\n\n•\n\nWe propose a novel Hardware-a"
+}

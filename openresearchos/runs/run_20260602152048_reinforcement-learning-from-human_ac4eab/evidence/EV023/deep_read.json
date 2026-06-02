@@ -1,0 +1,36 @@
+{
+  "method_summary": "Introduces character distribution signatures for AI text detection, creating a 'Wall of Separation' between human and AI text based on domain-specialized vs. global character patterns. Introduces the Letter Distribution Score (LD-Score) with low correlation to perplexity methods.",
+  "key_innovation": "MDTA benchmark (Models-Domains-Temperatures-Adversarials) comprising 642,274 prompt-aligned samples across 4 models, 5 domains, 3 temperature settings, and 3 adversarial strategies.",
+  "datasets_used": [
+    "MDTA benchmark",
+    "HC3 dataset"
+  ],
+  "baselines_compared": [
+    "DNA-DetectLLM",
+    "Binoculars",
+    "FastDetectGPT"
+  ],
+  "key_results": {
+    "correlation_with_perplexity": "r = 0.08-0.13",
+    "improvement_metrics": "consistent improvements in AUROC and F1 when integrated with DNA-DetectLLM, Binoculars and FastDetectGPT"
+  },
+  "best_result": "Consistent improvements in AUROC and F1, particularly pronounced gains in specialized domains",
+  "limitations_stated": [],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "unknown",
+  "compute_required": "unknown",
+  "can_run_on_macbook": false,
+  "evidence_id": "EV023",
+  "title": "Beyond Perplexity: Character Distribution Signatures and the MDTA Benchmark for AI Text Detection",
+  "year": 2026,
+  "arxiv_id": "2605.01647",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 5617,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

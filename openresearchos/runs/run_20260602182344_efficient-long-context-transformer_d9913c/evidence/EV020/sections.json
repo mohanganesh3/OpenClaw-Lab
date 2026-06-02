@@ -1,0 +1,6 @@
+{
+  "introduction": "[2506.11892] Attention-based Adversarial Robust Distillation in Radio Signal Classifications for Low-Power IoT Devices\n\nAttention-based Adversarial Robust Distillation in Radio Signal Classifications ",
+  "method": "utperforms the state-of-the-art techniques for the considered white-box scenarios including fast gradient method and projected gradient descent attacks. We have provided reasoning of the underlying wo",
+  "results": "8  ,\n\n9  ,\n\n10  ,\n\n11  ] . These existing feature-based methods are easy to implement in practice, however, hand-crafted features and hard-coding criteria for AMC make scaling to new modulation types ",
+  "conclusion": "examples using fast gradient methods (FGM) have been shown to reduce the classification accuracy in AMC  [  30  ,\n\n31  ] . Recently, we have shown a transformer-based AMC is also vulnerable to adversa"
+}

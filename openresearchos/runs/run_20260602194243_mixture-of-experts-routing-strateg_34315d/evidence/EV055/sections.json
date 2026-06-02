@@ -1,0 +1,6 @@
+{
+  "introduction": "[2504.09265] Mixture of Group Experts for Learning Invariant Representations\n\nMixture of Group Experts for Learning Invariant Representations\n\nLei Kang\n\nBeijing Normal University  Beijing  China\n\nleik",
+  "method": "mentary material and will be publicly released.\n\nMixture-of-Experts, Group Sparsity, Invariant Representations\n\n†\n\n†  copyright:  acmlicensed\n\n†\n\n†  journalyear:  2025\n\n†\n\n†  doi:  XXXXXXX.XXXXXXX\n\n†\n",
+  "results": "ch element in the input of top-2 routing is independent and considered part of a single group. In contrast, MoGE introduces a grouping mechanism that partitions the input of top-2 routing into two gro",
+  "conclusion": "with top-\n\nk  k\n\nrouting, the routing output can be viewed as the sparse code, while the output of each expert corresponds to a column in the dictionary. This perspective enables the application of th"
+}

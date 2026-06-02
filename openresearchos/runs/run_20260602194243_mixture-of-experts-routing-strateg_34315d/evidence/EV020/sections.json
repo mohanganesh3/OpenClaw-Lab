@@ -1,0 +1,6 @@
+{
+  "introduction": "[2312.09925] CNC-Net: Self-Supervised Learning for CNC Machining Operations\n\nCNC-Net: Self-Supervised Learning for CNC Machining Operations\n\nMohsen Yavartanoo  1\n\nSangmin Hong  2\n\n†\n\n†  footnotemark:\n",
+  "method": "rical Control (CNC) machining, a pivotal pillar of modern manufacturing.\nCNC machines have revolutionized manufacturing by producing complex products with better precision, efficiency, and robustness ",
+  "results": "objects without relying on the GT labels ( i.e .  , a set of sequential operations).\nCNC-Net is structured to incrementally learn the production of target 3D shapes, thereby determining the subsequent",
+  "conclusion": "rform SOTA methods in terms of 3D reconstruction performance based on volume-based metrics.\n\n(a)\n\nTarget Shape.\n\n(b)\n\nInput Material.\n\n(c)\n\nTool.\n\n(d)\n\nPath.\n\n(e)\n\nMilling.\n\n(f)\n\nDrilling.\n\n(g)\n\nRotat"
+}

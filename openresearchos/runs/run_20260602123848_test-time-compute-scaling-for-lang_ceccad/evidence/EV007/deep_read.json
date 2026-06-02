@@ -1,0 +1,48 @@
+{
+  "paper_title": "GenEdit: Compounding Operators and Continuous Improvement to Tackle Text-to-SQL in the Enterprise",
+  "main_problem": "Deploying Text-to-SQL solutions in enterprise settings faces challenges including understanding external knowledge (company-specific terminology), handling large query complexity, and systematic improvement over time",
+  "proposed_solution": "GenEdit system with three main components: 1) Knowledge set containing natural language-SQL pairs, instructions, and schemas; 2) Multi-operator pipeline using LLM calls to decompose problems; 3) Continuous improvement through user feedback",
+  "key_features": [
+    "Interactive copilot for user feedback iteration",
+    "Staged edits that update generation prompts",
+    "Feedback merging after regression testing and approval",
+    "Edits recommendation module for subject matter experts"
+  ],
+  "technical_approach": {
+    "core_technology": "Large Language Models (LLMs)",
+    "learning_methods": [
+      "In-context learning (ICL)",
+      "Fine-tuning"
+    ],
+    "architecture": "Multi-operator pipeline to reduce LLM reasoning complexity"
+  },
+  "example_query": {
+    "description": "Identify sports organizations with best/worst quarter-over-quarter financial performance in Canada for Q2 2023",
+    "challenge": "Requires understanding company-specific acronym 'QoQFP'"
+  },
+  "related_work": {
+    "cited_approaches": [
+      "DBLP:conf/nips/PourrezaR23",
+      "DBLP:journals/corr/abs-2310-17342",
+      "DBLP:journals/pvldb/GaoWLSQDZ24",
+      "10.1145/3654930",
+      "DBLP:journals/corr/abs-2408-07702/death-schema",
+      "DBLP:journals/corr/abs-2406-08426/nextgen-db-interfaces-survey",
+      "li2023llm",
+      "yu2019spider"
+    ],
+    "benchmark_limitations": "Current popular public benchmarks don't match enterprise query complexity"
+  },
+  "evidence_id": "EV007",
+  "title": "GenEdit: Compounding Operators and Continuous Improvement to Tackle Text-to-SQL in the Enterprise",
+  "year": 2025,
+  "arxiv_id": "2503.21602",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

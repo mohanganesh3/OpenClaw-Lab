@@ -1,0 +1,6 @@
+{
+  "introduction": "[2507.15507] Off-Policy Corrected Reward Modeling for Reinforcement Learning from Human Feedback\n\nOff-Policy Corrected Reward Modeling\n\nfor Reinforcement Learning from Human Feedback\n\nJohannes Ackerma",
+  "method": "hus Reinforcement Learning from Human Feedback (RLHF)  (Christiano et al.,  2017 )  has become an important tool to align pre-trained language models (LMs) with human preferences.\nGiven a pretrained L",
+  "results": ".\nWe propose a method that corrects for this distribution shift by using importance weighting (IW)  (Shimodaira,  2000 ) , called Off-Policy Corrected Reward Modeling (OCRM).\nWhile using the resulting",
+  "conclusion": "ning data standard RLHF may not converge to an optimal policy.\nSecondly, we propose to address this issue by using IW, giving us a consistent estimate of the RM parameters, and provide an estimation e"
+}

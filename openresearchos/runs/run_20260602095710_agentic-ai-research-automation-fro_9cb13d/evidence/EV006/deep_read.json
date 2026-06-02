@@ -1,0 +1,28 @@
+{
+  "method_summary": "The paper presents a socio-technical analysis of agentic AI using the MAD-BAD-SAD construct as an analytical lens, examining how architectural choices in perception, cognition, planning, execution, and memory introduce dependencies related to data governance, accountability, transparency, safety, and sustainability.",
+  "key_innovation": "The adoption of the MAD-BAD-SAD construct (Motivations, Applications, and Moral dilemmas; Biases, Accountability, and Dangers; and Societal impact, Adoption, and Design considerations) as an analytical framework for examining agentic AI systems.",
+  "datasets_used": [],
+  "baselines_compared": [],
+  "key_results": {},
+  "best_result": "Not applicable",
+  "limitations_stated": [
+    "Societal, ethical, economic, environmental, and governance implications of agentic AI remain weakly integrated into technical treatments"
+  ],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "low",
+  "compute_required": "Not applicable",
+  "can_run_on_macbook": false,
+  "evidence_id": "EV006",
+  "title": "Socio-technical aspects of Agentic AI",
+  "year": 2025,
+  "arxiv_id": "2601.06064",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

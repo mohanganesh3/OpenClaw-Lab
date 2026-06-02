@@ -1,0 +1,6 @@
+{
+  "introduction": "[2507.04453] ESSA: Evolutionary Strategies for Scalable Alignment\n\n\\newunicodechar\n\n♢ \\textdiamondsuit\n\nESSA: Evolutionary Strategies for Scalable Alignment\n\nDaria Korotyshova\n\n&amp;Boris Shaposhnikov",
+  "method": "Introduction\n\nLarge Language Models (LLMs) have achieved impressive capabilities across a range of tasks, from conversation and summarization to mathematical reasoning and programming. However, these ",
+  "results": "abaszcz et al.,,  2018 ) . This property is particularly relevant for LLM alignment, where training typically starts from a well-performing supervised fine-tuned (SFT) model. Given these promising fea",
+  "conclusion": "oning tasks  (Ahmadian et al.,,  2024 ) .\n\nParameter-efficient training of LLMs\n\nTo reduce the cost of fine-tuning large models, parameter-efficient methods have been introduced such as adapters  (Hou"
+}

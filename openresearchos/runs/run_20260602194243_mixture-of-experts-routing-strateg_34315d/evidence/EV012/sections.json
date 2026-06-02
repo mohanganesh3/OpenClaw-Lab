@@ -1,0 +1,6 @@
+{
+  "introduction": "[2501.12281] MoGERNN: An Inductive Traffic Predictor for Unobserved Locations in Dynamic Sensing Networks\n\nMoGERNN: An Inductive Traffic Predictor for Unobserved Locations in Dynamic Sensing Networks\n",
+  "method": "congestion evolution even in areas without sensors, offering valuable information for traffic management. Moreover, MoGERNN is adaptable to dynamic sensing networks, maintaining competitive performanc",
+  "results": "raordinary performance  (Shaygan et al.,  2022 ; Yin et al.,  2022 ) . Despite the success of deep learning made in traffic prediction, two critical issues have received limited attention. First, pred",
+  "conclusion": "odes in the graph, while the spatial relationship of sensors is modeled as the edges in the graph. For one thing, the mechanism of message passing between nodes in GNNs enables inferring the state of "
+}

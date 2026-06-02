@@ -1,0 +1,50 @@
+{
+  "title": "Codiscovering graphical structure and functional relationships within data: A Gaussian Process framework for connecting the dots",
+  "methodology": {
+    "framework": "Interpretable Gaussian Process (GP) framework",
+    "problem_type": "Type 3 problems (Hypergraph Discovery)",
+    "approach": "Kernel generalization of Row Echelon Form reduction and variance-based analysis",
+    "key_technique": "Variables linked via GPs, with highest data variance variables revealing hypergraph structure"
+  },
+  "applications": [
+    "Algebraic equation discovery",
+    "Network discovery (gene pathways, chemical, and mechanical)",
+    "Raw data analysis"
+  ],
+  "problem_types": {
+    "Type_1": {
+      "name": "Regression",
+      "description": "Approximate an unknown function given (possibly noisy) input/output data"
+    },
+    "Type_2": {
+      "name": "Hypergraph Completion",
+      "description": "Approximate all unobserved variables and unknown functions in a hypergraph with known structure"
+    },
+    "Type_3": {
+      "name": "Hypergraph Discovery",
+      "description": "Discover the hypergraph structure itself and then approximate its unknown functions and unobserved variables"
+    }
+  },
+  "key_contributions": [
+    "Framework for Type 3 problems that doesn't require assumptions of randomized data or access to data generation process",
+    "Approach that encodes different information into structure compared to causal inference methods"
+  ],
+  "related_fields": [
+    "Computational Sciences and Engineering (CSE)",
+    "Scientific Machine Learning (SciML)",
+    "Causal inference",
+    "Probabilistic graphs",
+    "Sparse regression"
+  ],
+  "evidence_id": "EV031",
+  "year": 2023,
+  "arxiv_id": "2311.17007",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

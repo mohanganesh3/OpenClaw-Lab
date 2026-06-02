@@ -1,0 +1,6 @@
+{
+  "introduction": "[2602.00425] Segment-Level Attribution for Selective Learning of Long Reasoning Traces\n\nSegment-Level Attribution for Selective Learning of Long Reasoning Traces\n\nSiyuan Wang, Yanchen Liu, Xiang Ren\n ",
+  "method": "g by increasing computation during inference to produce extended chains of thought (CoT)  (Wei  et al. ,  2022 )  that include detailed problem understanding, step-by-step solution processes, and comp",
+  "results": "rect and incorrect CoTs, with segment ordered in descending strength.\n\nPrior studies have explored various strategies to identify important parts in long reasoning chains to construct compressed CoT s",
+  "conclusion": "alues within each segment with length normalization.\n(2)  Attribution direction consistency  is defined as the ratio between the absolute sum of signed IG attributions and the sum of absolute IG attri"
+}

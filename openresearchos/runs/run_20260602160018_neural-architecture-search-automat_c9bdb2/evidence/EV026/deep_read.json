@@ -1,0 +1,128 @@
+{
+  "paper_title": "Hit-Detector: Hierarchical Trinity Architecture Search for Object Detection",
+  "task": "Object Detection",
+  "domain": "Deep Learning, Neural Architecture Search",
+  "challenge": "Object detection requires determining both what and where objects are, making it more challenging than image classification",
+  "key_components": [
+    {
+      "name": "Backbone",
+      "description": "Extracts semantic features",
+      "examples": [
+        "ResNet-50",
+        "ResNeXt-101"
+      ]
+    },
+    {
+      "name": "Neck",
+      "description": "Fuses multi-level features",
+      "examples": [
+        "Feature Pyramid Networks (FPN)"
+      ]
+    },
+    {
+      "name": "RPN",
+      "description": "Generates proposals (in two-stage detectors)"
+    },
+    {
+      "name": "Head",
+      "description": "Object classification and bounding box regression"
+    }
+  ],
+  "comparison_methods": [
+    {
+      "name": "FPN baseline",
+      "backbone": "ResNet-50",
+      "neck": "FPN",
+      "head": "2fc",
+      "mAP": 36.2,
+      "parameters_M": {
+        "backbone": 23.5,
+        "neck": 3.3,
+        "head": 14.3,
+        "total": 41.1
+      }
+    },
+    {
+      "name": "NAS-FPN",
+      "backbone": "ResNet-50",
+      "neck": "NAS-FPN",
+      "head": "2fc",
+      "mAP": 38.9,
+      "parameters_M": {
+        "backbone": 23.5,
+        "neck": 30.4,
+        "head": 14.3,
+        "total": 68.2
+      }
+    },
+    {
+      "name": "Backbone baseline",
+      "backbone": "ResNet-50",
+      "neck": "FPN",
+      "head": "4c1fc",
+      "mAP": 36.8,
+      "parameters_M": {
+        "backbone": 23.5,
+        "neck": 3.3,
+        "head": 15.6,
+        "total": 42.4
+      }
+    },
+    {
+      "name": "DetNAS",
+      "backbone": "DetNet",
+      "neck": "FPN",
+      "head": "4c1fc",
+      "mAP": 40.2,
+      "parameters_M": {
+        "backbone": 9.4,
+        "neck": 2.8,
+        "head": 15.6,
+        "total": 27.8
+      }
+    },
+    {
+      "name": "NAS-FPN + DetNAS",
+      "backbone": "DetNet",
+      "neck": "NAS-FPN",
+      "head": "4c1fc",
+      "mAP": 39.4,
+      "parameters_M": {
+        "backbone": 9.4,
+        "neck": 29.7,
+        "head": 15.6,
+        "total": 54.7
+      }
+    },
+    {
+      "name": "Hit-Detector",
+      "backbone": "Ours",
+      "neck": "Ours",
+      "head": "Ours",
+      "mAP": 41.4,
+      "parameters_M": {
+        "backbone": 13.9,
+        "neck": 2.7,
+        "head": 9.9,
+        "total": 26.5
+      }
+    }
+  ],
+  "key_contributions": [
+    "Proposes a hierarchical trinity architecture search approach",
+    "Simultaneously searches all components of the detector (backbone, neck, and head)",
+    "Achieves better performance than individual component searches"
+  ],
+  "evidence_id": "EV026",
+  "title": "Hit-Detector: Hierarchical Trinity Architecture Search for Object Detection",
+  "year": 2020,
+  "arxiv_id": "2003.11818",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7997,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

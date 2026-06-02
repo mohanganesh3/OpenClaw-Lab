@@ -1,0 +1,35 @@
+{
+  "title": "Optimizing the Neural Architecture of Reinforcement Learning Agents",
+  "methodology": {
+    "focus": "Automating the ways to find the optimal architecture for specific tasks",
+    "approach": "Exploring deep RL as a new application of Neural Architecture Search (NAS)",
+    "specific_methods": [
+      "ENAS",
+      "SPOS"
+    ],
+    "motivation": [
+      "Automatically finding suitable networks for each environment in benchmarks like ATARI and MuJoCo",
+      "Using NAS for more complicated environments with larger state and action spaces"
+    ],
+    "constraints": "Limiting to fast one-shot methods that perform architecture search in time not significantly larger than training a single neural network"
+  },
+  "results": {
+    "key_finding": "Modern one-shot NAS methods can be successfully applied for optimizing neural architecture of RL agents",
+    "code_availability": "https://github.com/NinaMaz/NAS˙RL˙torch"
+  },
+  "related_work": {
+    "early_approaches": "Black-box optimization methods including evolutionary optimization and Bayesian optimization",
+    "later_approaches": "One-shot NAS methods that utilize the structure of a neural network"
+  },
+  "evidence_id": "EV053",
+  "year": 2020,
+  "arxiv_id": "2011.14632",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "title": "Snap, Segment, Deploy: A Visual Data and Detection Pipeline for Wearable Industrial Assistants",
+  "problem_statement": "Manufacturing assembly tasks are increasingly complex, leading to steep learning curves for new workers, extended training periods, and higher error rates. Existing assistance solutions are often underexplored for on-device industrial use, relying on cloud infrastructure, requiring manual annotation, or failing under practical constraints like limited compute, offline usage, and strict data privacy.",
+  "proposed_solution": "A mobile-device-based, real-time, multimodal industrial assistance system that provides context-aware guidance during assembly tasks using a three-stage pipeline.",
+  "methodology": {
+    "pipeline_name": "Snap, Segment, Deploy",
+    "pipeline_stages": [
+      {
+        "name": "Snap",
+        "description": "Collects multi-angle part videos and real-world background images from industrial environments."
+      },
+      {
+        "name": "Segment",
+        "description": "Extracts instance masks using SAM2 and generates a synthetic dataset (Gear8) by compositing parts into factory scenes."
+      },
+      {
+        "name": "Deploy",
+        "description": "Integrates a lightweight object detector into a wearable assistant system featuring speech input, visual recognition, knowledge retrieval, and audio feedback."
+      }
+    ],
+    "key_techniques": [
+      "SAM2 for instance segmentation",
+      "Background-Agnostic Refinement (BAR) for two-stage training",
+      "Retrieval-Augmented Generation (RAG) engine"
+    ]
+  },
+  "data": {
+    "primary_dataset": "Gear8",
+    "dataset_type": "Synthetic",
+    "data_collection_method": "Multi-angle part videos and real-world background images are composited to create training data."
+  },
+  "system_architecture": {
+    "platform": "On-device / Mobile / Wearable",
+    "modules": [
+      {
+        "name": "Lightweight Object Detector",
+        "function": "For real-time part identification."
+      },
+      {
+        "name": "Speech-to-Text Interface",
+        "function": "For natural language input."
+      },
+      {
+        "name": "Retrieval-Augmented Generation (RAG) Engine",
+        "function": "Generates part-specific responses using a knowledge base."
+      },
+      {
+        "name": "Text-to-Speech Output",
+        "function": "Conveys responses to the user."
+      }
+    ]
+  },
+  "evaluation": {
+    "methods": [
+      "Extensive experiments on the Gear8 dataset.",
+      "A structured user study."
+    ],
+    "metrics": [
+      "Detection robustness",
+      "Task efficiency",
+      "Overall usability"
+    ]
+  },
+  "contributions": [
+    "Design of a real-time, multimodal assistant system for mobile industrial deployment, integrating visual detection, voice interaction, and on-device LLM-powered responses.",
+    "Proposal of a fully automated data generation pipeline (Snap, Segment, Deploy) to create training data without manual annotations.",
+    "Introduction of a two-stage training approach, Background-Agnostic Refinement (BAR), to improve detector generalization under domain shift.",
+    "Creation of the Gear8 synthetic dataset."
+  ],
+  "availability": {
+    "dataset": "Will be released upon acceptance.",
+    "source_code": "Will be released upon acceptance."
+  },
+  "evidence_id": "EV021",
+  "year": 2025,
+  "arxiv_id": "2507.21072",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

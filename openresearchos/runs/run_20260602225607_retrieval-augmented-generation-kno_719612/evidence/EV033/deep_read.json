@@ -1,0 +1,45 @@
+{
+  "title": "V2T-CoT: From Vision to Text Chain-of-Thought for Medical Reasoning and Diagnosis",
+  "keywords": [
+    "Med-VQA",
+    "Vision Language Model",
+    "Chain of Thought"
+  ],
+  "domain": "Medical Visual Question Answering (Med-VQA)",
+  "methodology": {
+    "framework": "V2T-CoT (From Vision to Text CoT)",
+    "core_components": [
+      "Preference localization mechanism for identifying key regions in descriptive text",
+      "Regional pixel-level attention mechanism for focusing on specific image areas"
+    ],
+    "dataset": "R-Med 39K (instruction-tuning dataset with multi-granularity reasoning paths)"
+  },
+  "challenges_addressed": [
+    "Feature fusion limitations in existing models",
+    "Lack of explainable reasoning pathways",
+    "Data and algorithm constraints in multimodal CoT methods"
+  ],
+  "performance": {
+    "achievements": "State-of-the-art performance",
+    "improvements": "Substantial improvements in both performance and interpretability",
+    "comparisons": "Outperforms existing models under comparable parameter sizes"
+  },
+  "related_work": [
+    "DoctorGLM",
+    "Huatuo-o1",
+    "MedFound",
+    "LLaVA-Med",
+    "MedThink"
+  ],
+  "evidence_id": "EV033",
+  "year": 2025,
+  "arxiv_id": "2506.19610",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

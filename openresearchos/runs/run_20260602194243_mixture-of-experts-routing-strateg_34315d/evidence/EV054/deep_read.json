@@ -1,0 +1,55 @@
+{
+  "title": "DeepSeekMoE: Towards Ultimate Expert Specialization in Mixture-of-Experts Language Models",
+  "model_architecture": "Mixture-of-Experts (MoE) language model",
+  "model_sizes": [
+    "16B parameters",
+    "145B parameters (preliminary)"
+  ],
+  "key_features": [
+    "Addresses knowledge hybridity in existing MoE architectures",
+    "Addresses knowledge redundancy in existing MoE architectures",
+    "Aims for ultimate expert specialization"
+  ],
+  "performance_comparisons": [
+    {
+      "model": "DeepSeekMoE 16B",
+      "comparison": "LLaMA2 7B",
+      "result": "Comparable performance with only about 40% of computations",
+      "note": "LLaMA2 7B has approximately 2.5 times the activated parameters"
+    },
+    {
+      "model": "DeepSeekMoE 145B",
+      "comparison": "DeepSeek 67B",
+      "result": "Comparable performance with only 28.5% (possibly 18.2%) of computations"
+    }
+  ],
+  "issues_addressed": [
+    {
+      "issue": "Knowledge Hybridity",
+      "description": "Existing MoE practices often employ a limited number of experts, causing tokens assigned to a specific expert to cover diverse knowledge"
+    },
+    {
+      "issue": "Knowledge Redundancy",
+      "description": "Tokens assigned to different experts may require common knowledge, leading to redundancy in expert parameters"
+    }
+  ],
+  "evaluation": {
+    "benchmark": "Open LLM Leaderboard",
+    "figure": "Figure 1 shows comparison between DeepSeekMoE 16B and other open source models"
+  },
+  "strategies": [
+    "Two principal strategies to address knowledge hybridity and redundancy",
+    "Details are truncated in the provided content"
+  ],
+  "evidence_id": "EV054",
+  "year": 2024,
+  "arxiv_id": "2401.06066",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

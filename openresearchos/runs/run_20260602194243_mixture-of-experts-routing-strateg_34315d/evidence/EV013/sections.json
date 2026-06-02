@@ -1,0 +1,6 @@
+{
+  "introduction": "[2511.11627] SA-EMO: Structure-Aligned Encoder Mixture of Operators for Generalizable Full-waveform Inversion\n\nSA-EMO: Structure-Aligned Encoder Mixture of Operators for Generalizable Full-waveform In",
+  "method": "f about 10.308%. Ablation studies further reveal that the structure-alignment encoder, the expert-fusion mechanism, and the routing module each contribute markedly to the performance gains. This work ",
+  "results": "—FNO, WNO, MNO, and LNO—jointly capture global, multiscale, hierarchical, and local physical priors within this latent space.\nThird, an  adaptive routing mechanism  fuses experts via type-weighted and",
+  "conclusion": "tures, and mixture-of-experts models. We highlight their limitations and explain how our framework builds upon and extends these directions.\n\n2.1  Physics-based Full Waveform Inversion\n\nClassical full"
+}

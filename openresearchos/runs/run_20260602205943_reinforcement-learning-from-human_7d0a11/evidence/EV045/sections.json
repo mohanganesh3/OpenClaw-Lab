@@ -1,0 +1,6 @@
+{
+  "introduction": "[2410.05782] Reinforcement Learning from Imperfect Corrective Actions and Proxy Rewards\n\nReinforcement Learning from Imperfect Corrective Actions and Proxy Rewards\n\nZhaohui Jiang, Xuening Feng &amp; Y",
+  "method": "rimentally validate our proposition on a variety of tasks (Atari games and autonomous driving on highway).\nOn the one hand, using proxy rewards with different levels of imperfection, our method can be",
+  "results": "ns from human feedback, which would subsequently require too many (often hard-to-answer) queries for a human to consider.\n\nAs an alternative intermediate approach, we propose the following framework i",
+  "conclusion": "hen proxy rewards are dense, but misspecified).\nOn the other hand, solely learning from corrective actions would require too many queries to the human labeler and may lead to suboptimal learned behavi"
+}

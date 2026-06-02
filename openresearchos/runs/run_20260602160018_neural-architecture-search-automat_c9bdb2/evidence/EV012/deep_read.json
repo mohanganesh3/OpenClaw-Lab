@@ -1,0 +1,66 @@
+{
+  "paper_title": "On the Security Risks of AutoML",
+  "main_focus": "Neural Architecture Search (NAS) as a task within AutoML",
+  "research_questions": [
+    {
+      "id": "RQ1",
+      "question": "Does NAS introduce new weaknesses, compared with the conventional ML practice?"
+    },
+    {
+      "id": "RQ2",
+      "question": "If so, what are the possible root causes of such vulnerability?"
+    },
+    {
+      "id": "RQ3",
+      "question": "How would ML practitioners mitigate such drawbacks in designing and operating NAS?"
+    }
+  ],
+  "key_findings": [
+    {
+      "id": "A1",
+      "finding": "NAS-generated models tend to suffer greater vulnerability to various malicious manipulations compared to their manually designed counterparts",
+      "attacks_mentioned": [
+        "adversarial evasion",
+        "model poisoning",
+        "backdoor injection",
+        "functionality stealing",
+        "label-only membership inference"
+      ]
+    },
+    {
+      "id": "A2",
+      "finding": "NAS tends to prematurely evaluate the quality of candidate models before their convergence, favoring models that converge fast at early training stages, resulting in architectural properties that facilitate various attacks",
+      "characteristics": [
+        "high loss smoothness",
+        "low gradient variance"
+      ]
+    },
+    {
+      "id": "A3",
+      "finding": "Potential remedies include post-NAS mitigation and in-NAS strategies that build attack robustness into the NAS process",
+      "mitigation_strategies": [
+        "adversarial training (post-NAS)",
+        "in-NAS strategies",
+        "increasing cell depth",
+        "suppressing skip connects"
+      ]
+    }
+  ],
+  "applications_mentioned": [
+    "cyber-security",
+    "finance",
+    "healthcare"
+  ],
+  "evidence_id": "EV012",
+  "title": "On the Security Risks of AutoML",
+  "year": 2021,
+  "arxiv_id": "2110.06018",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

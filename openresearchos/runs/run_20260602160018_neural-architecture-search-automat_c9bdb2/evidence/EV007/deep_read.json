@@ -1,0 +1,42 @@
+{
+  "paper_title": "Regional Attention with Architecture-Rebuilt 3D Network for RGB-D Gesture Recognition",
+  "method_name": "RAAR3DNet",
+  "method_identifier": "njia/RAAR3DNet",
+  "backbone_network": "I3D (Inflated 3D Network)",
+  "key_technique": "Neural Architecture Search (NAS)",
+  "network_structure": {
+    "cell_architecture": "Each cell has two input nodes, four intermediate nodes, and one output node",
+    "cell_1": {
+      "position": "early stage",
+      "operation": "convolution kernels with small receptive fields",
+      "purpose": "capture low-level texture features"
+    },
+    "cell_2": {
+      "position": "middle stage",
+      "operation": "convolution kernels with small receptive fields",
+      "purpose": "capture low-level texture features"
+    },
+    "cell_3": {
+      "position": "end stage",
+      "operation": "dilated convolution operations",
+      "purpose": "capture abstract and semantically high-level features"
+    }
+  },
+  "challenges_addressed": [
+    "gesture-irrelevant factors (backgrounds, clothing)",
+    "focusing on gesture regions both spatially and temporally"
+  ],
+  "approach_summary": "Uses NAS to rebuild the structure of Inception Modules in I3D to create different structures that fit multi-scale features, with different cells for different feature types",
+  "evidence_id": "EV007",
+  "title": "Regional Attention with Architecture-Rebuilt 3D Network for RGB-D Gesture Recognition",
+  "year": 2021,
+  "arxiv_id": "2102.05348",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

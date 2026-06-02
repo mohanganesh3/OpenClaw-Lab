@@ -1,0 +1,52 @@
+{
+  "title": "Benchmarking Small Language Models and Small Reasoning Language Models on System Log Severity Classification",
+  "authors": null,
+  "abstract": "This benchmark evaluates small, deployable language models for system log severity classification, addressing real-time requirements of digital twin systems. The study demonstrates that severity classification serves as a lens for evaluating model competence and real-time deployability, with implications for root cause analysis and broader digital twin integration.",
+  "methodology": {
+    "focus": "Small, deployable language models for real-time requirements",
+    "application": "System log severity classification",
+    "context": "Digital twin (DT) systems monitoring pipelines",
+    "protocol": "Syslog protocol with PRI component",
+    "severity_values": {
+      "range": "0-7",
+      "purpose": "Quantifies risk level of each log"
+    },
+    "facility_values": {
+      "range": "0-23",
+      "purpose": "Describes context of the log"
+    },
+    "priority_calculation": "Facility × 8 + Severity"
+  },
+  "key_concepts": [
+    "System log severity classification",
+    "Small Language Models (SLMs)",
+    "Small Reasoning Language Models (SRLMs)",
+    "Retrieval-Augmented Generation (RAG)",
+    "Digital Twin (DT) systems",
+    "Root Cause Analysis (RCA)",
+    "Syslog protocol"
+  ],
+  "challenges_addressed": [
+    "Manual interpretation of massive log volumes",
+    "Delayed fault detection",
+    "Increased mean time to resolve",
+    "Ambiguity in severity labels"
+  ],
+  "applications": [
+    "System monitoring",
+    "Security threat detection",
+    "Performance monitoring",
+    "Root cause analysis"
+  ],
+  "evidence_id": "EV012",
+  "year": 2026,
+  "arxiv_id": "2601.07790",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

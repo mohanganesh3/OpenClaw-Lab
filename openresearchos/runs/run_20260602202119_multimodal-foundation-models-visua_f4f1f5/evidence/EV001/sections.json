@@ -1,0 +1,6 @@
+{
+  "introduction": "[2405.19567] Dr-LLaVA: Visual Instruction Tuning with Symbolic Clinical Grounding\n\nDr-LLaVA : Visual Instruction Tuning with\n Symbolic Clinical Grounding\n\nShenghuan Sun ∗\n\nUCSF\n &amp;Gregory M. Goldgo",
+  "method": "rating human-like dialogue and answering complex questions  [ 1 ,  2 ,  3 ,  4 ,  5 ] . When combined with vision encoders and fine-tuned using text-image pairs or visual instruction tuning datasets, ",
+  "results": "lti-turn interactions with clinicians, consistently demonstrating  valid  and  coherent  clinical reasoning throughout the conversation. In this context, hallucination occurs not only when a model pro",
+  "conclusion": "tributions.  In this paper, we introduce a novel finetuning algorithm for adapting VLMs to imaging-based conversational diagnostic tasks, which eliminates the need for human involvement in training da"
+}

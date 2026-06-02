@@ -1,0 +1,26 @@
+{
+  "method_summary": "Research paper: Voyager: An Open-Ended Embodied Agent with Large Language Models",
+  "key_innovation": "See full text",
+  "datasets_used": [],
+  "baselines_compared": [],
+  "key_results": {},
+  "best_result": null,
+  "limitations_stated": [],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "unknown",
+  "compute_required": "unknown",
+  "can_run_on_macbook": true,
+  "evidence_id": "EV067",
+  "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+  "year": 2023,
+  "arxiv_id": "2305.16291",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

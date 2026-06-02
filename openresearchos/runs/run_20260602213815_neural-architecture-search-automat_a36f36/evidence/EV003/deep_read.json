@@ -1,0 +1,81 @@
+{
+  "title": "Guided Evolution for Neural Architecture Search",
+  "authors": [
+    "Conneau et al."
+  ],
+  "year": 2021,
+  "keywords": [
+    "Neural Architecture Search",
+    "CNNs",
+    "evolutionary strategies",
+    "reinforcement learning",
+    "gradient-based methods"
+  ],
+  "methodology": {
+    "approach": "Neural Architecture Search (NAS)",
+    "components": [
+      {
+        "name": "Search space",
+        "description": "Specifies possible operations to be sampled and their connections, defining the type of architectures that can be generated"
+      },
+      {
+        "name": "Search method",
+        "description": "Represents the approach used to explore the search space and generate architectures",
+        "types": [
+          "reinforcement learning",
+          "evolutionary strategies",
+          "gradient-based methods"
+        ]
+      },
+      {
+        "name": "Performance estimation strategy",
+        "description": "Defines how generated architectures are evaluated"
+      }
+    ]
+  },
+  "results": {
+    "challenges": [
+      "High computational cost of most NAS approaches",
+      "Some methods fail to generalize to new datasets due to converging to local minima"
+    ],
+    "mitigation_approaches": [
+      "Cell-based design where small cells are replicated through an outer-skeleton",
+      "Performance estimation strategies including low-fidelity estimates, learning curve extrapolations, statistical approaches",
+      "One-shot methods where weights of generated models are inherited"
+    ],
+    "reliable_approach": "Fully training generated architectures and optimizing the search based on the most performant ones"
+  },
+  "references": [
+    "Conneau et al. (2017)",
+    "Khan et al. (2020)",
+    "Krizhevsky et al. (2012)",
+    "Szegedy et al. (2015)",
+    "He et al. (2016)",
+    "Huang et al. (2017)",
+    "Chollet (2017)",
+    "Tan and Le (2019)",
+    "Dosovitskiy et al. (2021)",
+    "Wistuba et al. (2019)",
+    "Elsken et al. (2019b)",
+    "Zoph and Le (2017)",
+    "Liu et al. (2018)",
+    "Zoph et al. (2018)",
+    "Shu et al. (2020)",
+    "Carlucci et al. (2019)",
+    "White et al. (2021)",
+    "Pham et al. (2018)",
+    "Xu et al. (2020)",
+    "Dong and Yang (2020)",
+    "Yang et al. (2020)"
+  ],
+  "evidence_id": "EV003",
+  "arxiv_id": "2110.15232",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "introduction": "[2110.10887] A Real-Time Energy and Cost Efficient Vehicle Route Assignment Neural Recommender System\n\nA Real-Time Energy and Cost Efficient Vehicle Route Assignment Neural Recommender System\n\nAyman M",
+  "method": "eral assignment problems where\n\nn\n\n𝑛\n\nn\n\nvehicles need to be deployed over\n\nm  ≤  n\n\n𝑚  𝑛\n\nm\\leq n\n\ntrips. This new assignment system has been deployed and integrated into the POLARIS  1\n\n1  1 POLA",
+  "results": "ons and investment as well as day-to-day operations of their current vehicle fleet. Since the industry is heavily driven by cost, we choose to study the optimal assignment problem from a TCO standpoin",
+  "conclusion": "goals in mind, the system needs to be lightweight, computationally efficient, accurate, and scalable for later integration into subsequent tools, allowing real-time querying. The objective of the pape"
+}

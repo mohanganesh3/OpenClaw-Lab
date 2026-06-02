@@ -1,0 +1,65 @@
+{
+  "title": "ARGS: Alignment as Reward-Guided Search",
+  "problem": "Language model alignment: ensuring models' behaviors agree with human objectives and safety considerations",
+  "existing_approaches": [
+    {
+      "name": "Reinforcement Learning with Human Feedback (RLHF)",
+      "description": "A prominent alignment strategy that has gained widespread adoption among state-of-the-art models",
+      "models_using_approach": [
+        "GPT-4",
+        "Claude",
+        "Bard",
+        "Llama 2-Chat"
+      ]
+    },
+    {
+      "name": "Proximal Policy Optimization (PPO)",
+      "description": "A pivotal component within RLHF that employs an external reward model",
+      "challenges": [
+        "Unstable and costly training",
+        "Need to repeat PPO training when altering the reward model hinders rapid customization"
+      ]
+    }
+  ],
+  "proposed_solution": {
+    "name": "Alignment as Reward-Guided Search (ARGS)",
+    "description": "A novel framework designed to enhance the alignment of generated text with human-desired preferences",
+    "key_mechanism": "At each decoding step, adjusts the model's probabilistic prediction using a reward signal",
+    "benefits": [
+      "Maintains semantic relevance with respect to the previous context",
+      "Aligns with reward criteria and human preference",
+      "Flexible trading off between sub-goals with proper weighting",
+      "Can be integrated with various token selection strategies including greedy and stochastic sampling",
+      "Enables quick realignments without retraining the foundational model"
+    ]
+  },
+  "validation": {
+    "datasets": [
+      "HH-RLHF (Helpful and Harmless) dataset",
+      "Stanford Human Preferences (SHP) dataset"
+    ],
+    "models": [
+      "LLaMa",
+      "OPT"
+    ],
+    "results": {
+      "reward_improvement": "19.56% relative to standard decoding",
+      "preference_score": "64.33% in GPT-4 evaluation",
+      "qualitative_assessment": "Less redundant and more informative outputs than standard maximum-likelihood decoding"
+    }
+  },
+  "contributions": [
+    "Proposed a novel framework ARGS, which postulates the alignment process as a reward-guided search problem that runs during decoding"
+  ],
+  "evidence_id": "EV049",
+  "year": 2024,
+  "arxiv_id": "2402.01694",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

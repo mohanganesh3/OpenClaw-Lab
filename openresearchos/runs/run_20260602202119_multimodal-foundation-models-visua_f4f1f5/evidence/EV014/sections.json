@@ -1,0 +1,6 @@
+{
+  "introduction": "[2604.14044] Decoding the Delta: Unifying Remote Sensing Change Detection and Understanding with Multimodal Large Language Models\n\nFigure 1 .\n\nOur work primarily addresses the unified task of multi-te",
+  "method": "lti-temporal contrastive reasoning and struggle with precise spatial grounding. To address this, we first introduce Delta-QA, a comprehensive benchmark comprising 180k visual question-answering sample",
+  "results": "Understanding\n\nSECOND-CC\n\n(  karaca2025robust  )\n\n2\n\n6\n\n✔\n\n✔\n\nCaption\n\n✘\n\n0.5-3\n\n30205 Captions\n\nRSCC\n\n(  chen2025rscc  )\n\n2\n\n-\n\n✘\n\n✔\n\nCaption\n\n✘\n\n-\n\n62351 Captions\n\nLEVIR-CC\n\n(  liu2022remote  )\n\n2\n\n",
+  "conclusion": "ti-temporal contrastive reasoning, rendering them effectively ”temporally blind” to evolutionary dynamics  ( irvin2024teochat ;  noman2025cdchat ) . Therefore, a profound interpretation and detailed a"
+}

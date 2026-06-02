@@ -1,0 +1,28 @@
+{
+  "method_summary": "A method with K parallel thin blocks at reduced dimensionality connected via learned down/up projections and composed via top-k block routing, using hybrid attention that pairs one shared softmax block for global context with Gated DeltaNet linear attention in routed blocks.",
+  "key_innovation": "Hybrid attention that pairs one shared softmax block for global context with Gated DeltaNet linear attention in routed blocks to address attention coverage problems when scaling sparse block routing to many blocks.",
+  "datasets_used": [],
+  "baselines_compared": [],
+  "key_results": {},
+  "best_result": "",
+  "limitations_stated": [
+    "Scaling sparse block routing to many blocks creates an attention coverage problem, as each block sees fewer tokens."
+  ],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "medium",
+  "compute_required": "",
+  "can_run_on_macbook": false,
+  "evidence_id": "EV039",
+  "title": "Mixture of Layers with Hybrid Attention",
+  "year": 2026,
+  "arxiv_id": "2605.09516",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 4517,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

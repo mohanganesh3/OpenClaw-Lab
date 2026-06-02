@@ -1,0 +1,6 @@
+{
+  "introduction": "[2508.19272] RAGaphene A RAG Annotation Platform with Human ENhancements and Edits\n\nRAGaphene\n\nA RAG Annotation Platform with Human ENhancements and Edits\n\nKshitij Fadnis,\nSara Rosenthal  1\n\n1  footno",
+  "method": "trieval Augmented Generation (RAG) is extremely important to ensure the model is answering faithfully to the relevant passages and not hallucinating. Thus, the ability to evaluate the performance of L",
+  "results": "primarily for building Multi-turn RAG benchmarks. The pipeline of  RAGaphene  is shown in Figure\n\n1  . Our platform adopts the RAG pipeline to enable a user to chat with an LLM agent with real-time re",
+  "conclusion": "ighlighting\n\nFigure 3:  Screenshots of selected functionalities of  RAGaphene .\n\nThe  RAGaphene  platform pipeline is shown in Figure\n\n1  . It allows for integration using a desired corpus with any re"
+}

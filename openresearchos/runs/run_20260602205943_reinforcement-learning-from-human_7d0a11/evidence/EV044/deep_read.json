@@ -1,0 +1,60 @@
+{
+  "title": "GDPO: Learning to Directly Align Language Models with Diversity Using GFlowNets",
+  "method": {
+    "name": "GDPO (Generative Flow Networks for Direct Preference Optimization)",
+    "type": "Offline language model alignment method",
+    "approach": "Uses GFlowNets to model preference alignment as an inference task",
+    "key_features": [
+      "Learns reward signals directly from offline preference datasets",
+      "Samples from distributions proportionally to reward distributions",
+      "Generates diverse yet high-reward samples",
+      "Avoids explicit reward model dependency"
+    ],
+    "technical_details": {
+      "model_used": "Generative Flow Networks (GFlowNets)",
+      "problem_formulation": "Token-wise Markov Decision Process (MDP) as ⟨𝒮,𝒜,f,r,ρ₀⟩",
+      "state_space": "Tokens generated so far",
+      "action_space": "Vocabulary of tokens",
+      "transition": "String concatenation",
+      "initial_distribution": "Distribution over the prompt 𝒙",
+      "termination": "End-of-sequence (EOS) token (⊤)",
+      "terminal_state": "s_f := x; y (prompt concatenated with response)"
+    }
+  },
+  "results": {
+    "key_findings": [
+      "Generates more diverse responses than baselines in dialogue generation",
+      "Generates more diverse responses than baselines in summarization tasks",
+      "Remains aligned with the preference dataset while generating diverse responses"
+    ],
+    "advantages": [
+      "More diverse than existing methods",
+      "Maintains alignment with preferences",
+      "Offline learning (computationally efficient)"
+    ]
+  },
+  "background": {
+    "related_work": [
+      "Direct Preference Optimization (DPO) - has limitations in diversity",
+      "Regularized objectives - tend to settle around local modes",
+      "GFlowNets for tuning LLMs to induce latent chain-of-thought"
+    ],
+    "problems_addressed": [
+      "DPO tends to overfit on reward signals",
+      "DPO learns to reject undesired responses faster than accepting desired responses",
+      "Lack of diversity in existing methods limits applicability to creative use-cases",
+      "Under-representation of certain demographics in LM responses"
+    ]
+  },
+  "evidence_id": "EV044",
+  "year": 2024,
+  "arxiv_id": "2410.15096",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

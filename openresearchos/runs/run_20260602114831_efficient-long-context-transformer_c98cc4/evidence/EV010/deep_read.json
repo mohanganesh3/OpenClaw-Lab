@@ -1,0 +1,26 @@
+{
+  "method_summary": "Research paper: Efficient OpAmp Adaptation for Zoom Attention to Golden Contexts",
+  "key_innovation": "See full text",
+  "datasets_used": [],
+  "baselines_compared": [],
+  "key_results": {},
+  "best_result": null,
+  "limitations_stated": [],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "unknown",
+  "compute_required": "unknown",
+  "can_run_on_macbook": true,
+  "evidence_id": "EV010",
+  "title": "Efficient OpAmp Adaptation for Zoom Attention to Golden Contexts",
+  "year": 2025,
+  "arxiv_id": "2502.12502",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

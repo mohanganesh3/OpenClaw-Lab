@@ -1,0 +1,55 @@
+{
+  "nodes": [
+    {
+      "id": "EV001",
+      "title": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery",
+      "year": 2024
+    },
+    {
+      "id": "EV002",
+      "title": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
+      "year": 2025
+    },
+    {
+      "id": "EV003",
+      "title": "Agent Laboratory: Using LLM Agents as Research Assistants",
+      "year": 2025
+    },
+    {
+      "id": "EV004",
+      "title": "MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering",
+      "year": 2024
+    },
+    {
+      "id": "EV005",
+      "title": "AIBuildAI-2: Scalable Agentic AI Research and Engineering",
+      "year": 2026
+    },
+    {
+      "id": "EV006",
+      "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+      "year": 2023
+    },
+    {
+      "id": "EV007",
+      "title": "Self-Refine: Iterative Refinement with Self-Feedback",
+      "year": 2023
+    },
+    {
+      "id": "EV008",
+      "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+      "year": 2023
+    },
+    {
+      "id": "EV009",
+      "title": "AgentBench: Evaluating LLMs as Agents",
+      "year": 2023
+    },
+    {
+      "id": "EV010",
+      "title": "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
+      "year": 2024
+    }
+  ],
+  "edges": []
+}

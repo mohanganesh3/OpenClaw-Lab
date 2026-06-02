@@ -1,0 +1,32 @@
+{
+  "paper_title": "MM-R$^3$: On (In-)Consistency of Vision-Language Models (VLMs)",
+  "models_evaluated": [
+    "BLIP-2",
+    "LLaVa 1.5M",
+    "Qwen-VL-Chat"
+  ],
+  "benchmark": "MM-R$^3$ Benchmark",
+  "research_focus": "Analyzing consistency issues in vision-language models",
+  "key_findings": [
+    "MLLMs show significant inconsistency in responses to semantically identical questions",
+    "Models are sensitive to prompt phrasing rather than intent",
+    "Consistency is a fundamental requirement for reliable deployment of MLLMs"
+  ],
+  "related_benchmarks": [
+    "MM-Bench",
+    "SEED-Bench",
+    "MM-Vet"
+  ],
+  "evidence_id": "EV005",
+  "title": "MM-R$^3$: On (In-)Consistency of Vision-Language Models (VLMs)",
+  "year": 2024,
+  "arxiv_id": "2410.04778",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

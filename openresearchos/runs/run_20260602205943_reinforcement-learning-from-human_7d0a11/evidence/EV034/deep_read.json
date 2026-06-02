@@ -1,0 +1,59 @@
+{
+  "title": "Course Recommender Systems Need to Consider the Job Market",
+  "authors": "Not specified in provided text",
+  "publication_year": 2024,
+  "copyright": "acmlicensed",
+  "venue": {
+    "conference": "Proceedings of the 47th International ACM SIGIR Conference on Research and Development in Information Retrieval",
+    "abbreviation": "SIGIR '24",
+    "dates": "July 14–18, 2024",
+    "location": "Washington, DC, USA"
+  },
+  "booktitle": "Proceedings of the 47th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR '24)",
+  "doi": "10.1145/3626772.3657847",
+  "isbn": "979-8-4007-0431-4/24/07",
+  "keywords": [
+    "Recommender System",
+    "Course Recommendation",
+    "Entity linking"
+  ],
+  "ccs_topics": [
+    "Computing methodologies Information extraction",
+    "Information systems Recommender systems",
+    "Applied computing Learning management systems"
+  ],
+  "research_focus": "Course recommender systems aligned with job market trends",
+  "key_properties": [
+    {
+      "property": "P1",
+      "description": "Aligned with latest job market trends to prioritize courses teaching high-demand skills"
+    },
+    {
+      "property": "P2",
+      "description": "Unsupervised to avoid the resource-intensive process of collecting and annotating up-to-date data"
+    },
+    {
+      "property": "P3",
+      "description": "Sequential to recommend a sequence of courses where each course builds upon the knowledge acquired in the preceding ones"
+    },
+    {
+      "property": "P4",
+      "description": "Aligned with users' goals such as attaining a specific role or increase their marketability"
+    },
+    {
+      "property": "P5",
+      "description": "Explainable to ensure user trust and engagement"
+    }
+  ],
+  "evidence_id": "EV034",
+  "year": 2024,
+  "arxiv_id": "2404.10876",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

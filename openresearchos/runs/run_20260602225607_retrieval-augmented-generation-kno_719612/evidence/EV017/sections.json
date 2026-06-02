@@ -1,0 +1,6 @@
+{
+  "introduction": "[2411.09213] Comprehensive and Practical Evaluation of Retrieval-Augmented Generation Systems for Medical Question Answering\n\nComprehensive and Practical Evaluation of Retrieval-Augmented Generation S",
+  "method": "challenge, especially in healthcare applications.\nRetrieval-augmented generation (RAG) has emerged as a promising approach to reduce LLMs’ hallucination problem by integrating external knowledge sourc",
+  "results": "Generation Benchmark (RGB) to measure 4 abilities required for RAG, including noise robustness, negative rejection, information integration, and counterfactual robustness.\nIn particular, using questio",
+  "conclusion": "tion in addressing the more complex scenarios.\n\n•\n\nWe analyzed the errors of the LLMs and their reasoning process to provide insights and suggest future directions for developing more reliable and tru"
+}

@@ -1,0 +1,118 @@
+{
+  "paper_title": "Towards interactive reinforcement learning with intrinsic feedback",
+  "method_section": {
+    "challenges_discussed": [
+      {
+        "category": "aptitude",
+        "definition": "Challenges for simply being able to learn",
+        "subcategories": [
+          {
+            "name": "robustness",
+            "description": "Ability of an agent to perform a task and generalize within/between environments of similar complexity"
+          },
+          {
+            "name": "scalability",
+            "description": "Ability of an agent to scale up to more complex environments"
+          },
+          {
+            "name": "aptness",
+            "description": "Rate at which an agent can learn a desired behavior"
+          }
+        ]
+      },
+      {
+        "category": "alignment",
+        "definition": "Challenges concerned with learning as intended (i.e., learning to behave as a human dictates)",
+        "example": "Paperclip Maximizer - an agent that maximizes its goal of making paperclips by turning the world into a paperclip factory",
+        "note": "RL algorithms often display lesser forms of misalignment"
+      }
+    ],
+    "brain_computer_interfaces": {
+      "definition": "Systems for monitoring the brain and utilizing neural activity as a direct means of communication between the brain and external devices",
+      "primary_focus": "Medical applications",
+      "applications": [
+        "fatigue detection",
+        "monitoring sleep",
+        "analyzing emotion",
+        "facilitating sensory-motor rehabilitation"
+      ],
+      "specific_conditions": [
+        "amyotrophic lateral sclerosis",
+        "locked-in-state"
+      ],
+      "traditional_applications": [
+        "wheelchair control",
+        "interface control"
+      ],
+      "expanding_applications": [
+        "robotics",
+        "VR and gaming",
+        "smart environments",
+        "bio-metrics and security",
+        "brain-to-brain interfaces"
+      ]
+    }
+  },
+  "results_section": {
+    "bci_applications": [
+      "robotics",
+      "VR and gaming",
+      "smart environments",
+      "bio-metrics and security",
+      "brain-to-brain interfaces"
+    ],
+    "rl_bci_integration": {
+      "description": "Integration of RL and BCI where particular neural activity is interpreted as a reward in the RL framework",
+      "note": "Can be more broadly formulated using interactive RL concepts"
+    },
+    "interactive_rl_concerns": {
+      "primary_concern": "Seamlessly integrating and effectively communicating human intentions to an agent"
+    },
+    "human_input_channels": [
+      {
+        "type": "advice",
+        "description": "One of two main channels of communication"
+      },
+      {
+        "type": "demonstrations",
+        "description": "One of two main channels of communication"
+      }
+    ],
+    "feedback_types": [
+      {
+        "type": "explicit feedback",
+        "description": "Human communicating directly with the agent via a button push or very basic natural language",
+        "examples": [
+          "button push",
+          "basic natural language"
+        ]
+      },
+      {
+        "type": "implicit feedback",
+        "description": "Provided through human social cues",
+        "examples": [
+          "facial expressions",
+          "body language",
+          "vocal tone"
+        ],
+        "advantages": [
+          "more natural",
+          "potentially automatic means of communication"
+        ]
+      }
+    ],
+    "limitations": "Both explicit and implicit feedback do not cover the entire range of potential human feedback mediums"
+  },
+  "evidence_id": "EV023",
+  "title": "Towards interactive reinforcement learning with intrinsic feedback",
+  "year": 2021,
+  "arxiv_id": "2112.01575",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

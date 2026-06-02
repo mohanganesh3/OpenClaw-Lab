@@ -1,0 +1,45 @@
+{
+  "title": "Inference-Time Alignment Control for Diffusion Models with Reinforcement Learning Guidance",
+  "authors": "Not specified in provided text",
+  "abstract": "Introduces Reinforcement Learning Guidance (RLG), an inference-time enhancement technique for diffusion models that adapts Classifier-Free Guidance (CFG) to control alignment with downstream objectives, providing a practical and theoretically sound solution for enhancing and controlling diffusion model alignment at inference.",
+  "key_contributions": [
+    "Introduces Reinforcement Learning Guidance (RLG)",
+    "Provides a practical and theoretically sound solution for enhancing and controlling diffusion model alignment at inference",
+    "Addresses limitations of existing RL methods for diffusion models"
+  ],
+  "methodology": {
+    "approach": "Interprets RL fine-tuning of diffusion models as generation conditioned on implicit rewards",
+    "technique": "Adapts Classifier-Free Guidance (CFG) for alignment control",
+    "timing": "Works at inference time rather than requiring fine-tuning"
+  },
+  "results": {
+    "qualitative_results": "Shows qualitative results for human preference alignment task using SD3.5-M with GRPO and RLG",
+    "observations": "As RLG scale increases, images become more detailed and aesthetically pleasing with rising PickScores"
+  },
+  "code_availability": {
+    "repository": "https://github.com/jinluo12345/Reinforcement-learning-guidance"
+  },
+  "related_work": {
+    "existing_methods": [
+      "REINFORCE",
+      "Direct Preference Optimization (DPO)",
+      "Group Relative Policy Optimization (GRPO)"
+    ],
+    "limitations": [
+      "Intractable probabilities due to diffusion algorithms",
+      "Fixed alignment after RL fine-tuning",
+      "Sensitivity to hyperparameter choices"
+    ]
+  },
+  "evidence_id": "EV037",
+  "year": 2025,
+  "arxiv_id": "2508.21016",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "introduction": "[2604.07210] VersaVogue: Visual Expert Orchestration and Preference Alignment for Unified Fashion Synthesis\n\nVersaVogue: Visual Expert Orchestration and Preference Alignment for Unified Fashion Synthe",
+  "method": "pipeline that constructs preference data without human annotation or task-specific reward models. By combining evaluators of content fidelity, textual alignment, and perceptual quality, MPO identifies",
+  "results": "For example, text-driven garment generation methods such as DiffCloth  ( zhang2023diffcloth )  rely on structural priors to anchor semantic attributes, while virtual dressing methods such as IMAGDress",
+  "conclusion": "hrough automated preference alignment. Specifically, we introduce a trait-routing attention (TA) module built upon a mixture-of-experts (MoE) mechanism. Given multiple condition inputs, TA dynamically"
+}

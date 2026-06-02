@@ -1,0 +1,6 @@
+{
+  "introduction": "[2112.07133] 1 Introduction\n\nCLIP-Lite: Information Efficient Visual Representation Learning with Language Supervision\n\nAman Shrivastava\n\nRamprasaath R. Selvaraju\n\nNikhil Naik\n\nVicente Ordonez\n\nUniver",
+  "method": "her images. Whereas, CLIP-Lite can learn representations using a single negative pair (in red) for every positive pair (in green).\n\nPretraining image classification networks on the Imagenet dataset ha",
+  "results": "egative sample pairs during training, and provides comparable or superior performance on standard benchmarks against other methods trained at the same scale. Our work is motivated by the observation t",
+  "conclusion": "-Captions dataset while only training on\n\n20  %\n\npercent  20\n\n20\\%\n\nof the same dataset. We also demonstrate that CLIP-Lite can be used as a good source of pretrained features by showing good generali"
+}

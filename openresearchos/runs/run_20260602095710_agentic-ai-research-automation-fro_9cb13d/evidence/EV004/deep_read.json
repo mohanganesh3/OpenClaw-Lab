@@ -1,0 +1,26 @@
+{
+  "method_summary": "Research paper: Securing the Agent: Vendor-Neutral, Multitenant Enterprise Retrieval and Tool Use",
+  "key_innovation": "See full text",
+  "datasets_used": [],
+  "baselines_compared": [],
+  "key_results": {},
+  "best_result": null,
+  "limitations_stated": [],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "unknown",
+  "compute_required": "unknown",
+  "can_run_on_macbook": true,
+  "evidence_id": "EV004",
+  "title": "Securing the Agent: Vendor-Neutral, Multitenant Enterprise Retrieval and Tool Use",
+  "year": 2026,
+  "arxiv_id": "2605.05287",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 6284,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

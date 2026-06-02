@@ -1,0 +1,6 @@
+{
+  "introduction": "[2504.05324] Hybrid Retrieval for Hallucination Mitigation in Large Language Models: A Comparative Analysis\n\nHybrid Retrieval for Hallucination Mitigation in Large Language Models: A Comparative Analy",
+  "method": "y, emphasizing the importance of advanced retrieval techniques in mitigating hallucinations and improving response accuracy.\n\nkeywords:\n\nRetrieval Augmented Generation, Large Language Models, Hallucin",
+  "results": "s, i.e. retrieving the most relevant documents at the top positions of a ranked list with respect to a given user query [ 11 ] .\nMany popular web search engines employ\n\nB  ​  M  ​  25\n\nBM25\n\nor simila",
+  "conclusion": "xternal knowledge during the retrieval phase, which is then incorporated into the query. This ensures that the LLM’s generated output is informed by up-to-date and contextually relevant information [ "
+}

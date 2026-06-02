@@ -1,0 +1,47 @@
+{
+  "title": "Seek in the Dark: Reasoning via Test-Time Instance-Level Policy Gradient in Latent Space",
+  "methodology": {
+    "framework_name": "LatentSeek",
+    "technique": "Test-Time Instance-Level Adaptation (TTIA)",
+    "space": "Latent space",
+    "optimization_method": "Policy gradient",
+    "guidance": "Self-generated reward signals",
+    "key_feature": "Iterative updates to latent representations without parameter updating"
+  },
+  "evaluation": {
+    "benchmarks": [
+      "GSM8K",
+      "MATH-500",
+      "AIME2024"
+    ],
+    "architectures": "Multiple LLM architectures",
+    "compared_against": [
+      "Chain-of-Thought prompting",
+      "Fine-tuning-based methods"
+    ]
+  },
+  "findings": {
+    "performance": "Consistently outperforms strong baselines",
+    "efficiency": "Highly efficient, typically converging within a few iterations for average complexity problems",
+    "scalability": "Benefits from additional iterations",
+    "characteristics": "Lightweight, scalable, and effective solution for enhancing LLM reasoning"
+  },
+  "resources": {
+    "github": "https://github.com/bigai-nlco/LatentSeek",
+    "project": "https://bigai-nlco.github.io/LatentSeek/"
+  },
+  "limitations": {
+    "potential_issue": "Output may be incoherent and semantically ungrounded (mentioned in §3.6)"
+  },
+  "evidence_id": "EV040",
+  "year": 2025,
+  "arxiv_id": "2505.13308",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "introduction": "[2505.14231] UniVG-R1: Reasoning Guided Universal Visual Grounding with Reinforcement Learning\n\n†\n\n†  footnotetext:\n\n* Work done during the internship at AMAP, Alibaba Group.\n\n†  \\dagger\n\nCorrespondin",
+  "method": "f-the-art performance on MIG-Bench with a 9.1% improvement over the previous method. Furthermore, our model exhibits strong generalizability, achieving an average improvement of 23.4% in zero-shot per",
+  "results": "d in real-world applications.\nWith the development of Large Language Models (LLMs), some works\n\nlai2024lisa  ;  wang2024llmseg  ;  chen2023shikra  ;  zhan2024griffon\n\npropose to leverage the powerful ",
+  "conclusion": "ng dataset comprising 90k samples across diverse tasks, each annotated with reasoning chains and further validated by MLLMs to ensure correctness. Based on this dataset, we employ a two-stage training"
+}

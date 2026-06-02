@@ -1,0 +1,42 @@
+{
+  "title": "Why Does ChatGPT \"Delve\" So Much? Exploring the Sources of Lexical Overrepresentation in Large Language Models",
+  "authors": [
+    {
+      "name": "Tom",
+      "affiliation": "Florida State University",
+      "email": "tjuzek@fsu.edu"
+    },
+    {
+      "name": "Zina B. Ward",
+      "affiliation": "Florida State University",
+      "email": "zward@fsu.edu"
+    }
+  ],
+  "repository": "github.com/tjuzek/delve",
+  "abstract": "The paper examines the increasing prevalence of certain lexical items (like 'delve,' 'intricate,' and 'nuanced') in Scientific English, particularly in 2023 and 2024, and investigates whether this is due to the use of large language models like ChatGPT for scientific writing.",
+  "research_goals": [
+    "Provide a systematic characterization of the linguistic phenomenon of lexical overrepresentation",
+    "Explore factors contributing to why ChatGPT uses certain words so frequently"
+  ],
+  "methods": "Method for extracting lexical items of interest that is rigorous, reproducible, and transferable to other data and models",
+  "results": {
+    "focal_words_identified": 21,
+    "description": "Lexical items that have recently spiked in Scientific English and are overused by ChatGPT-3.5 in scientific writing tasks"
+  },
+  "key_findings": [
+    "No major evidence that model architecture or algorithmic decisions play a major role in the overrepresentation",
+    "No evidence that lexical overrepresentation stems from training or fine-tuning data",
+    "Mixed evidence regarding reinforcement learning from human feedback"
+  ],
+  "evidence_id": "EV009",
+  "year": 2024,
+  "arxiv_id": "2412.11385",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7997,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

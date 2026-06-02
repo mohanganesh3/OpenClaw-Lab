@@ -1,0 +1,41 @@
+{
+  "title": "More Than Meets the Eye? Uncovering the Reasoning-Planning Disconnect in Training Vision-Language Driving Models",
+  "authors": [],
+  "abstract": "The paper investigates whether planning in current Vision-Language Model (VLM) driving agents is causally mediated by their reasoning. It introduces DriveMind, a novel dataset built upon the nuPlan benchmark, and a diagnostic tool to evaluate the causal fidelity of future models.",
+  "keywords": [
+    "Vision-Language Models",
+    "Autonomous Driving",
+    "Reasoning",
+    "Planning",
+    "Causal Analysis",
+    "DriveMind Dataset"
+  ],
+  "dataset": {
+    "name": "DriveMind",
+    "foundation": "nuPlan benchmark",
+    "description": "A dataset built to facilitate causal analysis of VLM-based driving agents, combining real-world driving data with rich semantic context",
+    "size": "approximately 50,000 samples",
+    "scenarios": "61 driving scenarios",
+    "advantages": "Combines authenticity of real-world data with rich semantic context necessary for complex reasoning"
+  },
+  "methodology": {
+    "diagnostic_tool": "A training-free probe that measures an agent's reliance on priors by evaluating its planning robustness against minor input perturbations",
+    "focus": "Evaluating causal fidelity of VLM-based driving agents"
+  },
+  "problem_addressed": "Existing datasets fall short of facilitating causal analysis of VLM driving agents due to semantic limitations or sim-to-real gaps",
+  "contributions": [
+    "DriveMind dataset",
+    "Diagnostic tool for evaluating causal fidelity"
+  ],
+  "evidence_id": "EV021",
+  "year": 2025,
+  "arxiv_id": "2510.04532",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

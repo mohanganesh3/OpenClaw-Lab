@@ -1,0 +1,6 @@
+{
+  "introduction": "[2106.08846] Algorithm to Compilation Co-design: An Integrated View of Neural Network Sparsity\n\nAlgorithm to Compilation Co-design: An Integrated View of Neural Network Sparsity\n\nFu-Ming Guo\n\nFidelity",
+  "method": "wo competing goals. One goal is to expand the boundaries of functionality and performance, which has been accompanied by increasing scale in data and compute. A second goal is for new capabilities to ",
+  "results": "s remain generally relevent in transformer models for both computer vision and natural language processing. Although current-generation CPUs and GPUs do not immediately benefit from sparsity, there is",
+  "conclusion": "‖  𝐰  ‖\n\np\n\n≤  τ\n\n,\n\nsubscript\n\nminimize\n\n𝐰\n\nsuperscript  ℝ  𝑑\n\nsubscript  𝑓  0\n\n𝐰\n\nsubject to\n\nsubscript\n\nnorm  𝐰\n\n𝑝\n\n𝜏\n\n\\displaystyle\\begin{array}[]{ll}\\displaystyle\\operatorname*{\\text{mini"
+}

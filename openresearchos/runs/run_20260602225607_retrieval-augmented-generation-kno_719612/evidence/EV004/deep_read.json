@@ -1,0 +1,52 @@
+{
+  "title": "Retrieval-Free Knowledge-Grounded Dialogue Response Generation with Adapters",
+  "methodology": {
+    "approach": "Retrieval-free knowledge-grounded dialogue",
+    "base_model": "GPT-2",
+    "key_components": [
+      "Adapters inserted upon GPT-2 layers as knowledge experts",
+      "Topic model that assigns weights over knowledge experts"
+    ],
+    "architecture": "Adapters enhance response generation with help from topic model"
+  },
+  "problem_statement": {
+    "traditional_approach": "Knowledge Retrieval (from large corpus) → Knowledge Selection (most relevant) → Knowledge-augmented Generation",
+    "limitations": [
+      "Inefficient due to knowledge retrieval over large corpora",
+      "High memory resource consumption for storing knowledge corpus",
+      "Additional processing time for retrieval and selection",
+      "Significant computation overhead from adding knowledge as context"
+    ]
+  },
+  "key_innovations": [
+    "Using adapters as knowledge experts within the base language model",
+    "Eliminating explicit knowledge retrieval phase",
+    "Leveraging implicit knowledge in pre-trained language models"
+  ],
+  "results": {
+    "efficiency_improvement": "The retrieval-free approach addresses efficiency concerns of traditional KGD systems",
+    "context": "Large pre-trained language models have shown capability to carry implicit knowledge"
+  },
+  "related_work": [
+    "Dinan et al. (2019)",
+    "Chen et al. (2020)",
+    "Zhao et al. (2020)",
+    "Lian et al. (2019)",
+    "Kim et al. (2019)",
+    "Roller et al. (2020)",
+    "Madotto et al. (2020)"
+  ],
+  "applications": "Open-domain chit-chat dialogue systems",
+  "challenges": "One-to-many issue between inputs and possible outputs in open-domain chit-chat",
+  "evidence_id": "EV004",
+  "year": 2021,
+  "arxiv_id": "2105.06232",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

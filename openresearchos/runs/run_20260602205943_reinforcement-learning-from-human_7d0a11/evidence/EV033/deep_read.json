@@ -1,0 +1,34 @@
+{
+  "method_summary": "Sol-RL is a two-stage reinforcement learning framework that uses NVFP4 quantization for efficient rollout generation and BF16 precision for policy optimization, decoupling exploration from optimization.",
+  "key_innovation": "The integration of FP4 quantization for high-throughput rollouts while maintaining BF16 precision for policy optimization, achieving both efficiency and training integrity.",
+  "datasets_used": [
+    "SANA",
+    "FLUX.1",
+    "SD3.5-L"
+  ],
+  "baselines_compared": [
+    "BF16 precision pipeline"
+  ],
+  "key_results": {
+    "training_convergence_acceleration": "4.64×"
+  },
+  "best_result": "4.64× acceleration in training convergence",
+  "limitations_stated": [],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "medium",
+  "compute_required": "Not specified",
+  "can_run_on_macbook": false,
+  "evidence_id": "EV033",
+  "title": "FP4 Explore, BF16 Train: Diffusion Reinforcement Learning via Efficient Rollout Scaling",
+  "year": 2026,
+  "arxiv_id": "2604.06916",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 6025,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

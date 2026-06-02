@@ -1,0 +1,44 @@
+{
+  "paper_title": "Adapting CLIP For Phrase Localization Without Further Training",
+  "problem_statement": {
+    "annotation_issues": "Annotation process to collect training sets is expensive, labor intensive, and error-prone",
+    "pre_trained_biases": "Pre-trained components are naturally biased toward few commonly seen object categories, leading to poor performance for uncommon or unseen objects",
+    "existing_limitations": "ZSGNet remains a supervised approach requiring human annotations on phrase localization"
+  },
+  "proposed_solution": {
+    "core_approach": "Method that does not rely on any textual grounding, image classification or bounding box annotations",
+    "key_components": [
+      "Leverage CLIP (Contrastive Language-Vision Model) trained on 400M image-text pairs",
+      "Extract high-resolution pixel-wise semantic features from images",
+      "Compute per-pixel similarity scores with text queries to obtain heatmaps",
+      "Localize objects by finding bounding boxes with highest scores"
+    ],
+    "advantages": "Can immediately improve with more advanced CLIP models without extra supervision or training"
+  },
+  "datasets": [
+    "Flickr30k Entities",
+    "Visual Genome (VG)"
+  ],
+  "evaluation": {
+    "setting": "Zero-shot phrase localization following ZSGNet's zero-shot setting",
+    "results": "Outperforms ZSGNet by 5% on three out of four zero-shot splits over Flickr30k and VG",
+    "comparisons": "Achieves comparable performance in long-tailed object categories compared to no-training methods using pre-trained object detectors"
+  },
+  "contributions": [
+    "Method for textual grounding entirely from pre-trained language-vision model (CLIP) without bounding box supervision",
+    "Methods for extracting high-resolution spatial feature maps from CLIP (for both ViT and ResNet architectures)",
+    "Extensive experiments and ablation studies demonstrating effectiveness in zero-shot phrase localization"
+  ],
+  "evidence_id": "EV046",
+  "title": "Adapting CLIP For Phrase Localization Without Further Training",
+  "year": 2022,
+  "arxiv_id": "2204.03647",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

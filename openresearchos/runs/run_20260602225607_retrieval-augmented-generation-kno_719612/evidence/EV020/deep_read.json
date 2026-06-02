@@ -1,0 +1,41 @@
+{
+  "title": "RAGAPHENE: A RAG Annotation Platform with Human Enhancements and Edits",
+  "authors": [
+    "Not specified in the provided text"
+  ],
+  "year": 2025,
+  "abstract": "RAGaphene is a chat-based annotation platform for building multi-turn RAG benchmarks. It enables users to have conversations with an LLM that are grounded in existing corpora to ensure faithfulness.",
+  "methodology": {
+    "type": "RAG-based annotation platform",
+    "features": [
+      "Real-time retrieval and generation",
+      "Ability to edit both relevant passages and outputs",
+      "Integration with various retrievers and generators",
+      "Enhanced feedback mechanisms"
+    ]
+  },
+  "key_contributions": [
+    "RAGaphene: A RAG annotation chat platform with integration to many retrievers and generators",
+    "Enhanced user feedback including adjusting passage retrieval and improving/repairing responses",
+    "Real-time small-scale evaluation and analysis"
+  ],
+  "limitations_of_existing_platforms": [
+    "BasicAI, HumanSignal, LabelBox, Joko et al.: Have basic features for annotating conversational data but don't support creating conversational multi-turn RAG datasets with real-time agent response generation",
+    "First-Aid platform: Has real-time agent response generation and editing but lacks other feedback mechanisms and doesn't incorporate a retrieval component"
+  ],
+  "applications": [
+    "Building Multi-turn RAG benchmarks",
+    "Evaluating and improving RAG systems",
+    "Domain-specific use cases"
+  ],
+  "evidence_id": "EV020",
+  "arxiv_id": "2508.19272",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

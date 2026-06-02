@@ -1,0 +1,6 @@
+{
+  "introduction": "[2402.01694] ARGS: Alignment as Reward-Guided Search\n\n\\useunder\n\n\\ul\n\nARGS: Alignment as Reward-Guided Search\n\nMaxim Khanov 1* , Jirayu Burapacheep 2* , Yixuan Li 1\n\nUniversity of Wisconsin-Madison 1\n",
+  "method": "the urgent challenge of language model alignment: ensuring these models’ behaviors agree with human objectives and safety considerations  (Ngo et al.,  2023 ; Casper et al.,  2023 ) .\n\nIn recent years",
+  "results": "each decoding step, our key idea is to adjust the model’s probabilistic prediction using a reward signal. This adjustment is crucial as it enables the generated text to both  (1)\n\nmaintain the semanti",
+  "conclusion": "titative evaluations of  Args ’s performance, showcasing its superiority over existing approaches.  Args  effectively guides the outputs of the neural language model in alignment with human preference"
+}

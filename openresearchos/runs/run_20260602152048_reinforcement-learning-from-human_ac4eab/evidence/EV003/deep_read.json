@@ -1,0 +1,48 @@
+{
+  "title": "Corruption Robust Offline Reinforcement Learning with Human Feedback",
+  "authors": "Not specified in provided text",
+  "abstract": "This paper presents the first work that provides provable corruption robust offline RLHF methods. The authors design corruption robust RLHF through reduction to corruption robust offline RL problem, addressing challenges in real-world deployment of RLHF such as adversarial corruption and inherent noise in preference data.",
+  "keywords": [
+    "Reinforcement Learning from Human Feedback",
+    "Offline Reinforcement Learning",
+    "Corruption Robustness",
+    "Preference Data",
+    "Reward Model Estimation"
+  ],
+  "methodology": {
+    "approach": "Reduction to corruption robust offline RL",
+    "oracle": "R-LSVI [Zha+22]",
+    "access_type": "First-order access",
+    "assumptions": [
+      "Uniform coverage",
+      "Low relative condition number"
+    ]
+  },
+  "results": {
+    "suboptimality_gap_uniform_coverage": "O(ε^(1-o(1)))",
+    "suboptimality_gap_low_condition_number": "O(ε^(1/4))",
+    "algorithm_complexity": "O(1/(εν))"
+  },
+  "contributions": [
+    "First provable corruption robust offline RLHF methods",
+    "Addressing adversarial corruption and noise in preference data",
+    "Improved sample efficiency and safety compared to online RL approaches"
+  ],
+  "related_work": [
+    "RLHF: [CL+17, Zie+19, SO+20, OW+22, BJ+22, SDB23]",
+    "Offline RL: [Lev+20, Kid+20]",
+    "Challenges in RLHF: [Cas+23, Xue+23, CNL24]",
+    "R-LSVI: [Zha+22]"
+  ],
+  "evidence_id": "EV003",
+  "year": 2024,
+  "arxiv_id": "2402.06734",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7997,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

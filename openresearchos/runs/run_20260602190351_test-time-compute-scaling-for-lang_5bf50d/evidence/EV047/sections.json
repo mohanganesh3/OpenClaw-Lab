@@ -1,0 +1,6 @@
+{
+  "introduction": "[2312.05693] \\M: Activation-Guided Quantization for Faster Inference of LLMs on the Edge\n\n\\M :  A ctivation- G uided Quantization\n\nfor Faster  I nference of  L LMs on the  E dge\n\nXuan Shen 1 ,\nPeiyan ",
+  "method": "r, in the 8- and 4-bit scenario,  \\M  achieves an on-device speedup of up to 2.55x compared to its FP16 counterparts across multiple edge devices, marking a pioneering advancement in this domain.\n\nInt",
+  "results": "tization often has a detrimental effect on task performance, especially when the model size becomes large, due to the emergence of pronounced outliers in activations.\nExperiments done by work  (Dettme",
+  "conclusion": "r attention to shift from the first position to nearby local positions.\nBy pruning tokens, we effectively eliminate some outliers, as they typically concentrate within the same or adjacent channels of"
+}

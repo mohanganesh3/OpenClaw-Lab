@@ -1,0 +1,6 @@
+{
+  "introduction": "[2406.02900] Scaling Laws for Reward Model Overoptimization in Direct Alignment Algorithms\n\nScaling Laws for Reward Model Overoptimization in Direct Alignment Algorithms\n\nRafael Rafailov\n\nStanford Uni",
+  "method": "epoch of the dataset is completed. Through extensive empirical experimentation, this work formulates and formalizes the reward over-optimization or hacking problem for DAAs and explores its consequenc",
+  "results": "entioned RLHF procedure, recent contemporary methods for aligning LLMs circumvent the reward learning procedure, necessitating a new characterization of the over-optimization phenomena.\n\nThis new broa",
+  "conclusion": "lly, we provide a unifying view of direct alignment algorithms (DAAs) which will guide our analysis of their training dynamics in the next section.\n\n2.1  Reinforcement Learning From Human Feedback\n\nTh"
+}

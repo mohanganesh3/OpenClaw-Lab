@@ -1,0 +1,47 @@
+{
+  "title": "Probabilistic Uncertain Reward Model: A Natural Generalization of Bradley-Terry Reward Model",
+  "authors": [
+    "Not specified in the provided text"
+  ],
+  "abstract": "This paper proposes the Probabilistic Uncertain Reward Model (PURM), a probabilistic reformulation of reward modeling that intrinsically captures uncertainty from preference data. It generalizes the Bradley-Terry reward model to characterize reward distributions rather than point estimates, and introduces the Bhattacharyya Coefficient to compute uncertainty. The model addresses reward hacking in RLHF by dynamically balancing exploration and exploitation during policy training.",
+  "keywords": [
+    "Reinforcement Learning from Human Feedback",
+    "Reward Modeling",
+    "Bradley-Terry Model",
+    "Uncertainty Quantification",
+    "Reward Hacking"
+  ],
+  "introduction": {
+    "problem": "Conventional reward models based on deterministic Bradley-Terry models suffer from overconfidence when evaluating inconsistently labeled data or out-of-distribution samples, leading to reward hacking where policy optimization maximizes proxy rewards while degrading true performance.",
+    "existing_solutions": [
+      "Data-augmentation",
+      "Reward shaping",
+      "Model-ensembling",
+      "Explicit reward annotation"
+    ],
+    "gap": "Current approaches to handling uncertainty lack systematic or theoretical underpinnings, and the standard Bradley-Terry reward model collapses uncertainty into deterministic scalar values."
+  },
+  "methodology": {
+    "proposed_model": "Probabilistic Uncertain Reward Model (PURM)",
+    "key_innovation": "Generalizes the Bradley-Terry reward model to characterize reward distributions rather than point estimates",
+    "uncertainty_measure": "Bhattacharyya Coefficient to compute overlap between reward distributions",
+    "validation": "Simulations of scenarios inducing aleatoric uncertainty (inconsistent labeling) and epistemic uncertainty (OOD samples)",
+    "application": "Leverages uncertainty to dynamically balance exploration and exploitation during policy training in PPO by penalizing uncertain rewards"
+  },
+  "results": {
+    "effectiveness": "PURM generates higher uncertainty values in cases of inconsistent labeling and out-of-distribution samples",
+    "application": "Uncertainty-Aware Reinforcement Learning approach to mitigate reward hacking"
+  },
+  "conclusion": "The Probabilistic Uncertain Reward Model provides a principled approach to uncertainty quantification in reward modeling, addressing the limitations of deterministic reward models and enabling more robust scaling in RLHF for open-ended domains.",
+  "evidence_id": "EV004",
+  "year": 2025,
+  "arxiv_id": "2503.22480",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

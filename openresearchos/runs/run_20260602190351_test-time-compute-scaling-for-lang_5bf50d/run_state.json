@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "run_id": "run_20260602190351_test-time-compute-scaling-for-lang_5bf50d",
+  "topic": "test-time compute scaling for language models (cycle 1)",
+  "created_at": "2026-06-02T19:04:05.255Z",
+  "updated_at": "2026-06-02T19:40:19.878Z",
+  "current_state": "TRACE_EXPORTED",
+  "scope_classification": {
+    "label": "local_experiment",
+    "rationale": "The topic can be explored with small simulations, synthetic data, or lightweight local experiments on the Mac.",
+    "feasibility_note": "Yes, this research topic is feasible on your MacBook M4 with 36GB RAM, though you'll need to limit model sizes to around 7-13B parameters to work within memory constraints. Suitable public datasets include GLUE (for general language understanding), SQuAD (for question answering), and CNN/Daily Mail (for text summarization), all of which can be downloaded once before going offline. Expect experiment time to be approximately 1-2 days total, with 30-60 minutes for setup and model downloads, followe"
+  },
+  "search_queries": [
+    "test-time compute scaling",
+    "inference scaling methods",
+    "compute scaling techniques",
+    "LLM test-time applications",
+    "scaling applications language models",
+    "test-time compute benchmarks",
+    "inference scaling evaluation",
+    "test-time scaling limitations",
+    "inference compute constraints",
+    "alternative scaling approaches",
+    "inference optimization methods",
+    "test-time compute datasets",
+    "inference evaluation datasets",
+    "test-time scaling surveys",
+    "inference scaling review"
+  ],
+  "evidence_ids": [
+    "EV001",
+    "EV002",
+    "EV003",
+    "EV004",
+    "EV005",
+    "EV006",
+    "EV007",
+    "EV008",
+    "EV009",
+    "EV010",
+    "EV011",
+    "EV012",
+    "EV013",
+    "EV014",
+    "EV015",
+    "EV016",
+    "EV017",
+    "EV018",
+    "EV019",
+    "EV020",
+    "EV021",
+    "EV022",
+    "EV023",
+    "EV024",
+    "EV025",
+    "EV026",
+    "EV027",
+    "EV028",
+    "EV029",
+    "EV030",
+    "EV031",
+    "EV032",
+    "EV033",
+    "EV034",
+    "EV035",
+    "EV036",
+    "EV037",
+    "EV038",
+    "EV039",
+    "EV040",
+    "EV041",
+    "EV042",
+    "EV043",
+    "EV044",
+    "EV045",
+    "EV046",
+    "EV047",
+    "EV048",
+    "EV049",
+    "EV050",
+    "EV051",
+    "EV052",
+    "EV053",
+    "EV054",
+    "EV055",
+    "EV056",
+    "EV057",
+    "EV058",
+    "EV059",
+    "EV060",
+    "EV061",
+    "EV062",
+    "EV063",
+    "EV064",
+    "EV065",
+    "EV066",
+    "EV067",
+    "EV068",
+    "EV069",
+    "EV070"
+  ],
+  "parsed_papers": [],
+  "claim_graph": {
+    "claims": [],
+    "links": []
+  },
+  "research_gaps": [
+    {
+      "gap_id": "G01",
+      "text": "Traceability gap: agents may produce ideas without an auditable chain from source evidence to experiment decision.",
+      "keywords": [
+        "test-time",
+        "compute",
+        "scaling",
+        "language",
+        "models",
+        "cycle"
+      ],
+      "evidence_ids": [
+        "EV001",
+        "EV002",
+        "EV003",
+        "EV004",
+        "EV005"
+      ],
+      "testable": true,
+      "difficulty": "medium",
+      "source": "template"
+    },
+    {
+      "gap_id": "G02",
+      "text": "Review gap: simulated reviewer feedback is often generated after the fact instead of controlling whether an idea proceeds.",
+      "keywords": [
+        "language",
+        "models",
+        "cycle"
+      ],
+      "evidence_ids": [
+        "EV002",
+        "EV003",
+        "EV004",
+        "EV005",
+        "EV006"
+      ],
+      "testable": true,
+      "difficulty": "medium",
+      "source": "template"
+    },
+    {
+      "gap_id": "G03",
+      "text": "Experiment timing gap: many research agents run experiments late, after committing to an idea, rather than using cheap probes during ideation.",
+      "keywords": [],
+      "evidence_ids": [
+        "EV003",
+        "EV004",
+        "EV005",
+        "EV006",
+        "EV007"
+      ],
+      "testable": true,
+      "difficulty": "medium",
+      "source": "template"
+    },
+    {
+      "gap_id": "G04",
+      "text": "Failure memory gap: rejected ideas and failed probes are often lost instead of shaping the next search iteration.",
+      "keywords": [],
+      "evidence_ids": [
+        "EV004",
+        "EV005",
+        "EV006",
+        "EV007",
+        "EV008"
+      ],
+      "testable": true,
+      "difficulty": "medium",
+      "source": "template"
+    },
+    {
+      "gap_id": "G05",
+      "text": "Venue-fit gap: agent outputs often lack explicit comparison to workshop and conference expectations.",
+      "keywords": [],
+      "evidence_ids": [
+        "EV005",
+        "EV006",
+        "EV007",
+        "EV008",
+        "EV009"
+      ],
+      "testable": true,
+      "difficulty": "medium",
+      "source": "template"
+    }
+  ],
+  "idea_tree": [],
+  "reviewer_scores": [],
+  "experiment_candidates": [],
+  "approval_status": {},
+  "micro_probe_results": [],
+  "probe_results": [],
+  "ablation_results": [],
+  "mvp_results": [],
+  "failed_ideas": [],
+  "validation_results": [],
+  "paper_readiness_level": "RRL-0",
+  "final_output_path": "/Users/mohanganesh/OpenClaw-Lab/openresearchos/runs/run_20260602190351_test-time-compute-scaling-for-lang_5bf50d/research_failure_report.md",
+  "history": [
+    {
+      "at": "2026-06-02T19:04:05.255Z",
+      "state": "TOPIC_SCOPED",
+      "detail": "The topic can be explored with small simulations, synthetic data, or lightweight local experiments on the Mac."
+    },
+    {
+      "at": "2026-06-02T19:04:05.255Z",
+      "state": "SEARCH_PLAN_CREATED",
+      "detail": "15 queries created (LLM-generated)."
+    },
+    {
+      "at": "2026-06-02T19:04:09.127Z",
+      "state": "LITERATURE_DISCOVERY_RUNNING",
+      "detail": "Starting structured literature discovery."
+    },
+    {
+      "at": "2026-06-02T19:04:24.765Z",
+      "state": "EVIDENCE_LOCKED",
+      "detail": "70 papers found (target was 50+)."
+    },
+    {
+      "at": "2026-06-02T19:20:00.182Z",
+      "state": "RESEARCH_MAP_READY",
+      "detail": "Research map generated."
+    },
+    {
+      "at": "2026-06-02T19:20:00.184Z",
+      "state": "GAPS_IDENTIFIED",
+      "detail": "5 gaps identified."
+    },
+    {
+      "at": "2026-06-02T19:40:18.918Z",
+      "state": "PAPER_READINESS_REVIEW",
+      "detail": "research_failure_report_required"
+    },
+    {
+      "at": "2026-06-02T19:40:18.922Z",
+      "state": "PAPER_DRAFTED_OR_STOPPED",
+      "detail": "Failure report produced."
+    },
+    {
+      "at": "2026-06-02T19:40:18.922Z",
+      "state": "VENUE_FIT_DONE",
+      "detail": "Venue fit written."
+    },
+    {
+      "at": "2026-06-02T19:40:18.922Z",
+      "state": "TRACE_EXPORTED",
+      "detail": "Trace export command written."
+    }
+  ],
+  "discovery_errors": [],
+  "method_matrix": []
+}
