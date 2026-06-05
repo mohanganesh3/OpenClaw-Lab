@@ -1,0 +1,6 @@
+{
+  "introduction": "[2407.05470] Bayesian Finite Mixture Models\n\nBayesian Finite Mixture Models\n\nBettina Grün\n WU Vienna University\n of Economics and Business\n&amp;Gertraud Malsiner-Walli\n WU Vienna University\n of Econom",
+  "method": "ion using MCMC and posterior inference are discussed for this\nexample assuming the number of components to be known as well as\nunknown.\n\n\\Keywords cluster analysis, finite mixture, label switching, Ma",
+  "results": "puting power. Routine estimation of different kinds of\nmixture models has become feasible using the expectation-maximization\nalgorithm  (Dempster  et al. ,  1977 )  for maximum likelihood\nestimation a",
+  "conclusion": "routinely applied yet because of uncertainty regarding the\nspecification of suitable priors and lack of understanding of their\nimpact  (Aitkin,  2001 ) . Also issues with estimation as well as\ninferen"
+}

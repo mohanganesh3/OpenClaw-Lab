@@ -1,0 +1,26 @@
+{
+  "method_summary": "The paper describes merging discrete line segments detected from P&IDs using computer vision to create digitized diagrams showing interconnections between process equipment, instrumentation, fluid flow, and control signals.",
+  "key_innovation": "Integration approach for creating continuous instrument connectivity from discrete line segments in digitized P&IDs.",
+  "datasets_used": [],
+  "baselines_compared": [],
+  "key_results": {},
+  "best_result": "",
+  "limitations_stated": [],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "low",
+  "compute_required": "unknown",
+  "can_run_on_macbook": false,
+  "evidence_id": "EV017",
+  "title": "Advanced Integration of Discrete Line Segments in Digitized P&ID for Continuous Instrument Connectivity",
+  "year": 2025,
+  "arxiv_id": "2505.11976",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 5363,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

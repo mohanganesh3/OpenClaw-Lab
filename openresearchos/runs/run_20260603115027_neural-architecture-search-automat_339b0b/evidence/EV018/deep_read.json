@@ -1,0 +1,33 @@
+{
+  "title": "Searching for Network Width With Bilaterally Coupled Network",
+  "main_method": "Bilaterally Coupled Network (BCNet)",
+  "key_techniques": [
+    "Prior initial population sampling",
+    "Stochastic complementary strategy",
+    "Evolutionary search"
+  ],
+  "benchmark": "Channel-Bench-Macro",
+  "network_structure": "One-shot supernet",
+  "datasets": [
+    "CIFAR-10",
+    "ImageNet"
+  ],
+  "key_results": {
+    "efficientnet_b0_top1_accuracy": "77.53% on ImageNet",
+    "improvement_over_baseline": "0.65% improvement over original EfficientNet-B0 setting",
+    "performance_on_benchmarks": "State-of-the-art or competing performance on CIFAR-10 and ImageNet"
+  },
+  "problem_addressed": "Training unfairness among channels in one-shot supernets when using unilaterally augmented principles",
+  "solution": "Proposed bilaterally coupled principle to ensure fair training of channels in supernets",
+  "evidence_id": "EV018",
+  "year": 2022,
+  "arxiv_id": "2203.13714",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

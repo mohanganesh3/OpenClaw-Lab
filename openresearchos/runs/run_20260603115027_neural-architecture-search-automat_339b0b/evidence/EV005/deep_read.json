@@ -1,0 +1,41 @@
+{
+  "title": "PhaseNAS: Language-Model Driven Architecture Search with Dynamic Phase Adaptation",
+  "methodology": {
+    "problem": "Existing NAS methods use static LLM configurations throughout the search process, leading to resource mismatch and inefficiency.",
+    "keyIssues": [
+      "Resource Mismatch in Search Phases",
+      "Static Resource Allocation",
+      "Ambiguous Architecture Representation"
+    ],
+    "solution": "PhaseNAS - a dynamic, LLM-based neural architecture search framework",
+    "approach": "Two-phase approach with broad exploration followed by refinement",
+    "phaseTransition": "Guided by real-time score thresholds"
+  },
+  "applications": [
+    "Lightweight classification tasks",
+    "Complex perception tasks like object detection"
+  ],
+  "baseline": "YOLOv8",
+  "contributions": [
+    {
+      "name": "Phase-Aware Dynamic Search",
+      "description": "A phase-aware controller that adaptively alternates between broad exploration and focused refinement, guided by the distribution of top-performing architectures."
+    },
+    {
+      "name": "Unified Architecture Template Language",
+      "description": "A structured, parameter-based template language for architecture representation."
+    }
+  ],
+  "novelty": "Extends LLM-based NAS to object detection tasks, which is different from prior works that mainly focus on image classification.",
+  "evidence_id": "EV005",
+  "year": 2025,
+  "arxiv_id": "2507.20592",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

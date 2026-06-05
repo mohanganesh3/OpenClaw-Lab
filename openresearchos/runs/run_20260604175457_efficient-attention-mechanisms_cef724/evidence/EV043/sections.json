@@ -1,0 +1,6 @@
+{
+  "introduction": "[2506.05344] SparseMM: Head Sparsity Emerges from Visual Concept Responses in MLLMs\n\nSparseMM: Head Sparsity Emerges from Visual Concept Responses in MLLMs\n\nJiahui Wang 1 ,  Zuyan Liu 1,2\n\n1\n\n1  footn",
+  "method": "symmetric budgets to LLM heads based on their importance for visual tokens, achieving better trade-off under limited computational resources.\n\nAutoregressive large language models (LLMs)  [  39  ,\n\n37",
+  "results": "iverse LLM architectures(e.g., Vicuna  [  8  ]  and Qwen2  [  41  ] ) and generalize to multiple attention paradigms such as multi-head attention (MHA)  [  49  ]  and grouped query attention (GQA)  [ ",
+  "conclusion": "visual scores, while non-visual heads undergo aggressive compression via a hybrid strategy combining 1)  Score-Preferred Cache  (allocating cache budget based on visual head scores), 2)  Uniform-Based"
+}

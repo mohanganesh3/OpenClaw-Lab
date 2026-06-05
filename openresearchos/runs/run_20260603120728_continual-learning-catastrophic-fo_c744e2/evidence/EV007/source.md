@@ -1,0 +1,10 @@
+# EV007: Continual‐learning‐based framework for structural damage recognition
+
+URL: https://www.semanticscholar.org/paper/002f43e8cc5711fc72d3f790fa2d5e991e28fbcf
+Year: 2022
+Source: semantic_scholar
+Arxiv: 2408.15513
+
+## Abstract
+
+Existing convolutional neural network (CNN)‐based methods have limitations in long‐term multi‐damage recognition for civil infrastructures. Owing to catastrophic forgetting, the recognition accuracy of such networks decreases when structural damage types keep increasing progressively, not to mention other issues such as an increased number of model parameters and data storage. Thus, this study proposes a continual‐learning‐based damage recognition model (CLDRM) for the recognition of multi‐damage and relevant structural components in civil infrastructures. By integrating the Learning without Forgetting (LwF) method into the residual network with 34 layers, the CLDRM can be continuously trained for multiple recognition tasks without using the data from old tasks. The performance of the CLDRM is experimentally validated through four recognition tasks, namely, damage level, spalling check, component‐type determination, and damage‐type determination, and it is compared to the performance of a conventional CNN with feature extraction, fine‐tuning, duplication and fine‐tuning, and joint training, respectively. In addition, the effects of changes in three parameters, namely, distillation temperature, feature correlation between tasks, and learning order, are further investigated to explore the optimal model parameters and applicable scenarios in multi‐damage recognition. CLDRM gradually aggregates the features of continuous tasks through knowledge distillation, which provides higher recognition accuracy for both old and new tasks while maintaining the advantages of computational cost and data storage. The research outcome is expected to meet the long‐term requirements of handling progressively increasing multi‐type damage recognition tasks for civil infrastructures.

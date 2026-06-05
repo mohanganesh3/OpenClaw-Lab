@@ -1,0 +1,6 @@
+{
+  "introduction": "[2006.05181] Automated Design Space Exploration for optimised Deployment of DNN on Arm Cortex-A CPUs\n\nAutomated Design Space Exploration for optimised Deployment of DNN on Arm Cortex-A CPUs\n\nMiguel de",
+  "method": "BLAS floating-point implementation.\n\nI\n\nIntroduction\n\nDeep learning has grown quickly in the last years, achieving remarkable results in computer vision  [ 1 ,  2 ,  3 ]  and speech recognition  [ 4 ,",
+  "results": "d combining the wide variety of design options usually results in a sub-optimal deployment solution  [ 19 ] .\n\nThe objective of this work is to ease the deployment of pre-trained DNNs for industrial a",
+  "conclusion": "here are several goals for which one may choose to optimise. For example, one might decide to sacrifice neural network inference latency to reduce overall power consumption, or to stay within a more l"
+}

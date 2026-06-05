@@ -1,0 +1,6 @@
+{
+  "introduction": "[2605.05628] Towards Compute-Aware In-Switch Computing for LLMs Tensor-Parallelism on Multi-GPU Systems\n\nSkip to main content\n\nLearn about arXiv becoming an independent nonprofit.\n\nWe gratefully ackno",
+  "method": "accelerates collective operations by reducing redundant data transfer, its communication-centric design philosophy introduces the mismatch between its communication mode and the memory semantic requir",
+  "results": "rXiv:2605.05628v1  [cs.AR]  for this version)\n\n&nbsp;\n\nhttps://doi.org/10.48550/arXiv.2605.05628\n\nFocus to learn more\n\narXiv-issued DOI via DataCite\n\nSubmission history  From: Qijun Zhang [ view email",
+  "conclusion": "GotitPub Toggle\n\nGotit.pub\n\n( What is GotitPub? )\n\nHuggingface Toggle\n\nHugging Face\n\n( What is Huggingface? )\n\nScienceCast Toggle\n\nScienceCast\n\n( What is ScienceCast? )\n\nDemos\n\nDemos\n\nReplicate Toggle"
+}

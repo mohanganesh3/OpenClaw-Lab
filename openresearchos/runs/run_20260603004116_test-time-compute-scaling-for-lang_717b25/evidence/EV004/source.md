@@ -1,0 +1,10 @@
+# EV004: Exploring the application of machine‐learning techniques in the next generation of long‐term hydropower‐thermal scheduling
+
+URL: https://www.semanticscholar.org/paper/00095fcd109f44eb4556be300e203702f2a05ea1
+Year: 2024
+Source: semantic_scholar
+Arxiv: n/a
+
+## Abstract
+
+This paper introduces a shape‐based inflow scenarios reduction framework applied in long‐term hydro‐thermal scheduling. This scheduling problem involves strategically managing the limited stored hydro energy in coordination with the electricity system. The scenario fan problem, selected as a long‐term hydro‐thermal scheduling approach, can effectively represent the individual hydropower plants and their short‐term flexibility within the long‐term scheduling process, making it well‐suited for capturing the disaggregated physical characteristics of hydro stations. However, the computational burden of scenario fan problem increases due to the complexity of the cascaded system and the large number of inflow scenarios. To tackle these challenges, a machine learning clustering method is developed for extracting shape‐based features to capture the energy and shape attributes of hydro inflows. A comparative analysis was conducted to evaluate the effectiveness of the proposed method, comparing it with four established clustering methods. This evaluation was carried out on a hydro‐thermal test case, utilizing both in‐sample and out‐of‐sample data analysis. The findings demonstrate that the proposed framework outperforms other methods in terms of computational time by 42.6% and optimal reservoir trajectories by 12.1% considering K‐means using Euclidean distance as the benchmark. Additionally, this study showcases the feasibility of performing long‐term hydro‐thermal scheduling at a granular level, with detailed topological information and a shorter time scale. This expanded approach opens up new possibilities for addressing the integration of renewable energy resources within the realm of long‐term hydro‐thermal scheduling.

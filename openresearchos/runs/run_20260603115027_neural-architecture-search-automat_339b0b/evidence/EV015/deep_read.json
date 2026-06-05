@@ -1,0 +1,50 @@
+{
+  "title": "LeMo-NADe: Multi-Parameter Neural Architecture Discovery with LLMs",
+  "method": {
+    "framework_name": "LeMo-NADe (Large Language Model guided Neural Architecture Discovery)",
+    "approach": "Search-space agnostic neural architecture discovery",
+    "key_components": [
+      "Large Language Model (LLM)",
+      "Expert system with configurable rules and user-defined metrics"
+    ],
+    "process": "Iterative approach with progressive refinement of generated neural architecture"
+  },
+  "results": {
+    "datasets": [
+      "CIFAR-10",
+      "CIFAR-100",
+      "ImageNet16-120"
+    ],
+    "performance": {
+      "CIFAR-10": "89.41% test accuracy",
+      "CIFAR-100": "67.90% test accuracy",
+      "ImageNet16-120": "31.02% test accuracy"
+    },
+    "efficiency": {
+      "LLM_backend": "GPT-4 Turbo (gpt-4-1106-preview)",
+      "training_time_CIFAR100": "4.81 hours",
+      "energy_consumption": "0.50 kWh-PUE"
+    },
+    "capabilities": [
+      "Prioritizing metrics other than accuracy",
+      "Creating novel neural architectures from scratch"
+    ]
+  },
+  "contributions": [
+    "Formalized and designed a search-space agnostic neural architecture discovery framework (LeMo-NADe) leveraging LLMs",
+    "Proposed an expert system with rules and metrics to drive LLMs toward discovering different neural architectures",
+    "Implemented LeMo-NADe as a highly configurable/efficient tool",
+    "Evaluated LeMo-NADe using CIFAR-10, CIFAR-100, and ImageNet16-120 datasets"
+  ],
+  "evidence_id": "EV015",
+  "year": 2024,
+  "arxiv_id": "2402.18443",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

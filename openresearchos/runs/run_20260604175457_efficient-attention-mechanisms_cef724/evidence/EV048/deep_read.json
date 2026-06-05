@@ -1,0 +1,77 @@
+{
+  "paper_title": "Transductive Learning for Unsupervised Text Style Transfer",
+  "metadata": {
+    "authors": "Not specified in provided text",
+    "publication_year": "Not specified in provided text",
+    "abstract_summary": "The paper addresses the challenge of unsupervised text style transfer, where the lack of parallel data hinders the performance of existing inductive methods. It critiques these methods for failing to learn general style rules, leading to inconsistent outputs. The authors propose a novel transductive learning approach, TSST, which uses a retriever to find relevant samples and an attention-based encoder-decoder to transfer style from these specific cases, avoiding the need for a general rule.",
+    "keywords": [
+      "Text Style Transfer",
+      "Unsupervised Learning",
+      "Transductive Learning",
+      "Inductive Learning",
+      "TSST"
+    ]
+  },
+  "methodology": {
+    "problem_statement": "Unsupervised text style transfer is difficult because inductive learning methods cannot learn accurate, general style transfer rules without large-scale parallel data, resulting in inconsistent text (e.g., 'the salad is rude').",
+    "core_idea": "Apply transductive learning, which reasons from specific cases to specific cases, instead of learning a general rule. The style of a target sentence is inferred from similar, reference sentences.",
+    "proposed_model": {
+      "name": "T ransductive S tyle S ransfer (TSST)",
+      "components": [
+        {
+          "name": "Retriever",
+          "function": "To find specific, similar samples that are beneficial for the style transfer of the current input text."
+        },
+        {
+          "name": "Attention-based Encoder-Decoder Framework",
+          "function": "To combine the style expressions from the retrieved samples and complete the style transfer process for the input text."
+        }
+      ]
+    },
+    "related_work_critique": {
+      "inductive_methods": {
+        "description": "Methods that try to find general style transfer rules, represented by embeddings, decoder parameters, or classifier parameters.",
+        "examples": [
+          "Embedding-based methods (e.g., Shen et al., 2017; Lample et al., 2019)",
+          "Decoder-based methods (e.g., Prabhumoye et al., 2018; Fu et al., 2018)",
+          "Classifier-based methods (e.g., Wang et al., 2019; Liu et al., 2020)"
+        ],
+        "limitation": "Fail in unsupervised settings due to the lack of parallel data to learn a general rule."
+      }
+    }
+  },
+  "results_and_findings": {
+    "motivation_for_new_method": "Inductive methods were shown to fail, producing severe inconsistencies like 'the salad is rude' because a perfect style is highly dependent on context and hard to generalize without parallel data.",
+    "proposed_solution_benefits": "The transductive approach (TSST) aims to overcome this by leveraging specific, contextually relevant samples for each transfer task, thus avoiding the need for a single general rule."
+  },
+  "key_references": [
+    "Vapnik, 1998",
+    "Joachims et al., 1999",
+    "Hu et al., 2017",
+    "Shen et al., 2017",
+    "Zhou et al., 2018",
+    "Niu and Bansal, 2018",
+    "Su et al., 2021",
+    "Jain et al., 2019",
+    "Prabhumoye et al., 2018",
+    "Fu et al., 2018",
+    "Luo et al., 2019",
+    "Gong et al., 2019",
+    "Krishna et al., 2020",
+    "Wang et al., 2019",
+    "Liu et al., 2020",
+    "Mai et al., 2020"
+  ],
+  "evidence_id": "EV048",
+  "title": "Transductive Learning for Unsupervised Text Style Transfer",
+  "year": 2021,
+  "arxiv_id": "2109.07812",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

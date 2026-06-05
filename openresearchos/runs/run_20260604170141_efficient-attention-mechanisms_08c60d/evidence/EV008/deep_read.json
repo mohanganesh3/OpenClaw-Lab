@@ -1,0 +1,33 @@
+{
+  "title": "Spiking Vision Transformer with Saccadic Attention",
+  "authors": "Not specified in provided text",
+  "publication_year": "Not specified in provided text",
+  "abstract": "This paper proposes a novel approach that combines Spiking Neural Networks (SNNs) with Vision Transformers (ViTs) and incorporates saccadic attention mechanisms. It addresses the limitations of existing SNN-based ViT models that still rely on energy-intensive operations by introducing a Saccadic Spike Self-Attention mechanism tailored to the spatio-temporal characteristics of SNNs.",
+  "methodology": "The paper introduces a Saccadic Spike Self-Attention mechanism that is inspired by biological saccadic mechanisms in vision systems. This approach aims to leverage the energy efficiency of SNNs while maintaining the high performance of ViTs.",
+  "key_contributions": [
+    "Introduction of a novel Saccadic Spike Self-Attention mechanism",
+    "Addressing the limitations of existing SNN-based ViT models",
+    "Incorporating biological inspiration from saccadic mechanisms in vision systems",
+    "Focusing on both spatial and temporal aspects of SNNs"
+  ],
+  "related_work": [
+    "Metaformer",
+    "Spike-driven V2",
+    "SpikingResformer"
+  ],
+  "applications": [
+    "Image classification",
+    "Object detection"
+  ],
+  "evidence_id": "EV008",
+  "year": 2025,
+  "arxiv_id": "2502.12677",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

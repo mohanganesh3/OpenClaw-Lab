@@ -1,0 +1,37 @@
+{
+  "title": "Sparse Imagination for Efficient Visual World Model Planning",
+  "method": {
+    "concept": "Sparse imagination",
+    "description": "Accelerates world model inference by using only a sparse subset of visual tokens during forward prediction",
+    "key_insight": "ViT-based image representations contain redundancies - not all patch tokens are necessary for forward prediction or decision making",
+    "mechanism": "Random dropout-based token selection mechanism",
+    "training_approach": "Randomized grouped attention to accommodate dynamic token selection",
+    "benefit": "Reduces computational cost while maintaining competitive performance"
+  },
+  "results": {
+    "performance": "Achieves substantial inference speedup while preserving competitive task performance across diverse visual control tasks",
+    "comparison": "Performs comparably to or better than sophisticated token selection and merging methods",
+    "analysis": "Provides experimental analysis explaining operational principles behind the sparse imagination framework"
+  },
+  "related_work": {
+    "world_models": {
+      "evolution": "Transitioned from computationally heavy pixel-level models to latent dynamics models like PlaNet and Dreamer",
+      "limitation": "Most existing models compress entire images into low-dimensional vectors, struggling to capture fine-grained spatial information necessary for high-precision tasks"
+    },
+    "visual_representations": {
+      "trend": "Leverages powerful pre-trained visual encoders for rich state representations",
+      "application": "Effective for representation learning in decision making, with methods like DINO features enabling strong generalization on control tasks"
+    }
+  },
+  "evidence_id": "EV050",
+  "year": 2025,
+  "arxiv_id": "2506.01392",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

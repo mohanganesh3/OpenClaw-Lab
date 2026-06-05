@@ -1,0 +1,10 @@
+# EV016: An Alternative Trajectory for Generative AI
+
+URL: https://www.semanticscholar.org/paper/0c58800e3aee3501925e138934a48ca5ed45fdc5
+Year: 2026
+Source: semantic_scholar
+Arxiv: 2603.14147
+
+## Abstract
+
+The generative artificial intelligence (AI) ecosystem is undergoing rapid transformations that threaten its sustainability. As models transition from research prototypes to high-traffic products, the energetic burden has shifted from one-time training to recurring, unbounded inference. This is exacerbated by reasoning models that inflate compute costs by orders of magnitude per query. The prevailing pursuit of artificial general intelligence through scaling of monolithic models is colliding with hard physical constraints: grid failures, water consumption, and diminishing returns on data scaling. This trajectory yields models with impressive factual recall but struggles in domains requiring in-depth reasoning, possibly due to insufficient abstractions in training data. Current large language models (LLMs) exhibit genuine reasoning depth only in domains like mathematics and coding, where rigorous, pre-existing abstractions provide structural grounding. In other fields, the current approach fails to generalize well. We propose an alternative trajectory based on domain-specific superintelligence (DSS). We argue for first constructing explicit symbolic abstractions (knowledge graphs, ontologies, and formal logic) to underpin synthetic curricula enabling small language models to master domain-specific reasoning without the model collapse problem typical of LLM-based synthetic data methods. Rather than a single generalist giant model, we envision"societies of DSS models": dynamic ecosystems where orchestration agents route tasks to distinct DSS back-ends. This paradigm shift decouples capability from size, enabling intelligence to migrate from energy-intensive data centers to secure, on-device experts. By aligning algorithmic progress with physical constraints, DSS societies move generative AI from an environmental liability to a sustainable force for economic empowerment.

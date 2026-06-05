@@ -1,0 +1,49 @@
+{
+  "paper_title": "Sparse Multi-Modal Transformer with Masking for Alzheimer's Disease Classification",
+  "application": "Alzheimer's Disease (AD) Classification",
+  "problem_statement": {
+    "challenge_1": "Limited size of high-quality medical datasets, especially for early-stage AD and MCI.",
+    "challenge_2": "Clinical data is heterogeneous and frequently incomplete, with missing modalities being common."
+  },
+  "baseline_model": {
+    "name": "Cascaded Multi-Modal Mixing Transformer (3MT)",
+    "limitations": [
+      "Computational complexity scales quadratically with sequence length (𝒪(n²)).",
+      "Lacks explicit mechanisms to address missing modalities."
+    ]
+  },
+  "proposed_model": {
+    "name": "Sparse Multi-Modal Transformer with Masking (SMMT)",
+    "innovations": [
+      "A cluster-based sparse attention mechanism to reduce computational cost.",
+      "A modality-wise masking strategy to improve generalization by simulating missing modalities."
+    ]
+  },
+  "data_modalities": [
+    "Structural MRI",
+    "Cognitive scores",
+    "Genetic markers"
+  ],
+  "dataset": "ADNI dataset",
+  "results": {
+    "accuracy_full_data": "97.05%",
+    "accuracy_low_data": {
+      "value": "84.96%",
+      "condition": "using only 20% of the data"
+    },
+    "energy_efficiency_improvement": "40.4% reduction in training energy consumption compared to 3MT."
+  },
+  "related_work_summary": "Early approaches for AD diagnosis relied on single-modality data (e.g., structural MRI) using CNNs or support vector machines. Recent advances use deep learning for multi-modal data.",
+  "evidence_id": "EV018",
+  "title": "Sparse Multi-Modal Transformer with Masking for Alzheimer's Disease Classification",
+  "year": 2025,
+  "arxiv_id": "2512.14491",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

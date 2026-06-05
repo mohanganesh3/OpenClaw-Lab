@@ -1,0 +1,62 @@
+{
+  "title": "GRIP: In-Parameter Graph Reasoning through Fine-Tuning Large Language Models",
+  "keywords": [
+    "Graph Learning",
+    "Graph Algorithm",
+    "Test Time Adaptation",
+    "Large Language Models"
+  ],
+  "method": {
+    "name": "GRIP (Graph Reasoning In-Parameterization)",
+    "description": "A framework that equips LLMs with the ability to internalize complex relational information from graphs through carefully designed fine-tuning tasks",
+    "technique": "Parameter-Efficient Fine-Tuning (PEFT) using LoRA (Low-Rank Adaptation)",
+    "key_features": [
+      "Knowledge is stored within lightweight LoRA parameters",
+      "Fine-tuned LLM can perform graph-related tasks without requiring access to the original graph at inference time",
+      "Inspired by in-parameter knowledge injection for test-time adaptation of LLMs"
+    ]
+  },
+  "introduction": {
+    "context": "Large Language Models (LLMs) like ChatGPT and DeepSeek have revolutionized AI by demonstrating remarkable generalization capabilities across various downstream tasks",
+    "challenge": "Tasks involving intricate data structures like graphs are difficult to leverage with LLMs",
+    "existing_approaches": [
+      {
+        "type": "Converting graphs to text sequences",
+        "examples": [
+          "NLGraph",
+          "instructGLM",
+          "langGFM"
+        ],
+        "limitations": [
+          "Token overhead and degraded inference performance",
+          "Overhead scales linearly with number of queries",
+          "Large graphs can exceed LLM context window",
+          "Limitations in solving graph tasks under node permutation"
+        ]
+      },
+      {
+        "type": "Integrating specialized modules like GNNs",
+        "examples": [
+          "goFA",
+          "GraphGPT",
+          "LLAGA"
+        ],
+        "limitations": [
+          "Requires careful model design and alignment between language and graph modalities",
+          "Requires modifications to the model, preventing use of common acceleration techniques"
+        ]
+      }
+    ]
+  },
+  "evidence_id": "EV007",
+  "year": 2025,
+  "arxiv_id": "2511.07457",
+  "full_text_tool": "arxiv_html2_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

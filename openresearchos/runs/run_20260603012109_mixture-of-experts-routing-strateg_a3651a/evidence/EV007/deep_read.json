@@ -1,0 +1,56 @@
+{
+  "paper_title": "Hash Layers For Large Sparse Models",
+  "methodology": {
+    "problem": "Routing strategies in Mixture-of-Experts (MoE) models",
+    "challenges": [
+      "Poor routing leading to non-specialized experts",
+      "Overly specialized experts causing overfitting",
+      "Computational inefficiency of dense softmax approaches",
+      "Load balancing issues in existing methods"
+    ],
+    "existing_approaches": [
+      {
+        "name": "Switch Transformers",
+        "description": "Uses softmax over token's hidden state but requires load balancing terms"
+      },
+      {
+        "name": "BASE Layers",
+        "description": "Employs linear assignment algorithm to address load balancing"
+      }
+    ],
+    "proposed_solution": {
+      "name": "Hash-based routing strategy",
+      "description": "Tokens are routed to fixed expert modules based on their hash",
+      "advantages": [
+        "No extra parameters required",
+        "No change to objective function or assignment algorithm",
+        "Simple, robust, fast, and easy to implement"
+      ]
+    }
+  },
+  "results": {
+    "effectiveness": "Effective on multiple datasets",
+    "comparisons": "Compares favorably to both Switch Transformers and BASE Layers",
+    "applications": "Advocated for use in settings with limited compute budgets where only one shot at training large models is possible"
+  },
+  "technical_details": {
+    "setting": "Same as prior work [11, 8, 10] where a feedforward network (FFN) in a Transformer is replaced by its MoE version",
+    "input": "Input sequences {x₁, x₂, ..., x_T} of T tokens",
+    "processing": "Representations are computed in parallel by a standard Transformer"
+  },
+  "key_figure": {
+    "description": "Overview of the Hash Layer showing tokens routed to fixed expert modules based on their hash"
+  },
+  "evidence_id": "EV007",
+  "title": "Hash Layers For Large Sparse Models",
+  "year": 2021,
+  "arxiv_id": "2106.04426",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

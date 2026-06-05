@@ -1,0 +1,46 @@
+{
+  "title": "Multi-dimensional Autoscaling of Processing Services: A Comparison of Agent-based Methods",
+  "keywords": [
+    "autoscaling",
+    "edge computing",
+    "cloud computing",
+    "agent-based methods",
+    "multi-dimensional scaling",
+    "service level objectives"
+  ],
+  "methodology": {
+    "type": "Comparison study",
+    "approaches": [
+      "Active Inference agent (AIF)",
+      "Deep Active Inference agent (DACI)",
+      "Deep Q-Network agent (DQN)",
+      "Analysis of Structural Knowledge (ASK)"
+    ],
+    "environment": "Edge device with two processing services"
+  },
+  "applications": [
+    "Video stream inference (using Yolov8 model)",
+    "QR code reading (using OpenCV2)"
+  ],
+  "key_contributions": [
+    "Introducing an agent-based autoscaling approach for Edge and CC systems",
+    "Allowing scaling policies tailored to individual services",
+    "Enabling building composite and customizable scaling policies"
+  ],
+  "challenges_addressed": [
+    "Resource-constrained computing hardware at Edge and CC",
+    "Infeasibility of traditional Cloud-based autoscaling in resource-limited environments",
+    "Need for flexible scaling behavior in multiple elasticity dimensions"
+  ],
+  "evidence_id": "EV047",
+  "year": 2025,
+  "arxiv_id": "2506.10420",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

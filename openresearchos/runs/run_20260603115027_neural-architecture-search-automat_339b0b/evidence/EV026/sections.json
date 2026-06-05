@@ -1,0 +1,6 @@
+{
+  "introduction": "[2107.12917] Experiments on Properties of Hidden Structures of Sparse Neural Networks\n\nlabel=pruning]content/bib-pruning.bib\n\nExperiments on Properties of Hidden Structures of Sparse Neural Networks\n\n",
+  "method": "is capable of universal approximation  [ 17 ] , but as soon as there exists a deeper structure, there naturally occurs sparsity.\n\nClearly, the structure between the input domain and the first hidden l",
+  "results": "ral networks\n\nf\n\n𝑓\n\nf\n\nwith a low proportion of connectivity\n\nξ  ​\n\n(  f  )\n\n𝜉  𝑓\n\n\\xi(f)\n\nwith respect to all possible connections.\n\nSparsity\n\nGiven a vector\n\nx  ∈\n\nℝ  d\n\n𝑥\n\nsuperscript  ℝ  𝑑\n\nx",
+  "conclusion": "\udc65\n\n𝐵\n\n\\sigma(Wx+B)\n\nextended with transformations for skip-layer connections such that\n\nz  l\n\n=\n\n∑\n\ns  =  1\n\nl  −  1\n\nW\n\ns  →  l\n\n⋅\n\na  s\n\n+\n\nB  l\n\nsuperscript  𝑧  𝑙\n\nsuperscript\n\nsubscript\n\n𝑠  1\n"
+}

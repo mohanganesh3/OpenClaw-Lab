@@ -1,0 +1,46 @@
+{
+  "title": "TeLLMe v2: An Efficient End-to-End Ternary LLM Prefill and Decode Accelerator with Table-Lookup Matmul on Edge FPGAs",
+  "authors": "Not explicitly listed in provided text",
+  "conference": "Not specified in provided text",
+  "paper_type": "Research paper on hardware acceleration for LLMs",
+  "key_contributions": [
+    "TeLLMe v2: An accelerator for ternary LLM inference on edge FPGAs",
+    "Table-lookup matrix multiplication approach for ternary quantization",
+    "Support for both prefill and decoding stages",
+    "Fused attention operation for prefill stage",
+    "Resource-efficient specialized decoding stage attention"
+  ],
+  "performance_metrics": {
+    "decoding_throughput": "Up to 25 tokens/s",
+    "time_to_first_token": "0.45s to 0.96s for 64-128 token prompts",
+    "power_budget": "5W"
+  },
+  "technical_approach": {
+    "quantization": "Ternary quantization (-1, 0, +1)",
+    "matrix_multiplication": "Table-lookup (TL) matrix multiplication",
+    "attention_mechanism": "Fused attention operations",
+    "dataflow": "Disaggregated prefill/decoding dataflows",
+    "optimization": "Streaming fusion of dequantization and quantization"
+  },
+  "target_hardware": "AMD Kria KV260 FPGAs",
+  "supported_precision": {
+    "weights": "1.58-bit (ternary)",
+    "activations": "8-bit"
+  },
+  "related_work": [
+    "BitNet for 1-bit weights",
+    "BitNet-1.58 and DeepSeek for ternary quantization",
+    "LUTNET, SUMLUTNET, and TLMAC for table-lookup techniques"
+  ],
+  "evidence_id": "EV027",
+  "year": 2025,
+  "arxiv_id": "2510.15926",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

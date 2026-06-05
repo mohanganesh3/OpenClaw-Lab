@@ -1,0 +1,6 @@
+{
+  "introduction": "[2509.04154] Attention as an Adaptive Filter\n\nAttention as an Adaptive Filter\n\nPeter Racioppo\n\nIndependent Researcher, formerly UCLA\n\npcracioppo@ucla.edu\n\n(October 6, 2025)\n\nContents\n\n1  Introduction\n",
+  "method": "r\n\nA.4  Adaptive Filtering\n\nA.5  The Attention Mechanism\n\nA.6  State Space Models\n\nB  Additional Material\n\nB.1  Separable Approximation of the Full Precision Kernel\n\nB.2  Approximating the Batch MLE w",
+  "results": "capture stochasticity and uncertainty.\n\nOur goal is to bridge these two paradigms. We view self-attention as a form of filtering: it selectively averages across inputs, denoising by pooling informatio",
+  "conclusion": "ear dynamical systems.\n\nSection\n\n4  : Radial-Tangential Model\n\nWe generalize the SDE model from  Section\n\n3\n\n, which assumed isotropic noise, to allow for separate noise covariances in the tangential "
+}

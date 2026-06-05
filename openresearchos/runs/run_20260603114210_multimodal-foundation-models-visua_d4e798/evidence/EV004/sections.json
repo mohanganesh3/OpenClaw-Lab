@@ -1,0 +1,6 @@
+{
+  "introduction": "[2602.02780] A Study of Adaptive Modeling Towards Robust Generalization\n\nA Study of Adaptive Modeling Towards Robust Generalization\n\nZihao Jing\n\nQiuhao Zeng\n\nRuiyi Fang\n\nYan Yi Li\n\nYan Sun\n\nBoyu Wang\n",
+  "method": "s, ProtLLM  (Zhuo  et al. ,  2024 )  for proteins, and ChatNT  (de Almeida  et al. ,  2025 )  for nucleic acids.\n\nTable 1 :\n\nFunctional group hallucination test on 200 molecules and proteins from data",
+  "results": "grating nucleic acids and proteins, but is constrained to sequence inputs without geometric evidence.\n\nThis gap motivates a rethinking of how all-atom structural evidence can be selected and exposed t",
+  "conclusion": "tructural complexity, mitigating fixed-length connector bottlenecks.\n\n•\n\nWe introduce  Geometry Grounding Adapter , which injects verifiable geometric cues into the LLM via modality tokens, reducing s"
+}

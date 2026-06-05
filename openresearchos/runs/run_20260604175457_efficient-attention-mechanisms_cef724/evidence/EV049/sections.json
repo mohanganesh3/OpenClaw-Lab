@@ -1,0 +1,6 @@
+{
+  "introduction": "[2602.03560] 1 Introduction\n\n\\titlefont\n\nHySparse: A Hybrid Sparse Attention Architecture\n\nwith Oracle Token Selection and KV Cache Sharing\n\nYizhao Gao\n\nJianyu Wei\n\nQihao Zhang\n\nYu Cheng\n\nShimao Chen\n",
+  "method": "-r ,  nsa ,  dsa ] .\nHowever, these proxies are inherently approximate and may fail to capture true token importance, particularly in long and evolving contexts.\nAs a result, sparse token selection is",
+  "results": "hes, which sparse layers can directly reuse.\nBy reusing the important token indices from full attention, sparse selection becomes oracle-guided.\nThis eliminates the need for auxiliary proxy modules an",
+  "conclusion": "rely on fixed patterns or heuristics to identify important tokens.\nThey are applied as a drop-in modification at inference, enabling fast sparsity decisions with minimal computational cost  [ streamin"
+}

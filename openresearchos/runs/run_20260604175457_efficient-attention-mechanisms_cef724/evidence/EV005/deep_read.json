@@ -1,0 +1,35 @@
+{
+  "paper_title": "Improving Commonsense Question Answering by Graph-based Iterative Retrieval over Multiple Knowledge Sources",
+  "paper_type": "Research Paper",
+  "problem_addressed": "Multi-value property of knowledge in question answering systems",
+  "proposed_solution": "A novel question-answering method using graph-based iterative retrieval over multiple knowledge sources",
+  "method_components": [
+    "Graph-based iterative retrieval module",
+    "Multiple knowledge sources (Wikipedia, ConceptNet, dictionary)",
+    "Answer choice-aware attention mechanism"
+  ],
+  "knowledge_sources": [
+    "Wikipedia",
+    "ConceptNet",
+    "Dictionary"
+  ],
+  "key_innovation": "Engaging multiple knowledge sources to establish precise connections between background knowledge and the original question",
+  "related_work": "Two-stage framework for incorporating external knowledge in question answering systems",
+  "categories": [
+    "Question Answering",
+    "Commonsense Reasoning",
+    "Knowledge Graph"
+  ],
+  "evidence_id": "EV005",
+  "title": "Improving Commonsense Question Answering by Graph-based Iterative Retrieval over Multiple Knowledge Sources",
+  "year": 2020,
+  "arxiv_id": "2011.02705",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

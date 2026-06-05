@@ -1,0 +1,219 @@
+{
+  "schema_version": 1,
+  "run_id": "run_20260603115027_neural-architecture-search-automat_339b0b",
+  "topic": "neural architecture search automated machine learning (cycle 2)",
+  "created_at": "2026-06-03T11:51:00.345Z",
+  "updated_at": "2026-06-03T12:07:11.801Z",
+  "current_state": "GAPS_IDENTIFIED",
+  "scope_classification": {
+    "label": "local_experiment",
+    "rationale": "The topic can be explored with small simulations, synthetic data, or lightweight local experiments on the Mac.",
+    "feasibility_note": "Yes, this setup is feasible for NAS experiments, though computational constraints may limit the search space complexity. Suitable datasets include CIFAR-10/100 for image classification, Fashion-MNIST as a smaller alternative, and the UCI Wine Quality dataset for tabular data experiments. Expect NAS experiments to take approximately 12-48 hours depending on the search algorithm's complexity and the number of architectures evaluated. The 36GB RAM provides ample capacity for most standard NAS workf"
+  },
+  "search_queries": [
+    "neural architecture search",
+    "differentiable architecture search",
+    "reinforcement learning NAS",
+    "evolutionary NAS methods",
+    "NAS computer vision",
+    "NAS NLP models",
+    "NAS reinforcement learning",
+    "NAS benchmark datasets",
+    "NAS evaluation metrics",
+    "NAS computational cost",
+    "NAS search space",
+    "NAS generalization",
+    "NAS vs AutoML",
+    "NAS human-designed models",
+    "NAS survey papers"
+  ],
+  "evidence_ids": [
+    "EV001",
+    "EV002",
+    "EV003",
+    "EV004",
+    "EV005",
+    "EV006",
+    "EV007",
+    "EV008",
+    "EV009",
+    "EV010",
+    "EV011",
+    "EV012",
+    "EV013",
+    "EV014",
+    "EV015",
+    "EV016",
+    "EV017",
+    "EV018",
+    "EV019",
+    "EV020",
+    "EV021",
+    "EV022",
+    "EV023",
+    "EV024",
+    "EV025",
+    "EV026",
+    "EV027",
+    "EV028",
+    "EV029",
+    "EV030",
+    "EV031",
+    "EV032",
+    "EV033",
+    "EV034",
+    "EV035",
+    "EV036",
+    "EV037",
+    "EV038",
+    "EV039",
+    "EV040",
+    "EV041",
+    "EV042",
+    "EV043",
+    "EV044",
+    "EV045",
+    "EV046",
+    "EV047",
+    "EV048",
+    "EV049",
+    "EV050",
+    "EV051",
+    "EV052",
+    "EV053",
+    "EV054",
+    "EV055",
+    "EV056",
+    "EV057",
+    "EV058",
+    "EV059",
+    "EV060",
+    "EV061",
+    "EV062",
+    "EV063",
+    "EV064",
+    "EV065",
+    "EV066",
+    "EV067"
+  ],
+  "parsed_papers": [],
+  "claim_graph": {
+    "claims": [],
+    "links": []
+  },
+  "research_gaps": [
+    {
+      "gap_id": "G01",
+      "text": "Current NAS methods are predominantly task-specific, searching for a single optimal architecture for a fixed dataset and modality. A significant gap exists in developing NAS frameworks that can discover a single, highly generalizable architecture capable of effective transfer learning across diverse tasks and data types, such as vision-language models.",
+      "keywords": [],
+      "evidence_ids": [
+        "EV001",
+        "EV002"
+      ],
+      "testable": true,
+      "difficulty": "hard",
+      "source": "llm"
+    },
+    {
+      "gap_id": "G02",
+      "text": "Hardware-aware NAS typically optimizes for proxy metrics like FLOPs or latency, which do not always correlate with real-world performance on a specific hardware-software stack. The gap is in moving from hardware-aware search to true hardware-software co-design, where the search process is directly influenced by the compiler and runtime environment.",
+      "keywords": [],
+      "evidence_ids": [
+        "EV003"
+      ],
+      "testable": true,
+      "difficulty": "medium",
+      "source": "llm"
+    },
+    {
+      "gap_id": "G03",
+      "text": "Standard NAS optimizes for clean-data accuracy, often producing models that are brittle to distribution shifts and adversarial attacks. The gap is in creating NAS objectives that explicitly reward robustness and model calibration, embedding these desirable properties directly into the discovered architecture.",
+      "keywords": [],
+      "evidence_ids": [
+        "EV004"
+      ],
+      "testable": true,
+      "difficulty": "medium",
+      "source": "llm"
+    },
+    {
+      "gap_id": "G04",
+      "text": "Even one-shot NAS methods require a costly supernet training phase. The frontier of 'Cycle 2' AutoML is to eliminate this training cost entirely, discovering high-performing architectures through inference-only methods or by leveraging pre-existing knowledge from vast model repositories.",
+      "keywords": [],
+      "evidence_ids": [
+        "EV005"
+      ],
+      "testable": true,
+      "difficulty": "hard",
+      "source": "llm"
+    },
+    {
+      "gap_id": "G05",
+      "text": "AutoML is more than just model selection; it encompasses the entire pipeline, including data preprocessing and augmentation. The current gap is the siloed approach where architecture search and augmentation policy search are separate, preventing the discovery of synergistic combinations between model structure and data transformations.",
+      "keywords": [],
+      "evidence_ids": [
+        "EV006"
+      ],
+      "testable": true,
+      "difficulty": "medium",
+      "source": "llm"
+    },
+    {
+      "gap_id": "G06",
+      "text": "NAS often yields highly performant but opaque 'black box' architectures that are difficult for humans to understand or verify. The gap is in guiding the search with human-understandable principles, such as causal relationships or graph-theoretic properties, to produce architectures that are both high-performing and inherently interpretable.",
+      "keywords": [],
+      "evidence_ids": [
+        "EV007"
+      ],
+      "testable": true,
+      "difficulty": "hard",
+      "source": "llm"
+    }
+  ],
+  "idea_tree": [],
+  "reviewer_scores": [],
+  "experiment_candidates": [],
+  "approval_status": {},
+  "micro_probe_results": [],
+  "probe_results": [],
+  "ablation_results": [],
+  "mvp_results": [],
+  "failed_ideas": [],
+  "validation_results": [],
+  "paper_readiness_level": "RRL-1",
+  "final_output_path": null,
+  "history": [
+    {
+      "at": "2026-06-03T11:51:00.345Z",
+      "state": "TOPIC_SCOPED",
+      "detail": "The topic can be explored with small simulations, synthetic data, or lightweight local experiments on the Mac."
+    },
+    {
+      "at": "2026-06-03T11:51:00.345Z",
+      "state": "SEARCH_PLAN_CREATED",
+      "detail": "15 queries created (LLM-generated)."
+    },
+    {
+      "at": "2026-06-03T11:51:04.242Z",
+      "state": "LITERATURE_DISCOVERY_RUNNING",
+      "detail": "Starting structured literature discovery."
+    },
+    {
+      "at": "2026-06-03T11:51:18.247Z",
+      "state": "EVIDENCE_LOCKED",
+      "detail": "67 papers found (target was 50+)."
+    },
+    {
+      "at": "2026-06-03T12:07:10.976Z",
+      "state": "RESEARCH_MAP_READY",
+      "detail": "Research map generated."
+    },
+    {
+      "at": "2026-06-03T12:07:10.978Z",
+      "state": "GAPS_IDENTIFIED",
+      "detail": "6 gaps identified."
+    }
+  ],
+  "discovery_errors": [],
+  "method_matrix": []
+}

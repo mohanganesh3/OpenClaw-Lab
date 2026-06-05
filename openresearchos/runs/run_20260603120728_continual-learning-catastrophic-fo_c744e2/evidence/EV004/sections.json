@@ -1,0 +1,6 @@
+{
+  "introduction": "[2409.16391] Patch-Based Contrastive Learning and Memory Consolidation for Online Unsupervised Continual Learning\n\nPatch-Based Contrastive Learning and Memory Consolidation for Online Unsupervised Con",
+  "method": "e code is publicly available  on Github .\n\n1  Introduction\n\nImagine an agent navigating an unfamiliar environment with objects that have never appeared in its pre-training data. As the agent explores ",
+  "results": "ormance is evaluated frequently during the stream, to monitor how the agent learns over time. During sleep periods, the agent retrains its encoder and adapts its stored representations. Note that a sm",
+  "conclusion": "growing set of cluster centroids that represent distinct data features. To learn useful centroids, we utilize an encoder\n\nF  ϕ\n\n​\n\n(  ⋅  )\n\nsubscript  𝐹  italic-ϕ\n\n⋅\n\nF_{\\phi}(\\cdot)\n\n, which is a de"
+}

@@ -1,0 +1,30 @@
+{
+  "paper_title": "Provable In-Context Learning of Nonlinear Regression with Transformers",
+  "research_domain": "Machine Learning, Deep Learning",
+  "specific_topic": "In-Context Learning (ICL) with Transformer Models for Nonlinear Regression",
+  "methodology": "Theoretical analysis of transformer training dynamics under gradient descent",
+  "key_research_questions": [
+    "What geometric properties of target functions govern the convergence behavior of transformer-based learning?",
+    "Can transformers learn effectively in context and achieve globally small prediction error despite nonlinearity?"
+  ],
+  "key_contributions": [
+    "Analysis of non-degenerate L-Lipschitz task functions without assuming low complexity",
+    "Extension beyond previous work on linear mappings, binary classification, or low-degree polynomials",
+    "Theoretical framework for ICL with nonlinear regression functions"
+  ],
+  "technical_approach": "Theoretical analysis of transformer training dynamics",
+  "main_findings": "Transformers can perform in-context learning for nonlinear regression, accurately inferring functions of query samples based on prompts of variable-value pairs",
+  "significance": "Provides theoretical evidence for ICL capabilities beyond simplified function classes, addressing a gap in understanding how transformers learn in practice",
+  "evidence_id": "EV026",
+  "title": "Provable In-Context Learning of Nonlinear Regression with Transformers",
+  "year": 2025,
+  "arxiv_id": "2507.20443",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7997,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

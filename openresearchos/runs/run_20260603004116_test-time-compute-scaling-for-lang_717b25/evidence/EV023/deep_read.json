@@ -1,0 +1,30 @@
+{
+  "title": "Low-synchronization Arnoldi Methods for the Matrix Exponential with Application to Exponential Integrators",
+  "topic": "Low-synchronization Arnoldi Methods for Matrix Exponential",
+  "application": "Exponential Integrators",
+  "problem_domain": "Numerical solutions of stiff systems of ODEs from PDE discretization",
+  "key_methods": [
+    "Jacobian-Free Newton-Krylov algorithm",
+    "Exponential integrators",
+    "Krylov subspace methods",
+    "Arnoldi iteration"
+  ],
+  "main_challenge": "Parallel scalability of Arnoldi method due to global communication",
+  "proposed_solution": "Low-synchronization Arnoldi methods",
+  "key_findings": [
+    "Exponential methods offer computational savings when a fast preconditioner is not available",
+    "For large-scale applications, evaluating exponential-like functions can be more efficient than computing rational functions of the Jacobian",
+    "Krylov-projection based algorithms are efficient for both implicit and exponential integrators"
+  ],
+  "evidence_id": "EV023",
+  "year": 2024,
+  "arxiv_id": "2410.14917",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7996,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "paper_title": "GPNAS: A Neural Network Architecture Search Framework Based on Graphical Predictor",
+  "method_section": {
+    "problem_statement": "To find an optimal network architecture that satisfies certain constraints, primarily by defining a search space.",
+    "key_concepts": [
+      "Search Space",
+      "Operator",
+      "Skip-connection"
+    ],
+    "related_work_critique": {
+      "evolutionary_algorithms": "Require a large amount of computation.",
+      "reinforcement_learning_rl": "Reduced calculation cost but failed to solve the problem of credit allocation.",
+      "bohb": "Requires strong manual prior and model design ability, defeating the original purpose of NAS.",
+      "differentiable_nas_liou": "The searcher's training and evaluation goals are not unified, which may lead to overfitting.",
+      "alternate_rl_jiang": "Analysis of the skip-connection search path has large noise and is inefficient.",
+      "predictor_liou_25": "The LSTM-based predictor can only predict performance of child models without skip-connections, limiting its versatility."
+    },
+    "general_observation": "Previous methods are only upgraded in a certain aspect and make unnecessary compromises when applied to practical work."
+  },
+  "results_section": {
+    "summary": "The authors state that previous works are limited and aim to create a more comprehensive solution.",
+    "contributions": [
+      {
+        "id": 1,
+        "title": "Alternate Neural Network Search Framework",
+        "description": "Decouples the search space of skip-connection and operator.",
+        "methodology": "Adopts BOHB as the searcher instead of RL to improve efficiency.",
+        "goal": "To improve search efficiency."
+      },
+      {
+        "id": 2,
+        "title": "GCN-based Predictor",
+        "description": "A predictor designed using Graph Convolutional Networks (GCN).",
+        "status": "The provided text is truncated and does not detail its full function."
+      }
+    ]
+  },
+  "evidence_id": "EV024",
+  "title": "GPNAS: A Neural Network Architecture Search Framework Based on Graphical Predictor",
+  "year": 2021,
+  "arxiv_id": "2103.11820",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7997,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

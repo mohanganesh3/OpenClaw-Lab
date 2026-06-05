@@ -1,0 +1,40 @@
+{
+  "title": "Best-of-Majority: Minimax-Optimal Strategy for Pass@k Inference Scaling",
+  "methodology": {
+    "name": "Best-of-Majority (BoM)",
+    "description": "A minimax-optimal strategy for Pass@k inference scaling",
+    "key_features": [
+      "Generates N responses and returns up to k of them",
+      "Establishes a matching lower bound, certifying minimax optimality",
+      "Performance does not degrade when increasing N",
+      "Unlike majority voting and BoN, BoM maintains performance with increased N"
+    ],
+    "evaluation": "Tested on math problems, showing outperformance of majority voting and BoN"
+  },
+  "results": {
+    "experimental_findings": "BoM outperforms both majority voting and BoN on math problems",
+    "theoretical_guarantees": "BoM is minimax optimal with matching lower bounds"
+  },
+  "key_concepts": [
+    "Pass@k metric: A metric for tasks where any one of k candidate outputs being correct is sufficient",
+    "BoM (Best-of-Majority): The proposed method",
+    "BoN (Best-of-N): An existing method that BoM outperforms",
+    "Majority voting: Another existing method that BoM outperforms"
+  ],
+  "introduction": {
+    "context": "Scaling laws in deep neural networks and their application across various domains",
+    "focus": "Inference scaling as a complementary paradigm to training-time scaling",
+    "framework": "Pass@k inference framework where the algorithm generates N responses and returns up to k of them"
+  },
+  "evidence_id": "EV035",
+  "year": 2025,
+  "arxiv_id": "2510.03199",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

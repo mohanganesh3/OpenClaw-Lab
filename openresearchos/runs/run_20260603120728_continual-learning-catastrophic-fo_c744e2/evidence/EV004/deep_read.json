@@ -1,0 +1,41 @@
+{
+  "title": "Patch-Based Contrastive Learning and Memory Consolidation for Online Unsupervised Continual Learning",
+  "acronym": "PCMC",
+  "paradigm": "Online Unsupervised Continual Learning (O-UCL)",
+  "method": {
+    "name": "Patch-Based Contrastive Learning and Memory Consolidation (PCMC)",
+    "components": [
+      "Novel patch-based contrastive learning encoder",
+      "Online clustering",
+      "Novelty detection"
+    ],
+    "operation": {
+      "wake_periods": "Identify and cluster incoming stream data",
+      "sleep_periods": "Retrain encoder and consolidate data representations"
+    }
+  },
+  "challenges": [
+    "Non-stationary data stream (number of classes increases with time)",
+    "Unlabeled data requiring real-time identification of novel classes",
+    "No ability to store observed data for future replay"
+  ],
+  "related_work": {
+    "previous_approach": "Unsupervised Progressive Learning",
+    "previous_method": "Self-Taught Associative Memories (STAM)"
+  },
+  "applications": [
+    "AI-powered drone exploring a new construction site",
+    "Face recognition system classifying unseen people"
+  ],
+  "evidence_id": "EV004",
+  "year": 2024,
+  "arxiv_id": "2409.16391",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

@@ -1,0 +1,350 @@
+{
+  "nodes": [
+    {
+      "id": "EV001",
+      "title": "XAI_MLPCNN: A Novel Explainable AI-Based DeepLearning Framework for Stress Identifi cation",
+      "year": 2025
+    },
+    {
+      "id": "EV002",
+      "title": "A Spatial–Temporal Adaptive Graph Convolutional Network with Multi-Sensor Signals for Tool Wear Prediction",
+      "year": 2025
+    },
+    {
+      "id": "EV003",
+      "title": "Dynamic Short Convolutions Improve Transformers",
+      "year": 2026
+    },
+    {
+      "id": "EV004",
+      "title": "ILP Based Mapping for Elastic CGRAs",
+      "year": 2023
+    },
+    {
+      "id": "EV005",
+      "title": "Improving Commonsense Question Answering by Graph-based Iterative Retrieval over Multiple Knowledge Sources",
+      "year": 2020
+    },
+    {
+      "id": "EV006",
+      "title": "Higher Order Polynomial Transformer for Fine-Grained Freezing of Gait Detection",
+      "year": 2023
+    },
+    {
+      "id": "EV007",
+      "title": "Global Attention‐Based Dynamic Multi‐Graph Convolutional Recurrent Network for Traffic Flow Forecasting",
+      "year": 2025
+    },
+    {
+      "id": "EV008",
+      "title": "COHERENCE ANALYSIS FOR ITERATED LINE GRAPHS OF MULTI-SUBDIVISION GRAPH",
+      "year": 2020
+    },
+    {
+      "id": "EV009",
+      "title": "Application of quantum computing to a linear non-Gaussian acyclic model for novel medical knowledge discovery",
+      "year": 2021
+    },
+    {
+      "id": "EV010",
+      "title": "Using Attention-Based Models to Automate Fake News Detection *",
+      "year": 2023
+    },
+    {
+      "id": "EV011",
+      "title": "Comparison of Spectral Clustering Methods for Graph Models of Pipeline Systems",
+      "year": 2021
+    },
+    {
+      "id": "EV012",
+      "title": "Radio Frequency Fingerprint-Identification Learning Method Based-On LMMSE Channel Estimation for Internet of Vehicles",
+      "year": 2025
+    },
+    {
+      "id": "EV013",
+      "title": "SMNet: Multi-Drone Detection and Classification via Monitoring Flight Control Signals on Spectrograms",
+      "year": 2025
+    },
+    {
+      "id": "EV014",
+      "title": "Towards Aircraft Autonomy Using a POMDP-Based Planner",
+      "year": 2024
+    },
+    {
+      "id": "EV015",
+      "title": "NOMA Attack Prediction in Large-Scale Networks Using Non-Linear Chaotic Belief Mechanism",
+      "year": 2025
+    },
+    {
+      "id": "EV016",
+      "title": "Analysis Model of Terrorist Attacks Based on Big Data",
+      "year": 2020
+    },
+    {
+      "id": "EV017",
+      "title": "Defining and Characterizing Reward Hacking",
+      "year": 2022
+    },
+    {
+      "id": "EV018",
+      "title": "Sparse Multi-Modal Transformer with Masking for Alzheimer's Disease Classification",
+      "year": 2025
+    },
+    {
+      "id": "EV019",
+      "title": "Constructing and predicting school advice for academic achievement: a comparison of item response theory and machine learning techniques",
+      "year": 2020
+    },
+    {
+      "id": "EV020",
+      "title": "Learning to Allocate Time-Bound and Dynamic Tasks to Multiple Robots Using Covariant Attention Neural Networks",
+      "year": 2024
+    },
+    {
+      "id": "EV021",
+      "title": "Simple Models, Rich Representations: Visual Decoding from Primate Intracortical Neural Signals",
+      "year": 2026
+    },
+    {
+      "id": "EV022",
+      "title": "Integrating Data Decomposition with Nonadditive Ensemble Learning for Air Passenger Demand Forecasting",
+      "year": 2025
+    },
+    {
+      "id": "EV023",
+      "title": "Spiking Vision Transformer with Saccadic Attention",
+      "year": 2025
+    },
+    {
+      "id": "EV024",
+      "title": "ANN-Assisted Quasi-Time-Invariant Beamforming for Retrodirective Frequency Diverse Array",
+      "year": 2024
+    },
+    {
+      "id": "EV025",
+      "title": "Three-Dimensional Source Localization Based on 1-D AOA Measurements: Low-Complexity and Effective Estimator",
+      "year": 2023
+    },
+    {
+      "id": "EV026",
+      "title": "Provable In-Context Learning of Nonlinear Regression with Transformers",
+      "year": 2025
+    },
+    {
+      "id": "EV027",
+      "title": "TeLLMe v2: An Efficient End-to-End Ternary LLM Prefill and Decode Accelerator with Table-Lookup Matmul on Edge FPGAs",
+      "year": 2025
+    },
+    {
+      "id": "EV028",
+      "title": "Hybrid Data Driven Deep Learning Framework for Material Property Prediction",
+      "year": 2025
+    },
+    {
+      "id": "EV029",
+      "title": "A critical review of RNN and LSTM variants in hydrological time series predictions",
+      "year": 2024
+    },
+    {
+      "id": "EV030",
+      "title": "Kolmogorov-Arnold Networks in Transformer Attention for Low-Light Image Enhancement",
+      "year": 2024
+    },
+    {
+      "id": "EV031",
+      "title": "An Unsupervised Multiview Sparse Filtering Approach for Current-Based Wind Turbine Gearbox Fault Diagnosis",
+      "year": 2020
+    },
+    {
+      "id": "EV032",
+      "title": "Dual sparse learning via data augmentation for robust facial image classification",
+      "year": 2020
+    },
+    {
+      "id": "EV033",
+      "title": "A Graph Sequence Generator and Multi-head Self-attention Mechanism based Knowledge Graph Reasoning Architecture",
+      "year": 2023
+    },
+    {
+      "id": "EV034",
+      "title": "A Deep-Learning-Integrated Blockchain Framework for Securing Industrial IoT",
+      "year": 2024
+    },
+    {
+      "id": "EV035",
+      "title": "SEGODE: a structure-enhanced graph neural ordinary differential equation network model for temporal link prediction",
+      "year": 2024
+    },
+    {
+      "id": "EV036",
+      "title": "Meta Attention Networks: Meta Learning Attention To Modulate Information Between Sparsely Interacting Recurrent Modules",
+      "year": 2020
+    },
+    {
+      "id": "EV037",
+      "title": "Deep Unfolding Network for Block-Sparse Signal Recovery",
+      "year": 2021
+    },
+    {
+      "id": "EV038",
+      "title": "KPI Method for Dynamic Surface Reconstruction With B-splines based on Sparse Data",
+      "year": 2021
+    },
+    {
+      "id": "EV039",
+      "title": "Sparse attention based separable dilated convolutional neural network for targeted sentiment analysis",
+      "year": 2020
+    },
+    {
+      "id": "EV040",
+      "title": "SVGA-Net: Sparse Voxel-Graph Attention Network for 3D Object Detection from Point Clouds",
+      "year": 2020
+    },
+    {
+      "id": "EV041",
+      "title": "Identifying disease-associated circRNAs based on edge-weighted graph attention and heterogeneous graph neural network",
+      "year": 2022
+    },
+    {
+      "id": "EV042",
+      "title": "AD-STLN: A Neural-Symbolic Framework with Dictionary Learning for Transparent Bearing Fault Classification",
+      "year": 2025
+    },
+    {
+      "id": "EV043",
+      "title": "SparseMM: Head Sparsity Emerges from Visual Concept Responses in MLLMs",
+      "year": 2025
+    },
+    {
+      "id": "EV044",
+      "title": "A sentiment analysis approach for travel-related Chinese online review content",
+      "year": 2023
+    },
+    {
+      "id": "EV045",
+      "title": "Cross-Spectral Attention for Unsupervised RGB-IR Face Verification and Person Re-Identification",
+      "year": 2024
+    },
+    {
+      "id": "EV046",
+      "title": "Momentum Contrastive Bidirectional Encoding with Self-Distillation for Sequential Recommendation",
+      "year": 2024
+    },
+    {
+      "id": "EV047",
+      "title": "Fast-HBNet: Hybrid Branch Network for Fast Lane Detection",
+      "year": 2022
+    },
+    {
+      "id": "EV048",
+      "title": "Transductive Learning for Unsupervised Text Style Transfer",
+      "year": 2021
+    },
+    {
+      "id": "EV049",
+      "title": "HySparse: A Hybrid Sparse Attention Architecture with Oracle Token Selection and KV Cache Sharing",
+      "year": 2026
+    },
+    {
+      "id": "EV050",
+      "title": "Sparse Imagination for Efficient Visual World Model Planning",
+      "year": 2025
+    },
+    {
+      "id": "EV051",
+      "title": "PowerAttention: Exponentially Scaling of Receptive Fields for Effective Sparse Attention",
+      "year": 2025
+    },
+    {
+      "id": "EV052",
+      "title": "ASHF-Net: Adaptive Sampling and Hierarchical Folding Network for Robust Point Cloud Completion",
+      "year": 2021
+    },
+    {
+      "id": "EV053",
+      "title": "An Interpretable Prediction Method for Tubing Corrosion Based on CASA-XGBoost and SHAP-Sobol",
+      "year": 2026
+    },
+    {
+      "id": "EV054",
+      "title": "Focus-dLLM: Accelerating Long-Context Diffusion LLM Inference via Confidence-Guided Context Focusing",
+      "year": 2026
+    },
+    {
+      "id": "EV055",
+      "title": "Context-Aware Knowledge Graph Learning for Point-of-Interest Recommendation",
+      "year": 2025
+    },
+    {
+      "id": "EV056",
+      "title": "Personalized News Recommender System Using Hybrid Collaborative Filtering and Content-Aware Deep Models",
+      "year": 2025
+    },
+    {
+      "id": "EV057",
+      "title": "Exploring Pose-Aware Human-Object Interaction via Hybrid Learning",
+      "year": 2024
+    },
+    {
+      "id": "EV058",
+      "title": "Collaborative filtering recommendation algorithm based on fine-grained mining and neighborhood awareness attention",
+      "year": 2025
+    },
+    {
+      "id": "EV059",
+      "title": "Structured Pruning for Efficient Generative Pre-trained Language Models",
+      "year": 2023
+    },
+    {
+      "id": "EV060",
+      "title": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery",
+      "year": 2024
+    },
+    {
+      "id": "EV061",
+      "title": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
+      "year": 2025
+    },
+    {
+      "id": "EV062",
+      "title": "Agent Laboratory: Using LLM Agents as Research Assistants",
+      "year": 2025
+    },
+    {
+      "id": "EV063",
+      "title": "MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering",
+      "year": 2024
+    },
+    {
+      "id": "EV064",
+      "title": "AIBuildAI-2: Scalable Agentic AI Research and Engineering",
+      "year": 2026
+    },
+    {
+      "id": "EV065",
+      "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+      "year": 2023
+    },
+    {
+      "id": "EV066",
+      "title": "Self-Refine: Iterative Refinement with Self-Feedback",
+      "year": 2023
+    },
+    {
+      "id": "EV067",
+      "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+      "year": 2023
+    },
+    {
+      "id": "EV068",
+      "title": "AgentBench: Evaluating LLMs as Agents",
+      "year": 2023
+    },
+    {
+      "id": "EV069",
+      "title": "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
+      "year": 2024
+    }
+  ],
+  "edges": []
+}

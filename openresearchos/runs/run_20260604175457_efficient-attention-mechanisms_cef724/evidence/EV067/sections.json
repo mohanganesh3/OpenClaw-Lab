@@ -1,0 +1,6 @@
+{
+  "introduction": "[2305.16291] Voyager: An Open-Ended Embodied Agent with Large Language Models\n\nVoyager : An Open-Ended Embodied Agent\n with Large Language Models\n\nGuanzhi Wang\n\n1 2  ​\n\n\\faIcon\n\n[regular]envelope\n\n12\n",
+  "method": "ed skill library in a new Minecraft world to solve novel tasks from scratch, while other techniques struggle to generalize.\n\nFigure 1 :\n\nVoyager\n\ndiscovers new Minecraft items and skills continually b",
+  "results": "ilities as human players: (1)  propose suitable tasks  based on its current skill level and world state, e.g., learn to harvest sand and cactus before iron if it finds itself in a desert rather than a",
+  "conclusion": "ossible”. This approach can be perceived as an in-context form of  novelty search\n\n[ 39 ,  40 ] .\n Voyager  incrementally builds a  skill library  by storing the action programs that help solve a task"
+}

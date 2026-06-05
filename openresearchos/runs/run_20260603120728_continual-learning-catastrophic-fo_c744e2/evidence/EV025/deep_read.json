@@ -1,0 +1,46 @@
+{
+  "title": "Multiagent Continual Coordination via Progressive Task Contextualization",
+  "authors": "Not specified in the provided text",
+  "abstract": "This paper addresses the challenge of continual coordination in cooperative Multi-Agent Reinforcement Learning (MARL) where tasks appear sequentially. The authors propose a framework called MACPro that includes a multi-agent task context extraction module, a contrastive regularizer, an expandable multi-head policy architecture, and a policy distillation approach for the CTDE paradigm.",
+  "key_contributions": [
+    "A framework for continual coordination in cooperative MARL",
+    "A task context extraction module using product-of-expert (POE) mechanism",
+    "A contrastive regularizer for task representation optimization",
+    "An expandable multi-head policy architecture with shared feature extraction",
+    "A policy distillation approach for task selection in CTDE paradigm"
+  ],
+  "evaluation": [
+    "Level-based foraging (LBF)",
+    "Predator-prey (PP)",
+    "StarCraft Multi-Agent Challenge benchmark (SMAC)"
+  ],
+  "problem_statement": "Mainstream cooperative MARL methods are restricted to being trained in one single task or multiple tasks simultaneously, assuming agents have access to data from all tasks at all times, which is unrealistic for physical agents in the real world that can only attend to one task at a time.",
+  "methodology": {
+    "framework": "MACPro (Multi-agent Continual Coordination)",
+    "components": [
+      "Multi-agent task context extraction module",
+      "Product-of-expert (POE) mechanism for integrating task information",
+      "Contrastive regularizer for representation optimization",
+      "Expandable multi-head policy architecture",
+      "Shared feature extraction module",
+      "Policy distillation for CTDE paradigm"
+    ]
+  },
+  "related_work": [
+    "Cooperative MARL methods for specific challenges like non-stationarity, credit assignment, and scalability",
+    "Works on efficient communication, zero-shot coordination, and policy robustness",
+    "Continual Reinforcement Learning approaches including regularization-based methods, experience maintaining techniques, and task structure sharing",
+    "Multi-task learning and uni-modal coordination among teammates"
+  ],
+  "evidence_id": "EV025",
+  "year": 2023,
+  "arxiv_id": "2305.13937",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "introduction": "[2509.25240] HAMMER: Hamiltonian Curiosity Augmented Large Language Model Reinforcement\n\nHAMMER : Hamiltonian Curiosity Augmented Large Language Model Reinforcement\n\nMing Yang  1,2\n\nXiaofan Li  3,2∗\n\n",
+  "method": "o prompts and receive corresponding rewards  (Guo et al.,  2025 ; Shao et al.,  2024 ; Team et al.,  2025 ) . By learning from outcome reward, these models develop the ability to produce more comprehe",
+  "results": "1\n\nG\n\n∼\n\nπ  θ\n\n(  ⋅  |  q  )\n\n\\{o_{i}\\}_{i=1}^{G}\\sim\\pi_{\\theta}(\\cdot|q)\n\n.\nSubsequently, variants of GRPO, like Decoupled Clip and Dynamic sAmpling Policy Optimization (DAPO)  (Yu et al.,  2025 ) ,",
+  "conclusion": "ropose a different perspective:  diversity can effectively guide RLVR . Presenting semantically diverse samples early allows the model to explore the input space more thoroughly, reduce the generaliza"
+}

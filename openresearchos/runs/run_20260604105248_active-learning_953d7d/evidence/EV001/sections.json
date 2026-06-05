@@ -1,0 +1,6 @@
+{
+  "introduction": "[2604.11653] GazeVaLM: A Multi-Observer Eye-Tracking Benchmark for Evaluating Clinical Realism in AI-Generated X-Rays\n\n\\setcctype\n\nby\n\nGazeVaLM: A Multi-Observer Eye-Tracking Benchmark for Evaluating ",
+  "method": "ity Chicago \n,  Chicago \n,  IL \n,  USA\n\n,\n\nAndrew C. Gordon\n\nAffiliation:\n\nNorthwestern University \n,  Chicago \n,  IL \n,  USA\n\n,\n\nAyis Pyrros\n\nAffiliation:\n\nDuPage Medical Group \n,  Chicago \n,  Illino",
+  "results": "cilitate reproducible research on how experts and AI systems perceive, interpret, and evaluate medical images. The dataset is available at  https://huggingface.co/datasets/davidcwong/GazeVaLM .\n\nKeywo",
+  "conclusion": "fy images as real or synthetic, operationalizes clinical authenticity in a measurable experimental paradigm. Yet no existing dataset captures  how experts visually process  both real and synthetic med"
+}

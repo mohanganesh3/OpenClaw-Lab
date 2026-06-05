@@ -1,0 +1,69 @@
+{
+  "title": "Graph-based Prediction and Planning Policy Network (GP3Net) for scalable self-driving in dynamic environments using Deep Reinforcement Learning",
+  "methodology": {
+    "name": "Graph-based Prediction and Planning Policy Network (GP3Net)",
+    "paradigm": "Deep Reinforcement Learning",
+    "key_components": [
+      "Graph-based model",
+      "Prediction module",
+      "Planning module",
+      "Policy Network"
+    ],
+    "problem_addressed": "Motion planning for autonomous vehicles (AVs) in non-stationary and dynamic environments."
+  },
+  "related_work": {
+    "categories": [
+      {
+        "type": "Rule-based",
+        "description": "Uses predefined rules for decision-making, such as at intersections.",
+        "examples": [
+          "Aksyonov and Kyrki 2021"
+        ],
+        "limitation": "Suffers from scalability issues due to the non-stationary nature of environments."
+      },
+      {
+        "type": "Imitation Learning (IL)",
+        "description": "Learns driving behaviors by mimicking expert human drivers or simulator data.",
+        "examples": [
+          "Bansal, Krizhevsky, and Ogale 2018",
+          "Rhinehart, McAllister, and Levine 2020",
+          "Cai et al. 2020, 2021",
+          "Codevilla et al. 2018"
+        ],
+        "limitation": "Suffers from data distribution shift from training scenarios to unseen evaluation scenarios."
+      },
+      {
+        "type": "Reinforcement Learning (RL)",
+        "description": "Not detailed in the provided text, but mentioned as a category of state-of-the-art methods.",
+        "examples": [
+          "Not provided in the snippet."
+        ]
+      }
+    ]
+  },
+  "motivation": {
+    "problem": "Ensuring safety and comfort for AVs in complex, real-world driving environments with multiple traffic participants (cars, bikers, pedestrians) and varying conditions (weather, speeds).",
+    "challenges": [
+      "Modeling the different intentions and goals of other traffic participants.",
+      "Handling variable speeds, which are a significant cause of crashes (responsible for 8.4% of critical crash reasons).",
+      "Dealing with unstructured environments with cooperative/non-cooperative behaviors.",
+      "Overcoming limitations of communication-based solutions (different protocols, real-time reliability issues).",
+      "Addressing the shortcomings of existing methods like rule-based systems (scalability) and imitation learning (data distribution shift)."
+    ]
+  },
+  "evaluation": {
+    "status": "Not provided in the snippet.",
+    "details": "The provided text includes the introduction and methodology setup but does not contain any results, experimental data, or performance metrics."
+  },
+  "evidence_id": "EV009",
+  "year": 2023,
+  "arxiv_id": "2312.05784",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

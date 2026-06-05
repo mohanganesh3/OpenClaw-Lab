@@ -1,0 +1,49 @@
+{
+  "title": "Lightweight and Progressively-Scalable Networks for Semantic Segmentation",
+  "method": "Multi-path framework with lightweight computational units and progressive scaling",
+  "key_metrics": {
+    "mIoU_on_Cityscapes_test": "73.4%",
+    "inference_speed": "413.5FPS",
+    "hardware": "NVIDIA GTX 1080Ti",
+    "improvement_vs_STDC": {
+      "accuracy": "1.5%",
+      "speed": "65%"
+    }
+  },
+  "code_repository": "https://github.com/YihengZhang-CV/LPS-Net",
+  "keywords": [
+    "Convolutional Neural Networks",
+    "Semantic Segmentation",
+    "Lightweight",
+    "Scalable"
+  ],
+  "architectural_approach": {
+    "framework": "Multi-path",
+    "expansion_dimensions": [
+      "Depth",
+      "Width",
+      "Resolution"
+    ],
+    "variants": [
+      "-S",
+      "-M",
+      "-L"
+    ]
+  },
+  "focus_areas": [
+    "Lightweight computational units",
+    "Progressive scaling",
+    "Accuracy/speed tradeoff"
+  ],
+  "evidence_id": "EV024",
+  "year": 2022,
+  "arxiv_id": "2207.13600",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

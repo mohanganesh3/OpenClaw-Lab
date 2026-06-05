@@ -1,0 +1,6 @@
+{
+  "introduction": "[2407.10338] Long Sequence Decoder Network for Mobile Sensing\n\nLong Sequence Decoder Network for Mobile Sensing\n\nJiazhong Mei ∗  and J. Nathan Kutz  ∗,†\n\n∗\n\nDepartment of Applied Mathematics, Universi",
+  "method": "to noise.\n\n1  Introduction\n\nSensor technologies are ubiquitous across scientific and engineering domains, revolutionizing the way we collect and analyze data. From static installations for environment",
+  "results": "SVD), also referred to as proper orthogonal decomposition (POD), identify dominant modes of the system and construct a linear mapping from measurements to high-dimensional state space  [ 9 ,  35 ,  2 ",
+  "conclusion": "g information from past inputs in sequential data commonly seen in a variety of tasks such as speech recognition  [ 11 ] , machine translation  [ 30 ] , spatiotemporal predictive learning  [ 28 ,  33 "
+}

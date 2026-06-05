@@ -1,0 +1,10 @@
+# EV019: Formation mechanism of user stickiness in live e-commerce: the hybrid PLS-SEM and ANN approach
+
+URL: https://www.semanticscholar.org/paper/00d85af701e243470af3e581fa92857b03c03e58
+Year: 2024
+Source: semantic_scholar
+Arxiv: n/a
+
+## Abstract
+
+PurposeAlthough user stickiness has been studied for several years in the field of live e-commerce, little attention has been paid to the effects of streamer attributes on user stickiness in this field. Rooted in the stimulus-organism-response (S-O-R) theory, this study investigated how streamer attributes influence user stickiness.Design/methodology/approachThe authors obtained 496 valid samples from Chinese live e-commerce users and explored the formation of user stickiness using partial least squares-structural equation modeling (PLS-SEM). Artificial neural network (ANN) was used to capture linear and non-linear relationships and analyze the normalized importance ranking of significant variables, supplementing the PLS-SEM results.FindingsThe authors found that attractiveness and similarity positively impacted parasocial interaction (PSI). Expertise and trustworthiness positively impacted perceived information quality. Moreover, streamer-brand preference mediated the relationship between PSI and user stickiness, as well as the relationship between perceived information quality and user stickiness. Compared to PLS-SEM, the predictive ability of ANN was more robust. Further, the results of PLS-SEM and ANN both showed that attractiveness was the strongest predictor of user stickiness.Originality/valueThis study explained how streamer attributes affect user stickiness and provided a reference value for future research on user behavior in live e-commerce. The exploration of the linear and non-linear relationships between variables based on ANN supplements existing research. Moreover, the results of this study have implications for practitioners on how to improve user stickiness and contribute to the development of the livestreaming industry.

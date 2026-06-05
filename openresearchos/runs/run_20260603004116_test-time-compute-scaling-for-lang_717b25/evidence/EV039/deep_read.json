@@ -1,0 +1,65 @@
+{
+  "title": "Exploring Sparse Matrix Multiplication Kernels on the Cerebras CS-3",
+  "authors": "Not specified in provided text",
+  "abstract": "The paper explores the ability of the Cerebras CS-3 to perform sparse-dense matrix multiplication (SpMM) and sampled dense-dense matrix multiplication (SDDMM), seeking optimizations that improve the time and memory efficiency of these kernels on the CS-3.",
+  "keywords": [
+    "Sparse matrix multiplication",
+    "CS-3",
+    "CSL",
+    "SpMM",
+    "SDDMM",
+    "AI accelerators",
+    "Graph neural networks"
+  ],
+  "publication_venue": "Not specified in provided text",
+  "publication_date": "Not specified in provided text",
+  "research_focus": "Optimizing sparse matrix multiplication kernels on the Cerebras CS-3 accelerator",
+  "hardware_platform": "Cerebras CS-3",
+  "software_frameworks": [
+    "CSL (CS-3 low-level programming interface)",
+    "PyTorch"
+  ],
+  "key_algorithms": [
+    "Sparse-dense matrix multiplication (SpMM)",
+    "Sampled dense-dense matrix multiplication (SDDMM)"
+  ],
+  "datasets": "Synthetically generated sparse matrices",
+  "performance_metrics": {
+    "spmm_performance": "100× faster than CPU for 90% sparse matrices (for large and denser matrices)",
+    "sddmm_performance": "Typically an order of magnitude faster than CPU",
+    "bottleneck": "High host-device communication overhead for hyper-sparse matrices"
+  },
+  "main_findings": [
+    "CS-3 can achieve significantly higher training throughput for DNNs compared to GPUs",
+    "For large and denser matrices, SpMM performance on CS-3 can be 100× faster than CPU for 90% sparse matrices",
+    "SDDMM performance is typically an order of magnitude faster than CPU",
+    "As matrices become hyper-sparse, the CS-3 suffers from high host-device communication overhead relative to computation"
+  ],
+  "contributions": [
+    "Proposed SpMM and SDDMM CSL kernels for efficient CS-3 execution",
+    "Optimized SpMM to support multiple I/O channel data streaming from the host to the CS-3",
+    "Implemented support for larger matrices than a PyTorch implementation",
+    "Evaluated implementations on synthetically generated sparse matrices to showcase CS-3 performance comparison with CPU"
+  ],
+  "applications": [
+    "Pruned deep neural networks",
+    "Graph neural networks",
+    "Recommendation systems",
+    "Scientific simulations",
+    "Linear solvers",
+    "Sparse attention in transformers",
+    "Electronic design automation",
+    "Graph analytics"
+  ],
+  "evidence_id": "EV039",
+  "year": 2026,
+  "arxiv_id": "2604.27985",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

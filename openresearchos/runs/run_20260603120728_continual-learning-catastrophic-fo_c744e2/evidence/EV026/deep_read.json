@@ -1,0 +1,63 @@
+{
+  "paper_title": "Branch, or Layer? Zeroth-Order Optimization for Continual Learning of Vision-Language Models",
+  "methodology": {
+    "architectures": {
+      "convolutional": [
+        "ResNet (res_2, res_3)"
+      ],
+      "vision_transformer": [
+        "ViT (vit_1, vit_2, vit_3)"
+      ]
+    },
+    "vision_language_models": {
+      "clip_based": [
+        "clip_cl_1",
+        "clip_cl_2"
+      ],
+      "zscl": "introduces unlabeled reference dataset for knowledge distillation",
+      "mod_x": "maintains consistency in multimodal representation spaces",
+      "moe4adapter": "uses Parameter-Efficient Fine-Tuning (PEFT) strategies (peft, peft1, peft2)"
+    },
+    "optimization_strategies": {
+      "first_order": [
+        "SGD",
+        "Adam (overview_opti)"
+      ],
+      "zeroth_order": [
+        "MeZO (mezo)",
+        "MaZO (maskzo)"
+      ],
+      "zeroflow": "compares FO optimization strategies and finds ZO advantages in alleviating catastrophic forgetting"
+    }
+  },
+  "results": {
+    "baseline": "MoE4Adapter for VLCL",
+    "investigations": [
+      {
+        "name": "Investigation 1: ZO and FO collaboration across branches",
+        "implementation": "ZO in either visual or linguistic modality branch while FO is retained in the other",
+        "outcome": "significantly outperforms the naive full-ZO approach"
+      },
+      {
+        "name": "Investigation 2: ZO and FO collaboration within branch layers",
+        "implementation": "ZO deployed in specific layers (e.g., odd or consecutive layers) within a single branch while FO is kept in remaining layers",
+        "outcome": "yields better results, with certain configurations surpassing the full-FO baseline",
+        "mechanism": "FO provides stable directivity while ZO's limited volatility helps escape local optima",
+        "observation": "visual branch exhibits stronger fluctuations under ZO than language branch",
+        "improvement": "stabilization mechanism proposed for the visual branch to constrain ZO's search range"
+      }
+    ]
+  },
+  "evidence_id": "EV026",
+  "title": "Branch, or Layer? Zeroth-Order Optimization for Continual Learning of Vision-Language Models",
+  "year": 2025,
+  "arxiv_id": "2506.12409",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

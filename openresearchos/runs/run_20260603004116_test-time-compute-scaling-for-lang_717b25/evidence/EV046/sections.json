@@ -1,0 +1,6 @@
+{
+  "introduction": "[2509.17238] MoEs Are Stronger than You Think: Hyper-Parallel Inference Scaling with RoE\n\nMoEs Are Stronger than You Think:\n\nHyper-Parallel Inference Scaling with RoE\n\nSoheil Zibakhsh  1\n\n1  1 Work do",
+  "method": "t al.,  2022 ) .  (III) Hyper-Parallel Scaling:  A novel paradigm, instantiated by RoE, that aggregates results from diverse internal computation paths on a per-token basis.\n\nExtensive data and substa",
+  "results": "e each layer repeatedly in a recurrent manner, thereby increasing computation without adding parameters  (Lin et al.,  2022 ) . While many variants are possible, we focus on sparsely activated Mixture",
+  "conclusion": "tochasticity into expert selection and introduces execution and KV-cache optimizations for efficient inference.\n\n•\n\nWe demonstrate the superior efficiency of RoE compared to conventional model scaling"
+}

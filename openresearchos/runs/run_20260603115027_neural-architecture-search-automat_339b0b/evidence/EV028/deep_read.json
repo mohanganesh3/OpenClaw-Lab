@@ -1,0 +1,38 @@
+{
+  "title": "Self-supervised Cross-silo Federated Neural Architecture Search",
+  "index_terms": [
+    "Federated Learning",
+    "Data Privacy",
+    "Neural Architecture Search",
+    "Self-supervised Learning",
+    "Differential Privacy"
+  ],
+  "research_areas": [
+    "Federated Learning",
+    "Vertical Federated Learning",
+    "Multi-domain Image Classification",
+    "Neural Architecture Search",
+    "Self-supervised Learning"
+  ],
+  "application_domain": "Medical Diagnosis (Alzheimer's Disease)",
+  "data_modalities": [
+    "Magnetic Resonance Imaging (MRI)",
+    "Positron Emission Tomography (PET)"
+  ],
+  "challenges": [
+    "Uninspectable data and lack of expertise: Participants lack professional skills in designing neural network structures, and data are private and uninspectable",
+    "Incapability of adjusting to resource constraints"
+  ],
+  "contribution": "Proposed a self-supervised approach for Neural Architecture Search in Cross-silo Federated Learning settings",
+  "evidence_id": "EV028",
+  "year": 2021,
+  "arxiv_id": "2101.11896",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

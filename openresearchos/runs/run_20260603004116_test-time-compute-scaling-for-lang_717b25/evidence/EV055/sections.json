@@ -1,0 +1,6 @@
+{
+  "introduction": "[2504.14795] A Bayesian Approach to Segmentation with Noisy Labels via Spatially Correlated Distributions\n\n1\n\n1  institutetext:  Tohoku University, Japan\n\n1\n\n1  email:  tadokororyuryu@gmail.com\n\n2\n\n2 ",
+  "method": "c tasks such as lung segmentation, the proposed method achieves performance comparable to training with clean labels under moderate noise levels. Code is available at  https://github.com/pfnet-researc",
+  "results": "tating high-resolution optical satellite images for semantic segmentation. However, these annotations are sometimes reused for synthetic aperture radar (SAR) imagery, despite differences in resolution",
+  "conclusion": "a among experts, as well as changes in the underlying scene — such as the construction or demolition of buildings or alterations in vegetation — further reinforce this spatial dependency. Given this, "
+}

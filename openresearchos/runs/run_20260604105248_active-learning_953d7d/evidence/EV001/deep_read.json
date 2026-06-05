@@ -1,0 +1,99 @@
+{
+  "title": "GazeVaLM: A Multi-Observer Eye-Tracking Benchmark for Evaluating Clinical Realism in AI-Generated X-Rays",
+  "authors": [
+    {
+      "name": "Andrew C. Gordon",
+      "affiliation": "Northwestern University, Chicago, IL, USA"
+    },
+    {
+      "name": "Ayis Pyrros",
+      "affiliation": "DuPage Medical Group, Chicago, Illinois, United States"
+    },
+    {
+      "name": "Frank H. Miller",
+      "affiliation": "Northwestern University, Chicago, IL, USA"
+    },
+    {
+      "name": "Amir Borhani",
+      "affiliation": "Northwestern University, Chicago, IL, USA"
+    },
+    {
+      "name": "Hatice Savas",
+      "affiliation": "Northwestern University, Chicago, IL, USA"
+    },
+    {
+      "name": "Eric Hart",
+      "affiliation": "Northwestern University, Chicago, Illinois, United States"
+    },
+    {
+      "name": "Elizabeth Krupinski",
+      "affiliation": "Emory University, Atlanta, GA, USA"
+    },
+    {
+      "name": "Ulas Bagci",
+      "affiliation": "Northwestern University, Chicago, IL, USA"
+    }
+  ],
+  "year": 2026,
+  "dataset": {
+    "name": "GazeVaLM",
+    "description": "A public eye-tracking dataset for studying clinical perception during chest radiograph authenticity assessment",
+    "size": {
+      "gaze_recordings": 960,
+      "radiologists": 16,
+      "real_xrays": 30,
+      "synthetic_xrays": 30
+    },
+    "data_provided": [
+      "Raw gaze samples",
+      "Fixation maps",
+      "Scanpaths",
+      "Saliency density maps",
+      "Structured diagnostic labels",
+      "Authenticity judgments",
+      "Predicted diagnoses (for 6 multimodal LLMs)",
+      "Authenticity labels (for 6 multimodal LLMs)",
+      "Confidence scores (for 6 multimodal LLMs)"
+    ],
+    "conditions": [
+      "Diagnostic assessment",
+      "Real-fake classification (Visual Turing test)"
+    ],
+    "analyses": [
+      "Gaze agreement",
+      "Inter-observer consistency",
+      "Benchmarking of radiologists versus LLMs in diagnostic accuracy and authenticity detection"
+    ],
+    "availability": "https://huggingface.co/datasets/davidcwong/GazeVaLM"
+  },
+  "keywords": [
+    "Eye Tracking",
+    "Medical Imaging",
+    "Generative AI",
+    "Synthetic Data"
+  ],
+  "focus_areas": [
+    "Gaze modeling",
+    "Clinical decision-making",
+    "Human-AI comparison",
+    "Generative image realism assessment",
+    "Uncertainty quantification"
+  ],
+  "mentioned_technologies": [
+    "Generative adversarial networks (GANs)",
+    "Variational autoencoders (VAEs)",
+    "Diffusion models",
+    "FID (Fréchet Inception Distance)",
+    "IS (Inception Score)"
+  ],
+  "evidence_id": "EV001",
+  "arxiv_id": "2604.11653",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

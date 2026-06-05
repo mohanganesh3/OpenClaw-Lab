@@ -1,0 +1,56 @@
+{
+  "title": "PowerAttention: Exponentially Scaling of Receptive Fields for Effective Sparse Attention",
+  "key_concepts": [
+    "Sparse attention mechanisms",
+    "Receptive field expansion",
+    "Information flow in LLMs",
+    "Directed Acyclic Graph (DAG) modeling",
+    "Static vs dynamic sparse attention patterns"
+  ],
+  "methodology": {
+    "approach": "Analysis of information flow across LLM layers",
+    "key_definition": "Model receptive field - maximum set of context tokens that the model can utilize during output generation",
+    "modeling": "Directed Acyclic Graph (DAG) where different static sparse attention patterns correspond to different edge sets",
+    "comparison": "Exponential vs linear receptive field growth"
+  },
+  "key_findings": [
+    "PowerAttention's token retrieval capability closely matches the theoretical receptive field growth for both patterns",
+    "PowerAttention achieves exponential growth in receptive field",
+    "PowerAttention's exponential growth in receptive field leads to significantly higher accuracy compared to sliding window's linear expansion",
+    "Two critical limitations identified in existing static sparse attention designs",
+    "PowerAttention addresses these limitations"
+  ],
+  "technical_details": {
+    "model_tested": "Qwen2-7B",
+    "context_length": "32K",
+    "example_size": "128-block",
+    "implementation_location": "Appendix A"
+  },
+  "applications": [
+    "Long chain-of-thought reasoning",
+    "Agents in complex environments",
+    "Long document question answering"
+  ],
+  "problem_addressed": "Quadratic complexity of attention mechanism in Transformers causing efficiency bottleneck for processing long contexts",
+  "novel_contributions": [
+    "Comprehensive analysis of sparse attention methods",
+    "New insights for designing efficient attention",
+    "Addressing the gap in theoretical analysis of sparse attention effectiveness",
+    "Distinction between static and dynamic sparse attention patterns"
+  ],
+  "additional_insights": {
+    "static_vs_dynamic": "Dynamic patterns usually achieve better performance in downstream tasks, but static patterns feature efficiency optimization in training stage and can better handle new tokens during decoding",
+    "gap_in_research": "Existing sparse attention methods have predominantly relied on intuitive heuristics and experimental results, lacking theoretical analysis to explain their effectiveness"
+  },
+  "evidence_id": "EV037",
+  "year": 2025,
+  "arxiv_id": "2503.03588",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

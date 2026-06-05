@@ -1,0 +1,6 @@
+{
+  "introduction": "[2506.01392] Sparse Imagination for Efficient Visual World Model Planning\n\nSparse Imagination\n for Efficient Visual World Model Planning\n\nJunha Chun  1  ,  Youngjoon Jeong  2\n\n1\n\n1  footnotemark:\n\n1\n\n",
+  "method": "gh-dimensional image observations, increasingly leverage high-level visual features derived from self-supervised vision models\n\ncaron2021dino  ;  oquab2023dinov2  ;  nair2022r3m  ;  xiao2022mvp\n\n.\nFor",
+  "results": "re dropout to enable sparse visual imagination.\n\n•\n\nOur sparse imagination approach, which utilizes randomly sampling token subsets, achieves substantial inference speedup while preserving competitive",
+  "conclusion": "tion\n\ntsagkas2025PVR  ;  zhou2024dinowm\n\n. To address this, approaches using spatial features like ViT patch embeddings for decision making have been developed, exemplified by DINO-WM\n\nzhou2024dinowm\n"
+}

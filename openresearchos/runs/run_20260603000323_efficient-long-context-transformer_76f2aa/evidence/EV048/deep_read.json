@@ -1,0 +1,60 @@
+{
+  "paper_title": "Sliced ReLU attention: Quasi-linear contextual expressivity via sorting",
+  "method_section": {
+    "problem": "Quadratic computational cost of standard attention mechanisms in Transformer architectures limits their application to long sequences",
+    "challenges": [
+      "Restricts application to document-level understanding",
+      "Limits long-text summarization capabilities",
+      "Hinders high-resolution image analysis"
+    ],
+    "related_approaches": [
+      {
+        "type": "Efficient implementations of standard softmax attention",
+        "examples": [
+          "FlashAttention"
+        ],
+        "limitation": "Overall complexity remains quadratic in input length"
+      },
+      {
+        "type": "Attention matrix approximation",
+        "methods": [
+          "Random features",
+          "Low-rank factorization",
+          "Sparse or local mechanisms"
+        ]
+      },
+      {
+        "type": "Linear attention architectures",
+        "method": "Linearization of softmax around the origin",
+        "limitation": "Often suffer from degraded performance on tasks requiring rich global interactions"
+      },
+      {
+        "type": "Attention-free architectures",
+        "examples": [
+          "State space sequence models",
+          "Convolutional models"
+        ]
+      }
+    ],
+    "theoretical_properties": [
+      "Universal approximation properties",
+      "Mean-field limit for infinitely long contexts",
+      "Optimal transport framework for studying smoothness",
+      "Continuous-depth limit for universal measure-to-measure interpolation"
+    ],
+    "proposed_solution": "Sliced ReLU attention through a kernel-based perspective",
+    "key_contribution": "Quasi-linear contextual expressivity via sorting"
+  },
+  "evidence_id": "EV048",
+  "title": "Sliced ReLU attention: Quasi-linear contextual expressivity via sorting",
+  "year": 2025,
+  "arxiv_id": "2512.11411",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7997,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

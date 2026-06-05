@@ -1,0 +1,6 @@
+{
+  "introduction": "[2512.14491] Sparse Multi-Modal Transformer with Masking for Alzheimer’s Disease Classification\n\nSparse Multi-Modal Transformer with Masking for Alzheimer’s Disease Classification\n\nCheng-Han Lu\n\nPei-H",
+  "method": "se, recent advances in artificial intelligence (AI) and deep learning have enabled models to leverage multi-modal information—such as structural MRI, cognitive scores, and genetic markers—for supporti",
+  "results": ". This poses challenges for scaling the model to large inputs or resource-constrained settings. Second, 3MT lacks explicit mechanisms to address missing modalities, which frequently occur in clinical ",
+  "conclusion": "g models to integrate complementary features from heterogeneous data sources. Recent studies have demonstrated the effectiveness of combining MRI with clinical scores (e.g., MMSE, CDR) and demographic"
+}

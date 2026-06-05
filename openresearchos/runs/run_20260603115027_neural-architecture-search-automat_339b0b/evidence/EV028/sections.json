@@ -1,0 +1,6 @@
+{
+  "introduction": "[2101.11896] Self-supervised Cross-silo Federated Neural Architecture Search\n\nSelf-supervised Cross-silo Federated Neural Architecture Search\n\nXinle Liang, , Yang Liu, ,\nJiahuan Luo, Yuanqin He, Tianj",
+  "method": "tion for those parties without deep learning expertise.  1\n\n1  1 This work has been submitted to the IEEE for possible publication. Copyright may be transferred without notice, after which this versio",
+  "results": "rent in samples and features but share some common knowledge  [ 13 ,  14 ] ;\n\nOur work is targeted at improving the model performance and communication efficiency in VFL, and specifically the multi-do",
+  "conclusion": "Unacceptable communication complexity:  Training VFL algorithms often require expensive communication overhead  [ 17 ] ;\n\n•\n\nData leakage risks:  In the training process, the exchange of messages amon"
+}

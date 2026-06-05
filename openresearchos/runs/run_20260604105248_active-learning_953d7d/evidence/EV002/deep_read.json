@@ -1,0 +1,55 @@
+{
+  "paper_title": "Can LLM be a Personalized Judge?",
+  "methodology": {
+    "approach": "LLM-as-a-Judge for personalization tasks",
+    "procedure": [
+      "Present LLM with subjective question and two distinct responses",
+      "LLM infers preference of real user based on user persona",
+      "LLM estimates certainty level in prediction",
+      "Compare inferred preference against user's self-reported ground truth"
+    ],
+    "identified_issue": "Persona sparsity issue - persona variables may not offer informed prior for specific tasks",
+    "proposed_solution": "Verbal uncertainty estimation component to assign lower certainty to samples with insufficient predictive power"
+  },
+  "evaluation_datasets": [
+    "PRISM",
+    "OpinionQA",
+    "Public Reddit",
+    "Empathetic Conversation"
+  ],
+  "key_findings": [
+    {
+      "finding": "Standard LLM-as-a-Judge reliability for personalization",
+      "result": "Only around 70% agreement with human judgments in binary choice scenarios, dropping below 60% for certain tasks"
+    },
+    {
+      "finding": "Persona sparsity impact",
+      "result": "Identified as major factor contributing to unreliability"
+    },
+    {
+      "finding": "Effectiveness of verbal uncertainty estimation",
+      "result": "Achieves above 80% performance in high-certainty samples"
+    },
+    {
+      "finding": "Comparison with human evaluation",
+      "result": "LLM-as-a-Personalized-Judge achieves performance comparable to third-person human evaluation"
+    }
+  ],
+  "context": {
+    "problem_statement": "Current alignment process assumes homogeneous human preferences, ignoring individual perspectives in subjective tasks",
+    "related_work": "Previous work on fine-tuning LLMs for individual preferences and role-playing capabilities",
+    "limitation_of_existing_approaches": "MT-Bench includes role-playing but only considers simplistic personas without addressing complex personas encompassing demographics, user descriptions, and prior interactions"
+  },
+  "evidence_id": "EV002",
+  "title": "Can LLM be a Personalized Judge?",
+  "year": 2024,
+  "arxiv_id": "2406.11657",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7997,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

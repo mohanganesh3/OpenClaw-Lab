@@ -1,0 +1,46 @@
+{
+  "title": "FMAS: Fast Multi-Objective SuperNet Architecture Search for Semantic Segmentation",
+  "methodology": {
+    "framework": "Fast Multi-objective Architectural Search (FMAS)",
+    "supernet": "DeepLabV3+",
+    "search_algorithm": "NSGA-II (an elitist genetic algorithm)",
+    "key_techniques": [
+      "Weight sharing",
+      "Evaluating candidates on a subset of validation set",
+      "Fine-tuning only on Pareto-optimal models"
+    ],
+    "computational_efficiency": {
+      "search_time_reduction": "99%",
+      "accuracy_impact": "Less than 3% increase in MIoU error"
+    }
+  },
+  "results": {
+    "dataset": "PASCAL VOC 2012",
+    "deployment_platform": "GAP8",
+    "performance": {
+      "speed_improvement": "2.2× faster",
+      "accuracy_loss": "7.61% MIoU loss compared to supernet"
+    }
+  },
+  "applications": [
+    "Semantic image segmentation",
+    "Edge computing",
+    "TinyML applications"
+  ],
+  "key_contributions": [
+    "Proposal of FMAS for fast multi-objective NAS in semantic segmentation",
+    "Use of DeepLabV3+ as supernet for searching computationally-efficient models",
+    "Demonstration of deployment on ultra-low-power GAP8 platform"
+  ],
+  "evidence_id": "EV023",
+  "year": 2023,
+  "arxiv_id": "2303.16322",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

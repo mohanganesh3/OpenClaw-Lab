@@ -1,0 +1,35 @@
+{
+  "method_summary": "MANGO is an online continual learning framework that balances stability-plasticity through gradient-gating and meta-learned regularization, where replay serves as both training signal and forgetting evaluator.",
+  "key_innovation": "The meta-adaptive network gradient optimization that combines gradient-gating with meta-learned regularization to control parameter updates based on sensitivity and stability coefficients.",
+  "datasets_used": [
+    "CLEAR-10",
+    "CIFAR-100",
+    "Tiny-ImageNet"
+  ],
+  "baselines_compared": [],
+  "key_results": {
+    "accuracy": "outperforms strong baselines, achieving state-of-the-art results with consistent performance across replay sizes",
+    "backward_transfer": "achieves positive Backward Transfer, overcoming forgetting on CLEAR-10"
+  },
+  "best_result": "Outperforms strong baselines, achieving state-of-the-art results with consistent performance across replay sizes, highest accuracy among all baselines, and positive Backward Transfer overcoming forgetting on CLEAR-10",
+  "limitations_stated": [
+    "The paper mentions limitations of existing methods but doesn't explicitly state limitations of MANGO"
+  ],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "medium",
+  "compute_required": null,
+  "can_run_on_macbook": null,
+  "evidence_id": "EV008",
+  "title": "MANGO: Meta-Adaptive Network Gradient Optimization for Online Continual Learning",
+  "year": 2026,
+  "arxiv_id": "2605.19080",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 5788,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

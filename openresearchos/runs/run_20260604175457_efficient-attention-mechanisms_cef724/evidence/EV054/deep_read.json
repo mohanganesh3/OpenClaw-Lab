@@ -1,0 +1,31 @@
+{
+  "title": "Focus-dLLM: Accelerating Long-Context Diffusion LLM Inference via Confidence-Guided Context Focusing",
+  "authors": [
+    "Beihang University",
+    "Hong Kong University of Science and Technology",
+    "SenseTime Research"
+  ],
+  "abstract": "Diffusion large language models (dLLMs) have emerged as a non-autoregressive paradigm for text generation, replacing left-to-right token emission with iterative denoising over a fixed-length sequence. dLLMs update multiple positions in parallel and leverage bidirectional attention, offering higher decoding throughput while maintaining generation quality. Recent studies have extended the context length of dLLMs, demonstrating effective long-context extrapolation and scaling. However, efficient long-context inference remains a key obstacle for dLLMs due to their non-autoregressive decoding and bidirectional full attention nature. This paper proposes Focus-dLLM, a training-free sparse attention framework with approximated KV cache, to accelerate long-context dLLM inference.",
+  "methodology": "The paper makes an in-depth analysis on the predictability of unmasked tokens, discovering that confidence scores at the same positions in two consecutive steps exhibit a strong positive correlation. It also analyzes the redundancy of attention patterns, observing that attention sink displays notable cross-layer consistency for dLLMs. Based on these findings, the paper proposes Focus-dLLM, which introduces a past confidence-guided indicator and a sink-aware pruning strategy for diffusion decoding.",
+  "key_findings": [
+    "Confidence scores at the same positions in two consecutive steps exhibit a strong positive correlation.",
+    "Positions of currently unknown tokens largely overlap with those that had the highest-confidence tokens in the previous step.",
+    "Attention sink displays notable cross-layer consistency for dLLMs."
+  ],
+  "contributions": [
+    "Focus-dLLM, a training-free sparse attention framework with approximated KV cache, to accelerate long-context dLLM inference.",
+    "A past confidence-guided indicator that uses confidence scores from step t-1 to predict the unmasked positions at step t.",
+    "A sink-aware pruning strategy for diffusion decoding, using tokens within the positions predicted before as queries."
+  ],
+  "evidence_id": "EV054",
+  "year": 2026,
+  "arxiv_id": "2602.02159",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

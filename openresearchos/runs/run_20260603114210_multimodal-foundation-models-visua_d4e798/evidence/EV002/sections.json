@@ -1,0 +1,6 @@
+{
+  "introduction": "[2409.17531] SimVG: A Simple Framework for Visual Grounding with Decoupled Multi-modal Fusion\n\nSimVG: A Simple Framework for Visual Grounding with Decoupled Multi-modal Fusion\n\nMing Dai  1  , Lingfeng",
+  "method": "tasets,  i.e. , RefCOCO/+/g, ReferIt, Flickr30K, and GRefCOCO, demonstrate the superiority of SimVG.\nFinally, the proposed method not only achieves improvements in efficiency and convergence speed but",
+  "results": "with manually designed mechanisms to achieve query reasoning and multi-modal fusion.\nOne-stage methods  [ 69 ,  34 ,  44 ,  67 ] , on the other hand, employ an end-to-end architecture, as shown in Fig",
+  "conclusion": "el performance, while the improvement is relatively modest on datasets with short sentences. This observation aligns with our expectation that shorter captions pose less challenge for inter-modal unde"
+}

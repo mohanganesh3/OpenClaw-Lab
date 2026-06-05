@@ -1,0 +1,10 @@
+# EV013: SMNet: Multi-Drone Detection and Classification via Monitoring Flight Control Signals on Spectrograms
+
+URL: https://www.semanticscholar.org/paper/003a76e0d1e10ea5bf33a7067eae624ca2138d44
+Year: 2025
+Source: semantic_scholar
+Arxiv: n/a
+
+## Abstract
+
+The widespread use of drones has provided numerous benefits, but it has also raised critical concerns regarding public safety and personal privacy due to many accidents stemming from their illegal use. Most radio frequency (RF) based methods for drone monitoring focus on the video-transmission signals (VTS), therefore bringing the potential risks that illicit drones can evade RF monitoring systems by disabling their VTS. To address this problem, we shift our attention to the flight control signals (FCS) that are indispensable for carrying the routine flight control instructions and logs. This paper proposes a new network designed specifically for FCS-oriented detection and classification, named the Spectrogram Monitoring Network (SMNet). Specifically, SMNet can identify the classes, frequency ranges, and time ranges of FCS by monitoring objects of interest on spectrograms. Different from traditional detectors, SMNet exploits the edge and corner features of FCS, which makes it perform well in complex electromagnetic environments. Then, we leverage our insights into texture features (TF) and position features (PF) found within FCS. By integrating TF-aware and PF-aware mechanisms, SMNet can effectively extract weak and scattered features of FCS to improve accuracy. Besides, we explore the application of SMNet to deal with multi-drone scenarios with a scale-limited dataset, which aims to reduce the demanded scale of data acquisition and labelling from the exponential level to the linear level. To this end, we utilize mixup-based data augmentation to generate pseudo-spectrograms that reflect multi-drone communication activities, thereby enhancing the generalizability of SMNet. Extensive experiments show that the proposed method outperforms the compared methods in terms of robustness against six typical types of noise while maintaining similar precision and recall.

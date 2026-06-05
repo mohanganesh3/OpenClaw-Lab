@@ -1,0 +1,45 @@
+{
+  "title": "PowerAttention: Exponentially Scaling of Receptive Fields for Effective Sparse Attention",
+  "method": {
+    "name": "PowerAttention",
+    "core_concept": "Exponential scaling of receptive fields for effective sparse attention",
+    "key_components": [
+      "Information flow analysis across six layers with 128-block example",
+      "Quantitative evaluation on Qwen2-7B with 32K context length",
+      "Model receptive field concept defined as maximum set of context tokens utilized during output generation",
+      "Directed Acyclic Graph (DAG) model for analyzing information flow"
+    ],
+    "comparisons": [
+      "Compared to sliding window's linear expansion",
+      "Addresses limitations of existing static sparse attention designs"
+    ],
+    "advantages": [
+      "Exponential growth in receptive field",
+      "Significantly higher accuracy compared to sliding window's linear expansion",
+      "Better information retrieval capability that closely matches theoretical receptive field growth"
+    ]
+  },
+  "context": {
+    "problem": "Quadratic complexity of attention mechanisms in Transformer-based LLMs when processing long contexts",
+    "solution_approach": "Sparse attention to reduce computational complexity by restricting each token to attend to only a fixed number of tokens",
+    "method_categories": [
+      "Static pattern: Pre-defined attention mask like sliding window attention",
+      "Dynamic pattern: Model trained with full attention and updates attention mask at inference stage"
+    ]
+  },
+  "limitations_addressed": [
+    "Information from tokens at certain positions cannot be retrieved by the final output",
+    "Low efficiency in expanding the receptive field layer by layer"
+  ],
+  "evidence_id": "EV051",
+  "year": 2025,
+  "arxiv_id": "2503.03588",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

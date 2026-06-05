@@ -1,0 +1,10 @@
+# EV010: Energy-Efficient and Near Real-Time Routing Algorithm for Disaster Monitoring in Wireless Sensor Networks
+
+URL: https://www.semanticscholar.org/paper/07185987a5e9ffc3bc31eba6f0739c76523bfa0c
+Year: 2026
+Source: semantic_scholar
+Arxiv: n/a
+
+## Abstract
+
+Wireless Sensor Networks (WSNs) deployed in disaster-monitoring scenarios require energy-efficient, low-latency multi-hop routing under strict resource constraints. Existing multi-agent reinforcement learning (MARL) approaches such as QMIX and QTRAN treat the routing problem independently, ignoring the network topology and suffering from memory explosion at scale. We propose Graph-Attentive Policy Fusion (GAPF), a lightweight meta-learning framework that fuses frozen MARL expert policies through a Graph Convolutional Network (GCN) encoder and a Contextual Algorithm Selection (CAS) controller. GAPF encodes the sensor topology into a compact graph embedding at episode onset and selects the best-performing expert with only 1,473 trainable parameters. We evaluate GAPF across 7 scenarios spanning 20–100 sensors, 3 seeds each, totalling 21,000 test episodes. GAPF achieves near-perfect packet delivery (<inline-formula> <tex-math notation="LaTeX">$\geq 98$ </tex-math></inline-formula>%) across all scales, with +43% to +111% relative improvement over standalone MARL baselines. It consumes 2–<inline-formula> <tex-math notation="LaTeX">$3.5\times $ </tex-math></inline-formula> less energy, maintains 3–<inline-formula> <tex-math notation="LaTeX">$9\times $ </tex-math></inline-formula> better energy balance, and requires <inline-formula> <tex-math notation="LaTeX">$13\times $ </tex-math></inline-formula> less memory (951 MB vs 13.2 GB), passing all feasibility constraints. The scalability analysis reveals that GAPF’s advantage grows superlinearly in sparse networks, where topology-aware relay coordination is most critical. Our results demonstrate that lightweight policy fusion with graph-structural awareness can replace heavyweight monolithic MARL for resource-constrained, safety-critical WSN routing.

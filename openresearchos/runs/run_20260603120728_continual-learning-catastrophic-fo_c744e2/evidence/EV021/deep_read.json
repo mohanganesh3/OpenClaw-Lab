@@ -1,0 +1,47 @@
+{
+  "title": "Revisiting Deepfake Detection: Chronological Continual Learning and the Limits of Generalization",
+  "authors": "Not specified in the provided text",
+  "abstract": "The paper addresses challenges in deepfake detection (DFD) due to continuously emerging deepfake generators. Traditional static training paradigms struggle with dynamic, real-world environments. The authors propose a chronological simulation framework for deepfake scenarios, frame the problem as a domain-incremental (DIL) task, and focus on data, training, and inference efficiency. They conducted over 600 simulations and observed that while some methods retained knowledge of past generators, none showed strong generalization to future ones.",
+  "keywords": [
+    "Deepfake Detection",
+    "Continual Learning",
+    "Chronological Simulation",
+    "Domain-Incremental Learning",
+    "Generalization"
+  ],
+  "methodology": {
+    "approach": "Chronological Continual Learning",
+    "framework": "Simulation framework spanning from 2018 to 2025",
+    "task_formulation": "Domain-Incremental (DIL) task",
+    "data_selection": "Datasets selected according to a Time protocol",
+    "simulation": "Custom batch extraction simulating real-world data stream scenarios"
+  },
+  "contributions": [
+    "Proposed Non-Universal Deepfake Distribution Hypothesis",
+    "Chronological simulation framework for deepfake scenarios",
+    "Strategy to simulate task sequences as random samples from datastreams",
+    "Focus on lightweight models for real-time performance",
+    "Evaluation of data, training, and inference efficiency"
+  ],
+  "results": {
+    "simulations_conducted": 600,
+    "key_findings": "While some methods retained knowledge of past generators, none showed strong generalization to future ones"
+  },
+  "limitations_of_prior_work": [
+    "Limited evaluation sets (≤2K samples)",
+    "Non-chronological sequences of generators",
+    "Limited number of CL methods evaluated"
+  ],
+  "future_work": "Code will be released upon acceptance",
+  "evidence_id": "EV021",
+  "year": 2025,
+  "arxiv_id": "2509.07993",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

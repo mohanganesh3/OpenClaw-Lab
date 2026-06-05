@@ -1,0 +1,64 @@
+{
+  "title": "HAMMER: Hamiltonian Curiosity Augmented Large Language Model Reinforcement",
+  "key_concepts": [
+    "Reinforcement Learning with Verification (RLVR)",
+    "Group Relative Policy Optimization (GRPO)",
+    "Curriculum Learning (CL)",
+    "Chain-of-Thought (CoT)",
+    "Hamiltonian curiosity"
+  ],
+  "algorithms": [
+    "GRPO (Group Relative Policy Optimization)",
+    "DAPO (Dynamic sAmpling Policy Optimization)",
+    "CL (Curriculum Learning)"
+  ],
+  "related_models": [
+    "OpenAI-o1",
+    "DeepSeek-R1",
+    "DeepSeek-AI et al."
+  ],
+  "mathematical_components": {
+    "policy_ratio": "ρ_t = π_θ(o_t|q,o_{<t}) / π_θ_old(o_t|q,o_{<t})",
+    "grpo_objective": "𝒥(θ) = E{1/G Σ_i=1^G 1/|o_i| Σ_t=1^|o_i| min(ρ_i,t Â_i,t, clip(ρ_i,t,1-ε,1+ε) Â_i,t) - β D_KL}",
+    "normalized_advantage": "Â_i,t = (r_i,t - mean(r_i,t)) / std(r_i,t)"
+  },
+  "problems_addressed": [
+    "High variance and unstable convergence in RL with LLMs",
+    "Local optimization in traditional curriculum learning",
+    "Performance bottlenecks in reduction-oriented sampling methods"
+  ],
+  "proposed_solutions": [
+    "Diversity-based approach",
+    "Hamiltonian curiosity augmented approach"
+  ],
+  "citations": [
+    "Guo et al., 2025",
+    "Shao et al., 2024",
+    "Team et al., 2025",
+    "Chen et al., 2025a",
+    "DeepSeek-AI et al., 2025",
+    "Jaech et al., 2024",
+    "Schulman et al., 2017",
+    "Bengio et al., 2009",
+    "Narvekar et al., 2020",
+    "Parashar et al., 2025",
+    "Qiu et al., 2025",
+    "Koh & Liang, 2017",
+    "Sener & Savarese, 2017",
+    "Lewis & Catlett, 1994",
+    "Zhang et al., 2024a",
+    "Mehra et al., 2025",
+    "Chen et al., 2025b"
+  ],
+  "evidence_id": "EV018",
+  "year": 2025,
+  "arxiv_id": "2509.25240",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7997,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

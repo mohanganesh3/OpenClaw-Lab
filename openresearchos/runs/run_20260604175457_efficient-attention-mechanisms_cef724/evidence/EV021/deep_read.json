@@ -1,0 +1,54 @@
+{
+  "title": "Simple Models, Rich Representations: Visual Decoding from Primate Intracortical Neural Signals",
+  "research_focus": "Visual decoding from primate intracortical neural signals",
+  "dataset": {
+    "name": "THINGS Ventral-Stream Spiking Dataset (TVSD)",
+    "description": "Natural images paired with multi-unit activity recordings"
+  },
+  "subjects": {
+    "species": "macaques",
+    "count": 2
+  },
+  "neural_recordings": {
+    "type": "multi-unit activity (MUA)",
+    "channels": "~2,000",
+    "brain_regions": [
+      "V1",
+      "V4",
+      "IT"
+    ],
+    "sampling_rate": "30 kHz"
+  },
+  "stimuli": {
+    "type": "natural images",
+    "count": "~25,000",
+    "categories": 1854
+  },
+  "research_questions": [
+    "What role does temporal structure play in neural decoding?",
+    "What types of models are best suited to capture neural dynamics?",
+    "How do simple linear models compare to recurrent neural networks for decoding?",
+    "How do architectural choices affect decoding performance?"
+  ],
+  "models_compared": [
+    "Linear models",
+    "Recurrent neural networks"
+  ],
+  "evaluation_method": "Accuracy of image representation decoding using semantic representations from a frozen CLIP model",
+  "key_findings": [
+    "Modeling temporal dynamics is crucial for high-level decoding tasks",
+    "Nonlinear models improve performance primarily through better temporal aggregation",
+    "Benefits of complex models are largely attributable to temporal structure rather than architectural complexity"
+  ],
+  "evidence_id": "EV021",
+  "year": 2026,
+  "arxiv_id": "2601.11108",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "paper_metadata": {
+    "title": "Point Primitive Transformer for Long-Term 4D Point Cloud Video Understanding",
+    "method_name": "Point Primitive Transformer",
+    "acronym": "PPTr"
+  },
+  "problem_statement": {
+    "core_challenge": "Processing point cloud sequences is challenging due to issues with both effectiveness and efficiency.",
+    "effectiveness_challenges": [
+      "Capturing long-term spatio-temporal structures is difficult.",
+      "Points between different frames are unstructured and inconsistent due to camera motion, scene changes, occlusion changes, and sampling patterns."
+    ],
+    "efficiency_challenges": [
+      "Memory and computation explosions can occur due to the complexity and dimension of 4D data.",
+      "4D convolution is computationally prohibitive for large scenes and long videos.",
+      "Existing transformer-based backbones (like P4Transformer) require loading the entire video into memory, severely limiting video length."
+    ]
+  },
+  "proposed_solution": {
+    "core_idea": "Develop an efficient and effective 4D backbone using a hierarchical transformer that operates on a mid-level representation called 'primitive planes'.",
+    "key_observations": [
+      "Raw points at a distance should not be extracted at the point level, as this is neither efficient nor effective.",
+      "A middle-level abstraction is better suited for context modeling, which improves efficiency and allows for easier association across frames."
+    ],
+    "mid_level_representation": {
+      "name": "Primitive plane",
+      "justification": "It describes the underlying planar structures in a scene and tends to be much more stable across frames."
+    }
+  },
+  "architecture": {
+    "type": "Hierarchical Transformer",
+    "levels": [
+      {
+        "level": "Lower Level",
+        "component_name": "Intra-primitive Point Transformer",
+        "purpose": "Extracts short-term spatial-temporal features.",
+        "scope": "Processes a short video clip around the frame of interest.",
+        "key_mechanism": "Uses primitive planes to restrict the spatial support of attention maps, introducing a geometry-aware locality inductive bias."
+      },
+      {
+        "level": "Upper Level",
+        "component_name": "Primitive Transformer",
+        "purpose": "Extracts long-term spatial-temporal features."
+      }
+    ]
+  },
+  "evidence_id": "EV029",
+  "title": "Point Primitive Transformer for Long-Term 4D Point Cloud Video Understanding",
+  "year": 2022,
+  "arxiv_id": "2208.00281",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7997,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

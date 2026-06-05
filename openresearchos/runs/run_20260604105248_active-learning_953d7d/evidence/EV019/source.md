@@ -1,0 +1,10 @@
+# EV019: Mediating Effect of Transformative Learning Process on the Psychological Safety and Transformative Learning Outcome among Information Technology Firms in Beijing, China
+
+URL: https://www.semanticscholar.org/paper/0058bad03cb93db79a5dfefd46c649ed508a93be
+Year: 2024
+Source: semantic_scholar
+Arxiv: n/a
+
+## Abstract
+
+This paper investigates the mediating effect of transformative learning processes on the relationship between psychological safety and transformative learning outcomes among information technology firms in Beijing, China. With the rapid evolution of the technology industry, fostering a conducive learning environment becomes essential for employee development and organizational success. Drawing on a sample of information technology firms in Beijing, this study explores how psychological safety influences transformative learning outcomes, and whether transformative learning processes mediate this relationship. The research employs a structured questionnaire survey to collect data from employees, focusing on variables related to psychological safety, transformative learning processes, and transformative learning outcomes. Preliminary findings indicate a significant positive association between psychological safety and transformative learning outcomes. Moreover, transformative learning processes, including social support, attitude toward uncertainty, and criticality, demonstrate a mediating effect on this relationship. Specifically, employees who perceive higher levels of psychological safety are more likely to engage in transformative learning processes, leading to enhanced transformative learning outcomes. These results underscore the importance of promoting psychological safety and facilitating transformative learning processes within information technology firms. By fostering a supportive and inclusive work environment, organizations can empower employees to embrace change, cultivate innovative thinking, and ultimately drive organizational success in the dynamic technology landscape of Beijing, China.

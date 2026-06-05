@@ -1,0 +1,51 @@
+{
+  "title": "Improving Commonsense Question Answering by Graph-based Iterative Retrieval over Multiple Knowledge Sources",
+  "authors": "Not provided in the text.",
+  "abstract": "Not provided in the text.",
+  "keywords": "Not provided in the text.",
+  "introduction": {
+    "problem_statement": "Existing question answering (QA) systems are either context-dependent or lack the use of external knowledge, such as commonsense or background knowledge, which is crucial for understanding natural language questions.",
+    "gap_in_existing_work": "Previous methods using a two-stage framework (retrieval then fusion) are challenged by the 'multi-value property' of knowledge, where an entity-relation pair can be associated with multiple correct answers, confusing the model."
+  },
+  "methodology": {
+    "problem_addressed": "The 'multi-value property' of knowledge sources like ConceptNet, where an entity-relation pair can have multiple valid answers, making it difficult for a model to make the correct choice.",
+    "proposed_solution": "A novel question-answering method that uses multiple knowledge sources and establishes precise connections between the question, choices, and background knowledge.",
+    "key_components": [
+      {
+        "name": "Graph-based iterative retrieval module",
+        "description": "Narrows and refines useful knowledge facts by leveraging hidden relations among entities in the question."
+      },
+      {
+        "name": "Multi-source knowledge integration",
+        "description": "Uses multiple knowledge sources, including a dictionary, in addition to sources like ConceptNet, to provide explanations for entities."
+      },
+      {
+        "name": "Answer choice-aware attention mechanism",
+        "description": "Introduced before final prediction to compute attention, helping the model distinguish between deceptive answer choices."
+      }
+    ],
+    "knowledge_sources": [
+      "ConceptNet",
+      "Wikipedia",
+      "Dictionary"
+    ],
+    "dataset": "CommonsenseQA"
+  },
+  "results": {
+    "problem_illustration": "The text illustrates the 'multi-value property' using an example from CommonsenseQA. The entity-relation pair ⟨farmland, AtLocation⟩ is linked to three choices: midwest, countryside, and illinois. The text states that given only ConceptNet, it is difficult for a machine to choose the correct one as every choice seems correct.",
+    "key_findings": "The paper identifies the 'multi-value property' as a critical issue that hurts the performance of existing QA models.",
+    "quantitative_results": "Not provided in the text."
+  },
+  "conclusion": "Not provided in the text.",
+  "evidence_id": "EV005",
+  "year": 2020,
+  "arxiv_id": "2011.02705",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

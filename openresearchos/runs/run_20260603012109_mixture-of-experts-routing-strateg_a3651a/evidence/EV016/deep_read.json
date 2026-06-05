@@ -1,0 +1,28 @@
+{
+  "title": "An Alternative Trajectory for Generative AI",
+  "main_contribution": "Proposal of 'societies of DSS models' as an alternative to scaling large language models",
+  "key_problems_identified": [
+    "High computational and energy costs of training and deploying large foundation models",
+    "Limited robust, compositional reasoning capabilities of large models",
+    "Data quality issues in Internet-scale text corpora"
+  ],
+  "proposed_solution": "Dynamic ecosystems where orchestration agents route tasks to distinct DSS back-ends",
+  "benefits": [
+    "Decoupling capability from size",
+    "Enabling intelligence to migrate to secure, on-device experts",
+    "Moving generative AI away from environmental liability to sustainable force",
+    "Enabling small language models to master complex domain-specific reasoning"
+  ],
+  "methodology": "Using knowledge graphs, ontologies, and formal logic to form the basis for generation of synthetic curricula",
+  "evidence_id": "EV016",
+  "year": 2026,
+  "arxiv_id": "2603.14147",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

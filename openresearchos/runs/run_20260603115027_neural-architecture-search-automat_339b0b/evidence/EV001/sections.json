@@ -1,0 +1,6 @@
+{
+  "introduction": "[2108.06859] Probeable DARTS with Application to Computational Pathology\n\nProbeable DARTS with Application to Computational Pathology\n\nSheyang Tang  1  , Mahdi S. Hosseini  2\n\n1\n\n1  footnotemark:\n\n1\n\n",
+  "method": "15 ] . The emerging AI techniques have shown their superiority in more accurate, efficient, and large-scale medical diagnoses  [ 4 ] . In particular, Convolutional Neural Networks (CNNs) have been wid",
+  "results": "are captured in natural scenes where the distance has much variance. Examples from each imaging modality are shown in Figure\n\n1(a)  , where the ship images are taken from a further distance than the d",
+  "conclusion": "ther searching strategies including reinforcement learning  [ 39 ]  and evolutionary algorithms  [ 26 ] . DARTS achieves this by relaxing the search space to be continuous and dividing the whole pipel"
+}

@@ -1,0 +1,32 @@
+{
+  "title": "MoEs Are Stronger than You Think: Hyper-Parallel Inference Scaling with RoE",
+  "authors": "Not specified in provided text",
+  "year": 2025,
+  "abstract": "The paper introduces hyper-parallel scaling, a novel inference paradigm that allocates additional compute at test time to diversify a model's internal computations, thereby improving the quality of each token. It proposes RoE (Roster of Experts), a training-free inference technique that treats a single MoE as a dynamic ensemble by adding controlled stochasticity to the router's expert selection, running multiple stochastic forward passes per token, and aggregating the resulting logits.",
+  "methodology": {
+    "paradigm": "Hyper-parallel scaling",
+    "technique": "Roster of Experts (RoE)",
+    "approach": "Training-free inference technique that adds controlled stochasticity to the router's expert selection, runs multiple stochastic forward passes per token, and aggregates the resulting logits",
+    "computational_optimization": "Exploits overlap across forward passes, merges them into a single batched call, and introduces a specialized caching mechanism to reduce KV-cache size"
+  },
+  "key_contributions": [
+    "Introduction of hyper-parallel scaling as a novel inference paradigm",
+    "Development of RoE (Roster of Experts) as a training-free inference technique",
+    "Optimization techniques for reducing redundant computation"
+  ],
+  "categories": [
+    "Test-time scaling",
+    "Mixture of Experts (MoE) models",
+    "Inference optimization"
+  ],
+  "evidence_id": "EV002",
+  "arxiv_id": "2509.17238",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "introduction": "[2208.00281] Point Primitive Transformer for Long-Term 4D Point Cloud Video Understanding\n\n1\n\n1  institutetext:  Tsinghua University\n\n1\n\n1  email:  wenh19@mails.tsinghua.edu.cn, liuyzchina@gmail.com\n\n",
+  "method": "them.\n\nDespite its importance, processing point cloud sequences is a quite challenging task for machines that are largely determined by two aspects: effectiveness and efficiency. Effectiveness refers ",
+  "results": "evel, as this is neither efficient nor effective. Second, a middle-level abstraction representing the underlying geometry spatially and temporally can be better suited for context modeling, which will",
+  "conclusion": ", we could better associate primitives from different frames and effectively integrate long-term context to the frame of interest.\n\nWe evaluate our Point Primitive Transformer(PPTr) on several tasks, "
+}

@@ -1,0 +1,911 @@
+{
+  "claims": [
+    {
+      "claim_id": "CL001",
+      "evidence_id": "EV001",
+      "text": "This work presents an explainable AI-based Multi-Layer Pyramid Convolutional Neural Network (XAI_MLPCNN) architecture for stress detection.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL002",
+      "evidence_id": "EV002",
+      "text": "A novel spatial–temporal adaptive graph convolutional network (STAGCN) is proposed to overcome limitations in existing models by capturing spatial-temporal features from multi-sensor data.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL003",
+      "evidence_id": "EV003",
+      "text": "Applying dynamic short convolutions to key, query, and value representations in Transformers using custom Triton kernels",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": "Not explicitly stated in provided text"
+    },
+    {
+      "claim_id": "CL004",
+      "evidence_id": "EV004",
+      "text": "Coarse-Grained Reconfigurable Architecture (CGRA) is superior to CPUs and FPGAs in terms of computational performance and power efficiency.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL005",
+      "evidence_id": "EV005",
+      "text": "Engaging multiple knowledge sources to establish precise connections between background knowledge and the original question",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL006",
+      "evidence_id": "EV006",
+      "text": "The paper introduces a novel deep learning architecture, the Higher Order Polynomial Transformer (HP-Transformer), for fine-grained detection of Freezing of Gait from vision inputs.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL007",
+      "evidence_id": "EV007",
+      "text": "Their proposed method effectively addresses the limitations of single-graph convolution and learning long-distance temporal dependencies in traffic flow forecasting.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL008",
+      "evidence_id": "EV008",
+      "text": "This paper performs a coherence analysis on iterated line graphs of multi-subdivision graphs to understand their consensus dynamics.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL009",
+      "evidence_id": "EV009",
+      "text": "Recently, the utilization of real-world medical data collected from clinical sites has been attracting attention. Especially as the number of variables in real-world medical data increases, causal dis",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL010",
+      "evidence_id": "EV010",
+      "text": "We introduce an efficient fake news detection system using binary classification, employing attention-based Recurrent Neural Network (RNN) models.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL011",
+      "evidence_id": "EV011",
+      "text": "This research compares spectral clustering methods for graph models of pipeline systems, focusing on their performance under resource-constrained conditions.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL012",
+      "evidence_id": "EV012",
+      "text": "A learning method based on the LMMSE channel is proposed for Radio Frequency Fingerprint (RFF) identification to enhance authentication in the Internet of Vehicles (IoV).",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL013",
+      "evidence_id": "EV013",
+      "text": "We propose SMNet, a method for multi-drone detection and classification by monitoring flight control signals, which is more robust than existing video-transmission signal monitoring methods.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL014",
+      "evidence_id": "EV014",
+      "text": "The paper proposes a novel two-layer controller for autonomous aircraft trajectory planning under uncertainty.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL015",
+      "evidence_id": "EV015",
+      "text": "This paper proposes a method for predicting NOMA attacks in large-scale networks.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL016",
+      "evidence_id": "EV016",
+      "text": "To improve the efficiency and accuracy of anti-terrorism systems, this paper proposes a new analysis model based on Big Data.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL017",
+      "evidence_id": "EV017",
+      "text": "We provide the first formal definition of reward hacking, a phenomenon where optimizing an imperfect proxy reward function leads to poor performance according to the true reward function. We say that ",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL018",
+      "evidence_id": "EV018",
+      "text": "Transformer-based multi-modal intelligent systems often suffer from high computational and energy costs due to dense self-attention, limiting their scalability under resource constraints. This paper p",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL019",
+      "evidence_id": "EV019",
+      "text": "This paper compares domain-specific and domain-agnostic methods for predicting suitable school types for pupils.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL020",
+      "evidence_id": "EV020",
+      "text": "Learning to Allocate Time-Bound and Dynamic Tasks to Multiple Robots Using Covar.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL021",
+      "evidence_id": "EV021",
+      "text": "Understanding how neural activity gives rise to perception is a central challenge in neuroscience. We address the problem of decoding visual information from high-density intracortical recordings in p",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL022",
+      "evidence_id": "EV022",
+      "text": "This study demonstrates that employing the Choquet fuzzy integral within a decomposition ensemble learning framework enhances the accuracy of air passenger demand forecasting.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL023",
+      "evidence_id": "EV023",
+      "text": "The combination of Spiking Neural Networks (SNNs) and Vision Transformers (ViTs) holds potential for achieving both energy efficiency and high performance, particularly suitable for edge vision applic",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL024",
+      "evidence_id": "EV024",
+      "text": "This article proposes a quasi-time-invariant focusing beamforming scheme for retrodirective FDA to solve the time-varying and range-angle coupling problems.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL025",
+      "evidence_id": "EV025",
+      "text": "This paper proposes two low-complexity methods for 3D source localization using 1-D AOA measurements that work with arbitrary linear array deployments.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL026",
+      "evidence_id": "EV026",
+      "text": "The transformer architecture, which processes sequences of input tokens to produce outputs for query tokens, has revolutionized numerous areas of machine learning. A defining feature of transformers i",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL027",
+      "evidence_id": "EV027",
+      "text": "With the emergence of wearable devices and other embedded systems, deploying large language models (LLMs) on edge platforms has become an urgent need. However, this is challenging because of their hig",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL028",
+      "evidence_id": "EV028",
+      "text": "A hybrid regression modeling and data-driven analysis approach is used to predict steel's mechanical properties from its composition.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL029",
+      "evidence_id": "EV029",
+      "text": "RNNs and LSTMs are effective for modeling non-linear hydrological systems, making them key research areas for time-series prediction.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL030",
+      "evidence_id": "EV030",
+      "text": "The paper introduces a novel Transformer attention mechanism inspired by the Kolmogorov-Arnold representation theorem for low-light image enhancement.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL031",
+      "evidence_id": "EV031",
+      "text": "This paper presents a novel unsupervised multiview sparse filtering method to effectively extract fault-related features from raw current signals for wind turbine gearbox diagnosis.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL032",
+      "evidence_id": "EV032",
+      "text": "A dual sparse learning approach, enhanced by data augmentation, can improve the robustness of facial image classification.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL033",
+      "evidence_id": "EV033",
+      "text": "This paper proposes a new method for Knowledge Graph Reasoning that overcomes the limitations of GCN-based approaches.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL034",
+      "evidence_id": "EV034",
+      "text": "This paper proposes a deep-learning-integrated blockchain framework to enhance the security of Industrial IoT networks.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL035",
+      "evidence_id": "EV035",
+      "text": "SEGODE is a new structure-enhanced graph neural ordinary differential equation network.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL036",
+      "evidence_id": "EV036",
+      "text": "This paper introduces Meta Attention Networks, which use meta-learning to dynamically control attention mechanisms for information modulation.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL037",
+      "evidence_id": "EV037",
+      "text": "We propose a block-sparse reconstruction network named Ada-BlockLISTA based on the concept of deep unfolding.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL038",
+      "evidence_id": "EV038",
+      "text": "A new KPI Method is proposed for dynamic surface reconstruction from sparse data.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL039",
+      "evidence_id": "EV039",
+      "text": "The paper proposes a new Sparse attention based separable dilated convolutional neural network (SA-SDCCN) to overcome the limitations of LSTM and classical CNN for targeted sentiment analysis.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL040",
+      "evidence_id": "EV040",
+      "text": "Accurate 3D object detection from point clouds has become a crucial component in autonomous driving. However, the volumetric representations and the projection methods in previous works fail to establ",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL041",
+      "evidence_id": "EV041",
+      "text": "A new computational method using edge-weighted graph attention is proposed to identify disease-associated circRNAs by effectively integrating multi-source data, overcoming the limitation of information loss in existing approaches.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL042",
+      "evidence_id": "EV042",
+      "text": "The AD-STLN framework provides an interpretable solution for rolling bearing fault diagnosis by combining neural and symbolic methods.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL043",
+      "evidence_id": "EV043",
+      "text": "Multimodal Large Language Models (MLLMs) are commonly derived by extending pre-trained Large Language Models (LLMs) with visual capabilities. In this work, we investigate how MLLMs process visual inpu",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL044",
+      "evidence_id": "EV044",
+      "text": "We introduce a dual-channel approach to improve sentiment analysis on travel-related Chinese online reviews, which are challenging due to colloquialisms, sparse feature dimensions, metaphors, and sarcasm.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL045",
+      "evidence_id": "EV045",
+      "text": "An unsupervised cross-spectral framework combining pseudo triplet loss with cross-spectral voting, a cross-spectral attention network leveraging multiple subspaces, and structured sparsity for discriminative cross-spectral clustering.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "DEVCOM Army Research Laboratory Visible-Thermal Face Dataset (ARL-VTF)",
+        "RegDB person re-identification dataset"
+      ],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL046",
+      "evidence_id": "EV046",
+      "text": "We propose MoCoBE-SD, a new network to alleviate data sparsity and noise in sequential recommendation by providing rich informative supervisions from both sequence-level and item-level perspectives.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL047",
+      "evidence_id": "EV047",
+      "text": "We propose a novel lane detection network, Fast-HBNet, to address the shortcomings of conventional methods.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL048",
+      "evidence_id": "EV048",
+      "text": "Unsupervised style transfer models are mainly based on an inductive learning approach, which represents the style as embeddings, decoder parameters, or discriminator parameters and directly applies th",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL049",
+      "evidence_id": "EV049",
+      "text": "This work introduces Hybrid Sparse Attention (HySparse), a new architecture that interleaves each full attention layer with several sparse attention layers. While conceptually simple, HySparse strateg",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL050",
+      "evidence_id": "EV050",
+      "text": "World model based planning has significantly improved decision-making in complex environments by enabling agents to simulate future states and make informed choices. This computational burden is parti",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL051",
+      "evidence_id": "EV051",
+      "text": "Large Language Models (LLMs) face efficiency bottlenecks due to the quadratic complexity of the attention mechanism when processing long contexts. Sparse attention methods offer a promising solution, ",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL052",
+      "evidence_id": "EV052",
+      "text": "The paper proposes ASHF-Net, a network that uses adaptive sampling and hierarchical folding to robustly complete 3D point clouds while capturing fine structural details.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL053",
+      "evidence_id": "EV053",
+      "text": "This study proposes an interpretable machine learning framework to predict tubing corrosion rates by effectively analyzing the nonlinear interactions among multi-factor inputs.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL054",
+      "evidence_id": "EV054",
+      "text": "Diffusion Large Language Models (dLLMs) deliver strong long-context processing capability in a non-autoregressive decoding paradigm. However, the considerable computational cost of bidirectional full ",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL055",
+      "evidence_id": "EV055",
+      "text": "A Context-Aware Knowledge Graph Learning (CKGL) method is proposed to address data sparsity and the failure to capture contextual dependencies in POI recommendation.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL056",
+      "evidence_id": "EV056",
+      "text": "A hybrid recommender system combining collaborative filtering and content-aware deep learning is proposed to improve personalized news delivery.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL057",
+      "evidence_id": "EV057",
+      "text": "Incorporating human pose information via a hybrid learning approach significantly enhances the accuracy of human-object interaction recognition.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL058",
+      "evidence_id": "EV058",
+      "text": "We propose a novel collaborative filtering recommendation algorithm that leverages fine-grained mining of user-item interaction data to improve the accuracy of recommendations.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL059",
+      "evidence_id": "EV059",
+      "text": "We propose SIMPLE, a new structured pruning framework for generative PLMs that targets persistent outliers in the shared hidden dimension to improve efficiency.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL060",
+      "evidence_id": "EV060",
+      "text": "The AI Scientist generates novel research ideas, writes code, executes experiments, visualizes results, writes full scientific papers, and runs a simulated review process, which can be repeated in an open-ended fashion.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": "The AI Scientist can produce papers that exceed the acceptance threshold at a top machine learning conference as judged by the automated reviewer."
+    },
+    {
+      "claim_id": "CL061",
+      "evidence_id": "EV061",
+      "text": "The AI Scientist-v2 eliminates reliance on human-authored code templates, generalizes across diverse machine learning domains, and uses a progressive agentic tree-search methodology managed by a dedicated experiment manager agent.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": "One fully AI-generated manuscript successfully navigated peer review and exceeded average human acceptance threshold"
+    },
+    {
+      "claim_id": "CL062",
+      "evidence_id": "EV062",
+      "text": "Research paper: Agent Laboratory: Using LLM Agents as Research Assistants",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL063",
+      "evidence_id": "EV063",
+      "text": "MLE-bench uses Kaggle competitions to evaluate ML engineering skills of AI agents, with OpenAI's o1-preview and AIDE scaffolding as the best-performing setup.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "Kaggle competitions"
+      ],
+      "best_result": "OpenAI's o1-preview with AIDE scaffolding achieves at least the level of a Kaggle bronze medal in 16.9% of competitions"
+    },
+    {
+      "claim_id": "CL064",
+      "evidence_id": "EV064",
+      "text": "AIBuildAI-2 is a knowledge-enhanced agent with an external, evolving hierarchical knowledge system that dynamically loads relevant context for AI model building tasks.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": "70.7% medal rate on MLE-Bench"
+    },
+    {
+      "claim_id": "CL065",
+      "evidence_id": "EV065",
+      "text": "Uses verbal feedback and memory to help agents improve across trials, motivating explicit failure memory and revision loops.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL066",
+      "evidence_id": "EV066",
+      "text": "Studies iterative generation, feedback, and refinement, providing background for reviewer-style critique and revision policies.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL067",
+      "evidence_id": "EV067",
+      "text": "Demonstrates open-ended skill acquisition with memory and iterative exploration, relevant to long-running agent loops and durable lessons.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL068",
+      "evidence_id": "EV068",
+      "text": "Introduces agent evaluation tasks and motivates structured benchmarks for agent behavior rather than isolated text quality.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL069",
+      "evidence_id": "EV069",
+      "text": "SWE-agent introduces a custom agent-computer interface (ACI) that enables language model agents to autonomously use computers to solve software engineering tasks, enhancing their ability to create/edit code files, navigate repositories, and execute tests.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "SWE-bench",
+        "HumanEvalFix"
+      ],
+      "best_result": "87.7% pass@1 rate on HumanEvalFix"
+    }
+  ],
+  "links": [
+    {
+      "from": "EV001",
+      "relation": "suggests_gap",
+      "to": "Explainable AI (XAI) has not advanced as much as stress prediction models."
+    },
+    {
+      "from": "EV002",
+      "relation": "suggests_gap",
+      "to": "The abstract does not discuss the computational complexity or resource requirements of the STAGCN model, which could be a barrier to real-time implementation."
+    },
+    {
+      "from": "EV003",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: Dynamic short convolutions that adaptively improve Transformer performance"
+    },
+    {
+      "from": "EV004",
+      "relation": "suggests_gap",
+      "to": "The paper does not address the scalability of the ILP-based mapping approach for very large or complex applications."
+    },
+    {
+      "from": "EV005",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: Engaging multiple knowledge sources to establish precise connections between background knowledge and the original question"
+    },
+    {
+      "from": "EV006",
+      "relation": "suggests_gap",
+      "to": "The abstract is incomplete, cutting off before fully describing the proposed architecture or its results."
+    },
+    {
+      "from": "EV007",
+      "relation": "suggests_gap",
+      "to": "Existing methods are limited by their use of a single graph, which fails to capture complex dependencies, and their inability to model long-distance temporal relationships."
+    },
+    {
+      "from": "EV008",
+      "relation": "suggests_gap",
+      "to": "There is a need for a deeper understanding of consensus dynamics in highly structured and iterated graph topologies."
+    },
+    {
+      "from": "EV009",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See deep_read.json for details"
+    },
+    {
+      "from": "EV010",
+      "relation": "suggests_gap",
+      "to": "The research focuses solely on text-based detection and does not address the challenges of identifying fake news in multimedia formats like images or videos."
+    },
+    {
+      "from": "EV011",
+      "relation": "suggests_gap",
+      "to": "The performance of spectral clustering methods for pipeline systems under strict computing and time resource limitations requires further investigation."
+    },
+    {
+      "from": "EV012",
+      "relation": "suggests_gap",
+      "to": "The abstract introduces the problem of RFF instability but does not provide details on how the proposed LMMSE-based learning method specifically mitigates the effects of channel variations and receiver noise."
+    },
+    {
+      "from": "EV013",
+      "relation": "suggests_gap",
+      "to": "The paper does not discuss the robustness of the method against signal interference from other RF sources or the variety of FCS protocols across different drone models."
+    },
+    {
+      "from": "EV014",
+      "relation": "suggests_gap",
+      "to": "The paper does not detail how the high-level POMDP plan is robustly translated into feasible commands by the low-level inverse dynamics controller, which could be a source of error or suboptimality."
+    },
+    {
+      "from": "EV015",
+      "relation": "suggests_gap",
+      "to": "There is a lack of effective methods for predicting advanced and erratic attacks in complex large-scale NOMA networks."
+    },
+    {
+      "from": "EV016",
+      "relation": "suggests_gap",
+      "to": "The abstract is incomplete and does not describe the proposed analysis model."
+    },
+    {
+      "from": "EV017",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See deep_read.json for details"
+    },
+    {
+      "from": "EV018",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See deep_read.json for details"
+    },
+    {
+      "from": "EV019",
+      "relation": "suggests_gap",
+      "to": "The paper focuses on predicting the *what* (school type) but not necessarily the *why* (the specific reasons leading to that advice)."
+    },
+    {
+      "from": "EV020",
+      "relation": "suggests_gap",
+      "to": "The paper focuses on the allocation problem but does not explicitly address the robustness of the learned policy against unexpected robot failures or drastic changes in task priorities."
+    },
+    {
+      "from": "EV021",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See deep_read.json for details"
+    },
+    {
+      "from": "EV022",
+      "relation": "suggests_gap",
+      "to": "Further research could involve a more extensive comparative analysis against a broader range of modern AI-based forecasting models to solidify the claimed advantages."
+    },
+    {
+      "from": "EV023",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See deep_read.json for details"
+    },
+    {
+      "from": "EV024",
+      "relation": "suggests_gap",
+      "to": "The proposed method is theoretical and its performance in practical, real-world scenarios with noise and interference is not evaluated."
+    },
+    {
+      "from": "EV025",
+      "relation": "suggests_gap",
+      "to": "The abstract is incomplete, and the full description of the proposed methods is missing."
+    },
+    {
+      "from": "EV026",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See deep_read.json for details"
+    },
+    {
+      "from": "EV027",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See deep_read.json for details"
+    },
+    {
+      "from": "EV028",
+      "relation": "suggests_gap",
+      "to": "A lack of models that can accurately predict steel's performance based on its composition."
+    },
+    {
+      "from": "EV029",
+      "relation": "suggests_gap",
+      "to": "A potential gap is the lack of a comprehensive comparison of the limitations and trade-offs between different LSTM and GRU variants specifically for hydrological systems."
+    },
+    {
+      "from": "EV030",
+      "relation": "suggests_gap",
+      "to": "The paper fails to provide a comparative analysis against existing state-of-the-art models for low-light image enhancement."
+    },
+    {
+      "from": "EV031",
+      "relation": "suggests_gap",
+      "to": "The paper focuses on feature learning but does not detail the subsequent classification or diagnosis methodology, nor does it compare its performance against supervised methods that might use labeled fault data."
+    },
+    {
+      "from": "EV032",
+      "relation": "suggests_gap",
+      "to": "It's unclear how the two components of the 'dual' learning framework interact to contribute to overall robustness."
+    },
+    {
+      "from": "EV033",
+      "relation": "suggests_gap",
+      "to": "There is a need for a KGR method that can better perceive graph structure and learn data features effectively."
+    },
+    {
+      "from": "EV034",
+      "relation": "suggests_gap",
+      "to": "The abstract does not specify the exact role or mechanism of how deep learning is integrated with the blockchain framework."
+    },
+    {
+      "from": "EV035",
+      "relation": "suggests_gap",
+      "to": "Existing graph neural networks may not effectively leverage structural information, especially when using ODE-based models."
+    },
+    {
+      "from": "EV036",
+      "relation": "suggests_gap",
+      "to": "The paper does not explore the application of the proposed networks to more complex, real-world tasks beyond standard few-shot benchmarks."
+    },
+    {
+      "from": "EV037",
+      "relation": "suggests_gap",
+      "to": "A gap exists in data-driven reconstruction methods that effectively exploit the block-sparse structure of signals."
+    },
+    {
+      "from": "EV038",
+      "relation": "suggests_gap",
+      "to": "The specific algorithmic details and computational complexity of the KPI method are not mentioned."
+    },
+    {
+      "from": "EV039",
+      "relation": "suggests_gap",
+      "to": "The abstract is incomplete, suggesting the paper's scope might be limited to only the initial components of the proposed network, leaving other aspects unexplored."
+    },
+    {
+      "from": "EV040",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See deep_read.json for details"
+    },
+    {
+      "from": "EV041",
+      "relation": "suggests_gap",
+      "to": "Despite integrating multi-source data, the challenge of data sparsity for circRNA-disease associations may persist, requiring even more diverse or dynamic data sources."
+    },
+    {
+      "from": "EV042",
+      "relation": "suggests_gap",
+      "to": "The abstract lacks details on the experimental setup, such as the specific datasets used, comparison baselines, and quantitative results."
+    },
+    {
+      "from": "EV043",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See deep_read.json for details"
+    },
+    {
+      "from": "EV044",
+      "relation": "suggests_gap",
+      "to": "The abstract is cut off before detailing the specific architecture and implementation of the proposed dual-channel approach."
+    },
+    {
+      "from": "EV045",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: A novel unsupervised cross-spectral framework that achieves performance superior to completely supervised methods in some cases."
+    },
+    {
+      "from": "EV046",
+      "relation": "suggests_gap",
+      "to": "The abstract is incomplete, ending mid-sentence, which prevents a full understanding of the proposed method's details and results."
+    },
+    {
+      "from": "EV047",
+      "relation": "suggests_gap",
+      "to": "The abstract claims the network is fast and stable but does not provide any experimental results or quantitative comparisons to support these claims."
+    },
+    {
+      "from": "EV048",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See deep_read.json for details"
+    },
+    {
+      "from": "EV049",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See deep_read.json for details"
+    },
+    {
+      "from": "EV050",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See deep_read.json for details"
+    },
+    {
+      "from": "EV051",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See deep_read.json for details"
+    },
+    {
+      "from": "EV052",
+      "relation": "suggests_gap",
+      "to": "The paper focuses on accuracy and detail but does not analyze the computational efficiency or resource requirements of the proposed network."
+    },
+    {
+      "from": "EV053",
+      "relation": "suggests_gap",
+      "to": "The model's applicability is currently limited to three specific steels and may need validation on other materials."
+    },
+    {
+      "from": "EV054",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See deep_read.json for details"
+    },
+    {
+      "from": "EV055",
+      "relation": "suggests_gap",
+      "to": "The paper does not explicitly address the cold-start problem for new users or POIs."
+    },
+    {
+      "from": "EV056",
+      "relation": "suggests_gap",
+      "to": "The paper does not address the potential computational complexity or scalability challenges of the proposed hybrid deep learning model."
+    },
+    {
+      "from": "EV057",
+      "relation": "suggests_gap",
+      "to": "While effective for static poses, the model may not fully capture the temporal dynamics and evolution of an interaction over time."
+    },
+    {
+      "from": "EV058",
+      "relation": "suggests_gap",
+      "to": "Future work could explore applying the fine-grained mining technique to address the cold-start problem for new users and items."
+    },
+    {
+      "from": "EV059",
+      "relation": "suggests_gap",
+      "to": "While the paper identifies a new pruning target, it does not deeply explore the underlying reasons for the persistence of these outliers or analyze their impact on the model's learned representations."
+    },
+    {
+      "from": "EV060",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: A fully automated system for scientific discovery that can generate ideas, implement experiments, write papers, and evaluate them through simulated peer review at a cost of less than $15 per paper."
+    },
+    {
+      "from": "EV061",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: Integration of a Vision-Language Model (VLM) feedback loop in the AI reviewer component for iterative refinement of content and aesthetics of figures."
+    },
+    {
+      "from": "EV062",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See full text"
+    },
+    {
+      "from": "EV063",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: Creation of MLE-bench, a benchmark that evaluates machine learning agents on real-world ML engineering tasks from Kaggle competitions."
+    },
+    {
+      "from": "EV064",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: An external knowledge system that continuously evolves by distilling the agent's own experience into structured takeaways."
+    },
+    {
+      "from": "EV065",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See deep_read.json for details"
+    },
+    {
+      "from": "EV066",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See deep_read.json for details"
+    },
+    {
+      "from": "EV067",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See deep_read.json for details"
+    },
+    {
+      "from": "EV068",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See deep_read.json for details"
+    },
+    {
+      "from": "EV069",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: Custom agent-computer interface (ACI) that facilitates LM agents to autonomously use computers for software engineering tasks."
+    }
+  ]
+}

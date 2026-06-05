@@ -1,0 +1,6 @@
+{
+  "introduction": "[2311.02187] An algorithmic framework for synthetic cost-aware decision making in molecular design\n\nAn algorithmic framework for synthetic cost-aware decision making in molecular design\n\nJenna C. From",
+  "method": "rkflows can aid in the prioritization of molecules, but they each make simplifying assumptions to the overarching goal of molecular design.\nGenerative models, for example, often propose molecules that",
+  "results": "Workflow (SPARROW): an algorithmic decision-making framework for driving design cycles (Figure\n\n1  ). This work builds upon prior problem formulations for the simultaneous selection of synthetic route",
+  "conclusion": "t molecules and synthetic routes that maximize the utility of synthesized compounds while minimizing synthetic cost. Such an optimization necessitates quantifying the utility of synthesizing a molecul"
+}

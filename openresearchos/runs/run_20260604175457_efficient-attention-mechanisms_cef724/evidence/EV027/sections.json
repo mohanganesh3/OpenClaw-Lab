@@ -1,0 +1,6 @@
+{
+  "introduction": "[2510.15926] TeLLMe v2: An Efficient End-to-End Ternary LLM Prefill and Decode Accelerator with Table-Lookup Matmul on Edge FPGAs\n\nTeLLMe v2: An Efficient End-to-End  Te rnary  LLM  Prefill and Decode",
+  "method": "dered prefill stage attention with fused attention operation for high memory efficiency; and (5) a resource-efficient specialized decoding stage attention. Under a 5W power budget, TeLLMe delivers up ",
+  "results": "earchers have proposed several solutions to accelerate the decoding stage of LLMs, the existing works often ignore the significant latency of the prefill stage, making prefill a critical performance b",
+  "conclusion": "ild, to our knowledge, the first edge FPGA accelerator that employs a table-lookup matmul engine for ternary LLMs with full support for both prefill and decoding, achieving up to 25 tokens/s generatio"
+}

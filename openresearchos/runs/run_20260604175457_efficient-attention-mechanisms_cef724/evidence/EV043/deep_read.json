@@ -1,0 +1,70 @@
+{
+  "title": "SparseMM: Head Sparsity Emerges from Visual Concept Responses in MLLMs",
+  "authors": "Not specified in provided text",
+  "abstract": "This paper presents a systematic investigation into how visual concepts are processed within large language models (LLMs). The authors discovered that only a small subset of attention heads (called 'visual heads') disproportionately drive visual content understanding, while the majority remain text-specialized. They found two key properties of these visual heads: (1) Sparsity - Less than 5% of attention heads are intrinsically visual-active across layers, even in models trained with extensive multimodal data; (2) Universality - Visual heads emerge consistently across different LLM architectures and generalize to multiple attention paradigms.",
+  "methodology": {
+    "framework": "Training-free framework to identify visual heads",
+    "anchor_task": "OCR (Optical Character Recognition) to establish precise correspondence between text outputs and visual inputs",
+    "analysis_approach": "Trace activation back to spatially aligned image patches to measure visual-text alignment",
+    "optimization": "SparseMM - KV-Cache optimization framework that exploits visual head sparsity for accelerated inference"
+  },
+  "key_findings": [
+    "Only a small subset of attention heads (visual heads) drive visual content understanding",
+    "Less than 5% of attention heads are intrinsically visual-active across layers",
+    "Visual heads emerge consistently across different LLM architectures",
+    "The identified visual heads are task-agnostic and generalize to diverse vision-language tasks"
+  ],
+  "applications": "Accelerated inference in multimodal tasks, especially for complex inputs like multi-turn dialogues, high-resolution images, and video/3D sequences",
+  "references": {
+    "LLMs": [
+      39,
+      37,
+      14,
+      6,
+      45
+    ],
+    "MLLMs": [
+      21,
+      3,
+      26,
+      7,
+      53,
+      46
+    ],
+    "Visual Encoders": {
+      "CLIP": [
+        42
+      ],
+      "SigLIP": [
+        55
+      ]
+    },
+    "Models": {
+      "Vicuna": [
+        8
+      ],
+      "Qwen2": [
+        41
+      ]
+    },
+    "Attention Paradigms": {
+      "MHA": [
+        49
+      ],
+      "GQA": [
+        2
+      ]
+    }
+  },
+  "evidence_id": "EV043",
+  "year": 2025,
+  "arxiv_id": "2506.05344",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7997,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

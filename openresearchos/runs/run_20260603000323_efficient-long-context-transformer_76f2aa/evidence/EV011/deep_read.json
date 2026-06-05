@@ -1,0 +1,53 @@
+{
+  "paper_title": "Ring Attention with Blockwise Transformers for Near-Infinite Context",
+  "method_section": {
+    "problem": "Quadratic complexity with sequence length makes scaling Transformers to longer input sequences challenging",
+    "current_context_lengths": {
+      "GPT-3.5": "16K",
+      "GPT-4": "32K",
+      "MosaicML's MPT": "65K",
+      "Anthropic's Claude": "100K"
+    },
+    "existing_solutions": [
+      "Computing softmax matrix without materializing full matrix",
+      "Blockwise computation of self-attention and feedforward without approximations"
+    ],
+    "key_challenge": "Storing output of each layer due to self-attention's n to n interactions",
+    "proposed_solution": {
+      "name": "Ring Attention",
+      "advantages": [
+        "Allows training up to device count times longer sequences than baselines",
+        "Enables training sequences that exceed millions in length",
+        "Doesn't make approximations",
+        "Doesn't add overheads to communication and computation"
+      ]
+    }
+  },
+  "results_section": {
+    "memory_requirements": {
+      "tokens": "100 million",
+      "model_size": "hidden size of 1024",
+      "memory_needed": "over 1000GB"
+    },
+    "key_observation": "Self-attention and feedforward network computations can be performed in a blockwise fashion, allowing distribution of sequence dimensions across multiple devices",
+    "method_details": {
+      "outer_loop": "Distributed among hosts, with each device managing its respective input block",
+      "inner_loop": "Each device computes blockwise attention and feedforward operations specific to its designated input block",
+      "topology": "Devices form a conceptual ring",
+      "communication": "Each device sends key-value blocks to the next device and receives from the previous one",
+      "efficiency": "Overlapping block computations and transfers results in no added overhead"
+    }
+  },
+  "evidence_id": "EV011",
+  "title": "Ring Attention with Blockwise Transformers for Near-Infinite Context",
+  "year": 2023,
+  "arxiv_id": "2310.01889",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7996,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "introduction": "[2104.00031] NetAdaptV2: Efficient Neural Architecture Search with Fast Super-Network Training and Architecture Optimization\n\nNetAdaptV2: Efficient Neural Architecture Search with\n\nFast Super-Network ",
+  "method": "accuracy with the same latency.  1\n\n1  1 The project website:  http://netadapt.mit.edu .\n\nFigure 1 :\n\nThe comparison between NetAdaptV2 and related works. The number above a marker is the correspondin",
+  "results": "e for other steps), which still leads to a long  total  search time, or are unable to support non-differentiable search metrics, which limits the performance of the discovered DNNs.\n\nIn this paper, we",
+  "conclusion": "e search metrics, Sec.\n\n2.4  ):  NetAdaptV1  [ 1 ]  and MobileNetV3  [ 25 ] , which utilizes NetAdaptV1, have demonstrated the effectiveness of the single-layer coordinate descent (SCD) optimizer  [ 2"
+}

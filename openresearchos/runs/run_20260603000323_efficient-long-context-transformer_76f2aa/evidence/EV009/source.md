@@ -1,0 +1,10 @@
+# EV009: Long-range Sequence Modeling with Predictable Sparse Attention
+
+URL: https://www.semanticscholar.org/paper/01d08fa6c229bf3070600e49f8ab05449361817e
+Year: 2022
+Source: semantic_scholar
+Arxiv: n/a
+
+## Abstract
+
+Self-attention mechanism has been shown to be an effective approach for capturing global context dependencies in sequence modeling, but it suffers from quadratic complexity in time and memory usage. Due to the sparsity of the attention matrix, much computation is redundant. Therefore, in this paper, we design an efficient Transformer architecture, named Fourier Sparse Attention for Transformer (FSAT), for fast long-range sequence modeling. We provide a brand-new perspective for constructing sparse attention matrix, i.e. making the sparse attention matrix predictable. Two core sub-modules are: (1) A fast Fourier transform based hidden state cross module, which captures and pools L^2 semantic combinations in \mathcal{O}(L\log L) time complexity. (2) A sparse attention matrix estimation module, which predicts dominant elements of an attention matrix based on the output of the previous hidden state cross module. By reparameterization and gradient truncation, FSAT successfully learned the index of dominant elements. The overall complexity about the sequence length is reduced from \mathcal{O}(L^2) to \mathcal{O}(L\log L). Extensive experiments (natural language, vision, and math) show that FSAT remarkably outperforms the standard multi-head attention and its variants in various long-sequence tasks with low computational costs, and achieves new state-of-the-art results on the Long Range Arena benchmark.

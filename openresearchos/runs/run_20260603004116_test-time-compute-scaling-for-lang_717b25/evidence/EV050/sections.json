@@ -1,0 +1,6 @@
+{
+  "introduction": "[2305.17346] Input-Aware Dynamic Timestep Spiking Neural Networks for Efficient In-Memory Computing This work was supported in part by CoCoSys, a JUMP2.0 center sponsored by DARPA and SRC, Google Rese",
+  "method": "he accuracy of a 4-timestep static SNN while reducing the energy-delay-product by 80%.\n\nIndex Terms:\n\nSpiking neural networks, in-memory computing, dynamic inference\n\nI\n\nIntroduction\n\nDeep learning ha",
+  "results": "VGG-16 network on 64\n\n×\n\n\\times\n\n64 4-bit RRAM IMC architecture. Among these, the digital peripherals (containing crossbar input switching circuits, buffers, and accumulators) entail the highest energ",
+  "conclusion": "ample. \nWe call our method Dynamic Timestep Spiking Neural Network (DT-SNN) as it varies the number of timesteps based on each input sample.\nIn particular, we use entropy thresholding to determine the"
+}

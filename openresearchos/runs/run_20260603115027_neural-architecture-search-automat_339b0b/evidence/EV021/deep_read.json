@@ -1,0 +1,58 @@
+{
+  "title": "NetAdaptV2: Efficient Neural Architecture Search with Fast Super-Network Training and Architecture Optimization",
+  "authors": "Not specified in provided text",
+  "affiliation": "MIT (inferred from project website)",
+  "abstract": "NetAdaptV2 is an efficient neural architecture search (NAS) algorithm that significantly reduces total search time through three innovations: channel-level bypass connections, ordered dropout, and architecture optimization. It supports non-differentiable search metrics and balances time reduction across different steps of NAS.",
+  "key_contributions": [
+    "Reduces total search time for NAS algorithms",
+    "Supports non-differentiable search metrics (like hardware metrics)",
+    "Balances time reduction across different steps of NAS",
+    "Merges network depth and layer width into a single search dimension",
+    "Introduces channel-level bypass connections to reduce number of samples",
+    "Implements ordered dropout to jointly train multiple DNNs in a single forward-backward pass"
+  ],
+  "methodology": {
+    "approach": "Super-network based neural architecture search",
+    "innovations": [
+      {
+        "name": "Channel-level bypass connections",
+        "purpose": "Reduce time for training and evaluating samples by merging network depth and layer width into a single search dimension"
+      },
+      {
+        "name": "Ordered dropout",
+        "purpose": "Reduce time for training a super-network by jointly training multiple DNNs in a single forward-backward pass"
+      },
+      {
+        "name": "Architecture optimization",
+        "purpose": "Not detailed in provided text"
+      }
+    ]
+  },
+  "metrics": {
+    "primary": "Total search time",
+    "hardware": "Measured on NVIDIA V100 GPUs"
+  },
+  "related_work": [
+    "Reinforcement learning-based NAS methods",
+    "Gradient-based methods",
+    "Super-network based methods"
+  ],
+  "structure": {
+    "sections": [
+      "Introduction",
+      "Methodology (with subsections on channel-level bypass connections and ordered dropout)",
+      "Results (mentioned but not fully shown)"
+    ]
+  },
+  "evidence_id": "EV021",
+  "year": 2021,
+  "arxiv_id": "2104.00031",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

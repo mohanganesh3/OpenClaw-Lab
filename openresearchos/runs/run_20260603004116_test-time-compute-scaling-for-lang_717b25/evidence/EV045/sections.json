@@ -1,0 +1,6 @@
+{
+  "introduction": "[2001.06901] Modeling of Deep Neural Network (DNN) Placement and Inference in Edge Computing\n\nModeling of Deep Neural Network (DNN) Placement and Inference in Edge Computing\n\nMounir Bensalem, Jasenka ",
+  "method": "aints  [ 2 ,  3 ] .\nRecent hardware developments are making more and more possible to run highly computationally demanding algorithms in the edge  [ 4 ] .\n\nAmong myriad of open research issues, the mo",
+  "results": ":  A reference inference service system\n\nFigure 2:  An illustrative example of DNN application placement problem and assignment of inference request in edge nodes\n\nThe remainder of this paper is organ",
+  "conclusion": "ript  𝑉  𝑚\n\n\\mathcal{V}_{m}=\\{1,...,V_{m}\\}\n\nthe set of variants of model\n\nm\n\n𝑚\n\nm\n\n. Each model variant (\n\nm  ,  v\n\n𝑚  𝑣\n\nm,v\n\n) has a minimum memory requirement\n\nR\n\nm  ​  v\n\nsubscript  𝑅\n\n𝑚  "
+}

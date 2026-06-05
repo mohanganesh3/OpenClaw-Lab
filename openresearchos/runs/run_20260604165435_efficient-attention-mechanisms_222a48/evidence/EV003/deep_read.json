@@ -1,0 +1,34 @@
+{
+  "method_summary": "Dynamic short convolutions are applied to key, query, and value representations in Transformers, with custom Triton kernels enabling efficient training.",
+  "key_innovation": "Application of dynamic short convolutions to Transformer components (key, query, value) and after every linear layer, providing compute advantages.",
+  "datasets_used": [],
+  "baselines_compared": [
+    "Standard Transformers",
+    "Transformers with static short convolutions",
+    "Linear RNNs (Mamba-2/Gated DeltaNet)",
+    "Mixture-of-experts architectures"
+  ],
+  "key_results": {
+    "compute_advantage_kv": "1.33× compute advantage over compute-matched Transformers",
+    "compute_advantage_all_layers": "1.60× advantage when adding dynamic convolutions after every linear layer"
+  },
+  "best_result": "Dynamic convolutions consistently outperform standard Transformers and Transformers with static convolutions across language-modeling experiments from 150M to 2B parameters.",
+  "limitations_stated": [],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "medium",
+  "compute_required": "not specified",
+  "can_run_on_macbook": false,
+  "evidence_id": "EV003",
+  "title": "Dynamic Short Convolutions Improve Transformers",
+  "year": 2026,
+  "arxiv_id": "2606.03825",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 5504,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

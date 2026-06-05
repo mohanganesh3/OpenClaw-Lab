@@ -1,0 +1,48 @@
+{
+  "paper_title": "Continual Unsupervised Domain Adaptation for Semantic Segmentation",
+  "problem_statement": {
+    "challenge": "Pixel-level labeling for real-world images requires high cost of time and labor",
+    "current_approach": "Synthetic images can be used for automatic labeling but have domain discrepancy with real-world images",
+    "existing_solution": "Unsupervised Domain Adaptation (UDA) techniques adapt networks trained on synthetic images to real images",
+    "limitation": "Most existing UDA methods focus on single-target settings, which is impractical for real-world scenarios with multiple target domains introduced sequentially",
+    "issue": "Blind application of existing UDA methods leads to catastrophic forgetting of previously learned target domains"
+  },
+  "proposed_solution": {
+    "name": "Expanding Target-specific Memory (ETM) framework",
+    "components": [
+      {
+        "name": "Target-specific Memory (TM)",
+        "description": "A lightweight sub-memory for each target domain containing unique information corresponding to each domain discrepancy"
+      },
+      {
+        "name": "Double Hinge Adversarial (DHA) loss",
+        "description": "Enhances the performance of the framework"
+      }
+    ],
+    "mechanism": "When testing on previous domains, the corresponding stored TM is used to overcome catastrophic forgetting"
+  },
+  "previous_work": {
+    "method": "Wu et al. [38] introduced a method for adapting to changing environments (weather, lighting)",
+    "approach": "Uses style-memory to transfer source environment style to target environments",
+    "limitation": "Experiments were conducted within one synthetic dataset, resulting in inferior performance when applied to multiple real-world datasets"
+  },
+  "figures": {
+    "figure_1": {
+      "part_a": "Shows traditional UDA method suffering from catastrophic forgetting in Continual UDA",
+      "part_b": "Shows ETM framework alleviating forgetting by expanding TM",
+      "part_c": "Shows qualitative results demonstrating ETM mitigates forgetting on previous target domain"
+    }
+  },
+  "evidence_id": "EV017",
+  "title": "Continual Unsupervised Domain Adaptation for Semantic Segmentation",
+  "year": 2020,
+  "arxiv_id": "2010.09236",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7996,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

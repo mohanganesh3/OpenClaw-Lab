@@ -1,0 +1,6 @@
+{
+  "introduction": "[2601.03262] Roles of MLLMs in Visually Rich Document Retrieval for RAG: A Survey\n\nRoles of MLLMs in Visually Rich Document Retrieval for RAG: A Survey\n\nXiantao Zhang\n\nBeihang University\n\nzhangxiantao",
+  "method": "eason over varied data types, including images and tables  Chen  et al.  ( 2022 ); Yasunaga  et al.  ( 2023 ) .\n\nHowever, VRDs represent a uniquely difficult case for MM-RAG.\nUnlike retrieving standal",
+  "results": "l.  ( 2025 ) .\nThese datasets collectively highlight why retrieval must respect both layout and visual semantics, not only text.\n\nScope and goal\n\nThis survey focuses specifically on visually rich docu",
+  "conclusion": "to bridge retrieval-based and generative models.\nThis hybrid approach dynamically retrieves documents to condition generation, enhancing factual accuracy and access to knowledge beyond training data  "
+}

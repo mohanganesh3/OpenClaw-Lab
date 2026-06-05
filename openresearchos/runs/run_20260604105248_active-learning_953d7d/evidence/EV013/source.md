@@ -1,0 +1,10 @@
+# EV013: Bayesian origin-destination estimation in networked transit systems using nodal in- and outflow counts
+
+URL: https://www.semanticscholar.org/paper/0046414badf5c1e69cc8f3d351a34e936bdfa550
+Year: 2021
+Source: semantic_scholar
+Arxiv: 2105.12798
+
+## Abstract
+
+We propose a Bayesian inference approach for static Origin-Destination (OD)-estimation in large-scale networked transit systems. The approach finds posterior distribution estimates of the OD-coefficients, which describe the relative proportions of passengers travelling between origin and destination locations, via a Hamiltonian Monte Carlo sampling procedure. We suggest two different inference model formulations: the instantaneous-balance and average-delay model. We discuss both models' sensitivity to various count observation properties, and establish that the average-delay model is generally more robust in determining the coefficient posteriors. The instantaneous-balance model, however, requires lower resolution count observations and produces comparably accurate estimates as the average-delay model, pending that count observations are only moderately interfered by trend fluctuations or the truncation of the observation window, and sufficient number of dispersed data records are available. We demonstrate that the Bayesian posterior distribution estimates provide quantifiable measures of the estimation uncertainty and prediction quality of the model, whereas the point estimates obtained from an alternative constrained quadratic programming optimisation approach only provide the residual errors between the predictions and observations. Moreover, the Bayesian approach proves more robust in scaling to high-dimensional underdetermined problems. The Bayesian instantaneous-balance OD-coefficient posteriors are determined for the New York City (NYC) subway network, based on several years of entry and exit count observations recorded at station turnstiles across the network. The average-delay model proves intractable on the real-world test scenario, given its computational time complexity and the incompleteness as well as coarseness of the turnstile records.

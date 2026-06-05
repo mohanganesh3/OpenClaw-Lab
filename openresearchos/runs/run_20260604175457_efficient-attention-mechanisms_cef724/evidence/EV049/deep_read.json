@@ -1,0 +1,59 @@
+{
+  "paper_title": "HySparse: A Hybrid Sparse Attention Architecture with Oracle Token Selection and KV Cache Sharing",
+  "architecture": {
+    "name": "Hybrid Sparse Attention (HySparse)",
+    "key_idea": "Interleave every full attention layer with multiple sparse attention layers",
+    "design": {
+      "full_attention_layers": "Precisely identify important token selection and produce KV caches",
+      "sparse_attention_layers": "Derive important token selection and KV caches from preceding full layer",
+      "swa_branch": "Each sparse attention layer is augmented with an additional SWA branch that maintains a small, local KV cache"
+    }
+  },
+  "motivation": {
+    "problems_addressed": [
+      "Proxy-based token selection is approximate and may fail to capture true token importance",
+      "Computation reduction without memory relief in dynamic sparse attention methods"
+    ]
+  },
+  "key_features": [
+    "Oracle-guided sparse selection",
+    "Stable end-to-end training",
+    "No per-layer KV overhead",
+    "Effective memory pressure alleviation",
+    "Enhanced short-range modeling through SWA"
+  ],
+  "experimental_setup": {
+    "model_settings": [
+      {
+        "type": "7B dense model",
+        "full_to_sparse_ratio": "1:3"
+      },
+      {
+        "type": "80B Mixture-of-Experts (MoE) model",
+        "full_to_sparse_ratio": "1:11"
+      }
+    ],
+    "final_layer": "Employs full attention to preserve global aggregation"
+  },
+  "results": {
+    "performance": "Consistently outperforms both full attention and hybrid SWA baselines",
+    "kv_cache": "No additional KV cache cost relative to hybrid SWA baseline",
+    "efficiency": {
+      "80B_MoE_model": "With 49 total layers, only 5 layers use full attention",
+      "kv_reduction": "Nearly 10× KV cache reduction while maintaining substantial performance gains"
+    },
+    "comparison": "Can significantly reduce the number of full attention layers compared to Hybrid SWA"
+  },
+  "evidence_id": "EV049",
+  "title": "HySparse: A Hybrid Sparse Attention Architecture with Oracle Token Selection and KV Cache Sharing",
+  "year": 2026,
+  "arxiv_id": "2602.03560",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "framework_name": "SPARROW",
+  "full_name": "Synthesis Planning And Rewards-based Route Optimization Workflow",
+  "type": "Algorithmic decision-making framework for molecular design",
+  "purpose": "To drive design cycles in molecular design with consideration of synthetic costs",
+  "key_features": [
+    "Downselects molecules and their hypothetical synthetic routes from a pool of candidates",
+    "Uses a multi-objective optimization criterion",
+    "Balances information gain and synthetic cost",
+    "Captures the non-additivity of synthetic costs for a batch of molecules",
+    "Scales to candidate libraries of hundreds of molecules",
+    "Provides a unified framework for evaluating suggestions from virtual libraries, de novo design algorithms, and human experts"
+  ],
+  "dependencies": [
+    "Advances in generative modeling for design ideation",
+    "Computer-aided synthesis planning",
+    "Structure-property relationship modeling",
+    "Uncertainty quantification"
+  ],
+  "implementation": {
+    "availability": "Open source",
+    "repository": "github.com/coleygroup/sparrow"
+  },
+  "demonstration": {
+    "method": "Three case studies",
+    "capabilities_shown": [
+      "Balancing information gain and synthetic cost",
+      "Capturing non-additive synthetic costs for batches of molecules",
+      "Scaling to libraries of hundreds of molecules"
+    ]
+  },
+  "builds_upon": [
+    "Prior problem formulations for simultaneous selection of synthetic routes to multiple molecules",
+    "Integration of product and process systems design"
+  ],
+  "evidence_id": "EV014",
+  "title": "An algorithmic framework for synthetic cost-aware decision making in molecular design",
+  "year": 2023,
+  "arxiv_id": "2311.02187",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

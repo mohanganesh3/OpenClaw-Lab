@@ -1,0 +1,63 @@
+{
+  "title": "Automated Dysphagia Screening Using Noninvasive Neck Acoustic Sensing",
+  "methodology": {
+    "approach": "Machine learning model using acoustic data from noninvasive neck acoustic sensing",
+    "data_collection": "Audiometric data collected during fiberoptic endoscopic evaluation of swallowing (FEES)",
+    "baseline_models_explored": [
+      "AST",
+      "CLAP",
+      "OPERA"
+    ],
+    "chosen_baseline": "OPERA (achieved best performance)",
+    "demographic_features": [
+      "age",
+      "gender"
+    ],
+    "classifier_used": "Random Forest Classifier (RFC)",
+    "training_data": "More than 600 swallow events"
+  },
+  "participants": {
+    "total_sample_size": 27,
+    "gender_distribution": {
+      "female": 25,
+      "female_percentage": 51.02,
+      "male": 24,
+      "male_percentage": 48.98
+    },
+    "pas_distribution": {
+      "normal": 22,
+      "normal_percentage": 44.9,
+      "pas_1_2": 20,
+      "pas_1_2_percentage": 40.82,
+      "pas_3_5": 7,
+      "pas_3_5_percentage": 14.29
+    },
+    "bmi_distribution": {
+      "underweight": 2,
+      "underweight_percentage": 4.08,
+      "normal": 17,
+      "normal_percentage": 34.69
+    }
+  },
+  "key_findings": [
+    "The system achieved promising classification performance",
+    "Surface digital auscultation captures acoustic signatures with diagnostic value",
+    "The model addresses limitations of prior work by using comprehensive swallow evaluations and more than 600 swallow events"
+  ],
+  "limitations_of_prior_work": [
+    "No real-time assessments during gold-standard evaluations",
+    "Validation using only single bolus consistency",
+    "Small sample sizes in proof-of-concept designs"
+  ],
+  "evidence_id": "EV014",
+  "year": 2026,
+  "arxiv_id": "2602.02725",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

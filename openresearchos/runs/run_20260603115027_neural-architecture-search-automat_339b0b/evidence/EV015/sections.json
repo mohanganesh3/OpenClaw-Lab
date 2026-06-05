@@ -1,0 +1,6 @@
+{
+  "introduction": "[2402.18443] LeMo-NADe: Multi-Parameter Neural Architecture Discovery with LLMs\n\nLeMo-NADe: Multi-Parameter Neural Architecture Discovery with LLMs\n\nMd Hafizur Rahman\n\nDepartment of Electrical and Com",
+  "method": "ayers; (2) connecting them in the right topology; and (3) selecting the most optimal hyperparameters for each layer can be a daunting task requiring a large amount of computation resources, human expe",
+  "results": "100, and ImageNet16-120 datasets. We use the framework to generate many different neural networks for diverse application requirements and priorities. Neural networks generated using LeMo-NADe for CIF",
+  "conclusion": "ighlight the motivation behind our work stemming from different shortcomings of traditional NAS frameworks.\n\n2.1  Neural Architecture Search\n\nMethods of Neural Architecture Search (NAS) extensively ap"
+}

@@ -1,0 +1,6 @@
+{
+  "introduction": "[2312.05784] Graph-based Prediction and Planning Policy Network (GP3Net) for scalable self-driving in dynamic environments using Deep Reinforcement Learning\n\nGraph-based Prediction and Planning Policy",
+  "method": "of including the prediction module to enhance safety measures in non-stationary environments.\n\nIntroduction\n\nMotion planning for AVs still has a long way to go due to the complexity of real-world driv",
+  "results": "an make a safe and efficient decision in a non-stationary environment if it can model the interactions better and predict the future trajectories of other surrounding vehicles. Depending on the future",
+  "conclusion": "rt with IL. In another work  (Teng et al.  2023 ) , a Bird’s Eye View (BEV) representation has been generated from the front camera view to use with IL for decision-making. The expert bias and distrib"
+}

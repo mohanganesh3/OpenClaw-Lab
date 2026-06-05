@@ -1,0 +1,58 @@
+{
+  "title": "Application of quantum computing to a linear non-Gaussian acyclic model for novel medical knowledge discovery",
+  "authors": "Not provided in the text",
+  "abstract": "Not provided in the text",
+  "keywords": [
+    "quantum computing",
+    "causal discovery",
+    "linear non-Gaussian acyclic model (LiNGAM)",
+    "kernel methods",
+    "quantum kernels",
+    "medical data",
+    "real-world medical data",
+    "causal inference",
+    "non-Gaussian assumptions",
+    "independence measures"
+  ],
+  "background": {
+    "data_source": "Secondary data from clinical environments, such as disease registries, electronic medical records, and claim data.",
+    "primary_analysis_method": "Causal inference, which estimates the strength of a known causal relationship.",
+    "challenge": "In many medical situations, the direction of causality is unknown beforehand. With large-scale real-world medical data, it is impractical to pre-determine all causal relationships.",
+    "alternative_method": "Causal discovery, which detects causal relationships from data to discover new knowledge.",
+    "specific_model": "The linear non-Gaussian acyclic model (LiNGAM) is a causal discovery method that can uniquely identify the structure of causal graphs under specific assumptions.",
+    "model_assumptions": [
+      "Error variables are non-Gaussian and independent.",
+      "Each variable has a linear relationship.",
+      "The causal graph is non-cyclic."
+    ],
+    "model_limitation": "LiNGAM's ability to properly estimate the causal structure depends on the independence measure used."
+  },
+  "methods": {
+    "proposed_improvement": "To improve LiNGAM, the paper proposes using kernel methods for the independence measure.",
+    "justification_for_improvement": "Kernel methods can determine independence with high accuracy and are robust to near-Gaussian error distributions and outliers.",
+    "further_improvement": "The paper proposes applying quantum computing to kernel methods, creating 'quantum kernels', to achieve even better accuracy in constructing independence measures."
+  },
+  "results": "The provided text describes the proposed method and its justification but does not present the results of its application. The text is truncated before the results section is complete.",
+  "references": [
+    "[ 2 , 3 ]",
+    "[ 4 , 5 , 6 , 7 , 8 ]",
+    "[ 9 ]",
+    "[ 10 , 11 ]",
+    "[ 12 ]",
+    "[ 13 ]",
+    "[ 14 , 15 , 16 ]"
+  ],
+  "funding": "Not mentioned in the text",
+  "data_availability": "Not mentioned in the text",
+  "evidence_id": "EV009",
+  "year": 2021,
+  "arxiv_id": "2110.04485",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

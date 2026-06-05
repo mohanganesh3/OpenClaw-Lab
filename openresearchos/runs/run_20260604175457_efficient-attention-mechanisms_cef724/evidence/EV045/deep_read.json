@@ -1,0 +1,31 @@
+{
+  "method_summary": "An unsupervised cross-spectral framework combining pseudo triplet loss with cross-spectral voting, a cross-spectral attention network leveraging multiple subspaces, and structured sparsity for discriminative cross-spectral clustering.",
+  "key_innovation": "A novel unsupervised cross-spectral framework that achieves performance superior to completely supervised methods in some cases.",
+  "datasets_used": [
+    "DEVCOM Army Research Laboratory Visible-Thermal Face Dataset (ARL-VTF)",
+    "RegDB person re-identification dataset"
+  ],
+  "baselines_compared": [
+    "recent and previous state-of-the-art models"
+  ],
+  "key_results": {},
+  "best_result": "",
+  "limitations_stated": [],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "medium",
+  "compute_required": "not specified",
+  "can_run_on_macbook": false,
+  "evidence_id": "EV045",
+  "title": "Cross-Spectral Attention for Unsupervised RGB-IR Face Verification and Person Re-Identification",
+  "year": 2024,
+  "arxiv_id": "2411.19215",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 5428,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "introduction": "[2209.13085] Defining and Characterizing Reward Hacking\n\nDefining and Characterizing Reward Hacking\n\nJoar Skalse\n\nUniversity of Oxford\n &amp;Nikolaus H. R. Howe\n\nMila, Université de Montréal\n &amp;Dmi",
+  "method": "instead of building its own  (Bird and Layzell,,  2002 ) ; universities reject the most qualified applicants in order to appear more selective and boost their ratings  (Golden,,  2001 ) .\nIn the conte",
+  "results": "sking if there exists a pair of policies\n\nπ  1\n\nsubscript  𝜋  1\n\n\\pi_{1}\n\n,\n\nπ  2\n\nsubscript  𝜋  2\n\n\\pi_{2}\n\nwhere the proxy prefers\n\nπ  1\n\nsubscript  𝜋  1\n\n\\pi_{1}\n\n, but the true reward function ",
+  "conclusion": "hold robot tasked with cleaning a house with three rooms: Attic  , Bedroom  , and Kitchen  .\nThe robot’s (deterministic) policy is a vector indicating which rooms it cleans:\n\nπ  =\n\n[\n\nπ  1\n\n,\n\nπ  2\n\n,"
+}

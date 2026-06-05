@@ -1,0 +1,6 @@
+{
+  "introduction": "[2604.27985] Exploring Sparse Matrix Multiplication Kernels on the Cerebras CS-3\n\nExploring Sparse Matrix Multiplication Kernels on the Cerebras CS-3\n\nMilan Shah\n\nAffiliation:\n\nNorth Carolina State Un",
+  "method": "ning and AI workloads. These accelerators attempt to address the limitations of GPU architectures in the context of DNN training. While GPUs can enable massive SIMD parallelism across many cores, comm",
+  "results": "We first identify the key challenges to using the existing PyTorch programming interface for sparse linear algebra kernels on the CS-3 from both programmer effort and system constraint perspectives. U",
+  "conclusion": "In many applications (such as GNNs),\n\nK  =  N\n\nK=N\n\n, thus\n\nA  A\n\nis square.\n\nA  A\n\nis the sparse matrix,\n\nH  H\n\nis the dense matrix, and\n\nY  Y\n\nis the dense output matrix.\n\nN  N\n\ncan vary significant"
+}

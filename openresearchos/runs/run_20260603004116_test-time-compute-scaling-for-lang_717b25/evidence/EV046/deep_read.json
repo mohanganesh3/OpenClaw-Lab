@@ -1,0 +1,56 @@
+{
+  "title": "MoEs Are Stronger than You Think: Hyper-Parallel Inference Scaling with RoE",
+  "authors": "Unknown",
+  "abstract": "This paper introduces hyper-parallel scaling, a novel inference paradigm that improves model performance by increasing the internal compute allocated to each token during inference. The proposed technique, Roster of Experts (RoE), leverages the inactive experts in Mixture-of-Experts (MoE) models by adding stochasticity to the router, performing multiple forward passes per token, and aggregating the results. This method is training-free and includes optimizations like batched computation and a specialized KV-cache to reduce redundancy.",
+  "methodology": {
+    "core_concept": "Hyper-parallel scaling: A novel inference paradigm that allocates more computation at inference time to improve a model's intrinsic next-token prediction capability for every generated token.",
+    "proposed_technique": "Roster of Experts (RoE)",
+    "technique_details": {
+      "mechanism": "RoE treats a single MoE as a dynamic ensemble. It adds controlled stochasticity to the router's expert selection, runs multiple stochastic forward passes per token, and aggregates the resulting logits into a single prediction. This is a training-free technique.",
+      "optimizations": [
+        "Merging multiple forward passes into a single batched call to reduce redundant computation.",
+        "Introducing a specialized caching mechanism to reduce the KV-cache size required for generation."
+      ]
+    },
+    "evaluation_strategy": "The paper evaluates the quality of greedy decoding to isolate the gains attributable to hyper-parallel scaling."
+  },
+  "key_contributions": [
+    "Introduction of hyper-parallel scaling, a novel inference paradigm for improving token quality by increasing internal compute at test time.",
+    "Proposal of Roster of Experts (RoE), a training-free inference technique for MoE models that uses stochastic routing and logit aggregation.",
+    "Implementation of optimizations for RoE, including batched computation and a specialized KV-cache to reduce computational overhead."
+  ],
+  "key_terms": [
+    "Mixture-of-Experts (MoE)",
+    "Roster of Experts (RoE)",
+    "Hyper-parallel scaling",
+    "Greedy decoding",
+    "KV-cache",
+    "Router",
+    "Logits",
+    "Stochasticity"
+  ],
+  "related_work": {
+    "categories": [
+      "Sequential Scaling",
+      "Parallel Scaling"
+    ],
+    "cited_works": [
+      "Chain-of-Thought (Wei et al., 2022)",
+      "Self-consistency (Wang et al., 2022)",
+      "Transformer blocks (Shelmanov et al., 2021)",
+      "Recurrent computation (Lin et al., 2022)",
+      "MoE models (Shazeer et al., 2017; Comanici et al., 2025; Dai et al., 2024)"
+    ]
+  },
+  "evidence_id": "EV046",
+  "year": 2025,
+  "arxiv_id": "2509.17238",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

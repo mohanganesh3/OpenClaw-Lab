@@ -1,0 +1,37 @@
+{
+  "title": "Input-Aware Dynamic Timestep Spiking Neural Networks for Efficient In-Memory Computing",
+  "keywords": [
+    "Spiking neural networks",
+    "in-memory computing",
+    "dynamic inference"
+  ],
+  "main_contribution": "Improving accuracy of 4-timestep static SNN while reducing energy-delay-product by 80%",
+  "focus": "Achieving lower energy and latency in In-Memory Computing (IMC) implemented SNNs while maintaining iso-accuracy",
+  "technical_details": {
+    "network": "VGG-16",
+    "dataset": "CIFAR-10",
+    "architecture": "64×64 4-bit RRAM IMC",
+    "energy_distribution": {
+      "digital_peripherals": "45%",
+      "IMC_crossbar_and_ADC": "25%"
+    },
+    "timestep_impact": {
+      "energy_scaling": "Linear with number of timesteps",
+      "latency_scaling": "Linear with number of timesteps",
+      "energy_increase_1_to_8_timesteps": "4.9×",
+      "latency_increase_1_to_8_timesteps": "8×"
+    }
+  },
+  "problem_addressed": "Memory wall problem in traditional von-Neumann architectures for SNNs",
+  "evidence_id": "EV050",
+  "year": 2023,
+  "arxiv_id": "2305.17346",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

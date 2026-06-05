@@ -1,0 +1,30 @@
+{
+  "title": "PyLate: Flexible Training and Retrieval for Late Interaction Models",
+  "authors": [],
+  "conference": "Not specified (requires rights confirmation email)",
+  "isbn": "978-1-4503-XXXX-X/2018/06",
+  "copyright": "none",
+  "methodology": {
+    "approach": "Late interaction models",
+    "comparison": "Single-vector vs. multi-vector approaches",
+    "key_model": "ColBERT",
+    "similarity_operator": "MaxSim",
+    "formula": "S(Q,D) = Σᵢ₌₁^|Q| maxⱼ₌₁^|D|(qᵢ⋅dⱼ)"
+  },
+  "key_findings": [
+    "ColBERT enables stronger out-of-domain generalization",
+    "Better handling of long context",
+    "Outperforms single-vector models more than 45 times its size on reasoning-intensive retrieval tasks"
+  ],
+  "evidence_id": "EV023",
+  "year": 2025,
+  "arxiv_id": "2508.03555",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7996,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

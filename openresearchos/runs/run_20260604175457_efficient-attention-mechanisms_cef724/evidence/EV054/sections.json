@@ -1,0 +1,6 @@
+{
+  "introduction": "[2602.02159] Focus-dLLM: Accelerating Long-Context Diffusion LLM Inference via Confidence-Guided Context Focusing\n\nFocus-dLLM: Accelerating Long-Context Diffusion LLM Inference via Confidence-Guided C",
+  "method": "1\n\n1 Beihang University\n\n2 Hong Kong University of Science and Technology\n\n3 SenseTime Research\n\n1  Introduction\n\nDiffusion large language models (dLLMs)  Bie  et al.  ( 2025 ); Gong  et al.  ( 2025 )",
+  "results": "ce and limited efficiency. This paper, therefore, asks:  Can we accurately predict the positions of the unmasked tokens and only retain necessary computation to achieve more effective long-context inf",
+  "conclusion": "putes attention over the predicted unmasked queries and the selected necessary key-value pairs. As a result, it achieves considerable inference speedups without compromising performance throughout the"
+}

@@ -1,0 +1,6 @@
+{
+  "introduction": "[2207.13600] Lightweight and Progressively-Scalable Networks for Semantic Segmentation\n\n∎\n\n1\n\n1  institutetext:\n\nYiheng Zhang\n\n2\n\n2  institutetext:  JD Explore Academy, Beijing, China.\n\n2\n\n2  email:  ",
+  "method": "s 73.4% mIoU on Cityscapes test set, with the speed of 413.5FPS on an NVIDIA GTX 1080Ti, leading to a performance improvement by 1.5% and a 65% speed-up against the state-of-the-art STDC. Code is avai",
+  "results": "localizing each pixel.\n\nWe employ this elegant recipe of multi-path framework and further evolve such type of architectures with good accuracy/speed tradeoff for semantic segmentation. Our philosophie",
+  "conclusion": "learnable weights. The outputs from all the paths are aggregated to produce the score maps, which are upsampled via bilinear upsampling for pixel-level predictions.\nIn an effort to achieve a lightweig"
+}

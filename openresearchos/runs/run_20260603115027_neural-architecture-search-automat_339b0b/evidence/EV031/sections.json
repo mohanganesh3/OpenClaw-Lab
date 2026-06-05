@@ -1,0 +1,6 @@
+{
+  "introduction": "[2112.04719] Learning with Nested Scene Modeling and Cooperative Architecture Search for Low-Light Vision\n\nLearning with Nested Scene Modeling and Cooperative Architecture Search\n for Low-Light Vision",
+  "method": "llenging downstream vision applications. Specifically, we first establish a nested optimization formulation, together with an unrolling strategy, to explore underlying principles of a series of LLV ta",
+  "results": "erable effort on designing deep learning models to enhance the visual quality of low-light observations. Learning with paired data  [ 4 ,  9 ,  10 ,  11 ]  is the prevalent pattern to acquire the desi",
+  "conclusion": "named Retinex-inspired Unrolling with Architecture Search (RUAS)  1\n\n1  1 A preliminary version of this work has been published in  [ 1 ] .\n\n. As shown in Fig.\n\n1  , our method realizes the best task "
+}

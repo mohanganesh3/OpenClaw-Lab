@@ -1,0 +1,62 @@
+{
+  "title": "TS-MLLM: A Multi-Modal Large Language Model-based Framework for Industrial Time-Series Big Data Analysis",
+  "methodology": {
+    "framework_name": "TS-MLLM",
+    "purpose": "Jointly model temporal signals, frequency-domain images, and textual domain knowledge for industrial time-series analysis",
+    "key_components": [
+      {
+        "name": "Industrial time-series Patch Modeling branch",
+        "function": "Capture long-range temporal dynamics"
+      },
+      {
+        "name": "Spectrum-aware Vision-Language Model Adaptation (SVLMA)",
+        "function": "Enable internalization of frequency-domain patterns and semantic context"
+      },
+      {
+        "name": "Temporal-centric Multi-modal Attention Fusion (TMAF)",
+        "function": "Retrieve relevant visual and textual cues using temporal features as queries"
+      }
+    ]
+  },
+  "application_domain": "Prognostics and Health Management (PHM)",
+  "data_types": [
+    "Raw temporal signals",
+    "Frequency spectrum images",
+    "Textual semantic context"
+  ],
+  "related_work": {
+    "traditional_methods": [
+      "RNNs",
+      "CNNs",
+      "Transformers",
+      "Diffusion models"
+    ],
+    "llm_approaches": {
+      "strategies": [
+        "Encoder-based",
+        "Prompt-based"
+      ],
+      "advantages": "Robust generalization capabilities"
+    },
+    "recent_advances": {
+      "paradigm": "Multi-modal large language models (MLLMs)",
+      "approaches": [
+        "Text-augmented modeling",
+        "Vision-augmented modeling"
+      ]
+    }
+  },
+  "limitations_of_existing_methods": "Limited generalization, especially in few-shot and zero-shot scenarios",
+  "evaluation": "Extensive experiments on multiple industrial benchmarks demonstrate that TS-MLLM significantly outperforms state-of-the-art methods, particularly in few-shot and complex scenarios",
+  "evidence_id": "EV033",
+  "year": 2026,
+  "arxiv_id": "2603.07572",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

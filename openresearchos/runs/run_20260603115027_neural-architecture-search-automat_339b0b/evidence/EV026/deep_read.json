@@ -1,0 +1,62 @@
+{
+  "title": "Experiments on Properties of Hidden Structures of Sparse Neural Networks",
+  "authors": "Not specified in the provided text",
+  "abstract": "Not provided in the excerpt",
+  "keywords": [
+    "Sparse Neural Networks",
+    "Neural Architecture Search",
+    "Pruning",
+    "Deep Learning",
+    "Hardware Efficiency",
+    "Robustness",
+    "Structural Performance Prediction"
+  ],
+  "contributions": [
+    "A PyTorch tool called 'deepstruct' for Sparse Neural Networks",
+    "A genetic neural architecture search enhanced with structural performance prediction",
+    "A comparison of magnitude-based pruning on feed-forward and recurrent networks",
+    "An original correlation analysis on recurrent networks with biologically plausible structural priors from social network theory",
+    "Performance prediction results on these recurrent networks"
+  ],
+  "methodology": {
+    "definition": "Sparse Neural Networks (SNNs) are defined as neural networks with a low proportion of connectivity",
+    "methods": [
+      "Experiments on automatic methods to obtain hidden structures: pruning, neural architecture search, and prior initialization",
+      "Structural performance prediction to speed up neural architecture search methods"
+    ]
+  },
+  "results": [
+    "The paper discusses sparsity definitions and metrics",
+    "Motivation for sparsity in neural networks",
+    "Sparsity can lead to lower number of parameters, lower computations, specialized hardware, compression, and reduced memory footprint"
+  ],
+  "references": [
+    {
+      "id": 17,
+      "description": "Related to universal approximation"
+    },
+    {
+      "id": 3,
+      "description": "Related to hardware efficiency and robustness"
+    }
+  ],
+  "tools": [
+    "PyTorch",
+    "deepstruct (a PyTorch tool)"
+  ],
+  "github_repositories": [
+    "github.com/innvariant/deepstruct",
+    "github.com/innvariant/sparsity-experiments-2021"
+  ],
+  "evidence_id": "EV026",
+  "year": 2021,
+  "arxiv_id": "2107.12917",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

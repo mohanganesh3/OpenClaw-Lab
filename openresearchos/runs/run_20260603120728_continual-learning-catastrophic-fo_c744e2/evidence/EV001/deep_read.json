@@ -1,0 +1,40 @@
+{
+  "title": "A Distributed Gaussian Process Model for Multi-Robot Mapping",
+  "method_name": "DistGP",
+  "core_technology": "Sparse Gaussian Process (GP)",
+  "application_domain": "Multi-Robot Mapping, Environmental Monitoring, Occupancy Mapping",
+  "approach": "A peer-to-peer multi-robot algorithm using sparse GPs with inducing points as local summaries. It employs a loopy factor graph model for inference, relaxing the tree constraint of prior models (TSGPs) to improve accuracy and handle dynamic, asynchronous communication.",
+  "inference_method": "Gaussian Belief Propagation (GBP)",
+  "key_innovations": [
+    "Relaxing the tree constraint of Tree-Structured GPs (TSGPs) to allow cycles in the communication graph.",
+    "Using a loopy model that is better suited for dynamic and asynchronous multi-robot settings.",
+    "Enforcing inter-robot consistency locally, where robots have overlapping data, rather than globally."
+  ],
+  "advantages_over_prior_work": [
+    "Outperforms TSGPs in accuracy by allowing direct connections between inducing points that are close in Euclidean space.",
+    "More suitable for dynamic scenarios where communication patterns change, unlike TSGP which requires fixed connectivity.",
+    "Outperforms DiNNO [22] in experimental evaluations.",
+    "Scalable, as each robot stores only a local map estimate."
+  ],
+  "contributions": [
+    "A new distributed GP model, trainable with GBP, which outperforms TSGPs [4].",
+    "Empirical analysis showing the model can be built on-the-fly and admits distributed, asynchronous inference via GBP. It is thus well-suited to multi-robot mapping.",
+    "Experimental evaluation of the method on environmental monitoring and occupancy mapping simulations, showing superior performance to DiNNO [22]."
+  ],
+  "related_work": [
+    "Tree-Structured GPs (TSGPs) [4]",
+    "Distributed NN optimiser (DiNNO) [22]",
+    "Other distributed implicit neural maps using CADMM or direct regularisation [22, 8, 2, 23, 24]"
+  ],
+  "evidence_id": "EV001",
+  "year": 2026,
+  "arxiv_id": "2603.07351",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "method_summary": "Integrates learning without forgetting continual learning method into ResNet-34 architecture with gradual feature fusion for structural damage recognition",
+  "key_innovation": "Learning without forgetting continual learning method integrated into ResNet-34 for structural damage recognition",
+  "datasets_used": [
+    "not specified"
+  ],
+  "baselines_compared": [
+    "other methods"
+  ],
+  "key_results": {
+    "prediction_time_reduction": "75%",
+    "data_storage_reduction": "75%",
+    "accuracy": "high"
+  },
+  "best_result": "High accuracy in damage recognition and classification with reduced prediction time and data storage",
+  "limitations_stated": [
+    "not specified in provided text"
+  ],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "medium",
+  "compute_required": "not specified",
+  "can_run_on_macbook": false,
+  "evidence_id": "EV007",
+  "title": "Continual‐learning‐based framework for structural damage recognition",
+  "year": 2022,
+  "arxiv_id": "2408.15513",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 5470,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

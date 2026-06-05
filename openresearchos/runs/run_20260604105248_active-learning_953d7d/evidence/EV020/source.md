@@ -1,0 +1,10 @@
+# EV020: Enabling uncertainty estimation in neural networks through weight perturbation for improved Alzheimer's disease classification
+
+URL: https://www.semanticscholar.org/paper/0058bc64face11bf54657ea70c33b1b37dcb85b2
+Year: 2024
+Source: semantic_scholar
+Arxiv: n/a
+
+## Abstract
+
+Background The willingness to trust predictions formulated by automatic algorithms is key in a wide range of domains. However, a vast number of deep architectures are only able to formulate predictions without associated uncertainty. Purpose In this study, we propose a method to convert a standard neural network into a Bayesian neural network and estimate the variability of predictions by sampling different networks similar to the original one at each forward pass. Methods We combine our method with a tunable rejection-based approach that employs only the fraction of the data, i.e., the share that the model can classify with an uncertainty below a user-set threshold. We test our model in a large cohort of brain images from patients with Alzheimer's disease and healthy controls, discriminating the former and latter classes based on morphometric images exclusively. Results We demonstrate how combining estimated uncertainty with a rejection-based approach increases classification accuracy from 0.86 to 0.95 while retaining 75% of the test set. In addition, the model can select the cases to be recommended for, e.g., expert human evaluation due to excessive uncertainty. Importantly, our framework circumvents additional workload during the training phase by using our network “turned into Bayesian” to implicitly investigate the loss landscape in the neighborhood of each test sample in order to determine the reliability of the predictions. Conclusion We believe that being able to estimate the uncertainty of a prediction, along with tools that can modulate the behavior of the network to a degree of confidence that the user is informed about (and comfortable with), can represent a crucial step in the direction of user compliance and easier integration of deep learning tools into everyday tasks currently performed by human operators.

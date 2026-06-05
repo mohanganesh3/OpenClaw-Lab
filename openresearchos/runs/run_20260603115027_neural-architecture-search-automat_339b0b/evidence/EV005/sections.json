@@ -1,0 +1,6 @@
+{
+  "introduction": "[2507.20592] PhaseNAS: Language-Model Driven Architecture Search with Dynamic Phase Adaptation\n\n1\n\n1  institutetext:\n\nQiyuan Lab, Beijing, China\n\n1\n\n1  email:  {kongfei,shanxiaohan,huyanwei,lijianmin}",
+  "method": "have been proposed to improve efficiency, yet scalability and generalization remain open challenges  [ 8 ] .\n\nRecent advances explore integrating large language models (LLMs) into NAS, enabling LLMs t",
+  "results": "-crafted search spaces and fixed search strategies.\n\nTo address these challenges, we propose PhaseNAS—a dynamic, LLM-based neural architecture search framework tailored for both lightweight classifica",
+  "conclusion": "ls such as YOLO-based detectors.\n\n3.\n\nDetection-Specific Architecture Scoring : We design a novel principled scoring approach for object detection architectures without full training, leveraging a Zen"
+}

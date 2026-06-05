@@ -1,0 +1,53 @@
+{
+  "paper_title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+  "proposed_approach": "Reflexion",
+  "core_innovation": "Converting binary or scalar feedback from the environment into verbal feedback in the form of a textual summary",
+  "methodology": {
+    "feedback_mechanism": "Verbal reinforcement learning that adds self-reflective feedback as additional context for the LLM agent",
+    "feedback_generation": [
+      "Simple binary environment feedback",
+      "Pre-defined heuristics for common failure cases",
+      "Self-evaluation (binary classification using LLMs or self-written unit tests)"
+    ],
+    "learning_process": "Self-reflective feedback acts as a 'semantic' gradient signal providing concrete directions for improvement"
+  },
+  "advantages": [
+    "Lightweight and doesn't require finetuning the LLM",
+    "Allows for more nuanced forms of feedback",
+    "Provides explicit and interpretable episodic memory",
+    "Offers explicit hints for actions in future episodes"
+  ],
+  "disadvantages": [
+    "Relies on the power of the LLM's self-evaluation capabilities",
+    "No formal guarantee for success"
+  ],
+  "experiments": {
+    "task_types": [
+      "Decision-making tasks",
+      "Reasoning tasks",
+      "Programming tasks"
+    ],
+    "datasets": [
+      "AlfWorld",
+      "HotPotQA",
+      "HumanEval"
+    ]
+  },
+  "results": {
+    "decision_making": "22% improvement over strong baseline approaches in 12 iterative learning steps",
+    "reasoning": "20% improvement on reasoning questions",
+    "programming": "Improvement on Python programming tasks"
+  },
+  "evidence_id": "EV065",
+  "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+  "year": 2023,
+  "arxiv_id": "2303.11366",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

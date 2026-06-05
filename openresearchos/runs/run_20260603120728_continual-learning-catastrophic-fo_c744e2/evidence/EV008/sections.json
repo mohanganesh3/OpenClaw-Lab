@@ -1,0 +1,6 @@
+{
+  "introduction": "[2605.19080] MANGO: Meta-Adaptive Network Gradient Optimization for Online Continual Learning\n\nSkip to main content\n\nLearn about arXiv becoming an independent nonprofit.\n\nWe gratefully acknowledge sup",
+  "method": "ently (plasticity). Existing methods counter forgetting via replay-based rehearsal, output level distillation, fixed regularization, or meta-learning on the current data. However, these methods have l",
+  "results": "80  [cs.LG]\n\n&nbsp;\n\n(or\n\narXiv:2605.19080v1  [cs.LG]  for this version)\n\n&nbsp;\n\nhttps://doi.org/10.48550/arXiv.2605.19080\n\nFocus to learn more\n\narXiv-issued DOI via DataCite\n\nSubmission history  Fro",
+  "conclusion": ".pub\n\n( What is GotitPub? )\n\nHuggingface Toggle\n\nHugging Face\n\n( What is Huggingface? )\n\nScienceCast Toggle\n\nScienceCast\n\n( What is ScienceCast? )\n\nDemos\n\nDemos\n\nReplicate Toggle\n\nReplicate\n\n( What is"
+}

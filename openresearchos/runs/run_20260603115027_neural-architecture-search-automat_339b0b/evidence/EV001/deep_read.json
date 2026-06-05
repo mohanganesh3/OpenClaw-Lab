@@ -1,0 +1,80 @@
+{
+  "title": "Probeable DARTS with Application to Computational Pathology",
+  "authors": [
+    "Not specified in the provided text"
+  ],
+  "abstract": "The paper proposes using Neural Architecture Search (NAS) for computational pathology applications, comparing characteristics of computer vision (CV) and CPath datasets, and addressing the lack of general frameworks for CPath applications.",
+  "keywords": [
+    "Neural Architecture Search",
+    "Computational Pathology",
+    "CNN",
+    "CIFAR",
+    "ADP",
+    "Network Architecture Design",
+    "ResNet",
+    "GoogLeNet"
+  ],
+  "datasets": [
+    {
+      "name": "CIFAR-10",
+      "type": "Computer Vision",
+      "training_size": 50000,
+      "validation_size": "Not specified",
+      "test_size": 10000,
+      "resolution": "32x32",
+      "classes": 10,
+      "label_form": "single-label"
+    },
+    {
+      "name": "CIFAR-100",
+      "type": "Computer Vision",
+      "training_size": 50000,
+      "validation_size": "Not specified",
+      "test_size": 10000,
+      "resolution": "32x32",
+      "classes": 100,
+      "label_form": "single-label"
+    },
+    {
+      "name": "ADP",
+      "type": "Computational Pathology",
+      "training_size": 14134,
+      "validation_size": 1767,
+      "test_size": 1767,
+      "resolution": "272x272",
+      "classes": 33,
+      "label_form": "multi-label"
+    }
+  ],
+  "methods": [
+    "Comparison of CV and CPath datasets",
+    "Analysis of image characteristics between domains",
+    "Application of Neural Architecture Search (NAS) to CPath",
+    "Transfer learning from CV architectures (ResNet, GoogLeNet) to CPath"
+  ],
+  "applications": [
+    "Computational Pathology",
+    "Medical Image Analysis",
+    "Disease Diagnosis",
+    "Medical Image Segmentation"
+  ],
+  "key_findings": [
+    "CV and CPath datasets have different characteristics",
+    "CPath images have fixed pixel resolution and uniform background",
+    "CV images have varying resolution and diverse backgrounds",
+    "NAS has been successful in CV but not fully explored in pathology",
+    "There is a lack of general framework for CPath applications",
+    "NAS has outperformed manually designed networks in CV in terms of accuracy and computation complexity"
+  ],
+  "evidence_id": "EV001",
+  "year": 2021,
+  "arxiv_id": "2108.06859",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

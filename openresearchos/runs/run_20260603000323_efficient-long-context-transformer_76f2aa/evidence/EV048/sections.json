@@ -1,0 +1,6 @@
+{
+  "introduction": "[2512.11411] Sliced ReLU attention: Quasi-linear contextual expressivity via sorting\n\nSliced ReLU attention: Quasi-linear contextual expressivity via sorting\n\nSiwan Boufadene\n\nand\n\nFrançois-Xavier Via",
+  "method": "elf-attention allows tokens to attend to each other across the entire input, enabling the modeling of long-range dependencies in a flexible, expressive, and context-driven way.\n\nMain challenges:  A ke",
+  "results": "r a more in-depth review of efficient models.\n\nFrom a theoretical perspective, recent analyses have provided deeper insight into the success of softmax-based attention architectures across diverse tas",
+  "conclusion": "through sorting,\nwe introduce a new quasi-linear Transformer architecture, based on a sliced kernel computation, extending ideas from  [ BFV25 ] . In contrast to other efficient architectures, our met"
+}

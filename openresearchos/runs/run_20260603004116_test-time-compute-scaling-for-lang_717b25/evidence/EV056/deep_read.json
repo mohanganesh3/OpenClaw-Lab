@@ -1,0 +1,41 @@
+{
+  "title": "In-memory Implementation of On-chip Trainable and Scalable ANN for AI/ML Applications",
+  "authors": "Not specified in the provided text",
+  "abstract": "Not explicitly provided in the text",
+  "introduction": "Discusses AI/ML algorithms, limitations of von Neumann architecture, benefits of in-memory computing, and ANN as tools for AI/ML applications",
+  "methodology": "In-memory implementation of on-chip trainable and scalable ANN. Trained and tested on IRIS dataset",
+  "results": "Proposed architecture is approximately 46× more energy efficient per MAC operation compared to earlier classifiers",
+  "conclusion": "Not explicitly provided in the text",
+  "index_terms": [
+    "In-memory computing",
+    "SRAM",
+    "artificial neural network",
+    "artificial intelligence",
+    "machine learning",
+    "classification"
+  ],
+  "references": [
+    "[1]",
+    "[2]",
+    "[3]",
+    "[4]",
+    "[5]",
+    "[6]",
+    "[7]",
+    "[8]",
+    "[9]",
+    "[10]",
+    "[11]"
+  ],
+  "evidence_id": "EV056",
+  "year": 2020,
+  "arxiv_id": "2005.09526",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "title": "LLMCad: Fast and Scalable On-device Large Language Model Inference",
+  "methodology": {
+    "approach": "Model collaboration with memory-resident LLM",
+    "key_technique": "Compute-IO pipeline for speculative token generation",
+    "core_idea": "Delegate most tokens to smaller real-time LLM that fits in device memory",
+    "observation": "Smaller LLMs can correctly generate most easy tokens (determiners, pronouns, punctuations)"
+  },
+  "results": {
+    "performance": "Achieves token generation speeds up to 9.3× faster than existing inference engines",
+    "problem_addressed": "Memory wall causing 59-224× lengthened inference latency when models are too large for device memory",
+    "contribution": "Breaks memory wall through model collaboration"
+  },
+  "key_findings": {
+    "emergent_abilities": {
+      "meaningful_representations": "Over 1B parameters needed",
+      "arithmetic_reasoning": "Over 10B parameters needed",
+      "multi_task_comprehension": "Over 30B parameters needed"
+    },
+    "scaling_law": "Challenged on mobile devices due to memory constraints"
+  },
+  "applications": [
+    "Text generation on mobile devices",
+    "Question answering on mobile devices",
+    "Translation on mobile devices"
+  ],
+  "related_work": [
+    "MNN",
+    "llama.cpp"
+  ],
+  "evidence_id": "EV043",
+  "year": 2023,
+  "arxiv_id": "2309.04255",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

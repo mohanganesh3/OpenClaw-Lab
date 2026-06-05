@@ -1,0 +1,34 @@
+{
+  "method_summary": "Decoding Time Verification (DTV) treats structural boundaries as meta steps for verifier-guided decoding, interleaving generation with verifier calls under a state-machine controller that enforces valid prefixes using structural-boundary checks and structure-aware rollback.",
+  "key_innovation": "Treating structural boundaries as meta steps for verifier-guided decoding to prevent error propagation during code translation",
+  "datasets_used": [
+    "C-to-Rust",
+    "JavaScript-to-TypeScript"
+  ],
+  "baselines_compared": [
+    "matched self-refinement baselines"
+  ],
+  "key_results": {
+    "pass_rate_C_to_Rust": 82,
+    "pass_rate_JavaScript_to_TypeScript": 46
+  },
+  "best_result": "82.0% pass rate on C-to-Rust translation",
+  "limitations_stated": [],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "unknown",
+  "compute_required": "unknown",
+  "can_run_on_macbook": false,
+  "evidence_id": "EV026",
+  "title": "Verifier-Guided Code Translation via Meta-Step Decoding",
+  "year": 2026,
+  "arxiv_id": "2605.17626",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 5488,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

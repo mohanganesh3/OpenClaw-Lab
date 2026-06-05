@@ -1,0 +1,6 @@
+{
+  "introduction": "[2410.06718] MatMamba: A Matryoshka State Space Model\n\nMatMamba: A Matryoshka State Space Model\n\nAbhinav Shukla  †\n\n&amp;Sai Vemprala  †\n\n&amp;Aditya Kusupati  ⋄\n\n&amp;Ashish Kapoor  †\n\n\\AND\n\n†  Scale",
+  "method": "extremely powerful individually – but due to independent training do not necessarily share the same metric space – a property which can be extremely useful for inference applications like speculative ",
+  "results": "chitecture that can be applied to any type of model (encoder/decoder), modality (language/vision/sound/actions), loss function, or learning algorithm compatible with a Transformer or Mamba2 layer.\n\nTh",
+  "conclusion": "e and compute.\n\nWe train MatMamba-based vision models (MatMamba-Vision), and find that: (a) MatMamba-Vision models scale as well as baseline Mamba2 based models at all\n\ng  =  4\n\n𝑔  4\n\ng=4\n\ngranularit"
+}

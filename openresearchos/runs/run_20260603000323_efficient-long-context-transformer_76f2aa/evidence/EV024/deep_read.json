@@ -1,0 +1,45 @@
+{
+  "model_name": "CodeSSM",
+  "architecture": "State Space Model (SSM)",
+  "model_type": "Encoder-only",
+  "domain": "Code Understanding",
+  "pretraining_task": "Masked Language Modeling (MLM)",
+  "pretraining_data": "Small code dataset",
+  "advantages": [
+    "Linear-time complexity",
+    "Captures long-range dependencies",
+    "Position-aware (eliminates need for positional embedding)",
+    "Strong sample efficiency",
+    "Ability to extrapolate to longer contexts than seen during pretraining"
+  ],
+  "limitations": [
+    "Not designed to achieve state-of-the-art performance on coding benchmarks"
+  ],
+  "comparative_models": [
+    "BertCoder",
+    "RoCoder",
+    "Other high-performing transformers"
+  ],
+  "performance_metrics": [
+    "Masked Language Modeling (MLM) Accuracy",
+    "Performance on code understanding benchmarks"
+  ],
+  "key_results": [
+    "Achieves over 50% accuracy in MLM with fewer than 3,000 training steps.",
+    "Outperforms transformers on multiple code understanding tasks when pretrained under similar conditions.",
+    "Competes with and surpasses transformer models trained on significantly larger datasets and with more complex pretraining objectives."
+  ],
+  "research_goal": "To explore and document the strengths and limitations of State Space Models (SSMs) in understanding code.",
+  "evidence_id": "EV024",
+  "title": "CodeSSM: Towards State Space Models for Code Understanding",
+  "year": 2025,
+  "arxiv_id": "2505.01475",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

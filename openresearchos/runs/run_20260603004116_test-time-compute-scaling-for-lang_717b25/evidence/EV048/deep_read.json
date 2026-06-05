@@ -1,0 +1,41 @@
+{
+  "title": "Benchmarking Small Language Models and Small Reasoning Language Models on System Log Severity Classification",
+  "methodology": {
+    "focus": "Evaluating small, deployable language models for system log severity classification",
+    "application": "Digital twin (DT) systems",
+    "evaluation_approach": "Using severity classification as a lens for evaluating model competence and real-time deployability",
+    "implications": "Root cause analysis (RCA) and broader DT integration"
+  },
+  "context": {
+    "domain": "System log analysis",
+    "challenge": "Manual interpretation of logs has become infeasible due to massive volumes and complex language",
+    "technology": "Large language models (LLMs) combined with retrieval-augmented generation (RAG)",
+    "protocol": "Syslog protocol for transmitting event notifications"
+  },
+  "technical_details": {
+    "log_severity": {
+      "range": "0 to 7",
+      "description": "Integer that quantifies the risk level of each log",
+      "standardization": "Lacks strict standardization, making it a realistic and challenging probe"
+    },
+    "syslog_priority": {
+      "calculation": "Facility value (0-23) multiplied by 8 plus Severity value",
+      "purpose": "Administrators use to identify and resolve system errors"
+    }
+  },
+  "requirements": {
+    "digital_twin_pipelines": "Log interpretation must be both accurate and latency-efficient",
+    "model_evaluation": "Compact, deployable language models under strict output constraints"
+  },
+  "evidence_id": "EV048",
+  "year": 2026,
+  "arxiv_id": "2601.07790",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "introduction": "[2109.07812] Transductive Learning for Unsupervised Text Style Transfer\n\nTransductive Learning for Unsupervised Text Style Transfer\n\nFei Xiao  1,4  ,\nLiang Pang  1∗  ,\nYanyan Lan  3∗  ,\nYan Wang  5  ,",
+  "method": "on\n\nText style transfer is an essential topic of natural language generation, which is widely used in many tasks such as sentiment transfer  (Hu et al.,  2017 ; Shen et al.,  2017 ) , dialogue generat",
+  "results": "s fail to produce an accurate style transfer rule, leading to generating some severe inconsistent texts, such as ‘ the salad is rude ’, as shown in Figure\n\n1  . The underlying reason for this phenomen",
+  "conclusion": "ns (MIPS) are used to find the top-\n\nK\n\n𝐾\n\nK\n\nsamples in the target style corpus, which are encoded by the same encoder. After that, a recurrent decoder is utilized to generate transfer text word by "
+}

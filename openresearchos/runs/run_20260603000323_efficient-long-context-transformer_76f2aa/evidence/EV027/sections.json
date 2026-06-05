@@ -1,0 +1,6 @@
+{
+  "introduction": "[2512.16615] Trainable Log-linear Sparse Attention for Efficient Diffusion Transformers\n\nTrainable Log-linear Sparse Attention for Efficient Diffusion Transformers\n\nYifan Zhou 1\n\nZeqi Xiao 1\n\nTianyi W",
+  "method": "ttention inference by\n\n28.27  ×\n\n28.27\\times\n\nand DiT training by\n\n6.09  ×\n\n6.09\\times\n\non\n\n256  ×  256\n\n256\\times 256\n\npixel token sequences, while maintaining generation quality. The results demonst",
+  "results": "op-\n\nK  K\n\nblock sparse attention  [ yuan2025native ,  lu2025moba ,  zhangspargeattention ] , which operates in three stages: (1) compress query and key tokens into coarse representations that summari",
+  "conclusion": "ons selected at higher hierarchy levels into attention computing. This preserves global context and mitigates information loss from sparsification, allowing LLSA to operate with significantly smaller\n"
+}

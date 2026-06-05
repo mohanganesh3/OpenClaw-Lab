@@ -1,0 +1,6 @@
+{
+  "introduction": "[2603.07572] This work has been submitted to the IEEE for possible publication. Copyright may be transferred without notice, after which this version may no longer be accessible. TS-MLLM: A Multi-Moda",
+  "method": "omise in time-series analysis, existing methods typically focus on single-modality adaptations, failing to exploit the complementary nature of temporal signals, frequency-domain visual representations",
+  "results": "have been widely explored for PHM tasks. These methods leverage advanced techniques such as frequency decomposition, signal feature extraction, and multi-scale learning to model complex temporal dynam",
+  "conclusion": "ual and visual information into modeling, the joint modeling of industrial time-series data with these modalities remains scarcely investigated. Current studies are typically limited to single-modalit"
+}

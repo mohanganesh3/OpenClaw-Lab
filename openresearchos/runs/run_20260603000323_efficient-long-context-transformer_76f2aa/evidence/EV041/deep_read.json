@@ -1,0 +1,51 @@
+{
+  "title": "Robust Filter Attention: Self-Attention as Precision-Weighted State Estimation",
+  "authors": "Not specified in the provided text",
+  "abstract": "We introduce Adaptive Filter Attention (AFA), a novel attention mechanism that incorporates a learnable dynamics model directly into the computation of attention weights. Rather than comparing queries and keys directly, we model the input sequence as discrete observations of a linear stochastic differential equation (SDE). By imposing a linear dynamics model with simultaneously diagonalizable state matrices and noise covariances, we can make use of a closed-form solution to the differential Lyapunov equation to efficiently propagate pairwise uncertainties through the dynamics. Attention naturally arises as the maximum likelihood solution for this linear SDE, with attention weights corresponding to robust residual-based reweightings of the propagated pairwise precisions. Imposing an additional constraint on the state matrix's eigenvalues leads to a simplified variant with the same computational and memory complexity as standard attention. In the limit of vanishing dynamics and process noise, and using a small-angle approximation, we recover ordinary dot-product attention.",
+  "method_section": {
+    "subsections": [
+      "A.4 Adaptive Filtering",
+      "A.5 The Attention Mechanism",
+      "A.6 State Space Models",
+      "B.1 Separable Approximation of the Full Precision Kernel",
+      "B.2 Approximating the Batch MLE with a Recursive Filter",
+      "B.3 Normal plus Rank-1 Noise Covariance",
+      "B.4 Expressivity of Radial-Tangential SDEs"
+    ]
+  },
+  "results_section": "Not fully provided in the text",
+  "introduction": "Self-attention has become the dominant paradigm for sequence modeling due to its parallelism and scalability. However, this parallelism comes at the cost of losing the recursive structure that RNNs naturally impose, which provides an implicit temporal regularization that encourages consistency over time. State space models (SSMs) offer a complementary approach: they retain temporal structure through shared linear dynamics while supporting parallel training via convolutional implementations. However, most SSMs assume deterministic dynamics, limiting their ability to capture stochasticity and uncertainty.",
+  "section_2": "Preliminaries - introduces model setup, reviews standard results for propagating covariances through linear SDEs, discusses batch MLE and its connection to Kalman Filter, derives closed-form solution of differential Lyapunov equation for diagonalizable systems, and discusses adaptively reweighted MLE and its relationship to IRLS and robustified Kalman Filter.",
+  "section_3": "Adaptive Filter Attention - generalizes robustified MLE to tensor form, analyzes time and memory complexity, shows simplification to form with same complexity as standard attention, and shows reduction to complex-valued variant of standard attention.",
+  "key_contributions": [
+    "Introduction of Adaptive Filter Attention (AFA)",
+    "Modeling input sequence as discrete observations of a linear SDE",
+    "Attention as maximum likelihood solution for linear SDE",
+    "Simplified variant with same complexity as standard attention",
+    "Recovery of ordinary dot-product attention in the limit of vanishing dynamics and process noise"
+  ],
+  "technical_details": [
+    "Linear dynamics model with simultaneously diagonalizable state matrices and noise covariances",
+    "Closed-form solution to differential Lyapunov equation",
+    "Pairwise uncertainties propagated through dynamics",
+    "Robust residual-based reweightings of propagated pairwise precisions",
+    "Constraint on state matrix's eigenvalues for simplification",
+    "Complex-valued variant of standard attention"
+  ],
+  "related_work": [
+    "Self-attention",
+    "RNNs (Recurrent Neural Networks)",
+    "State space models (SSMs)"
+  ],
+  "evidence_id": "EV041",
+  "year": 2025,
+  "arxiv_id": "2509.04154",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7996,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

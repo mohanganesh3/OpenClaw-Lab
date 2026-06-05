@@ -1,0 +1,37 @@
+{
+  "title": "Self-Refine: Iterative Refinement with Self-Feedback",
+  "method": {
+    "name": "Self-Refine",
+    "description": "An iterative self-refinement algorithm that alternates between feedback and refinement steps",
+    "process": [
+      "Generate initial output",
+      "Generate feedback on the output",
+      "Refine the output based on feedback",
+      "Repeat until stopping condition is met"
+    ],
+    "technique": "Few-shot prompting",
+    "model_usage": "Same underlying language model for both feedback generation and refinement",
+    "training_requirement": "No additional training required",
+    "stopping_condition": "Specified number of iterations or when model determines no further refinement is necessary"
+  },
+  "results": {
+    "evaluation": "7 generation tasks spanning diverse domains including natural language and source-code generation",
+    "performance": "Outperforms direct generation from strong LLMs",
+    "key_finding": "LLMs can provide iterative self-refinement without additional training, leading to higher-quality outputs"
+  },
+  "background": {
+    "problem": "LLMs may generate coherent outputs but fall short in addressing intricate requirements, especially for tasks with multifaceted objectives or hard-to-define goals",
+    "inspiration": "Iterative self-refinement is a fundamental characteristic of human problem-solving"
+  },
+  "evidence_id": "EV066",
+  "year": 2023,
+  "arxiv_id": "2303.17651",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7996,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "method_summary": "Applying dynamic short convolutions to key, query, and value representations in Transformers using custom Triton kernels",
+  "key_innovation": "Dynamic short convolutions that adaptively improve Transformer performance",
+  "datasets_used": [],
+  "baselines_compared": [
+    "standard Transformers",
+    "Transformers with static short convolutions",
+    "linear RNNs (Mamba-2/Gated DeltaNet)",
+    "mixture-of-experts architectures"
+  ],
+  "key_results": {
+    "compute_advantage": "1.33× when applied to key, query, and value vectors; 1.60× when added after every linear layer"
+  },
+  "best_result": "Not explicitly stated in provided text",
+  "limitations_stated": [],
+  "code_available": "not explicitly stated",
+  "code_url": null,
+  "reproducibility": "not explicitly stated",
+  "compute_required": "not explicitly stated",
+  "can_run_on_macbook": "not explicitly stated",
+  "evidence_id": "EV003",
+  "title": "Dynamic Short Convolutions Improve Transformers",
+  "year": 2026,
+  "arxiv_id": "2606.03825",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 5504,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

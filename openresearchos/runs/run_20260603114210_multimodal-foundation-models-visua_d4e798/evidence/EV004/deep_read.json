@@ -1,0 +1,134 @@
+{
+  "title": "Scaling-Aware Adapter for Structure-Grounded LLM Reasoning",
+  "authors": [
+    {
+      "name": "Zhuo et al.",
+      "year": 2024,
+      "contribution": "ProtLLM for proteins"
+    },
+    {
+      "name": "de Almeida et al.",
+      "year": 2025,
+      "contribution": "ChatNT for nucleic acids"
+    },
+    {
+      "name": "Kim et al.",
+      "year": 2025,
+      "contribution": "Mol-Llama"
+    },
+    {
+      "name": "Abramson et al.",
+      "year": 2024,
+      "contribution": "AlphaFold-3"
+    },
+    {
+      "name": "Stark et al.",
+      "year": 2025,
+      "contribution": "BoltzGen for coordinates generation"
+    },
+    {
+      "name": "Fang et al.",
+      "year": 2025,
+      "contribution": "ATOMICA for representation"
+    },
+    {
+      "name": "Li et al.",
+      "year": 2023,
+      "contribution": "Q-Former"
+    },
+    {
+      "name": "Wang et al.",
+      "year": 2025,
+      "contribution": "Structure-aware LLM efforts"
+    },
+    {
+      "name": "Park et al.",
+      "year": 2024,
+      "contribution": "Structure-aware LLM efforts"
+    }
+  ],
+  "contributions": [
+    {
+      "name": "Scaling-Aware Patching",
+      "description": "Uses instruction-conditioned gating to select anchors and expand variable-size structural patches, letting the query token budget grow with structural complexity"
+    },
+    {
+      "name": "Geometry Grounding Adapter",
+      "description": "Refines adaptive tokens through cross-attention with modality embeddings, injecting final modality tokens into the LLM to provide explicit geometric grounding"
+    }
+  ],
+  "challenges": [
+    {
+      "name": "Budget Scaling in All-Atom Modalities",
+      "description": "All-atom graphs span a wide size range, requiring adaptive allocation of representational capacity"
+    },
+    {
+      "name": "Structural Hallucination",
+      "description": "Sequence-only inputs do not encode geometry or long-range spatial relations, leading to geometric rationales not entailed by the conditioning context"
+    }
+  ],
+  "models_compared": [
+    {
+      "name": "Mol-Llama",
+      "variants": [
+        "S (sequence-only)"
+      ]
+    },
+    {
+      "name": "ProtChatGPT",
+      "variants": [
+        "S (sequence-only)"
+      ]
+    },
+    {
+      "name": "3D-MoLM",
+      "variants": [
+        "S (sequence-only)"
+      ]
+    },
+    {
+      "name": "Prot2Chat",
+      "variants": [
+        "S (sequence-only)"
+      ]
+    }
+  ],
+  "dataset": {
+    "name": "GEO-AT",
+    "description": "Used for functional group hallucination test"
+  },
+  "metrics": [
+    {
+      "name": "HR",
+      "description": "Hallucination Rate"
+    },
+    {
+      "name": "HPM",
+      "description": "Hallucinations Per Molecule"
+    },
+    {
+      "name": "AR",
+      "description": "Answer Rate"
+    }
+  ],
+  "applications": [
+    "Proteins",
+    "Nucleic acids"
+  ],
+  "key_findings": [
+    "Q-Former-style fixed-length query connectors yield lower performance for molecules in larger length bins due to over-compressed geometric features",
+    "Increasing the budget over-allocates capacity to small entities, diluting attention",
+    "LLMs that lack verifiable structural evidence can produce geometric rationales not entailed by the conditioning context"
+  ],
+  "evidence_id": "EV004",
+  "year": 2026,
+  "arxiv_id": "2602.02780",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

@@ -1,0 +1,10 @@
+# EV003: The Role of Deep Learning in Advancing Computer Vision Applications: A Comprehensive Systematic Review
+
+URL: https://www.semanticscholar.org/paper/003422dd5fbb493e7f87cb941d23332af7d2b4f4
+Year: 2025
+Source: semantic_scholar
+Arxiv: n/a
+
+## Abstract
+
+Deep learning has emerged as a transformative technology in computer vision, enabling significant advancements in tasks such as image classification, object detection, segmentation, and anomaly detection across diverse domains, including healthcare, agriculture, robotics, and industrial automation. Despite these advancements, challenges related to model interpretability, data scarcity, generalization, computational demands, and real-time deployment remain significant barriers. This study aims to systematically review and analyze recent developments in deep learning techniques applied to computer vision, identify associated challenges and research gaps, and propose potential directions to enhance the efficiency, robustness, and applicability of these systems. A comprehensive literature search was conducted across multiple reputable databases, including ScienceDirect, SpringerLink, IEEE Xplore, MDPI, and Wiley Online Library, focusing on peer-reviewed articles published between 2018 and 2025. Thematic analysis and descriptive synthesis were applied to extract insights regarding deep learning architectures, application domains, datasets, key findings, and limitations. Results indicate that Convolutional Neural Networks (CNNs), Recurrent Neural Networks (RNNs), Generative Adversarial Networks (GANs), Transformer-based architectures, and hybrid models have significantly advanced computer vision applications. However, issues such as interpretability, data scarcity, and computational complexity persist. Future directions include lightweight architectures, transfer learning, federated learning, explainable AI, and multi-modal approaches. In conclusion, while deep learning has substantially improved computer vision capabilities, addressing current limitations is essential for broader real-world adoption and multi-domain applicability.

@@ -1,0 +1,455 @@
+{
+  "run_id": "run_20260604175457_efficient-attention-mechanisms_cef724",
+  "topic": "efficient attention mechanisms",
+  "generated_at": "2026-06-04T18:31:41.098Z",
+  "papers_with_deep_read": 27,
+  "macbook_friendly": 24,
+  "with_code": 5,
+  "method_matrix": [
+    {
+      "evidence_id": "EV003",
+      "title": "Dynamic Short Convolutions Improve Transformers",
+      "year": 2026,
+      "method": "Applying dynamic short convolutions to key, query, and value representations in Transformers using custom Triton kernels",
+      "datasets_used": [],
+      "baselines_compared": [
+        "standard Transformers",
+        "Transformers with static short convolutions",
+        "linear RNNs (Mamba-2/Gated DeltaNet)",
+        "mixture-of-experts architectures"
+      ],
+      "best_result": "Not explicitly stated in provided text",
+      "key_results": {
+        "compute_advantage": "1.33× when applied to key, query, and value vectors; 1.60× when added after every linear layer"
+      },
+      "limitations": [],
+      "code_available": "not explicitly stated",
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "not explicitly stated"
+    },
+    {
+      "evidence_id": "EV005",
+      "title": "Improving Commonsense Question Answering by Graph-based Iterative Retrieval over Multiple Knowledge Sources",
+      "year": 2020,
+      "method": "Engaging multiple knowledge sources to establish precise connections between background knowledge and the original question",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV009",
+      "title": "Application of quantum computing to a linear non-Gaussian acyclic model for novel medical knowledge discovery",
+      "year": 2021,
+      "method": "Recently, the utilization of real-world medical data collected from clinical sites has been attracting attention. Especially as the number of variables in real-world medical data increases, causal dis",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV017",
+      "title": "Defining and Characterizing Reward Hacking",
+      "year": 2022,
+      "method": "We provide the first formal definition of reward hacking, a phenomenon where optimizing an imperfect proxy reward function leads to poor performance according to the true reward function. We say that ",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV018",
+      "title": "Sparse Multi-Modal Transformer with Masking for Alzheimer's Disease Classification",
+      "year": 2025,
+      "method": "Transformer-based multi-modal intelligent systems often suffer from high computational and energy costs due to dense self-attention, limiting their scalability under resource constraints. This paper p",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV021",
+      "title": "Simple Models, Rich Representations: Visual Decoding from Primate Intracortical Neural Signals",
+      "year": 2026,
+      "method": "Understanding how neural activity gives rise to perception is a central challenge in neuroscience. We address the problem of decoding visual information from high-density intracortical recordings in p",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV023",
+      "title": "Spiking Vision Transformer with Saccadic Attention",
+      "year": 2025,
+      "method": "The combination of Spiking Neural Networks (SNNs) and Vision Transformers (ViTs) holds potential for achieving both energy efficiency and high performance, particularly suitable for edge vision applic",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV026",
+      "title": "Provable In-Context Learning of Nonlinear Regression with Transformers",
+      "year": 2025,
+      "method": "The transformer architecture, which processes sequences of input tokens to produce outputs for query tokens, has revolutionized numerous areas of machine learning. A defining feature of transformers i",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV027",
+      "title": "TeLLMe v2: An Efficient End-to-End Ternary LLM Prefill and Decode Accelerator with Table-Lookup Matmul on Edge FPGAs",
+      "year": 2025,
+      "method": "With the emergence of wearable devices and other embedded systems, deploying large language models (LLMs) on edge platforms has become an urgent need. However, this is challenging because of their hig",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV040",
+      "title": "SVGA-Net: Sparse Voxel-Graph Attention Network for 3D Object Detection from Point Clouds",
+      "year": 2020,
+      "method": "Accurate 3D object detection from point clouds has become a crucial component in autonomous driving. However, the volumetric representations and the projection methods in previous works fail to establ",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV043",
+      "title": "SparseMM: Head Sparsity Emerges from Visual Concept Responses in MLLMs",
+      "year": 2025,
+      "method": "Multimodal Large Language Models (MLLMs) are commonly derived by extending pre-trained Large Language Models (LLMs) with visual capabilities. In this work, we investigate how MLLMs process visual inpu",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV045",
+      "title": "Cross-Spectral Attention for Unsupervised RGB-IR Face Verification and Person Re-Identification",
+      "year": 2024,
+      "method": "An unsupervised cross-spectral framework combining pseudo triplet loss with cross-spectral voting, a cross-spectral attention network leveraging multiple subspaces, and structured sparsity for discriminative cross-spectral clustering.",
+      "datasets_used": [
+        "DEVCOM Army Research Laboratory Visible-Thermal Face Dataset (ARL-VTF)",
+        "RegDB person re-identification dataset"
+      ],
+      "baselines_compared": [
+        "recent and previous state-of-the-art models"
+      ],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": false,
+      "compute_required": "not specified"
+    },
+    {
+      "evidence_id": "EV048",
+      "title": "Transductive Learning for Unsupervised Text Style Transfer",
+      "year": 2021,
+      "method": "Unsupervised style transfer models are mainly based on an inductive learning approach, which represents the style as embeddings, decoder parameters, or discriminator parameters and directly applies th",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV049",
+      "title": "HySparse: A Hybrid Sparse Attention Architecture with Oracle Token Selection and KV Cache Sharing",
+      "year": 2026,
+      "method": "This work introduces Hybrid Sparse Attention (HySparse), a new architecture that interleaves each full attention layer with several sparse attention layers. While conceptually simple, HySparse strateg",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV050",
+      "title": "Sparse Imagination for Efficient Visual World Model Planning",
+      "year": 2025,
+      "method": "World model based planning has significantly improved decision-making in complex environments by enabling agents to simulate future states and make informed choices. This computational burden is parti",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV051",
+      "title": "PowerAttention: Exponentially Scaling of Receptive Fields for Effective Sparse Attention",
+      "year": 2025,
+      "method": "Large Language Models (LLMs) face efficiency bottlenecks due to the quadratic complexity of the attention mechanism when processing long contexts. Sparse attention methods offer a promising solution, ",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV054",
+      "title": "Focus-dLLM: Accelerating Long-Context Diffusion LLM Inference via Confidence-Guided Context Focusing",
+      "year": 2026,
+      "method": "Diffusion Large Language Models (dLLMs) deliver strong long-context processing capability in a non-autoregressive decoding paradigm. However, the considerable computational cost of bidirectional full ",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV060",
+      "title": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery",
+      "year": 2024,
+      "method": "The AI Scientist generates novel research ideas, writes code, executes experiments, visualizes results, writes full scientific papers, and runs a simulated review process, which can be repeated in an open-ended fashion.",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": "The AI Scientist can produce papers that exceed the acceptance threshold at a top machine learning conference as judged by the automated reviewer.",
+      "key_results": {
+        "reviewer_performance": "near-human",
+        "paper_acceptance": "exceeds_threshold"
+      },
+      "limitations": [],
+      "code_available": true,
+      "code_url": null,
+      "can_run_on_macbook": false,
+      "compute_required": "8xA100 3days"
+    },
+    {
+      "evidence_id": "EV061",
+      "title": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
+      "year": 2025,
+      "method": "The AI Scientist-v2 eliminates reliance on human-authored code templates, generalizes across diverse machine learning domains, and uses a progressive agentic tree-search methodology managed by a dedicated experiment manager agent.",
+      "datasets_used": [],
+      "baselines_compared": [
+        "The AI Scientist-v1 (Lu et al., 2024 arXiv:2408.06292)"
+      ],
+      "best_result": "One fully AI-generated manuscript successfully navigated peer review and exceeded average human acceptance threshold",
+      "key_results": {
+        "peer_review_acceptance_rate": "exceeded average human acceptance threshold"
+      },
+      "limitations": [],
+      "code_available": true,
+      "code_url": "not provided in text",
+      "can_run_on_macbook": true,
+      "compute_required": "not specified"
+    },
+    {
+      "evidence_id": "EV062",
+      "title": "Agent Laboratory: Using LLM Agents as Research Assistants",
+      "year": 2025,
+      "method": "Research paper: Agent Laboratory: Using LLM Agents as Research Assistants",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV063",
+      "title": "MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering",
+      "year": 2024,
+      "method": "MLE-bench uses Kaggle competitions to evaluate ML engineering skills of AI agents, with OpenAI's o1-preview and AIDE scaffolding as the best-performing setup.",
+      "datasets_used": [
+        "Kaggle competitions"
+      ],
+      "baselines_compared": [
+        "Human baselines from Kaggle leaderboards"
+      ],
+      "best_result": "OpenAI's o1-preview with AIDE scaffolding achieves at least the level of a Kaggle bronze medal in 16.9% of competitions",
+      "key_results": {
+        "Bronze medal level performance": "16.9%"
+      },
+      "limitations": [
+        "Resource scaling for AI agents",
+        "Contamination from pre-training"
+      ],
+      "code_available": true,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV064",
+      "title": "AIBuildAI-2: Scalable Agentic AI Research and Engineering",
+      "year": 2026,
+      "method": "AIBuildAI-2 is a knowledge-enhanced agent with an external, evolving hierarchical knowledge system that dynamically loads relevant context for AI model building tasks.",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": "70.7% medal rate on MLE-Bench",
+      "key_results": {
+        "70.7% medal rate on MLE-Bench": 70.7
+      },
+      "limitations": [
+        "Performance of existing agents is limited by static, outdated, and sparse parametric knowledge in underlying LLMs"
+      ],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": false,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV065",
+      "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+      "year": 2023,
+      "method": "Uses verbal feedback and memory to help agents improve across trials, motivating explicit failure memory and revision loops.",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV066",
+      "title": "Self-Refine: Iterative Refinement with Self-Feedback",
+      "year": 2023,
+      "method": "Studies iterative generation, feedback, and refinement, providing background for reviewer-style critique and revision policies.",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV067",
+      "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+      "year": 2023,
+      "method": "Demonstrates open-ended skill acquisition with memory and iterative exploration, relevant to long-running agent loops and durable lessons.",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV068",
+      "title": "AgentBench: Evaluating LLMs as Agents",
+      "year": 2023,
+      "method": "Introduces agent evaluation tasks and motivates structured benchmarks for agent behavior rather than isolated text quality.",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV069",
+      "title": "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
+      "year": 2024,
+      "method": "SWE-agent introduces a custom agent-computer interface (ACI) that enables language model agents to autonomously use computers to solve software engineering tasks, enhancing their ability to create/edit code files, navigate repositories, and execute tests.",
+      "datasets_used": [
+        "SWE-bench",
+        "HumanEvalFix"
+      ],
+      "baselines_compared": [
+        "previous state-of-the-art achieved with non-interactive LMs"
+      ],
+      "best_result": "87.7% pass@1 rate on HumanEvalFix",
+      "key_results": {
+        "pass@1_rate_SWE-bench": 12.5,
+        "pass@1_rate_HumanEvalFix": 87.7
+      },
+      "limitations": [],
+      "code_available": true,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "not specified"
+    }
+  ]
+}

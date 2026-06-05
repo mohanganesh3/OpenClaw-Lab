@@ -1,0 +1,51 @@
+{
+  "title": "Defining and Characterizing Reward Hacking",
+  "sections": [
+    {
+      "section": "METHOD",
+      "content": [
+        "Defines reward hacking in the context of reinforcement learning (RL)",
+        "Discusses safety concerns in AI systems (autonomous vehicles, algorithmic trading, content recommendation systems)",
+        "Introduces the challenge of aligning AI systems with user intentions",
+        "Mentions approaches to specify desirable behaviors",
+        "Raises the question: When is it safe to optimize a proxy?",
+        "Considers when optimizing a proxy could lead to worse behavior",
+        "Defines 'hackable' reward function pairs",
+        "Discusses theoretical results about hackable and unhackable reward function pairs"
+      ]
+    },
+    {
+      "section": "RESULTS",
+      "content": [
+        "Formal definition of hackable reward function pairs",
+        "Theoretical results about unhackable reward function pairs",
+        "Discussion of simplification as an asymmetric special case",
+        "Examples showing that natural ways of simplifying reward functions often fail"
+      ]
+    }
+  ],
+  "key_concepts": [
+    "Reward hacking",
+    "Reinforcement learning",
+    "Proxy reward functions",
+    "Hackable reward function pairs",
+    "Unhackable reward function pairs",
+    "Simplification of reward functions"
+  ],
+  "applications": [
+    "Autonomous vehicles",
+    "Algorithmic trading",
+    "Content recommendation systems"
+  ],
+  "evidence_id": "EV017",
+  "year": 2022,
+  "arxiv_id": "2209.13085",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7997,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

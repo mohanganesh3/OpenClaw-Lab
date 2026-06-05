@@ -1,0 +1,6 @@
+{
+  "introduction": "[2506.10420] Multi-dimensional Autoscaling of Processing Services: A Comparison of Agent-based Methods\n\n\\useunder\n\n\\ul\n\n\\AtBeginShipout\n\n1\n\n1  institutetext:  Distributed Systems Group, TU Wien, Vienn",
+  "method": ") addresses the limitations of traditional Cloud infrastructures  [ 4 ] . By bringing computation closer to users and data sources (e.g., IoT devices) these paradigms significantly reduce network late",
+  "results": "per service or the application throughput. If SLOs are violated, the agents attempt to restore the desired state by (2) adjusting the service execution; the exact scaling policy is learned by the agen",
+  "conclusion": "ing agent architectures (Active Inference, Deep Active Inference, Deep Q-Network, and Analysis of Structural Knowledge) for real-time service orchestration.\n\n3.\n\nProviding a benchmarking environment f"
+}

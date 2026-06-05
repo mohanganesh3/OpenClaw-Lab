@@ -1,0 +1,6 @@
+{
+  "introduction": "[2507.20443] Provable In-Context Learning of Nonlinear Regression with Transformers\n\nProvable In-Context Learning of Nonlinear Regression with Transformers\n\nHongbo Li\n\nDepartment of ECE, The Ohio Stat",
+  "method": "that query tokens consistently attend to prompt tokens with highly relevant features at convergence, demonstrating the ICL capability of transformers for unseen functions.\n\n1  Introduction\n\nThe transf",
+  "results": "classification and low-degree polynomial regression  [ 20 ,  22 ,  23 ] , and characterize how transformers adapt to these tasks during training.\n\nDespite recent advances, most  theoretical  studies o",
+  "conclusion": "hout the restrictive orthonormality assumption used in prior work  [ 19 ,  20 ,  25 ,  24 ] .\n\n∙  \\bullet\n\nPhase Transition of Training Dynamics between Flat and Sharp Curvature Regimes:  We identify "
+}

@@ -1,0 +1,76 @@
+{
+  "title": "Long Sequence Decoder Network for Mobile Sensing",
+  "authors": "Not specified in the provided text",
+  "affiliation": "Not specified in the provided text",
+  "abstract": "The paper introduces a method for state estimation through time sequence measurements from limited mobile sensors by combining a structured state space sequence (S4D) model with a decoder network, leveraging a novel initialization scheme and long temporal sequences to produce a robust model with improved performance compared to existing methods.",
+  "keywords": [
+    "Mobile sensing",
+    "State estimation",
+    "Decoder network",
+    "S4D model",
+    "Temporal sequences"
+  ],
+  "introduction": {
+    "topic": "Ubiquity of sensor technologies across scientific and engineering domains",
+    "applications": [
+      "Autonomous vehicles",
+      "Wearable health trackers",
+      "Human biomechanics motion tracking",
+      "Ocean dynamics monitoring buoys",
+      "Drone monitoring",
+      "Weather balloons"
+    ],
+    "fundamental_problem": "Approximating the full state space from limited collected data"
+  },
+  "methodology": {
+    "approach": "Combining a structured state space sequence (S4D) model with a decoder network",
+    "innovations": [
+      "Novel initialization scheme",
+      "Long temporal sequences"
+    ],
+    "goal": "Produce a robust model with improved performance"
+  },
+  "results": {
+    "traditional_techniques": [
+      "SVD/POD",
+      "DMD",
+      "Shallow decoder networks (SDN)",
+      "Kalman filter"
+    ],
+    "limitations": "Traditional techniques fall short when applied to mobile sensors operating in dynamic environments"
+  },
+  "references": [
+    4,
+    36,
+    23,
+    1,
+    24,
+    18,
+    22,
+    7,
+    19,
+    9,
+    35,
+    2,
+    4,
+    32,
+    17,
+    3,
+    8,
+    5,
+    26,
+    29,
+    19
+  ],
+  "evidence_id": "EV026",
+  "year": 2024,
+  "arxiv_id": "2407.10338",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "paper_title": "CoBiTS: Single-detector discrimination of binary black hole signals from glitches using deep learning",
+  "method": {
+    "approach": "Machine Learning (ML) algorithm for discriminating binary black hole (BBH) signals from noise transients (glitches) using data from a single detector",
+    "pipeline_characteristics": [
+      "Computationally faster than matched filtering",
+      "At least as good as matched filtering in volume sensitivity to BBHs across luminosity distance",
+      "Performs better than matched filtering, especially when non-stationary or non-Gaussian noise transients (glitches) are overlapping or present within a chirp-time of a BBH signal"
+    ],
+    "rationale": [
+      "Single-detector vetting is the basic unit of transient searches with a network of detectors",
+      "Current generation detectors don't have 100% duty factor, so improving single-detector detection improves overall BBH detection rates",
+      "Different detectors have varied sensitivities and orientations, so signals might be above threshold in one detector but not others"
+    ],
+    "advantage_over_traditional_methods": "Traditional BBH search pipelines make simplifying assumptions about detector noise that may not accurately characterize real data, while ML models can be trained to construct better empirical representations of the data"
+  },
+  "results": {
+    "performance": "Single-detector improvements are promising and could contribute to increasing BBH detection rates",
+    "implications": [
+      "Improved BBH detection rates will help form a more accurate picture of BBH demographics",
+      "This informs understanding of formation channels and population synthesis models",
+      "Aids broader pursuits like measurement of the Hubble constant",
+      "Computational speed-up enables follow-up campaigns by other observatories"
+    ]
+  },
+  "evidence_id": "EV002",
+  "title": "CoBiTS: Single-detector discrimination of binary black hole signals from glitches using deep learning",
+  "year": 2025,
+  "arxiv_id": "2512.17975",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7997,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

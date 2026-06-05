@@ -1,0 +1,46 @@
+{
+  "title": "Genotype-Phenotype Integration through Machine Learning and Personalized Gene Regulatory Networks for Cancer Metastasis Prediction",
+  "focus": "Cancer metastasis prediction using machine learning and personalized gene regulatory networks",
+  "key_methods": [
+    "Machine learning (ML) approaches",
+    "Graph neural networks (GNNs)",
+    "PANDA algorithm for personalized networks",
+    "LIONESS algorithm for personalized networks",
+    "CCLE dataset for pancancer evaluation"
+  ],
+  "applications": [
+    "Breast cancer metastasis classification",
+    "Pancancer metastasis prediction",
+    "Personalized cancer care"
+  ],
+  "research_gaps_addressed": [
+    "Most existing ML models predict metastasis status only for a single cancer type",
+    "Few studies have systematically assessed methods for pancancer metastases",
+    "Few studies have evaluated applicability in low- and middle-income countries (LMICs)",
+    "GNN-based studies typically use static networks shared by all samples"
+  ],
+  "datasets_used": [
+    "CCLE (Cancer Cell Line Encyclopedia)"
+  ],
+  "geographic_focus": [
+    "Global",
+    "Low- and middle-income countries (LMICs)"
+  ],
+  "cancer_types_mentioned": [
+    "Breast cancer",
+    "Non-small cell lung cancer",
+    "Colorectal cancer",
+    "Pancancer"
+  ],
+  "evidence_id": "EV011",
+  "year": 2025,
+  "arxiv_id": "2510.23620",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

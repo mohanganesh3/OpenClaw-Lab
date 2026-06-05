@@ -1,0 +1,71 @@
+{
+  "title": "SimVG: A Simple Framework for Visual Grounding with Decoupled Multi-modal Fusion",
+  "task": "Visual Grounding",
+  "task_description": "Predicting corresponding regions of an image through linguistic expressions",
+  "visual_grounding_types": [
+    {
+      "type": "Phrase localization",
+      "description": "Locating all objects mentioned in a sentence within an image"
+    },
+    {
+      "type": "Referring Expression Comprehension (REC)",
+      "description": "Only one target corresponding to a sentence"
+    },
+    {
+      "type": "General Referring Expression Comprehension (GREC)",
+      "description": "Sentence can have multiple targets or no target at all"
+    }
+  ],
+  "existing_model_categories": [
+    {
+      "category": "Two-stage methods",
+      "description": "Require a pre-trained detector to generate proposals and perform localization through region-text retrieval"
+    },
+    {
+      "category": "One-stage methods",
+      "description": "Employ an end-to-end architecture, performing dense prediction on multimodal fusion features"
+    },
+    {
+      "category": "Transformer-based methods",
+      "description": "Adopt an encoder-decoder architecture to perform multimodal fusion in the encoder and then decode the response target position"
+    }
+  ],
+  "simvg_approach": {
+    "method": "Utilizes Multi-Modality Encoder for multimodal interaction among object, image, and text tokens",
+    "implementation": "Directly applies a lightweight MLP for grounding",
+    "advantages": [
+      "Improvements in efficiency",
+      "Faster convergence speed",
+      "New state-of-the-art performance on benchmarks"
+    ]
+  },
+  "benchmarks": [
+    "RefCOCO/+/g",
+    "ReferIt",
+    "Flickr30K",
+    "GRefCOCO"
+  ],
+  "code_availability": "https://github.com/Dmmm1997/SimVG",
+  "figures": [
+    {
+      "figure_number": 1,
+      "title": "Overview of visual grounding structures",
+      "description": "Shows different approaches: Two-Stage, One-Stage, Transformer-based, and Proposed SimVG"
+    },
+    {
+      "figure_number": 2,
+      "title": "The expression length and relative improvement between Dynamic MDETR and SimVG"
+    }
+  ],
+  "evidence_id": "EV002",
+  "year": 2024,
+  "arxiv_id": "2409.17531",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

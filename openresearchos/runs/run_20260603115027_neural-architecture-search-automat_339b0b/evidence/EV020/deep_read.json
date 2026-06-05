@@ -1,0 +1,50 @@
+{
+  "paper_title": "Automated Design Space Exploration for Optimized Deployment of DNN on Arm Cortex-A CPUs",
+  "main_focus": "Optimizing the deployment of Deep Neural Networks (DNNs) on resource-constrained edge devices, specifically Arm Cortex-A CPUs",
+  "problem_statement": {
+    "challenge": "DNNs are increasingly being deployed on edge devices with limited computing power, memory, and energy consumption",
+    "gap": "There's a lack of research on cross-level optimization and design space exploration for end-to-end solutions",
+    "complexity": "The space of approaches for DNN deployment is too large to fully explore manually"
+  },
+  "proposed_solution": {
+    "framework": "LPDNN, a deep learning framework for deployment and inference of DNN implementations",
+    "method": "QS-DNN, an automatic exploration framework based on Reinforcement Learning (RL)",
+    "goal": "Find optimized combinations of design options to speed up DNN inference and reduce memory for target platforms"
+  },
+  "contributions": [
+    "Analysis of methods to improve DNN deployment across different software optimization levels",
+    "Introduction of techniques provided by LPDNN for DNN inference optimization",
+    "Presentation of QS-DNN, an RL-based automatic exploration framework",
+    "Results for state-of-the-art DNNs on various Arm Cortex-A CPU platforms",
+    "Comparison between RL and other search algorithms"
+  ],
+  "methodology": {
+    "framework": "LPDNN",
+    "approach": "Reinforcement Learning (RL)",
+    "target_platform": "Arm CPU cores"
+  },
+  "results": {
+    "scope": "State-of-the-art DNNs on Arm Cortex-A CPU platforms",
+    "comparison": "RL vs. other search algorithms"
+  },
+  "related_work": {
+    "approaches": [
+      "Efficient DNN architectures (MobileNets, SqueezeNet, hardware-aware NAS)",
+      "Optimization techniques (pruning, quantization)",
+      "Optimized algorithms (GEMM, Winograd)",
+      "Dedicated hardware for acceleration"
+    ]
+  },
+  "evidence_id": "EV020",
+  "title": "Automated Design Space Exploration for Optimized Deployment of DNN on Arm Cortex-A CPUs",
+  "year": 2020,
+  "arxiv_id": "2006.05181",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

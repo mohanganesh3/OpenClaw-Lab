@@ -1,0 +1,6 @@
+{
+  "introduction": "[2602.08681] The Theory and Practice of MAP Inference over Non-Convex Constraints\n\nThe Theory and Practice of MAP Inference over Non-Convex Constraints\n\nLeander Kurscheidt\n\nGabriele Masina\n\nRoberto Se",
+  "method": "narios  (Giunchiglia et al.,  2023 ; Bortolotti et al.,  2024 ) .\n\nFigure 1 :\n\nOur structure-aware solver  PaMap  is able to correctly and efficiently perform MAP inference over non-convex constraints",
+  "results": "optimization for general constraints and distributions for which  MpMap  is not applicable.\nTo this end, we design  PaMap , a general scheme that decomposes global optimization into a series of MAP in",
+  "conclusion": "ex constraints.\nRight: constrained density. Orange stars indicate the solutions for the MAP problem for the unconstrained and constrained densities.\n\nSMT(\n\nℒ  ​  ℛ  ​  𝒜\n\n\\mathcal{LRA}\n\n) Constraints"
+}

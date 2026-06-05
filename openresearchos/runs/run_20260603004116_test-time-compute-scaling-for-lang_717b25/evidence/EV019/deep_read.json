@@ -1,0 +1,30 @@
+{
+  "method_summary": "A y-shaped multi-input deep convolutional network (yNet) for simulating field evolution with multiple mixed inputs",
+  "key_innovation": "Ultra-fast simulation of porosity evolution with 99.13% morphological similarity to physics-based models while requiring minimal computational resources",
+  "datasets_used": [],
+  "baselines_compared": [
+    "physics-based model"
+  ],
+  "key_results": {
+    "morphological_similarity": "99.13%"
+  },
+  "best_result": "99.13% morphological similarity to physics-based models",
+  "limitations_stated": [],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "medium",
+  "compute_required": "low",
+  "can_run_on_macbook": true,
+  "evidence_id": "EV019",
+  "title": "yNet: a multi-input convolutional network for ultra-fast simulation of field evolvement",
+  "year": 2020,
+  "arxiv_id": "2012.10575",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 5371,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

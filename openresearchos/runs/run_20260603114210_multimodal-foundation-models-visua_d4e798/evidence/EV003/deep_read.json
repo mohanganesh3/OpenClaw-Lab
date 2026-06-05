@@ -1,0 +1,80 @@
+{
+  "paper_title": "Roles of MLLMs in Visually Rich Document Retrieval for RAG: A Survey",
+  "paper_type": "Survey",
+  "focus_area": "Visually Rich Document (VRD) Retrieval for Retrieval-Augmented Generation (RAG)",
+  "key_challenges": [
+    "VRD retrieval requires understanding fusion of layout, embedded text, and graphics",
+    "Traditional preprocessing (OCR, layout parsing) is brittle and lossy",
+    "Fine-grained visual cues vanish in textual proxies",
+    "Evidence may span multiple pages or views"
+  ],
+  "approaches": [
+    {
+      "name": "Document Screenshot Embedding (DSE)",
+      "description": "Treats page screenshot as indexing unit, avoiding preprocessing errors",
+      "reference": "Ma et al. (2024)"
+    },
+    {
+      "name": "ColPali",
+      "description": "Fuses Vision-Language Models with late-interaction matching",
+      "reference": "Faysse et al. (2025)"
+    },
+    {
+      "name": "VisRAG",
+      "description": "Integrates vision-based retrieval with generation using page-as-image abstraction",
+      "reference": "Yu et al. (2025)"
+    }
+  ],
+  "contributions": [
+    {
+      "type": "taxonomy",
+      "description": "Role-based taxonomy of VRD-RAG organizing MLLM pipeline roles"
+    },
+    {
+      "type": "analysis",
+      "description": "Comparative analysis of key trade-offs (retrieval unit, robustness, latency, indexing cost, compatibility)"
+    },
+    {
+      "type": "practical",
+      "description": "Practical takeaways and open challenges for system design"
+    }
+  ],
+  "structure": {
+    "section_2": "Background on RAG, multimodal retrieval, and MLLMs",
+    "section_3": "Three-role framework and representative approaches",
+    "section_4": "Trade-offs and open challenges",
+    "section_5": "Conclusions and future directions"
+  },
+  "three_roles": [
+    {
+      "role": "Modality-Unifying Captioners",
+      "section": "§3.1"
+    },
+    {
+      "role": "Multimodal Embedders",
+      "section": "§3.2"
+    },
+    {
+      "role": "End-to-End Representers",
+      "section": "§3.3"
+    }
+  ],
+  "evaluation_resources": [
+    "DocVQA (Mathew et al., 2021)",
+    "InfographicVQA (Mathew et al., 2022)",
+    "SlideVQA (Tanaka et al., 2023)",
+    "Newer resources for chart reasoning and multi-slide evidence aggregation (Tamber et al., 2025; Yang et al., 2025; Liu et al., 2025; Chen et al., 2025b; Peng et al., 2025)"
+  ],
+  "evidence_id": "EV003",
+  "title": "Roles of MLLMs in Visually Rich Document Retrieval for RAG: A Survey",
+  "year": 2025,
+  "arxiv_id": "2601.03262",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

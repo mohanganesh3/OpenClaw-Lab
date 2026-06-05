@@ -1,0 +1,57 @@
+{
+  "title": "Efficient OpAmp Adaptation for Zoom Attention to Golden Contexts",
+  "authors": [
+    "aisheng Zheng",
+    "Zhuolun He",
+    "Bei Yu"
+  ],
+  "affiliations": [
+    "The Chinese University of Hong Kong, Hong Kong SAR",
+    "Shanghai Artificial Intelligent Laboratory, China",
+    "ChatEDA Tech, China"
+  ],
+  "contact_email": "{hywu24,byu}@cse.cuhk.edu.hk",
+  "paper_structure": {
+    "sections": [
+      "METHOD SECTION",
+      "RESULTS SECTION",
+      "Introduction"
+    ]
+  },
+  "key_concepts": [
+    "Large Language Models (LLMs)",
+    "Retrieval-Augmented Generation (RAG)",
+    "Attention mechanisms in Transformers",
+    "Differential attention",
+    "Operational amplifiers (OpAmp)",
+    "Parameter-efficient fine-tuning (PEFT)"
+  ],
+  "models_mentioned": [
+    "Llama3.1-8B-base",
+    "Llama3.1-8B-inst",
+    "Llama3-ChatQA2-8B",
+    "Qwen2.5-OpAmp-72B"
+  ],
+  "figures": [
+    {
+      "number": 1,
+      "description": "Normalized attention score visualization showing Transformer attention allocation"
+    },
+    {
+      "number": 2,
+      "description": "Performance comparison of Qwen2.5-OpAmp-72B against SOTA LLMs"
+    }
+  ],
+  "research_focus": "Enhancing attention mechanisms in Transformer architectures to better identify relevant information in noisy contexts through OpAmp adaptation",
+  "evidence_id": "EV010",
+  "year": 2025,
+  "arxiv_id": "2502.12502",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "title": "A Bayesian Approach to Segmentation with Noisy Labels via Spatially Correlated Distributions",
+  "keywords": [
+    "Segmentation",
+    "Noisy label",
+    "Noisy annotation",
+    "Bayesian inference",
+    "Spatial correlation"
+  ],
+  "method": {
+    "approach": "Bayesian approach",
+    "framework": "Maximum likelihood estimation (MLE)",
+    "key_innovation": "Reformulating the MLE framework using a probabilistic model that accounts for spatially correlated distributions of noisy labels",
+    "performance": "Achieves performance comparable to training with clean labels under moderate noise levels for tasks like lung segmentation"
+  },
+  "applications": [
+    "Medical imaging (e.g., lung segmentation)",
+    "Remote sensing (e.g., satellite imagery)"
+  ],
+  "code_availability": "https://github.com/pfnet-research/Bayesian_SpatialCorr",
+  "citations": "Several citations are included, though full references are not provided in the text",
+  "evidence_id": "EV055",
+  "year": 2025,
+  "arxiv_id": "2504.14795",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "introduction": "[2410.14917] Low-synchronization Arnoldi Methods for the Matrix Exponential with Application to Exponential Integrators\n\nLow-synchronization Arnoldi Methods for the Matrix Exponential with Application",
+  "method": "over a wide range of time scales. Numerical solutions of such systems typically involve spatial discretization of the partial differential equations (PDEs) and their transformation into large systems ",
+  "results": "problems where a fast preconditioner is not available, exponential methods can offer computational savings per timestep compared to implicit integrators  [ 34 ,  56 ] . This is particularly true when ",
+  "conclusion": "gle call per Arnoldi-step, improving the strong scaling properties of linear solvers on distributed memory parallel systems.\n\nThe aim of this paper is to explore Krylov methods that minimize global co"
+}

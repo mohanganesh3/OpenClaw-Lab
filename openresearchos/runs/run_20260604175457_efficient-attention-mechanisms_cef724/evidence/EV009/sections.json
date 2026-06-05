@@ -1,0 +1,6 @@
+{
+  "introduction": "[2110.04485] Application of quantum computing to a linear non-Gaussian acyclic model for novel medical knowledge discovery\n\nApplication of quantum computing to a linear non-Gaussian acyclic model for ",
+  "method": "are secondary data collected from clinical environments, have been attracting attention as data that are rapidly increasing with the digitalization of medicine, for example, disease registries, electr",
+  "results": ". LiNGAM uniquely identifies the structure of causal graphs by making non-Gaussian assumptions about the data  [ 12 ] . More precisely, it assumes that the error variables are non-Gaussian and indepen",
+  "conclusion": "By contrast, a quantum computer called noisy intermediate-scale quantum (NISQ) computer, which does not have an error correction function, has been realized in the last few years  [ 17 ,  18 ] . For a"
+}

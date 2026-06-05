@@ -1,0 +1,65 @@
+{
+  "title": "Towards Stable and Effective Reinforcement Learning for Mixture-of-Experts",
+  "authors": null,
+  "abstract": "This paper addresses the instability of applying Reinforcement Learning from Verifiable Rewards (RLVR) to Mixture-of-Experts (MoE) models. The core problem is 'router fluctuation,' where the selection of experts for an input token changes significantly across policy updates, leading to high variance in importance sampling weights and potential reward collapse. The authors propose Router-Shift Policy Optimization (RSPO), a new RL algorithm that uses a 'router shift ratio' to softly rescale importance sampling weights. This approach stabilizes training by mitigating router instability while preserving the router's adaptability. RSPO is validated on the Qwen2.5 and Qwen3-30B-A3B models for tasks like countdown and mathematical reasoning, demonstrating superior stability and performance.",
+  "proposed_method": {
+    "name": "Router-Shift Policy Optimization",
+    "acronym": "RSPO",
+    "description": "An RL algorithm specifically designed for MoE architectures to achieve stable and efficient training by addressing router instability.",
+    "key_mechanism": "A 'router shift ratio' computed from router scores between the current and old policies to softly rescale importance sampling weights."
+  },
+  "problem_statement": {
+    "core_problem": "Applying RLVR to MoE models is highly challenging due to stability issues.",
+    "specific_challenges": [
+      "Router fluctuation (routing drift), where the set of selected experts for an input token varies across updates.",
+      "Increased variance of importance sampling (IS) weights and destabilized optimization.",
+      "Misalignment between token-level IS ratios and sequence-level rewards."
+    ]
+  },
+  "proposed_solution": {
+    "strategy": "Soft adjustment mechanism",
+    "components": [
+      "Router-aware rescaling of IS weights using the router shift ratio.",
+      "Sequence-level aggregation of importance sampling ratios."
+    ]
+  },
+  "key_contributions": [
+    "Proposal of RSPO, which combines a router-aware rescaling strategy with sequence-level aggregation of importance sampling ratios to stabilize off-policy RL training for MoE models.",
+    "Introduction of a soft adjustment mechanism using a router shift ratio to adaptively reweight updates, limiting large changes while retaining router flexibility, in contrast to rigid methods like router freezing or routing replay.",
+    "Evaluation of RSPO on the Qwen2.5 model for the countdown task and on Qwen3-30B-A3B across multiple mathematical reasoning benchmarks, demonstrating its stability and effectiveness."
+  ],
+  "experiments": {
+    "models": [
+      "Qwen2.5",
+      "Qwen3-30B-A3B"
+    ],
+    "tasks": [
+      "Countdown task",
+      "Multiple mathematical reasoning benchmarks"
+    ],
+    "rejected_approaches": [
+      "Freezing the router parameters",
+      "Routing replay"
+    ]
+  },
+  "keywords": [
+    "Reinforcement Learning",
+    "Mixture-of-Experts",
+    "Router",
+    "Importance Sampling",
+    "Policy Optimization",
+    "Qwen",
+    "Mathematical Reasoning"
+  ],
+  "evidence_id": "EV023",
+  "year": 2025,
+  "arxiv_id": "2510.23027",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

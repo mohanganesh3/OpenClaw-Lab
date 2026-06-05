@@ -1,0 +1,42 @@
+{
+  "title": "Nonlinear inference capacity of fiber-optical extreme learning machines",
+  "keywords": [
+    "Optical Neural Networks",
+    "Extreme Learning Machine",
+    "Supercontinuum Generation",
+    "Nonlinear Fiber Optics",
+    "Optical Soliton",
+    "Machine Learning"
+  ],
+  "methodology": {
+    "approach": "Utilizes process-intrinsic, nonlinear mode interactions from natural waveguide dynamics as a computing resource",
+    "implementation": "Learning machine comprises multiple virtual nodes coupled by intrinsic feed-forward propagation dynamics of a single optical component (fiber)",
+    "type": "Form of reservoir computing without internal recurrence"
+  },
+  "focus_areas": [
+    "Optical implementations of artificial intelligence",
+    "All-optical implementation of nonlinearity",
+    "Energy-efficient AI acceleration",
+    "Physics-inspired computing architectures"
+  ],
+  "experimental_demonstrations": [
+    "Nonlinear coupling of spatial modes in multimode fibers",
+    "Spectral frequency generation in single-mode fibers"
+  ],
+  "challenges_addressed": [
+    "Electro-optical bottleneck in deep all-optical architectures",
+    "High-power demands of optical nonlinearity",
+    "Complexity of analog wave computers"
+  ],
+  "evidence_id": "EV040",
+  "year": 2025,
+  "arxiv_id": "2501.18894",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

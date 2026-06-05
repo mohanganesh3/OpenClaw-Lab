@@ -1,0 +1,42 @@
+{
+  "paper_title": "Trainable Log-linear Sparse Attention for Efficient Diffusion Transformers",
+  "main_contribution": "Introduction of Log-linear Sparse Attention (LLSA) mechanism",
+  "key_innovations": [
+    "Multi-level hierarchical structure for query and key features",
+    "Progressive Top-K selection from coarse to fine",
+    "Reduction of attention complexity from quadratic to log-linear"
+  ],
+  "problem_addressed": "Quadratic complexity of full self-attention in Diffusion Transformers (DiTs)",
+  "technical_details": {
+    "complexity_reduction": "O(N²) to O(N log N)",
+    "hierarchical_structure": "Uses logarithmic hierarchy levels",
+    "coarse_tokens": "Enriches key, value sets with O(K log N) coarse tokens"
+  },
+  "performance_metrics": {
+    "inference_speedup": "28.27× faster",
+    "training_speedup": "6.09× faster",
+    "resolution": "256×256 pixel token sequences",
+    "quality": "Maintains generation quality"
+  },
+  "related_work": [
+    "Top-K block sparse attention",
+    "Hierarchical attention matrices",
+    "Sparse attention variants"
+  ],
+  "limitations_of_existing_methods": [
+    "Selection stage still incurs quadratic cost on compressed tokens",
+    "Single coarse-grained view insufficient for long sequences"
+  ],
+  "evidence_id": "EV027",
+  "title": "Trainable Log-linear Sparse Attention for Efficient Diffusion Transformers",
+  "year": 2025,
+  "arxiv_id": "2512.16615",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

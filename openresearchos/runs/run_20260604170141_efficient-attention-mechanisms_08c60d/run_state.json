@@ -1,0 +1,241 @@
+{
+  "schema_version": 1,
+  "run_id": "run_20260604170141_efficient-attention-mechanisms_08c60d",
+  "topic": "efficient attention mechanisms",
+  "created_at": "2026-06-04T17:02:05.153Z",
+  "updated_at": "2026-06-04T17:29:29.560Z",
+  "current_state": "TRACE_EXPORTED",
+  "scope_classification": {
+    "label": "local_experiment",
+    "rationale": "The topic can be explored with small simulations, synthetic data, or lightweight local experiments on the Mac.",
+    "feasibility_note": "Yes, experimenting with efficient attention mechanisms on a MacBook M4 with 36GB RAM and MPS GPU is feasible, especially for medium-sized models and datasets. Suitable public datasets include GLUE (for NLP tasks), SQuAD (for question answering), and WikiText-103 (for language modeling). Expect experiment times of approximately 2-4 hours for GLUE, 4-8 hours for SQuAD, and 6-12 hours for WikiText-103, depending on model complexity and implementation details. The 36GB RAM provides ample space for m"
+  },
+  "search_queries": [
+    "Linear attention mechanisms",
+    "Sparse attention models",
+    "FlashAttention algorithm",
+    "Efficient attention NLP",
+    "Vision transformers efficiency",
+    "Long document processing",
+    "Attention efficiency benchmarks",
+    "Long sequence benchmarks",
+    "Attention mechanism limitations",
+    "Sparse attention accuracy",
+    "Attention vs RNN",
+    "State space models",
+    "Long document datasets",
+    "Vision transformer datasets",
+    "Efficient attention survey"
+  ],
+  "evidence_ids": [
+    "EV001",
+    "EV002",
+    "EV003",
+    "EV004",
+    "EV005",
+    "EV006",
+    "EV007",
+    "EV008",
+    "EV009",
+    "EV010",
+    "EV011",
+    "EV012",
+    "EV013",
+    "EV014",
+    "EV015",
+    "EV016",
+    "EV017",
+    "EV018",
+    "EV019",
+    "EV020",
+    "EV021",
+    "EV022",
+    "EV023",
+    "EV024",
+    "EV025",
+    "EV026",
+    "EV027",
+    "EV028",
+    "EV029",
+    "EV030",
+    "EV031",
+    "EV032",
+    "EV033",
+    "EV034",
+    "EV035",
+    "EV036",
+    "EV037",
+    "EV038",
+    "EV039",
+    "EV040",
+    "EV041",
+    "EV042",
+    "EV043",
+    "EV044",
+    "EV045",
+    "EV046",
+    "EV047",
+    "EV048",
+    "EV049",
+    "EV050",
+    "EV051",
+    "EV052",
+    "EV053",
+    "EV054",
+    "EV055",
+    "EV056",
+    "EV057",
+    "EV058",
+    "EV059",
+    "EV060",
+    "EV061",
+    "EV062",
+    "EV063",
+    "EV064",
+    "EV065",
+    "EV066",
+    "EV067",
+    "EV068",
+    "EV069",
+    "EV070"
+  ],
+  "parsed_papers": [],
+  "claim_graph": {
+    "claims": [],
+    "links": []
+  },
+  "research_gaps": [
+    {
+      "gap_id": "G01",
+      "text": "Current efficient attention models use fixed, pre-defined sparsity patterns (e.g., sliding windows), which restricts the model's ability to adapt its focus based on input content. A gap exists in creating mechanisms that can dynamically and efficiently learn these patterns on the fly.",
+      "keywords": [],
+      "evidence_ids": [
+        "EV001"
+      ],
+      "testable": true,
+      "difficulty": "hard",
+      "source": "llm"
+    },
+    {
+      "gap_id": "G02",
+      "text": "Many efficient attention algorithms reduce FLOPs but ignore memory access patterns, leading to poor performance on real-world hardware like GPUs and TPUs. A significant gap exists in designing attention mechanisms that are co-optimized for specific hardware architectures, not just theoretical complexity.",
+      "keywords": [],
+      "evidence_ids": [
+        "EV002"
+      ],
+      "testable": true,
+      "difficulty": "medium",
+      "source": "llm"
+    },
+    {
+      "gap_id": "G03",
+      "text": "While linear and kernelized attention methods show promise, their theoretical underpinnings are often incomplete. A gap exists in formally characterizing the approximation error and representational power of these efficient kernels, especially in relation to the full softmax attention.",
+      "keywords": [],
+      "evidence_ids": [
+        "EV003"
+      ],
+      "testable": true,
+      "difficulty": "hard",
+      "source": "llm"
+    },
+    {
+      "gap_id": "G04",
+      "text": "Efficient attention mechanisms are typically designed for a specific modality (e.g., 1D text or 2D images). A gap exists in creating a single, unified efficient attention framework that can be effectively applied across different data types without modality-specific architectural changes.",
+      "keywords": [],
+      "evidence_ids": [
+        "EV004"
+      ],
+      "testable": true,
+      "difficulty": "hard",
+      "source": "llm"
+    },
+    {
+      "gap_id": "G05",
+      "text": "Standard attention models pairwise interactions (O(N^2)), which may be insufficient for complex reasoning tasks requiring multi-way interactions. A gap exists in exploring attention-like mechanisms that can efficiently model higher-order (e.g., 3-way or 4-way) token interactions without a combinatorial explosion in complexity.",
+      "keywords": [],
+      "evidence_ids": [
+        "EV005"
+      ],
+      "testable": true,
+      "difficulty": "hard",
+      "source": "llm"
+    },
+    {
+      "gap_id": "G06",
+      "text": "Most efficient attention models apply the same computational budget to every input token. A gap exists in developing attention mechanisms that can dynamically allocate more computational resources (e.g., a larger receptive field) to 'important' or 'difficult' parts of the input.",
+      "keywords": [],
+      "evidence_ids": [
+        "EV006"
+      ],
+      "testable": true,
+      "difficulty": "medium",
+      "source": "llm"
+    }
+  ],
+  "idea_tree": [],
+  "reviewer_scores": [],
+  "experiment_candidates": [],
+  "approval_status": {},
+  "micro_probe_results": [],
+  "probe_results": [],
+  "ablation_results": [],
+  "mvp_results": [],
+  "failed_ideas": [],
+  "validation_results": [],
+  "paper_readiness_level": "RRL-0",
+  "final_output_path": "/Users/mohanganesh/OpenClaw-Lab/openresearchos/runs/run_20260604170141_efficient-attention-mechanisms_08c60d/research_failure_report.md",
+  "history": [
+    {
+      "at": "2026-06-04T17:02:05.153Z",
+      "state": "TOPIC_SCOPED",
+      "detail": "The topic can be explored with small simulations, synthetic data, or lightweight local experiments on the Mac."
+    },
+    {
+      "at": "2026-06-04T17:02:05.153Z",
+      "state": "SEARCH_PLAN_CREATED",
+      "detail": "15 queries created (LLM-generated)."
+    },
+    {
+      "at": "2026-06-04T17:02:13.206Z",
+      "state": "LITERATURE_DISCOVERY_RUNNING",
+      "detail": "Starting structured literature discovery."
+    },
+    {
+      "at": "2026-06-04T17:02:30.767Z",
+      "state": "EVIDENCE_LOCKED",
+      "detail": "70 papers found (target was 50+)."
+    },
+    {
+      "at": "2026-06-04T17:08:50.696Z",
+      "state": "RESEARCH_MAP_READY",
+      "detail": "Research map generated."
+    },
+    {
+      "at": "2026-06-04T17:08:50.697Z",
+      "state": "GAPS_IDENTIFIED",
+      "detail": "6 gaps identified."
+    },
+    {
+      "at": "2026-06-04T17:29:27.681Z",
+      "state": "PAPER_READINESS_REVIEW",
+      "detail": "research_failure_report_required"
+    },
+    {
+      "at": "2026-06-04T17:29:27.685Z",
+      "state": "PAPER_DRAFTED_OR_STOPPED",
+      "detail": "Failure report produced."
+    },
+    {
+      "at": "2026-06-04T17:29:27.685Z",
+      "state": "VENUE_FIT_DONE",
+      "detail": "Venue fit written."
+    },
+    {
+      "at": "2026-06-04T17:29:27.685Z",
+      "state": "TRACE_EXPORTED",
+      "detail": "Trace export command written."
+    }
+  ],
+  "discovery_errors": [],
+  "method_matrix": []
+}

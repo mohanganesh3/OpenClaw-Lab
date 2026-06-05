@@ -1,0 +1,6 @@
+{
+  "introduction": "[2510.03199] Best-of-Majority: Minimax-Optimal Strategy for Pass@𝑘 Inference Scaling\n\nBest-of-Majority: Minimax-Optimal\nStrategy for Pass@\n\nk  k\n\nInference Scaling\n\nQiwei Di ∗\n\nKaixuan Ji ∗\n\nXuheng L",
+  "method": "silon_{\\mathrm{RM}}\n\nis the estimation error of the reward model, and\n\nϵ  opt\n\n\\epsilon_{\\mathrm{opt}}\n\nis the estimation error of reward at the optimal response.\nWe further establish a matching lower",
+  "results": "ting  (Wei et al.,  2022 ; Li et al.,  2024 ) , incorporating iterative self-improvement,  (Zheng et al.,  2023 ; Wu et al.,  2024a ) , and applying search-based algorithms  (Yao et al.,  2023 ; Feng ",
+  "conclusion": "ng of the Pass@\n\nk  k\n\ninference problem, we are motivated to investigate the following fundamental question:\n\nQ1: What is the optimal scaling of the Pass@\n\nk  k\n\ninference problem?\n\nTo answer this qu"
+}

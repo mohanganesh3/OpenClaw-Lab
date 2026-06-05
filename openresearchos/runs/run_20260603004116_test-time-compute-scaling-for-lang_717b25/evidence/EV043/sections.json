@@ -1,0 +1,6 @@
+{
+  "introduction": "[2309.04255] LLMCad: Fast and Scalable On-device Large Language Model Inference\n\nLLMCad : Fast and Scalable On-device Large Language Model Inference\n\nDaliang Xu  ◆  , Wangsong Yin  ◆  , Xin Jin  ◆  , ",
+  "method": "uous flow of token generation,  LLMCad  speculatively generates tokens during the verification process by implementing a compute-IO pipeline.\nThrough an extensive series of experiments,  LLMCad  showc",
+  "results": "e multi-task comprehension capabilities  ( hendrycks2020measuring,  ) .\nThis phenomenon is well-recognized in the machine learning community as the  scaling law\n\n( kaplan2020scaling,  ;  aghajanyan202",
+  "conclusion": "sily  ( touvron2023llama,  ;  xue2020mt5,  ;  raffel2020exploring,  ;  brown2020language,  ) .\n\nLLMCad  employs a unique form of model collaboration, namely “generate-then-verify”  ( leviathan2023fast"
+}

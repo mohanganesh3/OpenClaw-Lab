@@ -1,0 +1,6 @@
+{
+  "introduction": "[2303.16322] FMAS: Fast Multi-Objective SuperNet Architecture Search for Semantic Segmentation\n\nFMAS: Fast Multi-Objective SuperNet Architecture Search for Semantic Segmentation\n\nZhuoran Xiong\n\nzhuora",
+  "method": "ons, by predicting an independent class label for each pixel.\nImage segmentation is essential to many applications that run on resource-constrained embedded hardware, such as:\nautonomous driving, medi",
+  "results": "Modified Xception  (Chen et al . ,  2018b )  or MobileNetV2  (Sandler et al . ,  2019 )  for feature extraction.\nFMAS addresses the computational complexity of supernet architectural search in two key",
+  "conclusion": "ize semantic segmentation for edge inference, deploying models on the GAP8 platform. To the best of our knowledge, this is the first work to perform NAS for semantic segmentation on ultra-low-power ha"
+}

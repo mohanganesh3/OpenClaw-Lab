@@ -1,0 +1,62 @@
+{
+  "title": "Mixture-of-Schedulers: An Adaptive Scheduling Agent as a Learned Router for Expert Policies",
+  "authors": "Not specified in the provided text",
+  "abstract": "This paper introduces ASA (Adaptive Scheduling Agent), a novel approach to operating system scheduling that dynamically selects the best scheduler from a portfolio of expert schedulers based on current system conditions, rather than designing a single optimal scheduler.",
+  "methodology": {
+    "approach": "A paradigm shift from designing a single optimal policy to dynamically selecting the best policy from a portfolio of experts",
+    "implementation": "ASA uses an intelligent agent to select the most suitable scheduler at runtime",
+    "inspiration": "The approach is inspired by sched_ext which provides a series of expert schedulers"
+  },
+  "key_results": {
+    "performance": "ASA consistently outperforms the default Linux scheduler (EEVDF)",
+    "superior_results": "ASA achieves superior results in 86.4% of test scenarios",
+    "near_optimal": "ASA's selections are near-optimal, ranking among the top three schedulers in 78.6% of all scenarios"
+  },
+  "evaluation": {
+    "benchmark": "A novel benchmark focused on user-experience metrics",
+    "comparison": "ASA vs. default Linux scheduler (EEVDF)"
+  },
+  "related_work": [
+    {
+      "type": "scenario-specific static policies",
+      "references": [
+        "Liu and Layland, 1973",
+        "Delimitrou and Kozyrakis, 2013",
+        "Kaffes et al., 2019"
+      ]
+    },
+    {
+      "type": "AI-assisted dynamic policies",
+      "references": [
+        "Downey, 1997",
+        "Delimitrou and Kozyrakis, 2014",
+        "Mao et al., 2019"
+      ]
+    },
+    {
+      "type": "sched_ext",
+      "reference": "Vernet, 2024"
+    }
+  ],
+  "keywords": [
+    "Operating system scheduling",
+    "adaptive scheduling",
+    "expert policies",
+    "ASA",
+    "scheduler selection"
+  ],
+  "publication_info": {
+    "copyright": "none"
+  },
+  "evidence_id": "EV028",
+  "year": 2025,
+  "arxiv_id": "2511.11628",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

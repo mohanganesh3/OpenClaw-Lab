@@ -1,0 +1,6 @@
+{
+  "introduction": "[2203.13714] Searching for Network Width with Bilaterally Coupled Network\n\nSearching for Network Width with Bilaterally Coupled Network\n\nXiu Su, \nShan You, \nJiyang Xie,\n\nFei Wang,\nChen Qian,\nChangshui",
+  "method": "lementary strategy for training the BCNet, and propose a prior initial population sampling method to boost the performance of the evolutionary search.\nWe also propose the first open-source width bench",
+  "results": "as a direct measure of the network width  [ 9 ,  10 ,  11 ] . Recently, neural architecture search (NAS)  [ 12 ,  13 ]  and other AutoML techniques (such as MetaPruning  [ 9 ] , AutoSlim  [ 10 ] , and",
+  "conclusion": "th, and training unfairness over channels and evaluation bias exist. Under uniform sampling strategy, for each channel the expectation of the times being evaluated is theoretically equal to the times "
+}

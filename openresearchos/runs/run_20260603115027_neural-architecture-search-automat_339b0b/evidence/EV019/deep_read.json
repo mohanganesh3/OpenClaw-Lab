@@ -1,0 +1,29 @@
+{
+  "method_summary": "Research paper: Guided Evolution for Neural Architecture Search",
+  "key_innovation": "See full text",
+  "datasets_used": [
+    "CIFAR-10",
+    "CIFAR-100"
+  ],
+  "baselines_compared": [],
+  "key_results": {},
+  "best_result": null,
+  "limitations_stated": [],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "unknown",
+  "compute_required": "unknown",
+  "can_run_on_macbook": true,
+  "evidence_id": "EV019",
+  "title": "Guided Evolution for Neural Architecture Search",
+  "year": 2021,
+  "arxiv_id": "2110.15232",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

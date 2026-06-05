@@ -1,0 +1,39 @@
+{
+  "title": "Learning With Nested Scene Modeling and Cooperative Architecture Search for Low-Light Vision",
+  "index_terms": [
+    "Low-light vision",
+    "nested optimization",
+    "Retinex-inspired unrolling",
+    "cooperative architecture search"
+  ],
+  "methodology": {
+    "approach": "Nested optimization formulation with unrolling strategy",
+    "key_technique": "Differentiable strategy for cooperative architecture search",
+    "applications": [
+      "Image enhancement",
+      "Object detection",
+      "Semantic segmentation"
+    ]
+  },
+  "datasets": [
+    "LOL dataset",
+    "DARK FACE dataset",
+    "ACDC dataset"
+  ],
+  "baselines": [
+    "State-of-the-art low-light enhancement approaches",
+    "DSFD (for detection)",
+    "DeepLab-v3+ (for segmentation)"
+  ],
+  "evidence_id": "EV031",
+  "year": 2021,
+  "arxiv_id": "2112.04719",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

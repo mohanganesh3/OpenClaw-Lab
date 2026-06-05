@@ -1,0 +1,6 @@
+{
+  "introduction": "[2510.23620] Genotype–Phenotype Integration through Machine Learning and Personalised Gene Regulatory Networks for Cancer Metastasis Prediction\n\nGenotype–Phenotype Integration through Machine Learning",
+  "method": "rformance remains moderate. Personalised GNN modelling enables patient-specific network analysis, though its effectiveness is constrained by weak topology signals in this dataset. Combining ML-based b",
+  "results": "an attention-based GNN was used to find cancer gene modules linked to metastatic progression.  [ 11 ] . In addition, a multitask GNN model improved metastasis prediction by learning cancer driver gene",
+  "conclusion": "ply these networks in a GNN model for metastasis prediction, and assess its performance.\n\n3.\n\nUse the machine learning models from Goal 1 as benchmarks to compare with the GNN models.\n\n2  Methods\n\n2.1"
+}

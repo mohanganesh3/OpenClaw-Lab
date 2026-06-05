@@ -1,0 +1,10 @@
+# EV004: Quantum Deep Dreaming: A Novel Approach for Quantum Circuit Design
+
+URL: https://www.semanticscholar.org/paper/003767d293d3009c50bdc89dab9764ede88cd303
+Year: 2022
+Source: semantic_scholar
+Arxiv: 2211.04343
+
+## Abstract
+
+One of the challenges currently facing the quantum computing community is the design of quantum circuits which can eﬃciently run on near-term quantum computers, known as the quantum compiling problem. Algorithms such as the Variational Quantum Eigensolver (VQE), Quantum Approximate Optimization Algorithm (QAOA), and Quantum Architecture Search (QAS) have been shown to generate or ﬁnd optimal near-term quantum circuits. However, these methods are computationally expensive and yield little insight into the circuit design process. In this paper, we propose Quantum Deep Dreaming (QDD), an algorithm that generates optimal quantum circuit architectures for speciﬁed objectives, such as ground state preparation, while providing insight into the circuit design process. In QDD, we ﬁrst train a neural network to predict some property of a quantum circuit (such as VQE energy). Then, we employ the Deep Dreaming technique on the trained network to iteratively update an initial circuit to achieve a target property value (such as ground state VQE energy). Importantly, this iterative updating allows us to analyze the intermediate circuits of the dreaming process and gain insights into the circuit features that the network is modifying during dreaming. We demonstrate that QDD successfully generates, or ‘dreams’, circuits of six qubits close to ground state energy (Transverse Field Ising Model VQE energy) and that dreaming analysis yields circuit design insights. QDD is designed to optimize circuits with any target property and can be applied to circuit design problems both within and outside of quantum chemistry. Hence, QDD lays the foundation for the future discovery of optimized quantum circuits and for increased interpretability of automated quantum algorithm design.

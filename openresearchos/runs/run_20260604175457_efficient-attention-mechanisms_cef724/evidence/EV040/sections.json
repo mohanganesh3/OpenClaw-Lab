@@ -1,0 +1,6 @@
+{
+  "introduction": "[2006.04043] SVGA-Net: Sparse Voxel-Graph Attention Network for 3D Object Detection from Point Clouds\n\nSVGA-Net: Sparse Voxel-Graph Attention Network for 3D Object Detection from Point Clouds\n\nQingdon",
+  "method": ", sparsity and relevance of point clouds make it a challenging task to utilize point clouds for 3D object detection directly.\n\nIn recent years, several pioneering approaches have been proposed to tack",
+  "results": "ction results from multiple vertices accurately. However, similar to ShapeContextNet  [ 32 ]  and Pointnet++  [ 20 ] , the relationship between point sets is not well established in the feature extrac",
+  "conclusion": "SVGA-Net achieves decent experimental results with the state-of-the-art methods on the challenging KITTI 3D detection dataset.\n\n2  Related Work\n\n2.1  Projection-based methods for point clouds\n\nTo alig"
+}

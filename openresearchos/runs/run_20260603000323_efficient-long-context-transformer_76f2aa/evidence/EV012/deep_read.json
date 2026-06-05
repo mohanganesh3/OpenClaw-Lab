@@ -1,0 +1,50 @@
+{
+  "title": "MatMamba: A Matryoshka State Space Model",
+  "architecture": "MatMamba",
+  "base_architecture": "Mamba2",
+  "key_features": [
+    "Nested Matryoshka structure within a Mamba2 block",
+    "Enables extraction of hundreds of nested submodels from the same set of weights",
+    "No additional training required during deployment",
+    "General-purpose sequence processing architecture"
+  ],
+  "compatibility": {
+    "model_types": [
+      "encoder",
+      "decoder"
+    ],
+    "modalities": [
+      "language",
+      "vision",
+      "sound",
+      "actions"
+    ],
+    "loss_functions": "any compatible with Transformer or Mamba2 layer",
+    "learning_algorithms": "any compatible with Transformer or Mamba2 layer"
+  },
+  "structure": {
+    "description": "A MatMamba block consists of a nested combination of Mamba2 blocks M_i, such that M_1 ⊂ M_2 ⊂ ... ⊂ M_g",
+    "subset_definition": "M_i ⊂ M_j means all parameters of sub-block M_i are present in M_j"
+  },
+  "training": {
+    "method": "g forward passes with gradient accumulation followed by a single backward pass for parameter updates",
+    "objective": "By jointly training all granularities, the smallest sub-blocks are incentivized to represent the most important information"
+  },
+  "inference": {
+    "flexibility": "Any of the g nested sub-blocks M_i can be used flexibly",
+    "slicing": "The block can be flexibly sliced along any dimensionality (even beyond the g explicitly optimized granularities)",
+    "mix_n_match": "Using Mix'n'Match (Section 3.4), this operation can be performed over multiple layers at varying granularities to flexibly extract a combinatorially large number of models from the single larger model"
+  },
+  "related_work": "MatFormer (Devvrit et al., 2023) - which imposes a nested structure on the FFN block in a Transformer layer",
+  "evidence_id": "EV012",
+  "year": 2024,
+  "arxiv_id": "2410.06718",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

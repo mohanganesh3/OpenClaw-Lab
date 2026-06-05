@@ -1,0 +1,6 @@
+{
+  "introduction": "[2011.02705] Improving Commonsense Question Answering by Graph-based Iterative Retrieval over Multiple Knowledge Sources\n\n\\floatsetup\n\n[table]capposition=top\n \\newfloatcommand capbtabboxtable[][ \\FBwi",
+  "method": "es.\n\n1  Introduction\n\nIn the past decade, most previous work on question answering systems can be divided into two categories, namely, answering questions within a given context  [ Rajpurkar et al., 2",
+  "results": "lso three choices of the example question in CommonsenseQA, are all directly related to the same entity-relation pair\n\n⟨  farmland  ,  AtLocation  ⟩\n\nfarmland\n\nAtLocation\n\n\\langle\\textbf{farmland},\\te",
+  "conclusion": "her baseline methods. The experimental results show that our method achieves the new state-of-the-art with an improvement of 1.2% over UnifiedQA  [ Khashabi et al., 2020 ]  in test accuracy. Furthermo"
+}

@@ -1,0 +1,6 @@
+{
+  "introduction": "[2503.03588] PowerAttention: Exponentially Scaling of Receptive Fields for Effective Sparse Attention\n\nPowerAttention: Exponentially Scaling of Receptive Fields for Effective Sparse Attention\n\nLida Ch",
+  "method": "(a) illustrates the information flow across six layers with a simplified 128-block example, while (b) presents the quantitative evaluation on Qwen2-7B with 32K context length.\nThe actual token retriev",
+  "results": "handle new tokens during decoding.\n\nHowever, both the two mainstream sparse attention methods have predominantly relied on intuitive heuristics and experimental results, lacking theoretical analysis t",
+  "conclusion": "kens at power-of-2 distances,  PowerAttention  achieves exponential expansion of the receptive field across layers while requiring only\n\nO  ​\n\n(\n\nlog  ⁡  n\n\n)\n\nO(\\log n)\n\ntokens to ensure the receptiv"
+}

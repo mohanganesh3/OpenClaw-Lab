@@ -1,0 +1,6 @@
+{
+  "introduction": "[2406.11657] Can LLM be a Personalized Judge?\n\nCan LLM be a Personalized Judge?\n\nYijiang River Dong ∗\n\nTiancheng Hu ∗\n\nNigel Collier\n\n{yd358, th656, nhc30}@cam.ac.uk\n\nUniversity of Cambridge\n\nAbstract",
+  "method": "a subjective question and two distinct responses, we ask an LLM to infer the preference of a real user based on a user persona. We also ask the LLM to estimate its certainty level in this prediction. ",
+  "results": "ity of naturalistic dialog data directly reflecting persona variables, we highlight a related but distinct problem: the available persona variables may not offer an informed prior about the person inv",
+  "conclusion": "ther than personal preferences.\n\nhuman judgment and even surpasses human performance on high-certainty samples. While first-person human evaluation from diverse backgrounds remains the gold standard f"
+}

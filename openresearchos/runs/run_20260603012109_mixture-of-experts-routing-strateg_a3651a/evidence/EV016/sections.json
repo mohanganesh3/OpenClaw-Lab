@@ -1,0 +1,6 @@
+{
+  "introduction": "[2603.14147] An Alternative Trajectory for Generative AI\n\nAn Alternative Trajectory for Generative AI\n\nMargarita Belova\n\nPrinceton University\n\nmargarita.bel@princeton.edu\n\n&amp;Yuval Kansal  1\n\n1  foo",
+  "method": "as knowledge graphs, ontologies, and formal logic. These abstractions can form the basis for generation of synthetic curricula, training on which can enable small language models to master complex dom",
+  "results": "hree interrelated problems make the current top-down paradigm that the AI industry is following a risky foundation to build future AI systems.\n\nFirst, both training and deploying large foundation mode",
+  "conclusion": "odels to new, unseen situations. This data-centric view of AI argues that improving data quality, curation, and structure often yields larger gains than continually increasing model size alone  (Jakub"
+}

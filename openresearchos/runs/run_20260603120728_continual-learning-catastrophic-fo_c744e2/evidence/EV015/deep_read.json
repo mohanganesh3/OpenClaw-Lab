@@ -1,0 +1,40 @@
+{
+  "paper_title": "Elastic Weight Consolidation Improves the Robustness of Self-Supervised Learning Methods under Transfer",
+  "main_topic": "Using Elastic Weight Consolidation (EWC) to improve the robustness of Self-Supervised Learning (SSL) methods during transfer to downstream tasks",
+  "problem_addressed": [
+    "SSL representations are free from label-induced bias, but this changes during fine-tuning to downstream tasks",
+    "Models trained with empirical risk minimization (ERM) tend to be biased towards label population distributions that are disproportionately represented in the training dataset",
+    "Catastrophic forgetting occurs when models are trained sequentially, becoming biased towards the latest observed distribution"
+  ],
+  "proposed_solution": "Use Bayesian continual learning to mitigate drift by regularizing downstream tasks towards their robust initial representation from SSL pre-training",
+  "methodology": {
+    "approach": "Treat SSL pre-training and fine-tuning as two distinct sequential tasks",
+    "technique": "Use Elastic Weight Consolidation (EWC) to keep fine-tuned representations close to their initial SSL values",
+    "regularization": "EWC regularizes model parameters towards their optimal values on previous tasks using the Fisher Information Matrix (FIM) and the Laplace approximation",
+    "theoretical_framework": "Consider the SSL model as a statistical Bayesian model with prior p(θ)",
+    "objective": "Given two datasets (SSL and FT), estimate parameters θ while computing the posterior distribution p(θ|D_SSL, D_FT)"
+  },
+  "validation": {
+    "fmi_validation": "Validate the accuracy of the FIM by analyzing reverse transfer performance from CIFAR10 fine-tuning",
+    "issue_identified": "The FIM for ViT-B/16 is poorly conditioned, making it impossible to fully recover SSL performance on ImageNet1k",
+    "solution_proposed": "Propose a method to alleviate the issue with poorly conditioned FIM",
+    "results": "With ViT-B/16, this regularization can improve worst group accuracy on Waterbirds by 5% and on Celeb-A by 2%"
+  },
+  "technical_details": {
+    "models_used": "DINO models pre-trained with ViT-B/16 and ResNet50 architectures",
+    "fmi_computation": "Compute the FIM on a subset of ImageNet1k images",
+    "fmi_availability": "The FIM is available at https://coming_soon"
+  },
+  "evidence_id": "EV015",
+  "title": "Elastic Weight Consolidation Improves the Robustness of Self-Supervised Learning Methods under Transfer",
+  "year": 2022,
+  "arxiv_id": "2210.16365",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

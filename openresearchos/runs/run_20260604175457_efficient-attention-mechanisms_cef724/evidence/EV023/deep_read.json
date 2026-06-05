@@ -1,0 +1,75 @@
+{
+  "title": "Spiking Vision Transformer with Saccadic Attention",
+  "authors": [
+    "tskiy"
+  ],
+  "year": 2025,
+  "concepts": [
+    "Vision Transformers (ViTs)",
+    "Spiking Neural Networks (SNNs)",
+    "Saccadic attention mechanisms",
+    "Energy efficiency in neural networks"
+  ],
+  "problem": {
+    "main": "Vision Transformers demand significant computational and memory resources, restricting deployment in resource-constrained edge vision environments",
+    "related": [
+      "SNNs have energy efficiency advantages but performance gaps compared to ViTs",
+      "Existing SNN-based ViT models don't fully leverage SNN energy efficiency",
+      "Previous methods don't account for binary spike characteristics of SNNs",
+      "Most approaches focus on spatial feature extraction, overlooking temporal dynamics"
+    ]
+  },
+  "solution": "Design a Saccadic Spike Self-Attention mechanism inspired by biological vision systems that use saccadic mechanisms, focusing on spatio-temporal characteristics of SNNs",
+  "related_work": [
+    {
+      "name": "Metaformer",
+      "reference": "Yu et al., 2023"
+    },
+    {
+      "name": "Spike-driven V2",
+      "reference": "Yao et al., 2024b"
+    },
+    {
+      "name": "SpikingResformer",
+      "reference": "Shi et al., 2024"
+    }
+  ],
+  "key_references": [
+    "Maass, 1997",
+    "Gerstner & Kistler, 2002",
+    "Izhikevich, 2003",
+    "Masquelier et al., 2008",
+    "Caviglia et al., 2014",
+    "Zhang et al., 2023",
+    "Chen et al., 2021",
+    "Han et al., 2023",
+    "Fang et al., 2021c",
+    "Touvron et al., 2021",
+    "Wu et al., 2022",
+    "Graham et al., 2021",
+    "Cai et al., 2019",
+    "Han et al., 2020b",
+    "Zhou et al., 2023b",
+    "Wang et al., 2023b",
+    "Yu et al., 2022",
+    "Yu et al., 2023",
+    "Yao et al., 2024b",
+    "Shi et al., 2024",
+    "Liu et al., 2021b",
+    "Melcher & Morrone, 2003",
+    "Binda & Morrone, 2018",
+    "Guadron et al., 2022",
+    "Hanning et al., 2023",
+    "Idrees et al., 2020"
+  ],
+  "evidence_id": "EV023",
+  "arxiv_id": "2502.12677",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

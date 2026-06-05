@@ -1,0 +1,26 @@
+{
+  "method_summary": "Improving solver convergence of large linear systems in iterative Gaussian Processes by leveraging known solutions from smaller contained systems",
+  "key_innovation": "Warm starting iterative GP solvers with solutions from smaller systems to accelerate convergence",
+  "datasets_used": [],
+  "baselines_compared": [],
+  "key_results": {},
+  "best_result": "",
+  "limitations_stated": [],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "unknown",
+  "compute_required": "unknown",
+  "can_run_on_macbook": false,
+  "evidence_id": "EV033",
+  "title": "Improving Iterative Gaussian Processes via Warm Starting Sequential Posteriors",
+  "year": 2025,
+  "arxiv_id": "2511.16340",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 4794,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

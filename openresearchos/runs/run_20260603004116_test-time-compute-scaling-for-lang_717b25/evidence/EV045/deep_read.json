@@ -1,0 +1,26 @@
+{
+  "method_summary": "Research paper: Modeling of Deep Neural Network (DNN) Placement and Inference in Edge Computing",
+  "key_innovation": "See full text",
+  "datasets_used": [],
+  "baselines_compared": [],
+  "key_results": {},
+  "best_result": null,
+  "limitations_stated": [],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "unknown",
+  "compute_required": "unknown",
+  "can_run_on_macbook": true,
+  "evidence_id": "EV045",
+  "title": "Modeling of Deep Neural Network (DNN) Placement and Inference in Edge Computing",
+  "year": 2020,
+  "arxiv_id": "2001.06901",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "introduction": "[2405.17741] LoRA-Switch: Boosting the Efficiency of Dynamic LLM Adapters via System-Algorithm Co-design\n\nLoRA-Switch: Boosting the Efficiency of Dynamic LLM Adapters via System-Algorithm Co-design\n\nR",
+  "method": "mic adapters, while reducing the decoding latency by more than 2.4 times.\n\n1  Introduction\n\nLarge language models (LLMs) have demonstrated remarkable capabilities in language understanding and generat",
+  "results": "s substantially amplifies the latency overhead, leading to a severe escalation of inference latency.\n\nReducing the inference latency overhead of dynamic adapters is challenging. Existing dynamic adapt",
+  "conclusion": "fundamentally reduces the CUDA kernel execution overhead, thereby significantly lowering latency.\nWith this innovative setup, we have re-engineered the inference process to seamlessly switch and merge"
+}

@@ -1,0 +1,35 @@
+{
+  "method_summary": "Layer-wise Token Compression (LTC) applies adaptive token pooling at intermediate transformer layers to reduce effective tokens while preserving ranking quality.",
+  "key_innovation": "The application of adaptive token compression at intermediate transformer layers specifically designed for cross-encoder rerankers, which was previously ineffective for this architecture.",
+  "datasets_used": [
+    "MS MARCO passage",
+    "MS MARCO document"
+  ],
+  "baselines_compared": [
+    "uncompressed counterparts",
+    "token compression for bi-encoder retrievers"
+  ],
+  "key_results": {
+    "QPS_improvement_passage": "25%",
+    "QPS_improvement_document": "116%"
+  },
+  "best_result": "Up to 116% QPS improvement for document ranking",
+  "limitations_stated": [],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "",
+  "compute_required": "",
+  "can_run_on_macbook": false,
+  "evidence_id": "EV019",
+  "title": "Layer-wise Token Compression for Efficient Document Reranking",
+  "year": 2026,
+  "arxiv_id": "2605.20683",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 5644,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}
