@@ -1,0 +1,6 @@
+{
+  "introduction": "[2603.26155] Aging States Estimation and Monitoring Strategies of Li-Ion Batteries Using Incremental Capacity Analysis and Gaussian Process Regression\n\nAging States Estimation and Monitoring Strategie",
+  "method": "ing directly impacts system reliability, safety, and cost. Capacity fade and resistance increase reduce usable energy and power, while uncontrolled degradation can lead to unplanned downtime and safet",
+  "results": "ICA  and  differential voltage analysis (DVA)\n\n\\shortcite demirci_review_2024. Electro-chemical models typically require extensive parametrization, detailed knowledge of internal cell chemistry, and s",
+  "conclusion": "rwards predict the development of the aging until  EOL . In contrast, we deal with the task of a  SoH - and  RUL  estimation of previously unseen cells using cycling data from  BOL  to  EOL  of multip"
+}

@@ -1,0 +1,16 @@
+{
+  "numeric_findings": "No concrete numeric findings or experimental results were found in the provided text. The text contains information about a Kaggle competition for predicting molecular properties, evaluation metrics, submission formats, timelines, prizes, and dataset descriptions, but does not include any tables with experimental results or numeric performance metrics from the MLE-bench paper.",
+  "reproducibility": "low",
+  "evidence_id": "EV004",
+  "title": "MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering",
+  "year": 2024,
+  "arxiv_id": "2410.07095",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 94297,
+  "sections_found": [
+    "experiments"
+  ],
+  "pdf_pages": 29,
+  "pdf_tables": 12,
+  "pdf_captions": 26
+}

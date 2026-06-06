@@ -1,0 +1,110 @@
+{
+  "problem_addressed": "Existing unconventional computing approaches require problem transformations (embedding, sparsification, quadratisation) that degrade solution quality for higher-order, densely connected, or reconfigurable combinatorial optimization problems.",
+  "core_claim": "A virtually connected probabilistic computer (VCPC) using photonic quantum random number generators outperforms digital annealing units by orders of magnitude on Erdős–Rényi graph spin-glasses without requiring problem transformations.",
+  "key_contributions": [
+    "Demonstration of VCPC's capability to solve higher-order problems (hypergraph hitting set) directly without quadratisation",
+    "Implementation of greedy graph coloring for hardware parallelisation enabling favourable scaling",
+    "Quantitative comparison showing quadratisation/sparsification would increase problem size by 10-25x for k=5/10 hypergraphs"
+  ],
+  "novelty": "Virtual hardware connections circumvent topological constraints of physical hardware, eliminating necessity for problem transformations that deteriorate solution quality in existing approaches.",
+  "method_summary": "Uses high-speed photonic quantum random number generators to create a probabilistic computing architecture with virtual connections between p-bits. Solves higher-order problems via simulated annealing (PC-SA) with greedy graph coloring for parallelization.",
+  "method_components": [
+    "Photonic quantum random number generators for probabilistic p-bit states",
+    "Virtual connectivity layer enabling arbitrary problem topologies",
+    "Greedy hypergraph coloring for parallel p-bit updates",
+    "Energy function formulation for hypergraph hitting set (Eqn. 13)"
+  ],
+  "key_innovation": "Virtual hardware connections allowing direct mapping of arbitrary combinatorial optimization problems to hardware without transformation, preserving problem structure and solution quality.",
+  "assumptions": [
+    "Simulations accurately model VCPC hardware behavior",
+    "Photonic RNGs can generate high-speed random numbers",
+    "Greedy coloring provides sufficient parallelization for desired scaling"
+  ],
+  "theoretical_grounding": "Derivation of p-bit update drive for hitting set problem (Eqn. 14), scaling analysis O(m(k-1)), and performance comparison against Lovász's (1+ln d) approximation bound for set cover.",
+  "datasets_used": [
+    "burma14 TSP instance",
+    "Erdős–Rényi graphs (N=100, 250, 500, 750, 1024)",
+    "Spin-glass instances"
+  ],
+  "baselines_compared": [
+    "Digital annealing (DA)",
+    "Parallel tempering (PT)",
+    "Simulated annealing (SA)"
+  ],
+  "metrics_used": [
+    "Number of iterations",
+    "Time-to-solution (TTS)",
+    "P-bit count",
+    "Solution quality (q=0.5, 0.8)"
+  ],
+  "hyperparameters": "Clock speed: 2.7 GHz; Solution quality thresholds: q=0.5, 0.8; Graph density p: 0.1-1.0; Sparsification ratio rs: up to 50",
+  "compute_required": "Parallel execution assumed for replicas",
+  "seeds": null,
+  "headline_result": "TTS of ~10⁻⁵ seconds for q=0.8 and N=1024, outperforming DA by orders of magnitude",
+  "results_table": [
+    {
+      "method": "PC-SA",
+      "dataset": "Erdős–Rényi (p=1.0)",
+      "metric": "Iterations",
+      "value": "10³"
+    },
+    {
+      "method": "PC-PT",
+      "dataset": "Erdős–Rényi (p=0.2)",
+      "metric": "Iterations",
+      "value": "10³"
+    },
+    {
+      "method": "PC-SA",
+      "dataset": "Erdős–Rényi (p=1.0)",
+      "metric": "Iterations",
+      "value": "10²"
+    },
+    {
+      "method": "PC-PT",
+      "dataset": "Erdős–Rényi (p=1.0)",
+      "metric": "Iterations",
+      "value": "10²"
+    },
+    {
+      "method": "PC-SA",
+      "dataset": "Erdős–Rényi (p=1.0)",
+      "metric": "TTS (s)",
+      "value": "10⁻⁵"
+    },
+    {
+      "method": "DA",
+      "dataset": "Erdős–Rényi (p=1.0)",
+      "metric": "TTS (s)",
+      "value": "10⁻³"
+    }
+  ],
+  "ablations": [
+    "KMC masking vs. unmasked p-bit arrays",
+    "Sparsification ratio rs impact on rN"
+  ],
+  "improvement_over_baseline": "TTS reduced by ~100× compared to digital annealing for q=0.8, N=1024",
+  "best_result": "TTS of ~10⁻⁵ seconds for q=0.8 and N=1024, outperforming DA by orders of magnitude",
+  "key_results": {
+    "Erdős–Rényi (p=1.0)_Iterations": "10²",
+    "Erdős–Rényi (p=0.2)_Iterations": "10³",
+    "Erdős–Rényi (p=1.0)_TTS (s)": "10⁻³"
+  },
+  "limitations_stated": [],
+  "reproducibility": "low",
+  "evidence_id": "EV033",
+  "title": "A virtually connected probabilistic computer as a solver for higher-order, densely connected, or reconfigurable combinatorial optimisation problems",
+  "year": 2026,
+  "arxiv_id": "2605.06037",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 89839,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 27,
+  "pdf_tables": 7,
+  "pdf_captions": 18
+}

@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\nOmniDP: Beyond-FOV Large-Workspace Humanoid Manipulation with\nOmnidirectional 3D Perception\nPei Qu1∗, Zheng Li1∗, Yufei Jia2, Ziyun Liu1, Liang Zhu1, Haoang Li1, Jinni Zhou1, Jun Ma1,3",
+  "method": "nd-crafted intermediate maps and em-\nphasizing sim-to-real transfer with LiDAR-centric simulation\nsupport. LVI-Q\n[35] tightly couples LiDAR with vision,\ninertial, and kinematic cues to obtain robust o",
+  "results": "[CAPTION] Fig. 3: Comparison of the field of views of LiDAR and camera. (a) The panoramic LiDAR provides 360° horizontal\n\n\n<!-- page 5 -->\nTABLE I: Performance comparison. Our method consistently outp",
+  "conclusion": "es, enabling 360° scene awareness and collision-free\nmanipulation in cluttered environments. We also introduce\na whole-body teleoperation system for efficient collection\nof demonstration data involvin"
+}

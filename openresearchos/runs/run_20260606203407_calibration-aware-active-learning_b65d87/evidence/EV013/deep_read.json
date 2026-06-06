@@ -1,0 +1,97 @@
+{
+  "problem_addressed": "Uncertainty-aware reward models for aligning LLMs with human preferences have been adopted without thorough comparison, leaving them poorly understood.",
+  "core_claim": "RewardUQ provides a unified framework to systematically evaluate uncertainty quantification for reward models, revealing that model size and initialization have the most meaningful impact on performance.",
+  "key_contributions": [
+    "A unified framework (RewardUQ) for systematic evaluation of uncertainty quantification methods for reward models",
+    "Comparison of common methods along standard metrics measuring accuracy and calibration",
+    "A new ranking strategy incorporating both accuracy and calibration dimensions",
+    "Open-source Python package for fostering development and evaluation of new methods"
+  ],
+  "novelty": "The first unified framework that systematically compares different uncertainty-aware reward model architectures using standardized metrics and evaluation procedures",
+  "method_summary": "RewardUQ implements four uncertainty-aware reward model architectures that predict both reward estimates and uncertainty estimates, constructing symmetric confidence bounds using these predictions.",
+  "method_components": [
+    "MLP head ensemble (ENS-MLP) - trains K independent MLP heads with regularization to preserve diversity",
+    "LoRA adapter ensemble (ENS-LoRA) - extends ENS-MLP by training all layers using LoRA adapters",
+    "DPO-based MC dropout (MCD-DPO) - uses Monte Carlo dropout before the final layer of a fine-tuned model",
+    "Bayesian linear head (BAY-LIN) - treats reward estimation as Bayesian linear regression with Gaussian prior"
+  ],
+  "key_innovation": "The unified evaluation framework that allows fair comparison across different uncertainty quantification methods using standardized metrics and a new ranking strategy",
+  "assumptions": [
+    "Epistemic uncertainty arises from limited preference data",
+    "Reward and uncertainty can be separated in prediction",
+    "Symmetric confidence bounds can be constructed using reward and uncertainty estimates",
+    "The cross-entropy loss is invariant to additive constants in the reward function"
+  ],
+  "theoretical_grounding": "Mathematical formulation of confidence bounds, derivation of posterior distribution in BAY-LIN using Laplace approximation, Hessian computation for Bayesian approach, and regularization terms in ENS-MLP for preserving diversity",
+  "datasets_used": [],
+  "baselines_compared": [],
+  "metrics_used": [],
+  "hyperparameters": null,
+  "compute_required": null,
+  "seeds": null,
+  "headline_result": null,
+  "results_table": [],
+  "ablations": [],
+  "improvement_over_baseline": null,
+  "stated_limitations": [
+    "Uncertainty-aware reward models have been adopted without thorough comparison, leaving them poorly understood",
+    "The paper focuses on evaluating uncertainty quantification methods rather than proposing new ones"
+  ],
+  "unstated_weaknesses": [
+    "The paper focuses on language models rather than medical images, which may limit direct applicability",
+    "No discussion of domain-specific challenges in medical imaging",
+    "No mention of how uncertainty might be evaluated differently in medical contexts"
+  ],
+  "threats_to_validity": [
+    "Findings from language models may not generalize to medical image classification",
+    "Potential biases in medical image datasets are not addressed",
+    "Calibration evaluation methods may need adaptation for medical contexts"
+  ],
+  "reproducibility": "medium (paper provides framework but lacks implementation details)",
+  "open_questions": [
+    "How would uncertainty quantification methods perform on medical image classification tasks?",
+    "How would calibration be evaluated in the context of medical image classification?",
+    "What specific challenges does medical imaging pose for uncertainty-aware reward models?"
+  ],
+  "future_work": [
+    "Apply the RewardUQ framework to medical image classification tasks",
+    "Develop domain-specific calibration metrics for medical imaging",
+    "Explore uncertainty-aware active learning strategies tailored to medical image classification"
+  ],
+  "gaps_this_enables": [
+    "Provides a framework for evaluating uncertainty quantification that could be applied to medical image classification",
+    "Suggests methods for incorporating calibration into active learning strategies",
+    "Offers a foundation for developing uncertainty-aware approaches specifically for medical imaging"
+  ],
+  "relevance_to_topic": "The paper provides a unified framework for uncertainty quantification and calibration, which are key components of calibration-aware active learning for medical image classification.",
+  "relation_type": "foundational",
+  "can_run_on_macbook": "unknown",
+  "reusable_assets": [
+    "Framework for evaluating uncertainty quantification",
+    "Ranking strategy incorporating accuracy and calibration",
+    "Metrics for measuring accuracy and calibration"
+  ],
+  "code_available": false,
+  "code_url": null,
+  "best_result": null,
+  "key_results": {},
+  "limitations_stated": [
+    "Uncertainty-aware reward models have been adopted without thorough comparison, leaving them poorly understood",
+    "The paper focuses on evaluating uncertainty quantification methods rather than proposing new ones"
+  ],
+  "evidence_id": "EV013",
+  "title": "RewardUQ: A Unified Framework for Uncertainty-Aware Reward Models",
+  "year": 2026,
+  "arxiv_id": "2602.24040",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 72336,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 25,
+  "pdf_tables": 7,
+  "pdf_captions": 7
+}

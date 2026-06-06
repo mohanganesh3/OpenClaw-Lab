@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\nUncertainty-Guided Dual-Domain Learning for\nReliable Skin Lesion Segmentation\nDuwei Dai1,2,3, Caixia Dong2,4, Guowei Dai5, Qingsen Yan6,\nQin Zhang1, Fan Liu4, Pengyu Ren4, Guangyao Kon",
+  "method": "devices, illumination, and\nclinical protocols. Table 2 presents the cross-dataset evaluation results. UGDD-Net\ndemonstrates remarkable robustness, outperforming all competing methods by a\nhighly stati",
+  "results": ".16\n18.25\n6.91\n14.09\nLoss 2: Dice + CE\n91.55\n95.35\n7.36\n2.43\n10.39\n78.35\n86.64\n18.11\n6.82\n13.81\nLoss 3: Dice + CE + Boundary\n91.84\n95.52\n7.05\n2.30\n10.14\n78.78\n86.95\n17.77\n6.65\n13.45\nLoss 4: UGML (Ours",
+  "conclusion": "deformable alignment, resampling the features to spatially align with the frequency\ndomain target:\nFalign,l\ns\n(p) =\nX\nq\nFrel,l\ns\n(q) · ϕ(p + ∆pl −q)\n(10)\nwhere ϕ(·) is the bilinear interpolation kerne"
+}

@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\nData Space Inversion for Efficient Predictions and Uncertainty\nQuantification for Geothermal Models\nAlex de Beer∗1, Andrew Power2, Daniel Wong2, Ken Dekkers2, Michael Gravatt2,\nElvar K",
+  "method": "trictly\nincreasing (and therefore invertible) on the interval X y\ni\n:= (ymin\ni\n, ymax\ni\n), which represents the\nrange of possible values for yi.\nWe note that, while the marginal distributions of each ",
+  "results": "Pressure [MPa]\n0\n80\n160\nTime [Days]\n15.5\n18.0\n20.5\nWELL 8\nPressure [MPa]\n0\n80\n160\nTime [Days]\n0\n80\n160\nTime [Days]\n0\n80\n160\nTime [Days]\nFigure 6\nSets of 1000 samples from the prior predictive distribu",
+  "conclusion": "hat there are a number of limitations of the DSI framework. Like most sur-\nrogate modelling techniques, there exists little in the way of theoretical guarantees surrounding\nthe quality of the DSI appr"
+}

@@ -1,0 +1,49 @@
+{
+  "title": "Risk-Calibrated Human-Robot Interaction via Set-Valued Intent Prediction",
+  "abstract": "This paper studies the tradeoff between risk and autonomy in human-robot interaction, particularly in cluttered, close-quarters environments. The authors propose a risk-calibrated approach that combines calibrated predict-then-plan methods with deep-learned human intent prediction models to enable safe robot behavior.",
+  "methodology": {
+    "approach": "Calibrated predict-then-plan (contingency planning)",
+    "prediction": "Deep-learned human intent prediction models with confidence-aware outputs",
+    "planning": "Sequence of actions planned for each predicted intent",
+    "risk_control": "Distribution-free risk control techniques",
+    "calibration": "Use of calibration dataset to select hyperparameters",
+    "human_robot_interaction": "Robot asks for help when uncertain"
+  },
+  "problem": {
+    "main_challenge": "Human intent prediction is challenging due to individual preferences and environmental factors",
+    "specific_issue": "Situational ambiguity where items may fit multiple categories",
+    "tradeoff": "Balance between robot autonomy and risk",
+    "environment": "Cluttered, close-quarters environments"
+  },
+  "key_contributions": [
+    "Risk-calibrated human-robot interaction framework",
+    "Set-valued intent prediction approach",
+    "Distribution-free risk control techniques",
+    "Calibration of prediction models for risk management"
+  ],
+  "applications": [
+    "Item sorting tasks (e.g., sorting vegetables, toys, miscellaneous items)",
+    "Safe human-robot interaction in cluttered environments"
+  ],
+  "technical_details": {
+    "hyperparameters": "Temperature and other flexible parameters to control confidence levels",
+    "prediction_output": "Limited set of human intents based on confidence scores",
+    "planning_objective": "Satisfy environment objectives (e.g., placing items in correct bins)",
+    "risk_objectives": "Statistical risk calibration and limiting multiple notions of risk"
+  },
+  "resources": {
+    "website": "https://risk-calibrated-planning.github.io/",
+    "includes": "Additional information, videos, and code"
+  },
+  "evidence_id": "EV059",
+  "year": 2024,
+  "arxiv_id": "2403.15959",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

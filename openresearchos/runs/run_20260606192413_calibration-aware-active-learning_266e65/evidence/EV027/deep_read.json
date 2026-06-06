@@ -1,0 +1,193 @@
+{
+  "problem_addressed": "Conventional RGB-D solutions for humanoid manipulation suffer from narrow fields of view and self-occlusion, requiring frequent base movements that introduce motion uncertainty and safety risks in large workspace scenarios.",
+  "core_claim": "OmniDP enables robust humanoid manipulation in large workspaces through omnidirectional 3D perception using an end-to-end LiDAR-driven 3D visuomotor policy.",
+  "key_contributions": [
+    "Development of OmniDP, an end-to-end LiDAR-driven 3D visuomotor policy for large-workspace manipulation",
+    "Time-Aware Attention Pooling mechanism for processing sparse and temporally flickering 3D point cloud data",
+    "Whole-body teleoperation system for efficient data collection on full-body coordination"
+  ],
+  "novelty": "Unlike prior work that primarily used RGB-D cameras or third-view point clouds, this paper introduces panoramic LiDAR-based perception for humanoid manipulation, addressing the fundamental limitation of narrow fields of view that constrain effective workspace.",
+  "method_summary": "The method processes panoramic LiDAR point clouds through a Time-Aware Attention Pooling mechanism, encoding historical sequences of 3D data while capturing temporal dependencies, and uses a Diffusion Policy decoder to generate coordinated whole-body actions.",
+  "method_components": [
+    "Perception encoder with pyramid convolutional architecture enhanced with time-aware attention",
+    "Diffusion Policy decoder for action generation",
+    "Time-Aware Attention Pooling (TAP) mechanism for handling sparse 3D data",
+    "Whole-body teleoperation system using XR controllers for data collection"
+  ],
+  "key_innovation": "Time-Aware Attention Pooling mechanism that aggregates point clouds over a short temporal window and uses attention weights conditioned on temporal offsets to create a temporally smoothed representation, addressing the instability of standard global max pooling over single-frame sparse LiDAR observations.",
+  "assumptions": [
+    "LiDAR provides sufficient geometric information for manipulation tasks",
+    "Objects beyond 1.3 meters from the sensor provide limited utility for manipulation",
+    "Upper-body joints can be controlled independently of pre-trained lower body controllers"
+  ],
+  "theoretical_grounding": "The paper relies on empirical validation through extensive experiments in simulation and real-world environments rather than formal mathematical proofs or theoretical bounds.",
+  "datasets_used": [
+    "Teleoperated trajectories using TeleVuer framework (size not specified)"
+  ],
+  "baselines_compared": [
+    "DP [4] (RGB images 240×424)",
+    "DP3 [5] (camera-frame point clouds)",
+    "iDP3 [6] (camera-frame point clouds)"
+  ],
+  "metrics_used": [
+    "Task success rate",
+    "Collision rate",
+    "Generalization success rate"
+  ],
+  "hyperparameters": "20 trials per task, point clouds downsampled to 4096 points for baselines, LiDAR point clouds with distance-based cropping and uniform downsampling",
+  "compute_required": "Not specified",
+  "seeds": "20 trials under consistent initial conditions",
+  "headline_result": "OmniDP achieved 82/120 total success rate across all tasks (Table I)",
+  "results_table": [
+    {
+      "method": "OmniDP",
+      "dataset": "All tasks",
+      "metric": "Total success rate",
+      "value": "82/120"
+    },
+    {
+      "method": "DP",
+      "dataset": "All tasks",
+      "metric": "Total success rate",
+      "value": "18/120"
+    },
+    {
+      "method": "DP3",
+      "dataset": "All tasks",
+      "metric": "Total success rate",
+      "value": "22/120"
+    },
+    {
+      "method": "iDP3",
+      "dataset": "All tasks",
+      "metric": "Total success rate",
+      "value": "25/120"
+    },
+    {
+      "method": "OmniDP",
+      "dataset": "Collision test",
+      "metric": "Success rate",
+      "value": "14/20"
+    },
+    {
+      "method": "DP",
+      "dataset": "Collision test",
+      "metric": "Success rate",
+      "value": "0/20"
+    },
+    {
+      "method": "DP3",
+      "dataset": "Collision test",
+      "metric": "Success rate",
+      "value": "0/20"
+    },
+    {
+      "method": "iDP3",
+      "dataset": "Collision test",
+      "metric": "Success rate",
+      "value": "0/20"
+    },
+    {
+      "method": "OmniDP",
+      "dataset": "Generalization",
+      "metric": "Instance success rate",
+      "value": "13/20"
+    },
+    {
+      "method": "DP",
+      "dataset": "Generalization",
+      "metric": "Instance success rate",
+      "value": "3/20"
+    },
+    {
+      "method": "DP3",
+      "dataset": "Generalization",
+      "metric": "Instance success rate",
+      "value": "7/20"
+    },
+    {
+      "method": "iDP3",
+      "dataset": "Generalization",
+      "metric": "Instance success rate",
+      "value": "12/20"
+    }
+  ],
+  "ablations": [
+    "Removing omnidirectional LiDAR input causes complete failure (0/20 success)",
+    "Disabling time-aware attention pooling reduces success rate from 12/20 to 9/20"
+  ],
+  "improvement_over_baseline": "OmniDP outperforms baselines by 2-13x in total success rate and achieves 14/20 success in collision-free tasks where all baselines achieve 0%",
+  "stated_limitations": [
+    "Conventional RGB-D solutions suffer from narrow fields of view (FOV) and self-occlusion",
+    "Existing approaches to expanding perception introduce mechanical complexity, calibration dependencies, and latency",
+    "Physical constraints prevent the robot from repositioning itself in some scenarios"
+  ],
+  "unstated_weaknesses": [
+    "No quantitative comparison with traditional RGB-D approaches in the abstract",
+    "Limited information about computational requirements and hardware specifications",
+    "Unclear how well the approach scales to even larger workspaces",
+    "No discussion of failure cases or specific limitations in particular scenarios"
+  ],
+  "threats_to_validity": [
+    "Evaluation might be limited to specific environments or object types",
+    "Potential overfitting to the training scenarios",
+    "Limited diversity in test environments",
+    "Possible evaluation bias if the authors designed the test scenarios"
+  ],
+  "reproducibility": "medium",
+  "open_questions": [
+    "How does the approach perform with different types of sensors or sensor configurations?",
+    "What are the computational requirements for real-time operation?",
+    "How does the approach handle dynamic environments with moving objects?",
+    "Can the methodology be adapted for other robotic platforms?",
+    "What are the failure modes and how can they be mitigated?"
+  ],
+  "future_work": [
+    "Extending to more complex manipulation tasks",
+    "Incorporating additional sensing modalities",
+    "Improving computational efficiency",
+    "Evaluating in more diverse and unstructured environments",
+    "Developing more sophisticated learning algorithms"
+  ],
+  "gaps_this_enables": [
+    "New approaches for handling self-occlusion in robotic vision",
+    "End-to-end learning of 3D visuomotor policies",
+    "LiDAR-based perception for manipulation tasks",
+    "Omnidirectional perception for robotics"
+  ],
+  "relevance_to_topic": "This paper is tangentially relevant to the project as it explores omnidirectional perception and active learning concepts, but its focus on robotics rather than medical imaging limits direct applicability.",
+  "relation_type": "tangential",
+  "can_run_on_macbook": false,
+  "reusable_assets": [
+    "LiDAR-based perception algorithms",
+    "3D visuomotor policy learning frameworks",
+    "Omnidirectional data processing techniques"
+  ],
+  "code_available": false,
+  "code_url": null,
+  "best_result": "OmniDP achieved 82/120 total success rate across all tasks (Table I)",
+  "key_results": {
+    "All tasks_Total success rate": "25/120",
+    "Collision test_Success rate": "0/20"
+  },
+  "limitations_stated": [
+    "Conventional RGB-D solutions suffer from narrow fields of view (FOV) and self-occlusion",
+    "Existing approaches to expanding perception introduce mechanical complexity, calibration dependencies, and latency",
+    "Physical constraints prevent the robot from repositioning itself in some scenarios"
+  ],
+  "evidence_id": "EV027",
+  "title": "OmniDP: Beyond-FOV Large-Workspace Humanoid Manipulation with Omnidirectional 3D Perception",
+  "year": 2026,
+  "arxiv_id": "2603.05355",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 41948,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 8,
+  "pdf_tables": 8,
+  "pdf_captions": 6
+}

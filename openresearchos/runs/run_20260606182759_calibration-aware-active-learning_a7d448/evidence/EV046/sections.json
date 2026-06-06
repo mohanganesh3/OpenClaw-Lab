@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\nQuantum Boosting using Domain-Partitioning Hypotheses\nDebajyoti Bera∗1, Rohan Bhatia† 2, Parmeet Singh Chani‡ 2, and Sagnik Chatterjee§ 1\n1Indraprastha Institute of Information Technol",
+  "method": "a\n 1\n3,δ\n \n-PAC learner, using δ≤1/3 in both cases. One of the most celebrated results of\nPAC learning was produced by Schapire who showed that under the PAC learning model, the task of producing\nstro",
+  "results": "with clever use of Grover iterations. Our choice was motivated by the availability and performance of the\nalgorithm which helped us decrease the number of qubits needed for the implementation. An impo",
+  "conclusion": "M]\n˜Dt\ni·e−β′\nj,t\nZt\n=\ns\nZt\nκ·Z′\nt\n= 1\n√κ·\ns\nZt\nZ′\nt\n= 1\n√κ·\nC\nX\nj=1\nv\nu\nu\nu\nt\nW j,t\n+ e−β′\nj,t+W j,t\n−eβ′\nj,t\n2\nq\n˜W j,t\n+ · ˜W j,t\n−\n=\n1\n√\n2κ·\nC\nX\nj=1\nv\nu\nu\nu\nt\nW j,t\n+ e−β′\nj,t\nq\n˜W j,t\n+ · ˜W j,t\n"
+}

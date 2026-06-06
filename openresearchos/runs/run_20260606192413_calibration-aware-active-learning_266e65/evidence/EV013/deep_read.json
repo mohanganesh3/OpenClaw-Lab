@@ -1,0 +1,88 @@
+{
+  "problem_addressed": "Current machine learning potentials struggle with uncertainty quantification, limiting their reliability for active learning, calibration, and out-of-distribution detection.",
+  "core_claim": "Bayesian E(3)-equivariant MLPs with joint energy-force uncertainty modeling achieve competitive accuracy while enabling robust uncertainty quantification.",
+  "key_contributions": [
+    "Development of Bayesian E(3)-equivariant MLPs with iterative restratification of many-body message passing",
+    "Introduction of joint energy-force negative log-likelihood (NLLJEF) loss function",
+    "Systematic benchmarking of multiple Bayesian approaches (deep ensembles, SWAG, IVON, MVE)"
+  ],
+  "novelty": "Joint energy-force uncertainty modeling through NLLJEF loss, which reduces the accuracy-uncertainty trade-off compared to conventional approaches that model only energy uncertainties.",
+  "method_summary": "The approach develops Bayesian E(3)-equivariant MLPs using deep ensembles with joint energy-force uncertainty modeling through the NLLJEF loss function, combined with iterative restratification of many-body message passing.",
+  "method_components": [
+    "Bayesian neural network architecture with E(3)-equivariance",
+    "Joint energy-force uncertainty modeling via NLLJEF loss",
+    "Iterative restratification of many-body message passing",
+    "Multiple Bayesian approaches (DE, SWAG, IVON, MVE)"
+  ],
+  "key_innovation": "The joint energy-force negative log-likelihood (NLLJEF) loss function, which explicitly models uncertainties in both energies and forces simultaneously, reducing energy errors by 3-4 times and force errors by 2-3 times compared to energy-only uncertainty modeling.",
+  "assumptions": [
+    "Joint modeling of energy and force uncertainties leads to better overall performance",
+    "E(3)-equivariance is beneficial for interatomic potentials",
+    "The datasets used (oBN25, 3BPA) are representative for evaluation"
+  ],
+  "theoretical_grounding": "Empirical evidence through extensive benchmarking on multiple datasets and tasks, with no explicit theoretical proofs or bounds provided.",
+  "datasets_used": [],
+  "baselines_compared": [],
+  "metrics_used": [],
+  "hyperparameters": "λE and λF for energy/force loss weighting; MVE modules with 2 or 8 output heads; softplus/exponential for variance positivity",
+  "compute_required": null,
+  "seeds": null,
+  "headline_result": null,
+  "results_table": [],
+  "ablations": [],
+  "improvement_over_baseline": null,
+  "stated_limitations": [
+    "The method is specifically designed for interatomic potentials in molecular systems",
+    "Computational requirements may be high for large-scale applications"
+  ],
+  "unstated_weaknesses": [
+    "Limited applicability to domains outside of molecular physics",
+    "May not address specific challenges in medical image classification"
+  ],
+  "threats_to_validity": [
+    "Domain mismatch between molecular physics and medical imaging",
+    "Assumptions about physical equivariance may not translate to medical images"
+  ],
+  "reproducibility": "medium",
+  "open_questions": [
+    "How can equivariant neural networks be adapted for medical image classification?",
+    "Can Bayesian approaches improve uncertainty quantification in medical imaging?"
+  ],
+  "future_work": [
+    "Extending the approach to other domains beyond molecular physics",
+    "Improving computational efficiency for practical applications"
+  ],
+  "gaps_this_enables": [
+    "Development of equivariant neural networks for medical imaging",
+    "Integration of Bayesian methods for uncertainty quantification in medical image classification"
+  ],
+  "relevance_to_topic": "This paper explores Bayesian approaches and equivariant neural networks, which could inspire methods for calibration-aware active learning in medical image classification.",
+  "relation_type": "tangential",
+  "can_run_on_macbook": false,
+  "reusable_assets": [
+    "Equivariant neural network architectures",
+    "Bayesian framework for uncertainty quantification"
+  ],
+  "code_available": false,
+  "best_result": null,
+  "key_results": {},
+  "limitations_stated": [
+    "The method is specifically designed for interatomic potentials in molecular systems",
+    "Computational requirements may be high for large-scale applications"
+  ],
+  "evidence_id": "EV013",
+  "title": "Bayesian E(3)-Equivariant Interatomic Potential with Iterative Restratification of Many-body Message Passing",
+  "year": 2025,
+  "arxiv_id": "2510.03046",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 130847,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 60,
+  "pdf_tables": 14,
+  "pdf_captions": 18
+}

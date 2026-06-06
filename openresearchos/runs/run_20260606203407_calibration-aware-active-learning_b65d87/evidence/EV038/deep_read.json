@@ -1,0 +1,128 @@
+{
+  "problem_addressed": "Deep Reinforcement Learning for quadrotor flight control typically relies on Domain Randomization for sim-to-real transfer, resulting in overly conservative policies that struggle with dynamic disturbances.",
+  "core_claim": "We propose a novel adaptive control architecture that actively perceives and reacts to instantaneous perturbations through a Residual Dynamics Predictor and data-efficient calibration bridge.",
+  "key_contributions": [
+    "Training an optimal outer-loop policy and replacing its reliance on ground-truth disturbance data with a Residual Dynamics Predictor (RDP)",
+    "Introducing a data-efficient linear calibration bridge and online thrust correction mechanism for seamless hardware transfer"
+  ],
+  "novelty": "The Residual Dynamics Predictor (RDP) estimates external forces and moments online using only the history of states and control actions, eliminating the need for ground-truth disturbance data or conservative Domain Randomization policies.",
+  "method_summary": "The approach trains an optimal outer-loop policy, replaces ground-truth disturbance data with a Residual Dynamics Predictor that estimates 6D perturbations from state/action history, and uses a linear calibration bridge with online thrust correction for hardware transfer.",
+  "method_components": [
+    "Residual Dynamics Predictor (RDP) using GRU networks",
+    "Linear calibration bridge for sim-to-real transfer",
+    "Online thrust correction mechanism"
+  ],
+  "key_innovation": "The Residual Dynamics Predictor (RDP) enables adaptive control by estimating unobserved 6D environmental perturbations purely from temporal history of vehicle states and low-level actuation signals, allowing the controller to react to instantaneous disturbances without direct sensing.",
+  "assumptions": [
+    "Symmetric cross quadrotor configuration with defined center-of-gravity offsets",
+    "Availability of state history and control action history for disturbance estimation",
+    "Ability to perform online calibration with minimal flight data"
+  ],
+  "theoretical_grounding": "The paper provides mathematical models for quadrotor dynamics including aerodynamic forces and moments, but does not include formal proofs or theoretical bounds for the proposed approach.",
+  "datasets_used": [
+    "quadrotor dynamics with payload variations"
+  ],
+  "baselines_compared": [
+    "Base Controller",
+    "Robust Controller"
+  ],
+  "metrics_used": [
+    "RMSE",
+    "Max Error",
+    "Standard Deviation",
+    "Delay",
+    "Phase"
+  ],
+  "hyperparameters": "null",
+  "compute_required": "null",
+  "seeds": "null",
+  "headline_result": "Adaptive Controller with RDP achieves RMSE of 0.024 m (0% payload)",
+  "results_table": [
+    {
+      "method": "Base Controller",
+      "dataset": "Central Payload",
+      "metric": "RMSE",
+      "value": "0.074 m"
+    },
+    {
+      "method": "Base Controller",
+      "dataset": "Central Payload",
+      "metric": "RMSE",
+      "value": "0.160 m"
+    },
+    {
+      "method": "Robust Controller",
+      "dataset": "Central Payload",
+      "metric": "RMSE",
+      "value": "0.111 m"
+    },
+    {
+      "method": "Adaptive Controller + Oracle",
+      "dataset": "Central Payload",
+      "metric": "RMSE",
+      "value": "0.038 m"
+    },
+    {
+      "method": "Adaptive Controller + RDP",
+      "dataset": "Central Payload",
+      "metric": "RMSE",
+      "value": "0.024 m"
+    },
+    {
+      "method": "Base Controller",
+      "dataset": "Asymmetric Payload",
+      "metric": "RMSE",
+      "value": "0.089 m"
+    },
+    {
+      "method": "Adaptive Controller + Oracle",
+      "dataset": "Asymmetric Payload",
+      "metric": "RMSE",
+      "value": "0.027 m"
+    },
+    {
+      "method": "Adaptive Controller + RDP",
+      "dataset": "Asymmetric Payload",
+      "metric": "RMSE",
+      "value": "0.024 m"
+    },
+    {
+      "method": "Adaptive Controller + RDP",
+      "dataset": "Dynamic Trajectory",
+      "metric": "RMSE",
+      "value": "0.055 m"
+    },
+    {
+      "method": "Adaptive Controller + RDP",
+      "dataset": "Dynamic Trajectory",
+      "metric": "RMSE",
+      "value": "0.141 m"
+    }
+  ],
+  "ablations": [
+    "RDP provides latent disturbance representation that accounts for modeling mismatches"
+  ],
+  "improvement_over_baseline": "Adaptive Controller with RDP reduces RMSE by up to 0.136 m compared to Base Controller",
+  "best_result": "Adaptive Controller with RDP achieves RMSE of 0.024 m (0% payload)",
+  "key_results": {
+    "Central Payload_RMSE": "0.024 m",
+    "Asymmetric Payload_RMSE": "0.089 m"
+  },
+  "limitations_stated": [],
+  "reproducibility": "low",
+  "evidence_id": "EV038",
+  "title": "Adaptive Outer-Loop Control of Quadrotors via Reinforcement Learning",
+  "year": 2026,
+  "arxiv_id": "2605.16015",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 51358,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 12,
+  "pdf_tables": 0,
+  "pdf_captions": 14
+}

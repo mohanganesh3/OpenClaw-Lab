@@ -1,0 +1,182 @@
+{
+  "problem_addressed": "Existing multi-domain architectures for skin lesion segmentation inadequately utilize prediction uncertainty, leading to blind fusion of cross-domain artifacts, passive topological reasoning, and rigid optimization that overfits to label noise.",
+  "core_claim": "UGDD-Net transforms uncertainty into an active guiding signal throughout the entire learning lifecycle, enabling more reliable skin lesion segmentation through uncertainty-in-the-loop design.",
+  "key_contributions": [
+    "Uncertainty-Guided Dual-Domain Network (UGDD-Net) with unified architecture",
+    "Novel two-pass 'Glance-and-Gaze' forward mechanism",
+    "Three uncertainty-guided modules: UGBFF, UGGR, and UGML"
+  ],
+  "novelty": "Active integration of uncertainty as a guiding signal throughout the learning process, rather than treating it as a passive post-hoc metric, combined with dual-domain (spatial-spectral) architecture for skin lesion segmentation.",
+  "method_summary": "UGDD-Net employs a two-pass forward mechanism where the first pass generates initial predictions and uncertainty estimates, and the second pass refines features using uncertainty-guided fusion, graph-based refinement, and adaptive loss weighting.",
+  "method_components": [
+    "Uncertainty-Guided Bi-directional Feature Fusion (UGBFF) module",
+    "Uncertainty-Guided Graph Refinement (UGGR) module",
+    "Uncertainty-Guided Margin-Adaptive Loss (UGML) module"
+  ],
+  "key_innovation": "The 'Glance-and-Gaze' mechanism that actively uses pixel-level uncertainty to dynamically modulate spatial-spectral interactions and guide global reasoning through priority-based graph propagation.",
+  "assumptions": [
+    "Prediction uncertainty can be reliably estimated from model outputs",
+    "Uncertainty correlates with segmentation difficulty and domain shift",
+    "Domain-invariant structural features can be extracted through frequency domain processing"
+  ],
+  "theoretical_grounding": "Empirical validation through statistical significance testing (p < 0.01) and extensive cross-dataset evaluations, though no formal proofs or theoretical derivations are provided.",
+  "datasets_used": [
+    "HAM10000",
+    "ISIC2017",
+    "ISIC2018",
+    "PH2"
+  ],
+  "baselines_compared": [
+    "U-Net + MCD",
+    "UDEL + TTA",
+    "Loss 2: Dice + CE",
+    "Loss 3: Dice + CE + Boundary"
+  ],
+  "metrics_used": [
+    "IoU",
+    "Dice",
+    "HD95",
+    "ECE",
+    "Cohen's Kappa",
+    "Pearson correlation",
+    "Diceunc"
+  ],
+  "hyperparameters": null,
+  "compute_required": null,
+  "seeds": null,
+  "headline_result": "UGDD-Net achieves IoUcon of 73.91% and Dicecon of 83.37% against Expert Consensus",
+  "results_table": [
+    {
+      "method": "Loss 2: Dice + CE",
+      "dataset": "Hard Samples",
+      "metric": "IoU",
+      "value": "91.55"
+    },
+    {
+      "method": "Loss 2: Dice + CE",
+      "dataset": "Hard Samples",
+      "metric": "Dice",
+      "value": "95.35"
+    },
+    {
+      "method": "Loss 2: Dice + CE",
+      "dataset": "Hard Samples",
+      "metric": "HD95",
+      "value": "7.36"
+    },
+    {
+      "method": "Loss 2: Dice + CE",
+      "dataset": "Hard Samples",
+      "metric": "ECE",
+      "value": "2.43"
+    },
+    {
+      "method": "Loss 3: Dice + CE + Boundary",
+      "dataset": "Hard Samples",
+      "metric": "IoU",
+      "value": "91.84"
+    },
+    {
+      "method": "Loss 3: Dice + CE + Boundary",
+      "dataset": "Hard Samples",
+      "metric": "Dice",
+      "value": "95.52"
+    },
+    {
+      "method": "Loss 3: Dice + CE + Boundary",
+      "dataset": "Hard Samples",
+      "metric": "HD95",
+      "value": "7.05"
+    },
+    {
+      "method": "Loss 3: Dice + CE + Boundary",
+      "dataset": "Hard Samples",
+      "metric": "ECE",
+      "value": "2.30"
+    },
+    {
+      "method": "Loss 4: UGML (Ours)",
+      "dataset": "Hard Samples",
+      "metric": "IoU",
+      "value": "92.61"
+    },
+    {
+      "method": "Loss 4: UGML (Ours)",
+      "dataset": "Hard Samples",
+      "metric": "Dice",
+      "value": "96.01"
+    },
+    {
+      "method": "Loss 4: UGML (Ours)",
+      "dataset": "Hard Samples",
+      "metric": "HD95",
+      "value": "6.45"
+    },
+    {
+      "method": "Loss 4: UGML (Ours)",
+      "dataset": "Hard Samples",
+      "metric": "ECE",
+      "value": "2.07"
+    },
+    {
+      "method": "UGDD-Net",
+      "dataset": "Expert Consensus",
+      "metric": "IoUcon",
+      "value": "73.91"
+    },
+    {
+      "method": "UGDD-Net",
+      "dataset": "Expert Consensus",
+      "metric": "Dicecon",
+      "value": "83.37"
+    },
+    {
+      "method": "UGDD-Net",
+      "dataset": "Expert Consensus",
+      "metric": "Kappa",
+      "value": "0.6906"
+    },
+    {
+      "method": "UGDD-Net",
+      "dataset": "Expert Consensus",
+      "metric": "Pearson",
+      "value": "0.5291"
+    },
+    {
+      "method": "UGDD-Net",
+      "dataset": "Expert Consensus",
+      "metric": "Diceunc",
+      "value": "71.56"
+    }
+  ],
+  "ablations": [
+    "Loss 2: Dice + CE (baseline)",
+    "Loss 3: Dice + CE + Boundary (adds boundary-aware penalty)",
+    "Loss 4: UGML (Ours) (adds uncertainty guidance)"
+  ],
+  "improvement_over_baseline": "UGML (Loss 4) improves over Loss 3: IoU increases from 91.84 to 92.61, Dice from 95.52 to 96.01, HD95 decreases from 7.05 to 6.45, ECE decreases from 2.30 to 2.07. UGDD-Net improves over UDEL + TTA: IoUcon increases from 70.21 to 73.91, Dicecon from 80.23 to 83.37, Kappa from 0.6534 to 0.6906, Pearson from 0.4876 to 0.5291, Diceunc from 67.29 to 71.56",
+  "best_result": "UGDD-Net achieves IoUcon of 73.91% and Dicecon of 83.37% against Expert Consensus",
+  "key_results": {
+    "Hard Samples_IoU": "91.84",
+    "Hard Samples_Dice": "95.52",
+    "Hard Samples_HD95": "7.36",
+    "Hard Samples_ECE": "2.43"
+  },
+  "limitations_stated": [],
+  "reproducibility": "low",
+  "evidence_id": "EV017",
+  "title": "Uncertainty-Guided Dual-Domain Learning for Reliable Skin Lesion Segmentation",
+  "year": 2026,
+  "arxiv_id": "2605.09600",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 98555,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 34,
+  "pdf_tables": 0,
+  "pdf_captions": 19
+}

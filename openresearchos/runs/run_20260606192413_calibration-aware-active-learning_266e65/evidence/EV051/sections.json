@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\nProceedings of Machine Learning Research 189, 2022\nACML 2022\nOut of Distribution Detection via Neural Network Anchoring\nRushil Anirudh\nanirudh1@llnl.gov\nJayaraman J. Thiagarajan\njjayar",
+  "method": "2: Pseudocode for training\n\n[CAPTION] Figure 3: Pseudocode for inference\n\n\n<!-- page 6 -->\nAnirudh Thiagarajan\nHere, for convenience we use MEAN and STD-DEV to denote the mean and standard deviation\no",
+  "results": "ar OOD detection. Here, we consider the more challenging “near OOD” detection\ntask that seeks to separate CIFAR-10 and CIFAR-100 datasets, by using a model trained on\none of them while treating the ot",
+  "conclusion": "in natural images with unsupervised feature learning. 2011.\nYaniv Ovadia, Emily Fertig, Jie Ren, Zachary Nado, David Sculley, Sebastian Nowozin, Joshua\nDillon, Balaji Lakshminarayanan, and Jasper Snoe"
+}

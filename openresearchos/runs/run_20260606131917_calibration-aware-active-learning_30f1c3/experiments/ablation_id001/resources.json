@@ -1,0 +1,30 @@
+{
+  "idea_id": "ID001",
+  "level": "ablation",
+  "plan": {
+    "loader": "sklearn",
+    "dataset_name": "load_digits",
+    "task": "classification",
+    "clone_repo": "https://github.com/scikit-learn/scikit-learn",
+    "packages": [
+      "scikit-learn",
+      "numpy",
+      "scipy"
+    ],
+    "notes": "Small digits dataset for calibration-aware active learning with logistic regression baseline"
+  },
+  "repo": {
+    "cloned": true,
+    "path": "/Users/mohanganesh/OpenClaw-Lab/openresearchos/runs/run_20260606131917_calibration-aware-active-learning_30f1c3/experiments/ablation_id001/repo",
+    "executed": false,
+    "inspected": true,
+    "reason": null
+  },
+  "dataset": {
+    "ok": true,
+    "kind": "sklearn",
+    "location": "sklearn.datasets.load_digits",
+    "note": "SK_OK (1797, 64) 10"
+  },
+  "prepared_at": "2026-06-06T16:48:44.131Z"
+}

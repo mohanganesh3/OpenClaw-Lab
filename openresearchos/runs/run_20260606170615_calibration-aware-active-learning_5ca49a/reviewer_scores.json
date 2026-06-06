@@ -1,0 +1,318 @@
+[
+  {
+    "idea_id": "I01",
+    "average_score": 3.5,
+    "decision": "reject",
+    "next_action": "RUN_ADDITIONAL_SEARCH",
+    "fatal_flaws": [
+      "RewardUQ already exists as a framework ([EV013]), reducing novelty",
+      "Similar automated pipelines for scientific discovery exist ([EV001], [EV002])",
+      "No falsifiable hypothesis is stated - the proposal lacks a clear, testable research question",
+      "No dataset specified for the medical application being studied",
+      "No fair baselines defined for comparison with existing methods",
+      "No reproducibility measures (random seeds) mentioned",
+      "No computational requirements or resources specified"
+    ],
+    "fixable_flaws": [
+      "Clearly articulate how the proposed pipeline differs from existing automated pipelines",
+      "Specify the unique contributions beyond simply applying RewardUQ to medical applications",
+      "Could specify a clear hypothesis about calibration-aware active learning performance",
+      "Could define appropriate medical datasets and evaluation metrics",
+      "Could establish fair baselines from existing literature",
+      "Could include reproducibility protocols with random seeds"
+    ],
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 5,
+        "fatal_flaws": [
+          "RewardUQ already exists as a framework ([EV013]), reducing novelty",
+          "Similar automated pipelines for scientific discovery exist ([EV001], [EV002])"
+        ],
+        "fixable_flaws": [
+          "Clearly articulate how the proposed pipeline differs from existing automated pipelines",
+          "Specify the unique contributions beyond simply applying RewardUQ to medical applications"
+        ],
+        "decision": "reject",
+        "justification": "The idea combines existing components without clear articulation of novel contributions, making it difficult to establish novelty over prior work."
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 2,
+        "fatal_flaws": [
+          "No falsifiable hypothesis is stated - the proposal lacks a clear, testable research question",
+          "No dataset specified for the medical application being studied",
+          "No fair baselines defined for comparison with existing methods",
+          "No reproducibility measures (random seeds) mentioned",
+          "No computational requirements or resources specified"
+        ],
+        "fixable_flaws": [
+          "Could specify a clear hypothesis about calibration-aware active learning performance",
+          "Could define appropriate medical datasets and evaluation metrics",
+          "Could establish fair baselines from existing literature",
+          "Could include reproducibility protocols with random seeds"
+        ],
+        "decision": "reject",
+        "justification": "The proposal lacks fundamental methodological components including a falsifiable hypothesis, dataset specification, fair baselines, and reproducibility measures. Without these core elements, the research cannot be properly evaluated or reproduced."
+      }
+    ]
+  },
+  {
+    "idea_id": "I02",
+    "average_score": 5.5,
+    "decision": "reject",
+    "next_action": "RUN_ADDITIONAL_SEARCH",
+    "fatal_flaws": [
+      "The benchmark suite lacks defined baselines for fair comparison.",
+      "Reproducibility is not addressed, with no mention of seeds or data splits.",
+      "Computational requirements are unspecified, making it impossible to assess feasibility."
+    ],
+    "fixable_flaws": [
+      "The core hypothesis needs to be made explicit and falsifiable.",
+      "The suite should include implementations of state-of-the-art calibration-aware AL methods as primary baselines.",
+      "A clear protocol for setting random seeds and data versions must be provided."
+    ],
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 5,
+        "fatal_flaws": [],
+        "fixable_flaws": [],
+        "decision": "revise",
+        "justification": "Review unavailable (budget/parse)."
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 6,
+        "fatal_flaws": [
+          "The benchmark suite lacks defined baselines for fair comparison.",
+          "Reproducibility is not addressed, with no mention of seeds or data splits.",
+          "Computational requirements are unspecified, making it impossible to assess feasibility."
+        ],
+        "fixable_flaws": [
+          "The core hypothesis needs to be made explicit and falsifiable.",
+          "The suite should include implementations of state-of-the-art calibration-aware AL methods as primary baselines.",
+          "A clear protocol for setting random seeds and data versions must be provided."
+        ],
+        "decision": "revise",
+        "justification": "The idea for a calibration-aware AL benchmark suite is novel and highly valuable for the medical imaging community. However, the proposal currently lacks the essential methodological details—such as baselines, reproducibility seeds, and compute requirements—necessary for a rigorous and usable benchmark."
+      }
+    ]
+  },
+  {
+    "idea_id": "I03",
+    "average_score": 3.5,
+    "decision": "reject",
+    "next_action": "RUN_ADDITIONAL_SEARCH",
+    "fatal_flaws": [
+      "No falsifiable hypothesis stated",
+      "Dataset and baselines not specified",
+      "Missing seeds for reproducibility",
+      "No compute requirements specified"
+    ],
+    "fixable_flaws": [
+      "Need to define clear performance metrics",
+      "Should specify medical imaging datasets",
+      "Require proper experimental controls"
+    ],
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 5,
+        "fatal_flaws": [],
+        "fixable_flaws": [],
+        "decision": "revise",
+        "justification": "Review unavailable (budget/parse)."
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 2,
+        "fatal_flaws": [
+          "No falsifiable hypothesis stated",
+          "Dataset and baselines not specified",
+          "Missing seeds for reproducibility",
+          "No compute requirements specified"
+        ],
+        "fixable_flaws": [
+          "Need to define clear performance metrics",
+          "Should specify medical imaging datasets",
+          "Require proper experimental controls"
+        ],
+        "decision": "reject",
+        "justification": "The proposal lacks essential experimental components including a testable hypothesis, datasets, baselines, and reproducibility measures. Without these, the work cannot be properly evaluated or reproduced."
+      }
+    ]
+  },
+  {
+    "idea_id": "I04",
+    "average_score": 5,
+    "decision": "revise",
+    "next_action": "REVISE_IDEA",
+    "fatal_flaws": [],
+    "fixable_flaws": [],
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 5,
+        "fatal_flaws": [],
+        "fixable_flaws": [],
+        "decision": "revise",
+        "justification": "Review unavailable (budget/parse)."
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 5,
+        "fatal_flaws": [],
+        "fixable_flaws": [],
+        "decision": "revise",
+        "justification": "Review unavailable (budget/parse)."
+      }
+    ]
+  },
+  {
+    "idea_id": "I05",
+    "average_score": 6.74,
+    "decision": "accept",
+    "next_action": "RUN_MICRO_PROBE",
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 6.9,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add direct competitor comparison and search query log."
+        ],
+        "required_experiments": [
+          "Run novelty tribunal before any paper claim."
+        ],
+        "missing_related_work": [
+          "EV001",
+          "EV002",
+          "EV003"
+        ]
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 7.5,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add baseline and ablation before MVP claims."
+        ],
+        "required_experiments": [
+          "Micro-probe with random baseline.",
+          "Probe with evidence-weighted baseline."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Theory/Mechanism Reviewer",
+        "score": 6.7,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Tighten mechanism into falsifiable prediction."
+        ],
+        "required_experiments": [
+          "Test whether the mechanism improves selection utility under controlled noise."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Reproducibility Reviewer",
+        "score": 6.3,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Record seed, command, environment, stdout, stderr, and metrics."
+        ],
+        "required_experiments": [
+          "Run with fixed seed and persist config."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Venue Reviewer",
+        "score": 6.3,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Position as workshop candidate until stronger empirical evidence exists."
+        ],
+        "required_experiments": [
+          "Add venue-fit checklist after results."
+        ],
+        "missing_related_work": []
+      }
+    ]
+  },
+  {
+    "idea_id": "I06",
+    "average_score": 6.72,
+    "decision": "accept",
+    "next_action": "RUN_MICRO_PROBE",
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 6.8,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add direct competitor comparison and search query log."
+        ],
+        "required_experiments": [
+          "Run novelty tribunal before any paper claim."
+        ],
+        "missing_related_work": [
+          "EV001",
+          "EV002",
+          "EV003"
+        ]
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 7.5,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add baseline and ablation before MVP claims."
+        ],
+        "required_experiments": [
+          "Micro-probe with random baseline.",
+          "Probe with evidence-weighted baseline."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Theory/Mechanism Reviewer",
+        "score": 6.7,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Tighten mechanism into falsifiable prediction."
+        ],
+        "required_experiments": [
+          "Test whether the mechanism improves selection utility under controlled noise."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Reproducibility Reviewer",
+        "score": 6.3,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Record seed, command, environment, stdout, stderr, and metrics."
+        ],
+        "required_experiments": [
+          "Run with fixed seed and persist config."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Venue Reviewer",
+        "score": 6.3,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Position as workshop candidate until stronger empirical evidence exists."
+        ],
+        "required_experiments": [
+          "Add venue-fit checklist after results."
+        ],
+        "missing_related_work": []
+      }
+    ]
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\nUnsupervised Calibration under Covariate Shift\nAnusri Pampari\nComputer Science Department\nStanford University\nStefano Ermon\nComputer Science Department\nStanford University\nAbstract\nA p",
+  "method": "adaptation models and\nprovide a simple modiﬁcation to adapt any existing cali-\nbration technique to dataset shift.\n3\nMISCALIBRATION UNDER\nCOVARIATE SHIFT\nIn this section, we discuss covariate shift an",
+  "results": "ergence\ndα+1(πte||πtr)\n=\n[P\nx\nπte(x)α+1\nπtr(x)α ]\n1\nα where hyperparameter α > 0.\nFrom Lemma. 4.2 it is clear that the smaller the\ndivergence, the better the chance of getting an\naccurate estimate of ",
+  "conclusion": "calibration performance on\nreal world datasets using classiﬁers trained only on\nsource (using pre-trained ResNet50) and a range of do-\nmain adapted classiﬁers (LeNet-5 and ResNet50 trained\nusing CDAN1"
+}

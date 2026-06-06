@@ -1,0 +1,94 @@
+{
+  "title": "Active Output Selection Strategies for Multiple Learning Regression Models",
+  "authors": null,
+  "abstract": null,
+  "keywords": null,
+  "publication_year": null,
+  "journal": null,
+  "doi": null,
+  "sections": [
+    {
+      "section_number": 2,
+      "title": "Previous work",
+      "content": "Covers active learning in general and for regression tasks, including prior works: [Cohn, 1996] (optimal experimental design), [Settles, 2009] (overview of active learning), [Sugiyama and Rubens, 2008] (multiple models for same task), [Cai et al., 2013] (EMCM for gradient boosted trees), [Cai et al., 2017] (EMCM for GP regression), [Park and Kim, 2020] (robust EMCM), [Zhang et al., 2016] (multiple-output GPs)."
+    },
+    {
+      "section_number": 3,
+      "title": "Active Output Selection (AOS) Introduction",
+      "content": "Focuses on active learning specialties in calibration context and introduces AOS as a new task."
+    },
+    {
+      "section_number": 4,
+      "title": "Approaches and New Strategy",
+      "content": "Describes analyzed approaches, presents new AOS strategy using cross-validation error for leading output selection, and details evaluation methods (toy examples and benchmark dataset)."
+    },
+    {
+      "section_number": 5,
+      "title": "Experimental Details and Results",
+      "content": "Presents experimental setup, results, and discussion."
+    },
+    {
+      "section_number": 6,
+      "title": "Conclusion and Future Work",
+      "content": "Summarizes results and outlines potential future research directions."
+    }
+  ],
+  "key_contributions": [
+    "Proposes new learning strategy for multiple regression models using cross-validation error to select leading output.",
+    "Compares new strategy against existing methods (sequential, round-robin).",
+    "Introduces Active Output Selection (AOS) as a novel task for calibration contexts."
+  ],
+  "previous_works_mentioned": [
+    {
+      "citation": "[Dursun et al., 2015]",
+      "focus": "Sequential vs. round-robin strategies for drivability calibration."
+    },
+    {
+      "citation": "[Cohn, 1996]",
+      "focus": "Active learning as optimal experimental design."
+    },
+    {
+      "citation": "[Settles, 2009]",
+      "focus": "Overview of active learning state-of-the-art and future work."
+    },
+    {
+      "citation": "[Sugiyama and Rubens, 2008]",
+      "focus": "Active learning for multiple models in same task."
+    },
+    {
+      "citation": "[Cai et al., 2013]",
+      "focus": "EMCM for gradient boosted decision trees."
+    },
+    {
+      "citation": "[Cai et al., 2017]",
+      "focus": "EMCM extension for GP regression and informative queries."
+    },
+    {
+      "citation": "[Park and Kim, 2020]",
+      "focus": "Robust EMCM-based algorithm for outliers."
+    },
+    {
+      "citation": "[Zhang et al., 2016]",
+      "focus": "Multiple-output GPs improving single-output prediction via auxiliary outputs."
+    }
+  ],
+  "evaluation_methods": [
+    "Toy examples with controlled noise and complexity.",
+    "Benchmark dataset application."
+  ],
+  "new_task": {
+    "name": "Active Output Selection (AOS)",
+    "description": "Active learning task for calibration contexts requiring simultaneous identification of multiple process outputs."
+  },
+  "evidence_id": "EV012",
+  "year": 2020,
+  "arxiv_id": "2011.14307",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

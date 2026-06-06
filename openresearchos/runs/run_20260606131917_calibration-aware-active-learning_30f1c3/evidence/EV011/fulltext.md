@@ -1,0 +1,40 @@
+[2009.14448] Ask-n-Learn: Active Learning via Reliable Gradient Representations for Image Classification
+
+Ask-n-Learn: Active Learning via Reliable Gradient Representations for Image Classification
+
+\name Bindya Venkatesh  \email bvenka15@asu.edu
+
+\addr Arizona State University
+ Tempe, AZ, USA
+ \AND  \name Jayaraman J. Thiagarajan  \email jjayaram@llnl.gov
+
+\addr Lawrence Livermore National Labs
+ Livermore, CA,USA
+
+Abstract
+
+Deep predictive models rely on human supervision in the form of labeled training data. Obtaining large amounts of annotated training data can be expensive and time consuming, and this becomes a critical bottleneck while building such models in practice. In such scenarios, active learning (AL) strategies are used to achieve faster convergence in terms of labeling efforts. Existing active learning employ a variety of heuristics based on uncertainty and diversity to select query samples. Despite their wide-spread use, in practice, their performance is limited by a number of factors including non-calibrated uncertainties, insufficient trade-off between data exploration and exploitation, presence of confirmation bias etc. In order to address these challenges, we propose Ask-n-Learn, an active learning approach based on gradient embeddings obtained using the pesudo-labels estimated in each iteration of the algorithm. More importantly, we advocate the use of prediction calibration to obtain reliable gradient embeddings, and propose a data augmentation strategy to alleviate the effects of confirmation bias during pseudo-labeling. Through empirical studies on benchmark image classification tasks (CIFAR-10, SVHN, Fashion-MNIST, MNIST), we demonstrate significant improvements over state-of-the-art baselines, including the recently proposed BADGE algorithm.
+
+1  Introduction
+
+The superior performance of data-driven methods, including deep learning, comes at the price of requiring large amounts of labeled data. This can be a critical bottleneck in applications involving time-consuming data acquisition or high labeling costs. Furthermore, fully supervised methods assume access to samples representing the entire data distribution beforehand, thus making it challenging to handle changes in data distribution over time or adapt the learned model when diverse samples are incrementally included into the training process. This has motivated the use of  active  learning techniques that involve humans in the training loop to build predictive models that are more data-efficient.
+
+Broadly, the goal of active learning is to select the most useful samples for expert annotation, from an unlabeled dataset, while adhering to a given labeling budget  Settles ( 2009 ) . More specifically, we are interested in settings where the labeling is carried out in batches  Settles ( 2009 ) . The data selection process is at the core of active learning methods and can be designed based on a variety of heuristics including prediction uncertainty  Gal et al. ( 2017 ) , diversity  Brinker ( 2003 ); Sener and Savarese ( 2017 )  and model generalization  Freytag et al. ( 2014 ); Cai et al. ( 2013 ) . For a classifier, it is well known that samples near the decision boundary tend to be associated with large uncertainties and hence including them into the training set can help improve the model’s generalization  Beluch et al. ( 2018 ); Settles ( 2009 ) . On the other hand, to avoid sampling biases in the learned models, one needs to ensure that the training dataset sufficiently captures the diversity of the inherent data distribution  Sener and Savarese ( 2017 ); Geifman and El-Yaniv ( 2017 ) . Balancing between these two complementary objectives is often referred to as the  exploitation-exploration  trade-off  Bondu et al. ( 2010 ) . Interestingly, hybrid methods that leverage this trade-off tend to outperform approaches that rely only on either criterion  Hsu and Lin ( 2015 ); Baram et al. ( 2004 ) .
+
+While a large class of heuristics exist in the literature for measuring uncertainties and sample diversity, recently, Ash  et al.
+
+Ash et al. ( 2019 )  showed that gradient embedding of unlabeled data, obtained using pseudo-labels from the model’s current state, is highly effective for both capturing uncertainties and measuring diversity. Pseudo-labeling refers to the process of generating  labels  for unlabeled data to drive the sample selection process. Despite their effectiveness in building predictive models under minimal supervision  Ash et al. ( 2019 ) , methods based on pseudo-labeling are known to suffer from the undesirable behavior of confirmation bias when incorrect pseudo-labels are used in the learning process. Note that, this problem arises even in semi-supervised learning and is typically addressed by including additional regularization to the pseudo-labeling process  Arazo et al. ( 2019 ) . On the other hand, existing methods that directly utilize uncertainty scores for sample selection, e.g. entropy, are known to perform poorly when the uncertainties are not well calibrated.
+
+In this paper, we propose a new active learning approach,  Ask-n-Learn , which addresses the inherent limitations with both pseudo-labeling and uncertainty based methods. While our approach uses gradient embeddings, similar to BADGE  Ash et al. ( 2019 ) , for selecting samples, we propose to utilize calibrated uncertainties to produce reliable gradient embeddings, and employ a data augmentation strategy for avoiding confirmation bias during pseudo-labeling. Using benchmark image classification tasks (SVHN, MNIST, Fashion-MNIST and CIFAR-10), and different deep architectures, we show that the proposed approach significantly outperforms existing active learning approaches, including BADGE  Ash et al. ( 2019 ) , both in terms of test accuracy and prediction calibration.
+
+2  Related Work
+
+The long-standing problem of active learning (AL) is aimed at enabling faster model generalization, in terms of the amount of supervision required.
+AL methods can be broadly categorized based on a number of factors including the type of query (e.g., stream based, pool based query etc), sample selection technique, label acquisition strategy etc.  Settles ( 2009 ) . More specifically, in terms of the sample selection, there exists two main classes of AL methods, namely diversity and uncertainty based methods. In the former approach, by promoting diversity, one expects to obtain a minimal subset of samples that covers the variations expected in the entire data distribution. For example,
+
+Brinker ( 2003 ); Guo and Schuurmans ( 2008 )  proposed diversity based heuristics to select a batch of unlabeled samples in AL tasks. In  Wang and Ye ( 2015 ) , the authors develop a batch mode AL strategy based on empirical risk minimization principle.
+The AL problem was posed as a core-set selection task in
+
+Sener and Savarese ( 2017 ) , wherein a new heuristic to select diverse samples, specifically for convolutional networks, was designed. Finally, a more recent class of diverse sampling methods has been based on adversarial learning  Sinha et al. ( 2019 ); Ducoffe and Precioso ( 2018 ); Gissin and Shalev-Shwartz ( 2019 ); Zhu and Bento ( 2017 ) .
+
+On the other hand, uncertainty based AL methods aim at selecting data samples that the model is most likely uncertain about. Several uncertainty heuristics including entropy, confidence and distance-measures have been proposed in the literature for both Bayesian  Bondu et al. ( 2010 ); Gal et al. ( 2017 )  and non-Bayesian settings  Yang and Loog ( 2016 ) . In  Kirsch et al. ( 2019 ) , the authors introduced an acquisition strategy based on mutual information for Bayesian active learning. Similarly, Bayesian model uncertainties were utilized for AL in high-dimensional data spaces in  Gal et al. ( 2017 ) . AL methods based on uncertainties from ensembles techniques have also been found to be effective  Melville and Mooney ( 2004 ); Beluch et al. ( 2018 ) . Given the challenges in

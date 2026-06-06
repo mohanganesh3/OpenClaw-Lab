@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\nReflexion: Language Agents with\nVerbal Reinforcement Learning\nNoah Shinn\nNortheastern University\nnoahshinn024@gmail.com\nFederico Cassano\nNortheastern University\ncassano.f@northeastern.",
+  "method": "ion model are stored in long-term memory. These two\nmemory components work together to provide context that is specific but also influenced by lessons\nlearned over several trials, which is a key advan",
+  "results": "on-optimal local minima solutions. In this study, we limit long-term memory to\na sliding window with maximum capacity, but we encourage future work to extend the memory\ncomponent of Reflexion with mor",
+  "conclusion": "your response should have 4 spaces of indentation so\nthat it fits syntactically with the user provided signature. You will be given a few examples by the\nuser. Reflexion Self-Reflection generations fo"
+}

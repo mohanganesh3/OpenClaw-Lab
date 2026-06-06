@@ -1,0 +1,143 @@
+{
+  "claims": [
+    {
+      "claim_id": "CL001",
+      "evidence_id": "EV001",
+      "text": "The AI Scientist generates novel research ideas, writes code, executes experiments, visualizes results, writes scientific papers, and runs simulated review processes for evaluation, with the capability for iterative development in an open-ended fashion.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": "The AI Scientist can produce papers that exceed the acceptance threshold at a top machine learning conference as judged by the automated reviewer."
+    },
+    {
+      "claim_id": "CL002",
+      "evidence_id": "EV002",
+      "text": "Research paper: The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL003",
+      "evidence_id": "EV003",
+      "text": "The framework uses LLM agents to automate the research process through three stages (literature review, experimentation, and report writing) with human feedback at each stage.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL004",
+      "evidence_id": "EV004",
+      "text": "Evaluation of machine learning agents on machine learning engineering tasks using Kaggle competitions as benchmarks, with human baselines established from Kaggle leaderboards and evaluation of frontier language models using open-source agent scaffolds.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "Kaggle competitions"
+      ],
+      "best_result": "OpenAI's o1-preview with AIDE scaffolding achieves at least the level of a Kaggle bronze medal in 16.9% of competitions"
+    },
+    {
+      "claim_id": "CL005",
+      "evidence_id": "EV005",
+      "text": "AIBuildAI-2 is a knowledge-enhanced agent with an external, evolving knowledge system for automatically building AI models. The system is hierarchical, organizing curated AI development knowledge into high-level instructions and low-level documents, dynamically loading relevant context and grounding decisions in externally verifiable expertise.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "MLE-Bench"
+      ],
+      "best_result": "70.7% medal rate on MLE-Bench"
+    },
+    {
+      "claim_id": "CL006",
+      "evidence_id": "EV006",
+      "text": "Uses verbal feedback and memory to help agents improve across trials, motivating explicit failure memory and revision loops.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL007",
+      "evidence_id": "EV007",
+      "text": "Studies iterative generation, feedback, and refinement, providing background for reviewer-style critique and revision policies.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL008",
+      "evidence_id": "EV008",
+      "text": "First LLM-powered embodied lifelong learning agent",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL009",
+      "evidence_id": "EV009",
+      "text": "Introduces agent evaluation tasks and motivates structured benchmarks for agent behavior rather than isolated text quality.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL010",
+      "evidence_id": "EV010",
+      "text": "SWE-agent introduces a custom agent-computer interface (ACI) that enables language model agents to autonomously use computers for software engineering tasks, including creating/editing code files, navigating repositories, and executing tests.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "SWE-bench",
+        "HumanEvalFix"
+      ],
+      "best_result": "87.7% pass@1 on HumanEvalFix"
+    }
+  ],
+  "links": [
+    {
+      "from": "EV001",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: A fully automated end-to-end scientific discovery system that independently performs research from idea generation to paper writing and evaluation, simulating the entire scientific process."
+    },
+    {
+      "from": "EV002",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See full text"
+    },
+    {
+      "from": "EV003",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: The use of LLM agents as autonomous research assistants that can progress through the entire research process from idea to final paper."
+    },
+    {
+      "from": "EV004",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: MLE-bench benchmark for evaluating machine learning agents on real-world ML engineering skills using Kaggle competitions"
+    },
+    {
+      "from": "EV005",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: An external, evolving knowledge system that addresses the limitations of static, outdated, and sparse parametric knowledge in large language models."
+    },
+    {
+      "from": "EV006",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See deep_read.json for details"
+    },
+    {
+      "from": "EV007",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See deep_read.json for details"
+    },
+    {
+      "from": "EV008",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: First LLM-powered embodied lifelong learning agent"
+    },
+    {
+      "from": "EV009",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See deep_read.json for details"
+    },
+    {
+      "from": "EV010",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: Custom agent-computer interface (ACI) that significantly enhances LM agents' ability to interact with software development environments"
+    }
+  ]
+}

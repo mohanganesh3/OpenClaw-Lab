@@ -1,0 +1,6 @@
+{
+  "introduction": "[2605.11551] VNDUQE: Information-Theoretic Novelty Detection using Deep Variational Information Bottleneck\n\nSkip to main content\n\nLearn about arXiv becoming an independent nonprofit.\n\nWe gratefully ac",
+  "method": "novelty detection through the Deep Variational Information Bottleneck (VIB), which explicitly constrains information flow through learned representations. We train VIB models on MNIST with held-out di",
+  "results": "for this version)\n\n&nbsp;\n\nhttps://doi.org/10.48550/arXiv.2605.11551\n\nFocus to learn more\n\narXiv-issued DOI via DataCite (pending registration)\n\nSubmission history  From: Aryan Gondkar [ view email ]\n",
+  "conclusion": "it.pub\n\n( What is GotitPub? )\n\nHuggingface Toggle\n\nHugging Face\n\n( What is Huggingface? )\n\nScienceCast Toggle\n\nScienceCast\n\n( What is ScienceCast? )\n\nDemos\n\nDemos\n\nReplicate Toggle\n\nReplicate\n\n( What "
+}

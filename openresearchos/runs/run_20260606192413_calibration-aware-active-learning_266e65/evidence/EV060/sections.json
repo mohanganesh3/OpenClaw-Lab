@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\nRisk-Calibrated Human-Robot Interaction\nvia Set-Valued Intent Prediction\nJustin Lidard, Hang Pham, Ariel Bachman, Bryan Boateng, Anirudha Majumdar\nDepartment of Mechanical and Aerospac",
+  "method": "t for the availability of a\nmodestly-sized calibration dataset Dcal containing 400 samples\nfrom D. We formalize certifiable autonomy in our context as\n(i) risk calibration: the robot must meet a set o",
+  "results": "des fewer valid parameters,\nuntil |ˆΦ|=0, and controlling both risks is infeasible.\nB. Simulation: Social Navigation in Habitat\nHabitat [47] is a photo-realistic simulator containing a diverse\nset of ",
+  "conclusion": "hroughout the arena. Each car is 0.5 meters wide\nand has a safety radius of 0.5 meters, and therefore two cars cannot take the same hallway without violating safety\nspecifications. Each car is initial"
+}

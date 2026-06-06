@@ -1,0 +1,112 @@
+{
+  "problem_addressed": "Language model agents struggle with complex software engineering tasks when using standard interfaces, unlike human engineers who benefit from sophisticated tools like IDEs.",
+  "core_claim": "A custom agent-computer interface (ACI) specifically designed for language model agents significantly enhances their ability to autonomously solve software engineering tasks.",
+  "key_contributions": [
+    "Introduction of SWE-agent system with custom ACI for LM agents",
+    "State-of-the-art performance on SWE-bench (12.5% pass@1) and HumanEvalFix (87.7%) benchmarks"
+  ],
+  "novelty": "Custom agent-computer interface (ACI) with LM-friendly commands and environment feedback, unlike previous approaches using standard interfaces like Linux shell or Python interpreter.",
+  "method_summary": "SWE-agent uses a language model agent interacting with a computer through a custom ACI that includes LM-friendly commands for navigation, file operations, and execution, with structured feedback from the environment.",
+  "method_components": [
+    "Filesystem navigation and viewing capabilities",
+    "Search and edit functions with line-level precision",
+    "Terminal integration for program execution",
+    "LM-friendly command structure and environment feedback"
+  ],
+  "key_innovation": "The agent-computer interface (ACI) design that bridges the gap between LM capabilities and software engineering requirements through carefully crafted commands and feedback mechanisms.",
+  "assumptions": [
+    "Language model agents can effectively utilize structured interfaces",
+    "Interface design significantly impacts agent performance",
+    "LM agents benefit from specialized tools similar to human engineers"
+  ],
+  "theoretical_grounding": "References HCI studies on interface efficacy for humans, suggesting similar principles apply to LM agents in software engineering contexts.",
+  "datasets_used": [
+    "SWE-bench Lite dataset",
+    "SWE-bench test set (286 trajectories)",
+    "SWE-bench test set Lite split (35 trajectories)"
+  ],
+  "baselines_compared": [
+    "SWE-agent with GPT-4",
+    "SWE-agent with Claude 3 Opus"
+  ],
+  "metrics_used": [
+    "% Resolved performance",
+    "Distribution of turns to completion",
+    "Total steps distribution",
+    "Cost distribution"
+  ],
+  "hyperparameters": null,
+  "compute_required": null,
+  "seeds": null,
+  "headline_result": "Table 7 shows % Resolved performance for task instances from different years",
+  "results_table": [
+    {
+      "method": "SWE-agent with GPT-4",
+      "dataset": "SWE-bench test set",
+      "metric": "% Resolved performance",
+      "value": "Not specified in text"
+    },
+    {
+      "method": "SWE-agent with Claude 3 Opus",
+      "dataset": "SWE-bench Lite",
+      "metric": "% Resolved performance",
+      "value": "Not specified in text"
+    },
+    {
+      "method": "SWE-agent with GPT-4",
+      "dataset": "SWE-bench test set",
+      "metric": "Turns to resolution",
+      "value": "Distribution shown in Figure 14 (left histogram)"
+    },
+    {
+      "method": "SWE-agent with Claude 3 Opus",
+      "dataset": "SWE-bench Lite",
+      "metric": "Turns to resolution",
+      "value": "Distribution shown in Figure 14 (right histogram)"
+    },
+    {
+      "method": "SWE-agent with GPT-4 Turbo",
+      "dataset": "SWE-bench",
+      "metric": "Total steps distribution",
+      "value": "Distribution shown in Figure 15 (left)"
+    },
+    {
+      "method": "SWE-agent with GPT-4 Turbo",
+      "dataset": "SWE-bench",
+      "metric": "Cost distribution",
+      "value": "Distribution shown in Figure 15 (right)"
+    }
+  ],
+  "ablations": [
+    "Action pattern analysis (create, edit, python)",
+    "Localization vs Reproduction operations",
+    "Different turn phases (initial, middle, concluding)"
+  ],
+  "improvement_over_baseline": null,
+  "best_result": "Table 7 shows % Resolved performance for task instances from different years",
+  "key_results": {
+    "SWE-bench test set_% Resolved performance": "Not specified in text",
+    "SWE-bench Lite_% Resolved performance": "Not specified in text",
+    "SWE-bench test set_Turns to resolution": "Distribution shown in Figure 14 (left histogram)",
+    "SWE-bench Lite_Turns to resolution": "Distribution shown in Figure 14 (right histogram)",
+    "SWE-bench_Total steps distribution": "Distribution shown in Figure 15 (left)",
+    "SWE-bench_Cost distribution": "Distribution shown in Figure 15 (right)"
+  },
+  "limitations_stated": [],
+  "reproducibility": "low",
+  "evidence_id": "EV010",
+  "title": "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
+  "year": 2024,
+  "arxiv_id": "2405.15793",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 196393,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 60,
+  "pdf_tables": 11,
+  "pdf_captions": 55
+}

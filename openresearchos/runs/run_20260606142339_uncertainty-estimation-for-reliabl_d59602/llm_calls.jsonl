@@ -1,0 +1,8 @@
+{"ts":"2026-06-06T14:24:33.093Z","label":"relevance:0-8","ok":true,"ms":8364,"calls":1}
+{"ts":"2026-06-06T14:24:42.796Z","label":"relevance:8-16","ok":true,"ms":9698,"calls":2}
+{"ts":"2026-06-06T14:24:54.572Z","label":"relevance:16-24","ok":true,"ms":11776,"calls":3}
+{"ts":"2026-06-06T14:25:12.472Z","label":"relevance:24-32","ok":true,"ms":17898,"calls":4}
+{"ts":"2026-06-06T14:25:24.417Z","label":"relevance:32-40","ok":true,"ms":11945,"calls":5}
+{"ts":"2026-06-06T14:25:31.444Z","label":"relevance:40-48","ok":true,"ms":7025,"calls":6}
+{"ts":"2026-06-06T14:27:36.195Z","label":"relevance:48-56","ok":false,"error":"timeout after 90000ms","ms":124751}
+{"ts":"2026-06-06T14:27:39.780Z","label":"relevance:56-57","ok":true,"ms":3584,"calls":8}

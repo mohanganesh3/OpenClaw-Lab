@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\narXiv:2501.04227v2  [cs.HC]  17 Jun 2025\n2025-6-18\nAgent Laboratory: Using LLM Agents as\nResearch Assistants\nSamuel Schmidgall1, 2, Yusheng Su1, Ze Wang1, Ximeng Sun1, Jialian Wu1, Xia",
+  "method": "de. All experiments used an o1-mini\nbackbone for all phases except the literature review.\n4.2.1. Quality as a tool\nThe evaluation of Agent Laboratory as a research tool focuses on understanding its ef",
+  "results": "with large language models. arXiv preprint arXiv:2407.01725, 2024.\nBenjamin S Manning, Kehang Zhu, and John J Horton. Automated social science: Language models\nas scientist and subjects. Technical rep",
+  "conclusion": "ANDS. DO NOT\nINCLUDE A TITLE OR DATE ONLY TEXT. Use as many equations as you find\nnecessary.\nYou should include mathematical equations, numbers, and\ntables where necessary.\nRemember that to include a "
+}

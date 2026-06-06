@@ -1,0 +1,158 @@
+{
+  "problem_addressed": "Humanoid robots face perceptual limitations with narrow fields of view and self-occlusion that constrain effective workspace in unstructured environments.",
+  "core_claim": "OmniDP enables robust large-workspace humanoid manipulation through omnidirectional 3D perception using an end-to-end LiDAR-driven visuomotor policy.",
+  "key_contributions": [
+    "Development of OmniDP, an end-to-end LiDAR-driven 3D visuomotor policy for large-workspace manipulation",
+    "Time-Aware Attention Pooling mechanism for processing sparse and temporally flickering LiDAR point clouds",
+    "Whole-body teleoperation system for efficient demonstration data collection on full-body humanoid robots",
+    "Demonstration of superior performance in large-workspace and cluttered scenarios compared to RGB-D baselines"
+  ],
+  "novelty": "First application of panoramic LiDAR perception specifically for humanoid manipulation tasks requiring large workspace operation, unlike prior LiDAR work focused on locomotion/navigation.",
+  "method_summary": "OmniDP processes panoramic LiDAR point clouds through a pyramid convolutional encoder enhanced with time-aware attention, producing features that condition a Diffusion Policy decoder for action generation, enabling 360° workspace awareness without base repositioning.",
+  "method_components": [
+    "Panoramic LiDAR perception system (Livox MID-360) providing 360° horizontal and -7° to 52° vertical FOV",
+    "Time-Aware Attention Pooling mechanism aggregating point clouds over temporal windows with weighted recent observations",
+    "Point cloud preprocessing pipeline cropping points beyond 1.3m and downsampling to 4096 points",
+    "Diffusion Policy decoder generating coordinated upper-body actions conditioned on global features and joint states"
+  ],
+  "key_innovation": "Time-Aware Attention Pooling mechanism that stabilizes perception by aggregating sparse LiDAR data over temporal windows while emphasizing recent observations, enabling robust processing of flickering point clouds for policy learning.",
+  "assumptions": [
+    "Objects within 1.3m of robot are most relevant for manipulation tasks",
+    "Proprioceptive joint states (43-dim) are available for full-body coordination",
+    "Lower body is controlled separately by pre-trained HOMIE algorithm",
+    "LiDAR point clouds are represented in egocentric frame eliminating calibration needs"
+  ],
+  "theoretical_grounding": "No formal theoretical proofs presented; performance validated through extensive simulation and real-world experiments demonstrating superior success rates in large-workspace and cluttered scenarios.",
+  "datasets_used": [
+    "Teleoperated LiDAR point clouds + proprioceptive joint positions (29 DoFs)"
+  ],
+  "baselines_compared": [
+    "DP (240x424 RGB images)",
+    "DP3 (4096-point depth-derived point clouds)",
+    "iDP3 (4096-point depth-derived point clouds)"
+  ],
+  "metrics_used": [
+    "Task success rate",
+    "Collision rate"
+  ],
+  "hyperparameters": "20 trials per task under consistent initial conditions",
+  "compute_required": "null",
+  "seeds": "null",
+  "headline_result": "OmniDP achieved 82/120 total success rate (16/20 Pick & Place, 12/20 Pour OV, 15/20 Pick & Place real, 12/20 Hand Over OV, 11/20 Wipe OV)",
+  "results_table": [
+    {
+      "method": "DP",
+      "dataset": "Simulation+Real World",
+      "metric": "Success Rate",
+      "value": "18/120"
+    },
+    {
+      "method": "DP3",
+      "dataset": "Simulation+Real World",
+      "metric": "Success Rate",
+      "value": "22/120"
+    },
+    {
+      "method": "iDP3",
+      "dataset": "Simulation+Real World",
+      "metric": "Success Rate",
+      "value": "25/120"
+    },
+    {
+      "method": "OmniDP",
+      "dataset": "Simulation+Real World",
+      "metric": "Success Rate",
+      "value": "82/120"
+    },
+    {
+      "method": "DP",
+      "dataset": "Cluttered Environment",
+      "metric": "Collision Rate",
+      "value": "20/20"
+    },
+    {
+      "method": "DP3",
+      "dataset": "Cluttered Environment",
+      "metric": "Collision Rate",
+      "value": "18/20"
+    },
+    {
+      "method": "iDP3",
+      "dataset": "Cluttered Environment",
+      "metric": "Collision Rate",
+      "value": "18/20"
+    },
+    {
+      "method": "OmniDP",
+      "dataset": "Cluttered Environment",
+      "metric": "Collision Rate",
+      "value": "5/20"
+    }
+  ],
+  "ablations": [
+    "Omnidirectional LiDAR observation: 12/20→0/20 success rate",
+    "Time-aware attention pooling (TAP): 12/20→9/20 success rate"
+  ],
+  "improvement_over_baseline": "44% absolute improvement in overall success rate (82/120 vs 25/120 best baseline) and 7x reduction in collision rate (5/20 vs 18/20)",
+  "stated_limitations": [
+    "Existing approaches to expanding perception introduce mechanical complexity, calibration dependencies, and latency that hinder reliable real-time performance."
+  ],
+  "unstated_weaknesses": [
+    "The paper focuses on humanoid robot manipulation, which is fundamentally different from medical image classification.",
+    "The use of LiDAR for perception is not directly applicable to medical imaging modalities.",
+    "The paper doesn't address specific challenges of medical image classification such as handling different imaging modalities or class imbalance.",
+    "The evaluation metrics and datasets used for robot manipulation may not be relevant to medical image classification."
+  ],
+  "threats_to_validity": [
+    "The paper's focus on robotics manipulation may not generalize to medical image classification tasks.",
+    "The challenges of perception in robotics (like self-occlusion) are fundamentally different from those in medical imaging.",
+    "The paper doesn't provide evidence that the approach would work in medical imaging scenarios."
+  ],
+  "reproducibility": "medium (no code mentioned, complex system with LiDAR data)",
+  "open_questions": [
+    "How can the calibration-aware approach from this robotics paper be adapted to medical image classification?",
+    "What are the specific calibration challenges in medical imaging that are similar to those in robotics?",
+    "Can the active learning principles from this paper be applied to medical image classification tasks?"
+  ],
+  "future_work": [
+    "Expanding the approach to more complex manipulation tasks.",
+    "Exploring integration of other sensing modalities.",
+    "Investigating real-world deployment scenarios."
+  ],
+  "gaps_this_enables": [
+    "The paper highlights the importance of calibration in perception systems, which could inspire calibration-aware approaches in medical image classification.",
+    "The focus on omnidirectional awareness could lead to more comprehensive medical image analysis systems.",
+    "The active learning aspects could be adapted to medical image classification, where labeling is expensive and time-consuming."
+  ],
+  "relevance_to_topic": "The paper's focus on calibration dependencies in perception systems is tangentially relevant to calibration-aware active learning for medical image classification, as both domains face challenges with accurate calibration.",
+  "relation_type": "tangential",
+  "can_run_on_macbook": false,
+  "reusable_assets": [
+    "Methodology for handling calibration in perception systems"
+  ],
+  "code_available": false,
+  "code_url": null,
+  "best_result": "OmniDP achieved 82/120 total success rate (16/20 Pick & Place, 12/20 Pour OV, 15/20 Pick & Place real, 12/20 Hand Over OV, 11/20 Wipe OV)",
+  "key_results": {
+    "Simulation+Real World_Success Rate": "82/120",
+    "Cluttered Environment_Collision Rate": "18/20"
+  },
+  "limitations_stated": [
+    "Existing approaches to expanding perception introduce mechanical complexity, calibration dependencies, and latency that hinder reliable real-time performance."
+  ],
+  "evidence_id": "EV028",
+  "title": "OmniDP: Beyond-FOV Large-Workspace Humanoid Manipulation with Omnidirectional 3D Perception",
+  "year": 2026,
+  "arxiv_id": "2603.05355",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 41948,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 8,
+  "pdf_tables": 8,
+  "pdf_captions": 6
+}

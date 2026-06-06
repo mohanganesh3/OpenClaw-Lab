@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\nGaussian Process Molecular Property Prediction with\nFlowMO\nHenry B. Moss∗\nSTOR-i Centre for Doctoral Training\nLancaster University, UK\nh.moss@lancaster.ac.uk\nRyan-Rhys Grifﬁths∗\nDepart",
+  "method": "ar representations (as introduced above): a Sub-sequence String Kernel (SSK) and a Tanimto\nKernel (TK) suitable for measuring the similarity between SMILES strings of varying length and\nhigh-dimension",
+  "results": "d line) for Photoswitch and FreeSolv.\nSMILES strings are useful representations for predicting aqueous solubility and hydration free\nenergies, but ECFP ﬁngerprints are especially informative for model",
+  "conclusion": "synthesizable recommendations. In International Conference\non Artiﬁcial Intelligence and Statistics, pages 3393–3403. PMLR, 2020.\n5\n\n\n<!-- page 6 -->\nG. Lambard and E. Gracheva. Smiles-x: autonomous m"
+}

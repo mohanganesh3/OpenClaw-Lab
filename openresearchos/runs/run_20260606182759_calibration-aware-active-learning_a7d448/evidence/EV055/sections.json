@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\nThe Hardest Explicit Construction\nOliver Korten ∗\nMay 2021\nAbstract\nWe investigate the complexity of explicit construction problems, where the goal is to produce\na particular object of",
+  "method": "lems considered in\nSection 3 will be in STFΣP\n2 (with the exception of Complexity which we brieﬂy mention as it\nwas studied previously in [22]).\nWe now deﬁne the search problem Empty, which will be th",
+  "results": "le\ngates. For a very broad set of circuit classes C, we prove that given a truth table which is hard\nfor C-circuits, we can ﬁnd an empty pigeonhole of any C-circuit using polynomially many calls to\nan",
+  "conclusion": "t an N × N\nmatrix over F2 which is (ϵN, ϵN2)-rigid.\nThese parameters are the best possible up to constant factors, and in particular would be\nsuﬃcient to carry out Valiant’s program over F2.\nTheorem 1"
+}

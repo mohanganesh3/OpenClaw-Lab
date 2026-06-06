@@ -1,0 +1,6 @@
+{
+  "introduction": "[2505.23448] Network Inversion for Uncertainty-Aware Out-of-Distribution Detection\n\nNetwork Inversion for Uncertainty-Aware Out-of-Distribution Detection\n\nPirzada Suhail\n IIT Bombay\n\npsuhail@iitb.ac.i",
+  "method": "he increasing deployment of machine learning models in high-stakes, real-world applications—such as autonomous driving, medical diagnosis, and financial decision-making—has underscored the importance ",
+  "results": "e a novel framework that leverages network inversion [  7  ,\n\n8  ] , not only to detect OOD inputs but also to estimate prediction uncertainty, unifying the two objectives in a single training procedu",
+  "conclusion": "while pushing anomalous content into the garbage class. As the training progresses, inverted samples in Fig\n\n1\n\nbegin to look like training data, indicating that the classifier has effectively carved "
+}

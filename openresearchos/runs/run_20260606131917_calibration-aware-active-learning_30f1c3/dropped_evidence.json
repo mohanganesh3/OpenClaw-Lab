@@ -1,0 +1,54 @@
+{
+  "run_id": "run_20260606131917_calibration-aware-active-learning_30f1c3",
+  "topic": "calibration-aware active learning for image classification",
+  "kept": 59,
+  "dropped_count": 9,
+  "judged_by": "llm",
+  "dropped": [
+    {
+      "title": "Calibration of uncertainty in the active learning of machine learning force fields",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "Advance warning of $\\gamma$-ray blazar flares from \\textit{Fermi}-LAT light curves: a strictly causal machine-learning backtest",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "The Design and Impact of Interactive Online Modules for Dental Faculty Calibration",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "Mapping water quality in complex estuarine and coastal waters using deep learning models and high-resolution satellite imagery",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "Transferability of machine-learning-based global calibration models for NO2 and NO low-cost sensors",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "GenAI-supported portfolio assessment for complex thinking: a GPT-based innovation in business education",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "Beyond the Loss Curve: Scaling Laws, Active Learning, and the Limits of Learning from Exact Posteriors",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "Adaptive Outer-Loop Control of Quadrotors via Reinforcement Learning",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "Monitoring of Iron Ore Quality through Ultra-Spectral Data and Machine Learning Methods",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    }
+  ]
+}

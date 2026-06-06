@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "run_id": "run_20260606131229_calibration-aware-active-learning_21f518",
+  "topic": "calibration-aware active learning for image classification",
+  "created_at": "2026-06-06T13:13:08.793Z",
+  "updated_at": "2026-06-06T13:13:12.856Z",
+  "current_state": "LITERATURE_DISCOVERY_RUNNING",
+  "scope_classification": {
+    "label": "local_experiment",
+    "rationale": "The topic can be explored with small simulations, synthetic data, or lightweight local experiments on the Mac.",
+    "feasibility_note": "This research topic is highly feasible on a MacBook M4, as the 36GB RAM and Apple MPS GPU are more than sufficient for image classification tasks and the iterative training loops of active learning. Suitable public datasets include CIFAR-10 for a quick baseline, STL-10 which provides an unlabeled pool ideal for active learning, and EuroSAT for a more challenging, real-world application. A full experiment, including model training and multiple active learning query rounds, could take approximatel"
+  },
+  "search_queries": [
+    "Uncertainty sampling calibration",
+    "Temperature scaling AL",
+    "Calibration-aware active learning survey",
+    "Medical imaging AL",
+    "Autonomous driving calibration",
+    "Satellite imagery AL",
+    "AL image classification benchmarks",
+    "Expected Calibration Error AL",
+    "Active learning cold start",
+    "AL initialization sensitivity",
+    "Label noise AL calibration",
+    "Deep ensembles calibration",
+    "AL vs random sampling calibration",
+    "ImageNet AL datasets",
+    "ChestX-ray AL"
+  ],
+  "evidence_ids": [],
+  "parsed_papers": [],
+  "claim_graph": {
+    "claims": [],
+    "links": []
+  },
+  "research_gaps": [],
+  "idea_tree": [],
+  "reviewer_scores": [],
+  "experiment_candidates": [],
+  "approval_status": {},
+  "micro_probe_results": [],
+  "probe_results": [],
+  "ablation_results": [],
+  "mvp_results": [],
+  "failed_ideas": [],
+  "validation_results": [],
+  "paper_readiness_level": "RRL-0",
+  "final_output_path": null,
+  "history": [
+    {
+      "at": "2026-06-06T13:13:08.793Z",
+      "state": "TOPIC_SCOPED",
+      "detail": "The topic can be explored with small simulations, synthetic data, or lightweight local experiments on the Mac."
+    },
+    {
+      "at": "2026-06-06T13:13:08.793Z",
+      "state": "SEARCH_PLAN_CREATED",
+      "detail": "15 queries created (LLM-generated)."
+    },
+    {
+      "at": "2026-06-06T13:13:12.856Z",
+      "state": "LITERATURE_DISCOVERY_RUNNING",
+      "detail": "Starting structured literature discovery."
+    }
+  ]
+}

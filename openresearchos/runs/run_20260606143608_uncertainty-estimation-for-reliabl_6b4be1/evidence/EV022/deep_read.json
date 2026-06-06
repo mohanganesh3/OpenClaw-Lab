@@ -1,0 +1,74 @@
+{
+  "title": "Towards black-box parameter estimation",
+  "methodology": {
+    "aim": "Scientific adequacy rather than computational tractability",
+    "problem": "Likelihood computation becomes effectively impossible when moving away from Gaussian processes",
+    "applications": [
+      "Finance",
+      "Climate science"
+    ],
+    "approximate_methods": [
+      {
+        "name": "Indirect inference",
+        "reference": "Gourieroux et al., 1993"
+      },
+      {
+        "name": "Likelihood-free inference",
+        "reference": "Grelaud et al., 2009; Gutmann and Corander, 2016"
+      },
+      {
+        "name": "Simulation-based inference",
+        "reference": "Nickl and Pötscher, 2010"
+      },
+      {
+        "name": "Synthetic likelihood",
+        "reference": "Wood, 2010"
+      }
+    ],
+    "focus_method": "Approximate Bayesian Computation (ABC)",
+    "abc_approach": "Avoids evaluating intractable likelihoods by matching summary statistics from observations with those computed from simulated data based on parameters drawn from a predefined prior distribution",
+    "abc_formula": "Probability that γ(x_sim, x_obs) < ε",
+    "abc_components": [
+      {
+        "name": "γ",
+        "description": "Distance measure"
+      },
+      {
+        "name": "ε",
+        "description": "Trade-off between sample efficiency and inference quality"
+      }
+    ]
+  },
+  "results": {
+    "limitations": "ABC is not scalable to large numbers of observations",
+    "solutions": [
+      {
+        "approach": "Deep learning capabilities",
+        "reference": "Hermans et al., 2020",
+        "method": "Classifier to approximate density ratios proportional to likelihood estimation"
+      },
+      {
+        "approach": "CNN with MLEs",
+        "reference": "Gerber and Nychka, 2020",
+        "application": "Parameter estimation in Gaussian processes",
+        "limitation": "Case-specific and not scalable, CNN must be retrained with new MLEs for each new testing dataset"
+      },
+      {
+        "approach": "Alternative to MLEs",
+        "reference": "Lenzi et al., 2021",
+        "benefit": "Avoids the shortcoming of using MLEs"
+      }
+    ]
+  },
+  "evidence_id": "EV022",
+  "year": 2023,
+  "arxiv_id": "2303.15041",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

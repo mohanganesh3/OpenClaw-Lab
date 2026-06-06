@@ -1,0 +1,6 @@
+{
+  "introduction": "[2408.08982] Deep Generative Classification of Blood Cell Morphology\n\nDeep Generative Classification of Blood Cell Morphology\n\nSimon Deltadahl 1  &amp;Julian Gilbey 1  &amp;Christine Van Laer  2,3\n\n&a",
+  "method": "uracy in clinical settings. Our code is available at  https://github.com/Deltadahl/CytoDiffusion .\n\n1 Department of Applied Mathematics and Theoretical Physics, University of Cambridge, Cambridge, UK\n",
+  "results": "Gaussian noise\n\nϵ  ∼\n\n𝒩  ​\n\n(  0  ,  𝑰  )\n\nsimilar-to  bold-italic-ϵ\n\n𝒩\n\n0  𝑰\n\n\\boldsymbol{\\epsilon}\\sim\\mathcal{N}(0,\\boldsymbol{I})\n\nis then added to create a noisy latent representation\n\n𝒛  t\n",
+  "conclusion": "l of description, and requiring metacognitive awareness of its impossibility. The difficulty is commonly compounded by interactions with irrelevant biological features with variable representation acr"
+}

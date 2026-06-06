@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\nActive Sequential Posterior Estimation\nfor Sample-Efficient Simulation-Based Inference\nSam Griesemer1\nDefu Cao1\nZijun Cui1,2†\nCarolina Osorio3,4\nYan Liu1\n1USC\n2MSU\n3Google Research\n4HE",
+  "method": "to\nbe informative to our NDE model, reducing epistemic uncertainty as measured by p(ϕ|D) and further\nelucidating parameter sets ϕ likely to explain the probabilistic mapping from simulation outputs x ",
+  "results": "in their canonical form cannot be parallelized, requiring serial simulation evaluations across each\niteration.\nFor NPE-based approaches, we evaluate our proposed method ASNPE alongside SNPE-C (or\nAPT)",
+  "conclusion": ", and may require additional measures\nto balance the resulting sensitivity between the terms. We find that λ = 1 is a natural choice that\nreasonably captures the desire to explore potentially unlikely"
+}

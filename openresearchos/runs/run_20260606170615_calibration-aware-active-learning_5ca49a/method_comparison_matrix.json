@@ -1,0 +1,152 @@
+{
+  "run_id": "run_20260606170615_calibration-aware-active-learning_5ca49a",
+  "topic": "calibration-aware active learning for medical image classification",
+  "generated_at": "2026-06-06T18:08:29.273Z",
+  "papers_with_deep_read": 6,
+  "macbook_friendly": 5,
+  "with_code": 1,
+  "method_matrix": [
+    {
+      "evidence_id": "EV013",
+      "title": "RewardUQ: A Unified Framework for Uncertainty-Aware Reward Models",
+      "year": 2026,
+      "method": "Reward models are central to aligning large language models (LLMs) with human preferences. Yet most approaches rely on pointwise reward estimates that overlook the epistemic uncertainty in reward mode",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [
+        "Uncertainty-aware reward models have been adopted without thorough comparison, leading to poor understanding of their effectiveness"
+      ],
+      "code_available": "unknown",
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV014",
+      "title": "Bayesian E(3)-Equivariant Interatomic Potential with Iterative Restratification of Many-body Message Passing",
+      "year": 2025,
+      "method": "The framework employs Bayesian E(3)-equivariant neural networks with iterative restratification of many-body message passing, trained using NLLJEF loss to simultaneously optimize energy/force predictions and their uncertainties, evaluated through unified validation metrics.",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [
+        "The paper does not explicitly state limitations in the provided abstract",
+        "Likely computational complexity for large molecular systems",
+        "Potential scalability issues with Bayesian approaches"
+      ],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": false,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV020",
+      "title": "Probabilistic Embeddings for Frozen Vision-Language Models: Uncertainty Quantification with Gaussian Process Latent Variable Models",
+      "year": 2025,
+      "method": "GroVE builds a shared low-dimensional latent space using GPLVM where image and text inputs map to unified representations, optimized through single-modal embedding reconstruction and cross-modal alignment objectives to generate uncertainty-aware probabilistic embeddings.",
+      "datasets_used": [
+        "COCO",
+        "CUB"
+      ],
+      "baselines_compared": [
+        "Not specified in provided text"
+      ],
+      "best_result": "GroVE with KL-Divergence achieves best cross-modal alignment",
+      "key_results": {
+        "COCO_Image to Text": "0.70±0.04",
+        "COCO_Text to Image": "0.59±0.03",
+        "CUB_Image to Text": "0.46±0.06",
+        "CUB_Text to Image": "0.49±0.05"
+      },
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "null"
+    },
+    {
+      "evidence_id": "EV032",
+      "title": "Information-theoretic Generalization Analysis for Expected Calibration Error",
+      "year": 2024,
+      "method": "Establishes upper bounds on ECE estimation bias for uniform mass and uniform width binning, derives optimal bin sizes, and extends analysis to generalization error using information-theoretic bounds to evaluate ECE on unknown data.",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV034",
+      "title": "Unified Anomaly Detection methods on Edge Device using Knowledge Distillation and Quantization",
+      "year": 2024,
+      "method": "The paper implements three knowledge distillation frameworks (US, RD, STFPM) to train unified multi-class models, then applies quantization techniques (PTQ and QAT) for edge deployment, analyzing performance with different precision widths.",
+      "datasets_used": [
+        "MVTec-AD"
+      ],
+      "baselines_compared": [
+        "Uninformed Students (US)",
+        "Reverse Distillation (RD)",
+        "STFPM"
+      ],
+      "best_result": "STFPM achieves 52.14ms latency with 0.94 AUROC on Jetson (FP-32)",
+      "key_results": {
+        "MVTec-AD_Latency (ms)": "18274",
+        "MVTec-AD_AUROC": "0.96",
+        "MVTec-AD_Model Size (MB)": "88"
+      },
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "CPU and NVIDIA Jetson NX device"
+    },
+    {
+      "evidence_id": "EV035",
+      "title": "Improving Robustness and Reliability in Medical Image Classification With Latent-Guided Diffusion and Nested-Ensembles",
+      "year": 2023,
+      "method": "Once deployed, medical image analysis methods are often faced with unexpected image corruptions and noise perturbations. These unknown covariate shifts present significant challenges to deep learning ",
+      "datasets_used": [
+        "Chest X-ray",
+        "ISIC (skin cancer)"
+      ],
+      "baselines_compared": [
+        "ResNet-18",
+        "ResNet-50",
+        "EfficientNetV2-L",
+        "DeiT-B",
+        "ViT-B",
+        "Swin-B",
+        "ConViT-B",
+        "MedViT-B",
+        "CARD",
+        "Deep Ensembles",
+        "DWE",
+        "DTT",
+        "ICNN-Ensemble",
+        "SEViT"
+      ],
+      "best_result": "94.86% accuracy on Chest X-ray against FGSM attack",
+      "key_results": {
+        "Chest X-ray_accuracy": "97.86%",
+        "ISIC_accuracy": "93.14%",
+        "Chest X-ray_ECE": "0.24",
+        "ISIC_ECE": "0.14"
+      },
+      "limitations": [
+        "The paper focuses on addressing robustness and reliability in medical image classification but doesn't explicitly state limitations.",
+        "The abstract doesn't mention specific limitations of the LaDiNE approach."
+      ],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    }
+  ]
+}

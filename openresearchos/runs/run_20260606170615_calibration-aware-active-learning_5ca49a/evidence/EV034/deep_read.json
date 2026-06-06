@@ -1,0 +1,131 @@
+{
+  "problem_addressed": "The inefficiency of one-class anomaly detection models requiring separate models for each class, increasing cost and memory requirements in Industry 4.0 visual inspection systems.",
+  "core_claim": "Multi-class unified models perform at par with one-class models for anomaly detection on MVTec AD dataset, eliminating need for separate class-wise models when object classes are significantly different.",
+  "key_contributions": [
+    "Experimental validation that unified multi-class models perform comparably to one-class models on MVTec AD dataset",
+    "Deployment and analysis of three lightweight architectures on edge devices (NVIDIA Jetson Xavier NX) with quantization techniques",
+    "Comparison of quantization-aware training (QAT) and post-training quantization (PTQ) approaches for edge deployment"
+  ],
+  "novelty": "Demonstration that separate class-wise models may not be necessary when object classes are significantly different, and exploration of calibration methods for PTQ in unsupervised anomaly detection tasks.",
+  "method_summary": "The paper implements three knowledge distillation frameworks (US, RD, STFPM) to train unified multi-class models, then applies quantization techniques (PTQ and QAT) for edge deployment, analyzing performance with different precision widths.",
+  "method_components": [
+    "Knowledge distillation frameworks (Uninformed Students, Reverse Distillation, STFPM)",
+    "Quantization techniques (Post-Training Quantization with calibration, Quantization-Aware Training)",
+    "Feature pyramid matching for enhanced anomaly detection performance"
+  ],
+  "key_innovation": "Student-Teacher Feature Pyramid Matching (STFPM) which integrates hierarchical feature matching across multiple scales to enhance anomaly detection at various anomaly sizes.",
+  "assumptions": [
+    "Object classes in the dataset are significantly different from each other",
+    "Calibration data can represent the variance encountered during testing",
+    "Teacher-student architecture can effectively transfer knowledge across multiple scales"
+  ],
+  "theoretical_grounding": "Empirical validation through experiments on MVTec AD dataset; no formal proofs or theoretical bounds provided.",
+  "datasets_used": [
+    "MVTec-AD"
+  ],
+  "baselines_compared": [
+    "Uninformed Students (US)",
+    "Reverse Distillation (RD)",
+    "STFPM"
+  ],
+  "metrics_used": [
+    "AUROC",
+    "Inference Time (ms)",
+    "Model Size (MB)"
+  ],
+  "hyperparameters": "Teacher/Student architectures: ResNet-18 for STFPM, complex encoder-decoder for RD; Quantization: FP-32, FP-16, INT-8; Calibration: Training data vs Random normal distribution",
+  "compute_required": "CPU and NVIDIA Jetson NX device",
+  "seeds": "null",
+  "headline_result": "STFPM achieves 52.14ms latency with 0.94 AUROC on Jetson (FP-32)",
+  "results_table": [
+    {
+      "method": "STFPM",
+      "dataset": "MVTec-AD",
+      "metric": "Latency (ms)",
+      "value": "52.14"
+    },
+    {
+      "method": "STFPM",
+      "dataset": "MVTec-AD",
+      "metric": "AUROC",
+      "value": "0.94"
+    },
+    {
+      "method": "RD",
+      "dataset": "MVTec-AD",
+      "metric": "AUROC",
+      "value": "0.96"
+    },
+    {
+      "method": "RD",
+      "dataset": "MVTec-AD",
+      "metric": "Latency (ms)",
+      "value": "166.60"
+    },
+    {
+      "method": "US",
+      "dataset": "MVTec-AD",
+      "metric": "Latency (ms)",
+      "value": "18274"
+    },
+    {
+      "method": "STFPM",
+      "dataset": "MVTec-AD",
+      "metric": "Model Size (MB)",
+      "value": "88"
+    },
+    {
+      "method": "RD",
+      "dataset": "MVTec-AD",
+      "metric": "Model Size (MB)",
+      "value": "644.2"
+    },
+    {
+      "method": "US",
+      "dataset": "MVTec-AD",
+      "metric": "Model Size (MB)",
+      "value": "26.8"
+    },
+    {
+      "method": "STFPM",
+      "dataset": "MVTec-AD",
+      "metric": "AUROC (TRT INT-8)",
+      "value": "0.92"
+    },
+    {
+      "method": "RD",
+      "dataset": "MVTec-AD",
+      "metric": "AUROC (TRT INT-8)",
+      "value": "0.82"
+    }
+  ],
+  "ablations": [
+    "Quantization precision (FP-32 vs FP-16 vs INT-8)",
+    "Calibration strategy (training data vs random normal)",
+    "Framework (PyTorch vs TensorRT)"
+  ],
+  "improvement_over_baseline": "STFPM is 5x faster than RD on Jetson (52.14ms vs 166.60ms) with only 0.02 AUROC difference; Random normal calibration improves RD AUROC by 0.25 (0.50→0.75) and STFPM by 0.08 (0.75→0.83)",
+  "best_result": "STFPM achieves 52.14ms latency with 0.94 AUROC on Jetson (FP-32)",
+  "key_results": {
+    "MVTec-AD_Latency (ms)": "18274",
+    "MVTec-AD_AUROC": "0.96",
+    "MVTec-AD_Model Size (MB)": "88"
+  },
+  "limitations_stated": [],
+  "reproducibility": "low",
+  "evidence_id": "EV034",
+  "title": "Unified Anomaly Detection methods on Edge Device using Knowledge Distillation and Quantization",
+  "year": 2024,
+  "arxiv_id": "2407.02968",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 58974,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 20,
+  "pdf_tables": 7,
+  "pdf_captions": 13
+}

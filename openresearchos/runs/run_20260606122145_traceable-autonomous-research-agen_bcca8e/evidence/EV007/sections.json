@@ -1,0 +1,6 @@
+{
+  "introduction": "[2303.17651] \\ours: Iterative Refinement with Self-Feedback\n\n\\ours :\n Iterative Refinement with Self-Feedback\n\nAman Madaan  1  ,\nNiket Tandon 2 , Prakhar Gupta  1  , Skyler Hallinan 3 , Luyu Gao 1 ,\n\n",
+  "method": "s) can generate coherent outputs, they often fall short in addressing intricate requirements. This mostly includes tasks\nwith multifaceted objectives,\nsuch as dialogue response generation, or tasks wi",
+  "results": "ing, leading to higher-quality outputs on a wide range of tasks.\n\nWe present  \\ours : an iterative self-refinement algorithm that alternates between two generative steps– feedback  and  refine . These",
+  "conclusion": "l generation by up to absolute 13% when applied to strong code models such as Codex  ( code-davinci-002 ;  Chen et al.,  2021 ) . We release all of our code, which is easily extensible to other LLMs.\n"
+}

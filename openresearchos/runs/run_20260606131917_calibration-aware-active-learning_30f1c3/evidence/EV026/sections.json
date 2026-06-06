@@ -1,0 +1,6 @@
+{
+  "introduction": "[2411.18721] A Machine Learning Approach Capturing Hidden Parameters in Autonomous Thin-Film Deposition\n\nA Machine Learning Approach Capturing Hidden Parameters in Autonomous Thin-Film Deposition\n\nYua",
+  "method": "opment of machine learning (ML)  [ 1 ] , coupled with advancements in robotics  [ 2 ] , now potentially enables fully automating this process, liberating researchers from the repetitive cycles and acc",
+  "results": "uncertainty, (ii) sample growth, and (iii) updating the model with new data. (b) The autonomous testing cycle incorporating (i) prediction of the optimal growth condition that minimizes the loss funct",
+  "conclusion": "on layer that provides critical information about the initial condition of each sample and the chamber environment. Furthermore, we employ an autonomous learning approach using Gaussian Process Regres"
+}

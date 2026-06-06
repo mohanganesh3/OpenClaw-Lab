@@ -1,0 +1,89 @@
+{
+  "problem_addressed": "Calibration of machine learning models is brittle and easily lost under minimal covariate shifts between training and testing distributions.",
+  "core_claim": "An importance sampling based approach can effectively calibrate models under covariate shift without requiring labeled target data.",
+  "key_contributions": [
+    "Formal introduction of the problem of calibration under domain shift",
+    "Proposal of an importance sampling based approach to address calibration under covariate shift",
+    "Evaluation of the method on both real-world and synthetic datasets"
+  ],
+  "novelty": "Using importance sampling to adapt calibration loss from training to test distribution under covariate shift without requiring labeled target data.",
+  "method_summary": "The method weights the calibration loss on training data by the density ratio γ(x) = πte(x)/πtr(x), enabling calibration under covariate shift without labeled target data.",
+  "method_components": [
+    "Covariate shift assumption (πtr(X) ≠ πte(X) but πtr(Y|X) = πte(Y|X))",
+    "Importance sampling based weighting of calibration loss",
+    "Application to existing calibration techniques (like isotonic regression)"
+  ],
+  "key_innovation": "Theorem 4.1 proving that calibration loss under covariate shift is equivalent to density ratio weighted calibration loss on training data.",
+  "assumptions": [
+    "Access to labeled training data from source distribution",
+    "Access to unlabeled test data from target distribution",
+    "Covariate shift assumption: πtr(X) ≠ πte(X) but πtr(Y|X) = πte(Y|X)",
+    "Support of test distribution includes support of training distribution (supp(πte) ⊃ supp(πtr))"
+  ],
+  "theoretical_grounding": "Theorem 4.1 mathematically proves that E(x,y)∼πte(X,Y)[l(h(x), y, ; β)] = E(x,y)∼πtr(X,Y)[γ(x)l(h(x), y, ; β)] where γ(x) = πte(x)/πtr(x)",
+  "stated_limitations": [
+    "Existing techniques, including domain adaptation ones, primarily focus on prediction accuracy and do not guarantee calibration",
+    "Calibration is brittle and can be easily lost under minimal covariate shifts"
+  ],
+  "unstated_weaknesses": [
+    "No discussion of computational complexity or scalability for high-dimensional medical images",
+    "No analysis of sensitivity to proposal distribution choice in importance sampling",
+    "No consideration of class imbalance common in medical datasets",
+    "No evaluation of different types of covariate shifts",
+    "No ablation studies to isolate component contributions"
+  ],
+  "threats_to_validity": [
+    "Synthetic datasets may not adequately represent real-world medical imaging shifts",
+    "Limited generalizability assessment beyond evaluated domains",
+    "No hyperparameter sensitivity analysis",
+    "No long-term calibration stability evaluation"
+  ],
+  "reproducibility": "medium",
+  "open_questions": [
+    "How does method perform with feature vs. prior probability shifts?",
+    "Can importance sampling be optimized for high-dimensional medical images?",
+    "What is sensitivity to proposal distribution selection?",
+    "Does calibration maintain over continuous distribution shifts?"
+  ],
+  "future_work": [
+    "Extending to high-dimensional medical imaging data",
+    "Investigating different covariate shift types",
+    "Combining with active learning strategies"
+  ],
+  "gaps_this_enables": [
+    "Direct pathway to calibration-aware active learning for medical images",
+    "Need for domain-specific calibration methods in medical imaging",
+    "Framework for integrating calibration into active learning pipelines"
+  ],
+  "relevance_to_topic": "Provides foundational approach for addressing calibration under covariate shifts, directly applicable to medical image classification where distribution shifts are common",
+  "relation_type": "foundational",
+  "can_run_on_macbook": true,
+  "reusable_assets": [
+    "Importance sampling framework",
+    "Synthetic dataset generation approach",
+    "Calibration evaluation metrics"
+  ],
+  "code_available": false,
+  "code_url": null,
+  "best_result": null,
+  "key_results": {},
+  "limitations_stated": [
+    "Existing techniques, including domain adaptation ones, primarily focus on prediction accuracy and do not guarantee calibration",
+    "Calibration is brittle and can be easily lost under minimal covariate shifts"
+  ],
+  "evidence_id": "EV052",
+  "title": "Unsupervised Calibration under Covariate Shift",
+  "year": 2020,
+  "arxiv_id": "2006.16405",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 44234,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 10,
+  "pdf_tables": 0,
+  "pdf_captions": 6
+}

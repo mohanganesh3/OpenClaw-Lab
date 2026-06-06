@@ -1,0 +1,310 @@
+{
+  "nodes": [
+    {
+      "id": "EV001",
+      "title": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery",
+      "year": 2024
+    },
+    {
+      "id": "EV002",
+      "title": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
+      "year": 2025
+    },
+    {
+      "id": "EV003",
+      "title": "Agent Laboratory: Using LLM Agents as Research Assistants",
+      "year": 2025
+    },
+    {
+      "id": "EV004",
+      "title": "MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering",
+      "year": 2024
+    },
+    {
+      "id": "EV005",
+      "title": "AIBuildAI-2: Scalable Agentic AI Research and Engineering",
+      "year": 2026
+    },
+    {
+      "id": "EV006",
+      "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+      "year": 2023
+    },
+    {
+      "id": "EV007",
+      "title": "Self-Refine: Iterative Refinement with Self-Feedback",
+      "year": 2023
+    },
+    {
+      "id": "EV008",
+      "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+      "year": 2023
+    },
+    {
+      "id": "EV009",
+      "title": "AgentBench: Evaluating LLMs as Agents",
+      "year": 2023
+    },
+    {
+      "id": "EV010",
+      "title": "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
+      "year": 2024
+    },
+    {
+      "id": "EV011",
+      "title": "Bayesian Active Learning-Based Soft Data Space Calibration for System-Wise Aggregate Flexibility Characterization",
+      "year": 2025
+    },
+    {
+      "id": "EV012",
+      "title": "AL-X0: Cost-Aware Active Learning for Cloud-Scale NLP via Zero-Shot Proxy Valuation",
+      "year": 2026
+    },
+    {
+      "id": "EV013",
+      "title": "RewardUQ: A Unified Framework for Uncertainty-Aware Reward Models",
+      "year": 2026
+    },
+    {
+      "id": "EV014",
+      "title": "Bayesian E(3)-Equivariant Interatomic Potential with Iterative Restratification of Many-body Message Passing",
+      "year": 2025
+    },
+    {
+      "id": "EV015",
+      "title": "A Risk-Tiered Validation Framework for Artificial Intelligence in Drug Discovery: From Reproducibility to Clinical Translation",
+      "year": 2026
+    },
+    {
+      "id": "EV016",
+      "title": "CLASSIFICATION OF ARTIFICIAL INTELLIGENCE TOOLING IN ARCHITECTURE. PROCESS-CYCLE DIMENSION",
+      "year": 2026
+    },
+    {
+      "id": "EV017",
+      "title": "Uncertainty-Guided Dual-Domain Learning for Reliable Skin Lesion Segmentation",
+      "year": 2026
+    },
+    {
+      "id": "EV018",
+      "title": "Active Learning for Pneumonia Detection with Vision Transformers and Bayesian Uncertainty Estimation",
+      "year": 2025
+    },
+    {
+      "id": "EV019",
+      "title": "AI Hydrologic Nowcasting in HEC-HMS: Graph Neural Nets under Nonstationarity",
+      "year": 2023
+    },
+    {
+      "id": "EV020",
+      "title": "Probabilistic Embeddings for Frozen Vision-Language Models: Uncertainty Quantification with Gaussian Process Latent Variable Models",
+      "year": 2025
+    },
+    {
+      "id": "EV021",
+      "title": "CTypiClust: Confidence-Aware Typical Clustering for Budget-Agnostic Active Learning with Confidence Calibration",
+      "year": 2025
+    },
+    {
+      "id": "EV022",
+      "title": "Boundary Conditions of Cost-Aware Active Learning: A Multi-Dataset Taxonomy of Calibration and Length-Variance Failure Modes",
+      "year": 2026
+    },
+    {
+      "id": "EV023",
+      "title": "A Leakage-Aware Drug Discovery Workflow for PKM2 and MAPK1 Integrating Scaffold Validation, Molecular Docking and Structural Triage",
+      "year": 2026
+    },
+    {
+      "id": "EV024",
+      "title": "Large language models in programming: a meta-analysis of tools, users, and human-computer interaction themes",
+      "year": 2025
+    },
+    {
+      "id": "EV025",
+      "title": "Uncertainty-aware phase fraction prediction and active-learning-guided out-of-domain discovery of refractory multi-principal element alloys",
+      "year": 2026
+    },
+    {
+      "id": "EV026",
+      "title": "Small Business Innovation Research Program",
+      "year": 2022
+    },
+    {
+      "id": "EV027",
+      "title": "Revisiting Unknowns: Towards Effective and Efficient Open-Set Active Learning",
+      "year": 2026
+    },
+    {
+      "id": "EV028",
+      "title": "OmniDP: Beyond-FOV Large-Workspace Humanoid Manipulation with Omnidirectional 3D Perception",
+      "year": 2026
+    },
+    {
+      "id": "EV029",
+      "title": "Physics-guided big-data reflectance spectroscopy learning framework for industrial surface state recognition",
+      "year": 2026
+    },
+    {
+      "id": "EV030",
+      "title": "Weapon Detection Using Deep Learning: A Systematic Review",
+      "year": 2026
+    },
+    {
+      "id": "EV031",
+      "title": "MOSE: A Monotonic Selectivity Estimator Using Learned CDF",
+      "year": 2023
+    },
+    {
+      "id": "EV032",
+      "title": "Information-theoretic Generalization Analysis for Expected Calibration Error",
+      "year": 2024
+    },
+    {
+      "id": "EV033",
+      "title": "Deep self-consistent learning of local volatility",
+      "year": 2021
+    },
+    {
+      "id": "EV034",
+      "title": "Unified Anomaly Detection methods on Edge Device using Knowledge Distillation and Quantization",
+      "year": 2024
+    },
+    {
+      "id": "EV035",
+      "title": "Improving Robustness and Reliability in Medical Image Classification With Latent-Guided Diffusion and Nested-Ensembles",
+      "year": 2023
+    },
+    {
+      "id": "EV036",
+      "title": "Review: Synergy between mechanistic modelling and data-driven models for modern animal production systems in the era of big data.",
+      "year": 2020
+    },
+    {
+      "id": "EV037",
+      "title": "Development of deep learning approaches for drought forecasting: a comparative study in a cold and semi-arid region",
+      "year": 2024
+    },
+    {
+      "id": "EV038",
+      "title": "Multisensor Data Fusion and Deep Feature-Based Classification for Mapping China’s Coastal and Wetland Areas",
+      "year": 2025
+    },
+    {
+      "id": "EV039",
+      "title": "Robust and Explainable Facial Expression Recognition Using YOLOv10 Under Real-World Visual Degradations",
+      "year": 2025
+    },
+    {
+      "id": "EV040",
+      "title": "Fatigue driving detection technology based on EEG signal",
+      "year": 2024
+    },
+    {
+      "id": "EV041",
+      "title": "Tube Loss based Deep Networks For Improving the Probabilistic Forecasting of Wind Speed",
+      "year": 2025
+    },
+    {
+      "id": "EV042",
+      "title": "Evaluation of Machine Learning Models for Clinical Prediction Problems",
+      "year": 2022
+    },
+    {
+      "id": "EV043",
+      "title": "Food and agro-product quality evaluation based on spectroscopy and deep learning: A review",
+      "year": 2021
+    },
+    {
+      "id": "EV044",
+      "title": "Pre-classification-based multi-model fusion non-intrusive load identification",
+      "year": 2024
+    },
+    {
+      "id": "EV045",
+      "title": "Predictive Models Based on Artificial Intelligence to Estimate Crop Yield: A Literature Review",
+      "year": 2025
+    },
+    {
+      "id": "EV046",
+      "title": "HEOPC-VGGNet Based Image Enhancement Algorithm",
+      "year": 2022
+    },
+    {
+      "id": "EV047",
+      "title": "Machine Learning Models for Predicting Delayed Cerebral Ischemia Following Ruptured Intracranial Aneurysms: A Systematic Review and Meta-Analysis.",
+      "year": 2026
+    },
+    {
+      "id": "EV048",
+      "title": "Uncertainty Quantification for Trusted Machine Learning in Space System Cyber Security",
+      "year": 2021
+    },
+    {
+      "id": "EV049",
+      "title": "Pretraining Transformer-Based Models on Diffusion-Generated Synthetic Graphs for Alzheimer's Disease Prediction",
+      "year": 2025
+    },
+    {
+      "id": "EV050",
+      "title": "A Novel Evidential Uncertainty Framework for Hybrid Models in Rainfall Simulation",
+      "year": 2026
+    },
+    {
+      "id": "EV051",
+      "title": "Video object detection for autonomous driving: Motion-aid feature calibration",
+      "year": 2020
+    },
+    {
+      "id": "EV052",
+      "title": "Modular Framework for Comparative Analysis of EMG Detection Methods: Application to Wearable Interfaces for Persons with Motor Neuron Diseases",
+      "year": 2026
+    },
+    {
+      "id": "EV053",
+      "title": "ASAS-NANP SYMPOSIUM: Applications of machine learning for livestock body weight prediction from digital images",
+      "year": 2021
+    },
+    {
+      "id": "EV054",
+      "title": "Bridging Cognitive Load Theory and Deep Q-Networks for Real-Time Difficulty Calibration in Automated Tutoring Systems",
+      "year": 2026
+    },
+    {
+      "id": "EV055",
+      "title": "Quantum Probabilistic Label Refining: Enhancing Label Quality for Robust Image Classification",
+      "year": 2025
+    },
+    {
+      "id": "EV056",
+      "title": "Multi-modal, multi-species, and multi-task latent-space model for decoding level of consciousness",
+      "year": 2025
+    },
+    {
+      "id": "EV057",
+      "title": "Leveraging Big Data and Deep Learning for Economical Condition Assessment of Wastewater Pipelines",
+      "year": 2020
+    },
+    {
+      "id": "EV058",
+      "title": "Robust Extrinsic Calibration for LiDAR-Camera Systems via Depth and Height Complementary Supervision Network",
+      "year": 2025
+    },
+    {
+      "id": "EV059",
+      "title": "The Prediction on Short-Term Liquidity of Decentralized Finance Driven by Machine Learning",
+      "year": 2025
+    },
+    {
+      "id": "EV060",
+      "title": "Recursive Confidence Propagation in Medical Diagnosis Using Confident Learning and GANs",
+      "year": 2025
+    },
+    {
+      "id": "EV061",
+      "title": "Reducing calibration efforts of SSVEP-BCIs by shallow fine-tuning-based transfer learning",
+      "year": 2025
+    }
+  ],
+  "edges": []
+}

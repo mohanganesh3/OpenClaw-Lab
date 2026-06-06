@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\nTheoretical Guarantees of Learning Ensembling Strategies\nwith Applications to Time Series Forecasting\nHilaf Hasson 1 Danielle C. Maddix 1 Yuyang Wang 1 Gaurav Gupta 1 Youngsuk Park 1\nA",
+  "method": "Aα(Z) stands for Aα trained on Z.\nConsider F ∶= {(x,y) ↦Lα(D00,D01)((x,y))∣α ∈J },\nand let (M(F),v(F)) be its Bernstein numbers. Finally,\nlet X be a random variable in Rd × Rr following the same\ndistr",
+  "results": "ean of the predictions of the cho-\nsen algorithms lead to the best performance on DBW1.\nThe same algorithms are chosen across timestamps,\nquantiles, and items. (Greedy ensemble, (Caruna et al.,\n2004),",
+  "conclusion": "nc., 2017.\nMakridakis, S. et al. The M4 competition: Results, findings,\nconclusion and way forward. International Journal of\nForecasting, 34(4):802 – 808, 2018.\nMassaoudi, M., Refaat, S. S., Chihi, I."
+}

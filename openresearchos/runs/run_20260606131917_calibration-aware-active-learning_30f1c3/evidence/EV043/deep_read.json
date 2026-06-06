@@ -1,0 +1,31 @@
+{
+  "method_summary": "Develops a low-rank model for task-model ability matrix estimation with a max-norm accurate estimator combining convex initialization and alternating-minimization refinement, plus an uncertainty quantification framework for task-specific ranking using cross-fitted one-step debiased estimators.",
+  "key_innovation": "Uncertainty quantification framework for task-specific ranking with asymptotically valid confidence intervals that attain the semiparametric efficiency bound.",
+  "datasets_used": [
+    "Synthetic data",
+    "Chatbot Arena"
+  ],
+  "baselines_compared": [
+    "Independent task-wise Bradley-Terry estimation"
+  ],
+  "key_results": {},
+  "best_result": null,
+  "limitations_stated": [],
+  "code_available": null,
+  "code_url": null,
+  "reproducibility": null,
+  "compute_required": null,
+  "can_run_on_macbook": null,
+  "evidence_id": "EV043",
+  "title": "Low Rank for Rank: Uncertainty-Aware Task-Specific LLM Ranking under Sparse Pairwise Comparisons",
+  "year": 2026,
+  "arxiv_id": "2605.29395",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 5812,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

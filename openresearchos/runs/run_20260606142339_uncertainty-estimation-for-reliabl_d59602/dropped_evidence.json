@@ -1,0 +1,159 @@
+{
+  "run_id": "run_20260606142339_uncertainty-estimation-for-reliabl_d59602",
+  "topic": "uncertainty estimation for reliable medical image classification",
+  "kept": 37,
+  "dropped_count": 30,
+  "judged_by": "llm",
+  "dropped": [
+    {
+      "title": "How to Choose the Most Proper Representative Climate Model Over a Study Region? a Case Study of Precipitation Simulations in Ireland with NEX-GDDP-CMIP6 Data",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "A Stochastic Theory of Longitudinal Dynamics and Energy Consumption of Road Vehicles",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "Modeling And Control Of Robot Manipulators",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "A Data-Driven LiFePO4 Battery Capacity Estimation Method Based on Cloud Charging Data from Electric Vehicles",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "Can LLM be a Personalized Judge?",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "Financial Estimation of the Uncertainty in Medicine Using Present Value of Medical Fees and a Mortality Risk Prediction Model: a Retrospective Cohort Study",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "Bayesian Gabor Network With Uncertainty Estimation for Pedestrian Lane Detection in Assistive Navigation",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "Improving depth-of-interaction resolution in pixellated PET detectors using neural networks",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "Aging States Estimation and Monitoring Strategies of Li-Ion Batteries Using Incremental Capacity Analysis and Gaussian Process Regression",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "Robust Interacting Multiple Model Unscented Particle Filter for Navigation",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "Finite Time State-of-Charge Observer With Robustness Against Unknown Parameter Uncertainties",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "Towards black-box parameter estimation",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "A Novel Remaining Useful Life Prognostic Framework Combining Sample Convolutional Interaction Network and Fractal Brownian Motion",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "A methodology to account for dynamic variability in micro-vibration analysis of satellites",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "Robust steady‐state matrix‐weighted fusion filtering for multisensor multichannel autoregressive signal with multiple uncertainties",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "Uncertainty Evaluation of a Gas Turbine Model Based on a Nonlinear Autoregressive Exogenous Model and Monte Carlo Dropout",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "An Automatic Early Warning Method for Electricity Market Trading Risks Based on Bayesian Network",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "Tube Loss based Deep Networks For Improving the Probabilistic Forecasting of Wind Speed",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "Bayesian Uncertainty Quantification with Anchored Ensembles for Robust EV Power Consumption Prediction",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "Distributed Fusion Estimation for Nonlinear Binary Sensor Systems",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "An Intelligent Area Localization Framework for Rotating Machine Vision Vibration Measurement",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "\"Bridging Accuracy AND Transparency: Explainable Ai IN Healthcare -A Review\"",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "Open-World Semi-Supervised Learning",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "AI-Enabled mm-Waveform Configuration for Autonomous Vehicles With Integrated Communication and Sensing",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "Home Energy Management Algorithm Based on Deep Reinforcement Learning Using Multistep Prediction",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "Explainable Neuro-Symbolic Spiking Neural Networks fo rHigh-Precision Intracranial Tumor Diagnosis",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "Multi-Source Energy Storage Day-Ahead and Intra-Day Scheduling Based on Deep Reinforcement Learning with Attention Mechanism",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "Exploring an application-oriented land-based hyperspectral target detection framework based on 3D–2D CNN and transfer learning",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "Carbon-Aware Smart Transportation Simulation Driven by Deep Learning and Policy Scenarios",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "EPCO-29. PATHOMICS ANALYSIS IDENTIFIES POTENTIAL SUBTYPES OF DIFFUSE GLIOMAS IN H&E-STAINED WHOLE-SLIDE IMAGES",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    }
+  ]
+}

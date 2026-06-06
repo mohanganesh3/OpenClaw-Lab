@@ -1,0 +1,62 @@
+{
+  "problem_addressed": "Current machine learning potentials struggle with uncertainty quantification, limiting their reliability for active learning, calibration, and out-of-distribution detection.",
+  "core_claim": "Bayesian E(3)-equivariant MLPs with iterative restratification and joint energy-force uncertainty modeling achieve competitive accuracy while enabling reliable uncertainty quantification.",
+  "key_contributions": [
+    "Development of Bayesian E(3)-equivariant interatomic potential with iterative restratification of many-body message passing",
+    "Introduction of joint energy-force negative log-likelihood (NLLJEF) loss function for simultaneous energy and force uncertainty modeling"
+  ],
+  "novelty": "Combines Bayesian uncertainty quantification with E(3)-equivariant architecture and introduces NLLJEF loss to model joint energy-force uncertainties, closing performance gap between Bayesian and deterministic approaches",
+  "method_summary": "Implements Bayesian neural networks with E(3)-equivariant message passing, using iterative restratification and NLLJEF loss to quantify uncertainties in both energies and forces simultaneously.",
+  "method_components": [
+    "E(3)-equivariant message passing architecture",
+    "Iterative restratification of many-body interactions",
+    "Joint energy-force negative log-likelihood (NLLJEF) loss function",
+    "Uncertainty quantification via deep ensembles, SWAG, IVON, and Laplace approximation"
+  ],
+  "key_innovation": "NLLJEF loss function enables simultaneous optimization of energy and force uncertainties, reducing energy errors by 3-4× and force errors by 2-3× compared to energy-only uncertainty modeling while maintaining predictive accuracy",
+  "assumptions": [
+    "Uncertainty quantification is essential for reliable MLPs in active learning and OOD detection",
+    "E(3)-equivariance is necessary for accurate interatomic potential modeling",
+    "Joint energy-force uncertainty modeling provides complementary information"
+  ],
+  "theoretical_grounding": "No explicit proofs or bounds provided; relies on empirical validation across multiple datasets and uncertainty quantification metrics",
+  "datasets_used": [],
+  "baselines_compared": [
+    "NequIP",
+    "Allegro",
+    "MACE"
+  ],
+  "metrics_used": [
+    "Negative Log-Likelihood (NLL)",
+    "Mean Squared Error (MSE)",
+    "Force Uncertainty (covariance)"
+  ],
+  "hyperparameters": "λE and λF for energy/force loss weighting; 2-head MVE for energy-only, 8-head MVE for joint energy-force; softplus/exponential activation for variance",
+  "compute_required": null,
+  "seeds": null,
+  "headline_result": null,
+  "results_table": [],
+  "ablations": [
+    "Iterative restratification of many-body features vs. fixed-order features in MACE; comparison of energy decomposition schemes (atomic vs. pairwise vs. restratified)"
+  ],
+  "improvement_over_baseline": null,
+  "best_result": null,
+  "key_results": {},
+  "limitations_stated": [],
+  "reproducibility": "low",
+  "evidence_id": "EV014",
+  "title": "Bayesian E(3)-Equivariant Interatomic Potential with Iterative Restratification of Many-body Message Passing",
+  "year": 2025,
+  "arxiv_id": "2510.03046",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 130847,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 60,
+  "pdf_tables": 14,
+  "pdf_captions": 18
+}

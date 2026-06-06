@@ -1,0 +1,188 @@
+{
+  "run_id": "run_20260606122145_traceable-autonomous-research-agen_bcca8e",
+  "topic": "traceable autonomous research agents smoke c47396",
+  "generated_at": "2026-06-06T12:30:21.124Z",
+  "papers_with_deep_read": 10,
+  "macbook_friendly": 8,
+  "with_code": 4,
+  "method_matrix": [
+    {
+      "evidence_id": "EV001",
+      "title": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery",
+      "year": 2024,
+      "method": "The AI Scientist generates novel research ideas, writes code, executes experiments, visualizes results, writes scientific papers, and runs simulated review processes for evaluation, with the capability for iterative development in an open-ended fashion.",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": "The AI Scientist can produce papers that exceed the acceptance threshold at a top machine learning conference as judged by the automated reviewer.",
+      "key_results": {
+        "near-human performance": "automated reviewer achieves near-human performance in evaluating paper scores"
+      },
+      "limitations": [],
+      "code_available": true,
+      "code_url": null,
+      "can_run_on_macbook": false,
+      "compute_required": "not specified"
+    },
+    {
+      "evidence_id": "EV002",
+      "title": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
+      "year": 2025,
+      "method": "Research paper: The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV003",
+      "title": "Agent Laboratory: Using LLM Agents as Research Assistants",
+      "year": 2025,
+      "method": "The framework uses LLM agents to automate the research process through three stages (literature review, experimentation, and report writing) with human feedback at each stage.",
+      "datasets_used": [],
+      "baselines_compared": [
+        "previous autonomous research methods"
+      ],
+      "best_result": null,
+      "key_results": {
+        "research_expense_reduction": "84% decrease compared to previous autonomous research methods",
+        "code_performance": "state-of-the-art performance compared to existing methods"
+      },
+      "limitations": [],
+      "code_available": true,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV004",
+      "title": "MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering",
+      "year": 2024,
+      "method": "Evaluation of machine learning agents on machine learning engineering tasks using Kaggle competitions as benchmarks, with human baselines established from Kaggle leaderboards and evaluation of frontier language models using open-source agent scaffolds.",
+      "datasets_used": [
+        "Kaggle competitions"
+      ],
+      "baselines_compared": [
+        "Human baselines from Kaggle leaderboards",
+        "Various frontier language models"
+      ],
+      "best_result": "OpenAI's o1-preview with AIDE scaffolding achieves at least the level of a Kaggle bronze medal in 16.9% of competitions",
+      "key_results": {
+        "Kaggle bronze medal achievement": "16.9% of competitions"
+      },
+      "limitations": [
+        "Impact of contamination from pre-training"
+      ],
+      "code_available": true,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV005",
+      "title": "AIBuildAI-2: Scalable Agentic AI Research and Engineering",
+      "year": 2026,
+      "method": "AIBuildAI-2 is a knowledge-enhanced agent with an external, evolving knowledge system for automatically building AI models. The system is hierarchical, organizing curated AI development knowledge into high-level instructions and low-level documents, dynamically loading relevant context and grounding decisions in externally verifiable expertise.",
+      "datasets_used": [
+        "MLE-Bench"
+      ],
+      "baselines_compared": [],
+      "best_result": "70.7% medal rate on MLE-Bench",
+      "key_results": {
+        "MLE-Bench medal rate": 70.7
+      },
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": false,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV006",
+      "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+      "year": 2023,
+      "method": "Uses verbal feedback and memory to help agents improve across trials, motivating explicit failure memory and revision loops.",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV007",
+      "title": "Self-Refine: Iterative Refinement with Self-Feedback",
+      "year": 2023,
+      "method": "Studies iterative generation, feedback, and refinement, providing background for reviewer-style critique and revision policies.",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV008",
+      "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+      "year": 2023,
+      "method": "First LLM-powered embodied lifelong learning agent",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV009",
+      "title": "AgentBench: Evaluating LLMs as Agents",
+      "year": 2023,
+      "method": "Introduces agent evaluation tasks and motivates structured benchmarks for agent behavior rather than isolated text quality.",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV010",
+      "title": "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
+      "year": 2024,
+      "method": "SWE-agent introduces a custom agent-computer interface (ACI) that enables language model agents to autonomously use computers for software engineering tasks, including creating/editing code files, navigating repositories, and executing tests.",
+      "datasets_used": [
+        "SWE-bench",
+        "HumanEvalFix"
+      ],
+      "baselines_compared": [
+        "previous state-of-the-art with non-interactive LMs"
+      ],
+      "best_result": "87.7% pass@1 on HumanEvalFix",
+      "key_results": {
+        "SWE-bench_pass@1": "12.5%",
+        "HumanEvalFix_pass@1": "87.7%"
+      },
+      "limitations": [],
+      "code_available": true,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    }
+  ]
+}

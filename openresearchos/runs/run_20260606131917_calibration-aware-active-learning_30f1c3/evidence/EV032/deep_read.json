@@ -1,0 +1,44 @@
+{
+  "title": "Bayesian Uncertainty Quantification with Anchored Ensembles for Robust EV Power Consumption Prediction",
+  "methodology": {
+    "primary_model": "Long Short-Term Memory (LSTM) networks",
+    "uncertainty_quantification": {
+      "epistemic_uncertainty": "Addressed through Bayesian ensembling method",
+      "aleatoric_uncertainty": "Modeled through probabilistic output layer"
+    },
+    "data_source": "Real-world telematics data",
+    "key_innovation": "Combination of Bayesian ensembling with LSTM architectures and probabilistic output layers",
+    "previous_benchmarking": {
+      "models_compared": [
+        "LSTM",
+        "Temporal Convolutional Networks (TCNs)",
+        "Transformers",
+        "Random Forest"
+      ],
+      "finding": "LSTMs achieved comparable accuracy to more complex architectures"
+    },
+    "application_focus": "Online range management for electric vehicles"
+  },
+  "problem_context": {
+    "main_issue": "Driving-range uncertainty in battery electric vehicles",
+    "factors_affecting_uncertainty": [
+      "Driver behavior",
+      "Road grade",
+      "Surface conditions",
+      "Weather",
+      "Battery characteristics (type/age)"
+    ],
+    "importance": "Essential for mission planning, eco-routing, and coordinated driving"
+  },
+  "evidence_id": "EV032",
+  "year": 2025,
+  "arxiv_id": "2511.06538",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

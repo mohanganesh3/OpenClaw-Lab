@@ -1,0 +1,6 @@
+{
+  "introduction": "[2509.05381] Murphy’s Laws of AI Alignment: Why the Gap Always Wins\n\nMurphy’s Laws of AI Alignment: Why the Gap Always Wins\n\nMadhava Gaikwad\n\nmgaikwad@microsoft.com\n\nMicrosoft\n\nThis is a working paper",
+  "method": "(\n\n2  ​  ε\n\n)\n\n.\n\n\\inf_{\\widehat{\\pi}}\\;\\sup_{w\\in\\{+,-\\}}\\Big(V_{w}(\\pi^{w})-\\mathbb{E}_{w}[V_{w}(\\widehat{\\pi})]\\Big)\\;\\geq\\;\\frac{\\gamma}{4}\\exp\\!\\big(-n\\,\\alpha\\,\\kappa(\\varepsilon)\\big),\\qquad\\ka",
+  "results": "re defined by reward functions\n\nr  w\n\nr_{w}\n\nthat differ only on\n\nX  hard\n\nX_{\\mathrm{hard}}\n\n. Let\n\nπ  w\n\n\\pi^{w}\n\ndenote an optimal policy for\n\nr  w\n\nr_{w}\n\n. Define the separation parameter\n\nγ  =\n\n",
+  "conclusion": ".\n\n\\kappa(\\varepsilon)\\;=\\;D_{\\mathrm{KL}}\\!\\left(\\mathrm{Ber}\\!\\left(\\tfrac{1}{2}+\\varepsilon\\right)\\,\\middle\\|\\,\\mathrm{Ber}\\!\\left(\\tfrac{1}{2}-\\varepsilon\\right)\\right)\\;=\\;4\\varepsilon\\,\\mathrm{a"
+}

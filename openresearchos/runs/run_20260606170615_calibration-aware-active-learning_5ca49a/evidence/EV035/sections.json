@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\narXiv:2310.15952v5  [cs.LG]  29 Jun 2025\nIEEE TRANSACTIONS ON MEDICAL IMAGING, VOL. XX, NO. XX, XXXX 2020\n1\nImproving Robustness and Reliability in Medical\nImage Classification with La",
+  "method": "1:\nq(y1:T | y0, z, x) =\nT\nY\nt=1\nq(yt | yt−1, z, x).\n(7)\nThe parametric form of the forward transition density func-\ntion is represented as a Gaussian density function with a static\nvariance schedule {",
+  "results": "ll\ninput images perturbed with Gaussian noise (ð = 1.00).\n\n\n<!-- page 9 -->\nSHEN et al.: IMPROVING ROBUSTNESS AND RELIABILITY IN MEDICAL IMAGE CLASSIFICATION WITH LATENT-GUIDED DIFFUSION AND NESTED-\nE",
+  "conclusion": "draw 20 samples per ensemble member). When K = 5,\nthe classification accuracy is the highest for both datasets.\nWhen K is smaller, there is insufficient discrimination in the\nextracted features which "
+}

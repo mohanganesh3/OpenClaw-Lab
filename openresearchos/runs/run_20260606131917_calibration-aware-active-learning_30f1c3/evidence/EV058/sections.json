@@ -1,0 +1,6 @@
+{
+  "introduction": "[2407.14185] Achieving Well-Informed Decision-Making in Drug Discovery: A Comprehensive Calibration Study using Neural Network-Based Structure-Activity Models\n\nAchieving Well-Informed Decision-Making ",
+  "method": "nerates Hamiltonian Monte Carlo (HMC) trajectories to obtain samples for the parameters of a Bayesian Logistic Regression fitted to the hidden layer of the baseline neural network.\nWe report that BLP ",
+  "results": "lity of machine learning models.\nThis is particularly important for high-stakes decision processes like the drug discovery pipeline where experiments can be costly and poor decisions inevitably lead t",
+  "conclusion": "ely to be optimized by different hyperparameter settings  [ 15 ] .\nWang lists three major factors diminishing the probability calibration of a model, including large model size and over-parametrizatio"
+}

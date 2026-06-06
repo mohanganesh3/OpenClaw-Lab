@@ -1,0 +1,6 @@
+{
+  "introduction": "[2011.14307] Active Output Selection Strategies for Multiple Learning Regression Models\n\n\\SelectInputMappings\n\nadieresis=ä,germandbls=ß\n\nActive Output Selection Strategies for Multiple Learning Regres",
+  "method": "ltiple outputs.\nThat leaves the test engineer with a question:\nShould all models be learned sequentially or simultaneously?\nAnd if they learn simultaneously, how to decide which model is the leading o",
+  "results": "996 ] .\n [ Settles, 2009 ]  shows a broad overview of the current state of the art in this discipline and gives an outlook to multiple possible future work fields.\nRecent methodological advances in th",
+  "conclusion": "They presented two application examples with two outputs each and five respectively seven inputs.\nThe two outputs were modeled with a sequential strategy, which identifies an output model completely b"
+}

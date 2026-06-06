@@ -1,0 +1,88 @@
+{
+  "problem_addressed": "AI model development remains heavily manual and inaccessible to non-specialists, with existing automatic agents limited by static, outdated knowledge of their underlying LLMs.",
+  "core_claim": "AIBuildAI-2's knowledge-enhanced hierarchical agent with an evolving external knowledge system can autonomously build AI models matching expert human performance.",
+  "key_contributions": [
+    "Hierarchical knowledge system organizing AI development knowledge into high-level instructions and low-level documents",
+    "Continual evolution mechanism distilling completed runs into structured knowledge updates",
+    "Demonstrated state-of-the-art performance on MLE-Bench (70.7% medal rate) and top-tier human expert level in real competitions"
+  ],
+  "novelty": "External, evolving knowledge system that grounds decisions in verifiable expertise, unlike prior work's static knowledge bases or web-search retrieval",
+  "method_summary": "AIBuildAI-2 uses a hierarchical sub-agent architecture with dynamically loaded context from a curated knowledge system, continually updated through experience distillation.",
+  "method_components": [
+    "Hierarchical knowledge system with topical categories and documents",
+    "Dynamic context loading based on current task state",
+    "Experience distillation mechanism writing structured takeaways back to knowledge system",
+    "Sub-agents for autonomous model development tasks"
+  ],
+  "key_innovation": "Continual evolution of external knowledge system through experience distillation, enabling the agent to learn from its own successes and failures rather than relying solely on pre-trained knowledge",
+  "assumptions": [
+    "Web-collected AI development documents can be effectively organized into hierarchical categories",
+    "Experience distillation can capture valuable engineering insights",
+    "Relevant knowledge can be dynamically loaded based on task context"
+  ],
+  "theoretical_grounding": "Empirical validation through benchmark performance and competition results, no formal proofs provided",
+  "datasets_used": [],
+  "baselines_compared": [],
+  "metrics_used": [],
+  "hyperparameters": null,
+  "compute_required": null,
+  "seeds": null,
+  "headline_result": null,
+  "results_table": [],
+  "ablations": [],
+  "improvement_over_baseline": null,
+  "stated_limitations": [
+    "Performance is largely limited by the parametric knowledge of their underlying large language models"
+  ],
+  "unstated_weaknesses": [
+    "No mention of evaluation metrics for model quality",
+    "Lack of discussion on computational requirements",
+    "No analysis of failure cases or error modes"
+  ],
+  "threats_to_validity": [
+    "Generalization across different scientific domains",
+    "Potential bias in automatically generated models",
+    "Limited validation on real-world scientific applications"
+  ],
+  "reproducibility": "medium",
+  "open_questions": [
+    "How does the agent handle domain-specific requirements?",
+    "What is the computational cost of using this agent?",
+    "How does it compare to human-designed models?"
+  ],
+  "future_work": [
+    "Expanding to more scientific domains",
+    "Improving the knowledge base of the agent",
+    "Developing better evaluation metrics"
+  ],
+  "gaps_this_enables": [
+    "Enables automated model building for medical researchers without AI expertise",
+    "Could potentially accelerate development of medical imaging models"
+  ],
+  "relevance_to_topic": "This paper provides a framework for automated AI model building that could be adapted for medical image classification, though it doesn't specifically address calibration-aware active learning.",
+  "relation_type": "tangential",
+  "can_run_on_macbook": false,
+  "reusable_assets": [],
+  "code_available": false,
+  "code_url": null,
+  "best_result": null,
+  "key_results": {},
+  "limitations_stated": [
+    "Performance is largely limited by the parametric knowledge of their underlying large language models"
+  ],
+  "evidence_id": "EV005",
+  "title": "AIBuildAI-2: Scalable Agentic AI Research and Engineering",
+  "year": 2026,
+  "arxiv_id": "2605.27873",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 69106,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 12,
+  "pdf_tables": 0,
+  "pdf_captions": 4
+}

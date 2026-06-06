@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\nA Machine Learning Approach Capturing Hidden Parameters in Autonomous\nThin-Film Deposition\nYuanlong Zheng1,2, Connor Blake2, Layla Mravac2, Fengxue Zhang3, Yuxin Chen3, and Shuolong Ya",
+  "method": "rs [28].\nParameters such as substrate surface roughness, and\nresidual pressure of various elements in the chamber are\nunknown to us. Although some of these parameters can\nbe measured with various diff",
+  "results": "e to the hidden parameters unaccounted\nby the calibration layer and measurement noises (e.g. un-\ncertainty in laser power measurements).\nUnlike typical Bayesian optimizations aimed at opti-\nmizing a s",
+  "conclusion": "el performance is often neglected. Shrivastava\net al.[8] have made an effort to deliberately avoid grow-\ning at growth parameters that are particularly sensitive\nto such fluctuations. Our work represe"
+}

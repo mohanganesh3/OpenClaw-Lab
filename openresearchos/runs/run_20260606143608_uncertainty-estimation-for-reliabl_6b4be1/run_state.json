@@ -1,0 +1,3965 @@
+{
+  "schema_version": 1,
+  "run_id": "run_20260606143608_uncertainty-estimation-for-reliabl_6b4be1",
+  "topic": "uncertainty estimation for reliable medical image classification",
+  "created_at": "2026-06-06T14:36:29.208Z",
+  "updated_at": "2026-06-06T15:14:40.467Z",
+  "current_state": "TRACE_EXPORTED",
+  "scope_classification": {
+    "label": "local_experiment",
+    "rationale": "The topic can be explored with small simulations, synthetic data, or lightweight local experiments on the Mac.",
+    "feasibility_note": "Yes, this research topic is feasible on your MacBook M4 with 36GB RAM and Apple MPS GPU, as uncertainty estimation methods like Monte Carlo dropout or ensembles don't require excessive computational resources. For datasets, I recommend CheXpert (chest X-rays), MURA (musculoskeletal radiographs), or NIH ChestX-ray14, all of which are publicly available and suitable for uncertainty estimation research. You can expect experiment times of approximately 2-4 hours for smaller datasets like MURA, 8-16 "
+  },
+  "search_queries": [
+    "Uncertainty estimation methods",
+    "Deep learning uncertainty",
+    "Bayesian neural networks",
+    "Monte Carlo dropout",
+    "Competing uncertainty approaches",
+    "Medical image classification",
+    "Clinical decision support",
+    "Diagnostic uncertainty",
+    "Radiology uncertainty",
+    "Pathology uncertainty",
+    "Uncertainty benchmarks",
+    "Medical uncertainty datasets",
+    "Performance metrics uncertainty",
+    "Uncertainty estimation challenges",
+    "Uncertainty estimation surveys"
+  ],
+  "evidence_ids": [
+    "EV001",
+    "EV002",
+    "EV003",
+    "EV004",
+    "EV005",
+    "EV006",
+    "EV007",
+    "EV008",
+    "EV009",
+    "EV010",
+    "EV011",
+    "EV012",
+    "EV013",
+    "EV014",
+    "EV015",
+    "EV016",
+    "EV017",
+    "EV018",
+    "EV019",
+    "EV020",
+    "EV021",
+    "EV022",
+    "EV023",
+    "EV024",
+    "EV025",
+    "EV026",
+    "EV027",
+    "EV028",
+    "EV029",
+    "EV030",
+    "EV031",
+    "EV032",
+    "EV033",
+    "EV034",
+    "EV035",
+    "EV036",
+    "EV037",
+    "EV038",
+    "EV039",
+    "EV040",
+    "EV041",
+    "EV042",
+    "EV043",
+    "EV044",
+    "EV045",
+    "EV046",
+    "EV047",
+    "EV048",
+    "EV049",
+    "EV050",
+    "EV051",
+    "EV052",
+    "EV053",
+    "EV054"
+  ],
+  "parsed_papers": [
+    {
+      "evidence_id": "EV001",
+      "title": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery",
+      "year": 2024,
+      "url": "https://arxiv.org/abs/2408.06292",
+      "arxiv_id": "2408.06292",
+      "core_claim": "The AI Scientist is an AI system that generates novel research ideas, writes code, executes experiments, visualizes results, writes full scientific papers, and runs a simulated review process in an open-ended fashion.",
+      "method_or_focus": [
+        "A fully automated system that performs the entire scientific discovery process from idea generation to paper writing and evaluation at less than $15 per paper."
+      ],
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {
+        "reviewer_performance": "near-human performance in evaluating paper scores",
+        "paper_acceptance": "exceeds top conference acceptance threshold"
+      },
+      "best_result": "The AI Scientist can produce papers that exceed the acceptance threshold at a top machine learning conference as judged by the automated reviewer.",
+      "limitations": [],
+      "code_available": true,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "full_text_chars": 6031,
+      "full_text_tool": "arxiv_abstract_openclaw",
+      "possible_gap": "Based on full paper reading: A fully automated system that performs the entire scientific discovery process from idea generation to paper writing and evaluation at less than $15 per paper.",
+      "deep_read": {
+        "method_summary": "The AI Scientist is an AI system that generates novel research ideas, writes code, executes experiments, visualizes results, writes full scientific papers, and runs a simulated review process in an open-ended fashion.",
+        "key_innovation": "A fully automated system that performs the entire scientific discovery process from idea generation to paper writing and evaluation at less than $15 per paper.",
+        "datasets_used": [],
+        "baselines_compared": [],
+        "key_results": {
+          "reviewer_performance": "near-human performance in evaluating paper scores",
+          "paper_acceptance": "exceeds top conference acceptance threshold"
+        },
+        "best_result": "The AI Scientist can produce papers that exceed the acceptance threshold at a top machine learning conference as judged by the automated reviewer.",
+        "limitations_stated": [],
+        "code_available": true,
+        "code_url": null,
+        "reproducibility": "not specified",
+        "compute_required": "cost less than $15 per paper",
+        "can_run_on_macbook": "not specified",
+        "evidence_id": "EV001",
+        "title": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery",
+        "year": 2024,
+        "arxiv_id": "2408.06292",
+        "full_text_tool": "arxiv_abstract_openclaw",
+        "full_text_chars": 6031,
+        "sections_found": [
+          "introduction",
+          "method",
+          "results",
+          "conclusion"
+        ]
+      }
+    },
+    {
+      "evidence_id": "EV002",
+      "title": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
+      "year": 2025,
+      "url": "https://arxiv.org/abs/2504.08066",
+      "arxiv_id": "2504.08066",
+      "core_claim": "The AI Scientist-v2 uses a progressive agentic tree-search methodology managed by a dedicated experiment manager agent to autonomously generate scientific manuscripts, eliminating reliance on human-authored code templates and generalizing across diverse machine learning domains, with an enhanced AI reviewer component that integrates a Vision-Language Model feedback loop for iterative refinement of figures.",
+      "method_or_focus": [
+        "Novel progressive agentic tree-search methodology managed by a dedicated experiment manager agent that eliminates reliance on human-authored code templates and generalizes across diverse machine learning domains."
+      ],
+      "datasets_used": [],
+      "baselines_compared": [
+        "The AI Scientist-v1"
+      ],
+      "key_results": {
+        "peer_review_acceptance": "exceeded average human acceptance threshold"
+      },
+      "best_result": "One fully AI-generated manuscript exceeded the average human acceptance threshold in a peer-reviewed ICLR workshop, marking the first instance of a fully AI-generated paper successfully navigating peer review.",
+      "limitations": [],
+      "code_available": true,
+      "code_url": null,
+      "can_run_on_macbook": false,
+      "full_text_chars": 5885,
+      "full_text_tool": "arxiv_abstract_openclaw",
+      "possible_gap": "Based on full paper reading: Novel progressive agentic tree-search methodology managed by a dedicated experiment manager agent that eliminates reliance on human-authored code templates and generalizes across diverse machine learning domains.",
+      "deep_read": {
+        "method_summary": "The AI Scientist-v2 uses a progressive agentic tree-search methodology managed by a dedicated experiment manager agent to autonomously generate scientific manuscripts, eliminating reliance on human-authored code templates and generalizing across diverse machine learning domains, with an enhanced AI reviewer component that integrates a Vision-Language Model feedback loop for iterative refinement of figures.",
+        "key_innovation": "Novel progressive agentic tree-search methodology managed by a dedicated experiment manager agent that eliminates reliance on human-authored code templates and generalizes across diverse machine learning domains.",
+        "datasets_used": [],
+        "baselines_compared": [
+          "The AI Scientist-v1"
+        ],
+        "key_results": {
+          "peer_review_acceptance": "exceeded average human acceptance threshold"
+        },
+        "best_result": "One fully AI-generated manuscript exceeded the average human acceptance threshold in a peer-reviewed ICLR workshop, marking the first instance of a fully AI-generated paper successfully navigating peer review.",
+        "limitations_stated": [],
+        "code_available": true,
+        "code_url": null,
+        "reproducibility": "not_stated",
+        "compute_required": "not_stated",
+        "can_run_on_macbook": false,
+        "evidence_id": "EV002",
+        "title": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
+        "year": 2025,
+        "arxiv_id": "2504.08066",
+        "full_text_tool": "arxiv_abstract_openclaw",
+        "full_text_chars": 5885,
+        "sections_found": [
+          "introduction",
+          "method",
+          "results",
+          "conclusion"
+        ]
+      }
+    },
+    {
+      "evidence_id": "EV003",
+      "title": "Agent Laboratory: Using LLM Agents as Research Assistants",
+      "year": 2025,
+      "url": "https://arxiv.org/abs/2501.04227",
+      "arxiv_id": "2501.04227",
+      "core_claim": "Research paper: Agent Laboratory: Using LLM Agents as Research Assistants",
+      "method_or_focus": [
+        "See full text"
+      ],
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null,
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "full_text_chars": 5667,
+      "full_text_tool": "arxiv_abstract_openclaw",
+      "possible_gap": "Based on full paper reading: See full text",
+      "deep_read": {
+        "method_summary": "Research paper: Agent Laboratory: Using LLM Agents as Research Assistants",
+        "key_innovation": "See full text",
+        "datasets_used": [],
+        "baselines_compared": [],
+        "key_results": {},
+        "best_result": null,
+        "limitations_stated": [],
+        "code_available": false,
+        "code_url": null,
+        "reproducibility": "unknown",
+        "compute_required": "unknown",
+        "can_run_on_macbook": true,
+        "evidence_id": "EV003",
+        "title": "Agent Laboratory: Using LLM Agents as Research Assistants",
+        "year": 2025,
+        "arxiv_id": "2501.04227",
+        "full_text_tool": "arxiv_abstract_openclaw",
+        "full_text_chars": 5667,
+        "sections_found": [
+          "introduction",
+          "method",
+          "results",
+          "conclusion"
+        ]
+      }
+    },
+    {
+      "evidence_id": "EV004",
+      "title": "MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering",
+      "year": 2024,
+      "url": "https://arxiv.org/abs/2410.07095",
+      "arxiv_id": "2410.07095",
+      "core_claim": "The paper evaluates ML engineering capabilities of AI agents using Kaggle competitions as tasks, establishing human baselines from Kaggle leaderboards and testing various language models with open-source scaffolds.",
+      "method_or_focus": [
+        "MLE-bench, a benchmark for evaluating ML engineering capabilities of AI agents using real-world Kaggle competitions.",
+        "Kaggle competitions (diverse set of challenging tasks)"
+      ],
+      "datasets_used": [
+        "Kaggle competitions (diverse set of challenging tasks)"
+      ],
+      "baselines_compared": [
+        "Human baselines from Kaggle leaderboards"
+      ],
+      "key_results": {
+        "Kaggle bronze medal achievement": "16.9% of competitions"
+      },
+      "best_result": "OpenAI's o1-preview with AIDE scaffolding achieves at least the level of a Kaggle bronze medal in 16.9% of competitions.",
+      "limitations": [
+        "No explicit limitations mentioned in the provided text"
+      ],
+      "code_available": true,
+      "code_url": null,
+      "can_run_on_macbook": false,
+      "full_text_chars": 5420,
+      "full_text_tool": "arxiv_abstract_openclaw",
+      "possible_gap": "Based on full paper reading: MLE-bench, a benchmark for evaluating ML engineering capabilities of AI agents using real-world Kaggle competitions.",
+      "deep_read": {
+        "method_summary": "The paper evaluates ML engineering capabilities of AI agents using Kaggle competitions as tasks, establishing human baselines from Kaggle leaderboards and testing various language models with open-source scaffolds.",
+        "key_innovation": "MLE-bench, a benchmark for evaluating ML engineering capabilities of AI agents using real-world Kaggle competitions.",
+        "datasets_used": [
+          "Kaggle competitions (diverse set of challenging tasks)"
+        ],
+        "baselines_compared": [
+          "Human baselines from Kaggle leaderboards"
+        ],
+        "key_results": {
+          "Kaggle bronze medal achievement": "16.9% of competitions"
+        },
+        "best_result": "OpenAI's o1-preview with AIDE scaffolding achieves at least the level of a Kaggle bronze medal in 16.9% of competitions.",
+        "limitations_stated": [
+          "No explicit limitations mentioned in the provided text"
+        ],
+        "code_available": true,
+        "code_url": null,
+        "reproducibility": "Medium",
+        "compute_required": "Not specified",
+        "can_run_on_macbook": false,
+        "evidence_id": "EV004",
+        "title": "MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering",
+        "year": 2024,
+        "arxiv_id": "2410.07095",
+        "full_text_tool": "arxiv_abstract_openclaw",
+        "full_text_chars": 5420,
+        "sections_found": [
+          "introduction",
+          "method",
+          "results",
+          "conclusion"
+        ]
+      }
+    },
+    {
+      "evidence_id": "EV005",
+      "title": "AIBuildAI-2: Scalable Agentic AI Research and Engineering",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2605.27873",
+      "arxiv_id": "2605.27873",
+      "core_claim": "AIBuildAI-2 is a knowledge-enhanced agent with an external, hierarchical knowledge system that dynamically loads relevant context for AI model building, initialized with web-collected AI development documents and continually evolving through distilled experience from completed tasks.",
+      "method_or_focus": [
+        "an external, evolving knowledge system that dynamically loads relevant context for AI model building, initialized with web-collected AI development documents and continually evolving through distilled experience from completed tasks",
+        "MLE-Bench"
+      ],
+      "datasets_used": [
+        "MLE-Bench"
+      ],
+      "baselines_compared": [],
+      "key_results": {
+        "MLE-Bench": "70.7% medal rate",
+        "Heart disease prediction competition": "Top 6.6% among 4,370 human-expert teams"
+      },
+      "best_result": "First place on MLE-Bench with a 70.7% medal rate",
+      "limitations": [
+        "The performance of AI agents is limited by the static, often outdated, and sparse parametric knowledge of their underlying large language models, particularly on practical AI model engineering know-how"
+      ],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": false,
+      "full_text_chars": 5853,
+      "full_text_tool": "arxiv_html_openclaw",
+      "possible_gap": "Based on full paper reading: an external, evolving knowledge system that dynamically loads relevant context for AI model building, initialized with web-collected AI development documents and continually evolving through distilled experience from completed tasks",
+      "deep_read": {
+        "method_summary": "AIBuildAI-2 is a knowledge-enhanced agent with an external, hierarchical knowledge system that dynamically loads relevant context for AI model building, initialized with web-collected AI development documents and continually evolving through distilled experience from completed tasks.",
+        "key_innovation": "an external, evolving knowledge system that dynamically loads relevant context for AI model building, initialized with web-collected AI development documents and continually evolving through distilled experience from completed tasks",
+        "datasets_used": [
+          "MLE-Bench"
+        ],
+        "baselines_compared": [],
+        "key_results": {
+          "MLE-Bench": "70.7% medal rate",
+          "Heart disease prediction competition": "Top 6.6% among 4,370 human-expert teams"
+        },
+        "best_result": "First place on MLE-Bench with a 70.7% medal rate",
+        "limitations_stated": [
+          "The performance of AI agents is limited by the static, often outdated, and sparse parametric knowledge of their underlying large language models, particularly on practical AI model engineering know-how"
+        ],
+        "code_available": false,
+        "code_url": null,
+        "reproducibility": "Not enough information to assess",
+        "compute_required": "Not specified in the provided text",
+        "can_run_on_macbook": false,
+        "evidence_id": "EV005",
+        "title": "AIBuildAI-2: Scalable Agentic AI Research and Engineering",
+        "year": 2026,
+        "arxiv_id": "2605.27873",
+        "full_text_tool": "arxiv_html_openclaw",
+        "full_text_chars": 5853,
+        "sections_found": [
+          "introduction",
+          "method",
+          "results",
+          "conclusion"
+        ]
+      }
+    },
+    {
+      "evidence_id": "EV006",
+      "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+      "year": 2023,
+      "url": "https://arxiv.org/abs/2303.11366",
+      "arxiv_id": "2303.11366",
+      "core_claim": "Uses verbal feedback and memory to help agents improve across trials, motivating explicit failure memory and revision loops.",
+      "method_or_focus": [],
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null,
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "full_text_chars": 7998,
+      "full_text_tool": "arxiv_html_openclaw",
+      "possible_gap": "Based on full paper reading: See deep_read.json for details",
+      "deep_read": {
+        "paper_title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+        "method": {
+          "name": "Reflexion",
+          "description": "An alternative approach that uses verbal reinforcement to help agents learn from prior failings by converting binary or scalar feedback from the environment into verbal feedback in the form of a textual summary.",
+          "key_components": [
+            "Converts binary or scalar feedback into verbal feedback",
+            "Adds verbal feedback as additional context for the LLM agent in the next episode",
+            "Acts as a 'semantic' gradient signal providing concrete directions for improvement",
+            "Stores natural language experience summaries in long-term memory"
+          ],
+          "feedback_generation_methods": [
+            "Simple binary environment feedback",
+            "Pre-defined heuristics for common failure cases",
+            "Self-evaluation using binary classification with LLMs or self-written unit tests"
+          ]
+        },
+        "advantages": [
+          "Lightweight and doesn't require finetuning the LLM",
+          "Allows for more nuanced forms of feedback compared to scalar or vector rewards",
+          "Provides explicit and interpretable episodic memory over prior experiences",
+          "Provides more explicit hints for actions in future episodes"
+        ],
+        "disadvantages": [
+          "Relies on the power of the LLM's self-evaluation capabilities (or heuristics)",
+          "No formal guarantee for success"
+        ],
+        "experiments": {
+          "task_types": [
+            "Decision-making tasks (sequential action choices over long trajectories)",
+            "Reasoning tasks (knowledge-intensive, single-step generation improvement)",
+            "Programming tasks (teaching agents to use external tools)"
+          ],
+          "results": {
+            "decision_making": "22% improvement on AlfWorld tasks over strong baseline approaches in 12 iterative learning steps",
+            "reasoning": "20% improvement on HotPotQA questions",
+            "programming": "Improvement mentioned but details cut off in text"
+          }
+        },
+        "evidence_id": "EV006",
+        "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+        "year": 2023,
+        "arxiv_id": "2303.11366",
+        "full_text_tool": "arxiv_html_openclaw",
+        "full_text_chars": 7998,
+        "sections_found": [
+          "introduction",
+          "method",
+          "results",
+          "conclusion"
+        ]
+      }
+    },
+    {
+      "evidence_id": "EV007",
+      "title": "Self-Refine: Iterative Refinement with Self-Feedback",
+      "year": 2023,
+      "url": "https://arxiv.org/abs/2303.17651",
+      "arxiv_id": "2303.17651",
+      "core_claim": "Studies iterative generation, feedback, and refinement, providing background for reviewer-style critique and revision policies.",
+      "method_or_focus": [],
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null,
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "full_text_chars": 7996,
+      "full_text_tool": "arxiv_html_openclaw",
+      "possible_gap": "Based on full paper reading: See deep_read.json for details",
+      "deep_read": {
+        "title": "Self-Refine: Iterative Refinement with Self-Feedback",
+        "authors": "Not specified in the provided text.",
+        "summary": "This paper introduces 'Self-Refine', an iterative self-refinement algorithm for Large Language Models (LLMs). The method enables LLMs to improve their own outputs by generating self-feedback and using it to refine a draft, without requiring additional training or human assistance. It uses few-shot prompting to guide the process and demonstrates superior performance on diverse generation tasks compared to direct generation.",
+        "methodology": {
+          "core_concept": "Iterative self-refinement, where an LLM creates an initial draft and refines it based on self-generated feedback, inspired by human problem-solving.",
+          "algorithm_name": "Self-Refine (denoted as \\ours)",
+          "process": [
+            "The model (ℳ) generates an initial output.",
+            "The model (ℳ) generates 'feedback' on its own output.",
+            "The model (ℳ) uses the feedback to 'refine' the previous output.",
+            "Steps 2 and 3 are repeated iteratively until a stopping condition is met (e.g., a fixed number of iterations or the model determines no further refinement is needed)."
+          ],
+          "implementation_details": {
+            "technique": "Few-shot prompting is used to guide the model for both feedback generation and refinement.",
+            "model_used": "The same underlying language model (ℳ) is used for both feedback and refinement.",
+            "instantiation": "The method is instantiated with language models such as GPT-3.5.",
+            "supervision": "Does not require additional training, domain-specific data, or human assistance."
+          },
+          "problem_addressed": "Existing iterative refinement methods often rely on training a separate model with domain-specific data, external supervision, or reward models, which can be expensive or infeasible to obtain."
+        },
+        "key_contributions": [
+          "Demonstrates that LLMs can perform iterative self-refinement without additional training.",
+          "Proposes the 'Self-Refine' algorithm that uses a single model for feedback and refinement.",
+          "Shows that this approach leads to higher-quality outputs on a wide range of tasks."
+        ],
+        "evaluation": {
+          "tasks": "7 generation tasks spanning diverse domains, including natural language and source-code generation.",
+          "models_compared_to": "Strong LLMs like GPT-3.",
+          "models_used_for_method": "Language models such as GPT-3.5."
+        },
+        "results": {
+          "primary_finding": "The 'Self-Refine' algorithm outperforms direct generation from strong LLMs like GPT-3.",
+          "scope": "The result was observed across 7 diverse generation tasks."
+        },
+        "technical_terms": [
+          "Large Language Models (LLMs)",
+          "Iterative Refinement",
+          "Self-Refinement",
+          "Self-Feedback",
+          "Few-shot Prompting",
+          "GPT-3.5"
+        ],
+        "evidence_id": "EV007",
+        "year": 2023,
+        "arxiv_id": "2303.17651",
+        "full_text_tool": "arxiv_html_openclaw",
+        "full_text_chars": 7996,
+        "sections_found": [
+          "introduction",
+          "method",
+          "results",
+          "conclusion"
+        ]
+      }
+    },
+    {
+      "evidence_id": "EV008",
+      "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+      "year": 2023,
+      "url": "https://arxiv.org/abs/2305.16291",
+      "arxiv_id": "2305.16291",
+      "core_claim": "Demonstrates open-ended skill acquisition with memory and iterative exploration, relevant to long-running agent loops and durable lessons.",
+      "method_or_focus": [],
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null,
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "full_text_chars": 7998,
+      "full_text_tool": "arxiv_html_openclaw",
+      "possible_gap": "Based on full paper reading: See deep_read.json for details",
+      "deep_read": {
+        "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+        "authors": "Not specified in provided text",
+        "abstract": "Voyager is the first LLM-powered embodied lifelong learning agent that drives exploration, masters a wide range of skills, and makes new discoveries continually without human intervention in Minecraft.",
+        "domain": "Embodied AI, Lifelong Learning",
+        "application": "Minecraft game environment",
+        "key_components": [
+          "Automatic curriculum for open-ended exploration",
+          "Skill library for storing and retrieving complex behaviors",
+          "Iterative prompting mechanism that generates executable code for embodied control"
+        ],
+        "technical_approach": {
+          "method": "In-context learning with blackbox LLM (GPT-4)",
+          "action_space": "Code instead of low-level motor commands",
+          "training": "No explicit gradient-based training or finetuning"
+        },
+        "key_contributions": [
+          "First LLM-powered embodied lifelong learning agent",
+          "Self-driven exploration in Minecraft",
+          "Continual skill acquisition and discovery",
+          "Outperforms baselines in discovering new items and skills"
+        ],
+        "evaluation": {
+          "environment": "Minecraft",
+          "metrics": "Number of prompting iterations",
+          "comparison": "Outperforms baselines"
+        },
+        "claims": [
+          "Voyager discovers new Minecraft items and skills continually by self-driven exploration",
+          "Voyager significantly outperforms baselines",
+          "Voyager has capabilities similar to human players in Minecraft"
+        ],
+        "evidence_id": "EV008",
+        "year": 2023,
+        "arxiv_id": "2305.16291",
+        "full_text_tool": "arxiv_html_openclaw",
+        "full_text_chars": 7998,
+        "sections_found": [
+          "introduction",
+          "method",
+          "results",
+          "conclusion"
+        ]
+      }
+    },
+    {
+      "evidence_id": "EV009",
+      "title": "AgentBench: Evaluating LLMs as Agents",
+      "year": 2023,
+      "url": "https://arxiv.org/abs/2308.03688",
+      "arxiv_id": "2308.03688",
+      "core_claim": "Introduces agent evaluation tasks and motivates structured benchmarks for agent behavior rather than isolated text quality.",
+      "method_or_focus": [],
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null,
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "full_text_chars": 7998,
+      "full_text_tool": "arxiv_html_openclaw",
+      "possible_gap": "Based on full paper reading: See deep_read.json for details",
+      "deep_read": {
+        "title": "AgentBench: Evaluating LLMs as Agents",
+        "authors": [
+          {
+            "name": "XL",
+            "contribution": "Lead author (equal contribution)"
+          },
+          {
+            "name": "HY",
+            "contribution": "Lead author (equal contribution)"
+          }
+        ],
+        "contact_emails": [
+          "shawliu9@gmail.com",
+          "longinyh@gmail.com"
+        ],
+        "repositories": [
+          {
+            "type": "GitHub",
+            "url": "https://github.com/THUDM/AgentBench"
+          }
+        ],
+        "demo_website": "https://llmbench.ai/agent",
+        "benchmark": {
+          "name": "AgentBench",
+          "purpose": "Evaluating LLMs as Agents",
+          "environments": 8,
+          "llms_evaluated": 27,
+          "environment_categories": [
+            {
+              "type": "Code",
+              "environments": [
+                "Operating System",
+                "Database",
+                "Knowledge Graph"
+              ]
+            },
+            {
+              "type": "Game",
+              "environments": [
+                "Digital Card Game",
+                "Lateral Thinking Puzzles",
+                "House-Holding"
+              ]
+            },
+            {
+              "type": "Web",
+              "environments": [
+                "Web Shopping"
+              ]
+            }
+          ]
+        },
+        "evidence_id": "EV009",
+        "year": 2023,
+        "arxiv_id": "2308.03688",
+        "full_text_tool": "arxiv_html_openclaw",
+        "full_text_chars": 7998,
+        "sections_found": [
+          "introduction",
+          "method",
+          "results",
+          "conclusion"
+        ]
+      }
+    },
+    {
+      "evidence_id": "EV010",
+      "title": "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
+      "year": 2024,
+      "url": "https://arxiv.org/abs/2405.15793",
+      "arxiv_id": "2405.15793",
+      "core_claim": "SWE-agent introduces a custom agent-computer interface (ACI) that enables language model agents to autonomously perform software engineering tasks by enhancing their ability to create/edit code files, navigate repositories, and execute tests.",
+      "method_or_focus": [
+        "Custom agent-computer interface (ACI) designed specifically for language model agents to interact with software engineering environments",
+        "SWE-bench",
+        "HumanEvalFix"
+      ],
+      "datasets_used": [
+        "SWE-bench",
+        "HumanEvalFix"
+      ],
+      "baselines_compared": [
+        "previous state-of-the-art achieved with non-interactive LMs"
+      ],
+      "key_results": {
+        "pass@1_SWE-bench": 12.5,
+        "pass@1_HumanEvalFix": 87.7
+      },
+      "best_result": "87.7% pass@1 on HumanEvalFix",
+      "limitations": [],
+      "code_available": true,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "full_text_chars": 5595,
+      "full_text_tool": "arxiv_abstract_openclaw",
+      "possible_gap": "Based on full paper reading: Custom agent-computer interface (ACI) designed specifically for language model agents to interact with software engineering environments",
+      "deep_read": {
+        "method_summary": "SWE-agent introduces a custom agent-computer interface (ACI) that enables language model agents to autonomously perform software engineering tasks by enhancing their ability to create/edit code files, navigate repositories, and execute tests.",
+        "key_innovation": "Custom agent-computer interface (ACI) designed specifically for language model agents to interact with software engineering environments",
+        "datasets_used": [
+          "SWE-bench",
+          "HumanEvalFix"
+        ],
+        "baselines_compared": [
+          "previous state-of-the-art achieved with non-interactive LMs"
+        ],
+        "key_results": {
+          "pass@1_SWE-bench": 12.5,
+          "pass@1_HumanEvalFix": 87.7
+        },
+        "best_result": "87.7% pass@1 on HumanEvalFix",
+        "limitations_stated": [],
+        "code_available": true,
+        "code_url": null,
+        "reproducibility": "high",
+        "compute_required": "Not specified",
+        "can_run_on_macbook": true,
+        "evidence_id": "EV010",
+        "title": "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
+        "year": 2024,
+        "arxiv_id": "2405.15793",
+        "full_text_tool": "arxiv_abstract_openclaw",
+        "full_text_chars": 5595,
+        "sections_found": [
+          "introduction",
+          "method",
+          "results",
+          "conclusion"
+        ]
+      }
+    },
+    {
+      "evidence_id": "EV011",
+      "title": "Incorporating Forest Mapping-Related Uncertainty into the Error Propagation of Wall-to-Wall Biomass Maps: A General Approach for Large and Small Areas",
+      "year": 2024,
+      "url": "https://www.semanticscholar.org/paper/001befe37323c3403758c3eefdcf97381b355cd7",
+      "core_claim": "Ignoring uncertainty from forest cover mapping in error propagation for wall-to-wall AGB maps leads to inaccurate confidence intervals for totals.",
+      "method_or_focus": [
+        "analytical procedure",
+        "stratified estimator",
+        "model-assisted estimator"
+      ],
+      "limitations": [
+        "Previous methods often ignore uncertainty from forest cover mapping."
+      ],
+      "possible_gap": "A significant gap in current research is the lack of methods to quantify and incorporate forest mapping-related uncertainty into the error propagation of wall-to-wall AGB maps.",
+      "full_text_tool": "abstract_only",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null
+    },
+    {
+      "evidence_id": "EV012",
+      "title": "High-fidelity retrieval from instantaneous line-of-sight returns of nacelle-mounted lidar including supervised machine learning",
+      "year": 2022,
+      "url": "https://www.semanticscholar.org/paper/0022e50d1226a335827d9e68d76564f32e44edf7",
+      "core_claim": "High-fidelity retrieval techniques can reduce uncertainties, specifically solid interference and spectral noise, in nacelle-mounted Doppler lidar measurements.",
+      "method_or_focus": [
+        "high-fidelity retrieval techniques"
+      ],
+      "limitations": [
+        "solid interference",
+        "spectral noise"
+      ],
+      "possible_gap": "The abstract is incomplete, cutting off before detailing the specific 'high-fidelity retrieval techniques' or their validation.",
+      "full_text_tool": "abstract_only",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null
+    },
+    {
+      "evidence_id": "EV013",
+      "title": "Active Interaction in Driving: An Intention-Aware Decision-Making for Autonomous Vehicles",
+      "year": 2024,
+      "url": "https://www.semanticscholar.org/paper/002512c94cb160095ce8d07f50f84c169f623072",
+      "core_claim": "The paper proposes an active interaction approach for autonomous driving where the ego vehicle's behavior is designed to improve confidence in other vehicles' intention estimations.",
+      "method_or_focus": [
+        "Active Interaction",
+        "Bayes filter-based intention estimator"
+      ],
+      "limitations": [
+        "The approach is challenged when predictions of other vehicles' intentions are highly uncertain (approximate equiprobability), potentially leading to conservative or unsafe decisions."
+      ],
+      "possible_gap": "A potential gap is the lack of detail on the specific behavioral strategies the ego vehicle employs to elicit clearer intentions from surrounding vehicles.",
+      "full_text_tool": "abstract_only",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null
+    },
+    {
+      "evidence_id": "EV014",
+      "title": "ERGO-II: An Improved Bayesian Optimization Technique for Robust Design with Multiple Objectives, Failed Evaluations and Stochastic Parameters",
+      "year": 2024,
+      "url": "https://www.semanticscholar.org/paper/00288c9cc404184fbacb22c52d4c3f6cf8faf214",
+      "core_claim": "The paper introduces ERGO-II, an improved Bayesian Optimization technique for robust design under uncertainty.",
+      "method_or_focus": [
+        "Bayesian Optimization",
+        "Multi-objective optimization"
+      ],
+      "limitations": [
+        "Computational challenges associated with optimization-under-uncertainty."
+      ],
+      "possible_gap": "The original ERGO method may have been computationally inefficient or had limited capabilities for handling complex robust design problems.",
+      "full_text_tool": "abstract_only",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null
+    },
+    {
+      "evidence_id": "EV015",
+      "title": "Doubly Robust Distributionally Robust Off-Policy Evaluation and Learning",
+      "year": 2022,
+      "url": "https://www.semanticscholar.org/paper/0028a0b7df09d75e4ca2b2b8ff4e61df1d5b74fa",
+      "arxiv_id": "2202.09667",
+      "core_claim": "Off-policy evaluation and learning (OPE/L) use offline observational data to make better decisions, which is crucial in applications where online experimentation is limited. However, depending entirel",
+      "method_or_focus": [],
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null,
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "full_text_chars": 7998,
+      "full_text_tool": "arxiv_html_openclaw",
+      "possible_gap": "Based on full paper reading: See deep_read.json for details",
+      "deep_read": {
+        "title": "Doubly Robust Distributionally Robust Off-Policy Evaluation and Learning",
+        "authors": "Not specified in the provided text",
+        "abstract": "The paper proposes a doubly robust approach for distributionally robust off-policy evaluation and learning, addressing the challenge of discrepancies between training and deployment environments.",
+        "keywords": [
+          "off-policy evaluation",
+          "off-policy learning",
+          "distributional robustness",
+          "doubly robust estimation"
+        ],
+        "methodology": {
+          "problem": "Estimating/maximizing worst-case returns over environments within an uncertainty set around the unknown training environment",
+          "approach": "Doubly robust approach that combines propensity modeling with expected reward modeling",
+          "key_technique": "Cross-fitted DR estimator (CFDR)",
+          "uncertainty_set": "KL-divergence based"
+        },
+        "contributions": [
+          "Proposes a doubly robust approach for distributionally robust OPE/L",
+          "Improves upon SNIPS-based methods by addressing propensity estimation issues",
+          "Achieves better statistical properties including N-consistency, asymptotic linearity, and efficiency"
+        ],
+        "applications": [
+          "Online recommendations in search engines",
+          "E-commerce",
+          "Social media",
+          "Streaming platforms",
+          "Healthcare",
+          "Education"
+        ],
+        "evidence_id": "EV015",
+        "year": 2022,
+        "arxiv_id": "2202.09667",
+        "full_text_tool": "arxiv_html_openclaw",
+        "full_text_chars": 7998,
+        "sections_found": [
+          "introduction",
+          "method",
+          "results",
+          "conclusion"
+        ]
+      }
+    },
+    {
+      "evidence_id": "EV016",
+      "title": "Adaptive control of single-rod hydraulic cylinder based on meta-cognitive fuzzy neural network",
+      "year": 2026,
+      "url": "https://www.semanticscholar.org/paper/00368fa56265b29f4fb82b5cd7d9a4ac0441d6f7",
+      "core_claim": "This paper presents a meta-cognitive fuzzy adaptive controller for a single-rod hydraulic cylinder.",
+      "method_or_focus": [
+        "meta-cognitive fuzzy",
+        "adaptive control"
+      ],
+      "limitations": [
+        "High computational complexity of the meta-cognitive fuzzy system."
+      ],
+      "possible_gap": "Existing fuzzy controllers for hydraulic systems lack the self-awareness and dynamic learning capabilities of a meta-cognitive approach.",
+      "full_text_tool": "abstract_only",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null
+    },
+    {
+      "evidence_id": "EV017",
+      "title": "Voting shrinkage algorithm for Covariance Matrix Estimation and its application to portfolio selection",
+      "year": 2020,
+      "url": "https://www.semanticscholar.org/paper/003cfbf0edc319686589fb5df868071507367004",
+      "core_claim": "The paper proposes a data-driven approach that combines shrinkage estimation and cross-validation to adapt the shrinkage intensity for better covariance matrix estimation.",
+      "method_or_focus": [
+        "shrinkage estimation",
+        "cross-validation"
+      ],
+      "limitations": [
+        "The abstract is incomplete and does not provide any experimental results or performance metrics."
+      ],
+      "possible_gap": "The paper claims the method is applicable to asset management but lacks experimental validation to demonstrate its effectiveness in improving portfolio selection.",
+      "full_text_tool": "abstract_only",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null
+    },
+    {
+      "evidence_id": "EV018",
+      "title": "Learning-Based Tracking Control of Unknown Robot Systems with Online Parameter Estimation",
+      "year": 2024,
+      "url": "https://www.semanticscholar.org/paper/003f1e33b8406c5815534d240f29cba7663f67eb",
+      "core_claim": "This paper proposes a novel learning-based optimal control approach for tracking control of robot manipulators with model parameter uncertainty.",
+      "method_or_focus": [
+        "Neural network identifier",
+        "Optimal tracking controller with critic network",
+        "Online weight adaptation law"
+      ],
+      "limitations": [],
+      "possible_gap": "The gap lies in the lack of an optimal, learning-based control method that can effectively manage the tracking of robot manipulators with significant model parameter uncertainty.",
+      "full_text_tool": "abstract_only",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null
+    },
+    {
+      "evidence_id": "EV019",
+      "title": "Aging States Estimation and Monitoring Strategies of Li-Ion Batteries Using Incremental Capacity Analysis and Gaussian Process Regression",
+      "year": 2026,
+      "url": "https://www.semanticscholar.org/paper/00446c3187c6e4673ad8166e0676c51047706d27",
+      "arxiv_id": "2603.26155",
+      "core_claim": "Existing approaches for battery health forecasting often rely on extensive cycling histories and continuously monitored cells. In contrast, many real-world scenarios provide only sparse information, e",
+      "method_or_focus": [],
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null,
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "full_text_chars": 7998,
+      "full_text_tool": "arxiv_html_openclaw",
+      "possible_gap": "Based on full paper reading: See deep_read.json for details",
+      "deep_read": {
+        "paper_metadata": {
+          "title": "Aging States Estimation and Monitoring Strategies of Li-Ion Batteries Using Incremental Capacity Analysis and Gaussian Process Regression",
+          "authors": [],
+          "abstract": null,
+          "keywords": [
+            "Li-ion batteries",
+            "State of Health (SoH)",
+            "Remaining Useful Life (RUL)",
+            "Incremental Capacity Analysis (ICA)",
+            "Gaussian Process Regression (GPR)",
+            "Machine Learning",
+            "Data-efficient methods"
+          ],
+          "problem_statement": "Accurate estimation of State of Health (SoH) and Remaining Useful Life (RUL) is essential for predictive maintenance and safety, but existing methods often require dense cycling histories which are not available in practical scenarios with only a few diagnostic cycles.",
+          "objectives": "To develop data-efficient approaches for estimating SoH and RUL from sparse measurements, specifically using Incremental Capacity Analysis and Gaussian Process Regression.",
+          "methods": [
+            {
+              "name": "Incremental Capacity Analysis (ICA)",
+              "type": "Experimental Analysis Method",
+              "description": "An indirect analysis method used for battery aging analysis."
+            },
+            {
+              "name": "Gaussian Process Regression (GPR)",
+              "type": "Machine Learning / Data-driven Model",
+              "description": "A machine learning approach used for regression tasks, applied here for SoH and RUL estimation."
+            }
+          ],
+          "related_methods": [
+            "Support Vector Regression (SVR)",
+            "Long Short-Term Neural Networks (LSTMs)",
+            "Fully Connected Feedforward Neural Networks (FFNNs)",
+            "Deep Learning Architectures"
+          ],
+          "data_sources": [
+            "Voltage",
+            "Current",
+            "Temperature",
+            "Capacity over time"
+          ],
+          "key_findings": [
+            "Electro-chemical models are limited by extensive parametrization and computational effort.",
+            "Electric equivalent circuit models require large, high-resolution datasets for optimization.",
+            "Machine learning approaches, including GPR, are gaining attention for SoH and RUL estimation due to their ability to handle complex relationships.",
+            "A key challenge is mapping sparse raw measurement data to meaningful features describing battery aging."
+          ],
+          "challenges_addressed": [
+            "Difficulty of applying methods that rely on dense cycling histories when only a few diagnostic cycles are available.",
+            "Need for data-efficient approaches to extract information from sparse measurements.",
+            "High computational cost and extensive parametrization requirements of some model-based methods (e.g., electro-chemical models)."
+          ]
+        },
+        "evidence_id": "EV019",
+        "title": "Aging States Estimation and Monitoring Strategies of Li-Ion Batteries Using Incremental Capacity Analysis and Gaussian Process Regression",
+        "year": 2026,
+        "arxiv_id": "2603.26155",
+        "full_text_tool": "arxiv_html_openclaw",
+        "full_text_chars": 7998,
+        "sections_found": [
+          "introduction",
+          "method",
+          "results",
+          "conclusion"
+        ]
+      }
+    },
+    {
+      "evidence_id": "EV020",
+      "title": "Robust Interacting Multiple Model Unscented Particle Filter for Navigation",
+      "year": 2020,
+      "url": "https://www.semanticscholar.org/paper/0045aa8437d38056f7c0d476ef1ac0c8d7ab21b2",
+      "core_claim": "A robust interacting multiple model unscented particle filter algorithm is presented to solve the problems of particle degradation and difficulty in selecting the importance density function in particle filter algorithms.",
+      "method_or_focus": [
+        "interacting multiple model",
+        "particle filter",
+        "unscented transformation",
+        "robust equivalent weight function"
+      ],
+      "limitations": [],
+      "possible_gap": "The abstract describes the proposed algorithm's mechanism but lacks any information on its performance, validation, or comparison with existing methods.",
+      "full_text_tool": "abstract_only",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null
+    },
+    {
+      "evidence_id": "EV021",
+      "title": "Finite Time State-of-Charge Observer With Robustness Against Unknown Parameter Uncertainties",
+      "year": 2023,
+      "url": "https://www.semanticscholar.org/paper/00461af7b92720580cdba158b20e5d9a3e38df2c",
+      "core_claim": "This paper proposes a state-of-charge observer that achieves finite-time stability and is robust against unknown and time-varying parameter uncertainties.",
+      "method_or_focus": [
+        "Equivalent circuit model (ECM)",
+        "Hybrid identification method"
+      ],
+      "limitations": [
+        "Assumes that parameter uncertainties and noises are only bounded."
+      ],
+      "possible_gap": "Future work could focus on extending the method to not only be robust against unknown parameters but also to actively estimate them in real-time.",
+      "full_text_tool": "abstract_only",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null
+    },
+    {
+      "evidence_id": "EV022",
+      "title": "Towards black-box parameter estimation",
+      "year": 2023,
+      "url": "https://www.semanticscholar.org/paper/0052a8b498c1d03f61a03035bb5941796ca37503",
+      "arxiv_id": "2303.15041",
+      "core_claim": "Deep learning algorithms have recently been shown to be a successful tool in estimating parameters of statistical models for which simulation is easy, but likelihood computation is challenging. This i",
+      "method_or_focus": [],
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null,
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "full_text_chars": 7998,
+      "full_text_tool": "arxiv_html_openclaw",
+      "possible_gap": "Based on full paper reading: See deep_read.json for details",
+      "deep_read": {
+        "title": "Towards black-box parameter estimation",
+        "methodology": {
+          "aim": "Scientific adequacy rather than computational tractability",
+          "problem": "Likelihood computation becomes effectively impossible when moving away from Gaussian processes",
+          "applications": [
+            "Finance",
+            "Climate science"
+          ],
+          "approximate_methods": [
+            {
+              "name": "Indirect inference",
+              "reference": "Gourieroux et al., 1993"
+            },
+            {
+              "name": "Likelihood-free inference",
+              "reference": "Grelaud et al., 2009; Gutmann and Corander, 2016"
+            },
+            {
+              "name": "Simulation-based inference",
+              "reference": "Nickl and Pötscher, 2010"
+            },
+            {
+              "name": "Synthetic likelihood",
+              "reference": "Wood, 2010"
+            }
+          ],
+          "focus_method": "Approximate Bayesian Computation (ABC)",
+          "abc_approach": "Avoids evaluating intractable likelihoods by matching summary statistics from observations with those computed from simulated data based on parameters drawn from a predefined prior distribution",
+          "abc_formula": "Probability that γ(x_sim, x_obs) < ε",
+          "abc_components": [
+            {
+              "name": "γ",
+              "description": "Distance measure"
+            },
+            {
+              "name": "ε",
+              "description": "Trade-off between sample efficiency and inference quality"
+            }
+          ]
+        },
+        "results": {
+          "limitations": "ABC is not scalable to large numbers of observations",
+          "solutions": [
+            {
+              "approach": "Deep learning capabilities",
+              "reference": "Hermans et al., 2020",
+              "method": "Classifier to approximate density ratios proportional to likelihood estimation"
+            },
+            {
+              "approach": "CNN with MLEs",
+              "reference": "Gerber and Nychka, 2020",
+              "application": "Parameter estimation in Gaussian processes",
+              "limitation": "Case-specific and not scalable, CNN must be retrained with new MLEs for each new testing dataset"
+            },
+            {
+              "approach": "Alternative to MLEs",
+              "reference": "Lenzi et al., 2021",
+              "benefit": "Avoids the shortcoming of using MLEs"
+            }
+          ]
+        },
+        "evidence_id": "EV022",
+        "year": 2023,
+        "arxiv_id": "2303.15041",
+        "full_text_tool": "arxiv_html_openclaw",
+        "full_text_chars": 7998,
+        "sections_found": [
+          "introduction",
+          "method",
+          "results",
+          "conclusion"
+        ]
+      }
+    },
+    {
+      "evidence_id": "EV023",
+      "title": "A Novel Remaining Useful Life Prognostic Framework Combining Sample Convolutional Interaction Network and Fractal Brownian Motion",
+      "year": 2024,
+      "url": "https://www.semanticscholar.org/paper/005736bc546c5cd07249bd25b3e6304d5c5c6256",
+      "core_claim": "This article develops an innovative prognostic framework for predicting the remaining useful life (RUL) of MOSFET devices.",
+      "method_or_focus": [
+        "Sample Convolutional Interaction Network (SCINet)"
+      ],
+      "limitations": [
+        "The framework is based on data from an accelerated aging platform, which may not fully capture all real-world degradation mechanisms."
+      ],
+      "possible_gap": "There was a need for a novel and effective framework to accurately predict the remaining useful life of Power MOSFETs to improve system reliability and maintenance planning.",
+      "full_text_tool": "abstract_only",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null
+    },
+    {
+      "evidence_id": "EV024",
+      "title": "Enabling uncertainty estimation in neural networks through weight perturbation for improved Alzheimer's disease classification",
+      "year": 2024,
+      "url": "https://www.semanticscholar.org/paper/0058bc64face11bf54657ea70c33b1b37dcb85b2",
+      "core_claim": "A method is proposed to convert standard neural networks into Bayesian neural networks for uncertainty estimation by sampling similar networks during inference.",
+      "method_or_focus": [
+        "Weight perturbation to sample networks",
+        "Combination with a tunable rejection-based approach"
+      ],
+      "limitations": [
+        "The method employs only a fraction of the data, which may limit its performance or applicability."
+      ],
+      "possible_gap": "The abstract does not discuss the computational overhead of sampling multiple networks at each forward pass.",
+      "full_text_tool": "abstract_only",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null
+    },
+    {
+      "evidence_id": "EV025",
+      "title": "A methodology to account for dynamic variability in micro-vibration analysis of satellites",
+      "year": 2020,
+      "url": "https://www.semanticscholar.org/paper/005ba146965922150209e4629b9c56046a818e0d",
+      "core_claim": "Paper about methodology, account, dynamic, variability (abstract-only, no PDF read).",
+      "method_or_focus": [
+        "methodology",
+        "account",
+        "dynamic",
+        "variability",
+        "micro-vibration",
+        "analysis"
+      ],
+      "limitations": [
+        "Abstract only — full PDF not read."
+      ],
+      "possible_gap": "Need full PDF reading to identify specific gaps in this paper.",
+      "full_text_tool": "keyword_fallback",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null
+    },
+    {
+      "evidence_id": "EV026",
+      "title": "Robust steady‐state matrix‐weighted fusion filtering for multisensor multichannel autoregressive signal with multiple uncertainties",
+      "year": 2023,
+      "url": "https://www.semanticscholar.org/paper/005d2362263d8a59a1f9c743d54a15e9d9e8b148",
+      "core_claim": "This article investigates the robust steady‐state matrix‐weighted fusion (MWF) filtering problem for multisensor multichannel autoregressive (AR) signal with multiple uncertainties, which can be transformed into the state estimation problems in the state space representation.",
+      "method_or_focus": [
+        "Matrix-Weighted Fusion (MWF) filtering",
+        "State-space representation and estimation",
+        "Modeling uncertainties with Bernoulli stochastic variables"
+      ],
+      "limitations": [
+        "Focuses on steady-state filtering, not the transient phase.",
+        "Assumes known conditional probabilities for the stochastic variables."
+      ],
+      "possible_gap": "The abstract does not present any results or performance comparisons to demonstrate the effectiveness of the proposed method.",
+      "full_text_tool": "abstract_only",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null
+    },
+    {
+      "evidence_id": "EV027",
+      "title": "Uncertainty Evaluation of a Gas Turbine Model Based on a Nonlinear Autoregressive Exogenous Model and Monte Carlo Dropout",
+      "year": 2024,
+      "url": "https://www.semanticscholar.org/paper/0067a61c515bd4d10030da27adfab8b0597aea61",
+      "core_claim": "This work aims to develop a gas turbine model using NARX and LSTM neural networks to optimize its operation.",
+      "method_or_focus": [
+        "NARX",
+        "LSTM"
+      ],
+      "limitations": [
+        "The model's applicability might be limited to the specific gas turbine it was trained on."
+      ],
+      "possible_gap": "The abstract does not detail the specific methods or results of the uncertainty evaluation, focusing instead on the model's development.",
+      "full_text_tool": "abstract_only",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null
+    },
+    {
+      "evidence_id": "EV028",
+      "title": "An Automatic Early Warning Method for Electricity Market Trading Risks Based on Bayesian Network",
+      "year": 2025,
+      "url": "https://www.semanticscholar.org/paper/006adb93f855f305319a615153ccd7238a8277a0",
+      "core_claim": "This paper proposes an automatic early warning method for electricity market trading risks by constructing a Bayesian network to estimate transaction risk values.",
+      "method_or_focus": [
+        "Bayesian network"
+      ],
+      "limitations": [],
+      "possible_gap": "The paper does not discuss the model's performance against other state-of-the-art risk prediction methods or its real-world deployment and validation.",
+      "full_text_tool": "abstract_only",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null
+    },
+    {
+      "evidence_id": "EV029",
+      "title": "Efficient Uncertainty Estimation in Semantic Segmentation via Distillation",
+      "year": 2021,
+      "url": "https://www.semanticscholar.org/paper/006d395b773636e539d0b23aecb1a8e23c99c20c",
+      "core_claim": "This paper proposes an efficient method for uncertainty estimation in semantic segmentation using distillation.",
+      "method_or_focus": [
+        "Distillation"
+      ],
+      "limitations": [
+        "Existing methods for uncertainty estimation are computationally expensive due to multiple forward passes."
+      ],
+      "possible_gap": "The abstract is incomplete and does not describe the specific distillation method proposed to achieve efficient uncertainty estimation.",
+      "full_text_tool": "abstract_only",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null
+    },
+    {
+      "evidence_id": "EV030",
+      "title": "Tube Loss based Deep Networks For Improving the Probabilistic Forecasting of Wind Speed",
+      "year": 2025,
+      "url": "https://www.semanticscholar.org/paper/007626142eeedc29341d7c0afd3cea0d29d2195f",
+      "arxiv_id": "2505.18284",
+      "core_claim": "Uncertainty Quantification (UQ) in wind speed forecasting is a critical challenge in wind power production due to the inherently volatile nature of wind. By quantifying the associated risks and return",
+      "method_or_focus": [],
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null,
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "full_text_chars": 7998,
+      "full_text_tool": "arxiv_html_openclaw",
+      "possible_gap": "Based on full paper reading: See deep_read.json for details",
+      "deep_read": {
+        "title": "Tube Loss based Deep Networks For Improving the Probabilistic Forecasting of Wind Speed",
+        "authors": "Not specified in the provided text",
+        "abstract": "The paper introduces Tube Loss based Deep Networks for improving probabilistic forecasting of wind speed, addressing challenges related to volatility and uncertainty in wind energy systems.",
+        "introduction": {
+          "background": "Wind energy is a rapidly growing renewable energy source with unlimited availability and minimal environmental impact. In 2023, new global wind power capacity is expected to surpass 100 GW for the first time, with projections reaching 143 GW by the end of the decade.",
+          "problem": "The high volatility and uncertainty of wind speed present significant challenges for maintaining safe and stable power system operation, scheduling turbine maintenance, and integrating with the power grid.",
+          "importance": "Effective wind speed modeling and prediction plays a crucial role in the overall wind power generation process."
+        },
+        "methodology": {
+          "approach": "Tube Loss based Deep Networks",
+          "focus": "Probabilistic forecasting of wind speed",
+          "categories": [
+            {
+              "name": "Parametric or Distribution-based models",
+              "description": "Assume the predictive distribution and estimate parameters efficiently",
+              "examples": [
+                {
+                  "authors": "Khosravi et al.",
+                  "method": "Mean-Variance Estimation (MVE) with Neural Networks",
+                  "assumption": "Gaussian distribution"
+                },
+                {
+                  "authors": "Afrasiabi et al.",
+                  "method": "Mixture of Gaussian density with deep neural architectures"
+                }
+              ]
+            },
+            {
+              "name": "Distribution-free methods",
+              "description": "Do not assume a specific distribution",
+              "subcategories": "Three major groups (details not fully provided in truncated text)"
+            }
+          ]
+        },
+        "key_concepts": [
+          "Probabilistic forecasting",
+          "Prediction Interval (PI)",
+          "Confidence level (1-α)",
+          "Conditional quantiles",
+          "Wind speed forecasting",
+          "Tube Loss"
+        ],
+        "applications": [
+          "Power system reserve setting",
+          "Unit commitment",
+          "Market trading",
+          "Power system operation",
+          "Turbine maintenance scheduling",
+          "Grid integration"
+        ],
+        "related_work": [
+          {
+            "authors": "Khosravi et al.",
+            "publication": "[9] and [10]",
+            "method": "Mean-Variance Estimation (MVE) method for probabilistic forecasting of wind power"
+          },
+          {
+            "authors": "Afrasiabi et al.",
+            "publication": "[3]",
+            "method": "Mixture of Gaussian density for modeling the predictive distribution by stacking different deep neural architectures"
+          },
+          {
+            "authors": "Authors of [11] and [12]",
+            "contribution": "Recognized the need for modeling the predictive distribution with non-Gaussian distribution for wind speed forecasting"
+          }
+        ],
+        "evidence_id": "EV030",
+        "year": 2025,
+        "arxiv_id": "2505.18284",
+        "full_text_tool": "arxiv_html_openclaw",
+        "full_text_chars": 7998,
+        "sections_found": [
+          "introduction",
+          "method",
+          "results",
+          "conclusion"
+        ]
+      }
+    },
+    {
+      "evidence_id": "EV031",
+      "title": "Bayesian Uncertainty Quantification with Anchored Ensembles for Robust EV Power Consumption Prediction",
+      "year": 2025,
+      "url": "https://www.semanticscholar.org/paper/007a574b022c44511032bb685a62932d8056e8fb",
+      "arxiv_id": "2511.06538",
+      "core_claim": "Accurate EV power estimation underpins range prediction and energy management, yet practitioners need both point accuracy and trustworthy uncertainty. We propose an anchored-ensemble Long Short-Term M",
+      "method_or_focus": [],
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null,
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "full_text_chars": 7998,
+      "full_text_tool": "arxiv_html_openclaw",
+      "possible_gap": "Based on full paper reading: See deep_read.json for details",
+      "deep_read": {
+        "paper_title": "Bayesian Uncertainty Quantification with Anchored Ensembles for Robust EV Power Consumption Prediction",
+        "abstract": "This paper addresses the challenge of driving-range uncertainty in Battery Electric Vehicles (BEVs) by developing a robust model for energy consumption prediction. Using real-world telematics data, the authors employ a Long Short-Term Memory (LSTM) network to estimate instantaneous power consumption. The core contribution is a comprehensive Uncertainty Quantification (UQ) analysis that captures both aleatoric and epistemic uncertainty. They adopt a Bayesian ensembling method extended to LSTMs to model epistemic uncertainty and incorporate a probabilistic output layer to model aleatoric uncertainty, resulting in predictive intervals suitable for online range management and decision-making.",
+        "research_questions_or_objectives": [
+          "To estimate instantaneous power consumption using an LSTM network.",
+          "To perform a comprehensive Uncertainty Quantification (UQ) analysis for EV power prediction.",
+          "To capture and model both aleatoric and epistemic sources of uncertainty.",
+          "To generate predictive intervals suitable for online range management in EVs."
+        ],
+        "methodology": {
+          "model_type": "Long Short-Term Memory (LSTM) network",
+          "data_source": "real-world telematics",
+          "task": "Power consumption prediction",
+          "uncertainty_quantification": {
+            "approach": "Bayesian ensembling with a probabilistic output layer",
+            "epistemic_uncertainty_method": "A Bayesian ensembling method [pearce2020uncertainty] is adopted and extended to LSTM architectures to capture uncertainty from limited or biased training data.",
+            "aleatoric_uncertainty_method": "A probabilistic output layer is incorporated to model uncertainty arising from inherent variability in driving conditions and sensor noise.",
+            "goal": "To produce predictive intervals that track error scales for reliable online range management."
+          }
+        },
+        "key_concepts": [
+          "Uncertainty Quantification (UQ)",
+          "Aleatoric Uncertainty",
+          "Epistemic Uncertainty",
+          "Bayesian Ensembles",
+          "Predictive Intervals",
+          "Electric Vehicle (EV) Power Consumption",
+          "LSTM"
+        ],
+        "applications": [
+          "Mission planning",
+          "Eco-routing",
+          "Coordinated driving (e.g., platooning)",
+          "Online range management",
+          "EV energy management systems"
+        ],
+        "citations": [
+          "european2021transport",
+          "eccc2023emissions",
+          "shen2023personalized",
+          "madhusudhanan2021computationally",
+          "wager2016driving",
+          "zhang2022optimal",
+          "zhang2021eco",
+          "barhoumi2025fuel",
+          "qu2022urban",
+          "fiori2016power",
+          "yuan2017method",
+          "pan2023development",
+          "maia2015electrical",
+          "zhang2024review",
+          "chen2021data",
+          "valdenegro2022deeper",
+          "yahyaabadi2025deep",
+          "pearce2020uncertainty"
+        ],
+        "notes": "The paper focuses exclusively on LSTM models, having previously benchmarked them against other architectures (TCNs, Transformers, Random Forest) in prior work [yahyaabadi2025deep].",
+        "evidence_id": "EV031",
+        "title": "Bayesian Uncertainty Quantification with Anchored Ensembles for Robust EV Power Consumption Prediction",
+        "year": 2025,
+        "arxiv_id": "2511.06538",
+        "full_text_tool": "arxiv_html_openclaw",
+        "full_text_chars": 7998,
+        "sections_found": [
+          "introduction",
+          "method",
+          "results",
+          "conclusion"
+        ]
+      }
+    },
+    {
+      "evidence_id": "EV032",
+      "title": "Distributed Fusion Estimation for Nonlinear Binary Sensor Systems",
+      "year": 2024,
+      "url": "https://www.semanticscholar.org/paper/007b1ba27d9a831837af41d9dcc61f875c58098f",
+      "core_claim": "This paper presents a method for distributed nonlinear fusion estimation in clustered binary sensor networks.",
+      "method_or_focus": [
+        "Cubature Kalman Filter (CKF)",
+        "Matrix Inequality Technique",
+        "Enhanced Sequential Covariance Fusion"
+      ],
+      "limitations": [
+        "The abstract is incomplete, cutting off mid-description of the fusion algorithm."
+      ],
+      "possible_gap": "The method is specifically designed for clustered networks and its applicability to other network topologies, such as fully distributed or centralized systems, is not explored.",
+      "full_text_tool": "abstract_only",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null
+    },
+    {
+      "evidence_id": "EV033",
+      "title": "An Intelligent Area Localization Framework for Rotating Machine Vision Vibration Measurement",
+      "year": 2022,
+      "url": "https://www.semanticscholar.org/paper/000bd1e06b5813a19a9317d62d414b4042ce89ad",
+      "core_claim": "The paper proposes an intelligent framework to automate the selection of optimal measurement areas for vision-based vibration analysis, overcoming the limitations of manual point selection.",
+      "method_or_focus": [
+        "Intelligent area localization",
+        "Automated measurement point selection"
+      ],
+      "limitations": [
+        "Relies on manual point selection based on prior knowledge and experience."
+      ],
+      "possible_gap": "The abstract does not detail the validation process or performance comparison of the proposed intelligent framework against existing manual methods.",
+      "full_text_tool": "abstract_only",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null
+    },
+    {
+      "evidence_id": "EV034",
+      "title": "\"Bridging Accuracy AND Transparency: Explainable Ai IN Healthcare -A Review\"",
+      "year": 2025,
+      "url": "https://www.semanticscholar.org/paper/00121274415799b3a250b0deab7dcc7189ad886d",
+      "core_claim": "This study investigates how Explainable AI (XAI) might improve decision-making in the healthcare industry by fostering greater transparency, trust, and dependability.",
+      "method_or_focus": [
+        "exploring XAI approaches",
+        "interpretable-by-design"
+      ],
+      "limitations": [
+        "opaqueness of high-performing models"
+      ],
+      "possible_gap": "The gap between the high accuracy of AI models and their lack of transparency in critical healthcare applications.",
+      "full_text_tool": "abstract_only",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null
+    },
+    {
+      "evidence_id": "EV035",
+      "title": "Open-World Semi-Supervised Learning",
+      "year": 2021,
+      "url": "https://www.semanticscholar.org/paper/0016122bc5dfe0684baaa672c53014d48b79a65f",
+      "arxiv_id": "2102.03526",
+      "core_claim": "A fundamental limitation of applying semi-supervised learning in real-world settings is the assumption that unlabeled test data contains only classes previously encountered in the labeled training dat",
+      "method_or_focus": [],
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null,
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "full_text_chars": 7998,
+      "full_text_tool": "arxiv_html_openclaw",
+      "possible_gap": "Based on full paper reading: See deep_read.json for details",
+      "deep_read": {
+        "paper_title": "Open-World Semi-Supervised Learning",
+        "problem_setting": {
+          "name": "Open-World Semi-Supervised Learning (Open-World SSL)",
+          "description": "A generalization of semi-supervised learning and novel class discovery",
+          "data_requirements": {
+            "labeled_dataset": "Contains instances from seen classes",
+            "unlabeled_dataset": "Contains instances from both seen and unseen classes"
+          },
+          "model_task": "Either classify instances into previously seen classes or discover new classes and assign instances to them"
+        },
+        "key_assumptions": [
+          "New classes can emerge in test data that have never been seen during training",
+          "The assumption that training and test data come from the same set of predefined classes rarely holds in real-world scenarios"
+        ],
+        "applications": [
+          {
+            "domain": "Biology",
+            "description": "Classifying known cell types and discovering novel cell types in new tissue"
+          },
+          {
+            "domain": "Social Networks",
+            "description": "Classifying users into predefined interest groups while discovering new interests"
+          }
+        ],
+        "relationships_to_other_work": {
+          "robust_semi_supervised_learning": {
+            "difference": "Robust SSL only requires recognizing instances from novel classes as out-of-distribution, while open-world SSL aims to discover individual novel classes and assign instances to them"
+          },
+          "novel_class_discovery": {
+            "difference": "Novel class discovery assumes unlabeled data is composed only of novel classes, while open-world SSL is more general as instances in unlabeled data can come from both seen and novel classes"
+          }
+        },
+        "limitations_of_existing_approaches": [
+          "Multi-step approaches combining robust SSL and novel class discovery don't perform well in practice",
+          "Treating all classes as 'novel' and then matching them back to seen classes also doesn't work well"
+        ],
+        "figure_references": [
+          {
+            "figure_number": 1,
+            "description": "Illustrates the open-world SSL setting, showing that the unlabeled dataset may contain classes not encountered in the labeled set"
+          }
+        ],
+        "evidence_id": "EV035",
+        "title": "Open-World Semi-Supervised Learning",
+        "year": 2021,
+        "arxiv_id": "2102.03526",
+        "full_text_tool": "arxiv_html_openclaw",
+        "full_text_chars": 7998,
+        "sections_found": [
+          "introduction",
+          "method",
+          "results",
+          "conclusion"
+        ]
+      }
+    },
+    {
+      "evidence_id": "EV036",
+      "title": "AI-Enabled mm-Waveform Configuration for Autonomous Vehicles With Integrated Communication and Sensing",
+      "year": 2022,
+      "url": "https://www.semanticscholar.org/paper/001e47dd55a986e827ca398837f2b3e3c30dc603",
+      "arxiv_id": "2202.11508",
+      "core_claim": "Integrated communications and sensing (ICS) has recently emerged as an enabling technology for ubiquitous sensing and IoT applications. For ICS application to autonomous vehicles (AVs), optimizing the",
+      "method_or_focus": [],
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null,
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "full_text_chars": 7997,
+      "full_text_tool": "arxiv_html_openclaw",
+      "possible_gap": "Based on full paper reading: See deep_read.json for details",
+      "deep_read": {
+        "title": "AI-Enabled mm-Waveform Configuration for Autonomous Vehicles With Integrated Communication and Sensing",
+        "abstract": "This paper develops a novel Integrated Communication and Sensing (ICS) framework established on the Markov decision process and deep reinforcement learning. The ICS-AV can adaptively optimize its waveform structure without requiring complete knowledge of the surrounding environment, maximizing sensing and data communication performance under dynamic and uncertain conditions. Simulations show up to 46.26% improvement in joint communication and sensing performance compared to baseline methods.",
+        "keywords": [
+          "Autonomous vehicles",
+          "Internet of Vehicles (IoV) joint communication and sensing",
+          "MDP",
+          "deep reinforcement learning",
+          "waveform structure optimization"
+        ],
+        "problem": "Separate communication and sensing systems in autonomous vehicles lead to increased hardware costs, complexity, and spectrum resource usage. Current vehicular communication standards (C-ITS at 5.9 GHz and DSRC at 5.9 GHz) have data rates (up to 27 Mbps) that don't meet AV requirements.",
+        "solution": "An Integrated Communication and Sensing (ICS) framework based on Markov decision process and deep reinforcement learning to enable adaptive waveform structure optimization.",
+        "methodology": [
+          "Markov decision process",
+          "Deep reinforcement learning"
+        ],
+        "results": "Up to 46.26% improvement in joint communication and sensing performance compared to baseline methods.",
+        "application_domain": "Autonomous vehicles (self-driving cars, unmanned aerial vehicles) and Internet of Vehicles (IoV)",
+        "frequency_bands": [
+          "5.9 GHz",
+          "mm-wave"
+        ],
+        "evidence_id": "EV036",
+        "year": 2022,
+        "arxiv_id": "2202.11508",
+        "full_text_tool": "arxiv_html_openclaw",
+        "full_text_chars": 7997,
+        "sections_found": [
+          "introduction",
+          "method",
+          "results",
+          "conclusion"
+        ]
+      }
+    },
+    {
+      "evidence_id": "EV037",
+      "title": "Home Energy Management Algorithm Based on Deep Reinforcement Learning Using Multistep Prediction",
+      "year": 2021,
+      "url": "https://www.semanticscholar.org/paper/0023bfd99e36c41464ec46b601a84f6e6cc71ed2",
+      "core_claim": "This paper proposes a home energy management algorithm using deep reinforcement learning to solve energy optimization problems in the face of power demand and supply uncertainties.",
+      "method_or_focus": [
+        "Deep Reinforcement Learning"
+      ],
+      "limitations": [
+        "Difficulties in attaining the optimum control law due to uncertainties in power demand and supply."
+      ],
+      "possible_gap": "The paper focuses on energy optimization but does not explicitly mention how user comfort or preferences are factored into the control algorithm.",
+      "full_text_tool": "abstract_only",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null
+    },
+    {
+      "evidence_id": "EV038",
+      "title": "Explainable Neuro-Symbolic Spiking Neural Networks fo rHigh-Precision Intracranial Tumor Diagnosis",
+      "year": 2025,
+      "url": "https://www.semanticscholar.org/paper/0029f5caf8d4d8de881759d51bd08ba4ec2bbe8c",
+      "core_claim": "This paper introduces an explainable neuro-symbolic spiking neural network (NS-SNN) framework for high-precision and fully interpretable intracranial tumor diagnosis.",
+      "method_or_focus": [
+        "biologically inspired spike-based computation",
+        "symbolic reasoning mechanisms"
+      ],
+      "limitations": [
+        "black-box nature of deep learning"
+      ],
+      "possible_gap": "The abstract does not detail how the 'fully interpretable' nature of the model is achieved or validated.",
+      "full_text_tool": "abstract_only",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null
+    },
+    {
+      "evidence_id": "EV039",
+      "title": "Multi-Source Energy Storage Day-Ahead and Intra-Day Scheduling Based on Deep Reinforcement Learning with Attention Mechanism",
+      "year": 2025,
+      "url": "https://www.semanticscholar.org/paper/0031be00d28586dd58c48461871f67a632319835",
+      "core_claim": "This study develops a multi-time scale coordination scheduling framework to balance cost minimization and renewable energy utilization.",
+      "method_or_focus": [
+        "Deep Reinforcement Learning",
+        "Multi-time scale coordination scheduling framework"
+      ],
+      "limitations": [
+        "Existing methods rely on inflexible physical models.",
+        "Existing DRL methods fail to prioritize critical variables or synergize multi-source energy storage and demand response."
+      ],
+      "possible_gap": "The need for extensive real-world validation and testing of the framework's performance under highly dynamic, real-time conditions.",
+      "full_text_tool": "abstract_only",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null
+    },
+    {
+      "evidence_id": "EV040",
+      "title": "Exploring an application-oriented land-based hyperspectral target detection framework based on 3D–2D CNN and transfer learning",
+      "year": 2024,
+      "url": "https://www.semanticscholar.org/paper/00327abd6b4f48588d8d26332cb8abe89cb97ddc",
+      "core_claim": "An application-oriented land-based hyperspectral target detection framework based on 3D–2D CNN and transfer learning is proposed.",
+      "method_or_focus": [
+        "3D–2D CNN",
+        "transfer learning",
+        "spectral similarity evaluation indicators"
+      ],
+      "limitations": [
+        "Scope is limited to land-based applications",
+        "Does not clarify if the method is supervised or unsupervised"
+      ],
+      "possible_gap": "The paper does not specify whether the proposed framework is a supervised or unsupervised method, leaving a gap in understanding its training requirements and applicability compared to the other main class of methods.",
+      "full_text_tool": "abstract_only",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null
+    },
+    {
+      "evidence_id": "EV041",
+      "title": "Carbon-Aware Smart Transportation Simulation Driven by Deep Learning and Policy Scenarios",
+      "year": 2025,
+      "url": "https://www.semanticscholar.org/paper/0035bf98f34df98cf95013f448129b3886480d49",
+      "core_claim": "This study proposes a carbon-aware smart mobility simulation framework designed to support low-emission urban transportation planning through data-driven modeling and simulation.",
+      "method_or_focus": [
+        "LSTM",
+        "Monte Carlo-style scenario engine",
+        "Permutation-based feature attribution",
+        "Perturbation sensitivity analysis"
+      ],
+      "limitations": [
+        "Evaluation is performed under uncertainty"
+      ],
+      "possible_gap": "The study proposes a simulation framework, but its real-world implementation and validation in an actual city are not addressed.",
+      "full_text_tool": "abstract_only",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null
+    },
+    {
+      "evidence_id": "EV042",
+      "title": "EPCO-29. PATHOMICS ANALYSIS IDENTIFIES POTENTIAL SUBTYPES OF DIFFUSE GLIOMAS IN H&E-STAINED WHOLE-SLIDE IMAGES",
+      "year": 2024,
+      "url": "https://www.semanticscholar.org/paper/0036c342d8baf08d95f96eb6f7d803c89b271133",
+      "core_claim": "Pathomics analysis can identify potential subtypes of diffuse gliomas.",
+      "method_or_focus": [
+        "Uncertainty-Aware Convolutional Neural Network (CNN)",
+        "Deep Learning"
+      ],
+      "limitations": [
+        "The previous model was trained on a small dataset."
+      ],
+      "possible_gap": "The abstract is incomplete, leaving the specific improvements and findings of the expanded study unstated.",
+      "full_text_tool": "abstract_only",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null
+    },
+    {
+      "evidence_id": "EV043",
+      "title": "A Comprehensive Review of Reinforcement Learning",
+      "year": 2025,
+      "url": "https://www.semanticscholar.org/paper/0050e27d2bd0857143c85ad19796cbea7e313392",
+      "core_claim": "This survey provides a comprehensive overview of Reinforcement Learning (RL), beginning with fundamental concepts and progressing to the prominent categories of RL algorithms.",
+      "method_or_focus": [
+        "Literature review",
+        "Categorization of algorithm families"
+      ],
+      "limitations": [
+        "As a high-level review, it may not cover the deep technical details of every specific algorithm."
+      ],
+      "possible_gap": "The paper focuses on established RL families and may not cover emerging trends or future research directions in the field.",
+      "full_text_tool": "abstract_only",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null
+    },
+    {
+      "evidence_id": "EV044",
+      "title": "Distributionally Robust Proximal Policy Optimization for Unit Commitment with Wind Power Uncertainty",
+      "year": 2023,
+      "url": "https://www.semanticscholar.org/paper/00526311a4346643d2535fb3ec35876f0489c80e",
+      "core_claim": "The authors propose a deep reinforcement learning algorithm enhanced with distributionally robust optimization to solve the computationally expensive unit commitment problem under uncertainty.",
+      "method_or_focus": [
+        "Deep Reinforcement Learning (DRL)",
+        "Distributionally Robust Optimization (DRO)"
+      ],
+      "limitations": [
+        "The computation time of traditional methods for solving the unit commitment problem grows exponentially with the increasing scale."
+      ],
+      "possible_gap": "The abstract is cut off, leaving the specific improvements gained from using distributionally robust optimization unclear.",
+      "full_text_tool": "abstract_only",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null
+    },
+    {
+      "evidence_id": "EV045",
+      "title": "A Universal PINNs Method for Solving Partial Differential Equations with a Point Source",
+      "year": 2022,
+      "url": "https://www.semanticscholar.org/paper/00597f1a3a15739105e302079045d0f7715ca100",
+      "core_claim": "The paper proposes a universal PINNs method to solve partial differential equations with a point source.",
+      "method_or_focus": [
+        "Universal PINNs Method"
+      ],
+      "limitations": [
+        "Conventional PINNs cannot solve PDEs with a point source due to the singularity of the Dirac delta function."
+      ],
+      "possible_gap": "The paper focuses on PDEs with a point source, but its application to more complex or time-varying source distributions is not addressed.",
+      "full_text_tool": "abstract_only",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null
+    },
+    {
+      "evidence_id": "EV046",
+      "title": "Traffic Flow Prediction for UTM Application: A Deep Learning Approach",
+      "year": 2022,
+      "url": "https://www.semanticscholar.org/paper/005dff4dc37f6a2e0ad9ec426686bf5cd204fb0b",
+      "core_claim": "This research study proposes a deep learning-based approach to predict air traffic congestion in the context of UTM over a period of three minutes.",
+      "method_or_focus": [
+        "deep learning"
+      ],
+      "limitations": [
+        "The model predicts traffic flow over a limited period of three minutes."
+      ],
+      "possible_gap": "There is limited research on predicting air traffic flows specifically for Uncrewed Aircraft Traffic Management (UTM).",
+      "full_text_tool": "abstract_only",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null
+    },
+    {
+      "evidence_id": "EV047",
+      "title": "Semi-automated annotation of cell type-specific protein expression patterns in human testis based on immunohistochemistry",
+      "year": 2020,
+      "url": "https://www.semanticscholar.org/paper/0060346bd1e8cb7f4229e50dfa442956d588a6dd",
+      "core_claim": "We developed a semi-automated framework for multi-label classification of IHC images to provide a reliable model for annotating cell type-specific protein expression patterns in human tissues.",
+      "method_or_focus": [
+        "Semi-automated framework",
+        "Multi-label classification"
+      ],
+      "limitations": [
+        "Manual annotation is expensive and prone to errors/inter-observer variability.",
+        "Confidence in AI predictions needs to be addressed."
+      ],
+      "possible_gap": "Confidence in AI predictions needs to be addressed.",
+      "full_text_tool": "abstract_only",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null
+    },
+    {
+      "evidence_id": "EV048",
+      "title": "Artificial intelligence and sustainable development",
+      "year": 2020,
+      "url": "https://www.semanticscholar.org/paper/0063f259380a5836d90f0b9ebc4a0639926ce32a",
+      "core_claim": "Artificial intelligence is profoundly impacting global sustainability, with the potential to create either a utopian or a dystopian future.",
+      "method_or_focus": [],
+      "limitations": [
+        "The provided abstract is incomplete, limiting the full understanding of the paper's scope."
+      ],
+      "possible_gap": "The abstract does not specify the mechanisms through which AI could lead to either a utopian or dystopian future.",
+      "full_text_tool": "abstract_only",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null
+    },
+    {
+      "evidence_id": "EV049",
+      "title": "Deep learning-assisted composition recognition and recycling process optimization for end-of-life lithium-ion batteries",
+      "year": 2026,
+      "url": "https://www.semanticscholar.org/paper/006426b1c61e4f5500fa704d9a247e108c77889a",
+      "core_claim": "This paper presents an integrated model that uses deep learning to recognize the composition of battery black mass and optimize recycling routes.",
+      "method_or_focus": [
+        "Deep learning for composition recognition",
+        "Multiobjective optimization",
+        "Multibranch encoder with attention-based late fusion",
+        "Hydrometallurgy, Pyrometallurgy, Direct regeneration"
+      ],
+      "limitations": [
+        "Requires complex, multimodal data input (spectra, images) which may be expensive or time-consuming to acquire."
+      ],
+      "possible_gap": "The abstract does not detail the specific objectives or constraints used in the multiobjective optimization of the recycling routes.",
+      "full_text_tool": "abstract_only",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null
+    },
+    {
+      "evidence_id": "EV050",
+      "title": "Single-Site Perishable Inventory Management Under Uncertainties: A Deep Reinforcement Learning Approach",
+      "year": 2023,
+      "url": "https://www.semanticscholar.org/paper/00647a552e1de161e796fa61b2e0d0f0c1e1b860",
+      "core_claim": "This paper presents a theoretical competitive ratio and a reinforcement learning-based algorithm for a novel perishable inventory management problem (LS-PMU).",
+      "method_or_focus": [
+        "Reinforcement Learning",
+        "Theoretical Analysis"
+      ],
+      "limitations": [
+        "Not specified in the abstract."
+      ],
+      "possible_gap": "The abstract is incomplete, cutting off before fully describing the reinforcement learning algorithm and its performance evaluation.",
+      "full_text_tool": "abstract_only",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null
+    },
+    {
+      "evidence_id": "EV051",
+      "title": "Robust adversarial uncertainty quantification for deep learning fine-tuning",
+      "year": 2023,
+      "url": "https://www.semanticscholar.org/paper/0068951933767006cce00c86cdc1a4a836d162f1",
+      "core_claim": "This paper proposes a deep learning model that is robust and capable of handling highly uncertain inputs.",
+      "method_or_focus": [
+        "entropy-based candidate selection",
+        "merging training set with adversarial samples"
+      ],
+      "limitations": [
+        "The quality and nature of the initial dataset are not specified."
+      ],
+      "possible_gap": "The abstract is incomplete, cutting off mid-sentence.",
+      "full_text_tool": "abstract_only",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null
+    },
+    {
+      "evidence_id": "EV052",
+      "title": "Deep generative classification of blood cell morphology",
+      "year": 2024,
+      "url": "https://www.semanticscholar.org/paper/00741afb7162a85bed5bfe6444e44f60427c0673",
+      "arxiv_id": "2408.08982",
+      "core_claim": "Blood cell morphology assessment via light microscopy constitutes a cornerstone of haematological diagnostics, providing crucial insights into diverse pathological conditions. This complex task demand",
+      "method_or_focus": [],
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null,
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "full_text_chars": 7998,
+      "full_text_tool": "arxiv_html_openclaw",
+      "possible_gap": "Based on full paper reading: See deep_read.json for details",
+      "deep_read": {
+        "title": "Deep generative classification of blood cell morphology",
+        "authors": [
+          {
+            "affiliation": "1 Department of Applied Mathematics and Theoretical Physics, University of Cambridge, Cambridge, UK"
+          },
+          {
+            "affiliation": "2 Department of Laboratory Medicine, UZ Leuven, Leuven, Belgium"
+          },
+          {
+            "affiliation": "3 Department of Cardiovascular Sciences, Center for Molecular and Vascular Biology, University of Leuven, Leuven, Belgium"
+          },
+          {
+            "affiliation": "4 Department of Oncology, KU Leuven, Leuven, Belgium"
+          },
+          {
+            "affiliation": "5 Zuyderland Medical Center, Sittard-Geleen, Netherlands"
+          },
+          {
+            "affiliation": "6 Barts Health NHS Trust, London, United Kingdom"
+          },
+          {
+            "affiliation": "7 Queen Square Institute of Neurology, University College London, London, UK"
+          },
+          {
+            "affiliation": "8 Queen Mary University of London, London, United Kingdom"
+          },
+          {
+            "affiliation": "9 Department of Haematology, University of Cambridge, Cambridge, UK"
+          },
+          {
+            "affiliation": "10 Department of Medicine, University of Cambridge, Cambridge, UK"
+          }
+        ],
+        "equal_contribution": [
+          "Author(s) marked with †"
+        ],
+        "methodology": {
+          "model": "Diffusion model",
+          "process": [
+            "Input image x₀ is encoded into a latent space using an encoder ℰ",
+            "Gaussian noise ε ~ N(0,I) is added to create a noisy latent representation zₜ",
+            "The noisy representation is fed through a diffusion model for each possible class condition c",
+            "The model predicts the noise ε_θ for each condition",
+            "Classification decision is made by selecting the class that minimizes the error between predicted noise and true noise"
+          ],
+          "objective_function": "argmin_c E_{ε,t}[w_t‖ε - ε_θ(z_t,t,c)‖²₂]"
+        },
+        "code_availability": "https://github.com/Deltadahl/CytoDiffusion",
+        "research_focus": "Blood cell morphology classification",
+        "key_insights": [
+          "Blood cell morphology is described as complex and requiring expert visual description",
+          "The task of morphological characterization is open-ended and lacks definitive ground truth",
+          "Simple blood counts of cell class frequencies don't capture the richness of morphological appearances"
+        ],
+        "evidence_id": "EV052",
+        "year": 2024,
+        "arxiv_id": "2408.08982",
+        "full_text_tool": "arxiv_html_openclaw",
+        "full_text_chars": 7998,
+        "sections_found": [
+          "introduction",
+          "method",
+          "results",
+          "conclusion"
+        ]
+      }
+    },
+    {
+      "evidence_id": "EV053",
+      "title": "Generalized Regularized Evidential Deep Learning Models: Theory and Comprehensive Evaluation",
+      "year": 2025,
+      "url": "https://www.semanticscholar.org/paper/00749673598867f940bee5494d46ebbd367dbeef",
+      "arxiv_id": "2512.23753",
+      "core_claim": "Evidential deep learning (EDL) models, based on Subjective Logic, introduce a principled and computationally efficient way to make deterministic neural networks uncertainty-aware. The resulting eviden",
+      "method_or_focus": [],
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null,
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "full_text_chars": 7998,
+      "full_text_tool": "arxiv_html_openclaw",
+      "possible_gap": "Based on full paper reading: See deep_read.json for details",
+      "deep_read": {
+        "paper_title": "Generalized Regularized Evidential Deep Learning Models: Theory and Comprehensive Evaluation",
+        "problem_statement": "Deep Learning models can overfit noise in training data, leading to overconfident predictions. This challenge is compounded in specialized domains where labeled data is limited and costly to obtain.",
+        "domain_applications": [
+          "speech recognition",
+          "machine translation",
+          "computer vision",
+          "medicine",
+          "public safety",
+          "military operations"
+        ],
+        "uncertainty_quantification_approaches": [
+          {
+            "name": "Evidential Deep Learning (EDL)",
+            "description": "Combines evidential theory with deep neural architectures to make deterministic neural networks uncertainty-aware",
+            "advantages": [
+              "Capable of quantifying fine-grained uncertainty",
+              "Minimal computational costs",
+              "Successfully extended to classification, regression, meta-learning, and open-set recognition"
+            ]
+          }
+        ],
+        "identified_problems": [
+          "EDL models achieve competitive performance only on relatively simple learning problems",
+          "Performance degrades on complex, large-scale datasets",
+          "Sensitive to architecture or hyperparameter changes",
+          "Requires careful tuning for stable performance"
+        ],
+        "key_findings": {
+          "main_issue": "Activation-induced learning-freeze behavior",
+          "cause": "Interaction between non-negative evidence parameterization and specific activation functions that map samples into 'zero-evidence regions'",
+          "mechanism": "EDL couples non-negative evidence parameterization with a KL-based prior that promotes high epistemic uncertainty at class boundaries and in regions far from the training distribution",
+          "consequence": "Commonly used non-negative activations create 'zero-evidence' regions where gradients become extremely small, making evidence updates ineffective"
+        },
+        "experimental_results": {
+          "dataset": "CIFAR-100",
+          "model": "Evidential model using ReLU activation and evidential MSE loss",
+          "accuracy": "36%",
+          "comparison": "Nearly 40% lower than a standard softmax model"
+        },
+        "evidence_id": "EV053",
+        "title": "Generalized Regularized Evidential Deep Learning Models: Theory and Comprehensive Evaluation",
+        "year": 2025,
+        "arxiv_id": "2512.23753",
+        "full_text_tool": "arxiv_html_openclaw",
+        "full_text_chars": 7998,
+        "sections_found": [
+          "introduction",
+          "method",
+          "results",
+          "conclusion"
+        ]
+      }
+    },
+    {
+      "evidence_id": "EV054",
+      "title": "Autonomous Vertical Recovery System for Hypersonic Vehicles via Adaptive Guidance and Deep Reinforcement Learning",
+      "year": 2026,
+      "url": "https://www.semanticscholar.org/paper/0077157237164d17d3c889f69421419d73221f35",
+      "core_claim": "This paper presents an integrated guidance and control framework for the autonomous vertical recovery of hypersonic vehicles by combining convex optimization for trajectory planning with deep reinforcement learning for adaptive landing control.",
+      "method_or_focus": [
+        "convex optimization",
+        "deep reinforcement learning-based adaptive control"
+      ],
+      "limitations": [
+        "No limitations are explicitly mentioned in the provided abstract snippet."
+      ],
+      "possible_gap": "The abstract is incomplete and provides no results or performance data, making it impossible to evaluate the effectiveness or superiority of the proposed framework over existing methods.",
+      "full_text_tool": "abstract_only",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null
+    }
+  ],
+  "claim_graph": {
+    "claims": [
+      {
+        "claim_id": "CL001",
+        "evidence_id": "EV001",
+        "text": "The AI Scientist is an AI system that generates novel research ideas, writes code, executes experiments, visualizes results, writes full scientific papers, and runs a simulated review process in an open-ended fashion.",
+        "support": "full_pdf_read_confirmed",
+        "datasets": [],
+        "best_result": "The AI Scientist can produce papers that exceed the acceptance threshold at a top machine learning conference as judged by the automated reviewer."
+      },
+      {
+        "claim_id": "CL002",
+        "evidence_id": "EV002",
+        "text": "The AI Scientist-v2 uses a progressive agentic tree-search methodology managed by a dedicated experiment manager agent to autonomously generate scientific manuscripts, eliminating reliance on human-authored code templates and generalizing across diverse machine learning domains, with an enhanced AI reviewer component that integrates a Vision-Language Model feedback loop for iterative refinement of figures.",
+        "support": "full_pdf_read_confirmed",
+        "datasets": [],
+        "best_result": "One fully AI-generated manuscript exceeded the average human acceptance threshold in a peer-reviewed ICLR workshop, marking the first instance of a fully AI-generated paper successfully navigating peer review."
+      },
+      {
+        "claim_id": "CL003",
+        "evidence_id": "EV003",
+        "text": "Research paper: Agent Laboratory: Using LLM Agents as Research Assistants",
+        "support": "full_pdf_read_confirmed",
+        "datasets": [],
+        "best_result": null
+      },
+      {
+        "claim_id": "CL004",
+        "evidence_id": "EV004",
+        "text": "The paper evaluates ML engineering capabilities of AI agents using Kaggle competitions as tasks, establishing human baselines from Kaggle leaderboards and testing various language models with open-source scaffolds.",
+        "support": "full_pdf_read_confirmed",
+        "datasets": [
+          "Kaggle competitions (diverse set of challenging tasks)"
+        ],
+        "best_result": "OpenAI's o1-preview with AIDE scaffolding achieves at least the level of a Kaggle bronze medal in 16.9% of competitions."
+      },
+      {
+        "claim_id": "CL005",
+        "evidence_id": "EV005",
+        "text": "AIBuildAI-2 is a knowledge-enhanced agent with an external, hierarchical knowledge system that dynamically loads relevant context for AI model building, initialized with web-collected AI development documents and continually evolving through distilled experience from completed tasks.",
+        "support": "full_pdf_read_confirmed",
+        "datasets": [
+          "MLE-Bench"
+        ],
+        "best_result": "First place on MLE-Bench with a 70.7% medal rate"
+      },
+      {
+        "claim_id": "CL006",
+        "evidence_id": "EV006",
+        "text": "Uses verbal feedback and memory to help agents improve across trials, motivating explicit failure memory and revision loops.",
+        "support": "full_pdf_read_confirmed",
+        "datasets": [],
+        "best_result": null
+      },
+      {
+        "claim_id": "CL007",
+        "evidence_id": "EV007",
+        "text": "Studies iterative generation, feedback, and refinement, providing background for reviewer-style critique and revision policies.",
+        "support": "full_pdf_read_confirmed",
+        "datasets": [],
+        "best_result": null
+      },
+      {
+        "claim_id": "CL008",
+        "evidence_id": "EV008",
+        "text": "Demonstrates open-ended skill acquisition with memory and iterative exploration, relevant to long-running agent loops and durable lessons.",
+        "support": "full_pdf_read_confirmed",
+        "datasets": [],
+        "best_result": null
+      },
+      {
+        "claim_id": "CL009",
+        "evidence_id": "EV009",
+        "text": "Introduces agent evaluation tasks and motivates structured benchmarks for agent behavior rather than isolated text quality.",
+        "support": "full_pdf_read_confirmed",
+        "datasets": [],
+        "best_result": null
+      },
+      {
+        "claim_id": "CL010",
+        "evidence_id": "EV010",
+        "text": "SWE-agent introduces a custom agent-computer interface (ACI) that enables language model agents to autonomously perform software engineering tasks by enhancing their ability to create/edit code files, navigate repositories, and execute tests.",
+        "support": "full_pdf_read_confirmed",
+        "datasets": [
+          "SWE-bench",
+          "HumanEvalFix"
+        ],
+        "best_result": "87.7% pass@1 on HumanEvalFix"
+      },
+      {
+        "claim_id": "CL011",
+        "evidence_id": "EV011",
+        "text": "Ignoring uncertainty from forest cover mapping in error propagation for wall-to-wall AGB maps leads to inaccurate confidence intervals for totals.",
+        "support": "abstract_only_pending_pdf",
+        "datasets": [],
+        "best_result": null
+      },
+      {
+        "claim_id": "CL012",
+        "evidence_id": "EV012",
+        "text": "High-fidelity retrieval techniques can reduce uncertainties, specifically solid interference and spectral noise, in nacelle-mounted Doppler lidar measurements.",
+        "support": "abstract_only_pending_pdf",
+        "datasets": [],
+        "best_result": null
+      },
+      {
+        "claim_id": "CL013",
+        "evidence_id": "EV013",
+        "text": "The paper proposes an active interaction approach for autonomous driving where the ego vehicle's behavior is designed to improve confidence in other vehicles' intention estimations.",
+        "support": "abstract_only_pending_pdf",
+        "datasets": [],
+        "best_result": null
+      },
+      {
+        "claim_id": "CL014",
+        "evidence_id": "EV014",
+        "text": "The paper introduces ERGO-II, an improved Bayesian Optimization technique for robust design under uncertainty.",
+        "support": "abstract_only_pending_pdf",
+        "datasets": [],
+        "best_result": null
+      },
+      {
+        "claim_id": "CL015",
+        "evidence_id": "EV015",
+        "text": "Off-policy evaluation and learning (OPE/L) use offline observational data to make better decisions, which is crucial in applications where online experimentation is limited. However, depending entirel",
+        "support": "full_pdf_read_confirmed",
+        "datasets": [],
+        "best_result": null
+      },
+      {
+        "claim_id": "CL016",
+        "evidence_id": "EV016",
+        "text": "This paper presents a meta-cognitive fuzzy adaptive controller for a single-rod hydraulic cylinder.",
+        "support": "abstract_only_pending_pdf",
+        "datasets": [],
+        "best_result": null
+      },
+      {
+        "claim_id": "CL017",
+        "evidence_id": "EV017",
+        "text": "The paper proposes a data-driven approach that combines shrinkage estimation and cross-validation to adapt the shrinkage intensity for better covariance matrix estimation.",
+        "support": "abstract_only_pending_pdf",
+        "datasets": [],
+        "best_result": null
+      },
+      {
+        "claim_id": "CL018",
+        "evidence_id": "EV018",
+        "text": "This paper proposes a novel learning-based optimal control approach for tracking control of robot manipulators with model parameter uncertainty.",
+        "support": "abstract_only_pending_pdf",
+        "datasets": [],
+        "best_result": null
+      },
+      {
+        "claim_id": "CL019",
+        "evidence_id": "EV019",
+        "text": "Existing approaches for battery health forecasting often rely on extensive cycling histories and continuously monitored cells. In contrast, many real-world scenarios provide only sparse information, e",
+        "support": "full_pdf_read_confirmed",
+        "datasets": [],
+        "best_result": null
+      },
+      {
+        "claim_id": "CL020",
+        "evidence_id": "EV020",
+        "text": "A robust interacting multiple model unscented particle filter algorithm is presented to solve the problems of particle degradation and difficulty in selecting the importance density function in particle filter algorithms.",
+        "support": "abstract_only_pending_pdf",
+        "datasets": [],
+        "best_result": null
+      },
+      {
+        "claim_id": "CL021",
+        "evidence_id": "EV021",
+        "text": "This paper proposes a state-of-charge observer that achieves finite-time stability and is robust against unknown and time-varying parameter uncertainties.",
+        "support": "abstract_only_pending_pdf",
+        "datasets": [],
+        "best_result": null
+      },
+      {
+        "claim_id": "CL022",
+        "evidence_id": "EV022",
+        "text": "Deep learning algorithms have recently been shown to be a successful tool in estimating parameters of statistical models for which simulation is easy, but likelihood computation is challenging. This i",
+        "support": "full_pdf_read_confirmed",
+        "datasets": [],
+        "best_result": null
+      },
+      {
+        "claim_id": "CL023",
+        "evidence_id": "EV023",
+        "text": "This article develops an innovative prognostic framework for predicting the remaining useful life (RUL) of MOSFET devices.",
+        "support": "abstract_only_pending_pdf",
+        "datasets": [],
+        "best_result": null
+      },
+      {
+        "claim_id": "CL024",
+        "evidence_id": "EV024",
+        "text": "A method is proposed to convert standard neural networks into Bayesian neural networks for uncertainty estimation by sampling similar networks during inference.",
+        "support": "abstract_only_pending_pdf",
+        "datasets": [],
+        "best_result": null
+      },
+      {
+        "claim_id": "CL025",
+        "evidence_id": "EV025",
+        "text": "Paper about methodology, account, dynamic, variability (abstract-only, no PDF read).",
+        "support": "abstract_only_pending_pdf",
+        "datasets": [],
+        "best_result": null
+      },
+      {
+        "claim_id": "CL026",
+        "evidence_id": "EV026",
+        "text": "This article investigates the robust steady‐state matrix‐weighted fusion (MWF) filtering problem for multisensor multichannel autoregressive (AR) signal with multiple uncertainties, which can be transformed into the state estimation problems in the state space representation.",
+        "support": "abstract_only_pending_pdf",
+        "datasets": [],
+        "best_result": null
+      },
+      {
+        "claim_id": "CL027",
+        "evidence_id": "EV027",
+        "text": "This work aims to develop a gas turbine model using NARX and LSTM neural networks to optimize its operation.",
+        "support": "abstract_only_pending_pdf",
+        "datasets": [],
+        "best_result": null
+      },
+      {
+        "claim_id": "CL028",
+        "evidence_id": "EV028",
+        "text": "This paper proposes an automatic early warning method for electricity market trading risks by constructing a Bayesian network to estimate transaction risk values.",
+        "support": "abstract_only_pending_pdf",
+        "datasets": [],
+        "best_result": null
+      },
+      {
+        "claim_id": "CL029",
+        "evidence_id": "EV029",
+        "text": "This paper proposes an efficient method for uncertainty estimation in semantic segmentation using distillation.",
+        "support": "abstract_only_pending_pdf",
+        "datasets": [],
+        "best_result": null
+      },
+      {
+        "claim_id": "CL030",
+        "evidence_id": "EV030",
+        "text": "Uncertainty Quantification (UQ) in wind speed forecasting is a critical challenge in wind power production due to the inherently volatile nature of wind. By quantifying the associated risks and return",
+        "support": "full_pdf_read_confirmed",
+        "datasets": [],
+        "best_result": null
+      },
+      {
+        "claim_id": "CL031",
+        "evidence_id": "EV031",
+        "text": "Accurate EV power estimation underpins range prediction and energy management, yet practitioners need both point accuracy and trustworthy uncertainty. We propose an anchored-ensemble Long Short-Term M",
+        "support": "full_pdf_read_confirmed",
+        "datasets": [],
+        "best_result": null
+      },
+      {
+        "claim_id": "CL032",
+        "evidence_id": "EV032",
+        "text": "This paper presents a method for distributed nonlinear fusion estimation in clustered binary sensor networks.",
+        "support": "abstract_only_pending_pdf",
+        "datasets": [],
+        "best_result": null
+      },
+      {
+        "claim_id": "CL033",
+        "evidence_id": "EV033",
+        "text": "The paper proposes an intelligent framework to automate the selection of optimal measurement areas for vision-based vibration analysis, overcoming the limitations of manual point selection.",
+        "support": "abstract_only_pending_pdf",
+        "datasets": [],
+        "best_result": null
+      },
+      {
+        "claim_id": "CL034",
+        "evidence_id": "EV034",
+        "text": "This study investigates how Explainable AI (XAI) might improve decision-making in the healthcare industry by fostering greater transparency, trust, and dependability.",
+        "support": "abstract_only_pending_pdf",
+        "datasets": [],
+        "best_result": null
+      },
+      {
+        "claim_id": "CL035",
+        "evidence_id": "EV035",
+        "text": "A fundamental limitation of applying semi-supervised learning in real-world settings is the assumption that unlabeled test data contains only classes previously encountered in the labeled training dat",
+        "support": "full_pdf_read_confirmed",
+        "datasets": [],
+        "best_result": null
+      },
+      {
+        "claim_id": "CL036",
+        "evidence_id": "EV036",
+        "text": "Integrated communications and sensing (ICS) has recently emerged as an enabling technology for ubiquitous sensing and IoT applications. For ICS application to autonomous vehicles (AVs), optimizing the",
+        "support": "full_pdf_read_confirmed",
+        "datasets": [],
+        "best_result": null
+      },
+      {
+        "claim_id": "CL037",
+        "evidence_id": "EV037",
+        "text": "This paper proposes a home energy management algorithm using deep reinforcement learning to solve energy optimization problems in the face of power demand and supply uncertainties.",
+        "support": "abstract_only_pending_pdf",
+        "datasets": [],
+        "best_result": null
+      },
+      {
+        "claim_id": "CL038",
+        "evidence_id": "EV038",
+        "text": "This paper introduces an explainable neuro-symbolic spiking neural network (NS-SNN) framework for high-precision and fully interpretable intracranial tumor diagnosis.",
+        "support": "abstract_only_pending_pdf",
+        "datasets": [],
+        "best_result": null
+      },
+      {
+        "claim_id": "CL039",
+        "evidence_id": "EV039",
+        "text": "This study develops a multi-time scale coordination scheduling framework to balance cost minimization and renewable energy utilization.",
+        "support": "abstract_only_pending_pdf",
+        "datasets": [],
+        "best_result": null
+      },
+      {
+        "claim_id": "CL040",
+        "evidence_id": "EV040",
+        "text": "An application-oriented land-based hyperspectral target detection framework based on 3D–2D CNN and transfer learning is proposed.",
+        "support": "abstract_only_pending_pdf",
+        "datasets": [],
+        "best_result": null
+      },
+      {
+        "claim_id": "CL041",
+        "evidence_id": "EV041",
+        "text": "This study proposes a carbon-aware smart mobility simulation framework designed to support low-emission urban transportation planning through data-driven modeling and simulation.",
+        "support": "abstract_only_pending_pdf",
+        "datasets": [],
+        "best_result": null
+      },
+      {
+        "claim_id": "CL042",
+        "evidence_id": "EV042",
+        "text": "Pathomics analysis can identify potential subtypes of diffuse gliomas.",
+        "support": "abstract_only_pending_pdf",
+        "datasets": [],
+        "best_result": null
+      },
+      {
+        "claim_id": "CL043",
+        "evidence_id": "EV043",
+        "text": "This survey provides a comprehensive overview of Reinforcement Learning (RL), beginning with fundamental concepts and progressing to the prominent categories of RL algorithms.",
+        "support": "abstract_only_pending_pdf",
+        "datasets": [],
+        "best_result": null
+      },
+      {
+        "claim_id": "CL044",
+        "evidence_id": "EV044",
+        "text": "The authors propose a deep reinforcement learning algorithm enhanced with distributionally robust optimization to solve the computationally expensive unit commitment problem under uncertainty.",
+        "support": "abstract_only_pending_pdf",
+        "datasets": [],
+        "best_result": null
+      },
+      {
+        "claim_id": "CL045",
+        "evidence_id": "EV045",
+        "text": "The paper proposes a universal PINNs method to solve partial differential equations with a point source.",
+        "support": "abstract_only_pending_pdf",
+        "datasets": [],
+        "best_result": null
+      },
+      {
+        "claim_id": "CL046",
+        "evidence_id": "EV046",
+        "text": "This research study proposes a deep learning-based approach to predict air traffic congestion in the context of UTM over a period of three minutes.",
+        "support": "abstract_only_pending_pdf",
+        "datasets": [],
+        "best_result": null
+      },
+      {
+        "claim_id": "CL047",
+        "evidence_id": "EV047",
+        "text": "We developed a semi-automated framework for multi-label classification of IHC images to provide a reliable model for annotating cell type-specific protein expression patterns in human tissues.",
+        "support": "abstract_only_pending_pdf",
+        "datasets": [],
+        "best_result": null
+      },
+      {
+        "claim_id": "CL048",
+        "evidence_id": "EV048",
+        "text": "Artificial intelligence is profoundly impacting global sustainability, with the potential to create either a utopian or a dystopian future.",
+        "support": "abstract_only_pending_pdf",
+        "datasets": [],
+        "best_result": null
+      },
+      {
+        "claim_id": "CL049",
+        "evidence_id": "EV049",
+        "text": "This paper presents an integrated model that uses deep learning to recognize the composition of battery black mass and optimize recycling routes.",
+        "support": "abstract_only_pending_pdf",
+        "datasets": [],
+        "best_result": null
+      },
+      {
+        "claim_id": "CL050",
+        "evidence_id": "EV050",
+        "text": "This paper presents a theoretical competitive ratio and a reinforcement learning-based algorithm for a novel perishable inventory management problem (LS-PMU).",
+        "support": "abstract_only_pending_pdf",
+        "datasets": [],
+        "best_result": null
+      },
+      {
+        "claim_id": "CL051",
+        "evidence_id": "EV051",
+        "text": "This paper proposes a deep learning model that is robust and capable of handling highly uncertain inputs.",
+        "support": "abstract_only_pending_pdf",
+        "datasets": [],
+        "best_result": null
+      },
+      {
+        "claim_id": "CL052",
+        "evidence_id": "EV052",
+        "text": "Blood cell morphology assessment via light microscopy constitutes a cornerstone of haematological diagnostics, providing crucial insights into diverse pathological conditions. This complex task demand",
+        "support": "full_pdf_read_confirmed",
+        "datasets": [],
+        "best_result": null
+      },
+      {
+        "claim_id": "CL053",
+        "evidence_id": "EV053",
+        "text": "Evidential deep learning (EDL) models, based on Subjective Logic, introduce a principled and computationally efficient way to make deterministic neural networks uncertainty-aware. The resulting eviden",
+        "support": "full_pdf_read_confirmed",
+        "datasets": [],
+        "best_result": null
+      },
+      {
+        "claim_id": "CL054",
+        "evidence_id": "EV054",
+        "text": "This paper presents an integrated guidance and control framework for the autonomous vertical recovery of hypersonic vehicles by combining convex optimization for trajectory planning with deep reinforcement learning for adaptive landing control.",
+        "support": "abstract_only_pending_pdf",
+        "datasets": [],
+        "best_result": null
+      }
+    ],
+    "links": [
+      {
+        "from": "EV001",
+        "relation": "suggests_gap",
+        "to": "Based on full paper reading: A fully automated system that performs the entire scientific discovery process from idea generation to paper writing and evaluation at less than $15 per paper."
+      },
+      {
+        "from": "EV002",
+        "relation": "suggests_gap",
+        "to": "Based on full paper reading: Novel progressive agentic tree-search methodology managed by a dedicated experiment manager agent that eliminates reliance on human-authored code templates and generalizes across diverse machine learning domains."
+      },
+      {
+        "from": "EV003",
+        "relation": "suggests_gap",
+        "to": "Based on full paper reading: See full text"
+      },
+      {
+        "from": "EV004",
+        "relation": "suggests_gap",
+        "to": "Based on full paper reading: MLE-bench, a benchmark for evaluating ML engineering capabilities of AI agents using real-world Kaggle competitions."
+      },
+      {
+        "from": "EV005",
+        "relation": "suggests_gap",
+        "to": "Based on full paper reading: an external, evolving knowledge system that dynamically loads relevant context for AI model building, initialized with web-collected AI development documents and continually evolving through distilled experience from completed tasks"
+      },
+      {
+        "from": "EV006",
+        "relation": "suggests_gap",
+        "to": "Based on full paper reading: See deep_read.json for details"
+      },
+      {
+        "from": "EV007",
+        "relation": "suggests_gap",
+        "to": "Based on full paper reading: See deep_read.json for details"
+      },
+      {
+        "from": "EV008",
+        "relation": "suggests_gap",
+        "to": "Based on full paper reading: See deep_read.json for details"
+      },
+      {
+        "from": "EV009",
+        "relation": "suggests_gap",
+        "to": "Based on full paper reading: See deep_read.json for details"
+      },
+      {
+        "from": "EV010",
+        "relation": "suggests_gap",
+        "to": "Based on full paper reading: Custom agent-computer interface (ACI) designed specifically for language model agents to interact with software engineering environments"
+      },
+      {
+        "from": "EV011",
+        "relation": "suggests_gap",
+        "to": "A significant gap in current research is the lack of methods to quantify and incorporate forest mapping-related uncertainty into the error propagation of wall-to-wall AGB maps."
+      },
+      {
+        "from": "EV012",
+        "relation": "suggests_gap",
+        "to": "The abstract is incomplete, cutting off before detailing the specific 'high-fidelity retrieval techniques' or their validation."
+      },
+      {
+        "from": "EV013",
+        "relation": "suggests_gap",
+        "to": "A potential gap is the lack of detail on the specific behavioral strategies the ego vehicle employs to elicit clearer intentions from surrounding vehicles."
+      },
+      {
+        "from": "EV014",
+        "relation": "suggests_gap",
+        "to": "The original ERGO method may have been computationally inefficient or had limited capabilities for handling complex robust design problems."
+      },
+      {
+        "from": "EV015",
+        "relation": "suggests_gap",
+        "to": "Based on full paper reading: See deep_read.json for details"
+      },
+      {
+        "from": "EV016",
+        "relation": "suggests_gap",
+        "to": "Existing fuzzy controllers for hydraulic systems lack the self-awareness and dynamic learning capabilities of a meta-cognitive approach."
+      },
+      {
+        "from": "EV017",
+        "relation": "suggests_gap",
+        "to": "The paper claims the method is applicable to asset management but lacks experimental validation to demonstrate its effectiveness in improving portfolio selection."
+      },
+      {
+        "from": "EV018",
+        "relation": "suggests_gap",
+        "to": "The gap lies in the lack of an optimal, learning-based control method that can effectively manage the tracking of robot manipulators with significant model parameter uncertainty."
+      },
+      {
+        "from": "EV019",
+        "relation": "suggests_gap",
+        "to": "Based on full paper reading: See deep_read.json for details"
+      },
+      {
+        "from": "EV020",
+        "relation": "suggests_gap",
+        "to": "The abstract describes the proposed algorithm's mechanism but lacks any information on its performance, validation, or comparison with existing methods."
+      },
+      {
+        "from": "EV021",
+        "relation": "suggests_gap",
+        "to": "Future work could focus on extending the method to not only be robust against unknown parameters but also to actively estimate them in real-time."
+      },
+      {
+        "from": "EV022",
+        "relation": "suggests_gap",
+        "to": "Based on full paper reading: See deep_read.json for details"
+      },
+      {
+        "from": "EV023",
+        "relation": "suggests_gap",
+        "to": "There was a need for a novel and effective framework to accurately predict the remaining useful life of Power MOSFETs to improve system reliability and maintenance planning."
+      },
+      {
+        "from": "EV024",
+        "relation": "suggests_gap",
+        "to": "The abstract does not discuss the computational overhead of sampling multiple networks at each forward pass."
+      },
+      {
+        "from": "EV025",
+        "relation": "suggests_gap",
+        "to": "Need full PDF reading to identify specific gaps in this paper."
+      },
+      {
+        "from": "EV026",
+        "relation": "suggests_gap",
+        "to": "The abstract does not present any results or performance comparisons to demonstrate the effectiveness of the proposed method."
+      },
+      {
+        "from": "EV027",
+        "relation": "suggests_gap",
+        "to": "The abstract does not detail the specific methods or results of the uncertainty evaluation, focusing instead on the model's development."
+      },
+      {
+        "from": "EV028",
+        "relation": "suggests_gap",
+        "to": "The paper does not discuss the model's performance against other state-of-the-art risk prediction methods or its real-world deployment and validation."
+      },
+      {
+        "from": "EV029",
+        "relation": "suggests_gap",
+        "to": "The abstract is incomplete and does not describe the specific distillation method proposed to achieve efficient uncertainty estimation."
+      },
+      {
+        "from": "EV030",
+        "relation": "suggests_gap",
+        "to": "Based on full paper reading: See deep_read.json for details"
+      },
+      {
+        "from": "EV031",
+        "relation": "suggests_gap",
+        "to": "Based on full paper reading: See deep_read.json for details"
+      },
+      {
+        "from": "EV032",
+        "relation": "suggests_gap",
+        "to": "The method is specifically designed for clustered networks and its applicability to other network topologies, such as fully distributed or centralized systems, is not explored."
+      },
+      {
+        "from": "EV033",
+        "relation": "suggests_gap",
+        "to": "The abstract does not detail the validation process or performance comparison of the proposed intelligent framework against existing manual methods."
+      },
+      {
+        "from": "EV034",
+        "relation": "suggests_gap",
+        "to": "The gap between the high accuracy of AI models and their lack of transparency in critical healthcare applications."
+      },
+      {
+        "from": "EV035",
+        "relation": "suggests_gap",
+        "to": "Based on full paper reading: See deep_read.json for details"
+      },
+      {
+        "from": "EV036",
+        "relation": "suggests_gap",
+        "to": "Based on full paper reading: See deep_read.json for details"
+      },
+      {
+        "from": "EV037",
+        "relation": "suggests_gap",
+        "to": "The paper focuses on energy optimization but does not explicitly mention how user comfort or preferences are factored into the control algorithm."
+      },
+      {
+        "from": "EV038",
+        "relation": "suggests_gap",
+        "to": "The abstract does not detail how the 'fully interpretable' nature of the model is achieved or validated."
+      },
+      {
+        "from": "EV039",
+        "relation": "suggests_gap",
+        "to": "The need for extensive real-world validation and testing of the framework's performance under highly dynamic, real-time conditions."
+      },
+      {
+        "from": "EV040",
+        "relation": "suggests_gap",
+        "to": "The paper does not specify whether the proposed framework is a supervised or unsupervised method, leaving a gap in understanding its training requirements and applicability compared to the other main class of methods."
+      },
+      {
+        "from": "EV041",
+        "relation": "suggests_gap",
+        "to": "The study proposes a simulation framework, but its real-world implementation and validation in an actual city are not addressed."
+      },
+      {
+        "from": "EV042",
+        "relation": "suggests_gap",
+        "to": "The abstract is incomplete, leaving the specific improvements and findings of the expanded study unstated."
+      },
+      {
+        "from": "EV043",
+        "relation": "suggests_gap",
+        "to": "The paper focuses on established RL families and may not cover emerging trends or future research directions in the field."
+      },
+      {
+        "from": "EV044",
+        "relation": "suggests_gap",
+        "to": "The abstract is cut off, leaving the specific improvements gained from using distributionally robust optimization unclear."
+      },
+      {
+        "from": "EV045",
+        "relation": "suggests_gap",
+        "to": "The paper focuses on PDEs with a point source, but its application to more complex or time-varying source distributions is not addressed."
+      },
+      {
+        "from": "EV046",
+        "relation": "suggests_gap",
+        "to": "There is limited research on predicting air traffic flows specifically for Uncrewed Aircraft Traffic Management (UTM)."
+      },
+      {
+        "from": "EV047",
+        "relation": "suggests_gap",
+        "to": "Confidence in AI predictions needs to be addressed."
+      },
+      {
+        "from": "EV048",
+        "relation": "suggests_gap",
+        "to": "The abstract does not specify the mechanisms through which AI could lead to either a utopian or dystopian future."
+      },
+      {
+        "from": "EV049",
+        "relation": "suggests_gap",
+        "to": "The abstract does not detail the specific objectives or constraints used in the multiobjective optimization of the recycling routes."
+      },
+      {
+        "from": "EV050",
+        "relation": "suggests_gap",
+        "to": "The abstract is incomplete, cutting off before fully describing the reinforcement learning algorithm and its performance evaluation."
+      },
+      {
+        "from": "EV051",
+        "relation": "suggests_gap",
+        "to": "The abstract is incomplete, cutting off mid-sentence."
+      },
+      {
+        "from": "EV052",
+        "relation": "suggests_gap",
+        "to": "Based on full paper reading: See deep_read.json for details"
+      },
+      {
+        "from": "EV053",
+        "relation": "suggests_gap",
+        "to": "Based on full paper reading: See deep_read.json for details"
+      },
+      {
+        "from": "EV054",
+        "relation": "suggests_gap",
+        "to": "The abstract is incomplete and provides no results or performance data, making it impossible to evaluate the effectiveness or superiority of the proposed framework over existing methods."
+      }
+    ]
+  },
+  "research_gaps": [
+    {
+      "gap_id": "G01",
+      "gap_title": "Agentic Synthesis of Novel Uncertainty Methods",
+      "text": "Current AI agents can generate research papers, but their ability to synthesize domain-specific knowledge for niche technical problems like uncertainty estimation is unproven. There is a gap in understanding how to effectively prompt an agent to combine disparate techniques into a novel, experimentally-validated method for medical imaging.",
+      "testable_hypothesis": "If an AI agent is provided with a curated knowledge base of uncertainty estimation techniques, then it will be able to generate a novel method that outperforms baselines on a standard medical image classification benchmark.",
+      "suggested_dataset": "MIMIC-CXR or CheXpert",
+      "baseline_paper": null,
+      "keywords": [],
+      "evidence_ids": [
+        "EV001",
+        "EV002",
+        "EV003"
+      ],
+      "testable": true,
+      "difficulty": "medium",
+      "source": "llm"
+    },
+    {
+      "gap_id": "G02",
+      "gap_title": "Evaluating the Scientific Validity of Agent-Generated Research",
+      "text": "Papers like MLE-bench evaluate an agent's ability to complete tasks, but not the scientific rigor or correctness of its output. A critical gap exists in creating a framework to assess whether an agent's proposed uncertainty model is theoretically sound and empirically effective.",
+      "testable_hypothesis": "If a panel of human experts rates the scientific validity of agent-generated research papers, then these ratings will strongly correlate with the actual performance of the proposed methods on a held-out test set.",
+      "suggested_dataset": "A curated benchmark of existing uncertainty methods (e.g., from the Uncertainty in Medical Image Analysis workshop).",
+      "baseline_paper": null,
+      "keywords": [],
+      "evidence_ids": [
+        "EV004",
+        "EV009"
+      ],
+      "testable": true,
+      "difficulty": "hard",
+      "source": "llm"
+    },
+    {
+      "gap_id": "G03",
+      "gap_title": "Self-Correction in Scientific Hypothesis Refinement",
+      "text": "While agents like Reflexion and Self-Refine can use feedback to improve their outputs, their application to the iterative process of scientific discovery is unexplored. The gap is in creating a closed-loop where an agent can diagnose failure in its own uncertainty model and autonomously generate a revised hypothesis.",
+      "testable_hypothesis": "If an agent is provided with a failure case analysis of its own uncertainty model, then it will be able to iteratively propose a refined model that specifically reduces uncertainty on those identified failure cases.",
+      "suggested_dataset": "A medical image dataset with curated examples of model failure (e.g., ambiguous pathologies, artifacts).",
+      "baseline_paper": null,
+      "keywords": [],
+      "evidence_ids": [
+        "EV006",
+        "EV007"
+      ],
+      "testable": true,
+      "difficulty": "hard",
+      "source": "llm"
+    },
+    {
+      "gap_id": "G04",
+      "gap_title": "Human-AI Collaborative Frameworks for Clinical Reliability",
+      "text": "The research focuses on autonomous agents, but medical applications require tight human-in-the-loop collaboration. There is a gap in designing interfaces where a clinician can guide an agent's research on uncertainty estimation, ensuring the resulting methods are clinically relevant and trustworthy.",
+      "testable_hypothesis": "If a human expert can provide high-level clinical constraints to an agent during its research process, then the final generated uncertainty method will be more aligned with real-world clinical needs and adoption criteria.",
+      "suggested_dataset": "Any standard medical dataset, but with added metadata on clinical constraints (e.g., inference time, hardware requirements).",
+      "baseline_paper": null,
+      "keywords": [],
+      "evidence_ids": [
+        "EV010"
+      ],
+      "testable": true,
+      "difficulty": "medium",
+      "source": "llm"
+    },
+    {
+      "gap_id": "G05",
+      "gap_title": "Federated and Privacy-Preserving Uncertainty Research",
+      "text": "Agent-driven research typically assumes access to large, centralized datasets, which is not feasible for sensitive medical data. The gap lies in enabling agents to conduct meaningful research on uncertainty estimation within federated or privacy-preserving environments.",
+      "testable_hypothesis": "If an agent is equipped with tools for federated learning and differential privacy, then it can successfully generate a research paper on uncertainty estimation without ever accessing raw patient data.",
+      "suggested_dataset": "A federated version of a public medical dataset (e.g., from a simulated hospital consortium).",
+      "baseline_paper": null,
+      "keywords": [],
+      "evidence_ids": [
+        "EV005",
+        "EV008"
+      ],
+      "testable": true,
+      "difficulty": "hard",
+      "source": "llm"
+    },
+    {
+      "gap_id": "G06",
+      "gap_title": "Agentic Discovery of Interpretable Uncertainty Representations",
+      "text": "Current uncertainty estimation methods often provide a scalar confidence score without explaining the source of uncertainty. The gap is in leveraging AI agents to discover and propose novel methods that not only quantify but also explain *why* a model is uncertain in a specific medical image region.",
+      "testable_hypothesis": "If an agent is tasked with linking high uncertainty scores to specific visual features or pathologies, then it will be able to generate a novel method that provides both a confidence score and an interpretable explanation for that uncertainty.",
+      "suggested_dataset": "A dataset with pixel-level or region-of-interest annotations (e.g., from the Pathologist-in-the-Loop dataset).",
+      "baseline_paper": null,
+      "keywords": [],
+      "evidence_ids": [
+        "EV001",
+        "EV002"
+      ],
+      "testable": true,
+      "difficulty": "hard",
+      "source": "llm"
+    }
+  ],
+  "idea_tree": [
+    {
+      "idea_id": "I01",
+      "title": "Agentic Uncertainty Synthesis Framework for Medical Image Classification",
+      "source_gap_id": "G01",
+      "scope": "method",
+      "pitch": "An AI agent that synthesizes novel uncertainty estimation methods specifically for medical image classification, addressing the current gap in automated method generation for this domain.",
+      "mechanism": "The agent will use a multi-step process: 1) Analyze existing uncertainty methods in medical imaging, 2) Generate novel combinations or modifications, 3) Validate through synthetic data, 4) Refine based on performance metrics.",
+      "metric": "Expected Calibration Error (ECE), Area Under the Reliability Diagram, and Brier Score",
+      "has_clear_metric": true,
+      "experiment_sketch": null,
+      "novelty_claim": null,
+      "risk": "medium",
+      "evidence_support": 1,
+      "local_feasibility": 1,
+      "novelty_risk": 0.059,
+      "base_score": 5.5,
+      "keywords": [
+        "uncertainty",
+        "medical",
+        "image",
+        "classification",
+        "agentic",
+        "synthesis"
+      ],
+      "status": "rejected",
+      "corpus_overlap_hash": "96238fc18c",
+      "source": "llm",
+      "reviewer_average": 4.5,
+      "reviewer_decision": "reject",
+      "next_action": "RUN_ADDITIONAL_SEARCH"
+    },
+    {
+      "idea_id": "I02",
+      "title": "Scientific Validity Framework for Agent-Generated Uncertainty Methods",
+      "source_gap_id": "G02",
+      "scope": "method",
+      "pitch": "A comprehensive framework to evaluate the scientific validity of uncertainty estimation methods generated by AI agents, ensuring they meet rigorous standards for medical applications.",
+      "mechanism": "Develop a multi-criteria evaluation system that tests reproducibility, statistical significance, generalizability, and clinical relevance of agent-generated methods through controlled experiments and expert validation.",
+      "metric": "Reproducibility score, statistical significance p-value, cross-validation accuracy, and expert clinical relevance rating",
+      "has_clear_metric": true,
+      "experiment_sketch": null,
+      "novelty_claim": null,
+      "risk": "medium",
+      "evidence_support": 1,
+      "local_feasibility": 1,
+      "novelty_risk": 0.054,
+      "base_score": 5.5,
+      "keywords": [
+        "scientific",
+        "validity",
+        "framework",
+        "uncertainty",
+        "methods",
+        "agent-generated"
+      ],
+      "status": "rejected",
+      "corpus_overlap_hash": "ef310f08e4",
+      "source": "llm",
+      "reviewer_average": 4.5,
+      "reviewer_decision": "reject",
+      "next_action": "RUN_ADDITIONAL_SEARCH"
+    },
+    {
+      "idea_id": "I03",
+      "title": "Self-Correcting Uncertainty Agent for Medical Image Classification",
+      "source_gap_id": "G03",
+      "scope": "method",
+      "pitch": "An AI agent that continuously refines uncertainty estimation methods for medical image classification through self-correction based on feedback from validation experiments.",
+      "mechanism": "The agent will implement a feedback loop: 1) Generate uncertainty method, 2) Test on validation data, 3) Identify failure modes, 4) Generate hypotheses for improvement, 5) Implement and test refinements iteratively.",
+      "metric": "Improvement in uncertainty quantification metrics over iterations, convergence rate, and final performance",
+      "has_clear_metric": true,
+      "experiment_sketch": null,
+      "novelty_claim": null,
+      "risk": "medium",
+      "evidence_support": 1,
+      "local_feasibility": 1,
+      "novelty_risk": 0.044,
+      "base_score": 5.5,
+      "keywords": [
+        "uncertainty",
+        "agent",
+        "medical",
+        "image",
+        "classification",
+        "self-correcting"
+      ],
+      "status": "rejected",
+      "corpus_overlap_hash": "f271abe6a6",
+      "source": "llm",
+      "reviewer_average": 2.5,
+      "reviewer_decision": "reject",
+      "next_action": "RUN_ADDITIONAL_SEARCH"
+    },
+    {
+      "idea_id": "I04",
+      "title": "Human-AI Collaborative Framework for Reliable Medical Image Classification",
+      "source_gap_id": "G04",
+      "scope": "method",
+      "pitch": "A framework that combines human clinical expertise with AI-generated uncertainty estimation to improve reliability of medical image classification in clinical settings.",
+      "mechanism": "Develop an interactive system where clinicians can provide feedback on AI uncertainty estimates, which the AI uses to refine its uncertainty methods, creating a human-AI loop for continuous improvement.",
+      "metric": "Diagnostic accuracy, error reduction rate, clinician satisfaction score, and time to diagnosis",
+      "has_clear_metric": true,
+      "experiment_sketch": null,
+      "novelty_claim": null,
+      "risk": "medium",
+      "evidence_support": 1,
+      "local_feasibility": 1,
+      "novelty_risk": 0.057,
+      "base_score": 5.5,
+      "keywords": [
+        "framework",
+        "medical",
+        "image",
+        "classification",
+        "clinical",
+        "human-ai"
+      ],
+      "status": "rejected",
+      "corpus_overlap_hash": "cf93d6c3dc",
+      "source": "llm",
+      "reviewer_average": 4,
+      "reviewer_decision": "reject",
+      "next_action": "RUN_ADDITIONAL_SEARCH"
+    },
+    {
+      "idea_id": "I05",
+      "title": "AI Scientist for Automated Uncertainty Method Discovery in Medical Imaging",
+      "source_gap_id": "G01",
+      "scope": "method",
+      "pitch": "Applying The AI Scientist framework to automatically discover novel uncertainty estimation methods specifically tailored for medical image classification tasks.",
+      "mechanism": "Implement The AI Scientist methodology with specialized prompts and evaluation metrics for medical imaging uncertainty, allowing the AI to generate, test, and refine novel uncertainty methods autonomously.",
+      "metric": "Performance on established uncertainty benchmarks, novelty of generated methods, and reproducibility of results",
+      "has_clear_metric": true,
+      "experiment_sketch": null,
+      "novelty_claim": null,
+      "risk": "medium",
+      "evidence_support": 1,
+      "local_feasibility": 1,
+      "novelty_risk": 0.079,
+      "base_score": 5.5,
+      "keywords": [
+        "scientist",
+        "uncertainty",
+        "medical",
+        "automated",
+        "method",
+        "discovery"
+      ],
+      "status": "rejected",
+      "corpus_overlap_hash": "f285b058bf",
+      "source": "llm",
+      "reviewer_average": 5,
+      "reviewer_decision": "reject",
+      "next_action": "RUN_ADDITIONAL_SEARCH"
+    },
+    {
+      "idea_id": "I06",
+      "title": "MLE-bench Adaptation for Medical Image Uncertainty Estimation",
+      "source_gap_id": "G02",
+      "scope": "method",
+      "pitch": "Adapting MLE-bench to evaluate AI agents' ability to develop uncertainty estimation methods specifically for medical image classification, addressing the gap in domain-specific evaluation.",
+      "mechanism": "Create a medical imaging uncertainty benchmark based on MLE-bench methodology, with tasks ranging from basic uncertainty quantification to complex clinical scenarios, specifically designed to test agents' capabilities in this domain.",
+      "metric": "Task completion rate, uncertainty quantification accuracy, clinical relevance score, and generalization ability",
+      "has_clear_metric": true,
+      "experiment_sketch": null,
+      "novelty_claim": null,
+      "risk": "medium",
+      "evidence_support": 1,
+      "local_feasibility": 1,
+      "novelty_risk": 0.107,
+      "base_score": 5.5,
+      "keywords": [
+        "mle-bench",
+        "medical",
+        "image",
+        "uncertainty",
+        "estimation",
+        "adaptation"
+      ],
+      "status": "shortlisted",
+      "corpus_overlap_hash": "b37bba0d5a",
+      "source": "llm",
+      "reviewer_average": 6,
+      "reviewer_decision": "accept",
+      "next_action": "RUN_MICRO_PROBE"
+    }
+  ],
+  "reviewer_scores": [
+    {
+      "idea_id": "I01",
+      "average_score": 4.5,
+      "decision": "reject",
+      "next_action": "RUN_ADDITIONAL_SEARCH",
+      "fatal_flaws": [
+        "No specific dataset or baseline mentioned",
+        "Unclear what makes the uncertainty estimation methods novel beyond being AI-synthesized",
+        "No falsifiable hypothesis stated",
+        "No fair baselines specified",
+        "No mention of seeds for reproducibility",
+        "No compute requirements provided",
+        "Incomplete prior work references"
+      ],
+      "fixable_flaws": [
+        "Specify a medical image dataset (e.g., ChestX-ray14, ISIC skin lesion dataset, etc.)",
+        "Define what makes the uncertainty estimation methods novel",
+        "Provide a clear baseline for comparison",
+        "Unclear differentiation from prior work",
+        "Vague description of the proposed framework"
+      ],
+      "reviewers": [
+        {
+          "reviewer": "Novelty Reviewer",
+          "score": 7,
+          "fatal_flaws": [
+            "No specific dataset or baseline mentioned",
+            "Unclear what makes the uncertainty estimation methods novel beyond being AI-synthesized"
+          ],
+          "fixable_flaws": [
+            "Specify a medical image dataset (e.g., ChestX-ray14, ISIC skin lesion dataset, etc.)",
+            "Define what makes the uncertainty estimation methods novel",
+            "Provide a clear baseline for comparison"
+          ],
+          "decision": "revise",
+          "justification": "The concept of applying agentic AI to uncertainty estimation in medical image classification appears novel, but requires more specific details about the novel methods and evaluation framework."
+        },
+        {
+          "reviewer": "Experimental Reviewer",
+          "score": 2,
+          "fatal_flaws": [
+            "No falsifiable hypothesis stated",
+            "No fair baselines specified",
+            "No mention of seeds for reproducibility",
+            "No compute requirements provided",
+            "Incomplete prior work references"
+          ],
+          "fixable_flaws": [
+            "Unclear differentiation from prior work",
+            "Vague description of the proposed framework"
+          ],
+          "decision": "reject",
+          "justification": "The proposal lacks essential experimental details including a falsifiable hypothesis, fair baselines, seeds, and compute requirements. It also fails to clearly differentiate from prior work and has incomplete references."
+        }
+      ]
+    },
+    {
+      "idea_id": "I02",
+      "average_score": 4.5,
+      "decision": "reject",
+      "next_action": "RUN_ADDITIONAL_SEARCH",
+      "fatal_flaws": [
+        "Unclear dataset and baseline specifications",
+        "No clear differentiation from existing evaluation frameworks",
+        "Hypothesis not clearly specified or falsifiable",
+        "No information about fair baselines for comparison",
+        "Missing reproducibility measures (seeds, multiple runs)",
+        "No details about computational requirements and efficiency"
+      ],
+      "fixable_flaws": [
+        "Needs more specific focus on uncertainty estimation methods",
+        "Should define unique evaluation criteria",
+        "Need to specify clear, testable hypothesis",
+        "Define appropriate baselines for comparison",
+        "Include reproducibility protocols",
+        "Provide computational analysis"
+      ],
+      "reviewers": [
+        {
+          "reviewer": "Novelty Reviewer",
+          "score": 6,
+          "fatal_flaws": [
+            "Unclear dataset and baseline specifications",
+            "No clear differentiation from existing evaluation frameworks"
+          ],
+          "fixable_flaws": [
+            "Needs more specific focus on uncertainty estimation methods",
+            "Should define unique evaluation criteria"
+          ],
+          "decision": "revise",
+          "justification": "The idea has moderate novelty in focusing on uncertainty estimation methods but lacks sufficient differentiation from existing evaluation frameworks and needs more concrete specifications."
+        },
+        {
+          "reviewer": "Experimental Reviewer",
+          "score": 3,
+          "fatal_flaws": [
+            "Hypothesis not clearly specified or falsifiable",
+            "No information about fair baselines for comparison",
+            "Missing reproducibility measures (seeds, multiple runs)",
+            "No details about computational requirements and efficiency"
+          ],
+          "fixable_flaws": [
+            "Need to specify clear, testable hypothesis",
+            "Define appropriate baselines for comparison",
+            "Include reproducibility protocols",
+            "Provide computational analysis"
+          ],
+          "decision": "reject",
+          "justification": "The proposal lacks essential methodological details including a falsifiable hypothesis, fair baselines, reproducibility measures, and computational analysis. Without these elements, the framework cannot be properly evaluated or implemented."
+        }
+      ]
+    },
+    {
+      "idea_id": "I03",
+      "average_score": 2.5,
+      "decision": "reject",
+      "next_action": "RUN_ADDITIONAL_SEARCH",
+      "fatal_flaws": [
+        "The core mechanism of a self-correcting agent is not novel [EV006].",
+        "The work describes an application of an existing agentic paradigm, not a new method.",
+        "No falsifiable hypothesis stated",
+        "No specified dataset for evaluation",
+        "No baseline comparisons defined",
+        "No reproducibility measures (seeds) mentioned",
+        "No computational requirements specified"
+      ],
+      "fixable_flaws": [
+        "The contribution must be reframed to focus on novel domain-specific implementations.",
+        "Clearly differentiate the proposed method from existing self-correction frameworks.",
+        "Could define specific evaluation metrics for uncertainty estimation",
+        "Could incorporate established medical imaging datasets",
+        "Could establish clear baselines for comparison",
+        "Could implement proper experimental protocols with fixed seeds"
+      ],
+      "reviewers": [
+        {
+          "reviewer": "Novelty Reviewer",
+          "score": 3,
+          "fatal_flaws": [
+            "The core mechanism of a self-correcting agent is not novel [EV006].",
+            "The work describes an application of an existing agentic paradigm, not a new method."
+          ],
+          "fixable_flaws": [
+            "The contribution must be reframed to focus on novel domain-specific implementations.",
+            "Clearly differentiate the proposed method from existing self-correction frameworks."
+          ],
+          "decision": "reject",
+          "justification": "The proposed agent's self-correction mechanism is not novel, as similar frameworks like Reflexion [EV006] already exist. Therefore, the core contribution is an application of an existing technique, not a novel method."
+        },
+        {
+          "reviewer": "Experimental Reviewer",
+          "score": 2,
+          "fatal_flaws": [
+            "No falsifiable hypothesis stated",
+            "No specified dataset for evaluation",
+            "No baseline comparisons defined",
+            "No reproducibility measures (seeds) mentioned",
+            "No computational requirements specified"
+          ],
+          "fixable_flaws": [
+            "Could define specific evaluation metrics for uncertainty estimation",
+            "Could incorporate established medical imaging datasets",
+            "Could establish clear baselines for comparison",
+            "Could implement proper experimental protocols with fixed seeds"
+          ],
+          "decision": "reject",
+          "justification": "The proposal lacks essential experimental components including a falsifiable hypothesis, specified dataset, baseline comparisons, and reproducibility measures. Without these fundamental elements, the study cannot be properly evaluated for scientific rigor."
+        }
+      ]
+    },
+    {
+      "idea_id": "I04",
+      "average_score": 4,
+      "decision": "reject",
+      "next_action": "RUN_ADDITIONAL_SEARCH",
+      "fatal_flaws": [
+        "Hypothesis not clearly formulated with specific, measurable predictions",
+        "No baseline comparisons specified for evaluation framework"
+      ],
+      "fixable_flaws": [
+        "Dataset not specified - need to identify medical imaging dataset",
+        "Compute requirements and reproducibility measures (seeds) missing",
+        "No details on uncertainty estimation method or collaboration protocol",
+        "Prior work references don't establish relevant context for human-AI medical imaging"
+      ],
+      "reviewers": [
+        {
+          "reviewer": "Novelty Reviewer",
+          "score": 5,
+          "fatal_flaws": [],
+          "fixable_flaws": [],
+          "decision": "revise",
+          "justification": "Review unavailable (budget/parse)."
+        },
+        {
+          "reviewer": "Experimental Reviewer",
+          "score": 3,
+          "fatal_flaws": [
+            "Hypothesis not clearly formulated with specific, measurable predictions",
+            "No baseline comparisons specified for evaluation framework"
+          ],
+          "fixable_flaws": [
+            "Dataset not specified - need to identify medical imaging dataset",
+            "Compute requirements and reproducibility measures (seeds) missing",
+            "No details on uncertainty estimation method or collaboration protocol",
+            "Prior work references don't establish relevant context for human-AI medical imaging"
+          ],
+          "decision": "revise",
+          "justification": "The core idea has potential but lacks experimental rigor. Specify a clear, falsifiable hypothesis with measurable outcomes, identify appropriate medical imaging datasets, define baseline comparisons, and provide methodological details for the human-AI collaboration framework."
+        }
+      ]
+    },
+    {
+      "idea_id": "I05",
+      "average_score": 5,
+      "decision": "reject",
+      "next_action": "RUN_ADDITIONAL_SEARCH",
+      "fatal_flaws": [
+        "No evidence of comprehensive literature review on existing uncertainty estimation methods in medical imaging",
+        "Unclear what specific novel contribution beyond applying existing AI Scientist framework",
+        "No specific falsifiable hypothesis is stated",
+        "Unclear novelty beyond applying existing framework to new domain"
+      ],
+      "fixable_flaws": [
+        "Need to specify baseline uncertainty estimation methods being compared against",
+        "Should clarify what constitutes 'novelty' in discovered methods",
+        "No fair baselines are specified for comparison",
+        "No mention of seeds for reproducibility",
+        "No discussion of computational requirements"
+      ],
+      "reviewers": [
+        {
+          "reviewer": "Novelty Reviewer",
+          "score": 6,
+          "fatal_flaws": [
+            "No evidence of comprehensive literature review on existing uncertainty estimation methods in medical imaging",
+            "Unclear what specific novel contribution beyond applying existing AI Scientist framework"
+          ],
+          "fixable_flaws": [
+            "Need to specify baseline uncertainty estimation methods being compared against",
+            "Should clarify what constitutes 'novelty' in discovered methods"
+          ],
+          "decision": "revise",
+          "justification": "Applies AI Scientist framework to uncertainty estimation in medical imaging, but lacks clear articulation of novel contribution beyond existing framework."
+        },
+        {
+          "reviewer": "Experimental Reviewer",
+          "score": 4,
+          "fatal_flaws": [
+            "No specific falsifiable hypothesis is stated",
+            "Unclear novelty beyond applying existing framework to new domain"
+          ],
+          "fixable_flaws": [
+            "No fair baselines are specified for comparison",
+            "No mention of seeds for reproducibility",
+            "No discussion of computational requirements"
+          ],
+          "decision": "revise",
+          "justification": "The concept has merit but lacks essential experimental details. A specific falsifiable hypothesis and clearer articulation of novelty must be added before this work can be properly evaluated."
+        }
+      ]
+    },
+    {
+      "idea_id": "I06",
+      "average_score": 6,
+      "decision": "accept",
+      "next_action": "RUN_MICRO_PROBE",
+      "fatal_flaws": [],
+      "fixable_flaws": [
+        "Dataset and baseline not specified",
+        "Specific adaptation methodology needs clarification"
+      ],
+      "reviewers": [
+        {
+          "reviewer": "Novelty Reviewer",
+          "score": 7,
+          "fatal_flaws": [],
+          "fixable_flaws": [
+            "Dataset and baseline not specified",
+            "Specific adaptation methodology needs clarification"
+          ],
+          "decision": "revise",
+          "justification": "Adapting MLE-bench to medical image uncertainty estimation appears novel as no prior work specifically addresses this specialized domain. The idea builds on existing ML engineering benchmarks but applies them to a unique medical imaging challenge."
+        },
+        {
+          "reviewer": "Experimental Reviewer",
+          "score": 5,
+          "fatal_flaws": [],
+          "fixable_flaws": [],
+          "decision": "revise",
+          "justification": "Review unavailable (budget/parse)."
+        }
+      ]
+    }
+  ],
+  "experiment_candidates": [
+    {
+      "idea_id": "I06",
+      "title": "MLE-bench Adaptation for Medical Image Uncertainty Estimation",
+      "level": "probe",
+      "status": "planned",
+      "metric": "Task completion rate, uncertainty quantification accuracy, clinical relevance score, and generalization ability",
+      "micro_probe_improvement": null,
+      "micro_probe_dataset": null,
+      "baseline": "to_be_determined"
+    }
+  ],
+  "approval_status": {
+    "approved": true,
+    "approved_at": "2026-06-06T15:10:08.555Z",
+    "approved_by": "demo_user",
+    "idea_id": "I06",
+    "level": "micro_probe",
+    "experiment_id": "micro_probe_i06",
+    "approval_path": "/Users/mohanganesh/OpenClaw-Lab/openresearchos/runs/run_20260606143608_uncertainty-estimation-for-reliabl_6b4be1/experiments/micro_probe_i06/approval.json"
+  },
+  "micro_probe_results": [
+    {
+      "experiment_id": "micro_probe_i06",
+      "idea_id": "I06",
+      "level": "micro_probe",
+      "metrics_path": "/Users/mohanganesh/OpenClaw-Lab/openresearchos/runs/run_20260606143608_uncertainty-estimation-for-reliabl_6b4be1/experiments/micro_probe_i06/metrics.json",
+      "result_summary_path": "/Users/mohanganesh/OpenClaw-Lab/openresearchos/runs/run_20260606143608_uncertainty-estimation-for-reliabl_6b4be1/experiments/micro_probe_i06/result_summary.md",
+      "review_path": "/Users/mohanganesh/OpenClaw-Lab/openresearchos/runs/run_20260606143608_uncertainty-estimation-for-reliabl_6b4be1/experiments/micro_probe_i06/review_after_run.md",
+      "next_action": "KILL_IDEA",
+      "success": false,
+      "completed_at": "2026-06-06T15:12:51.430Z"
+    }
+  ],
+  "probe_results": [],
+  "ablation_results": [],
+  "mvp_results": [],
+  "failed_ideas": [
+    {
+      "idea_id": "I01",
+      "title": "Agentic Uncertainty Synthesis Framework for Medical Image Classification",
+      "reason": "Reviewer Council rejected the idea."
+    },
+    {
+      "idea_id": "I02",
+      "title": "Scientific Validity Framework for Agent-Generated Uncertainty Methods",
+      "reason": "Reviewer Council rejected the idea."
+    },
+    {
+      "idea_id": "I03",
+      "title": "Self-Correcting Uncertainty Agent for Medical Image Classification",
+      "reason": "Reviewer Council rejected the idea."
+    },
+    {
+      "idea_id": "I04",
+      "title": "Human-AI Collaborative Framework for Reliable Medical Image Classification",
+      "reason": "Reviewer Council rejected the idea."
+    },
+    {
+      "idea_id": "I05",
+      "title": "AI Scientist for Automated Uncertainty Method Discovery in Medical Imaging",
+      "reason": "Reviewer Council rejected the idea."
+    }
+  ],
+  "validation_results": [
+    {
+      "experiment_id": "micro_probe_i06",
+      "idea_id": "I06",
+      "level": "micro_probe",
+      "metrics_path": "/Users/mohanganesh/OpenClaw-Lab/openresearchos/runs/run_20260606143608_uncertainty-estimation-for-reliabl_6b4be1/experiments/micro_probe_i06/metrics.json",
+      "result_summary_path": "/Users/mohanganesh/OpenClaw-Lab/openresearchos/runs/run_20260606143608_uncertainty-estimation-for-reliabl_6b4be1/experiments/micro_probe_i06/result_summary.md",
+      "review_path": "/Users/mohanganesh/OpenClaw-Lab/openresearchos/runs/run_20260606143608_uncertainty-estimation-for-reliabl_6b4be1/experiments/micro_probe_i06/review_after_run.md",
+      "next_action": "KILL_IDEA",
+      "success": false,
+      "completed_at": "2026-06-06T15:12:51.430Z",
+      "decision": {
+        "next_action": "KILL_IDEA",
+        "rationale": "Proposed method did not improve over baseline (accuracy: -3.75% (p=0.0704, not significant ⚠️)).",
+        "required_next_step": "Revise the idea mechanism or try a different dataset before spending more experiment budget."
+      }
+    }
+  ],
+  "paper_readiness_level": "RRL-2",
+  "final_output_path": "/Users/mohanganesh/OpenClaw-Lab/openresearchos/runs/run_20260606143608_uncertainty-estimation-for-reliabl_6b4be1/research_failure_report.md",
+  "history": [
+    {
+      "at": "2026-06-06T14:36:29.208Z",
+      "state": "TOPIC_SCOPED",
+      "detail": "The topic can be explored with small simulations, synthetic data, or lightweight local experiments on the Mac."
+    },
+    {
+      "at": "2026-06-06T14:36:29.208Z",
+      "state": "SEARCH_PLAN_CREATED",
+      "detail": "15 queries created (LLM-generated)."
+    },
+    {
+      "at": "2026-06-06T14:36:32.905Z",
+      "state": "LITERATURE_DISCOVERY_RUNNING",
+      "detail": "Starting structured literature discovery."
+    },
+    {
+      "at": "2026-06-06T14:39:22.616Z",
+      "state": "EVIDENCE_LOCKED",
+      "detail": "54 papers found (target was 50+)."
+    },
+    {
+      "at": "2026-06-06T15:01:37.436Z",
+      "state": "PAPERS_PARSED",
+      "detail": "54 papers read (19 via full PDF)."
+    },
+    {
+      "at": "2026-06-06T15:01:37.436Z",
+      "state": "CLAIM_GRAPH_BUILT",
+      "detail": "54 evidence-linked claims created."
+    },
+    {
+      "at": "2026-06-06T15:02:13.273Z",
+      "state": "RESEARCH_MAP_READY",
+      "detail": "Research map generated."
+    },
+    {
+      "at": "2026-06-06T15:02:13.273Z",
+      "state": "GAPS_IDENTIFIED",
+      "detail": "6 gaps identified."
+    },
+    {
+      "at": "2026-06-06T15:02:15.298Z",
+      "state": "IDEA_TREE_GENERATED",
+      "detail": "Generating grounded ideas from method comparison matrix."
+    },
+    {
+      "at": "2026-06-06T15:02:40.254Z",
+      "state": "REVIEWER_PASS_1_RUNNING",
+      "detail": "Budgeted reviewer council started."
+    },
+    {
+      "at": "2026-06-06T15:09:32.481Z",
+      "state": "IDEAS_REVISED_OR_REJECTED",
+      "detail": "5 ideas rejected; 1 candidates retained."
+    },
+    {
+      "at": "2026-06-06T15:09:32.481Z",
+      "state": "NOVELTY_TRIBUNAL_RUNNING",
+      "detail": "Near-duplicate comparison completed against evidence index and Semantic Scholar."
+    },
+    {
+      "at": "2026-06-06T15:09:32.481Z",
+      "state": "IDEAS_SHORTLISTED",
+      "detail": "1 ideas available for experiment planning (validated by real micro-probes)."
+    },
+    {
+      "at": "2026-06-06T15:09:32.481Z",
+      "state": "MICRO_PROBE_REVIEWED",
+      "detail": "0 ideas tested on Mac terminal. 0 show real signal."
+    },
+    {
+      "at": "2026-06-06T15:10:08.555Z",
+      "state": "AWAITING_HUMAN_APPROVAL",
+      "detail": "Approval recorded for micro_probe_i06."
+    },
+    {
+      "at": "2026-06-06T15:10:34.065Z",
+      "state": "MICRO_PROBE_RUNNING",
+      "detail": "Running micro_probe_i06."
+    },
+    {
+      "at": "2026-06-06T15:12:51.430Z",
+      "state": "MICRO_PROBE_REVIEWED",
+      "detail": "KILL_IDEA"
+    },
+    {
+      "at": "2026-06-06T15:14:39.738Z",
+      "state": "PAPER_READINESS_REVIEW",
+      "detail": "research_failure_report_required"
+    },
+    {
+      "at": "2026-06-06T15:14:39.740Z",
+      "state": "PAPER_DRAFTED_OR_STOPPED",
+      "detail": "Failure report produced."
+    },
+    {
+      "at": "2026-06-06T15:14:39.740Z",
+      "state": "VENUE_FIT_DONE",
+      "detail": "Venue fit written."
+    },
+    {
+      "at": "2026-06-06T15:14:39.740Z",
+      "state": "TRACE_EXPORTED",
+      "detail": "Trace export command written."
+    }
+  ],
+  "discovery_errors": [],
+  "method_matrix": [
+    {
+      "evidence_id": "EV001",
+      "title": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery",
+      "year": 2024,
+      "method": "The AI Scientist is an AI system that generates novel research ideas, writes code, executes experiments, visualizes results, writes full scientific papers, and runs a simulated review process in an open-ended fashion.",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": "The AI Scientist can produce papers that exceed the acceptance threshold at a top machine learning conference as judged by the automated reviewer.",
+      "key_results": {
+        "reviewer_performance": "near-human performance in evaluating paper scores",
+        "paper_acceptance": "exceeds top conference acceptance threshold"
+      },
+      "limitations": [],
+      "code_available": true,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "cost less than $15 per paper"
+    },
+    {
+      "evidence_id": "EV002",
+      "title": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
+      "year": 2025,
+      "method": "The AI Scientist-v2 uses a progressive agentic tree-search methodology managed by a dedicated experiment manager agent to autonomously generate scientific manuscripts, eliminating reliance on human-authored code templates and generalizing across diverse machine learning domains, with an enhanced AI reviewer component that integrates a Vision-Language Model feedback loop for iterative refinement of figures.",
+      "datasets_used": [],
+      "baselines_compared": [
+        "The AI Scientist-v1"
+      ],
+      "best_result": "One fully AI-generated manuscript exceeded the average human acceptance threshold in a peer-reviewed ICLR workshop, marking the first instance of a fully AI-generated paper successfully navigating peer review.",
+      "key_results": {
+        "peer_review_acceptance": "exceeded average human acceptance threshold"
+      },
+      "limitations": [],
+      "code_available": true,
+      "code_url": null,
+      "can_run_on_macbook": false,
+      "compute_required": "not_stated"
+    },
+    {
+      "evidence_id": "EV003",
+      "title": "Agent Laboratory: Using LLM Agents as Research Assistants",
+      "year": 2025,
+      "method": "Research paper: Agent Laboratory: Using LLM Agents as Research Assistants",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV004",
+      "title": "MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering",
+      "year": 2024,
+      "method": "The paper evaluates ML engineering capabilities of AI agents using Kaggle competitions as tasks, establishing human baselines from Kaggle leaderboards and testing various language models with open-source scaffolds.",
+      "datasets_used": [
+        "Kaggle competitions (diverse set of challenging tasks)"
+      ],
+      "baselines_compared": [
+        "Human baselines from Kaggle leaderboards"
+      ],
+      "best_result": "OpenAI's o1-preview with AIDE scaffolding achieves at least the level of a Kaggle bronze medal in 16.9% of competitions.",
+      "key_results": {
+        "Kaggle bronze medal achievement": "16.9% of competitions"
+      },
+      "limitations": [
+        "No explicit limitations mentioned in the provided text"
+      ],
+      "code_available": true,
+      "code_url": null,
+      "can_run_on_macbook": false,
+      "compute_required": "Not specified"
+    },
+    {
+      "evidence_id": "EV005",
+      "title": "AIBuildAI-2: Scalable Agentic AI Research and Engineering",
+      "year": 2026,
+      "method": "AIBuildAI-2 is a knowledge-enhanced agent with an external, hierarchical knowledge system that dynamically loads relevant context for AI model building, initialized with web-collected AI development documents and continually evolving through distilled experience from completed tasks.",
+      "datasets_used": [
+        "MLE-Bench"
+      ],
+      "baselines_compared": [],
+      "best_result": "First place on MLE-Bench with a 70.7% medal rate",
+      "key_results": {
+        "MLE-Bench": "70.7% medal rate",
+        "Heart disease prediction competition": "Top 6.6% among 4,370 human-expert teams"
+      },
+      "limitations": [
+        "The performance of AI agents is limited by the static, often outdated, and sparse parametric knowledge of their underlying large language models, particularly on practical AI model engineering know-how"
+      ],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": false,
+      "compute_required": "Not specified in the provided text"
+    },
+    {
+      "evidence_id": "EV006",
+      "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+      "year": 2023,
+      "method": "Uses verbal feedback and memory to help agents improve across trials, motivating explicit failure memory and revision loops.",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV007",
+      "title": "Self-Refine: Iterative Refinement with Self-Feedback",
+      "year": 2023,
+      "method": "Studies iterative generation, feedback, and refinement, providing background for reviewer-style critique and revision policies.",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV008",
+      "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+      "year": 2023,
+      "method": "Demonstrates open-ended skill acquisition with memory and iterative exploration, relevant to long-running agent loops and durable lessons.",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV009",
+      "title": "AgentBench: Evaluating LLMs as Agents",
+      "year": 2023,
+      "method": "Introduces agent evaluation tasks and motivates structured benchmarks for agent behavior rather than isolated text quality.",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV010",
+      "title": "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
+      "year": 2024,
+      "method": "SWE-agent introduces a custom agent-computer interface (ACI) that enables language model agents to autonomously perform software engineering tasks by enhancing their ability to create/edit code files, navigate repositories, and execute tests.",
+      "datasets_used": [
+        "SWE-bench",
+        "HumanEvalFix"
+      ],
+      "baselines_compared": [
+        "previous state-of-the-art achieved with non-interactive LMs"
+      ],
+      "best_result": "87.7% pass@1 on HumanEvalFix",
+      "key_results": {
+        "pass@1_SWE-bench": 12.5,
+        "pass@1_HumanEvalFix": 87.7
+      },
+      "limitations": [],
+      "code_available": true,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "Not specified"
+    },
+    {
+      "evidence_id": "EV015",
+      "title": "Doubly Robust Distributionally Robust Off-Policy Evaluation and Learning",
+      "year": 2022,
+      "method": "Off-policy evaluation and learning (OPE/L) use offline observational data to make better decisions, which is crucial in applications where online experimentation is limited. However, depending entirel",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV019",
+      "title": "Aging States Estimation and Monitoring Strategies of Li-Ion Batteries Using Incremental Capacity Analysis and Gaussian Process Regression",
+      "year": 2026,
+      "method": "Existing approaches for battery health forecasting often rely on extensive cycling histories and continuously monitored cells. In contrast, many real-world scenarios provide only sparse information, e",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV022",
+      "title": "Towards black-box parameter estimation",
+      "year": 2023,
+      "method": "Deep learning algorithms have recently been shown to be a successful tool in estimating parameters of statistical models for which simulation is easy, but likelihood computation is challenging. This i",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV030",
+      "title": "Tube Loss based Deep Networks For Improving the Probabilistic Forecasting of Wind Speed",
+      "year": 2025,
+      "method": "Uncertainty Quantification (UQ) in wind speed forecasting is a critical challenge in wind power production due to the inherently volatile nature of wind. By quantifying the associated risks and return",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV031",
+      "title": "Bayesian Uncertainty Quantification with Anchored Ensembles for Robust EV Power Consumption Prediction",
+      "year": 2025,
+      "method": "Accurate EV power estimation underpins range prediction and energy management, yet practitioners need both point accuracy and trustworthy uncertainty. We propose an anchored-ensemble Long Short-Term M",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV035",
+      "title": "Open-World Semi-Supervised Learning",
+      "year": 2021,
+      "method": "A fundamental limitation of applying semi-supervised learning in real-world settings is the assumption that unlabeled test data contains only classes previously encountered in the labeled training dat",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV036",
+      "title": "AI-Enabled mm-Waveform Configuration for Autonomous Vehicles With Integrated Communication and Sensing",
+      "year": 2022,
+      "method": "Integrated communications and sensing (ICS) has recently emerged as an enabling technology for ubiquitous sensing and IoT applications. For ICS application to autonomous vehicles (AVs), optimizing the",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV052",
+      "title": "Deep generative classification of blood cell morphology",
+      "year": 2024,
+      "method": "Blood cell morphology assessment via light microscopy constitutes a cornerstone of haematological diagnostics, providing crucial insights into diverse pathological conditions. This complex task demand",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV053",
+      "title": "Generalized Regularized Evidential Deep Learning Models: Theory and Comprehensive Evaluation",
+      "year": 2025,
+      "method": "Evidential deep learning (EDL) models, based on Subjective Logic, introduce a principled and computationally efficient way to make deterministic neural networks uncertainty-aware. The resulting eviden",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    }
+  ]
+}

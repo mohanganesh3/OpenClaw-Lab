@@ -1,0 +1,26 @@
+{
+  "method_summary": "Research paper: Murphys Laws of AI Alignment: Why the Gap Always Wins",
+  "key_innovation": "See full text",
+  "datasets_used": [],
+  "baselines_compared": [],
+  "key_results": {},
+  "best_result": null,
+  "limitations_stated": [],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "unknown",
+  "compute_required": "unknown",
+  "can_run_on_macbook": true,
+  "evidence_id": "EV031",
+  "title": "Murphys Laws of AI Alignment: Why the Gap Always Wins",
+  "year": 2025,
+  "arxiv_id": "2509.05381",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

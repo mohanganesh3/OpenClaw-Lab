@@ -1,0 +1,116 @@
+{
+  "datasets_used": [
+    "70,000 compositions from Ti, Fe, Al, V, Ni, Nb, Zr, Mn, Co design space"
+  ],
+  "baselines_compared": [],
+  "metrics_used": [
+    "R²",
+    "Precision",
+    "Recall",
+    "F1 score",
+    "BCC fraction"
+  ],
+  "hyperparameters": "41-dimensional feature space, oversampling strategy for class imbalance",
+  "compute_required": null,
+  "seeds": null,
+  "headline_result": "0.99 R² for Laves phase prediction",
+  "results_table": [
+    {
+      "method": "MDN model",
+      "dataset": "RMPEAs",
+      "metric": "R²",
+      "value": "0.97 for FCC"
+    },
+    {
+      "method": "MDN model",
+      "dataset": "RMPEAs",
+      "metric": "R²",
+      "value": "0.98 for BCC"
+    },
+    {
+      "method": "MDN model",
+      "dataset": "RMPEAs",
+      "metric": "R²",
+      "value": "0.99 for Laves"
+    },
+    {
+      "method": "MDN model",
+      "dataset": "RMPEAs",
+      "metric": "R²",
+      "value": "0.89 for Sigma"
+    },
+    {
+      "method": "MDN model",
+      "dataset": "RMPEAs",
+      "metric": "R²",
+      "value": "0.96 for Heusler"
+    },
+    {
+      "method": "MDN model",
+      "dataset": "RMPEAs",
+      "metric": "R²",
+      "value": "0.98 for Liquid"
+    },
+    {
+      "method": "Low-uncertainty route",
+      "dataset": "Ti-alloys",
+      "metric": "BCC fraction",
+      "value": "0.68 to nearly 0.9"
+    },
+    {
+      "method": "High-uncertainty route",
+      "dataset": "Ti-alloys",
+      "metric": "BCC fraction",
+      "value": "0.6"
+    },
+    {
+      "method": "High-uncertainty route",
+      "dataset": "Ti-alloys",
+      "metric": "Precision",
+      "value": ">0.75 after two cycles"
+    },
+    {
+      "method": "Low-uncertainty route",
+      "dataset": "Ti-alloys",
+      "metric": "Recall",
+      "value": "0.3"
+    },
+    {
+      "method": "High-uncertainty route",
+      "dataset": "Ti-alloys",
+      "metric": "F1 score",
+      "value": "steadily increasing"
+    },
+    {
+      "method": "Acquisition size ≥100",
+      "dataset": "Ti-alloys",
+      "metric": "BCC fraction",
+      "value": ">0.8 after three cycles"
+    }
+  ],
+  "ablations": [
+    "Feature reduction from 41 to 12 features preserved accuracy and uncertainty levels"
+  ],
+  "improvement_over_baseline": null,
+  "best_result": "0.99 R² for Laves phase prediction",
+  "key_results": {
+    "RMPEAs_R²": "0.98 for Liquid"
+  },
+  "limitations_stated": [],
+  "reproducibility": "low",
+  "evidence_id": "EV024",
+  "title": "Uncertainty-aware phase fraction prediction and active-learning-guided out-of-domain discovery of refractory multi-principal element alloys",
+  "year": 2026,
+  "arxiv_id": "2604.18322",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 78664,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 43,
+  "pdf_tables": 11,
+  "pdf_captions": 9
+}

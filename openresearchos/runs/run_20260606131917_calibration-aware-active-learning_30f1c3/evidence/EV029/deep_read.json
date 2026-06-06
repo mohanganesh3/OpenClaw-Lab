@@ -1,0 +1,48 @@
+{
+  "paper_title": "Gaussian Process Molecule Property Prediction with FlowMO",
+  "authors": "Not provided in the given text.",
+  "year": 2020,
+  "abstract": "This paper compares the calibration of uncertainty estimates from Gaussian Processes (GPs) against Bayesian deep learning methods and attentive neural processes for molecular property prediction. It highlights the suitability of GPs for small datasets and their exact inference, contrasting them with approximate inference methods. The paper introduces FlowMO, a framework that enables the application of GPs to molecules by providing GPU-supported implementations of Tanimoto and string kernels, thus overcoming the limitations of applying GPs to high-dimensional and variable-length molecular representations like fingerprints and SMILES strings.",
+  "method": "The paper proposes a GP framework for molecular property prediction using Tanimoto and string kernels. The key methodological contribution is FlowMO, a framework that provides GPU-supported implementations of these kernels. This allows GPs to be applied to common molecular representations such as SMILES strings and ECFP fingerprints, which are not compatible with standard GP assumptions of low-dimensional, fixed-size inputs. The implementation is built on GPflow and RDKit. The framework is compared against established baselines across three benchmark datasets, with a focus on uncertainty calibration.",
+  "results": "The paper compares FlowMO with established baselines across three benchmark datasets. It also describes the molecular representations used: SMILES strings and ECFP fingerprints. The authors state their intention to conduct a more extensive comparison of uncertainty calibration in the future.",
+  "conclusion": "Not provided in the given text.",
+  "keywords": [
+    "Gaussian Process",
+    "Molecular Property Prediction",
+    "FlowMO",
+    "SMILES",
+    "ECFP",
+    "Tanimoto Kernel",
+    "Uncertainty Calibration",
+    "Kernel Methods"
+  ],
+  "citations": [
+    "[Rasmussen, 2004]",
+    "[Bengio, 2011]",
+    "[Kim et al., 2019]",
+    "[Rogers and Hahn, 2010]",
+    "[Weininger, 1988]",
+    "[Christie et al., 1993]",
+    "[Ralaivola et al., 2005]",
+    "[De G. Matthews et al., 2017]",
+    "[Landrum, 2013]",
+    "[Ramsundar et al., 2019]",
+    "[Wang et al., 2020]",
+    "[Cheng et al., 2020]",
+    "[Zhang and Lee, 2019]",
+    "[Hwang et al., 2020]",
+    "[Scalia et al., 2020]"
+  ],
+  "url_doi": "Not provided in the given text.",
+  "evidence_id": "EV029",
+  "title": "Gaussian Process Molecule Property Prediction with FlowMO",
+  "arxiv_id": "2010.01118",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

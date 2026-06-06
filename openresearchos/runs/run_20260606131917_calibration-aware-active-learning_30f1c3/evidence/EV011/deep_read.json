@@ -1,0 +1,39 @@
+{
+  "title": "Ask-n-Learn: Active Learning via Reliable Gradient Representations for Image Classification",
+  "summary": "This paper introduces Ask-n-Learn, an active learning method designed to overcome limitations in existing techniques. It addresses confirmation bias in pseudo-labeling methods and the poor performance of methods using uncalibrated uncertainty scores. The proposed approach uses calibrated uncertainties to generate reliable gradient embeddings for sample selection and incorporates a data augmentation strategy to mitigate confirmation bias.",
+  "methodology": {
+    "approach_name": "Ask-n-Learn",
+    "core_technique": "Active learning using gradient embeddings for sample selection.",
+    "key_innovations": [
+      "Utilizing calibrated uncertainties to produce reliable gradient embeddings.",
+      "Employing a data augmentation strategy during pseudo-labeling to avoid confirmation bias."
+    ]
+  },
+  "contributions": [
+    "A new active learning framework, Ask-n-Learn, that integrates calibrated uncertainties and data augmentation to improve sample selection.",
+    "A method for generating more reliable gradient embeddings, which better balance the exploitation-exploration trade-off in active learning."
+  ],
+  "datasets": [
+    "SVHN",
+    "MNIST",
+    "Fashion-MNIST",
+    "CIFAR-10"
+  ],
+  "baselines": [
+    "BADGE",
+    "Methods based on pseudo-labeling",
+    "Methods based on uncertainty scores (e.g., entropy)"
+  ],
+  "results": "The proposed Ask-n-Learn approach significantly outperforms existing active learning approaches on benchmark image classification tasks (SVHN, MNIST, Fashion-MNIST, CIFAR-10) using various deep architectures.",
+  "evidence_id": "EV011",
+  "year": 2020,
+  "arxiv_id": "2009.14448",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

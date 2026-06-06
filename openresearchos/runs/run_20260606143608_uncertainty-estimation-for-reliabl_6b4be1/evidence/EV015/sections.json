@@ -1,0 +1,6 @@
+{
+  "introduction": "[2202.09667] Doubly Robust Distributionally Robust Off-Policy Evaluation and Learning\n\nDoubly Robust Distributionally Robust Off-Policy Evaluation and Learning\n\nNathan Kallus\n\nXiaojie Mao\n\nKaiwen Wang",
+  "method": "valuation, Off-Policy Learning\n\n1  Introduction\n\nThe vast majority of online recommendations in search engines, e-commerce, social media, streaming platforms, etc. are made by algorithms that learn fr",
+  "results": "ronments. Instead of estimating/maximizing the expected policy return under the training environment, we may consider estimating/maximizing the worst-case return over all environments within an uncert",
+  "conclusion": "ating functions. It therefore remains a question how to obtain estimation-robustness guarantees for DROPE/L.\n\nIn this paper, we propose novel doubly robust algorithms for DROPE/L, ensuring robustness "
+}

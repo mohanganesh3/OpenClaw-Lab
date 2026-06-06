@@ -1,0 +1,49 @@
+{
+  "run_id": "run_20260606153908_calibration-aware-active-learning_90d23d",
+  "topic": "calibration-aware active learning for medical image classification",
+  "kept": 62,
+  "dropped_count": 8,
+  "judged_by": "llm",
+  "dropped": [
+    {
+      "title": "GenAI-supported portfolio assessment for complex thinking: a GPT-based innovation in business education",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "AI-Enabled Electrochemical Glucose Sensing: Towards Intelligent and Modernized Health Monitoring",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "Uncertainty Estimation for Deep Reconstruction in Actuatic Disaster Scenarios with Autonomous Vehicles",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "Novel Ransomware Detection Exploiting Uncertainty and Calibration Quality Measures Using Deep Learning",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "Mobile-Seed: Joint Semantic Segmentation and Boundary Detection for Mobile Robots",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "Securing the Floor and Raising the Ceiling: A Merging-based Paradigm for Multi-modal Search Agents",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "CAL-Log: Calibration-Aware Logarithmic Cost Modeling for Active Learning in Low-Resource NLP",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "Context-Aware Online Conformal Anomaly Detection with Prediction-Powered Data Acquisition",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    }
+  ]
+}

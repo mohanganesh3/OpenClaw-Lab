@@ -1,0 +1,32 @@
+{
+  "method_summary": "A framework that accepts human research ideas and progresses through literature review, experimentation, and report writing stages, producing code repositories and research reports with user feedback at each stage.",
+  "key_innovation": "Using LLM agents as autonomous research assistants that can complete the entire research process from idea to final paper.",
+  "datasets_used": [],
+  "baselines_compared": [
+    "previous autonomous research methods"
+  ],
+  "key_results": {
+    "cost_reduction": "84% decrease compared to previous autonomous research methods",
+    "human_feedback_impact": "significantly improves overall quality of research",
+    "o1_preview_performance": "best research outcomes"
+  },
+  "best_result": "84% decrease in research expenses compared to previous autonomous research methods",
+  "limitations_stated": [],
+  "code_available": true,
+  "code_url": null,
+  "reproducibility": "low",
+  "compute_required": null,
+  "can_run_on_macbook": null,
+  "evidence_id": "EV003",
+  "title": "Agent Laboratory: Using LLM Agents as Research Assistants",
+  "year": 2025,
+  "arxiv_id": "2501.04227",
+  "full_text_tool": "arxiv_abstract_openclaw",
+  "full_text_chars": 5667,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

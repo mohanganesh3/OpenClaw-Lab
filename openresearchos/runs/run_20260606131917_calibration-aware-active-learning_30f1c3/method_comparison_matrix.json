@@ -1,0 +1,564 @@
+{
+  "run_id": "run_20260606131917_calibration-aware-active-learning_30f1c3",
+  "topic": "calibration-aware active learning for image classification",
+  "generated_at": "2026-06-06T13:46:13.694Z",
+  "papers_with_deep_read": 33,
+  "macbook_friendly": 28,
+  "with_code": 5,
+  "method_matrix": [
+    {
+      "evidence_id": "EV001",
+      "title": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery",
+      "year": 2024,
+      "method": "The AI Scientist generates novel research ideas, writes code, executes experiments, visualizes results, writes full scientific papers, and conducts simulated peer review using large language models.",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": "Papers exceeding acceptance threshold at a top machine learning conference as judged by automated reviewer.",
+      "key_results": {
+        "near_human_performance": "automated reviewer achieves near-human performance in evaluating paper scores",
+        "acceptance_threshold": "papers exceed acceptance threshold at a top machine learning conference"
+      },
+      "limitations": [],
+      "code_available": true,
+      "code_url": "https://github.com/...",
+      "can_run_on_macbook": false,
+      "compute_required": "less than $15 per paper"
+    },
+    {
+      "evidence_id": "EV002",
+      "title": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
+      "year": 2025,
+      "method": "The AI Scientist-v2 eliminates reliance on human-authored code templates, generalizes across diverse machine learning domains, and employs a novel progressive agentic tree-search methodology managed by a dedicated experiment manager agent, with an enhanced AI reviewer component integrating a Vision-Language Model (VLM) feedback loop for iterative refinement of figure content and aesthetics.",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": "First fully AI-generated paper successfully navigating peer review with acceptance above human threshold",
+      "key_results": {
+        "peer_review_acceptance": "exceeded average human acceptance threshold"
+      },
+      "limitations": [],
+      "code_available": true,
+      "code_url": "https://github.com/...",
+      "can_run_on_macbook": false,
+      "compute_required": "not specified"
+    },
+    {
+      "evidence_id": "EV003",
+      "title": "Agent Laboratory: Using LLM Agents as Research Assistants",
+      "year": 2025,
+      "method": "Agent Laboratory is a framework that uses LLM agents to conduct research through three stages (literature review, experimentation, and report writing), producing code repositories and research reports with human feedback at each stage.",
+      "datasets_used": [],
+      "baselines_compared": [
+        "previous autonomous research methods"
+      ],
+      "best_result": "84% decrease in research expenses compared to previous autonomous research methods",
+      "key_results": {
+        "research_expense_reduction": "84%",
+        "performance": "state-of-the-art"
+      },
+      "limitations": [],
+      "code_available": true,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV004",
+      "title": "MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering",
+      "year": 2024,
+      "method": "MLE-bench evaluates ML engineering capabilities by creating diverse tasks from Kaggle competitions, establishing human baselines using Kaggle leaderboards, and testing frontier language models with open-source agent scaffolds.",
+      "datasets_used": [
+        "Kaggle competitions"
+      ],
+      "baselines_compared": [
+        "OpenAI's o1-preview with AIDE scaffolding",
+        "Other frontier language models",
+        "Human baselines from Kaggle leaderboards"
+      ],
+      "best_result": "16.9% of competitions",
+      "key_results": {
+        "bronze_medal_achievement_rate": "16.9% of competitions"
+      },
+      "limitations": [],
+      "code_available": true,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "not specified"
+    },
+    {
+      "evidence_id": "EV005",
+      "title": "AIBuildAI-2: Scalable Agentic AI Research and Engineering",
+      "year": 2026,
+      "method": "AIBuildAI-2 is a knowledge-enhanced agent with an external, evolving knowledge system that automatically builds AI models using a hierarchical knowledge structure that dynamically loads relevant context.",
+      "datasets_used": [
+        "MLE-Bench"
+      ],
+      "baselines_compared": [],
+      "best_result": "First place on MLE-Bench with 70.7% medal rate",
+      "key_results": {
+        "medal_rate": 70.7,
+        "ranking": "top 6.6% among 4,370 human-expert teams"
+      },
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": false,
+      "compute_required": "not specified"
+    },
+    {
+      "evidence_id": "EV006",
+      "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+      "year": 2023,
+      "method": "Uses verbal feedback and memory to help agents improve across trials, motivating explicit failure memory and revision loops.",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV007",
+      "title": "Self-Refine: Iterative Refinement with Self-Feedback",
+      "year": 2023,
+      "method": "Research paper: Self-Refine: Iterative Refinement with Self-Feedback",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV008",
+      "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+      "year": 2023,
+      "method": "Demonstrates open-ended skill acquisition with memory and iterative exploration, relevant to long-running agent loops and durable lessons.",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV009",
+      "title": "AgentBench: Evaluating LLMs as Agents",
+      "year": 2023,
+      "method": "Introduces agent evaluation tasks and motivates structured benchmarks for agent behavior rather than isolated text quality.",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV010",
+      "title": "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
+      "year": 2024,
+      "method": "SWE-agent introduces a custom agent-computer interface (ACI) that enables language model agents to autonomously use computers to solve software engineering tasks by enhancing their ability to create/edit code files, navigate repositories, and execute tests and programs.",
+      "datasets_used": [
+        "SWE-bench",
+        "HumanEvalFix"
+      ],
+      "baselines_compared": [
+        "non-interactive LMs"
+      ],
+      "best_result": "87.7% on HumanEvalFix",
+      "key_results": {
+        "pass@1_SWE-bench": 12.5,
+        "pass@1_HumanEvalFix": 87.7
+      },
+      "limitations": [],
+      "code_available": true,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "not specified"
+    },
+    {
+      "evidence_id": "EV011",
+      "title": "Ask-n-Learn: Active Learning via Reliable Gradient Representations for Image Classification",
+      "year": 2020,
+      "method": "Deep predictive models rely on human supervision in the form of labeled training data. Obtaining large amounts of annotated training data can be expensive and time consuming, and this becomes a critic",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV012",
+      "title": "Active Output Selection Strategies for Multiple Learning Regression Models",
+      "year": 2020,
+      "method": "Active learning shows promise to decrease test bench time for model-based drivability calibration. This paper presents a new strategy for active output selection, which suits the needs of calibration ",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV017",
+      "title": "Multi-Tier Labeling and Physics-Informed Learning for Orbital Anomaly Detection at Scale",
+      "year": 2026,
+      "method": "The paper presents a multi-tier labeling cascade that combines three weak supervision sources (physics rule set, IMM-UKF bank, and supplemental-element calibration) to produce labels at scale, followed by training a 6.5M-parameter Transformer in two stages for orbital anomaly detection.",
+      "datasets_used": [
+        "Two-Line Element (TLE) records"
+      ],
+      "baselines_compared": [
+        "rule_v1 (physics rule set)",
+        "IMM-UKF alone"
+      ],
+      "best_result": "62.8% decay recall",
+      "key_results": {
+        "maneuver_recall": 55.4,
+        "decay_recall": 62.8,
+        "time_delta_feature_improvement": 107
+      },
+      "limitations": [
+        "The model is framed as a high-recall triage classifier for surfacing candidate events, not for issuing final attributions"
+      ],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": false,
+      "compute_required": "Not specified"
+    },
+    {
+      "evidence_id": "EV021",
+      "title": "Robust Conformal Outlier Detection under Contaminated Reference Data",
+      "year": 2025,
+      "method": "Conformal prediction is a flexible framework for calibrating machine learning predictions, providing distribution-free statistical guarantees. In outlier detection, this calibration relies on a refere",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV024",
+      "title": "Active Sequential Posterior Estimation for Sample-Efficient Simulation-Based Inference",
+      "year": 2024,
+      "method": "Computer simulations have long presented the exciting possibility of scientific insight into complex real-world processes. Despite the power of modern computing, however, it remains challenging to sys",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV025",
+      "title": "VNDUQE: Information-Theoretic Novelty Detection using Deep Variational Information Bottleneck",
+      "year": 2026,
+      "method": "The paper uses Deep Variational Information Bottleneck (VIB) to constrain information flow through learned representations for novelty detection.",
+      "datasets_used": [
+        "MNIST"
+      ],
+      "baselines_compared": [
+        "MSP (Maximum Softmax Probability)"
+      ],
+      "best_result": "100% AUROC on noise for far-OOD samples using KL divergence",
+      "key_results": {
+        "KL divergence AUROC on noise": "100%",
+        "Prediction entropy AUROC on novel digit classes": "94.7%",
+        "Combined detection strategy average AUROC": "95.3%",
+        "Combined detection strategy TPR at 5% FPR": "92%",
+        "Baseline MSP AUROC": "85.0%",
+        "Baseline MSP TPR": "60.1%",
+        "Expected Calibration Error reduction": "38%"
+      },
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": false,
+      "compute_required": "not specified"
+    },
+    {
+      "evidence_id": "EV026",
+      "title": "A Machine Learning Approach Capturing Hidden Parameters in Autonomous Thin-Film Deposition",
+      "year": 2024,
+      "method": "Mechanism to account for hidden parameter variations in thin film deposition",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV028",
+      "title": "Deep-Learning Control of Lower-Limb Exoskeletons via Simplified Therapist Input",
+      "year": 2024,
+      "method": "Partial-assistance exoskeletons hold significant potential for gait rehabilitation by promoting active participation during (re)learning of “normal” walking patterns. Typically, the control of interac",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV029",
+      "title": "Gaussian Process Molecule Property Prediction with FlowMO",
+      "year": 2020,
+      "method": "We present FlowMO: an open-source Python library for molecular property prediction with Gaussian Processes. Built upon GPflow and RDKit, FlowMO enables the user to make predictions with well-calibrate",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV031",
+      "title": "Murphys Laws of AI Alignment: Why the Gap Always Wins",
+      "year": 2025,
+      "method": "Research paper: Murphys Laws of AI Alignment: Why the Gap Always Wins",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV032",
+      "title": "Bayesian Uncertainty Quantification with Anchored Ensembles for Robust EV Power Consumption Prediction",
+      "year": 2025,
+      "method": "Accurate EV power estimation underpins range prediction and energy management, yet practitioners need both point accuracy and trustworthy uncertainty. We propose an anchored-ensemble Long Short-Term M",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV036",
+      "title": "Quantum Probabilistic Label Refining: Enhancing Label Quality for Robust Image Classification",
+      "year": 2025,
+      "method": "Learning with softmax cross-entropy on one-hot labels often leads to overconfident predictions and poor robustness under noise or perturbations. Label smoothing mitigates this by redistributing some c",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV039",
+      "title": "Network Inversion for Uncertainty-Aware Out-of-Distribution Detection",
+      "year": 2025,
+      "method": "Out-of-distribution (OOD) detection and uncertainty estimation (UE) are critical components for building safe machine learning systems, especially in real-world scenarios where unexpected inputs are i",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV040",
+      "title": "Generating time-consistent dynamics with discriminator-guided image diffusion models",
+      "year": 2025,
+      "method": "Realistic temporal dynamics are crucial for many video generation, processing and modelling applications, e.g. in computational fluid dynamics, weather prediction, or long-term climate simulations. Vi",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV042",
+      "title": "An Analysis of Temporal Dropout in Earth Observation Time Series for Regression Tasks",
+      "year": 2025,
+      "method": "Missing instances in time series data impose a significant challenge to deep learning models, particularly in regression tasks. In the Earth Observation field, satellite failure or cloud occlusion fre",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV043",
+      "title": "Low Rank for Rank: Uncertainty-Aware Task-Specific LLM Ranking under Sparse Pairwise Comparisons",
+      "year": 2026,
+      "method": "Develops a low-rank model for task-model ability matrix estimation with a max-norm accurate estimator combining convex initialization and alternating-minimization refinement, plus an uncertainty quantification framework for task-specific ranking using cross-fitted one-step debiased estimators.",
+      "datasets_used": [
+        "Synthetic data",
+        "Chatbot Arena"
+      ],
+      "baselines_compared": [
+        "Independent task-wise Bradley-Terry estimation"
+      ],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV045",
+      "title": "Pseudo-D: Informing Multi-View Uncertainty Estimation with Calibrated Neural Training Dynamics",
+      "year": 2025,
+      "method": "Computer-aided diagnosis systems must make critical decisions from medical images that are often noisy, ambiguous, or conflicting, yet today's models are trained on overly simplistic labels that ignor",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV050",
+      "title": "Data space inversion for efficient predictions and uncertainty quantification for geothermal models",
+      "year": 2024,
+      "method": "The ability to make accurate predictions with quantified uncertainty provides a crucial foundation for the successful management of a geothermal reservoir. Conventional approaches for making predictio",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV051",
+      "title": "Out of Distribution Detection via Neural Network Anchoring",
+      "year": 2022,
+      "method": "Our goal in this paper is to exploit heteroscedastic temperature scaling as a calibration strategy for out of distribution (OOD) detection. Heteroscedasticity here refers to the fact that the optimal ",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV052",
+      "title": "Unsupervised Calibration under Covariate Shift",
+      "year": 2020,
+      "method": "A probabilistic model is said to be calibrated if its predicted probabilities match the corresponding empirical frequencies. Calibration is important for uncertainty quantification and decision making",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV057",
+      "title": "Generative Flow Networks for Model Adaptation in Digital Twins of Natural Systems",
+      "year": 2026,
+      "method": "Digital twins of natural systems must remain aligned with physical systems that evolve over time, are only partially observed, and are typically modeled by mechanistic simulators whose parameters cann",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV058",
+      "title": "Achieving well-informed decision-making in drug discovery: a comprehensive calibration study using neural network-based structure-activity models",
+      "year": 2024,
+      "method": "In the drug discovery process, where experiments can be costly and time-consuming, computational models that predict drug-target interactions are valuable tools to accelerate the development of new th",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV059",
+      "title": "Risk-Calibrated Human-Robot Interaction via Set-Valued Intent Prediction",
+      "year": 2024,
+      "method": "Tasks where robots must anticipate human intent, such as navigating around a cluttered home or sorting everyday items, are challenging because they exhibit a wide range of valid actions that lead to s",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    }
+  ]
+}

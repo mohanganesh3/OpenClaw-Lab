@@ -1,0 +1,39 @@
+{
+  "method_summary": "The paper investigates the phenomenon of 'grokking' in neural networks through systematic experiments across various algorithmic tasks, introducing new metrics like 'grokking speed' and 'extrapolation gap' to quantify and analyze this generalization behavior.",
+  "key_innovation": "The systematic investigation of grokking across different conditions (regularization, noise, extrapolation) and the introduction of metrics to quantify grokking behavior.",
+  "datasets_used": [
+    "AbstractDataset",
+    "ModSumDataset",
+    "ModSubtractDataset",
+    "CompositeModDataset"
+  ],
+  "baselines_compared": [
+    "non-regularized baseline",
+    "simple MLP baseline"
+  ],
+  "limitations_stated": [],
+  "code_available": false,
+  "code_url": null,
+  "compute_required": "Not specified",
+  "can_run_on_macbook": false,
+  "paper": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery",
+  "section": "RESULTS/EXPERIMENTS",
+  "numeric_findings": [],
+  "note": "The provided text does not contain any RESULTS/EXPERIMENTS section with numeric findings. The text only includes methodology sections describing denoiser and discriminator networks, loss functions, and training procedures. No experimental results, metrics, or quantitative data are presented in the excerpt.",
+  "reproducibility": "low",
+  "evidence_id": "EV001",
+  "title": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery",
+  "year": 2024,
+  "arxiv_id": "2408.06292",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 517291,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 186,
+  "pdf_tables": 2,
+  "pdf_captions": 99
+}

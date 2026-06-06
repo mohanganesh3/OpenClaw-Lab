@@ -1,0 +1,43 @@
+{
+  "method_summary": "An automated pipeline using LLMs to generate research papers across different scientific domains, with automated reviewing and iteration.",
+  "key_innovation": "Fully automated open-ended scientific discovery system that can generate, evaluate, and iterate on research papers without human intervention.",
+  "datasets_used": [
+    "2D Diffusion datasets",
+    "NanoGPT character-level language model data",
+    "Transformer models for grokking"
+  ],
+  "baselines_compared": [
+    "Claude Sonnet 3.5",
+    "GPT-4o",
+    "DeepSeek Coder",
+    "Llama-3.1 405b"
+  ],
+  "limitations_stated": [
+    "GPT-4o struggles with LaTeX writing",
+    "DeepSeek Coder fails to correctly call Aider tools",
+    "Llama-3.1 405b performs poorly",
+    "Missing sections and results in generated papers",
+    "Small-scale, non-compute-intensive templates",
+    "Low GPU utilization"
+  ],
+  "code_available": true,
+  "code_url": null,
+  "compute_required": "Small-scale, non-compute-intensive templates",
+  "can_run_on_macbook": false,
+  "reproducibility": "medium",
+  "evidence_id": "EV001",
+  "title": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery",
+  "year": 2024,
+  "arxiv_id": "2408.06292",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 179243,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 60,
+  "pdf_tables": 2,
+  "pdf_captions": 11
+}

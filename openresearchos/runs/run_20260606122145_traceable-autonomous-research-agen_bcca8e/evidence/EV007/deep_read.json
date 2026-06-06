@@ -1,0 +1,55 @@
+{
+  "paper_title": "Self-Refine: Iterative Refinement with Self-Feedback",
+  "methodology": {
+    "name": "Self-Refine",
+    "type": "Iterative self-refinement algorithm",
+    "process": [
+      "Generate initial output with a model ℳ",
+      "Generate feedback using the same model ℳ",
+      "Refine the draft using the feedback",
+      "Repeat steps 2-3 until stopping condition"
+    ],
+    "key_components": [
+      "Initial output generation",
+      "Feedback generation",
+      "Refinement of draft",
+      "Iteration until stopping condition"
+    ],
+    "implementation_details": {
+      "prompting_method": "Few-shot prompting",
+      "model_usage": "Same model ℳ for both feedback and refinement",
+      "stopping_condition": "Specified number of iterations or model's determination of no further refinement needed",
+      "instantiation": "Implemented with language models like GPT-3.5"
+    }
+  },
+  "applications": {
+    "task_domains": [
+      "Natural language generation",
+      "Source-code generation"
+    ],
+    "number_of_tasks": 7,
+    "task_types": [
+      "Tasks with multifaceted objectives",
+      "Tasks with hard-to-define goals"
+    ]
+  },
+  "advantages": [
+    "No domain-specific training data required",
+    "No external supervision or reward models needed",
+    "No expensive human annotations required",
+    "Applicable to various tasks without extensive supervision"
+  ],
+  "key_contribution": "Demonstrating that LLMs can provide iterative self-refinement without additional training, leading to higher-quality outputs on a wide range of tasks",
+  "evidence_id": "EV007",
+  "title": "Self-Refine: Iterative Refinement with Self-Feedback",
+  "year": 2023,
+  "arxiv_id": "2303.17651",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7996,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

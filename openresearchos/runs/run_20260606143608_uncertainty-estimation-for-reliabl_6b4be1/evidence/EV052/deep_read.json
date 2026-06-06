@@ -1,0 +1,67 @@
+{
+  "title": "Deep generative classification of blood cell morphology",
+  "authors": [
+    {
+      "affiliation": "1 Department of Applied Mathematics and Theoretical Physics, University of Cambridge, Cambridge, UK"
+    },
+    {
+      "affiliation": "2 Department of Laboratory Medicine, UZ Leuven, Leuven, Belgium"
+    },
+    {
+      "affiliation": "3 Department of Cardiovascular Sciences, Center for Molecular and Vascular Biology, University of Leuven, Leuven, Belgium"
+    },
+    {
+      "affiliation": "4 Department of Oncology, KU Leuven, Leuven, Belgium"
+    },
+    {
+      "affiliation": "5 Zuyderland Medical Center, Sittard-Geleen, Netherlands"
+    },
+    {
+      "affiliation": "6 Barts Health NHS Trust, London, United Kingdom"
+    },
+    {
+      "affiliation": "7 Queen Square Institute of Neurology, University College London, London, UK"
+    },
+    {
+      "affiliation": "8 Queen Mary University of London, London, United Kingdom"
+    },
+    {
+      "affiliation": "9 Department of Haematology, University of Cambridge, Cambridge, UK"
+    },
+    {
+      "affiliation": "10 Department of Medicine, University of Cambridge, Cambridge, UK"
+    }
+  ],
+  "equal_contribution": [
+    "Author(s) marked with †"
+  ],
+  "methodology": {
+    "model": "Diffusion model",
+    "process": [
+      "Input image x₀ is encoded into a latent space using an encoder ℰ",
+      "Gaussian noise ε ~ N(0,I) is added to create a noisy latent representation zₜ",
+      "The noisy representation is fed through a diffusion model for each possible class condition c",
+      "The model predicts the noise ε_θ for each condition",
+      "Classification decision is made by selecting the class that minimizes the error between predicted noise and true noise"
+    ],
+    "objective_function": "argmin_c E_{ε,t}[w_t‖ε - ε_θ(z_t,t,c)‖²₂]"
+  },
+  "code_availability": "https://github.com/Deltadahl/CytoDiffusion",
+  "research_focus": "Blood cell morphology classification",
+  "key_insights": [
+    "Blood cell morphology is described as complex and requiring expert visual description",
+    "The task of morphological characterization is open-ended and lacks definitive ground truth",
+    "Simple blood counts of cell class frequencies don't capture the richness of morphological appearances"
+  ],
+  "evidence_id": "EV052",
+  "year": 2024,
+  "arxiv_id": "2408.08982",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

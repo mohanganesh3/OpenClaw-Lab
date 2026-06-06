@@ -1,0 +1,65 @@
+{
+  "paper_metadata": {
+    "title": "Aging States Estimation and Monitoring Strategies of Li-Ion Batteries Using Incremental Capacity Analysis and Gaussian Process Regression",
+    "authors": [],
+    "abstract": null,
+    "keywords": [
+      "Li-ion batteries",
+      "State of Health (SoH)",
+      "Remaining Useful Life (RUL)",
+      "Incremental Capacity Analysis (ICA)",
+      "Gaussian Process Regression (GPR)",
+      "Machine Learning",
+      "Data-efficient methods"
+    ],
+    "problem_statement": "Accurate estimation of State of Health (SoH) and Remaining Useful Life (RUL) is essential for predictive maintenance and safety, but existing methods often require dense cycling histories which are not available in practical scenarios with only a few diagnostic cycles.",
+    "objectives": "To develop data-efficient approaches for estimating SoH and RUL from sparse measurements, specifically using Incremental Capacity Analysis and Gaussian Process Regression.",
+    "methods": [
+      {
+        "name": "Incremental Capacity Analysis (ICA)",
+        "type": "Experimental Analysis Method",
+        "description": "An indirect analysis method used for battery aging analysis."
+      },
+      {
+        "name": "Gaussian Process Regression (GPR)",
+        "type": "Machine Learning / Data-driven Model",
+        "description": "A machine learning approach used for regression tasks, applied here for SoH and RUL estimation."
+      }
+    ],
+    "related_methods": [
+      "Support Vector Regression (SVR)",
+      "Long Short-Term Neural Networks (LSTMs)",
+      "Fully Connected Feedforward Neural Networks (FFNNs)",
+      "Deep Learning Architectures"
+    ],
+    "data_sources": [
+      "Voltage",
+      "Current",
+      "Temperature",
+      "Capacity over time"
+    ],
+    "key_findings": [
+      "Electro-chemical models are limited by extensive parametrization and computational effort.",
+      "Electric equivalent circuit models require large, high-resolution datasets for optimization.",
+      "Machine learning approaches, including GPR, are gaining attention for SoH and RUL estimation due to their ability to handle complex relationships.",
+      "A key challenge is mapping sparse raw measurement data to meaningful features describing battery aging."
+    ],
+    "challenges_addressed": [
+      "Difficulty of applying methods that rely on dense cycling histories when only a few diagnostic cycles are available.",
+      "Need for data-efficient approaches to extract information from sparse measurements.",
+      "High computational cost and extensive parametrization requirements of some model-based methods (e.g., electro-chemical models)."
+    ]
+  },
+  "evidence_id": "EV019",
+  "title": "Aging States Estimation and Monitoring Strategies of Li-Ion Batteries Using Incremental Capacity Analysis and Gaussian Process Regression",
+  "year": 2026,
+  "arxiv_id": "2603.26155",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

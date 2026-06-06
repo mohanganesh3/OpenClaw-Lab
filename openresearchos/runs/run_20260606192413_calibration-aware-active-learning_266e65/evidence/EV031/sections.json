@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\nBAYESIAN UNCERTAINTY QUANTIFICATION WITH ANCHORED\nENSEMBLES FOR ROBUST EV POWER CONSUMPTION\nPREDICTION\nGhazal Farhani\nConnected & Automated Vehicles, National Research Council Canada\nL",
+  "method": "}. Using a factorized\nGaussian prior p(W) = Q\ng∈G N\n Wg; W (0)\ng\n, σ2\ngI\n \n, the MAP objective (1) becomes\nJ (W) = Ldata(W) +\nX\ng∈G\n1\n2σ2g\n\r\rWg −W (0)\ng\n\r\r2\n2,\n(2)\ni.e., the data term depends on all g",
+  "results": "OVEMBER 11, 2025\nFigure 2: Left Panel: t–NLL Anchor (dark red) and t–NLL Dropout (violet), with their confidence intervals (yellow and\nlight blue bands) Right Panel: Quantile–Anchor (dark blue) and Qu",
+  "conclusion": "modeling.\nOur model achieved excellent performance across all five vehicle fleets (combining chassis dynamometer and highway\ndata), with an average RMSE of 3.36 ± 1.1, MAE of 2.21 ± 0.89, R2 of 0.93 ±"
+}

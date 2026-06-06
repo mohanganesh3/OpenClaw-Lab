@@ -1,0 +1,38 @@
+{
+  "method_summary": "The paper uses Deep Variational Information Bottleneck (VIB) to constrain information flow through learned representations for novelty detection.",
+  "key_innovation": "Application of Deep Variational Information Bottleneck for producing well-calibrated uncertainty estimates in novelty detection.",
+  "datasets_used": [
+    "MNIST"
+  ],
+  "baselines_compared": [
+    "MSP (Maximum Softmax Probability)"
+  ],
+  "key_results": {
+    "KL divergence AUROC on noise": "100%",
+    "Prediction entropy AUROC on novel digit classes": "94.7%",
+    "Combined detection strategy average AUROC": "95.3%",
+    "Combined detection strategy TPR at 5% FPR": "92%",
+    "Baseline MSP AUROC": "85.0%",
+    "Baseline MSP TPR": "60.1%",
+    "Expected Calibration Error reduction": "38%"
+  },
+  "best_result": "100% AUROC on noise for far-OOD samples using KL divergence",
+  "limitations_stated": [],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "medium",
+  "compute_required": "not specified",
+  "can_run_on_macbook": false,
+  "evidence_id": "EV025",
+  "title": "VNDUQE: Information-Theoretic Novelty Detection using Deep Variational Information Bottleneck",
+  "year": 2026,
+  "arxiv_id": "2605.11551",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 5793,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

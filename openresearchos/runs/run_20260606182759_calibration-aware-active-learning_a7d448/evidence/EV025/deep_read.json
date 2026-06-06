@@ -1,0 +1,123 @@
+{
+  "datasets_used": [
+    "70,000 compositions from Ti-Fe-Al-V-Ni-Nb-Zr-Mn-Co design space with phase fractions at 7 temperatures (CALPHAD)"
+  ],
+  "baselines_compared": [],
+  "metrics_used": [
+    "R²",
+    "Precision",
+    "Recall",
+    "F1 score"
+  ],
+  "hyperparameters": "Oversampling strategy for class imbalance; 41-dimensional feature space; 6 MDN models (FCC/BCC/Laves/Sigma/Heusler/Liquid)",
+  "compute_required": null,
+  "seeds": null,
+  "headline_result": "R² of 0.99 for Laves phase prediction",
+  "results_table": [
+    {
+      "method": "MDN (BCC phase)",
+      "dataset": "RMPEA dataset",
+      "metric": "R²",
+      "value": "0.98"
+    },
+    {
+      "method": "MDN (FCC phase)",
+      "dataset": "RMPEA dataset",
+      "metric": "R²",
+      "value": "0.97"
+    },
+    {
+      "method": "MDN (Laves phase)",
+      "dataset": "RMPEA dataset",
+      "metric": "R²",
+      "value": "0.99"
+    },
+    {
+      "method": "MDN (Heusler phase)",
+      "dataset": "RMPEA dataset",
+      "metric": "R²",
+      "value": "0.96"
+    },
+    {
+      "method": "MDN (Liquid phase)",
+      "dataset": "RMPEA dataset",
+      "metric": "R²",
+      "value": "0.98"
+    },
+    {
+      "method": "MDN (Sigma phase)",
+      "dataset": "RMPEA dataset",
+      "metric": "R²",
+      "value": "0.89"
+    }
+  ],
+  "ablations": [
+    "Feature reduction from 41 to 12 most important features preserved accuracy; further reduction decreased accuracy and increased epistemic uncertainty"
+  ],
+  "improvement_over_baseline": null,
+  "stated_limitations": [
+    "Existing machine learning approaches rely on deterministic mappings from composition-derived features to phase labels, neglecting the uncertainty inherent in such predictions",
+    "The paper addresses this by using Mixture Density Networks (MDNs) to predict phase fractions and quantify aleatoric uncertainty"
+  ],
+  "unstated_weaknesses": [
+    "High domain specificity to refractory multi-principal element alloys with unclear transferability to medical imaging",
+    "No mention of dataset size, quality, or potential biases in the data",
+    "Computational requirements and scalability of the approach not specified",
+    "Limited discussion of model interpretability and explainability"
+  ],
+  "threats_to_validity": [
+    "Domain specificity threatens generalization to medical imaging applications",
+    "Performance at extreme temperatures not explicitly evaluated",
+    "Active learning for out-of-domain discovery may not translate well to medical imaging",
+    "Uncertainty quantification method may not be optimal for all types of uncertainty"
+  ],
+  "reproducibility": "medium",
+  "open_questions": [
+    "How well does the MDN approach generalize to other domains like medical imaging?",
+    "What is the computational cost of training and deploying these models?",
+    "How does the active learning component perform with different types of uncertainty?",
+    "What is the impact of the size and quality of the training data on model performance?"
+  ],
+  "future_work": [
+    "Applying the deep learning framework for phase fraction prediction and uncertainty quantification to other domains",
+    "Using active learning for out-of-domain discovery in new applications"
+  ],
+  "gaps_this_enables": [
+    "Demonstrates the value of uncertainty-aware deep learning in materials science",
+    "Provides a framework for active learning that could be adapted to medical imaging",
+    "Opens possibilities for calibration-aware approaches in other domains"
+  ],
+  "relevance_to_topic": "This paper demonstrates a calibration-aware approach using active learning and uncertainty quantification that could be adapted for medical image classification.",
+  "relation_type": "method_source",
+  "can_run_on_macbook": true,
+  "reusable_assets": [
+    "Mixture Density Network (MDN) framework for uncertainty-aware predictions",
+    "Active learning approach for out-of-domain discovery",
+    "Uncertainty quantification methodology"
+  ],
+  "code_available": false,
+  "code_url": null,
+  "best_result": "R² of 0.99 for Laves phase prediction",
+  "key_results": {
+    "RMPEA dataset_R²": "0.89"
+  },
+  "limitations_stated": [
+    "Existing machine learning approaches rely on deterministic mappings from composition-derived features to phase labels, neglecting the uncertainty inherent in such predictions",
+    "The paper addresses this by using Mixture Density Networks (MDNs) to predict phase fractions and quantify aleatoric uncertainty"
+  ],
+  "evidence_id": "EV025",
+  "title": "Uncertainty-aware phase fraction prediction and active-learning-guided out-of-domain discovery of refractory multi-principal element alloys",
+  "year": 2026,
+  "arxiv_id": "2604.18322",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 78664,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 43,
+  "pdf_tables": 11,
+  "pdf_captions": 9
+}

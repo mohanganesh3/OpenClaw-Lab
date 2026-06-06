@@ -1,0 +1,83 @@
+{
+  "latest_experiment": "micro_probe_id004",
+  "latest_metrics": {
+    "experiment_id": "micro_probe_id004",
+    "run_id": "run_20260606203407_calibration-aware-active-learning_b65d87",
+    "idea_id": "ID004",
+    "idea_title": "Failure Memory for Research Agents for calibration-aware active learning",
+    "hypothesis": "Failure Memory for Research Agents for calibration-aware active learning will improve guided idea selection utility over a random baseline under a controlled synthetic research-loop simulation.",
+    "level": "micro_probe",
+    "task_type": "calibration_aware_active_learning",
+    "dataset": "synthetic_classification_imbalanced_calibration_AL",
+    "seeds": [
+      42,
+      1337
+    ],
+    "num_seeds": 2,
+    "baseline_name": "Entropy Sampling + Sigmoid Calibration (LogReg)",
+    "proposed_name": "Calib-Weighted Acq + Isotonic Cal (SVC-RBF)",
+    "baseline_accuracy": 0.938058,
+    "baseline_accuracy_std": 0.004981,
+    "accuracy": 0.949056,
+    "accuracy_std": 0.002435,
+    "baseline_f1": 0.836,
+    "f1": 0.911,
+    "f1_std": 0.007,
+    "improvement": {
+      "accuracy": 0.010997
+    },
+    "improvement_pct": 1.1,
+    "better": true,
+    "t_statistic": 4.3193,
+    "p_value": 0.1448,
+    "statistically_significant": false,
+    "duration_seconds": 0.15,
+    "platform": "macOS-26.1-arm64-arm-64bit",
+    "python": "3.12.13",
+    "success": true,
+    "status": "passed"
+  },
+  "all_results": [
+    {
+      "experiment_id": "micro_probe_id004",
+      "level": "micro_probe",
+      "metrics": {
+        "experiment_id": "micro_probe_id004",
+        "run_id": "run_20260606203407_calibration-aware-active-learning_b65d87",
+        "idea_id": "ID004",
+        "idea_title": "Failure Memory for Research Agents for calibration-aware active learning",
+        "hypothesis": "Failure Memory for Research Agents for calibration-aware active learning will improve guided idea selection utility over a random baseline under a controlled synthetic research-loop simulation.",
+        "level": "micro_probe",
+        "task_type": "calibration_aware_active_learning",
+        "dataset": "synthetic_classification_imbalanced_calibration_AL",
+        "seeds": [
+          42,
+          1337
+        ],
+        "num_seeds": 2,
+        "baseline_name": "Entropy Sampling + Sigmoid Calibration (LogReg)",
+        "proposed_name": "Calib-Weighted Acq + Isotonic Cal (SVC-RBF)",
+        "baseline_accuracy": 0.938058,
+        "baseline_accuracy_std": 0.004981,
+        "accuracy": 0.949056,
+        "accuracy_std": 0.002435,
+        "baseline_f1": 0.836,
+        "f1": 0.911,
+        "f1_std": 0.007,
+        "improvement": {
+          "accuracy": 0.010997
+        },
+        "improvement_pct": 1.1,
+        "better": true,
+        "t_statistic": 4.3193,
+        "p_value": 0.1448,
+        "statistically_significant": false,
+        "duration_seconds": 0.15,
+        "platform": "macOS-26.1-arm64-arm-64bit",
+        "python": "3.12.13",
+        "success": true,
+        "status": "passed"
+      }
+    }
+  ]
+}

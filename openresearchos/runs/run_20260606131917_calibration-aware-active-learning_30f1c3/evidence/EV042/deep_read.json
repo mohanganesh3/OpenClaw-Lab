@@ -1,0 +1,30 @@
+{
+  "title": "An Analysis of Temporal Dropout in Earth Observation Time Series for Regression Tasks",
+  "keywords": "Dropout Earth Observation Time Series Regression Uncertainty Quantification",
+  "main_topic": "Handling missing data in Earth Observation time series data for regression tasks with focus on uncertainty quantification",
+  "methods": [
+    "Monte Carlo Temporal Dropout (MC-TD)",
+    "Monte Carlo Concrete Temporal Dropout (MC-ConcTD)",
+    "Concrete Dropout (ConcD)"
+  ],
+  "problem": "Missing data in time series sensor data in Earth Observation applications, caused by sensor anomalies and occlusions (e.g., clouds in optical images)",
+  "solutions": [
+    "Using dropout as an augmentation technique during training",
+    "Using dropout for uncertainty quantification during inference",
+    "Learning optimal dropout ratios using Concrete Dropout instead of manual tuning"
+  ],
+  "datasets": "Three Earth Observation datasets with temporal sensor data (not specifically named in the provided text)",
+  "results": "MC-ConcTD improves predictive accuracy and uncertainty calibration while eliminating the need for manual dropout tuning",
+  "code_availability": "https://github.com/mmiranda-l/Temporal-Dropout/",
+  "evidence_id": "EV042",
+  "year": 2025,
+  "arxiv_id": "2504.06915",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7997,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

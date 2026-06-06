@@ -1,0 +1,129 @@
+{
+  "problem_addressed": "Missing instances in Earth Observation time series data due to satellite failure or cloud occlusion introduce input-level uncertainty that degrades regression performance while being commonly overlooked in existing approaches.",
+  "core_claim": "Monte Carlo Concrete Temporal Dropout (MC-ConcTD) improves predictive performance and uncertainty calibration in EO time series regression by learning optimal dropout distributions rather than using fixed ratios.",
+  "key_contributions": [
+    "Introduction of Monte Carlo Temporal Dropout (MC-TD) for input-level uncertainty quantification using predefined dropout ratios",
+    "Development of Monte Carlo Concrete Temporal Dropout (MC-ConcTD) that learns optimal dropout distributions via continuous relaxation"
+  ],
+  "novelty": "Applying dropout at the input level across time dimensions for uncertainty quantification in EO regression tasks, and making dropout ratios learnable rather than requiring manual tuning.",
+  "method_summary": "MC-TD applies random temporal dropout masks drawn from Bernoulli distribution during inference with fixed ratio α. MC-ConcTD extends this using Concrete distribution to learn α as a parameter via continuous relaxation, both using Monte Carlo sampling (L=20) for uncertainty quantification.",
+  "method_components": [
+    "Temporal Dropout (TD) with binary masks from Bernoulli distribution",
+    "Concrete Temporal Dropout (ConcTD) with learnable parameters via continuous relaxation",
+    "Monte Carlo sampling for uncertainty estimation"
+  ],
+  "key_innovation": "Using learnable dropout ratios through Concrete distribution to automatically optimize uncertainty quantification, eliminating costly manual ratio selection while improving model calibration.",
+  "assumptions": [
+    "Input uncertainty propagates through the model to result in epistemic uncertainty",
+    "Dropout approximates Bayesian inference in neural networks",
+    "The dropout ratio can be optimized via gradient descent"
+  ],
+  "theoretical_grounding": "Based on Gal et al.'s demonstration that dropout approximates Bayesian inference and Valdenegro-Toro's relationship showing input uncertainty propagates to output uncertainty through stochastic sampling.",
+  "datasets_used": [
+    "SwissYield",
+    "LFMC",
+    "PM2.5"
+  ],
+  "baselines_compared": [
+    "MC-Dropout",
+    "MC-TD",
+    "MC-ConcTD",
+    "VI"
+  ],
+  "metrics_used": [
+    "R²",
+    "RMSE",
+    "MAE",
+    "ECE",
+    "PU"
+  ],
+  "hyperparameters": "Optimal dropout ratio around 0.1; MC-ConcTD dynamically adjusts dropout value",
+  "compute_required": null,
+  "seeds": null,
+  "headline_result": "MC-ConcTD achieves best R² of 0.79 on SwissYield dataset",
+  "results_table": [
+    {
+      "method": "MC-Dropout",
+      "dataset": "SwissYield",
+      "metric": "R²",
+      "value": "0.78"
+    },
+    {
+      "method": "MC-ConcTD",
+      "dataset": "SwissYield",
+      "metric": "R²",
+      "value": "0.79"
+    },
+    {
+      "method": "MC-ConcTD",
+      "dataset": "PM2.5",
+      "metric": "R²",
+      "value": "0.77"
+    },
+    {
+      "method": "MC-ConcTD",
+      "dataset": "LFMC",
+      "metric": "R²",
+      "value": "0.72"
+    },
+    {
+      "method": "MC-ConcTD",
+      "dataset": "SwissYield",
+      "metric": "RMSE",
+      "value": "0.93"
+    },
+    {
+      "method": "MC-ConcTD",
+      "dataset": "PM2.5",
+      "metric": "RMSE",
+      "value": "31.77"
+    },
+    {
+      "method": "MC-ConcTD",
+      "dataset": "LFMC",
+      "metric": "RMSE",
+      "value": "20.80"
+    },
+    {
+      "method": "MC-ConcTD",
+      "dataset": "SwissYield",
+      "metric": "PU",
+      "value": "1.23"
+    },
+    {
+      "method": "MC-ConcTD",
+      "dataset": "PM2.5",
+      "metric": "PU",
+      "value": "5.80"
+    }
+  ],
+  "ablations": [
+    "Comparison of TD variants (MC-TD vs MC-ConcTD) and established UQ methods (MC-Dropout, VI)"
+  ],
+  "improvement_over_baseline": "MC-ConcTD improves R² by 0.01 on SwissYield (0.78→0.79) and 0.03 on PM2.5 (0.74→0.77) vs MC-Dropout",
+  "best_result": "MC-ConcTD achieves best R² of 0.79 on SwissYield dataset",
+  "key_results": {
+    "SwissYield_R²": "0.79",
+    "PM2.5_R²": "0.77",
+    "LFMC_R²": "0.72",
+    "SwissYield_RMSE": "0.93",
+    "PM2.5_RMSE": "31.77"
+  },
+  "limitations_stated": [],
+  "reproducibility": "low",
+  "evidence_id": "EV042",
+  "title": "An Analysis of Temporal Dropout in Earth Observation Time Series for Regression Tasks",
+  "year": 2025,
+  "arxiv_id": "2504.06915",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 44682,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 15,
+  "pdf_tables": 10,
+  "pdf_captions": 8
+}

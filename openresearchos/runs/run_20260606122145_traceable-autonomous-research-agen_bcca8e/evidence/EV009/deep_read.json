@@ -1,0 +1,75 @@
+{
+  "title": "AgentBench: Evaluating LLMs as Agents",
+  "authors": [
+    {
+      "name": "XL",
+      "email": "shawliu9@gmail.com",
+      "contribution": "lead author"
+    },
+    {
+      "name": "HY",
+      "email": "longinyh@gmail.com",
+      "contribution": "lead author"
+    }
+  ],
+  "urls": {
+    "package": "https://github.com/THUDM/AgentBench",
+    "leaderboard_and_demos": "https://llmbench.ai/agent"
+  },
+  "methodology": {
+    "name": "AgentBench",
+    "description": "A multi-dimensional benchmark designed to evaluate LLM-as-Agent across a spectrum of different environments.",
+    "environments": [
+      {
+        "type": "Code",
+        "examples": [
+          "Operating System",
+          "Database",
+          "Knowledge Graph"
+        ]
+      },
+      {
+        "type": "Game",
+        "examples": [
+          "Digital Card Game",
+          "Lateral Thinking Puzzles",
+          "House-Holding"
+        ]
+      },
+      {
+        "type": "Web",
+        "examples": [
+          "Web Shopping"
+        ]
+      }
+    ]
+  },
+  "results": {
+    "llms_examined": 27
+  },
+  "figures": [
+    {
+      "number": 1,
+      "description": "An overview of LLMs on AgentBench"
+    },
+    {
+      "number": 2,
+      "description": "AgentBench as a systematic benchmark"
+    },
+    {
+      "number": 4,
+      "description": "The 8 distinct environments"
+    }
+  ],
+  "evidence_id": "EV009",
+  "year": 2023,
+  "arxiv_id": "2308.03688",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

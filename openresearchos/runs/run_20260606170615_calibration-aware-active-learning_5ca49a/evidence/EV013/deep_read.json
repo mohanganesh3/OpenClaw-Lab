@@ -1,0 +1,65 @@
+{
+  "datasets_used": [],
+  "baselines_compared": [],
+  "metrics_used": [],
+  "hyperparameters": null,
+  "compute_required": null,
+  "seeds": null,
+  "headline_result": null,
+  "results_table": [],
+  "ablations": [],
+  "improvement_over_baseline": null,
+  "stated_limitations": [
+    "Uncertainty-aware reward models have been adopted without thorough comparison, leading to poor understanding of their effectiveness"
+  ],
+  "unstated_weaknesses": [
+    "Focuses on reward models for LLMs rather than image classification",
+    "Application domain is different (language models vs. medical images)",
+    "Unclear transferability of methods to medical imaging domain"
+  ],
+  "threats_to_validity": [
+    "Generalization from language models to medical image classification might not be straightforward",
+    "Paper doesn't address domain-specific challenges in medical imaging"
+  ],
+  "reproducibility": "medium",
+  "open_questions": [
+    "How well do these uncertainty quantification methods transfer to medical image classification?",
+    "How can calibration-aware active learning be specifically tailored for medical images?"
+  ],
+  "future_work": [
+    "Further investigation into model size and initialization impacts on uncertainty quantification"
+  ],
+  "gaps_this_enables": [
+    "Framework for evaluating uncertainty quantification in medical image classification",
+    "Informing the design of calibration-aware active learning strategies for medical images"
+  ],
+  "relevance_to_topic": "Provides a unified framework for uncertainty quantification that could be adapted for calibration-aware active learning in medical image classification",
+  "relation_type": "foundational",
+  "can_run_on_macbook": "unknown",
+  "reusable_assets": [
+    "Uncertainty quantification methods",
+    "Calibration metrics"
+  ],
+  "code_available": "unknown",
+  "code_url": null,
+  "best_result": null,
+  "key_results": {},
+  "limitations_stated": [
+    "Uncertainty-aware reward models have been adopted without thorough comparison, leading to poor understanding of their effectiveness"
+  ],
+  "evidence_id": "EV013",
+  "title": "RewardUQ: A Unified Framework for Uncertainty-Aware Reward Models",
+  "year": 2026,
+  "arxiv_id": "2602.24040",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 72336,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 25,
+  "pdf_tables": 7,
+  "pdf_captions": 7
+}

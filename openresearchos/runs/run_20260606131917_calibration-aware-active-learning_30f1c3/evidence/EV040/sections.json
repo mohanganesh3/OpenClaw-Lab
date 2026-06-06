@@ -1,0 +1,6 @@
+{
+  "introduction": "[2505.09089] Generating time-consistent dynamics with discriminator-guided image diffusion models\n\nGenerating time-consistent dynamics\n\nwith discriminator-guided image diffusion models\n\nPhilipp Hess  ",
+  "method": "eather forecasts\n\nprice_probabilistic_2025  ;  li_generative_2024\n\nor climate simulations\n\nsrivastava_precipitation_2024  ;  bassetti_diffesm_2024  ;  ruhling_cachay_probablistic_2024  ;  couairon_arc",
+  "results": "given encoding of the dynamics is much more challenging. Most approaches rely on finetuning an IDM on video data, e.g., by inserting additional temporal layers into the architecture\n\nsinger_make–video",
+  "conclusion": "tors for spatial and time domains, the latter being similarly motivated as our time-consistency discriminator.\n Video prediction GANs with temporal discriminators have shown great success in turbulenc"
+}

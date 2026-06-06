@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\narXiv:2505.05163v2  [cs.CV]  4 Jul 2025\nProbabilistic Embeddings for Frozen Vision-Language Models: Uncertainty\nQuantification with Gaussian Process Latent Variable Models\nAishwarya Ve",
+  "method": "o the predictive distribution, which\ncan be written as: p(g∗) =\nR\np(g∗|x∗)p(x∗|z∗, zM)dx∗.\nHere, p(g∗|x∗) is a multivariate Gaussian distribution that\ndescribes the function values at the fixed point ",
+  "results": "|  |  |  |  |  |  |  |  |  |  |\n\n[CAPTION] Table 4: Results for VQA. While all methods achieve simi-\n\n[CAPTION] Table 5: Ablation on choice of GP kernel. GroVE achieves\n\n[CAPTION] Figure 5: Ablation u",
+  "conclusion": "mal\nsetting for Q was Q = 5 for MS-COCO and Flickr30k, and Q = 10 for CUB-200-2011 and Oxford Flowers 102. The\ntrade-off parameters that achieved the best performance were λ1 = 0.01 and λ2 = 400. The "
+}

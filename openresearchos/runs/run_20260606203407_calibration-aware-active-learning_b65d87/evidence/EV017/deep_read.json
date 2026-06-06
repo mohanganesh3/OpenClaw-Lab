@@ -1,0 +1,195 @@
+{
+  "problem_addressed": "Existing multi-domain skin lesion segmentation models inadequately utilize prediction uncertainty, leading to blind fusion of artifacts, passive topological reasoning, and overfitting to label noise.",
+  "core_claim": "UGDD-Net achieves superior segmentation reliability and generalization by actively integrating uncertainty throughout the learning lifecycle via an uncertainty-in-the-loop architecture.",
+  "key_contributions": [
+    "Uncertainty-Guided Bi-directional Feature Fusion (UGBFF) module dynamically modulates spatial-spectral interactions using pixel-level uncertainty",
+    "Uncertainty-Guided Graph Refinement (UGGR) module constructs priority-guided topology-aware graphs for active global reasoning",
+    "Uncertainty-Guided Margin-Adaptive Loss (UGML) enforces strict constraints on confident pixels while relaxing penalties on uncertain ones"
+  ],
+  "novelty": "Transforms uncertainty from a passive post-hoc metric to an active guiding signal through the novel 'Glance-and-Gaze' forward mechanism, enabling uncertainty-permeated learning across all stages.",
+  "method_summary": "UGDD-Net employs a dual-domain architecture with spatial and frequency branches, enhanced by three uncertainty-guided modules that actively utilize prediction uncertainty for feature fusion, graph-based refinement, and loss adaptation.",
+  "method_components": [
+    "Uncertainty-Guided Bi-directional Feature Fusion (UGBFF)",
+    "Uncertainty-Guided Graph Refinement (UGGR)",
+    "Uncertainty-Guided Margin-Adaptive Loss (UGML)"
+  ],
+  "key_innovation": "The 'Glance-and-Gaze' forward mechanism that actively propagates uncertainty signals throughout the entire learning lifecycle, enabling reliable features to rectify unreliable ones and confident predictions to guide uncertain regions.",
+  "assumptions": [
+    "Pixel-level uncertainty estimates are meaningful and accurately reflect prediction confidence",
+    "Dual-domain representations capture complementary spatial and frequency information",
+    "Uncertainty can be effectively used to guide both feature fusion and topological reasoning"
+  ],
+  "theoretical_grounding": "No formal proofs provided; empirical validation through extensive experiments showing statistically significant improvements (p<0.01) across multiple datasets and metrics, particularly in Expected Calibration Error (ECE) reduction.",
+  "datasets_used": [
+    "HAM10000"
+  ],
+  "baselines_compared": [
+    "U-Net + MCD",
+    "UDEL + TTA"
+  ],
+  "metrics_used": [
+    "IoU",
+    "Dice",
+    "HD95",
+    "ECE",
+    "IoUcon",
+    "Dicecon",
+    "Kappa",
+    "Pearson",
+    "Diceunc"
+  ],
+  "hyperparameters": null,
+  "compute_required": null,
+  "seeds": null,
+  "headline_result": "UGML achieved IoU of 92.61% and Dice of 96.01% on the main dataset, and IoU of 79.92% on Hard Samples",
+  "results_table": [
+    {
+      "method": "Loss 2 (Dice + CE)",
+      "dataset": "Main",
+      "metric": "IoU",
+      "value": "91.55%"
+    },
+    {
+      "method": "Loss 2 (Dice + CE)",
+      "dataset": "Main",
+      "metric": "Dice",
+      "value": "95.35%"
+    },
+    {
+      "method": "Loss 2 (Dice + CE)",
+      "dataset": "Main",
+      "metric": "HD95",
+      "value": "7.36"
+    },
+    {
+      "method": "Loss 2 (Dice + CE)",
+      "dataset": "Main",
+      "metric": "ECE",
+      "value": "2.43"
+    },
+    {
+      "method": "Loss 3 (Dice + CE + Boundary)",
+      "dataset": "Main",
+      "metric": "IoU",
+      "value": "91.84%"
+    },
+    {
+      "method": "Loss 3 (Dice + CE + Boundary)",
+      "dataset": "Main",
+      "metric": "Dice",
+      "value": "95.52%"
+    },
+    {
+      "method": "Loss 3 (Dice + CE + Boundary)",
+      "dataset": "Main",
+      "metric": "HD95",
+      "value": "7.05"
+    },
+    {
+      "method": "Loss 3 (Dice + CE + Boundary)",
+      "dataset": "Main",
+      "metric": "ECE",
+      "value": "2.30"
+    },
+    {
+      "method": "Loss 4 (UGML)",
+      "dataset": "Main",
+      "metric": "IoU",
+      "value": "92.61%"
+    },
+    {
+      "method": "Loss 4 (UGML)",
+      "dataset": "Main",
+      "metric": "Dice",
+      "value": "96.01%"
+    },
+    {
+      "method": "Loss 4 (UGML)",
+      "dataset": "Main",
+      "metric": "HD95",
+      "value": "6.45"
+    },
+    {
+      "method": "Loss 4 (UGML)",
+      "dataset": "Main",
+      "metric": "ECE",
+      "value": "2.07"
+    },
+    {
+      "method": "UGDD-Net",
+      "dataset": "HAM10000",
+      "metric": "IoUcon",
+      "value": "73.91%"
+    },
+    {
+      "method": "UGDD-Net",
+      "dataset": "HAM10000",
+      "metric": "Dicecon",
+      "value": "83.37%"
+    },
+    {
+      "method": "UGDD-Net",
+      "dataset": "HAM10000",
+      "metric": "Kappa",
+      "value": "0.6906"
+    },
+    {
+      "method": "UGDD-Net",
+      "dataset": "HAM10000",
+      "metric": "Pearson",
+      "value": "0.5291"
+    },
+    {
+      "method": "UGDD-Net",
+      "dataset": "HAM10000",
+      "metric": "Diceunc",
+      "value": "71.56%"
+    },
+    {
+      "method": "Loss 4 (UGML)",
+      "dataset": "Hard Samples",
+      "metric": "IoU",
+      "value": "79.92%"
+    },
+    {
+      "method": "Loss 4 (UGML)",
+      "dataset": "Hard Samples",
+      "metric": "HD95",
+      "value": "17.03"
+    },
+    {
+      "method": "Loss 4 (UGML)",
+      "dataset": "Hard Samples",
+      "metric": "ECE",
+      "value": "11.72"
+    }
+  ],
+  "ablations": [
+    "Comparison of different loss functions: Dice + CE, Dice + CE + Boundary, and UGML"
+  ],
+  "improvement_over_baseline": "UGML improved IoU by 0.77%, Dice by 0.49%, HD95 by 0.6, and ECE by 0.23% compared to Loss 3",
+  "best_result": "UGML achieved IoU of 92.61% and Dice of 96.01% on the main dataset, and IoU of 79.92% on Hard Samples",
+  "key_results": {
+    "Main_IoU": "91.84%",
+    "Main_Dice": "95.52%",
+    "Main_HD95": "7.36",
+    "Main_ECE": "2.43"
+  },
+  "limitations_stated": [],
+  "reproducibility": "low",
+  "evidence_id": "EV017",
+  "title": "Uncertainty-Guided Dual-Domain Learning for Reliable Skin Lesion Segmentation",
+  "year": 2026,
+  "arxiv_id": "2605.09600",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 98555,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 34,
+  "pdf_tables": 0,
+  "pdf_captions": 19
+}

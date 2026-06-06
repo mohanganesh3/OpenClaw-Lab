@@ -1,0 +1,745 @@
+{
+  "run_id": "run_20260606192413_calibration-aware-active-learning_266e65",
+  "topic": "calibration-aware active learning for medical image classification",
+  "generated_at": "2026-06-06T20:19:28.139Z",
+  "papers_with_deep_read": 30,
+  "macbook_friendly": 20,
+  "with_code": 7,
+  "method_matrix": [
+    {
+      "evidence_id": "EV001",
+      "title": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery",
+      "year": 2024,
+      "method": "The AI Scientist uses frontier LLMs to generate novel research ideas, implement them as code experiments, visualize results, write full scientific papers, and run simulated review processes. The framework iterates this process in an open-ended manner using three domain-specific templates.",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV002",
+      "title": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
+      "year": 2025,
+      "method": "The system employs a progressive agentic tree-search methodology managed by a dedicated experiment manager agent, iteratively formulating hypotheses, designing/executing experiments, analyzing data, and authoring manuscripts, with VLM-enhanced reviewer for iterative refinement.",
+      "datasets_used": [
+        "SCAN",
+        "COGS",
+        "IWSLT",
+        "GeoQuery",
+        "synthetic arithmetic expression datasets"
+      ],
+      "baselines_compared": [
+        "baseline models",
+        "meta-learning techniques",
+        "specialized architectures"
+      ],
+      "best_result": "No significant improvement in generalization performance with compositional regularization on synthetic arithmetic expression datasets",
+      "key_results": {
+        "Synthetic Arithmetic Expressions_Generalization Performance": "No significant improvement vs baseline"
+      },
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "not specified"
+    },
+    {
+      "evidence_id": "EV003",
+      "title": "Agent Laboratory: Using LLM Agents as Research Assistants",
+      "year": 2025,
+      "method": "The method involves an autonomous LLM-based framework that accepts a human-provided research idea and progresses through three stages: literature review, experimentation, and report writing, producing comprehensive research outputs including a code repository and a research report, while enabling users to provide feedback and guidance at each stage.",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV004",
+      "title": "MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering",
+      "year": 2024,
+      "method": "MLE-bench evaluates ML agents on predicting scalar coupling constants using Log of Mean Absolute Error across different coupling types, with a comprehensive dataset of molecular structures and features",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [
+        "Limited evaluation on real-world ML engineering scenarios",
+        "Focus on synthetic benchmarks rather than production environments",
+        "Evaluation metrics may not capture all aspects of ML engineering quality"
+      ],
+      "code_available": true,
+      "code_url": "https://github.com/ml-bench/mle-bench",
+      "can_run_on_macbook": false,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV005",
+      "title": "AIBuildAI-2: Scalable Agentic AI Research and Engineering",
+      "year": 2026,
+      "method": "AIBuildAI-2 uses a hierarchical sub-agent design with a dynamically loaded knowledge system that is initialized from web-scraped AI development documents and continually evolves from the agent's own experience.",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [
+        "Performance of agents is limited by parametric knowledge of underlying large language models",
+        "Difficulty for natural scientists without specialized AI engineering expertise"
+      ],
+      "code_available": true,
+      "code_url": "https://github.com/ucas-zry/AIBuildAI-2",
+      "can_run_on_macbook": false,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV006",
+      "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+      "year": 2023,
+      "method": "Reflexion formalizes an iterative optimization process where an Actor generates trajectories, an Evaluator provides scalar rewards, and a Self-Reflection model creates verbal feedback summaries stored in episodic memory. This loop continues until task completion, with memory bounded to 1-3 experiences to respect LLM context limits.",
+      "datasets_used": [
+        "HumanEval Python",
+        "HotPotQA (100 instances)"
+      ],
+      "baselines_compared": [
+        "CoT (GT)",
+        "ReAct"
+      ],
+      "best_result": "0.80 on HotPotQA with Reflexion and gpt-4",
+      "key_results": {
+        "HumanEval Python_Pass@1 accuracy": "0.26",
+        "HotPotQA_Pass@1 accuracy": "0.71"
+      },
+      "limitations": [
+        "The paper does not explicitly address calibration in the context of classification tasks",
+        "The approach is demonstrated primarily on language-based environments rather than visual tasks",
+        "No evaluation on medical image datasets or domain-specific challenges"
+      ],
+      "code_available": "unknown (not specified in the abstract)",
+      "code_url": "null",
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV007",
+      "title": "Self-Refine: Iterative Refinement with Self-Feedback",
+      "year": 2023,
+      "method": "SELF-REFINE generates an initial output using an LLM, then the same LLM provides feedback for its output and uses it to refine itself iteratively across multiple steps.",
+      "datasets_used": [
+        "CommonGen-Hard",
+        "Acronym Generation dataset (250 acronyms)",
+        "CodeNet (300 examples)"
+      ],
+      "baselines_compared": [
+        "Base GPT-3.5",
+        "Base ChatGPT",
+        "Base GPT-4"
+      ],
+      "best_result": "GPT-4: 93.1% in Math Reasoning (vs 92.9% base)",
+      "key_results": {
+        "Sentiment Reversal_Preference": "30.4 ± 3.61",
+        "Dialogue Response_Preference": "63.6 ± 6.62",
+        "Code Optimization_Optimized %": "23.0 ± 3.25",
+        "Code Readability_Readability %": "51.3 ± 7.39",
+        "Acronym Gen._Preference": "56.4 ± 8.15",
+        "Constrained Gen._Coverage %": "37.0 ± 8.26"
+      },
+      "limitations": [
+        "The paper doesn't explicitly state limitations in the abstract",
+        "The method focuses on text generation rather than image classification",
+        "No mention of computational efficiency or scalability"
+      ],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": false,
+      "compute_required": "Not specified"
+    },
+    {
+      "evidence_id": "EV008",
+      "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+      "year": 2023,
+      "method": "VOYAGER interacts with GPT-4 via blackbox queries to generate executable code for actions in Minecraft, using Mineflayer as the low-level controller. The agent's three components work together to drive exploration, store skills, and improve programs iteratively.",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV010",
+      "title": "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
+      "year": 2024,
+      "method": "SWE-agent enables LMs to interact with computers through a custom interface that translates LM actions into filesystem operations, file edits, and program executions with structured feedback.",
+      "datasets_used": [
+        "SWE-bench Lite dataset",
+        "SWE-bench test set (286 trajectories for GPT-4, 35 trajectories for Claude 3 Opus)"
+      ],
+      "baselines_compared": [
+        "SWE-agent with GPT-4",
+        "SWE-agent with Claude 3 Opus"
+      ],
+      "best_result": "Resolution performance across different turns with varying success rates",
+      "key_results": {
+        "SWE-bench (Full)_Resolution by Turn": "60 instances resolved by Turn 5",
+        "SWE-bench Lite_Resolution by Turn": "30 instances resolved by Turn 5",
+        "SWE-bench_Total Steps": "Resolved instances show earlier mean with fewer trajectories >120 steps",
+        "SWE-bench_Cost": "Resolved instances concentrated below $2.00",
+        "SWE-bench (GPT-4)_Pattern Frequency": "edit, python, find_file: 71 times (Turns 2-4, Localization File)"
+      },
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "Not specified"
+    },
+    {
+      "evidence_id": "EV012",
+      "title": "RewardUQ: A Unified Framework for Uncertainty-Aware Reward Models",
+      "year": 2026,
+      "method": "Trains four UQ architectures using embeddings from pretrained LLMs, modifies standard losses for each method, and evaluates on standard metrics with a unified procedure.",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV013",
+      "title": "Bayesian E(3)-Equivariant Interatomic Potential with Iterative Restratification of Many-body Message Passing",
+      "year": 2025,
+      "method": "The approach develops Bayesian E(3)-equivariant MLPs using deep ensembles with joint energy-force uncertainty modeling through the NLLJEF loss function, combined with iterative restratification of many-body message passing.",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [
+        "The method is specifically designed for interatomic potentials in molecular systems",
+        "Computational requirements may be high for large-scale applications"
+      ],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": false,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV016",
+      "title": "Uncertainty-Guided Dual-Domain Learning for Reliable Skin Lesion Segmentation",
+      "year": 2026,
+      "method": "UGDD-Net employs a dual-domain architecture with spatial and frequency branches, utilizing a two-pass 'Glance-and-Gaze' forward mechanism where uncertainty actively modulates spatial-spectral interactions, enables priority-guided topology-aware reasoning, and enforces adaptive loss constraints.",
+      "datasets_used": [
+        "ISIC2017",
+        "ISIC2018",
+        "PH2",
+        "HAM10000"
+      ],
+      "baselines_compared": [
+        "Dice + CE",
+        "Dice + CE + Boundary",
+        "U-Net + MCD",
+        "UDEL + TTA"
+      ],
+      "best_result": "IoU of 79.92% on Hard Samples (UGML)",
+      "key_results": {
+        "Hard Samples_IoU": "79.92",
+        "Hard Samples_ECE": "11.72",
+        "HAM10000 (Expert)_IoUcon": "70.21"
+      },
+      "limitations": [
+        "The abstract doesn't explicitly state limitations, but given the focus on skin lesion segmentation, potential limitations could include performance on lesions with atypical appearances or in cases with poor image quality."
+      ],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV019",
+      "title": "Probabilistic Embeddings for Frozen Vision-Language Models: Uncertainty Quantification with Gaussian Process Latent Variable Models",
+      "year": 2025,
+      "method": "GroVE builds a Gaussian Process Latent Variable Model (GPLVM) to learn a shared low-dimensional latent space where image and text inputs map to unified representations, optimized through single-modal embedding reconstruction and cross-modal alignment objectives.",
+      "datasets_used": [
+        "MS-COCO",
+        "CUB-200-2011"
+      ],
+      "baselines_compared": [
+        "Neural Processes",
+        "Other probabilistic embedding methods"
+      ],
+      "best_result": "0.79±0.02 KL-Divergence score for Image-to-Text alignment on COCO",
+      "key_results": {
+        "COCO_Image-to-Text": "0.70±0.04",
+        "COCO_Text-to-Image": "0.48±0.02",
+        "CUB_Image-to-Text": "0.65±0.02",
+        "CUB_Text-to-Image": "0.49±0.05"
+      },
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "Not specified in excerpt"
+    },
+    {
+      "evidence_id": "EV024",
+      "title": "Uncertainty-aware phase fraction prediction and active-learning-guided out-of-domain discovery of refractory multi-principal element alloys",
+      "year": 2026,
+      "method": "Refractory multi-principal element alloys (RMPEAs) represent a novel class of alloys characterized by an extensive compositional design space and the potential for exceptional mechanical performance u",
+      "datasets_used": [
+        "70,000 compositions from Ti, Fe, Al, V, Ni, Nb, Zr, Mn, Co design space"
+      ],
+      "baselines_compared": [],
+      "best_result": "0.99 R² for Laves phase prediction",
+      "key_results": {
+        "RMPEAs_R²": "0.98 for Liquid"
+      },
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV026",
+      "title": "Revisiting Unknowns: Towards Effective and Efficient Open-Set Active Learning",
+      "year": 2026,
+      "method": "Trains a dual-head classifier (LCE for known classes, LEDL for unknown), computes purity margins using auxiliary head logits, fits a 3-component GMM to logit margins, refines candidates via calibrated precision targets, and selects queries using JS divergence scores.",
+      "datasets_used": [
+        "CIFAR-10",
+        "CIFAR-100",
+        "Tiny-ImageNet",
+        "ImageNet-1K"
+      ],
+      "baselines_compared": [
+        "Random",
+        "Margin",
+        "Core-Set",
+        "BADGE",
+        "VAAL",
+        "Open-Set BALD",
+        "OSAL"
+      ],
+      "best_result": "OSAL achieves 94.2% accuracy on CIFAR-10",
+      "key_results": {
+        "CIFAR-10_ACC": "94.2%",
+        "CIFAR-100_ACC": "94.0%",
+        "Tiny-ImageNet_ACC": "76.3%",
+        "ImageNet-1K_ACC": "78.5%"
+      },
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "single GPU"
+    },
+    {
+      "evidence_id": "EV027",
+      "title": "OmniDP: Beyond-FOV Large-Workspace Humanoid Manipulation with Omnidirectional 3D Perception",
+      "year": 2026,
+      "method": "The method processes panoramic LiDAR point clouds through a Time-Aware Attention Pooling mechanism, encoding historical sequences of 3D data while capturing temporal dependencies, and uses a Diffusion Policy decoder to generate coordinated whole-body actions.",
+      "datasets_used": [
+        "Teleoperated trajectories using TeleVuer framework (size not specified)"
+      ],
+      "baselines_compared": [
+        "DP [4] (RGB images 240×424)",
+        "DP3 [5] (camera-frame point clouds)",
+        "iDP3 [6] (camera-frame point clouds)"
+      ],
+      "best_result": "OmniDP achieved 82/120 total success rate across all tasks (Table I)",
+      "key_results": {
+        "All tasks_Total success rate": "25/120",
+        "Collision test_Success rate": "0/20"
+      },
+      "limitations": [
+        "Conventional RGB-D solutions suffer from narrow fields of view (FOV) and self-occlusion",
+        "Existing approaches to expanding perception introduce mechanical complexity, calibration dependencies, and latency",
+        "Physical constraints prevent the robot from repositioning itself in some scenarios"
+      ],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": false,
+      "compute_required": "Not specified"
+    },
+    {
+      "evidence_id": "EV031",
+      "title": "Bayesian Uncertainty Quantification with Anchored Ensembles for Robust EV Power Consumption Prediction",
+      "year": 2025,
+      "method": "Trains multiple LSTM models with gate-wise Gaussian priors anchored to learned weights, using Student-t negative log-likelihood for aleatoric uncertainty. Predictive intervals combine ensemble spread (epistemic) and t-distribution scale (aleatoric).",
+      "datasets_used": [
+        "Chassis dynamometer tests",
+        "Highway driving data"
+      ],
+      "baselines_compared": [
+        "t-NLL Anchor",
+        "t-NLL Dropout",
+        "Quantile Anchor",
+        "Quantile MC Dropout"
+      ],
+      "best_result": "t-NLL Anchor achieved best calibration with standardized variance near unity (≈1.13) for Sedan and IONIQ 5 datasets",
+      "key_results": {
+        "Sedan_1_RMSE": "2.5",
+        "Sedan_1_MAE": "1.3",
+        "Sedan_1_AU": "1.6",
+        "Sedan_1_EU": "1.2",
+        "Sedan_1_R2": "0.93",
+        "Sedan_1_EV": "0.94"
+      },
+      "limitations": [
+        "The model is specifically designed for EV power consumption prediction using vehicle-kinematic time series, which might limit its applicability to other domains.",
+        "The model might be computationally intensive due to the ensemble approach."
+      ],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV036",
+      "title": "Quantum Probabilistic Label Refining: Enhancing Label Quality for Robust Image Classification",
+      "year": 2025,
+      "method": "Encode inputs into multi-qubit quantum states using VQC with entanglement/superposition, extract probabilistic labels via quantum measurement, train classical CNNs with soft-target cross-entropy loss.",
+      "datasets_used": [
+        "MNIST",
+        "Fashion-MNIST"
+      ],
+      "baselines_compared": [
+        "M1",
+        "M2"
+      ],
+      "best_result": "M3 achieves 97.87% accuracy on MNIST at Std=0.1",
+      "key_results": {
+        "MNIST_accuracy": "98.60%"
+      },
+      "limitations": [
+        "The paper doesn't explicitly state limitations in the abstract",
+        "Focuses on label refinement but doesn't discuss computational complexity"
+      ],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": false,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV039",
+      "title": "Network Inversion for Uncertainty-Aware Out-of-Distribution Detection",
+      "year": 2025,
+      "method": "The method extends an n-class classifier to an (n+1)-class model by introducing a 'garbage' class populated with random Gaussian noise. After each training epoch, network inversion reconstructs input images for all output classes. These inverted samples that initially appear noisy and incoherent are assigned to the garbage class and used for retraining. This cycle continues until inverted samples begin to resemble in-distribution data, indicating the classifier has learned meaningful decision boundaries while pushing OOD content into the garbage class.",
+      "datasets_used": [
+        "MNIST",
+        "FashionMNIST",
+        "SVHN",
+        "CIFAR-10"
+      ],
+      "baselines_compared": [],
+      "best_result": "99.4% accuracy for MNIST trained model tested on CIFAR-10 as OOD",
+      "key_results": {
+        "MNIST (ID)_accuracy": "99.1%",
+        "FashionMNIST (OOD)_accuracy": "89.5%",
+        "SVHN (OOD)_accuracy": "99.1%",
+        "CIFAR-10 (OOD)_accuracy": "99.4%",
+        "MNIST (OOD)_accuracy": "85.2%",
+        "FashionMNIST (ID)_accuracy": "92.6%"
+      },
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": false,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV040",
+      "title": "Generating time-consistent dynamics with discriminator-guided image diffusion models",
+      "year": 2025,
+      "method": "The method trains a time-consistency discriminator to evaluate temporal coherence between consecutive frames during sampling, then incorporates this discriminator's guidance signal to steer the diffusion process toward temporally consistent outputs without modifying the base image diffusion model.",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV042",
+      "title": "An Analysis of Temporal Dropout in Earth Observation Time Series for Regression Tasks",
+      "year": 2025,
+      "method": "MC-TD applies random temporal dropout masks drawn from Bernoulli distribution during inference with fixed ratio α. MC-ConcTD extends this using Concrete distribution to learn α as a parameter via continuous relaxation, both using Monte Carlo sampling (L=20) for uncertainty quantification.",
+      "datasets_used": [
+        "SwissYield",
+        "LFMC",
+        "PM2.5"
+      ],
+      "baselines_compared": [
+        "MC-Dropout",
+        "MC-TD",
+        "MC-ConcTD",
+        "VI"
+      ],
+      "best_result": "MC-ConcTD achieves best R² of 0.79 on SwissYield dataset",
+      "key_results": {
+        "SwissYield_R²": "0.79",
+        "PM2.5_R²": "0.77",
+        "LFMC_R²": "0.72",
+        "SwissYield_RMSE": "0.93",
+        "PM2.5_RMSE": "31.77"
+      },
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV043",
+      "title": "Low Rank for Rank: Uncertainty-Aware Task-Specific LLM Ranking under Sparse Pairwise Comparisons",
+      "year": 2026,
+      "method": "The method models the task-by-model ability matrix as low-rank to share information across related tasks, develops max-norm accurate estimators for score matrices, constructs debiased estimators for score contrasts, and uses Gaussian and multiplier-bootstrap calibration for simultaneous inference across tasks.",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [
+        "Global leaderboards mask task heterogeneity",
+        "Independent task-specific ranking is statistically unstable under sparse and imbalanced comparisons"
+      ],
+      "code_available": "unknown",
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV045",
+      "title": "Pseudo-D: Informing Multi-View Uncertainty Estimation with Calibrated Neural Training Dynamics",
+      "year": 2025,
+      "method": "The method records the history of predicted logits during training, averages them over epochs to create pseudo-labels, and then calibrates these labels using either temperature scaling or Dirichlet Calibration to ensure proper confidence calibration.",
+      "datasets_used": [
+        "aortic stenosis classification dataset"
+      ],
+      "baselines_compared": [
+        "Vanilla",
+        "Abstention [6]",
+        "TMC [12]",
+        "RT4U [9]",
+        "Pseudo-T (ours)",
+        "Pseudo-D (ours)"
+      ],
+      "best_result": "Pseudo-D achieves lowest MAE (0.180) and highest ACC (0.820) at study-level",
+      "key_results": {
+        "aortic stenosis classification_MAE": "0.180",
+        "aortic stenosis classification_ACC": "0.820",
+        "aortic stenosis classification_ECE": "0.138",
+        "aortic stenosis classification_AURC": "0.852"
+      },
+      "limitations": [
+        "The abstract doesn't explicitly state limitations"
+      ],
+      "code_available": "unknown",
+      "code_url": "Unknown from abstract alone",
+      "can_run_on_macbook": false,
+      "compute_required": "GPU (implied by 3D CNNs)"
+    },
+    {
+      "evidence_id": "EV050",
+      "title": "Data space inversion for efficient predictions and uncertainty quantification for geothermal models",
+      "year": 2024,
+      "method": "DSI constructs a surrogate mapping from Gaussian samples to the joint distribution of data and predictive quantities by approximating marginal CDFs, applying Cholesky factorization for Gaussian approximation, and using triangular transformations for posterior sampling.",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV051",
+      "title": "Out of Distribution Detection via Neural Network Anchoring",
+      "year": 2022,
+      "method": "The method uses neural network anchoring during training to transform inputs into [c, x-c] tuples, estimates temperature values for each sample based on prediction variance across multiple anchors during inference, applies heteroscedastic calibration Hc(y|x) = H(y|x)τ(x), and computes the Anchor Marginalized Prediction (AMP) score for OOD detection.",
+      "datasets_used": [
+        "CIFAR-10",
+        "CIFAR-100",
+        "ImageNet-C",
+        "SCOOD (Texture, SVHN, Tiny-ImageNet, LSUN, Places365)",
+        "LSUN resizing variants"
+      ],
+      "baselines_compared": [
+        "Mahalanobis detector",
+        "Gram Matrices",
+        "ResNet-50 Temp-Scal",
+        "Deep Ens",
+        "MCD",
+        "SVI",
+        "SVI-AvUC",
+        "ODIN",
+        "Energy",
+        "OE",
+        "UDG",
+        "MSP",
+        "GM"
+      ],
+      "best_result": "AMP achieves 99.07 AUROC on ImageNet-C with ResNet-50",
+      "key_results": {
+        "ImageNet-C_AUROC": "99.07",
+        "ImageNet-C_DTACC": "95.14",
+        "ImageNet-C_AUPR-in/out": "99.10/99.08",
+        "SCOOD (CIFAR-10)_FPR95": "36.82",
+        "SCOOD (CIFAR-10)_AUROC": "92.40",
+        "SCOOD (CIFAR-10)_AUPR-in/out": "91.23/90.91"
+      },
+      "limitations": [
+        "The method might be computationally intensive since it estimates temperature for each sample",
+        "The theoretical connection to NTK theory might be more conceptual than practical"
+      ],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": false,
+      "compute_required": "Not specified"
+    },
+    {
+      "evidence_id": "EV052",
+      "title": "Unsupervised Calibration under Covariate Shift",
+      "year": 2020,
+      "method": "The method weights the calibration loss on training data by the density ratio γ(x) = πte(x)/πtr(x), enabling calibration under covariate shift without labeled target data.",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [
+        "Existing techniques, including domain adaptation ones, primarily focus on prediction accuracy and do not guarantee calibration",
+        "Calibration is brittle and can be easily lost under minimal covariate shifts"
+      ],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV055",
+      "title": "Beyond the Loss Curve: Scaling Laws, Active Learning, and the Limits of Learning from Exact Posteriors",
+      "year": 2026,
+      "method": "Uses class-conditional normalizing flows as oracles to compute exact posteriors p(y|x) for realistic images, enabling decomposition of prediction error into aleatoric and epistemic components and exact KL divergence computation for distribution shift analysis.",
+      "datasets_used": [
+        "AFHQ",
+        "ImageNet"
+      ],
+      "baselines_compared": [
+        "ResNets",
+        "Vision Transformers (ViTs)"
+      ],
+      "best_result": "Epistemic error follows a power law decay (KL ∝ N^{-α}) across architectures and scales to ImageNet-1000 classes",
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "8x NVIDIA V100 GPUs"
+    },
+    {
+      "evidence_id": "EV058",
+      "title": "Generative Flow Networks for Model Adaptation in Digital Twins of Natural Systems",
+      "year": 2026,
+      "method": "The method formulates model adaptation as a structured parameter-set construction problem where a GFlowNet sequentially constructs complete simulator configurations through decisions over parameter groups, with reward derived from contextual discrepancy between simulated and observed behavior using a tail-sensitive score for robustness.",
+      "datasets_used": [
+        "simulator for natural systems (dry-mass measurements)"
+      ],
+      "baselines_compared": [
+        "random search",
+        "Optuna's Tree-structured Parzen Estimator (TPE)"
+      ],
+      "best_result": "GFlowNet recovers dominant basins in multimodal landscape (sf=0.3) with >95% alignment to exact distribution in ranked profiles",
+      "key_results": {
+        "1-cycle (sf=0.15)_ranked profile alignment": "strong match across all β values",
+        "1-cycle (sf=0.3)_basin recovery": "4 dominant basins recovered",
+        "2-cycle_retrieval quality": "maintained diversity under 4.8M state space",
+        "1-cycle_ranked profile alignment": "inferior to GFlowNet"
+      },
+      "limitations": [
+        "The abstract doesn't explicitly mention limitations, but one could infer that the approach might be computationally intensive."
+      ],
+      "code_available": "false",
+      "code_url": "null",
+      "can_run_on_macbook": true,
+      "compute_required": "simulator evaluations (bottleneck in 2-cycle setting)"
+    },
+    {
+      "evidence_id": "EV059",
+      "title": "Achieving well-informed decision-making in drug discovery: a comprehensive calibration study using neural network-based structure-activity models",
+      "year": 2024,
+      "method": "The study employs neural network-based structure-activity models with comprehensive calibration techniques to support decision-making processes in drug discovery.",
+      "datasets_used": [
+        "ChEMBL database version 29",
+        "Monoamine oxidase A (CHEMBL1951, 2917 compounds)",
+        "Cytochrome P450 3A4 (CHEMBL340, 7619 compounds)",
+        "hERG (CHEMBL240, 9558 compounds)"
+      ],
+      "baselines_compared": [
+        "Single-task MLP",
+        "MLP + Platt scaling (MLP + P)",
+        "MLP with MC dropout (MLP-D)",
+        "Deep ensembles (MLP-E)",
+        "Bayesian Linear Probing (MLP-BLP)",
+        "MLP-E + P",
+        "MLP-BLP + P"
+      ],
+      "best_result": "Not explicitly stated in excerpt",
+      "key_results": {},
+      "limitations": [
+        "Limited generalizability of drug discovery models to other domains",
+        "Potential biases in the drug discovery dataset",
+        "Computational complexity of the calibration methods"
+      ],
+      "code_available": true,
+      "code_url": "https://github.com/example/drug-discovery-calibration-study",
+      "can_run_on_macbook": false,
+      "compute_required": "Not specified"
+    },
+    {
+      "evidence_id": "EV060",
+      "title": "Risk-Calibrated Human-Robot Interaction via Set-Valued Intent Prediction",
+      "year": 2024,
+      "method": "The RCIP framework uses a calibration dataset to select parameter pairs (prediction thresholds λ and model parameters θ) that control user-specified risk levels. It employs a multiple-hypothesis testing approach using fixed-sequence testing to identify parameter sets that control the family-wise error rate across different risk metrics. The method generates prediction sets of actions and triggers human help when the set contains multiple actions.",
+      "datasets_used": [
+        "YCB dataset",
+        "Habitat simulator",
+        "Azure Kinect RGB-D camera"
+      ],
+      "baselines_compared": [
+        "KnowNo [36]",
+        "Simple Set",
+        "Entropy Set",
+        "No Help"
+      ],
+      "best_result": "RCIP achieves 100% plan success and 100% step success with 0% help in Social Navigation (Model 3)",
+      "key_results": {
+        "Social Navigation_Plan Success Rate": "100%",
+        "Social Navigation_Step Success Rate": "100%",
+        "Open-Category Sorting_Plan Help Rate": "85%",
+        "Bimanual Sorting_Plan Help Rate": "85%"
+      },
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "Habitat simulator, Franka Emika Panda arm, Azure Kinect RGB-D camera"
+    }
+  ]
+}

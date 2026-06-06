@@ -1,0 +1,41 @@
+{
+  "title": "Doubly Robust Distributionally Robust Off-Policy Evaluation and Learning",
+  "authors": "Not specified in the provided text",
+  "abstract": "The paper proposes a doubly robust approach for distributionally robust off-policy evaluation and learning, addressing the challenge of discrepancies between training and deployment environments.",
+  "keywords": [
+    "off-policy evaluation",
+    "off-policy learning",
+    "distributional robustness",
+    "doubly robust estimation"
+  ],
+  "methodology": {
+    "problem": "Estimating/maximizing worst-case returns over environments within an uncertainty set around the unknown training environment",
+    "approach": "Doubly robust approach that combines propensity modeling with expected reward modeling",
+    "key_technique": "Cross-fitted DR estimator (CFDR)",
+    "uncertainty_set": "KL-divergence based"
+  },
+  "contributions": [
+    "Proposes a doubly robust approach for distributionally robust OPE/L",
+    "Improves upon SNIPS-based methods by addressing propensity estimation issues",
+    "Achieves better statistical properties including N-consistency, asymptotic linearity, and efficiency"
+  ],
+  "applications": [
+    "Online recommendations in search engines",
+    "E-commerce",
+    "Social media",
+    "Streaming platforms",
+    "Healthcare",
+    "Education"
+  ],
+  "evidence_id": "EV015",
+  "year": 2022,
+  "arxiv_id": "2202.09667",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

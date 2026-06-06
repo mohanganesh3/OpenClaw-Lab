@@ -1,0 +1,18 @@
+{
+  "Baseline": {
+    "mean_accuracy": 0.9685185185185186,
+    "std_accuracy": 0.0,
+    "mean_auc": 0.9990409201855637,
+    "mean_brier": 0.005124223249330314,
+    "mean_logloss": 0.140997870534961,
+    "temperature": null
+  },
+  "Proposed": {
+    "mean_accuracy": 0.9722222222222222,
+    "std_accuracy": 0.0,
+    "mean_auc": 0.9990828019539817,
+    "mean_brier": 0.004979574733917003,
+    "mean_logloss": 0.1285295367780519,
+    "temperature": 1.1246204774697353
+  }
+}

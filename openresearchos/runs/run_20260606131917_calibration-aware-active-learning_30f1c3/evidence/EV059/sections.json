@@ -1,0 +1,6 @@
+{
+  "introduction": "[2403.15959] Risk-Calibrated Human-Robot Interaction via Set-Valued Intent Prediction\n\n\\DeclareBoldMathCommand  \\vpi\n\nπ\n\nRisk-Calibrated Human-Robot Interaction\n\nvia Set-Valued Intent Prediction\n\nJust",
+  "method": "ebsite with additional information, videos, and code:  https://risk-calibrated-planning.github.io/\n\nI\n\nIntroduction\n\nPredicting and understanding human intent is a critical task for robotics, specific",
+  "results": "hes comes from  multi-modal human behavior : if the distribution of human actions contains multiple high-level behaviors, a single robot plan may become overly conservative in trying to accommodate al",
+  "conclusion": "these simultaneous objectives, with help from the human when necessary, as Risk-Calibrated Interactive Planning (RCIP).\n\nStatement of contributions.  In this work, we introduce RCIP, a framework for m"
+}

@@ -1,0 +1,136 @@
+{
+  "problem_addressed": "How to efficiently learn multiple regression models simultaneously in active learning scenarios, specifically for drivability calibration where all outputs require equal accuracy.",
+  "core_claim": "The proposed CVH strategy reduces measurement points by up to 30% compared to sequential space-filling while outperforming existing active learning methods for multi-output regression.",
+  "key_contributions": [
+    "A new active output selection strategy (CVH) that dynamically selects the leading model based on cross-validation error",
+    "Empirical comparison of CVH against sequential (SQ), round-robin (RR), global (G), and sequential space-filling (SF) strategies across toy examples and benchmark datasets"
+  ],
+  "novelty": "CVH is the first strategy to use normalized cross-validation error (CV10) as the criterion for selecting the leading output in multi-output active learning, specifically designed for calibration tasks where all outputs must achieve equal quality.",
+  "method_summary": "The method uses Gaussian Processes to model multiple outputs in the same input space, with CVH selecting the output having the highest filtered cross-validation error as the leading model for query placement in each iteration.",
+  "method_components": [
+    "Gaussian Process regression for multi-output modeling",
+    "Normalized root mean squared K-fold cross-validation error (CV10) calculation",
+    "Digital moving average filter for error stabilization",
+    "Dynamic leadership selection based on highest model error"
+  ],
+  "key_innovation": "Using cross-validation error as the quantitative basis for determining which model should lead the active learning process, rather than heuristic approaches like maximum variance or fixed schedules.",
+  "assumptions": [
+    "Measurements are significantly more costly than computation",
+    "All outputs share the same input space",
+    "Noise levels are within real-world calibration ranges (SNR 7-100)",
+    "Cross-validation error correlates with model quality needs"
+  ],
+  "theoretical_grounding": "The method builds on Gaussian Process theory and active learning principles but lacks new formal proofs; relies on empirical validation against baseline strategies.",
+  "datasets_used": [
+    "Three toy examples with analytical models (sigmoid and polynomial)"
+  ],
+  "baselines_compared": [
+    "SF (Space-Filling)",
+    "SQ (Sequential Query)",
+    "RR (Random Regression)",
+    "CVH (Cross-Validation Hybrid)",
+    "G (Greedy)"
+  ],
+  "metrics_used": [
+    "NRMSEval",
+    "NRMSEval,Σ",
+    "Mean (µ)",
+    "Standard Deviation (σ)"
+  ],
+  "hyperparameters": "50 runs per setup, 121 gridded validation points, normally distributed noise with SNR = 12",
+  "compute_required": "Not specified",
+  "seeds": "50 runs per setup with same initial conditions",
+  "headline_result": "CVH performs best in setups 1 and 2, reducing measurement points by 15-30% compared to SF",
+  "results_table": [
+    {
+      "method": "CVH",
+      "dataset": "Setup 1",
+      "metric": "NRMSEval,Σ",
+      "value": "Lowest end value with lowest standard deviation"
+    },
+    {
+      "method": "CVH",
+      "dataset": "Setup 2",
+      "metric": "NRMSEval,Σ",
+      "value": "Best performance when nMeas ≥ 45, reduces points by 30% vs SF"
+    },
+    {
+      "method": "RR",
+      "dataset": "Setup 3",
+      "metric": "NRMSEval,Σ",
+      "value": "Best performance when nMeas ≥ 75"
+    },
+    {
+      "method": "SQ",
+      "dataset": "Setup 3",
+      "metric": "NRMSEval,Σ",
+      "value": "Second best performance when nMeas ≥ 75"
+    }
+  ],
+  "ablations": [
+    "Comparison of active learning strategies (CVH, SQ, RR) vs passive learning (SF, G)"
+  ],
+  "improvement_over_baseline": "CVH reduces measurement points by 15% in Setup 1 and 30% in Setup 2 compared to SF",
+  "stated_limitations": [
+    "Focuses on regression models, not classification models",
+    "Tested on toy examples and a benchmark dataset, not real-world calibration tasks",
+    "Doesn't address the specific challenges of medical image classification"
+  ],
+  "unstated_weaknesses": [
+    "Might not address the specific challenges of medical image classification, such as class imbalance, high-dimensional data, and interpretability requirements",
+    "Doesn't consider the ethical and regulatory aspects of medical image classification",
+    "Might not address the computational constraints of medical image processing"
+  ],
+  "threats_to_validity": [
+    "Results based on toy examples and a benchmark dataset might not generalize to real-world medical image classification tasks",
+    "Doesn't address the specific challenges of medical image classification, such as class imbalance, high-dimensional data, and interpretability requirements",
+    "Doesn't consider the ethical and regulatory aspects of medical image classification"
+  ],
+  "reproducibility": "low (no mention of code availability, data, or random seeds)",
+  "open_questions": [
+    "How would the proposed strategy perform on medical image classification tasks?",
+    "How would the proposed strategy handle the specific challenges of medical image classification, such as class imbalance, high-dimensional data, and interpretability requirements?",
+    "How would the proposed strategy address the ethical and regulatory aspects of medical image classification?"
+  ],
+  "future_work": [
+    "Extending the strategy to classification tasks, particularly for medical image classification",
+    "Testing the strategy on real-world medical image classification tasks",
+    "Addressing the specific challenges of medical image classification, such as class imbalance, high-dimensional data, and interpretability requirements"
+  ],
+  "gaps_this_enables": [
+    "Applying active output selection strategies to medical image classification tasks",
+    "Addressing the specific challenges of medical image classification, such as class imbalance, high-dimensional data, and interpretability requirements",
+    "Considering the ethical and regulatory aspects of medical image classification"
+  ],
+  "relevance_to_topic": "Provides a new strategy for active output selection that could be adapted for calibration-aware active learning for medical image classification.",
+  "relation_type": "method_source",
+  "can_run_on_macbook": "unknown",
+  "reusable_assets": [],
+  "code_available": false,
+  "best_result": "CVH performs best in setups 1 and 2, reducing measurement points by 15-30% compared to SF",
+  "key_results": {
+    "Setup 1_NRMSEval,Σ": "Lowest end value with lowest standard deviation",
+    "Setup 2_NRMSEval,Σ": "Best performance when nMeas ≥ 45, reduces points by 30% vs SF",
+    "Setup 3_NRMSEval,Σ": "Second best performance when nMeas ≥ 75"
+  },
+  "limitations_stated": [
+    "Focuses on regression models, not classification models",
+    "Tested on toy examples and a benchmark dataset, not real-world calibration tasks",
+    "Doesn't address the specific challenges of medical image classification"
+  ],
+  "evidence_id": "EV041",
+  "title": "Active Output Selection Strategies for Multiple Learning Regression Models",
+  "year": 2020,
+  "arxiv_id": "2011.14307",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 31455,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 8,
+  "pdf_tables": 0,
+  "pdf_captions": 11
+}

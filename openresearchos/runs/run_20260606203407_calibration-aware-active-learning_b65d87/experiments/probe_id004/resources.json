@@ -1,0 +1,30 @@
+{
+  "idea_id": "ID004",
+  "level": "probe",
+  "plan": {
+    "loader": "sklearn",
+    "dataset_name": "load_iris",
+    "task": "classification",
+    "clone_repo": "null",
+    "packages": [
+      "scikit-learn",
+      "numpy",
+      "scipy"
+    ],
+    "notes": "Simple classification dataset for testing failure memory mechanism"
+  },
+  "repo": {
+    "cloned": false,
+    "path": null,
+    "executed": false,
+    "inspected": false,
+    "reason": "no valid github url"
+  },
+  "dataset": {
+    "ok": true,
+    "kind": "sklearn",
+    "location": "sklearn.datasets.load_iris",
+    "note": "SK_OK (150, 4) 3"
+  },
+  "prepared_at": "2026-06-06T21:34:28.072Z"
+}

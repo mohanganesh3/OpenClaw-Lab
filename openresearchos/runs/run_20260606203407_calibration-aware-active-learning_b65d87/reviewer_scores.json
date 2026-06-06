@@ -1,0 +1,290 @@
+[
+  {
+    "idea_id": "ID001",
+    "average_score": 3,
+    "decision": "reject",
+    "next_action": "RUN_ADDITIONAL_SEARCH",
+    "fatal_flaws": [
+      "The proposed 'Evidence-to-Experiment Trace Ledger' appears conceptually similar to EV001 and EV002's automated scientific research frameworks, which already involve connecting evidence to experiments.",
+      "The vague description lacks clear differentiation from existing agent-based scientific discovery systems like EV003.",
+      "No clear falsifiable hypothesis stated",
+      "Inadequate experimental design with no specified baselines or evaluation metrics"
+    ],
+    "fixable_flaws": [
+      "Specify novel technical contributions that distinguish this from existing automated research systems",
+      "Provide concrete examples of the 'calibration-aware active learning' component and its unique implementation",
+      "Missing details on seeds for reproducibility",
+      "No discussion of computational requirements"
+    ],
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 4,
+        "fatal_flaws": [
+          "The proposed 'Evidence-to-Experiment Trace Ledger' appears conceptually similar to EV001 and EV002's automated scientific research frameworks, which already involve connecting evidence to experiments.",
+          "The vague description lacks clear differentiation from existing agent-based scientific discovery systems like EV003."
+        ],
+        "fixable_flaws": [
+          "Specify novel technical contributions that distinguish this from existing automated research systems",
+          "Provide concrete examples of the 'calibration-aware active learning' component and its unique implementation"
+        ],
+        "decision": "reject",
+        "justification": "The idea lacks sufficient novelty as it appears to be an incremental variation of existing automated scientific research frameworks without clear differentiation."
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 2,
+        "fatal_flaws": [
+          "No clear falsifiable hypothesis stated",
+          "Inadequate experimental design with no specified baselines or evaluation metrics"
+        ],
+        "fixable_flaws": [
+          "Missing details on seeds for reproducibility",
+          "No discussion of computational requirements"
+        ],
+        "decision": "reject",
+        "justification": "The proposal lacks a clear, falsifiable hypothesis and has inadequate experimental design. Without specific hypotheses, baselines, and reproducibility measures, the research cannot be properly evaluated."
+      }
+    ]
+  },
+  {
+    "idea_id": "ID002",
+    "average_score": 4,
+    "decision": "reject",
+    "next_action": "RUN_ADDITIONAL_SEARCH",
+    "fatal_flaws": [
+      "The idea is not clearly defined - it's not clear what exactly the system would do or how it would work.",
+      "There's no clear hypothesis, dataset, or baseline mentioned.",
+      "No falsifiable hypothesis provided",
+      "No fair baselines specified",
+      "Fundamental methodology missing"
+    ],
+    "fixable_flaws": [
+      "The idea needs to be more clearly defined and specified.",
+      "A clear hypothesis, dataset, and baseline should be identified.",
+      "Missing seeds for reproducibility",
+      "No compute requirements specified"
+    ],
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 7,
+        "fatal_flaws": [
+          "The idea is not clearly defined - it's not clear what exactly the system would do or how it would work.",
+          "There's no clear hypothesis, dataset, or baseline mentioned."
+        ],
+        "fixable_flaws": [
+          "The idea needs to be more clearly defined and specified.",
+          "A clear hypothesis, dataset, and baseline should be identified."
+        ],
+        "decision": "revise",
+        "justification": "The idea combines several novel concepts in a unique way but needs clearer definition."
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 1,
+        "fatal_flaws": [
+          "No falsifiable hypothesis provided",
+          "No fair baselines specified",
+          "Fundamental methodology missing"
+        ],
+        "fixable_flaws": [
+          "Missing seeds for reproducibility",
+          "No compute requirements specified"
+        ],
+        "decision": "reject",
+        "justification": "Submission is fundamentally incomplete with no clear hypothesis, baselines, or methodology. Cannot evaluate without substantial revision."
+      }
+    ]
+  },
+  {
+    "idea_id": "ID003",
+    "average_score": 4.5,
+    "decision": "reject",
+    "next_action": "RUN_ADDITIONAL_SEARCH",
+    "fatal_flaws": [
+      "No falsifiable hypothesis stated",
+      "No fair baselines defined",
+      "No seeds or reproducibility measures specified",
+      "No compute requirements or resources documented"
+    ],
+    "fixable_flaws": [
+      "Need to clarify what constitutes 'micro-probe first' approach",
+      "Specify what distinguishes this from existing agent-based scientific discovery frameworks",
+      "Research idea has potential but lacks experimental design details"
+    ],
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 7,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Need to clarify what constitutes 'micro-probe first' approach",
+          "Specify what distinguishes this from existing agent-based scientific discovery frameworks"
+        ],
+        "decision": "revise",
+        "justification": "The micro-probe first approach for calibration-aware active learning appears novel compared to existing agent-based scientific discovery systems, though the connection to medical imaging domains needs clearer differentiation from prior work."
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 2,
+        "fatal_flaws": [
+          "No falsifiable hypothesis stated",
+          "No fair baselines defined",
+          "No seeds or reproducibility measures specified",
+          "No compute requirements or resources documented"
+        ],
+        "fixable_flaws": [
+          "Research idea has potential but lacks experimental design details"
+        ],
+        "decision": "reject",
+        "justification": "The research lacks a clear hypothesis, defined baselines, and experimental details for reproducibility."
+      }
+    ]
+  },
+  {
+    "idea_id": "ID004",
+    "average_score": 5.5,
+    "decision": "reject",
+    "next_action": "RUN_ADDITIONAL_SEARCH",
+    "fatal_flaws": [
+      "No falsifiable hypothesis specified",
+      "No dataset or evaluation protocol defined",
+      "No baseline methods identified",
+      "No reproducibility measures (seeds, compute)"
+    ],
+    "fixable_flaws": [
+      "Dataset and baseline specifications need to be defined",
+      "Limited connection to prior work",
+      "Unclear scope of domain connections",
+      "No specific metrics or evaluation criteria"
+    ],
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 8,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Dataset and baseline specifications need to be defined"
+        ],
+        "decision": "accept",
+        "justification": "The concept of 'failure memory' for research agents in calibration-aware active learning appears novel and not covered by existing work. The integration of failure memory across medical, image, and classification domains represents a potentially valuable contribution to the field."
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 3,
+        "fatal_flaws": [
+          "No falsifiable hypothesis specified",
+          "No dataset or evaluation protocol defined",
+          "No baseline methods identified",
+          "No reproducibility measures (seeds, compute)"
+        ],
+        "fixable_flaws": [
+          "Limited connection to prior work",
+          "Unclear scope of domain connections",
+          "No specific metrics or evaluation criteria"
+        ],
+        "decision": "revise",
+        "justification": "The proposal lacks essential experimental rigor including falsifiable hypothesis, dataset, baselines, and reproducibility measures. These critical components must be specified before the work can be properly evaluated."
+      }
+    ]
+  },
+  {
+    "idea_id": "ID005",
+    "average_score": 4,
+    "decision": "reject",
+    "next_action": "RUN_ADDITIONAL_SEARCH",
+    "fatal_flaws": [
+      "The novelty is limited to a specific combination of existing techniques rather than introducing a fundamentally new paradigm.",
+      "No falsifiable hypothesis provided",
+      "No baselines specified",
+      "No seeds or reproducibility measures",
+      "No compute requirements documented"
+    ],
+    "fixable_flaws": [
+      "The motivation for this specific combination of concepts is not clearly articulated.",
+      "The hypothesis needs to be more precise and measurable.",
+      "Complete experimental design specification",
+      "Define evaluation metrics and datasets"
+    ],
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 6,
+        "fatal_flaws": [
+          "The novelty is limited to a specific combination of existing techniques rather than introducing a fundamentally new paradigm."
+        ],
+        "fixable_flaws": [
+          "The motivation for this specific combination of concepts is not clearly articulated.",
+          "The hypothesis needs to be more precise and measurable."
+        ],
+        "decision": "revise",
+        "justification": "The core idea of combining venue-awareness with calibration-aware active learning for claim narrowing is novel, as prior work focuses on broader agent frameworks without this specific integration. However, the proposal needs a more compelling motivation and a sharper, more testable hypothesis to justify its significance."
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 2,
+        "fatal_flaws": [
+          "No falsifiable hypothesis provided",
+          "No baselines specified",
+          "No seeds or reproducibility measures",
+          "No compute requirements documented"
+        ],
+        "fixable_flaws": [
+          "Complete experimental design specification",
+          "Define evaluation metrics and datasets"
+        ],
+        "decision": "reject",
+        "justification": "The submission lacks essential experimental design components including a falsifiable hypothesis, baselines, seeds, and compute requirements. Without these fundamental elements, the work cannot be properly evaluated or reproduced."
+      }
+    ]
+  },
+  {
+    "idea_id": "ID006",
+    "average_score": 4,
+    "decision": "reject",
+    "next_action": "RUN_ADDITIONAL_SEARCH",
+    "fatal_flaws": [
+      "Lacks specific details about novelty tribunal implementation",
+      "No clear methodology for competitor embeddings integration",
+      "Missing falsifiable hypothesis.",
+      "Missing defined baselines for comparison."
+    ],
+    "fixable_flaws": [
+      "Missing concrete research questions and contributions",
+      "Undefined dataset and baseline specifications",
+      "No mention of random seeds for reproducibility.",
+      "No discussion of computational requirements or resources."
+    ],
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 6,
+        "fatal_flaws": [
+          "Lacks specific details about novelty tribunal implementation",
+          "No clear methodology for competitor embeddings integration"
+        ],
+        "fixable_flaws": [
+          "Missing concrete research questions and contributions",
+          "Undefined dataset and baseline specifications"
+        ],
+        "decision": "revise",
+        "justification": "The core concept appears novel but lacks sufficient detail to assess its contribution. The proposal needs clarification on the novelty tribunal mechanism and how competitor embeddings specifically enhance calibration-aware active learning."
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 2,
+        "fatal_flaws": [
+          "Missing falsifiable hypothesis.",
+          "Missing defined baselines for comparison."
+        ],
+        "fixable_flaws": [
+          "No mention of random seeds for reproducibility.",
+          "No discussion of computational requirements or resources."
+        ],
+        "decision": "reject",
+        "justification": "The submission is fundamentally incomplete, missing a falsifiable hypothesis and any defined baselines for comparison. Consequently, it fails to present a testable scientific contribution and cannot be considered for acceptance."
+      }
+    ]
+  }
+]

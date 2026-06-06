@@ -1,0 +1,50 @@
+{
+  "title": "AgentBench: Evaluating LLMs as Agents",
+  "package_repository": "https://github.com/THUDM/AgentBench",
+  "leaderboard_website": "https://llmbench.ai/agent",
+  "authors": {
+    "lead_authors": [
+      "XL",
+      "HY"
+    ],
+    "emails": [
+      "shawliu9@gmail.com",
+      "longinyh@gmail.com"
+    ]
+  },
+  "environments": {
+    "total_count": 8,
+    "categories": {
+      "code": [
+        "Operating System",
+        "Database",
+        "Knowledge Graph"
+      ],
+      "game": [
+        "Digital Card Game",
+        "Lateral Thinking Puzzles",
+        "House-Holding"
+      ],
+      "web": [
+        "Web Shoppi"
+      ]
+    }
+  },
+  "models_evaluated": 27,
+  "key_findings": {
+    "figure_1": "Overview showing gaps between models and practical usability",
+    "figure_2": "First systematic benchmark for LLM-as-Agent evaluation"
+  },
+  "research_focus": "Evaluating Large Language Models as autonomous agents across diverse real-world environments",
+  "evidence_id": "EV009",
+  "year": 2023,
+  "arxiv_id": "2308.03688",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

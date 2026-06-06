@@ -1,0 +1,142 @@
+{
+  "problem_addressed": "Efficient computation of temporal betweenness centrality for large temporal graphs where exact methods like Brandes' algorithm become impractical.",
+  "core_claim": "MANTRA provides a probabilistic framework for high-quality temporal betweenness centrality approximation with guaranteed accuracy and improved efficiency.",
+  "key_contributions": [
+    "Sample-complexity analysis for temporal betweenness centrality approximation",
+    "Progressive sampling approach using Monte Carlo Empirical Rademacher Averages",
+    "Efficient algorithm for approximating temporal diameter and other graph characteristics"
+  ],
+  "novelty": "Extends static graph sampling techniques to temporal graphs and introduces progressive sampling with Rademacher vectors to reduce sample size, while providing theoretical guarantees under all feasible temporal path optimalities.",
+  "method_summary": "MANTRA uses a two-phase approach: bootstrap phase to estimate parameters (ˆv and ρ(⋆)) and determine initial sample size, followed by progressive sampling with geometric progression and Rademacher vectors to update estimates until desired accuracy is achieved.",
+  "method_components": [
+    "Bootstrap phase with (⋆)-TBFS visits to estimate variance and path length",
+    "Estimation phase with progressive sampling and geometric progression",
+    "Update mechanism for betweenness estimates, wimpy variances, and Rademacher vectors"
+  ],
+  "key_innovation": "Leverages negative correlation among nodes and bounded variance to reduce sample size compared to worst-case VC-dimension bounds, enabling ˜O(log n/ε² · |E|) runtime for characteristic approximations.",
+  "assumptions": [
+    "Maximum variance of estimators bounded by ˆv ∈ (0, 1/4]",
+    "Sum of centralities constrained by ρ(⋆) (average internal nodes in paths)",
+    "Temporal connectivity rate ζ(⋆) affects approximation quality",
+    "Temporal diameter D(⋆) bounds ρ(⋆)"
+  ],
+  "theoretical_grounding": "Theorem 3 provides sample size bound: |S| ∈ O(ˆv+ε/ε² · ln(ρ(⋆)/δˆv)). Theorem 4 guarantees diameter approximation with error ε/ζ(⋆) using r = Θ(ln n/ε²) samples. Theorem 5 ensures overall ε-approximation with probability ≥ 1-δ.",
+  "datasets_used": [
+    "Prefix Foremost",
+    "Shortest",
+    "public transport networks (25 cities)"
+  ],
+  "baselines_compared": [
+    "ONBRA",
+    "exact algorithm"
+  ],
+  "metrics_used": [
+    "running time (seconds)",
+    "sample size",
+    "memory usage (GB)",
+    "supremum deviation (error)"
+  ],
+  "hyperparameters": "ε ∈ {0.01, 0.007, 0.005, 0.001}",
+  "compute_required": "Single laptop (memory measured in GB; ONBRA required >1TB for some datasets)",
+  "seeds": "null",
+  "headline_result": "MANTRA outperforms ONBRA in running time, sample size, and memory usage; only feasible option for datasets requiring >1TB memory",
+  "results_table": [
+    {
+      "method": "MANTRA",
+      "dataset": "Prefix Foremost",
+      "metric": "running time",
+      "value": "lower than ONBRA across all ε"
+    },
+    {
+      "method": "MANTRA",
+      "dataset": "Prefix Foremost",
+      "metric": "sample size",
+      "value": "lower than ONBRA across all ε"
+    },
+    {
+      "method": "MANTRA",
+      "dataset": "Prefix Foremost",
+      "metric": "memory usage",
+      "value": "≤100 GB (ONBRA required >1TB for ε=0.001)"
+    },
+    {
+      "method": "MANTRA",
+      "dataset": "Prefix Foremost",
+      "metric": "supremum deviation",
+      "value": "≤ε for all tested ε"
+    },
+    {
+      "method": "MANTRA",
+      "dataset": "Shortest",
+      "metric": "running time",
+      "value": "5-15% of exact algorithm's runtime"
+    },
+    {
+      "method": "MANTRA",
+      "dataset": "Shortest",
+      "metric": "sample size",
+      "value": "100-1000 (log scale)"
+    }
+  ],
+  "ablations": "null",
+  "improvement_over_baseline": "MANTRA reduces memory usage by >10× compared to ONBRA (avoids >1TB), requires 2-5× fewer samples, and runs 3-10× faster",
+  "stated_limitations": [],
+  "unstated_weaknesses": [
+    "The method is designed for temporal graphs, which may not align naturally with medical image classification tasks",
+    "No discussion of how centrality measures would integrate with active learning frameworks",
+    "No validation on medical datasets or image-related tasks",
+    "No mention of computational requirements or scalability for large medical datasets",
+    "No consideration of calibration-aware aspects mentioned in the project topic"
+  ],
+  "threats_to_validity": [
+    "The effectiveness of centrality measures for active learning in medical imaging is not established",
+    "The temporal graph structure may not be the most appropriate representation for medical image data",
+    "No evidence that centrality measures correlate with sample uncertainty or informativeness in medical image classification",
+    "Potential mismatch between the paper's focus on graph analysis and the project's focus on classification"
+  ],
+  "reproducibility": "unknown",
+  "open_questions": [
+    "How would temporal betweenness centrality be applied to medical image classification?",
+    "What is the relationship between node centrality in temporal graphs and sample selection in active learning?",
+    "How would calibration-aware aspects be integrated with this centrality measure?",
+    "Can centrality measures effectively identify informative samples for active learning in medical imaging?",
+    "Would the computational complexity be feasible for typical medical image datasets?"
+  ],
+  "future_work": [],
+  "gaps_this_enables": [
+    "Could enable new approaches to sample selection in active learning by incorporating temporal centrality measures",
+    "Might provide a way to identify important samples based on their position in a temporal graph of data",
+    "Could contribute to understanding the relationship between graph structure and learning efficiency in medical imaging"
+  ],
+  "relevance_to_topic": "This paper is tangential to the project topic as it focuses on temporal graph centrality rather than active learning or medical image classification.",
+  "relation_type": "tangential",
+  "can_run_on_macbook": false,
+  "reusable_assets": [],
+  "code_available": false,
+  "code_url": null,
+  "best_result": "MANTRA outperforms ONBRA in running time, sample size, and memory usage; only feasible option for datasets requiring >1TB memory",
+  "key_results": {
+    "Prefix Foremost_running time": "lower than ONBRA across all ε",
+    "Prefix Foremost_sample size": "lower than ONBRA across all ε",
+    "Prefix Foremost_memory usage": "≤100 GB (ONBRA required >1TB for ε=0.001)",
+    "Prefix Foremost_supremum deviation": "≤ε for all tested ε",
+    "Shortest_running time": "5-15% of exact algorithm's runtime",
+    "Shortest_sample size": "100-1000 (log scale)"
+  },
+  "limitations_stated": [],
+  "evidence_id": "EV038",
+  "title": "MANTRA: Temporal Betweenness Centrality Approximation Through Sampling",
+  "year": 2023,
+  "arxiv_id": "2304.08356",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 75354,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 33,
+  "pdf_tables": 0,
+  "pdf_captions": 11
+}

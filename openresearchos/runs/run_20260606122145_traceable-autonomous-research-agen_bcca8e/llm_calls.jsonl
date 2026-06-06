@@ -1,0 +1,12 @@
+{"ts":"2026-06-06T12:31:09.122Z","label":"review:ID001:Novelty Reviewer","ok":true,"ms":11837,"calls":1}
+{"ts":"2026-06-06T12:31:16.064Z","label":"review:ID001:Experimental Reviewer","ok":true,"ms":6941,"calls":2}
+{"ts":"2026-06-06T12:31:29.664Z","label":"review:ID002:Novelty Reviewer","ok":true,"ms":13598,"calls":3}
+{"ts":"2026-06-06T12:31:37.120Z","label":"review:ID002:Experimental Reviewer","ok":true,"ms":7455,"calls":4}
+{"ts":"2026-06-06T12:33:07.124Z","label":"review:ID003:Novelty Reviewer","ok":false,"error":"timeout after 90000ms","ms":90002}
+{"ts":"2026-06-06T12:33:38.682Z","label":"review:ID003:Experimental Reviewer","ok":true,"ms":18743,"calls":6}
+{"ts":"2026-06-06T12:34:53.238Z","label":"review:ID004:Novelty Reviewer","ok":true,"ms":74552,"calls":7}
+{"ts":"2026-06-06T12:35:05.460Z","label":"review:ID004:Experimental Reviewer","ok":true,"ms":12220,"calls":8}
+{"ts":"2026-06-06T12:35:13.444Z","label":"review:ID005:Novelty Reviewer","ok":true,"ms":7979,"calls":9}
+{"ts":"2026-06-06T12:36:14.562Z","label":"review:ID005:Experimental Reviewer","ok":true,"ms":61118,"calls":10}
+{"ts":"2026-06-06T12:37:44.569Z","label":"review:ID006:Novelty Reviewer","ok":false,"error":"timeout after 90000ms","ms":90002}
+{"ts":"2026-06-06T12:37:44.570Z","label":"review:ID006:Experimental Reviewer","skipped":true,"reason":"time budget reached (360s)"}

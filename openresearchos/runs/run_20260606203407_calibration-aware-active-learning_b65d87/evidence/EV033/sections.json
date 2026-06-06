@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\nDraft version May 11, 2026\nTypeset using LATEX twocolumn style in AASTeX631\nAdvance warning of γ-ray blazar flares from Fermi-LAT light curves:\na strictly causal machine-learning backt",
+  "method": "abels. The\nFULL-BB run uses the complete light curve and is used\nonly for the held-out evaluation. This separation ensures\nthat information from after the cutoff does not enter the\ntraining step.\n3.3.",
+  "results": "ate when the probability exceeds that threshold. For\nthis purpose, we report the F2 score and the Matthews\nCorrelation Coefficient (MCC). The F2 score is useful\nhere because it gives more weight to re",
+  "conclusion": "73), and the grey dash-dotted\nhorizontal line is a visual probability guide at ˆp = 0.50. Lead-\ntime values quoted in the text are computed separately from\nthe raw, unsmoothed probabilities using the "
+}

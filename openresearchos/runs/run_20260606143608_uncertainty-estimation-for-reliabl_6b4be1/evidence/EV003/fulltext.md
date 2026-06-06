@@ -1,0 +1,323 @@
+[2501.04227] Agent Laboratory: Using LLM Agents as Research Assistants
+
+Skip to main content
+
+Learn about arXiv becoming an independent nonprofit.
+
+We gratefully acknowledge support from the Simons Foundation,  member institutions , and all contributors.
+
+Donate
+
+&gt;
+
+cs
+
+&gt;  arXiv:2501.04227
+
+Help  |  Advanced Search
+
+All fields
+
+Title
+
+Author
+
+Abstract
+
+Comments
+
+Journal reference
+
+ACM classification
+
+MSC classification
+
+Report number
+
+arXiv identifier
+
+DOI
+
+ORCID
+
+arXiv author ID
+
+Help pages
+
+Full text
+
+Search
+
+GO
+
+quick links
+
+Login
+
+Help Pages
+
+About
+
+-->
+
+Computer Science > Human-Computer Interaction
+
+arXiv:2501.04227  (cs)
+
+[Submitted on 8 Jan 2025 ( v1 ), last revised 17 Jun 2025 (this version, v2)]
+
+Title: Agent Laboratory: Using LLM Agents as Research Assistants
+
+Authors:  Samuel Schmidgall ,  Yusheng Su ,  Ze Wang ,  Ximeng Sun ,  Jialian Wu ,  Xiaodong Yu ,  Jiang Liu ,  Michael Moor ,  Zicheng Liu ,  Emad Barsoum
+
+View a PDF of the paper titled Agent Laboratory: Using LLM Agents as Research Assistants, by Samuel Schmidgall and 9 other authors
+
+View PDF
+
+Abstract: Historically, scientific discovery has been a lengthy and costly process, demanding substantial time and resources from initial conception to final results. To accelerate scientific discovery, reduce research costs, and improve research quality, we introduce Agent Laboratory, an autonomous LLM-based framework capable of completing the entire research process. This framework accepts a human-provided research idea and progresses through three stages--literature review, experimentation, and report writing to produce comprehensive research outputs, including a code repository and a research report, while enabling users to provide feedback and guidance at each stage. We deploy Agent Laboratory with various state-of-the-art LLMs and invite multiple researchers to assess its quality by participating in a survey, providing human feedback to guide the research process, and then evaluate the final paper. We found that: (1) Agent Laboratory driven by o1-preview generates the best research outcomes; (2) The generated machine learning code is able to achieve state-of-the-art performance compared to existing methods; (3) Human involvement, providing feedback at each stage, significantly improves the overall quality of research; (4) Agent Laboratory significantly reduces research expenses, achieving an 84% decrease compared to previous autonomous research methods. We hope Agent Laboratory enables researchers to allocate more effort toward creative ideation rather than low-level coding and writing, ultimately accelerating scientific discovery.
+
+Subjects:
+
+Human-Computer Interaction (cs.HC) ; Artificial Intelligence (cs.AI); Computation and Language (cs.CL); Machine Learning (cs.LG)
+
+Cite as:
+
+arXiv:2501.04227  [cs.HC]
+
+&nbsp;
+
+(or
+
+arXiv:2501.04227v2  [cs.HC]  for this version)
+
+&nbsp;
+
+https://doi.org/10.48550/arXiv.2501.04227
+
+Focus to learn more
+
+arXiv-issued DOI via DataCite
+
+Submission history  From: Samuel Schmidgall [ view email ]
+
+[v1]
+
+Wed, 8 Jan 2025 01:58:42 UTC (7,619 KB)
+
+[v2]
+
+Tue, 17 Jun 2025 16:19:14 UTC (2,785 KB)
+
+Full-text links:
+
+Access Paper:
+
+View a PDF of the paper titled Agent Laboratory: Using LLM Agents as Research Assistants, by Samuel Schmidgall and 9 other authors
+
+View PDF
+
+TeX Source
+
+view license
+
+Current browse context:
+
+cs.HC
+
+&lt;&nbsp;prev
+
+&nbsp; | &nbsp;
+
+next&nbsp;&gt;
+
+new
+
+|
+
+recent
+
+|
+
+2025-01
+
+Change to browse by:
+
+cs
+
+cs.AI
+
+cs.CL
+
+cs.LG
+
+References &amp; Citations
+
+NASA ADS
+
+Google Scholar
+
+Semantic Scholar
+
+export BibTeX citation
+
+Loading...
+
+BibTeX formatted citation
+
+&times;
+
+loading...
+
+Data provided by:
+
+Bookmark
+
+Bibliographic Tools
+
+Bibliographic and Citation Tools
+
+Bibliographic Explorer Toggle
+
+Bibliographic Explorer
+
+( What is the Explorer? )
+
+Connected Papers Toggle
+
+Connected Papers
+
+( What is Connected Papers? )
+
+Litmaps Toggle
+
+Litmaps
+
+( What is Litmaps? )
+
+scite.ai Toggle
+
+scite Smart Citations
+
+( What are Smart Citations? )
+
+Code, Data, Media
+
+Code, Data and Media Associated with this Article
+
+alphaXiv Toggle
+
+alphaXiv
+
+( What is alphaXiv? )
+
+Links to Code Toggle
+
+CatalyzeX Code Finder for Papers
+
+( What is CatalyzeX? )
+
+DagsHub Toggle
+
+DagsHub
+
+( What is DagsHub? )
+
+GotitPub Toggle
+
+Gotit.pub
+
+( What is GotitPub? )
+
+Huggingface Toggle
+
+Hugging Face
+
+( What is Huggingface? )
+
+ScienceCast Toggle
+
+ScienceCast
+
+( What is ScienceCast? )
+
+Demos
+
+Demos
+
+Replicate Toggle
+
+Replicate
+
+( What is Replicate? )
+
+Spaces Toggle
+
+Hugging Face Spaces
+
+( What is Spaces? )
+
+Spaces Toggle
+
+TXYZ.AI
+
+( What is TXYZ.AI? )
+
+Related Papers
+
+Recommenders and Search Tools
+
+Link to Influence Flower
+
+Influence Flower
+
+( What are Influence Flowers? )
+
+Core recommender toggle
+
+CORE Recommender
+
+( What is CORE? )
+
+Author
+
+Venue
+
+Institution
+
+Topic
+
+About arXivLabs
+
+arXivLabs: experimental projects with community collaborators
+
+arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website.
+
+Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them.
+
+Have an idea for a project that will add value for arXiv's community?
+
+Learn more about arXivLabs  .
+
+Which authors of this paper are endorsers?  |
+
+Disable MathJax  ( What is MathJax? )
+
+About
+
+Help
+
+contact arXiv  Click here to contact arXiv
+
+Contact
+
+subscribe to arXiv mailings  Click here to subscribe
+
+Subscribe
+
+Copyright
+
+Privacy Policy
+
+Web Accessibility Assistance
+
+arXiv Operational Status

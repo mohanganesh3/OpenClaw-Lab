@@ -1,0 +1,53 @@
+{
+  "paper_title": "Generalized Regularized Evidential Deep Learning Models: Theory and Comprehensive Evaluation",
+  "problem_statement": "Deep Learning models can overfit noise in training data, leading to overconfident predictions. This challenge is compounded in specialized domains where labeled data is limited and costly to obtain.",
+  "domain_applications": [
+    "speech recognition",
+    "machine translation",
+    "computer vision",
+    "medicine",
+    "public safety",
+    "military operations"
+  ],
+  "uncertainty_quantification_approaches": [
+    {
+      "name": "Evidential Deep Learning (EDL)",
+      "description": "Combines evidential theory with deep neural architectures to make deterministic neural networks uncertainty-aware",
+      "advantages": [
+        "Capable of quantifying fine-grained uncertainty",
+        "Minimal computational costs",
+        "Successfully extended to classification, regression, meta-learning, and open-set recognition"
+      ]
+    }
+  ],
+  "identified_problems": [
+    "EDL models achieve competitive performance only on relatively simple learning problems",
+    "Performance degrades on complex, large-scale datasets",
+    "Sensitive to architecture or hyperparameter changes",
+    "Requires careful tuning for stable performance"
+  ],
+  "key_findings": {
+    "main_issue": "Activation-induced learning-freeze behavior",
+    "cause": "Interaction between non-negative evidence parameterization and specific activation functions that map samples into 'zero-evidence regions'",
+    "mechanism": "EDL couples non-negative evidence parameterization with a KL-based prior that promotes high epistemic uncertainty at class boundaries and in regions far from the training distribution",
+    "consequence": "Commonly used non-negative activations create 'zero-evidence' regions where gradients become extremely small, making evidence updates ineffective"
+  },
+  "experimental_results": {
+    "dataset": "CIFAR-100",
+    "model": "Evidential model using ReLU activation and evidential MSE loss",
+    "accuracy": "36%",
+    "comparison": "Nearly 40% lower than a standard softmax model"
+  },
+  "evidence_id": "EV053",
+  "title": "Generalized Regularized Evidential Deep Learning Models: Theory and Comprehensive Evaluation",
+  "year": 2025,
+  "arxiv_id": "2512.23753",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

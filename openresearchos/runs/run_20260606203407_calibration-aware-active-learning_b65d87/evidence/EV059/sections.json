@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\nMurphy’s Laws of AI Alignment:\nWhy the\nGap Always Wins\nMadhava Gaikwad\nmgaikwad@microsoft.com\nMicrosoft\n∗\nAbstract\nWe study reinforcement learning from human feedback under misspecific",
+  "method": "h, Id). Define Xhard as the support of the second component, so µ(Xhard) = α. Let\nA = {a0, a1}. Choose unit vectors θ, υ ∈Rd with θ ⊥υ. Set\nr+(x, a1) −r+(x, a0) = sign(θ⊤x) · 1{x ∈Xeasy} + sign(υ⊤x) ·",
+  "results": "ent, the estimated (α, ε, γ), the achieved sign error rate, and the\nquery allocation across bh(x). Include plots of Vw(πλ) and bV (πλ) and overlay the theoretical\nreference Q = (2αε2)−1 log(γ/η) for r",
+  "conclusion": "λEqλ[f(X)] = Covqλ(f(X), bs(X)).\nIn particular, for f = H this recovers Proposition 1.\nFor f = rw(X, π(X)) and f =\nbr(X, π(X)) it yields the signs in Section 4.2.\nB.4\nOver-optimization threshold\nAssum"
+}

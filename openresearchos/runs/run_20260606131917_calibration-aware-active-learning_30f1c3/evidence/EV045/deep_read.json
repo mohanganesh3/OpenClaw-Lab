@@ -1,0 +1,40 @@
+{
+  "title": "Pseudo-D: Informing Multi-View Uncertainty Estimation with Calibrated Neural Training Dynamics",
+  "summary": "The paper proposes 'Pseudo-D', a method to improve uncertainty estimation in medical imaging by generating calibrated pseudo-labels using Neural Network Training Dynamics (NNTD). NNTD tracks a model's learning trajectory across training epochs to quantify sample difficulty, which is then used to create pseudo-labels. This approach enhances performance on tasks like selective classification (knowing when to abstain) and multi-view fusion (integrating information from multiple imaging views). The method was evaluated on a multi-view ultrasound dataset for aortic stenosis classification, demonstrating superior results and better alignment of model uncertainty with input quality. The technique is model-agnostic and easy to integrate.",
+  "methodology": {
+    "name": "Pseudo-D",
+    "core_concept": "Improving uncertainty estimation by generating calibrated pseudo-labels using Neural Network Training Dynamics (NNTD).",
+    "key_techniques": [
+      "Neural Network Training Dynamics (NNTD): Tracking model predictions across training epochs to measure sample difficulty.",
+      "Pseudo-label Generation: Creating labels that quantify uncertainty based on the NNTD trajectory.",
+      "Sub-class Calibration: Calibrating pseudo-labels at the sub-class level to handle varying difficulty within classes."
+    ],
+    "problem_addressed": "The lack of ground-truth labels that capture uncertainty (aleatoric uncertainty) in medical imaging datasets, which are typically single-label.",
+    "focus_uncertainty_type": "Aleatoric Uncertainty (AU), the irreducible uncertainty from ambiguous input data."
+  },
+  "evaluation": {
+    "dataset": "A challenging multi-view ultrasound dataset for aortic stenosis (AS) classification.",
+    "tasks": [
+      "Selective Classification: Assessing the model's ability to abstain from predictions on uncertain cases.",
+      "Multi-view Fusion: Evaluating the model's ability to integrate information from multiple imaging views while accounting for their uncertainties."
+    ]
+  },
+  "key_findings": [
+    "Training with Pseudo-D improves uncertainty estimation in standard deep learning classifiers.",
+    "Pseudo-D outperforms specialized methods on selective classification and multi-view fusion tasks.",
+    "The method better aligns model uncertainty with input-specific factors like image quality and anatomical visibility.",
+    "Pseudo-D is agnostic to model architecture and requires minimal changes for integration."
+  ],
+  "domain": "Medical Imaging, specifically Ultrasound.",
+  "evidence_id": "EV045",
+  "year": 2025,
+  "arxiv_id": "2509.11800",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "problem_addressed": "There is an urgent need to quantitatively evaluate LLMs as agents on challenging tasks in interactive environments.",
+  "core_claim": "AGENTBENCH reveals significant performance gaps between top commercial LLMs and many open-source LLMs in agent tasks, with poor long-term reasoning, decision-making, and instruction following as main obstacles.",
+  "key_contributions": [
+    "AGENTBENCH: A multi-dimensional benchmark with 8 distinct environments",
+    "Extensive testing of 29 API-based and open-source LLMs",
+    "Identification of typical failure reasons in environments and LLMs",
+    "Release of datasets, environments, and evaluation package"
+  ],
+  "novelty": "Unlike existing benchmarks, AGENTBENCH specifically evaluates LLMs as agents across diverse interactive environments (OS, Database, Knowledge, Graph, Digital Card Game, Lateral Thinking Puzzle, House-holding, Web Shopping, Web Browsing) rather than just language capabilities.",
+  "method_summary": "The paper introduces AGENTBENCH, a benchmark consisting of 8 distinct environments that assess LLM-as-Agent's reasoning and decision-making abilities through interactive tasks.",
+  "method_components": [
+    "8 distinct environments (OS, Database, Knowledge, Graph, Digital Card Game, Lateral Thinking Puzzle, House-holding, Web Shopping, Web Browsing)",
+    "Evaluation framework for assessing agent performance",
+    "Comprehensive testing of 29 LLMs"
+  ],
+  "key_innovation": "The multi-dimensional benchmark approach that evaluates LLMs across diverse interactive environments rather than isolated capabilities.",
+  "assumptions": [
+    "LLMs can function as autonomous agents in interactive environments",
+    "Performance in these environments correlates with real-world agent capabilities",
+    "The 8 environments adequately represent diverse agent tasks"
+  ],
+  "theoretical_grounding": null,
+  "datasets_used": [
+    "GrailQA, ComplexWebQuestions, GraphQuestions (FREEBASE) - 1,663 questions",
+    "Text-to-SQL datasets with queries categorized into 'Counting', 'Aggregation-MIN', 'Aggregation-MAX', 'Aggregation-AVG', 'Aggregation-SUM', 'Ranking', 'Comparison', or 'Other'"
+  ],
+  "baselines_compared": [
+    "gpt-4",
+    "gpt-3.5-turbo"
+  ],
+  "metrics_used": [
+    "F1 score",
+    "Exact Match",
+    "Executability",
+    "Unit test scripts for data quality"
+  ],
+  "hyperparameters": "null",
+  "compute_required": "null",
+  "seeds": "null",
+  "headline_result": "gpt-3.5-turbo new achieves 0.92 on UPDATE operations",
+  "results_table": [
+    {
+      "method": "gpt-4",
+      "dataset": "original",
+      "metric": "SELECT",
+      "value": "0.32"
+    },
+    {
+      "method": "gpt-4",
+      "dataset": "original",
+      "metric": "INSERT",
+      "value": "0.32"
+    },
+    {
+      "method": "gpt-4",
+      "dataset": "original",
+      "metric": "UPDATE",
+      "value": "0.32"
+    },
+    {
+      "method": "gpt-3.5-turbo",
+      "dataset": "original",
+      "metric": "SELECT",
+      "value": "0.21"
+    },
+    {
+      "method": "gpt-3.5-turbo",
+      "dataset": "original",
+      "metric": "INSERT",
+      "value": "0.23"
+    },
+    {
+      "method": "gpt-3.5-turbo",
+      "dataset": "original",
+      "metric": "UPDATE",
+      "value": "0.66"
+    },
+    {
+      "method": "gpt-4",
+      "dataset": "new",
+      "metric": "INSERT",
+      "value": "0.27"
+    },
+    {
+      "method": "gpt-4",
+      "dataset": "new",
+      "metric": "UPDATE",
+      "value": "0.66"
+    },
+    {
+      "method": "gpt-3.5-turbo",
+      "dataset": "new",
+      "metric": "INSERT",
+      "value": "0.19"
+    },
+    {
+      "method": "gpt-3.5-turbo",
+      "dataset": "new",
+      "metric": "UPDATE",
+      "value": "0.92"
+    }
+  ],
+  "ablations": [
+    "Bias study using Claude-2 re-annotation to validate dataset doesn't introduce model-induced biases"
+  ],
+  "improvement_over_baseline": "null",
+  "stated_limitations": [
+    "The paper identifies typical reasons for failures in environments and LLMs but doesn't specify them in the abstract."
+  ],
+  "unstated_weaknesses": [
+    "The benchmark doesn't focus on domain-specific applications like medical imaging",
+    "The environments might not reflect the complexity and constraints of medical decision-making",
+    "No evaluation metrics specifically relevant to medical image classification are mentioned"
+  ],
+  "threats_to_validity": [
+    "The environments might not generalize to medical contexts",
+    "Performance on general agent tasks might not translate to specialized medical tasks",
+    "The evaluation might not capture the nuanced decision-making required in medical image interpretation"
+  ],
+  "reproducibility": "low (no information about code availability or reproducibility measures)",
+  "open_questions": [
+    "How would LLMs as agents perform in medical image classification tasks?",
+    "Can the agent capabilities measured by AGENTBENCH predict performance in medical contexts?",
+    "What specific agent capabilities are most relevant for medical image classification?"
+  ],
+  "future_work": [
+    "The paper doesn't explicitly state future work directions in the provided abstract."
+  ],
+  "gaps_this_enables": [
+    "The paper opens a gap for domain-specific benchmarks for LLMs in medical contexts",
+    "It suggests the need for medical-specific agent evaluation frameworks"
+  ],
+  "relevance_to_topic": "AGENTBENCH provides a framework for evaluating LLMs as agents that could be adapted for medical image classification tasks, informing the development of calibration-aware active learning systems.",
+  "relation_type": "foundational",
+  "can_run_on_macbook": false,
+  "reusable_assets": [
+    "The benchmark environments might be reusable, but specific implementation details aren't provided"
+  ],
+  "code_available": false,
+  "best_result": "gpt-3.5-turbo new achieves 0.92 on UPDATE operations",
+  "key_results": {
+    "original_SELECT": "0.21",
+    "original_INSERT": "0.23",
+    "original_UPDATE": "0.66"
+  },
+  "limitations_stated": [
+    "The paper identifies typical reasons for failures in environments and LLMs but doesn't specify them in the abstract."
+  ],
+  "evidence_id": "EV009",
+  "title": "AgentBench: Evaluating LLMs as Agents",
+  "year": 2023,
+  "arxiv_id": "2308.03688",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 182651,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 58,
+  "pdf_tables": 6,
+  "pdf_captions": 16
+}

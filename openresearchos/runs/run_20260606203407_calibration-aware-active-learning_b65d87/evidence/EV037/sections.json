@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\nBeyond the Loss Curve: Scaling Laws, Active Learning, and the Limits of\nLearning from Exact Posteriors\nArian Khorasani 1 Nathaniel Chen * 2 Yug D Oswal * 3 Akshat Santhana Gopalan 4 Eg",
+  "method": "(Fig-\nure 2d): ResNet-50 (α=0.039 ± 0.007), ViT-Base (0.032 ±\n0.010), ConvNeXt (0.030 ± 0.008), Swin (0.030 ± 0.005),\nand MobileNetV3 (0.135 ± 0.025). These quantify how\nefficiently each architecture ",
+  "results": "ines realistic\nimages from AFHQ and ImageNet with the exact posterior\naccess of synthetic benchmarks.\n7. Conclusion\nWe introduced a framework that treats normalizing flows\nas oracles rather than model",
+  "conclusion": "s. FID measures distributional\n\n[CAPTION] Table 4. Oracle samples match real data statistics across multiple metrics. FID, Inception Score, and manifold coverage confirm\n\n[CAPTION] Figure 4. Oracle sa"
+}

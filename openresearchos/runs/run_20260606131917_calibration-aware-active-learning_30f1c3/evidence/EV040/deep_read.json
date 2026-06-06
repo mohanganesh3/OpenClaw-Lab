@@ -1,0 +1,79 @@
+{
+  "title": "Generating time-consistent dynamics with discriminator-guided image diffusion models",
+  "method": {
+    "approach": "Novel discriminator guidance approach inspired by temporal discriminators in GANs",
+    "key_features": [
+      "Lightweight and efficient, adding only 3%-8% to generation time",
+      "Trained independently of the IDM",
+      "Makes extensions to new downstream tasks straightforward"
+    ],
+    "applications": [
+      "Generating realistic, time-consistent, and stable spatiotemporal dynamics",
+      "Climate simulations",
+      "Data reconstruction using inpainting methods",
+      "Downscaling applications using super-resolution techniques in fluid dynamics"
+    ],
+    "inspiration": [
+      "clark_adversarial_2019",
+      "ravuri_skilful_2021",
+      "das_hybrid_2024"
+    ]
+  },
+  "results": {
+    "performance": [
+      "Performs similarly well as a VDM trained from scratch in terms of temporal dynamics",
+      "Achieves better uncertainty calibration",
+      "Achieves lower biases"
+    ],
+    "stability": "Enables stable climate simulations for more than 100 years, while VDMs exhibit unstable drifts in global averages"
+  },
+  "related_work": {
+    "video_gans": [
+      {
+        "authors": "vondrick_generating_2016",
+        "contribution": "Introduced the idea of using an adversarial discriminator for temporally-consistent videos"
+      },
+      {
+        "authors": "mathieu_deep_2016",
+        "contribution": "Further developed the idea of using adversarial discriminators for video generation"
+      }
+    ],
+    "video_diffusion_models": [
+      "ho_video_2022",
+      "ho_imagen_2022",
+      "gupta_photorealistic_2023",
+      "wang_videocomposer_2023",
+      "yang_cogvideox_2024",
+      "zheng_open-sora_2024",
+      "deng_autoregressive_2025",
+      "kong_hunyuanvideo_2025"
+    ],
+    "video_finetuning": [
+      "singer_make–video_2022",
+      "esser_structure_2023",
+      "wu_tune–video_2023",
+      "bar-tal_lumiere_2024"
+    ],
+    "scientific_applications": [
+      "wan_debias_2023",
+      "bischoff_unpaired_2024",
+      "mardani_residual_2024",
+      "plesiat_artificial_2024",
+      "hess_fast_2025",
+      "aich_conditional_2024",
+      "ling_diffusion_2024",
+      "addison_machine_2024"
+    ]
+  },
+  "evidence_id": "EV040",
+  "year": 2025,
+  "arxiv_id": "2505.09089",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

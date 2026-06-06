@@ -1,0 +1,41 @@
+{
+  "title": "Robust Conformal Outlier Detection under Contaminated Reference Data",
+  "keywords": [
+    "Conformal Prediction",
+    "Hypothesis Testing",
+    "Out-of-Distribution Detection",
+    "Contaminated Data"
+  ],
+  "summary": "The paper addresses the challenge of performing reliable outlier detection using conformal prediction when the reference dataset is contaminated with outliers. The authors observe that contamination typically makes conformal methods overly conservative, reducing their power to detect true outliers without necessarily inflating the type-I error rate. To address this, they propose a data-driven cleaning strategy for the reference set and provide a theoretical analysis of the conditions under which valid error control is maintained.",
+  "problem_statement": "The core problem is to conduct outlier detection (e.g., for fraud) using complex ML models that lack guaranteed type-I error control. This is exacerbated by the practical difficulty of obtaining a perfectly clean reference dataset, as contamination can invalidate the statistical guarantees of conformal prediction methods.",
+  "proposed_method": "The paper's main contribution is a data-driven cleaning strategy for the contaminated reference dataset, designed to mitigate the effects of contamination and improve detection power while preserving validity.",
+  "key_contributions": [
+    "A theoretical analysis (in Section 2.3) identifying conditions under which conformal outlier detection with contaminated reference data yields valid type-I error control.",
+    "A data-driven approach (in Section 3.3) to clean the reference dataset, which improves detection power without sacrificing validity."
+  ],
+  "research_questions": [
+    "Q1: When does conformal outlier detection with contaminated reference data yield valid type-I error control?"
+  ],
+  "key_concepts": [
+    "Conformal Prediction",
+    "Type-I Error",
+    "Outlier Detection",
+    "Contaminated Reference Data",
+    "Statistical Test",
+    "Null Hypothesis",
+    "Power (in hypothesis testing)",
+    "Data-Cleaning Strategy"
+  ],
+  "limitation": "The provided text is truncated and does not detail the specific implementation of the proposed data-cleaning strategy.",
+  "evidence_id": "EV021",
+  "year": 2025,
+  "arxiv_id": "2502.04807",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

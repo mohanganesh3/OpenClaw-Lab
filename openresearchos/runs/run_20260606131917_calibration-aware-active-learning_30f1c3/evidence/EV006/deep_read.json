@@ -1,0 +1,67 @@
+{
+  "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+  "authors": [],
+  "abstract": "The paper proposes an approach called Reflexion that uses verbal reinforcement to help agents learn from prior failings. Reflexion converts binary or scalar feedback from the environment into verbal feedback in the form of a textual summary, which is then added as additional context for the LLM agent in the next episode.",
+  "methodology": {
+    "approach": "Reflexion",
+    "description": "Uses verbal reinforcement to help agents learn from prior failings by converting binary or scalar feedback from the environment into verbal feedback in the form of a textual summary",
+    "feedback_generation_methods": [
+      "Simple binary environment feedback",
+      "Pre-defined heuristics for common failure cases",
+      "Self-evaluation using LLMs (for decision-making) or self-written unit tests (for programming)"
+    ],
+    "memory_mechanism": "Evaluation signal is converted to natural language experience summaries which can be stored in long-term memory",
+    "challenges": [
+      "Credit assignment problem",
+      "Generating useful reflective feedback"
+    ],
+    "comparison_to_human_learning": "Similar to how humans iteratively learn to accomplish complex tasks in a few-shot manner by reflecting on their previous failures"
+  },
+  "advantages": [
+    "Lightweight and doesn't require finetuning the LLM",
+    "Allows for more nuanced forms of feedback",
+    "Allows for explicit and interpretable episodic memory",
+    "Provides explicit hints for actions in future episodes"
+  ],
+  "disadvantages": [
+    "Relies on the power of the LLM's self-evaluation capabilities",
+    "No formal guarantee for success"
+  ],
+  "experiments": {
+    "task_types": [
+      "Decision-making tasks (sequential action choices over long trajectories)",
+      "Reasoning tasks (knowledge-intensive, single-step generation improvement)",
+      "Programming tasks (teaching the agent to use external tools)"
+    ],
+    "datasets": [
+      "AlfWorld",
+      "HotPotQA",
+      "HumanEval"
+    ],
+    "results": {
+      "decision_making": "22% improvement on AlfWorld tasks",
+      "reasoning": "20% improvement on HotPotQA questions",
+      "programming": "Improvement on Python programming tasks on HumanEval"
+    }
+  },
+  "related_work": [
+    "ReAct",
+    "SayCan",
+    "Toolformer",
+    "HuggingGPT",
+    "Generative agents",
+    "WebGPT"
+  ],
+  "comparison_to_traditional_rl": "Compared to traditional RL approaches like policy or value-based learning",
+  "evidence_id": "EV006",
+  "year": 2023,
+  "arxiv_id": "2303.11366",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

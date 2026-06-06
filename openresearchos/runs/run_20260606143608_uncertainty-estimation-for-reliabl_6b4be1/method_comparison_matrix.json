@@ -1,0 +1,325 @@
+{
+  "run_id": "run_20260606143608_uncertainty-estimation-for-reliabl_6b4be1",
+  "topic": "uncertainty estimation for reliable medical image classification",
+  "generated_at": "2026-06-06T15:02:13.275Z",
+  "papers_with_deep_read": 19,
+  "macbook_friendly": 16,
+  "with_code": 4,
+  "method_matrix": [
+    {
+      "evidence_id": "EV001",
+      "title": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery",
+      "year": 2024,
+      "method": "The AI Scientist is an AI system that generates novel research ideas, writes code, executes experiments, visualizes results, writes full scientific papers, and runs a simulated review process in an open-ended fashion.",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": "The AI Scientist can produce papers that exceed the acceptance threshold at a top machine learning conference as judged by the automated reviewer.",
+      "key_results": {
+        "reviewer_performance": "near-human performance in evaluating paper scores",
+        "paper_acceptance": "exceeds top conference acceptance threshold"
+      },
+      "limitations": [],
+      "code_available": true,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "cost less than $15 per paper"
+    },
+    {
+      "evidence_id": "EV002",
+      "title": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
+      "year": 2025,
+      "method": "The AI Scientist-v2 uses a progressive agentic tree-search methodology managed by a dedicated experiment manager agent to autonomously generate scientific manuscripts, eliminating reliance on human-authored code templates and generalizing across diverse machine learning domains, with an enhanced AI reviewer component that integrates a Vision-Language Model feedback loop for iterative refinement of figures.",
+      "datasets_used": [],
+      "baselines_compared": [
+        "The AI Scientist-v1"
+      ],
+      "best_result": "One fully AI-generated manuscript exceeded the average human acceptance threshold in a peer-reviewed ICLR workshop, marking the first instance of a fully AI-generated paper successfully navigating peer review.",
+      "key_results": {
+        "peer_review_acceptance": "exceeded average human acceptance threshold"
+      },
+      "limitations": [],
+      "code_available": true,
+      "code_url": null,
+      "can_run_on_macbook": false,
+      "compute_required": "not_stated"
+    },
+    {
+      "evidence_id": "EV003",
+      "title": "Agent Laboratory: Using LLM Agents as Research Assistants",
+      "year": 2025,
+      "method": "Research paper: Agent Laboratory: Using LLM Agents as Research Assistants",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV004",
+      "title": "MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering",
+      "year": 2024,
+      "method": "The paper evaluates ML engineering capabilities of AI agents using Kaggle competitions as tasks, establishing human baselines from Kaggle leaderboards and testing various language models with open-source scaffolds.",
+      "datasets_used": [
+        "Kaggle competitions (diverse set of challenging tasks)"
+      ],
+      "baselines_compared": [
+        "Human baselines from Kaggle leaderboards"
+      ],
+      "best_result": "OpenAI's o1-preview with AIDE scaffolding achieves at least the level of a Kaggle bronze medal in 16.9% of competitions.",
+      "key_results": {
+        "Kaggle bronze medal achievement": "16.9% of competitions"
+      },
+      "limitations": [
+        "No explicit limitations mentioned in the provided text"
+      ],
+      "code_available": true,
+      "code_url": null,
+      "can_run_on_macbook": false,
+      "compute_required": "Not specified"
+    },
+    {
+      "evidence_id": "EV005",
+      "title": "AIBuildAI-2: Scalable Agentic AI Research and Engineering",
+      "year": 2026,
+      "method": "AIBuildAI-2 is a knowledge-enhanced agent with an external, hierarchical knowledge system that dynamically loads relevant context for AI model building, initialized with web-collected AI development documents and continually evolving through distilled experience from completed tasks.",
+      "datasets_used": [
+        "MLE-Bench"
+      ],
+      "baselines_compared": [],
+      "best_result": "First place on MLE-Bench with a 70.7% medal rate",
+      "key_results": {
+        "MLE-Bench": "70.7% medal rate",
+        "Heart disease prediction competition": "Top 6.6% among 4,370 human-expert teams"
+      },
+      "limitations": [
+        "The performance of AI agents is limited by the static, often outdated, and sparse parametric knowledge of their underlying large language models, particularly on practical AI model engineering know-how"
+      ],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": false,
+      "compute_required": "Not specified in the provided text"
+    },
+    {
+      "evidence_id": "EV006",
+      "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+      "year": 2023,
+      "method": "Uses verbal feedback and memory to help agents improve across trials, motivating explicit failure memory and revision loops.",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV007",
+      "title": "Self-Refine: Iterative Refinement with Self-Feedback",
+      "year": 2023,
+      "method": "Studies iterative generation, feedback, and refinement, providing background for reviewer-style critique and revision policies.",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV008",
+      "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+      "year": 2023,
+      "method": "Demonstrates open-ended skill acquisition with memory and iterative exploration, relevant to long-running agent loops and durable lessons.",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV009",
+      "title": "AgentBench: Evaluating LLMs as Agents",
+      "year": 2023,
+      "method": "Introduces agent evaluation tasks and motivates structured benchmarks for agent behavior rather than isolated text quality.",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV010",
+      "title": "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
+      "year": 2024,
+      "method": "SWE-agent introduces a custom agent-computer interface (ACI) that enables language model agents to autonomously perform software engineering tasks by enhancing their ability to create/edit code files, navigate repositories, and execute tests.",
+      "datasets_used": [
+        "SWE-bench",
+        "HumanEvalFix"
+      ],
+      "baselines_compared": [
+        "previous state-of-the-art achieved with non-interactive LMs"
+      ],
+      "best_result": "87.7% pass@1 on HumanEvalFix",
+      "key_results": {
+        "pass@1_SWE-bench": 12.5,
+        "pass@1_HumanEvalFix": 87.7
+      },
+      "limitations": [],
+      "code_available": true,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "Not specified"
+    },
+    {
+      "evidence_id": "EV015",
+      "title": "Doubly Robust Distributionally Robust Off-Policy Evaluation and Learning",
+      "year": 2022,
+      "method": "Off-policy evaluation and learning (OPE/L) use offline observational data to make better decisions, which is crucial in applications where online experimentation is limited. However, depending entirel",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV019",
+      "title": "Aging States Estimation and Monitoring Strategies of Li-Ion Batteries Using Incremental Capacity Analysis and Gaussian Process Regression",
+      "year": 2026,
+      "method": "Existing approaches for battery health forecasting often rely on extensive cycling histories and continuously monitored cells. In contrast, many real-world scenarios provide only sparse information, e",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV022",
+      "title": "Towards black-box parameter estimation",
+      "year": 2023,
+      "method": "Deep learning algorithms have recently been shown to be a successful tool in estimating parameters of statistical models for which simulation is easy, but likelihood computation is challenging. This i",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV030",
+      "title": "Tube Loss based Deep Networks For Improving the Probabilistic Forecasting of Wind Speed",
+      "year": 2025,
+      "method": "Uncertainty Quantification (UQ) in wind speed forecasting is a critical challenge in wind power production due to the inherently volatile nature of wind. By quantifying the associated risks and return",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV031",
+      "title": "Bayesian Uncertainty Quantification with Anchored Ensembles for Robust EV Power Consumption Prediction",
+      "year": 2025,
+      "method": "Accurate EV power estimation underpins range prediction and energy management, yet practitioners need both point accuracy and trustworthy uncertainty. We propose an anchored-ensemble Long Short-Term M",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV035",
+      "title": "Open-World Semi-Supervised Learning",
+      "year": 2021,
+      "method": "A fundamental limitation of applying semi-supervised learning in real-world settings is the assumption that unlabeled test data contains only classes previously encountered in the labeled training dat",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV036",
+      "title": "AI-Enabled mm-Waveform Configuration for Autonomous Vehicles With Integrated Communication and Sensing",
+      "year": 2022,
+      "method": "Integrated communications and sensing (ICS) has recently emerged as an enabling technology for ubiquitous sensing and IoT applications. For ICS application to autonomous vehicles (AVs), optimizing the",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV052",
+      "title": "Deep generative classification of blood cell morphology",
+      "year": 2024,
+      "method": "Blood cell morphology assessment via light microscopy constitutes a cornerstone of haematological diagnostics, providing crucial insights into diverse pathological conditions. This complex task demand",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV053",
+      "title": "Generalized Regularized Evidential Deep Learning Models: Theory and Comprehensive Evaluation",
+      "year": 2025,
+      "method": "Evidential deep learning (EDL) models, based on Subjective Logic, introduce a principled and computationally efficient way to make deterministic neural networks uncertainty-aware. The resulting eviden",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    }
+  ]
+}

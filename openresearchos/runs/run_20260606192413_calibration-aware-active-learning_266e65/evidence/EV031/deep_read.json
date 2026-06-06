@@ -1,0 +1,176 @@
+{
+  "problem_addressed": "Accurate EV power estimation underpins range prediction and energy management, yet practitioners need both point accuracy and trustworthy uncertainty quantification.",
+  "core_claim": "An anchored-ensemble LSTM with Student-t likelihood jointly captures epistemic and aleatoric uncertainty, delivering accurate, well-calibrated predictions with efficient real-time inference.",
+  "key_contributions": [
+    "Anchored ensembles impose Gaussian weight priors via MAP training to generate posterior-like diversity without test-time sampling",
+    "Student-t likelihood provides heavy-tailed robustness and closed-form prediction intervals for aleatoric uncertainty",
+    "Achieves strong accuracy (RMSE 3.36±1.10, MAE 2.21±0.89, R²=0.93±0.02) and well-calibrated uncertainty bands with near-nominal coverage"
+  ],
+  "novelty": "Combines anchored weight priors (MAP training) with Student-t likelihood in an ensemble LSTM to eliminate Monte Carlo latency while maintaining Bayesian uncertainty quantification and robustness to heavy-tailed residuals.",
+  "method_summary": "Trains multiple LSTM models with gate-wise Gaussian priors anchored to learned weights, using Student-t negative log-likelihood for aleatoric uncertainty. Predictive intervals combine ensemble spread (epistemic) and t-distribution scale (aleatoric).",
+  "method_components": [
+    "Anchored ensemble LSTM with gate-wise Gaussian priors (MAP objective)",
+    "Student-t likelihood for heteroscedastic uncertainty estimation",
+    "Closed-form predictive intervals using ensemble averaging and t-distribution quantiles"
+  ],
+  "key_innovation": "Anchoring imposes Gaussian weight priors during MAP training, generating posterior-like diversity without test-time sampling, enabling efficient uncertainty quantification.",
+  "assumptions": [
+    "Input features are normalized to [0,1] range",
+    "Residuals follow Student-t distribution with ν>2 for finite variance",
+    "Gate-wise factorization of prior and likelihood enables independent quadratic penalties"
+  ],
+  "theoretical_grounding": "Proposition proves MAP optimality under sample-factorized likelihood and block-factorized prior (Appendix 7). Student-t variance defined as Var[Y|x] = ν/(ν-2)s(x)² for ν>2.",
+  "datasets_used": [
+    "Chassis dynamometer tests",
+    "Highway driving data"
+  ],
+  "baselines_compared": [
+    "t-NLL Anchor",
+    "t-NLL Dropout",
+    "Quantile Anchor",
+    "Quantile MC Dropout"
+  ],
+  "metrics_used": [
+    "RMSE",
+    "MAE",
+    "AU",
+    "EU",
+    "R2",
+    "EV",
+    "Convergence",
+    "Low",
+    "High",
+    "Width",
+    "StVar"
+  ],
+  "hyperparameters": null,
+  "compute_required": null,
+  "seeds": null,
+  "headline_result": "t-NLL Anchor achieved best calibration with standardized variance near unity (≈1.13) for Sedan and IONIQ 5 datasets",
+  "results_table": [
+    {
+      "method": "t-NLL Anchor",
+      "dataset": "Sedan_1",
+      "metric": "RMSE",
+      "value": "2.5"
+    },
+    {
+      "method": "t-NLL Anchor",
+      "dataset": "Sedan_1",
+      "metric": "MAE",
+      "value": "1.3"
+    },
+    {
+      "method": "t-NLL Anchor",
+      "dataset": "Sedan_1",
+      "metric": "AU",
+      "value": "1.6"
+    },
+    {
+      "method": "t-NLL Anchor",
+      "dataset": "Sedan_1",
+      "metric": "EU",
+      "value": "1.2"
+    },
+    {
+      "method": "t-NLL Anchor",
+      "dataset": "Sedan_1",
+      "metric": "R2",
+      "value": "0.93"
+    },
+    {
+      "method": "t-NLL Anchor",
+      "dataset": "Sedan_1",
+      "metric": "EV",
+      "value": "0.94"
+    },
+    {
+      "method": "t-NLL Anchor",
+      "dataset": "IONIQ 5",
+      "metric": "StVar",
+      "value": "1.13"
+    },
+    {
+      "method": "Quantile Anchor",
+      "dataset": "IONIQ 5",
+      "metric": "StVar",
+      "value": "0.11"
+    },
+    {
+      "method": "Quantile Dropout",
+      "dataset": "IONIQ 5",
+      "metric": "StVar",
+      "value": "9.15"
+    }
+  ],
+  "ablations": null,
+  "improvement_over_baseline": "t-NLL Anchor showed better calibration than t-NLL Dropout (StVar 1.13 vs 0.948 for Sedan) and avoided under-confidence issues of Quantile methods (StVar 0.11 for IONIQ 5)",
+  "stated_limitations": [
+    "The model is specifically designed for EV power consumption prediction using vehicle-kinematic time series, which might limit its applicability to other domains.",
+    "The model might be computationally intensive due to the ensemble approach."
+  ],
+  "unstated_weaknesses": [
+    "The abstract doesn't mention the computational requirements or training time.",
+    "It's unclear how the model performs with limited data or in scenarios with high noise.",
+    "The paper doesn't discuss how the model handles concept drift or changes in driving patterns over time."
+  ],
+  "threats_to_validity": [
+    "The model's performance might be specific to the type of vehicles and driving conditions in the dataset.",
+    "The generalizability to different EV models or driving environments is not addressed.",
+    "The paper doesn't discuss the impact of sensor noise or data quality on model performance."
+  ],
+  "reproducibility": "low",
+  "open_questions": [
+    "How does the anchored-ensemble approach compare to other Bayesian methods for uncertainty quantification?",
+    "What is the optimal size of the ensemble for this task?",
+    "How does the model perform with different types of time series data or in other domains?"
+  ],
+  "future_work": [
+    "Extending the model to other domains beyond EV power consumption.",
+    "Exploring more efficient ensemble methods or alternative uncertainty quantification techniques.",
+    "Investigating the model's performance with real-time data streams."
+  ],
+  "gaps_this_enables": [
+    "Applying Bayesian uncertainty quantification techniques to time series data in other domains.",
+    "Combining ensemble methods with probabilistic modeling for uncertainty quantification.",
+    "Developing models that can provide both point predictions and uncertainty estimates."
+  ],
+  "relevance_to_topic": "This paper is relevant to calibration-aware active learning for medical image classification as it provides a framework for uncertainty quantification, which is a key component of active learning.",
+  "relation_type": "method_source",
+  "can_run_on_macbook": true,
+  "reusable_assets": [
+    "The anchored-ensemble LSTM architecture.",
+    "The Student-t likelihood approach for handling heavy-tailed distributions.",
+    "The methodology for combining MAP training with ensemble diversity."
+  ],
+  "code_available": false,
+  "code_url": null,
+  "best_result": "t-NLL Anchor achieved best calibration with standardized variance near unity (≈1.13) for Sedan and IONIQ 5 datasets",
+  "key_results": {
+    "Sedan_1_RMSE": "2.5",
+    "Sedan_1_MAE": "1.3",
+    "Sedan_1_AU": "1.6",
+    "Sedan_1_EU": "1.2",
+    "Sedan_1_R2": "0.93",
+    "Sedan_1_EV": "0.94"
+  },
+  "limitations_stated": [
+    "The model is specifically designed for EV power consumption prediction using vehicle-kinematic time series, which might limit its applicability to other domains.",
+    "The model might be computationally intensive due to the ensemble approach."
+  ],
+  "evidence_id": "EV031",
+  "title": "Bayesian Uncertainty Quantification with Anchored Ensembles for Robust EV Power Consumption Prediction",
+  "year": 2025,
+  "arxiv_id": "2511.06538",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 45810,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 12,
+  "pdf_tables": 3,
+  "pdf_captions": 7
+}

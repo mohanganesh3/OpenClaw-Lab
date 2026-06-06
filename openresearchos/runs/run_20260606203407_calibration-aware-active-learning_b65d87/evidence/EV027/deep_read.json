@@ -1,0 +1,39 @@
+{
+  "problem_addressed": "Open-set active learning where models must handle both known and unknown classes while maintaining high query precision from early training stages.",
+  "core_claim": "Their method achieves superior control and stability in purity regulation, maintaining high query precision from early training stages through a novel purity metric and flexible sampling strategy.",
+  "key_contributions": [
+    "Purity-based candidate selection using auxiliary head outputs",
+    "Precision-based candidate refinement with calibrated target query precision",
+    "Information-based final query selection using Jensen-Shannon divergence"
+  ],
+  "novelty": "Introduces no additional hyperparameters while achieving stable, high-precision queries from the outset, unlike prior methods that show significant fluctuations and limited adaptive sampling.",
+  "method_summary": "Trains classifier with LCE for primary head and LEDL for auxiliary head, computes purity margins using auxiliary outputs, fits GMM on logit margins to model purity regimes, and performs multi-stage selection (purity → precision → information) to select queries.",
+  "method_components": [
+    "Purity margin computation using auxiliary head outputs",
+    "GMM fitting on logit margins to model purity regimes",
+    "Multi-stage candidate selection (purity-based, precision-based, information-based)"
+  ],
+  "key_innovation": "The purity metric Spurity(x) = maxc∈Ck oc - maxc∈Cˆu oc which effectively distinguishes between known and unknown classes, enabling precise candidate selection and stable purity regulation.",
+  "assumptions": [
+    "The auxiliary head can provide meaningful outputs for both known and unknown classes",
+    "Purity regimes can be effectively modeled by a 3-component GMM",
+    "High-purity samples provide greater utility when the model is undertrained"
+  ],
+  "theoretical_grounding": "References prior work [21] about high-purity samples providing greater utility when undertrained, but no explicit proofs or bounds are provided in the extracted content.",
+  "best_result": null,
+  "key_results": {},
+  "limitations_stated": [],
+  "reproducibility": "low",
+  "evidence_id": "EV027",
+  "title": "Revisiting Unknowns: Towards Effective and Efficient Open-Set Active Learning",
+  "year": 2026,
+  "arxiv_id": "2603.07898",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 68987,
+  "sections_found": [
+    "method"
+  ],
+  "pdf_pages": 16,
+  "pdf_tables": 9,
+  "pdf_captions": 11
+}

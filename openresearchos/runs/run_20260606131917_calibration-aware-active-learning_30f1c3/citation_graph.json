@@ -1,0 +1,306 @@
+{
+  "nodes": [
+    {
+      "id": "EV001",
+      "title": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery",
+      "year": 2024
+    },
+    {
+      "id": "EV002",
+      "title": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
+      "year": 2025
+    },
+    {
+      "id": "EV003",
+      "title": "Agent Laboratory: Using LLM Agents as Research Assistants",
+      "year": 2025
+    },
+    {
+      "id": "EV004",
+      "title": "MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering",
+      "year": 2024
+    },
+    {
+      "id": "EV005",
+      "title": "AIBuildAI-2: Scalable Agentic AI Research and Engineering",
+      "year": 2026
+    },
+    {
+      "id": "EV006",
+      "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+      "year": 2023
+    },
+    {
+      "id": "EV007",
+      "title": "Self-Refine: Iterative Refinement with Self-Feedback",
+      "year": 2023
+    },
+    {
+      "id": "EV008",
+      "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+      "year": 2023
+    },
+    {
+      "id": "EV009",
+      "title": "AgentBench: Evaluating LLMs as Agents",
+      "year": 2023
+    },
+    {
+      "id": "EV010",
+      "title": "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
+      "year": 2024
+    },
+    {
+      "id": "EV011",
+      "title": "Ask-n-Learn: Active Learning via Reliable Gradient Representations for Image Classification",
+      "year": 2020
+    },
+    {
+      "id": "EV012",
+      "title": "Active Output Selection Strategies for Multiple Learning Regression Models",
+      "year": 2020
+    },
+    {
+      "id": "EV013",
+      "title": "AI-Enabled Electrochemical Glucose Sensing: Towards Intelligent and Modernized Health Monitoring",
+      "year": 2026
+    },
+    {
+      "id": "EV014",
+      "title": "Uncertainty quantification enables reliable deep learning for protein–ligand binding affinity prediction",
+      "year": 2025
+    },
+    {
+      "id": "EV015",
+      "title": "Development of machine learning surrogate models for slope stability prediction using AI techniques: a case study of the Meizhou landslide",
+      "year": 2026
+    },
+    {
+      "id": "EV016",
+      "title": "Applications, Challenges, and Future Trends of Artificial Intelligence of Things (AIoT)-Enabled Water Quality and Resource Management",
+      "year": 2026
+    },
+    {
+      "id": "EV017",
+      "title": "Multi-Tier Labeling and Physics-Informed Learning for Orbital Anomaly Detection at Scale",
+      "year": 2026
+    },
+    {
+      "id": "EV018",
+      "title": "Inertial human motion capture with automatic IMU-to-segment position and orientation calibration using JointTracker and deep learning with uncertainties",
+      "year": 2026
+    },
+    {
+      "id": "EV019",
+      "title": "Machine Learning-Enabled NIR Spectroscopy in Assessing Powder Blend Uniformity: Clear-Up Disparities and Biases Induced by Physical Artefacts",
+      "year": 2022
+    },
+    {
+      "id": "EV020",
+      "title": "Supporting Screening of New Plant Protection Products through a Multispectral Photogrammetric Approach Integrated with AI",
+      "year": 2024
+    },
+    {
+      "id": "EV021",
+      "title": "Robust Conformal Outlier Detection under Contaminated Reference Data",
+      "year": 2025
+    },
+    {
+      "id": "EV022",
+      "title": "Y-LIChess: Live and Interactive Over-The-Board Chess Recognition and Play with Yolo",
+      "year": 2025
+    },
+    {
+      "id": "EV023",
+      "title": "Predicting Momentary Suicidal Ideation From Smartphone Screenshots Using Vision-Language Models: Prospective Machine Learning Study",
+      "year": 2026
+    },
+    {
+      "id": "EV024",
+      "title": "Active Sequential Posterior Estimation for Sample-Efficient Simulation-Based Inference",
+      "year": 2024
+    },
+    {
+      "id": "EV025",
+      "title": "VNDUQE: Information-Theoretic Novelty Detection using Deep Variational Information Bottleneck",
+      "year": 2026
+    },
+    {
+      "id": "EV026",
+      "title": "A Machine Learning Approach Capturing Hidden Parameters in Autonomous Thin-Film Deposition",
+      "year": 2024
+    },
+    {
+      "id": "EV027",
+      "title": "VR-CNN-GAN: utilization of virtual reality (VR) and deep learning (DL) in fostering online learning process in educational systems",
+      "year": 2025
+    },
+    {
+      "id": "EV028",
+      "title": "Deep-Learning Control of Lower-Limb Exoskeletons via Simplified Therapist Input",
+      "year": 2024
+    },
+    {
+      "id": "EV029",
+      "title": "Gaussian Process Molecule Property Prediction with FlowMO",
+      "year": 2020
+    },
+    {
+      "id": "EV030",
+      "title": "Application of Neural Networks for Validation of Data Integrity in Large Automotive Radar Datasets",
+      "year": 2023
+    },
+    {
+      "id": "EV031",
+      "title": "Murphys Laws of AI Alignment: Why the Gap Always Wins",
+      "year": 2025
+    },
+    {
+      "id": "EV032",
+      "title": "Bayesian Uncertainty Quantification with Anchored Ensembles for Robust EV Power Consumption Prediction",
+      "year": 2025
+    },
+    {
+      "id": "EV033",
+      "title": "A Novel Evidential Uncertainty Framework for Hybrid Models in Rainfall Simulation",
+      "year": 2026
+    },
+    {
+      "id": "EV034",
+      "title": "Robust Colorectal Polyp Characterization Using a Hybrid Bayesian Neural Network",
+      "year": 2022
+    },
+    {
+      "id": "EV035",
+      "title": "Recent advances in laser-induced breakdown spectroscopy quantification: From fundamental understanding to data processing",
+      "year": 2021
+    },
+    {
+      "id": "EV036",
+      "title": "Quantum Probabilistic Label Refining: Enhancing Label Quality for Robust Image Classification",
+      "year": 2025
+    },
+    {
+      "id": "EV037",
+      "title": "Dealing with High Background Rates in the STAR Heavy Flavor Tracker in Simulation: Embedding Simulation into Real Events",
+      "year": 2020
+    },
+    {
+      "id": "EV038",
+      "title": "Calibrated Focal Loss for Semantic Labeling of High-Resolution Remote Sensing Images",
+      "year": 2022
+    },
+    {
+      "id": "EV039",
+      "title": "Network Inversion for Uncertainty-Aware Out-of-Distribution Detection",
+      "year": 2025
+    },
+    {
+      "id": "EV040",
+      "title": "Generating time-consistent dynamics with discriminator-guided image diffusion models",
+      "year": 2025
+    },
+    {
+      "id": "EV041",
+      "title": "Speed Calibration and Traceability for Train-Borne 24 GHz Continuous-Wave Doppler Radar Sensor",
+      "year": 2020
+    },
+    {
+      "id": "EV042",
+      "title": "An Analysis of Temporal Dropout in Earth Observation Time Series for Regression Tasks",
+      "year": 2025
+    },
+    {
+      "id": "EV043",
+      "title": "Low Rank for Rank: Uncertainty-Aware Task-Specific LLM Ranking under Sparse Pairwise Comparisons",
+      "year": 2026
+    },
+    {
+      "id": "EV044",
+      "title": "Physics-Informed Neural Networks for Parameter Recovery in the Repressilator Oscillatory Model",
+      "year": 2026
+    },
+    {
+      "id": "EV045",
+      "title": "Pseudo-D: Informing Multi-View Uncertainty Estimation with Calibrated Neural Training Dynamics",
+      "year": 2025
+    },
+    {
+      "id": "EV046",
+      "title": "A Calibration Method for 77GHz Millimeter-Wave Radar Based on Virtual Instrument Technology",
+      "year": 2021
+    },
+    {
+      "id": "EV047",
+      "title": "Detecting Unexpected Faults of High-Speed Train Bogie Based on Bayesian Deep Learning",
+      "year": 2021
+    },
+    {
+      "id": "EV048",
+      "title": "Ensemble-Based Assisted History Match Using Machine Learning and Optimization Model",
+      "year": 2023
+    },
+    {
+      "id": "EV049",
+      "title": "Self-Supervised Gaussian Regularization of Deep Classifiers for Mahalanobis-Distance-Based Uncertainty Estimation",
+      "year": 2023
+    },
+    {
+      "id": "EV050",
+      "title": "Data space inversion for efficient predictions and uncertainty quantification for geothermal models",
+      "year": 2024
+    },
+    {
+      "id": "EV051",
+      "title": "Out of Distribution Detection via Neural Network Anchoring",
+      "year": 2022
+    },
+    {
+      "id": "EV052",
+      "title": "Unsupervised Calibration under Covariate Shift",
+      "year": 2020
+    },
+    {
+      "id": "EV053",
+      "title": "Estimation of Temperature and Associated Uncertainty from Fiber-Optic Raman-Spectrum Distributed Temperature Sensing",
+      "year": 2020
+    },
+    {
+      "id": "EV054",
+      "title": "Field‐Scale Soil Moisture Predictions in Real Time Using In Situ Sensor Measurements in an Inverse Modeling Framework: SWIM2",
+      "year": 2026
+    },
+    {
+      "id": "EV055",
+      "title": "A 2-to-2.48GHz Voltage-Interpolator-Based Fractional-N Type-I Sampling PLL in 22nm FinFET Assisting Fast Crystal Startup",
+      "year": 2022
+    },
+    {
+      "id": "EV056",
+      "title": "Benchmarking Clinical Reasoning in Large Language Models: A Comparative Assessment Study",
+      "year": 2026
+    },
+    {
+      "id": "EV057",
+      "title": "Generative Flow Networks for Model Adaptation in Digital Twins of Natural Systems",
+      "year": 2026
+    },
+    {
+      "id": "EV058",
+      "title": "Achieving well-informed decision-making in drug discovery: a comprehensive calibration study using neural network-based structure-activity models",
+      "year": 2024
+    },
+    {
+      "id": "EV059",
+      "title": "Risk-Calibrated Human-Robot Interaction via Set-Valued Intent Prediction",
+      "year": 2024
+    }
+  ],
+  "edges": [
+    {
+      "from": "EV004",
+      "to": "EV008",
+      "type": "baseline_comparison"
+    }
+  ]
+}

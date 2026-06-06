@@ -1,0 +1,106 @@
+{
+  "problem_addressed": "Conditional distribution estimation is a fundamental problem in statistics essential for prediction, uncertainty quantification, and probabilistic modeling.",
+  "core_claim": "This paper provides a systematic review and comparison of several representative approaches spanning classical nonparametric methods and modern generative models for conditional distribution estimation.",
+  "key_contributions": [
+    "Review and comparison of several representative approaches for conditional distribution estimation",
+    "Systematic numerical comparison using a unified evaluation framework ensuring fairness and reproducibility",
+    "Analysis of performance metrics including mean-squared errors of conditional mean and standard deviation, and Wasserstein distance"
+  ],
+  "novelty": "The novelty lies in the systematic comparative evaluation of diverse approaches under a unified framework, which hasn't been done before.",
+  "method_summary": "The paper reviews and compares several methods for conditional distribution estimation, including the single-index method of Hall and Yao (2005), basis-expansion approaches like FlexCode and DeepCDE, and generative methods like GCDS and conditional DDPM.",
+  "method_components": [
+    "Single-index method using dimension-reducing index and nonparametric smoothing",
+    "Basis-expansion approaches converting conditional density estimation to regression problems",
+    "Generative approaches using deep generative architectures (GCDS and DDPM)"
+  ],
+  "key_innovation": "The key innovation is the unified evaluation framework for comparing these diverse approaches, ensuring fairness and reproducibility.",
+  "assumptions": [
+    "For basis-expansion approaches: conditional density admits well-behaved orthogonal series representation",
+    "For generative approaches: appropriate latent noise dimension selection",
+    "For single-index method: dimension-reducing index exists"
+  ],
+  "theoretical_grounding": "The paper mentions that under suitable conditions, the distribution of the generated samples provides a consistent estimator of the conditional distribution, but doesn't provide detailed proofs.",
+  "datasets_used": [],
+  "baselines_compared": [
+    "Hall and Yao",
+    "FlexCode",
+    "DeepCDE",
+    "GCDS",
+    "DDPM"
+  ],
+  "metrics_used": [
+    "Wasserstein distance",
+    "MSE (mean)",
+    "MSE (sd)"
+  ],
+  "hyperparameters": "FlexCode: 31 basis functions; DeepCDE: 31 cosine bases, LR 10⁻⁴; GCDS: 500 epochs, LR 10⁻⁴ (3×10⁻⁴ for M10); DDPM: 50 epochs, LR 10⁻²; Hall and Yao: radius r* = 1, bandwidth grid search",
+  "compute_required": "CPU only (AMD EPYC 7742, 64 cores)",
+  "seeds": 10,
+  "headline_result": "Not specified in text",
+  "results_table": [],
+  "ablations": null,
+  "improvement_over_baseline": null,
+  "stated_limitations": [
+    "Limited scope of methods covered",
+    "Computational complexity of some methods",
+    "Difficulty in hyperparameter selection"
+  ],
+  "unstated_weaknesses": [
+    "The paper might not adequately address the specific challenges of medical imaging applications",
+    "Limited discussion of how these methods handle class imbalance, common in medical datasets",
+    "Potential lack of consideration for the interpretability of results in clinical settings",
+    "Unclear how these methods would scale to the large datasets typical in medical imaging"
+  ],
+  "threats_to_validity": [
+    "Generalization to high-dimensional data",
+    "Sensitivity to preprocessing choices",
+    "Limited validation on diverse datasets"
+  ],
+  "reproducibility": "medium",
+  "open_questions": [
+    "How to effectively combine different approaches",
+    "Computational trade-offs between accuracy and efficiency",
+    "Best practices for hyperparameter tuning"
+  ],
+  "future_work": [
+    "Extending to more complex models",
+    "Integration with deep learning approaches",
+    "Application to specific domains like medical imaging"
+  ],
+  "gaps_this_enables": [
+    "Applying conditional distribution estimation to calibration-aware active learning",
+    "Methods for uncertainty quantification in medical image classification",
+    "Approaches for selecting informative samples in medical imaging"
+  ],
+  "relevance_to_topic": "This paper provides foundational methods for conditional distribution estimation that could enhance calibration in medical image classification.",
+  "relation_type": "foundational",
+  "can_run_on_macbook": "unknown",
+  "reusable_assets": [
+    "Methods for conditional distribution estimation",
+    "Comparative evaluation framework"
+  ],
+  "code_available": "unknown",
+  "code_url": "null",
+  "best_result": "Not specified in text",
+  "key_results": {},
+  "limitations_stated": [
+    "Limited scope of methods covered",
+    "Computational complexity of some methods",
+    "Difficulty in hyperparameter selection"
+  ],
+  "evidence_id": "EV035",
+  "title": "Generative and Nonparametric Approaches for Conditional Distribution Estimation: Methods, Perspectives, and Comparative Evaluations",
+  "year": 2026,
+  "arxiv_id": "2601.22650",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 63680,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 22,
+  "pdf_tables": 0,
+  "pdf_captions": 6
+}

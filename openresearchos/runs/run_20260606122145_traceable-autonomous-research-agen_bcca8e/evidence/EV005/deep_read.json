@@ -1,0 +1,30 @@
+{
+  "method_summary": "AIBuildAI-2 is a knowledge-enhanced agent with an external, evolving knowledge system for automatically building AI models. The system is hierarchical, organizing curated AI development knowledge into high-level instructions and low-level documents, dynamically loading relevant context and grounding decisions in externally verifiable expertise.",
+  "key_innovation": "An external, evolving knowledge system that addresses the limitations of static, outdated, and sparse parametric knowledge in large language models.",
+  "datasets_used": [
+    "MLE-Bench"
+  ],
+  "baselines_compared": [],
+  "key_results": {
+    "MLE-Bench medal rate": 70.7
+  },
+  "best_result": "70.7% medal rate on MLE-Bench",
+  "limitations_stated": [],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "unknown",
+  "compute_required": "unknown",
+  "can_run_on_macbook": false,
+  "evidence_id": "EV005",
+  "title": "AIBuildAI-2: Scalable Agentic AI Research and Engineering",
+  "year": 2026,
+  "arxiv_id": "2605.27873",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 5853,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "problem_addressed": "Existing multi-domain skin lesion segmentation models inadequately utilize prediction uncertainty, leading to 'blind fusion' of cross-domain artifacts, 'passive' topological reasoning, and 'rigid optimization' that overfits to subjective label noise.",
+  "core_claim": "UGDD-Net's uncertainty-in-the-loop unified architecture with 'Glance-and-Gaze' forward mechanism transforms uncertainty into an active guiding signal, achieving more reliable skin lesion segmentation than existing methods.",
+  "key_contributions": [
+    "Uncertainty-Guided Dual-Domain Network (UGDD-Net) with novel two-pass 'Glance-and-Gaze' forward mechanism",
+    "Three uncertainty-guided modules: UGBFF for dynamic feature fusion, UGGR for topology-aware graph refinement, and UGML for margin-adaptive loss calculation"
+  ],
+  "novelty": "Transformation of uncertainty from a passive, post-hoc metric to an active guiding signal that permeates the entire learning lifecycle, enabling high-confidence representations to rectify unreliable features.",
+  "method_summary": "UGDD-Net employs a dual-domain architecture with spatial and frequency branches, utilizing a two-pass 'Glance-and-Gaze' forward mechanism where uncertainty actively modulates spatial-spectral interactions, enables priority-guided topology-aware reasoning, and enforces adaptive loss constraints.",
+  "method_components": [
+    "Uncertainty-Guided Bi-directional Feature Fusion (UGBFF) module",
+    "Uncertainty-Guided Graph Refine (UGGR) module",
+    "Uncertainty-Guided Margin-Adaptive Loss (UGML)"
+  ],
+  "key_innovation": "The 'Glance-and-Gaze' forward mechanism that actively utilizes pixel-level uncertainty to dynamically modulate feature fusion, construct priority-guided topology-aware graphs, and enforce margin-adaptive loss constraints.",
+  "assumptions": [
+    "Prediction uncertainty can be effectively estimated and utilized as an active guiding signal",
+    "Dual-domain (spatial and frequency) approach provides complementary information for robust segmentation",
+    "Graph-based reasoning can effectively propagate reliable semantic consensus to refine uncertain nodes"
+  ],
+  "theoretical_grounding": "The paper provides quantitative evidence through cross-dataset evaluations and robustness analysis, showing statistically significant improvements (p < 0.01) over baseline methods, particularly in challenging scenarios with domain shifts and difficult samples.",
+  "datasets_used": [
+    "ISIC2017",
+    "ISIC2018",
+    "PH2",
+    "HAM10000"
+  ],
+  "baselines_compared": [
+    "Dice + CE",
+    "Dice + CE + Boundary",
+    "U-Net + MCD",
+    "UDEL + TTA"
+  ],
+  "metrics_used": [
+    "IoU",
+    "Dice",
+    "HD95",
+    "ECE",
+    "IoUcon",
+    "Dicecon",
+    "Kappa",
+    "Pearson",
+    "Diceunc"
+  ],
+  "hyperparameters": null,
+  "compute_required": null,
+  "seeds": null,
+  "headline_result": "IoU of 79.92% on Hard Samples (UGML)",
+  "results_table": [
+    {
+      "method": "Dice + CE",
+      "dataset": "Hard Samples",
+      "metric": "IoU",
+      "value": "78.35"
+    },
+    {
+      "method": "Dice + CE + Boundary",
+      "dataset": "Hard Samples",
+      "metric": "IoU",
+      "value": "78.78"
+    },
+    {
+      "method": "UGML (Ours)",
+      "dataset": "Hard Samples",
+      "metric": "IoU",
+      "value": "79.92"
+    },
+    {
+      "method": "UGML (Ours)",
+      "dataset": "Hard Samples",
+      "metric": "ECE",
+      "value": "11.72"
+    },
+    {
+      "method": "U-Net + MCD",
+      "dataset": "HAM10000 (Expert)",
+      "metric": "IoUcon",
+      "value": "63.13"
+    },
+    {
+      "method": "UDEL + TTA",
+      "dataset": "HAM10000 (Expert)",
+      "metric": "IoUcon",
+      "value": "70.21"
+    },
+    {
+      "method": "UGDD-Net",
+      "dataset": "HAM10000 (Expert)",
+      "metric": "IoUcon",
+      "value": "73.91"
+    },
+    {
+      "method": "UGDD-Net",
+      "dataset": "HAM10000 (Expert)",
+      "metric": "Diceunc",
+      "value": "71.56"
+    }
+  ],
+  "ablations": [
+    "Effectiveness of the Uncertainty-Guided Bidirectional Feature Fusion (UGBFF) module",
+    "Effectiveness of the Uncertainty-Guided Graph Refinement (UGGR) module",
+    "Effectiveness of the Uncertainty-Guided Margin-Adaptive Loss (UGML)",
+    "Effect of adding a boundary-aware penalty to the loss function"
+  ],
+  "improvement_over_baseline": "UGML (Loss 4) improves IoU by 1.14% and reduces ECE by 6.05% over the Dice + CE + Boundary baseline on Hard Samples. UGDD-Net improves IoUcon by 3.70% and Diceunc by 4.27% over UDEL + TTA on HAM10000.",
+  "stated_limitations": [
+    "The abstract doesn't explicitly state limitations, but given the focus on skin lesion segmentation, potential limitations could include performance on lesions with atypical appearances or in cases with poor image quality."
+  ],
+  "unstated_weaknesses": [
+    "Potential overfitting to specific lesion types or imaging conditions",
+    "Limited generalizability across different medical imaging modalities",
+    "Unclear handling of class imbalance in lesion segmentation",
+    "Potential computational inefficiency for real-time clinical applications"
+  ],
+  "threats_to_validity": [
+    "Limited external validation on datasets from different institutions or imaging devices",
+    "Possible dataset bias if training data comes from a single source",
+    "Uncertain performance on rare lesion types or early-stage lesions"
+  ],
+  "reproducibility": "medium (no code URL provided, but medical image segmentation papers often release code)",
+  "open_questions": [
+    "How does the uncertainty guidance mechanism specifically improve segmentation reliability?",
+    "What is the impact of dual-domain learning on segmentation performance compared to single-domain approaches?",
+    "How does the method perform on different types of skin lesions beyond the specific types studied?"
+  ],
+  "future_work": [
+    "Extension to other medical imaging modalities",
+    "Integration with diagnostic systems for end-to-end clinical workflows",
+    "Development of more sophisticated uncertainty quantification methods"
+  ],
+  "gaps_this_enables": [
+    "Development of calibration-aware active learning strategies for medical image classification",
+    "Integration of uncertainty estimation with active learning for efficient annotation",
+    "Exploration of domain adaptation techniques for medical imaging across institutions"
+  ],
+  "relevance_to_topic": "This paper's focus on uncertainty-guided learning for medical image segmentation provides a foundation for calibration-aware active learning approaches in medical image classification.",
+  "relation_type": "method_source",
+  "can_run_on_macbook": true,
+  "reusable_assets": [
+    "Uncertainty estimation techniques",
+    "Dual-domain learning framework",
+    "Skin lesion segmentation methodology"
+  ],
+  "code_available": false,
+  "code_url": null,
+  "best_result": "IoU of 79.92% on Hard Samples (UGML)",
+  "key_results": {
+    "Hard Samples_IoU": "79.92",
+    "Hard Samples_ECE": "11.72",
+    "HAM10000 (Expert)_IoUcon": "70.21"
+  },
+  "limitations_stated": [
+    "The abstract doesn't explicitly state limitations, but given the focus on skin lesion segmentation, potential limitations could include performance on lesions with atypical appearances or in cases with poor image quality."
+  ],
+  "evidence_id": "EV016",
+  "title": "Uncertainty-Guided Dual-Domain Learning for Reliable Skin Lesion Segmentation",
+  "year": 2026,
+  "arxiv_id": "2605.09600",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 98555,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 34,
+  "pdf_tables": 0,
+  "pdf_captions": 19
+}

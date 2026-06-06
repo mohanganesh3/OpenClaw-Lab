@@ -1,0 +1,70 @@
+{
+  "paper_title": "Bayesian Uncertainty Quantification with Anchored Ensembles for Robust EV Power Consumption Prediction",
+  "abstract": "This paper addresses the challenge of driving-range uncertainty in Battery Electric Vehicles (BEVs) by developing a robust model for energy consumption prediction. Using real-world telematics data, the authors employ a Long Short-Term Memory (LSTM) network to estimate instantaneous power consumption. The core contribution is a comprehensive Uncertainty Quantification (UQ) analysis that captures both aleatoric and epistemic uncertainty. They adopt a Bayesian ensembling method extended to LSTMs to model epistemic uncertainty and incorporate a probabilistic output layer to model aleatoric uncertainty, resulting in predictive intervals suitable for online range management and decision-making.",
+  "research_questions_or_objectives": [
+    "To estimate instantaneous power consumption using an LSTM network.",
+    "To perform a comprehensive Uncertainty Quantification (UQ) analysis for EV power prediction.",
+    "To capture and model both aleatoric and epistemic sources of uncertainty.",
+    "To generate predictive intervals suitable for online range management in EVs."
+  ],
+  "methodology": {
+    "model_type": "Long Short-Term Memory (LSTM) network",
+    "data_source": "real-world telematics",
+    "task": "Power consumption prediction",
+    "uncertainty_quantification": {
+      "approach": "Bayesian ensembling with a probabilistic output layer",
+      "epistemic_uncertainty_method": "A Bayesian ensembling method [pearce2020uncertainty] is adopted and extended to LSTM architectures to capture uncertainty from limited or biased training data.",
+      "aleatoric_uncertainty_method": "A probabilistic output layer is incorporated to model uncertainty arising from inherent variability in driving conditions and sensor noise.",
+      "goal": "To produce predictive intervals that track error scales for reliable online range management."
+    }
+  },
+  "key_concepts": [
+    "Uncertainty Quantification (UQ)",
+    "Aleatoric Uncertainty",
+    "Epistemic Uncertainty",
+    "Bayesian Ensembles",
+    "Predictive Intervals",
+    "Electric Vehicle (EV) Power Consumption",
+    "LSTM"
+  ],
+  "applications": [
+    "Mission planning",
+    "Eco-routing",
+    "Coordinated driving (e.g., platooning)",
+    "Online range management",
+    "EV energy management systems"
+  ],
+  "citations": [
+    "european2021transport",
+    "eccc2023emissions",
+    "shen2023personalized",
+    "madhusudhanan2021computationally",
+    "wager2016driving",
+    "zhang2022optimal",
+    "zhang2021eco",
+    "barhoumi2025fuel",
+    "qu2022urban",
+    "fiori2016power",
+    "yuan2017method",
+    "pan2023development",
+    "maia2015electrical",
+    "zhang2024review",
+    "chen2021data",
+    "valdenegro2022deeper",
+    "yahyaabadi2025deep",
+    "pearce2020uncertainty"
+  ],
+  "notes": "The paper focuses exclusively on LSTM models, having previously benchmarked them against other architectures (TCNs, Transformers, Random Forest) in prior work [yahyaabadi2025deep].",
+  "evidence_id": "EV031",
+  "title": "Bayesian Uncertainty Quantification with Anchored Ensembles for Robust EV Power Consumption Prediction",
+  "year": 2025,
+  "arxiv_id": "2511.06538",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

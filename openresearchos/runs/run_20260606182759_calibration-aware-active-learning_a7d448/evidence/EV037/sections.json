@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\nMarkovian Flow Matching: Accelerating MCMC with\nContinuous Normalizing Flows\nAlberto Cabezas∗\nDepartment of Mathematics and Statistics\nLancaster University, UK\na.cabezasgonzalez@lancas",
+  "method": "ergence result of this type without imposing unreasonably strong assumptions on the vector field\n(vθ\nt )t∈[0,1]. This being said, it is reasonable to ask whether θK converges to a local optimum of the",
+  "results": "e Carlo. Physics letters\nB, 195(2):216–222, 1987. doi: 10.1016/0370-2693(87)91197-X. 2\n[21] C. Durkan, A. Bekasov, I. Murray, and G. Papamakarios. Neural spline flows. In Proceedings\nof the 33rd Annua",
+  "conclusion": "algorithms somewhat comparable.\nFor both choices of K, we also present results using Hutchinson’s trace estimator (HTE) [27, 36]\nto calculate the MH acceptance probability in the flow-informed Markov "
+}

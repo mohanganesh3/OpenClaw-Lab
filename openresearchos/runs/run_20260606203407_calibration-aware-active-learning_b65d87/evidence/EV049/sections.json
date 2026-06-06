@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\narXiv:2502.04807v2  [stat.ML]  15 Jun 2025\nRobust Conformal Outlier Detection under Contaminated Reference Data\nMeshi Bashari 1 Matteo Sesia 2 3 Yaniv Romano 1 4\nAbstract\nConformal pre",
+  "method": "ion with missing values. In Interna-\ntional Conference on Machine Learning, volume 202, pp.\n40578–40604. PMLR, 2023.\nZaffran, M., Josse, J., Romano, Y., and Dieuleveut, A. Pre-\ndictive uncertainty qua",
+  "results": "09 (± 0.045) | 0.019 (± 0.0018) | 0.85 (± 0.0541) | 0.021 (± 0.002) | 0.932 (± 0.0568) | 0.019 (± 0.002) |\n|  | 1.048 (± 0.0202) | 0.03 (± 0.0006) | 1.118 (± 0.0248) | 0.027 (± 0.0006) | 1.167 (± 0.02",
+  "conclusion": "- | --- | --- | --- | --- | --- | --- |\n|  | 1% |  | 3% |  | 5% |  |\n| Method | Power Type-I Error |  | Power Type-I Error |  | Power Type-I Error |  |\n| Standard Oracle (infeasible) Naive-Trim (inval"
+}

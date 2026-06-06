@@ -1,0 +1,74 @@
+{
+  "run_id": "run_20260606143608_uncertainty-estimation-for-reliabl_6b4be1",
+  "topic": "uncertainty estimation for reliable medical image classification",
+  "kept": 54,
+  "dropped_count": 13,
+  "judged_by": "llm",
+  "dropped": [
+    {
+      "title": "How to Choose the Most Proper Representative Climate Model Over a Study Region? a Case Study of Precipitation Simulations in Ireland with NEX-GDDP-CMIP6 Data",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "A Stochastic Theory of Longitudinal Dynamics and Energy Consumption of Road Vehicles",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "Modeling And Control Of Robot Manipulators",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "A Data-Driven LiFePO4 Battery Capacity Estimation Method Based on Cloud Charging Data from Electric Vehicles",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "Can LLM be a Personalized Judge?",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "Financial Estimation of the Uncertainty in Medicine Using Present Value of Medical Fees and a Mortality Risk Prediction Model: a Retrospective Cohort Study",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "Bayesian Gabor Network With Uncertainty Estimation for Pedestrian Lane Detection in Assistive Navigation",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "Improving depth-of-interaction resolution in pixellated PET detectors using neural networks",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "Multisensor Data Fusion and Deep Feature-Based Classification for Mapping China’s Coastal and Wetland Areas",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "Intelligent Fault Detection in the Mechanical Structure of a Wheeled Mobile Robot",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "Robust and Explainable Facial Expression Recognition Using YOLOv10 Under Real-World Visual Degradations",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "Vision-Based Autonomous Drone Landing on Moving Platforms With Uncertain Motion via Deep Reinforcement Learning",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "A Neural Pre-Conditioning Active Learning Algorithm to Reduce Label Complexity",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    }
+  ]
+}

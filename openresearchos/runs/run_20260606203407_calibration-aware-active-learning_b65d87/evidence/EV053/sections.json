@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\nVNDUQE: Information-Theoretic Novelty Detection\nusing Deep Variational Information Bottleneck\nAryan Gondkar∗, Hayder Radha†, Yiming Deng∗\n∗Nondestructive Evaluation Lab,\nDepartment of ",
+  "method": "he prior.\nUsing a Gaussian encoder p(z|x) = N(µ(x), Σ(x)) with\ndiagonal covariance Σ(x) = diag(σ2(x)), the VIB objective\nbecomes:\nL = Ez∼p(z|x)[−log q(y|z)] + β · KL[p(z|x)∥N(0, I)]\n(5)\nThe first term",
+  "results": "Compressed KL\nCompressed Entropy\nFig. 2.\nAUROC comparison across OOD types. Compressed model (β =\n10−3) improves detection by 5-13 percentage points over baseline. KL\nachieves perfect detection on noi",
+  "conclusion": "L struggles at 68.8%\n• Domain Shift (FashionMNIST): Combined reaches\n94.7%, benefiting from both signals\nThis validates that the parallel OR strategy provides robust\ncoverage across the full OOD spect"
+}

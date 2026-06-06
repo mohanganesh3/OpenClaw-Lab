@@ -1,0 +1,79 @@
+{
+  "title": "Tube Loss based Deep Networks For Improving the Probabilistic Forecasting of Wind Speed",
+  "authors": "Not specified in the provided text",
+  "abstract": "The paper introduces Tube Loss based Deep Networks for improving probabilistic forecasting of wind speed, addressing challenges related to volatility and uncertainty in wind energy systems.",
+  "introduction": {
+    "background": "Wind energy is a rapidly growing renewable energy source with unlimited availability and minimal environmental impact. In 2023, new global wind power capacity is expected to surpass 100 GW for the first time, with projections reaching 143 GW by the end of the decade.",
+    "problem": "The high volatility and uncertainty of wind speed present significant challenges for maintaining safe and stable power system operation, scheduling turbine maintenance, and integrating with the power grid.",
+    "importance": "Effective wind speed modeling and prediction plays a crucial role in the overall wind power generation process."
+  },
+  "methodology": {
+    "approach": "Tube Loss based Deep Networks",
+    "focus": "Probabilistic forecasting of wind speed",
+    "categories": [
+      {
+        "name": "Parametric or Distribution-based models",
+        "description": "Assume the predictive distribution and estimate parameters efficiently",
+        "examples": [
+          {
+            "authors": "Khosravi et al.",
+            "method": "Mean-Variance Estimation (MVE) with Neural Networks",
+            "assumption": "Gaussian distribution"
+          },
+          {
+            "authors": "Afrasiabi et al.",
+            "method": "Mixture of Gaussian density with deep neural architectures"
+          }
+        ]
+      },
+      {
+        "name": "Distribution-free methods",
+        "description": "Do not assume a specific distribution",
+        "subcategories": "Three major groups (details not fully provided in truncated text)"
+      }
+    ]
+  },
+  "key_concepts": [
+    "Probabilistic forecasting",
+    "Prediction Interval (PI)",
+    "Confidence level (1-α)",
+    "Conditional quantiles",
+    "Wind speed forecasting",
+    "Tube Loss"
+  ],
+  "applications": [
+    "Power system reserve setting",
+    "Unit commitment",
+    "Market trading",
+    "Power system operation",
+    "Turbine maintenance scheduling",
+    "Grid integration"
+  ],
+  "related_work": [
+    {
+      "authors": "Khosravi et al.",
+      "publication": "[9] and [10]",
+      "method": "Mean-Variance Estimation (MVE) method for probabilistic forecasting of wind power"
+    },
+    {
+      "authors": "Afrasiabi et al.",
+      "publication": "[3]",
+      "method": "Mixture of Gaussian density for modeling the predictive distribution by stacking different deep neural architectures"
+    },
+    {
+      "authors": "Authors of [11] and [12]",
+      "contribution": "Recognized the need for modeling the predictive distribution with non-Gaussian distribution for wind speed forecasting"
+    }
+  ],
+  "evidence_id": "EV030",
+  "year": 2025,
+  "arxiv_id": "2505.18284",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

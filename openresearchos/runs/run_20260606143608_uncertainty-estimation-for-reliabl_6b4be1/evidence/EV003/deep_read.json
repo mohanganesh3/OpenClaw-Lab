@@ -1,0 +1,26 @@
+{
+  "method_summary": "Research paper: Agent Laboratory: Using LLM Agents as Research Assistants",
+  "key_innovation": "See full text",
+  "datasets_used": [],
+  "baselines_compared": [],
+  "key_results": {},
+  "best_result": null,
+  "limitations_stated": [],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "unknown",
+  "compute_required": "unknown",
+  "can_run_on_macbook": true,
+  "evidence_id": "EV003",
+  "title": "Agent Laboratory: Using LLM Agents as Research Assistants",
+  "year": 2025,
+  "arxiv_id": "2501.04227",
+  "full_text_tool": "arxiv_abstract_openclaw",
+  "full_text_chars": 5667,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\nNetwork Inversion for\nUncertainty-Aware Out-of-Distribution Detection\nPirzada Suhail\nIIT Bombay\npsuhail@iitb.ac.in\nRehna Afroz\nIIT Bombay\nrafroz@iitb.ac.in\nGouranga Bala\nIIT Bombay\ngba",
+  "method": "etraining. Monte Carlo Dropout (MC Dropout) Gal and Ghahramani [2016] introduces stochasticity\nduring inference to approximate Bayesian model averaging, while temperature scaling Guo et al.\n[2017] imp",
+  "results": "uts, while high confidence\nin the garbage class suggests a strong belief that the input is OOD. We quantify uncertainty using the\nsoftmax confidence values across all n + 1 output classes by capturing",
+  "conclusion": "etworks. CoRR, abs/1706.04599, 2017. URL http://arxiv.org/abs/1706.04599.\nMoksh Jain, Salem Lahlou, Hadi Nekoei, Victor I Butoi, Paul Bertin, Jarrid Rector-Brooks, Maksym\nKorablyov, and Yoshua Bengio."
+}

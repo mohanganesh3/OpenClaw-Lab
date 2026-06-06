@@ -1,0 +1,37 @@
+{
+  "experiment_id": "ablation_id001",
+  "run_id": "run_20260606131917_calibration-aware-active-learning_30f1c3",
+  "idea_id": "ID001",
+  "idea_title": "Unknown idea",
+  "hypothesis": "Evidence-to-Experiment Trace Ledger for calibration-aware active learning will improve guided idea selection utility over a random baseline under a controlled synthetic research-loop simulation.",
+  "level": "ablation",
+  "task_type": "classification",
+  "dataset": "sklearn_digits_gradient_boosting",
+  "seeds": [
+    42,
+    1337
+  ],
+  "num_seeds": 2,
+  "baseline_name": "Baseline",
+  "proposed_name": "Proposed (topic-tailored)",
+  "baseline_accuracy": 0.969444,
+  "baseline_accuracy_std": 0.002778,
+  "accuracy": 0.931944,
+  "accuracy_std": 0.001389,
+  "baseline_f1": 0.969532,
+  "f1": 0.931928,
+  "f1_std": 0.001325,
+  "improvement": {
+    "accuracy": -0.0375
+  },
+  "improvement_pct": -3.75,
+  "better": false,
+  "t_statistic": -9,
+  "p_value": 0.0704,
+  "statistically_significant": false,
+  "duration_seconds": 10.89,
+  "platform": "macOS-26.1-arm64-arm-64bit",
+  "python": "3.12.13",
+  "success": false,
+  "status": "completed"
+}

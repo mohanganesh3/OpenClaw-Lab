@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\nBayesian E(3)-Equivariant Interatomic Potential\nwith Iterative Restratification of Many-body\nMessage Passing\nSoohaeng Yoo Willow1†, Tae Hyeon Park1,2†, Gi Beom Sim1,2,\nSung Wook Moon3,",
+  "method": "ages under\nOOD were limited, providing little improvement over the single model at 600 K and\n1200 K.\nWe investigate DE models with two NLL losses: energy-only NLL objective\n(RACE-DE-E) and joint energ",
+  "results": "eatures in models, ensuring that the physical\nproperties of the system are preserved under symmetry operations such as rotations.\nIn the TFN layer, the rotationally equivariant features Bl,η\nout,i can",
+  "conclusion": "Mater. 6, 124 (2020).\n[63] Deng, B. et al. Overcoming systematic softening in universal machine learning\ninteratomic potentials by fine-tuning (2024). Preprint at https://arxiv.org/abs/\n2405.07105.\n[6"
+}

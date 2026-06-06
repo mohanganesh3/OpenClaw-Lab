@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\n2025-4-14\nThe AI Scientist-v2: Workshop-Level\nAutomated Scientific Discovery via Agentic\nTree Search\nYutaro Yamada1,*, Robert Tjarko Lange1,*, Cong Lu1,2,3,*, Shengran Hu1,2,3, Chris L",
+  "method": "ich\nwe obtained explicit permission from the reviewers to include them in our report. The remaining\nreviewer did not respond to our request.\nReviewer #1: A good paper analyzing the effectiveness of a ",
+  "results": "e any details!\nEnsure proper citation usage:\n- Always include references within \\begin{{filecontents}}\n{{references.bib}} ... \\end{{filecontents}}, even if they haven't\nchanged from the previous round",
+  "conclusion": "obust models that maintain reliable uncertainty\nestimates despite noisy labels.\",\n\"Experiments\": [\n\"Introduce varying levels and types of synthetic label noise (e.g., symmetric and\nasymmetric noise) i"
+}

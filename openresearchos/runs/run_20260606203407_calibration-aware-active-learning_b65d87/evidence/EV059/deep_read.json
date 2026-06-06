@@ -1,0 +1,54 @@
+{
+  "problem_addressed": "Fundamental limitations of reinforcement learning from human feedback (RLHF) under misspecification, specifically how systematic bias on a subset of contexts leads to a persistent performance gap that cannot be overcome with bounded query budgets.",
+  "core_claim": "The performance gap always wins under misspecification—any learner using a bounded number of queries will face a gap scaling exponentially with queries, unless a calibration oracle identifies misspecified contexts.",
+  "key_contributions": [
+    "Lower bound on performance gap for any learner: ≥γ/4 * exp(-nακ(ε)) with κ(ε) = 4ε atanh(2ε)",
+    "Upper bound with calibration oracle: Achieves gap ≤η with Q ≤ (1/(2αε²)) log(γ/η) queries",
+    "Tilted calculus framework to analyze optimization drift and distribution shift sensitivity"
+  ],
+  "novelty": "Precise quantification of misspecification impact via separation parameter γ and hard mass α, demonstrating exponential query dependence on α and ε, and identifying calibration oracles as critical for mitigating gaps.",
+  "method_summary": "Uses Le Cam's two-point method with transcript-level KL decomposition for lower bounds, and majority testing on flagged contexts for upper bounds, combined with tilted calculus to analyze optimization dynamics.",
+  "method_components": [
+    "Le Cam's two-point method and KL divergence for lower bound derivation",
+    "Majority test on flagged contexts for query-efficient gap reduction",
+    "Tilted sampling law qλ and covariance analysis for optimization drift"
+  ],
+  "key_innovation": "Identification that hard mass α and bias ε govern sample complexity, and that calibration oracles enable logarithmic query scaling via context routing—transforming exponential to polynomial complexity.",
+  "assumptions": [
+    "Contexts drawn i.i.d. from distribution µ over X",
+    "Existence of measurable Xhard with mass α where feedback is biased",
+    "Pairwise label favors better action with prob 1/2 + wε on Xhard (ε ∈ (0, 1/2))",
+    "Separation parameter γ > 0 defined as expected reward difference on Xhard",
+    "For upper bound: Access to calibration oracle h(x) = 1{x ∈Xhard}"
+  ],
+  "theoretical_grounding": "Lower bound via Le Cam's method and KL decomposition; upper bound via Bernoulli KL and testing bounds; tilted calculus provides covariance-based drift analysis for optimization dynamics.",
+  "datasets_used": null,
+  "baselines_compared": null,
+  "metrics_used": null,
+  "hyperparameters": null,
+  "compute_required": null,
+  "seeds": null,
+  "headline_result": null,
+  "results_table": [],
+  "ablations": null,
+  "improvement_over_baseline": null,
+  "best_result": null,
+  "key_results": {},
+  "limitations_stated": [],
+  "reproducibility": "low",
+  "evidence_id": "EV059",
+  "title": "Murphys Laws of AI Alignment: Why the Gap Always Wins",
+  "year": 2025,
+  "arxiv_id": "2509.05381",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 38472,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 17,
+  "pdf_tables": 0,
+  "pdf_captions": 0
+}

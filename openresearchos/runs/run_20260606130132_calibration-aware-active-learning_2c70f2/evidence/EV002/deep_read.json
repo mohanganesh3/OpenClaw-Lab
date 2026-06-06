@@ -1,0 +1,42 @@
+{
+  "method_summary": "The study uses machine learning models (WATCH and TRIGGER) trained on Fermi-LAT light curves with 42 variability features from 365-day trailing windows to predict gamma-ray blazar flares within 90 days (WATCH) and 45 days (TRIGGER).",
+  "key_innovation": "A strictly causal machine learning backtest approach that avoids temporal leakage by using only pre-cutoff data before MJD 60000 for all scaling, calibration, threshold selection, and validation.",
+  "datasets_used": [
+    "Fermi-LAT light curves for 13 bright blazars",
+    "FSRQ 4FGL J1048.4+7143"
+  ],
+  "baselines_compared": [
+    "Logistic regression",
+    "Polynomial logistic regression",
+    "Random forest classifiers"
+  ],
+  "key_results": {
+    "WATCH ROC AUC": 0.891,
+    "WATCH average precision": 0.396,
+    "WATCH block-permutation probability": 0.006,
+    "WATCH recall": 0.86,
+    "TRIGGER AUC": 0.77,
+    "TRIGGER AP": 0.123
+  },
+  "best_result": "WATCH model with ROC AUC = 0.891",
+  "limitations_stated": [
+    "No reliable pre-onset TRIGGER alert is obtained",
+    "TRIGGER AP = 0.123 is relatively low"
+  ],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "high",
+  "compute_required": "Not specified",
+  "evidence_id": "EV002",
+  "title": "Advance warning of $\\gamma$-ray blazar flares from \\textit{Fermi}-LAT light curves: a strictly causal machine-learning backtest",
+  "year": 2026,
+  "arxiv_id": "2605.07680",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 6090,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "introduction": "[2412.05590] Active Sequential Posterior Estimation for Sample-Efficient Simulation-Based Inference\n\nActive Sequential Posterior Estimation\n for Sample-Efficient Simulation-Based Inference\n\nSam Griese",
+  "method": "er simulations have been embraced across countless scientific domains,\nfurthering the ability to understand and predict behaviour in complex real-world systems.\nModern computing architectures and flex",
+  "results": "8 ]  and\nnormalizing flows  [ 40 ,  34 ] , along with popular extensions (e.g., Real NVP\n [ 12 ] , MAE  [ 16 ] , MAF  [ 35 ] , etc). Methods also vary in the probabilistic\nform they elect to approxima",
+  "conclusion": "en as a parameter tuning process, akin to model fitting in machine learning. From\nthe machine learning perspective, OD calibration presents challenges due to the\nrequirement of calibrating specific un"
+}

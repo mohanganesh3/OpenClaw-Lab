@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\nActive Output Selection Strategies for Multiple Learning Regression\nModels\nAdrian Prochaska1\na, Julien Pillas1 and Bernard Bäker2\n1Mercedes-Benz AG, 71059 Sindelﬁngen, Germany\n2TU Dres",
+  "method": "measured outputs contain to some extent noise.\nThe signal-to-noise-ratio SNRm of model m is the ra-\ntio between the range of all measurements ym and the\nstandard deviation σN of normally distributed n",
+  "results": "dian distance.\n5\nExperiments\nThe application of the presented learning strategies\nin the ﬁeld of drivability calibration is designed for the\nuse on a test bench. However, typical static drivability\ncr",
+  "conclusion": "ot to\nbe true in all cases: SF can outperform active learning\nin some cases.\n5.2\nBenchmark dataset\nAs stated in section 3, applications of active learning in\nthe domain of drivability calibration are "
+}

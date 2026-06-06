@@ -1,0 +1,6 @@
+{
+  "introduction": "[2605.29395] Low Rank for Rank: Uncertainty-Aware Task-Specific LLM Ranking under Sparse Pairwise Comparisons\n\nSkip to main content\n\nLearn about arXiv becoming an independent nonprofit.\n\nWe gratefully",
+  "method": "rse pairwise comparisons, modeling the task-by-model ability matrix $\\Theta^\\star \\in \\mathbb{R}^{d_t \\times d_m}$ as low rank so that information is shared across related tasks while task-specific di",
+  "results": "tat.ME) ; Machine Learning (stat.ML)\n\nCite as:\n\narXiv:2605.29395  [stat.ME]\n\n&nbsp;\n\n(or\n\narXiv:2605.29395v1  [stat.ME]  for this version)\n\n&nbsp;\n\nhttps://doi.org/10.48550/arXiv.2605.29395\n\nFocus to ",
+  "conclusion": "? )\n\nDagsHub Toggle\n\nDagsHub\n\n( What is DagsHub? )\n\nGotitPub Toggle\n\nGotit.pub\n\n( What is GotitPub? )\n\nHuggingface Toggle\n\nHugging Face\n\n( What is Huggingface? )\n\nScienceCast Toggle\n\nScienceCast\n\n( Wh"
+}

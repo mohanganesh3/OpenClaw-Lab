@@ -1,0 +1,10 @@
+# EV020: Machine Learning-Enabled NIR Spectroscopy in Assessing Powder Blend Uniformity: Clear-Up Disparities and Biases Induced by Physical Artefacts
+
+URL: https://www.semanticscholar.org/paper/0afc83bada941826b05e14bade384b69cfcc5ddd
+Year: 2022
+Source: semantic_scholar
+Arxiv: n/a
+
+## Abstract
+
+NIR spectroscopy is a non-destructive characterization tool for the blend uniformity (BU) assessment. However, NIR spectra of powder blends often contain overlapping physical and chemical information of the samples. Deconvoluting the information related to chemical properties from that associated with the physical effects is one of the major objectives of this work. We achieve this aim in two ways. Firstly, we identified various sources of variability that might affect the BU results. Secondly, we leverage the machine learning-based sophisticated data analytics processes. To accomplish the aforementioned objectives, calibration samples of amlodipine as an active pharmaceutical ingredient (API) with the concentrations ranging between 67 and 133% w/w (dose ~ 3.6% w/w), in powder blends containing excipients, were prepared using a gravimetric approach and assessed using NIR spectroscopic analysis, followed by HPLC measurements. The bias in NIR results was investigated by employing data quality metrics (DQM) and bias-variance decomposition (BVD). To overcome the bias, the clustered regression (non-parametric and linear) was applied. We assessed the model’s performance by employing the hold-out and k-fold internal cross-validation (CV). NIR-based blend homogeneity with low mean absolute error and an interval estimates of 0.674 (mean) ± 0.218 (standard deviation) w/w was established. Additionally, bootstrapping-based CV was leveraged as part of the NIR method lifecycle management that demonstrated the mean absolute error (MAE) of BU ± 3.5% w/w and BU ± 1.5% w/w for model generalizability and model transferability, respectively. A workflow integrating machine learning to NIR spectral analysis was established and implemented. Graphical Abstract Impact of various data learning approaches on NIR spectral data

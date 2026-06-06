@@ -1,0 +1,18 @@
+{"ts":"2026-06-06T18:28:44.210Z","label":"relevance:0-8","ok":true,"ms":5289,"calls":1}
+{"ts":"2026-06-06T18:28:54.474Z","label":"relevance:8-16","ok":true,"ms":10262,"calls":2}
+{"ts":"2026-06-06T18:29:02.880Z","label":"relevance:16-24","ok":true,"ms":8402,"calls":3}
+{"ts":"2026-06-06T18:29:14.251Z","label":"relevance:24-32","ok":true,"ms":11371,"calls":4}
+{"ts":"2026-06-06T18:29:21.836Z","label":"relevance:32-40","ok":true,"ms":7585,"calls":5}
+{"ts":"2026-06-06T18:29:28.006Z","label":"relevance:40-48","ok":true,"ms":6170,"calls":6}
+{"ts":"2026-06-06T18:29:36.452Z","label":"relevance:48-56","ok":true,"ms":8445,"calls":7}
+{"ts":"2026-06-06T18:29:40.387Z","label":"relevance:56-60","ok":true,"ms":3935,"calls":8}
+{"ts":"2026-06-06T19:17:06.786Z","label":"gap_probe_codegen:G01","ok":true,"ms":71381,"calls":1}
+{"ts":"2026-06-06T19:17:50.516Z","label":"gap_probe_codegen:G02","ok":true,"ms":39961,"calls":2}
+{"ts":"2026-06-06T19:19:18.739Z","label":"gap_probe_fix:G02:1","ok":false,"ms":86925,"calls":3}
+{"ts":"2026-06-06T19:20:45.764Z","label":"gap_probe_codegen:G03","ok":false,"ms":85527,"calls":4}
+{"ts":"2026-06-06T19:21:16.930Z","label":"review:I01:Novelty Reviewer","ok":true,"ms":5853,"calls":1}
+{"ts":"2026-06-06T19:21:22.251Z","label":"review:I01:Experimental Reviewer","ok":true,"ms":5319,"calls":2}
+{"ts":"2026-06-06T19:21:58.720Z","label":"review:I02:Novelty Reviewer","ok":true,"ms":36465,"calls":3}
+{"ts":"2026-06-06T19:22:29.999Z","label":"review:I02:Experimental Reviewer","ok":true,"ms":31279,"calls":4}
+{"ts":"2026-06-06T19:22:35.646Z","label":"review:I03:Novelty Reviewer","ok":true,"ms":5643,"calls":5}
+{"ts":"2026-06-06T19:22:42.706Z","label":"review:I03:Experimental Reviewer","ok":true,"ms":7060,"calls":6}

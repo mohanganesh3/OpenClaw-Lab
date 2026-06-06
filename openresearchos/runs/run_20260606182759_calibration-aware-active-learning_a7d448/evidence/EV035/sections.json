@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\nGenerative and Nonparametric Approaches for\nConditional Distribution Estimation: Methods,\nPerspectives, and Comparative Evaluations\nYen-Shiu Chin1 , Zhi-Yu Jou1, Toshinari Morimoto2, C",
+  "method": "tps://github.com/\nlee-group-cmu/DeepCDE/tree/master.\n5\n\n\n<!-- page 6 -->\nAdvantages:\n• The formulation of expressing fY |X(· |\nx) by a basis expansion is conceptually\nclean.\nThe coeﬀicients estimation",
+  "results": "er\nthe methods remain stable in the presence\nof irrelevant predictors.\nM3 This model is based on M1, except that\nX = (X1, . . . , X4)⊤follows a multivariate\nnormal distribution N(0, Σ) with Σij =\n0.5|",
+  "conclusion": "comparable performance, with\nGCDS performing slightly better. A key reason\nis that DDPM employs a multi-step diffusion-\nbased generative mechanism, which yields more\nstable and effective learning.\nBy "
+}

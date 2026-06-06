@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\nAn Analysis of Temporal Dropout in Earth\nObservation Time Series for Regression Tasks\nMiro Miranda1,2[0009−0002−8195−9776], Francisco Mena1,2[0000−0002−5004−6571],\nand Andreas Dengel1,",
+  "method": "which arises from the data, we as-\nsume a Normal distribution parameterized by two output heads: µ(x), σ2(x) =\nf θ(x). Both terms can be optimized by minimizing the NLL [34]:\nLNLL(y, x) = log σ2(x) + ",
+  "results": "tings, where\nmarker size indicates the normalized PU.\n\n\n**[Table p8.1]**\n| Dataset Model | R2(↑) RMSE(↓) MAE(↓) ECE(↓) PU (↓) |\n| --- | --- |\n| MC-TD SwissYield MC-ConcTD | 0.76 0.99 0.72 2.14 1.00 0.",
+  "conclusion": "oral Dropout\n(TD) at the inference level using Monte Carlo sampling. While MC-TD requires\nmanual and expensive tuning of the dropout ratio, MC-ConcTD learns this au-\ntomatically as a free parameter. W"
+}

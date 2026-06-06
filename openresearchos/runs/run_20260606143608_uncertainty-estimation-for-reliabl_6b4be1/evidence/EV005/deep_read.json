@@ -1,0 +1,33 @@
+{
+  "method_summary": "AIBuildAI-2 is a knowledge-enhanced agent with an external, hierarchical knowledge system that dynamically loads relevant context for AI model building, initialized with web-collected AI development documents and continually evolving through distilled experience from completed tasks.",
+  "key_innovation": "an external, evolving knowledge system that dynamically loads relevant context for AI model building, initialized with web-collected AI development documents and continually evolving through distilled experience from completed tasks",
+  "datasets_used": [
+    "MLE-Bench"
+  ],
+  "baselines_compared": [],
+  "key_results": {
+    "MLE-Bench": "70.7% medal rate",
+    "Heart disease prediction competition": "Top 6.6% among 4,370 human-expert teams"
+  },
+  "best_result": "First place on MLE-Bench with a 70.7% medal rate",
+  "limitations_stated": [
+    "The performance of AI agents is limited by the static, often outdated, and sparse parametric knowledge of their underlying large language models, particularly on practical AI model engineering know-how"
+  ],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "Not enough information to assess",
+  "compute_required": "Not specified in the provided text",
+  "can_run_on_macbook": false,
+  "evidence_id": "EV005",
+  "title": "AIBuildAI-2: Scalable Agentic AI Research and Engineering",
+  "year": 2026,
+  "arxiv_id": "2605.27873",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 5853,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

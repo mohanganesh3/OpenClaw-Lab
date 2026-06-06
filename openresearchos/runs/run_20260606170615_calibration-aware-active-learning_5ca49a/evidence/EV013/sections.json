@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\nRewardUQ: A Unified Framework for\nUncertainty-Aware Reward Models\nDaniel Yang1∗\nSamuel Stante1∗\nFlorian Redhardt1∗\nLena Libon1∗\nParnian Kassraie1\nIdo Hakimi1,2\nBarna Pásztor1,2\nAndreas",
+  "method": "A adapter\n\\\n\\\nlinear head\nlinear head\n\\\n\\\nz\nlast\nz\nlast\nr1\nrK\n...\n...\n...\nr\nu\n(b) LoRA adapter ensemble\nx\ny\nLM\n\u000b\nz\nlast\nlinear head\n\\\nw0\n∼N(µ0, Σ0)\nr\nu\n(c) Bayesian linear head\nx\ny\nLM\n\\\nz\nall\ndropout\n",
+  "results": "of Paired Comparisons. Biometrika, 39(3/4):324–345, 1952.\nStephen Casper, Xander Davies, Claudia Shi, Thomas Krendl Gilbert, Jérémy Scheurer, Javier Rando,\net al. Open Problems and Fundamental Limitat",
+  "conclusion": "ordingly, we normalize by the\ntotal number of samples instead of by the per-class counts.\n11This is why in a calibration diagram overconfidence appears as a flat line (i.e., above the diagonal on\n[0.0"
+}

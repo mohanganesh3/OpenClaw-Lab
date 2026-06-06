@@ -1,0 +1,65 @@
+{
+  "problem_addressed": "Standard benchmarks cannot measure how close neural networks are to optimal performance because they lack access to the true posterior p(y|x), making it impossible to distinguish irreducible aleatoric uncertainty from reducible epistemic error.",
+  "core_claim": "Access to exact posteriors via class-conditional normalizing flows reveals hidden learning dynamics, architectural differences, and enables precise quantification of model limitations and data efficiency.",
+  "key_contributions": [
+    "Demonstrates that epistemic error follows power-law scaling even when total loss plateaus, revealing ongoing learning beyond standard metrics.",
+    "Shows architectures differ markedly in approaching the aleatoric floor, with ResNets exhibiting clean power-law scaling while ViTs stall in low-data regimes.",
+    "Proves oracle posteriors contain learnable structure beyond class labels, enabling near-perfect calibration when used as soft labels.",
+    "Establishes that distribution shift type matters more than magnitude, as class imbalance causes minimal accuracy loss at KL divergences where input noise causes catastrophic degradation.",
+    "Shows exact epistemic uncertainty distinguishes informative samples from ambiguous ones, improving active learning sample efficiency."
+  ],
+  "novelty": "First to make exact posteriors tractable on realistic images (AFHQ, ImageNet) using class-conditional normalizing flows, enabling decomposition of prediction error and precise measurement of aleatoric floors.",
+  "method_summary": "Uses class-conditional normalizing flows as oracles to compute exact posteriors p(y|x) for realistic images, enabling decomposition of prediction error into aleatoric and epistemic components and exact KL divergence computation for distribution shift analysis.",
+  "method_components": [
+    "Class-conditional normalizing flow oracles that make exact posteriors tractable",
+    "Decomposition of prediction error into irreducible aleatoric uncertainty and reducible epistemic error",
+    "Power-law fitting to quantify epistemic error scaling with dataset size",
+    "Exact KL divergence computation for controlled distribution shift perturbations"
+  ],
+  "key_innovation": "Exact posteriors enable precise decomposition of neural network error into aleatoric and epistemic components, revealing hidden learning dynamics and architectural differences invisible to standard metrics.",
+  "assumptions": [
+    "Class-conditional normalizing flows can perfectly model true posteriors",
+    "Datasets (AFHQ, ImageNet) are representative of real-world image distributions",
+    "Power-law scaling holds across architectures and datasets"
+  ],
+  "theoretical_grounding": "Epistemic error follows power-law scaling N^−α (with α varying by architecture), aleatoric floor equals Bayes error, and exact KL divergence quantifies distribution shift magnitude and type.",
+  "datasets_used": [
+    "AFHQ",
+    "ImageNet"
+  ],
+  "baselines_compared": [
+    "ResNets",
+    "Vision Transformers (ViTs)"
+  ],
+  "metrics_used": [
+    "KL divergence (epistemic error)",
+    "accuracy",
+    "robustness to distribution shift"
+  ],
+  "hyperparameters": null,
+  "compute_required": "8x NVIDIA V100 GPUs",
+  "seeds": null,
+  "headline_result": "Epistemic error follows a power law decay (KL ∝ N^{-α}) across architectures and scales to ImageNet-1000 classes",
+  "results_table": [],
+  "ablations": [],
+  "improvement_over_baseline": "ResNets reduce epistemic error by 6× over the data range where ViTs improve by only 1.2×",
+  "best_result": "Epistemic error follows a power law decay (KL ∝ N^{-α}) across architectures and scales to ImageNet-1000 classes",
+  "key_results": {},
+  "limitations_stated": [],
+  "reproducibility": "low",
+  "evidence_id": "EV055",
+  "title": "Beyond the Loss Curve: Scaling Laws, Active Learning, and the Limits of Learning from Exact Posteriors",
+  "year": 2026,
+  "arxiv_id": "2602.00315",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 62783,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 19,
+  "pdf_tables": 2,
+  "pdf_captions": 24
+}

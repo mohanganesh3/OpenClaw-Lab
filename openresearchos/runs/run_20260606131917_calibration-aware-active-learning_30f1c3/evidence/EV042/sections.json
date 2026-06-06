@@ -1,0 +1,6 @@
+{
+  "introduction": "[2504.06915] An Analysis of Temporal Dropout in Earth Observation Time Series for Regression Tasks\n\n1\n\n1  institutetext:  University of Kaiserslautern-Landau, Kaiserslautern, Germany\n\n2\n\n2  institutet",
+  "method": "ble for EO applications.\n\nKeywords:  Dropout Earth Observation Time Series Regression Uncertainty Quantification\n\n1  Introduction\n\nRecently,  Deep Learning (DL)  models have been widely used in the  E",
+  "results": "tion.\nThe first model is built on the dropout variational distribution applied during inference  [ 13 ]  and over time, referred to as  Monte Carlo Temporal Dropout (MC-TD) .\nHowever, the optimal drop",
+  "conclusion": "[ 1 ] .\nIn the  EO  field, missing spatial and temporal data are a common phenomenon due to real-world data collection constraints  [ 43 ] . This includes, sensor noise, sensor failure, and cloud occl"
+}

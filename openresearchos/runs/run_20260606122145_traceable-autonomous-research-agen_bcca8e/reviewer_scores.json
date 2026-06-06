@@ -1,0 +1,263 @@
+[
+  {
+    "idea_id": "ID001",
+    "average_score": 4,
+    "decision": "reject",
+    "next_action": "RUN_ADDITIONAL_SEARCH",
+    "fatal_flaws": [
+      "Lacks clear differentiation from existing automated research systems like The AI Scientist and Agent Laboratory",
+      "Insufficient detail on the novel aspects of the proposed ledger system",
+      "No falsifiable hypothesis stated",
+      "No clear baselines for comparison",
+      "No methodological details provided",
+      "No evaluation metrics specified"
+    ],
+    "fixable_flaws": [
+      "Needs more specific description of how the Evidence-to-Experiment Trace Ledger differs from existing approaches",
+      "Requires clearer articulation of unique contributions to the field",
+      "Dataset specifications missing",
+      "Compute requirements not specified",
+      "Seed procedures not defined"
+    ],
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 6,
+        "fatal_flaws": [
+          "Lacks clear differentiation from existing automated research systems like The AI Scientist and Agent Laboratory",
+          "Insufficient detail on the novel aspects of the proposed ledger system"
+        ],
+        "fixable_flaws": [
+          "Needs more specific description of how the Evidence-to-Experiment Trace Ledger differs from existing approaches",
+          "Requires clearer articulation of unique contributions to the field"
+        ],
+        "decision": "revise",
+        "justification": "The concept of traceability in autonomous research has potential novelty, but requires more detailed differentiation from existing automated research systems like The AI Scientist and Agent Laboratory."
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 2,
+        "fatal_flaws": [
+          "No falsifiable hypothesis stated",
+          "No clear baselines for comparison",
+          "No methodological details provided",
+          "No evaluation metrics specified"
+        ],
+        "fixable_flaws": [
+          "Dataset specifications missing",
+          "Compute requirements not specified",
+          "Seed procedures not defined"
+        ],
+        "decision": "reject",
+        "justification": "Submission lacks essential methodological components including falsifiable hypothesis, baselines, and evaluation metrics. Without these, the proposed system cannot be properly evaluated or compared to existing approaches."
+      }
+    ]
+  },
+  {
+    "idea_id": "ID002",
+    "average_score": 4,
+    "decision": "reject",
+    "next_action": "RUN_ADDITIONAL_SEARCH",
+    "fatal_flaws": [
+      "Missing falsifiable hypothesis (marked as '?')",
+      "No dataset specification (marked as '?')",
+      "No baseline comparison specified (marked as '?')",
+      "Unclear methodology with vague description of 'research agents must connect autonomous, research, agents, smoke'"
+    ],
+    "fixable_flaws": [
+      "The concept of reviewer-gated research ideas builds on existing automation frameworks without clearly distinguishing novel contributions",
+      "The unclear reference to 'smoke' needs clarification to assess its novelty",
+      "Lack of technical depth in proposed approach",
+      "Missing reproducibility details (seeds, compute requirements)",
+      "Unclear evaluation metrics and procedures"
+    ],
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 6,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "The concept of reviewer-gated research ideas builds on existing automation frameworks without clearly distinguishing novel contributions",
+          "The unclear reference to 'smoke' needs clarification to assess its novelty"
+        ],
+        "decision": "revise",
+        "justification": "The idea shows incremental novelty in its reviewer-gated tree search approach but requires clearer differentiation from existing research automation systems like The AI Scientist and Agent Laboratory."
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 2,
+        "fatal_flaws": [
+          "Missing falsifiable hypothesis (marked as '?')",
+          "No dataset specification (marked as '?')",
+          "No baseline comparison specified (marked as '?')",
+          "Unclear methodology with vague description of 'research agents must connect autonomous, research, agents, smoke'"
+        ],
+        "fixable_flaws": [
+          "Lack of technical depth in proposed approach",
+          "Missing reproducibility details (seeds, compute requirements)",
+          "Unclear evaluation metrics and procedures"
+        ],
+        "decision": "reject",
+        "justification": "The proposal lacks essential methodological components including a clear hypothesis, dataset, and baseline, making it impossible to evaluate the proposed research or determine its contribution to the field."
+      }
+    ]
+  },
+  {
+    "idea_id": "ID003",
+    "average_score": 3.5,
+    "decision": "reject",
+    "next_action": "RUN_ADDITIONAL_SEARCH",
+    "fatal_flaws": [
+      "No falsifiable hypothesis is provided, making the research question and success criteria undefined.",
+      "No baselines are specified, making it impossible to evaluate the proposed agent's performance or contribution."
+    ],
+    "fixable_flaws": [
+      "The core concept is vague ('connect research, agents, smoke, c47396'). The mechanism of the 'micro-probe' and what it 'connects' needs precise definition.",
+      "Details on experimental reproducibility, such as random seeds and compute requirements, are missing."
+    ],
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 5,
+        "fatal_flaws": [],
+        "fixable_flaws": [],
+        "decision": "revise",
+        "justification": "Review unavailable (budget/parse)."
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 2,
+        "fatal_flaws": [
+          "No falsifiable hypothesis is provided, making the research question and success criteria undefined.",
+          "No baselines are specified, making it impossible to evaluate the proposed agent's performance or contribution."
+        ],
+        "fixable_flaws": [
+          "The core concept is vague ('connect research, agents, smoke, c47396'). The mechanism of the 'micro-probe' and what it 'connects' needs precise definition.",
+          "Details on experimental reproducibility, such as random seeds and compute requirements, are missing."
+        ],
+        "decision": "revise",
+        "justification": "The proposal lacks a testable hypothesis and defined baselines, which are fundamental for a rigorous experimental evaluation. The core concept also requires significant clarification before an experiment can be designed."
+      }
+    ]
+  },
+  {
+    "idea_id": "ID004",
+    "average_score": 5,
+    "decision": "reject",
+    "next_action": "RUN_ADDITIONAL_SEARCH",
+    "fatal_flaws": [
+      "No falsifiable hypothesis stated",
+      "No fair baselines specified",
+      "No reproducibility measures (seeds) mentioned",
+      "No computational requirements outlined"
+    ],
+    "fixable_flaws": [
+      "While the failure memory concept appears novel, it would benefit from a clearer differentiation from existing memory systems in agents.",
+      "Unclear novelty compared to prior work",
+      "Vague methodology for building and testing failure memory"
+    ],
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 7,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "While the failure memory concept appears novel, it would benefit from a clearer differentiation from existing memory systems in agents."
+        ],
+        "decision": "revise",
+        "justification": "The failure memory system for research agents with traceability appears to be a novel contribution not directly addressed in prior work."
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 3,
+        "fatal_flaws": [
+          "No falsifiable hypothesis stated",
+          "No fair baselines specified",
+          "No reproducibility measures (seeds) mentioned",
+          "No computational requirements outlined"
+        ],
+        "fixable_flaws": [
+          "Unclear novelty compared to prior work",
+          "Vague methodology for building and testing failure memory"
+        ],
+        "decision": "reject",
+        "justification": "The proposal lacks fundamental experimental design elements including a falsifiable hypothesis, baselines, and reproducibility measures. Without these, the research cannot be properly evaluated or compared to existing work."
+      }
+    ]
+  },
+  {
+    "idea_id": "ID005",
+    "average_score": 5,
+    "decision": "reject",
+    "next_action": "RUN_ADDITIONAL_SEARCH",
+    "fatal_flaws": [
+      "No clear, falsifiable hypothesis is stated",
+      "No fair baselines are specified for comparison",
+      "No mention of random seeds for reproducibility",
+      "No information about computational requirements"
+    ],
+    "fixable_flaws": [
+      "Dataset and baseline specifications are unclear",
+      "The connection between 'smoke, c47396' and the venue-aware approach needs clarification",
+      "Dataset specification is missing",
+      "Evaluation metrics are not defined",
+      "Experimental setup is not detailed"
+    ],
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 7,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Dataset and baseline specifications are unclear",
+          "The connection between 'smoke, c47396' and the venue-aware approach needs clarification"
+        ],
+        "decision": "revise",
+        "justification": "The venue-aware claim narrowing concept appears novel compared to existing autonomous research agents, but requires clearer specification of dataset, baseline, and the technical implementation details."
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 3,
+        "fatal_flaws": [
+          "No clear, falsifiable hypothesis is stated",
+          "No fair baselines are specified for comparison",
+          "No mention of random seeds for reproducibility",
+          "No information about computational requirements"
+        ],
+        "fixable_flaws": [
+          "Dataset specification is missing",
+          "Evaluation metrics are not defined",
+          "Experimental setup is not detailed"
+        ],
+        "decision": "revise",
+        "justification": "The proposal lacks essential experimental design elements including a falsifiable hypothesis, fair baselines, seeds for reproducibility, and compute requirements. The idea has potential but needs significant refinement before it can be properly evaluated."
+      }
+    ]
+  },
+  {
+    "idea_id": "ID006",
+    "average_score": 5,
+    "decision": "revise",
+    "next_action": "REVISE_IDEA",
+    "fatal_flaws": [],
+    "fixable_flaws": [],
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 5,
+        "fatal_flaws": [],
+        "fixable_flaws": [],
+        "decision": "revise",
+        "justification": "Review unavailable (budget/parse)."
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 5,
+        "fatal_flaws": [],
+        "fixable_flaws": [],
+        "decision": "revise",
+        "justification": "Review unavailable (budget/parse)."
+      }
+    ]
+  }
+]

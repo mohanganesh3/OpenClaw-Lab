@@ -1,0 +1,56 @@
+{
+  "paper_title": "Open-World Semi-Supervised Learning",
+  "problem_setting": {
+    "name": "Open-World Semi-Supervised Learning (Open-World SSL)",
+    "description": "A generalization of semi-supervised learning and novel class discovery",
+    "data_requirements": {
+      "labeled_dataset": "Contains instances from seen classes",
+      "unlabeled_dataset": "Contains instances from both seen and unseen classes"
+    },
+    "model_task": "Either classify instances into previously seen classes or discover new classes and assign instances to them"
+  },
+  "key_assumptions": [
+    "New classes can emerge in test data that have never been seen during training",
+    "The assumption that training and test data come from the same set of predefined classes rarely holds in real-world scenarios"
+  ],
+  "applications": [
+    {
+      "domain": "Biology",
+      "description": "Classifying known cell types and discovering novel cell types in new tissue"
+    },
+    {
+      "domain": "Social Networks",
+      "description": "Classifying users into predefined interest groups while discovering new interests"
+    }
+  ],
+  "relationships_to_other_work": {
+    "robust_semi_supervised_learning": {
+      "difference": "Robust SSL only requires recognizing instances from novel classes as out-of-distribution, while open-world SSL aims to discover individual novel classes and assign instances to them"
+    },
+    "novel_class_discovery": {
+      "difference": "Novel class discovery assumes unlabeled data is composed only of novel classes, while open-world SSL is more general as instances in unlabeled data can come from both seen and novel classes"
+    }
+  },
+  "limitations_of_existing_approaches": [
+    "Multi-step approaches combining robust SSL and novel class discovery don't perform well in practice",
+    "Treating all classes as 'novel' and then matching them back to seen classes also doesn't work well"
+  ],
+  "figure_references": [
+    {
+      "figure_number": 1,
+      "description": "Illustrates the open-world SSL setting, showing that the unlabeled dataset may contain classes not encountered in the labeled set"
+    }
+  ],
+  "evidence_id": "EV035",
+  "title": "Open-World Semi-Supervised Learning",
+  "year": 2021,
+  "arxiv_id": "2102.03526",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

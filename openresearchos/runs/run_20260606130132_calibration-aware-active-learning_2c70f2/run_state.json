@@ -1,0 +1,307 @@
+{
+  "schema_version": 1,
+  "run_id": "run_20260606130132_calibration-aware-active-learning_2c70f2",
+  "topic": "calibration-aware active learning for image classification",
+  "created_at": "2026-06-06T13:01:56.415Z",
+  "updated_at": "2026-06-06T13:04:06.055Z",
+  "current_state": "EVIDENCE_LOCKED",
+  "scope_classification": {
+    "label": "local_experiment",
+    "rationale": "The topic can be explored with small simulations, synthetic data, or lightweight local experiments on the Mac.",
+    "feasibility_note": "The research topic is highly feasible on your MacBook M4 with 36GB RAM and Apple MPS GPU, as calibration-aware active learning for image classification is well-suited for this hardware configuration. I recommend using CIFAR-10/CIFAR-100 for initial experiments, or the Places365 dataset for more complex scene classification tasks. Expect initial model training to take 1-3 hours, with each active learning iteration requiring 10-30 minutes, resulting in a total experiment time of approximately 4-12"
+  },
+  "search_queries": [
+    "calibration active learning",
+    "uncertainty sampling methods",
+    "AL benchmark datasets",
+    "AL medical imaging",
+    "autonomous driving AL",
+    "AL vs semi-supervised",
+    "self-supervised AL",
+    "calibration challenges",
+    "AL limitations",
+    "AL leaderboards",
+    "AL image datasets",
+    "CIFAR-10 AL study",
+    "AL survey",
+    "calibration-aware AL review",
+    "human-in-the-loop AL"
+  ],
+  "evidence_ids": [
+    "EV001",
+    "EV002",
+    "EV003",
+    "EV004",
+    "EV005",
+    "EV006",
+    "EV007",
+    "EV008",
+    "EV009",
+    "EV010",
+    "EV011",
+    "EV012",
+    "EV013",
+    "EV014",
+    "EV015",
+    "EV016",
+    "EV017",
+    "EV018",
+    "EV019",
+    "EV020",
+    "EV021",
+    "EV022",
+    "EV023",
+    "EV024",
+    "EV025",
+    "EV026",
+    "EV027",
+    "EV028",
+    "EV029",
+    "EV030",
+    "EV031",
+    "EV032",
+    "EV033",
+    "EV034",
+    "EV035",
+    "EV036",
+    "EV037",
+    "EV038",
+    "EV039",
+    "EV040",
+    "EV041",
+    "EV042",
+    "EV043",
+    "EV044",
+    "EV045",
+    "EV046",
+    "EV047",
+    "EV048",
+    "EV049",
+    "EV050",
+    "EV051",
+    "EV052",
+    "EV053",
+    "EV054",
+    "EV055",
+    "EV056",
+    "EV057",
+    "EV058",
+    "EV059",
+    "EV060",
+    "EV061",
+    "EV062",
+    "EV063",
+    "EV064",
+    "EV065",
+    "EV066",
+    "EV067",
+    "EV068",
+    "EV069",
+    "EV070"
+  ],
+  "parsed_papers": [
+    {
+      "evidence_id": "EV001",
+      "title": "Calibration of uncertainty in the active learning of machine learning force fields",
+      "year": 2023,
+      "url": "https://www.semanticscholar.org/paper/00bfc9643b0c7fa719c79bfa8dd330846792c426",
+      "core_claim": "Calibrating the uncertainty quantification within MEPE will improve active learning performance.",
+      "method_or_focus": [
+        "m1",
+        "m2"
+      ],
+      "limitations": [
+        "The predictive uncertainty of a Gaussian process (GP) is unlikely to be accurate or precise immediately after training."
+      ],
+      "possible_gap": "The study focuses on calibrating uncertainty for a Gaussian Process, but it's unclear if these methods would be effective for other types of machine learning models, such as neural networks.",
+      "full_text_tool": "abstract_only",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null
+    },
+    {
+      "evidence_id": "EV002",
+      "title": "Advance warning of $\\gamma$-ray blazar flares from \\textit{Fermi}-LAT light curves: a strictly causal machine-learning backtest",
+      "year": 2026,
+      "url": "https://www.semanticscholar.org/paper/0277e0e0644b41d7d82193f7aab5f545342bda6a",
+      "arxiv_id": "2605.07680",
+      "core_claim": "The study uses machine learning models (WATCH and TRIGGER) trained on Fermi-LAT light curves with 42 variability features from 365-day trailing windows to predict gamma-ray blazar flares within 90 days (WATCH) and 45 days (TRIGGER).",
+      "method_or_focus": [
+        "A strictly causal machine learning backtest approach that avoids temporal leakage by using only pre-cutoff data before MJD 60000 for all scaling, calibration, threshold selection, and validation.",
+        "Fermi-LAT light curves for 13 bright blazars",
+        "FSRQ 4FGL J1048.4+7143"
+      ],
+      "datasets_used": [
+        "Fermi-LAT light curves for 13 bright blazars",
+        "FSRQ 4FGL J1048.4+7143"
+      ],
+      "baselines_compared": [
+        "Logistic regression",
+        "Polynomial logistic regression",
+        "Random forest classifiers"
+      ],
+      "key_results": {
+        "WATCH ROC AUC": 0.891,
+        "WATCH average precision": 0.396,
+        "WATCH block-permutation probability": 0.006,
+        "WATCH recall": 0.86,
+        "TRIGGER AUC": 0.77,
+        "TRIGGER AP": 0.123
+      },
+      "best_result": "WATCH model with ROC AUC = 0.891",
+      "limitations": [
+        "No reliable pre-onset TRIGGER alert is obtained",
+        "TRIGGER AP = 0.123 is relatively low"
+      ],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "full_text_chars": 6090,
+      "full_text_tool": "arxiv_html_openclaw",
+      "possible_gap": "Based on full paper reading: A strictly causal machine learning backtest approach that avoids temporal leakage by using only pre-cutoff data before MJD 60000 for all scaling, calibration, threshold selection, and validation.",
+      "deep_read": {
+        "method_summary": "The study uses machine learning models (WATCH and TRIGGER) trained on Fermi-LAT light curves with 42 variability features from 365-day trailing windows to predict gamma-ray blazar flares within 90 days (WATCH) and 45 days (TRIGGER).",
+        "key_innovation": "A strictly causal machine learning backtest approach that avoids temporal leakage by using only pre-cutoff data before MJD 60000 for all scaling, calibration, threshold selection, and validation.",
+        "datasets_used": [
+          "Fermi-LAT light curves for 13 bright blazars",
+          "FSRQ 4FGL J1048.4+7143"
+        ],
+        "baselines_compared": [
+          "Logistic regression",
+          "Polynomial logistic regression",
+          "Random forest classifiers"
+        ],
+        "key_results": {
+          "WATCH ROC AUC": 0.891,
+          "WATCH average precision": 0.396,
+          "WATCH block-permutation probability": 0.006,
+          "WATCH recall": 0.86,
+          "TRIGGER AUC": 0.77,
+          "TRIGGER AP": 0.123
+        },
+        "best_result": "WATCH model with ROC AUC = 0.891",
+        "limitations_stated": [
+          "No reliable pre-onset TRIGGER alert is obtained",
+          "TRIGGER AP = 0.123 is relatively low"
+        ],
+        "code_available": false,
+        "code_url": null,
+        "reproducibility": "high",
+        "compute_required": "Not specified",
+        "evidence_id": "EV002",
+        "title": "Advance warning of $\\gamma$-ray blazar flares from \\textit{Fermi}-LAT light curves: a strictly causal machine-learning backtest",
+        "year": 2026,
+        "arxiv_id": "2605.07680",
+        "full_text_tool": "arxiv_html_openclaw",
+        "full_text_chars": 6090,
+        "sections_found": [
+          "introduction",
+          "method",
+          "results",
+          "conclusion"
+        ]
+      }
+    },
+    {
+      "evidence_id": "EV003",
+      "title": "The Design and Impact of Interactive Online Modules for Dental Faculty Calibration",
+      "year": 2024,
+      "url": "https://www.semanticscholar.org/paper/04ed5830d9c2088c8a95c0cacd093a980566d829",
+      "core_claim": "A self-paced, interactive online approach is an effective solution for dental faculty calibration, overcoming scheduling challenges.",
+      "method_or_focus": [
+        "development of interactive online modules",
+        "survey-based data collection"
+      ],
+      "limitations": [
+        "The abstract is incomplete, cutting off during the description of the data collection method (survey), which limits understanding of the study's full scope and findings."
+      ],
+      "possible_gap": "The study relies on self-reported survey data; a gap exists in measuring the actual change in faculty teaching behavior or student outcomes through objective observation.",
+      "full_text_tool": "abstract_only",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null
+    },
+    {
+      "evidence_id": "EV004",
+      "title": "Mapping water quality in complex estuarine and coastal waters using deep learning models and high-resolution satellite imagery",
+      "year": 2023,
+      "url": "https://www.semanticscholar.org/paper/051937c80253ffd465808bae06c05d0addf8b5a4",
+      "core_claim": "Deep learning can be used to map water quality in complex estuarine and coastal waters by leveraging remote sensing imagery.",
+      "method_or_focus": [
+        "deep learning",
+        "remote sensing"
+      ],
+      "limitations": [
+        "severe lack of overlapping matchups for calibration and validation"
+      ],
+      "possible_gap": "The effectiveness of deep learning models for water quality mapping is often limited by the scarcity of sufficient in-situ data for training and validation.",
+      "full_text_tool": "abstract_only",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null
+    },
+    {
+      "evidence_id": "EV005",
+      "title": "Transferability of machine-learning-based global calibration models for NO2 and NO low-cost sensors",
+      "year": 2024,
+      "url": "https://www.semanticscholar.org/paper/054efa2b2a4591432e6adfa3f4bbc516543c1fef",
+      "core_claim": "The paper claims that machine-learning-based calibration models for NO2 can be effectively transferred across different locations.",
+      "method_or_focus": [
+        "machine-learning",
+        "calibration"
+      ],
+      "limitations": [
+        "Low-cost sensors have questionable reliability."
+      ],
+      "possible_gap": "The abstract introduces the concept of transferable calibration models but does not provide evidence of their performance when applied in new locations.",
+      "full_text_tool": "abstract_only",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null
+    }
+  ],
+  "claim_graph": {
+    "claims": [],
+    "links": []
+  },
+  "research_gaps": [],
+  "idea_tree": [],
+  "reviewer_scores": [],
+  "experiment_candidates": [],
+  "approval_status": {},
+  "micro_probe_results": [],
+  "probe_results": [],
+  "ablation_results": [],
+  "mvp_results": [],
+  "failed_ideas": [],
+  "validation_results": [],
+  "paper_readiness_level": "RRL-1",
+  "final_output_path": null,
+  "history": [
+    {
+      "at": "2026-06-06T13:01:56.415Z",
+      "state": "TOPIC_SCOPED",
+      "detail": "The topic can be explored with small simulations, synthetic data, or lightweight local experiments on the Mac."
+    },
+    {
+      "at": "2026-06-06T13:01:56.415Z",
+      "state": "SEARCH_PLAN_CREATED",
+      "detail": "15 queries created (LLM-generated)."
+    },
+    {
+      "at": "2026-06-06T13:02:00.288Z",
+      "state": "LITERATURE_DISCOVERY_RUNNING",
+      "detail": "Starting structured literature discovery."
+    },
+    {
+      "at": "2026-06-06T13:02:14.477Z",
+      "state": "EVIDENCE_LOCKED",
+      "detail": "70 papers found (target was 50+)."
+    }
+  ],
+  "discovery_errors": []
+}

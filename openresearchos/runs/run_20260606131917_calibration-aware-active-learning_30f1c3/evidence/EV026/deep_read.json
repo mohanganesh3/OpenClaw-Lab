@@ -1,0 +1,50 @@
+{
+  "title": "A Machine Learning Approach Capturing Hidden Parameters in Autonomous Thin-Film Deposition",
+  "methodology": {
+    "approach": "Machine learning (ML) integration with physical vapor deposition (PVD)",
+    "parameters_mapped": [
+      "substrate temperature",
+      "deposition rate",
+      "flux ratio"
+    ],
+    "properties_predicted": [
+      "stoichiometry",
+      "electrical conductivity",
+      "surface morphology",
+      "crystallinity",
+      "superconducting critical temperatures"
+    ],
+    "optimization_technique": "Bayesian optimization (BO)",
+    "key_challenge": "Sensitivity to noise in training data and hidden parameters causing irreproducibility"
+  },
+  "system_architecture": {
+    "chamber_type": "Ultra-high vacuum (UHV) chamber",
+    "sample_handling": "72-slot robotic sample handling system",
+    "characterization": "In-situ optical characterization",
+    "automation_feature": "Fully automated system with high sample throughput"
+  },
+  "system_cycles": {
+    "learning_cycle": [
+      "Identification of growth condition with highest model uncertainty",
+      "Sample growth",
+      "Model updating with new data"
+    ],
+    "testing_cycle": [
+      "Prediction of optimal growth condition that minimizes loss function",
+      "Sample growth",
+      "Assessment of success"
+    ]
+  },
+  "key_innovation": "Mechanism to account for hidden parameter variations in thin film deposition",
+  "evidence_id": "EV026",
+  "year": 2024,
+  "arxiv_id": "2411.18721",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

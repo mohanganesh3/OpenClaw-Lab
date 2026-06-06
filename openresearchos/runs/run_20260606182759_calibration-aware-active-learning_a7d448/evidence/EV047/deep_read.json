@@ -1,0 +1,106 @@
+{
+  "problem_addressed": "Theoretical properties of stacking (stacked generalization) methods are poorly understood despite their widespread practical use in machine learning ensembles.",
+  "core_claim": "Selecting the best stacking method from a family using cross-validated performance achieves performance close to the oracle best, with explicit theoretical guarantees.",
+  "key_contributions": [
+    "Proved that cross-validated selection of stacking methods provides performance within (1+2δ) of the oracle best plus vanishing error terms (Theorem 4.1)",
+    "Extended Van der Laan et al. (2007) results to handle ordered datasets, infinite families, and non-constant stacking functions",
+    "Proposed a family of stacking methods for probabilistic time series forecasting with controlled weight sensitivity"
+  ],
+  "novelty": "Significant improvement over Van der Laan et al. (2007) by removing discretization requirements, handling ordered datasets, and achieving tighter bounds with log(2+m) instead of log(1+|J̃|+m) where J̃ is discretization size",
+  "method_summary": "Proved an oracle inequality (Theorem 5.1) for general algorithms using Bernstein numbers and covering numbers, then applied it to stacking by defining stacking algorithms as compositions of base learners with weight functions Aα(Z)",
+  "method_components": [
+    "Bernstein number analysis of function class F = {Lα(D0)}",
+    "Lipschitz continuity assumption on α → Lα(D0) mapping",
+    "Cross-validation set Ŵα = {˜α | θ̂α outperforms θ˜α on validation}"
+  ],
+  "key_innovation": "Recognition that general oracle inequalities (Theorem 5.1) directly apply to stacking without discretization, enabling performance bounds that depend only on log(2+m) rather than discretization size",
+  "assumptions": [
+    "J is bounded subset of finite-dimensional Euclidean space",
+    "For every D0, α → Lα(D0) is Lipschitz with constant ℓ",
+    "For p<2: inf_{f∈F} ∫fdP ≥ c > 0",
+    "ε_{n1} = n1^{-1/2 - ε1} for any ε1 > 0"
+  ],
+  "theoretical_grounding": "Oracle inequality bound: E[∫L̂α(D0)(X)dP] ≤ (1+2δ) inf_{˜α∈Ŵα} E[∫L˜α(D0)(X)dP] + sup_{f∈F}(Bf) + 2((1+δ)+1/n1)ε_{n1} where Bf = 16(M(F)/n1^{1-1/p} + (v(F)/(δ∫fdP)^{2-p})^{1/p})log(1+N_int(J,ε_{n1}/ℓ))/n1^{1/p}",
+  "datasets_used": [
+    "Elec",
+    "Kaggle",
+    "M4-daily",
+    "Traf",
+    "Wiki"
+  ],
+  "baselines_compared": [
+    "mean",
+    "median",
+    "GB (D1,DBW1)",
+    "Best (D1,DBW1)",
+    "Unregularized"
+  ],
+  "metrics_used": [
+    "Mean weighted quantile loss over τ = [0.1, 0.5, 0.9]"
+  ],
+  "hyperparameters": "Unregularized uses α = (0,0,0,0); noise added across time/items/quantiles with ϵ(l)i,j,k = U(0,0.5)·s(l)i,k/h (time) or U(0,2)·s(l)i,k (items/quantiles)",
+  "compute_required": "Not specified",
+  "seeds": "5 runs per experiment",
+  "headline_result": "Ours achieves lowest mean weighted quantile loss on all datasets: Elec (0.0494), Kaggle (0.1663), M4-daily (0.0266), Traf (0.094), Wiki (0.3187)",
+  "results_table": [
+    {
+      "method": "Ours",
+      "dataset": "Elec",
+      "metric": "Mean weighted quantile loss",
+      "value": "0.0494"
+    },
+    {
+      "method": "Ours",
+      "dataset": "Kaggle",
+      "metric": "Mean weighted quantile loss",
+      "value": "0.1663"
+    },
+    {
+      "method": "Ours",
+      "dataset": "M4-daily",
+      "metric": "Mean weighted quantile loss",
+      "value": "0.0266"
+    },
+    {
+      "method": "Ours",
+      "dataset": "Traf",
+      "metric": "Mean weighted quantile loss",
+      "value": "0.094"
+    },
+    {
+      "method": "Ours",
+      "dataset": "Wiki",
+      "metric": "Mean weighted quantile loss",
+      "value": "0.3187"
+    }
+  ],
+  "ablations": [
+    "Regularization component (α) ablation via Unregularized baseline; noise robustness across time/items/quantiles"
+  ],
+  "improvement_over_baseline": "Ours improves over mean baseline by 0.0122 (Elec), 0.0107 (Kaggle), 0.0165 (M4-daily), 0.0518 (Traf), 0.0679 (Wiki)",
+  "best_result": "Ours achieves lowest mean weighted quantile loss on all datasets: Elec (0.0494), Kaggle (0.1663), M4-daily (0.0266), Traf (0.094), Wiki (0.3187)",
+  "key_results": {
+    "Elec_Mean weighted quantile loss": "0.0494",
+    "Kaggle_Mean weighted quantile loss": "0.1663",
+    "M4-daily_Mean weighted quantile loss": "0.0266",
+    "Traf_Mean weighted quantile loss": "0.094",
+    "Wiki_Mean weighted quantile loss": "0.3187"
+  },
+  "limitations_stated": [],
+  "reproducibility": "low",
+  "evidence_id": "EV047",
+  "title": "Theoretical Guarantees of Learning Ensembling Strategies with Applications to Time Series Forecasting",
+  "year": 2023,
+  "arxiv_id": "2305.15786",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 58959,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 18,
+  "pdf_tables": 2,
+  "pdf_captions": 7
+}

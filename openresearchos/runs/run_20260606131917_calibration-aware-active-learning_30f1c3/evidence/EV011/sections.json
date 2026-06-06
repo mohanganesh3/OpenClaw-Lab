@@ -1,0 +1,6 @@
+{
+  "introduction": "[2009.14448] Ask-n-Learn: Active Learning via Reliable Gradient Representations for Image Classification\n\nAsk-n-Learn: Active Learning via Reliable Gradient Representations for Image Classification\n\n\\",
+  "method": "ns involving time-consuming data acquisition or high labeling costs. Furthermore, fully supervised methods assume access to samples representing the entire data distribution beforehand, thus making it",
+  "results": "rature for measuring uncertainties and sample diversity, recently, Ash  et al.\n\nAsh et al. ( 2019 )  showed that gradient embedding of unlabeled data, obtained using pseudo-labels from the model’s cur",
+  "conclusion": "ed.\nAL methods can be broadly categorized based on a number of factors including the type of query (e.g., stream based, pool based query etc), sample selection technique, label acquisition strategy et"
+}

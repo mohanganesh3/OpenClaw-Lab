@@ -1,0 +1,176 @@
+{
+  "problem_addressed": "Standard benchmarks cannot determine how close neural networks are to their theoretical optimum because they lack access to the true posterior p(y|x).",
+  "core_claim": "Neural networks continue to learn and improve in epistemic uncertainty even when total loss plateaus, and this learning can only be measured with access to exact posteriors.",
+  "key_contributions": [
+    "Using class-conditional normalizing flows as oracles to make exact posteriors tractable on realistic images",
+    "Decomposing prediction error into irreducible aleatoric uncertainty and reducible epistemic error",
+    "Demonstrating epistemic error follows power laws in dataset size even when total loss plateaus",
+    "Showing architectures differ markedly in how they approach the aleatoric floor",
+    "Demonstrating training with exact posteriors (soft labels) outperforms hard labels",
+    "Enabling exact quantification of distribution shift via KL divergence",
+    "Using epistemic uncertainty to distinguish informative samples for active learning"
+  ],
+  "novelty": "The use of class-conditional normalizing flows as oracles to make exact posteriors tractable on realistic images, enabling measurement of the true posterior p(y|x) which was previously inaccessible.",
+  "method_summary": "The authors use class-conditional normalizing flows as oracles to generate exact posterior distributions p(y|x) for realistic images, enabling decomposition of prediction error into aleatoric and epistemic components, and facilitating controlled experiments on distribution shift and active learning.",
+  "method_components": [
+    "Class-conditional normalizing flows as oracles",
+    "Error decomposition into aleatoric and epistemic uncertainty",
+    "Power law fitting for epistemic error scaling",
+    "KL divergence computation for distribution shift",
+    "Epistemic uncertainty-based sample selection for active learning"
+  ],
+  "key_innovation": "The use of class-conditional normalizing flows as oracles to make exact posteriors tractable on realistic images, which enables measurement of the true posterior p(y|x) and all subsequent analyses.",
+  "assumptions": [
+    "Class-conditional normalizing flows can accurately model the true posterior p(y|x)",
+    "The oracle distributions are representative of real-world data distributions",
+    "The decomposition of error into aleatoric and epistemic components is valid"
+  ],
+  "theoretical_grounding": "The paper builds on established concepts from Bayesian uncertainty decomposition (aleatoric vs epistemic uncertainty) and neural scaling laws, but provides empirical validation through the oracle framework.",
+  "datasets_used": [
+    "AFHQ",
+    "ImageNet-64",
+    "ImageNet-128",
+    "ImageNet (1000 classes)"
+  ],
+  "baselines_compared": [
+    "ResNets",
+    "Vision Transformers (ViTs)"
+  ],
+  "metrics_used": [
+    "KL divergence (epistemic error)",
+    "accuracy",
+    "Fréchet Inception Distance (FID)",
+    "Inception Score (IS)",
+    "manifold coverage",
+    "semantic feature alignment"
+  ],
+  "hyperparameters": "null",
+  "compute_required": "8 NVIDIA V100 GPUs",
+  "seeds": "null",
+  "headline_result": "Epistemic error follows power-law decay (KL ∝ N^{-α}) across architectures and scales to ImageNet-1000",
+  "results_table": [
+    {
+      "method": "ResNets",
+      "dataset": "AFHQ/ImageNet low-data regime",
+      "metric": "epistemic error reduction",
+      "value": "6×"
+    },
+    {
+      "method": "ViTs",
+      "dataset": "AFHQ/ImageNet low-data regime",
+      "metric": "epistemic error reduction",
+      "value": "1.2×"
+    },
+    {
+      "method": "Oracle",
+      "dataset": "AFHQ",
+      "metric": "FID",
+      "value": "28.44"
+    },
+    {
+      "method": "Oracle",
+      "dataset": "ImageNet-64",
+      "metric": "FID",
+      "value": "13.48"
+    },
+    {
+      "method": "Oracle",
+      "dataset": "AFHQ",
+      "metric": "manifold coverage",
+      "value": "90%"
+    },
+    {
+      "method": "Oracle",
+      "dataset": "ImageNet-64",
+      "metric": "manifold coverage",
+      "value": "89.9%"
+    },
+    {
+      "method": "Oracle",
+      "dataset": "AFHQ",
+      "metric": "Inception Score",
+      "value": "6.24 ± 3.57"
+    },
+    {
+      "method": "Oracle",
+      "dataset": "ImageNet-64",
+      "metric": "Inception Score",
+      "value": "32.57 ± 4.47"
+    }
+  ],
+  "ablations": [
+    "Architectural inductive biases (convolutional vs. transformer)"
+  ],
+  "improvement_over_baseline": "ResNets reduce epistemic error by 6× vs. 1.2× for ViTs in low-data regimes",
+  "stated_limitations": [
+    "Uses AFHQ and ImageNet datasets rather than medical images",
+    "Computational requirements for normalizing flows may be high",
+    "Focuses on classification tasks without explicitly addressing active learning"
+  ],
+  "unstated_weaknesses": [
+    "Doesn't address domain-specific challenges in medical imaging",
+    "Scalability to high-resolution medical images is unclear",
+    "Limited connection to active learning strategies",
+    "Computational feasibility for medical applications not addressed"
+  ],
+  "threats_to_validity": [
+    "Generalizability from natural images to medical images is uncertain",
+    "Assumption of 'exact' posteriors from normalizing flows may not hold for medical images",
+    "Architectural comparisons may not extend to specialized medical imaging architectures"
+  ],
+  "reproducibility": "medium",
+  "open_questions": [
+    "How do these findings translate to medical image classification tasks?",
+    "Can the exact posterior approach be made computationally feasible for medical imaging?",
+    "How can the scaling laws inform active learning strategies for medical images?",
+    "What are the aleatoric floors for common medical imaging tasks?"
+  ],
+  "future_work": [
+    "Extending the work to medical imaging domains",
+    "Improving computational efficiency of normalizing flow approaches",
+    "Integrating findings with active learning frameworks"
+  ],
+  "gaps_this_enables": [
+    "Development of calibration-aware active learning strategies for medical imaging",
+    "Understanding of fundamental limits in medical image classification",
+    "Potential for incorporating soft labels from posteriors in medical image learning"
+  ],
+  "relevance_to_topic": "This paper provides foundational insights into calibration and learning limits that could inform calibration-aware active learning for medical image classification.",
+  "relation_type": "foundational",
+  "can_run_on_macbook": false,
+  "reusable_assets": [
+    "Methodology for decomposing prediction error",
+    "Normalizing flow approach for posteriors",
+    "Architectural comparison framework"
+  ],
+  "code_available": false,
+  "code_url": null,
+  "best_result": "Epistemic error follows power-law decay (KL ∝ N^{-α}) across architectures and scales to ImageNet-1000",
+  "key_results": {
+    "AFHQ/ImageNet low-data regime_epistemic error reduction": "1.2×",
+    "AFHQ_FID": "28.44",
+    "ImageNet-64_FID": "13.48",
+    "AFHQ_manifold coverage": "90%",
+    "ImageNet-64_manifold coverage": "89.9%"
+  },
+  "limitations_stated": [
+    "Uses AFHQ and ImageNet datasets rather than medical images",
+    "Computational requirements for normalizing flows may be high",
+    "Focuses on classification tasks without explicitly addressing active learning"
+  ],
+  "evidence_id": "EV037",
+  "title": "Beyond the Loss Curve: Scaling Laws, Active Learning, and the Limits of Learning from Exact Posteriors",
+  "year": 2026,
+  "arxiv_id": "2602.00315",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 62783,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 19,
+  "pdf_tables": 2,
+  "pdf_captions": 24
+}

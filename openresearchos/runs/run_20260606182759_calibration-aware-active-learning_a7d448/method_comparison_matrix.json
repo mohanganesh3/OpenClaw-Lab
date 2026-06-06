@@ -1,0 +1,683 @@
+{
+  "run_id": "run_20260606182759_calibration-aware-active-learning_a7d448",
+  "topic": "calibration-aware active learning for medical image classification",
+  "generated_at": "2026-06-06T19:20:47.509Z",
+  "papers_with_deep_read": 29,
+  "macbook_friendly": 21,
+  "with_code": 4,
+  "method_matrix": [
+    {
+      "evidence_id": "EV001",
+      "title": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery",
+      "year": 2024,
+      "method": "LLMs generate research ideas, implement them via code templates, run experiments, visualize results, write papers in LaTeX, and undergo simulated peer review.",
+      "datasets_used": [
+        "Swe-bench (GitHub issues)",
+        "Mlagentbench (machine learning experimentation)"
+      ],
+      "baselines_compared": [
+        "AlphaFold",
+        "Evolution through large models",
+        "GPT-4",
+        "Llama 3 herd of models"
+      ],
+      "best_result": "not explicitly stated in provided text",
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "not explicitly stated in provided text"
+    },
+    {
+      "evidence_id": "EV002",
+      "title": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
+      "year": 2025,
+      "method": "The system iteratively formulates hypotheses, designs and executes experiments, analyzes data, and authors manuscripts using a progressive agentic tree-search approach managed by an experiment manager agent, enhanced with VLM feedback loops.",
+      "datasets_used": [
+        "SCAN",
+        "COGS",
+        "IWSLT",
+        "GeoQuery"
+      ],
+      "baselines_compared": [
+        "Standard sequence-to-sequence neural networks",
+        "Meta-learning techniques",
+        "Specialized architectures"
+      ],
+      "best_result": "Not available in provided content",
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "Not specified in provided content"
+    },
+    {
+      "evidence_id": "EV003",
+      "title": "Agent Laboratory: Using LLM Agents as Research Assistants",
+      "year": 2025,
+      "method": "Agent Laboratory accepts a human-provided research idea and progresses through three stages—literature review, experimentation, and report writing—to produce comprehensive research outputs including a code repository and research report, while enabling user feedback at each stage.",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV004",
+      "title": "MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering",
+      "year": 2024,
+      "method": "The competition involves predicting scalar coupling constants using various ML approaches, with evaluation based on the Log of Mean Absolute Error calculated for each coupling type and averaged across types.",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV005",
+      "title": "AIBuildAI-2: Scalable Agentic AI Research and Engineering",
+      "year": 2026,
+      "method": "AIBuildAI-2 uses a hierarchical sub-agent architecture with dynamically loaded context from a curated knowledge system, continually updated through experience distillation.",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [
+        "Performance is largely limited by the parametric knowledge of their underlying large language models"
+      ],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": false,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV006",
+      "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+      "year": 2023,
+      "method": "Reflexion implements an iterative optimization process where agents verbally reflect on task feedback signals, maintain reflective text in an episodic memory buffer, and use this memory to induce better decision-making in subsequent trials.",
+      "datasets_used": [
+        "HumanEval Python",
+        "HotPotQA (100 samples)"
+      ],
+      "baselines_compared": [
+        "Baseline without Reflexion",
+        "CoT (GT)",
+        "ReAct"
+      ],
+      "best_result": "gpt-4 with Reflexion on HotPotQA: 80% accuracy",
+      "key_results": {
+        "HumanEval Python_Pass@1 accuracy": "0.26",
+        "HotPotQA_Pass@1 accuracy": "0.55"
+      },
+      "limitations": [
+        "The framework focuses on language agents rather than specifically addressing calibration issues",
+        "Limited information about generalization to specialized domains like medical imaging"
+      ],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": false,
+      "compute_required": "GPU"
+    },
+    {
+      "evidence_id": "EV007",
+      "title": "Self-Refine: Iterative Refinement with Self-Feedback",
+      "year": 2023,
+      "method": "SELF-REFINE generates initial output with an LLM, then iteratively uses the same LLM to provide feedback on its output and refine it, without requiring any additional training or external supervision.",
+      "datasets_used": [
+        "CodeNet (300 examples)",
+        "CommonGen-Hard (extension of CommonGen)",
+        "Acronym dataset (250 acronyms)"
+      ],
+      "baselines_compared": [
+        "Base GPT-3.5",
+        "Base ChatGPT",
+        "Base GPT-4"
+      ],
+      "best_result": "GPT-4 achieved 74.6% on Dialogue Response with SELF-REFINE (statistically significant)",
+      "key_results": {
+        "Dialogue Response_GPT-4": "74.6 ± 6.22%",
+        "Constrained Gen_ChatGPT": "67.0 ± 9.00%",
+        "Code Readability_Function Units": "1.33"
+      },
+      "limitations": [
+        "The paper does not explicitly state limitations in the provided abstract."
+      ],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": false,
+      "compute_required": "Not specified"
+    },
+    {
+      "evidence_id": "EV008",
+      "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+      "year": 2023,
+      "method": "VOYAGER uses GPT-4 via blackbox queries to generate executable code for actions in Minecraft, guided by an automatic curriculum, storing skills in a library, and iteratively refining programs using environment feedback and self-verification.",
+      "datasets_used": [
+        "Minecraft (implied)"
+      ],
+      "baselines_compared": [
+        "Not explicitly stated in provided text"
+      ],
+      "best_result": "Not provided in text",
+      "key_results": {},
+      "limitations": [
+        "The abstract doesn't explicitly state limitations of the VOYAGER system."
+      ],
+      "code_available": true,
+      "code_url": "https://voyager.minedojo.org",
+      "can_run_on_macbook": false,
+      "compute_required": "null"
+    },
+    {
+      "evidence_id": "EV009",
+      "title": "AgentBench: Evaluating LLMs as Agents",
+      "year": 2023,
+      "method": "The method constructs 8 interactive environments simulating real-world tasks, evaluates LLMs through task completion metrics, and analyzes failure patterns across reasoning, decision-making, and instruction-following dimensions.",
+      "datasets_used": [
+        "FREEBASE (GrailQA, ComplexWebQuestions, GraphQuestions) - 1,663 questions"
+      ],
+      "baselines_compared": [
+        "gpt-4",
+        "gpt-3.5-turbo"
+      ],
+      "best_result": "gpt-3.5-turbo achieves 0.92 on UPDATE operations in re-annotated data",
+      "key_results": {
+        "original_INSERT": "0.23",
+        "new_INSERT": "0.19",
+        "original_UPDATE": "0.32",
+        "new_UPDATE": "0.66"
+      },
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "null"
+    },
+    {
+      "evidence_id": "EV010",
+      "title": "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
+      "year": 2024,
+      "method": "SWE-agent implements a custom agent-computer interface (ACI) that provides LM-friendly commands and environment feedback, enabling language model agents to interact with computers for software engineering tasks including file manipulation, repository navigation, and program execution.",
+      "datasets_used": [
+        "SWE-bench Lite dataset",
+        "SWE-bench test set (full)"
+      ],
+      "baselines_compared": [
+        "SWE-agent with GPT-4",
+        "SWE-agent with Claude 3 Opus"
+      ],
+      "best_result": "SWE-agent with GPT-4 resolved 286 trajectories on SWE-bench (full)",
+      "key_results": {
+        "SWE-bench (full)_Trajectories resolved": "286",
+        "SWE-bench Lite_Trajectories resolved": "35",
+        "SWE-bench (full)_Most frequent early action pattern": "create, edit, python (156 times)",
+        "SWE-bench (full)_Cost limit per episode": "$4.00"
+      },
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "null"
+    },
+    {
+      "evidence_id": "EV013",
+      "title": "RewardUQ: A Unified Framework for Uncertainty-Aware Reward Models",
+      "year": 2026,
+      "method": "RewardUQ trains and evaluates four uncertainty quantification architectures (ENS-MLP, ENS-LoRA, MCD-DPO, BAY-LIN) across different datasets and base models using unified evaluation procedure on RewardBench",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV014",
+      "title": "Bayesian E(3)-Equivariant Interatomic Potential with Iterative Restratification of Many-body Message Passing",
+      "year": 2025,
+      "method": "They develop Bayesian E(3)-equivariant MLPs using iterative restratification of many-body message passing, trained with a joint energy-force negative log-likelihood loss function that explicitly models uncertainties in both energies and forces.",
+      "datasets_used": [],
+      "baselines_compared": [
+        "NequIP",
+        "Allegro",
+        "MACE"
+      ],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV017",
+      "title": "Uncertainty-Guided Dual-Domain Learning for Reliable Skin Lesion Segmentation",
+      "year": 2026,
+      "method": "UGDD-Net employs a two-pass forward mechanism where the first pass generates initial predictions and uncertainty estimates, and the second pass refines features using uncertainty-guided fusion, graph-based refinement, and adaptive loss weighting.",
+      "datasets_used": [
+        "HAM10000",
+        "ISIC2017",
+        "ISIC2018",
+        "PH2"
+      ],
+      "baselines_compared": [
+        "U-Net + MCD",
+        "UDEL + TTA",
+        "Loss 2: Dice + CE",
+        "Loss 3: Dice + CE + Boundary"
+      ],
+      "best_result": "UGDD-Net achieves IoUcon of 73.91% and Dicecon of 83.37% against Expert Consensus",
+      "key_results": {
+        "Hard Samples_IoU": "91.84",
+        "Hard Samples_Dice": "95.52",
+        "Hard Samples_HD95": "7.36",
+        "Hard Samples_ECE": "2.43"
+      },
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV020",
+      "title": "Probabilistic Embeddings for Frozen Vision-Language Models: Uncertainty Quantification with Gaussian Process Latent Variable Models",
+      "year": 2025,
+      "method": "GroVE builds on Gaussian Process Latent Variable Models to learn a low-dimensional latent space where image and text inputs are mapped to unified representations, optimized through single-modal embedding reconstruction and cross-modal alignment objectives.",
+      "datasets_used": [
+        "COCO",
+        "CUB"
+      ],
+      "baselines_compared": [
+        "other methods"
+      ],
+      "best_result": "KL-Divergence achieves best performance with 0.79±0.02 accuracy on Image to Text COCO",
+      "key_results": {
+        "Image to Text COCO_accuracy": "0.70±0.04",
+        "Text to Image COCO_accuracy": "0.48±0.02",
+        "Image to Text CUB_accuracy": "0.65±0.02",
+        "Text to Image CUB_accuracy": "0.49±0.05"
+      },
+      "limitations": [
+        "Deterministic embeddings from standard VLMs struggle to capture uncertainties arising from ambiguities in visual and textual descriptions and multiple possible correspondences between images and texts",
+        "Existing approaches for probabilistic embeddings require large datasets and don't leverage the powerful representations already learned by large-scale VLMs like CLIP"
+      ],
+      "code_available": "unknown (not mentioned in abstract)",
+      "code_url": "null (not mentioned in abstract)",
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV025",
+      "title": "Uncertainty-aware phase fraction prediction and active-learning-guided out-of-domain discovery of refractory multi-principal element alloys",
+      "year": 2026,
+      "method": "Refractory multi-principal element alloys (RMPEAs) represent a novel class of alloys characterized by an extensive compositional design space and the potential for exceptional mechanical performance u",
+      "datasets_used": [
+        "70,000 compositions from Ti-Fe-Al-V-Ni-Nb-Zr-Mn-Co design space with phase fractions at 7 temperatures (CALPHAD)"
+      ],
+      "baselines_compared": [],
+      "best_result": "R² of 0.99 for Laves phase prediction",
+      "key_results": {
+        "RMPEA dataset_R²": "0.89"
+      },
+      "limitations": [
+        "Existing machine learning approaches rely on deterministic mappings from composition-derived features to phase labels, neglecting the uncertainty inherent in such predictions",
+        "The paper addresses this by using Mixture Density Networks (MDNs) to predict phase fractions and quantify aleatoric uncertainty"
+      ],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV027",
+      "title": "Revisiting Unknowns: Towards Effective and Efficient Open-Set Active Learning",
+      "year": 2026,
+      "method": "Trains a dual-head classifier with LCE and LEDL losses, estimates unknown classes, computes purity margins, models purity regimes with GMM, and selects samples based on likelihood and information scores",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV028",
+      "title": "OmniDP: Beyond-FOV Large-Workspace Humanoid Manipulation with Omnidirectional 3D Perception",
+      "year": 2026,
+      "method": "OmniDP processes panoramic point clouds through a Time-Aware Attention Pooling mechanism that aggregates point clouds over temporal windows with attention weights conditioned on temporal offsets, producing temporally smoothed representations that condition a Diffusion Policy decoder for coordinated action sequences.",
+      "datasets_used": [
+        "Teleoperated observation-action trajectories with LiDAR point clouds and proprioceptive joint positions"
+      ],
+      "baselines_compared": [
+        "DP [4]",
+        "DP3 [5]",
+        "iDP3 [6]"
+      ],
+      "best_result": "OmniDP achieves 82/120 (68.3%) total success rate across all tasks, significantly outperforming baselines (DP: 18/120, DP3: 22/120, iDP3: 25/120)",
+      "key_results": {
+        "Simulation + Real World_Success Rate": "82/120",
+        "Collision Avoidance_Success Rate": "14/20",
+        "Collision Avoidance_Collision Rate": "5/20"
+      },
+      "limitations": [
+        "Conventional RGB-D solutions suffer from narrow fields of view and self-occlusion",
+        "Existing approaches to expanding perception introduce mechanical complexity, calibration dependencies, and latency"
+      ],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": false,
+      "compute_required": "null"
+    },
+    {
+      "evidence_id": "EV032",
+      "title": "On Exact Sampling in the Two-Variable Fragment of First-Order Logic",
+      "year": 2023,
+      "method": "Uses Scott Normal Form (SNF) to transform FO2 sentences, introduces Tseitin predicates to handle existential quantifiers, applies a domain recursion scheme with partitioning based on 1-types and 2-tables, and employs enumerative sampling for partition sizes.",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": "null",
+      "key_results": {},
+      "limitations": [
+        "The paper focuses on theoretical aspects without empirical validation",
+        "No discussion of practical applications in medical imaging domains"
+      ],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "null"
+    },
+    {
+      "evidence_id": "EV033",
+      "title": "A virtually connected probabilistic computer as a solver for higher-order, densely connected, or reconfigurable combinatorial optimisation problems",
+      "year": 2026,
+      "method": "Uses high-speed photonic quantum random number generators to create a probabilistic computing architecture with virtual connections between p-bits. Solves higher-order problems via simulated annealing (PC-SA) with greedy graph coloring for parallelization.",
+      "datasets_used": [
+        "burma14 TSP instance",
+        "Erdős–Rényi graphs (N=100, 250, 500, 750, 1024)",
+        "Spin-glass instances"
+      ],
+      "baselines_compared": [
+        "Digital annealing (DA)",
+        "Parallel tempering (PT)",
+        "Simulated annealing (SA)"
+      ],
+      "best_result": "TTS of ~10⁻⁵ seconds for q=0.8 and N=1024, outperforming DA by orders of magnitude",
+      "key_results": {
+        "Erdős–Rényi (p=1.0)_Iterations": "10²",
+        "Erdős–Rényi (p=0.2)_Iterations": "10³",
+        "Erdős–Rényi (p=1.0)_TTS (s)": "10⁻³"
+      },
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "Parallel execution assumed for replicas"
+    },
+    {
+      "evidence_id": "EV035",
+      "title": "Generative and Nonparametric Approaches for Conditional Distribution Estimation: Methods, Perspectives, and Comparative Evaluations",
+      "year": 2026,
+      "method": "The paper reviews and compares several methods for conditional distribution estimation, including the single-index method of Hall and Yao (2005), basis-expansion approaches like FlexCode and DeepCDE, and generative methods like GCDS and conditional DDPM.",
+      "datasets_used": [],
+      "baselines_compared": [
+        "Hall and Yao",
+        "FlexCode",
+        "DeepCDE",
+        "GCDS",
+        "DDPM"
+      ],
+      "best_result": "Not specified in text",
+      "key_results": {},
+      "limitations": [
+        "Limited scope of methods covered",
+        "Computational complexity of some methods",
+        "Difficulty in hyperparameter selection"
+      ],
+      "code_available": "unknown",
+      "code_url": "null",
+      "can_run_on_macbook": true,
+      "compute_required": "CPU only (AMD EPYC 7742, 64 cores)"
+    },
+    {
+      "evidence_id": "EV037",
+      "title": "Markovian Flow Matching: Accelerating MCMC with Continuous Normalizing Flows",
+      "year": 2024,
+      "method": "The method trains a continuous normalizing flow to model the vector field between reference and target distributions using flow matching, where the probability path is specified adaptively using samples from the Markov chain. This learned CNF provides a non-local transition kernel combined with local MCMC kernels in an adaptive scheme.",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [
+        "The abstract is cut off, so I don't have the full list of limitations. Based on the visible portion, the paper introduces an adaptive MCMC algorithm combining local and flow-informed transition kernels."
+      ],
+      "code_available": "false (not mentioned in the abstract)",
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV038",
+      "title": "MANTRA: Temporal Betweenness Centrality Approximation Through Sampling",
+      "year": 2023,
+      "method": "MANTRA uses a two-phase approach: bootstrap phase to estimate parameters (ˆv and ρ(⋆)) and determine initial sample size, followed by progressive sampling with geometric progression and Rademacher vectors to update estimates until desired accuracy is achieved.",
+      "datasets_used": [
+        "Prefix Foremost",
+        "Shortest",
+        "public transport networks (25 cities)"
+      ],
+      "baselines_compared": [
+        "ONBRA",
+        "exact algorithm"
+      ],
+      "best_result": "MANTRA outperforms ONBRA in running time, sample size, and memory usage; only feasible option for datasets requiring >1TB memory",
+      "key_results": {
+        "Prefix Foremost_running time": "lower than ONBRA across all ε",
+        "Prefix Foremost_sample size": "lower than ONBRA across all ε",
+        "Prefix Foremost_memory usage": "≤100 GB (ONBRA required >1TB for ε=0.001)",
+        "Prefix Foremost_supremum deviation": "≤ε for all tested ε",
+        "Shortest_running time": "5-15% of exact algorithm's runtime",
+        "Shortest_sample size": "100-1000 (log scale)"
+      },
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": false,
+      "compute_required": "Single laptop (memory measured in GB; ONBRA required >1TB for some datasets)"
+    },
+    {
+      "evidence_id": "EV041",
+      "title": "Probabilistic Analysis of Least Squares, Orthogonal Projection, and QR Factorization Algorithms Subject to Gaussian Noise",
+      "year": 2024,
+      "method": "The approach combines deterministic matrix analysis (Lemma 3.1) with probabilistic tools (Bessel functions, Marcum Q-function) to bound condition number growth and noise propagation.",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": "Probability ≥0.9734 for m-n ≥100, σ=2⁻⁸, ε=0.1",
+      "key_results": {
+        "Synthetic Gaussian Noise_Probability": "≥0.9734"
+      },
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "Not specified"
+    },
+    {
+      "evidence_id": "EV042",
+      "title": "Stochastic analysis of an adaptive cubic regularization method under inexact gradient evaluations and dynamic Hessian accuracy",
+      "year": 2020,
+      "method": "Implements stochastic ARC with probabilistic model accuracy requirements, adaptive Hessian accuracy via Ck, and implicit gradient accuracy conditions, using trust-region style acceptance criteria to ensure complexity preservation.",
+      "datasets_used": [
+        "binary classification dataset (sigmoid loss) with training set size N and testing set size NT"
+      ],
+      "baselines_compared": [
+        "exact gradient version of [3]"
+      ],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [
+        "The paper assumes exact function evaluations despite considering inexact gradient evaluations",
+        "The analysis does not consider restrictions on the variance of errors",
+        "The paper focuses on theoretical analysis without empirical validation"
+      ],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "not specified"
+    },
+    {
+      "evidence_id": "EV046",
+      "title": "Quantum boosting using domain-partitioning hypotheses",
+      "year": 2021,
+      "method": "QRealBoost uses quantum examples in superposition states, performs adaptive weight updates via unitary transformations, employs amplitude amplification for weighted sampling, and outputs confidence-rated predictions for domain partitions.",
+      "datasets_used": [],
+      "baselines_compared": [
+        "QAdaBoost",
+        "QRealBoost",
+        "RealBoost",
+        "AdaBoost"
+      ],
+      "best_result": "QRealBoost achieved best generalization ability, only surpassed by AdaBoost",
+      "key_results": {
+        "General_test accuracy": "second among quantum methods",
+        "General_generalization error": "second best overall"
+      },
+      "limitations": [
+        "QAdaBoost is quadratically faster than AdaBoost in terms of the VC-dimension of the hypothesis class of the weak learner but polynomially worse in the bias of the weak learner.",
+        "The algorithm only works for binary hypothesis case, which limits its applicability to multi-class problems."
+      ],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": false,
+      "compute_required": "quantum simulators"
+    },
+    {
+      "evidence_id": "EV047",
+      "title": "Theoretical Guarantees of Learning Ensembling Strategies with Applications to Time Series Forecasting",
+      "year": 2023,
+      "method": "Proved an oracle inequality (Theorem 5.1) for general algorithms using Bernstein numbers and covering numbers, then applied it to stacking by defining stacking algorithms as compositions of base learners with weight functions Aα(Z)",
+      "datasets_used": [
+        "Elec",
+        "Kaggle",
+        "M4-daily",
+        "Traf",
+        "Wiki"
+      ],
+      "baselines_compared": [
+        "mean",
+        "median",
+        "GB (D1,DBW1)",
+        "Best (D1,DBW1)",
+        "Unregularized"
+      ],
+      "best_result": "Ours achieves lowest mean weighted quantile loss on all datasets: Elec (0.0494), Kaggle (0.1663), M4-daily (0.0266), Traf (0.094), Wiki (0.3187)",
+      "key_results": {
+        "Elec_Mean weighted quantile loss": "0.0494",
+        "Kaggle_Mean weighted quantile loss": "0.1663",
+        "M4-daily_Mean weighted quantile loss": "0.0266",
+        "Traf_Mean weighted quantile loss": "0.094",
+        "Wiki_Mean weighted quantile loss": "0.3187"
+      },
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "Not specified"
+    },
+    {
+      "evidence_id": "EV052",
+      "title": "Local and Regional Counterfactual Rules: Summarized and Robust Recourses",
+      "year": 2022,
+      "method": "The paper proposes a probabilistic framework that gives sparse local counterfactual rules for each observation, providing rules that give a range of values capable of changing decisions with high probability. These rules serve as a summary of diverse counterfactual explanations and yield robust recourses. They further aggregate these local rules into regional counterfactual rules, identifying shared recourses for subgroups of the data. The rules are derived from the Random Forest algorithm, which offers statistical guarantees and fidelity to data distribution by selecting recourses in high-density regions.",
+      "datasets_used": [
+        "California House Price (n=20640, p=8)",
+        "Compas (n=6172, p=12)",
+        "Diabetes (n=768, p=8)",
+        "Nhanesi"
+      ],
+      "baselines_compared": [
+        "AReS",
+        "FOCUS",
+        "FeatureTweaking",
+        "CHVAE"
+      ],
+      "best_result": "Local CR achieved 100% accuracy on California House Price dataset with 0.92 plausibility and 4.45 sparsity",
+      "key_results": {
+        "Compas (RF)_acc": "0.72/0.15",
+        "Compas (RF)_psb": "0.90/0.92",
+        "Diabetes (RF)_acc": "1.00/1.00",
+        "Diabetes (RF)_psb": "0.98/0.89",
+        "California House Price_acc": "100%"
+      },
+      "limitations": [
+        "The framework is based on Random Forest, which may not be optimal for medical image classification",
+        "The paper doesn't address calibration, which is a key aspect of the research project",
+        "The framework doesn't discuss how it handles the specific challenges of medical images (e.g., high dimensionality, limited annotated data)"
+      ],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "not specified"
+    },
+    {
+      "evidence_id": "EV054",
+      "title": "DDPM Score Matching and Distribution Learning",
+      "year": 2025,
+      "method": "The approach uses the Ornstein-Uhlenbeck process and establishes connections via Lemma 1 (linking log-likelihood to DDPM score matching) and a reduction framework that transforms score estimation accuracy to density estimation guarantees.",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [
+        "The paper acknowledges that it is unclear how score estimation relates to classical forms of distribution learning"
+      ],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV055",
+      "title": "The Hardest Explicit Construction",
+      "year": 2021,
+      "method": "Reduces explicit construction problems to the Empty problem by constructing circuits that map encodings of 'structured' objects (those failing the property) to their representations, ensuring any string outside the range must satisfy the desired property.",
+      "datasets_used": [
+        "EMPTY_C problem instances",
+        "ε-Hard_C problem instances",
+        "ΣP_i-circuit instances"
+      ],
+      "baselines_compared": [
+        "Standard boolean basis {∧, ∨, ¬}",
+        "ΣP_i-circuit inverters"
+      ],
+      "best_result": "ε-Hard_ΣP_i is complete for APEPP_ΣP_i under ∆P_i+2 reductions (Theorem 8)",
+      "key_results": {
+        "EMPTY_C_completeness": "EMPTY_C_2n complete for APEPP_C",
+        "ε-Hard_C_circuit size": "O(|C|k) for range strings",
+        "ΣP_i-circuits_oracle simulation": "Implementable via ∆P_i+2"
+      },
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": false,
+      "compute_required": "Theoretical proofs (no empirical computation)"
+    }
+  ]
+}

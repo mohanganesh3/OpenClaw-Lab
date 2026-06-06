@@ -1,0 +1,53 @@
+{
+  "title": "Achieving well-informed decision-making in drug discovery: a comprehensive calibration study using neural network-based structure-activity models",
+  "methodology": {
+    "approach": "Bayesian Logistic Regression fitted to hidden layer of baseline neural network",
+    "sampling_method": "Hamiltonian Monte Carlo (HMC) trajectories",
+    "combination_techniques": [
+      "Uncertainty estimation methods",
+      "Probability calibration methods",
+      "Post hoc calibration methods"
+    ]
+  },
+  "key_findings": [
+    "Bayesian Logistic Regression (BLP) improves model calibration",
+    "BLP achieves performance of common uncertainty quantification methods",
+    "Combining post hoc calibration with uncertainty quantification boosts model accuracy and calibration"
+  ],
+  "domain": "Drug discovery and development",
+  "focus_areas": [
+    "Model calibration",
+    "Uncertainty quantification",
+    "Structure-activity relationships"
+  ],
+  "uncertainty_types": [
+    {
+      "type": "Aleatoric uncertainty",
+      "description": "Uncertainty related to data and data acquisition, including systematic and unsystematic errors"
+    },
+    {
+      "type": "Epistemic uncertainty",
+      "description": "Model uncertainty that can be reduced by adding knowledge"
+    }
+  ],
+  "paper_structure": {
+    "sections": [
+      "Introduction",
+      "Results"
+    ],
+    "key_references": [
+      "Guo et al. (2017) on neural network calibration"
+    ]
+  },
+  "evidence_id": "EV058",
+  "year": 2024,
+  "arxiv_id": "2407.14185",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

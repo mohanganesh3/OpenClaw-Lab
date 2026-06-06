@@ -1,0 +1,6 @@
+{
+  "introduction": "[2502.04807] Robust Conformal Outlier Detection under Contaminated Reference Data\n\nRobust Conformal Outlier Detection under\n Contaminated Reference Data\n\nMeshi Bashari\n\nDepartment of Electrical and Co",
+  "method": "ods under contamination and show that the proposed data-cleaning strategy improves power without sacrificing validity.\n\nKeywords:  Conformal Prediction, Hypothesis Testing, Out-of-Distribution Detecti",
+  "results": "htly  contaminated  reference set, mostly legitimate transactions with a few unnoticed outliers  [ 44 ] .\nBut this setting poses new challenges for conformal prediction methods, potentially invalidati",
+  "conclusion": "ted budget is then strategically allocated to annotate these points, thereby avoiding the unintended removal of inliers. While this is a practical and intuitive approach, it naturally prompts a critic"
+}

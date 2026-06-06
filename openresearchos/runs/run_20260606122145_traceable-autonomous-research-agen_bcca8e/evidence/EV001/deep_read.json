@@ -1,0 +1,28 @@
+{
+  "method_summary": "The AI Scientist generates novel research ideas, writes code, executes experiments, visualizes results, writes scientific papers, and runs simulated review processes for evaluation, with the capability for iterative development in an open-ended fashion.",
+  "key_innovation": "A fully automated end-to-end scientific discovery system that independently performs research from idea generation to paper writing and evaluation, simulating the entire scientific process.",
+  "datasets_used": [],
+  "baselines_compared": [],
+  "key_results": {
+    "near-human performance": "automated reviewer achieves near-human performance in evaluating paper scores"
+  },
+  "best_result": "The AI Scientist can produce papers that exceed the acceptance threshold at a top machine learning conference as judged by the automated reviewer.",
+  "limitations_stated": [],
+  "code_available": true,
+  "code_url": null,
+  "reproducibility": "medium",
+  "compute_required": "not specified",
+  "can_run_on_macbook": false,
+  "evidence_id": "EV001",
+  "title": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery",
+  "year": 2024,
+  "arxiv_id": "2408.06292",
+  "full_text_tool": "arxiv_abstract_openclaw",
+  "full_text_chars": 6031,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

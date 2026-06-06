@@ -1,0 +1,145 @@
+{
+  "problem_addressed": "Deterministic embeddings from standard vision-language models struggle to capture uncertainties arising from ambiguities in visual/textual descriptions and multiple possible correspondences between modalities.",
+  "core_claim": "GroVE achieves state-of-the-art uncertainty calibration by obtaining probabilistic embeddings from frozen VLMs through a post-hoc Gaussian Process Latent Variable Model approach.",
+  "key_contributions": [
+    "GroVE framework for post-hoc probabilistic embeddings from frozen VLMs",
+    "GPLVM-based shared latent space learning with single-modal reconstruction and cross-modal alignment objectives",
+    "Demonstrated superior uncertainty calibration across cross-modal retrieval, VQA, and active learning tasks"
+  ],
+  "novelty": "Unlike prior probabilistic embedding methods requiring VLM retraining, GroVE operates post-hoc on frozen VLMs (e.g., CLIP, BLIP) using GPLVM to learn uncertainty-aware representations without modifying the original model.",
+  "method_summary": "GroVE builds a shared low-dimensional latent space using GPLVM where image and text inputs map to unified representations, optimized through single-modal embedding reconstruction and cross-modal alignment objectives to generate uncertainty-aware probabilistic embeddings.",
+  "method_components": [
+    "Gaussian Process Latent Variable Model (GPLVM) framework",
+    "Single-modal embedding reconstruction objective",
+    "Cross-modal alignment objective"
+  ],
+  "key_innovation": "Leveraging GPLVM's predictive distribution p(g*) = ∫ p(g*|x*)p(x*|z*, zM)dx* to capture uncertainty from both latent space uncertainty and inherent noise, enabling uncertainty quantification without VLM retraining.",
+  "assumptions": [
+    "Frozen VLM embeddings provide meaningful representations for latent space learning",
+    "Low-dimensional latent space (Q=5 or 10) sufficiently captures cross-modal relationships",
+    "GP hyperparameters (inducing points, trade-off parameters) can be tuned via grid search"
+  ],
+  "theoretical_grounding": "The predictive distribution derivation shows how uncertainty in latent space (z*) propagates to prediction uncertainty through ˆΣ*, accounting for variance from both latent uncertainty and inherent noise.",
+  "datasets_used": [
+    "COCO",
+    "CUB"
+  ],
+  "baselines_compared": [
+    "Not specified in provided text"
+  ],
+  "metrics_used": [
+    "KL-Divergence",
+    "JS-Divergence",
+    "Wasserstein-2",
+    "Image to Text",
+    "Text to Image"
+  ],
+  "hyperparameters": "null",
+  "compute_required": "null",
+  "seeds": "null",
+  "headline_result": "GroVE with KL-Divergence achieves best cross-modal alignment",
+  "results_table": [
+    {
+      "method": "GroVE with KL-Divergence",
+      "dataset": "COCO",
+      "metric": "Image to Text",
+      "value": "0.79±0.02"
+    },
+    {
+      "method": "GroVE with KL-Divergence",
+      "dataset": "COCO",
+      "metric": "Text to Image",
+      "value": "0.65±0.02"
+    },
+    {
+      "method": "GroVE with KL-Divergence",
+      "dataset": "CUB",
+      "metric": "Image to Text",
+      "value": "0.46±0.06"
+    },
+    {
+      "method": "GroVE with KL-Divergence",
+      "dataset": "CUB",
+      "metric": "Text to Image",
+      "value": "0.49±0.05"
+    },
+    {
+      "method": "GroVE with JS-Divergence",
+      "dataset": "COCO",
+      "metric": "Image to Text",
+      "value": "0.70±0.04"
+    },
+    {
+      "method": "GroVE with JS-Divergence",
+      "dataset": "COCO",
+      "metric": "Text to Image",
+      "value": "0.59±0.03"
+    },
+    {
+      "method": "GroVE with JS-Divergence",
+      "dataset": "CUB",
+      "metric": "Image to Text",
+      "value": "0.48±0.02"
+    },
+    {
+      "method": "GroVE with JS-Divergence",
+      "dataset": "CUB",
+      "metric": "Text to Image",
+      "value": "0.44±0.05"
+    },
+    {
+      "method": "GroVE with Wasserstein-2",
+      "dataset": "COCO",
+      "metric": "Image to Text",
+      "value": "0.59±0.04"
+    },
+    {
+      "method": "GroVE with Wasserstein-2",
+      "dataset": "COCO",
+      "metric": "Text to Image",
+      "value": "0.60±0.02"
+    },
+    {
+      "method": "GroVE with Wasserstein-2",
+      "dataset": "CUB",
+      "metric": "Image to Text",
+      "value": "0.39±0.04"
+    },
+    {
+      "method": "GroVE with Wasserstein-2",
+      "dataset": "CUB",
+      "metric": "Text to Image",
+      "value": "0.43±0.04"
+    }
+  ],
+  "ablations": [
+    "Ablation on probabilistic distance metric (Table 6)",
+    "Ablation on latent space dimensionality (Figure 5)",
+    "Ablation on trade-off parameter (Figure 6)"
+  ],
+  "improvement_over_baseline": "null",
+  "best_result": "GroVE with KL-Divergence achieves best cross-modal alignment",
+  "key_results": {
+    "COCO_Image to Text": "0.70±0.04",
+    "COCO_Text to Image": "0.59±0.03",
+    "CUB_Image to Text": "0.46±0.06",
+    "CUB_Text to Image": "0.49±0.05"
+  },
+  "limitations_stated": [],
+  "reproducibility": "low",
+  "evidence_id": "EV020",
+  "title": "Probabilistic Embeddings for Frozen Vision-Language Models: Uncertainty Quantification with Gaussian Process Latent Variable Models",
+  "year": 2025,
+  "arxiv_id": "2505.05163",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 81602,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 22,
+  "pdf_tables": 11,
+  "pdf_captions": 27
+}

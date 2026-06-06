@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\nDDPM Score Matching and Distribution Learning\nSinho Chewi\nAlkis Kalavasis\nAnay Mehrotra\nOmar Montasser\nYale University\nAbstract\nScore estimation is the backbone of score-based generati",
+  "method": "icular, a line of work showed that score\nestimation can achieve minimax rates for density estimation; see Section 4. Finally, we note that\nvariants of Proposition 1 have appeared in the literature, e.",
+  "results": "t s ∧1 := min{s, 1} (see Lemma 13) and the density P is upper\nbounded by C,\n|Pτ(x0) −P(x0)|\n=\n   \nZ\neτP(eτx) ϕ1−e−2τ (x0 −x) dx −P(x0)\n   \n≤C (eτ −1) +\nZ\n|P(eτx) −P(x0)| ϕ1−e−2τ (x0 −x) dx\n≤C (eτ −1) ",
+  "conclusion": "ematical Sciences]. Springer, Cham, 2014, pp. xx+552\n(cit. on p. 51).\n[BK20]\nAinesh Bakshi and Pravesh Kothari. “Outlier-robust clustering of non-spherical\nmixtures”. In: arXiv preprint arXiv:2005.029"
+}

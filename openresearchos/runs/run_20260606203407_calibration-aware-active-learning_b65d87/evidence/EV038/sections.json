@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\nAdaptive Outer-Loop Control of Quadrotors via Reinforcement Learning\nVishnu Saj*\nGraduate Research\nAssistant\nTexas A&M University\nCollege Station, TX, USA\nSushil Vemuri\nGraduate Resear",
+  "method": "c of the quadrotor body frame and\nrotor configuration.\nThe mathematical model assumes\na symmetric cross configuration with explicitly defined\ncenter-of-gravity offsets and moment arms, which are uti-\n",
+  "results": "l quadro-\ntor mass.\n• Asymmetric Payload Distribution: Mass is attached at the\nend of one of the quadrotor’s arms. This shifts the center of\ngravity and introduces coupled, constant force and moment\np",
+  "conclusion": "trajectory\nexecution. This trend is further explained by the observed\nvariation in tracking delay and phase. The delay and phase\nwere computed along the x-axis, where the dominant motion\nof the trajec"
+}

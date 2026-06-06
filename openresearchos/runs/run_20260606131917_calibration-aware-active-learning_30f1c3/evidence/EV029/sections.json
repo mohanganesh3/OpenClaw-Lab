@@ -1,0 +1,6 @@
+{
+  "introduction": "[2010.01118] Gaussian Process Molecular Property Prediction with FlowMO\n\nGaussian Process Molecular Property Prediction with FlowMO\n\nHenry B. Moss\n\nSTOR-i Centre for Doctoral Training\n\nLancaster Unive",
+  "method": "19 , Zhang and Lee,  2019 , Hwang et al.,  2020 , Scalia et al.,  2020 ] . Deep learning methods, however, are often not the model of choice for small datasets. In fact, leading experts on deep learni",
+  "results": "ith plans for a more extensive comparison of uncertainty calibration.\n\n2  Molecular Representations\n\nFigure 1 :\n\nSMILES strings for structurally similar molecules have local differences (red) but comm",
+  "conclusion": "example its atomic mass and valency. These local representations are then updated based on the representations of its neighbors, iteratively building representations of all fragments containing as man"
+}

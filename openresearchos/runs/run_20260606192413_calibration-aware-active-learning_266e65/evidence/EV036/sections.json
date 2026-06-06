@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\nQuantum Probabilistic Label Refining: Enhancing Label Quality for\nRobust Image Classification\nFang Qi, Lu Peng, Zhengming Ding\nDepartment of Computer Science, Tulane University, New Or",
+  "method": "rposition allows |ψ(x)⟩to over-\nlap multiple basis states, the VQC naturally produces non-\ndeterministic labels. For a confusing training example (e.g.\none labeled “5” that visually resembles a “3”), ",
+  "results": "icant rotations—both M1 and M2 experience a\nsteep decline in accuracy. This sharp degradation highlights\nthe limitations of heuristic regularization methods like la-\nbel smoothing, which apply uniform",
+  "conclusion": "Variational ansatz-based quantum simula-\ntion of imaginary time evolution. npj Quantum Information,\n5(1): 75.\nMinderer, M.; Djolonga, J.; Romijnders, R.; Hubis, F.; Zhai,\nX.; Houlsby, N.; Tran, D.; an"
+}

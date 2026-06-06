@@ -1,0 +1,201 @@
+{
+  "problem_addressed": "Whether blazar light curves show signs of upcoming gamma-ray flares before they become obvious in the emission",
+  "core_claim": "Long-term Fermi-LAT light curves contain useful predictive information about the build-up to blazar flares",
+  "key_contributions": [
+    "A strictly causal machine-learning framework for forecasting gamma-ray blazar flares",
+    "Separate WATCH and TRIGGER models for different prediction horizons (90-day and 45-day)",
+    "Demonstration of advance warning capability with specific timing before flare onset"
+  ],
+  "novelty": "The strictly causal approach that prevents temporal leakage in time-series forecasting by ensuring all scaling, calibration, threshold selection, and validation use only pre-cutoff data",
+  "method_summary": "The paper uses Bayesian Blocks to identify flare intervals, extracts 42 variability features from 365-day rolling windows, trains separate WATCH and TRIGGER models using strictly causal train-test splitting, and validates on a target source using auxiliary training sources",
+  "method_components": [
+    "Bayesian Blocks for flare identification",
+    "Feature engineering (42 variability features from flux distribution, variability amplitude, temporal timing, and spectral evolution)",
+    "Strictly causal train-test split with temporal cutoff at MJD 60000",
+    "Machine learning classification (polynomial logistic regression, random forest, etc.)"
+  ],
+  "key_innovation": "The strictly causal train-test split that ensures no information from after the cutoff time enters the training, validation, or threshold selection process, preventing temporal leakage",
+  "assumptions": [
+    "The training sources are representative of the target source",
+    "The variability features extracted from 365-day windows contain predictive information",
+    "The flare identification using Bayesian Blocks is accurate",
+    "The temporal cutoff at MJD 60000 is appropriate"
+  ],
+  "theoretical_grounding": "Uses established statistical methods like Bayesian Blocks and Lomb-Scargle periodogram, but no formal proofs or derivations are provided",
+  "datasets_used": [
+    "Fermi-LAT light curves for gamma-ray blazar flares",
+    "172 rolling windows (365d each, 7d shifts) from target source"
+  ],
+  "baselines_compared": [
+    "Polynomial Logistic Regression (PLR)",
+    "Logistic Regression (LR)",
+    "Random Forest (RF)",
+    "Soft-voting ensemble (PLR+LR+RF)"
+  ],
+  "metrics_used": [
+    "WATCH ROC AUC",
+    "WATCH AP",
+    "TRIGGER ROC AUC",
+    "TRIGGER AP",
+    "Brier Skill Score",
+    "F2 score",
+    "Block-permutation p-value",
+    "95% confidence intervals"
+  ],
+  "hyperparameters": {
+    "block_length": "9 windows (63 days)",
+    "permutation_trials": 1000,
+    "bootstrap_resamples": 500,
+    "purge_gap": "6 windows (42 days)",
+    "initial_training_windows": 120,
+    "validation_chunk_size": 90,
+    "walk_forward_steps": 90,
+    "WATCH_threshold": 0.12
+  },
+  "compute_required": "Not specified",
+  "seeds": "Not specified",
+  "headline_result": "Polynomial Logistic Regression (PLR) achieved WATCH ROC AUC = 0.891 and WATCH AP = 0.396 on held-out data",
+  "results_table": [
+    {
+      "method": "Polynomial Logistic Regression",
+      "dataset": "Held-out TEST",
+      "metric": "WATCH ROC AUC",
+      "value": "0.891"
+    },
+    {
+      "method": "Polynomial Logistic Regression",
+      "dataset": "Held-out TEST",
+      "metric": "WATCH AP",
+      "value": "0.396"
+    },
+    {
+      "method": "Polynomial Logistic Regression",
+      "dataset": "Held-out TEST",
+      "metric": "WATCH BSS",
+      "value": "0.115"
+    },
+    {
+      "method": "Polynomial Logistic Regression",
+      "dataset": "Held-out TEST",
+      "metric": "TRIGGER ROC AUC",
+      "value": "0.770"
+    },
+    {
+      "method": "Logistic Regression",
+      "dataset": "Held-out TEST",
+      "metric": "WATCH ROC AUC",
+      "value": "0.687"
+    },
+    {
+      "method": "Logistic Regression",
+      "dataset": "Held-out TEST",
+      "metric": "WATCH AP",
+      "value": "0.247"
+    },
+    {
+      "method": "Logistic Regression",
+      "dataset": "Held-out TEST",
+      "metric": "WATCH BSS",
+      "value": "-0.161"
+    },
+    {
+      "method": "Random Forest",
+      "dataset": "Held-out TEST",
+      "metric": "WATCH ROC AUC",
+      "value": "0.750"
+    },
+    {
+      "method": "Random Forest",
+      "dataset": "Held-out TEST",
+      "metric": "WATCH AP",
+      "value": "0.284"
+    },
+    {
+      "method": "Random Forest",
+      "dataset": "Held-out TEST",
+      "metric": "WATCH BSS",
+      "value": "-0.204"
+    },
+    {
+      "method": "Ensemble",
+      "dataset": "Held-out TEST",
+      "metric": "WATCH ROC AUC",
+      "value": "0.771"
+    },
+    {
+      "method": "Ensemble",
+      "dataset": "Held-out TEST",
+      "metric": "WATCH AP",
+      "value": "0.306"
+    }
+  ],
+  "ablations": [
+    "Ensemble comparison shows PLR outperforms combined models",
+    "Block-shuffle test confirms PLR results are significant (pperm=0.006)"
+  ],
+  "improvement_over_baseline": "PLR BSS=0.115 vs RF BSS=-0.204 shows 0.319 improvement over best baseline",
+  "stated_limitations": [
+    "The use of strictly causal backtesting limits the amount of training data available.",
+    "The specific time windows (90 days for WATCH, 45 days for TRIGGER) might not be optimal for all types of flares."
+  ],
+  "unstated_weaknesses": [
+    "Potential class imbalance issues (flares are rare events).",
+    "Transferability of the model to other instruments or time periods is unclear.",
+    "Handling of missing data or irregular sampling is not addressed."
+  ],
+  "threats_to_validity": [
+    "Other sources of temporal leakage beyond the pre-cutoff data.",
+    "Potential overfitting to specific patterns in the Fermi-LAT data.",
+    "Lack of physical interpretability of the model."
+  ],
+  "reproducibility": "medium",
+  "open_questions": [
+    "How well does the model perform on different types of blazars?",
+    "Can the model be adapted to other types of astronomical transients?",
+    "What is the physical interpretation of the most important features?"
+  ],
+  "future_work": [
+    "Testing the model on other instruments or time periods.",
+    "Improving the feature set to better capture physical processes.",
+    "Exploring different model architectures."
+  ],
+  "gaps_this_enables": [
+    "Application of strictly causal machine learning to time-series forecasting in astrophysics.",
+    "Methodology for handling calibration and temporal aspects in machine learning."
+  ],
+  "relevance_to_topic": "The paper's approach to calibration-aware machine learning with a strictly causal backtest could inform the development of calibration-aware active learning methods for medical image classification, particularly in handling temporal dependencies and avoiding data leakage.",
+  "relation_type": "method_source",
+  "can_run_on_macbook": true,
+  "reusable_assets": [
+    "Bayesian Blocks for flare identification.",
+    "42 variability features extracted from light curves."
+  ],
+  "code_available": false,
+  "code_url": null,
+  "best_result": "Polynomial Logistic Regression (PLR) achieved WATCH ROC AUC = 0.891 and WATCH AP = 0.396 on held-out data",
+  "key_results": {
+    "Held-out TEST_WATCH ROC AUC": "0.687",
+    "Held-out TEST_WATCH AP": "0.247",
+    "Held-out TEST_WATCH BSS": "0.115",
+    "Held-out TEST_TRIGGER ROC AUC": "0.770"
+  },
+  "limitations_stated": [
+    "The use of strictly causal backtesting limits the amount of training data available.",
+    "The specific time windows (90 days for WATCH, 45 days for TRIGGER) might not be optimal for all types of flares."
+  ],
+  "evidence_id": "EV033",
+  "title": "Advance warning of $\\gamma$-ray blazar flares from \\textit{Fermi}-LAT light curves: a strictly causal machine-learning backtest",
+  "year": 2026,
+  "arxiv_id": "2605.07680",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 86935,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 18,
+  "pdf_tables": 0,
+  "pdf_captions": 11
+}

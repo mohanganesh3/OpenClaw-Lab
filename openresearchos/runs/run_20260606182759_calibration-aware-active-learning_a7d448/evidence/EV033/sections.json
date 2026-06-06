@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\nA VIRTUALLY CONNECTED PROBABILISTIC COMPUTER AS A\nSOLVER FOR HIGHER-ORDER, DENSELY CONNECTED, OR\nRECONFIGURABLE COMBINATORIAL OPTIMISATION PROBLEMS\nA PREPRINT\nAmy J. Searle1,*\nHarry Yo",
+  "method": "NP-hard and presents different challenges in hardware realisation.\n3.1\nSet cover\n(a)\nV1\nV2\nV3\n...\nVn\n0\n0\n1\n0\n...\n1\n1\n0\n0\n1\n...\n1\n2\n1\n0\n0\n...\n0\n3\n0\n1\n0\n...\n0\n...\n...\n...\n...\n...\n...\nm\n0\n1\n0\n...\n0\n(b)\nF",
+  "results": "ratio\nof the number of vertices in GS to the number of vertices in G:\nrN = NV (GS)\nNV (G) .\n(19)\nWe also introduce a sparsification ratio, rS, which shows how the maximum number of neighbours decrease",
+  "conclusion": "of connections, i.e., O(log2 N) for a fully\nconnected graph.\nParallel updates and clock frequency\nAs discussed in Sec. 2, graph colouring allows independent sets of p-bits\nto be updated simultaneously"
+}

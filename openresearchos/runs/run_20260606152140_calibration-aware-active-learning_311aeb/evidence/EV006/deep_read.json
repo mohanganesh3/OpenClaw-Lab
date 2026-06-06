@@ -1,0 +1,41 @@
+{
+  "method_summary": "Reflexion is formalized as an iterative optimization process where an Actor produces a trajectory τ₀ by interacting with the environment, an Evaluator computes a score rt = Me(τ₀), and a Self-Reflection model generates a verbal summary sr₀ which is stored in memory for improvement across trials.",
+  "key_innovation": "The use of verbal experience feedback (self-reflection summaries) that allows language agents to learn from their own experiences across multiple trials.",
+  "datasets_used": [
+    "HotPotQA",
+    "AlfWorld",
+    "HumanEval",
+    "MBPP",
+    "LeetcodeHard"
+  ],
+  "baselines_compared": [
+    "ReAct"
+  ],
+  "limitations_stated": [
+    "Memory must be bounded by maximum number of stored experiences to adhere to max context LLM limitations"
+  ],
+  "code_available": null,
+  "code_url": null,
+  "compute_required": null,
+  "can_run_on_macbook": null,
+  "performance_claim": {
+    "statement": "Reflexion agents significantly outperform currently widely-used decision-making approaches by utilizing self-reflection",
+    "metrics": "Not specified in the provided text"
+  },
+  "reproducibility": "low",
+  "evidence_id": "EV006",
+  "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+  "year": 2023,
+  "arxiv_id": "2303.11366",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 75098,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 19,
+  "pdf_tables": 35,
+  "pdf_captions": 12
+}

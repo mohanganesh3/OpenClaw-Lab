@@ -1,0 +1,65 @@
+{
+  "title": "AgentBench: Evaluating LLMs as Agents",
+  "authors": [
+    {
+      "name": "XL",
+      "contribution": "Lead author (equal contribution)"
+    },
+    {
+      "name": "HY",
+      "contribution": "Lead author (equal contribution)"
+    }
+  ],
+  "contact_emails": [
+    "shawliu9@gmail.com",
+    "longinyh@gmail.com"
+  ],
+  "repositories": [
+    {
+      "type": "GitHub",
+      "url": "https://github.com/THUDM/AgentBench"
+    }
+  ],
+  "demo_website": "https://llmbench.ai/agent",
+  "benchmark": {
+    "name": "AgentBench",
+    "purpose": "Evaluating LLMs as Agents",
+    "environments": 8,
+    "llms_evaluated": 27,
+    "environment_categories": [
+      {
+        "type": "Code",
+        "environments": [
+          "Operating System",
+          "Database",
+          "Knowledge Graph"
+        ]
+      },
+      {
+        "type": "Game",
+        "environments": [
+          "Digital Card Game",
+          "Lateral Thinking Puzzles",
+          "House-Holding"
+        ]
+      },
+      {
+        "type": "Web",
+        "environments": [
+          "Web Shopping"
+        ]
+      }
+    ]
+  },
+  "evidence_id": "EV009",
+  "year": 2023,
+  "arxiv_id": "2308.03688",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

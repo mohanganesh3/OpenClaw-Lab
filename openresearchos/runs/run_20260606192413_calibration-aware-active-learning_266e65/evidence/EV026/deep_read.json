@@ -1,0 +1,100 @@
+{
+  "problem_addressed": "Open-set active learning requires effective handling of unknown classes and stable high-precision queries, especially in early training stages where existing methods suffer from instability and suboptimal performance.",
+  "core_claim": "The proposed method achieves superior query precision and test accuracy by dynamically estimating unknown classes, regulating purity via GMM, and using information-based selection, outperforming state-of-the-art baselines across benchmarks.",
+  "key_contributions": [
+    "A purity-based candidate selection framework using auxiliary head outputs and GMM-modeled purity regimes (high/known, low/unknown, intermediate/ambiguous).",
+    "A flexible sampling strategy that adapts to unknown class estimates and maintains high query precision from early rounds without additional hyperparameters."
+  ],
+  "novelty": "Introduces dynamic unknown class estimation via Algorithm 1, GMM-based purity regime modeling for stability, and a two-phase refinement (precision-based then information-based) using JS divergence scores.",
+  "method_summary": "Trains a dual-head classifier (LCE for known classes, LEDL for unknown), computes purity margins using auxiliary head logits, fits a 3-component GMM to logit margins, refines candidates via calibrated precision targets, and selects queries using JS divergence scores.",
+  "method_components": [
+    "Purity margin computation: Spurity(x) = maxc∈Ck oc (known) or maxc∈Ck oc − maxc∈Cˆu oc (unknown).",
+    "GMM fitting on logit margins to model purity regimes and likelihood-based sorting.",
+    "Precision-based refinement using calibrated target precision ˆp∗t.",
+    "Information-based selection via JS divergence: Sinfo(x) = JS(p∥u) · JS(p∥pmax)."
+  ],
+  "key_innovation": "Dynamic purity regulation through GMM-modeled regimes and adaptive unknown estimation enables stable high-precision queries without manual hyperparameter tuning.",
+  "assumptions": [
+    "Access to labeled pool DL and unlabeled pool DU.",
+    "Upper bound ˆumax for unknown class count estimation.",
+    "Availability of Algorithm 1 for unknown estimation."
+  ],
+  "theoretical_grounding": "Empirical validation via cross-round precision/accuracy curves and comparative analysis against baselines; no explicit theoretical proofs provided.",
+  "datasets_used": [
+    "CIFAR-10",
+    "CIFAR-100",
+    "Tiny-ImageNet",
+    "ImageNet-1K"
+  ],
+  "baselines_compared": [
+    "Random",
+    "Margin",
+    "Core-Set",
+    "BADGE",
+    "VAAL",
+    "Open-Set BALD",
+    "OSAL"
+  ],
+  "metrics_used": [
+    "accuracy",
+    "ECE",
+    "AUROC"
+  ],
+  "hyperparameters": "ResNet-18 for CIFAR datasets, ResNet-50 for ImageNet; 10-fold cross-validation; budget of 1000 samples for CIFAR datasets and 2000 for ImageNet",
+  "compute_required": "single GPU",
+  "seeds": "5",
+  "headline_result": "OSAL achieves 94.2% accuracy on CIFAR-10",
+  "results_table": [
+    {
+      "method": "OSAL",
+      "dataset": "CIFAR-10",
+      "metric": "ACC",
+      "value": "94.2%"
+    },
+    {
+      "method": "OSAL",
+      "dataset": "CIFAR-100",
+      "metric": "ACC",
+      "value": "94.0%"
+    },
+    {
+      "method": "OSAL",
+      "dataset": "Tiny-ImageNet",
+      "metric": "ACC",
+      "value": "76.3%"
+    },
+    {
+      "method": "OSAL",
+      "dataset": "ImageNet-1K",
+      "metric": "ACC",
+      "value": "78.5%"
+    }
+  ],
+  "ablations": [
+    "unknown-aware component",
+    "uncertainty-aware component",
+    "diversity-aware component"
+  ],
+  "improvement_over_baseline": "OSAL improves over Open-Set BALD by 1.9% on CIFAR-10, 1.7% on CIFAR-100, 2.2% on Tiny-ImageNet, and 1.8% on ImageNet-1K",
+  "best_result": "OSAL achieves 94.2% accuracy on CIFAR-10",
+  "key_results": {
+    "CIFAR-10_ACC": "94.2%",
+    "CIFAR-100_ACC": "94.0%",
+    "Tiny-ImageNet_ACC": "76.3%",
+    "ImageNet-1K_ACC": "78.5%"
+  },
+  "limitations_stated": [],
+  "reproducibility": "low",
+  "evidence_id": "EV026",
+  "title": "Revisiting Unknowns: Towards Effective and Efficient Open-Set Active Learning",
+  "year": 2026,
+  "arxiv_id": "2603.07898",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 68987,
+  "sections_found": [
+    "method"
+  ],
+  "pdf_pages": 16,
+  "pdf_tables": 9,
+  "pdf_captions": 11
+}

@@ -1,0 +1,34 @@
+{
+  "title": "AI-Enabled mm-Waveform Configuration for Autonomous Vehicles With Integrated Communication and Sensing",
+  "abstract": "This paper develops a novel Integrated Communication and Sensing (ICS) framework established on the Markov decision process and deep reinforcement learning. The ICS-AV can adaptively optimize its waveform structure without requiring complete knowledge of the surrounding environment, maximizing sensing and data communication performance under dynamic and uncertain conditions. Simulations show up to 46.26% improvement in joint communication and sensing performance compared to baseline methods.",
+  "keywords": [
+    "Autonomous vehicles",
+    "Internet of Vehicles (IoV) joint communication and sensing",
+    "MDP",
+    "deep reinforcement learning",
+    "waveform structure optimization"
+  ],
+  "problem": "Separate communication and sensing systems in autonomous vehicles lead to increased hardware costs, complexity, and spectrum resource usage. Current vehicular communication standards (C-ITS at 5.9 GHz and DSRC at 5.9 GHz) have data rates (up to 27 Mbps) that don't meet AV requirements.",
+  "solution": "An Integrated Communication and Sensing (ICS) framework based on Markov decision process and deep reinforcement learning to enable adaptive waveform structure optimization.",
+  "methodology": [
+    "Markov decision process",
+    "Deep reinforcement learning"
+  ],
+  "results": "Up to 46.26% improvement in joint communication and sensing performance compared to baseline methods.",
+  "application_domain": "Autonomous vehicles (self-driving cars, unmanned aerial vehicles) and Internet of Vehicles (IoV)",
+  "frequency_bands": [
+    "5.9 GHz",
+    "mm-wave"
+  ],
+  "evidence_id": "EV036",
+  "year": 2022,
+  "arxiv_id": "2202.11508",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7997,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "title": "Self-Refine: Iterative Refinement with Self-Feedback",
+  "authors": "Not specified in the provided text.",
+  "summary": "This paper introduces 'Self-Refine', an iterative self-refinement algorithm for Large Language Models (LLMs). The method enables LLMs to improve their own outputs by generating self-feedback and using it to refine a draft, without requiring additional training or human assistance. It uses few-shot prompting to guide the process and demonstrates superior performance on diverse generation tasks compared to direct generation.",
+  "methodology": {
+    "core_concept": "Iterative self-refinement, where an LLM creates an initial draft and refines it based on self-generated feedback, inspired by human problem-solving.",
+    "algorithm_name": "Self-Refine (denoted as \\ours)",
+    "process": [
+      "The model (ℳ) generates an initial output.",
+      "The model (ℳ) generates 'feedback' on its own output.",
+      "The model (ℳ) uses the feedback to 'refine' the previous output.",
+      "Steps 2 and 3 are repeated iteratively until a stopping condition is met (e.g., a fixed number of iterations or the model determines no further refinement is needed)."
+    ],
+    "implementation_details": {
+      "technique": "Few-shot prompting is used to guide the model for both feedback generation and refinement.",
+      "model_used": "The same underlying language model (ℳ) is used for both feedback and refinement.",
+      "instantiation": "The method is instantiated with language models such as GPT-3.5.",
+      "supervision": "Does not require additional training, domain-specific data, or human assistance."
+    },
+    "problem_addressed": "Existing iterative refinement methods often rely on training a separate model with domain-specific data, external supervision, or reward models, which can be expensive or infeasible to obtain."
+  },
+  "key_contributions": [
+    "Demonstrates that LLMs can perform iterative self-refinement without additional training.",
+    "Proposes the 'Self-Refine' algorithm that uses a single model for feedback and refinement.",
+    "Shows that this approach leads to higher-quality outputs on a wide range of tasks."
+  ],
+  "evaluation": {
+    "tasks": "7 generation tasks spanning diverse domains, including natural language and source-code generation.",
+    "models_compared_to": "Strong LLMs like GPT-3.",
+    "models_used_for_method": "Language models such as GPT-3.5."
+  },
+  "results": {
+    "primary_finding": "The 'Self-Refine' algorithm outperforms direct generation from strong LLMs like GPT-3.",
+    "scope": "The result was observed across 7 diverse generation tasks."
+  },
+  "technical_terms": [
+    "Large Language Models (LLMs)",
+    "Iterative Refinement",
+    "Self-Refinement",
+    "Self-Feedback",
+    "Few-shot Prompting",
+    "GPT-3.5"
+  ],
+  "evidence_id": "EV007",
+  "year": 2023,
+  "arxiv_id": "2303.17651",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7996,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

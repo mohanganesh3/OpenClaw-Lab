@@ -1,0 +1,158 @@
+{
+  "problem_addressed": "Computer-aided diagnosis systems are trained on overly simplistic one-hot labels that ignore diagnostic uncertainty, forcing models to make overconfident predictions especially with noisy or ambiguous medical images.",
+  "core_claim": "By leveraging neural network training dynamics to generate uncertainty-aware pseudo-labels, we can enhance uncertainty estimation and robustness in medical image classification systems.",
+  "key_contributions": [
+    "A novel framework that brings uncertainty back into the label space using neural network training dynamics",
+    "Architecture-agnostic pseudo-label generation method applicable to any supervised learning pipeline",
+    "Calibrated pseudo-label approach using Dirichlet Calibration for class-specific scaling"
+  ],
+  "novelty": "The paper introduces the use of neural network training dynamics (how model predictions evolve over training epochs) to quantify sample difficulty and generate uncertainty-aware pseudo-labels, which is then calibrated using Dirichlet Calibration rather than simple temperature scaling.",
+  "method_summary": "The method records the history of predicted logits during training, averages them over epochs to create pseudo-labels, and then calibrates these labels using either temperature scaling or Dirichlet Calibration to ensure proper confidence calibration.",
+  "method_components": [
+    "Neural Network Training Dynamics (NNTD) for pseudo-label generation: y'_i = (1/T) * Σ σ(f_t(x_i))",
+    "Temperature scaling (Pseudo-T) for basic calibration: y'_i = σ(γ* v_i)",
+    "Dirichlet Calibration (Pseudo-D) for class-specific calibration: y'_i = σ(A* v_i + b*)"
+  ],
+  "key_innovation": "The core innovation is using the model's own training dynamics - specifically how predictions evolve over epochs - to quantify sample difficulty and generate uncertainty-aware pseudo-labels, which captures inherent ambiguity in the data that traditional one-hot labels miss.",
+  "assumptions": [
+    "The model's evolving predictions over epochs provide insight into sample difficulty",
+    "The validation set is representative for calibration purposes",
+    "Training dynamics capture the inherent difficulty of samples including task complexity, data issues, and label noise"
+  ],
+  "theoretical_grounding": "The approach builds on prior work showing that training on soft targets improves resistance to label noise and enhances uncertainty estimation. The calibration uses cross-entropy minimization on validation data, with regularization terms to prevent overfitting in the Dirichlet Calibration approach.",
+  "datasets_used": [
+    "aortic stenosis classification dataset"
+  ],
+  "baselines_compared": [
+    "Vanilla",
+    "Abstention [6]",
+    "TMC [12]",
+    "RT4U [9]",
+    "Pseudo-T (ours)",
+    "Pseudo-D (ours)"
+  ],
+  "metrics_used": [
+    "MAE",
+    "ACC",
+    "ECE",
+    "AURC"
+  ],
+  "hyperparameters": "R(2+1)D network with Kinetics400 initialization, ADAM optimizer, learning rate 1e-4 for 20 epochs, random rotation ±15°, cropping ratio 0.7, temperature parameters γ, A and b tuned with SGD learning rate 0.01 and λ1 = λ2 = 1",
+  "compute_required": "GPU (implied by 3D CNNs)",
+  "seeds": null,
+  "headline_result": "Pseudo-D achieves lowest MAE (0.180) and highest ACC (0.820) at study-level",
+  "results_table": [
+    {
+      "method": "Vanilla",
+      "dataset": "aortic stenosis classification",
+      "metric": "MAE",
+      "value": "0.224"
+    },
+    {
+      "method": "Vanilla",
+      "dataset": "aortic stenosis classification",
+      "metric": "ACC",
+      "value": "0.790"
+    },
+    {
+      "method": "Vanilla",
+      "dataset": "aortic stenosis classification",
+      "metric": "ECE",
+      "value": "0.138"
+    },
+    {
+      "method": "Vanilla",
+      "dataset": "aortic stenosis classification",
+      "metric": "AURC",
+      "value": "0.852"
+    },
+    {
+      "method": "Pseudo-D",
+      "dataset": "aortic stenosis classification",
+      "metric": "MAE",
+      "value": "0.180"
+    },
+    {
+      "method": "Pseudo-D",
+      "dataset": "aortic stenosis classification",
+      "metric": "ACC",
+      "value": "0.820"
+    },
+    {
+      "method": "Pseudo-D",
+      "dataset": "aortic stenosis classification",
+      "metric": "ECE",
+      "value": "0.071"
+    },
+    {
+      "method": "Pseudo-D",
+      "dataset": "aortic stenosis classification",
+      "metric": "AURC",
+      "value": "0.885"
+    }
+  ],
+  "ablations": [
+    "Comparison between Pseudo-T and Pseudo-D shows Pseudo-D's improved calibration"
+  ],
+  "improvement_over_baseline": "Pseudo-D reduces MAE by 0.044 and increases ACC by 0.030 compared to Vanilla baseline at study-level",
+  "stated_limitations": [
+    "The abstract doesn't explicitly state limitations"
+  ],
+  "unstated_weaknesses": [
+    "The method relies on neural network training dynamics which may be computationally expensive",
+    "Effectiveness across different medical imaging modalities isn't addressed",
+    "Potential overfitting to specific types of uncertainty in training data"
+  ],
+  "threats_to_validity": [
+    "Generalization to different medical imaging domains may be limited",
+    "Method's performance on highly ambiguous cases isn't evaluated",
+    "Uncertainty estimation may be affected by model architecture choices"
+  ],
+  "reproducibility": "unknown",
+  "open_questions": [
+    "How does the method perform across different medical imaging modalities?",
+    "What is the computational overhead of implementing this framework?",
+    "How does the method compare to other uncertainty estimation techniques?"
+  ],
+  "future_work": [
+    "Not explicitly stated in the abstract"
+  ],
+  "gaps_this_enables": [
+    "More realistic uncertainty modeling in medical image classification",
+    "Better handling of ambiguous cases in medical diagnosis",
+    "Integration of uncertainty-aware pseudo-labels with active learning frameworks"
+  ],
+  "relevance_to_topic": "This paper directly relates to calibration-aware active learning for medical image classification by introducing uncertainty-aware pseudo-labels that could inform active learning strategies.",
+  "relation_type": "method_source",
+  "can_run_on_macbook": false,
+  "reusable_assets": [
+    "Unknown from abstract alone"
+  ],
+  "code_available": "unknown",
+  "code_url": "Unknown from abstract alone",
+  "best_result": "Pseudo-D achieves lowest MAE (0.180) and highest ACC (0.820) at study-level",
+  "key_results": {
+    "aortic stenosis classification_MAE": "0.180",
+    "aortic stenosis classification_ACC": "0.820",
+    "aortic stenosis classification_ECE": "0.138",
+    "aortic stenosis classification_AURC": "0.852"
+  },
+  "limitations_stated": [
+    "The abstract doesn't explicitly state limitations"
+  ],
+  "evidence_id": "EV045",
+  "title": "Pseudo-D: Informing Multi-View Uncertainty Estimation with Calibrated Neural Training Dynamics",
+  "year": 2025,
+  "arxiv_id": "2509.11800",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 29119,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 11,
+  "pdf_tables": 1,
+  "pdf_captions": 5
+}

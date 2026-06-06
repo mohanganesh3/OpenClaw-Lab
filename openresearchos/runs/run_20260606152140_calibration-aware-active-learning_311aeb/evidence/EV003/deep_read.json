@@ -1,0 +1,21 @@
+{
+  "status": "no_results_found",
+  "message": "The provided text appears to be a bibliography/references section rather than the RESULTS/EXPERIMENTS section of the paper. No tables or concrete numeric findings are present in the given text.",
+  "suggestion": "Please provide the actual RESULTS/EXPERIMENTS section of the paper 'Agent Laboratory: Using LLM Agents as Research Assistants' to extract the numeric findings you're looking for.",
+  "reproducibility": "low",
+  "evidence_id": "EV003",
+  "title": "Agent Laboratory: Using LLM Agents as Research Assistants",
+  "year": 2025,
+  "arxiv_id": "2501.04227",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 171160,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 84,
+  "pdf_tables": 0,
+  "pdf_captions": 10
+}

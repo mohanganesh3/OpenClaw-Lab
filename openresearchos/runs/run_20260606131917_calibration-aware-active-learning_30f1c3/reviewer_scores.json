@@ -1,0 +1,297 @@
+[
+  {
+    "idea_id": "ID001",
+    "average_score": 5,
+    "decision": "reject",
+    "next_action": "RUN_ADDITIONAL_SEARCH",
+    "fatal_flaws": [
+      "No falsifiable hypothesis specified",
+      "No baselines defined for comparison",
+      "No reproducibility seeds mentioned",
+      "No compute requirements specified"
+    ],
+    "fixable_flaws": [
+      "Need to clarify the specific technical implementation of the trace ledger",
+      "Should define calibration-aware active learning more precisely",
+      "The proposal needs complete methodological details including hypothesis, datasets, baselines, and reproducibility measures"
+    ],
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 8,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Need to clarify the specific technical implementation of the trace ledger",
+          "Should define calibration-aware active learning more precisely"
+        ],
+        "decision": "revise",
+        "justification": "The evidence-to-experiment trace ledger for calibration-aware active learning appears novel, but requires more technical specification and clearer definitions of key components."
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 2,
+        "fatal_flaws": [
+          "No falsifiable hypothesis specified",
+          "No baselines defined for comparison",
+          "No reproducibility seeds mentioned",
+          "No compute requirements specified"
+        ],
+        "fixable_flaws": [
+          "The proposal needs complete methodological details including hypothesis, datasets, baselines, and reproducibility measures"
+        ],
+        "decision": "reject",
+        "justification": "The proposal lacks essential experimental components - no hypothesis, baselines, or reproducibility measures are specified."
+      }
+    ]
+  },
+  {
+    "idea_id": "ID002",
+    "average_score": 2,
+    "decision": "reject",
+    "next_action": "RUN_ADDITIONAL_SEARCH",
+    "fatal_flaws": [
+      "The core concept of an automated research agent generating and testing ideas is not novel, as demonstrated by [EV001], [EV002], and [EV003].",
+      "The 'reviewer-gated' feedback mechanism is conceptually similar to the verbal feedback loop in [EV003].",
+      "The proposal lacks a specified hypothesis, dataset, and baseline, rendering it an untestable concept.",
+      "No falsifiable hypothesis is clearly stated",
+      "No baselines are specified for comparison",
+      "No seeds or reproducibility details provided",
+      "No compute requirements specified"
+    ],
+    "fixable_flaws": [
+      "Hypothesis needs to be formulated as a testable statement",
+      "Baselines should be explicitly defined",
+      "Seeds and compute details should be specified",
+      "Novelty compared to prior work needs clearer articulation"
+    ],
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 2,
+        "fatal_flaws": [
+          "The core concept of an automated research agent generating and testing ideas is not novel, as demonstrated by [EV001], [EV002], and [EV003].",
+          "The 'reviewer-gated' feedback mechanism is conceptually similar to the verbal feedback loop in [EV003].",
+          "The proposal lacks a specified hypothesis, dataset, and baseline, rendering it an untestable concept."
+        ],
+        "fixable_flaws": [],
+        "decision": "reject",
+        "justification": "This idea is a combination of existing automated research frameworks and feedback mechanisms. The core concept of an AI agent conducting research is well-established in prior work."
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 2,
+        "fatal_flaws": [
+          "No falsifiable hypothesis is clearly stated",
+          "No baselines are specified for comparison",
+          "No seeds or reproducibility details provided",
+          "No compute requirements specified"
+        ],
+        "fixable_flaws": [
+          "Hypothesis needs to be formulated as a testable statement",
+          "Baselines should be explicitly defined",
+          "Seeds and compute details should be specified",
+          "Novelty compared to prior work needs clearer articulation"
+        ],
+        "decision": "reject",
+        "justification": "The research idea lacks a falsifiable hypothesis and experimental details necessary for evaluation. Without clear baselines, seeds, and compute requirements, the proposed work cannot be properly assessed for novelty or contribution."
+      }
+    ]
+  },
+  {
+    "idea_id": "ID003",
+    "average_score": 3.5,
+    "decision": "reject",
+    "next_action": "RUN_ADDITIONAL_SEARCH",
+    "fatal_flaws": [
+      "Incomplete hypothesis that cannot be falsified",
+      "No specified dataset or baselines for evaluation",
+      "Missing methodological details for reproducibility"
+    ],
+    "fixable_flaws": [
+      "Complete the hypothesis statement",
+      "Specify appropriate datasets and baselines",
+      "Add details about experimental setup, seeds, and compute requirements"
+    ],
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 5,
+        "fatal_flaws": [],
+        "fixable_flaws": [],
+        "decision": "revise",
+        "justification": "Review unavailable (budget/parse)."
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 2,
+        "fatal_flaws": [
+          "Incomplete hypothesis that cannot be falsified",
+          "No specified dataset or baselines for evaluation",
+          "Missing methodological details for reproducibility"
+        ],
+        "fixable_flaws": [
+          "Complete the hypothesis statement",
+          "Specify appropriate datasets and baselines",
+          "Add details about experimental setup, seeds, and compute requirements"
+        ],
+        "decision": "reject",
+        "justification": "The proposal lacks a complete, falsifiable hypothesis and essential methodological details. Without clear baselines, datasets, and experimental protocols, the research cannot be properly evaluated or reproduced."
+      }
+    ]
+  },
+  {
+    "idea_id": "ID004",
+    "average_score": 4.5,
+    "decision": "reject",
+    "next_action": "RUN_ADDITIONAL_SEARCH",
+    "fatal_flaws": [
+      "No clear differentiation from existing agent memory systems",
+      "Unclear technical contribution beyond combining existing concepts",
+      "No clear falsifiable hypothesis is stated",
+      "No baselines are defined for comparison",
+      "No mention of reproducibility measures (seeds)"
+    ],
+    "fixable_flaws": [
+      "Need to explicitly contrast with [EV005] and [EV006] memory approaches",
+      "Specify novel algorithm or architecture for failure memory integration",
+      "No discussion of computational requirements",
+      "Lack of specific experimental design details"
+    ],
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 7,
+        "fatal_flaws": [
+          "No clear differentiation from existing agent memory systems",
+          "Unclear technical contribution beyond combining existing concepts"
+        ],
+        "fixable_flaws": [
+          "Need to explicitly contrast with [EV005] and [EV006] memory approaches",
+          "Specify novel algorithm or architecture for failure memory integration"
+        ],
+        "decision": "revise",
+        "justification": "The idea combines failure memory with calibration-aware active learning, which appears novel but needs clearer differentiation from existing agent memory systems like [EV005] and [EV006]."
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 2,
+        "fatal_flaws": [
+          "No clear falsifiable hypothesis is stated",
+          "No baselines are defined for comparison",
+          "No mention of reproducibility measures (seeds)"
+        ],
+        "fixable_flaws": [
+          "No discussion of computational requirements",
+          "Lack of specific experimental design details"
+        ],
+        "decision": "reject",
+        "justification": "The proposal lacks fundamental methodological components including a clear hypothesis, baselines, and reproducibility measures. Without these essential elements, the research cannot be properly evaluated or compared to existing work."
+      }
+    ]
+  },
+  {
+    "idea_id": "ID005",
+    "average_score": 4,
+    "decision": "reject",
+    "next_action": "RUN_ADDITIONAL_SEARCH",
+    "fatal_flaws": [
+      "Hypothesis is vague and incomplete - doesn't specify expected outcomes",
+      "No baselines specified for comparison",
+      "No seeds mentioned for reproducibility",
+      "No compute information provided"
+    ],
+    "fixable_flaws": [
+      "Similar to [EV001] and [EV003] which use AI agents for research, though with different focus",
+      "Combines existing concepts (venue awareness, calibration, active learning) without clear novel integration",
+      "Provide a clear, falsifiable hypothesis",
+      "Specify appropriate baselines",
+      "Include random seeds",
+      "Document compute resources"
+    ],
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 6,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Similar to [EV001] and [EV003] which use AI agents for research, though with different focus",
+          "Combines existing concepts (venue awareness, calibration, active learning) without clear novel integration"
+        ],
+        "decision": "revise",
+        "justification": "The idea combines existing concepts in a potentially interesting way but lacks clear differentiation from prior work on AI research agents. Needs stronger justification of novelty."
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 2,
+        "fatal_flaws": [
+          "Hypothesis is vague and incomplete - doesn't specify expected outcomes",
+          "No baselines specified for comparison",
+          "No seeds mentioned for reproducibility",
+          "No compute information provided"
+        ],
+        "fixable_flaws": [
+          "Provide a clear, falsifiable hypothesis",
+          "Specify appropriate baselines",
+          "Include random seeds",
+          "Document compute resources"
+        ],
+        "decision": "reject",
+        "justification": "The experimental design lacks essential details including a clear hypothesis, baselines, seeds, and compute information, making it impossible to properly evaluate the claims."
+      }
+    ]
+  },
+  {
+    "idea_id": "ID006",
+    "average_score": 4,
+    "decision": "reject",
+    "next_action": "RUN_ADDITIONAL_SEARCH",
+    "fatal_flaws": [
+      "Core concepts of using embeddings for research agents and calibration-aware learning have precedents in prior work (EV005, EV006)",
+      "The 'Novelty Tribunal' concept doesn't appear to be a fundamentally new approach",
+      "No clear falsifiable hypothesis provided",
+      "No dataset specified for evaluation",
+      "No baseline methods defined for comparison",
+      "No mention of random seeds for reproducibility",
+      "No compute requirements specified"
+    ],
+    "fixable_flaws": [
+      "Idea lacks clear differentiation from existing approaches",
+      "Specific implementation mechanisms for the tribunal system are not well-defined",
+      "Unclear contribution compared to prior work",
+      "Missing implementation details"
+    ],
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 6,
+        "fatal_flaws": [
+          "Core concepts of using embeddings for research agents and calibration-aware learning have precedents in prior work (EV005, EV006)",
+          "The 'Novelty Tribunal' concept doesn't appear to be a fundamentally new approach"
+        ],
+        "fixable_flaws": [
+          "Idea lacks clear differentiation from existing approaches",
+          "Specific implementation mechanisms for the tribunal system are not well-defined"
+        ],
+        "decision": "revise",
+        "justification": "While the specific combination of components shows some novelty, the core concepts have precedents in prior work. The idea needs clearer articulation of how it differs from existing approaches and more specific implementation details."
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 2,
+        "fatal_flaws": [
+          "No clear falsifiable hypothesis provided",
+          "No dataset specified for evaluation",
+          "No baseline methods defined for comparison",
+          "No mention of random seeds for reproducibility",
+          "No compute requirements specified"
+        ],
+        "fixable_flaws": [
+          "Unclear contribution compared to prior work",
+          "Missing implementation details"
+        ],
+        "decision": "reject",
+        "justification": "The submission lacks fundamental experimental components including hypothesis, dataset, baselines, seeds, and compute specifications. Without these essential elements, the work cannot be properly evaluated or reproduced."
+      }
+    ]
+  }
+]

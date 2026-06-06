@@ -1,0 +1,3 @@
+{
+  "method": "# Model training\n3:\nTrain classifier fθ using LCE for primary head (k-way) and LEDL for auxiliary head (k-way)\n4:\n# Purity-based candidate selection\n5:\nObtain auxiliary head’s outputs for all x ∈DL ∪D"
+}

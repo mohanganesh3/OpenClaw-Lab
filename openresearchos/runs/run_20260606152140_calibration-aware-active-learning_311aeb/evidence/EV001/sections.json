@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\n2024-9-4\nThe AI Scientist: Towards Fully Automated\nOpen-Ended Scientific Discovery\nChris Lu1,2,*, Cong Lu3,4,*, Robert Tjarko Lange1,*, Jakob Foerster2,, Jeff Clune3,4,5, and David H",
+  "method": "g (99%\nvalidation accuracy), final validation accuracy, training loss, and a new\n'grokking speed' metric (rate of validation accuracy improvement from 50%\nto 90%\nfor different regularization settings.",
+  "results": "e generation of\nrealistic samples. We also introduce a gradient penalty to the adversarial loss to improve training\nstability.\n4\nMETHOD\nIn this section, we present our approach to enhancing diffusion ",
+  "conclusion": "ysis, including calculating 95% confidence\nintervals for key metrics such as steps to 99% validation accuracy. This approach ensures the\nrobustness and reliability of our results.\nThese findings not o"
+}

@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\nMulti-Tier Labeling and Physics-Informed Learning\nfor Orbital Anomaly Detection at Scale\nYong Fu∗\nSubstratum Labs, Inc.\nAbstract\nDetecting abnormal behavior among the rapidly growing p",
+  "method": "nto orbital mechanics. RULE is a\nlow-cost, high-precision deterministic labeller; IMM-UKF is a higher-cost, higher-recall probabilistic\nlabeller; and supGP is a source-dependent confidence modulator. ",
+  "results": ")2, clipped\nto [1, 20]; the model priors shift smoothly from [0.90, 0.05, 0.05] at h ≥500 km to [0.05, 0.05, 0.90] at\nh ≤200 km; and the station-keeping→decay transition probability T02 is increased b",
+  "conclusion": "OT-small numbers carried forward from the contemporaneous training log of §5.4.\nRecall improves by an order of magnitude from PIOT-small to PIOT-medium.\nManeuver\nrecall rises from 7% to 55.4% (∼8×), a"
+}

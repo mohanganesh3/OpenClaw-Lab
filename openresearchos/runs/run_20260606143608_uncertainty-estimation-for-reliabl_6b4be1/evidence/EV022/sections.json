@@ -1,0 +1,6 @@
+{
+  "introduction": "[2303.15041] 1 Introduction\n\nTowards Black-Box Parameter Estimation\n\nAmanda Lenzi  1\n\n1\n\n1\n\nSchool of Mathematics, University of Edinburgh,\nEdinburgh EH9 3FD, Scotland, United Kingdom.\n\nand\nHaavard Ru",
+  "method": "aim for scientific adequacy rather than computational tractability.\nIndeed, as soon as we move away from Gaussian processes as the canonical model for dependent data, likelihood computation becomes ef",
+  "results": "satisfied, where\n\nγ\n\n𝛾\n\n\\gamma\n\nis some distance measure and the value of\n\nϵ\n\nitalic-ϵ\n\n\\epsilon\n\nis a trade-off between sample efficiency and inference quality.\nIn simpler cases, sufficient statisti",
+  "conclusion": "when the simulated data are from the same parameter space as the observations’ parameters, which are unknown.\nIn high dimensions and large parameter spaces, constructing a training parameter space lar"
+}

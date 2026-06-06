@@ -1,0 +1,161 @@
+{
+  "datasets_used": [
+    "70,000 compositions from Ti, Fe, Al, V, Ni, Nb, Zr, Mn, and Co design space"
+  ],
+  "baselines_compared": [
+    "low-uncertainty route",
+    "high-uncertainty route"
+  ],
+  "metrics_used": [
+    "R²",
+    "Precision",
+    "Recall",
+    "F1 score",
+    "BCC fraction"
+  ],
+  "hyperparameters": "41-dimensional feature space, six separate MDN models for FCC, BCC, Laves, Sigma, Heusler, and Liquid phases",
+  "compute_required": "not specified",
+  "seeds": "not specified",
+  "headline_result": "MDN models achieved R² values of 0.97 (FCC), 0.98 (BCC), 0.99 (Laves), 0.89 (Sigma), 0.96 (Heusler), and 0.98 (Liquid)",
+  "results_table": [
+    {
+      "method": "MDN model",
+      "dataset": "70,000 compositions",
+      "metric": "R²",
+      "value": "0.97 (FCC)"
+    },
+    {
+      "method": "MDN model",
+      "dataset": "70,000 compositions",
+      "metric": "R²",
+      "value": "0.98 (BCC)"
+    },
+    {
+      "method": "MDN model",
+      "dataset": "70,000 compositions",
+      "metric": "R²",
+      "value": "0.99 (Laves)"
+    },
+    {
+      "method": "MDN model",
+      "dataset": "70,000 compositions",
+      "metric": "R²",
+      "value": "0.89 (Sigma)"
+    },
+    {
+      "method": "MDN model",
+      "dataset": "70,000 compositions",
+      "metric": "R²",
+      "value": "0.96 (Heusler)"
+    },
+    {
+      "method": "MDN model",
+      "dataset": "70,000 compositions",
+      "metric": "R²",
+      "value": "0.98 (Liquid)"
+    },
+    {
+      "method": "Low-uncertainty route",
+      "dataset": "Ti-alloys",
+      "metric": "BCC fraction",
+      "value": "0.68 to nearly 0.9"
+    },
+    {
+      "method": "High-uncertainty route",
+      "dataset": "Ti-alloys",
+      "metric": "BCC fraction",
+      "value": "plateaued around 0.6"
+    },
+    {
+      "method": "High-uncertainty route",
+      "dataset": "Ti-alloys",
+      "metric": "Precision",
+      "value": "exceeded 0.75 after two cycles"
+    },
+    {
+      "method": "Low-uncertainty route",
+      "dataset": "Ti-alloys",
+      "metric": "Recall",
+      "value": "fluctuated around 0.3"
+    },
+    {
+      "method": "High-uncertainty route",
+      "dataset": "Ti-alloys",
+      "metric": "Recall",
+      "value": "steadily increased over cycles"
+    },
+    {
+      "method": "Acquisition size ≥100",
+      "dataset": "Ti-alloys",
+      "metric": "BCC fraction",
+      "value": "stabilized above 0.8 after three cycles"
+    }
+  ],
+  "ablations": [
+    "Feature importance analysis reducing input features from 41 to 12 most important features preserved accuracy and uncertainty levels"
+  ],
+  "improvement_over_baseline": "Not explicitly stated",
+  "stated_limitations": [
+    "The abstract doesn't explicitly state limitations",
+    "The approach is specifically designed for phase fraction prediction in RMPEAs, which may limit generalizability to other tasks"
+  ],
+  "unstated_weaknesses": [
+    "The computational complexity of MDNs might be high",
+    "The abstract doesn't provide details on the active learning strategy",
+    "The paper doesn't address how the model handles extreme or rare compositions"
+  ],
+  "threats_to_validity": [
+    "The model might overfit to the specific RMPEA compositions in the training set",
+    "The uncertainty quantification might not be well-calibrated across the entire temperature range",
+    "The active learning approach might introduce bias in the selection of out-of-domain samples"
+  ],
+  "reproducibility": "low",
+  "open_questions": [
+    "How well does the uncertainty quantification perform across different alloy systems?",
+    "Can the active learning approach be adapted to other domains beyond materials science?",
+    "How does the computational cost scale with the complexity of the alloy systems?"
+  ],
+  "future_work": [
+    "Extending the approach to other alloy systems",
+    "Improving the active learning strategy for more efficient exploration",
+    "Integrating physical constraints into the model"
+  ],
+  "gaps_this_enables": [
+    "Development of more robust uncertainty quantification methods for materials science",
+    "Improved active learning strategies for out-of-domain discovery",
+    "Better integration of domain knowledge with deep learning approaches"
+  ],
+  "relevance_to_topic": "The paper's uncertainty-aware deep learning framework and active learning approach could inform calibration-aware active learning methods for medical image classification, particularly in handling uncertainty and selecting informative samples for labeling.",
+  "relation_type": "method_source",
+  "can_run_on_macbook": "false",
+  "reusable_assets": [
+    "Mixture Density Networks implementation for uncertainty quantification",
+    "Active learning strategy for out-of-domain discovery",
+    "Methods for quantifying aleatoric uncertainty"
+  ],
+  "code_available": "false",
+  "code_url": null,
+  "best_result": "MDN models achieved R² values of 0.97 (FCC), 0.98 (BCC), 0.99 (Laves), 0.89 (Sigma), 0.96 (Heusler), and 0.98 (Liquid)",
+  "key_results": {
+    "70,000 compositions_R²": "0.98 (Liquid)"
+  },
+  "limitations_stated": [
+    "The abstract doesn't explicitly state limitations",
+    "The approach is specifically designed for phase fraction prediction in RMPEAs, which may limit generalizability to other tasks"
+  ],
+  "evidence_id": "EV025",
+  "title": "Uncertainty-aware phase fraction prediction and active-learning-guided out-of-domain discovery of refractory multi-principal element alloys",
+  "year": 2026,
+  "arxiv_id": "2604.18322",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 78664,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 43,
+  "pdf_tables": 11,
+  "pdf_captions": 9
+}

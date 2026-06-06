@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\nLow Rank for Rank: Uncertainty-Aware Task-Specific\nLLM Ranking under Sparse Pairwise Comparisons\nJiachun Li\nLaboratory for Information and Decision Systems, MIT, jiach334@mit.edu\nDavid",
+  "method": "critical value over\nthe joint family {(t,ℓ) : ℓ̸= m⋆, t ∈[dt]} at n = 32,000 and Ktop = 10, yielding simultaneous rank-\nCIs for m⋆across all dt = 50 tasks. Table 4 reports the fraction of (trial, task",
+  "results": "p\nr d2\n1d2\n2 log ¯d/(n1 ¯d) = C\np\nr ¯d 3 log ¯d/n1 in the balanced\nregime.\nIf on the other hand b∆/∈Cpw(n1;c0), then by the cone condition and the entrywise feasibility constraint\n\r\r\rb∆\n\r\r\r\n∞≤2B, one ",
+  "conclusion": "nequality on the centered Bernoulli\nnoise gives |Rη\nemp| ≤C ∥Γ∥1 ∥∆∥∞\np\nlog(n ¯d)/n, which is dominated by RH\nemp.\n(iii) Projection leakage Rproj. |Rproj| = |⟨(I −PT)Γ, ∆⟩| ≤∥(I −PT)Γ∥F ∥∆∥F. By the c"
+}

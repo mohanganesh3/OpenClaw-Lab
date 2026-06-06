@@ -1,0 +1,19 @@
+{"ts":"2026-06-06T17:07:20.067Z","label":"relevance:0-8","ok":true,"ms":34395,"calls":1}
+{"ts":"2026-06-06T17:07:27.073Z","label":"relevance:8-16","ok":true,"ms":7005,"calls":2}
+{"ts":"2026-06-06T17:07:35.529Z","label":"relevance:16-24","ok":true,"ms":8455,"calls":3}
+{"ts":"2026-06-06T17:08:22.452Z","label":"relevance:24-32","ok":true,"ms":46921,"calls":4}
+{"ts":"2026-06-06T17:09:41.036Z","label":"relevance:32-40","ok":true,"ms":78584,"calls":5}
+{"ts":"2026-06-06T17:09:51.644Z","label":"relevance:40-48","ok":true,"ms":10607,"calls":6}
+{"ts":"2026-06-06T17:10:00.436Z","label":"relevance:48-56","ok":true,"ms":8791,"calls":7}
+{"ts":"2026-06-06T17:10:05.594Z","label":"relevance:56-60","ok":true,"ms":5157,"calls":8}
+{"ts":"2026-06-06T18:07:58.790Z","label":"gap_probe_codegen:G01","ok":true,"ms":10429,"calls":1}
+{"ts":"2026-06-06T18:08:17.525Z","label":"gap_probe_codegen:G02","ok":true,"ms":14840,"calls":2}
+{"ts":"2026-06-06T18:10:09.321Z","label":"review:I01:Novelty Reviewer","ok":true,"ms":16041,"calls":1}
+{"ts":"2026-06-06T18:11:10.882Z","label":"review:I01:Experimental Reviewer","ok":true,"ms":61558,"calls":2}
+{"ts":"2026-06-06T18:12:34.143Z","label":"review:I02:Novelty Reviewer","ok":false,"ms":83258,"calls":3}
+{"ts":"2026-06-06T18:12:46.288Z","label":"review:I02:Experimental Reviewer","ok":true,"ms":12145,"calls":4}
+{"ts":"2026-06-06T18:14:15.208Z","label":"review:I03:Novelty Reviewer","ok":false,"ms":88917,"calls":5}
+{"ts":"2026-06-06T18:14:52.080Z","label":"review:I03:Experimental Reviewer","ok":true,"ms":36872,"calls":6}
+{"ts":"2026-06-06T18:16:17.893Z","label":"review:I04:Novelty Reviewer","ok":false,"ms":85810,"calls":7}
+{"ts":"2026-06-06T18:16:17.893Z","label":"review:I04:Experimental Reviewer","skipped":true,"reason":"time budget reached (360s)"}
+{"ts":"2026-06-06T18:21:12.812Z","label":"exp_fix:micro_probe_i05:1","ok":false,"ms":94716}

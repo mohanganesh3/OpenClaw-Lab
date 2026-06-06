@@ -1,0 +1,10 @@
+# EV003: The Design and Impact of Interactive Online Modules for Dental Faculty Calibration
+
+URL: https://www.semanticscholar.org/paper/04ed5830d9c2088c8a95c0cacd093a980566d829
+Year: 2024
+Source: semantic_scholar
+Arxiv: n/a
+
+## Abstract
+
+The diverse backgrounds of health professions faculty often result in inconsistent teaching, clinical techniques, and feedback for students. Faculty calibration is essential for uniform, high-quality instruction. However, scheduling training sessions is challenging due to faculty availability. This study introduces a self-paced, interactive online approach to dental faculty calibration. Four self-paced online modules were developed using an interactive cloud-based platform. A variety of learning activities were interspersed throughout the module to promote active learning. A survey captured faculty’s perception of the online format. ANOVA analyses examined differences in perceived effectiveness of the online format between full-time, part-time, and adjunct faculty. The platform analytics offered insights into the faculty’s module performance. Anecdotal feedback from faculty provided evidence of behavioral changes. 94% of the faculty expressed high satisfaction with the online format. The majority of faculty agreed or strongly agreed that the online format was effective (89%), engaging (88%), and easy to navigate (84%). They highlighted the modules’ user-friendliness, flexibility, and engaging content. ANOVA analyses revealed no significant differences in perceived effectiveness of the online format between full-time, part-time, and adjunct faculty. Anecdotal feedback demonstrated that faculty were incorporating the knowledge gained from the modules into their teaching practices. This positive online experience also motivated several faculty to integrate similar online approaches into their own courses. This online approach provides a more flexible, sustainable, and interactive approach to faculty development that could be beneficial to other institutions.

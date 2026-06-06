@@ -1,0 +1,166 @@
+{
+  "datasets_used": [
+    "Chest X-ray",
+    "ISIC (skin cancer)"
+  ],
+  "baselines_compared": [
+    "ResNet-18",
+    "ResNet-50",
+    "EfficientNetV2-L",
+    "DeiT-B",
+    "ViT-B",
+    "Swin-B",
+    "ConViT-B",
+    "MedViT-B",
+    "CARD",
+    "Deep Ensembles",
+    "DWE",
+    "DTT",
+    "ICNN-Ensemble",
+    "SEViT"
+  ],
+  "metrics_used": [
+    "accuracy (%)",
+    "Expected Calibration Error (ECE)"
+  ],
+  "hyperparameters": {
+    "perturbations": {
+      "gaussian_noise": {
+        "sigma": 1
+      },
+      "low_resolution": {
+        "w": 4
+      },
+      "contrast": {
+        "r": 0.7
+      }
+    },
+    "adversarial_attacks": {
+      "epsilon": 0.03,
+      "methods": [
+        "FGSM",
+        "PGD",
+        "AutoPGD"
+      ]
+    }
+  },
+  "compute_required": null,
+  "seeds": null,
+  "headline_result": "94.86% accuracy on Chest X-ray against FGSM attack",
+  "results_table": [
+    {
+      "method": "LaDiNE",
+      "dataset": "Chest X-ray",
+      "metric": "accuracy",
+      "value": "94.86% (FGSM)",
+      "perturbation": "FGSM"
+    },
+    {
+      "method": "LaDiNE",
+      "dataset": "ISIC",
+      "metric": "accuracy",
+      "value": "73.16% (FGSM)",
+      "perturbation": "FGSM"
+    },
+    {
+      "method": "LaDiNE",
+      "dataset": "Chest X-ray",
+      "metric": "accuracy",
+      "value": "97.86%",
+      "perturbation": "Gaussian noise (σ=1.00)"
+    },
+    {
+      "method": "LaDiNE",
+      "dataset": "ISIC",
+      "metric": "accuracy",
+      "value": "93.14%",
+      "perturbation": "Gaussian noise (σ=1.00)"
+    },
+    {
+      "method": "LaDiNE",
+      "dataset": "Chest X-ray",
+      "metric": "ECE",
+      "value": "0.24",
+      "perturbation": "Gaussian noise (σ=1.00)"
+    },
+    {
+      "method": "LaDiNE",
+      "dataset": "ISIC",
+      "metric": "ECE",
+      "value": "0.14",
+      "perturbation": "FGSM"
+    }
+  ],
+  "ablations": [
+    "Latent-guided diffusion and nested-ensemble components"
+  ],
+  "improvement_over_baseline": "LaDiNE outperforms SEViT by 8.96% (Chest X-ray FGSM) and 10.16% (ISIC FGSM)",
+  "stated_limitations": [
+    "The paper focuses on addressing robustness and reliability in medical image classification but doesn't explicitly state limitations.",
+    "The abstract doesn't mention specific limitations of the LaDiNE approach."
+  ],
+  "unstated_weaknesses": [
+    "The computational cost of combining Vision Transformers with diffusion models might be high, potentially limiting practical applications.",
+    "The paper doesn't discuss how the method scales with dataset size or complexity.",
+    "There's no mention of how the method performs across different medical imaging modalities.",
+    "The abstract doesn't address the interpretability of the model's decisions, which is crucial in medical applications."
+  ],
+  "threats_to_validity": [
+    "The paper focuses on robustness to image corruptions but doesn't mention other types of distribution shifts that might occur in clinical settings.",
+    "The abstract doesn't specify the datasets used for evaluation, which could affect the generalizability of the results.",
+    "The nested-ensemble approach might be sensitive to hyperparameters, which could threaten the validity of the results if not properly tuned."
+  ],
+  "reproducibility": "medium-high (methodology well-defined, but code availability not mentioned)",
+  "open_questions": [
+    "How does LaDiNE perform on active learning scenarios where only a subset of data is labeled?",
+    "Can the calibration-aware aspect of LaDiNE be enhanced for better uncertainty quantification?",
+    "How does LaDiNE compare to other calibration methods in medical image classification?",
+    "What are the trade-offs between model complexity and performance in the LaDiNE framework?"
+  ],
+  "future_work": [
+    "The authors suggest extending LaDiNE to other medical imaging modalities.",
+    "Future work might focus on reducing the computational overhead of the diffusion component.",
+    "The authors might explore integrating LaDiNE with active learning frameworks."
+  ],
+  "gaps_this_enables": [
+    "This paper opens up research on combining diffusion models with ensemble methods for medical image classification.",
+    "It enables exploration of hierarchical feature extraction using Vision Transformers in medical imaging.",
+    "The paper suggests potential for developing calibration-aware active learning methods that leverage the robustness of LaDiNE."
+  ],
+  "relevance_to_topic": "This paper is directly relevant to calibration-aware active learning for medical image classification as it addresses calibration issues in medical image classification, which is a key component of active learning.",
+  "relation_type": "method_source",
+  "can_run_on_macbook": "false (diffusion models and Vision Transformers typically require significant computational resources)",
+  "reusable_assets": [
+    "Vision Transformer architecture",
+    "Diffusion-based generative models",
+    "Nested-ensemble framework"
+  ],
+  "code_available": false,
+  "code_url": null,
+  "best_result": "94.86% accuracy on Chest X-ray against FGSM attack",
+  "key_results": {
+    "Chest X-ray_accuracy": "97.86%",
+    "ISIC_accuracy": "93.14%",
+    "Chest X-ray_ECE": "0.24",
+    "ISIC_ECE": "0.14"
+  },
+  "limitations_stated": [
+    "The paper focuses on addressing robustness and reliability in medical image classification but doesn't explicitly state limitations.",
+    "The abstract doesn't mention specific limitations of the LaDiNE approach."
+  ],
+  "evidence_id": "EV035",
+  "title": "Improving Robustness and Reliability in Medical Image Classification With Latent-Guided Diffusion and Nested-Ensembles",
+  "year": 2023,
+  "arxiv_id": "2310.15952",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 86761,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 14,
+  "pdf_tables": 17,
+  "pdf_captions": 6
+}

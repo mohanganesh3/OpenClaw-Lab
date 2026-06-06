@@ -1,0 +1,46 @@
+{
+  "title": "Data space inversion for efficient predictions and uncertainty quantification for geothermal models",
+  "journal": "Water Resources Research",
+  "authors": [
+    {
+      "name": "Alex de Beer",
+      "email": "adebeer@aucklanduni.ac.nz",
+      "affiliation": "Department of Engineering Science and Biomedical Engineering, University of Auckland, Auckland 1010, New Zealand"
+    }
+  ],
+  "method": {
+    "name": "Data space inversion (DSI)",
+    "description": "An efficient method for making model predictions with quantified uncertainty in a geothermal context",
+    "key_features": [
+      "Circumvents the calibration process by directly estimating predictive quantities conditioned on measured data",
+      "Does not require access to model derivatives",
+      "Can be applied to non-differentiable models",
+      "Computation can be carried out in parallel"
+    ]
+  },
+  "key_points": [
+    "DSI is an efficient method for making model predictions with quantified uncertainty in a geothermal context",
+    "Provides a thorough evaluation of the DSI framework using two model problems in geothermal reservoir engineering",
+    "DSI can produce accurate predictions at a significantly lower computational cost than conventional methods"
+  ],
+  "applications": [
+    "Geothermal reservoir modeling",
+    "Previously applied in subsurface hydrology and petroleum engineering"
+  ],
+  "comparison_with_other_methods": {
+    "method": "Bayesian evidential learning (BEL) framework",
+    "similarity": "Also involves direct forecasting",
+    "difference": "Previous BEL application to geothermal modeling considered only single-phase, natural state simulations"
+  },
+  "evidence_id": "EV050",
+  "year": 2024,
+  "arxiv_id": "2407.15401",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

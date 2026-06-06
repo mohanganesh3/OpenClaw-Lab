@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\narXiv:2501.04227v2  [cs.HC]  17 Jun 2025\n2025-6-18\nAgent Laboratory: Using LLM Agents as\nResearch Assistants\nSamuel Schmidgall1, 2, Yusheng Su1, Ze Wang1, Ximeng Sun1, Jialian Wu1, Xia",
+  "method": "clarity,\nsoundness, presentation, and contribution as shown in Figure 6. We evaluated the same papers\nanalyzed in Section 4.1 using the aforementioned metrics and conducted the comparison. We found\nth",
+  "results": "review generation\nfor scientific papers. arXiv preprint arXiv:2401.04259, 2024.\nXiang Deng, Yu Gu, Boyuan Zheng, Shijie Chen, Sam Stevens, Boshi Wang, Huan Sun, and Yu Su.\nMind2web: Towards a generali",
+  "conclusion": ".\nWhen performing a\ncommand, make sure to include the three ticks (```) at the top and\nbottom ```COMMAND\ntext\n```where COMMAND is the specific command you want to run (e.g.,\nINTERPRETATION, DIALOGUE)."
+}

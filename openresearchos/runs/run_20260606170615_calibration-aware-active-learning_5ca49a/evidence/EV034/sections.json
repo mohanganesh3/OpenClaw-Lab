@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\nUnified Anomaly Detection methods on Edge Device using Knowledge\nDistillation and Quantization\nSushovan Jenaa,∗, Arya Pulkita, Kajal Singha, Anoushka Banerjeeb, Sharad Joshib, Ananth\nG",
+  "method": "the knowledge distillation (KD) loss for\ntransferring knowledge between the teacher and student networks across multiple scales and layers.\n3.3. Student-Teacher Feature Pyramid Matching (STFPM)\nFollow",
+  "results": "While the drop in latency is expected on the Jetson device, the order of decrease is a significant\n5 to 13 times across different models. Even if we only consider the best performing models\n(RD and ST",
+  "conclusion": "of the model, the same gets minimized during fine-tuning for a few\nepochs and we have quantize-aware weights. RD has at least four times higher latency than\nSTFPM post QAT quantization, and only 0.04 "
+}

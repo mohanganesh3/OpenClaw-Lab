@@ -1,0 +1,10 @@
+# EV002: Advance warning of $\gamma$-ray blazar flares from \textit{Fermi}-LAT light curves: a strictly causal machine-learning backtest
+
+URL: https://www.semanticscholar.org/paper/0277e0e0644b41d7d82193f7aab5f545342bda6a
+Year: 2026
+Source: semantic_scholar
+Arxiv: 2605.07680
+
+## Abstract
+
+Long-term \textit{Fermi}-LAT monitoring makes it possible to ask whether a blazar light curve shows signs of an upcoming flare before the flare becomes obvious in the $\gamma$-ray emission. We present a strictly causal machine-learning framework for forecasting $\gamma$-ray blazar flares from 3-d binned LAT light curves. Flare intervals are identified with Bayesian Blocks, and each light curve is sampled with 365-d trailing windows from which 42 variability features are measured. We train separate WATCH and TRIGGER models: WATCH predicts whether flare activity will appear within the next 90 d, while TRIGGER predicts whether a new flare onset will occur within the next 45 d. To avoid temporal leakage, all scaling, calibration, threshold selection, and validation use only the pre-cutoff data before MJD 60000. We apply the method to the FSRQ 4FGL\,J1048.4$+$7143, using 13 bright blazars as auxiliary training sources. Among logistic regression, polynomial logistic regression, and random forest classifiers, polynomial logistic regression gives the strongest held-out WATCH performance, with ROC AUC $=0.891$, average precision $=0.396$, and a block-permutation probability $p_{\rm perm}=0.006$. At the selected WATCH threshold, it recovers 18 of the 21 positive windows in the held-out WATCH set, corresponding to a recall of 0.86. The same model also gives the best held-out TRIGGER ranking, with TRIGGER AUC $=0.770$ and TRIGGER AP $=0.123$, although no reliable pre-onset TRIGGER alert is obtained. The WATCH state appears before both held-out flare episodes, with final alerts 4.5 and 2.5 d before onset. The corresponding broader WATCH-active periods begin 88.5 and 72.5 d before flare onset. These results suggest that long-term {\fermi} light curves contain useful predictive information about the build-up to blazar flares.

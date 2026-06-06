@@ -1,0 +1,37 @@
+{
+  "method_summary": "The paper presents a multi-tier labeling cascade that combines three weak supervision sources (physics rule set, IMM-UKF bank, and supplemental-element calibration) to produce labels at scale, followed by training a 6.5M-parameter Transformer in two stages for orbital anomaly detection.",
+  "key_innovation": "A multi-tier labeling cascade that composes three weak supervision sources of increasing fidelity to produce labels at a scale unavailable from any single source.",
+  "datasets_used": [
+    "Two-Line Element (TLE) records"
+  ],
+  "baselines_compared": [
+    "rule_v1 (physics rule set)",
+    "IMM-UKF alone"
+  ],
+  "key_results": {
+    "maneuver_recall": 55.4,
+    "decay_recall": 62.8,
+    "time_delta_feature_improvement": 107
+  },
+  "best_result": "62.8% decay recall",
+  "limitations_stated": [
+    "The model is framed as a high-recall triage classifier for surfacing candidate events, not for issuing final attributions"
+  ],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "medium",
+  "compute_required": "Not specified",
+  "can_run_on_macbook": false,
+  "evidence_id": "EV017",
+  "title": "Multi-Tier Labeling and Physics-Informed Learning for Orbital Anomaly Detection at Scale",
+  "year": 2026,
+  "arxiv_id": "2605.09790",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 5652,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

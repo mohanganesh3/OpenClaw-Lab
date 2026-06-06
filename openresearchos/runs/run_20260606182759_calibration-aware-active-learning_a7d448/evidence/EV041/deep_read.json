@@ -1,0 +1,86 @@
+{
+  "problem_addressed": "The paper addresses the gap in analyzing QR factorization algorithms under imperfect orthonormality and Gaussian noise, where prior work assumed exact arithmetic and perfect orthogonality.",
+  "core_claim": "The authors derive bounds on condition number growth for matrices without assuming perfect orthonormality, enabling analysis of QR methods under imperfect orthogonalization and Gaussian noise.",
+  "key_contributions": [
+    "General bounds on condition number growth when adding columns without orthonormality assumptions (Theorem 3.2)",
+    "Probabilistic analysis of vector norms under Gaussian noise using non-central chi-squared distributions (Theorem 4.3)",
+    "Analysis of orthogonal projections under Gaussian noise (Theorem 5.1)"
+  ],
+  "novelty": "Unlike prior work (e.g., Liesen et al. [7]), the framework does not require perfect orthonormality or exact arithmetic, allowing analysis of numerical algorithms under realistic noise conditions.",
+  "method_summary": "The approach combines deterministic matrix analysis (Lemma 3.1) with probabilistic tools (Bessel functions, Marcum Q-function) to bound condition number growth and noise propagation.",
+  "method_components": [
+    "Lemma 3.1: Eigenvalue bounds for block matrices",
+    "Theorem 3.2: Condition number bounds for column addition",
+    "Theorem 4.3: Probability distribution of noisy vector norms",
+    "Theorem 5.1: Orthogonal projection under Gaussian noise"
+  ],
+  "key_innovation": "The key innovation is removing the orthonormality assumption in condition number analysis by incorporating Gaussian noise models and probabilistic bounds.",
+  "assumptions": [
+    "Gaussian noise with i.i.d. components Yi ∼ N(0, σ²)",
+    "Matrix B has full column rank (implied by σ²min(B) > 0)",
+    "Added vector x ∈ span(B⊥)"
+  ],
+  "theoretical_grounding": "Theoretical results are proven using eigenvalue analysis (Lemma 3.1), properties of non-central chi-squared distributions, and operator norm bounds (Theorems 3.2, 4.3, 5.1).",
+  "datasets_used": [],
+  "baselines_compared": [],
+  "metrics_used": [
+    "Probability (P(| |X+Y| |X|) > ε)"
+  ],
+  "hyperparameters": {
+    "n_values": [
+      2,
+      4,
+      6,
+      8,
+      10
+    ],
+    "epsilon_values": [
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1
+    ],
+    "M": 100000,
+    "norm_X": 1
+  },
+  "compute_required": "Not specified",
+  "seeds": "Not specified",
+  "headline_result": "Probability ≥0.9734 for m-n ≥100, σ=2⁻⁸, ε=0.1",
+  "results_table": [
+    {
+      "method": "Theorem 4.3 Test",
+      "dataset": "Synthetic Gaussian Noise",
+      "metric": "Probability",
+      "value": "≥0.9734"
+    }
+  ],
+  "ablations": [],
+  "improvement_over_baseline": "Not applicable",
+  "best_result": "Probability ≥0.9734 for m-n ≥100, σ=2⁻⁸, ε=0.1",
+  "key_results": {
+    "Synthetic Gaussian Noise_Probability": "≥0.9734"
+  },
+  "limitations_stated": [],
+  "reproducibility": "low",
+  "evidence_id": "EV041",
+  "title": "Probabilistic Analysis of Least Squares, Orthogonal Projection, and QR Factorization Algorithms Subject to Gaussian Noise",
+  "year": 2024,
+  "arxiv_id": "2409.18905",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 35467,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 17,
+  "pdf_tables": 0,
+  "pdf_captions": 2
+}

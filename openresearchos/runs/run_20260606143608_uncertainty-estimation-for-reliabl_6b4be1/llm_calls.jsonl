@@ -1,0 +1,22 @@
+{"ts":"2026-06-06T14:37:43.933Z","label":"relevance:0-8","ok":true,"ms":55001,"calls":1}
+{"ts":"2026-06-06T14:38:06.552Z","label":"relevance:8-16","ok":true,"ms":22619,"calls":2}
+{"ts":"2026-06-06T14:38:19.974Z","label":"relevance:16-24","ok":true,"ms":13421,"calls":3}
+{"ts":"2026-06-06T14:38:27.844Z","label":"relevance:24-32","ok":true,"ms":7870,"calls":4}
+{"ts":"2026-06-06T14:38:48.448Z","label":"relevance:32-40","ok":true,"ms":20603,"calls":5}
+{"ts":"2026-06-06T14:39:01.974Z","label":"relevance:40-48","ok":true,"ms":13526,"calls":6}
+{"ts":"2026-06-06T14:39:14.462Z","label":"relevance:48-56","ok":true,"ms":12487,"calls":7}
+{"ts":"2026-06-06T14:39:22.612Z","label":"relevance:56-57","ok":true,"ms":8149,"calls":8}
+{"ts":"2026-06-06T15:02:47.844Z","label":"review:I01:Novelty Reviewer","ok":true,"ms":5850,"calls":1}
+{"ts":"2026-06-06T15:02:53.444Z","label":"review:I01:Experimental Reviewer","ok":true,"ms":5598,"calls":2}
+{"ts":"2026-06-06T15:04:12.738Z","label":"review:I02:Novelty Reviewer","ok":true,"ms":79291,"calls":3}
+{"ts":"2026-06-06T15:04:49.545Z","label":"review:I02:Experimental Reviewer","ok":true,"ms":36806,"calls":4}
+{"ts":"2026-06-06T15:05:12.398Z","label":"review:I03:Novelty Reviewer","ok":true,"ms":22849,"calls":5}
+{"ts":"2026-06-06T15:06:02.045Z","label":"review:I03:Experimental Reviewer","ok":true,"ms":49646,"calls":6}
+{"ts":"2026-06-06T15:07:53.588Z","label":"review:I04:Novelty Reviewer","ok":false,"ms":111540,"calls":7}
+{"ts":"2026-06-06T15:07:58.625Z","label":"review:I04:Experimental Reviewer","ok":true,"ms":5036,"calls":8}
+{"ts":"2026-06-06T15:08:02.971Z","label":"review:I05:Novelty Reviewer","ok":true,"ms":4343,"calls":9}
+{"ts":"2026-06-06T15:08:20.330Z","label":"review:I05:Experimental Reviewer","ok":true,"ms":17358,"calls":10}
+{"ts":"2026-06-06T15:08:55.302Z","label":"review:I06:Novelty Reviewer","ok":true,"ms":34969,"calls":11}
+{"ts":"2026-06-06T15:08:55.303Z","label":"review:I06:Experimental Reviewer","skipped":true,"reason":"time budget reached (360s)"}
+{"ts":"2026-06-06T15:11:32.173Z","label":"exp_fix:micro_probe_i06:1","ok":true,"ms":13480}
+{"ts":"2026-06-06T15:12:29.067Z","label":"exp_fix:micro_probe_i06:2","ok":true,"ms":55147}

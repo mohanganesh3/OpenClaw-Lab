@@ -1,0 +1,26 @@
+{
+  "method_summary": "Research paper: The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
+  "key_innovation": "See full text",
+  "datasets_used": [],
+  "baselines_compared": [],
+  "key_results": {},
+  "best_result": null,
+  "limitations_stated": [],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "unknown",
+  "compute_required": "unknown",
+  "can_run_on_macbook": true,
+  "evidence_id": "EV002",
+  "title": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
+  "year": 2025,
+  "arxiv_id": "2504.08066",
+  "full_text_tool": "arxiv_abstract_openclaw",
+  "full_text_chars": 5885,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "run_id": "run_20260606122719_traceable-autonomous-research-agen_3d1317",
+  "topic": "traceable autonomous research agents smoke 28222a",
+  "created_at": "2026-06-06T12:27:47.180Z",
+  "updated_at": "2026-06-06T12:27:51.517Z",
+  "current_state": "EVIDENCE_LOCKED",
+  "scope_classification": {
+    "label": "local_experiment",
+    "rationale": "The topic can be explored with small simulations, synthetic data, or lightweight local experiments on the Mac.",
+    "feasibility_note": "The research topic is feasible on a MacBook M4 with 36GB RAM and MPS GPU, especially for smaller-scale experiments with optimized models. Suitable public datasets include ArXiv papers for scientific research, Common Crawl for broad knowledge extraction, and the Wikipedia dump for general-purpose knowledge retrieval. Experiment time would likely range from 2-5 days for initial prototyping with smaller models, extending to 1-2 weeks for more comprehensive testing with larger models, depending on t"
+  },
+  "search_queries": [
+    "autonomous agent methods",
+    "traceable agent reasoning",
+    "research agent frameworks",
+    "autonomous agent applications",
+    "scientific discovery agents",
+    "autonomous agent benchmarks",
+    "agent evaluation metrics",
+    "autonomous agent limitations",
+    "research agent challenges",
+    "autonomous agent alternatives",
+    "LLM research tools",
+    "autonomous agent datasets",
+    "agent training data",
+    "autonomous agent surveys",
+    "agent literature review"
+  ],
+  "evidence_ids": [
+    "EV001",
+    "EV002",
+    "EV003",
+    "EV004",
+    "EV005",
+    "EV006",
+    "EV007",
+    "EV008",
+    "EV009",
+    "EV010"
+  ],
+  "parsed_papers": [],
+  "claim_graph": {
+    "claims": [],
+    "links": []
+  },
+  "research_gaps": [],
+  "idea_tree": [],
+  "reviewer_scores": [],
+  "experiment_candidates": [],
+  "approval_status": {},
+  "micro_probe_results": [],
+  "probe_results": [],
+  "ablation_results": [],
+  "mvp_results": [],
+  "failed_ideas": [],
+  "validation_results": [],
+  "paper_readiness_level": "RRL-0",
+  "final_output_path": null,
+  "history": [
+    {
+      "at": "2026-06-06T12:27:47.180Z",
+      "state": "TOPIC_SCOPED",
+      "detail": "The topic can be explored with small simulations, synthetic data, or lightweight local experiments on the Mac."
+    },
+    {
+      "at": "2026-06-06T12:27:47.180Z",
+      "state": "SEARCH_PLAN_CREATED",
+      "detail": "15 queries created (LLM-generated)."
+    },
+    {
+      "at": "2026-06-06T12:27:51.514Z",
+      "state": "LITERATURE_DISCOVERY_RUNNING",
+      "detail": "Starting structured literature discovery."
+    },
+    {
+      "at": "2026-06-06T12:27:51.517Z",
+      "state": "EVIDENCE_LOCKED",
+      "detail": "10 papers found (target was 50+)."
+    }
+  ],
+  "discovery_errors": []
+}

@@ -1,0 +1,185 @@
+{
+  "problem_addressed": "Deterministic embeddings from standard Vision-Language Models struggle to capture uncertainties arising from ambiguities in visual and textual descriptions and multiple possible correspondences between images and texts.",
+  "core_claim": "GroVE achieves state-of-the-art uncertainty calibration by providing a post-hoc approach to obtain probabilistic embeddings from frozen VLMs using Gaussian Process Latent Variable Models.",
+  "key_contributions": [
+    "GroVE as a post-hoc approach to obtain probabilistic embeddings from frozen VLMs",
+    "Using GPLVM to learn a shared low-dimensional latent space for unified representation",
+    "Optimizing through single-modal embedding reconstruction and cross-modal alignment objectives"
+  ],
+  "novelty": "GroVE is novel as a post-hoc approach that works with frozen VLMs, unlike existing methods that require learning probabilistic embeddings during VLM training with large datasets.",
+  "method_summary": "GroVE builds on Gaussian Process Latent Variable Model (GPLVM) to learn a shared low-dimensional latent space where image and text inputs are mapped to a unified representation, optimized through single-modal embedding reconstruction and cross-modal alignment objectives.",
+  "method_components": [
+    "Gaussian Process Latent Variable Model (GPLVM) framework",
+    "Single-modal embedding reconstruction objectives",
+    "Cross-modal alignment objectives"
+  ],
+  "key_innovation": "The key innovation is using GPLVM to generate uncertainty-aware probabilistic embeddings from frozen VLMs through post-hoc optimization, enabling uncertainty quantification without retraining the original VLM.",
+  "assumptions": [
+    "The frozen VLM representations can be effectively mapped to a shared low-dimensional latent space",
+    "The GPLVM can capture the underlying structure and uncertainties in the VLM embeddings",
+    "Single-modal reconstruction and cross-modal alignment objectives are sufficient for learning the latent space"
+  ],
+  "theoretical_grounding": "The method is grounded in Gaussian Process theory, where the predictive distribution p(g*) = ∫ p(g*|x*)p(x*|z*, zM)dx* captures uncertainty through the variance of the predictive distribution, accounting for both latent space uncertainty and inherent noise in the model's predictions.",
+  "datasets_used": [
+    "COCO",
+    "CUB"
+  ],
+  "baselines_compared": [
+    "GroVE with different distance metrics"
+  ],
+  "metrics_used": [
+    "accuracy",
+    "uncertainty calibration"
+  ],
+  "hyperparameters": null,
+  "compute_required": "computationally expensive compared to neural network-based methods",
+  "seeds": null,
+  "headline_result": "KL-Divergence achieves 0.79±0.02 for Image to Text on COCO",
+  "results_table": [
+    {
+      "method": "GroVE with KL-Divergence",
+      "dataset": "COCO",
+      "metric": "Image to Text",
+      "value": "0.79±0.02"
+    },
+    {
+      "method": "GroVE with KL-Divergence",
+      "dataset": "COCO",
+      "metric": "Text to Image",
+      "value": "0.46±0.06"
+    },
+    {
+      "method": "GroVE with KL-Divergence",
+      "dataset": "CUB",
+      "metric": "Image to Text",
+      "value": "0.65±0.02"
+    },
+    {
+      "method": "GroVE with KL-Divergence",
+      "dataset": "CUB",
+      "metric": "Text to Image",
+      "value": "0.49±0.05"
+    },
+    {
+      "method": "GroVE with JS-Divergence",
+      "dataset": "COCO",
+      "metric": "Image to Text",
+      "value": "0.70±0.04"
+    },
+    {
+      "method": "GroVE with JS-Divergence",
+      "dataset": "COCO",
+      "metric": "Text to Image",
+      "value": "0.48±0.02"
+    },
+    {
+      "method": "GroVE with JS-Divergence",
+      "dataset": "CUB",
+      "metric": "Image to Text",
+      "value": "0.59±0.03"
+    },
+    {
+      "method": "GroVE with JS-Divergence",
+      "dataset": "CUB",
+      "metric": "Text to Image",
+      "value": "0.44±0.05"
+    },
+    {
+      "method": "GroVE with Wasserstein-2",
+      "dataset": "COCO",
+      "metric": "Image to Text",
+      "value": "0.59±0.04"
+    },
+    {
+      "method": "GroVE with Wasserstein-2",
+      "dataset": "COCO",
+      "metric": "Text to Image",
+      "value": "0.39±0.04"
+    },
+    {
+      "method": "GroVE with Wasserstein-2",
+      "dataset": "CUB",
+      "metric": "Image to Text",
+      "value": "0.60±0.02"
+    },
+    {
+      "method": "GroVE with Wasserstein-2",
+      "dataset": "CUB",
+      "metric": "Text to Image",
+      "value": "0.43±0.04"
+    }
+  ],
+  "ablations": [
+    "GP kernel choice (Table 5)",
+    "Probabilistic distance metric (Table 6)",
+    "Latent space dimensions (Figure 5)",
+    "Trade-off parameter (Figure 6)"
+  ],
+  "improvement_over_baseline": "KL-Divergence outperforms JS-Divergence and Wasserstein-2 metrics for cross-modal alignment",
+  "stated_limitations": [
+    "Existing approaches require large datasets and don't leverage pre-trained VLMs like CLIP",
+    "Deterministic embeddings from standard VLMs struggle to capture uncertainties"
+  ],
+  "unstated_weaknesses": [
+    "Computational complexity of GPLVM may be prohibitive for large-scale medical imaging datasets",
+    "No explicit evaluation of calibration quality for uncertainty estimates",
+    "Potential domain shift issues when applying to medical images",
+    "No discussion of scalability to high-dimensional medical imaging data"
+  ],
+  "threats_to_validity": [
+    "Generalization to medical imaging domain may be limited",
+    "Active learning effectiveness not directly evaluated",
+    "Uncertainty quantification may not align with clinical decision-making needs"
+  ],
+  "reproducibility": "low",
+  "open_questions": [
+    "How does GroVE handle class imbalance common in medical datasets?",
+    "What is the computational overhead compared to deterministic embeddings?",
+    "How well does the method transfer to different medical imaging modalities?",
+    "Can the uncertainty estimates be directly used for active learning sampling strategies?"
+  ],
+  "future_work": [
+    "Integration with active learning frameworks",
+    "Domain adaptation for medical imaging",
+    "Evaluation on clinical datasets"
+  ],
+  "gaps_this_enables": [
+    "Using frozen VLMs for uncertainty quantification in medical imaging",
+    "Leveraging powerful pre-trained models while addressing their deterministic limitations",
+    "Probabilistic embeddings for calibration-aware active learning"
+  ],
+  "relevance_to_topic": "This paper provides a method for uncertainty quantification in VLMs that could enhance calibration-aware active learning for medical image classification.",
+  "relation_type": "method_source",
+  "can_run_on_macbook": false,
+  "reusable_assets": [
+    "GPLVM implementation",
+    "Probabilistic embedding framework"
+  ],
+  "code_available": false,
+  "best_result": "KL-Divergence achieves 0.79±0.02 for Image to Text on COCO",
+  "key_results": {
+    "COCO_Image to Text": "0.70±0.04",
+    "COCO_Text to Image": "0.48±0.02",
+    "CUB_Image to Text": "0.65±0.02",
+    "CUB_Text to Image": "0.49±0.05"
+  },
+  "limitations_stated": [
+    "Existing approaches require large datasets and don't leverage pre-trained VLMs like CLIP",
+    "Deterministic embeddings from standard VLMs struggle to capture uncertainties"
+  ],
+  "evidence_id": "EV020",
+  "title": "Probabilistic Embeddings for Frozen Vision-Language Models: Uncertainty Quantification with Gaussian Process Latent Variable Models",
+  "year": 2025,
+  "arxiv_id": "2505.05163",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 81602,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 22,
+  "pdf_tables": 11,
+  "pdf_captions": 27
+}

@@ -1,0 +1,6 @@
+{
+  "introduction": "[2509.11800] Pseudo-D: Informing Multi-View Uncertainty Estimation with Calibrated Neural Training Dynamics\n\n\\useunder\n\n\\ul\n\n1\n\n1  institutetext:  Department of Electrical and Computer Engineering, Un",
+  "method": "trasound imaging depends heavily on the sonographer’s skill and patient-specific factors, making it difficult to capture images at the optimal angle consistently. These limitations can lower image qua",
+  "results": "inty based on how confidently and consistently the model learns each sample during training. Rather than relying on a fixed label, we track the model’s evolving predictions across epochs and treat thi",
+  "conclusion": "ng examples.\n\n2  Related Works\n\n2.0.1  Selective Classification.\n\nThe task of selective classification (SC), or prediction with a “reject” option, was initially extended to deep learning by Geifman et"
+}

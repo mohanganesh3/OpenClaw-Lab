@@ -1,0 +1,56 @@
+{
+  "paper_title": "Unsupervised Calibration under Covariate Shift",
+  "source_text_snippet": "Provided text from METHOD and RESULTS sections.",
+  "authors": "Not provided in the text snippet.",
+  "problem_statement": "Existing calibration techniques require labeled validation data from the test distribution, which is often unavailable when covariate shift occurs. Furthermore, existing domain adaptation methods correct model accuracy but do not address model miscalibration under distribution shift.",
+  "proposed_method": {
+    "name": "Weighted t-scaling",
+    "description": "A modification to existing calibration optimization objectives that uses importance sampling to account for the difference between training and testing distributions under covariate shift.",
+    "key_advantage": "Can adapt any existing calibration method without requiring any labeled data from the test distribution."
+  },
+  "experimental_setup": {
+    "model": "LeNet-5",
+    "training_data": "MNIST",
+    "test_data": "USPS",
+    "training_technique": "CDAN (a state-of-the-art domain adaptation model)",
+    "baseline_calibration_method": "Temperature Scaling (t-scaling)",
+    "evaluation_visualization": "Reliability diagram"
+  },
+  "key_findings": [
+    "Models trained with domain adaptation techniques are poorly calibrated, even when they have high accuracy.",
+    "Standard calibration methods like t-scaling fail to calibrate models correctly under domain shift when only source validation data is used.",
+    "The proposed 'weighted t-scaling' method successfully calibrates the model under domain shift, achieving performance close to perfect calibration."
+  ],
+  "keywords": [
+    "Unsupervised Calibration",
+    "Covariate Shift",
+    "Miscalibration",
+    "Importance Sampling",
+    "Temperature Scaling",
+    "Domain Adaptation",
+    "Reliability Diagram"
+  ],
+  "citations": [
+    "Guo et al., 2017",
+    "Bella et al., 2010",
+    "Platt et al., 1999",
+    "Zadrozney & Elkan, 2001",
+    "Zadrozney & Elkan, 2002",
+    "Cosmides & Tooby, 1996",
+    "Chu & Wang, 2018",
+    "Kouw & Loog, 2019",
+    "Long et al., 2018"
+  ],
+  "evidence_id": "EV052",
+  "title": "Unsupervised Calibration under Covariate Shift",
+  "year": 2020,
+  "arxiv_id": "2006.16405",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

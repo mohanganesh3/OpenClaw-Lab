@@ -1,0 +1,46 @@
+{
+  "title": "Quantum Probabilistic Label Refining: Enhancing Label Quality for Robust Image Classification",
+  "authors": [],
+  "publication_year": 2022,
+  "methodology": {
+    "approach": "Quantum Probabilistic Label Refining (QPLR)",
+    "key_components": [
+      "Variational Quantum Circuits (VQCs) for image encoding",
+      "Quantum measurement to extract sample-specific probabilistic labels",
+      "Classical CNN trained with soft-target cross-entropy loss"
+    ],
+    "theoretical_foundation": "Born rule for quantum measurement probabilities",
+    "problem_addressed": "Overconfidence in deep learning models trained with one-hot labels"
+  },
+  "results": {
+    "performance_improvements": {
+      "accuracy_under_corruptions": "Up to 50% better on MNIST and Fashion-MNIST",
+      "clean_data_performance": "No degradation",
+      "applications": [
+        "Autonomous driving",
+        "Medical imaging"
+      ]
+    },
+    "key_contributions": [
+      "QPLR framework for hybrid quantum-classical learning",
+      "Improved robustness to image corruptions",
+      "Enhanced uncertainty estimation and interpretability"
+    ]
+  },
+  "related_work": {
+    "main_topic": "Quantum Deep Learning",
+    "key_technology": "Variational Quantum Circuits (VQCs)",
+    "applications": "Near-term quantum advantage in supervised learning tasks"
+  },
+  "evidence_id": "EV036",
+  "year": 2025,
+  "arxiv_id": "2510.00528",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

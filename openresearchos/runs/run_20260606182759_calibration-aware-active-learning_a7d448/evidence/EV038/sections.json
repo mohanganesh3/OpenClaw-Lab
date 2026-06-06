@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\nMANTRA: Temporal Betweenness Centrality\nApproximation through Sampling\nAntonio Cruciani\nGran Sasso Science Institute, L’Aquila, Italy\nantonio.cruciani@gssi.it\nAbstract. We present MANT",
+  "method": "istri-\nbution π. Then\nc\nε2\n \nV C(R) + ln\n  1\nδ\n  \nsamples suffice to obtain SD(F+, S) ≤ε\nwith probability 1 −δ over S.\nTo improve this bound, we make use of Lemma 1 and notice that (as for the static\n",
+  "results": "relies on the state-\nof-the-art bounds on supremum deviation of functions based on the c-MCERA\n12 We recall that b(⋆)\nmax can be efficiently approximated in the bootstrap phase of our\nframework.\n\n\n<!-",
+  "conclusion": "of the continuous relaxation is kx = ρ(⋆)/x, kx = 0, for all x ̸= x, while the\noptimal objective is ρ(⋆)Φ(x)\nx\n≥Pr (E). Moreover, observe that x always exists\nand Φ(x)/x ∈(0, 1). The search of x can b"
+}

@@ -1,0 +1,35 @@
+{
+  "method_summary": "Evaluation of machine learning agents on machine learning engineering tasks using Kaggle competitions as benchmarks, with human baselines established from Kaggle leaderboards and evaluation of frontier language models using open-source agent scaffolds.",
+  "key_innovation": "MLE-bench benchmark for evaluating machine learning agents on real-world ML engineering skills using Kaggle competitions",
+  "datasets_used": [
+    "Kaggle competitions"
+  ],
+  "baselines_compared": [
+    "Human baselines from Kaggle leaderboards",
+    "Various frontier language models"
+  ],
+  "key_results": {
+    "Kaggle bronze medal achievement": "16.9% of competitions"
+  },
+  "best_result": "OpenAI's o1-preview with AIDE scaffolding achieves at least the level of a Kaggle bronze medal in 16.9% of competitions",
+  "limitations_stated": [
+    "Impact of contamination from pre-training"
+  ],
+  "code_available": true,
+  "code_url": null,
+  "reproducibility": "high",
+  "compute_required": null,
+  "can_run_on_macbook": null,
+  "evidence_id": "EV004",
+  "title": "MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering",
+  "year": 2024,
+  "arxiv_id": "2410.07095",
+  "full_text_tool": "arxiv_abstract_openclaw",
+  "full_text_chars": 5420,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

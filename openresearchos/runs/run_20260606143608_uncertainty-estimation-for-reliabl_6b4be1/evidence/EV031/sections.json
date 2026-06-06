@@ -1,0 +1,6 @@
+{
+  "introduction": "[2511.06538] Bayesian Uncertainty Quantification with Anchored Ensembles for Robust EV Power Consumption Prediction\n\nBayesian Uncertainty Quantification with Anchored Ensembles for Robust EV Power Con",
+  "method": "and systems efficiency—enabling reliable range estimation and decision-making for production EV energy management.\n\n1  Introduction\n\nRoad transportation is a major contributor to energy use and emissi",
+  "results": "es. For applications such as range prediction in electric powertrains, especially in mission-critical contexts (e.g., ambulances or police vehicles), operators must not only obtain accurate point pred",
+  "conclusion": "a mathematical extension of a Bayesian ensembling scheme— anchored networks , originally proposed for feedforward models—to recurrent LSTM architectures, and derive the corresponding training objectiv"
+}

@@ -1,0 +1,6 @@
+{
+  "introduction": "[2202.11508] AI-enabled mm-Waveform Configuration for Autonomous Vehicles with Integrated Communication and Sensing\n\nAI-enabled mm-Waveform Configuration for Autonomous Vehicles with Integrated Commun",
+  "method": "ging.\nTo that end, this paper develops a novel ICS framework established on the Markov decision process and recent advanced techniques in deep reinforcement learning.\nBy doing so, without requiring co",
+  "results": "ommunication and sensing functions in AVs more costly in hardware, complexity, and radio spectrum resources.\n\nThese challenges can be effectively addressed by combining both communication and sensing ",
+  "conclusion": "ave), whose frequency is from\n\n30\n\n30\n\n30\n\nGHz to\n\n300\n\n300\n\n300\n\nGHz, has been emerging as a promising solution to address the above challenges in ICS systems  [ 8 ] .\nFirst, owing to the high-resolu"
+}

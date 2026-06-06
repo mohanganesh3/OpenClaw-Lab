@@ -1,0 +1,275 @@
+{
+  "nodes": [
+    {
+      "id": "EV001",
+      "title": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery",
+      "year": 2024
+    },
+    {
+      "id": "EV002",
+      "title": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
+      "year": 2025
+    },
+    {
+      "id": "EV003",
+      "title": "Agent Laboratory: Using LLM Agents as Research Assistants",
+      "year": 2025
+    },
+    {
+      "id": "EV004",
+      "title": "MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering",
+      "year": 2024
+    },
+    {
+      "id": "EV005",
+      "title": "AIBuildAI-2: Scalable Agentic AI Research and Engineering",
+      "year": 2026
+    },
+    {
+      "id": "EV006",
+      "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+      "year": 2023
+    },
+    {
+      "id": "EV007",
+      "title": "Self-Refine: Iterative Refinement with Self-Feedback",
+      "year": 2023
+    },
+    {
+      "id": "EV008",
+      "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+      "year": 2023
+    },
+    {
+      "id": "EV009",
+      "title": "AgentBench: Evaluating LLMs as Agents",
+      "year": 2023
+    },
+    {
+      "id": "EV010",
+      "title": "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
+      "year": 2024
+    },
+    {
+      "id": "EV011",
+      "title": "Incorporating Forest Mapping-Related Uncertainty into the Error Propagation of Wall-to-Wall Biomass Maps: A General Approach for Large and Small Areas",
+      "year": 2024
+    },
+    {
+      "id": "EV012",
+      "title": "High-fidelity retrieval from instantaneous line-of-sight returns of nacelle-mounted lidar including supervised machine learning",
+      "year": 2022
+    },
+    {
+      "id": "EV013",
+      "title": "Active Interaction in Driving: An Intention-Aware Decision-Making for Autonomous Vehicles",
+      "year": 2024
+    },
+    {
+      "id": "EV014",
+      "title": "ERGO-II: An Improved Bayesian Optimization Technique for Robust Design with Multiple Objectives, Failed Evaluations and Stochastic Parameters",
+      "year": 2024
+    },
+    {
+      "id": "EV015",
+      "title": "Doubly Robust Distributionally Robust Off-Policy Evaluation and Learning",
+      "year": 2022
+    },
+    {
+      "id": "EV016",
+      "title": "Adaptive control of single-rod hydraulic cylinder based on meta-cognitive fuzzy neural network",
+      "year": 2026
+    },
+    {
+      "id": "EV017",
+      "title": "Voting shrinkage algorithm for Covariance Matrix Estimation and its application to portfolio selection",
+      "year": 2020
+    },
+    {
+      "id": "EV018",
+      "title": "Learning-Based Tracking Control of Unknown Robot Systems with Online Parameter Estimation",
+      "year": 2024
+    },
+    {
+      "id": "EV019",
+      "title": "Aging States Estimation and Monitoring Strategies of Li-Ion Batteries Using Incremental Capacity Analysis and Gaussian Process Regression",
+      "year": 2026
+    },
+    {
+      "id": "EV020",
+      "title": "Robust Interacting Multiple Model Unscented Particle Filter for Navigation",
+      "year": 2020
+    },
+    {
+      "id": "EV021",
+      "title": "Finite Time State-of-Charge Observer With Robustness Against Unknown Parameter Uncertainties",
+      "year": 2023
+    },
+    {
+      "id": "EV022",
+      "title": "Towards black-box parameter estimation",
+      "year": 2023
+    },
+    {
+      "id": "EV023",
+      "title": "A Novel Remaining Useful Life Prognostic Framework Combining Sample Convolutional Interaction Network and Fractal Brownian Motion",
+      "year": 2024
+    },
+    {
+      "id": "EV024",
+      "title": "Enabling uncertainty estimation in neural networks through weight perturbation for improved Alzheimer's disease classification",
+      "year": 2024
+    },
+    {
+      "id": "EV025",
+      "title": "A methodology to account for dynamic variability in micro-vibration analysis of satellites",
+      "year": 2020
+    },
+    {
+      "id": "EV026",
+      "title": "Robust steady‐state matrix‐weighted fusion filtering for multisensor multichannel autoregressive signal with multiple uncertainties",
+      "year": 2023
+    },
+    {
+      "id": "EV027",
+      "title": "Uncertainty Evaluation of a Gas Turbine Model Based on a Nonlinear Autoregressive Exogenous Model and Monte Carlo Dropout",
+      "year": 2024
+    },
+    {
+      "id": "EV028",
+      "title": "An Automatic Early Warning Method for Electricity Market Trading Risks Based on Bayesian Network",
+      "year": 2025
+    },
+    {
+      "id": "EV029",
+      "title": "Efficient Uncertainty Estimation in Semantic Segmentation via Distillation",
+      "year": 2021
+    },
+    {
+      "id": "EV030",
+      "title": "Tube Loss based Deep Networks For Improving the Probabilistic Forecasting of Wind Speed",
+      "year": 2025
+    },
+    {
+      "id": "EV031",
+      "title": "Bayesian Uncertainty Quantification with Anchored Ensembles for Robust EV Power Consumption Prediction",
+      "year": 2025
+    },
+    {
+      "id": "EV032",
+      "title": "Distributed Fusion Estimation for Nonlinear Binary Sensor Systems",
+      "year": 2024
+    },
+    {
+      "id": "EV033",
+      "title": "An Intelligent Area Localization Framework for Rotating Machine Vision Vibration Measurement",
+      "year": 2022
+    },
+    {
+      "id": "EV034",
+      "title": "\"Bridging Accuracy AND Transparency: Explainable Ai IN Healthcare -A Review\"",
+      "year": 2025
+    },
+    {
+      "id": "EV035",
+      "title": "Open-World Semi-Supervised Learning",
+      "year": 2021
+    },
+    {
+      "id": "EV036",
+      "title": "AI-Enabled mm-Waveform Configuration for Autonomous Vehicles With Integrated Communication and Sensing",
+      "year": 2022
+    },
+    {
+      "id": "EV037",
+      "title": "Home Energy Management Algorithm Based on Deep Reinforcement Learning Using Multistep Prediction",
+      "year": 2021
+    },
+    {
+      "id": "EV038",
+      "title": "Explainable Neuro-Symbolic Spiking Neural Networks fo rHigh-Precision Intracranial Tumor Diagnosis",
+      "year": 2025
+    },
+    {
+      "id": "EV039",
+      "title": "Multi-Source Energy Storage Day-Ahead and Intra-Day Scheduling Based on Deep Reinforcement Learning with Attention Mechanism",
+      "year": 2025
+    },
+    {
+      "id": "EV040",
+      "title": "Exploring an application-oriented land-based hyperspectral target detection framework based on 3D–2D CNN and transfer learning",
+      "year": 2024
+    },
+    {
+      "id": "EV041",
+      "title": "Carbon-Aware Smart Transportation Simulation Driven by Deep Learning and Policy Scenarios",
+      "year": 2025
+    },
+    {
+      "id": "EV042",
+      "title": "EPCO-29. PATHOMICS ANALYSIS IDENTIFIES POTENTIAL SUBTYPES OF DIFFUSE GLIOMAS IN H&E-STAINED WHOLE-SLIDE IMAGES",
+      "year": 2024
+    },
+    {
+      "id": "EV043",
+      "title": "A Comprehensive Review of Reinforcement Learning",
+      "year": 2025
+    },
+    {
+      "id": "EV044",
+      "title": "Distributionally Robust Proximal Policy Optimization for Unit Commitment with Wind Power Uncertainty",
+      "year": 2023
+    },
+    {
+      "id": "EV045",
+      "title": "A Universal PINNs Method for Solving Partial Differential Equations with a Point Source",
+      "year": 2022
+    },
+    {
+      "id": "EV046",
+      "title": "Traffic Flow Prediction for UTM Application: A Deep Learning Approach",
+      "year": 2022
+    },
+    {
+      "id": "EV047",
+      "title": "Semi-automated annotation of cell type-specific protein expression patterns in human testis based on immunohistochemistry",
+      "year": 2020
+    },
+    {
+      "id": "EV048",
+      "title": "Artificial intelligence and sustainable development",
+      "year": 2020
+    },
+    {
+      "id": "EV049",
+      "title": "Deep learning-assisted composition recognition and recycling process optimization for end-of-life lithium-ion batteries",
+      "year": 2026
+    },
+    {
+      "id": "EV050",
+      "title": "Single-Site Perishable Inventory Management Under Uncertainties: A Deep Reinforcement Learning Approach",
+      "year": 2023
+    },
+    {
+      "id": "EV051",
+      "title": "Robust adversarial uncertainty quantification for deep learning fine-tuning",
+      "year": 2023
+    },
+    {
+      "id": "EV052",
+      "title": "Deep generative classification of blood cell morphology",
+      "year": 2024
+    },
+    {
+      "id": "EV053",
+      "title": "Generalized Regularized Evidential Deep Learning Models: Theory and Comprehensive Evaluation",
+      "year": 2025
+    },
+    {
+      "id": "EV054",
+      "title": "Autonomous Vertical Recovery System for Hypersonic Vehicles via Adaptive Guidance and Deep Reinforcement Learning",
+      "year": 2026
+    }
+  ],
+  "edges": []
+}

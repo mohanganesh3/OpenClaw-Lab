@@ -1,0 +1,52 @@
+{
+  "paper_title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+  "method": {
+    "name": "Reflexion",
+    "description": "An alternative approach that uses verbal reinforcement to help agents learn from prior failings by converting binary or scalar feedback from the environment into verbal feedback in the form of a textual summary.",
+    "key_components": [
+      "Converts binary or scalar feedback into verbal feedback",
+      "Adds verbal feedback as additional context for the LLM agent in the next episode",
+      "Acts as a 'semantic' gradient signal providing concrete directions for improvement",
+      "Stores natural language experience summaries in long-term memory"
+    ],
+    "feedback_generation_methods": [
+      "Simple binary environment feedback",
+      "Pre-defined heuristics for common failure cases",
+      "Self-evaluation using binary classification with LLMs or self-written unit tests"
+    ]
+  },
+  "advantages": [
+    "Lightweight and doesn't require finetuning the LLM",
+    "Allows for more nuanced forms of feedback compared to scalar or vector rewards",
+    "Provides explicit and interpretable episodic memory over prior experiences",
+    "Provides more explicit hints for actions in future episodes"
+  ],
+  "disadvantages": [
+    "Relies on the power of the LLM's self-evaluation capabilities (or heuristics)",
+    "No formal guarantee for success"
+  ],
+  "experiments": {
+    "task_types": [
+      "Decision-making tasks (sequential action choices over long trajectories)",
+      "Reasoning tasks (knowledge-intensive, single-step generation improvement)",
+      "Programming tasks (teaching agents to use external tools)"
+    ],
+    "results": {
+      "decision_making": "22% improvement on AlfWorld tasks over strong baseline approaches in 12 iterative learning steps",
+      "reasoning": "20% improvement on HotPotQA questions",
+      "programming": "Improvement mentioned but details cut off in text"
+    }
+  },
+  "evidence_id": "EV006",
+  "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+  "year": 2023,
+  "arxiv_id": "2303.11366",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\nAsk-n-Learn: Active Learning via Reliable Gradient Representations\nfor Image Classiﬁcation\nBindya Venkatesh\nBVENKA15@ASU.EDU\nArizona State University\nTempe, AZ, USA\nJayaraman J. Thiaga",
+  "method": "and a data-augmentation strategy\nfor reducing conﬁrmation bias.\n3.1 Formulation\nSimilar to the recently proposed BADGE algorithm Ash et al. (2019), our approach utilizes the gra-\ndient embeddings to d",
+  "results": "he standard ResNet-18 He et al. (2015)\n7\n\n[CAPTION] Figure 2: MNIST: Generalization performance and reliability analysis of Ask-n-Learn. We plot the\n\n\n<!-- page 8 -->\n5000\n10000\n15000\nNumber of Labels",
+  "conclusion": "sampling. In\ncomparison, Ask-n-Learn achieves > 10% higher accuracy than the baselines in both 10% and\n20% noise cases. This implies that the effects of conﬁrmation bias and predictive miscalibration "
+}

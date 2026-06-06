@@ -1,0 +1,100 @@
+{
+  "problem_addressed": "The paper addresses the challenge of human-robot interaction where robots must anticipate human intent in ambiguous scenarios, particularly focusing on the problem that deep learning models for intent prediction are prone to being confidently incorrect.",
+  "core_claim": "The paper presents Risk-Calibrated Interactive Planning (RCIP), a framework that statistically calibrates risk for uncertain action selection in human-robot cooperation, allowing robots to meet user-specified risk levels with specified probability over new scenarios.",
+  "key_contributions": [
+    "Development of Risk-Calibrated Interactive Planning (RCIP), a framework for measuring and calibrating risk in uncertain action selection for HRI",
+    "Statistical risk calibration method that allows robots to meet user-specified risk levels with specified probability over new scenarios",
+    "A practical approach that enables flexible autonomy while controlling multiple risks simultaneously (action miscoverage and human help rate)"
+  ],
+  "novelty": "Unlike traditional conformal prediction which only allows choosing prediction thresholds to bound miscoverage rates, RCIP permits modification of other model parameters (like temperature of softmax outputs) for more fine-grained control of prediction sets. It also introduces the concept of controlling multiple risks simultaneously rather than just focusing on prediction accuracy.",
+  "method_summary": "The RCIP framework uses a calibration dataset to select parameter pairs (prediction thresholds λ and model parameters θ) that control user-specified risk levels. It employs a multiple-hypothesis testing approach using fixed-sequence testing to identify parameter sets that control the family-wise error rate across different risk metrics. The method generates prediction sets of actions and triggers human help when the set contains multiple actions.",
+  "method_components": [
+    "Prediction Model: Uses models like Vision Language Models (VLMs) to predict intent probabilities",
+    "Intent-Conditioned Planner: Generates actions conditioned on predicted intents",
+    "Risk Calibration Module: Uses statistical methods to select parameters that control risk",
+    "Help Trigger Mechanism: Requests human assistance when prediction sets contain multiple actions"
+  ],
+  "key_innovation": "The key innovation is the use of multiple-hypothesis testing with fixed-sequence testing to simultaneously control different risk metrics (action miscoverage and human help rate) by selecting appropriate prediction thresholds and model parameters, rather than just focusing on prediction accuracy.",
+  "assumptions": [
+    "The robot has access to a calibration dataset drawn from the same distribution as future scenarios",
+    "The robot has ground-truth knowledge of the true intent z when available",
+    "The risk signal can be properly defined and measured",
+    "The prediction model produces softmax scores for each intent-conditioned action"
+  ],
+  "theoretical_grounding": "The method is grounded in the Learn-then-Test framework for distribution-free statistical risk control. It uses the Hoeffding-Bentkus inequality to bound the probability of suboptimal actions and employs fixed-sequence testing to control the family-wise error rate. Propositions 1 and 2 provide theoretical bounds on action miscoverage rate and human help rate respectively.",
+  "datasets_used": [
+    "YCB dataset",
+    "Habitat simulator",
+    "Azure Kinect RGB-D camera"
+  ],
+  "baselines_compared": [
+    "KnowNo [36]",
+    "Simple Set",
+    "Entropy Set",
+    "No Help"
+  ],
+  "metrics_used": [
+    "Plan Success Rate",
+    "Execution Success Rate",
+    "Plan Help Rate",
+    "Step Help Rate"
+  ],
+  "hyperparameters": "αcov ∈[0,0.45], αhelp ∈[0,1], Temperature scaling",
+  "compute_required": "Habitat simulator, Franka Emika Panda arm, Azure Kinect RGB-D camera",
+  "seeds": "null",
+  "headline_result": "RCIP achieves 100% plan success and 100% step success with 0% help in Social Navigation (Model 3)",
+  "results_table": [
+    {
+      "method": "RCIP",
+      "dataset": "Social Navigation",
+      "metric": "Plan Success Rate",
+      "value": "100%"
+    },
+    {
+      "method": "RCIP",
+      "dataset": "Social Navigation",
+      "metric": "Step Success Rate",
+      "value": "100%"
+    },
+    {
+      "method": "RCIP",
+      "dataset": "Open-Category Sorting",
+      "metric": "Plan Help Rate",
+      "value": "85%"
+    },
+    {
+      "method": "RCIP",
+      "dataset": "Bimanual Sorting",
+      "metric": "Plan Help Rate",
+      "value": "85%"
+    }
+  ],
+  "ablations": [
+    "Effect of action miscoverage (αcov) and help rate risk limits (αhelp) on FWER-controlling parameter set size"
+  ],
+  "improvement_over_baseline": "RCIP reduces plan-wise help rate by 11% and step-wise help rate by 5% in both Open-Category Sorting and Bimanual Sorting compared to baselines",
+  "best_result": "RCIP achieves 100% plan success and 100% step success with 0% help in Social Navigation (Model 3)",
+  "key_results": {
+    "Social Navigation_Plan Success Rate": "100%",
+    "Social Navigation_Step Success Rate": "100%",
+    "Open-Category Sorting_Plan Help Rate": "85%",
+    "Bimanual Sorting_Plan Help Rate": "85%"
+  },
+  "limitations_stated": [],
+  "reproducibility": "low",
+  "evidence_id": "EV060",
+  "title": "Risk-Calibrated Human-Robot Interaction via Set-Valued Intent Prediction",
+  "year": 2024,
+  "arxiv_id": "2403.15959",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 98731,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 21,
+  "pdf_tables": 6,
+  "pdf_captions": 18
+}

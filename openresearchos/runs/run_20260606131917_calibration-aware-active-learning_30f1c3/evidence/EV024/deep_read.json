@@ -1,0 +1,51 @@
+{
+  "paperTitle": "Active Sequential Posterior Estimation for Sample-Efficient Simulation-Based Inference",
+  "method": {
+    "name": "Active Sequential Posterior Estimation",
+    "description": "An active learning scheme formulated to improve sample efficiency in simulation-based inference.",
+    "keyFeatures": [
+      "Selects samples expected to target epistemic uncertainty in the underlying probabilistic model.",
+      "Makes acquisition evaluation simple and efficient when using any Bayesian Neural Density Estimator (NDE)."
+    ]
+  },
+  "problemStatement": {
+    "coreChallenge": "Inverse problems are difficult to solve using black-box simulators.",
+    "specificIssues": [
+      "Simulators are often computationally expensive to evaluate.",
+      "The implicit likelihood function is generally intractable.",
+      "The dimensionality of high-fidelity outputs is typically prohibitive."
+    ]
+  },
+  "contextAndRelatedWork": {
+    "field": "Simulation-Based Inference (SBI)",
+    "relatedMethods": [
+      "Approximate Bayesian Computation (ABC)",
+      "Sequential Neural Posterior Estimation (SNPE)"
+    ],
+    "technologies": [
+      "Neural Density Estimators (NDE)",
+      "Mixture Density Networks",
+      "Normalizing Flows (e.g., Real NVP, MAE, MAF)"
+    ]
+  },
+  "limitationsOfPriorWork": {
+    "targetMethod": "Sequential Neural Posterior Estimation (SNPE) and similar methods",
+    "issues": [
+      "Updated proposal distributions do not account for the current parameters of the NDE.",
+      "Parameter samples in a batch are drawn independently, failing to utilize batch optimization.",
+      "This leads to simulation runs with high expected information overlap and wasted computation."
+    ]
+  },
+  "evidence_id": "EV024",
+  "title": "Active Sequential Posterior Estimation for Sample-Efficient Simulation-Based Inference",
+  "year": 2024,
+  "arxiv_id": "2412.05590",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

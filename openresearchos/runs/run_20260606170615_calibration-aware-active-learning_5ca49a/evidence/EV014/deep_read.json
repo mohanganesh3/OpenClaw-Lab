@@ -1,0 +1,85 @@
+{
+  "problem_addressed": "Current machine learning potentials (MLPs) struggle with uncertainty quantification, limiting reliability for active learning, calibration, and out-of-distribution detection.",
+  "core_claim": "Bayesian E(3)-equivariant MLPs with iterative restratification of many-body message passing using joint energy-force NLL loss achieve competitive accuracy while enabling uncertainty-guided applications.",
+  "key_contributions": [
+    "Development of joint energy-force negative log-likelihood (NLLJEF) loss function for explicit uncertainty modeling in both energies and forces",
+    "Systematic benchmarking of multiple Bayesian approaches (deep ensembles, SWAG, IVON, Laplace) across UQ tasks including calibration, OOD detection, and active learning"
+  ],
+  "novelty": "Joint energy-force uncertainty modeling via NLLJEF fundamentally improves the accuracy-uncertainty trade-off compared to energy-only uncertainty approaches, enabling Bayesian MLPs to match deterministic model performance while providing reliable uncertainties.",
+  "method_summary": "The framework employs Bayesian E(3)-equivariant neural networks with iterative restratification of many-body message passing, trained using NLLJEF loss to simultaneously optimize energy/force predictions and their uncertainties, evaluated through unified validation metrics.",
+  "method_components": [
+    "E(3)-equivariant message passing architecture with iterative restratification",
+    "Joint energy-force uncertainty modeling via NLLJEF loss",
+    "Multiple Bayesian inference methods (DE, SWAG, IVON, Laplace) for uncertainty quantification"
+  ],
+  "key_innovation": "NLLJEF loss function that incorporates force uncertainties into the optimization objective, reducing energy errors by 3-4× and force errors by 2-3× compared to energy-only uncertainty approaches while maintaining competitive accuracy.",
+  "assumptions": [
+    "Joint energy-force uncertainty modeling is superior to energy-only approaches",
+    "Uncertainty estimates are crucial for practical applications like active learning",
+    "Diverse Bayesian methods can be fairly compared through unified metrics"
+  ],
+  "theoretical_grounding": "Empirical validation through extensive benchmarks on oBN25 and 3BPA datasets, demonstrating improved calibration, OOD detection, and active learning performance compared to baselines.",
+  "stated_limitations": [
+    "The paper does not explicitly state limitations in the provided abstract",
+    "Likely computational complexity for large molecular systems",
+    "Potential scalability issues with Bayesian approaches"
+  ],
+  "unstated_weaknesses": [
+    "Domain specificity limits generalizability to other applications",
+    "Equivariant constraints may reduce model flexibility",
+    "Limited comparison with state-of-the-art methods in the abstract",
+    "Potential overfitting to specific molecular systems"
+  ],
+  "threats_to_validity": [
+    "Validation may be limited to specific molecular types",
+    "Potential bias toward systems similar to training data",
+    "Lack of diverse benchmark datasets mentioned"
+  ],
+  "reproducibility": "medium (no clear code availability mentioned, complex method)",
+  "open_questions": [
+    "How does the method scale to larger molecular systems?",
+    "What are the exact trade-offs between accuracy and computational efficiency?",
+    "How well does it perform on out-of-distribution molecular configurations?"
+  ],
+  "future_work": [
+    "Extending to larger molecular systems",
+    "Applying to more diverse molecular configurations",
+    "Improving computational efficiency of the Bayesian approach"
+  ],
+  "gaps_this_enables": [
+    "New approaches to equivariant neural networks for physical systems",
+    "Bayesian methods for interatomic potentials",
+    "Iterative restratification techniques for message passing"
+  ],
+  "relevance_to_topic": "Very low relevance to calibration-aware active learning for medical image classification as it focuses on computational chemistry rather than medical imaging.",
+  "relation_type": "tangential",
+  "can_run_on_macbook": false,
+  "reusable_assets": [
+    "Potential Bayesian framework components",
+    "Equivariant neural network architecture concepts"
+  ],
+  "code_available": false,
+  "code_url": null,
+  "best_result": null,
+  "key_results": {},
+  "limitations_stated": [
+    "The paper does not explicitly state limitations in the provided abstract",
+    "Likely computational complexity for large molecular systems",
+    "Potential scalability issues with Bayesian approaches"
+  ],
+  "evidence_id": "EV014",
+  "title": "Bayesian E(3)-Equivariant Interatomic Potential with Iterative Restratification of Many-body Message Passing",
+  "year": 2025,
+  "arxiv_id": "2510.03046",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 130847,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 60,
+  "pdf_tables": 14,
+  "pdf_captions": 18
+}

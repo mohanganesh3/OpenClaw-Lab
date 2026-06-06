@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\nOn Exact Sampling in the Two-Variable Fragment\nof First-Order Logic\nYuanhong Wang1,2, Juhua Pu1,2, Yuyi Wang3,4, and Ondˇrej Kuˇzelka5\n1State Key Laboratory of Software Development Env",
+  "method": "r FO2\nWe now show the domain-liftability under sampling of the FO2 fragment by providing a lifted\nWMS for it. It is common for logical algorithms to operate on normal form representations\ninstead of a",
+  "results": "cell type η, the\nvalue of nAt\nη\nbe can computed by\nnAt\nη\n=\nX\ni∈[Nc],j∈[Nb]:ηi\n|πj =η\ngAt\nηi,πj.\n(15)\nBy the argument above, the sampling probability (14) of a valid substructure At is com-\npletely det",
+  "conclusion": "rocess from the atomic level and work upwards until\nthe sentence is in SNF. The whole reduction remains sound due to the transitivity of soundness.\nA.2\nA Sound Reduction from SC2 to FO2 with Cardinali"
+}

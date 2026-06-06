@@ -1,0 +1,3 @@
+{
+  "experiments": "## Evaluation\nSubmissions are evaluated on the Log of the Mean Absolute Error, calculated for each scalar coupling\ntype, and then averaged across types, so that a 1% decrease in MAE for one type provi"
+}

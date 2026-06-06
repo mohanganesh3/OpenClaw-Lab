@@ -1,0 +1,53 @@
+{
+  "paper_title": "Deep-Learning Control of Lower-Limb Exoskeletons via Simplified Therapist Input",
+  "method": {
+    "participants": [
+      {
+        "number": 2,
+        "type": "healthy"
+      }
+    ],
+    "tasks": [
+      "treadmill walking",
+      "stair ascent",
+      "stair descent"
+    ],
+    "conditions": [
+      "varying speeds",
+      "without external modification of gait features",
+      "with external modification of gait features via a user interface"
+    ],
+    "control_system": {
+      "name": "Data-driven controller",
+      "description": "Sensor readings are passed to multiple deep-learning models to estimate representative features of the walking pattern. The resulting features are fitted to a normal distribution to consider the uncertainty of the locomotion pattern.",
+      "user_interface": {
+        "purpose": "to allow the therapist to modify the self-selected locomotion features and adapt the locomotion depending on the needs of each patient."
+      }
+    }
+  },
+  "results": {
+    "kinematics": "Variation in kinematics according to the gait characteristics.",
+    "interaction_power": "Negative interaction power suggesting exoskeleton assistance across the different conditions."
+  },
+  "problem_statement": {
+    "calibration_time": "Lengthy calibration periods for a single session of therapy due to user-dependent control parameters.",
+    "limited_customization": "Reliance on predefined trajectories for generating assistance profiles limits the degree of parameter customization for individual users.",
+    "limited_scenarios": "Minimal investigation into scenarios involving stairs and ramps."
+  },
+  "proposed_solution": {
+    "approach": "A data-driven controller using deep-learning models to estimate gait features.",
+    "key_innovation": "Simplified therapist input via a user interface to modify gait features, reducing the need for extensive parameter calibration."
+  },
+  "evidence_id": "EV028",
+  "title": "Deep-Learning Control of Lower-Limb Exoskeletons via Simplified Therapist Input",
+  "year": 2024,
+  "arxiv_id": "2412.07959",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

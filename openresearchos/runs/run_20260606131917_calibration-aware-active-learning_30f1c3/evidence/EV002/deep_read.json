@@ -1,0 +1,28 @@
+{
+  "method_summary": "The AI Scientist-v2 eliminates reliance on human-authored code templates, generalizes across diverse machine learning domains, and employs a novel progressive agentic tree-search methodology managed by a dedicated experiment manager agent, with an enhanced AI reviewer component integrating a Vision-Language Model (VLM) feedback loop for iterative refinement of figure content and aesthetics.",
+  "key_innovation": "A novel progressive agentic tree-search methodology managed by a dedicated experiment manager agent that enables fully autonomous scientific discovery.",
+  "datasets_used": [],
+  "baselines_compared": [],
+  "key_results": {
+    "peer_review_acceptance": "exceeded average human acceptance threshold"
+  },
+  "best_result": "First fully AI-generated paper successfully navigating peer review with acceptance above human threshold",
+  "limitations_stated": [],
+  "code_available": true,
+  "code_url": "https://github.com/...",
+  "reproducibility": "medium",
+  "compute_required": "not specified",
+  "can_run_on_macbook": false,
+  "evidence_id": "EV002",
+  "title": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
+  "year": 2025,
+  "arxiv_id": "2504.08066",
+  "full_text_tool": "arxiv_abstract_openclaw",
+  "full_text_chars": 5885,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\n2025-4-14\nThe AI Scientist-v2: Workshop-Level\nAutomated Scientific Discovery via Agentic\nTree Search\nYutaro Yamada1,*, Robert Tjarko Lange1,*, Cong Lu1,2,3,*, Shengran Hu1,2,3, Chris L",
+  "method": "remain about whether work should first be judged on merit to avoid bias. Going\nforward, we will continue to exchange opinions with the research community on the state of this\ntechnology to ensure it d",
+  "results": "lts highlight the challenges of enforcing\ncompositionality through regularization and suggest that this approach may not be straightforwardly\neffective.\nIn summary, we propose a compositional regulari",
+  "conclusion": "ion,\nciting space\nconstraints.\nThis suggests\nthat the sys-\ntem recognizes\nthey are miss-\ning.\nmance.\nFigure 5 illustrates that ECE increases as training progresses, especially under higher noise rates"
+}

@@ -1,0 +1,302 @@
+[
+  {
+    "idea_id": "ID001",
+    "average_score": 4.5,
+    "decision": "reject",
+    "next_action": "RUN_ADDITIONAL_SEARCH",
+    "fatal_flaws": [
+      "No baseline specified",
+      "Dataset not defined",
+      "No clear, falsifiable hypothesis is stated",
+      "No dataset is specified for evaluation",
+      "No baselines are specified for comparison",
+      "No information about reproducibility (seeds) or computational resources"
+    ],
+    "fixable_flaws": [
+      "Hypothesis unclear",
+      "Implementation details missing",
+      "Clearly state a falsifiable hypothesis",
+      "Specify the dataset for evaluation",
+      "Specify the baselines for comparison",
+      "Provide information about reproducibility and computational resources"
+    ],
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 7,
+        "fatal_flaws": [
+          "No baseline specified",
+          "Dataset not defined"
+        ],
+        "fixable_flaws": [
+          "Hypothesis unclear",
+          "Implementation details missing"
+        ],
+        "decision": "revise",
+        "justification": "The evidence-to-experiment trace ledger for calibration-aware active learning presents a novel approach not directly addressed in prior work, but requires clearer specification of the hypothesis and baseline for evaluation."
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 2,
+        "fatal_flaws": [
+          "No clear, falsifiable hypothesis is stated",
+          "No dataset is specified for evaluation",
+          "No baselines are specified for comparison",
+          "No information about reproducibility (seeds) or computational resources"
+        ],
+        "fixable_flaws": [
+          "Clearly state a falsifiable hypothesis",
+          "Specify the dataset for evaluation",
+          "Specify the baselines for comparison",
+          "Provide information about reproducibility and computational resources"
+        ],
+        "decision": "reject",
+        "justification": "The paper fails to provide a clear, falsifiable hypothesis, specify a dataset for evaluation, define baselines for comparison, or details on reproducibility and computational resources. Without these, it's impossible to assess the scientific contribution or reproduce the results."
+      }
+    ]
+  },
+  {
+    "idea_id": "ID002",
+    "average_score": 4.5,
+    "decision": "reject",
+    "next_action": "RUN_ADDITIONAL_SEARCH",
+    "fatal_flaws": [
+      "No falsifiable hypothesis is explicitly stated.",
+      "No baseline for comparison is defined, making the core claim untestable."
+    ],
+    "fixable_flaws": [
+      "Dataset and baseline are not specified",
+      "More details needed on the reviewer-gated mechanism",
+      "No mention of random seeds for reproducibility.",
+      "No details on computational requirements or resources used."
+    ],
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 7,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Dataset and baseline are not specified",
+          "More details needed on the reviewer-gated mechanism"
+        ],
+        "decision": "revise",
+        "justification": "The reviewer-gated idea tree search approach for calibration-aware active learning in medical imaging appears novel as it uniquely combines human review gating with tree-based idea exploration, which is not addressed in prior works on automated scientific discovery or ML agents."
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 2,
+        "fatal_flaws": [
+          "No falsifiable hypothesis is explicitly stated.",
+          "No baseline for comparison is defined, making the core claim untestable."
+        ],
+        "fixable_flaws": [
+          "No mention of random seeds for reproducibility.",
+          "No details on computational requirements or resources used."
+        ],
+        "decision": "reject",
+        "justification": "The proposal lacks a defined hypothesis and, critically, any baseline for comparison, making it impossible to evaluate the proposed method's effectiveness. Furthermore, the absence of details on reproducibility (seeds) and computational cost prevents a rigorous assessment of the work."
+      }
+    ]
+  },
+  {
+    "idea_id": "ID003",
+    "average_score": 2,
+    "decision": "reject",
+    "next_action": "RUN_ADDITIONAL_SEARCH",
+    "fatal_flaws": [
+      "Idea lacks clear differentiation from existing AI Scientist frameworks and agent-based research tools",
+      "No novel contribution specified beyond combining established techniques (active learning, medical imaging) with existing agent architectures",
+      "Hypothesis is not clearly falsifiable or specific enough",
+      "Missing fair baselines for comparison"
+    ],
+    "fixable_flaws": [
+      "Clearly define the 'Micro-Probe First' approach and its unique advantages over existing methods",
+      "Specify novel technical contributions that distinguish this work from cited prior art",
+      "No random seeds specified for reproducibility",
+      "Compute requirements not addressed",
+      "Incomplete methodology and results sections"
+    ],
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 2,
+        "fatal_flaws": [
+          "Idea lacks clear differentiation from existing AI Scientist frameworks and agent-based research tools",
+          "No novel contribution specified beyond combining established techniques (active learning, medical imaging) with existing agent architectures"
+        ],
+        "fixable_flaws": [
+          "Clearly define the 'Micro-Probe First' approach and its unique advantages over existing methods",
+          "Specify novel technical contributions that distinguish this work from cited prior art"
+        ],
+        "decision": "reject",
+        "justification": "The proposed research builds on existing automated scientific discovery frameworks without clearly defining novel contributions or unique methodologies."
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 2,
+        "fatal_flaws": [
+          "Hypothesis is not clearly falsifiable or specific enough",
+          "Missing fair baselines for comparison"
+        ],
+        "fixable_flaws": [
+          "No random seeds specified for reproducibility",
+          "Compute requirements not addressed",
+          "Incomplete methodology and results sections"
+        ],
+        "decision": "reject",
+        "justification": "The proposal lacks a falsifiable hypothesis, fair baselines, and reproducibility measures. Prior fatal flaws from novelty review further weaken the submission."
+      }
+    ]
+  },
+  {
+    "idea_id": "ID004",
+    "average_score": 3,
+    "decision": "reject",
+    "next_action": "RUN_ADDITIONAL_SEARCH",
+    "fatal_flaws": [
+      "Unclear what specifically is novel about the 'failure memory' concept compared to existing reflection mechanisms in EV006",
+      "The domains (medical, image, classification, uncertainty) are well-established with no clear novel integration",
+      "Missing falsifiable hypothesis.",
+      "Undefined dataset and evaluation protocol.",
+      "No specified baselines for comparison."
+    ],
+    "fixable_flaws": [
+      "Could better articulate what makes the failure memory approach unique",
+      "Should clarify how this differs from existing reflection mechanisms",
+      "Lack of detail on the 'Failure Memory' implementation (e.g., data structure, update mechanism).",
+      "Ambiguous scope of the 'medical, image, classification' task; needs to be narrowed to a specific benchmark.",
+      "No discussion of computational requirements or resource feasibility."
+    ],
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 5,
+        "fatal_flaws": [
+          "Unclear what specifically is novel about the 'failure memory' concept compared to existing reflection mechanisms in EV006",
+          "The domains (medical, image, classification, uncertainty) are well-established with no clear novel integration"
+        ],
+        "fixable_flaws": [
+          "Could better articulate what makes the failure memory approach unique",
+          "Should clarify how this differs from existing reflection mechanisms"
+        ],
+        "decision": "revise",
+        "justification": "The idea shows potential novelty in its focus on failure memory for calibration-aware active learning, but needs to better articulate what specifically is new compared to existing reflection mechanisms in agent frameworks."
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 1,
+        "fatal_flaws": [
+          "Missing falsifiable hypothesis.",
+          "Undefined dataset and evaluation protocol.",
+          "No specified baselines for comparison."
+        ],
+        "fixable_flaws": [
+          "Lack of detail on the 'Failure Memory' implementation (e.g., data structure, update mechanism).",
+          "Ambiguous scope of the 'medical, image, classification' task; needs to be narrowed to a specific benchmark.",
+          "No discussion of computational requirements or resource feasibility."
+        ],
+        "decision": "reject",
+        "justification": "The proposal lacks a falsifiable hypothesis, a defined dataset, and clear baselines, making it impossible to design a rigorous experiment. It is a high-level idea rather than a concrete research plan."
+      }
+    ]
+  },
+  {
+    "idea_id": "ID005",
+    "average_score": 4,
+    "decision": "reject",
+    "next_action": "RUN_ADDITIONAL_SEARCH",
+    "fatal_flaws": [
+      "Missing falsifiable hypothesis",
+      "No specified dataset or evaluation protocol",
+      "No defined baselines for comparison",
+      "No reproducibility measures (seeds)",
+      "Incomplete results section"
+    ],
+    "fixable_flaws": [
+      "Hypothesis needs to be more clearly defined",
+      "Dataset and baseline methods are not specified",
+      "Methodology needs clarification on how venue-awareness improves calibration",
+      "Connection between image classification and claim narrowing requires explanation"
+    ],
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 6,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Hypothesis needs to be more clearly defined",
+          "Dataset and baseline methods are not specified"
+        ],
+        "decision": "revise",
+        "justification": "The venue-aware claim narrowing with calibration-aware active learning appears novel compared to prior work, but lacks sufficient detail to fully assess novelty. The idea combines venue context with uncertainty calibration in a way not directly addressed in existing frameworks."
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 2,
+        "fatal_flaws": [
+          "Missing falsifiable hypothesis",
+          "No specified dataset or evaluation protocol",
+          "No defined baselines for comparison",
+          "No reproducibility measures (seeds)",
+          "Incomplete results section"
+        ],
+        "fixable_flaws": [
+          "Methodology needs clarification on how venue-awareness improves calibration",
+          "Connection between image classification and claim narrowing requires explanation"
+        ],
+        "decision": "reject",
+        "justification": "The research lacks essential experimental components including a clear hypothesis, dataset, baselines, and reproducible methodology. Without these fundamental elements, the work cannot be properly evaluated or compared to existing approaches."
+      }
+    ]
+  },
+  {
+    "idea_id": "ID006",
+    "average_score": 4.5,
+    "decision": "reject",
+    "next_action": "RUN_ADDITIONAL_SEARCH",
+    "fatal_flaws": [
+      "The concept of novelty assessment has precedents in evolutionary algorithms and reinforcement learning",
+      "'Competitor embeddings' concept needs clearer definition and differentiation from standard embeddings",
+      "No falsifiable hypothesis stated",
+      "No baseline comparisons defined"
+    ],
+    "fixable_flaws": [
+      "Provide more details on the novelty tribunal implementation",
+      "Specify how calibration awareness is achieved and why it's critical for active learning",
+      "Missing seeds and reproducibility measures",
+      "No compute requirements specified",
+      "Incomplete prior work results"
+    ],
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 7,
+        "fatal_flaws": [
+          "The concept of novelty assessment has precedents in evolutionary algorithms and reinforcement learning",
+          "'Competitor embeddings' concept needs clearer definition and differentiation from standard embeddings"
+        ],
+        "fixable_flaws": [
+          "Provide more details on the novelty tribunal implementation",
+          "Specify how calibration awareness is achieved and why it's critical for active learning"
+        ],
+        "decision": "revise",
+        "justification": "The idea combines novelty assessment with competitor embeddings in a novel way for calibration-aware active learning, though novelty assessment itself has precedents. The concept shows promise but needs clarification on implementation."
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 2,
+        "fatal_flaws": [
+          "No falsifiable hypothesis stated",
+          "No baseline comparisons defined"
+        ],
+        "fixable_flaws": [
+          "Missing seeds and reproducibility measures",
+          "No compute requirements specified",
+          "Incomplete prior work results"
+        ],
+        "decision": "reject",
+        "justification": "The paper lacks a clear falsifiable hypothesis and baseline comparisons, making experimental validation impossible. The idea appears underdeveloped with insufficient methodological details for rigorous evaluation."
+      }
+    ]
+  }
+]

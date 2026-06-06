@@ -1,0 +1,26 @@
+{
+  "method_summary": "Research paper: Self-Refine: Iterative Refinement with Self-Feedback",
+  "key_innovation": "See full text",
+  "datasets_used": [],
+  "baselines_compared": [],
+  "key_results": {},
+  "best_result": null,
+  "limitations_stated": [],
+  "code_available": false,
+  "code_url": null,
+  "reproducibility": "unknown",
+  "compute_required": "unknown",
+  "can_run_on_macbook": true,
+  "evidence_id": "EV007",
+  "title": "Self-Refine: Iterative Refinement with Self-Feedback",
+  "year": 2023,
+  "arxiv_id": "2303.17651",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7996,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

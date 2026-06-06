@@ -1,0 +1,42 @@
+{
+  "problem_addressed": "How to effectively select informative samples in open-set active learning when unlabeled data contains both known and unknown classes",
+  "core_claim": "The proposed purity-based sampling strategy with GMM modeling achieves superior query precision and test accuracy in open-set active learning",
+  "key_contributions": [
+    "Purity-based candidate selection mechanism that distinguishes between known and unknown samples",
+    "GMM modeling of purity regimes to handle different sample types (high, low, intermediate purity)",
+    "Flexible sampling strategy that maintains high query precision from early training stages"
+  ],
+  "novelty": "Introduces a novel purity metric and flexible sampling strategy that effectively constructs high-purity candidate sets without additional hyperparameters",
+  "method_summary": "Trains a dual-head classifier with LCE and LEDL losses, estimates unknown classes, computes purity margins, models purity regimes with GMM, and selects samples based on likelihood and information scores",
+  "method_components": [
+    "Dual-head classifier training (LCE for primary, LEDL for auxiliary)",
+    "Unknown class estimation using labeled pool and upper bound",
+    "Purity margin computation with/without unknown classes",
+    "GMM modeling of purity regimes",
+    "Precision-based candidate refinement",
+    "Information-based final query selection"
+  ],
+  "key_innovation": "The purity-based candidate selection mechanism that computes Spurity(x) = maxc∈Ck oc − maxc∈Cˆu oc for samples with unknown classes, enabling effective discrimination between known and unknown samples",
+  "assumptions": [
+    "Labeled pool contains only known classes",
+    "Unlabeled pool may contain both known and unknown classes",
+    "Number of unknown classes can be estimated from labeled data"
+  ],
+  "theoretical_grounding": "The method is empirically validated through extensive experiments on multiple benchmarks, showing superior performance without additional theoretical proofs",
+  "best_result": null,
+  "key_results": {},
+  "limitations_stated": [],
+  "reproducibility": "low",
+  "evidence_id": "EV027",
+  "title": "Revisiting Unknowns: Towards Effective and Efficient Open-Set Active Learning",
+  "year": 2026,
+  "arxiv_id": "2603.07898",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 68987,
+  "sections_found": [
+    "method"
+  ],
+  "pdf_pages": 16,
+  "pdf_tables": 9,
+  "pdf_captions": 11
+}

@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\narXiv:2001.10827v3  [math.NA]  12 Sep 2020\nStochastic Analysis of an Adaptive Cubic Regularisation Method under\nInexact Gradient Evaluations and Dynamic Hessian Accuracy\nStefania Bella",
+  "method": "f Mk is suﬃciently accurate with a suﬃciently high\nprobability conditioned to the past, then the stochastic process preserves the expected op-\ntimal complexity. To this scope, the next section is devo",
+  "results": "ecalling that f(Xk) =\n\n\n<!-- page 19 -->\n19\nf(Xk+1) for all k ∈Uk,1 ∪Uk,2 and setting f0\ndef\n= f(X0), it follows:\nf0 −flow ≥f0 −f(XNǫ) =\nNǫ−1\nX\nk=0\n(f(Xk) −f(Xk+1))1Sk ≥\nNǫ−1\nX\nk=0\n>0\nz\n}|\n{\nησmin\n3\n∥",
+  "conclusion": "le 4.\nSynthetic datasets. Binary classiﬁcation rate at termination on the testing set employed by ARC-Dynamic\nand SARC, mean values over 20 runs.\nTo give more evidence of the gain in terms of CMT prov"
+}

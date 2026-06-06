@@ -1,0 +1,44 @@
+{
+  "title": "Out of Distribution Detection via Neural Network Anchoring",
+  "problem": "Out of Distribution (OOD) detection is challenging, requiring an effective characterization of the In Distribution (ID) data manifold to distinguish between ID and OOD samples.",
+  "existing_approaches": [
+    "Maximum Softmax Probability (MSP)",
+    "Predictive entropy",
+    "Energy",
+    "Uncertainty estimates",
+    "Latent space deviation",
+    "Class-specific deviations",
+    "Temperature scaling"
+  ],
+  "limitations_of_existing_approaches": [
+    "Simple prediction confidence scores (like MSP) are poorly calibrated",
+    "Many state-of-the-art formulations require additional unlabeled data for calibration",
+    "Calibration strategies often rely on temperature scaling with a scalar value for all samples, not sample-specific"
+  ],
+  "proposed_method": {
+    "name": "Neural Network Anchoring",
+    "description": "A novel training procedure that transforms input images into tuples with anchors, predicts labels based on these tuples, and uses heteroscedastic temperature scaling for improved OOD detection.",
+    "components": [
+      "Transform input image x into a tuple [c, x - c] where c is a randomly chosen image from the training set",
+      "Predict the label for x using this tuple",
+      "Consistency training strategy by perturbing the anchor before encoding",
+      "During inference, obtain predictions from multiple random anchors and estimate temperature based on standard deviation of these predictions"
+    ]
+  },
+  "theoretical_foundation": {
+    "theory": "Neural tangent kernel theory",
+    "finding": "The heteroscedastic temperature estimate is closely related to the epistemic uncertainty of the model"
+  },
+  "results": "The method can improve existing OOD detectors via heteroscedastic temperature scaling.",
+  "evidence_id": "EV051",
+  "year": 2022,
+  "arxiv_id": "2207.04125",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "method_summary": "SWE-agent introduces a custom agent-computer interface (ACI) that enables language model agents to autonomously use computers for software engineering tasks, including creating/editing code files, navigating repositories, and executing tests.",
+  "key_innovation": "Custom agent-computer interface (ACI) that significantly enhances LM agents' ability to interact with software development environments",
+  "datasets_used": [
+    "SWE-bench",
+    "HumanEvalFix"
+  ],
+  "baselines_compared": [
+    "previous state-of-the-art with non-interactive LMs"
+  ],
+  "key_results": {
+    "SWE-bench_pass@1": "12.5%",
+    "HumanEvalFix_pass@1": "87.7%"
+  },
+  "best_result": "87.7% pass@1 on HumanEvalFix",
+  "limitations_stated": [],
+  "code_available": true,
+  "code_url": null,
+  "reproducibility": "medium",
+  "compute_required": null,
+  "can_run_on_macbook": null,
+  "evidence_id": "EV010",
+  "title": "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
+  "year": 2024,
+  "arxiv_id": "2405.15793",
+  "full_text_tool": "arxiv_abstract_openclaw",
+  "full_text_chars": 5541,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

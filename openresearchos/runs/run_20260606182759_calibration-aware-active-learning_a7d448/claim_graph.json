@@ -1,0 +1,858 @@
+{
+  "claims": [
+    {
+      "claim_id": "CL001",
+      "evidence_id": "EV001",
+      "text": "The AI Scientist framework enables fully automated scientific discovery by having LLMs generate ideas, write code, execute experiments, and produce papers independently.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "Swe-bench (GitHub issues)",
+        "Mlagentbench (machine learning experimentation)"
+      ],
+      "best_result": "not explicitly stated in provided text"
+    },
+    {
+      "claim_id": "CL002",
+      "evidence_id": "EV002",
+      "text": "An entirely AI-generated paper can successfully navigate peer review, marking the first instance of such an achievement.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "SCAN",
+        "COGS",
+        "IWSLT",
+        "GeoQuery"
+      ],
+      "best_result": "Not available in provided content"
+    },
+    {
+      "claim_id": "CL003",
+      "evidence_id": "EV003",
+      "text": "Agent Laboratory is an autonomous LLM-based framework that can complete the entire research process from idea to final results, significantly reducing research expenses and improving quality.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL004",
+      "evidence_id": "EV004",
+      "text": "Machine learning agents can be effectively evaluated on the complex task of predicting molecular properties from structural data using a standardized benchmark framework.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL005",
+      "evidence_id": "EV005",
+      "text": "AIBuildAI-2's knowledge-enhanced hierarchical agent with an evolving external knowledge system can autonomously build AI models matching expert human performance.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL006",
+      "evidence_id": "EV006",
+      "text": "Reflexion, a framework using linguistic feedback rather than weight updates, can significantly improve language agent performance across diverse tasks.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "HumanEval Python",
+        "HotPotQA (100 samples)"
+      ],
+      "best_result": "gpt-4 with Reflexion on HotPotQA: 80% accuracy"
+    },
+    {
+      "claim_id": "CL007",
+      "evidence_id": "EV007",
+      "text": "SELF-REFINE demonstrates that state-of-the-art LLMs can be significantly improved at test-time through iterative self-feedback and refinement without requiring additional training or supervision.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "CodeNet (300 examples)",
+        "CommonGen-Hard (extension of CommonGen)",
+        "Acronym dataset (250 acronyms)"
+      ],
+      "best_result": "GPT-4 achieved 74.6% on Dialogue Response with SELF-REFINE (statistically significant)"
+    },
+    {
+      "claim_id": "CL008",
+      "evidence_id": "EV008",
+      "text": "VOYAGER is the first LLM-powered embodied lifelong learning agent that achieves open-ended exploration, skill acquisition, and novel discoveries in Minecraft without human intervention.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "Minecraft (implied)"
+      ],
+      "best_result": "Not provided in text"
+    },
+    {
+      "claim_id": "CL009",
+      "evidence_id": "EV009",
+      "text": "AGENTBENCH provides a standardized, multi-dimensional benchmark that holistically assesses LLM agent capabilities, exposing critical weaknesses in reasoning and instruction following.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "FREEBASE (GrailQA, ComplexWebQuestions, GraphQuestions) - 1,663 questions"
+      ],
+      "best_result": "gpt-3.5-turbo achieves 0.92 on UPDATE operations in re-annotated data"
+    },
+    {
+      "claim_id": "CL010",
+      "evidence_id": "EV010",
+      "text": "Custom agent-computer interfaces can significantly enhance language model agents' ability to perform software engineering tasks by providing LM-friendly commands and feedback formats.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "SWE-bench Lite dataset",
+        "SWE-bench test set (full)"
+      ],
+      "best_result": "SWE-agent with GPT-4 resolved 286 trajectories on SWE-bench (full)"
+    },
+    {
+      "claim_id": "CL011",
+      "evidence_id": "EV011",
+      "text": "This paper proposes a network-aware, near-optimal, and sample-efficient data-driven method to accurately characterize the power flexibility region at the substation interface.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL012",
+      "evidence_id": "EV012",
+      "text": "AL-X0 is a principled framework that decouples information valuation to address cold-start instability and cost collapse in active learning.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL013",
+      "evidence_id": "EV013",
+      "text": "Model size and initialization have the most meaningful impact on uncertainty quantification performance, and most prior work could have benefited from alternative design choices.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL014",
+      "evidence_id": "EV014",
+      "text": "Bayesian E(3)-equivariant MLPs with iterative restratification and joint energy-force uncertainty modeling achieve competitive accuracy while enabling uncertainty-guided applications.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL015",
+      "evidence_id": "EV015",
+      "text": "A new risk-tiered validation framework is proposed to assess the advanced AI models now used in drug discovery.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL016",
+      "evidence_id": "EV016",
+      "text": "The paper proposes a classification system for architectural AI tools based on the RIBA Plan of Work's process stages and the machine learning lifecycle to clarify their value at each phase of a project.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL017",
+      "evidence_id": "EV017",
+      "text": "UGDD-Net transforms uncertainty into an active guiding signal throughout the entire learning lifecycle, enabling more reliable skin lesion segmentation through uncertainty-in-the-loop design.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "HAM10000",
+        "ISIC2017",
+        "ISIC2018",
+        "PH2"
+      ],
+      "best_result": "UGDD-Net achieves IoUcon of 73.91% and Dicecon of 83.37% against Expert Consensus"
+    },
+    {
+      "claim_id": "CL018",
+      "evidence_id": "EV018",
+      "text": "This study proposes a novel framework that integrates Vision Transformers with Monte Carlo Dropout for uncertainty-aware pneumonia detection.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL019",
+      "evidence_id": "EV019",
+      "text": "The study proposes an AI hydrologic nowcasting framework that couples HEC-HMS process states with graph neural networks (GNNs) to address nonstationarity.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL020",
+      "evidence_id": "EV020",
+      "text": "GroVE provides a post-hoc approach to obtain probabilistic embeddings from frozen VLMs using Gaussian Process Latent Variable Models, achieving state-of-the-art uncertainty calibration across downstream tasks.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "COCO",
+        "CUB"
+      ],
+      "best_result": "KL-Divergence achieves best performance with 0.79±0.02 accuracy on Image to Text COCO"
+    },
+    {
+      "claim_id": "CL021",
+      "evidence_id": "EV021",
+      "text": "This study proposes Conﬁdence-aware Typical Clustering (CTypiClust), an AL method that performs well regardless of the budget.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL022",
+      "evidence_id": "EV022",
+      "text": "This paper presents a systematic diagnostic study of CAL-Log's performance boundaries across ten diverse text classification benchmarks.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL023",
+      "evidence_id": "EV023",
+      "text": "In this study, we developed a leakage-aware prioritization workflow for two cancer-relevant targets, pyruvate kinase M2 (PKM2) and mitogen-activated protein kinase 1 (MAPK1/ERK2), using the LIT-PCBA benchmark.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL024",
+      "evidence_id": "EV024",
+      "text": "This meta-analysis provides a comprehensive view of the opportunities and challenges posed by large language models in programming.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL025",
+      "evidence_id": "EV025",
+      "text": "Refractory multi-principal element alloys (RMPEAs) represent a novel class of alloys characterized by an extensive compositional design space and the potential for exceptional mechanical performance u",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "70,000 compositions from Ti-Fe-Al-V-Ni-Nb-Zr-Mn-Co design space with phase fractions at 7 temperatures (CALPHAD)"
+      ],
+      "best_result": "R² of 0.99 for Laves phase prediction"
+    },
+    {
+      "claim_id": "CL026",
+      "evidence_id": "EV026",
+      "text": "Not provided in the text",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL027",
+      "evidence_id": "EV027",
+      "text": "The proposed purity-based sampling strategy with GMM modeling achieves superior query precision and test accuracy in open-set active learning",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL028",
+      "evidence_id": "EV028",
+      "text": "OmniDP enables robust large-workspace humanoid manipulation through omnidirectional 3D perception using an end-to-end LiDAR-driven visuomotor policy.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "Teleoperated observation-action trajectories with LiDAR point clouds and proprioceptive joint positions"
+      ],
+      "best_result": "OmniDP achieves 82/120 (68.3%) total success rate across all tasks, significantly outperforming baselines (DP: 18/120, DP3: 22/120, iDP3: 25/120)"
+    },
+    {
+      "claim_id": "CL029",
+      "evidence_id": "EV029",
+      "text": "We propose a physics-guided big-data learning framework for automatic industrial surface state recognition that overcomes the limitations of traditional methods which rely on hand-crafted features and small datasets and perform poorly under distribution shifts.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL030",
+      "evidence_id": "EV030",
+      "text": "YOLO-family one-stage detectors dominate visible-spectrum weapon detection due to their accuracy-latency trade-off, while X-ray research leverages large public benchmarks and new designs like attention and anchor-free methods.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL031",
+      "evidence_id": "EV031",
+      "text": "This paper proposes MOSE, a learning-based selectivity estimator designed to overcome the limitations of previous black-box models.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL032",
+      "evidence_id": "EV032",
+      "text": "FO2 is domain-liftable under sampling, meaning there exists a polynomial-time sampling algorithm in the domain size, even in the presence of counting constraints.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": "null"
+    },
+    {
+      "claim_id": "CL033",
+      "evidence_id": "EV033",
+      "text": "A virtually connected probabilistic computer (VCPC) using photonic quantum random number generators outperforms digital annealing units by orders of magnitude on Erdős–Rényi graph spin-glasses without requiring problem transformations.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "burma14 TSP instance",
+        "Erdős–Rényi graphs (N=100, 250, 500, 750, 1024)",
+        "Spin-glass instances"
+      ],
+      "best_result": "TTS of ~10⁻⁵ seconds for q=0.8 and N=1024, outperforming DA by orders of magnitude"
+    },
+    {
+      "claim_id": "CL034",
+      "evidence_id": "EV034",
+      "text": "The paper introduces a novel algorithm for clustering data using a Bayesian probabilistic approach to distance measurement.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL035",
+      "evidence_id": "EV035",
+      "text": "This paper provides a systematic review and comparison of several representative approaches spanning classical nonparametric methods and modern generative models for conditional distribution estimation.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": "Not specified in text"
+    },
+    {
+      "claim_id": "CL036",
+      "evidence_id": "EV036",
+      "text": "The computational study of argumentation has emerged as a key research topic at the forefront of automated reasoning within Artificial Intelligence.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL037",
+      "evidence_id": "EV037",
+      "text": "The proposed Markovian Flow Matching (MFM) algorithm accelerates MCMC by adaptively learning continuous normalizing flows on-the-fly to provide non-local transition kernels, achieving state-of-the-art performance at lower computational cost.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL038",
+      "evidence_id": "EV038",
+      "text": "MANTRA provides a probabilistic framework for high-quality temporal betweenness centrality approximation with guaranteed accuracy and improved efficiency.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "Prefix Foremost",
+        "Shortest",
+        "public transport networks (25 cities)"
+      ],
+      "best_result": "MANTRA outperforms ONBRA in running time, sample size, and memory usage; only feasible option for datasets requiring >1TB memory"
+    },
+    {
+      "claim_id": "CL039",
+      "evidence_id": "EV039",
+      "text": "The conceptualization of uncertainty—and related concepts, such as ambiguity, ignorance, or risk—has proven to be an elusive task.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL040",
+      "evidence_id": "EV040",
+      "text": "A data-driven computational method is needed to accurately identify SLE patient records in large clinical databases due to the disease's heterogeneous presentation.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL041",
+      "evidence_id": "EV041",
+      "text": "The authors derive bounds on condition number growth for matrices without assuming perfect orthonormality, enabling analysis of QR methods under imperfect orthogonalization and Gaussian noise.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": "Probability ≥0.9734 for m-n ≥100, σ=2⁻⁸, ε=0.1"
+    },
+    {
+      "claim_id": "CL042",
+      "evidence_id": "EV042",
+      "text": "The stochastic adaptive cubic regularization method achieves optimal O(ε^{-3/2}) expected iteration complexity for reaching first-order stationary points under inexact derivative evaluations.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "binary classification dataset (sigmoid loss) with training set size N and testing set size NT"
+      ],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL043",
+      "evidence_id": "EV043",
+      "text": "This paper presents a methodology allowing identification of the variables associated with transfer, persistence or recovery of DNA traces that have the most significant impact on the result of an evaluation measured through a likelihood ratio (LR).",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL044",
+      "evidence_id": "EV044",
+      "text": "The project developed an enhanced component-based mixture risk assessment (CBMRA) framework that integrates high-throughput screening data with a quantitative adverse outcome pathway approach to improve next-generation risk assessment.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL045",
+      "evidence_id": "EV045",
+      "text": "This paper proposes a possibilistic evolutionary approach that integrates possibility theory into a multi-objective evolutionary algorithm to handle uncertainty in software evolution, achieving higher accuracy than standard SBSE methods.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL046",
+      "evidence_id": "EV046",
+      "text": "QRealBoost achieves quantum speedups while handling non-binary weak learners through domain-partitioning hypotheses, providing provable convergence and generalization guarantees.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": "QRealBoost achieved best generalization ability, only surpassed by AdaBoost"
+    },
+    {
+      "claim_id": "CL047",
+      "evidence_id": "EV047",
+      "text": "Selecting the best stacking method from a family using cross-validated performance achieves performance close to the oracle best, with explicit theoretical guarantees.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "Elec",
+        "Kaggle",
+        "M4-daily",
+        "Traf",
+        "Wiki"
+      ],
+      "best_result": "Ours achieves lowest mean weighted quantile loss on all datasets: Elec (0.0494), Kaggle (0.1663), M4-daily (0.0266), Traf (0.094), Wiki (0.3187)"
+    },
+    {
+      "claim_id": "CL048",
+      "evidence_id": "EV048",
+      "text": "A probabilistic model is presented to more accurately identify bacterial essential genes from transposon-directed sequencing data.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL049",
+      "evidence_id": "EV049",
+      "text": "unmanned aerial vehicle (UAV) can be exploited as a promising technology in future communications networks.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL050",
+      "evidence_id": "EV050",
+      "text": "This paper proposes a modified soft-likelihood function based on the POWA operator to address shortcomings in a previous method.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL051",
+      "evidence_id": "EV051",
+      "text": "This editorial introduces a special issue on AI in Healthcare, highlighting recent advancements and challenges to guide future research.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL052",
+      "evidence_id": "EV052",
+      "text": "We propose a probabilistic framework that provides sparse local counterfactual rules for each observation, giving rules that provide a range of values capable of changing decisions with high probability, and aggregate these into regional rules for subgroups.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "California House Price (n=20640, p=8)",
+        "Compas (n=6172, p=12)",
+        "Diabetes (n=768, p=8)",
+        "Nhanesi"
+      ],
+      "best_result": "Local CR achieved 100% accuracy on California House Price dataset with 0.92 plausibility and 4.45 sparsity"
+    },
+    {
+      "claim_id": "CL053",
+      "evidence_id": "EV053",
+      "text": "The TMU system improves Japanese-English multimodal translation by pretraining on noisy data and fine-tuning on clean data.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL054",
+      "evidence_id": "EV054",
+      "text": "The paper introduces a framework that reduces score estimation to parameter and density estimation, establishing new connections and implications in statistical and computational learning theory.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL055",
+      "evidence_id": "EV055",
+      "text": "APEPP is the natural complexity class for explicit constructions derived from the probabilistic method, with Hard Truth Table being APEPP-complete under PNP reductions.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "EMPTY_C problem instances",
+        "ε-Hard_C problem instances",
+        "ΣP_i-circuit instances"
+      ],
+      "best_result": "ε-Hard_ΣP_i is complete for APEPP_ΣP_i under ∆P_i+2 reductions (Theorem 8)"
+    },
+    {
+      "claim_id": "CL056",
+      "evidence_id": "EV056",
+      "text": "The paper introduces a diffusion model capable of generating 3D molecules with complete and accurate geometric details.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL057",
+      "evidence_id": "EV057",
+      "text": "This paper presents a stochastic finite element procedure for reliability analysis that represents a system's response probabilistically using polynomial chaos and a Galerkin-type method.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL058",
+      "evidence_id": "EV058",
+      "text": "This paper presents a probabilistic methodology to screen and improve emission inventories by identifying discrepancies.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL059",
+      "evidence_id": "EV059",
+      "text": "We propose a method for time-optimal fault estimation and collision avoidance in autonomous robots operating under coupled fault and state uncertainty.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL060",
+      "evidence_id": "EV060",
+      "text": "We have found that ChatGPT (GPT 3.5) can provide accurate biodiversity knowledge in response to questions about species descriptions, occurrences, and taxonomy, as well as structure information according to data sharing standards such as Darwin Core.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL061",
+      "evidence_id": "EV061",
+      "text": "This special issue explores the application of artificial intelligence to the field of e-testing.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    }
+  ],
+  "links": [
+    {
+      "from": "EV001",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: Complete pipeline integration allowing iterative development and knowledge accumulation, mimicking human scientific communities."
+    },
+    {
+      "from": "EV002",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: Progressive agentic tree-search methodology managed by a dedicated experiment manager agent enabling systematic exploration of research directions without human intervention."
+    },
+    {
+      "from": "EV003",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: The pipeline of specialized LLM-driven agents that work together to complete the entire research process autonomously while allowing for human feedback and guidance at each stage."
+    },
+    {
+      "from": "EV004",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: The structured evaluation framework that averages Log MAE across different scalar coupling types, ensuring equal weight for each type through the mathematical formulation: score = (1/T) Σ log(1/n_t Σ |y_i - ŷ_i|)"
+    },
+    {
+      "from": "EV005",
+      "relation": "suggests_gap",
+      "to": "Enables automated model building for medical researchers without AI expertise"
+    },
+    {
+      "from": "EV006",
+      "relation": "suggests_gap",
+      "to": "Novel approaches to active learning incorporating verbal reflection"
+    },
+    {
+      "from": "EV007",
+      "relation": "suggests_gap",
+      "to": "Research on applying iterative refinement techniques to improve calibration in active learning for medical image classification."
+    },
+    {
+      "from": "EV008",
+      "relation": "suggests_gap",
+      "to": "Embodied AI and lifelong learning"
+    },
+    {
+      "from": "EV009",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: The multi-environment benchmark architecture that simultaneously tests diverse agent capabilities (reasoning, decision-making, instruction following) in interactive settings, revealing systemic weaknesses."
+    },
+    {
+      "from": "EV010",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: The agent-computer interface (ACI) that translates complex software engineering operations into LM-friendly commands and provides structured feedback, effectively bridging the gap between language model capabilities and software engineering requirements."
+    },
+    {
+      "from": "EV011",
+      "relation": "suggests_gap",
+      "to": "The abstract is incomplete, preventing a full understanding of the proposed method's initial steps and overall implementation."
+    },
+    {
+      "from": "EV012",
+      "relation": "suggests_gap",
+      "to": "The paper focuses on NLP; a gap is extending this cost-aware framework to other large-scale domains like computer vision or speech."
+    },
+    {
+      "from": "EV013",
+      "relation": "suggests_gap",
+      "to": "Better uncertainty-aware reward models for medical image classification"
+    },
+    {
+      "from": "EV014",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: The NLLJEF loss function that simultaneously optimizes for energy and force uncertainties, reducing energy errors by 3-4 times and force errors by 2-3 times compared to energy-only uncertainty modeling while maintaining competitive accuracy."
+    },
+    {
+      "from": "EV015",
+      "relation": "suggests_gap",
+      "to": "The abstract is incomplete, so the specific details of the proposed framework and the remaining challenges it aims to address are not fully described."
+    },
+    {
+      "from": "EV016",
+      "relation": "suggests_gap",
+      "to": "Future research could validate this classification framework with practicing architects and explore the impact of these tools on project outcomes and efficiency."
+    },
+    {
+      "from": "EV017",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: The 'Glance-and-Gaze' mechanism that actively uses pixel-level uncertainty to dynamically modulate spatial-spectral interactions and guide global reasoning through priority-based graph propagation."
+    },
+    {
+      "from": "EV018",
+      "relation": "suggests_gap",
+      "to": "The need for a model that can quantify predictive uncertainty while not relying on large annotated datasets."
+    },
+    {
+      "from": "EV019",
+      "relation": "suggests_gap",
+      "to": "The abstract is incomplete, cutting off mid-sentence, which prevents a full understanding of the proposed methods."
+    },
+    {
+      "from": "EV020",
+      "relation": "suggests_gap",
+      "to": "Leveraging powerful pre-trained VLMs for uncertainty quantification in domains where fine-tuning is difficult or expensive"
+    },
+    {
+      "from": "EV021",
+      "relation": "suggests_gap",
+      "to": "Existing Active Learning methods are often dependent on the annotation budget, requiring different strategies for low and high-budget scenarios."
+    },
+    {
+      "from": "EV022",
+      "relation": "suggests_gap",
+      "to": "the stability of cost-aware selection remains poorly understood across the diverse spectrum of linguistic regimes"
+    },
+    {
+      "from": "EV023",
+      "relation": "suggests_gap",
+      "to": "The workflow's performance and robustness have not been demonstrated on targets other than PKM2 and MAPK1."
+    },
+    {
+      "from": "EV024",
+      "relation": "suggests_gap",
+      "to": "The paper addresses the gap in a comprehensive synthesis of the current state of LLMs in programming."
+    },
+    {
+      "from": "EV025",
+      "relation": "suggests_gap",
+      "to": "Demonstrates the value of uncertainty-aware deep learning in materials science"
+    },
+    {
+      "from": "EV026",
+      "relation": "suggests_gap",
+      "to": "Not provided in the text"
+    },
+    {
+      "from": "EV027",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: The purity-based candidate selection mechanism that computes Spurity(x) = maxc∈Ck oc − maxc∈Cˆu oc for samples with unknown classes, enabling effective discrimination between known and unknown samples"
+    },
+    {
+      "from": "EV028",
+      "relation": "suggests_gap",
+      "to": "Potential insights into omnidirectional perception for medical imaging"
+    },
+    {
+      "from": "EV029",
+      "relation": "suggests_gap",
+      "to": "The framework's applicability to other types of spectroscopy (e.g., Raman, FTIR) or multi-modal sensing data is not explored."
+    },
+    {
+      "from": "EV030",
+      "relation": "suggests_gap",
+      "to": "A key gap is the lack of research combining visible-spectrum and X-ray modalities for a unified weapon detection system."
+    },
+    {
+      "from": "EV031",
+      "relation": "suggests_gap",
+      "to": "The abstract is incomplete, leaving the specific details of the proposed method's architecture and implementation unspecified."
+    },
+    {
+      "from": "EV032",
+      "relation": "suggests_gap",
+      "to": "Theoretical foundation for applying logical constraints to medical image classification"
+    },
+    {
+      "from": "EV033",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: Virtual hardware connections allowing direct mapping of arbitrary combinatorial optimization problems to hardware without transformation, preserving problem structure and solution quality."
+    },
+    {
+      "from": "EV034",
+      "relation": "suggests_gap",
+      "to": "Existing deterministic clustering methods may struggle to model uncertainty and probabilistic relationships within data."
+    },
+    {
+      "from": "EV035",
+      "relation": "suggests_gap",
+      "to": "Applying conditional distribution estimation to calibration-aware active learning"
+    },
+    {
+      "from": "EV036",
+      "relation": "suggests_gap",
+      "to": "A gap exists in computationally modeling the persuasive aspects of arguments that have been studied for centuries in philosophy and rhetoric."
+    },
+    {
+      "from": "EV037",
+      "relation": "suggests_gap",
+      "to": "This paper could enable research on using advanced sampling techniques for calibration-aware active learning in medical image classification."
+    },
+    {
+      "from": "EV038",
+      "relation": "suggests_gap",
+      "to": "Could enable new approaches to sample selection in active learning by incorporating temporal centrality measures"
+    },
+    {
+      "from": "EV039",
+      "relation": "suggests_gap",
+      "to": "The abstract introduces the problem of uncertainty visualization but does not present a new methodology, empirical study, or specific findings to address it."
+    },
+    {
+      "from": "EV040",
+      "relation": "suggests_gap",
+      "to": "The abstract does not specify how the identified 'fingerprints' will be validated against a gold standard or tested for generalizability on external datasets."
+    },
+    {
+      "from": "EV041",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: The key innovation is removing the orthonormality assumption in condition number analysis by incorporating Gaussian noise models and probabilistic bounds."
+    },
+    {
+      "from": "EV042",
+      "relation": "suggests_gap",
+      "to": "Application of adaptive cubic regularization to medical image classification"
+    },
+    {
+      "from": "EV043",
+      "relation": "suggests_gap",
+      "to": "The methodology's applicability beyond the specific knife handle scenario is not addressed."
+    },
+    {
+      "from": "EV044",
+      "relation": "suggests_gap",
+      "to": "A need exists for more robust and efficient methods to assess the combined risks of environmental mixtures, which this work aims to address."
+    },
+    {
+      "from": "EV045",
+      "relation": "suggests_gap",
+      "to": "Future work could explore hybrid models that combine possibilistic reasoning with machine learning for uncertainty prediction."
+    },
+    {
+      "from": "EV046",
+      "relation": "suggests_gap",
+      "to": "A quantum approach to boosting that handles multi-class hypotheses, potentially useful for medical image classification."
+    },
+    {
+      "from": "EV047",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: Recognition that general oracle inequalities (Theorem 5.1) directly apply to stacking without discretization, enabling performance bounds that depend only on log(2+m) rather than discretization size"
+    },
+    {
+      "from": "EV048",
+      "relation": "suggests_gap",
+      "to": "The current model identifies core essential genes but does not account for conditional essentiality, which may only be revealed under specific environmental stresses."
+    },
+    {
+      "from": "EV049",
+      "relation": "suggests_gap",
+      "to": "The abstract proposes UAVs as a solution but does not detail the specific technical mechanisms for addressing the challenges of explosive data and massive connections."
+    },
+    {
+      "from": "EV050",
+      "relation": "suggests_gap",
+      "to": "A gap exists in the POWA-based soft-likelihood function as its weights do not fully capture the relationship between probability and the OWA operator."
+    },
+    {
+      "from": "EV051",
+      "relation": "suggests_gap",
+      "to": "The editorial suggests that while advancements are being made, significant challenges and research gaps remain in the application of AI in Healthcare."
+    },
+    {
+      "from": "EV052",
+      "relation": "suggests_gap",
+      "to": "The paper opens a research direction for developing calibration-aware counterfactual explanations for medical image classification"
+    },
+    {
+      "from": "EV053",
+      "relation": "suggests_gap",
+      "to": "The abstract is incomplete, suggesting an unexplored aspect of the research."
+    },
+    {
+      "from": "EV054",
+      "relation": "suggests_gap",
+      "to": "New approaches to leveraging classical distribution learning for score estimation"
+    },
+    {
+      "from": "EV055",
+      "relation": "suggests_gap",
+      "to": "Understanding the complexity of explicit constructions and their relation to derandomization."
+    },
+    {
+      "from": "EV056",
+      "relation": "suggests_gap",
+      "to": "The paper focuses on generating geometrically accurate molecules but does not address how to steer the generation towards molecules with desired biological activities or properties."
+    },
+    {
+      "from": "EV057",
+      "relation": "suggests_gap",
+      "to": "The abstract does not discuss the computational efficiency or validation of the proposed procedure against existing methods or real-world data."
+    },
+    {
+      "from": "EV058",
+      "relation": "suggests_gap",
+      "to": "The abstract is cut off, leaving the specific methods for 'targeting the polluta[nt]' unclear, suggesting a gap between identifying discrepancies and implementing solutions."
+    },
+    {
+      "from": "EV059",
+      "relation": "suggests_gap",
+      "to": "The paper's abstract is incomplete, leaving the final component of their proposed method (concentr...) undefined, which represents a significant gap in understanding the full approach."
+    },
+    {
+      "from": "EV060",
+      "relation": "suggests_gap",
+      "to": "The abstract is incomplete, cutting off before detailing the full evaluation methodology and findings."
+    },
+    {
+      "from": "EV061",
+      "relation": "suggests_gap",
+      "to": "Bridging the gap between academic AI testing models and their practical, large-scale industrial deployment."
+    }
+  ]
+}

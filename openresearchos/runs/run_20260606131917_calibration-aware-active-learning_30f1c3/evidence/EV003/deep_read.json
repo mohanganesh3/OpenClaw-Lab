@@ -1,0 +1,31 @@
+{
+  "method_summary": "Agent Laboratory is a framework that uses LLM agents to conduct research through three stages (literature review, experimentation, and report writing), producing code repositories and research reports with human feedback at each stage.",
+  "key_innovation": "Using LLM agents as autonomous research assistants that can complete the entire research process from idea to final paper.",
+  "datasets_used": [],
+  "baselines_compared": [
+    "previous autonomous research methods"
+  ],
+  "key_results": {
+    "research_expense_reduction": "84%",
+    "performance": "state-of-the-art"
+  },
+  "best_result": "84% decrease in research expenses compared to previous autonomous research methods",
+  "limitations_stated": [],
+  "code_available": true,
+  "code_url": null,
+  "reproducibility": "medium",
+  "compute_required": null,
+  "can_run_on_macbook": null,
+  "evidence_id": "EV003",
+  "title": "Agent Laboratory: Using LLM Agents as Research Assistants",
+  "year": 2025,
+  "arxiv_id": "2501.04227",
+  "full_text_tool": "arxiv_abstract_openclaw",
+  "full_text_chars": 5667,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

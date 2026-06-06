@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\nSWE-agent: Agent-Computer Interfaces Enable\nAutomated Software Engineering\nJohn Yang∗\nCarlos E. Jimenez∗\nAlexander Wettig\nKilian Lieret\nShunyu Yao\nKarthik Narasimhan\nOfir Press\nPrincet",
+  "method": "n, S. Balaji, J. Wu, L. Ouyang, C. Kim, C. Hesse, S. Jain, V. Kosaraju,\nW. Saunders, X. Jiang, K. Cobbe, T. Eloundou, G. Krueger, K. Button, M. Knight, B. Chess,\nand J. Schulman. Webgpt: Browser-assis",
+  "results": "e SWE-bench Lite dataset.\n\n[CAPTION] Table 7: % Resolved performance for task instances from different years represented in the SWE-\n\n[CAPTION] Figure 14 visualizes the distribution of the number of t",
+  "conclusion": "ation\n(1) System\nNext Step\nShow output of model’s action \n+ prompt for next action\nNext Step (No Output)\nShow custom message stating \naction succeeded quietly\nFormat Error\nIndicate prior action could "
+}

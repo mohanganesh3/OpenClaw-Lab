@@ -1,0 +1,6 @@
+{
+  "introduction": "[2412.07959] Deep-Learning Control of Lower-Limb Exoskeletons via simplified Therapist Input\n\nDeep-Learning Control of Lower-Limb Exoskeletons via simplified Therapist Input\n\nLorenzo Vianello  1  , Cl",
+  "method": "e proposed approach with two healthy participants engaging in treadmill walking and stair ascent and descent at varying speeds, with and without external modification of the gait features through a us",
+  "results": "ng, and adjusts the desired interaction torque accordingly  [ 7 ] . Finally, low-level control compensates for the exoskeleton’s dynamics and generates motor commands based on the profiles selected in",
+  "conclusion": "ler of the exoskeleton. Impedance parameters are passed to the low-level controller of the exoskeleton as commanded input. (2) Structure of the feature extractors models. (3) Structure of the command "
+}

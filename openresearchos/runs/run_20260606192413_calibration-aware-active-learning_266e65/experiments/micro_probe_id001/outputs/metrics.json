@@ -1,0 +1,441 @@
+{
+  "experiment_type": "Calibration-Aware Active Learning",
+  "dataset": "breast_cancer",
+  "initial_labeled_size": 100,
+  "total_queries": 200,
+  "final_labeled_size": 300,
+  "test_accuracy": 0.9824561403508771,
+  "test_brier_score": 0.021610662960483674,
+  "ledger": {
+    "states": [
+      {
+        "name": "initial_setup",
+        "data": {
+          "labeled_size": 100,
+          "pool_size": 355
+        }
+      },
+      {
+        "name": "active_learning_step",
+        "data": {
+          "queried_samples": 20,
+          "remaining_pool": 335
+        }
+      },
+      {
+        "name": "active_learning_step",
+        "data": {
+          "queried_samples": 20,
+          "remaining_pool": 315
+        }
+      },
+      {
+        "name": "active_learning_step",
+        "data": {
+          "queried_samples": 20,
+          "remaining_pool": 295
+        }
+      },
+      {
+        "name": "active_learning_step",
+        "data": {
+          "queried_samples": 20,
+          "remaining_pool": 275
+        }
+      },
+      {
+        "name": "active_learning_step",
+        "data": {
+          "queried_samples": 20,
+          "remaining_pool": 255
+        }
+      },
+      {
+        "name": "active_learning_step",
+        "data": {
+          "queried_samples": 20,
+          "remaining_pool": 235
+        }
+      },
+      {
+        "name": "active_learning_step",
+        "data": {
+          "queried_samples": 20,
+          "remaining_pool": 215
+        }
+      },
+      {
+        "name": "active_learning_step",
+        "data": {
+          "queried_samples": 20,
+          "remaining_pool": 195
+        }
+      },
+      {
+        "name": "active_learning_step",
+        "data": {
+          "queried_samples": 20,
+          "remaining_pool": 175
+        }
+      },
+      {
+        "name": "active_learning_step",
+        "data": {
+          "queried_samples": 20,
+          "remaining_pool": 155
+        }
+      }
+    ],
+    "reviewers": [
+      {
+        "name": "system",
+        "judgment": "Pool initialized with random sampling"
+      },
+      {
+        "name": "active_learner",
+        "judgment": "Selected by uncertainty+calibration"
+      },
+      {
+        "name": "active_learner",
+        "judgment": "Selected by uncertainty+calibration"
+      },
+      {
+        "name": "active_learner",
+        "judgment": "Selected by uncertainty+calibration"
+      },
+      {
+        "name": "active_learner",
+        "judgment": "Selected by uncertainty+calibration"
+      },
+      {
+        "name": "active_learner",
+        "judgment": "Selected by uncertainty+calibration"
+      },
+      {
+        "name": "active_learner",
+        "judgment": "Selected by uncertainty+calibration"
+      },
+      {
+        "name": "active_learner",
+        "judgment": "Selected by uncertainty+calibration"
+      },
+      {
+        "name": "active_learner",
+        "judgment": "Selected by uncertainty+calibration"
+      },
+      {
+        "name": "active_learner",
+        "judgment": "Selected by uncertainty+calibration"
+      },
+      {
+        "name": "active_learner",
+        "judgment": "Selected by uncertainty+calibration"
+      }
+    ],
+    "metrics": [
+      {
+        "name": "pool_size",
+        "value": 335.0
+      },
+      {
+        "name": "accuracy",
+        "value": 0.9824561403508771
+      },
+      {
+        "name": "brier_score",
+        "value": 0.02121941840588956
+      },
+      {
+        "name": "n_classes",
+        "value": 2.0
+      },
+      {
+        "name": "memory_usage_mb",
+        "value": 145.296875
+      },
+      {
+        "name": "iteration",
+        "value": 1.0
+      },
+      {
+        "name": "pool_size",
+        "value": 315.0
+      },
+      {
+        "name": "accuracy",
+        "value": 0.9649122807017544
+      },
+      {
+        "name": "brier_score",
+        "value": 0.024398561062037184
+      },
+      {
+        "name": "n_classes",
+        "value": 2.0
+      },
+      {
+        "name": "memory_usage_mb",
+        "value": 145.296875
+      },
+      {
+        "name": "iteration",
+        "value": 2.0
+      },
+      {
+        "name": "pool_size",
+        "value": 295.0
+      },
+      {
+        "name": "accuracy",
+        "value": 0.9824561403508771
+      },
+      {
+        "name": "brier_score",
+        "value": 0.022524130127506842
+      },
+      {
+        "name": "n_classes",
+        "value": 2.0
+      },
+      {
+        "name": "memory_usage_mb",
+        "value": 145.3125
+      },
+      {
+        "name": "iteration",
+        "value": 3.0
+      },
+      {
+        "name": "pool_size",
+        "value": 275.0
+      },
+      {
+        "name": "accuracy",
+        "value": 0.9824561403508771
+      },
+      {
+        "name": "brier_score",
+        "value": 0.022677697543760113
+      },
+      {
+        "name": "n_classes",
+        "value": 2.0
+      },
+      {
+        "name": "memory_usage_mb",
+        "value": 145.328125
+      },
+      {
+        "name": "iteration",
+        "value": 4.0
+      },
+      {
+        "name": "pool_size",
+        "value": 255.0
+      },
+      {
+        "name": "accuracy",
+        "value": 0.9824561403508771
+      },
+      {
+        "name": "brier_score",
+        "value": 0.02259192334929517
+      },
+      {
+        "name": "n_classes",
+        "value": 2.0
+      },
+      {
+        "name": "memory_usage_mb",
+        "value": 145.34375
+      },
+      {
+        "name": "iteration",
+        "value": 5.0
+      },
+      {
+        "name": "pool_size",
+        "value": 235.0
+      },
+      {
+        "name": "accuracy",
+        "value": 0.9824561403508771
+      },
+      {
+        "name": "brier_score",
+        "value": 0.022554517749560507
+      },
+      {
+        "name": "n_classes",
+        "value": 2.0
+      },
+      {
+        "name": "memory_usage_mb",
+        "value": 145.359375
+      },
+      {
+        "name": "iteration",
+        "value": 6.0
+      },
+      {
+        "name": "pool_size",
+        "value": 215.0
+      },
+      {
+        "name": "accuracy",
+        "value": 0.9824561403508771
+      },
+      {
+        "name": "brier_score",
+        "value": 0.02257462433316025
+      },
+      {
+        "name": "n_classes",
+        "value": 2.0
+      },
+      {
+        "name": "memory_usage_mb",
+        "value": 145.359375
+      },
+      {
+        "name": "iteration",
+        "value": 7.0
+      },
+      {
+        "name": "pool_size",
+        "value": 195.0
+      },
+      {
+        "name": "accuracy",
+        "value": 0.9824561403508771
+      },
+      {
+        "name": "brier_score",
+        "value": 0.021590487846295338
+      },
+      {
+        "name": "n_classes",
+        "value": 2.0
+      },
+      {
+        "name": "memory_usage_mb",
+        "value": 145.375
+      },
+      {
+        "name": "iteration",
+        "value": 8.0
+      },
+      {
+        "name": "pool_size",
+        "value": 175.0
+      },
+      {
+        "name": "accuracy",
+        "value": 0.9824561403508771
+      },
+      {
+        "name": "brier_score",
+        "value": 0.021578744664623083
+      },
+      {
+        "name": "n_classes",
+        "value": 2.0
+      },
+      {
+        "name": "memory_usage_mb",
+        "value": 145.375
+      },
+      {
+        "name": "iteration",
+        "value": 9.0
+      },
+      {
+        "name": "pool_size",
+        "value": 155.0
+      },
+      {
+        "name": "accuracy",
+        "value": 0.9824561403508771
+      },
+      {
+        "name": "brier_score",
+        "value": 0.021610662960483674
+      },
+      {
+        "name": "n_classes",
+        "value": 2.0
+      },
+      {
+        "name": "memory_usage_mb",
+        "value": 145.421875
+      },
+      {
+        "name": "iteration",
+        "value": 10.0
+      }
+    ]
+  },
+  "final_metrics": {
+    "accuracy": 0.9824561403508771,
+    "brier_score": 0.021610662960483674,
+    "confusion_matrix": [
+      [
+        41,
+        1
+      ],
+      [
+        1,
+        71
+      ]
+    ],
+    "classification_report": {
+      "0": {
+        "precision": 0.9761904761904762,
+        "recall": 0.9761904761904762,
+        "f1-score": 0.9761904761904762,
+        "support": 42.0
+      },
+      "1": {
+        "precision": 0.9861111111111112,
+        "recall": 0.9861111111111112,
+        "f1-score": 0.9861111111111112,
+        "support": 72.0
+      },
+      "accuracy": 0.9824561403508771,
+      "macro avg": {
+        "precision": 0.9811507936507937,
+        "recall": 0.9811507936507937,
+        "f1-score": 0.9811507936507937,
+        "support": 114.0
+      },
+      "weighted avg": {
+        "precision": 0.9824561403508771,
+        "recall": 0.9824561403508771,
+        "f1-score": 0.9824561403508771,
+        "support": 114.0
+      }
+    },
+    "calibration_curve": {
+      "prob_true": [
+        0.0,
+        0.0,
+        0.5,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.9838709677419355
+      ],
+      "prob_pred": [
+        0.002904946037478886,
+        0.15892091318394863,
+        0.3578205943526701,
+        0.5393306091749223,
+        0.6239864071896285,
+        0.7081517069303376,
+        0.8632467537245347,
+        0.9831435778420314
+      ]
+    }
+  }
+}

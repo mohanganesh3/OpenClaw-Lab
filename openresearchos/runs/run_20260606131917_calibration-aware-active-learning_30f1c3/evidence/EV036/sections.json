@@ -1,0 +1,6 @@
+{
+  "introduction": "[2510.00528] Quantum Probabilistic Label Refining: Enhancing Label Quality for Robust Image Classification\n\nQuantum Probabilistic Label Refining: Enhancing Label Quality for\n\nRobust Image Classificati",
+  "method": "l.  2022 ; Geirhos et al.  2021 ; Hermann, Chen, and Kornblith  2020 ; Minderer et al.  2021 ) . A key reason is the use of one-hot labels in training, which treat classification as deterministic, for",
+  "results": "Cong, Choi, and Lukin  2019 ) . Specifically, entanglement encodes input-feature correlations, and superposition represents diverse configurations. Quantum measurement then extracts input-dependent pr",
+  "conclusion": "ces by using shallow parameterized circuits without intermediate state collapse, thereby mitigating decoherence and measurement noise  (Cerezo et al.  2021 ; Benedetti et al.  2019 ) .\nEarly works suc"
+}

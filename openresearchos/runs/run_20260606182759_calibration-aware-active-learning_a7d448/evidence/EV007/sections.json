@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\nSELF-REFINE:\nIterative Refinement with Self-Feedback\nAman Madaan1, Niket Tandon2, Prakhar Gupta1, Skyler Hallinan3, Luyu Gao1,\nSarah Wiegreffe2, Uri Alon1, Nouha Dziri2, Shrimai Prabhu",
+  "method": "e release our code and model outputs to ensure the reproducibility of our work.\nAnother limitation of our work is that we exclusively experiment with datasets in English. In other\nlanguages, the curre",
+  "results": "eric feedback\n30%\nSpecific: The response is\nnot specific and does not\nprovide any details or ex-\namples. 1/3\nResponse: It’s understandable,\nI’m sure you’ll do much bet-\nter when you take History next\n",
+  "conclusion": "rations of each task. Crucially, the feedback includes a chain of thought\nstyle reasoning — before generating the score for an acronym for a specific criteria, we generate a\nreasoning chain explicitly"
+}

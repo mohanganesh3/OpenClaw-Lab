@@ -1,0 +1,112 @@
+{
+  "problem_addressed": "Language model agents lack specialized interfaces for complex software engineering tasks, limiting their performance compared to human engineers using tools like IDEs.",
+  "core_claim": "Custom agent-computer interfaces significantly enhance LM agents' ability to autonomously perform software engineering tasks.",
+  "key_contributions": [
+    "Introduction of SWE-agent system with custom agent-computer interface (ACI)",
+    "Achieving state-of-the-art performance on SWE-bench (12.5% pass@1) and HumanEvalFix (87.7%)",
+    "Demonstrating that interface design critically impacts agent behavior and performance"
+  ],
+  "novelty": "Unlike prior work using generic interfaces (shell/interpreter), SWE-agent introduces a purpose-built ACI with LM-friendly commands and feedback formats specifically designed for software engineering tasks.",
+  "method_summary": "SWE-agent enables LMs to interact with computers through a custom interface that translates LM actions into filesystem operations, file edits, and program executions with structured feedback.",
+  "method_components": [
+    "LM Agent core",
+    "Agent-Computer Interface (ACI) with LM-friendly commands",
+    "Computer environment (filesystem, terminal)"
+  ],
+  "key_innovation": "The ACI's LM-friendly command structure and environment feedback format, which bridges the gap between LM reasoning and computer operations by providing structured, interpretable interactions.",
+  "assumptions": [
+    "LMs can effectively follow structured command interfaces",
+    "Repository navigation and file editing are primary bottlenecks in software engineering tasks",
+    "Execution feedback is critical for iterative problem-solving"
+  ],
+  "theoretical_grounding": "None provided; evaluation is entirely empirical through benchmark performance.",
+  "datasets_used": [
+    "SWE-bench Lite dataset",
+    "SWE-bench test set (286 trajectories for GPT-4, 35 trajectories for Claude 3 Opus)"
+  ],
+  "baselines_compared": [
+    "SWE-agent with GPT-4",
+    "SWE-agent with Claude 3 Opus"
+  ],
+  "metrics_used": [
+    "Resolution rate by turn",
+    "Total steps",
+    "Cost in USD",
+    "Action pattern frequency"
+  ],
+  "hyperparameters": "Cost limit of $4.00 per task episode",
+  "compute_required": "Not specified",
+  "seeds": "Not specified",
+  "headline_result": "Resolution performance across different turns with varying success rates",
+  "results_table": [
+    {
+      "method": "SWE-agent with GPT-4",
+      "dataset": "SWE-bench (Full)",
+      "metric": "Resolution by Turn",
+      "value": "60 instances resolved by Turn 5"
+    },
+    {
+      "method": "SWE-agent with Claude 3 Opus",
+      "dataset": "SWE-bench Lite",
+      "metric": "Resolution by Turn",
+      "value": "30 instances resolved by Turn 5"
+    },
+    {
+      "method": "SWE-agent with GPT-4",
+      "dataset": "SWE-bench",
+      "metric": "Total Steps",
+      "value": "Resolved instances show earlier mean with fewer trajectories >120 steps"
+    },
+    {
+      "method": "SWE-agent with GPT-4",
+      "dataset": "SWE-bench",
+      "metric": "Cost",
+      "value": "Resolved instances concentrated below $2.00"
+    },
+    {
+      "method": "Action Patterns",
+      "dataset": "SWE-bench (GPT-4)",
+      "metric": "Pattern Frequency",
+      "value": "create, edit, python: 156 times (Turns 1-3, Reproduction)"
+    },
+    {
+      "method": "Action Patterns",
+      "dataset": "SWE-bench (GPT-4)",
+      "metric": "Pattern Frequency",
+      "value": "edit, python, find_file: 71 times (Turns 2-4, Localization File)"
+    },
+    {
+      "method": "Action Patterns",
+      "dataset": "SWE-bench (GPT-4)",
+      "metric": "Pattern Frequency",
+      "value": "search_dir, open, search_file: 21 times (Turns 1-3, Localization File)"
+    }
+  ],
+  "ablations": "Not explicitly stated in provided text",
+  "improvement_over_baseline": "Claude 3 Opus shows lower resolution rate on SWE-bench Lite compared to GPT-4 on full SWE-bench",
+  "best_result": "Resolution performance across different turns with varying success rates",
+  "key_results": {
+    "SWE-bench (Full)_Resolution by Turn": "60 instances resolved by Turn 5",
+    "SWE-bench Lite_Resolution by Turn": "30 instances resolved by Turn 5",
+    "SWE-bench_Total Steps": "Resolved instances show earlier mean with fewer trajectories >120 steps",
+    "SWE-bench_Cost": "Resolved instances concentrated below $2.00",
+    "SWE-bench (GPT-4)_Pattern Frequency": "edit, python, find_file: 71 times (Turns 2-4, Localization File)"
+  },
+  "limitations_stated": [],
+  "reproducibility": "low",
+  "evidence_id": "EV010",
+  "title": "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
+  "year": 2024,
+  "arxiv_id": "2405.15793",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 196393,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 60,
+  "pdf_tables": 11,
+  "pdf_captions": 55
+}

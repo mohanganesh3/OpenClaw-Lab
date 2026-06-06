@@ -1,0 +1,6 @@
+{
+  "introduction": "[2006.16405] Unsupervised Calibration under Covariate Shift\n\n\\floatsetup\n\n[table]capposition=top\n \\floatsetup [figure]capposition=bottom\n\noddsidemargin has been altered.\n textheight has been altered.\n",
+  "method": "s must not only be accurate, but should also indicate confidence in their own predictions. Uncertainity quantification is important for safety-critical applications and in decision making. This will b",
+  "results": "ution due to covariate shift. This can happen, e.g., when the operating conditions at test time are slightly different. Secondly, labelled test data is often unavailable if distribution shift occurs a",
+  "conclusion": ".,  2018 )  remain uncalibrated in the target domain on using existing calibration methods;\n\n•\n\nWe propose an importance sampling based solution to address the problem of calibration under covariate s"
+}

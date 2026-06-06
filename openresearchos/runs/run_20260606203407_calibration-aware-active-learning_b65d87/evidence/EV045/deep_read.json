@@ -1,0 +1,148 @@
+{
+  "problem_addressed": "The lack of large, high-quality labeled datasets for detecting orbital anomalies among LEO satellites, which manual review cannot scale to cover and rule-based detectors miss most behaviorally important events.",
+  "core_claim": "A multi-tier labeling cascade combining three weak supervision sources (RULE, IMM-UKF, supGP) can generate sufficient high-quality labels to train an effective orbital anomaly detector (PIOT) at scale.",
+  "key_contributions": [
+    "A three-tier labeling cascade (RULE physical rules, IMM-UKF, supGP) producing 8.6M labeled sequences (430M timesteps) from 232M TLE records",
+    "Physics Inspired Orbital Transformer (PIOT) model trained in two stages (coarse rules then high-fidelity IMM-UKF labels) achieving 55.4% maneuver recall and 62.8% decay recall",
+    "An 11-dimensional feature representation including epoch time, observation spacing, and full mean-element state"
+  ],
+  "novelty": "While weak supervision exists, this work uniquely composes classical space situational awareness tools (RULE, IMM-UKF, supGP) into a cascade to overcome labeling bottlenecks for orbital anomalies, demonstrating their combined efficacy at unprecedented scale.",
+  "method_summary": "The approach uses a three-tier labeling cascade combining physics rules (RULE), IMM-UKF, and supGP to generate labels, then trains a two-stage PIOT model on these labels using an 11-feature representation derived from TLE data.",
+  "method_components": [
+    "RULE: Fast physics rule set with priority-ordered thresholds for breakup/decay/maneuver detection",
+    "IMM-UKF: Interacting Multiple Model Unscented Kalman Filter for higher-recall probabilistic labeling",
+    "supGP: Supplemental-element calibration channel for confidence modulation",
+    "PIOT: Physics Inspired Orbital Transformer with 6.5M parameters"
+  ],
+  "key_innovation": "The multi-tier labeling cascade that combines increasing-fidelity weak supervision sources (RULE → IMM-UKF → supGP) to generate 42.6× more anomaly candidates than RULE alone on overlapping data, enabling scalable training.",
+  "assumptions": [
+    "TLE records from Space-Track provide sufficient coverage and quality for sequence construction",
+    "Classical SSA tools contain exploitable weak signals for anomaly detection",
+    "Orbital dynamics are sufficiently localized in time for window-based generalization"
+  ],
+  "theoretical_grounding": "No formal proofs or bounds are provided; empirical validation through recall metrics on held-out test sets and ablation studies (e.g., dt hours feature impact).",
+  "datasets_used": [
+    "TLE catalog (4.30×10^8 timesteps)",
+    "IMM-UKF subset (700 satellites, 1.4×10^6 timesteps)",
+    "supGP-augmented subset (subset of 700 satellites)"
+  ],
+  "baselines_compared": [
+    "RULE (rule-based method)",
+    "ab 6feat baseline (small, 6 feat)",
+    "ab 7feat with dt hours (small, 7 feat)"
+  ],
+  "metrics_used": [
+    "precision",
+    "recall",
+    "F1 score",
+    "accuracy"
+  ],
+  "hyperparameters": "AdamW optimizer (η=10^-3, weight decay=10^-4), batch size=256, sequence length=50, gradient clipping=1.0, 50 epochs per stage, cosine-annealing schedule",
+  "compute_required": "single CPU thread for IMM-UKF (seconds per satellite), GPU implied for PIOT training",
+  "seeds": null,
+  "headline_result": "PIOT-medium achieves F1=0.852 for normal class and accuracy=0.746 on test set",
+  "results_table": [
+    {
+      "method": "PIOT-medium",
+      "dataset": "held-out test set (8.6×10^5 sequences)",
+      "metric": "F1",
+      "value": "0.852 (normal class)"
+    },
+    {
+      "method": "PIOT-medium",
+      "dataset": "held-out test set",
+      "metric": "Accuracy",
+      "value": "0.746"
+    },
+    {
+      "method": "PIOT-refine",
+      "dataset": "held-out test set",
+      "metric": "F1",
+      "value": "0.807 (normal class)"
+    },
+    {
+      "method": "RULE",
+      "dataset": "200-satellite subset",
+      "metric": "Non-normal labels",
+      "value": "812"
+    },
+    {
+      "method": "IMM-UKF",
+      "dataset": "200-satellite subset",
+      "metric": "Non-normal labels",
+      "value": "34576"
+    }
+  ],
+  "ablations": [
+    "PIOT-small (6 features) shows poor performance (F1 not reported for non-normal classes)",
+    "ab 7feat with dt hours demonstrates impact of adding time delta feature",
+    "PIOT-refine shows effect of oversampling and decay-weighting"
+  ],
+  "improvement_over_baseline": "IMM-UKF detects 42.6× more anomalies than RULE (34,576 vs 812 labels on same data)",
+  "stated_limitations": [
+    "The physical rule set is described as 'conservative' and may miss behaviorally important anomalies",
+    "The approach relies on weak supervision sources which may have inherent biases or inaccuracies"
+  ],
+  "unstated_weaknesses": [
+    "No discussion of how errors in weak supervision sources propagate to the final model",
+    "Unclear how the approach handles novel or unexpected anomalies",
+    "No evaluation of computational requirements or scalability to even larger datasets"
+  ],
+  "threats_to_validity": [
+    "Generalizability to other domains beyond orbital mechanics is not established",
+    "Potential systematic biases introduced by weak supervision sources",
+    "Risk of overfitting to specific characteristics of TLE data"
+  ],
+  "reproducibility": "low (no code availability mentioned, limited implementation details)",
+  "open_questions": [
+    "How does performance compare to fully supervised methods when sufficient labeled data is available?",
+    "Can the multi-tier labeling cascade be adapted to other domains with similar data scarcity?",
+    "How does the approach handle the trade-off between label quality and quantity?"
+  ],
+  "future_work": [
+    "Adapting the multi-tier labeling cascade to other domains",
+    "Incorporating more sophisticated weak supervision sources",
+    "Developing methods to quantify and mitigate bias in weak supervision"
+  ],
+  "gaps_this_enables": [
+    "Framework for generating large-scale labeled data using weak supervision in medical imaging",
+    "Method for incorporating domain knowledge into the labeling process",
+    "Approach for handling data scarcity in high-stakes classification tasks"
+  ],
+  "relevance_to_topic": "The paper presents a method for generating large-scale labeled data using weak supervision that could be adapted for medical image classification where labeled data is scarce.",
+  "relation_type": "method_source",
+  "can_run_on_macbook": false,
+  "reusable_assets": [
+    "Multi-tier labeling cascade approach",
+    "Framework for combining multiple weak supervision sources",
+    "Concept of physics-informed learning for labeling"
+  ],
+  "code_available": false,
+  "code_url": null,
+  "best_result": "PIOT-medium achieves F1=0.852 for normal class and accuracy=0.746 on test set",
+  "key_results": {
+    "held-out test set (8.6×10^5 sequences)_F1": "0.852 (normal class)",
+    "held-out test set_Accuracy": "0.746",
+    "held-out test set_F1": "0.807 (normal class)",
+    "200-satellite subset_Non-normal labels": "34576"
+  },
+  "limitations_stated": [
+    "The physical rule set is described as 'conservative' and may miss behaviorally important anomalies",
+    "The approach relies on weak supervision sources which may have inherent biases or inaccuracies"
+  ],
+  "evidence_id": "EV045",
+  "title": "Multi-Tier Labeling and Physics-Informed Learning for Orbital Anomaly Detection at Scale",
+  "year": 2026,
+  "arxiv_id": "2605.09790",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 41579,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 14,
+  "pdf_tables": 0,
+  "pdf_captions": 3
+}

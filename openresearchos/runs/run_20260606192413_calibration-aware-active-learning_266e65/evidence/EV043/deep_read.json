@@ -1,0 +1,98 @@
+{
+  "problem_addressed": "Reliable task-specific ranking of LLMs from sparse and imbalanced pairwise comparisons, where global leaderboards mask task heterogeneity and per-task estimates are statistically unstable.",
+  "core_claim": "A low-rank framework for task-specific LLM ranking can share information across related tasks while preserving task-specific differences, enabling uncertainty-aware certification under sparse comparisons.",
+  "key_contributions": [
+    "Development of a max-norm accurate estimator for latent score matrices with task-wise top-K recovery guarantees under sparse sampling",
+    "Construction of debiased one-step estimators for fixed score contrasts yielding asymptotically valid confidence intervals attaining semiparametric efficiency lower bound",
+    "Extension to high-dimensional ranking regime with simultaneous confidence sets for per-task ranks and valid tests for top-K membership across many tasks and models"
+  ],
+  "novelty": "Integration of low-rank matrix modeling with uncertainty quantification for task-specific LLM ranking, enabling information sharing across tasks while preserving heterogeneity and providing calibrated confidence intervals - prior work lacked this combined approach.",
+  "method_summary": "The method models the task-by-model ability matrix as low-rank to share information across related tasks, develops max-norm accurate estimators for score matrices, constructs debiased estimators for score contrasts, and uses Gaussian and multiplier-bootstrap calibration for simultaneous inference across tasks.",
+  "method_components": [
+    "Low-rank assumption for task-by-model ability matrix",
+    "Max-norm accurate estimator for latent score matrix",
+    "Debiased one-step estimators for fixed score contrasts",
+    "Multiplier-bootstrap calibration for simultaneous confidence sets"
+  ],
+  "key_innovation": "The low-rank structure that enables information sharing across related tasks while preserving task-specific differences, allowing improved sample efficiency and uncertainty quantification in sparse regimes.",
+  "assumptions": [
+    "The task-by-model ability matrix is approximately low-rank",
+    "Pairwise comparisons follow a Bradley-Terry model",
+    "Sufficient regularity conditions for asymptotic results",
+    "The number of latent dimensions r is known or can be estimated"
+  ],
+  "theoretical_grounding": "The method provides task-wise top-K recovery guarantees under sparse sampling, achieves semiparametric efficiency lower bound for score-gap inference, and maintains bootstrap coverage guarantees through Gaussian and multiplier-bootstrap calibration.",
+  "datasets_used": [],
+  "baselines_compared": [],
+  "metrics_used": [],
+  "hyperparameters": null,
+  "compute_required": null,
+  "seeds": null,
+  "headline_result": null,
+  "results_table": [],
+  "ablations": [],
+  "improvement_over_baseline": null,
+  "stated_limitations": [
+    "Global leaderboards mask task heterogeneity",
+    "Independent task-specific ranking is statistically unstable under sparse and imbalanced comparisons"
+  ],
+  "unstated_weaknesses": [
+    "Uncertainty quantification framework details are incomplete in the abstract",
+    "No discussion of calibration requirements for medical applications",
+    "Limited exploration of computational efficiency for large-scale applications",
+    "No consideration of domain-specific challenges in medical imaging"
+  ],
+  "threats_to_validity": [
+    "The low-rank assumption may not hold for diverse medical imaging tasks",
+    "Potential bias in pairwise comparisons if certain models are overrepresented",
+    "Framework may not account for critical importance of calibration in medical applications"
+  ],
+  "reproducibility": "low",
+  "open_questions": [
+    "How does the uncertainty quantification framework translate to confidence intervals?",
+    "Can the method be adapted for medical image classification where calibration is critical?",
+    "How well does the low-rank assumption hold for highly specialized medical tasks?",
+    "What are the computational requirements for scaling to large numbers of models and tasks?"
+  ],
+  "future_work": [
+    "Complete development of the uncertainty quantification framework",
+    "Extend the method to other domains like medical imaging",
+    "Improve the method for handling extremely sparse comparison data"
+  ],
+  "gaps_this_enables": [
+    "Framework for calibrating model rankings in medical imaging",
+    "More efficient evaluation of medical AI systems with limited expert comparisons",
+    "Support for active learning strategies in medical image classification"
+  ],
+  "relevance_to_topic": "The paper's focus on uncertainty-aware ranking under sparse comparisons could be adapted for calibrating medical image classification models, though the direct applicability is limited due to domain differences.",
+  "relation_type": "tangential",
+  "can_run_on_macbook": "unknown",
+  "reusable_assets": [
+    "Low-rank framework for task-specific ranking",
+    "Max-norm accurate estimator for latent score matrices",
+    "Uncertainty quantification approach"
+  ],
+  "code_available": "unknown",
+  "code_url": null,
+  "best_result": null,
+  "key_results": {},
+  "limitations_stated": [
+    "Global leaderboards mask task heterogeneity",
+    "Independent task-specific ranking is statistically unstable under sparse and imbalanced comparisons"
+  ],
+  "evidence_id": "EV043",
+  "title": "Low Rank for Rank: Uncertainty-Aware Task-Specific LLM Ranking under Sparse Pairwise Comparisons",
+  "year": 2026,
+  "arxiv_id": "2605.29395",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 146953,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 58,
+  "pdf_tables": 5,
+  "pdf_captions": 11
+}

@@ -1,0 +1,25 @@
+{
+  "baseline": {
+    "accuracy": 0.9825,
+    "f1_macro": 0.9812
+  },
+  "proposed": {
+    "accuracy": 0.9474,
+    "f1_macro": 0.9429
+  },
+  "improvement": {
+    "accuracy": -0.0351,
+    "f1_macro": -0.0383
+  },
+  "better": false,
+  "dataset": "breast_cancer",
+  "baseline_name": "LogisticRegression",
+  "proposed_name": "GradientBoosting",
+  "seeds": [
+    42
+  ],
+  "epochs": 1,
+  "samples_train": 455,
+  "samples_test": 114,
+  "note": "Fallback experiment \u2014 LLM codegen was unavailable"
+}

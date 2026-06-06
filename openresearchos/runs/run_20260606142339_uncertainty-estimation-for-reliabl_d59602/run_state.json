@@ -1,0 +1,386 @@
+{
+  "schema_version": 1,
+  "run_id": "run_20260606142339_uncertainty-estimation-for-reliabl_d59602",
+  "topic": "uncertainty estimation for reliable medical image classification",
+  "created_at": "2026-06-06T14:24:04.146Z",
+  "updated_at": "2026-06-06T14:34:43.830Z",
+  "current_state": "EVIDENCE_LOCKED",
+  "scope_classification": {
+    "label": "local_experiment",
+    "rationale": "The topic can be explored with small simulations, synthetic data, or lightweight local experiments on the Mac.",
+    "feasibility_note": "Yes, this research topic is highly feasible on a MacBook M4, as the 36GB of RAM and powerful MPS GPU are well-suited for training common deep learning models like ResNets or Vision Transformers on medical datasets. Suitable public datasets include CheXpert for chest X-ray classification, the ISIC Archive for skin lesion analysis, and the BraTS dataset for 3D brain tumor segmentation. Experiment time will vary, but training a standard model on a 2D dataset like CheXpert could take under an hour, "
+  },
+  "search_queries": [
+    "Uncertainty estimation methods",
+    "Deep learning uncertainty",
+    "Medical image classification",
+    "Clinical decision support",
+    "Bayesian neural networks",
+    "Monte Carlo dropout",
+    "Ensemble methods uncertainty",
+    "Uncertainty estimation comparison",
+    "Medical uncertainty benchmarks",
+    "Evaluation metrics uncertainty",
+    "Uncertainty estimation limitations",
+    "Deep learning confidence issues",
+    "Medical uncertainty datasets",
+    "Uncertainty estimation surveys",
+    "Deep learning uncertainty review"
+  ],
+  "evidence_ids": [
+    "EV001",
+    "EV002",
+    "EV003",
+    "EV004",
+    "EV005",
+    "EV006",
+    "EV007",
+    "EV008",
+    "EV009",
+    "EV010",
+    "EV011",
+    "EV012",
+    "EV013",
+    "EV014",
+    "EV015",
+    "EV016",
+    "EV017",
+    "EV018",
+    "EV019",
+    "EV020",
+    "EV021",
+    "EV022",
+    "EV023",
+    "EV024",
+    "EV025",
+    "EV026",
+    "EV027",
+    "EV028",
+    "EV029",
+    "EV030",
+    "EV031",
+    "EV032",
+    "EV033",
+    "EV034",
+    "EV035",
+    "EV036",
+    "EV037"
+  ],
+  "parsed_papers": [
+    {
+      "evidence_id": "EV001",
+      "title": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery",
+      "year": 2024,
+      "url": "https://arxiv.org/abs/2408.06292",
+      "arxiv_id": "2408.06292",
+      "core_claim": "The AI Scientist generates novel research ideas, writes code, executes experiments, visualizes results, describes its findings by writing a full scientific paper, and then runs a simulated review process for evaluation.",
+      "method_or_focus": [
+        "The integration of a complete automated scientific workflow from idea generation to paper writing and evaluation, including an automated reviewer that achieves near-human performance."
+      ],
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {
+        "reviewer_performance": "near-human"
+      },
+      "best_result": "Papers that exceed the acceptance threshold at a top machine learning conference as judged by the automated reviewer",
+      "limitations": [],
+      "code_available": true,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "full_text_chars": 6031,
+      "full_text_tool": "arxiv_abstract_openclaw",
+      "possible_gap": "Based on full paper reading: The integration of a complete automated scientific workflow from idea generation to paper writing and evaluation, including an automated reviewer that achieves near-human performance.",
+      "deep_read": {
+        "method_summary": "The AI Scientist generates novel research ideas, writes code, executes experiments, visualizes results, describes its findings by writing a full scientific paper, and then runs a simulated review process for evaluation.",
+        "key_innovation": "The integration of a complete automated scientific workflow from idea generation to paper writing and evaluation, including an automated reviewer that achieves near-human performance.",
+        "datasets_used": [],
+        "baselines_compared": [],
+        "key_results": {
+          "reviewer_performance": "near-human"
+        },
+        "best_result": "Papers that exceed the acceptance threshold at a top machine learning conference as judged by the automated reviewer",
+        "limitations_stated": [],
+        "code_available": true,
+        "code_url": null,
+        "reproducibility": null,
+        "compute_required": "less than $15 per paper",
+        "can_run_on_macbook": null,
+        "evidence_id": "EV001",
+        "title": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery",
+        "year": 2024,
+        "arxiv_id": "2408.06292",
+        "full_text_tool": "arxiv_abstract_openclaw",
+        "full_text_chars": 6031,
+        "sections_found": [
+          "introduction",
+          "method",
+          "results",
+          "conclusion"
+        ]
+      }
+    },
+    {
+      "evidence_id": "EV002",
+      "title": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
+      "year": 2025,
+      "url": "https://arxiv.org/abs/2504.08066",
+      "arxiv_id": "2504.08066",
+      "core_claim": "Research paper: The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
+      "method_or_focus": [
+        "See full text"
+      ],
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null,
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "full_text_chars": 5885,
+      "full_text_tool": "arxiv_abstract_openclaw",
+      "possible_gap": "Based on full paper reading: See full text",
+      "deep_read": {
+        "method_summary": "Research paper: The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
+        "key_innovation": "See full text",
+        "datasets_used": [],
+        "baselines_compared": [],
+        "key_results": {},
+        "best_result": null,
+        "limitations_stated": [],
+        "code_available": false,
+        "code_url": null,
+        "reproducibility": "unknown",
+        "compute_required": "unknown",
+        "can_run_on_macbook": true,
+        "evidence_id": "EV002",
+        "title": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
+        "year": 2025,
+        "arxiv_id": "2504.08066",
+        "full_text_tool": "arxiv_abstract_openclaw",
+        "full_text_chars": 5885,
+        "sections_found": [
+          "introduction",
+          "method",
+          "results",
+          "conclusion"
+        ]
+      }
+    },
+    {
+      "evidence_id": "EV003",
+      "title": "Agent Laboratory: Using LLM Agents as Research Assistants",
+      "year": 2025,
+      "url": "https://arxiv.org/abs/2501.04227",
+      "arxiv_id": "2501.04227",
+      "core_claim": "A framework that accepts human research ideas and progresses through literature review, experimentation, and report writing stages, producing code repositories and research reports with user feedback at each stage.",
+      "method_or_focus": [
+        "Using LLM agents as autonomous research assistants that can complete the entire research process from idea to final paper."
+      ],
+      "datasets_used": [],
+      "baselines_compared": [
+        "previous autonomous research methods"
+      ],
+      "key_results": {
+        "cost_reduction": "84% decrease compared to previous autonomous research methods",
+        "human_feedback_impact": "significantly improves overall quality of research",
+        "o1_preview_performance": "best research outcomes"
+      },
+      "best_result": "84% decrease in research expenses compared to previous autonomous research methods",
+      "limitations": [],
+      "code_available": true,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "full_text_chars": 5667,
+      "full_text_tool": "arxiv_abstract_openclaw",
+      "possible_gap": "Based on full paper reading: Using LLM agents as autonomous research assistants that can complete the entire research process from idea to final paper.",
+      "deep_read": {
+        "method_summary": "A framework that accepts human research ideas and progresses through literature review, experimentation, and report writing stages, producing code repositories and research reports with user feedback at each stage.",
+        "key_innovation": "Using LLM agents as autonomous research assistants that can complete the entire research process from idea to final paper.",
+        "datasets_used": [],
+        "baselines_compared": [
+          "previous autonomous research methods"
+        ],
+        "key_results": {
+          "cost_reduction": "84% decrease compared to previous autonomous research methods",
+          "human_feedback_impact": "significantly improves overall quality of research",
+          "o1_preview_performance": "best research outcomes"
+        },
+        "best_result": "84% decrease in research expenses compared to previous autonomous research methods",
+        "limitations_stated": [],
+        "code_available": true,
+        "code_url": null,
+        "reproducibility": "low",
+        "compute_required": null,
+        "can_run_on_macbook": null,
+        "evidence_id": "EV003",
+        "title": "Agent Laboratory: Using LLM Agents as Research Assistants",
+        "year": 2025,
+        "arxiv_id": "2501.04227",
+        "full_text_tool": "arxiv_abstract_openclaw",
+        "full_text_chars": 5667,
+        "sections_found": [
+          "introduction",
+          "method",
+          "results",
+          "conclusion"
+        ]
+      }
+    },
+    {
+      "evidence_id": "EV004",
+      "title": "MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering",
+      "year": 2024,
+      "url": "https://arxiv.org/abs/2410.07095",
+      "arxiv_id": "2410.07095",
+      "core_claim": "Created MLE-bench benchmark using real-world ML engineering tasks from Kaggle competitions, evaluated frontier language models with open-source agent scaffolds against human baselines from Kaggle leaderboards.",
+      "method_or_focus": [
+        "MLE-bench benchmark for evaluating ML engineering capabilities of AI agents on real-world tasks",
+        "Kaggle competitions"
+      ],
+      "datasets_used": [
+        "Kaggle competitions"
+      ],
+      "baselines_compared": [
+        "OpenAI's o1-preview with AIDE scaffolding",
+        "other frontier language models with various scaffolds"
+      ],
+      "key_results": {
+        "Kaggle bronze medal level achievement": "16.9%"
+      },
+      "best_result": "OpenAI's o1-preview with AIDE scaffolding achieves at least Kaggle bronze medal level in 16.9% of competitions",
+      "limitations": [
+        "impact of contamination from pre-training"
+      ],
+      "code_available": true,
+      "code_url": "this http URL",
+      "can_run_on_macbook": true,
+      "full_text_chars": 5420,
+      "full_text_tool": "arxiv_abstract_openclaw",
+      "possible_gap": "Based on full paper reading: MLE-bench benchmark for evaluating ML engineering capabilities of AI agents on real-world tasks",
+      "deep_read": {
+        "method_summary": "Created MLE-bench benchmark using real-world ML engineering tasks from Kaggle competitions, evaluated frontier language models with open-source agent scaffolds against human baselines from Kaggle leaderboards.",
+        "key_innovation": "MLE-bench benchmark for evaluating ML engineering capabilities of AI agents on real-world tasks",
+        "datasets_used": [
+          "Kaggle competitions"
+        ],
+        "baselines_compared": [
+          "OpenAI's o1-preview with AIDE scaffolding",
+          "other frontier language models with various scaffolds"
+        ],
+        "key_results": {
+          "Kaggle bronze medal level achievement": "16.9%"
+        },
+        "best_result": "OpenAI's o1-preview with AIDE scaffolding achieves at least Kaggle bronze medal level in 16.9% of competitions",
+        "limitations_stated": [
+          "impact of contamination from pre-training"
+        ],
+        "code_available": true,
+        "code_url": "this http URL",
+        "reproducibility": "medium",
+        "compute_required": "not specified",
+        "can_run_on_macbook": "not specified",
+        "evidence_id": "EV004",
+        "title": "MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering",
+        "year": 2024,
+        "arxiv_id": "2410.07095",
+        "full_text_tool": "arxiv_abstract_openclaw",
+        "full_text_chars": 5420,
+        "sections_found": [
+          "introduction",
+          "method",
+          "results",
+          "conclusion"
+        ]
+      }
+    },
+    {
+      "evidence_id": "EV005",
+      "title": "AIBuildAI-2: Scalable Agentic AI Research and Engineering",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2605.27873",
+      "arxiv_id": "2605.27873",
+      "core_claim": "Research paper: AIBuildAI-2: Scalable Agentic AI Research and Engineering",
+      "method_or_focus": [
+        "See full text"
+      ],
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null,
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "full_text_chars": 5853,
+      "full_text_tool": "arxiv_html_openclaw",
+      "possible_gap": "Based on full paper reading: See full text",
+      "deep_read": {
+        "method_summary": "Research paper: AIBuildAI-2: Scalable Agentic AI Research and Engineering",
+        "key_innovation": "See full text",
+        "datasets_used": [],
+        "baselines_compared": [],
+        "key_results": {},
+        "best_result": null,
+        "limitations_stated": [],
+        "code_available": false,
+        "code_url": null,
+        "reproducibility": "unknown",
+        "compute_required": "unknown",
+        "can_run_on_macbook": true,
+        "evidence_id": "EV005",
+        "title": "AIBuildAI-2: Scalable Agentic AI Research and Engineering",
+        "year": 2026,
+        "arxiv_id": "2605.27873",
+        "full_text_tool": "arxiv_html_openclaw",
+        "full_text_chars": 5853,
+        "sections_found": [
+          "introduction",
+          "method",
+          "results",
+          "conclusion"
+        ]
+      }
+    }
+  ],
+  "claim_graph": {
+    "claims": [],
+    "links": []
+  },
+  "research_gaps": [],
+  "idea_tree": [],
+  "reviewer_scores": [],
+  "experiment_candidates": [],
+  "approval_status": {},
+  "micro_probe_results": [],
+  "probe_results": [],
+  "ablation_results": [],
+  "mvp_results": [],
+  "failed_ideas": [],
+  "validation_results": [],
+  "paper_readiness_level": "RRL-0",
+  "final_output_path": null,
+  "history": [
+    {
+      "at": "2026-06-06T14:24:04.146Z",
+      "state": "TOPIC_SCOPED",
+      "detail": "The topic can be explored with small simulations, synthetic data, or lightweight local experiments on the Mac."
+    },
+    {
+      "at": "2026-06-06T14:24:04.146Z",
+      "state": "SEARCH_PLAN_CREATED",
+      "detail": "15 queries created (LLM-generated)."
+    },
+    {
+      "at": "2026-06-06T14:24:07.784Z",
+      "state": "LITERATURE_DISCOVERY_RUNNING",
+      "detail": "Starting structured literature discovery."
+    },
+    {
+      "at": "2026-06-06T14:27:39.785Z",
+      "state": "EVIDENCE_LOCKED",
+      "detail": "37 papers found (target was 50+)."
+    }
+  ],
+  "discovery_errors": []
+}

@@ -1,0 +1,6 @@
+{"ts":"2026-06-06T13:14:05.541Z","label":"relevance:0-8","ok":true,"ms":42282,"calls":1}
+{"ts":"2026-06-06T13:14:10.235Z","label":"relevance:8-16","ok":true,"ms":4694,"calls":2}
+{"ts":"2026-06-06T13:15:02.426Z","label":"relevance:16-24","ok":true,"ms":52190,"calls":3}
+{"ts":"2026-06-06T13:15:59.872Z","label":"relevance:24-32","ok":true,"ms":57446,"calls":4}
+{"ts":"2026-06-06T13:16:05.601Z","label":"relevance:32-40","ok":true,"ms":5728,"calls":5}
+{"ts":"2026-06-06T13:16:15.278Z","label":"relevance:40-48","ok":true,"ms":9677,"calls":6}

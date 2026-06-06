@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\nInformation-Theoretic Generalization Analysis for\nExpected Calibration Error\nFutoshi Futami∗\nOsaka University / RIKEN AIP\nfutami.futoshi.es@osaka-u.ac.jp\nMasahiro Fujisawa∗†\nRIKEN AIP\n",
+  "method": "ented\nin Corollary 5 of Appendix E.5. Moreover, our bound values are lower than those for the exist-\ning recalibration methods on the test dataset. These results suggest that reusing training data cou",
+  "results": "onent is written as\nB\nX\ni=1\nt(−1)vi\nn\n· [l(w, ˜zm,1, i) −l(w, ˜zm,0, i)] −t(−1)vi\nn\n· [l(w, ˜zm,0, i) −l(w, ˜zm,1, i)]\n= 2t(−1)v1\nn\n·\n\u0010\u0000[ym,1 −fw(xm,1)] · 1fw(xm,1)∈I1\n\u0001\n−\n\u0000[ym,0 −fw(xm,0)] · 1fw(xm,0",
+  "conclusion": "the positivity and triangle inequality, so this is the semi-metric.\nWe can show the following relation for the total bias and this ρ as follows; recall that we can express\nthe TCE as\nTCE(fw) = E[|g(V "
+}

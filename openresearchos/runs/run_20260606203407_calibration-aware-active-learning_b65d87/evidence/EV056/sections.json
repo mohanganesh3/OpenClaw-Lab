@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\nDeep-Learning Control of Lower-Limb Exoskeletons via simplified\nTherapist Input\nLorenzo Vianello1, Cl´ement Lhoste2, Emek Barıs¸ K¨uc¸¨uktabak7, Matthew R. Short1,4,\nLevi Hargrove5,6, ",
+  "method": "(θbp), while force-sensitive resistor\n(FSR) footplates measure ground reaction forces to quantify\nthe weight distribution of the user (α). Communication\nbetween motors and sensors is achieved using CA",
+  "results": "choice is implemented as the\nself-selected mean of the features (µf). Another parameter\nthat can be manually adjusted is an increment δ, which is\nadded to the mean of the gait phase. This adjustment r",
+  "conclusion": "d was grouped based on similarities in\ngait features and is presented using the mean and standard deviation. Negative joint power means exoskeleton assistance to the user while positive joint\npower re"
+}

@@ -1,0 +1,19 @@
+{
+  "error": "No concrete numeric findings or tables were found in the provided RESULTS/EXPERIMENTS section of the paper. The text appears to be truncated and does not contain the actual experimental results with numerical data. The provided content only includes the methodology, setup, and general descriptions of experiments but lacks specific numeric tables or quantitative results that would normally be found in a RESULTS section.",
+  "reproducibility": "low",
+  "evidence_id": "EV002",
+  "title": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
+  "year": 2025,
+  "arxiv_id": "2504.08066",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 199337,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 69,
+  "pdf_tables": 2,
+  "pdf_captions": 51
+}

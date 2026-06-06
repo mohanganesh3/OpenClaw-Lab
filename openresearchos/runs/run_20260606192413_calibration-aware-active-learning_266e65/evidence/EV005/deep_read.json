@@ -1,0 +1,96 @@
+{
+  "problem_addressed": "Developing AI models remains a heavily manual process that is challenging for natural scientists without specialized AI engineering expertise.",
+  "core_claim": "AIBuildAI-2, a knowledge-enhanced agent with an external, evolving knowledge system, can automatically build AI models at a level competitive with expert human practitioners.",
+  "key_contributions": [
+    "AIBuildAI-2 introduces a hierarchical knowledge system that organizes curated AI development knowledge into high-level instructions and low-level documents.",
+    "The system evolves from the agent's own experience by distilling completed runs into structured takeaways.",
+    "AIBuildAI-2 achieves top performance on benchmarks, outperforming existing baseline methods and competing with expert human practitioners."
+  ],
+  "novelty": "The novelty lies in the hierarchical, evolving knowledge system that grounds design and implementation decisions in externally verifiable expertise, rather than relying solely on the static parametric knowledge of large language models.",
+  "method_summary": "AIBuildAI-2 uses a hierarchical sub-agent design with a dynamically loaded knowledge system that is initialized from web-scraped AI development documents and continually evolves from the agent's own experience.",
+  "method_components": [
+    "Hierarchical knowledge system with high-level instructions and low-level documents",
+    "Dynamic context loading based on current state and AI task",
+    "Experience distillation mechanism that writes structured takeaways back into the knowledge system"
+  ],
+  "key_innovation": "The key innovation is the evolving hierarchical knowledge system that allows the agent to ground its decisions in concrete, externally verifiable expertise and continuously improve from its own experience.",
+  "assumptions": [
+    "The web-scraped documents provide sufficient coverage of AI development knowledge",
+    "The agent can effectively distill its experience into structured takeaways",
+    "The hierarchical organization of knowledge enables effective context loading"
+  ],
+  "theoretical_grounding": "The paper does not provide explicit theoretical proofs or bounds, but demonstrates empirical results across multiple benchmarks and competitions.",
+  "datasets_used": [],
+  "baselines_compared": [],
+  "metrics_used": [],
+  "hyperparameters": null,
+  "compute_required": null,
+  "seeds": null,
+  "headline_result": null,
+  "results_table": [],
+  "ablations": [],
+  "improvement_over_baseline": null,
+  "stated_limitations": [
+    "Performance of agents is limited by parametric knowledge of underlying large language models",
+    "Difficulty for natural scientists without specialized AI engineering expertise"
+  ],
+  "unstated_weaknesses": [
+    "Potential computational resource requirements not addressed",
+    "Lack of interpretability in automatically generated models",
+    "Potential for inheriting biases from training data of underlying LLMs",
+    "Limited discussion on model calibration aspects"
+  ],
+  "threats_to_validity": [
+    "Generalizability concerns to specialized domains like medical imaging",
+    "Risk of overfitting to specific tasks or datasets",
+    "Potential domain mismatch between general AI knowledge and medical requirements"
+  ],
+  "reproducibility": "medium",
+  "open_questions": [
+    "How well do these agents perform on specialized domains like medical image classification?",
+    "Can the agents be guided to produce models with better calibration?",
+    "What are the computational requirements for running these agents?",
+    "How to integrate domain-specific medical knowledge into the agentic framework?"
+  ],
+  "future_work": [
+    "Improving parametric knowledge of agents",
+    "Integrating domain-specific knowledge",
+    "Enhancing interpretability of automatically generated models",
+    "Addressing calibration challenges in specialized domains"
+  ],
+  "gaps_this_enables": [
+    "Automated model building for medical image classification",
+    "Integration of calibration-aware techniques into agentic frameworks",
+    "Development of domain-specific agents for medical applications"
+  ],
+  "relevance_to_topic": "The paper introduces an agentic approach to AI model building which could potentially be applied to medical image classification to automate the process and possibly improve calibration.",
+  "relation_type": "foundational",
+  "can_run_on_macbook": false,
+  "reusable_assets": [
+    "agentic AI framework",
+    "knowledge-enhanced model building approach"
+  ],
+  "code_available": true,
+  "code_url": "https://github.com/ucas-zry/AIBuildAI-2",
+  "best_result": null,
+  "key_results": {},
+  "limitations_stated": [
+    "Performance of agents is limited by parametric knowledge of underlying large language models",
+    "Difficulty for natural scientists without specialized AI engineering expertise"
+  ],
+  "evidence_id": "EV005",
+  "title": "AIBuildAI-2: Scalable Agentic AI Research and Engineering",
+  "year": 2026,
+  "arxiv_id": "2605.27873",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 69106,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 12,
+  "pdf_tables": 0,
+  "pdf_captions": 4
+}

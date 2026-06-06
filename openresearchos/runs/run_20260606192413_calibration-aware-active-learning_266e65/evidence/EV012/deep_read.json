@@ -1,0 +1,55 @@
+{
+  "problem_addressed": "Reward models in RLHF overlook epistemic uncertainty from limited human feedback, leading to reward hacking and alignment issues.",
+  "core_claim": "RewardUQ provides a unified framework that systematically evaluates uncertainty quantification methods, revealing model size and initialization as the most impactful factors.",
+  "key_contributions": [
+    "Introduces RewardUQ framework for systematic UQ evaluation",
+    "Compares four UQ architectures (ENS-MLP, ENS-LoRA, MCD-DPO, BAY-LIN) on accuracy/calibration metrics",
+    "Proposes new ranking strategy combining accuracy and calibration",
+    "Releases open-source Python package for UQ evaluation"
+  ],
+  "novelty": "First unified framework for comparing uncertainty-aware reward models across multiple dimensions, revealing design insights overlooked in prior work.",
+  "method_summary": "Trains four UQ architectures using embeddings from pretrained LLMs, modifies standard losses for each method, and evaluates on standard metrics with a unified procedure.",
+  "method_components": [
+    "MLP head ensembles with regularization terms",
+    "LoRA adapter ensembles for parameter efficiency",
+    "DPO-based Monte Carlo dropout for implicit reward uncertainty",
+    "Bayesian linear heads with Laplace approximation"
+  ],
+  "key_innovation": "Unified evaluation framework enabling systematic comparison of UQ methods across accuracy, calibration, and ranking dimensions.",
+  "assumptions": [
+    "Epistemic uncertainty can be quantified via model ensembles/dropout/Bayesian methods",
+    "Embeddings from pretrained LLMs capture relevant features",
+    "Standard accuracy/calibration metrics adequately evaluate UQ performance",
+    "Model size/initialization dominate over architectural differences"
+  ],
+  "theoretical_grounding": "References Laplace approximation for BAY-LIN, standard RLHF theory, and uncertainty quantification principles; no new theoretical proofs provided.",
+  "datasets_used": [],
+  "baselines_compared": [],
+  "metrics_used": [],
+  "hyperparameters": null,
+  "compute_required": null,
+  "seeds": null,
+  "headline_result": null,
+  "results_table": [],
+  "ablations": [],
+  "improvement_over_baseline": null,
+  "best_result": null,
+  "key_results": {},
+  "limitations_stated": [],
+  "reproducibility": "low",
+  "evidence_id": "EV012",
+  "title": "RewardUQ: A Unified Framework for Uncertainty-Aware Reward Models",
+  "year": 2026,
+  "arxiv_id": "2602.24040",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 72336,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 25,
+  "pdf_tables": 7,
+  "pdf_captions": 7
+}

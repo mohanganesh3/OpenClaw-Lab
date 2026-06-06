@@ -1,0 +1,38 @@
+{
+  "paper_title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+  "main_subject": "Voyager, an LLM-powered embodied lifelong learning agent for Minecraft",
+  "key_components": [
+    "Automatic curriculum for open-ended exploration",
+    "Skill library for storing and retrieving complex behaviors",
+    "Iterative prompting mechanism that generates executable code for embodied control"
+  ],
+  "technical_approach": {
+    "action_space": "Code instead of low-level motor commands",
+    "llm_used": "GPT-4 (blackbox LLM)",
+    "method": "Prompting and in-context learning",
+    "training_requirements": "No model parameter access or gradient-based training/finetuning needed"
+  },
+  "capabilities": [
+    "Drives exploration",
+    "Masters a wide range of skills",
+    "Makes new discoveries continually without human intervention",
+    "Proposes suitable tasks based on current skill level and world state",
+    "Refines skills based on environmental feedback",
+    "Commits mastered skills to memory for future reuse",
+    "Continually explores the world in a self-driven manner"
+  ],
+  "environment": "Minecraft world",
+  "key_innovation": "First LLM-powered embodied lifelong learning agent",
+  "evidence_id": "EV008",
+  "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+  "year": 2023,
+  "arxiv_id": "2305.16291",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}

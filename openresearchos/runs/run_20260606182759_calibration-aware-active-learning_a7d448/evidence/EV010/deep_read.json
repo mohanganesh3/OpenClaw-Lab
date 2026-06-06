@@ -1,0 +1,96 @@
+{
+  "problem_addressed": "Language model agents lack specially-built interfaces for complex software engineering tasks, limiting their effectiveness compared to human engineers who benefit from sophisticated applications like IDEs.",
+  "core_claim": "Custom agent-computer interfaces can significantly enhance language model agents' ability to perform software engineering tasks by providing LM-friendly commands and feedback formats.",
+  "key_contributions": [
+    "Introduction of SWE-agent: a system facilitating LM agents to autonomously use computers for software engineering tasks",
+    "Design of custom agent-computer interface (ACI) that enhances code creation, repository navigation, and test execution",
+    "Achieving state-of-the-art performance on SWE-bench (12.5% pass@1) and HumanEvalFix (87.7%) benchmarks"
+  ],
+  "novelty": "Unlike prior work where agents used existing applications like Linux shell or Python interpreter, SWE-agent introduces a purpose-built agent-computer interface specifically designed for LM agents performing software engineering tasks.",
+  "method_summary": "SWE-agent implements a custom agent-computer interface (ACI) that provides LM-friendly commands and environment feedback, enabling language model agents to interact with computers for software engineering tasks including file manipulation, repository navigation, and program execution.",
+  "method_components": [
+    "Agent-Computer Interface (ACI) with LM-friendly commands",
+    "Filesystem interaction capabilities for code creation and editing",
+    "Repository navigation and file management tools",
+    "Terminal interface for executing tests and programs"
+  ],
+  "key_innovation": "The agent-computer interface (ACI) that translates complex software engineering operations into LM-friendly commands and provides structured feedback, effectively bridging the gap between language model capabilities and software engineering requirements.",
+  "assumptions": [
+    "Language model agents can effectively utilize computers when provided with appropriate interfaces",
+    "Interface design significantly impacts agent performance beyond just the underlying LM capabilities",
+    "LM agents represent a new category of end users with distinct needs from human users"
+  ],
+  "theoretical_grounding": "The paper does not provide explicit mathematical proofs or theoretical bounds, focusing instead on empirical evaluation of the proposed system's performance on established benchmarks.",
+  "datasets_used": [
+    "SWE-bench Lite dataset",
+    "SWE-bench test set (full)"
+  ],
+  "baselines_compared": [
+    "SWE-agent with GPT-4",
+    "SWE-agent with Claude 3 Opus"
+  ],
+  "metrics_used": [
+    "% Resolved",
+    "Number of turns",
+    "Total steps",
+    "Cost (USD)"
+  ],
+  "hyperparameters": "null",
+  "compute_required": "null",
+  "seeds": "null",
+  "headline_result": "SWE-agent with GPT-4 resolved 286 trajectories on SWE-bench (full)",
+  "results_table": [
+    {
+      "method": "SWE-agent with GPT-4",
+      "dataset": "SWE-bench (full)",
+      "metric": "Trajectories resolved",
+      "value": "286"
+    },
+    {
+      "method": "SWE-agent with Claude 3 Opus",
+      "dataset": "SWE-bench Lite",
+      "metric": "Trajectories resolved",
+      "value": "35"
+    },
+    {
+      "method": "SWE-agent with GPT-4",
+      "dataset": "SWE-bench (full)",
+      "metric": "Most frequent early action pattern",
+      "value": "create, edit, python (156 times)"
+    },
+    {
+      "method": "SWE-agent with GPT-4",
+      "dataset": "SWE-bench (full)",
+      "metric": "Cost limit per episode",
+      "value": "$4.00"
+    }
+  ],
+  "ablations": [
+    "null"
+  ],
+  "improvement_over_baseline": "null",
+  "best_result": "SWE-agent with GPT-4 resolved 286 trajectories on SWE-bench (full)",
+  "key_results": {
+    "SWE-bench (full)_Trajectories resolved": "286",
+    "SWE-bench Lite_Trajectories resolved": "35",
+    "SWE-bench (full)_Most frequent early action pattern": "create, edit, python (156 times)",
+    "SWE-bench (full)_Cost limit per episode": "$4.00"
+  },
+  "limitations_stated": [],
+  "reproducibility": "low",
+  "evidence_id": "EV010",
+  "title": "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
+  "year": 2024,
+  "arxiv_id": "2405.15793",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 196393,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 60,
+  "pdf_tables": 11,
+  "pdf_captions": 55
+}

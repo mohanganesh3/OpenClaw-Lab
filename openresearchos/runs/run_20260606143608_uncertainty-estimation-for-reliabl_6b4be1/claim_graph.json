@@ -1,0 +1,715 @@
+{
+  "claims": [
+    {
+      "claim_id": "CL001",
+      "evidence_id": "EV001",
+      "text": "The AI Scientist is an AI system that generates novel research ideas, writes code, executes experiments, visualizes results, writes full scientific papers, and runs a simulated review process in an open-ended fashion.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": "The AI Scientist can produce papers that exceed the acceptance threshold at a top machine learning conference as judged by the automated reviewer."
+    },
+    {
+      "claim_id": "CL002",
+      "evidence_id": "EV002",
+      "text": "The AI Scientist-v2 uses a progressive agentic tree-search methodology managed by a dedicated experiment manager agent to autonomously generate scientific manuscripts, eliminating reliance on human-authored code templates and generalizing across diverse machine learning domains, with an enhanced AI reviewer component that integrates a Vision-Language Model feedback loop for iterative refinement of figures.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": "One fully AI-generated manuscript exceeded the average human acceptance threshold in a peer-reviewed ICLR workshop, marking the first instance of a fully AI-generated paper successfully navigating peer review."
+    },
+    {
+      "claim_id": "CL003",
+      "evidence_id": "EV003",
+      "text": "Research paper: Agent Laboratory: Using LLM Agents as Research Assistants",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL004",
+      "evidence_id": "EV004",
+      "text": "The paper evaluates ML engineering capabilities of AI agents using Kaggle competitions as tasks, establishing human baselines from Kaggle leaderboards and testing various language models with open-source scaffolds.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "Kaggle competitions (diverse set of challenging tasks)"
+      ],
+      "best_result": "OpenAI's o1-preview with AIDE scaffolding achieves at least the level of a Kaggle bronze medal in 16.9% of competitions."
+    },
+    {
+      "claim_id": "CL005",
+      "evidence_id": "EV005",
+      "text": "AIBuildAI-2 is a knowledge-enhanced agent with an external, hierarchical knowledge system that dynamically loads relevant context for AI model building, initialized with web-collected AI development documents and continually evolving through distilled experience from completed tasks.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "MLE-Bench"
+      ],
+      "best_result": "First place on MLE-Bench with a 70.7% medal rate"
+    },
+    {
+      "claim_id": "CL006",
+      "evidence_id": "EV006",
+      "text": "Uses verbal feedback and memory to help agents improve across trials, motivating explicit failure memory and revision loops.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL007",
+      "evidence_id": "EV007",
+      "text": "Studies iterative generation, feedback, and refinement, providing background for reviewer-style critique and revision policies.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL008",
+      "evidence_id": "EV008",
+      "text": "Demonstrates open-ended skill acquisition with memory and iterative exploration, relevant to long-running agent loops and durable lessons.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL009",
+      "evidence_id": "EV009",
+      "text": "Introduces agent evaluation tasks and motivates structured benchmarks for agent behavior rather than isolated text quality.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL010",
+      "evidence_id": "EV010",
+      "text": "SWE-agent introduces a custom agent-computer interface (ACI) that enables language model agents to autonomously perform software engineering tasks by enhancing their ability to create/edit code files, navigate repositories, and execute tests.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "SWE-bench",
+        "HumanEvalFix"
+      ],
+      "best_result": "87.7% pass@1 on HumanEvalFix"
+    },
+    {
+      "claim_id": "CL011",
+      "evidence_id": "EV011",
+      "text": "Ignoring uncertainty from forest cover mapping in error propagation for wall-to-wall AGB maps leads to inaccurate confidence intervals for totals.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL012",
+      "evidence_id": "EV012",
+      "text": "High-fidelity retrieval techniques can reduce uncertainties, specifically solid interference and spectral noise, in nacelle-mounted Doppler lidar measurements.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL013",
+      "evidence_id": "EV013",
+      "text": "The paper proposes an active interaction approach for autonomous driving where the ego vehicle's behavior is designed to improve confidence in other vehicles' intention estimations.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL014",
+      "evidence_id": "EV014",
+      "text": "The paper introduces ERGO-II, an improved Bayesian Optimization technique for robust design under uncertainty.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL015",
+      "evidence_id": "EV015",
+      "text": "Off-policy evaluation and learning (OPE/L) use offline observational data to make better decisions, which is crucial in applications where online experimentation is limited. However, depending entirel",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL016",
+      "evidence_id": "EV016",
+      "text": "This paper presents a meta-cognitive fuzzy adaptive controller for a single-rod hydraulic cylinder.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL017",
+      "evidence_id": "EV017",
+      "text": "The paper proposes a data-driven approach that combines shrinkage estimation and cross-validation to adapt the shrinkage intensity for better covariance matrix estimation.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL018",
+      "evidence_id": "EV018",
+      "text": "This paper proposes a novel learning-based optimal control approach for tracking control of robot manipulators with model parameter uncertainty.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL019",
+      "evidence_id": "EV019",
+      "text": "Existing approaches for battery health forecasting often rely on extensive cycling histories and continuously monitored cells. In contrast, many real-world scenarios provide only sparse information, e",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL020",
+      "evidence_id": "EV020",
+      "text": "A robust interacting multiple model unscented particle filter algorithm is presented to solve the problems of particle degradation and difficulty in selecting the importance density function in particle filter algorithms.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL021",
+      "evidence_id": "EV021",
+      "text": "This paper proposes a state-of-charge observer that achieves finite-time stability and is robust against unknown and time-varying parameter uncertainties.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL022",
+      "evidence_id": "EV022",
+      "text": "Deep learning algorithms have recently been shown to be a successful tool in estimating parameters of statistical models for which simulation is easy, but likelihood computation is challenging. This i",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL023",
+      "evidence_id": "EV023",
+      "text": "This article develops an innovative prognostic framework for predicting the remaining useful life (RUL) of MOSFET devices.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL024",
+      "evidence_id": "EV024",
+      "text": "A method is proposed to convert standard neural networks into Bayesian neural networks for uncertainty estimation by sampling similar networks during inference.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL025",
+      "evidence_id": "EV025",
+      "text": "Paper about methodology, account, dynamic, variability (abstract-only, no PDF read).",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL026",
+      "evidence_id": "EV026",
+      "text": "This article investigates the robust steady‐state matrix‐weighted fusion (MWF) filtering problem for multisensor multichannel autoregressive (AR) signal with multiple uncertainties, which can be transformed into the state estimation problems in the state space representation.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL027",
+      "evidence_id": "EV027",
+      "text": "This work aims to develop a gas turbine model using NARX and LSTM neural networks to optimize its operation.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL028",
+      "evidence_id": "EV028",
+      "text": "This paper proposes an automatic early warning method for electricity market trading risks by constructing a Bayesian network to estimate transaction risk values.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL029",
+      "evidence_id": "EV029",
+      "text": "This paper proposes an efficient method for uncertainty estimation in semantic segmentation using distillation.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL030",
+      "evidence_id": "EV030",
+      "text": "Uncertainty Quantification (UQ) in wind speed forecasting is a critical challenge in wind power production due to the inherently volatile nature of wind. By quantifying the associated risks and return",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL031",
+      "evidence_id": "EV031",
+      "text": "Accurate EV power estimation underpins range prediction and energy management, yet practitioners need both point accuracy and trustworthy uncertainty. We propose an anchored-ensemble Long Short-Term M",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL032",
+      "evidence_id": "EV032",
+      "text": "This paper presents a method for distributed nonlinear fusion estimation in clustered binary sensor networks.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL033",
+      "evidence_id": "EV033",
+      "text": "The paper proposes an intelligent framework to automate the selection of optimal measurement areas for vision-based vibration analysis, overcoming the limitations of manual point selection.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL034",
+      "evidence_id": "EV034",
+      "text": "This study investigates how Explainable AI (XAI) might improve decision-making in the healthcare industry by fostering greater transparency, trust, and dependability.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL035",
+      "evidence_id": "EV035",
+      "text": "A fundamental limitation of applying semi-supervised learning in real-world settings is the assumption that unlabeled test data contains only classes previously encountered in the labeled training dat",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL036",
+      "evidence_id": "EV036",
+      "text": "Integrated communications and sensing (ICS) has recently emerged as an enabling technology for ubiquitous sensing and IoT applications. For ICS application to autonomous vehicles (AVs), optimizing the",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL037",
+      "evidence_id": "EV037",
+      "text": "This paper proposes a home energy management algorithm using deep reinforcement learning to solve energy optimization problems in the face of power demand and supply uncertainties.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL038",
+      "evidence_id": "EV038",
+      "text": "This paper introduces an explainable neuro-symbolic spiking neural network (NS-SNN) framework for high-precision and fully interpretable intracranial tumor diagnosis.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL039",
+      "evidence_id": "EV039",
+      "text": "This study develops a multi-time scale coordination scheduling framework to balance cost minimization and renewable energy utilization.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL040",
+      "evidence_id": "EV040",
+      "text": "An application-oriented land-based hyperspectral target detection framework based on 3D–2D CNN and transfer learning is proposed.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL041",
+      "evidence_id": "EV041",
+      "text": "This study proposes a carbon-aware smart mobility simulation framework designed to support low-emission urban transportation planning through data-driven modeling and simulation.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL042",
+      "evidence_id": "EV042",
+      "text": "Pathomics analysis can identify potential subtypes of diffuse gliomas.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL043",
+      "evidence_id": "EV043",
+      "text": "This survey provides a comprehensive overview of Reinforcement Learning (RL), beginning with fundamental concepts and progressing to the prominent categories of RL algorithms.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL044",
+      "evidence_id": "EV044",
+      "text": "The authors propose a deep reinforcement learning algorithm enhanced with distributionally robust optimization to solve the computationally expensive unit commitment problem under uncertainty.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL045",
+      "evidence_id": "EV045",
+      "text": "The paper proposes a universal PINNs method to solve partial differential equations with a point source.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL046",
+      "evidence_id": "EV046",
+      "text": "This research study proposes a deep learning-based approach to predict air traffic congestion in the context of UTM over a period of three minutes.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL047",
+      "evidence_id": "EV047",
+      "text": "We developed a semi-automated framework for multi-label classification of IHC images to provide a reliable model for annotating cell type-specific protein expression patterns in human tissues.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL048",
+      "evidence_id": "EV048",
+      "text": "Artificial intelligence is profoundly impacting global sustainability, with the potential to create either a utopian or a dystopian future.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL049",
+      "evidence_id": "EV049",
+      "text": "This paper presents an integrated model that uses deep learning to recognize the composition of battery black mass and optimize recycling routes.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL050",
+      "evidence_id": "EV050",
+      "text": "This paper presents a theoretical competitive ratio and a reinforcement learning-based algorithm for a novel perishable inventory management problem (LS-PMU).",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL051",
+      "evidence_id": "EV051",
+      "text": "This paper proposes a deep learning model that is robust and capable of handling highly uncertain inputs.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL052",
+      "evidence_id": "EV052",
+      "text": "Blood cell morphology assessment via light microscopy constitutes a cornerstone of haematological diagnostics, providing crucial insights into diverse pathological conditions. This complex task demand",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL053",
+      "evidence_id": "EV053",
+      "text": "Evidential deep learning (EDL) models, based on Subjective Logic, introduce a principled and computationally efficient way to make deterministic neural networks uncertainty-aware. The resulting eviden",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL054",
+      "evidence_id": "EV054",
+      "text": "This paper presents an integrated guidance and control framework for the autonomous vertical recovery of hypersonic vehicles by combining convex optimization for trajectory planning with deep reinforcement learning for adaptive landing control.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    }
+  ],
+  "links": [
+    {
+      "from": "EV001",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: A fully automated system that performs the entire scientific discovery process from idea generation to paper writing and evaluation at less than $15 per paper."
+    },
+    {
+      "from": "EV002",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: Novel progressive agentic tree-search methodology managed by a dedicated experiment manager agent that eliminates reliance on human-authored code templates and generalizes across diverse machine learning domains."
+    },
+    {
+      "from": "EV003",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See full text"
+    },
+    {
+      "from": "EV004",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: MLE-bench, a benchmark for evaluating ML engineering capabilities of AI agents using real-world Kaggle competitions."
+    },
+    {
+      "from": "EV005",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: an external, evolving knowledge system that dynamically loads relevant context for AI model building, initialized with web-collected AI development documents and continually evolving through distilled experience from completed tasks"
+    },
+    {
+      "from": "EV006",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See deep_read.json for details"
+    },
+    {
+      "from": "EV007",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See deep_read.json for details"
+    },
+    {
+      "from": "EV008",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See deep_read.json for details"
+    },
+    {
+      "from": "EV009",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See deep_read.json for details"
+    },
+    {
+      "from": "EV010",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: Custom agent-computer interface (ACI) designed specifically for language model agents to interact with software engineering environments"
+    },
+    {
+      "from": "EV011",
+      "relation": "suggests_gap",
+      "to": "A significant gap in current research is the lack of methods to quantify and incorporate forest mapping-related uncertainty into the error propagation of wall-to-wall AGB maps."
+    },
+    {
+      "from": "EV012",
+      "relation": "suggests_gap",
+      "to": "The abstract is incomplete, cutting off before detailing the specific 'high-fidelity retrieval techniques' or their validation."
+    },
+    {
+      "from": "EV013",
+      "relation": "suggests_gap",
+      "to": "A potential gap is the lack of detail on the specific behavioral strategies the ego vehicle employs to elicit clearer intentions from surrounding vehicles."
+    },
+    {
+      "from": "EV014",
+      "relation": "suggests_gap",
+      "to": "The original ERGO method may have been computationally inefficient or had limited capabilities for handling complex robust design problems."
+    },
+    {
+      "from": "EV015",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See deep_read.json for details"
+    },
+    {
+      "from": "EV016",
+      "relation": "suggests_gap",
+      "to": "Existing fuzzy controllers for hydraulic systems lack the self-awareness and dynamic learning capabilities of a meta-cognitive approach."
+    },
+    {
+      "from": "EV017",
+      "relation": "suggests_gap",
+      "to": "The paper claims the method is applicable to asset management but lacks experimental validation to demonstrate its effectiveness in improving portfolio selection."
+    },
+    {
+      "from": "EV018",
+      "relation": "suggests_gap",
+      "to": "The gap lies in the lack of an optimal, learning-based control method that can effectively manage the tracking of robot manipulators with significant model parameter uncertainty."
+    },
+    {
+      "from": "EV019",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See deep_read.json for details"
+    },
+    {
+      "from": "EV020",
+      "relation": "suggests_gap",
+      "to": "The abstract describes the proposed algorithm's mechanism but lacks any information on its performance, validation, or comparison with existing methods."
+    },
+    {
+      "from": "EV021",
+      "relation": "suggests_gap",
+      "to": "Future work could focus on extending the method to not only be robust against unknown parameters but also to actively estimate them in real-time."
+    },
+    {
+      "from": "EV022",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See deep_read.json for details"
+    },
+    {
+      "from": "EV023",
+      "relation": "suggests_gap",
+      "to": "There was a need for a novel and effective framework to accurately predict the remaining useful life of Power MOSFETs to improve system reliability and maintenance planning."
+    },
+    {
+      "from": "EV024",
+      "relation": "suggests_gap",
+      "to": "The abstract does not discuss the computational overhead of sampling multiple networks at each forward pass."
+    },
+    {
+      "from": "EV025",
+      "relation": "suggests_gap",
+      "to": "Need full PDF reading to identify specific gaps in this paper."
+    },
+    {
+      "from": "EV026",
+      "relation": "suggests_gap",
+      "to": "The abstract does not present any results or performance comparisons to demonstrate the effectiveness of the proposed method."
+    },
+    {
+      "from": "EV027",
+      "relation": "suggests_gap",
+      "to": "The abstract does not detail the specific methods or results of the uncertainty evaluation, focusing instead on the model's development."
+    },
+    {
+      "from": "EV028",
+      "relation": "suggests_gap",
+      "to": "The paper does not discuss the model's performance against other state-of-the-art risk prediction methods or its real-world deployment and validation."
+    },
+    {
+      "from": "EV029",
+      "relation": "suggests_gap",
+      "to": "The abstract is incomplete and does not describe the specific distillation method proposed to achieve efficient uncertainty estimation."
+    },
+    {
+      "from": "EV030",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See deep_read.json for details"
+    },
+    {
+      "from": "EV031",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See deep_read.json for details"
+    },
+    {
+      "from": "EV032",
+      "relation": "suggests_gap",
+      "to": "The method is specifically designed for clustered networks and its applicability to other network topologies, such as fully distributed or centralized systems, is not explored."
+    },
+    {
+      "from": "EV033",
+      "relation": "suggests_gap",
+      "to": "The abstract does not detail the validation process or performance comparison of the proposed intelligent framework against existing manual methods."
+    },
+    {
+      "from": "EV034",
+      "relation": "suggests_gap",
+      "to": "The gap between the high accuracy of AI models and their lack of transparency in critical healthcare applications."
+    },
+    {
+      "from": "EV035",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See deep_read.json for details"
+    },
+    {
+      "from": "EV036",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See deep_read.json for details"
+    },
+    {
+      "from": "EV037",
+      "relation": "suggests_gap",
+      "to": "The paper focuses on energy optimization but does not explicitly mention how user comfort or preferences are factored into the control algorithm."
+    },
+    {
+      "from": "EV038",
+      "relation": "suggests_gap",
+      "to": "The abstract does not detail how the 'fully interpretable' nature of the model is achieved or validated."
+    },
+    {
+      "from": "EV039",
+      "relation": "suggests_gap",
+      "to": "The need for extensive real-world validation and testing of the framework's performance under highly dynamic, real-time conditions."
+    },
+    {
+      "from": "EV040",
+      "relation": "suggests_gap",
+      "to": "The paper does not specify whether the proposed framework is a supervised or unsupervised method, leaving a gap in understanding its training requirements and applicability compared to the other main class of methods."
+    },
+    {
+      "from": "EV041",
+      "relation": "suggests_gap",
+      "to": "The study proposes a simulation framework, but its real-world implementation and validation in an actual city are not addressed."
+    },
+    {
+      "from": "EV042",
+      "relation": "suggests_gap",
+      "to": "The abstract is incomplete, leaving the specific improvements and findings of the expanded study unstated."
+    },
+    {
+      "from": "EV043",
+      "relation": "suggests_gap",
+      "to": "The paper focuses on established RL families and may not cover emerging trends or future research directions in the field."
+    },
+    {
+      "from": "EV044",
+      "relation": "suggests_gap",
+      "to": "The abstract is cut off, leaving the specific improvements gained from using distributionally robust optimization unclear."
+    },
+    {
+      "from": "EV045",
+      "relation": "suggests_gap",
+      "to": "The paper focuses on PDEs with a point source, but its application to more complex or time-varying source distributions is not addressed."
+    },
+    {
+      "from": "EV046",
+      "relation": "suggests_gap",
+      "to": "There is limited research on predicting air traffic flows specifically for Uncrewed Aircraft Traffic Management (UTM)."
+    },
+    {
+      "from": "EV047",
+      "relation": "suggests_gap",
+      "to": "Confidence in AI predictions needs to be addressed."
+    },
+    {
+      "from": "EV048",
+      "relation": "suggests_gap",
+      "to": "The abstract does not specify the mechanisms through which AI could lead to either a utopian or dystopian future."
+    },
+    {
+      "from": "EV049",
+      "relation": "suggests_gap",
+      "to": "The abstract does not detail the specific objectives or constraints used in the multiobjective optimization of the recycling routes."
+    },
+    {
+      "from": "EV050",
+      "relation": "suggests_gap",
+      "to": "The abstract is incomplete, cutting off before fully describing the reinforcement learning algorithm and its performance evaluation."
+    },
+    {
+      "from": "EV051",
+      "relation": "suggests_gap",
+      "to": "The abstract is incomplete, cutting off mid-sentence."
+    },
+    {
+      "from": "EV052",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See deep_read.json for details"
+    },
+    {
+      "from": "EV053",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See deep_read.json for details"
+    },
+    {
+      "from": "EV054",
+      "relation": "suggests_gap",
+      "to": "The abstract is incomplete and provides no results or performance data, making it impossible to evaluate the effectiveness or superiority of the proposed framework over existing methods."
+    }
+  ]
+}

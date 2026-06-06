@@ -1,0 +1,6 @@
+{
+  "introduction": "[2207.04125] Out of Distribution Detection via Neural Network Anchoring\n\n\\jmlrvolume\n\n189\n \\jmlryear 2022\n \\jmlrworkshop ACML 2022\n\nOut of Distribution Detection via Neural Network Anchoring\n\n\\Name Ru",
+  "method": "challenging problem, one needs to obtain an effective characterization of the ID data manifold, such that the discrepancy between test data and the  inferred manifold  can be used to recognize the mod",
+  "results": "erature value (chosen with either external or additional validation data), even this simple scaling leads to much improved OOD detection performance.\n\nHeteroscedastic temperature scaling with anchorin",
+  "conclusion": "We use this temperature estimate to calibrate the predictions for a test sample, using which we can compute an OOD score using existing scoring functions (e.g., entropy). See\n\nFig.\n\n1  (A) for an illu"
+}

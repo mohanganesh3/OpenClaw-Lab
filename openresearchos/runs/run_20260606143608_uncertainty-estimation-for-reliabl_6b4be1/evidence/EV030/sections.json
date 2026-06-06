@@ -1,0 +1,6 @@
+{
+  "introduction": "[2505.18284] Tube Loss based Deep Networks For Improving the Probabilistic Forecasting of Wind Speed\n\nTube Loss based Deep Networks For Improving the Probabilistic Forecasting of Wind Speed\n\nPritam An",
+  "method": "ile regression.\n\nI\n\nIntroduction\n\nI-A\n\nBackground\n\nIt is well known that fossil fuels cannot meet our future energy needs because they are rapidly depleting and pose significant environmental risks. W",
+  "results": "idence. Probabilistic forecasting is essentially a problem of estimating Prediction Interval (PI) with time-series data with a given target calibration\n\n1  −  α\n\n1-\\alpha\n\n.\n\nThere are several methods",
+  "conclusion": "functions for obtaining probabilistic forecast by minimizing\nthe pinball loss function  [ 8 ] . These models have gained popularity among researchers for modeling wind power due to its simplicity and "
+}

@@ -1,0 +1,111 @@
+{
+  "problem_addressed": "Stochastic nonconvex optimization with inexact gradient and Hessian evaluations, extending deterministic adaptive cubic regularization to handle probabilistic accuracy without variance restrictions.",
+  "core_claim": "The stochastic adaptive cubic regularization method achieves optimal O(ε^{-3/2}) expected iteration complexity for reaching first-order stationary points under inexact derivative evaluations.",
+  "key_contributions": [
+    "Adapts deterministic ARC with dynamic Hessian accuracy to stochastic setting with inexact gradients",
+    "Maintains optimal worst-case complexity under probabilistic accuracy assumptions",
+    "Demonstrates computational benefits via numerical tests on finite-sum minimization"
+  ],
+  "novelty": "Combines inexact gradient evaluations with dynamic Hessian accuracy in ARC framework while preserving optimal complexity, unlike prior work requiring exact gradients or imposing variance restrictions.",
+  "method_summary": "Implements stochastic ARC with probabilistic model accuracy requirements, adaptive Hessian accuracy via Ck, and implicit gradient accuracy conditions, using trust-region style acceptance criteria to ensure complexity preservation.",
+  "method_components": [
+    "Probabilistic accuracy model (Definition 2.1) with events I(1)k, I(2)k, I(3)k",
+    "Dynamic Hessian accuracy via adaptive Ck in model (2.2)",
+    "Implicit gradient accuracy condition (2.10) with bound κg",
+    "Acceptance ratio ρk and step size control"
+  ],
+  "key_innovation": "Adaptive accuracy mechanism that adjusts Hessian requirements based on gradient magnitude (via Ck) while maintaining implicit gradient accuracy, enabling optimal complexity without variance constraints.",
+  "assumptions": [
+    "Lipschitz continuous Hessian (Assumption 2.1 ii)",
+    "Bounded inexact derivatives: ∥∇f(xk)∥≤κg, ∥∇2f(xk)∥≤κB (2.12)",
+    "Probabilistic accuracy: Pr(Ik|F_{k-1})≥p for fixed p∈(0,1] (2.13)",
+    "Parameter constraints: c≥α(1-β)κg, β∈(0,1), η∈(0,1)"
+  ],
+  "theoretical_grounding": "Expected iteration complexity O(ε^{-3/2}) proven via Lemma 3.1-3.4, bounding gradient/Hessian errors under accuracy events and showing sufficient decrease on successful iterations (3.28).",
+  "datasets_used": [
+    "binary classification dataset (sigmoid loss) with training set size N and testing set size NT"
+  ],
+  "baselines_compared": [
+    "exact gradient version of [3]"
+  ],
+  "metrics_used": [
+    "error on testing data (mean squared error of predictions)",
+    "gradient norm ∥∇f(xk)∥"
+  ],
+  "hyperparameters": "σ0=10⁻¹, σmin=10⁻⁵, x0=(0,...,0)ᵀ, pj=0.8 (gradient and Hessian), α=0.1, β=0.5, ǫ=5·10⁻³, η=0.8, γ=2",
+  "compute_required": "not specified",
+  "seeds": null,
+  "headline_result": null,
+  "results_table": [],
+  "ablations": [
+    "inclusion of inexact gradient evaluations vs exact gradients"
+  ],
+  "improvement_over_baseline": "computational cost saving (qualitative claim)",
+  "stated_limitations": [
+    "The paper assumes exact function evaluations despite considering inexact gradient evaluations",
+    "The analysis does not consider restrictions on the variance of errors",
+    "The paper focuses on theoretical analysis without empirical validation"
+  ],
+  "unstated_weaknesses": [
+    "Limited discussion of computational efficiency for large-scale applications",
+    "No empirical validation on real-world datasets",
+    "The mathematical framework may not directly translate to practical deep learning scenarios",
+    "No comparison with existing optimization techniques"
+  ],
+  "threats_to_validity": [
+    "Theoretical assumptions may not hold in real medical imaging applications",
+    "The analysis might not account for specific challenges in medical image classification",
+    "Limited discussion of hyperparameter sensitivity"
+  ],
+  "reproducibility": "low (code? data? seeds?)",
+  "open_questions": [
+    "How does this method compare to existing optimization techniques in practice?",
+    "What are the computational trade-offs?",
+    "How does it perform on specific medical imaging tasks?",
+    "What is the impact of the adaptive accuracy requirements on convergence speed?"
+  ],
+  "future_work": [
+    "Empirical validation on real-world datasets",
+    "Extension to practical deep learning applications",
+    "Comparison with existing optimization techniques",
+    "Exploration of computational efficiency"
+  ],
+  "gaps_this_enables": [
+    "Application of adaptive cubic regularization to medical image classification",
+    "More efficient training of calibration-aware models",
+    "Better handling of noisy gradients in distributed medical imaging scenarios",
+    "Potential integration with active learning frameworks"
+  ],
+  "relevance_to_topic": "The optimization techniques could potentially improve training of calibration-aware active learning models for medical image classification.",
+  "relation_type": "foundational",
+  "can_run_on_macbook": true,
+  "reusable_assets": [
+    "Mathematical framework for adaptive cubic regularization",
+    "Dynamic Hessian accuracy requirements",
+    "Stochastic analysis techniques"
+  ],
+  "code_available": false,
+  "code_url": null,
+  "best_result": null,
+  "key_results": {},
+  "limitations_stated": [
+    "The paper assumes exact function evaluations despite considering inexact gradient evaluations",
+    "The analysis does not consider restrictions on the variance of errors",
+    "The paper focuses on theoretical analysis without empirical validation"
+  ],
+  "evidence_id": "EV042",
+  "title": "Stochastic analysis of an adaptive cubic regularization method under inexact gradient evaluations and dynamic Hessian accuracy",
+  "year": 2020,
+  "arxiv_id": "2001.10827",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 79915,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 33,
+  "pdf_tables": 11,
+  "pdf_captions": 9
+}

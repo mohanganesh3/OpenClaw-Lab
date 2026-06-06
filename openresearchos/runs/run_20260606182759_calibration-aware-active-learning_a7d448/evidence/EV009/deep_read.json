@@ -1,0 +1,115 @@
+{
+  "problem_addressed": "The need for a comprehensive benchmark to evaluate LLMs as agents in interactive environments, revealing performance gaps between commercial and open-source models.",
+  "core_claim": "AGENTBENCH provides a standardized, multi-dimensional benchmark that holistically assesses LLM agent capabilities, exposing critical weaknesses in reasoning and instruction following.",
+  "key_contributions": [
+    "Introduction of AGENTBENCH with 8 distinct interactive environments (OS, Database, Knowledge, Graph, Digital Card Game, Lateral Thinking Puzzle, House-keeping, Web Browsing/Shopping)",
+    "Extensive evaluation of 29 API-based and open-source LLMs, revealing significant performance disparities (commercial avg: 4.01 vs OSS avg: 0.51)",
+    "Identification of failure reasons: poor long-term reasoning, decision-making, and instruction following abilities"
+  ],
+  "novelty": "Unlike prior benchmarks focusing on single tasks, AGENTBENCH uniquely combines multiple interactive environments to holistically evaluate LLM agent capabilities with real-world applicability.",
+  "method_summary": "The method constructs 8 interactive environments simulating real-world tasks, evaluates LLMs through task completion metrics, and analyzes failure patterns across reasoning, decision-making, and instruction-following dimensions.",
+  "method_components": [
+    "Environment design with specific interaction protocols (e.g., OS command execution, database queries, web navigation)",
+    "Evaluation framework measuring task success rates and error categorization",
+    "Comparative analysis across 29 models including API-based (GPT-4, Claude-3) and open-source (Llama-2-70B, Vicuna-13B)"
+  ],
+  "key_innovation": "The multi-environment benchmark architecture that simultaneously tests diverse agent capabilities (reasoning, decision-making, instruction following) in interactive settings, revealing systemic weaknesses.",
+  "assumptions": [
+    "LLMs can function as autonomous agents in structured environments",
+    "Performance in benchmark environments correlates with real-world agent utility",
+    "Task completion rates are valid proxies for agent competence"
+  ],
+  "theoretical_grounding": "Empirical evaluation framework without formal proofs; relies on statistical analysis of task performance across environments and model scales.",
+  "datasets_used": [
+    "FREEBASE (GrailQA, ComplexWebQuestions, GraphQuestions) - 1,663 questions"
+  ],
+  "baselines_compared": [
+    "gpt-4",
+    "gpt-3.5-turbo"
+  ],
+  "metrics_used": [
+    "F1 score",
+    "Exact Match",
+    "Executability"
+  ],
+  "hyperparameters": "null",
+  "compute_required": "null",
+  "seeds": "null",
+  "headline_result": "gpt-3.5-turbo achieves 0.92 on UPDATE operations in re-annotated data",
+  "results_table": [
+    {
+      "method": "gpt-4",
+      "dataset": "original",
+      "metric": "INSERT",
+      "value": "0.32"
+    },
+    {
+      "method": "gpt-4",
+      "dataset": "new",
+      "metric": "INSERT",
+      "value": "0.27"
+    },
+    {
+      "method": "gpt-4",
+      "dataset": "original",
+      "metric": "UPDATE",
+      "value": "0.32"
+    },
+    {
+      "method": "gpt-4",
+      "dataset": "new",
+      "metric": "UPDATE",
+      "value": "0.66"
+    },
+    {
+      "method": "gpt-3.5-turbo",
+      "dataset": "original",
+      "metric": "INSERT",
+      "value": "0.23"
+    },
+    {
+      "method": "gpt-3.5-turbo",
+      "dataset": "new",
+      "metric": "INSERT",
+      "value": "0.19"
+    },
+    {
+      "method": "gpt-3.5-turbo",
+      "dataset": "original",
+      "metric": "UPDATE",
+      "value": "0.66"
+    },
+    {
+      "method": "gpt-3.5-turbo",
+      "dataset": "new",
+      "metric": "UPDATE",
+      "value": "0.92"
+    }
+  ],
+  "ablations": [],
+  "improvement_over_baseline": "gpt-4 improves on UPDATE operations from 0.32 to 0.66 in re-annotated data",
+  "best_result": "gpt-3.5-turbo achieves 0.92 on UPDATE operations in re-annotated data",
+  "key_results": {
+    "original_INSERT": "0.23",
+    "new_INSERT": "0.19",
+    "original_UPDATE": "0.32",
+    "new_UPDATE": "0.66"
+  },
+  "limitations_stated": [],
+  "reproducibility": "low",
+  "evidence_id": "EV009",
+  "title": "AgentBench: Evaluating LLMs as Agents",
+  "year": 2023,
+  "arxiv_id": "2308.03688",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 182651,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 58,
+  "pdf_tables": 6,
+  "pdf_captions": 16
+}

@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\nAIBuildAI-2: A Knowledge-Enhanced Agent for Automatically Building AI\nModels\nRuiyi Zhang1, *, Peijia Qin1, *, Qi Cao1, *, Li Zhang1, *, and Pengtao Xie1, 2, \u00001Department of Electrical ",
+  "method": "ted computational\nbudgets. Performance is measured using the medal system\nderived from human Kaggle competition rankings, where\nsubmissions that meet predefined percentile thresholds on\nthe Kaggle lea",
+  "results": "igh\nvariance and instability across runs. Stabilizing such updates\nwhile preserving the gains demonstrated here is a substantive\nopen problem and an important direction for future research.\nBeyond raw",
+  "conclusion": "single inference\nscript with its associated checkpoints that constitutes the\nrequired output of the task defined above.\nConcretely,\nAIBuildAI-2 is the LLM-based agent that\ncarries out this parallel up"
+}

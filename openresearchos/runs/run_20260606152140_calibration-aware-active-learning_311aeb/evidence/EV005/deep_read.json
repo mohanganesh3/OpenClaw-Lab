@@ -1,0 +1,44 @@
+{
+  "method_summary": "Knowledge-enhanced hierarchical sub-agent design for autonomous AI model development that builds heterogeneous gradient-boosted decision-tree ensembles directly from raw features without task-specific customization",
+  "key_innovation": "Knowledge-enhanced hierarchical sub-agent design enabling autonomous AI model development",
+  "datasets_used": [
+    "UCI Cleveland heart-disease dataset",
+    "MLE-Bench"
+  ],
+  "baselines_compared": [
+    "MARS",
+    "Famou-Agent",
+    "ML-Master",
+    "Leeroo",
+    "InternAgent",
+    "R&D-Agent",
+    "AIDE",
+    "AIRA-dojo",
+    "MLEvolve",
+    "AIBuildAI"
+  ],
+  "limitations_stated": [],
+  "code_available": null,
+  "code_url": null,
+  "compute_required": null,
+  "can_run_on_macbook": null,
+  "status": "incomplete_data",
+  "message": "The provided text does not contain the actual RESULTS/EXPERIMENTS section with tables containing numeric findings from the AIBuildAI-2 paper. The text only includes some discussion about variance and instability across runs, broader implications of the system, and references, but lacks the specific tables with concrete numeric data that would contain the requested findings.",
+  "note": "To extract the concrete numeric findings, the complete RESULTS/EXPERIMENTS section with tables would need to be provided.",
+  "reproducibility": "low",
+  "evidence_id": "EV005",
+  "title": "AIBuildAI-2: Scalable Agentic AI Research and Engineering",
+  "year": 2026,
+  "arxiv_id": "2605.27873",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 69106,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 12,
+  "pdf_tables": 0,
+  "pdf_captions": 4
+}

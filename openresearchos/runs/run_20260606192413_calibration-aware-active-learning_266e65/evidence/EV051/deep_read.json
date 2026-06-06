@@ -1,0 +1,203 @@
+{
+  "problem_addressed": "Out-of-distribution (OOD) detection, which involves distinguishing between in-distribution samples from training data and out-of-distribution samples with different semantic characteristics.",
+  "core_claim": "The proposed anchoring training strategy enables heteroscedastic temperature scaling (different temperature parameters per sample) to achieve state-of-the-art OOD detection performance without requiring exposure to additional outlier data, custom calibration objectives, or model ensembling.",
+  "key_contributions": [
+    "Proposed a new training strategy called anchoring that can estimate appropriate temperature values for each sample",
+    "Demonstrated through NTK theory that the temperature function estimate is closely linked to the epistemic uncertainty of the classifier",
+    "Achieved state-of-the-art OOD detection performance across several benchmarks without requiring exposure to additional outlier data, custom calibration objectives, or model ensembling"
+  ],
+  "novelty": "The heteroscedastic temperature scaling approach where each sample gets its own temperature parameter, as opposed to conventional approaches that use the same temperature value for the entire distribution.",
+  "method_summary": "The method uses neural network anchoring during training to transform inputs into [c, x-c] tuples, estimates temperature values for each sample based on prediction variance across multiple anchors during inference, applies heteroscedastic calibration Hc(y|x) = H(y|x)τ(x), and computes the Anchor Marginalized Prediction (AMP) score for OOD detection.",
+  "method_components": [
+    "Neural network anchoring: Transforming inputs into [c, x-c] tuples",
+    "Temperature estimation: Computing τ(x) as a function of prediction variance across anchors",
+    "Heteroscedastic calibration: Scaling logits by the estimated temperature",
+    "AMP scoring: Using negative log likelihood of calibrated predictions as the OOD score"
+  ],
+  "key_innovation": "The anchoring mechanism that creates an ensembling-like behavior by producing different predictions conditioned on the anchor choice, allowing estimation of epistemic uncertainty through prediction variance across anchors.",
+  "assumptions": [
+    "The neural network width tends to infinity and learning rate tends to zero (NTK theory assumptions)",
+    "Anchors are randomly chosen during training and inference",
+    "For in-distribution samples, predictions across different anchors should converge to the same value"
+  ],
+  "theoretical_grounding": "The paper provides theoretical grounding using Neural Tangent Kernel (NTK) theory, showing that neural network anchoring effectively perturbs the hypothesis space of the neural network, resulting in an ensembling-like behavior. The NTK spectrum analysis demonstrates that different anchors produce slightly different NTKs, leading to meaningful inconsistencies in predictions.",
+  "datasets_used": [
+    "CIFAR-10",
+    "CIFAR-100",
+    "ImageNet-C",
+    "SCOOD (Texture, SVHN, Tiny-ImageNet, LSUN, Places365)",
+    "LSUN resizing variants"
+  ],
+  "baselines_compared": [
+    "Mahalanobis detector",
+    "Gram Matrices",
+    "ResNet-50 Temp-Scal",
+    "Deep Ens",
+    "MCD",
+    "SVI",
+    "SVI-AvUC",
+    "ODIN",
+    "Energy",
+    "OE",
+    "UDG",
+    "MSP",
+    "GM"
+  ],
+  "metrics_used": [
+    "AUROC",
+    "FPR95",
+    "AUPR-in/out",
+    "DTACC"
+  ],
+  "hyperparameters": "5 anchors used in most experiments; transformations (ColorJitter, GaussianBlur, HorizontalFlip, Grayscale, ResizedCrop) applied randomly during training",
+  "compute_required": "Not specified",
+  "seeds": "Not specified",
+  "headline_result": "AMP achieves 99.07 AUROC on ImageNet-C with ResNet-50",
+  "results_table": [
+    {
+      "method": "AMP",
+      "dataset": "ImageNet-C",
+      "metric": "AUROC",
+      "value": "99.07"
+    },
+    {
+      "method": "AMP",
+      "dataset": "ImageNet-C",
+      "metric": "DTACC",
+      "value": "95.14"
+    },
+    {
+      "method": "AMP",
+      "dataset": "ImageNet-C",
+      "metric": "AUPR-in/out",
+      "value": "99.10/99.08"
+    },
+    {
+      "method": "AMP",
+      "dataset": "SCOOD (CIFAR-10)",
+      "metric": "FPR95",
+      "value": "36.82"
+    },
+    {
+      "method": "AMP",
+      "dataset": "SCOOD (CIFAR-10)",
+      "metric": "AUROC",
+      "value": "92.40"
+    },
+    {
+      "method": "AMP",
+      "dataset": "SCOOD (CIFAR-10)",
+      "metric": "AUPR-in/out",
+      "value": "91.23/90.91"
+    },
+    {
+      "method": "AMP",
+      "dataset": "SCOOD (CIFAR-100)",
+      "metric": "FPR95",
+      "value": "70.34"
+    },
+    {
+      "method": "AMP",
+      "dataset": "SCOOD (CIFAR-100)",
+      "metric": "AUROC",
+      "value": "82.22"
+    },
+    {
+      "method": "AMP",
+      "dataset": "SCOOD (CIFAR-100)",
+      "metric": "AUPR-in/out",
+      "value": "84.14/76.20"
+    },
+    {
+      "method": "AMP",
+      "dataset": "LSUN resizing",
+      "metric": "FPR95",
+      "value": "51.1 (nearest)"
+    },
+    {
+      "method": "AMP",
+      "dataset": "LSUN resizing",
+      "metric": "FPR95",
+      "value": "58.3 (lanczos)"
+    },
+    {
+      "method": "AMP",
+      "dataset": "CIFAR-100-SVHN",
+      "metric": "FPR95",
+      "value": "5.32 (ResizedCrop)"
+    }
+  ],
+  "ablations": [
+    "Transformations (ColorJitter/GaussianBlur) reduce FPR95 from 50.71 to 6.53",
+    "ResizedCrop reduces FPR95 to 5.32",
+    "Increasing anchors from 2 to 20 has minimal impact (FPR95 variation <1%)"
+  ],
+  "improvement_over_baseline": "AMP outperforms baselines by 2.69 AUROC points on ImageNet-C (99.07 vs 96.38), 3.62 AUROC points on SCOOD CIFAR-10 (92.40 vs 88.78), and achieves comparable FPR95 to best baseline (36.82 vs 36.22) without outlier exposure",
+  "stated_limitations": [
+    "The method might be computationally intensive since it estimates temperature for each sample",
+    "The theoretical connection to NTK theory might be more conceptual than practical"
+  ],
+  "unstated_weaknesses": [
+    "The method might not scale well to very large medical imaging datasets",
+    "The anchoring mechanism might be sensitive to hyperparameters",
+    "The benchmarks might not fully represent real-world medical imaging scenarios"
+  ],
+  "threats_to_validity": [
+    "The method's performance might degrade with domain shifts not covered in benchmarks",
+    "The connection to epistemic uncertainty might be correlational rather than causal",
+    "The method might not work well with very deep architectures common in medical imaging"
+  ],
+  "reproducibility": "medium",
+  "open_questions": [
+    "How well does the method perform with different neural architectures?",
+    "Can the anchoring mechanism be applied to other calibration techniques?",
+    "How does the method perform with limited training data common in medical imaging?"
+  ],
+  "future_work": [
+    "Potential applications to other domains beyond OOD detection",
+    "Extension to more complex medical imaging tasks",
+    "Integration with active learning frameworks"
+  ],
+  "gaps_this_enables": [
+    "New approaches to calibration in medical imaging",
+    "Methods for uncertainty quantification in medical diagnosis",
+    "Techniques for handling domain shifts in medical imaging"
+  ],
+  "relevance_to_topic": "The paper's focus on calibration and uncertainty estimation is directly relevant to calibration-aware active learning for medical image classification.",
+  "relation_type": "competitor",
+  "can_run_on_macbook": false,
+  "reusable_assets": [
+    "The anchoring method",
+    "The heteroscedastic temperature scaling approach"
+  ],
+  "code_available": false,
+  "code_url": null,
+  "best_result": "AMP achieves 99.07 AUROC on ImageNet-C with ResNet-50",
+  "key_results": {
+    "ImageNet-C_AUROC": "99.07",
+    "ImageNet-C_DTACC": "95.14",
+    "ImageNet-C_AUPR-in/out": "99.10/99.08",
+    "SCOOD (CIFAR-10)_FPR95": "36.82",
+    "SCOOD (CIFAR-10)_AUROC": "92.40",
+    "SCOOD (CIFAR-10)_AUPR-in/out": "91.23/90.91"
+  },
+  "limitations_stated": [
+    "The method might be computationally intensive since it estimates temperature for each sample",
+    "The theoretical connection to NTK theory might be more conceptual than practical"
+  ],
+  "evidence_id": "EV051",
+  "title": "Out of Distribution Detection via Neural Network Anchoring",
+  "year": 2022,
+  "arxiv_id": "2207.04125",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 66824,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 22,
+  "pdf_tables": 25,
+  "pdf_captions": 23
+}

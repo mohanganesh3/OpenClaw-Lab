@@ -1,0 +1,68 @@
+{
+  "problem_addressed": "The challenge of end-to-end automated scientific discovery from hypothesis formulation to manuscript authoring without human intervention.",
+  "core_claim": "An entirely AI-generated paper can successfully navigate peer review, marking the first instance of such an achievement.",
+  "key_contributions": [
+    "Development of an end-to-end agentic system producing peer-review-accepted workshop papers",
+    "Introduction of progressive agentic tree-search methodology managed by experiment manager agent",
+    "Integration of Vision-Language Model feedback loop for iterative content and figure refinement"
+  ],
+  "novelty": "Eliminates reliance on human-authored code templates, generalizes across diverse ML domains, and introduces progressive agentic tree-search methodology.",
+  "method_summary": "The system iteratively formulates hypotheses, designs and executes experiments, analyzes data, and authors manuscripts using a progressive agentic tree-search approach managed by an experiment manager agent, enhanced with VLM feedback loops.",
+  "method_components": [
+    "Experiment manager agent",
+    "Progressive agentic tree-search methodology",
+    "Vision-Language Model (VLM) feedback loop",
+    "AI reviewer component"
+  ],
+  "key_innovation": "Progressive agentic tree-search methodology managed by a dedicated experiment manager agent enabling systematic exploration of research directions without human intervention.",
+  "assumptions": [
+    "Large Language Models can effectively formulate scientific hypotheses",
+    "Automated experimentation can be conducted reliably",
+    "Peer review processes can evaluate AI-generated content fairly"
+  ],
+  "theoretical_grounding": "Empirical evidence through successful peer review outcomes rather than formal proofs or mathematical derivations.",
+  "datasets_used": [
+    "SCAN",
+    "COGS",
+    "IWSLT",
+    "GeoQuery"
+  ],
+  "baselines_compared": [
+    "Standard sequence-to-sequence neural networks",
+    "Meta-learning techniques",
+    "Specialized architectures"
+  ],
+  "metrics_used": [
+    "Compositional generalization performance",
+    "Generalization to unseen combinations"
+  ],
+  "hyperparameters": "Not specified in provided content",
+  "compute_required": "Not specified in provided content",
+  "seeds": "Not specified in provided content",
+  "headline_result": "Not available in provided content",
+  "results_table": [],
+  "ablations": [
+    "Different strengths of regularization term",
+    "Impact of regularization on internal representations"
+  ],
+  "improvement_over_baseline": "Not available in provided content",
+  "best_result": "Not available in provided content",
+  "key_results": {},
+  "limitations_stated": [],
+  "reproducibility": "low",
+  "evidence_id": "EV002",
+  "title": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
+  "year": 2025,
+  "arxiv_id": "2504.08066",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 173445,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 60,
+  "pdf_tables": 2,
+  "pdf_captions": 41
+}

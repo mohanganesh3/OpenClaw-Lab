@@ -1,0 +1,6 @@
+{
+  "introduction": "[2512.23753] Generalized Regularized Evidential Deep Learning Models: Theory and Comprehensive Evaluation\n\nGeneralized Regularized Evidential Deep Learning Models: Theory and Comprehensive Evaluation\n",
+  "method": "algorithmic improvements, Deep Learning (DL) models have found great success in many real-world applications such as speech recognition  [ kamath2019deep ] , machine translation  [ singh2017machine ] ",
+  "results": "an degrade on more complex, large-scale datasets even in standard classification settings. As shown in Figure\n\n1  , an evidential model using ReLU activation and an evidential MSE loss  [ sensoy2018ev",
+  "conclusion": "-C\n\n). We analyze several existing evidential variants and observe this behavior consistently across models and settings. Motivated by these insights, we introduce a novel  G eneralized  R egularized "
+}

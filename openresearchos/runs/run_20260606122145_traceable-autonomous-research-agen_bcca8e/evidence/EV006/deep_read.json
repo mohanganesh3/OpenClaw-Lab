@@ -1,0 +1,54 @@
+{
+  "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+  "methodology": {
+    "approach": "Verbal reinforcement learning",
+    "description": "Converts binary or scalar feedback from the environment into verbal feedback in the form of a textual summary, which is then added as additional context for the LLM agent in the next episode.",
+    "feedback_generation": [
+      "Simple binary environment feedback",
+      "Pre-defined heuristics for common failure cases",
+      "Self-evaluation using LLMs (decision-making) or self-written unit tests (programming)"
+    ],
+    "key_concept": "Self-reflective feedback acts as a 'semantic' gradient signal by providing the agent with a concrete direction to improve upon."
+  },
+  "advantages": [
+    "Lightweight and doesn't require finetuning the LLM",
+    "Allows for more nuanced forms of feedback (e.g. targeted changes in actions)",
+    "Provides explicit and interpretable episodic memory over prior experiences",
+    "Provides more explicit hints for actions in future episodes"
+  ],
+  "disadvantages": [
+    "Relies on the power of the LLM's self-evaluation capabilities (or heuristics)",
+    "No formal guarantee for success"
+  ],
+  "experiments": {
+    "task_types": [
+      "Decision-making tasks (sequential action choices over long trajectories)",
+      "Reasoning tasks (knowledge-intensive, single-step generation improvement)",
+      "Programming tasks (teaching the agent to effectively use external tools)"
+    ],
+    "results": {
+      "decision_making": "Improved on AlfWorld tasks by 22% over strong baseline approaches in 12 iterative learning steps",
+      "reasoning": "Improved on HotPotQA questions by 20%",
+      "programming": "Improved on Python programming tasks on HumanEval"
+    }
+  },
+  "related_works": [
+    "ReAct",
+    "SayCan",
+    "Toolformer",
+    "HuggingGPT",
+    "Generative agents",
+    "WebGPT"
+  ],
+  "evidence_id": "EV006",
+  "year": 2023,
+  "arxiv_id": "2303.11366",
+  "full_text_tool": "arxiv_html_openclaw",
+  "full_text_chars": 7998,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ]
+}
