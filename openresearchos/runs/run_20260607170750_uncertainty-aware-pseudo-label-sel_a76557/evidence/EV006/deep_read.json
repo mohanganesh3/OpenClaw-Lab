@@ -1,0 +1,277 @@
+{
+  "problem_addressed": "Existing semi-supervised medical segmentation frameworks suffer from performance degradation due to biases from low-quality pseudo-labels, as their averaging-based integration fails to account for pseudo-label reliability from different sources.",
+  "core_claim": "The proposed Mutual Evidential Deep Learning (MEDL) framework achieves state-of-the-art performance by generating reliable pseudo-labels through complementary evidence from dual architectures and uncertainty-guided learning.",
+  "key_contributions": [
+    "Dual-network architecture generating complementary evidence for unlabeled samples with class-aware evidential fusion",
+    "Asymptotic Fisher information-based evidential learning strategy for uncertainty-driven sample weighting",
+    "Reliability-based pseudo-label masking using Shannon entropy to reduce misleading signals"
+  ],
+  "novelty": "Unlike prior methods that average pseudo-labels, MEDL dynamically evaluates and weights pseudo-label reliability using uncertainty measures from dual networks, enabling curriculum-style learning that focuses on reliable samples first.",
+  "method_summary": "MEDL employs two segmentation networks with different architectures to generate complementary predictions for unlabeled data, fuses them via class-aware evidential fusion, calculates reliability using Shannon entropy, and applies Fisher information-based uncertainty weighting to guide targeted learning.",
+  "method_components": [
+    "Dual-network evidence generation with class-aware evidential fusion",
+    "Reliability calculation using Shannon entropy: R(x,y,z) = e^(b(x,y,z)) / (CK)^N-1 * ∏(ζn log2 ζn)",
+    "Asymptotic Fisher evidential learning with dynamic weighting: ω(q, v) = Ξ · Tanh(ψ(h(v))ζ(q)) + 1"
+  ],
+  "key_innovation": "The mutual evidential mechanism that combines complementary evidence from dual architectures and uses uncertainty to dynamically weight samples, prioritizing reliable pseudo-labels early in training while avoiding over-penalization of high-uncertainty regions.",
+  "assumptions": [
+    "Different network architectures provide complementary evidence for unlabeled samples",
+    "Uncertainty measures (Shannon entropy, Fisher information) reliably indicate pseudo-label quality",
+    "Curriculum learning principles can be applied via uncertainty-based sample weighting"
+  ],
+  "theoretical_grounding": "Relies on evidential deep learning theory for uncertainty estimation, Shannon entropy for reliability calculation, and Fisher information for asymptotic learning dynamics, though no explicit proofs are provided in the text.",
+  "datasets_used": [
+    "Left Atrium Dataset (LA) - 100 volumes",
+    "Pancreas-CT Dataset - 82 volumes",
+    "TBAD Dataset - 124 scans",
+    "ACDC Dataset - 200 scans",
+    "BraTs2018 dataset - 285 training, 66 validation"
+  ],
+  "baselines_compared": [
+    "UA-MT [40]",
+    "SASSNet [47]",
+    "DTC [54]",
+    "MC-Net [58]",
+    "SS-Net [59]",
+    "Co-BioNet [60]",
+    "BCP [57]",
+    "A&D [61]",
+    "MT",
+    "FUSSNet [41]",
+    "URPC [42]",
+    "UPCoL [43]",
+    "CPS [49]",
+    "ASE-Net [50]",
+    "CoraNet [51]",
+    "MCF [34]",
+    "ETC-Net [48]",
+    "ICT [62]",
+    "ELUnet [64]",
+    "No-new-Net [65]",
+    "DMFNet [66]",
+    "NVDLMED [67]",
+    "C-VNet [68]"
+  ],
+  "metrics_used": [
+    "Dice similarity coefficient",
+    "Jaccard similarity coefficient",
+    "95% Hausdorff Distance (95HD)",
+    "Average Surface Distance (ASD)"
+  ],
+  "hyperparameters": "LA: 112×112×80 training, 18×18×4 stride; Pancreas-CT: 96×96×96 training, 16×16×16 stride; TBAD: 128×128×128; ACDC: 256×256 input, 170×170 mask; BraTs2018: 160×160 after slicing; Max 20% labeled data, normalized to zero mean and unit variance",
+  "compute_required": "Not specified",
+  "seeds": "Not specified",
+  "headline_result": "Ours: ACDC RV DSC 89.01%, JAC 80.80%, ASD 7.28mm, 95HD 1.70mm; LV DSC 93.34%, JAC 87.81%, ASD 4.25mm, 95HD 1.23mm; Avg DSC 90.40%, JAC 82.94%, ASD 3.38mm, 95HD 0.83mm",
+  "results_table": [
+    {
+      "method": "Ours",
+      "dataset": "ACDC",
+      "metric": "RV DSC",
+      "value": "89.01%"
+    },
+    {
+      "method": "Ours",
+      "dataset": "ACDC",
+      "metric": "RV JAC",
+      "value": "80.80%"
+    },
+    {
+      "method": "Ours",
+      "dataset": "ACDC",
+      "metric": "RV ASD",
+      "value": "7.28mm"
+    },
+    {
+      "method": "Ours",
+      "dataset": "ACDC",
+      "metric": "RV 95HD",
+      "value": "1.70mm"
+    },
+    {
+      "method": "Ours",
+      "dataset": "ACDC",
+      "metric": "LV DSC",
+      "value": "93.34%"
+    },
+    {
+      "method": "Ours",
+      "dataset": "ACDC",
+      "metric": "LV JAC",
+      "value": "87.81%"
+    },
+    {
+      "method": "Ours",
+      "dataset": "ACDC",
+      "metric": "LV ASD",
+      "value": "4.25mm"
+    },
+    {
+      "method": "Ours",
+      "dataset": "ACDC",
+      "metric": "LV 95HD",
+      "value": "1.23mm"
+    },
+    {
+      "method": "Ours",
+      "dataset": "ACDC",
+      "metric": "Avg DSC",
+      "value": "90.40%"
+    },
+    {
+      "method": "Ours",
+      "dataset": "ACDC",
+      "metric": "Avg JAC",
+      "value": "82.94%"
+    },
+    {
+      "method": "Ours",
+      "dataset": "ACDC",
+      "metric": "Avg ASD",
+      "value": "3.38mm"
+    },
+    {
+      "method": "Ours",
+      "dataset": "ACDC",
+      "metric": "Avg 95HD",
+      "value": "0.83mm"
+    },
+    {
+      "method": "Ours",
+      "dataset": "ACDC 10%",
+      "metric": "DSC",
+      "value": "90.40%"
+    },
+    {
+      "method": "Ours",
+      "dataset": "ACDC 10%",
+      "metric": "95HD",
+      "value": "3.38mm"
+    },
+    {
+      "method": "Ours",
+      "dataset": "ACDC 10%",
+      "metric": "ASD",
+      "value": "0.83mm"
+    },
+    {
+      "method": "Ours",
+      "dataset": "ACDC 20%",
+      "metric": "DSC",
+      "value": "90.95%"
+    },
+    {
+      "method": "Ours",
+      "dataset": "ACDC 20%",
+      "metric": "95HD",
+      "value": "3.84mm"
+    },
+    {
+      "method": "Ours",
+      "dataset": "ACDC 20%",
+      "metric": "ASD",
+      "value": "0.85mm"
+    },
+    {
+      "method": "Ours",
+      "dataset": "BraTs2018",
+      "metric": "mean Dice",
+      "value": "89.20%"
+    },
+    {
+      "method": "Ours",
+      "dataset": "BraTs2018",
+      "metric": "WT Dice",
+      "value": "90.78%"
+    },
+    {
+      "method": "Ours",
+      "dataset": "BraTs2018",
+      "metric": "TC Dice",
+      "value": "90.59%"
+    },
+    {
+      "method": "Ours",
+      "dataset": "BraTs2018",
+      "metric": "ET Dice",
+      "value": "86.24%"
+    }
+  ],
+  "ablations": [
+    "CAEF (U) improved Dice by 1.98% and Jaccard by 2.54%",
+    "CAEF (L) improved Dice by 3.05% and Jaccard by 4.27%",
+    "UMAL (U) improved Dice by 3.65% and Jaccard by 5.31%",
+    "UMAL (L) improved Dice by 4.65% and Jaccard by 6.92%",
+    "FIE improved Dice by 4.89% and Jaccard by 7.31%",
+    "Optimal λ values: (0.5, 0.5) for Dice and Jaccard"
+  ],
+  "improvement_over_baseline": "MEDL achieved 4.89% Dice improvement (87.06% to 91.95%), 7.31% Jaccard improvement (77.83% to 85.14%), 2.44mm 95HD improvement (2.67 to 5.11), and 6.44mm ASD improvement (7.81 to 1.37) compared to baseline",
+  "stated_limitations": [
+    "The paper acknowledges that model performance can be diminished by biases in model recognition caused by low-quality pseudo-labels in semi-supervised medical segmentation co-learning frameworks"
+  ],
+  "unstated_weaknesses": [
+    "Potential sensitivity to hyperparameters in evidential framework",
+    "Limited exploration of different uncertainty calibration methods",
+    "May not address class imbalance issues common in medical datasets",
+    "Computational overhead of evidential approach not fully addressed"
+  ],
+  "threats_to_validity": [
+    "Limited diversity of medical imaging modalities tested",
+    "Potential overfitting to specific anatomical structures",
+    "Small sample sizes typical of medical datasets",
+    "Lack of external validation on different patient populations"
+  ],
+  "reproducibility": "medium (likely limited by proprietary medical datasets and incomplete code availability)",
+  "open_questions": [
+    "How does the evidential approach handle extreme uncertainty cases?",
+    "What is the computational overhead compared to standard semi-supervised methods?",
+    "How does the method perform with different levels of label noise?",
+    "Can the approach be extended to 3D medical volumes?"
+  ],
+  "future_work": [
+    "Applying the method to other medical imaging tasks",
+    "Improving the evidential framework for better uncertainty quantification",
+    "Developing more efficient implementations"
+  ],
+  "gaps_this_enables": [
+    "More sophisticated uncertainty quantification in semi-supervised medical learning",
+    "Improved pseudo-label selection mechanisms based on evidential reasoning",
+    "Better handling of label noise in medical image segmentation"
+  ],
+  "relevance_to_topic": "This paper directly addresses pseudo-label quality issues in semi-supervised medical image segmentation, providing a foundation for uncertainty-aware pseudo-label selection methods.",
+  "relation_type": "method_source",
+  "can_run_on_macbook": false,
+  "reusable_assets": [
+    "Evidential deep learning framework",
+    "Uncertainty quantification methodology",
+    "Semi-supervised learning architecture"
+  ],
+  "code_available": false,
+  "code_url": null,
+  "best_result": "Ours: ACDC RV DSC 89.01%, JAC 80.80%, ASD 7.28mm, 95HD 1.70mm; LV DSC 93.34%, JAC 87.81%, ASD 4.25mm, 95HD 1.23mm; Avg DSC 90.40%, JAC 82.94%, ASD 3.38mm, 95HD 0.83mm",
+  "key_results": {
+    "ACDC_RV DSC": "89.01%",
+    "ACDC_RV JAC": "80.80%",
+    "ACDC_RV ASD": "7.28mm",
+    "ACDC_RV 95HD": "1.70mm",
+    "ACDC_LV DSC": "93.34%",
+    "ACDC_LV JAC": "87.81%"
+  },
+  "limitations_stated": [
+    "The paper acknowledges that model performance can be diminished by biases in model recognition caused by low-quality pseudo-labels in semi-supervised medical segmentation co-learning frameworks"
+  ],
+  "evidence_id": "EV006",
+  "title": "Mutual Evidential Deep Learning for Medical Image Segmentation",
+  "year": 2025,
+  "arxiv_id": "2505.12418",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 57993,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 9,
+  "pdf_tables": 5,
+  "pdf_captions": 5
+}

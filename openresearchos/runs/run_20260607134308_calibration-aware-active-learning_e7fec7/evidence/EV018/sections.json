@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\n1 \n \nUncertainty-aware phase fraction prediction and active-\nlearning-guided out-of-domain discovery of refractory multi-\nprincipal element alloys \nAli K. Shargh1*, Christopher D. Stil",
+  "method": "is filtering step removes 899 compositions. Combined with \nthe 5,036 compositions removed earlier due to failed Thermo-Calc solutions (out of the original \n490,000), the final dataset consists of 484,",
+  "results": "eaus at approximately 0.6 for the \nhigh-uncertainty route. These results demonstrate that using the low-uncertainty route, our active \nlearning strategy enables the MDN model to consistently identify ",
+  "conclusion": "onal tools for materials science, Calphad 26, 273 (2002). \n[42] P. Branco, L. Torgo, and R. P. Ribeiro, SMOGN: A Pre-Processing Approach for Imbalanced \nRegression, in First International Workshop on "
+}

@@ -1,0 +1,30 @@
+{
+  "idea_id": "I01",
+  "level": "ablation",
+  "plan": {
+    "loader": "sklearn",
+    "dataset_name": "load_breast_cancer",
+    "task": "classification",
+    "clone_repo": "null (insufficient information from abstract)",
+    "packages": [
+      "scikit-learn",
+      "numpy",
+      "scipy"
+    ],
+    "notes": "Medical tabular dataset for reflexion-enhanced calibration testing"
+  },
+  "repo": {
+    "cloned": false,
+    "path": null,
+    "executed": false,
+    "inspected": false,
+    "reason": "no valid github url"
+  },
+  "dataset": {
+    "ok": true,
+    "kind": "sklearn",
+    "location": "sklearn.datasets.load_breast_cancer",
+    "note": "SK_OK (569, 30) 2"
+  },
+  "prepared_at": "2026-06-07T16:09:30.007Z"
+}

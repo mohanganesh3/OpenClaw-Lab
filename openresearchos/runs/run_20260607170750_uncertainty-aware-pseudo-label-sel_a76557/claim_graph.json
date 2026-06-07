@@ -1,0 +1,865 @@
+{
+  "claims": [
+    {
+      "claim_id": "CL001",
+      "evidence_id": "EV001",
+      "text": "Leveraging neural network training dynamics to generate calibrated uncertainty-aware pseudo-labels improves multi-view uncertainty estimation and robustness in medical image classification.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "aortic stenosis classification dataset (ultrasound videos)"
+      ],
+      "best_result": "Pseudo-D achieves best study-level AURC of 0.885 and MAE of 0.180"
+    },
+    {
+      "claim_id": "CL002",
+      "evidence_id": "EV002",
+      "text": "We propose the Dynamic Contrastive Correction Network (DCCN) to correct uncertain regions in pseudo-labels for semi-supervised medical image segmentation, rather than discarding them.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL003",
+      "evidence_id": "EV003",
+      "text": "A weakly supervised framework leveraging SAM's pseudo-label generation with uncertainty-aware cross-teaching can achieve accurate nodule segmentation using only aspect ratio annotations.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "Thyroid Ultrasound Dataset (422 left + 422 right images)",
+        "Breast Ultrasound Dataset (604 left + 151 right images)"
+      ],
+      "best_result": "Ours achieved DSC of 73.5±22.2 and HD95 of 32.8±71.5 on Thyroid Ultrasound, and DSC of 75.5±19.8 and HD95 of 52.3±36.5 on Breast Ultrasound"
+    },
+    {
+      "claim_id": "CL004",
+      "evidence_id": "EV004",
+      "text": "A consistency regularization-based semi-supervised blood cell detection method, CRS-YOLOv5-ALT, is proposed to address the need for large amounts of labeled data.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL005",
+      "evidence_id": "EV005",
+      "text": "Self-supervised pre-training combined with semi-supervised learning can effectively address label scarcity in medical imaging, enabling robust 3D object detection with limited annotations.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "RSNA 2023 dataset (3,147 patients, 3,206 CT series for classification)",
+        "206 labeled CT volumes with 3D bounding box annotations for 3D injury detection (144 train, 30 val, 32 test)",
+        "2,000 unlabeled CT volumes for semi-supervised learning"
+      ],
+      "best_result": "Semi-supervised learning achieved 56.57% mAP@0.50 (114% improvement) for 3D injury detection"
+    },
+    {
+      "claim_id": "CL006",
+      "evidence_id": "EV006",
+      "text": "The proposed Mutual Evidential Deep Learning (MEDL) framework achieves state-of-the-art performance by generating reliable pseudo-labels through complementary evidence from dual architectures and uncertainty-guided learning.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "Left Atrium Dataset (LA) - 100 volumes",
+        "Pancreas-CT Dataset - 82 volumes",
+        "TBAD Dataset - 124 scans",
+        "ACDC Dataset - 200 scans",
+        "BraTs2018 dataset - 285 training, 66 validation"
+      ],
+      "best_result": "Ours: ACDC RV DSC 89.01%, JAC 80.80%, ASD 7.28mm, 95HD 1.70mm; LV DSC 93.34%, JAC 87.81%, ASD 4.25mm, 95HD 1.23mm; Avg DSC 90.40%, JAC 82.94%, ASD 3.38mm, 95HD 0.83mm"
+    },
+    {
+      "claim_id": "CL007",
+      "evidence_id": "EV007",
+      "text": "SemiSeg-CAW is a semi-supervised segmentation framework that leverages class-level information and an adaptive multi-loss function to reduce dependency on extensive pixel-level annotations for ultrasound image segmentation.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL008",
+      "evidence_id": "EV008",
+      "text": "Semi-supervised learning (SSL) for medical image segmentation is a challenging yet highly practical task, which reduces reliance on large-scale labeled dataset by leveraging unlabeled samples. Among S",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "ACDC (200 cardiac MRI images from 100 patients)",
+        "ISIC (1838 training images, 756 validation images)",
+        "PROMISE12 (50 patients, converted to 2D slices)"
+      ],
+      "best_result": "SemSim achieved 0.896 DSC and 2.3mm 95HD on ACDC with 10% labeled data"
+    },
+    {
+      "claim_id": "CL009",
+      "evidence_id": "EV009",
+      "text": "ARCO, a variance-reduced semi-supervised contrastive learning framework, improves robustness and label efficiency in medical image segmentation.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "ACDC (200 3D cardiac MRI scans)",
+        "LiTS (131 3D abdominal CT volumes)",
+        "MMWHS (20 3D cardiac MRI scans)",
+        "LA (3D benchmark)",
+        "MP-MRI (in-house 3D benchmark)"
+      ],
+      "best_result": "null"
+    },
+    {
+      "claim_id": "CL010",
+      "evidence_id": "EV010",
+      "text": "Recently, uncertainty-aware methods have attracted increasing attention in semi-supervised medical image segmentation. However, current methods usually suffer from the drawback that it is difficult to",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "Automated Cardiac Diagnosis Challenge (ACDC) dataset (200 annotated short-axis cardiac MR-cine images from 100 patients)"
+      ],
+      "best_result": "EVIL achieves DSC of 89.43% with 30% labeled data"
+    },
+    {
+      "claim_id": "CL011",
+      "evidence_id": "EV011",
+      "text": "How to develop annotation-efficient deep learning to achieve accurate PHE segmentation is an open problem.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL012",
+      "evidence_id": "EV012",
+      "text": "The Adaptive Blended Consistency Loss (ABCL) effectively counteracts data skew in imbalanced medical image classification by adaptively blending target class distributions based on class frequencies.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "HAM10000 (skin cancer dataset)",
+        "REFUGE dataset"
+      ],
+      "best_result": "UDA-WeightedCE-ABCL achieved UAR of 0.68, G-mean of 0.66, and average AUC of 0.96 on HAM10000 dataset"
+    },
+    {
+      "claim_id": "CL013",
+      "evidence_id": "EV013",
+      "text": "A two-stage framework using feature representation learning with stage-adaptive contrastive methods and uncertainty-aware pseudo labeling achieves superior segmentation performance by creating compact and well-separated feature spaces.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "Pancreas dataset (12 labeled, 48 unlabeled scans)",
+        "Colon tumor dataset (5 labeled, 95 unlabeled scans)",
+        "LA dataset (16 labeled, 64 unlabeled scans)"
+      ],
+      "best_result": "Ours achieves 79.81% Dice on Pancreas dataset (12 labeled, 48 unlabeled), surpassing state-of-the-art by 0.54%"
+    },
+    {
+      "claim_id": "CL014",
+      "evidence_id": "EV014",
+      "text": "A lightweight architecture (MAKNet) trained with semi-supervised pseudo-labels achieves superior performance with 60-70% fewer parameters compared to popular architectures.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "TCIA dataset",
+        "DeepLesion dataset"
+      ],
+      "best_result": "0.9403 AUC on hand-labeled test set for LesaNet (TCIA) on DeepLesion dataset"
+    },
+    {
+      "claim_id": "CL015",
+      "evidence_id": "EV015",
+      "text": "The paper introduces a novel semi-supervised Strong-Teacher Consistency Network to address few-shot multi-class cardiac MRI image segmentation by leveraging abundant unlabelled data.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL016",
+      "evidence_id": "EV016",
+      "text": "The Color-Structure Dual-Student (CSDS) framework achieves state-of-the-art performance in semi-supervised histopathology segmentation by learning disentangled representations of stain appearance and tissue structure.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "GlaS-2017",
+        "CRAG-2019"
+      ],
+      "best_result": "CSDS achieves Dice of 85.06 ± 0.57 and Jaccard of 74.87 ± 0.82 on GlaS with 10% labeled data"
+    },
+    {
+      "claim_id": "CL017",
+      "evidence_id": "EV017",
+      "text": "This article proposes a physics-informed, uncertainty-aware dynamic balancing learning framework for unsupervised universal domain generalization (UUDG) in bearing fault diagnosis.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL018",
+      "evidence_id": "EV018",
+      "text": "A weakly supervised segmentation framework using only four extreme points as annotation can achieve performance comparable to or surpassing fully supervised methods while significantly reducing annotation cost.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "BUSI (Breast UltraSound Images) dataset",
+        "UNS (Ultrasound Nerve Segmentation) dataset with 2,323 image-mask pairs"
+      ],
+      "best_result": "Our method achieved 67.70% IoU / 76.89% Dice on BUSI and 67.39% IoU / 79.12% Dice on UNS, surpassing fully supervised performance on BUSI"
+    },
+    {
+      "claim_id": "CL019",
+      "evidence_id": "EV019",
+      "text": "The shared anatomy prior can be explicitly realized by incorporating an auxiliary unsupervised gross anatomy reconstruction task into a teacher-student semi-supervised segmentation framework.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL020",
+      "evidence_id": "EV020",
+      "text": "The paper presents a novel semi-supervised medical segmentation framework called DCCLNet, which is based on deep consistent co-learning.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL021",
+      "evidence_id": "EV021",
+      "text": "Self-training with data augmentation is an effective strategy for leveraging unlabeled data in semi-supervised medical image segmentation.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL022",
+      "evidence_id": "EV022",
+      "text": "We propose a text-supervised, zero-shot approach for medical image segmentation that eliminates the need for human-annotated labels.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL023",
+      "evidence_id": "EV023",
+      "text": "DRIVE introduces a dual-model framework with dual-robustness through information variability and entropic consistency to enhance generalization and robustness in SFUDA.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "Office-31",
+        "Office-Home",
+        "DomainNet-126"
+      ],
+      "best_result": "Office-31: 92.7% mean accuracy"
+    },
+    {
+      "claim_id": "CL024",
+      "evidence_id": "EV024",
+      "text": "The paper proposes UT-MT, a semi-supervised model that addresses the scarcity of labeled data in 3D medical image segmentation.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL025",
+      "evidence_id": "EV025",
+      "text": "Semi-supervised learning offers a more efficient alternative to supervised learning for cancer diagnostics by leveraging abundant unlabeled data, thus reducing the need for expensive manual labeling.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL026",
+      "evidence_id": "EV026",
+      "text": "The objective of our study is to analyze how machine learning tools can be adapted for the automatic interpretation of abdominal ultrasound images.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL027",
+      "evidence_id": "EV027",
+      "text": "Anomaly detection methods effectively address medical imaging tasks like classification and segmentation by leveraging semi-supervised and unsupervised learning, reducing dependence on costly labeled data.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "Brain MRI",
+        "Chest X-ray",
+        "Mammography",
+        "OCT",
+        "CT scans of skeleton or spines",
+        "Histological data"
+      ],
+      "best_result": "No specific headline result provided"
+    },
+    {
+      "claim_id": "CL028",
+      "evidence_id": "EV028",
+      "text": "An uncertainty-guided mutual consistency learning framework effectively exploits unlabeled data by integrating intra-task and cross-task consistency learning.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "LA dataset",
+        "BraTS 2019 dataset"
+      ],
+      "best_result": "UG-MCL achieved 90.16% Dice on LA dataset with 16 labeled scans and 64 unlabeled scans"
+    },
+    {
+      "claim_id": "CL029",
+      "evidence_id": "EV029",
+      "text": "This paper proposes a semi-supervised learning method to address the problem of insufficient labeled data for medical image classification.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL030",
+      "evidence_id": "EV030",
+      "text": "The paper proposes UADC, a method to improve semi-supervised segmentation by maintaining model diversity to prevent premature convergence.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL031",
+      "evidence_id": "EV031",
+      "text": "We propose a novel two-stage framework for metric depth and pose estimation in colonoscopy that addresses scale ambiguity and domain gaps.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL032",
+      "evidence_id": "EV032",
+      "text": "Infairness framework enables reliable fairness auditing with limited labeled data by combining small labeled datasets with large unlabeled datasets through semi-supervised inference.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "MIMIC-III"
+      ],
+      "best_result": "Infairness achieves lowest bias and variance for ∆TPR estimation on MIMIC-III"
+    },
+    {
+      "claim_id": "CL033",
+      "evidence_id": "EV033",
+      "text": "Deep dictionary learning (DDL) is an effective image recognition method when working with few images available.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL034",
+      "evidence_id": "EV034",
+      "text": "In this paper, to continually learn new categories using previous knowledge, we introduce class-incremental semantic segmentation of 3D point cloud.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL035",
+      "evidence_id": "EV035",
+      "text": "Timestamp supervision (single timestamp per phase) with uncertainty-aware temporal diffusion achieves competitive performance to full supervision while reducing annotation cost by 74%.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "Cholec80",
+        "M2CAI16"
+      ],
+      "best_result": {
+        "method": "Ours (UATD)",
+        "dataset": "Cholec80",
+        "metric": "AC",
+        "value": "88.6%"
+      }
+    },
+    {
+      "claim_id": "CL036",
+      "evidence_id": "EV036",
+      "text": "Complementing SSL with an uncertainty-aware objective that quantifies both aleatoric and epistemic uncertainty improves performance by aligning uncertainty distributions between labeled and unlabeled domains.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "CIFAR-10 (1000/4000 labels)",
+        "SVHN (1000/4000 labels)",
+        "CIFAR-100 (4000 labels)",
+        "Mini-ImageNet (4000 labels)"
+      ],
+      "best_result": "94.92% on CIFAR-10 with 1000 labels"
+    },
+    {
+      "claim_id": "CL037",
+      "evidence_id": "EV037",
+      "text": "We propose a semi-supervised FSS strategy that leverages additional prototypes from unlabeled images with uncertainty guided pseudo label refinement.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "PASCAL-5i (20 classes, 4 folds, 5 classes per fold)",
+        "COCO-20i (80 classes, 4 folds, 20 classes per fold)"
+      ],
+      "best_result": "Ours + Iq + R achieves 56.27% mean-IoU (1-shot) and 64.73% (5-shot) on PASCAL-5i with M=12 unlabeled images"
+    },
+    {
+      "claim_id": "CL038",
+      "evidence_id": "EV038",
+      "text": "The Uncertainty-aware Distillation with Class-Equilibrium (UaD-CE) framework effectively resolves Semi-FSCIL challenges by combining class-balanced self-training and uncertainty-aware distillation.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "CIFAR100",
+        "miniImageNet",
+        "CUB200"
+      ],
+      "best_result": "UaD-CE achieves 54.50% on CIFAR100, 50.52% on miniImageNet, and 60.72% on CUB200 in the final session"
+    },
+    {
+      "claim_id": "CL039",
+      "evidence_id": "EV039",
+      "text": "This paper presents UPE, an uncertainty-aware and parameter-efficient self-training method to improve the performance of large pre-trained language models in low-resource scenarios.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL040",
+      "evidence_id": "EV040",
+      "text": "Self-supervised and semi-supervised learning are effective approaches for multi-sequence medical data analysis.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL041",
+      "evidence_id": "EV041",
+      "text": "This paper proposes an Active Learning method to improve cross-domain semantic segmentation by selecting informative pixels for annotation, thereby mitigating the issue of noisy pseudo-labels and reducing the performance gap with fully-supervised models.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL042",
+      "evidence_id": "EV042",
+      "text": "The paper proposes a conformal credal self-supervised learning method that addresses the lack of validity in pseudo-labels by using sets of probability distributions instead of single ones.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL043",
+      "evidence_id": "EV043",
+      "text": "Aggregated Mutual Learning between CNN and Transformer models can effectively improve performance in semi-supervised medical image analysis.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL044",
+      "evidence_id": "EV044",
+      "text": "Integrating natural language descriptions with a Mixture-of-Experts architecture significantly improves the performance of semi-supervised medical image segmentation.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL045",
+      "evidence_id": "EV045",
+      "text": "This research introduces a method for semi-supervised medical image segmentation by transferring semantic knowledge.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL046",
+      "evidence_id": "EV046",
+      "text": "This paper proposes PTCL, a pseudo-label temporal curriculum learning method to enable dynamic node classification in scenarios with limited and delayed labels.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL047",
+      "evidence_id": "EV047",
+      "text": "This paper introduces a novel pseudo-labeling method that is both uncertainty-aware and adaptive to improve referring video object segmentation.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL048",
+      "evidence_id": "EV048",
+      "text": "A novel semi-supervised adversarial self-integration network is proposed to overcome the limitations of traditional U-Net architectures.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL049",
+      "evidence_id": "EV049",
+      "text": "This paper presents a novel Complex-to-Simple (CTS) framework to transfer models.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL050",
+      "evidence_id": "EV050",
+      "text": "Semi-supervised Medical Image Segmentation with Strong/Weak Task-Aware Consistency",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL051",
+      "evidence_id": "EV051",
+      "text": "The paper proposes the SS-Net to address challenges in semi-supervised medical image segmentation by applying smoothness constraints and encouraging class-level separation.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL052",
+      "evidence_id": "EV052",
+      "text": "This paper introduces an uncertainty-aware pseudo-labeling method to accelerate quantum calculations while maintaining accuracy.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL053",
+      "evidence_id": "EV053",
+      "text": "This paper proposes a Momentum Contrastive Voxel-wise Representation Distillation method for effective semi-supervised learning.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL054",
+      "evidence_id": "EV054",
+      "text": "We propose HiProto, a method that uses hierarchical prototype learning to achieve interpretable object detection, especially under low-quality imaging conditions.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL055",
+      "evidence_id": "EV055",
+      "text": "This paper proposes a new method for few-shot open-set object detection that uses evidential uncertainty from a Dirichlet distribution to improve performance in data-scarce scenarios.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL056",
+      "evidence_id": "EV056",
+      "text": "Decoupled Semantic Prototypes enable learning from diverse annotation types, making segmentation more affordable for expert-driven domains like medical imaging.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL057",
+      "evidence_id": "EV057",
+      "text": "The paper claims that combining synthetic data with self-supervision can effectively address the domain shift problem in cross-domain crowd counting.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL058",
+      "evidence_id": "EV058",
+      "text": "MedGS is a novel method that uses Gaussian Splatting to effectively represent and visualize multi-modal 3D medical images.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL059",
+      "evidence_id": "EV059",
+      "text": "This paper presents a method for uncertainty-aware adaptation in self-supervised 3D human pose estimation.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL060",
+      "evidence_id": "EV060",
+      "text": "The paper argues that the standard weak-to-strong augmentation strategy is ineffective for source-free domain adaptive object detection.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    }
+  ],
+  "links": [
+    {
+      "from": "EV001",
+      "relation": "suggests_gap",
+      "to": "More nuanced pseudo-labeling in semi-supervised medical image classification"
+    },
+    {
+      "from": "EV002",
+      "relation": "suggests_gap",
+      "to": "The gap is the need for methods that can effectively correct uncertain regions in pseudo-labels for semi-supervised medical segmentation, rather than simply discarding them."
+    },
+    {
+      "from": "EV003",
+      "relation": "suggests_gap",
+      "to": "Framework for uncertainty-aware pseudo-label selection in medical imaging"
+    },
+    {
+      "from": "EV004",
+      "relation": "suggests_gap",
+      "to": "The abstract is incomplete, missing details on the full methodology, experimental results, and performance comparisons with other methods."
+    },
+    {
+      "from": "EV005",
+      "relation": "suggests_gap",
+      "to": "Uncertainty-aware pseudo-label selection methods for semi-supervised medical image classification"
+    },
+    {
+      "from": "EV006",
+      "relation": "suggests_gap",
+      "to": "More sophisticated uncertainty quantification in semi-supervised medical learning"
+    },
+    {
+      "from": "EV007",
+      "relation": "suggests_gap",
+      "to": "There is a significant need for segmentation methods that can function effectively with limited or no pixel-level annotations in medical imaging."
+    },
+    {
+      "from": "EV008",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See deep_read.json"
+    },
+    {
+      "from": "EV009",
+      "relation": "suggests_gap",
+      "to": "Research into variance-reduction techniques for semi-supervised learning"
+    },
+    {
+      "from": "EV010",
+      "relation": "suggests_gap",
+      "to": "Adapting EVIL's uncertainty-aware pseudo-label selection to classification tasks"
+    },
+    {
+      "from": "EV011",
+      "relation": "suggests_gap",
+      "to": "There is a lack of annotation-efficient deep learning methods for accurately segmenting PHE due to its challenging characteristics on CT images."
+    },
+    {
+      "from": "EV012",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: Adaptive weighting of target distributions based on class frequencies to counteract natural bias toward majority classes, with k < 0.5 when OSP is minority class and k > 0.5 when ASP is minority class."
+    },
+    {
+      "from": "EV013",
+      "relation": "suggests_gap",
+      "to": "Research on uncertainty-aware pseudo-label selection for semi-supervised learning"
+    },
+    {
+      "from": "EV014",
+      "relation": "suggests_gap",
+      "to": "Research on lightweight architectures for medical imaging"
+    },
+    {
+      "from": "EV015",
+      "relation": "suggests_gap",
+      "to": "The abstract is incomplete, cutting off before describing the specific architecture of the 'Strong-Teacher Consistency Network' and its implementation details."
+    },
+    {
+      "from": "EV016",
+      "relation": "suggests_gap",
+      "to": "Adaptation of disentangled representations for uncertainty-aware pseudo-label selection"
+    },
+    {
+      "from": "EV017",
+      "relation": "suggests_gap",
+      "to": "The proposed framework is specifically for bearing fault diagnosis, and its applicability to other industrial diagnostic scenarios is not discussed."
+    },
+    {
+      "from": "EV018",
+      "relation": "suggests_gap",
+      "to": "Framework for uncertainty-aware pseudo-label generation from sparse annotations"
+    },
+    {
+      "from": "EV019",
+      "relation": "suggests_gap",
+      "to": "The abstract is incomplete, cutting off just as the authors begin to state a limitation of their approach."
+    },
+    {
+      "from": "EV020",
+      "relation": "suggests_gap",
+      "to": "The paper does not discuss the potential computational overhead or complexity of the proposed collaborative training and consistency learning framework."
+    },
+    {
+      "from": "EV021",
+      "relation": "suggests_gap",
+      "to": "The paper proposes a proxy data domain as a bridge but does not detail the specific methods for optimizing its construction to maximize knowledge transfer."
+    },
+    {
+      "from": "EV022",
+      "relation": "suggests_gap",
+      "to": "The paper does not evaluate the model's performance on rare or highly complex anatomical structures that may not be easily described by simple text prompts."
+    },
+    {
+      "from": "EV023",
+      "relation": "suggests_gap",
+      "to": "Uncertainty-aware pseudo-label selection mechanisms"
+    },
+    {
+      "from": "EV024",
+      "relation": "suggests_gap",
+      "to": "The paper does not discuss the computational cost or training complexity of the hybrid ViT-CNN model."
+    },
+    {
+      "from": "EV025",
+      "relation": "suggests_gap",
+      "to": "The abstract introduces the concept but does not present any experimental results or performance comparisons to validate the effectiveness of semi-supervised learning over supervised learning."
+    },
+    {
+      "from": "EV026",
+      "relation": "suggests_gap",
+      "to": "The research indicates initial steps to mitigate data scarcity but does not present a complete, long-term solution."
+    },
+    {
+      "from": "EV027",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: The systematic clustering of anomaly detection applications across medical imaging domains, revealing the dominance of brain MRI research and deviation-based methods, and linking research trends to dataset availability."
+    },
+    {
+      "from": "EV028",
+      "relation": "suggests_gap",
+      "to": "Uncertainty-aware pseudo-label selection for semi-supervised learning in medical imaging."
+    },
+    {
+      "from": "EV029",
+      "relation": "suggests_gap",
+      "to": "The abstract is incomplete, cutting off before the full method for feature integration is described."
+    },
+    {
+      "from": "EV030",
+      "relation": "suggests_gap",
+      "to": "The paper highlights a gap in finding methods to increase model diversity in co-training without negatively impacting prediction quality."
+    },
+    {
+      "from": "EV031",
+      "relation": "suggests_gap",
+      "to": "Despite the proposed framework, the inherent variability and complexity of real-world colonoscopy data may still pose challenges for achieving perfect scale and domain invariance."
+    },
+    {
+      "from": "EV032",
+      "relation": "suggests_gap",
+      "to": "Opens a gap for uncertainty-aware methods in semi-supervised fairness auditing"
+    },
+    {
+      "from": "EV033",
+      "relation": "suggests_gap",
+      "to": "The paper does not explore the performance of DDL when applied to large-scale datasets where traditional deep learning excels."
+    },
+    {
+      "from": "EV034",
+      "relation": "suggests_gap",
+      "to": "The paper focuses on the technical challenge of incremental learning but does not explore the long-term stability and performance degradation over a very large number of class additions."
+    },
+    {
+      "from": "EV035",
+      "relation": "suggests_gap",
+      "to": "Developing uncertainty-aware pseudo-label selection methods for semi-supervised learning in medical image classification."
+    },
+    {
+      "from": "EV036",
+      "relation": "suggests_gap",
+      "to": "Development of uncertainty-aware pseudo-label selection methods for medical imaging"
+    },
+    {
+      "from": "EV037",
+      "relation": "suggests_gap",
+      "to": "Development of more robust uncertainty estimation methods for medical images"
+    },
+    {
+      "from": "EV038",
+      "relation": "suggests_gap",
+      "to": "Research on adapting semi-supervised learning techniques to incremental learning scenarios"
+    },
+    {
+      "from": "EV039",
+      "relation": "suggests_gap",
+      "to": "The paper does not detail how the uncertainty estimation is implemented or whether the parameter-efficient approach significantly limits the model's final performance compared to full fine-tuning."
+    },
+    {
+      "from": "EV040",
+      "relation": "suggests_gap",
+      "to": "The challenge of leveraging large amounts of unlabeled multi-sequence medical data for effective model training."
+    },
+    {
+      "from": "EV041",
+      "relation": "suggests_gap",
+      "to": "The performance gap between Unsupervised Domain Adaptation models and fully-supervised models remains a significant open challenge."
+    },
+    {
+      "from": "EV042",
+      "relation": "suggests_gap",
+      "to": "The abstract introduces the 'credal' aspect but does not detail the 'conformal' guarantees; a gap is to empirically validate the statistical validity provided by the conformal component in this new learning paradigm."
+    },
+    {
+      "from": "EV043",
+      "relation": "suggests_gap",
+      "to": "The paper does not provide a theoretical analysis of why the mutual learning between CNN and Transformer is effective."
+    },
+    {
+      "from": "EV044",
+      "relation": "suggests_gap",
+      "to": "The paper does not investigate how the model performs with noisy, ambiguous, or contradictory text prompts, which is a critical real-world scenario."
+    },
+    {
+      "from": "EV045",
+      "relation": "suggests_gap",
+      "to": "The paper does not explore how different types of semantic knowledge (e.g., anatomical vs. pathological) affect the transfer process."
+    },
+    {
+      "from": "EV046",
+      "relation": "suggests_gap",
+      "to": "The method assumes final timestamp labels are available; a gap would be developing techniques for scenarios where even these final labels are missing or highly uncertain."
+    },
+    {
+      "from": "EV047",
+      "relation": "suggests_gap",
+      "to": "The method's performance on out-of-distribution videos or with highly complex and ambiguous referring expressions is not evaluated."
+    },
+    {
+      "from": "EV048",
+      "relation": "suggests_gap",
+      "to": "The abstract does not provide any quantitative results or performance comparisons to validate the proposed method's effectiveness."
+    },
+    {
+      "from": "EV049",
+      "relation": "suggests_gap",
+      "to": "Progress in sim-to-real unsupervised domain adaptation remains limited compared to real-to-real tasks."
+    },
+    {
+      "from": "EV050",
+      "relation": "suggests_gap",
+      "to": "Existing semi-supervised methods for medical image segmentation often apply generic consistency constraints that are not tailored to the specific segmentation task."
+    },
+    {
+      "from": "EV051",
+      "relation": "suggests_gap",
+      "to": "The paper focuses on smoothness but may not fully address the challenge of preserving fine, detailed boundaries in segmentation."
+    },
+    {
+      "from": "EV052",
+      "relation": "suggests_gap",
+      "to": "The research does not explore the method's applicability to more complex quantum systems, such as transition states or periodic materials, which may exhibit different uncertainty profiles."
+    },
+    {
+      "from": "EV053",
+      "relation": "suggests_gap",
+      "to": "The title is generic and doesn't specify the target application or task for the semi-supervised learning."
+    },
+    {
+      "from": "EV054",
+      "relation": "suggests_gap",
+      "to": "It is unclear if combining HiProto's prototype learning with existing image enhancement techniques could further improve performance under low-quality conditions."
+    },
+    {
+      "from": "EV055",
+      "relation": "suggests_gap",
+      "to": "The abstract is incomplete, making it difficult to fully assess the proposed methods, datasets, and results."
+    },
+    {
+      "from": "EV056",
+      "relation": "suggests_gap",
+      "to": "The paper focuses on affordability but may not fully address the potential trade-off in model performance or accuracy when using cheaper, diverse annotations over high-quality pixel-wise ones."
+    },
+    {
+      "from": "EV057",
+      "relation": "suggests_gap",
+      "to": "The abstract is incomplete, leaving the specific details of how self-supervision is integrated with synthetic data unclear."
+    },
+    {
+      "from": "EV058",
+      "relation": "suggests_gap",
+      "to": "There is a need for more efficient and high-fidelity methods for real-time visualization and fusion of multi-modal 3D medical data."
+    },
+    {
+      "from": "EV059",
+      "relation": "suggests_gap",
+      "to": "Need to download and read the full PDF to verify claims."
+    },
+    {
+      "from": "EV060",
+      "relation": "suggests_gap",
+      "to": "The paper identifies a gap in applying effective data augmentation techniques, specifically weak-to-strong, to the challenging source-free domain adaptation setting."
+    }
+  ]
+}

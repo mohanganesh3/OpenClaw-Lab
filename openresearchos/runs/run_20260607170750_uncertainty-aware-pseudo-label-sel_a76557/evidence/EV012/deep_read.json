@@ -1,0 +1,129 @@
+{
+  "problem_addressed": "Semi-supervised learning for medical image classification faces challenges with class imbalance due to scarcity of disease-positive individuals, which existing SSL methods don't adequately address.",
+  "core_claim": "The Adaptive Blended Consistency Loss (ABCL) effectively counteracts data skew in imbalanced medical image classification by adaptively blending target class distributions based on class frequencies.",
+  "key_contributions": [
+    "Proposed Adaptive Blended Consistency Loss (ABCL) as a drop-in replacement for consistency loss in perturbation-based SSL methods",
+    "Demonstrated improvements to unweighted average recall on two imbalanced medical image classification datasets"
+  ],
+  "novelty": "Unlike existing consistency losses (CL and SCL) that always target the original sample prediction (OSP) and don't account for class imbalance, ABCL adaptively blends OSP and augmented sample predictions (ASP) based on class frequencies to counteract bias toward majority classes.",
+  "method_summary": "ABCL creates a blended target distribution that combines OSP and ASP predictions with weighting determined by class frequencies, pulling both original and augmented predictions toward this target distribution using Kullback-Leibler divergence loss.",
+  "method_components": [
+    "ABCL loss function: L_ABCL(z, ŷ) = L_con(z_blended, z) + L_con(z_blended, ŷ)",
+    "Blended target distribution: z_blended = (1-k) * z + k * ŷ",
+    "Weighting calculation: k = max(0, min(γ * (N_original - N_augmented) + 0.5, 1))"
+  ],
+  "key_innovation": "Adaptive weighting of target distributions based on class frequencies to counteract natural bias toward majority classes, with k < 0.5 when OSP is minority class and k > 0.5 when ASP is minority class.",
+  "assumptions": [
+    "The model's predictions for original and augmented samples can be meaningfully combined",
+    "Class frequency information can effectively guide the blending of target distributions"
+  ],
+  "theoretical_grounding": "Analysis of four prediction cases (Tab. 1) demonstrating how ABCL addresses limitations of CL and SCL by moving target distributions toward minority classes when predictions disagree, with no formal proofs provided.",
+  "datasets_used": [
+    "HAM10000 (skin cancer dataset)",
+    "REFUGE dataset"
+  ],
+  "baselines_compared": [
+    "UDA baseline",
+    "Sampling (SMOTE and random undersampling)",
+    "Weighted Cross Entropy Loss (WeightedCE)",
+    "Focal Loss",
+    "Consistency Loss Suppression (SCL)",
+    "UDA-WeightedCE-SCL"
+  ],
+  "metrics_used": [
+    "UAR (Unweighted Average Recall)",
+    "G-mean",
+    "Average AUC",
+    "Individual class recall",
+    "ROC and AUC for each class"
+  ],
+  "hyperparameters": "Weak data augmentation (random horizontal flips, rotations 0-180°, erasing 0.02-0.33 proportion, color augmentation 0.9-1.1), γ=0.4 for ABCL, β=0.8 for SCL, Class weights [0.11,0.67,0.06,0.03,0.11,0.01,0.01] for HAM10000",
+  "compute_required": "Not specified",
+  "seeds": "Not specified",
+  "headline_result": "UDA-WeightedCE-ABCL achieved UAR of 0.68, G-mean of 0.66, and average AUC of 0.96 on HAM10000 dataset",
+  "results_table": [
+    {
+      "method": "UDA-ABCL(ours)",
+      "dataset": "HAM10000",
+      "metric": "UAR",
+      "value": "0.67"
+    },
+    {
+      "method": "UDA-ABCL(ours)",
+      "dataset": "HAM10000",
+      "metric": "G-mean",
+      "value": "0.62"
+    },
+    {
+      "method": "UDA-ABCL(ours)",
+      "dataset": "HAM10000",
+      "metric": "Average AUC",
+      "value": "0.95"
+    },
+    {
+      "method": "UDA-WeightedCE-ABCL(ours)",
+      "dataset": "HAM10000",
+      "metric": "UAR",
+      "value": "0.68"
+    },
+    {
+      "method": "UDA-WeightedCE-ABCL(ours)",
+      "dataset": "HAM10000",
+      "metric": "G-mean",
+      "value": "0.66"
+    },
+    {
+      "method": "UDA-WeightedCE-ABCL(ours)",
+      "dataset": "HAM10000",
+      "metric": "Average AUC",
+      "value": "0.96"
+    },
+    {
+      "method": "UDA baseline",
+      "dataset": "HAM10000",
+      "metric": "UAR",
+      "value": "0.59"
+    },
+    {
+      "method": "UDA baseline",
+      "dataset": "HAM10000",
+      "metric": "G-mean",
+      "value": "0.56"
+    },
+    {
+      "method": "UDA baseline",
+      "dataset": "HAM10000",
+      "metric": "Average AUC",
+      "value": "0.91"
+    }
+  ],
+  "ablations": [
+    "Selective versus always-on target blending",
+    "Effect of γ parameter variation",
+    "Impact of combining WeightedCE with ABCL"
+  ],
+  "improvement_over_baseline": "ABCL improved UAR from 0.59 to 0.67 (+0.08), G-mean from 0.56 to 0.62 (+0.06), and average AUC from 0.91 to 0.95 (+0.04) over UDA baseline",
+  "best_result": "UDA-WeightedCE-ABCL achieved UAR of 0.68, G-mean of 0.66, and average AUC of 0.96 on HAM10000 dataset",
+  "key_results": {
+    "HAM10000_UAR": "0.68",
+    "HAM10000_G-mean": "0.66",
+    "HAM10000_Average AUC": "0.96"
+  },
+  "limitations_stated": [],
+  "reproducibility": "low",
+  "evidence_id": "EV012",
+  "title": "Semi-supervised learning for medical image classification using imbalanced training data",
+  "year": 2021,
+  "arxiv_id": "2108.08956",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 59027,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 33,
+  "pdf_tables": 11,
+  "pdf_captions": 10
+}

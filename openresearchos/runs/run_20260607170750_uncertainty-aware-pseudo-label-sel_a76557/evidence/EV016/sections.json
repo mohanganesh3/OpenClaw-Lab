@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\nCOMPAYL Workshop @ MICCAI (2025)\nLearning Disentangled Stain and Structural Representations\nfor Semi-Supervised Histopathology Segmentation\nHa-Hieu Pham1,3,7∗\nphhieu22@clc.fitus.edu.vn",
+  "method": ":\nthe color student, trained on inputs augmented by histogram matching and color jittering\nto capture both in-distribution and out-of-distribution color shifts; and the structure stu-\ndent, optimized ",
+  "results": "ram)\n81.64 ± 1.08\n70.15 ± 1.52\n74.55 ± 1.51\n61.93 ± 1.84\nCSDS (Ours)\n82.86 ± 1.24\n72.01 ± 1.81\n75, 25 ± 1, 54\n63, 00 ± 1, 67\n10%\nSupervised Baseline\n75.64 ± 3.99\n62.48 ± 4.11\n71.80 ± 3.11\n58.91 ± 3.20",
+  "conclusion": "bility via color- and structure-adaptive weighting. Experiments\non GlaS and CRAG under limited-label settings show that CSDS consistently outperforms\nstrong baselines and recent state-of-the-art metho"
+}

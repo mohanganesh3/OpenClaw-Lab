@@ -1,0 +1,321 @@
+{
+  "nodes": [
+    {
+      "id": "EV001",
+      "title": "Pseudo-D: Informing Multi-View Uncertainty Estimation with Calibrated Neural Training Dynamics",
+      "year": 2025
+    },
+    {
+      "id": "EV002",
+      "title": "Uncertainty Reactivation: Dynamic Contrastive Correction for Semi-Supervised Medical Image Segmentation",
+      "year": 2025
+    },
+    {
+      "id": "EV003",
+      "title": "Sam-Driven Weakly Supervised Nodule Segmentation with Uncertainty-Aware Cross Teaching",
+      "year": 2024
+    },
+    {
+      "id": "EV004",
+      "title": "Consistency Regularization and Semi-Supervised Blood Cell Detection Algorithm Based on YOLOv5-ALT",
+      "year": 2026
+    },
+    {
+      "id": "EV005",
+      "title": "Addressing Data Scarcity in 3D Trauma Detection through Self-Supervised and Semi-Supervised Learning with Vertex Relative Position Encoding",
+      "year": 2026
+    },
+    {
+      "id": "EV006",
+      "title": "Mutual Evidential Deep Learning for Medical Image Segmentation",
+      "year": 2025
+    },
+    {
+      "id": "EV007",
+      "title": "SemiSeg-CAW: Semi-Supervised Segmentation of Ultrasound Images by Leveraging Class-Level Information and an Adaptive Multi-Loss Function",
+      "year": 2025
+    },
+    {
+      "id": "EV008",
+      "title": "SemSim: Revisiting Weak-to-Strong Consistency from a Semantic Similarity Perspective for Semi-supervised Medical Image Segmentation",
+      "year": 2024
+    },
+    {
+      "id": "EV009",
+      "title": "Rethinking Semi-Supervised Medical Image Segmentation: A Variance-Reduction Perspective",
+      "year": 2023
+    },
+    {
+      "id": "EV010",
+      "title": "EVIL: Evidential Inference Learning for Trustworthy Semi-Supervised Medical Image Segmentation",
+      "year": 2023
+    },
+    {
+      "id": "EV011",
+      "title": "Uncertainty-Aware Deep Learning With Cross-Task Supervision for PHE Segmentation on CT Images",
+      "year": 2022
+    },
+    {
+      "id": "EV012",
+      "title": "Semi-supervised learning for medical image classification using imbalanced training data",
+      "year": 2021
+    },
+    {
+      "id": "EV013",
+      "title": "Exploring Feature Representation Learning for Semi-Supervised Medical Image Segmentation",
+      "year": 2021
+    },
+    {
+      "id": "EV014",
+      "title": "Domain-Specific, Semi-Supervised Transfer Learning for Medical Imaging",
+      "year": 2020
+    },
+    {
+      "id": "EV015",
+      "title": "Semi-supervised Strong-Teacher Consistency Learning for few-shot cardiac MRI image segmentation",
+      "year": 2025
+    },
+    {
+      "id": "EV016",
+      "title": "Learning Disentangled Stain and Structural Representations for Semi-Supervised Histopathology Segmentation",
+      "year": 2025
+    },
+    {
+      "id": "EV017",
+      "title": "Physics-Informed Uncertainty-Aware Dynamic Balancing Learning Framework for Unsupervised Universal Domain Generalization Diagnosis Scenario",
+      "year": 2025
+    },
+    {
+      "id": "EV018",
+      "title": "Uncertainty-Aware Extreme Point Tracing for Weakly Supervised Ultrasound Image Segmentation",
+      "year": 2025
+    },
+    {
+      "id": "EV019",
+      "title": "DMformer: Difficulty-Adapted Masked Transformer for Semi-Supervised Medical Image Segmentation",
+      "year": 2025
+    },
+    {
+      "id": "EV020",
+      "title": "Semi-Supervised Medical Image Segmentation Based on Deep Consistent Collaborative Learning",
+      "year": 2024
+    },
+    {
+      "id": "EV021",
+      "title": "Curriculum Learning for Self-Iterative Semi-Supervised Medical Image Segmentation",
+      "year": 2024
+    },
+    {
+      "id": "EV022",
+      "title": "Weakly Supervised Zero-Shot Medical Image Segmentation Using Pretrained Medical Language Models",
+      "year": 2024
+    },
+    {
+      "id": "EV023",
+      "title": "DRIVE: Dual-Robustness via Information Variability and Entropic Consistency in Source-Free Unsupervised Domain Adaptation",
+      "year": 2024
+    },
+    {
+      "id": "EV024",
+      "title": "UT-MT: A Semi-Supervised Model of Fusion Transformer for 3D Medical Image Segmentation",
+      "year": 2023
+    },
+    {
+      "id": "EV025",
+      "title": "Semi-supervised learning in cancer diagnostics",
+      "year": 2022
+    },
+    {
+      "id": "EV026",
+      "title": "AI-based analysis of abdominal ultrasound images to support medical diagnosis. (Analyse d'images d'échographie abdominale basée sur l'IA pour aider au diagnostic médical)",
+      "year": 2022
+    },
+    {
+      "id": "EV027",
+      "title": "Anomaly Detection in Medical Imaging - A Mini Review",
+      "year": 2021
+    },
+    {
+      "id": "EV028",
+      "title": "Uncertainty-Guided Mutual Consistency Learning for Semi-Supervised Medical Image Segmentation",
+      "year": 2021
+    },
+    {
+      "id": "EV029",
+      "title": "Research on Medical Image Classification Based on Machine Learning",
+      "year": 2020
+    },
+    {
+      "id": "EV030",
+      "title": "UADC\n : Uncertainty‐Aware Diverse Co‐Training for Semi‐Supervised Medical Image Segmentation",
+      "year": 2026
+    },
+    {
+      "id": "EV031",
+      "title": "MetricCol: Metric Depth and Pose Estimation in Colonoscopy via Geometric Consistency and Domain Adaptation",
+      "year": 2025
+    },
+    {
+      "id": "EV032",
+      "title": "Reliable fairness auditing with semi-supervised inference",
+      "year": 2025
+    },
+    {
+      "id": "EV033",
+      "title": "Deep Dictionary Learning for Image Recognition with Limited Data in 2025",
+      "year": 2025
+    },
+    {
+      "id": "EV034",
+      "title": "Geometry and Uncertainty-Aware 3D Point Cloud Class-Incremental Semantic Segmentation",
+      "year": 2023
+    },
+    {
+      "id": "EV035",
+      "title": "Less Is More: Surgical Phase Recognition From Timestamp Supervision",
+      "year": 2022
+    },
+    {
+      "id": "EV036",
+      "title": "Complementing Semi-Supervised Learning with Uncertainty Quantification",
+      "year": 2022
+    },
+    {
+      "id": "EV037",
+      "title": "Uncertainty-Aware Semi-Supervised Few Shot Segmentation",
+      "year": 2021
+    },
+    {
+      "id": "EV038",
+      "title": "Uncertainty-Aware Distillation for Semi-Supervised Few-Shot Class-Incremental Learning",
+      "year": 2023
+    },
+    {
+      "id": "EV039",
+      "title": "Uncertainty-aware Parameter-Efficient Self-training for Semi-supervised Language Understanding",
+      "year": 2023
+    },
+    {
+      "id": "EV040",
+      "title": "Self-supervised learning and semi-supervised learning for multi-sequence medical image classification",
+      "year": 2022
+    },
+    {
+      "id": "EV041",
+      "title": "Pixel Exclusion: Uncertainty-aware Boundary Discovery for Active Cross-Domain Semantic Segmentation",
+      "year": 2022
+    },
+    {
+      "id": "EV042",
+      "title": "Conformal Credal Self-Supervised Learning",
+      "year": 2022
+    },
+    {
+      "id": "EV043",
+      "title": "Aggregated Mutual Learning between CNN and Transformer for semi-supervised medical image segmentation",
+      "year": 2025
+    },
+    {
+      "id": "EV044",
+      "title": "Exploring Text-Enhanced Mixture-of-Experts for Semi-supervised Medical Image Segmentation with Composite Data",
+      "year": 2025
+    },
+    {
+      "id": "EV045",
+      "title": "Semantic knowledge transfer for semi-supervised medical image segmentation",
+      "year": 2025
+    },
+    {
+      "id": "EV046",
+      "title": "PTCL: Pseudo-Label Temporal Curriculum Learning for Label-Limited Dynamic Graph",
+      "year": 2025
+    },
+    {
+      "id": "EV047",
+      "title": "Uncertainty-Aware Adaptive Pseudo-Labeling for Referring Video Object Segmentation",
+      "year": 2025
+    },
+    {
+      "id": "EV048",
+      "title": "Semi-Supervised Adversarial Self-Integration Network for Medical Image Segmentation",
+      "year": 2025
+    },
+    {
+      "id": "EV049",
+      "title": "CTS: Sim-to-Real Unsupervised Domain Adaptation on 3D Detection",
+      "year": 2024
+    },
+    {
+      "id": "EV050",
+      "title": "Semi-supervised Medical Image Segmentation with Strong/Weak Task-Aware Consistency",
+      "year": 2024
+    },
+    {
+      "id": "EV051",
+      "title": "Exploring Smoothness and Class-Separation for Semi-supervised Medical Image Segmentation",
+      "year": 2022
+    },
+    {
+      "id": "EV052",
+      "title": "Uncertainty-aware pseudo-labeling for quantum calculations",
+      "year": 2022
+    },
+    {
+      "id": "EV053",
+      "title": "Momentum Contrastive Voxel-wise Representation Distillation for Semi-supervised Volumetric Medical Image Segmentation",
+      "year": 2021
+    },
+    {
+      "id": "EV054",
+      "title": "HiProto: Hierarchical Prototype Learning for Interpretable Object Detection Under Low-quality Conditions",
+      "year": 2026
+    },
+    {
+      "id": "EV055",
+      "title": "HSIC-based Moving Weight Averaging for Few-Shot Open-Set Object Detection",
+      "year": 2023
+    },
+    {
+      "id": "EV056",
+      "title": "Decoupled Semantic Prototypes enable learning from diverse annotation types for semi-weakly segmentation in expert-driven domains",
+      "year": 2023
+    },
+    {
+      "id": "EV057",
+      "title": "Leveraging Self-Supervision for Cross-Domain Crowd Counting",
+      "year": 2021
+    },
+    {
+      "id": "EV058",
+      "title": "MedGS: Gaussian Splatting for Multi-Modal 3D Medical Imaging",
+      "year": 2025
+    },
+    {
+      "id": "EV059",
+      "title": "Supplementary: Uncertainty-Aware Adaptation for Self-Supervised 3D Human Pose Estimation",
+      "year": 2022
+    },
+    {
+      "id": "EV060",
+      "title": "Rethinking Weak-to-Strong Augmentation in Source-Free Domain Adaptive Object Detection",
+      "year": 2024
+    }
+  ],
+  "edges": [
+    {
+      "from": "EV005",
+      "to": "EV004",
+      "type": "baseline_comparison"
+    },
+    {
+      "from": "EV013",
+      "to": "EV048",
+      "type": "baseline_comparison"
+    },
+    {
+      "from": "EV013",
+      "to": "EV003",
+      "type": "baseline_comparison"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "experiment_id": "mvp_id001",
+  "run_id": "run_20260607152137_traceable-autonomous-research-agen_b274f9",
+  "idea_id": "ID001",
+  "idea_title": "Traceability gap: agents may produce ideas without an auditable chain from sourc",
+  "hypothesis": "Traceability gap: agents may produce ideas without an auditable chain from source evidence to experiment decision.",
+  "level": "mvp",
+  "task_type": "rl_simulation",
+  "dataset": "multi_armed_bandit_k10",
+  "seeds": [
+    42,
+    1337,
+    2024,
+    99,
+    7
+  ],
+  "num_seeds": 5,
+  "baseline_name": "Epsilon-Greedy (eps=0.1)",
+  "proposed_name": "UCB (c=2.0)",
+  "baseline_accuracy": 0.891106,
+  "baseline_accuracy_std": 0.044351,
+  "accuracy": 0.933358,
+  "accuracy_std": 0.020034,
+  "baseline_f1": 0.891106,
+  "f1": 0.933358,
+  "f1_std": 0.020034,
+  "improvement": {
+    "accuracy": 0.042252
+  },
+  "improvement_pct": 4.225,
+  "better": true,
+  "t_statistic": 1.7233,
+  "p_value": 0.1599,
+  "statistically_significant": false,
+  "duration_seconds": 0.02,
+  "platform": "macOS-26.1-arm64-arm-64bit",
+  "python": "3.12.13",
+  "success": false,
+  "status": "completed"
+}

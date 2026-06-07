@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\nPublished as a conference paper at ICLR 2024\nAGENTBENCH: EVALUATING LLMS AS AGENTS\nXiao Liu1,*, Hao Yu1,*,†, Hanchen Zhang1,*, Yifan Xu1, Xuanyu Lei1, Hanyu Lai1, Yu Gu2,†,\nHangliang D",
+  "method": "an knowledge. In Jason Tsong-Li\nWang (ed.), Proceedings of the ACM SIGMOD International Conference on Management of Data,\nSIGMOD 2008, Vancouver, BC, Canada, June 10-12, 2008, pp. 1247–1250. ACM, 2008",
+  "results": ", we generate 5\nSQL statements for insertion. Later we rephrase the sentences without changing their meaning\n(using shorter or longer expressions or changing the order).\n• Update: Given the name, the ",
+  "conclusion": "pleted by the model divided by the total number of tasks.\nG.2\nPROMPT EXAMPLE\nTo align the output format with the legal commands supported by the simulated environment, we\nadopted a 1-shot evaluation s"
+}

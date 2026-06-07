@@ -1,0 +1,44 @@
+{
+  "latest_experiment": "micro_probe_i04",
+  "latest_metrics": {
+    "success": false
+  },
+  "all_results": [
+    {
+      "experiment_id": "micro_probe_i04",
+      "idea_id": "I04",
+      "idea_title": "Context-Aware Attention for Embodied Classification",
+      "level": "micro",
+      "metrics": {
+        "success": false
+      },
+      "decision": "FIX_BUG_AND_RERUN",
+      "success": false,
+      "status": "failed",
+      "exit_code": 1,
+      "completed_at": "2026-06-07T09:07:57.309Z",
+      "metrics_path": "/Users/mohanganesh/OpenClaw-Lab/openresearchos/runs/run_20260607080619_efficient-attention-mechanisms_f47d54/experiments/micro_probe_i04/metrics.json",
+      "result_summary_path": "/Users/mohanganesh/OpenClaw-Lab/openresearchos/runs/run_20260607080619_efficient-attention-mechanisms_f47d54/experiments/micro_probe_i04/result_summary.md",
+      "review_path": "/Users/mohanganesh/OpenClaw-Lab/openresearchos/runs/run_20260607080619_efficient-attention-mechanisms_f47d54/experiments/micro_probe_i04/review_after_run.md",
+      "next_action": "FIX_BUG_AND_RERUN"
+    },
+    {
+      "experiment_id": "micro_probe_i04",
+      "idea_id": "I04",
+      "idea_title": "Context-Aware Attention for Embodied Classification",
+      "level": "micro",
+      "metrics": {
+        "success": false
+      },
+      "decision": "FIX_BUG_AND_RERUN",
+      "success": false,
+      "status": "failed",
+      "exit_code": 1,
+      "completed_at": "2026-06-07T09:07:57.309Z",
+      "metrics_path": "/Users/mohanganesh/OpenClaw-Lab/openresearchos/runs/run_20260607080619_efficient-attention-mechanisms_f47d54/experiments/micro_probe_i04/metrics.json",
+      "result_summary_path": "/Users/mohanganesh/OpenClaw-Lab/openresearchos/runs/run_20260607080619_efficient-attention-mechanisms_f47d54/experiments/micro_probe_i04/result_summary.md",
+      "review_path": "/Users/mohanganesh/OpenClaw-Lab/openresearchos/runs/run_20260607080619_efficient-attention-mechanisms_f47d54/experiments/micro_probe_i04/review_after_run.md",
+      "next_action": "FIX_BUG_AND_RERUN"
+    }
+  ]
+}

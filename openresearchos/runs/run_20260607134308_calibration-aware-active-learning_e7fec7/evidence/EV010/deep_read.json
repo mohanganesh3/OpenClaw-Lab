@@ -1,0 +1,86 @@
+{
+  "problem_addressed": "Existing interfaces for LM agents (e.g., Linux shell) are not optimized for complex software engineering tasks, limiting their performance.",
+  "core_claim": "LM agents significantly benefit from specially-designed interfaces like SWE-agent's agent-computer interface (ACI) for software engineering tasks.",
+  "key_contributions": [
+    "Introduction of SWE-agent with a custom agent-computer interface (ACI) for LM agents",
+    "Achieved state-of-the-art performance on SWE-bench (12.5% pass@1) and HumanEvalFix (87.7% pass@1)"
+  ],
+  "novelty": "Prior work used general applications (e.g., Linux shell) for LM agents, while SWE-agent introduces a tailored interface with LM-friendly commands and feedback formats.",
+  "method_summary": "SWE-agent uses a custom agent-computer interface (ACI) with LM-friendly commands and structured feedback to enable autonomous software engineering tasks.",
+  "method_components": [
+    "Filesystem navigation and viewing capabilities",
+    "LM-friendly commands for searching and editing files",
+    "Structured environment feedback"
+  ],
+  "key_innovation": "The agent-computer interface (ACI) designed with LM-friendly commands and feedback formats that align with LM agents' capabilities.",
+  "assumptions": [
+    "LM agents can effectively utilize structured interfaces",
+    "The ACI's design aligns with LM agents' capabilities"
+  ],
+  "theoretical_grounding": "Based on HCI studies showing interfaces impact human performance, but no specific proofs provided.",
+  "datasets_used": [
+    "SWE-bench Lite dataset",
+    "SWE-bench test set (286 trajectories)",
+    "SWE-bench Lite split (35 trajectories)"
+  ],
+  "baselines_compared": [
+    "SWE-agent with GPT-4 on full SWE-bench test set",
+    "SWE-agent with Claude 3 Opus on Lite split"
+  ],
+  "metrics_used": [
+    "% Resolved performance",
+    "Distribution of turns needed",
+    "Total steps distribution",
+    "Cost distribution (USD)",
+    "Action pattern frequencies"
+  ],
+  "hyperparameters": {
+    "cost_limit_usd": 4
+  },
+  "compute_required": "Not specified",
+  "seeds": "Not specified",
+  "headline_result": "Not explicitly stated in provided text",
+  "results_table": [
+    {
+      "method": "SWE-agent with GPT-4",
+      "dataset": "SWE-bench test set",
+      "metric": "Action pattern frequency",
+      "value": "create, edit, python appears 156 times at turns 1-3"
+    },
+    {
+      "method": "SWE-agent with GPT-4",
+      "dataset": "SWE-bench test set",
+      "metric": "Action pattern frequency",
+      "value": "edit, python, find_file appears 71 times at turns 2-4"
+    },
+    {
+      "method": "SWE-agent with GPT-4",
+      "dataset": "SWE-bench test set",
+      "metric": "Action pattern frequency",
+      "value": "python, find_file, open appears 61 times at turns 3-5"
+    }
+  ],
+  "ablations": "Not explicitly mentioned in provided text",
+  "improvement_over_baseline": "Not explicitly stated in provided text",
+  "best_result": "Not explicitly stated in provided text",
+  "key_results": {
+    "SWE-bench test set_Action pattern frequency": "python, find_file, open appears 61 times at turns 3-5"
+  },
+  "limitations_stated": [],
+  "reproducibility": "low",
+  "evidence_id": "EV010",
+  "title": "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
+  "year": 2024,
+  "arxiv_id": "2405.15793",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 196393,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 60,
+  "pdf_tables": 11,
+  "pdf_captions": 55
+}

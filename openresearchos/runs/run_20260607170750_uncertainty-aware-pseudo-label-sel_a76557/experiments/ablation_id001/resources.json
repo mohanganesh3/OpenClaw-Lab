@@ -1,0 +1,18 @@
+{
+  "plan": {
+    "loader": "sklearn",
+    "dataset_name": "load_digits",
+    "reason": "deterministic skip-codegen SSL pseudo-label proxy branch"
+  },
+  "dataset": {
+    "ok": true,
+    "kind": "sklearn",
+    "name": "load_digits",
+    "download_required": false
+  },
+  "repo": {
+    "skipped": true,
+    "reason": "deterministic skip-codegen branch uses minimal reimplementation, not untrusted repo execution"
+  },
+  "repaired_at": "2026-06-07T18:38:07.631Z"
+}

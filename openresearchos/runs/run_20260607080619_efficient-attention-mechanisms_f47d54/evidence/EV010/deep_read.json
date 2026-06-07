@@ -1,0 +1,101 @@
+{
+  "problem_addressed": "Language model agents lack specialized interfaces for complex software engineering tasks, unlike human engineers who benefit from IDEs.",
+  "core_claim": "LM agents require specially-built interfaces to effectively perform software engineering tasks, similar to how humans need IDEs.",
+  "key_contributions": [
+    "SWE-agent system that enables LM agents to autonomously use computers for software engineering tasks",
+    "Custom agent-computer interface (ACI) that enhances LM agents' ability to create/edit code, navigate repositories, and execute tests"
+  ],
+  "novelty": "The custom agent-computer interface (ACI) with LM-friendly commands and environment feedback, specifically designed for software engineering tasks.",
+  "method_summary": "SWE-agent facilitates LM agents to autonomously use computers through an ACI that includes specific commands for file manipulation and navigation, with structured feedback from the computer environment.",
+  "method_components": [
+    "LM-friendly commands for file operations and navigation",
+    "LM-friendly environment feedback format",
+    "Agent-computer interface connecting LM agent to computer"
+  ],
+  "key_innovation": "The ACI design that bridges LM capabilities with software engineering needs through carefully crafted commands and feedback mechanisms.",
+  "assumptions": [
+    "LM agents can benefit from structured interfaces like humans do",
+    "Interface design significantly impacts agent performance"
+  ],
+  "theoretical_grounding": "None explicitly provided",
+  "datasets_used": [
+    "SWE-bench Lite",
+    "SWE-bench (full)"
+  ],
+  "baselines_compared": [
+    "SWE-agent w/ GPT-4",
+    "SWE-agent w/ Claude 3 Opus"
+  ],
+  "metrics_used": [
+    "Resolution rate",
+    "Turn distribution",
+    "Total steps",
+    "Cost (USD)"
+  ],
+  "hyperparameters": "null",
+  "compute_required": "null",
+  "seeds": "null",
+  "headline_result": "SWE-agent with GPT-4 resolved 60% of tasks within 25 turns on SWE-bench (full), while Claude 3 Opus resolved 50% within 20 turns on SWE-bench Lite",
+  "results_table": [
+    {
+      "method": "SWE-agent w/ GPT-4",
+      "dataset": "SWE-bench (full)",
+      "metric": "Resolution by Turn",
+      "value": "60% resolved by turn 25"
+    },
+    {
+      "method": "SWE-agent w/ Claude 3 Opus",
+      "dataset": "SWE-bench Lite",
+      "metric": "Resolution by Turn",
+      "value": "50% resolved by turn 20"
+    },
+    {
+      "method": "SWE-agent w/ GPT-4",
+      "dataset": "SWE-bench",
+      "metric": "Total Steps",
+      "value": "Resolved instances median <100 steps vs >140 for unresolved"
+    },
+    {
+      "method": "SWE-agent w/ GPT-4",
+      "dataset": "SWE-bench",
+      "metric": "Cost",
+      "value": "Resolved instances median <$2 vs >$3.5 for unresolved"
+    },
+    {
+      "method": "Action Patterns",
+      "dataset": "SWE-bench",
+      "metric": "Frequency",
+      "value": "'create, edit, python' occurred 156 times in turns 1-3"
+    }
+  ],
+  "ablations": [
+    "Localization-first vs Reproduction-first strategies",
+    "Error recovery capabilities"
+  ],
+  "improvement_over_baseline": "null",
+  "best_result": "SWE-agent with GPT-4 resolved 60% of tasks within 25 turns on SWE-bench (full), while Claude 3 Opus resolved 50% within 20 turns on SWE-bench Lite",
+  "key_results": {
+    "SWE-bench (full)_Resolution by Turn": "60% resolved by turn 25",
+    "SWE-bench Lite_Resolution by Turn": "50% resolved by turn 20",
+    "SWE-bench_Total Steps": "Resolved instances median <100 steps vs >140 for unresolved",
+    "SWE-bench_Cost": "Resolved instances median <$2 vs >$3.5 for unresolved",
+    "SWE-bench_Frequency": "'create, edit, python' occurred 156 times in turns 1-3"
+  },
+  "limitations_stated": [],
+  "reproducibility": "low",
+  "evidence_id": "EV010",
+  "title": "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
+  "year": 2024,
+  "arxiv_id": "2405.15793",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 196393,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 60,
+  "pdf_tables": 11,
+  "pdf_captions": 55
+}

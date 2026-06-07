@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\nComplementing Semi-Supervised Learning with Uncertainty Quantiﬁcation\nEhsan Kazemi1\n1Computer Science Dept., University of Central Florida, Orlando, Florida, USA\nAbstract\nThe problem o",
+  "method": "he state-of-\nthe-art SSL techniques. Our framework is computationally\nattractive as it does not demand to form label propagation\ngraphs and is free of computing similarities across the unla-\nbeled exa",
+  "results": "g a multivariate Gaussian density loss function.\nThe probability of a pseudo label ˆy given the model input x\ncan be estimated with the multivariate Gaussian distribution\np(ˆy|x) =\n1\nq\n(2π)h|ˆΣ(x)|\n×\n",
+  "conclusion": "00\nand Mini-ImageNet, respectively. The weight selections for\nαUA is consistent with the weights of unsupervised loss in\nHu et al. [2021]. A key advantage of our method is that it\ndoes not require man"
+}

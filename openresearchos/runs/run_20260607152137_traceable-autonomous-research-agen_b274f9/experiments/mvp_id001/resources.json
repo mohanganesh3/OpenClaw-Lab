@@ -1,0 +1,30 @@
+{
+  "idea_id": "ID001",
+  "level": "mvp",
+  "plan": {
+    "loader": "sklearn",
+    "dataset_name": "load_digits",
+    "task": "classification",
+    "clone_repo": null,
+    "packages": [
+      "scikit-learn",
+      "numpy",
+      "scipy"
+    ],
+    "notes": "Test traceability gap with simple digit classification baseline"
+  },
+  "repo": {
+    "cloned": false,
+    "path": null,
+    "executed": false,
+    "inspected": false,
+    "reason": null
+  },
+  "dataset": {
+    "ok": true,
+    "kind": "sklearn",
+    "location": "sklearn.datasets.load_digits",
+    "note": "SK_OK (1797, 64) 10"
+  },
+  "prepared_at": "2026-06-07T15:29:37.391Z"
+}

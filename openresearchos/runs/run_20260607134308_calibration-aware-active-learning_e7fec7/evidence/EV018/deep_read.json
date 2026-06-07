@@ -1,0 +1,157 @@
+{
+  "datasets_used": [
+    "70,000 compositions from Ti-Fe-Al-V-Ni-Nb-Zr-Mn-Co design space, labeled with phase fractions at 7 temperatures using CALPHAD"
+  ],
+  "baselines_compared": [
+    "Low-uncertainty active learning route",
+    "High-uncertainty active learning route"
+  ],
+  "metrics_used": [
+    "R²",
+    "BCC fraction",
+    "Precision",
+    "Recall",
+    "F1 score"
+  ],
+  "hyperparameters": null,
+  "compute_required": null,
+  "seeds": null,
+  "headline_result": "Laves phase R² of 0.99 on 70,000 composition dataset",
+  "results_table": [
+    {
+      "method": "MDN model",
+      "dataset": "70,000 compositions",
+      "metric": "R²",
+      "value": "0.97 (FCC)"
+    },
+    {
+      "method": "MDN model",
+      "dataset": "70,000 compositions",
+      "metric": "R²",
+      "value": "0.98 (BCC)"
+    },
+    {
+      "method": "MDN model",
+      "dataset": "70,000 compositions",
+      "metric": "R²",
+      "value": "0.99 (Laves)"
+    },
+    {
+      "method": "MDN model",
+      "dataset": "70,000 compositions",
+      "metric": "R²",
+      "value": "0.89 (Sigma)"
+    },
+    {
+      "method": "MDN model",
+      "dataset": "70,000 compositions",
+      "metric": "R²",
+      "value": "0.96 (Heusler)"
+    },
+    {
+      "method": "MDN model",
+      "dataset": "70,000 compositions",
+      "metric": "R²",
+      "value": "0.98 (Liquid)"
+    },
+    {
+      "method": "Low-uncertainty route",
+      "dataset": "Ti-alloys",
+      "metric": "BCC fraction",
+      "value": "0.68 → 0.90"
+    },
+    {
+      "method": "High-uncertainty route",
+      "dataset": "Ti-alloys",
+      "metric": "BCC fraction",
+      "value": "0.60 (plateau)"
+    },
+    {
+      "method": "High-uncertainty route",
+      "dataset": "Ti-alloys",
+      "metric": "Precision",
+      "value": ">0.75 after 2 cycles"
+    },
+    {
+      "method": "High-uncertainty route",
+      "dataset": "Ti-alloys",
+      "metric": "Recall",
+      "value": "steadily increasing"
+    },
+    {
+      "method": "Low-uncertainty route",
+      "dataset": "Ti-alloys",
+      "metric": "F1 score",
+      "value": "fluctuated around 0.30"
+    },
+    {
+      "method": "High-uncertainty route",
+      "dataset": "Ti-alloys",
+      "metric": "F1 score",
+      "value": "continuous improvement"
+    }
+  ],
+  "ablations": [
+    "Feature reduction from 41 to 12 most important features preserved accuracy; further reduction caused accuracy drops and increased epistemic uncertainty"
+  ],
+  "improvement_over_baseline": "Low-uncertainty route increased BCC fraction by 32% (0.68→0.90) vs high-uncertainty route; high-uncertainty route achieved 0.75+ precision vs low-uncertainty route's ~0.30 F1",
+  "stated_limitations": [
+    "The paper addresses limitations of existing machine learning approaches that rely on deterministic mappings and neglect uncertainty in predictions"
+  ],
+  "unstated_weaknesses": [
+    "The paper doesn't explicitly address noisy labels which is a key concern in the project",
+    "Domain specificity to materials science may limit direct applicability to medical data",
+    "Unclear performance with very small datasets"
+  ],
+  "threats_to_validity": [
+    "Domain specificity may limit generalization to medical tabular data",
+    "Uncertainty quantification focuses on aleatoric uncertainty but may not fully address epistemic uncertainty",
+    "Lack of explicit handling of noisy labels"
+  ],
+  "reproducibility": "medium (code availability not mentioned, deep learning models often require specific architectures and hyperparameters)",
+  "open_questions": [
+    "How does the MDN approach perform with very small datasets?",
+    "Can the uncertainty quantification methods be effectively used for calibration?",
+    "How does the approach handle noisy labels?"
+  ],
+  "future_work": [
+    "Out-of-domain discovery using active learning"
+  ],
+  "gaps_this_enables": [
+    "Provides a baseline for uncertainty-aware learning in small datasets",
+    "MDN approach could be adapted for medical tabular data",
+    "Active learning framework could be applied to medical data discovery"
+  ],
+  "relevance_to_topic": "The paper addresses uncertainty-aware learning and active learning but in a different domain and without explicit focus on calibration or noisy labels",
+  "relation_type": "method_source",
+  "can_run_on_macbook": true,
+  "reusable_assets": [
+    "Mixture Density Networks (MDNs) approach",
+    "Active learning framework for out-of-domain discovery",
+    "Uncertainty quantification methods"
+  ],
+  "code_available": false,
+  "code_url": null,
+  "best_result": "Laves phase R² of 0.99 on 70,000 composition dataset",
+  "key_results": {
+    "70,000 compositions_R²": "0.98 (Liquid)"
+  },
+  "limitations_stated": [
+    "The paper addresses limitations of existing machine learning approaches that rely on deterministic mappings and neglect uncertainty in predictions"
+  ],
+  "evidence_id": "EV018",
+  "title": "Uncertainty-aware phase fraction prediction and active-learning-guided out-of-domain discovery of refractory multi-principal element alloys",
+  "year": 2026,
+  "arxiv_id": "2604.18322",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 78664,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 43,
+  "pdf_tables": 11,
+  "pdf_captions": 9
+}

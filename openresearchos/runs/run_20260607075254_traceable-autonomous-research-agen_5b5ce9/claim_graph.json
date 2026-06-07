@@ -1,0 +1,45 @@
+{
+  "claims": [
+    {
+      "claim_id": "CL001",
+      "evidence_id": "EV001",
+      "text": "The paper introduces an automated pipeline capable of generating ideas, writing code, running experiments, and drafting papers for scientific discovery.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL002",
+      "evidence_id": "EV002",
+      "text": "The AI Scientist-v2 extends automated scientific discovery by implementing stronger search and review-like iteration to enforce stricter gates for novelty, experiment quality, and paper readiness.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL003",
+      "evidence_id": "EV003",
+      "text": "The paper demonstrates the use of LLM agents as research assistants for tasks like literature review, experimentation, and report writing.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    }
+  ],
+  "links": [
+    {
+      "from": "EV001",
+      "relation": "suggests_gap",
+      "to": "The paper highlights the lack of robust methods for evaluating the quality and reliability of AI-generated scientific discoveries."
+    },
+    {
+      "from": "EV002",
+      "relation": "suggests_gap",
+      "to": "The paper's focus on internal 'stricter gates' for paper readiness leaves open the question of whether the generated work can successfully pass external, human-led peer review."
+    },
+    {
+      "from": "EV003",
+      "relation": "suggests_gap",
+      "to": "The paper identifies a gap in creating fully autonomous and reproducible research workflows, as current systems still require substantial human oversight."
+    }
+  ]
+}

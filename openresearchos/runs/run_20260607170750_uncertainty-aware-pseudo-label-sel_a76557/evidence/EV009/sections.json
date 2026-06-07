@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\nRethinking Semi-Supervised Medical Image\nSegmentation: A Variance-Reduction Perspective\nChenyu You1\nWeicheng Dai1\nYifei Min1\nFenglin Liu2\nDavid A. Clifton2\nS. Kevin Zhou3\nLawrence Stai",
+  "method": "espectively. UNet-F (fully-supervided) and UNet-L (semi-supervided)\nare considered as the upper bound and the lower bound for the performance comparison. Note that,\nRight Ventricle →RV, Myocardium →My",
+  "results": "1] Olivier Bernard, Alain Lalande, Clement Zotti, Frederick Cervenansky, Xin Yang, Pheng-Ann Heng, Irem\nCetin, Karim Lekadir, Oscar Camara, Miguel Angel Gonzalez Ballester, et al. Deep learning techni",
+  "conclusion": "[17] – without using any additional complicated augmentation strategies.\n11The representation head is only applied during training, and is removed during inference\n22\n\n[CAPTION] Figure 1 provides an o"
+}

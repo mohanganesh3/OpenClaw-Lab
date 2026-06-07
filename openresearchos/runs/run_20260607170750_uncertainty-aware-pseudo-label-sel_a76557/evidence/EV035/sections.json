@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\nIEEE TRANSACTIONS ON MEDICAL IMAGING, VOL. XX, NO. XX, XXXX 2020\n1\nLess is More: Surgical Phase Recognition from\nTimestamp Supervision\nXinpeng Ding, Xinjian Yan, Zixun Wang, Wei Zhao, ",
+  "method": "ality of the predicted uncertainty scores by inference-\nbased methods [48], [49] or auto-encoder based methods [50],\n[51]. Estimation of uncertainty has also been investigated\nfor medical image classi",
+  "results": "details why our methods can outperform\ncorresponding backbones in fully supervised setup will be\ndiscussed in Sec. IV-F.\nE. Comparison with Different Timestamp Supervision\nMethods\nTo evaluate the efﬁc",
+  "conclusion": "distance\nsimultaneously.\nV. DISCUSSION\nSurgical phase recognition is one key component of\ncomputer-assisted surgery systems, which advances context-\nawareness in modern operating rooms. However, most "
+}

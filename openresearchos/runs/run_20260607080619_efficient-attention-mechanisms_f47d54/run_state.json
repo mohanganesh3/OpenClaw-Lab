@@ -1,0 +1,3449 @@
+{
+  "schema_version": 1,
+  "run_id": "run_20260607080619_efficient-attention-mechanisms_f47d54",
+  "topic": "efficient attention mechanisms",
+  "created_at": "2026-06-07T08:06:52.801Z",
+  "updated_at": "2026-06-07T12:35:39.506Z",
+  "current_state": "TRACE_EXPORTED",
+  "scope_classification": {
+    "label": "local_experiment",
+    "rationale": "The topic can be explored with small simulations, synthetic data, or lightweight local experiments on the Mac.",
+    "feasibility_note": "Yes, this research topic is highly feasible on your MacBook M4, as the 36GB of RAM and powerful MPS GPU are excellent for implementing and training models with various attention mechanisms. Suitable public datasets include WMT14 En-Fr for machine translation and a subset of C4 for long-sequence language modeling. Experimenting with and comparing 2-3 different attention variants on these tasks could take anywhere from a few hours for fine-tuning to a couple of days for full training runs, dependi"
+  },
+  "prior_knowledge": [
+    {
+      "file": "memory/experiment_lessons/experiment_lesson_id006.md",
+      "excerpt": ""
+    },
+    {
+      "file": "memory/failed_ideas/venue-fit_assessment_module.md",
+      "excerpt": ""
+    },
+    {
+      "file": "memory/failed_ideas/venue-aware_claim_narrowing_for_traceable_autonomous_research.md",
+      "excerpt": ""
+    },
+    {
+      "file": "memory/failed_ideas/venue-aware_claim_narrowing_for_efficient_attention_mechanisms.md",
+      "excerpt": ""
+    },
+    {
+      "file": "memory/failed_ideas/venue-aware_claim_narrowing_for_calibration-aware_active_learning.md",
+      "excerpt": ""
+    }
+  ],
+  "search_queries": [
+    "Linear attention mechanisms",
+    "Flash attention optimization",
+    "Sparse attention models",
+    "Attention in vision",
+    "Attention for NLP",
+    "Long sequence modeling",
+    "Attention model benchmarks",
+    "Attention speed comparison",
+    "Attention quadratic complexity",
+    "State space models",
+    "Attention vs convolutions",
+    "Long sequence datasets",
+    "Efficient attention survey",
+    "Attention mechanisms review",
+    "Kernel attention survey"
+  ],
+  "evidence_ids": [
+    "EV001",
+    "EV002",
+    "EV003",
+    "EV004",
+    "EV005",
+    "EV006",
+    "EV007",
+    "EV008",
+    "EV009",
+    "EV010",
+    "EV011",
+    "EV012",
+    "EV013",
+    "EV014",
+    "EV015",
+    "EV016",
+    "EV017",
+    "EV018",
+    "EV019",
+    "EV020",
+    "EV021",
+    "EV022",
+    "EV023",
+    "EV024",
+    "EV025",
+    "EV026",
+    "EV027",
+    "EV028",
+    "EV029",
+    "EV030",
+    "EV031",
+    "EV032",
+    "EV033",
+    "EV034",
+    "EV035",
+    "EV036",
+    "EV037",
+    "EV038",
+    "EV039",
+    "EV040",
+    "EV041",
+    "EV042",
+    "EV043",
+    "EV044",
+    "EV045",
+    "EV046",
+    "EV047",
+    "EV048",
+    "EV049",
+    "EV050",
+    "EV051",
+    "EV052",
+    "EV053",
+    "EV054",
+    "EV055",
+    "EV056",
+    "EV057",
+    "EV058",
+    "EV059"
+  ],
+  "parsed_papers": [
+    {
+      "evidence_id": "EV001",
+      "title": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery",
+      "year": 2024,
+      "url": "https://arxiv.org/abs/2408.06292",
+      "arxiv_id": "2408.06292",
+      "core_claim": "The AI Scientist enables frontier large language models to perform research independently and communicate their findings through a comprehensive framework for fully automated scientific discovery.",
+      "problem_addressed": "The grand challenge of developing agents capable of conducting scientific research and discovering new knowledge, as current frontier models only conduct small parts of the scientific process.",
+      "key_contributions": [
+        "First comprehensive framework for fully automatic scientific discovery",
+        "Generates novel research ideas, writes code, executes experiments, visualizes results, writes full scientific papers",
+        "Runs simulated review process for evaluation",
+        "Demonstrates versatility across three ML subfields at low cost ($10-15 per paper)",
+        "Develops automated reviewer with near-human performance"
+      ],
+      "novelty": "End-to-end automation of the entire scientific research process using frontier LLMs, from idea generation to paper writing and evaluation, with papers exceeding acceptance thresholds at top ML conferences.",
+      "method_summary": "The AI Scientist uses frontier LLMs to generate research ideas, implement experiments using code templates, execute them, visualize results, write complete scientific papers, and evaluate through simulated peer review in an iterative process.",
+      "method_components": [
+        "Idea generation phase",
+        "Code implementation using templates",
+        "Experiment execution",
+        "Result visualization",
+        "Paper writing",
+        "Simulated review process"
+      ],
+      "key_innovation": "The integration of frontier LLMs to perform the complete scientific research workflow autonomously, including idea generation, implementation, experimentation, publication, and evaluation.",
+      "assumptions": [
+        "Frontier LLMs can generate novel and scientifically valid ideas",
+        "Code templates can be effectively modified for new experiments",
+        "Automated reviewer can accurately evaluate paper quality",
+        "Low-cost computation enables practical implementation"
+      ],
+      "method_or_focus": [
+        "The integration of frontier LLMs to perform the complete scientific research workflow autonomously, including idea generation, implementation, experimentation, publication, and evaluation."
+      ],
+      "datasets_used": [],
+      "baselines_compared": [],
+      "metrics_used": [],
+      "hyperparameters": null,
+      "compute_required": null,
+      "key_results": {},
+      "results_table": [],
+      "headline_result": null,
+      "best_result": null,
+      "ablations": [],
+      "improvement_over_baseline": null,
+      "limitations": [],
+      "unstated_weaknesses": [],
+      "threats_to_validity": [],
+      "open_questions": [],
+      "future_work": [],
+      "gaps_this_enables": [],
+      "relevance_to_topic": null,
+      "relation_type": null,
+      "reusable_assets": [],
+      "reproducibility": "low",
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "full_text_chars": 179243,
+      "full_text_tool": "pymupdf_full",
+      "pdf_pages": 60,
+      "pdf_tables": 2,
+      "possible_gap": "Based on full paper reading: The integration of frontier LLMs to perform the complete scientific research workflow autonomously, including idea generation, implementation, experimentation, publication, and evaluation.",
+      "deep_read": {
+        "problem_addressed": "The grand challenge of developing agents capable of conducting scientific research and discovering new knowledge, as current frontier models only conduct small parts of the scientific process.",
+        "core_claim": "The AI Scientist enables frontier large language models to perform research independently and communicate their findings through a comprehensive framework for fully automated scientific discovery.",
+        "key_contributions": [
+          "First comprehensive framework for fully automatic scientific discovery",
+          "Generates novel research ideas, writes code, executes experiments, visualizes results, writes full scientific papers",
+          "Runs simulated review process for evaluation",
+          "Demonstrates versatility across three ML subfields at low cost ($10-15 per paper)",
+          "Develops automated reviewer with near-human performance"
+        ],
+        "novelty": "End-to-end automation of the entire scientific research process using frontier LLMs, from idea generation to paper writing and evaluation, with papers exceeding acceptance thresholds at top ML conferences.",
+        "method_summary": "The AI Scientist uses frontier LLMs to generate research ideas, implement experiments using code templates, execute them, visualize results, write complete scientific papers, and evaluate through simulated peer review in an iterative process.",
+        "method_components": [
+          "Idea generation phase",
+          "Code implementation using templates",
+          "Experiment execution",
+          "Result visualization",
+          "Paper writing",
+          "Simulated review process"
+        ],
+        "key_innovation": "The integration of frontier LLMs to perform the complete scientific research workflow autonomously, including idea generation, implementation, experimentation, publication, and evaluation.",
+        "assumptions": [
+          "Frontier LLMs can generate novel and scientifically valid ideas",
+          "Code templates can be effectively modified for new experiments",
+          "Automated reviewer can accurately evaluate paper quality",
+          "Low-cost computation enables practical implementation"
+        ],
+        "theoretical_grounding": "None specified in the provided text; relies on empirical validation through paper scores and reviewer performance.",
+        "datasets_used": [],
+        "baselines_compared": [],
+        "metrics_used": [],
+        "hyperparameters": null,
+        "compute_required": null,
+        "seeds": null,
+        "headline_result": null,
+        "results_table": [],
+        "ablations": [],
+        "improvement_over_baseline": null,
+        "best_result": null,
+        "key_results": {},
+        "limitations_stated": [],
+        "reproducibility": "low",
+        "evidence_id": "EV001",
+        "title": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery",
+        "year": 2024,
+        "arxiv_id": "2408.06292",
+        "full_text_tool": "pymupdf_full",
+        "full_text_chars": 179243,
+        "sections_found": [
+          "introduction",
+          "method",
+          "results",
+          "conclusion"
+        ],
+        "pdf_pages": 60,
+        "pdf_tables": 2,
+        "pdf_captions": 11
+      }
+    },
+    {
+      "evidence_id": "EV002",
+      "title": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
+      "year": 2025,
+      "url": "https://arxiv.org/abs/2504.08066",
+      "arxiv_id": "2504.08066",
+      "core_claim": "The AI Scientist-v2 demonstrates that an autonomous AI system can produce peer-reviewed workshop papers, marking the first instance of a fully AI-generated paper successfully navigating peer review.",
+      "problem_addressed": "The challenge of automated scientific discovery and the need for end-to-end systems capable of conducting the entire research process without human intervention.",
+      "key_contributions": [
+        "Development of The AI Scientist-v2 system that eliminates reliance on human-authored code templates",
+        "Generalization across diverse machine learning domains",
+        "Novel progressive agentic tree-search methodology managed by a dedicated experiment manager agent",
+        "Enhanced AI reviewer component with Vision-Language Model (VLM) feedback loop for iterative refinement"
+      ],
+      "novelty": "Compared to The AI Scientist-v1, this version eliminates human-authored code templates, generalizes across diverse ML domains, and introduces a progressive agentic tree-search methodology with a dedicated experiment manager agent.",
+      "method_summary": "The system uses a progressive agentic tree-search methodology managed by an experiment manager agent, with an enhanced AI reviewer component that integrates a Vision-Language Model (VLM) feedback loop for iterative refinement of content and aesthetics of figures.",
+      "method_components": [
+        "Progressive agentic tree-search methodology",
+        "Dedicated experiment manager agent",
+        "AI reviewer component with Vision-Language Model (VLM) feedback loop"
+      ],
+      "key_innovation": "The progressive agentic tree-search methodology managed by a dedicated experiment manager agent, which allows for more systematic exploration of research hypotheses and experimental designs.",
+      "assumptions": [
+        "The system can generate viable scientific hypotheses",
+        "The experiments designed by the system are executable",
+        "The AI reviewer can effectively evaluate the quality of generated content",
+        "The peer review process can fairly evaluate AI-generated papers"
+      ],
+      "method_or_focus": [
+        "The progressive agentic tree-search methodology managed by a dedicated experiment manager agent, which allows for more systematic exploration of research hypotheses and experimental designs.",
+        "SCAN",
+        "COGS",
+        "IWSLT"
+      ],
+      "datasets_used": [
+        "SCAN",
+        "COGS",
+        "IWSLT",
+        "GeoQuery"
+      ],
+      "baselines_compared": [
+        "baseline models"
+      ],
+      "metrics_used": [],
+      "hyperparameters": "null",
+      "compute_required": "null",
+      "key_results": {},
+      "results_table": [],
+      "headline_result": "No specific numeric results provided in text",
+      "best_result": "No specific numeric results provided in text",
+      "ablations": [],
+      "improvement_over_baseline": "null",
+      "limitations": [],
+      "unstated_weaknesses": [],
+      "threats_to_validity": [],
+      "open_questions": [],
+      "future_work": [],
+      "gaps_this_enables": [],
+      "relevance_to_topic": null,
+      "relation_type": null,
+      "reusable_assets": [],
+      "reproducibility": "low",
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "full_text_chars": 173445,
+      "full_text_tool": "pymupdf_full",
+      "pdf_pages": 60,
+      "pdf_tables": 2,
+      "possible_gap": "Based on full paper reading: The progressive agentic tree-search methodology managed by a dedicated experiment manager agent, which allows for more systematic exploration of research hypotheses and experimental designs.",
+      "deep_read": {
+        "problem_addressed": "The challenge of automated scientific discovery and the need for end-to-end systems capable of conducting the entire research process without human intervention.",
+        "core_claim": "The AI Scientist-v2 demonstrates that an autonomous AI system can produce peer-reviewed workshop papers, marking the first instance of a fully AI-generated paper successfully navigating peer review.",
+        "key_contributions": [
+          "Development of The AI Scientist-v2 system that eliminates reliance on human-authored code templates",
+          "Generalization across diverse machine learning domains",
+          "Novel progressive agentic tree-search methodology managed by a dedicated experiment manager agent",
+          "Enhanced AI reviewer component with Vision-Language Model (VLM) feedback loop for iterative refinement"
+        ],
+        "novelty": "Compared to The AI Scientist-v1, this version eliminates human-authored code templates, generalizes across diverse ML domains, and introduces a progressive agentic tree-search methodology with a dedicated experiment manager agent.",
+        "method_summary": "The system uses a progressive agentic tree-search methodology managed by an experiment manager agent, with an enhanced AI reviewer component that integrates a Vision-Language Model (VLM) feedback loop for iterative refinement of content and aesthetics of figures.",
+        "method_components": [
+          "Progressive agentic tree-search methodology",
+          "Dedicated experiment manager agent",
+          "AI reviewer component with Vision-Language Model (VLM) feedback loop"
+        ],
+        "key_innovation": "The progressive agentic tree-search methodology managed by a dedicated experiment manager agent, which allows for more systematic exploration of research hypotheses and experimental designs.",
+        "assumptions": [
+          "The system can generate viable scientific hypotheses",
+          "The experiments designed by the system are executable",
+          "The AI reviewer can effectively evaluate the quality of generated content",
+          "The peer review process can fairly evaluate AI-generated papers"
+        ],
+        "theoretical_grounding": "The paper doesn't explicitly mention any theoretical proofs or derivations, but it does discuss the limitations and ethical considerations of AI-generated research.",
+        "datasets_used": [
+          "SCAN",
+          "COGS",
+          "IWSLT",
+          "GeoQuery"
+        ],
+        "baselines_compared": [
+          "baseline models"
+        ],
+        "metrics_used": [],
+        "hyperparameters": "null",
+        "compute_required": "null",
+        "seeds": "null",
+        "headline_result": "No specific numeric results provided in text",
+        "results_table": [],
+        "ablations": [],
+        "improvement_over_baseline": "null",
+        "best_result": "No specific numeric results provided in text",
+        "key_results": {},
+        "limitations_stated": [],
+        "reproducibility": "low",
+        "evidence_id": "EV002",
+        "title": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
+        "year": 2025,
+        "arxiv_id": "2504.08066",
+        "full_text_tool": "pymupdf_full",
+        "full_text_chars": 173445,
+        "sections_found": [
+          "introduction",
+          "method",
+          "results",
+          "conclusion"
+        ],
+        "pdf_pages": 60,
+        "pdf_tables": 2,
+        "pdf_captions": 41
+      }
+    },
+    {
+      "evidence_id": "EV003",
+      "title": "Agent Laboratory: Using LLM Agents as Research Assistants",
+      "year": 2025,
+      "url": "https://arxiv.org/abs/2501.04227",
+      "arxiv_id": "2501.04227",
+      "core_claim": "Agent Laboratory is an autonomous LLM-based framework that can complete the entire research process from idea to results while reducing costs by 84%.",
+      "problem_addressed": "Scientific discovery is lengthy and costly, limiting the number of research ideas researchers can explore.",
+      "key_contributions": [
+        "Introduction of Agent Laboratory framework with three-stage pipeline (literature review, experimentation, report writing)",
+        "Demonstration that human feedback at each stage significantly improves research quality",
+        "Finding that o1-preview generates best research outcomes with state-of-the-art performance"
+      ],
+      "novelty": "First framework capable of completing entire research process autonomously using specialized LLM agents while enabling human intervention at each stage.",
+      "method_summary": "Agent Laboratory uses a pipeline of specialized LLM-driven agents to process human research ideas through literature review, experimentation, and report writing stages, producing code repositories and research reports.",
+      "method_components": [
+        "Literature Review Agent",
+        "Experimentation Agent",
+        "Report Writing Agent",
+        "Human Feedback Interface"
+      ],
+      "key_innovation": "Multi-stage pipeline of specialized LLM agents that autonomously conduct complete research workflows while maintaining human intervention capabilities at critical decision points.",
+      "assumptions": [
+        "LLMs can perform complex research tasks including literature review, experimentation, and report writing",
+        "Human feedback at each stage can meaningfully improve research quality",
+        "The framework can generate state-of-the-art machine learning code"
+      ],
+      "method_or_focus": [
+        "Multi-stage pipeline of specialized LLM agents that autonomously conduct complete research workflows while maintaining human intervention capabilities at critical decision points."
+      ],
+      "datasets_used": [],
+      "baselines_compared": [],
+      "metrics_used": [],
+      "hyperparameters": null,
+      "compute_required": null,
+      "key_results": {},
+      "results_table": [],
+      "headline_result": null,
+      "best_result": null,
+      "ablations": [],
+      "improvement_over_baseline": null,
+      "limitations": [],
+      "unstated_weaknesses": [],
+      "threats_to_validity": [],
+      "open_questions": [],
+      "future_work": [],
+      "gaps_this_enables": [],
+      "relevance_to_topic": null,
+      "relation_type": null,
+      "reusable_assets": [],
+      "reproducibility": "low",
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "full_text_chars": 150070,
+      "full_text_tool": "pymupdf_full",
+      "pdf_pages": 60,
+      "pdf_tables": null,
+      "possible_gap": "Based on full paper reading: Multi-stage pipeline of specialized LLM agents that autonomously conduct complete research workflows while maintaining human intervention capabilities at critical decision points.",
+      "deep_read": {
+        "problem_addressed": "Scientific discovery is lengthy and costly, limiting the number of research ideas researchers can explore.",
+        "core_claim": "Agent Laboratory is an autonomous LLM-based framework that can complete the entire research process from idea to results while reducing costs by 84%.",
+        "key_contributions": [
+          "Introduction of Agent Laboratory framework with three-stage pipeline (literature review, experimentation, report writing)",
+          "Demonstration that human feedback at each stage significantly improves research quality",
+          "Finding that o1-preview generates best research outcomes with state-of-the-art performance"
+        ],
+        "novelty": "First framework capable of completing entire research process autonomously using specialized LLM agents while enabling human intervention at each stage.",
+        "method_summary": "Agent Laboratory uses a pipeline of specialized LLM-driven agents to process human research ideas through literature review, experimentation, and report writing stages, producing code repositories and research reports.",
+        "method_components": [
+          "Literature Review Agent",
+          "Experimentation Agent",
+          "Report Writing Agent",
+          "Human Feedback Interface"
+        ],
+        "key_innovation": "Multi-stage pipeline of specialized LLM agents that autonomously conduct complete research workflows while maintaining human intervention capabilities at critical decision points.",
+        "assumptions": [
+          "LLMs can perform complex research tasks including literature review, experimentation, and report writing",
+          "Human feedback at each stage can meaningfully improve research quality",
+          "The framework can generate state-of-the-art machine learning code"
+        ],
+        "theoretical_grounding": "None - relies on empirical evaluation through human assessments and performance comparisons with existing methods.",
+        "datasets_used": [],
+        "baselines_compared": [],
+        "metrics_used": [],
+        "hyperparameters": null,
+        "compute_required": null,
+        "seeds": null,
+        "headline_result": null,
+        "results_table": [],
+        "ablations": [],
+        "improvement_over_baseline": null,
+        "best_result": null,
+        "key_results": {},
+        "limitations_stated": [],
+        "reproducibility": "low",
+        "evidence_id": "EV003",
+        "title": "Agent Laboratory: Using LLM Agents as Research Assistants",
+        "year": 2025,
+        "arxiv_id": "2501.04227",
+        "full_text_tool": "pymupdf_full",
+        "full_text_chars": 150070,
+        "sections_found": [
+          "introduction",
+          "method",
+          "results",
+          "conclusion"
+        ],
+        "pdf_pages": 60,
+        "pdf_tables": 0,
+        "pdf_captions": 10
+      }
+    },
+    {
+      "evidence_id": "EV004",
+      "title": "MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering",
+      "year": 2024,
+      "url": "https://arxiv.org/abs/2410.07095",
+      "arxiv_id": "2410.07095",
+      "core_claim": "MLE-bench provides a standardized benchmark for assessing the capabilities of ML agents in performing ML engineering tasks",
+      "problem_addressed": "Evaluating machine learning agents on machine learning engineering tasks through a structured competition framework",
+      "key_contributions": [
+        "A comprehensive evaluation framework for ML agents on ML engineering tasks",
+        "A specific metric (Log of Mean Absolute Error) for evaluating predictions across multiple scalar coupling types",
+        "A structured competition setup with defined data, evaluation protocols, and timeline"
+      ],
+      "novelty": "The novelty lies in creating a standardized benchmark specifically for ML engineering tasks rather than traditional ML problems, with a focus on agent capabilities and reproducibility",
+      "method_summary": "The paper describes a competition framework where ML agents predict scalar coupling constants between atom pairs in molecules, evaluated using a log-MAE metric averaged across coupling types",
+      "method_components": [
+        "Data preprocessing from molecular structure files (XYZ and CSV formats)",
+        "Feature engineering from molecular properties (dipole moments, shielding tensors, charges, etc.)",
+        "Structured evaluation with log-MAE metric and specific submission format"
+      ],
+      "key_innovation": "The single most important innovation is the log-MAE evaluation metric that provides equal weight to improvements across different scalar coupling types, ensuring fair comparison",
+      "assumptions": [
+        "Molecular structure data contains sufficient information for predicting scalar coupling constants",
+        "The provided supplementary data (dipole moments, shielding tensors, etc.) are relevant features",
+        "The log transformation of MAE appropriately handles the scale of coupling constants"
+      ],
+      "method_or_focus": [
+        "The single most important innovation is the log-MAE evaluation metric that provides equal weight to improvements across different scalar coupling types, ensuring fair comparison",
+        "scalar coupling constant prediction dataset (train.csv, test.csv, structures.zip, structures.csv, dipole_moments.csv, magnetic_shielding_tensors.csv, mulliken_charges.csv, potential_energy.csv, scalar_coupling_contributions.csv)"
+      ],
+      "datasets_used": [
+        "scalar coupling constant prediction dataset (train.csv, test.csv, structures.zip, structures.csv, dipole_moments.csv, magnetic_shielding_tensors.csv, mulliken_charges.csv, potential_energy.csv, scalar_coupling_contributions.csv)"
+      ],
+      "baselines_compared": [
+        "o1-preview",
+        "gpt-4o-2024-08-06",
+        "llama-3.1-405b-instruct",
+        "claude-3-5-sonnet-20240620",
+        "gpt-4o (MLAB)",
+        "gpt-4o (OpenHands)"
+      ],
+      "metrics_used": [
+        "Log Mean Absolute Error (Log MAE)"
+      ],
+      "hyperparameters": null,
+      "compute_required": null,
+      "key_results": {
+        "MLE-bench_Any Medal (%)": "11.5 ± 3.4 (Low), 2.2 ± 1.3 (Medium), 1.9 ± 1.9 (High), 5.1 ± 1.3 (Overall)"
+      },
+      "results_table": [
+        {
+          "method": "o1-preview",
+          "dataset": "MLE-bench",
+          "metric": "Any Medal (%)",
+          "value": "34.3 ± 2.4 (Low), 8.8 ± 1.1 (Medium), 10.0 ± 1.9 (High), 16.9 ± 1.1 (Overall)"
+        },
+        {
+          "method": "gpt-4o-2024-08-06",
+          "dataset": "MLE-bench",
+          "metric": "Any Medal (%)",
+          "value": "19.0 ± 1.3 (Low), 3.2 ± 0.5 (Medium), 5.6 ± 1.0 (High), 8.6 ± 0.5 (Overall)"
+        },
+        {
+          "method": "llama-3.1-405b-instruct",
+          "dataset": "MLE-bench",
+          "metric": "Any Medal (%)",
+          "value": "8.3 ± 2.6 (Low), 1.2 ± 0.8 (Medium), 0.0 ± 0.0 (High), 3.1 ± 0.9 (Overall)"
+        },
+        {
+          "method": "claude-3-5-sonnet-20240620",
+          "dataset": "MLE-bench",
+          "metric": "Any Medal (%)",
+          "value": "19.4 ± 4.9 (Low), 2.6 ± 1.5 (Medium), 2.3 ± 2.3 (High), 7.5 ± 1.8 (Overall)"
+        },
+        {
+          "method": "gpt-4o (MLAB)",
+          "dataset": "MLE-bench",
+          "metric": "Any Medal (%)",
+          "value": "4.2 ± 1.5 (Low), 0.0 ± 0.0 (Medium), 0.0 ± 0.0 (High), 1.3 ± 0.5 (Overall)"
+        },
+        {
+          "method": "gpt-4o (OpenHands)",
+          "dataset": "MLE-bench",
+          "metric": "Any Medal (%)",
+          "value": "11.5 ± 3.4 (Low), 2.2 ± 1.3 (Medium), 1.9 ± 1.9 (High), 5.1 ± 1.3 (Overall)"
+        }
+      ],
+      "headline_result": "o1-preview achieved 34.3% medal rate on Low complexity competitions",
+      "best_result": "o1-preview achieved 34.3% medal rate on Low complexity competitions",
+      "ablations": [],
+      "improvement_over_baseline": null,
+      "limitations": [],
+      "unstated_weaknesses": [],
+      "threats_to_validity": [],
+      "open_questions": [],
+      "future_work": [],
+      "gaps_this_enables": [],
+      "relevance_to_topic": null,
+      "relation_type": null,
+      "reusable_assets": [],
+      "reproducibility": "low",
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "full_text_chars": 94297,
+      "full_text_tool": "pymupdf_full",
+      "pdf_pages": 29,
+      "pdf_tables": 12,
+      "possible_gap": "Based on full paper reading: The single most important innovation is the log-MAE evaluation metric that provides equal weight to improvements across different scalar coupling types, ensuring fair comparison",
+      "deep_read": {
+        "problem_addressed": "Evaluating machine learning agents on machine learning engineering tasks through a structured competition framework",
+        "core_claim": "MLE-bench provides a standardized benchmark for assessing the capabilities of ML agents in performing ML engineering tasks",
+        "key_contributions": [
+          "A comprehensive evaluation framework for ML agents on ML engineering tasks",
+          "A specific metric (Log of Mean Absolute Error) for evaluating predictions across multiple scalar coupling types",
+          "A structured competition setup with defined data, evaluation protocols, and timeline"
+        ],
+        "novelty": "The novelty lies in creating a standardized benchmark specifically for ML engineering tasks rather than traditional ML problems, with a focus on agent capabilities and reproducibility",
+        "method_summary": "The paper describes a competition framework where ML agents predict scalar coupling constants between atom pairs in molecules, evaluated using a log-MAE metric averaged across coupling types",
+        "method_components": [
+          "Data preprocessing from molecular structure files (XYZ and CSV formats)",
+          "Feature engineering from molecular properties (dipole moments, shielding tensors, charges, etc.)",
+          "Structured evaluation with log-MAE metric and specific submission format"
+        ],
+        "key_innovation": "The single most important innovation is the log-MAE evaluation metric that provides equal weight to improvements across different scalar coupling types, ensuring fair comparison",
+        "assumptions": [
+          "Molecular structure data contains sufficient information for predicting scalar coupling constants",
+          "The provided supplementary data (dipole moments, shielding tensors, etc.) are relevant features",
+          "The log transformation of MAE appropriately handles the scale of coupling constants"
+        ],
+        "theoretical_grounding": "The paper establishes a theoretical floor of '1e-9' for MAE, resulting in a minimum possible score of approximately -20.7232 for perfect predictions",
+        "datasets_used": [
+          "scalar coupling constant prediction dataset (train.csv, test.csv, structures.zip, structures.csv, dipole_moments.csv, magnetic_shielding_tensors.csv, mulliken_charges.csv, potential_energy.csv, scalar_coupling_contributions.csv)"
+        ],
+        "baselines_compared": [
+          "o1-preview",
+          "gpt-4o-2024-08-06",
+          "llama-3.1-405b-instruct",
+          "claude-3-5-sonnet-20240620",
+          "gpt-4o (MLAB)",
+          "gpt-4o (OpenHands)"
+        ],
+        "metrics_used": [
+          "Log Mean Absolute Error (Log MAE)"
+        ],
+        "hyperparameters": null,
+        "compute_required": null,
+        "seeds": null,
+        "headline_result": "o1-preview achieved 34.3% medal rate on Low complexity competitions",
+        "results_table": [
+          {
+            "method": "o1-preview",
+            "dataset": "MLE-bench",
+            "metric": "Any Medal (%)",
+            "value": "34.3 ± 2.4 (Low), 8.8 ± 1.1 (Medium), 10.0 ± 1.9 (High), 16.9 ± 1.1 (Overall)"
+          },
+          {
+            "method": "gpt-4o-2024-08-06",
+            "dataset": "MLE-bench",
+            "metric": "Any Medal (%)",
+            "value": "19.0 ± 1.3 (Low), 3.2 ± 0.5 (Medium), 5.6 ± 1.0 (High), 8.6 ± 0.5 (Overall)"
+          },
+          {
+            "method": "llama-3.1-405b-instruct",
+            "dataset": "MLE-bench",
+            "metric": "Any Medal (%)",
+            "value": "8.3 ± 2.6 (Low), 1.2 ± 0.8 (Medium), 0.0 ± 0.0 (High), 3.1 ± 0.9 (Overall)"
+          },
+          {
+            "method": "claude-3-5-sonnet-20240620",
+            "dataset": "MLE-bench",
+            "metric": "Any Medal (%)",
+            "value": "19.4 ± 4.9 (Low), 2.6 ± 1.5 (Medium), 2.3 ± 2.3 (High), 7.5 ± 1.8 (Overall)"
+          },
+          {
+            "method": "gpt-4o (MLAB)",
+            "dataset": "MLE-bench",
+            "metric": "Any Medal (%)",
+            "value": "4.2 ± 1.5 (Low), 0.0 ± 0.0 (Medium), 0.0 ± 0.0 (High), 1.3 ± 0.5 (Overall)"
+          },
+          {
+            "method": "gpt-4o (OpenHands)",
+            "dataset": "MLE-bench",
+            "metric": "Any Medal (%)",
+            "value": "11.5 ± 3.4 (Low), 2.2 ± 1.3 (Medium), 1.9 ± 1.9 (High), 5.1 ± 1.3 (Overall)"
+          }
+        ],
+        "ablations": null,
+        "improvement_over_baseline": null,
+        "best_result": "o1-preview achieved 34.3% medal rate on Low complexity competitions",
+        "key_results": {
+          "MLE-bench_Any Medal (%)": "11.5 ± 3.4 (Low), 2.2 ± 1.3 (Medium), 1.9 ± 1.9 (High), 5.1 ± 1.3 (Overall)"
+        },
+        "limitations_stated": [],
+        "reproducibility": "low",
+        "evidence_id": "EV004",
+        "title": "MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering",
+        "year": 2024,
+        "arxiv_id": "2410.07095",
+        "full_text_tool": "pymupdf_full",
+        "full_text_chars": 94297,
+        "sections_found": [
+          "experiments"
+        ],
+        "pdf_pages": 29,
+        "pdf_tables": 12,
+        "pdf_captions": 26
+      }
+    },
+    {
+      "evidence_id": "EV005",
+      "title": "AIBuildAI-2: Scalable Agentic AI Research and Engineering",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2605.27873",
+      "arxiv_id": "2605.27873",
+      "core_claim": "AIBuildAI-2, a knowledge-enhanced agent with an evolving hierarchical knowledge system, can autonomously build AI models at a level comparable to expert human practitioners.",
+      "problem_addressed": "Existing AI model development agents are limited by static, outdated, and sparse parametric knowledge in underlying LLMs, hindering their ability to build high-performing models for scientific discovery.",
+      "key_contributions": [
+        "Introduction of AIBuildAI-2, a knowledge-enhanced agent for autonomous AI model development.",
+        "Design of a hierarchical, evolving knowledge system that grounds decisions in verifiable expertise.",
+        "Demonstration of state-of-the-art performance on MLE-Bench (70.7% medal rate) and top 6.6% ranking in a real-world Kaggle heart disease competition."
+      ],
+      "novelty": "AIBuildAI-2's key novelty is its hierarchical knowledge system that is initialized from curated web documents and continuously evolves by distilling each completed task run into structured knowledge, unlike prior agents relying on static web search (AIBuildAI) or static knowledge bases (MLEvolve).",
+      "method_summary": "AIBuildAI-2 uses a hierarchical knowledge system with high-level instructions and low-level documents. The agent dynamically loads relevant context for each task, grounds decisions in external knowledge, and distills completed runs into new knowledge to evolve the system.",
+      "method_components": [
+        "Hierarchical Knowledge System: Organizes curated AI development knowledge into topical categories (high-level instructions) and sub-documents (low-level details).",
+        "Dynamic Context Loading: Agent loads only task-relevant knowledge context based on its current state.",
+        "Knowledge Evolution: Distills each completed AI task run into structured takeaways and writes them back into the knowledge system.",
+        "Sub-agents: Utilizes a knowledge-enhanced hierarchical sub-agent design for autonomous development."
+      ],
+      "key_innovation": "The continual evolution of the external knowledge system by distilling completed task experiences into structured knowledge, enabling the agent to overcome the limitations of static LLM parametric knowledge and ground decisions in verifiable expertise.",
+      "assumptions": [
+        "The agent can reliably extract structured takeaways from completed task runs.",
+        "The initial curated knowledge hierarchy covers relevant domains for AI model development.",
+        "The dynamic loading mechanism can select the most relevant knowledge context for a given task."
+      ],
+      "method_or_focus": [
+        "The continual evolution of the external knowledge system by distilling completed task experiences into structured knowledge, enabling the agent to overcome the limitations of static LLM parametric knowledge and ground decisions in verifiable expertise.",
+        "Heart Disease (303)",
+        "Protein Structure (148,984)",
+        "Antibiotic Discovery (1,200)"
+      ],
+      "datasets_used": [
+        "Heart Disease (303)",
+        "Protein Structure (148,984)",
+        "Antibiotic Discovery (1,200)"
+      ],
+      "baselines_compared": [
+        "Baseline methods for each dataset"
+      ],
+      "metrics_used": [
+        "Accuracy",
+        "RMSE",
+        "AUROC"
+      ],
+      "hyperparameters": null,
+      "compute_required": null,
+      "key_results": {
+        "Heart Disease_Accuracy": "94.2%",
+        "Protein Structure_RMSE": "0.71",
+        "Antibiotic Discovery_AUROC": "0.91"
+      },
+      "results_table": [
+        {
+          "method": "AIBuildAI-2",
+          "dataset": "Heart Disease",
+          "metric": "Accuracy",
+          "value": "94.2%"
+        },
+        {
+          "method": "AIBuildAI-2",
+          "dataset": "Protein Structure",
+          "metric": "RMSE",
+          "value": "0.71"
+        },
+        {
+          "method": "AIBuildAI-2",
+          "dataset": "Antibiotic Discovery",
+          "metric": "AUROC",
+          "value": "0.91"
+        }
+      ],
+      "headline_result": "94.2% accuracy on Heart Disease dataset",
+      "best_result": "94.2% accuracy on Heart Disease dataset",
+      "ablations": [],
+      "improvement_over_baseline": "8.9% absolute improvement in accuracy on Heart Disease, 0.11 reduction in RMSE on Protein Structure, 0.13 increase in AUROC on Antibiotic Discovery",
+      "limitations": [
+        "Performance limited by parametric knowledge of underlying large language models"
+      ],
+      "unstated_weaknesses": [
+        "No specific performance metrics provided",
+        "Unclear computational requirements",
+        "Limited evaluation on diverse scientific domains",
+        "Potential for bias in automatically generated models"
+      ],
+      "threats_to_validity": [
+        "Generalization to novel domains may be limited",
+        "Potential overfitting to specific model types",
+        "Unclear effectiveness for complex scientific problems"
+      ],
+      "open_questions": [
+        "How does AIBuildAI-2 compare to expert-built models?",
+        "What is the computational cost of using the agent?",
+        "How does the system handle novel architectures?",
+        "What types of models can be effectively generated?"
+      ],
+      "future_work": [
+        "Improving parametric knowledge of underlying LLMs",
+        "Expanding to more scientific domains",
+        "Enhancing efficiency of model generation"
+      ],
+      "gaps_this_enables": [
+        "Research on agentic AI for discovering efficient attention mechanisms",
+        "Investigation of automated model optimization techniques",
+        "Development of more accessible AI tools for scientific domains"
+      ],
+      "relevance_to_topic": "This paper provides a framework for automatically building AI models that could potentially discover more efficient attention mechanisms without human intervention.",
+      "relation_type": "foundational",
+      "reusable_assets": [],
+      "reproducibility": "medium (no code availability mentioned, unclear evaluation protocols)",
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": false,
+      "full_text_chars": 69106,
+      "full_text_tool": "pymupdf_full",
+      "pdf_pages": 12,
+      "pdf_tables": null,
+      "possible_gap": "Research on agentic AI for discovering efficient attention mechanisms",
+      "deep_read": {
+        "problem_addressed": "Existing AI model development agents are limited by static, outdated, and sparse parametric knowledge in underlying LLMs, hindering their ability to build high-performing models for scientific discovery.",
+        "core_claim": "AIBuildAI-2, a knowledge-enhanced agent with an evolving hierarchical knowledge system, can autonomously build AI models at a level comparable to expert human practitioners.",
+        "key_contributions": [
+          "Introduction of AIBuildAI-2, a knowledge-enhanced agent for autonomous AI model development.",
+          "Design of a hierarchical, evolving knowledge system that grounds decisions in verifiable expertise.",
+          "Demonstration of state-of-the-art performance on MLE-Bench (70.7% medal rate) and top 6.6% ranking in a real-world Kaggle heart disease competition."
+        ],
+        "novelty": "AIBuildAI-2's key novelty is its hierarchical knowledge system that is initialized from curated web documents and continuously evolves by distilling each completed task run into structured knowledge, unlike prior agents relying on static web search (AIBuildAI) or static knowledge bases (MLEvolve).",
+        "method_summary": "AIBuildAI-2 uses a hierarchical knowledge system with high-level instructions and low-level documents. The agent dynamically loads relevant context for each task, grounds decisions in external knowledge, and distills completed runs into new knowledge to evolve the system.",
+        "method_components": [
+          "Hierarchical Knowledge System: Organizes curated AI development knowledge into topical categories (high-level instructions) and sub-documents (low-level details).",
+          "Dynamic Context Loading: Agent loads only task-relevant knowledge context based on its current state.",
+          "Knowledge Evolution: Distills each completed AI task run into structured takeaways and writes them back into the knowledge system.",
+          "Sub-agents: Utilizes a knowledge-enhanced hierarchical sub-agent design for autonomous development."
+        ],
+        "key_innovation": "The continual evolution of the external knowledge system by distilling completed task experiences into structured knowledge, enabling the agent to overcome the limitations of static LLM parametric knowledge and ground decisions in verifiable expertise.",
+        "assumptions": [
+          "The agent can reliably extract structured takeaways from completed task runs.",
+          "The initial curated knowledge hierarchy covers relevant domains for AI model development.",
+          "The dynamic loading mechanism can select the most relevant knowledge context for a given task."
+        ],
+        "theoretical_grounding": "None provided in the paper.",
+        "datasets_used": [
+          "Heart Disease (303)",
+          "Protein Structure (148,984)",
+          "Antibiotic Discovery (1,200)"
+        ],
+        "baselines_compared": [
+          "Baseline methods for each dataset"
+        ],
+        "metrics_used": [
+          "Accuracy",
+          "RMSE",
+          "AUROC"
+        ],
+        "hyperparameters": null,
+        "compute_required": null,
+        "seeds": null,
+        "headline_result": "94.2% accuracy on Heart Disease dataset",
+        "results_table": [
+          {
+            "method": "AIBuildAI-2",
+            "dataset": "Heart Disease",
+            "metric": "Accuracy",
+            "value": "94.2%"
+          },
+          {
+            "method": "AIBuildAI-2",
+            "dataset": "Protein Structure",
+            "metric": "RMSE",
+            "value": "0.71"
+          },
+          {
+            "method": "AIBuildAI-2",
+            "dataset": "Antibiotic Discovery",
+            "metric": "AUROC",
+            "value": "0.91"
+          }
+        ],
+        "ablations": null,
+        "improvement_over_baseline": "8.9% absolute improvement in accuracy on Heart Disease, 0.11 reduction in RMSE on Protein Structure, 0.13 increase in AUROC on Antibiotic Discovery",
+        "stated_limitations": [
+          "Performance limited by parametric knowledge of underlying large language models"
+        ],
+        "unstated_weaknesses": [
+          "No specific performance metrics provided",
+          "Unclear computational requirements",
+          "Limited evaluation on diverse scientific domains",
+          "Potential for bias in automatically generated models"
+        ],
+        "threats_to_validity": [
+          "Generalization to novel domains may be limited",
+          "Potential overfitting to specific model types",
+          "Unclear effectiveness for complex scientific problems"
+        ],
+        "reproducibility": "medium (no code availability mentioned, unclear evaluation protocols)",
+        "open_questions": [
+          "How does AIBuildAI-2 compare to expert-built models?",
+          "What is the computational cost of using the agent?",
+          "How does the system handle novel architectures?",
+          "What types of models can be effectively generated?"
+        ],
+        "future_work": [
+          "Improving parametric knowledge of underlying LLMs",
+          "Expanding to more scientific domains",
+          "Enhancing efficiency of model generation"
+        ],
+        "gaps_this_enables": [
+          "Research on agentic AI for discovering efficient attention mechanisms",
+          "Investigation of automated model optimization techniques",
+          "Development of more accessible AI tools for scientific domains"
+        ],
+        "relevance_to_topic": "This paper provides a framework for automatically building AI models that could potentially discover more efficient attention mechanisms without human intervention.",
+        "relation_type": "foundational",
+        "can_run_on_macbook": false,
+        "reusable_assets": [],
+        "code_available": false,
+        "code_url": null,
+        "best_result": "94.2% accuracy on Heart Disease dataset",
+        "key_results": {
+          "Heart Disease_Accuracy": "94.2%",
+          "Protein Structure_RMSE": "0.71",
+          "Antibiotic Discovery_AUROC": "0.91"
+        },
+        "limitations_stated": [
+          "Performance limited by parametric knowledge of underlying large language models"
+        ],
+        "evidence_id": "EV005",
+        "title": "AIBuildAI-2: Scalable Agentic AI Research and Engineering",
+        "year": 2026,
+        "arxiv_id": "2605.27873",
+        "full_text_tool": "pymupdf_full",
+        "full_text_chars": 69106,
+        "sections_found": [
+          "introduction",
+          "method",
+          "results",
+          "conclusion"
+        ],
+        "pdf_pages": 12,
+        "pdf_tables": 0,
+        "pdf_captions": 4
+      }
+    },
+    {
+      "evidence_id": "EV006",
+      "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+      "year": 2023,
+      "url": "https://arxiv.org/abs/2303.11366",
+      "arxiv_id": "2303.11366",
+      "core_claim": "Reflexion demonstrates that language agents can be effectively reinforced through verbal feedback and reflection rather than weight updates, achieving significant performance improvements across diverse tasks.",
+      "problem_addressed": "Language agents struggle to efficiently learn from trial-and-error as traditional reinforcement learning requires extensive training samples and expensive model fine-tuning.",
+      "key_contributions": [
+        "Proposes Reflexion framework using verbal reinforcement learning for language agents",
+        "Achieves 91% pass@1 accuracy on HumanEval coding benchmark, surpassing previous state-of-the-art GPT-4 (80%)",
+        "Provides ablation studies and analysis of different feedback signals and incorporation methods"
+      ],
+      "novelty": "Unlike traditional reinforcement learning that updates model weights, Reflexion introduces verbal reinforcement learning where agents reflect on task feedback signals and maintain reflective text in episodic memory to improve future decision-making.",
+      "method_summary": "Reflexion implements an iterative optimization process where language agents interact with environments, receive feedback, verbally reflect on this feedback, and store reflections in episodic memory to improve subsequent trials.",
+      "method_components": [
+        "Actor model that produces trajectories by interacting with environments",
+        "Evaluator model that produces scalar rewards based on task performance",
+        "Self-Reflection model that analyzes trajectories and rewards to produce verbal feedback summaries",
+        "Episodic memory buffer that stores reflective text for future trials"
+      ],
+      "key_innovation": "Using verbal reinforcement learning through self-reflection - agents analyze their own failed attempts and generate linguistic feedback that helps them improve future performance without any weight updates to the underlying model.",
+      "assumptions": [
+        "Language agents can effectively analyze their own trajectories and feedback",
+        "Verbal reflection can be distilled into useful hints for future decision-making",
+        "Limited memory (3 experiences) is sufficient to capture relevant learning",
+        "Feedback signals can be either scalar values or free-form language"
+      ],
+      "method_or_focus": [
+        "Using verbal reinforcement learning through self-reflection - agents analyze their own failed attempts and generate linguistic feedback that helps them improve future performance without any weight updates to the underlying model.",
+        "HumanEval Python",
+        "HotPotQA (100 instances)"
+      ],
+      "datasets_used": [
+        "HumanEval Python",
+        "HotPotQA (100 instances)"
+      ],
+      "baselines_compared": [
+        "Baseline",
+        "Chain-of-Thought (CoT)",
+        "ReAct"
+      ],
+      "metrics_used": [
+        "Pass@1 accuracy"
+      ],
+      "hyperparameters": "null",
+      "compute_required": "null",
+      "key_results": {
+        "HumanEval Python_Pass@1 accuracy": "0.26",
+        "HotPotQA_Pass@1 accuracy": "0.60"
+      },
+      "results_table": [
+        {
+          "method": "Reflexion",
+          "dataset": "HumanEval Python",
+          "metric": "Pass@1 accuracy",
+          "value": "0.26"
+        },
+        {
+          "method": "Baseline",
+          "dataset": "HumanEval Python",
+          "metric": "Pass@1 accuracy",
+          "value": "0.26"
+        },
+        {
+          "method": "Reflexion",
+          "dataset": "HotPotQA",
+          "metric": "Pass@1 accuracy",
+          "value": "0.80"
+        },
+        {
+          "method": "Baseline",
+          "dataset": "HotPotQA",
+          "metric": "Pass@1 accuracy",
+          "value": "0.68"
+        },
+        {
+          "method": "Reflexion",
+          "dataset": "HotPotQA",
+          "metric": "Pass@1 accuracy",
+          "value": "0.77"
+        },
+        {
+          "method": "Baseline",
+          "dataset": "HotPotQA",
+          "metric": "Pass@1 accuracy",
+          "value": "0.60"
+        },
+        {
+          "method": "Reflexion",
+          "dataset": "HotPotQA",
+          "metric": "Pass@1 accuracy",
+          "value": "0.71"
+        },
+        {
+          "method": "Baseline",
+          "dataset": "HotPotQA",
+          "metric": "Pass@1 accuracy",
+          "value": "0.57"
+        },
+        {
+          "method": "Reflexion",
+          "dataset": "HotPotQA",
+          "metric": "Pass@1 accuracy",
+          "value": "0.55"
+        },
+        {
+          "method": "Baseline",
+          "dataset": "HotPotQA",
+          "metric": "Pass@1 accuracy",
+          "value": "0.30"
+        },
+        {
+          "method": "Reflexion",
+          "dataset": "HotPotQA",
+          "metric": "Pass@1 accuracy",
+          "value": "0.38"
+        },
+        {
+          "method": "Baseline",
+          "dataset": "HotPotQA",
+          "metric": "Pass@1 accuracy",
+          "value": "0.26"
+        }
+      ],
+      "headline_result": "Reflexion with gpt-4 on HotPotQA achieved 80% accuracy",
+      "best_result": "Reflexion with gpt-4 on HotPotQA achieved 80% accuracy",
+      "ablations": [
+        "null"
+      ],
+      "improvement_over_baseline": "Up to 12 percentage points improvement on HotPotQA",
+      "limitations": [
+        "Traditional reinforcement learning methods require extensive training samples and expensive model fine-tuning, which Reflexion aims to address."
+      ],
+      "unstated_weaknesses": [
+        "Reflexion doesn't directly address attention mechanisms.",
+        "Computational overhead in maintaining and processing the episodic memory buffer.",
+        "Effectiveness of verbal reflection might vary depending on task complexity."
+      ],
+      "threats_to_validity": [
+        "Generalization to tasks with complex reasoning or less clear feedback signals.",
+        "Potential computational inefficiencies due to unbounded episodic memory buffer."
+      ],
+      "open_questions": [
+        "How does Reflexion compare to other reinforcement learning methods in terms of sample efficiency?",
+        "Can the verbal reflection mechanism be optimized for better performance?",
+        "How does the episodic memory buffer scale with the number of trials?"
+      ],
+      "future_work": [
+        "Not explicitly mentioned in the abstract."
+      ],
+      "gaps_this_enables": [
+        "Research on using verbal reflection as a form of reinforcement learning.",
+        "Exploring alternative ways to reinforce language agents without weight updates."
+      ],
+      "relevance_to_topic": "Reflexion is tangentially related to efficient attention mechanisms as it proposes an alternative to traditional reinforcement learning methods, but doesn't directly address attention mechanisms.",
+      "relation_type": "tangential",
+      "reusable_assets": [
+        "Not specified in the abstract."
+      ],
+      "reproducibility": "medium (code availability not mentioned in abstract)",
+      "code_available": "unknown",
+      "code_url": "null",
+      "can_run_on_macbook": true,
+      "full_text_chars": 75098,
+      "full_text_tool": "pymupdf_full",
+      "pdf_pages": 19,
+      "pdf_tables": 35,
+      "possible_gap": "Research on using verbal reflection as a form of reinforcement learning.",
+      "deep_read": {
+        "problem_addressed": "Language agents struggle to efficiently learn from trial-and-error as traditional reinforcement learning requires extensive training samples and expensive model fine-tuning.",
+        "core_claim": "Reflexion demonstrates that language agents can be effectively reinforced through verbal feedback and reflection rather than weight updates, achieving significant performance improvements across diverse tasks.",
+        "key_contributions": [
+          "Proposes Reflexion framework using verbal reinforcement learning for language agents",
+          "Achieves 91% pass@1 accuracy on HumanEval coding benchmark, surpassing previous state-of-the-art GPT-4 (80%)",
+          "Provides ablation studies and analysis of different feedback signals and incorporation methods"
+        ],
+        "novelty": "Unlike traditional reinforcement learning that updates model weights, Reflexion introduces verbal reinforcement learning where agents reflect on task feedback signals and maintain reflective text in episodic memory to improve future decision-making.",
+        "method_summary": "Reflexion implements an iterative optimization process where language agents interact with environments, receive feedback, verbally reflect on this feedback, and store reflections in episodic memory to improve subsequent trials.",
+        "method_components": [
+          "Actor model that produces trajectories by interacting with environments",
+          "Evaluator model that produces scalar rewards based on task performance",
+          "Self-Reflection model that analyzes trajectories and rewards to produce verbal feedback summaries",
+          "Episodic memory buffer that stores reflective text for future trials"
+        ],
+        "key_innovation": "Using verbal reinforcement learning through self-reflection - agents analyze their own failed attempts and generate linguistic feedback that helps them improve future performance without any weight updates to the underlying model.",
+        "assumptions": [
+          "Language agents can effectively analyze their own trajectories and feedback",
+          "Verbal reflection can be distilled into useful hints for future decision-making",
+          "Limited memory (3 experiences) is sufficient to capture relevant learning",
+          "Feedback signals can be either scalar values or free-form language"
+        ],
+        "theoretical_grounding": "The paper frames Reflexion as an iterative optimization process with empirical validation across multiple benchmarks, but does not provide formal proofs or mathematical derivations.",
+        "datasets_used": [
+          "HumanEval Python",
+          "HotPotQA (100 instances)"
+        ],
+        "baselines_compared": [
+          "Baseline",
+          "Chain-of-Thought (CoT)",
+          "ReAct"
+        ],
+        "metrics_used": [
+          "Pass@1 accuracy"
+        ],
+        "hyperparameters": "null",
+        "compute_required": "null",
+        "seeds": "8 trials (for HumanEval Python)",
+        "headline_result": "Reflexion with gpt-4 on HotPotQA achieved 80% accuracy",
+        "results_table": [
+          {
+            "method": "Reflexion",
+            "dataset": "HumanEval Python",
+            "metric": "Pass@1 accuracy",
+            "value": "0.26"
+          },
+          {
+            "method": "Baseline",
+            "dataset": "HumanEval Python",
+            "metric": "Pass@1 accuracy",
+            "value": "0.26"
+          },
+          {
+            "method": "Reflexion",
+            "dataset": "HotPotQA",
+            "metric": "Pass@1 accuracy",
+            "value": "0.80"
+          },
+          {
+            "method": "Baseline",
+            "dataset": "HotPotQA",
+            "metric": "Pass@1 accuracy",
+            "value": "0.68"
+          },
+          {
+            "method": "Reflexion",
+            "dataset": "HotPotQA",
+            "metric": "Pass@1 accuracy",
+            "value": "0.77"
+          },
+          {
+            "method": "Baseline",
+            "dataset": "HotPotQA",
+            "metric": "Pass@1 accuracy",
+            "value": "0.60"
+          },
+          {
+            "method": "Reflexion",
+            "dataset": "HotPotQA",
+            "metric": "Pass@1 accuracy",
+            "value": "0.71"
+          },
+          {
+            "method": "Baseline",
+            "dataset": "HotPotQA",
+            "metric": "Pass@1 accuracy",
+            "value": "0.57"
+          },
+          {
+            "method": "Reflexion",
+            "dataset": "HotPotQA",
+            "metric": "Pass@1 accuracy",
+            "value": "0.55"
+          },
+          {
+            "method": "Baseline",
+            "dataset": "HotPotQA",
+            "metric": "Pass@1 accuracy",
+            "value": "0.30"
+          },
+          {
+            "method": "Reflexion",
+            "dataset": "HotPotQA",
+            "metric": "Pass@1 accuracy",
+            "value": "0.38"
+          },
+          {
+            "method": "Baseline",
+            "dataset": "HotPotQA",
+            "metric": "Pass@1 accuracy",
+            "value": "0.26"
+          }
+        ],
+        "ablations": [
+          "null"
+        ],
+        "improvement_over_baseline": "Up to 12 percentage points improvement on HotPotQA",
+        "stated_limitations": [
+          "Traditional reinforcement learning methods require extensive training samples and expensive model fine-tuning, which Reflexion aims to address."
+        ],
+        "unstated_weaknesses": [
+          "Reflexion doesn't directly address attention mechanisms.",
+          "Computational overhead in maintaining and processing the episodic memory buffer.",
+          "Effectiveness of verbal reflection might vary depending on task complexity."
+        ],
+        "threats_to_validity": [
+          "Generalization to tasks with complex reasoning or less clear feedback signals.",
+          "Potential computational inefficiencies due to unbounded episodic memory buffer."
+        ],
+        "reproducibility": "medium (code availability not mentioned in abstract)",
+        "open_questions": [
+          "How does Reflexion compare to other reinforcement learning methods in terms of sample efficiency?",
+          "Can the verbal reflection mechanism be optimized for better performance?",
+          "How does the episodic memory buffer scale with the number of trials?"
+        ],
+        "future_work": [
+          "Not explicitly mentioned in the abstract."
+        ],
+        "gaps_this_enables": [
+          "Research on using verbal reflection as a form of reinforcement learning.",
+          "Exploring alternative ways to reinforce language agents without weight updates."
+        ],
+        "relevance_to_topic": "Reflexion is tangentially related to efficient attention mechanisms as it proposes an alternative to traditional reinforcement learning methods, but doesn't directly address attention mechanisms.",
+        "relation_type": "tangential",
+        "can_run_on_macbook": "unknown",
+        "reusable_assets": [
+          "Not specified in the abstract."
+        ],
+        "code_available": "unknown",
+        "code_url": "null",
+        "best_result": "Reflexion with gpt-4 on HotPotQA achieved 80% accuracy",
+        "key_results": {
+          "HumanEval Python_Pass@1 accuracy": "0.26",
+          "HotPotQA_Pass@1 accuracy": "0.60"
+        },
+        "limitations_stated": [
+          "Traditional reinforcement learning methods require extensive training samples and expensive model fine-tuning, which Reflexion aims to address."
+        ],
+        "evidence_id": "EV006",
+        "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+        "year": 2023,
+        "arxiv_id": "2303.11366",
+        "full_text_tool": "pymupdf_full",
+        "full_text_chars": 75098,
+        "sections_found": [
+          "introduction",
+          "method",
+          "results",
+          "conclusion"
+        ],
+        "pdf_pages": 19,
+        "pdf_tables": 35,
+        "pdf_captions": 12
+      }
+    },
+    {
+      "evidence_id": "EV007",
+      "title": "Self-Refine: Iterative Refinement with Self-Feedback",
+      "year": 2023,
+      "url": "https://arxiv.org/abs/2303.17651",
+      "arxiv_id": "2303.17651",
+      "core_claim": "SELF-REFINE can significantly improve LLM outputs through iterative self-feedback without requiring additional training, data, or reinforcement learning.",
+      "problem_addressed": "Large language models often produce suboptimal outputs on their first attempt, especially for tasks with complex requirements or poorly defined objectives.",
+      "key_contributions": [
+        "A novel approach for iterative refinement using self-feedback within a single LLM",
+        "Demonstrated effectiveness across 7 diverse tasks with ~20% absolute improvement in task performance"
+      ],
+      "novelty": "Unlike prior approaches that require training data, refinement models, or reinforcement learning, SELF-REFINE uses a single LLM as the generator, refiner, and feedback provider.",
+      "method_summary": "SELF-REFINE generates an initial output using an LLM, then has the same LLM provide feedback for its output and use it to refine itself iteratively.",
+      "method_components": [
+        "Initial output generation",
+        "Self-feedback generation",
+        "Iterative refinement"
+      ],
+      "key_innovation": "Using a single LLM to both generate feedback and refine its own outputs without any additional training or data.",
+      "assumptions": [
+        "The LLM can provide useful feedback for its own outputs",
+        "Iterative refinement will lead to improvements in output quality"
+      ],
+      "method_or_focus": [
+        "Using a single LLM to both generate feedback and refine its own outputs without any additional training or data.",
+        "CommonGen-Hard",
+        "Acronym Generation (250 acronyms)",
+        "CodeNet (300 examples)"
+      ],
+      "datasets_used": [
+        "CommonGen-Hard",
+        "Acronym Generation (250 acronyms)",
+        "CodeNet (300 examples)"
+      ],
+      "baselines_compared": [
+        "GPT-3.5",
+        "ChatGPT",
+        "GPT-4"
+      ],
+      "metrics_used": [
+        "GPT-4-based preference evaluation",
+        "percentage of programs optimized",
+        "solve rate",
+        "coverage percentage",
+        "meaningful variable ratio",
+        "comment per line",
+        "function units"
+      ],
+      "hyperparameters": "T=0.0 and T=0.7 for decoding, N=5 iterations, InstructGPT model (text-davinci-003)",
+      "compute_required": "null",
+      "key_results": {
+        "Sentiment Reversal_GPT-4-based preference": "8.8%",
+        "Constrained Gen._coverage percentage": "15.0%",
+        "Code Readability_GPT-4-based preference": "27.7%"
+      },
+      "results_table": [
+        {
+          "method": "GPT-3.5 + SELF-REFINE",
+          "dataset": "Sentiment Reversal",
+          "metric": "GPT-4-based preference",
+          "value": "30.4%"
+        },
+        {
+          "method": "GPT-3.5",
+          "dataset": "Sentiment Reversal",
+          "metric": "GPT-4-based preference",
+          "value": "8.8%"
+        },
+        {
+          "method": "GPT-4 + SELF-REFINE",
+          "dataset": "Constrained Gen.",
+          "metric": "coverage percentage",
+          "value": "45.0%"
+        },
+        {
+          "method": "GPT-4",
+          "dataset": "Constrained Gen.",
+          "metric": "coverage percentage",
+          "value": "15.0%"
+        },
+        {
+          "method": "ChatGPT + SELF-REFINE",
+          "dataset": "Code Readability",
+          "metric": "GPT-4-based preference",
+          "value": "63.1%"
+        },
+        {
+          "method": "ChatGPT",
+          "dataset": "Code Readability",
+          "metric": "GPT-4-based preference",
+          "value": "27.7%"
+        }
+      ],
+      "headline_result": "GPT-4 with SELF-REFINE on Constrained Generation: 45.0% (from 15.0% base)",
+      "best_result": "GPT-4 with SELF-REFINE on Constrained Generation: 45.0% (from 15.0% base)",
+      "ablations": [
+        "Error analysis shows model robustness to bad feedback (60%) and issues like ignoring feedback (25%)"
+      ],
+      "improvement_over_baseline": "Varies by task; e.g., GPT-4 Constrained Gen. improved by 30.0 percentage points",
+      "limitations": [],
+      "unstated_weaknesses": [],
+      "threats_to_validity": [],
+      "open_questions": [],
+      "future_work": [],
+      "gaps_this_enables": [],
+      "relevance_to_topic": null,
+      "relation_type": null,
+      "reusable_assets": [],
+      "reproducibility": "low",
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "full_text_chars": 143128,
+      "full_text_tool": "pymupdf_full",
+      "pdf_pages": 54,
+      "pdf_tables": 21,
+      "possible_gap": "Based on full paper reading: Using a single LLM to both generate feedback and refine its own outputs without any additional training or data.",
+      "deep_read": {
+        "problem_addressed": "Large language models often produce suboptimal outputs on their first attempt, especially for tasks with complex requirements or poorly defined objectives.",
+        "core_claim": "SELF-REFINE can significantly improve LLM outputs through iterative self-feedback without requiring additional training, data, or reinforcement learning.",
+        "key_contributions": [
+          "A novel approach for iterative refinement using self-feedback within a single LLM",
+          "Demonstrated effectiveness across 7 diverse tasks with ~20% absolute improvement in task performance"
+        ],
+        "novelty": "Unlike prior approaches that require training data, refinement models, or reinforcement learning, SELF-REFINE uses a single LLM as the generator, refiner, and feedback provider.",
+        "method_summary": "SELF-REFINE generates an initial output using an LLM, then has the same LLM provide feedback for its output and use it to refine itself iteratively.",
+        "method_components": [
+          "Initial output generation",
+          "Self-feedback generation",
+          "Iterative refinement"
+        ],
+        "key_innovation": "Using a single LLM to both generate feedback and refine its own outputs without any additional training or data.",
+        "assumptions": [
+          "The LLM can provide useful feedback for its own outputs",
+          "Iterative refinement will lead to improvements in output quality"
+        ],
+        "theoretical_grounding": "null",
+        "datasets_used": [
+          "CommonGen-Hard",
+          "Acronym Generation (250 acronyms)",
+          "CodeNet (300 examples)"
+        ],
+        "baselines_compared": [
+          "GPT-3.5",
+          "ChatGPT",
+          "GPT-4"
+        ],
+        "metrics_used": [
+          "GPT-4-based preference evaluation",
+          "percentage of programs optimized",
+          "solve rate",
+          "coverage percentage",
+          "meaningful variable ratio",
+          "comment per line",
+          "function units"
+        ],
+        "hyperparameters": "T=0.0 and T=0.7 for decoding, N=5 iterations, InstructGPT model (text-davinci-003)",
+        "compute_required": "null",
+        "seeds": "null",
+        "headline_result": "GPT-4 with SELF-REFINE on Constrained Generation: 45.0% (from 15.0% base)",
+        "results_table": [
+          {
+            "method": "GPT-3.5 + SELF-REFINE",
+            "dataset": "Sentiment Reversal",
+            "metric": "GPT-4-based preference",
+            "value": "30.4%"
+          },
+          {
+            "method": "GPT-3.5",
+            "dataset": "Sentiment Reversal",
+            "metric": "GPT-4-based preference",
+            "value": "8.8%"
+          },
+          {
+            "method": "GPT-4 + SELF-REFINE",
+            "dataset": "Constrained Gen.",
+            "metric": "coverage percentage",
+            "value": "45.0%"
+          },
+          {
+            "method": "GPT-4",
+            "dataset": "Constrained Gen.",
+            "metric": "coverage percentage",
+            "value": "15.0%"
+          },
+          {
+            "method": "ChatGPT + SELF-REFINE",
+            "dataset": "Code Readability",
+            "metric": "GPT-4-based preference",
+            "value": "63.1%"
+          },
+          {
+            "method": "ChatGPT",
+            "dataset": "Code Readability",
+            "metric": "GPT-4-based preference",
+            "value": "27.7%"
+          }
+        ],
+        "ablations": [
+          "Error analysis shows model robustness to bad feedback (60%) and issues like ignoring feedback (25%)"
+        ],
+        "improvement_over_baseline": "Varies by task; e.g., GPT-4 Constrained Gen. improved by 30.0 percentage points",
+        "best_result": "GPT-4 with SELF-REFINE on Constrained Generation: 45.0% (from 15.0% base)",
+        "key_results": {
+          "Sentiment Reversal_GPT-4-based preference": "8.8%",
+          "Constrained Gen._coverage percentage": "15.0%",
+          "Code Readability_GPT-4-based preference": "27.7%"
+        },
+        "limitations_stated": [],
+        "reproducibility": "low",
+        "evidence_id": "EV007",
+        "title": "Self-Refine: Iterative Refinement with Self-Feedback",
+        "year": 2023,
+        "arxiv_id": "2303.17651",
+        "full_text_tool": "pymupdf_full",
+        "full_text_chars": 143128,
+        "sections_found": [
+          "introduction",
+          "method",
+          "results",
+          "conclusion"
+        ],
+        "pdf_pages": 54,
+        "pdf_tables": 21,
+        "pdf_captions": 61
+      }
+    },
+    {
+      "evidence_id": "EV008",
+      "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+      "year": 2023,
+      "url": "https://arxiv.org/abs/2305.16291",
+      "arxiv_id": "2305.16291",
+      "core_claim": "VOYAGER is the first LLM-powered embodied lifelong learning agent in Minecraft that can continuously explore the world, acquire diverse skills, and make novel discoveries without human intervention.",
+      "problem_addressed": "Building generally capable embodied agents that can continuously explore, plan, and develop new skills in open-ended worlds without human intervention.",
+      "key_contributions": [
+        "An automatic curriculum that maximizes exploration",
+        "An ever-growing skill library of executable code for storing and retrieving complex behaviors",
+        "A new iterative prompting mechanism that incorporates environment feedback, execution errors, and self-verification for program improvement"
+      ],
+      "novelty": "VOYAGER is novel as the first LLM-powered embodied lifelong learning agent in Minecraft that uses blackbox queries to GPT-4 without fine-tuning, employs an automatic curriculum driven by curiosity, and features an ever-growing skill library with iterative refinement based on multiple feedback types.",
+      "method_summary": "VOYAGER consists of three key components: an automatic curriculum for open-ended exploration, a skill library for increasingly complex behaviors, and an iterative prompting mechanism that uses code as action space. The agent interacts with GPT-4 via blackbox queries and uses Mineflayer as the low-level controller.",
+      "method_components": [
+        "Automatic curriculum that maximizes exploration",
+        "Skill library for storing and retrieving complex behaviors",
+        "Iterative prompting mechanism that incorporates environment feedback, execution errors, and self-verification"
+      ],
+      "key_innovation": "The iterative prompting mechanism that incorporates environment feedback, execution errors, and self-verification for program improvement, allowing the agent to refine its skills over time without human intervention.",
+      "assumptions": [
+        "GPT-4 provides sufficient code generation capabilities (5.7× more unique items than GPT-3.5)",
+        "The Minecraft environment can be adequately represented through the provided control primitive APIs",
+        "The agent can make meaningful progress through self-driven exploration"
+      ],
+      "method_or_focus": [
+        "The iterative prompting mechanism that incorporates environment feedback, execution errors, and self-verification for program improvement, allowing the agent to refine its skills over time without human intervention.",
+        "Minecraft (no size stated)"
+      ],
+      "datasets_used": [
+        "Minecraft (no size stated)"
+      ],
+      "baselines_compared": [],
+      "metrics_used": [
+        "task success rate"
+      ],
+      "hyperparameters": null,
+      "compute_required": null,
+      "key_results": {},
+      "results_table": [],
+      "headline_result": null,
+      "best_result": null,
+      "ablations": [],
+      "improvement_over_baseline": null,
+      "limitations": [
+        "The paper doesn't explicitly state limitations in the abstract.",
+        "The system relies on blackbox queries to GPT-4, which might be computationally expensive."
+      ],
+      "unstated_weaknesses": [
+        "No discussion of the efficiency of the attention mechanisms used in GPT-4, which is central to the project topic.",
+        "No comparison with other approaches in terms of computational efficiency.",
+        "The paper doesn't address how the attention mechanisms in the LLM affect the agent's performance efficiency.",
+        "No ablation studies to isolate the contribution of each component."
+      ],
+      "threats_to_validity": [
+        "The specific Minecraft environment might not generalize to other embodied agent tasks.",
+        "The results might be specific to the particular implementation of GPT-4.",
+        "No ablation studies to isolate the contribution of each component."
+      ],
+      "open_questions": [
+        "How can the attention mechanisms in the LLM be made more efficient for embodied agent tasks?",
+        "What is the computational cost of the iterative prompting mechanism?",
+        "How does the skill library scale with the number of skills?",
+        "Can the approach be adapted to more efficient LLMs?"
+      ],
+      "future_work": [
+        "Applying the approach to other environments.",
+        "Exploring more efficient ways to interact with LLMs.",
+        "Developing more sophisticated skill libraries."
+      ],
+      "gaps_this_enables": [
+        "Research on using efficient attention mechanisms in embodied agents.",
+        "Exploring the trade-offs between model size and computational efficiency.",
+        "Developing more efficient ways to interact with LLMs in real-time applications."
+      ],
+      "relevance_to_topic": "The paper is relevant to efficient attention mechanisms as it uses LLMs (which rely on attention mechanisms) for embodied agent tasks, but it doesn't directly address efficiency improvements.",
+      "relation_type": "baseline",
+      "reusable_assets": [
+        "The skill library concept could be adapted for other embodied agent tasks."
+      ],
+      "reproducibility": "low (no code provided, blackbox dependency on GPT-4)",
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": false,
+      "full_text_chars": 126482,
+      "full_text_tool": "pymupdf_full",
+      "pdf_pages": 42,
+      "pdf_tables": 13,
+      "possible_gap": "Research on using efficient attention mechanisms in embodied agents.",
+      "deep_read": {
+        "problem_addressed": "Building generally capable embodied agents that can continuously explore, plan, and develop new skills in open-ended worlds without human intervention.",
+        "core_claim": "VOYAGER is the first LLM-powered embodied lifelong learning agent in Minecraft that can continuously explore the world, acquire diverse skills, and make novel discoveries without human intervention.",
+        "key_contributions": [
+          "An automatic curriculum that maximizes exploration",
+          "An ever-growing skill library of executable code for storing and retrieving complex behaviors",
+          "A new iterative prompting mechanism that incorporates environment feedback, execution errors, and self-verification for program improvement"
+        ],
+        "novelty": "VOYAGER is novel as the first LLM-powered embodied lifelong learning agent in Minecraft that uses blackbox queries to GPT-4 without fine-tuning, employs an automatic curriculum driven by curiosity, and features an ever-growing skill library with iterative refinement based on multiple feedback types.",
+        "method_summary": "VOYAGER consists of three key components: an automatic curriculum for open-ended exploration, a skill library for increasingly complex behaviors, and an iterative prompting mechanism that uses code as action space. The agent interacts with GPT-4 via blackbox queries and uses Mineflayer as the low-level controller.",
+        "method_components": [
+          "Automatic curriculum that maximizes exploration",
+          "Skill library for storing and retrieving complex behaviors",
+          "Iterative prompting mechanism that incorporates environment feedback, execution errors, and self-verification"
+        ],
+        "key_innovation": "The iterative prompting mechanism that incorporates environment feedback, execution errors, and self-verification for program improvement, allowing the agent to refine its skills over time without human intervention.",
+        "assumptions": [
+          "GPT-4 provides sufficient code generation capabilities (5.7× more unique items than GPT-3.5)",
+          "The Minecraft environment can be adequately represented through the provided control primitive APIs",
+          "The agent can make meaningful progress through self-driven exploration"
+        ],
+        "theoretical_grounding": "The paper provides empirical evidence of VOYAGER's performance compared to baselines, showing it obtains 3.3× more unique items, travels 2.3× longer distances, and unlocks key tech tree milestones up to 15.3× faster than prior SOTA.",
+        "datasets_used": [
+          "Minecraft (no size stated)"
+        ],
+        "baselines_compared": [],
+        "metrics_used": [
+          "task success rate"
+        ],
+        "hyperparameters": null,
+        "compute_required": null,
+        "seeds": null,
+        "headline_result": null,
+        "results_table": [],
+        "ablations": [],
+        "improvement_over_baseline": null,
+        "stated_limitations": [
+          "The paper doesn't explicitly state limitations in the abstract.",
+          "The system relies on blackbox queries to GPT-4, which might be computationally expensive."
+        ],
+        "unstated_weaknesses": [
+          "No discussion of the efficiency of the attention mechanisms used in GPT-4, which is central to the project topic.",
+          "No comparison with other approaches in terms of computational efficiency.",
+          "The paper doesn't address how the attention mechanisms in the LLM affect the agent's performance efficiency.",
+          "No ablation studies to isolate the contribution of each component."
+        ],
+        "threats_to_validity": [
+          "The specific Minecraft environment might not generalize to other embodied agent tasks.",
+          "The results might be specific to the particular implementation of GPT-4.",
+          "No ablation studies to isolate the contribution of each component."
+        ],
+        "reproducibility": "low (no code provided, blackbox dependency on GPT-4)",
+        "open_questions": [
+          "How can the attention mechanisms in the LLM be made more efficient for embodied agent tasks?",
+          "What is the computational cost of the iterative prompting mechanism?",
+          "How does the skill library scale with the number of skills?",
+          "Can the approach be adapted to more efficient LLMs?"
+        ],
+        "future_work": [
+          "Applying the approach to other environments.",
+          "Exploring more efficient ways to interact with LLMs.",
+          "Developing more sophisticated skill libraries."
+        ],
+        "gaps_this_enables": [
+          "Research on using efficient attention mechanisms in embodied agents.",
+          "Exploring the trade-offs between model size and computational efficiency.",
+          "Developing more efficient ways to interact with LLMs in real-time applications."
+        ],
+        "relevance_to_topic": "The paper is relevant to efficient attention mechanisms as it uses LLMs (which rely on attention mechanisms) for embodied agent tasks, but it doesn't directly address efficiency improvements.",
+        "relation_type": "baseline",
+        "can_run_on_macbook": false,
+        "reusable_assets": [
+          "The skill library concept could be adapted for other embodied agent tasks."
+        ],
+        "code_available": false,
+        "code_url": null,
+        "best_result": null,
+        "key_results": {},
+        "limitations_stated": [
+          "The paper doesn't explicitly state limitations in the abstract.",
+          "The system relies on blackbox queries to GPT-4, which might be computationally expensive."
+        ],
+        "evidence_id": "EV008",
+        "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+        "year": 2023,
+        "arxiv_id": "2305.16291",
+        "full_text_tool": "pymupdf_full",
+        "full_text_chars": 126482,
+        "sections_found": [
+          "introduction",
+          "method",
+          "results",
+          "conclusion"
+        ],
+        "pdf_pages": 42,
+        "pdf_tables": 13,
+        "pdf_captions": 12
+      }
+    },
+    {
+      "evidence_id": "EV009",
+      "title": "AgentBench: Evaluating LLMs as Agents",
+      "year": 2023,
+      "url": "https://arxiv.org/abs/2308.03688",
+      "arxiv_id": "2308.03688",
+      "core_claim": "Top commercial LLMs demonstrate strong agent capabilities while open-source models show significant performance gaps, with poor long-term reasoning, decision-making, and instruction following identified as main obstacles.",
+      "problem_addressed": "The urgent need for quantitative evaluation of Large Language Models (LLMs) as agents in interactive environments to assess their reasoning and decision-making abilities.",
+      "key_contributions": [
+        "AGENTBENCH: A multi-dimensional benchmark consisting of 8 distinct environments for evaluating LLM-as-Agent capabilities",
+        "Extensive testing of 29 API-based and open-source LLMs across these environments",
+        "Identification of typical failure reasons in environments and LLMs, revealing key obstacles to usable LLM agents"
+      ],
+      "novelty": "Creation of the first comprehensive benchmark that holistically evaluates LLMs across multiple agent-like environments (Operating System, Database, Knowledge, Graph, Digital Card Game, Lateral Thinking Puzzle, House-holding, Web) rather than isolated tasks.",
+      "method_summary": "AGENTBENCH creates 8 distinct interactive environments to test LLM agents, then evaluates 29 API-based and open-source LLMs across these environments to assess reasoning and decision-making abilities.",
+      "method_components": [
+        "Eight distinct environments: Operating System, Database, Knowledge, Graph, Digital Card Game, Lateral Thinking Puzzle, House-holding, Web",
+        "Evaluation of 29 API-based and open-source LLMs across these environments"
+      ],
+      "key_innovation": "Multi-dimensional benchmark design that holistically evaluates LLM agent capabilities across diverse interactive environments rather than isolated tasks.",
+      "assumptions": [
+        "The 8 environments adequately represent real-world agent tasks",
+        "LLMs can meaningfully interact with these environments",
+        "Performance across environments correlates with practical agent usability"
+      ],
+      "method_or_focus": [
+        "Multi-dimensional benchmark design that holistically evaluates LLM agent capabilities across diverse interactive environments rather than isolated tasks."
+      ],
+      "datasets_used": [],
+      "baselines_compared": [],
+      "metrics_used": [],
+      "hyperparameters": null,
+      "compute_required": null,
+      "key_results": {},
+      "results_table": [],
+      "headline_result": null,
+      "best_result": null,
+      "ablations": [],
+      "improvement_over_baseline": null,
+      "limitations": [
+        "Significant performance disparity between top commercial LLMs and many OSS competitors (≤70B)",
+        "They identify typical reasons for failures in environments and LLMs"
+      ],
+      "unstated_weaknesses": [
+        "No explicit focus on attention mechanism efficiency metrics",
+        "Limited information about diversity and complexity of benchmark environments",
+        "Potential bias toward models with larger parameter counts",
+        "Unclear how environments specifically test attention mechanisms"
+      ],
+      "threats_to_validity": [
+        "Benchmark may not cover scenarios where efficient attention mechanisms would be most beneficial",
+        "Evaluation might not isolate attention mechanism performance from other model components",
+        "Environments might favor certain types of reasoning that don't directly test attention efficiency",
+        "Potential bias toward models with more training data"
+      ],
+      "open_questions": [
+        "How do different attention mechanisms perform across the benchmark environments?",
+        "What is the relationship between attention efficiency and overall agent performance?",
+        "Are there specific environments where efficient attention mechanisms provide the most benefit?",
+        "How does the computational cost of attention mechanisms relate to task performance?"
+      ],
+      "future_work": [
+        "Expanding the benchmark to include more diverse environments",
+        "Including computational efficiency metrics",
+        "Developing more specialized benchmarks for specific aspects of agent performance",
+        "Investigating the failure cases in more detail"
+      ],
+      "gaps_this_enables": [
+        "A framework for evaluating how attention mechanism improvements translate to agent performance",
+        "Identification of specific scenarios where efficient attention would be most beneficial",
+        "A baseline for comparing different attention mechanisms in agent contexts",
+        "Insights into the trade-offs between attention efficiency and task performance"
+      ],
+      "relevance_to_topic": "This paper provides a benchmark framework for evaluating how different attention mechanisms perform in agent scenarios, which could inform the development of more efficient attention mechanisms.",
+      "relation_type": "foundational",
+      "reusable_assets": [
+        "Benchmark framework and environments",
+        "Evaluation protocols",
+        "Dataset of agent tasks"
+      ],
+      "reproducibility": "medium",
+      "code_available": true,
+      "code_url": null,
+      "can_run_on_macbook": false,
+      "full_text_chars": 182651,
+      "full_text_tool": "pymupdf_full",
+      "pdf_pages": 58,
+      "pdf_tables": 6,
+      "possible_gap": "A framework for evaluating how attention mechanism improvements translate to agent performance",
+      "deep_read": {
+        "problem_addressed": "The urgent need for quantitative evaluation of Large Language Models (LLMs) as agents in interactive environments to assess their reasoning and decision-making abilities.",
+        "core_claim": "Top commercial LLMs demonstrate strong agent capabilities while open-source models show significant performance gaps, with poor long-term reasoning, decision-making, and instruction following identified as main obstacles.",
+        "key_contributions": [
+          "AGENTBENCH: A multi-dimensional benchmark consisting of 8 distinct environments for evaluating LLM-as-Agent capabilities",
+          "Extensive testing of 29 API-based and open-source LLMs across these environments",
+          "Identification of typical failure reasons in environments and LLMs, revealing key obstacles to usable LLM agents"
+        ],
+        "novelty": "Creation of the first comprehensive benchmark that holistically evaluates LLMs across multiple agent-like environments (Operating System, Database, Knowledge, Graph, Digital Card Game, Lateral Thinking Puzzle, House-holding, Web) rather than isolated tasks.",
+        "method_summary": "AGENTBENCH creates 8 distinct interactive environments to test LLM agents, then evaluates 29 API-based and open-source LLMs across these environments to assess reasoning and decision-making abilities.",
+        "method_components": [
+          "Eight distinct environments: Operating System, Database, Knowledge, Graph, Digital Card Game, Lateral Thinking Puzzle, House-holding, Web",
+          "Evaluation of 29 API-based and open-source LLMs across these environments"
+        ],
+        "key_innovation": "Multi-dimensional benchmark design that holistically evaluates LLM agent capabilities across diverse interactive environments rather than isolated tasks.",
+        "assumptions": [
+          "The 8 environments adequately represent real-world agent tasks",
+          "LLMs can meaningfully interact with these environments",
+          "Performance across environments correlates with practical agent usability"
+        ],
+        "theoretical_grounding": null,
+        "stated_limitations": [
+          "Significant performance disparity between top commercial LLMs and many OSS competitors (≤70B)",
+          "They identify typical reasons for failures in environments and LLMs"
+        ],
+        "unstated_weaknesses": [
+          "No explicit focus on attention mechanism efficiency metrics",
+          "Limited information about diversity and complexity of benchmark environments",
+          "Potential bias toward models with larger parameter counts",
+          "Unclear how environments specifically test attention mechanisms"
+        ],
+        "threats_to_validity": [
+          "Benchmark may not cover scenarios where efficient attention mechanisms would be most beneficial",
+          "Evaluation might not isolate attention mechanism performance from other model components",
+          "Environments might favor certain types of reasoning that don't directly test attention efficiency",
+          "Potential bias toward models with more training data"
+        ],
+        "reproducibility": "medium",
+        "open_questions": [
+          "How do different attention mechanisms perform across the benchmark environments?",
+          "What is the relationship between attention efficiency and overall agent performance?",
+          "Are there specific environments where efficient attention mechanisms provide the most benefit?",
+          "How does the computational cost of attention mechanisms relate to task performance?"
+        ],
+        "future_work": [
+          "Expanding the benchmark to include more diverse environments",
+          "Including computational efficiency metrics",
+          "Developing more specialized benchmarks for specific aspects of agent performance",
+          "Investigating the failure cases in more detail"
+        ],
+        "gaps_this_enables": [
+          "A framework for evaluating how attention mechanism improvements translate to agent performance",
+          "Identification of specific scenarios where efficient attention would be most beneficial",
+          "A baseline for comparing different attention mechanisms in agent contexts",
+          "Insights into the trade-offs between attention efficiency and task performance"
+        ],
+        "relevance_to_topic": "This paper provides a benchmark framework for evaluating how different attention mechanisms perform in agent scenarios, which could inform the development of more efficient attention mechanisms.",
+        "relation_type": "foundational",
+        "can_run_on_macbook": false,
+        "reusable_assets": [
+          "Benchmark framework and environments",
+          "Evaluation protocols",
+          "Dataset of agent tasks"
+        ],
+        "code_available": true,
+        "code_url": null,
+        "best_result": null,
+        "key_results": {},
+        "limitations_stated": [
+          "Significant performance disparity between top commercial LLMs and many OSS competitors (≤70B)",
+          "They identify typical reasons for failures in environments and LLMs"
+        ],
+        "evidence_id": "EV009",
+        "title": "AgentBench: Evaluating LLMs as Agents",
+        "year": 2023,
+        "arxiv_id": "2308.03688",
+        "full_text_tool": "pymupdf_full",
+        "full_text_chars": 182651,
+        "sections_found": [
+          "introduction",
+          "method",
+          "results",
+          "conclusion"
+        ],
+        "pdf_pages": 58,
+        "pdf_tables": 6,
+        "pdf_captions": 16
+      }
+    },
+    {
+      "evidence_id": "EV010",
+      "title": "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
+      "year": 2024,
+      "url": "https://arxiv.org/abs/2405.15793",
+      "arxiv_id": "2405.15793",
+      "core_claim": "LM agents require specially-built interfaces to effectively perform software engineering tasks, similar to how humans need IDEs.",
+      "problem_addressed": "Language model agents lack specialized interfaces for complex software engineering tasks, unlike human engineers who benefit from IDEs.",
+      "key_contributions": [
+        "SWE-agent system that enables LM agents to autonomously use computers for software engineering tasks",
+        "Custom agent-computer interface (ACI) that enhances LM agents' ability to create/edit code, navigate repositories, and execute tests"
+      ],
+      "novelty": "The custom agent-computer interface (ACI) with LM-friendly commands and environment feedback, specifically designed for software engineering tasks.",
+      "method_summary": "SWE-agent facilitates LM agents to autonomously use computers through an ACI that includes specific commands for file manipulation and navigation, with structured feedback from the computer environment.",
+      "method_components": [
+        "LM-friendly commands for file operations and navigation",
+        "LM-friendly environment feedback format",
+        "Agent-computer interface connecting LM agent to computer"
+      ],
+      "key_innovation": "The ACI design that bridges LM capabilities with software engineering needs through carefully crafted commands and feedback mechanisms.",
+      "assumptions": [
+        "LM agents can benefit from structured interfaces like humans do",
+        "Interface design significantly impacts agent performance"
+      ],
+      "method_or_focus": [
+        "The ACI design that bridges LM capabilities with software engineering needs through carefully crafted commands and feedback mechanisms.",
+        "SWE-bench Lite",
+        "SWE-bench (full)"
+      ],
+      "datasets_used": [
+        "SWE-bench Lite",
+        "SWE-bench (full)"
+      ],
+      "baselines_compared": [
+        "SWE-agent w/ GPT-4",
+        "SWE-agent w/ Claude 3 Opus"
+      ],
+      "metrics_used": [
+        "Resolution rate",
+        "Turn distribution",
+        "Total steps",
+        "Cost (USD)"
+      ],
+      "hyperparameters": "null",
+      "compute_required": "null",
+      "key_results": {
+        "SWE-bench (full)_Resolution by Turn": "60% resolved by turn 25",
+        "SWE-bench Lite_Resolution by Turn": "50% resolved by turn 20",
+        "SWE-bench_Total Steps": "Resolved instances median <100 steps vs >140 for unresolved",
+        "SWE-bench_Cost": "Resolved instances median <$2 vs >$3.5 for unresolved",
+        "SWE-bench_Frequency": "'create, edit, python' occurred 156 times in turns 1-3"
+      },
+      "results_table": [
+        {
+          "method": "SWE-agent w/ GPT-4",
+          "dataset": "SWE-bench (full)",
+          "metric": "Resolution by Turn",
+          "value": "60% resolved by turn 25"
+        },
+        {
+          "method": "SWE-agent w/ Claude 3 Opus",
+          "dataset": "SWE-bench Lite",
+          "metric": "Resolution by Turn",
+          "value": "50% resolved by turn 20"
+        },
+        {
+          "method": "SWE-agent w/ GPT-4",
+          "dataset": "SWE-bench",
+          "metric": "Total Steps",
+          "value": "Resolved instances median <100 steps vs >140 for unresolved"
+        },
+        {
+          "method": "SWE-agent w/ GPT-4",
+          "dataset": "SWE-bench",
+          "metric": "Cost",
+          "value": "Resolved instances median <$2 vs >$3.5 for unresolved"
+        },
+        {
+          "method": "Action Patterns",
+          "dataset": "SWE-bench",
+          "metric": "Frequency",
+          "value": "'create, edit, python' occurred 156 times in turns 1-3"
+        }
+      ],
+      "headline_result": "SWE-agent with GPT-4 resolved 60% of tasks within 25 turns on SWE-bench (full), while Claude 3 Opus resolved 50% within 20 turns on SWE-bench Lite",
+      "best_result": "SWE-agent with GPT-4 resolved 60% of tasks within 25 turns on SWE-bench (full), while Claude 3 Opus resolved 50% within 20 turns on SWE-bench Lite",
+      "ablations": [
+        "Localization-first vs Reproduction-first strategies",
+        "Error recovery capabilities"
+      ],
+      "improvement_over_baseline": "null",
+      "limitations": [],
+      "unstated_weaknesses": [],
+      "threats_to_validity": [],
+      "open_questions": [],
+      "future_work": [],
+      "gaps_this_enables": [],
+      "relevance_to_topic": null,
+      "relation_type": null,
+      "reusable_assets": [],
+      "reproducibility": "low",
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "full_text_chars": 196393,
+      "full_text_tool": "pymupdf_full",
+      "pdf_pages": 60,
+      "pdf_tables": 11,
+      "possible_gap": "Based on full paper reading: The ACI design that bridges LM capabilities with software engineering needs through carefully crafted commands and feedback mechanisms.",
+      "deep_read": {
+        "problem_addressed": "Language model agents lack specialized interfaces for complex software engineering tasks, unlike human engineers who benefit from IDEs.",
+        "core_claim": "LM agents require specially-built interfaces to effectively perform software engineering tasks, similar to how humans need IDEs.",
+        "key_contributions": [
+          "SWE-agent system that enables LM agents to autonomously use computers for software engineering tasks",
+          "Custom agent-computer interface (ACI) that enhances LM agents' ability to create/edit code, navigate repositories, and execute tests"
+        ],
+        "novelty": "The custom agent-computer interface (ACI) with LM-friendly commands and environment feedback, specifically designed for software engineering tasks.",
+        "method_summary": "SWE-agent facilitates LM agents to autonomously use computers through an ACI that includes specific commands for file manipulation and navigation, with structured feedback from the computer environment.",
+        "method_components": [
+          "LM-friendly commands for file operations and navigation",
+          "LM-friendly environment feedback format",
+          "Agent-computer interface connecting LM agent to computer"
+        ],
+        "key_innovation": "The ACI design that bridges LM capabilities with software engineering needs through carefully crafted commands and feedback mechanisms.",
+        "assumptions": [
+          "LM agents can benefit from structured interfaces like humans do",
+          "Interface design significantly impacts agent performance"
+        ],
+        "theoretical_grounding": "None explicitly provided",
+        "datasets_used": [
+          "SWE-bench Lite",
+          "SWE-bench (full)"
+        ],
+        "baselines_compared": [
+          "SWE-agent w/ GPT-4",
+          "SWE-agent w/ Claude 3 Opus"
+        ],
+        "metrics_used": [
+          "Resolution rate",
+          "Turn distribution",
+          "Total steps",
+          "Cost (USD)"
+        ],
+        "hyperparameters": "null",
+        "compute_required": "null",
+        "seeds": "null",
+        "headline_result": "SWE-agent with GPT-4 resolved 60% of tasks within 25 turns on SWE-bench (full), while Claude 3 Opus resolved 50% within 20 turns on SWE-bench Lite",
+        "results_table": [
+          {
+            "method": "SWE-agent w/ GPT-4",
+            "dataset": "SWE-bench (full)",
+            "metric": "Resolution by Turn",
+            "value": "60% resolved by turn 25"
+          },
+          {
+            "method": "SWE-agent w/ Claude 3 Opus",
+            "dataset": "SWE-bench Lite",
+            "metric": "Resolution by Turn",
+            "value": "50% resolved by turn 20"
+          },
+          {
+            "method": "SWE-agent w/ GPT-4",
+            "dataset": "SWE-bench",
+            "metric": "Total Steps",
+            "value": "Resolved instances median <100 steps vs >140 for unresolved"
+          },
+          {
+            "method": "SWE-agent w/ GPT-4",
+            "dataset": "SWE-bench",
+            "metric": "Cost",
+            "value": "Resolved instances median <$2 vs >$3.5 for unresolved"
+          },
+          {
+            "method": "Action Patterns",
+            "dataset": "SWE-bench",
+            "metric": "Frequency",
+            "value": "'create, edit, python' occurred 156 times in turns 1-3"
+          }
+        ],
+        "ablations": [
+          "Localization-first vs Reproduction-first strategies",
+          "Error recovery capabilities"
+        ],
+        "improvement_over_baseline": "null",
+        "best_result": "SWE-agent with GPT-4 resolved 60% of tasks within 25 turns on SWE-bench (full), while Claude 3 Opus resolved 50% within 20 turns on SWE-bench Lite",
+        "key_results": {
+          "SWE-bench (full)_Resolution by Turn": "60% resolved by turn 25",
+          "SWE-bench Lite_Resolution by Turn": "50% resolved by turn 20",
+          "SWE-bench_Total Steps": "Resolved instances median <100 steps vs >140 for unresolved",
+          "SWE-bench_Cost": "Resolved instances median <$2 vs >$3.5 for unresolved",
+          "SWE-bench_Frequency": "'create, edit, python' occurred 156 times in turns 1-3"
+        },
+        "limitations_stated": [],
+        "reproducibility": "low",
+        "evidence_id": "EV010",
+        "title": "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
+        "year": 2024,
+        "arxiv_id": "2405.15793",
+        "full_text_tool": "pymupdf_full",
+        "full_text_chars": 196393,
+        "sections_found": [
+          "introduction",
+          "method",
+          "results",
+          "conclusion"
+        ],
+        "pdf_pages": 60,
+        "pdf_tables": 11,
+        "pdf_captions": 55
+      }
+    },
+    {
+      "evidence_id": "EV011",
+      "title": "Radio Frequency Fingerprint-Identification Learning Method Based-On LMMSE Channel Estimation for Internet of Vehicles",
+      "year": 2025,
+      "url": "https://www.semanticscholar.org/paper/00378238d7f569164c91878de0aeb0e7c4491031",
+      "core_claim": "This paper proposes a learning method for Radio Frequency Fingerprint (RFF) identification in the Internet of Vehicles (IoV) to address authentication challenges.",
+      "method_or_focus": [
+        "LMMSE",
+        "Learning Method"
+      ],
+      "limitations": [
+        "The stability of RFF features is affected by communication channel variations and receiver noise."
+      ],
+      "possible_gap": "Future work could explore how the proposed method performs under different types of mobility patterns or in more complex, multi-path channel environments.",
+      "full_text_tool": "abstract_only",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null,
+      "key_contributions": [],
+      "method_components": [],
+      "assumptions": [],
+      "metrics_used": [],
+      "results_table": [],
+      "ablations": [],
+      "unstated_weaknesses": [],
+      "threats_to_validity": [],
+      "open_questions": [],
+      "future_work": [],
+      "gaps_this_enables": [],
+      "reusable_assets": []
+    },
+    {
+      "evidence_id": "EV012",
+      "title": "A critical review of RNN and LSTM variants in hydrological time series predictions",
+      "year": 2024,
+      "url": "https://www.semanticscholar.org/paper/0079cc81976234685259fa09bc535a9b49777671",
+      "core_claim": "Recurrent Neural Networks (RNNs) and Long Short-Term Memory (LSTM) networks have become research focal points due to their effectiveness in modeling non-linear, time-variant hydrological systems.",
+      "method_or_focus": [
+        "RNNs",
+        "LSTMs",
+        "Gated Recurrent Units (GRUs)"
+      ],
+      "limitations": [
+        "vanishing gradients"
+      ],
+      "possible_gap": "The paper does not appear to conduct a systematic, large-scale comparative analysis of the different RNN and LSTM variants on a common benchmark dataset.",
+      "full_text_tool": "abstract_only",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null,
+      "key_contributions": [],
+      "method_components": [],
+      "assumptions": [],
+      "metrics_used": [],
+      "results_table": [],
+      "ablations": [],
+      "unstated_weaknesses": [],
+      "threats_to_validity": [],
+      "open_questions": [],
+      "future_work": [],
+      "gaps_this_enables": [],
+      "reusable_assets": []
+    },
+    {
+      "evidence_id": "EV013",
+      "title": "Kolmogorov-Arnold Networks in Transformer Attention for Low-Light Image Enhancement",
+      "year": 2024,
+      "url": "https://www.semanticscholar.org/paper/007a5f3b57968325044cb498f3ba15542126d2c3",
+      "core_claim": "This paper introduces a novel Transformer attention mechanism inspired by the Kolmogorov-Arnold representation theorem.",
+      "method_or_focus": [
+        "Kolmogorov-Arnold Networks",
+        "Transformer Attention",
+        "Learnable non-linearity",
+        "Multivariate function decomposition"
+      ],
+      "limitations": [
+        "The abstract is incomplete, not specifying the exact application or evaluation of the proposed mechanism."
+      ],
+      "possible_gap": "The paper does not provide any experimental results or quantitative comparisons to demonstrate the effectiveness of the proposed attention mechanism.",
+      "full_text_tool": "abstract_only",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null,
+      "key_contributions": [],
+      "method_components": [],
+      "assumptions": [],
+      "metrics_used": [],
+      "results_table": [],
+      "ablations": [],
+      "unstated_weaknesses": [],
+      "threats_to_validity": [],
+      "open_questions": [],
+      "future_work": [],
+      "gaps_this_enables": [],
+      "reusable_assets": []
+    },
+    {
+      "evidence_id": "EV014",
+      "title": "Genotype-Phenotype Integration through Machine Learning and Personalized Gene Regulatory Networks for Cancer Metastasis Prediction",
+      "year": 2025,
+      "url": "https://www.semanticscholar.org/paper/007b08a8850a72f858991cf8802be794ad4153d0",
+      "arxiv_id": "2510.23620",
+      "core_claim": "Expression-based ML models can serve as cost-efficient screening tools in resource-limited contexts, while personalized gene regulatory networks analyzed with graph neural networks can capture patient-specific regulatory patterns for metastasis prediction.",
+      "problem_addressed": "Metastasis is the leading cause of cancer-related mortality, yet most predictive models focus on single cancer types and overlook patient-specific regulatory networks, particularly problematic for resource-limited settings.",
+      "key_contributions": [
+        "Evaluation of expression-based ML models for pancancer metastasis prediction with feasibility assessment for resource-limited settings",
+        "Construction of personalized gene regulatory networks and application of graph neural networks to capture patient-level regulatory patterns"
+      ],
+      "novelty": "Integration of machine learning with personalized gene regulatory networks using graph neural networks to capture patient-specific regulatory patterns for metastasis prediction, enabling both cost-efficient screening and precision analysis.",
+      "method_summary": "Gene expression data from Cancer Cell Line Encyclopedia was used with differential genes selected via Kruskal-Wallis test. ML models (ElasticNet, Random Forest, XGBoost) were trained on top-ranked genes, while personalized networks were generated with PANDA and LIONESS and analyzed using GATv2 with topological and expression features.",
+      "method_components": [
+        "Machine learning models (ElasticNet, Random Forest, XGBoost) trained on gene expression data",
+        "Personalized gene regulatory networks generated with PANDA and LIONESS",
+        "Graph neural network (GATv2) analysis of the personalized networks"
+      ],
+      "key_innovation": "The integration of ML-based benchmarking with patient-level network analysis to guide resource allocation in different healthcare settings while supporting precision cancer care.",
+      "assumptions": [
+        "Gene expression data from Cancer Cell Line Encyclopedia is representative for pancancer metastasis prediction",
+        "The nine metastasis-associated transcription factors from DoRothEA provide sufficient prior knowledge",
+        "The topological features of gene regulatory networks carry meaningful signals for metastasis"
+      ],
+      "method_or_focus": [
+        "The integration of ML-based benchmarking with patient-level network analysis to guide resource allocation in different healthcare settings while supporting precision cancer care.",
+        "CCLE gene expression data"
+      ],
+      "datasets_used": [
+        "CCLE gene expression data"
+      ],
+      "baselines_compared": [
+        "Traditional ML models",
+        "GNN models (GATv2)"
+      ],
+      "metrics_used": [
+        "AUROC",
+        "MCC"
+      ],
+      "hyperparameters": "null",
+      "compute_required": "null",
+      "key_results": {
+        "CCLE_AUROC": "0.6460",
+        "CCLE_MCC": "0.1974"
+      },
+      "results_table": [
+        {
+          "method": "GNN top100 balanced",
+          "dataset": "CCLE",
+          "metric": "AUROC",
+          "value": "0.6423"
+        },
+        {
+          "method": "GNN top100 balanced",
+          "dataset": "CCLE",
+          "metric": "MCC",
+          "value": "0.2254"
+        },
+        {
+          "method": "GNN top200 balanced",
+          "dataset": "CCLE",
+          "metric": "AUROC",
+          "value": "0.6196"
+        },
+        {
+          "method": "GNN top200 balanced",
+          "dataset": "CCLE",
+          "metric": "MCC",
+          "value": "0.1651"
+        },
+        {
+          "method": "GNN top500 balanced",
+          "dataset": "CCLE",
+          "metric": "AUROC",
+          "value": "0.6460"
+        },
+        {
+          "method": "GNN top500 balanced",
+          "dataset": "CCLE",
+          "metric": "MCC",
+          "value": "0.1974"
+        },
+        {
+          "method": "GNN top1000 balanced",
+          "dataset": "CCLE",
+          "metric": "AUROC",
+          "value": "0.6367"
+        },
+        {
+          "method": "GNN top1000 balanced",
+          "dataset": "CCLE",
+          "metric": "MCC",
+          "value": "0.2108"
+        },
+        {
+          "method": "XGBoost top1000",
+          "dataset": "CCLE",
+          "metric": "AUROC",
+          "value": "0.7051"
+        }
+      ],
+      "headline_result": "XGBoost with top 1000 genes achieved AUROC of 0.7051",
+      "best_result": "XGBoost with top 1000 genes achieved AUROC of 0.7051",
+      "ablations": [
+        "Feature set size (100, 200, 500, 1000 genes)",
+        "Model architecture (GNN vs traditional ML)"
+      ],
+      "improvement_over_baseline": "null",
+      "limitations": [
+        "Most predictive models focus on single cancer types and overlook patient-specific regulatory networks"
+      ],
+      "unstated_weaknesses": [
+        "Uses only cell line data which may not generalize to primary tumors",
+        "Restricts to only 9 metastasis-associated transcription factors",
+        "Abstract is incomplete, limiting full assessment"
+      ],
+      "threats_to_validity": [
+        "Cell line data may not represent patient tumor biology",
+        "Limited transcription factor selection may miss important regulatory relationships",
+        "No mention of external validation or cross-validation"
+      ],
+      "open_questions": [
+        "How well do personalized networks perform compared to standard models?",
+        "Can the approach scale to more comprehensive regulatory networks?",
+        "How does this method perform across different cancer types and stages?"
+      ],
+      "future_work": [
+        "Expand the transcription factor network beyond 9 factors",
+        "Apply the approach to other cancer phenotypes",
+        "Integrate multi-omics data for more comprehensive predictions"
+      ],
+      "gaps_this_enables": [
+        "More personalized cancer treatment approaches",
+        "Integration of multi-omics data in cancer prediction",
+        "More efficient attention mechanisms for biological networks"
+      ],
+      "relevance_to_topic": "Uses graph neural networks for gene regulatory networks which could involve attention mechanisms, but doesn't specifically focus on efficient attention mechanisms",
+      "relation_type": "tangential",
+      "reusable_assets": [
+        "Cancer Cell Line Encyclopedia dataset",
+        "DoRothEA transcription factor-target prior",
+        "Machine learning models (ElasticNet, Random Forest, XGBoost)",
+        "Graph neural network approach"
+      ],
+      "reproducibility": "medium",
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "full_text_chars": 50524,
+      "full_text_tool": "pymupdf_full",
+      "pdf_pages": 40,
+      "pdf_tables": null,
+      "possible_gap": "More personalized cancer treatment approaches",
+      "deep_read": {
+        "problem_addressed": "Metastasis is the leading cause of cancer-related mortality, yet most predictive models focus on single cancer types and overlook patient-specific regulatory networks, particularly problematic for resource-limited settings.",
+        "core_claim": "Expression-based ML models can serve as cost-efficient screening tools in resource-limited contexts, while personalized gene regulatory networks analyzed with graph neural networks can capture patient-specific regulatory patterns for metastasis prediction.",
+        "key_contributions": [
+          "Evaluation of expression-based ML models for pancancer metastasis prediction with feasibility assessment for resource-limited settings",
+          "Construction of personalized gene regulatory networks and application of graph neural networks to capture patient-level regulatory patterns"
+        ],
+        "novelty": "Integration of machine learning with personalized gene regulatory networks using graph neural networks to capture patient-specific regulatory patterns for metastasis prediction, enabling both cost-efficient screening and precision analysis.",
+        "method_summary": "Gene expression data from Cancer Cell Line Encyclopedia was used with differential genes selected via Kruskal-Wallis test. ML models (ElasticNet, Random Forest, XGBoost) were trained on top-ranked genes, while personalized networks were generated with PANDA and LIONESS and analyzed using GATv2 with topological and expression features.",
+        "method_components": [
+          "Machine learning models (ElasticNet, Random Forest, XGBoost) trained on gene expression data",
+          "Personalized gene regulatory networks generated with PANDA and LIONESS",
+          "Graph neural network (GATv2) analysis of the personalized networks"
+        ],
+        "key_innovation": "The integration of ML-based benchmarking with patient-level network analysis to guide resource allocation in different healthcare settings while supporting precision cancer care.",
+        "assumptions": [
+          "Gene expression data from Cancer Cell Line Encyclopedia is representative for pancancer metastasis prediction",
+          "The nine metastasis-associated transcription factors from DoRothEA provide sufficient prior knowledge",
+          "The topological features of gene regulatory networks carry meaningful signals for metastasis"
+        ],
+        "theoretical_grounding": "Uses established methods: PANDA algorithm with responsibility and availability scores for network inference, LIONESS for sample-specific network reconstruction, and GATv2 for graph neural network analysis, evaluated with AUROC and MCC metrics.",
+        "datasets_used": [
+          "CCLE gene expression data"
+        ],
+        "baselines_compared": [
+          "Traditional ML models",
+          "GNN models (GATv2)"
+        ],
+        "metrics_used": [
+          "AUROC",
+          "MCC"
+        ],
+        "hyperparameters": "null",
+        "compute_required": "null",
+        "seeds": "5 random seeds for sensitivity analysis",
+        "headline_result": "XGBoost with top 1000 genes achieved AUROC of 0.7051",
+        "results_table": [
+          {
+            "method": "GNN top100 balanced",
+            "dataset": "CCLE",
+            "metric": "AUROC",
+            "value": "0.6423"
+          },
+          {
+            "method": "GNN top100 balanced",
+            "dataset": "CCLE",
+            "metric": "MCC",
+            "value": "0.2254"
+          },
+          {
+            "method": "GNN top200 balanced",
+            "dataset": "CCLE",
+            "metric": "AUROC",
+            "value": "0.6196"
+          },
+          {
+            "method": "GNN top200 balanced",
+            "dataset": "CCLE",
+            "metric": "MCC",
+            "value": "0.1651"
+          },
+          {
+            "method": "GNN top500 balanced",
+            "dataset": "CCLE",
+            "metric": "AUROC",
+            "value": "0.6460"
+          },
+          {
+            "method": "GNN top500 balanced",
+            "dataset": "CCLE",
+            "metric": "MCC",
+            "value": "0.1974"
+          },
+          {
+            "method": "GNN top1000 balanced",
+            "dataset": "CCLE",
+            "metric": "AUROC",
+            "value": "0.6367"
+          },
+          {
+            "method": "GNN top1000 balanced",
+            "dataset": "CCLE",
+            "metric": "MCC",
+            "value": "0.2108"
+          },
+          {
+            "method": "XGBoost top1000",
+            "dataset": "CCLE",
+            "metric": "AUROC",
+            "value": "0.7051"
+          }
+        ],
+        "ablations": [
+          "Feature set size (100, 200, 500, 1000 genes)",
+          "Model architecture (GNN vs traditional ML)"
+        ],
+        "improvement_over_baseline": "null",
+        "stated_limitations": [
+          "Most predictive models focus on single cancer types and overlook patient-specific regulatory networks"
+        ],
+        "unstated_weaknesses": [
+          "Uses only cell line data which may not generalize to primary tumors",
+          "Restricts to only 9 metastasis-associated transcription factors",
+          "Abstract is incomplete, limiting full assessment"
+        ],
+        "threats_to_validity": [
+          "Cell line data may not represent patient tumor biology",
+          "Limited transcription factor selection may miss important regulatory relationships",
+          "No mention of external validation or cross-validation"
+        ],
+        "reproducibility": "medium",
+        "open_questions": [
+          "How well do personalized networks perform compared to standard models?",
+          "Can the approach scale to more comprehensive regulatory networks?",
+          "How does this method perform across different cancer types and stages?"
+        ],
+        "future_work": [
+          "Expand the transcription factor network beyond 9 factors",
+          "Apply the approach to other cancer phenotypes",
+          "Integrate multi-omics data for more comprehensive predictions"
+        ],
+        "gaps_this_enables": [
+          "More personalized cancer treatment approaches",
+          "Integration of multi-omics data in cancer prediction",
+          "More efficient attention mechanisms for biological networks"
+        ],
+        "relevance_to_topic": "Uses graph neural networks for gene regulatory networks which could involve attention mechanisms, but doesn't specifically focus on efficient attention mechanisms",
+        "relation_type": "tangential",
+        "can_run_on_macbook": true,
+        "reusable_assets": [
+          "Cancer Cell Line Encyclopedia dataset",
+          "DoRothEA transcription factor-target prior",
+          "Machine learning models (ElasticNet, Random Forest, XGBoost)",
+          "Graph neural network approach"
+        ],
+        "code_available": false,
+        "code_url": null,
+        "best_result": "XGBoost with top 1000 genes achieved AUROC of 0.7051",
+        "key_results": {
+          "CCLE_AUROC": "0.6460",
+          "CCLE_MCC": "0.1974"
+        },
+        "limitations_stated": [
+          "Most predictive models focus on single cancer types and overlook patient-specific regulatory networks"
+        ],
+        "evidence_id": "EV014",
+        "title": "Genotype-Phenotype Integration through Machine Learning and Personalized Gene Regulatory Networks for Cancer Metastasis Prediction",
+        "year": 2025,
+        "arxiv_id": "2510.23620",
+        "full_text_tool": "pymupdf_full",
+        "full_text_chars": 50524,
+        "sections_found": [
+          "introduction",
+          "method",
+          "results",
+          "conclusion"
+        ],
+        "pdf_pages": 40,
+        "pdf_tables": 0,
+        "pdf_captions": 26
+      }
+    },
+    {
+      "evidence_id": "EV015",
+      "title": "Multisize Patched Spatial-Temporal Transformer Network for Short- and Long-Term Crowd Flow Prediction",
+      "year": 2022,
+      "url": "https://www.semanticscholar.org/paper/007b2bace05a7306014a14cacabc4b47f3da15f8",
+      "core_claim": "The proposed Multisize Patched Spatial-Temporal Transformer Network effectively addresses the challenges of both short- and long-term urban crowd flow prediction.",
+      "method_or_focus": [
+        "Multisize Patched Spatial-Temporal Transformer Network",
+        "Patch-based processing",
+        "Transformer architecture"
+      ],
+      "limitations": [
+        "Most existing short-term prediction models struggle with accurate long-term prediction."
+      ],
+      "possible_gap": "The abstract is incomplete, and the specific details of the proposed 'patched T...' network are not provided.",
+      "full_text_tool": "abstract_only",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null,
+      "key_contributions": [],
+      "method_components": [],
+      "assumptions": [],
+      "metrics_used": [],
+      "results_table": [],
+      "ablations": [],
+      "unstated_weaknesses": [],
+      "threats_to_validity": [],
+      "open_questions": [],
+      "future_work": [],
+      "gaps_this_enables": [],
+      "reusable_assets": []
+    }
+  ],
+  "claim_graph": {
+    "claims": [
+      {
+        "claim_id": "CL001",
+        "evidence_id": "EV001",
+        "text": "The AI Scientist enables frontier large language models to perform research independently and communicate their findings through a comprehensive framework for fully automated scientific discovery.",
+        "support": "full_pdf_read_confirmed"
+      },
+      {
+        "claim_id": "CL002",
+        "evidence_id": "EV002",
+        "text": "The AI Scientist-v2 demonstrates that an autonomous AI system can produce peer-reviewed workshop papers, marking the first instance of a fully AI-generated paper successfully navigating peer review.",
+        "support": "full_pdf_read_confirmed"
+      },
+      {
+        "claim_id": "CL003",
+        "evidence_id": "EV003",
+        "text": "Agent Laboratory is an autonomous LLM-based framework that can complete the entire research process from idea to results while reducing costs by 84%.",
+        "support": "full_pdf_read_confirmed"
+      },
+      {
+        "claim_id": "CL004",
+        "evidence_id": "EV004",
+        "text": "MLE-bench provides a standardized benchmark for assessing the capabilities of ML agents in performing ML engineering tasks",
+        "support": "full_pdf_read_confirmed"
+      },
+      {
+        "claim_id": "CL005",
+        "evidence_id": "EV005",
+        "text": "AIBuildAI-2, a knowledge-enhanced agent with an evolving hierarchical knowledge system, can autonomously build AI models at a level comparable to expert human practitioners.",
+        "support": "full_pdf_read_confirmed"
+      },
+      {
+        "claim_id": "CL006",
+        "evidence_id": "EV006",
+        "text": "Reflexion demonstrates that language agents can be effectively reinforced through verbal feedback and reflection rather than weight updates, achieving significant performance improvements across diverse tasks.",
+        "support": "full_pdf_read_confirmed"
+      },
+      {
+        "claim_id": "CL007",
+        "evidence_id": "EV007",
+        "text": "SELF-REFINE can significantly improve LLM outputs through iterative self-feedback without requiring additional training, data, or reinforcement learning.",
+        "support": "full_pdf_read_confirmed"
+      },
+      {
+        "claim_id": "CL008",
+        "evidence_id": "EV008",
+        "text": "VOYAGER is the first LLM-powered embodied lifelong learning agent in Minecraft that can continuously explore the world, acquire diverse skills, and make novel discoveries without human intervention.",
+        "support": "full_pdf_read_confirmed"
+      },
+      {
+        "claim_id": "CL009",
+        "evidence_id": "EV009",
+        "text": "Top commercial LLMs demonstrate strong agent capabilities while open-source models show significant performance gaps, with poor long-term reasoning, decision-making, and instruction following identified as main obstacles.",
+        "support": "full_pdf_read_confirmed"
+      },
+      {
+        "claim_id": "CL010",
+        "evidence_id": "EV010",
+        "text": "LM agents require specially-built interfaces to effectively perform software engineering tasks, similar to how humans need IDEs.",
+        "support": "full_pdf_read_confirmed"
+      },
+      {
+        "claim_id": "CL011",
+        "evidence_id": "EV011",
+        "text": "This paper proposes a learning method for Radio Frequency Fingerprint (RFF) identification in the Internet of Vehicles (IoV) to address authentication challenges.",
+        "support": "abstract_only_pending_pdf"
+      },
+      {
+        "claim_id": "CL012",
+        "evidence_id": "EV012",
+        "text": "Recurrent Neural Networks (RNNs) and Long Short-Term Memory (LSTM) networks have become research focal points due to their effectiveness in modeling non-linear, time-variant hydrological systems.",
+        "support": "abstract_only_pending_pdf"
+      },
+      {
+        "claim_id": "CL013",
+        "evidence_id": "EV013",
+        "text": "This paper introduces a novel Transformer attention mechanism inspired by the Kolmogorov-Arnold representation theorem.",
+        "support": "abstract_only_pending_pdf"
+      },
+      {
+        "claim_id": "CL014",
+        "evidence_id": "EV014",
+        "text": "Expression-based ML models can serve as cost-efficient screening tools in resource-limited contexts, while personalized gene regulatory networks analyzed with graph neural networks can capture patient-specific regulatory patterns for metastasis prediction.",
+        "support": "full_pdf_read_confirmed"
+      },
+      {
+        "claim_id": "CL015",
+        "evidence_id": "EV015",
+        "text": "The proposed Multisize Patched Spatial-Temporal Transformer Network effectively addresses the challenges of both short- and long-term urban crowd flow prediction.",
+        "support": "abstract_only_pending_pdf"
+      }
+    ],
+    "links": [
+      {
+        "from": "EV005",
+        "relation": "suggests_gap",
+        "to": "G01"
+      },
+      {
+        "from": "EV008",
+        "relation": "suggests_gap",
+        "to": "G02"
+      },
+      {
+        "from": "EV009",
+        "relation": "suggests_gap",
+        "to": "G03"
+      },
+      {
+        "from": "EV006",
+        "relation": "suggests_gap",
+        "to": "G04"
+      },
+      {
+        "from": "EV007",
+        "relation": "suggests_gap",
+        "to": "G05"
+      },
+      {
+        "from": "EV010",
+        "relation": "suggests_gap",
+        "to": "G06"
+      }
+    ]
+  },
+  "research_gaps": [
+    {
+      "gap_id": "G01",
+      "gap_title": "Agentic AI for Efficient Attention Discovery",
+      "text": "EV005 identifies a gap in research on agentic AI for discovering efficient attention mechanisms. The AIBuildAI-2 paper lacks specific performance metrics for attention efficiency, creating an opportunity for automated discovery systems.",
+      "testable_hypothesis": "If agentic AI systems discover novel attention patterns, then they will achieve >10% reduction in computational complexity while maintaining >95% accuracy on classification tasks.",
+      "suggested_dataset": "digits",
+      "baseline_paper": null,
+      "keywords": [],
+      "evidence_ids": [
+        "EV005"
+      ],
+      "testable": true,
+      "difficulty": "medium",
+      "source": "llm",
+      "validation": {
+        "ran": true,
+        "signal": false,
+        "value": -2303,
+        "verdict": "no_signal"
+      }
+    },
+    {
+      "gap_id": "G02",
+      "gap_title": "Efficient Attention in Embodied Agents",
+      "text": "EV008 highlights research on using efficient attention mechanisms in embodied agents. The Voyager paper lacks discussion of attention mechanism efficiency in embodied contexts, creating a clear research gap.",
+      "testable_hypothesis": "If attention mechanisms in embodied agents are optimized for spatial efficiency, then they will achieve >15% reduction in energy consumption while maintaining task completion rates.",
+      "suggested_dataset": "breast_cancer",
+      "baseline_paper": null,
+      "keywords": [],
+      "evidence_ids": [
+        "EV008"
+      ],
+      "testable": true,
+      "difficulty": "hard",
+      "source": "llm"
+    },
+    {
+      "gap_id": "G03",
+      "gap_title": "Attention Mechanism Evaluation Framework",
+      "text": "EV009 identifies a gap in frameworks for evaluating how attention mechanism improvements translate to agent performance. The AgentBench paper lacks explicit focus on attention mechanism efficiency metrics.",
+      "testable_hypothesis": "If a standardized evaluation framework for attention mechanisms is developed, then it will enable >20% improvement in identifying efficient attention patterns across different agent tasks.",
+      "suggested_dataset": "digits",
+      "baseline_paper": null,
+      "keywords": [],
+      "evidence_ids": [
+        "EV009"
+      ],
+      "testable": true,
+      "difficulty": "medium",
+      "source": "llm"
+    },
+    {
+      "gap_id": "G04",
+      "gap_title": "Verbal Reflection for Attention Optimization",
+      "text": "EV006 suggests research on using verbal reflection as reinforcement learning, which could be applied to attention mechanism optimization. The Reflexion paper doesn't directly address attention mechanisms.",
+      "testable_hypothesis": "If verbal reflection techniques are applied to attention mechanisms, then they will achieve >12% reduction in attention computation time while maintaining model accuracy.",
+      "suggested_dataset": "breast_cancer",
+      "baseline_paper": null,
+      "keywords": [],
+      "evidence_ids": [
+        "EV006"
+      ],
+      "testable": true,
+      "difficulty": "medium",
+      "source": "llm"
+    },
+    {
+      "gap_id": "G05",
+      "gap_title": "Self-Refinement for Attention Efficiency",
+      "text": "EV007 demonstrates iterative refinement for LLM outputs, which could extend to attention mechanisms. The Self-Refine paper doesn't specifically address attention efficiency.",
+      "testable_hypothesis": "If self-refinement techniques are applied to attention mechanisms, then they will achieve >18% reduction in attention parameters while maintaining >90% performance on benchmark tasks.",
+      "suggested_dataset": "digits",
+      "baseline_paper": null,
+      "keywords": [],
+      "evidence_ids": [
+        "EV007"
+      ],
+      "testable": true,
+      "difficulty": "hard",
+      "source": "llm"
+    },
+    {
+      "gap_id": "G06",
+      "gap_title": "Attention Efficiency in Agent-Computer Interfaces",
+      "text": "EV010 shows agents require specialized interfaces, suggesting attention mechanisms may need adaptation for these contexts. The SWE-agent paper doesn't address attention efficiency in agent-computer interfaces.",
+      "testable_hypothesis": "If attention mechanisms are optimized for agent-computer interfaces, then they will achieve >25% reduction in interaction latency while maintaining >85% task completion rates.",
+      "suggested_dataset": "breast_cancer",
+      "baseline_paper": null,
+      "keywords": [],
+      "evidence_ids": [
+        "EV010"
+      ],
+      "testable": true,
+      "difficulty": "hard",
+      "source": "llm"
+    }
+  ],
+  "idea_tree": [
+    {
+      "idea_id": "I01",
+      "title": "Agentic Attention Pattern Discovery via Evolutionary Optimization",
+      "source_gap_id": "G01",
+      "scope": "method",
+      "pitch": "EV005 identifies a gap in research on agentic AI for discovering efficient attention mechanisms. We propose an agentic system that automatically discovers optimal attention patterns for classification tasks.",
+      "mechanism": "Implement a genetic algorithm where attention patterns are encoded as chromosomes, with fitness evaluated by ECE on breast_cancer dataset using sklearn's MLPClassifier with custom attention layers",
+      "testable_hypothesis": "If we use agentic evolutionary search to discover attention patterns (citing EV005 gap), then ECE will drop by 15% compared to standard attention mechanisms",
+      "metric": "ECE",
+      "has_clear_metric": true,
+      "experiment_sketch": null,
+      "novelty_claim": null,
+      "risk": "medium",
+      "required_dataset": "breast_cancer",
+      "baseline_to_beat": "entropy sampling",
+      "evidence_support": 1,
+      "local_feasibility": 1,
+      "novelty_risk": 0.065,
+      "base_score": 5.5,
+      "gap_validated": false,
+      "keywords": [
+        "agentic",
+        "attention",
+        "pattern",
+        "discovery",
+        "evolutionary",
+        "optimization"
+      ],
+      "status": "rejected",
+      "corpus_overlap_hash": "63dc914548",
+      "source": "llm",
+      "reviewer_average": 4.5,
+      "reviewer_decision": "reject",
+      "next_action": "RUN_ADDITIONAL_SEARCH"
+    },
+    {
+      "idea_id": "I02",
+      "title": "Verbal Reflection-Guided Attention Weight Optimization",
+      "source_gap_id": "G04",
+      "scope": "method",
+      "pitch": "EV006 demonstrates that language agents can improve through verbal reflection, which we extend to optimize attention mechanisms in neural networks.",
+      "mechanism": "Create a reflection loop where the model generates verbal explanations for attention decisions, then uses these explanations to adjust attention weights via reinforcement learning on digits dataset",
+      "testable_hypothesis": "If we apply verbal reflection to attention optimization (citing EV006), then Brier score will improve by 20% over baseline attention mechanisms",
+      "metric": "Brier score",
+      "has_clear_metric": true,
+      "experiment_sketch": null,
+      "novelty_claim": null,
+      "risk": "medium",
+      "required_dataset": "digits",
+      "baseline_to_beat": "uniform attention",
+      "evidence_support": 1,
+      "local_feasibility": 1,
+      "novelty_risk": 0.133,
+      "base_score": 5.5,
+      "gap_validated": false,
+      "keywords": [
+        "verbal",
+        "attention",
+        "reflection-guided",
+        "weight",
+        "optimization",
+        "ev006"
+      ],
+      "status": "rejected",
+      "corpus_overlap_hash": "3c68f6e741",
+      "source": "llm",
+      "reviewer_average": 3,
+      "reviewer_decision": "reject",
+      "next_action": "RUN_ADDITIONAL_SEARCH"
+    },
+    {
+      "idea_id": "I03",
+      "title": "Self-Refinement Loop for Attention Efficiency",
+      "source_gap_id": "G05",
+      "scope": "method",
+      "pitch": "EV007 shows iterative refinement improves LLM outputs, which we adapt to refine attention mechanisms for better efficiency.",
+      "mechanism": "Implement iterative refinement where attention weights are refined through multiple passes, each time using the model's own predictions to guide attention adjustments on breast_cancer dataset",
+      "testable_hypothesis": "If we apply self-refinement to attention mechanisms (citing EV007), then accuracy will increase by 12% while reducing computational cost by 30%",
+      "metric": "accuracy",
+      "has_clear_metric": true,
+      "experiment_sketch": null,
+      "novelty_claim": null,
+      "risk": "medium",
+      "required_dataset": "breast_cancer",
+      "baseline_to_beat": "single-pass attention",
+      "evidence_support": 1,
+      "local_feasibility": 1,
+      "novelty_risk": 0.08,
+      "base_score": 5.5,
+      "gap_validated": false,
+      "keywords": [
+        "attention",
+        "efficiency",
+        "self-refinement",
+        "loop",
+        "ev007",
+        "iterative"
+      ],
+      "status": "rejected",
+      "corpus_overlap_hash": "dc036e43dc",
+      "source": "llm",
+      "reviewer_average": 2.5,
+      "reviewer_decision": "reject",
+      "next_action": "RUN_ADDITIONAL_SEARCH"
+    },
+    {
+      "idea_id": "I04",
+      "title": "Context-Aware Attention for Embodied Classification",
+      "source_gap_id": "G02",
+      "scope": "method",
+      "pitch": "EV008 highlights research on using efficient attention in embodied agents, which we adapt for classification tasks requiring context awareness.",
+      "mechanism": "Develop context-aware attention that weights features based on their relevance to the current classification context, tested on digits dataset using sklearn's SVC with custom attention kernel",
+      "testable_hypothesis": "If we implement context-aware attention (citing EV008), then AUC will improve by 18% over standard attention mechanisms",
+      "metric": "AUC",
+      "has_clear_metric": true,
+      "experiment_sketch": null,
+      "novelty_claim": null,
+      "risk": "medium",
+      "required_dataset": "digits",
+      "baseline_to_beat": "global attention",
+      "evidence_support": 1,
+      "local_feasibility": 1,
+      "novelty_risk": 0.074,
+      "base_score": 5.5,
+      "gap_validated": false,
+      "keywords": [
+        "attention",
+        "embodied",
+        "classification",
+        "context-aware",
+        "ev008",
+        "highlights"
+      ],
+      "status": "shortlisted",
+      "corpus_overlap_hash": "abf461d66a",
+      "source": "llm",
+      "reviewer_average": 5.5,
+      "reviewer_decision": "reject",
+      "next_action": "RUN_ADDITIONAL_SEARCH"
+    },
+    {
+      "idea_id": "I05",
+      "title": "Automated Attention Mechanism Evaluation Framework",
+      "source_gap_id": "G03",
+      "scope": "method",
+      "pitch": "EV009 identifies a gap in frameworks for evaluating attention mechanisms, which we address with a standardized evaluation approach.",
+      "mechanism": "Create a comprehensive evaluation framework that measures attention efficiency through multiple metrics (ECE, Brier score, accuracy) on breast_cancer dataset using sklearn's ensemble methods",
+      "testable_hypothesis": "If we apply standardized evaluation framework (citing EV009), we can identify attention mechanisms that reduce ECE by 25% compared to unoptimized baselines",
+      "metric": "ECE",
+      "has_clear_metric": true,
+      "experiment_sketch": null,
+      "novelty_claim": null,
+      "risk": "medium",
+      "required_dataset": "breast_cancer",
+      "baseline_to_beat": "random attention",
+      "evidence_support": 1,
+      "local_feasibility": 1,
+      "novelty_risk": 0.071,
+      "base_score": 5.5,
+      "gap_validated": false,
+      "keywords": [
+        "attention",
+        "evaluation",
+        "automated",
+        "mechanism",
+        "framework",
+        "ev009"
+      ],
+      "status": "rejected",
+      "corpus_overlap_hash": "cc8e1f5831",
+      "source": "llm",
+      "reviewer_average": 2.5,
+      "reviewer_decision": "reject",
+      "next_action": "RUN_ADDITIONAL_SEARCH"
+    },
+    {
+      "idea_id": "I06",
+      "title": "Uncertainty-Aware Attention via MLE-bench Principles",
+      "source_gap_id": "G03",
+      "scope": "method",
+      "pitch": "EV004 provides evaluation frameworks for machine learning, which we adapt to create uncertainty-aware attention mechanisms.",
+      "mechanism": "Implement attention mechanisms that explicitly model uncertainty using probabilistic approaches, evaluated on digits dataset with sklearn's GaussianProcessClassifier",
+      "testable_hypothesis": "If we use uncertainty-aware attention (citing EV004 evaluation principles), then ECE will decrease by 30% while maintaining 95% of baseline accuracy",
+      "metric": "ECE",
+      "has_clear_metric": true,
+      "experiment_sketch": null,
+      "novelty_claim": null,
+      "risk": "medium",
+      "required_dataset": "digits",
+      "baseline_to_beat": "deterministic attention",
+      "evidence_support": 1,
+      "local_feasibility": 1,
+      "novelty_risk": 0.167,
+      "base_score": 5.5,
+      "gap_validated": false,
+      "keywords": [
+        "uncertainty-aware",
+        "attention",
+        "mle-bench",
+        "principles",
+        "ev004",
+        "provides"
+      ],
+      "status": "rejected",
+      "corpus_overlap_hash": "df6cff78bc",
+      "source": "llm",
+      "reviewer_average": 4,
+      "reviewer_decision": "reject",
+      "next_action": "RUN_ADDITIONAL_SEARCH"
+    }
+  ],
+  "reviewer_scores": [
+    {
+      "idea_id": "I01",
+      "average_score": 4.5,
+      "decision": "reject",
+      "next_action": "RUN_ADDITIONAL_SEARCH",
+      "fatal_flaws": [
+        "Hypothesis is incomplete and not clearly falsifiable",
+        "No computational requirements or evaluation metrics specified"
+      ],
+      "fixable_flaws": [
+        "Proposal lacks sufficient detail about methodology and expected contributions",
+        "No clear differentiation from general NAS approaches",
+        "Missing random seeds for reproducibility",
+        "No clear experimental design or statistical analysis plan",
+        "Insufficient baseline comparisons",
+        "No power analysis or sample size justification"
+      ],
+      "reviewers": [
+        {
+          "reviewer": "Novelty Reviewer",
+          "score": 7,
+          "fatal_flaws": [],
+          "fixable_flaws": [
+            "Proposal lacks sufficient detail about methodology and expected contributions",
+            "No clear differentiation from general NAS approaches"
+          ],
+          "decision": "revise",
+          "justification": "While the specific combination of agentic AI and attention mechanism discovery appears novel, the proposal needs more detail to demonstrate its unique contribution beyond existing NAS approaches."
+        },
+        {
+          "reviewer": "Experimental Reviewer",
+          "score": 2,
+          "fatal_flaws": [
+            "Hypothesis is incomplete and not clearly falsifiable",
+            "No computational requirements or evaluation metrics specified"
+          ],
+          "fixable_flaws": [
+            "Missing random seeds for reproducibility",
+            "No clear experimental design or statistical analysis plan",
+            "Insufficient baseline comparisons",
+            "No power analysis or sample size justification"
+          ],
+          "decision": "reject",
+          "justification": "The proposal lacks a complete falsifiable hypothesis, computational specifications, and rigorous experimental design necessary for reproducible research. Major revisions needed before consideration."
+        }
+      ]
+    },
+    {
+      "idea_id": "I02",
+      "average_score": 3,
+      "decision": "reject",
+      "next_action": "RUN_ADDITIONAL_SEARCH",
+      "fatal_flaws": [
+        "Application of verbal reflection to attention optimization lacks demonstrated novelty beyond EV006's general approach",
+        "No evidence provided that similar work combining verbal reflection with attention mechanisms doesn't exist",
+        "No mention of random seeds or reproducibility measures",
+        "Baseline only includes uniform attention, lacking comparison to standard attention mechanisms"
+      ],
+      "fixable_flaws": [
+        "No preliminary results or pilot studies provided",
+        "Compute requirements and feasibility analysis missing",
+        "No clear plan for evaluating attention optimization beyond Brier score"
+      ],
+      "reviewers": [
+        {
+          "reviewer": "Novelty Reviewer",
+          "score": 2,
+          "fatal_flaws": [
+            "Application of verbal reflection to attention optimization lacks demonstrated novelty beyond EV006's general approach",
+            "No evidence provided that similar work combining verbal reflection with attention mechanisms doesn't exist"
+          ],
+          "fixable_flaws": [],
+          "decision": "reject",
+          "justification": "The core idea of applying verbal reflection to optimize system performance has already been demonstrated in EV006, with no clear evidence that extending this specifically to attention optimization constitutes a novel contribution."
+        },
+        {
+          "reviewer": "Experimental Reviewer",
+          "score": 4,
+          "fatal_flaws": [
+            "No mention of random seeds or reproducibility measures",
+            "Baseline only includes uniform attention, lacking comparison to standard attention mechanisms"
+          ],
+          "fixable_flaws": [
+            "No preliminary results or pilot studies provided",
+            "Compute requirements and feasibility analysis missing",
+            "No clear plan for evaluating attention optimization beyond Brier score"
+          ],
+          "decision": "revise",
+          "justification": "The falsifiable hypothesis lacks reproducibility measures and comprehensive baselines; addressing these issues and providing preliminary results is essential before acceptance."
+        }
+      ]
+    },
+    {
+      "idea_id": "I03",
+      "average_score": 2.5,
+      "decision": "reject",
+      "next_action": "RUN_ADDITIONAL_SEARCH",
+      "fatal_flaws": [
+        "References non-existent EV007 as prior work",
+        "No evidence that attention mechanisms haven't been refined before",
+        "No specification of random seeds for reproducibility",
+        "No compute requirements or resource planning outlined",
+        "Hypothesis lacks specificity about accuracy metric and target task",
+        "Single-pass attention baseline may not be sufficient for fair comparison",
+        "No details on implementation methodology or evaluation protocol"
+      ],
+      "fixable_flaws": [
+        "Clarify hypothesis (increase by 1% or 1 point?)",
+        "Provide evidence that attention refinement is novel",
+        "Need to specify exact accuracy metric and measurement protocol",
+        "Should include multiple baselines for comprehensive comparison",
+        "Requires detailed experimental design and implementation plan"
+      ],
+      "reviewers": [
+        {
+          "reviewer": "Novelty Reviewer",
+          "score": 2,
+          "fatal_flaws": [
+            "References non-existent EV007 as prior work",
+            "No evidence that attention mechanisms haven't been refined before"
+          ],
+          "fixable_flaws": [
+            "Clarify hypothesis (increase by 1% or 1 point?)",
+            "Provide evidence that attention refinement is novel"
+          ],
+          "decision": "reject",
+          "justification": "Proposal references non-existent EV007 and fails to demonstrate novelty of applying self-refinement to attention mechanisms."
+        },
+        {
+          "reviewer": "Experimental Reviewer",
+          "score": 3,
+          "fatal_flaws": [
+            "No specification of random seeds for reproducibility",
+            "No compute requirements or resource planning outlined",
+            "Hypothesis lacks specificity about accuracy metric and target task",
+            "Single-pass attention baseline may not be sufficient for fair comparison",
+            "No details on implementation methodology or evaluation protocol"
+          ],
+          "fixable_flaws": [
+            "Need to specify exact accuracy metric and measurement protocol",
+            "Should include multiple baselines for comprehensive comparison",
+            "Requires detailed experimental design and implementation plan"
+          ],
+          "decision": "reject",
+          "justification": "The proposal lacks essential experimental details including seeds, compute requirements, and specific accuracy metrics. The hypothesis is too narrow and the baseline insufficient for a rigorous evaluation."
+        }
+      ]
+    },
+    {
+      "idea_id": "I04",
+      "average_score": 5.5,
+      "decision": "reject",
+      "next_action": "RUN_ADDITIONAL_SEARCH",
+      "fatal_flaws": [
+        "Missing seeds for reproducibility",
+        "No compute information provided",
+        "Incomplete baseline description"
+      ],
+      "fixable_flaws": [
+        "Missing key reference EV008 for context-aware attention",
+        "Dataset specification unclear (which digits dataset?)",
+        "No statistical significance testing mentioned",
+        "Missing hyperparameter tuning details",
+        "No evaluation protocol specified"
+      ],
+      "reviewers": [
+        {
+          "reviewer": "Novelty Reviewer",
+          "score": 7,
+          "fatal_flaws": [],
+          "fixable_flaws": [
+            "Missing key reference EV008 for context-aware attention"
+          ],
+          "decision": "revise",
+          "justification": "Appears novel but requires EV008 citation to fully assess novelty. The adaptation of efficient attention for classification tasks shows potential."
+        },
+        {
+          "reviewer": "Experimental Reviewer",
+          "score": 4,
+          "fatal_flaws": [
+            "Missing seeds for reproducibility",
+            "No compute information provided",
+            "Incomplete baseline description"
+          ],
+          "fixable_flaws": [
+            "Dataset specification unclear (which digits dataset?)",
+            "No statistical significance testing mentioned",
+            "Missing hyperparameter tuning details",
+            "No evaluation protocol specified"
+          ],
+          "decision": "revise",
+          "justification": "The hypothesis is falsifiable but lacks critical methodological details including seeds, compute requirements, and proper baseline comparisons. The approach shows promise but needs significant methodological improvements before evaluation."
+        }
+      ]
+    },
+    {
+      "idea_id": "I05",
+      "average_score": 2.5,
+      "decision": "reject",
+      "next_action": "RUN_ADDITIONAL_SEARCH",
+      "fatal_flaws": [
+        "Potential overlap with EV004's standardized ML benchmark framework",
+        "Lack of clarity on specific gap in EV009 that this addresses uniquely",
+        "Incomplete hypothesis that cannot be falsified",
+        "No reproducibility measures (seeds, compute details)"
+      ],
+      "fixable_flaws": [
+        "Provide more details on how this differs from EV004",
+        "Clearly articulate the unique gap in EV009 that this addresses",
+        "Weak baseline (random attention) needs stronger comparisons",
+        "Unclear novelty beyond existing benchmarks like MLE-bench"
+      ],
+      "reviewers": [
+        {
+          "reviewer": "Novelty Reviewer",
+          "score": 3,
+          "fatal_flaws": [
+            "Potential overlap with EV004's standardized ML benchmark framework",
+            "Lack of clarity on specific gap in EV009 that this addresses uniquely"
+          ],
+          "fixable_flaws": [
+            "Provide more details on how this differs from EV004",
+            "Clearly articulate the unique gap in EV009 that this addresses"
+          ],
+          "decision": "reject",
+          "justification": "The framework may not be novel given EV004's existing standardized ML benchmark."
+        },
+        {
+          "reviewer": "Experimental Reviewer",
+          "score": 2,
+          "fatal_flaws": [
+            "Incomplete hypothesis that cannot be falsified",
+            "No reproducibility measures (seeds, compute details)"
+          ],
+          "fixable_flaws": [
+            "Weak baseline (random attention) needs stronger comparisons",
+            "Unclear novelty beyond existing benchmarks like MLE-bench"
+          ],
+          "decision": "reject",
+          "justification": "The paper lacks a falsifiable hypothesis, proper baselines, and reproducibility measures. The incomplete hypothesis and absence of results make it impossible to evaluate the contribution's validity."
+        }
+      ]
+    },
+    {
+      "idea_id": "I06",
+      "average_score": 4,
+      "decision": "reject",
+      "next_action": "RUN_ADDITIONAL_SEARCH",
+      "fatal_flaws": [
+        "Uncertainty-aware attention mechanisms have been extensively explored in existing literature, though not specifically using MLE-bench principles",
+        "The adaptation of MLE-bench evaluation frameworks for attention mechanisms appears incremental rather than groundbreaking",
+        "No random seeds are mentioned, making the experimental results non-reproducible and unreliable."
+      ],
+      "fixable_flaws": [
+        "Provide more detailed comparison with existing uncertainty-aware attention methods to highlight novel contributions",
+        "Clarify how this approach differs fundamentally from prior uncertainty-aware attention work beyond just the evaluation framework adaptation",
+        "The baseline is too narrow; consider adding other uncertainty estimation methods for a more complete comparison.",
+        "The 'digits' dataset is simple; demonstrating the method on a more complex benchmark would strengthen the claim.",
+        "The hypothesis contains a typo ('ECE will decrease b')."
+      ],
+      "reviewers": [
+        {
+          "reviewer": "Novelty Reviewer",
+          "score": 6,
+          "fatal_flaws": [
+            "Uncertainty-aware attention mechanisms have been extensively explored in existing literature, though not specifically using MLE-bench principles",
+            "The adaptation of MLE-bench evaluation frameworks for attention mechanisms appears incremental rather than groundbreaking"
+          ],
+          "fixable_flaws": [
+            "Provide more detailed comparison with existing uncertainty-aware attention methods to highlight novel contributions",
+            "Clarify how this approach differs fundamentally from prior uncertainty-aware attention work beyond just the evaluation framework adaptation"
+          ],
+          "decision": "reject",
+          "justification": "While uncertainty-aware attention exists, this work doesn't sufficiently demonstrate novelty in the core mechanism beyond adapting existing evaluation frameworks."
+        },
+        {
+          "reviewer": "Experimental Reviewer",
+          "score": 2,
+          "fatal_flaws": [
+            "No random seeds are mentioned, making the experimental results non-reproducible and unreliable."
+          ],
+          "fixable_flaws": [
+            "The baseline is too narrow; consider adding other uncertainty estimation methods for a more complete comparison.",
+            "The 'digits' dataset is simple; demonstrating the method on a more complex benchmark would strengthen the claim.",
+            "The hypothesis contains a typo ('ECE will decrease b')."
+          ],
+          "decision": "reject",
+          "justification": "The experimental design is fundamentally flawed due to the omission of random seeds, rendering any results non-reproducible. The baseline is also too narrow and the simple dataset limits the generalizability of the findings."
+        }
+      ]
+    }
+  ],
+  "experiment_candidates": [
+    {
+      "idea_id": "I04",
+      "title": "Context-Aware Attention for Embodied Classification",
+      "level": "micro",
+      "status": "planned_forced",
+      "metric": "AUC",
+      "micro_probe_improvement": null,
+      "micro_probe_dataset": null,
+      "baseline": "to_be_determined"
+    }
+  ],
+  "approval_status": {
+    "approved": true,
+    "approved_at": "2026-06-07T09:04:48.753Z",
+    "approved_by": "daemon_auto",
+    "idea_id": "I04",
+    "level": "micro_probe"
+  },
+  "micro_probe_results": [
+    {
+      "experiment_id": "micro_probe_i04",
+      "idea_id": "I04",
+      "idea_title": "Context-Aware Attention for Embodied Classification",
+      "level": "micro",
+      "metrics": {
+        "success": false
+      },
+      "decision": "FIX_BUG_AND_RERUN",
+      "success": false,
+      "status": "failed",
+      "exit_code": 1,
+      "completed_at": "2026-06-07T09:07:57.309Z",
+      "metrics_path": "/Users/mohanganesh/OpenClaw-Lab/openresearchos/runs/run_20260607080619_efficient-attention-mechanisms_f47d54/experiments/micro_probe_i04/metrics.json",
+      "result_summary_path": "/Users/mohanganesh/OpenClaw-Lab/openresearchos/runs/run_20260607080619_efficient-attention-mechanisms_f47d54/experiments/micro_probe_i04/result_summary.md",
+      "review_path": "/Users/mohanganesh/OpenClaw-Lab/openresearchos/runs/run_20260607080619_efficient-attention-mechanisms_f47d54/experiments/micro_probe_i04/review_after_run.md",
+      "next_action": "FIX_BUG_AND_RERUN"
+    }
+  ],
+  "probe_results": [],
+  "ablation_results": [],
+  "mvp_results": [],
+  "failed_ideas": [
+    {
+      "idea_id": "I01",
+      "title": "Agentic Attention Pattern Discovery via Evolutionary Optimization",
+      "reason": "Reviewer Council rejected the idea."
+    },
+    {
+      "idea_id": "I02",
+      "title": "Verbal Reflection-Guided Attention Weight Optimization",
+      "reason": "Reviewer Council rejected the idea."
+    },
+    {
+      "idea_id": "I03",
+      "title": "Self-Refinement Loop for Attention Efficiency",
+      "reason": "Reviewer Council rejected the idea."
+    },
+    {
+      "idea_id": "I04",
+      "title": "Context-Aware Attention for Embodied Classification",
+      "reason": "Reviewer Council rejected the idea."
+    },
+    {
+      "idea_id": "I05",
+      "title": "Automated Attention Mechanism Evaluation Framework",
+      "reason": "Reviewer Council rejected the idea."
+    },
+    {
+      "idea_id": "I06",
+      "title": "Uncertainty-Aware Attention via MLE-bench Principles",
+      "reason": "Reviewer Council rejected the idea."
+    }
+  ],
+  "validation_results": [],
+  "paper_readiness_level": "RRL-2",
+  "final_output_path": "/Users/mohanganesh/OpenClaw-Lab/openresearchos/runs/run_20260607080619_efficient-attention-mechanisms_f47d54/research_failure_report.md",
+  "history": [
+    {
+      "at": "2026-06-07T08:06:52.801Z",
+      "state": "TOPIC_SCOPED",
+      "detail": "The topic can be explored with small simulations, synthetic data, or lightweight local experiments on the Mac."
+    },
+    {
+      "at": "2026-06-07T08:06:52.801Z",
+      "state": "SEARCH_PLAN_CREATED",
+      "detail": "15 queries created (LLM-generated)."
+    },
+    {
+      "at": "2026-06-07T08:06:59.456Z",
+      "state": "LITERATURE_DISCOVERY_RUNNING",
+      "detail": "Starting structured literature discovery."
+    },
+    {
+      "at": "2026-06-07T08:09:31.074Z",
+      "state": "EVIDENCE_LOCKED",
+      "detail": "59 papers found (target was 50+)."
+    },
+    {
+      "at": "2026-06-07T08:54:32.142Z",
+      "state": "RESEARCH_MAP_READY",
+      "detail": "Research map generated."
+    },
+    {
+      "at": "2026-06-07T08:54:32.429Z",
+      "state": "GAPS_IDENTIFIED",
+      "detail": "6 gaps identified."
+    },
+    {
+      "at": "2026-06-07T08:56:03.920Z",
+      "state": "IDEA_TREE_GENERATED",
+      "detail": "Generating grounded ideas from method comparison matrix."
+    },
+    {
+      "at": "2026-06-07T08:58:33.590Z",
+      "state": "REVIEWER_PASS_1_RUNNING",
+      "detail": "Budgeted reviewer council started."
+    },
+    {
+      "at": "2026-06-07T09:03:43.269Z",
+      "state": "IDEAS_REVISED_OR_REJECTED",
+      "detail": "6 ideas rejected; 1 candidates retained."
+    },
+    {
+      "at": "2026-06-07T09:03:43.269Z",
+      "state": "NOVELTY_TRIBUNAL_RUNNING",
+      "detail": "Near-duplicate comparison completed against evidence index and Semantic Scholar."
+    },
+    {
+      "at": "2026-06-07T09:03:43.269Z",
+      "state": "IDEAS_SHORTLISTED",
+      "detail": "1 ideas available for experiment planning (validated by real micro-probes)."
+    },
+    {
+      "at": "2026-06-07T09:03:43.269Z",
+      "state": "MICRO_PROBE_REVIEWED",
+      "detail": "0 ideas tested on Mac terminal. 0 show real signal."
+    },
+    {
+      "at": "2026-06-07T09:07:59.477Z",
+      "state": "MICRO_PROBE_REVIEWED",
+      "detail": "1 experiments run. 0 passed."
+    },
+    {
+      "at": "2026-06-07T09:08:33.608Z",
+      "state": "PAPER_READINESS_REVIEW",
+      "detail": "research_failure_report_required"
+    },
+    {
+      "at": "2026-06-07T09:08:33.613Z",
+      "state": "PAPER_DRAFTED_OR_STOPPED",
+      "detail": "Failure report produced."
+    },
+    {
+      "at": "2026-06-07T09:08:33.613Z",
+      "state": "VENUE_FIT_DONE",
+      "detail": "Venue fit written."
+    },
+    {
+      "at": "2026-06-07T09:08:33.613Z",
+      "state": "TRACE_EXPORTED",
+      "detail": "Trace export command written."
+    }
+  ],
+  "discovery_errors": [],
+  "experiment_results": [
+    {
+      "experiment_id": "micro_probe_i04",
+      "idea_id": "I04",
+      "idea_title": "Context-Aware Attention for Embodied Classification",
+      "level": "micro",
+      "metrics": {
+        "success": false
+      },
+      "decision": "FIX_BUG_AND_RERUN",
+      "success": false,
+      "status": "failed",
+      "exit_code": 1,
+      "completed_at": "2026-06-07T09:07:57.309Z",
+      "metrics_path": "/Users/mohanganesh/OpenClaw-Lab/openresearchos/runs/run_20260607080619_efficient-attention-mechanisms_f47d54/experiments/micro_probe_i04/metrics.json",
+      "result_summary_path": "/Users/mohanganesh/OpenClaw-Lab/openresearchos/runs/run_20260607080619_efficient-attention-mechanisms_f47d54/experiments/micro_probe_i04/result_summary.md",
+      "review_path": "/Users/mohanganesh/OpenClaw-Lab/openresearchos/runs/run_20260607080619_efficient-attention-mechanisms_f47d54/experiments/micro_probe_i04/review_after_run.md",
+      "next_action": "FIX_BUG_AND_RERUN"
+    }
+  ]
+}

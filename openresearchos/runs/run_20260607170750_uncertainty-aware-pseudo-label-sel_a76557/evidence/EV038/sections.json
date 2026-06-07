@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\nIN PREPARATION FOR SUBMITTING TO IEEE TRANSACTIONS ON NEURAL NETWORKS AND LEARNING SYSTEMS\n1\nUncertainty-Aware Distillation for Semi-Supervised\nFew-Shot Class-Incremental Learning\nYawe",
+  "method": "ession n\nExemplar set\nClass-balanced \nself-training\nLabeled dataset\nUnlabeled dataset\nLabeled dataset\nUnlabeled dataset\nUaD\nUaD\nUncertainty-aware Distillation \n(UaD) \nSession i\nExemplar \nset\nUncertain",
+  "results": "to\nbase categories, we present the accuracy of base and novel\ncategories respectively, and compare them with the state of\narts. It is worth noting that the evaluation process for each\ndataset was repe",
+  "conclusion": "PLES INCORPORATED INTO EACH INCREMENTAL SESSION. Prop (%) REFERS TO THE PROPORTION OF\nTHE NUMBER OF LABELED SAMPLES TO THE NUMBER OF ALL SAMPLES.\nDataset\n#Unlabeled\nProp (%)\nSession ID\n1\n2\n3\n4\n5\n6\n7\n8"
+}

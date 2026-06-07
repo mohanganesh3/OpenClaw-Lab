@@ -1,0 +1,161 @@
+{
+  "problem_addressed": "Metastasis is the leading cause of cancer-related mortality, yet most predictive models focus on single cancer types and overlook patient-specific regulatory networks, particularly problematic for resource-limited settings.",
+  "core_claim": "Expression-based ML models can serve as cost-efficient screening tools in resource-limited contexts, while personalized gene regulatory networks analyzed with graph neural networks can capture patient-specific regulatory patterns for metastasis prediction.",
+  "key_contributions": [
+    "Evaluation of expression-based ML models for pancancer metastasis prediction with feasibility assessment for resource-limited settings",
+    "Construction of personalized gene regulatory networks and application of graph neural networks to capture patient-level regulatory patterns"
+  ],
+  "novelty": "Integration of machine learning with personalized gene regulatory networks using graph neural networks to capture patient-specific regulatory patterns for metastasis prediction, enabling both cost-efficient screening and precision analysis.",
+  "method_summary": "Gene expression data from Cancer Cell Line Encyclopedia was used with differential genes selected via Kruskal-Wallis test. ML models (ElasticNet, Random Forest, XGBoost) were trained on top-ranked genes, while personalized networks were generated with PANDA and LIONESS and analyzed using GATv2 with topological and expression features.",
+  "method_components": [
+    "Machine learning models (ElasticNet, Random Forest, XGBoost) trained on gene expression data",
+    "Personalized gene regulatory networks generated with PANDA and LIONESS",
+    "Graph neural network (GATv2) analysis of the personalized networks"
+  ],
+  "key_innovation": "The integration of ML-based benchmarking with patient-level network analysis to guide resource allocation in different healthcare settings while supporting precision cancer care.",
+  "assumptions": [
+    "Gene expression data from Cancer Cell Line Encyclopedia is representative for pancancer metastasis prediction",
+    "The nine metastasis-associated transcription factors from DoRothEA provide sufficient prior knowledge",
+    "The topological features of gene regulatory networks carry meaningful signals for metastasis"
+  ],
+  "theoretical_grounding": "Uses established methods: PANDA algorithm with responsibility and availability scores for network inference, LIONESS for sample-specific network reconstruction, and GATv2 for graph neural network analysis, evaluated with AUROC and MCC metrics.",
+  "datasets_used": [
+    "CCLE gene expression data"
+  ],
+  "baselines_compared": [
+    "Traditional ML models",
+    "GNN models (GATv2)"
+  ],
+  "metrics_used": [
+    "AUROC",
+    "MCC"
+  ],
+  "hyperparameters": "null",
+  "compute_required": "null",
+  "seeds": "5 random seeds for sensitivity analysis",
+  "headline_result": "XGBoost with top 1000 genes achieved AUROC of 0.7051",
+  "results_table": [
+    {
+      "method": "GNN top100 balanced",
+      "dataset": "CCLE",
+      "metric": "AUROC",
+      "value": "0.6423"
+    },
+    {
+      "method": "GNN top100 balanced",
+      "dataset": "CCLE",
+      "metric": "MCC",
+      "value": "0.2254"
+    },
+    {
+      "method": "GNN top200 balanced",
+      "dataset": "CCLE",
+      "metric": "AUROC",
+      "value": "0.6196"
+    },
+    {
+      "method": "GNN top200 balanced",
+      "dataset": "CCLE",
+      "metric": "MCC",
+      "value": "0.1651"
+    },
+    {
+      "method": "GNN top500 balanced",
+      "dataset": "CCLE",
+      "metric": "AUROC",
+      "value": "0.6460"
+    },
+    {
+      "method": "GNN top500 balanced",
+      "dataset": "CCLE",
+      "metric": "MCC",
+      "value": "0.1974"
+    },
+    {
+      "method": "GNN top1000 balanced",
+      "dataset": "CCLE",
+      "metric": "AUROC",
+      "value": "0.6367"
+    },
+    {
+      "method": "GNN top1000 balanced",
+      "dataset": "CCLE",
+      "metric": "MCC",
+      "value": "0.2108"
+    },
+    {
+      "method": "XGBoost top1000",
+      "dataset": "CCLE",
+      "metric": "AUROC",
+      "value": "0.7051"
+    }
+  ],
+  "ablations": [
+    "Feature set size (100, 200, 500, 1000 genes)",
+    "Model architecture (GNN vs traditional ML)"
+  ],
+  "improvement_over_baseline": "null",
+  "stated_limitations": [
+    "Most predictive models focus on single cancer types and overlook patient-specific regulatory networks"
+  ],
+  "unstated_weaknesses": [
+    "Uses only cell line data which may not generalize to primary tumors",
+    "Restricts to only 9 metastasis-associated transcription factors",
+    "Abstract is incomplete, limiting full assessment"
+  ],
+  "threats_to_validity": [
+    "Cell line data may not represent patient tumor biology",
+    "Limited transcription factor selection may miss important regulatory relationships",
+    "No mention of external validation or cross-validation"
+  ],
+  "reproducibility": "medium",
+  "open_questions": [
+    "How well do personalized networks perform compared to standard models?",
+    "Can the approach scale to more comprehensive regulatory networks?",
+    "How does this method perform across different cancer types and stages?"
+  ],
+  "future_work": [
+    "Expand the transcription factor network beyond 9 factors",
+    "Apply the approach to other cancer phenotypes",
+    "Integrate multi-omics data for more comprehensive predictions"
+  ],
+  "gaps_this_enables": [
+    "More personalized cancer treatment approaches",
+    "Integration of multi-omics data in cancer prediction",
+    "More efficient attention mechanisms for biological networks"
+  ],
+  "relevance_to_topic": "Uses graph neural networks for gene regulatory networks which could involve attention mechanisms, but doesn't specifically focus on efficient attention mechanisms",
+  "relation_type": "tangential",
+  "can_run_on_macbook": true,
+  "reusable_assets": [
+    "Cancer Cell Line Encyclopedia dataset",
+    "DoRothEA transcription factor-target prior",
+    "Machine learning models (ElasticNet, Random Forest, XGBoost)",
+    "Graph neural network approach"
+  ],
+  "code_available": false,
+  "code_url": null,
+  "best_result": "XGBoost with top 1000 genes achieved AUROC of 0.7051",
+  "key_results": {
+    "CCLE_AUROC": "0.6460",
+    "CCLE_MCC": "0.1974"
+  },
+  "limitations_stated": [
+    "Most predictive models focus on single cancer types and overlook patient-specific regulatory networks"
+  ],
+  "evidence_id": "EV014",
+  "title": "Genotype-Phenotype Integration through Machine Learning and Personalized Gene Regulatory Networks for Cancer Metastasis Prediction",
+  "year": 2025,
+  "arxiv_id": "2510.23620",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 50524,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 40,
+  "pdf_tables": 0,
+  "pdf_captions": 26
+}

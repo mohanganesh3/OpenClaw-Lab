@@ -1,0 +1,657 @@
+{
+  "claims": [
+    {
+      "claim_id": "CL001",
+      "evidence_id": "EV001",
+      "text": "The AI Scientist framework enables fully automated scientific discovery where LLMs can independently perform the entire research process from idea generation to paper writing and evaluation.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL002",
+      "evidence_id": "EV002",
+      "text": "The AI Scientist-v2 is capable of producing the first entirely AI-generated peer-review-accepted workshop paper through autonomous scientific discovery.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "SCAN",
+        "COGS",
+        "IWSLT",
+        "GeoQuery"
+      ],
+      "best_result": "null"
+    },
+    {
+      "claim_id": "CL003",
+      "evidence_id": "EV003",
+      "text": "Agent Laboratory can accelerate scientific discovery by reducing research costs and improving quality through an autonomous LLM-based framework that completes the entire research process.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL004",
+      "evidence_id": "EV004",
+      "text": "MLE-bench provides a comprehensive framework for evaluating ML agents on ML engineering tasks, demonstrated through a scalar coupling prediction competition.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "train.csv",
+        "test.csv",
+        "structures.zip",
+        "structures.csv",
+        "dipole_moments.csv",
+        "magnetic_shielding_tensors.csv",
+        "mulliken_charges.csv",
+        "potential_energy.csv",
+        "scalar_coupling_contributions.csv"
+      ],
+      "best_result": "o1-preview achieved 34.3% medals in low complexity competitions"
+    },
+    {
+      "claim_id": "CL005",
+      "evidence_id": "EV005",
+      "text": "AIBuildAI-2, a knowledge-enhanced agent with an external, evolving knowledge system, significantly improves AI model development capabilities to match expert human practitioners.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL006",
+      "evidence_id": "EV006",
+      "text": "Reflexion achieves significant performance improvements in language agents by using verbal reinforcement learning through self-reflection and episodic memory rather than weight updates.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "HumanEval Python",
+        "HotPotQA (100 samples)"
+      ],
+      "best_result": "0.80 Pass@1 accuracy on HotPotQA using CoT (GT) with gpt-4"
+    },
+    {
+      "claim_id": "CL007",
+      "evidence_id": "EV007",
+      "text": "SELF-REFINE can improve LLM outputs through iterative self-feedback without requiring supervised training data, additional training, or reinforcement learning.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "CommonGen-Hard (extension of CommonGen)",
+        "Acronym Generation (250 acronyms)",
+        "CodeNet competitive programming (300 examples)",
+        "Human annotator subset (60 examples)"
+      ],
+      "best_result": "GPT-4 Acronym Generation: 56.4% (SELF-REFINE) vs 41.6% (Base)"
+    },
+    {
+      "claim_id": "CL008",
+      "evidence_id": "EV008",
+      "text": "VOYAGER is the first LLM-powered embodied lifelong learning agent that can continuously explore the world, acquire diverse skills, and make novel discoveries without human intervention in Minecraft.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "Minecraft environment"
+      ],
+      "best_result": "Not provided in the given excerpt"
+    },
+    {
+      "claim_id": "CL009",
+      "evidence_id": "EV009",
+      "text": "While top commercial LLMs show strong agent capabilities, significant performance gaps exist with open-source models, primarily due to poor long-term reasoning, decision-making, and instruction following abilities.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "FREEBASE-based dataset with 1,663 questions from GrailQA, ComplexWebQuestions, and GraphQuestions",
+        "Text-to-SQL dataset with INSERT, UPDATE, and SELECT operations"
+      ],
+      "best_result": "null"
+    },
+    {
+      "claim_id": "CL010",
+      "evidence_id": "EV010",
+      "text": "LM agents significantly benefit from specially-designed interfaces like SWE-agent's agent-computer interface (ACI) for software engineering tasks.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "SWE-bench Lite dataset",
+        "SWE-bench test set (286 trajectories)",
+        "SWE-bench Lite split (35 trajectories)"
+      ],
+      "best_result": "Not explicitly stated in provided text"
+    },
+    {
+      "claim_id": "CL011",
+      "evidence_id": "EV011",
+      "text": "This study proposes a novel framework that integrates Vision Transformers (ViT) with Monte Carlo (MC) Dropout for uncertainty-aware pneumonia detection.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL012",
+      "evidence_id": "EV012",
+      "text": "This study proposes an AI hydrologic nowcasting framework that couples HEC-HMS process states with graph neural networks (GNNs) defined on a directed river–subbasin topology.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL013",
+      "evidence_id": "EV013",
+      "text": "GroVE achieves state-of-the-art uncertainty calibration by learning probabilistic embeddings from frozen VLMs using Gaussian Process Latent Variable Models without requiring VLM retraining.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "COCO",
+        "CUB"
+      ],
+      "best_result": "KL-Divergence achieves 0.79±0.02 for Image to Text on COCO"
+    },
+    {
+      "claim_id": "CL014",
+      "evidence_id": "EV014",
+      "text": "The study proposes CTypiClust, a budget-agnostic active learning method that dynamically switches between typical data sampling and low-confidence data sampling based on model confidence.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL015",
+      "evidence_id": "EV015",
+      "text": "This paper presents a systematic diagnostic study of the CAL-Log heuristic's performance boundaries across diverse text classification tasks.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL016",
+      "evidence_id": "EV016",
+      "text": "In this study, we developed a leakage-aware prioritization workflow for two cancer-relevant targets, pyruvate kinase M2 (PKM2) and mitogen-activated protein kinase 1 (MAPK1/ERK2), using the LIT-PCBA benchmark.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL017",
+      "evidence_id": "EV017",
+      "text": "This meta-analysis provides a comprehensive view of the opportunities and challenges posed by the integration of large language models into programming.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL018",
+      "evidence_id": "EV018",
+      "text": "Refractory multi-principal element alloys (RMPEAs) represent a novel class of alloys characterized by an extensive compositional design space and the potential for exceptional mechanical performance u",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "70,000 compositions from Ti-Fe-Al-V-Ni-Nb-Zr-Mn-Co design space, labeled with phase fractions at 7 temperatures using CALPHAD"
+      ],
+      "best_result": "Laves phase R² of 0.99 on 70,000 composition dataset"
+    },
+    {
+      "claim_id": "CL019",
+      "evidence_id": "EV019",
+      "text": "We hypothesize that calibrating the uncertainty quantification within MEPE will improve active learning performance.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL020",
+      "evidence_id": "EV020",
+      "text": "We propose a novel evidential uncertainty framework that effectively quantifies both aleatoric and epistemic uncertainty in hybrid rainfall simulation models.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL021",
+      "evidence_id": "EV021",
+      "text": "This paper presents a hybrid Bayesian neural network that robustly characterizes colorectal polyps from medical images.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL022",
+      "evidence_id": "EV022",
+      "text": "This paper reviews recent advances in the quantification of laser-induced breakdown spectroscopy.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL023",
+      "evidence_id": "EV023",
+      "text": "Leveraging quantum non-determinism through variational quantum circuits can generate more nuanced, human-like uncertainty representations in labels, improving robustness and calibration in image classification.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "MNIST",
+        "Fashion-MNIST"
+      ],
+      "best_result": "M3 achieves 97.87% accuracy under Gaussian noise (Std=0.1)"
+    },
+    {
+      "claim_id": "CL024",
+      "evidence_id": "EV024",
+      "text": "The ultimate understanding of the detector efficiency and resolution demands large quantities of high quality simulations.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL025",
+      "evidence_id": "EV025",
+      "text": "A calibrated version of focal loss is proposed to address the class imbalance problem in high-resolution remote sensing image semantic labeling.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL026",
+      "evidence_id": "EV026",
+      "text": "Paper about class, uncertainty, inversion, detection (abstract-only, no PDF read).",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL027",
+      "evidence_id": "EV027",
+      "text": "Paper about dynamics, diffusion, image, models (abstract-only, no PDF read).",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL028",
+      "evidence_id": "EV028",
+      "text": "Paper about speed, train-borne, calibration, simulated (abstract-only, no PDF read).",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL029",
+      "evidence_id": "EV029",
+      "text": "Paper about dropout, uncertainty, missing, temporal (abstract-only, no PDF read).",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL030",
+      "evidence_id": "EV030",
+      "text": "Paper about ranking, task-specific, sparse, rank (abstract-only, no PDF read).",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL031",
+      "evidence_id": "EV031",
+      "text": "Paper about physics-informed, neural, networks, parameter (abstract-only, no PDF read).",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL032",
+      "evidence_id": "EV032",
+      "text": "Paper about uncertainty, training, multi-view, estimation (abstract-only, no PDF read).",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL033",
+      "evidence_id": "EV033",
+      "text": "Paper about calibration, simulated, instrument, radar (abstract-only, no PDF read).",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL034",
+      "evidence_id": "EV034",
+      "text": "Paper about unexpected, faults, bayesian, high-speed (abstract-only, no PDF read).",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL035",
+      "evidence_id": "EV035",
+      "text": "Paper about solution, history, results, model (abstract-only, no PDF read).",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL036",
+      "evidence_id": "EV036",
+      "text": "Paper about self-supervised, gaussian, regularization, deep (abstract-only, no PDF read).",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL037",
+      "evidence_id": "EV037",
+      "text": "Paper about uncertainty, geothermal, reservoir, data (abstract-only, no PDF read).",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL038",
+      "evidence_id": "EV038",
+      "text": "Paper about detection, temperature, distribution, anchoring (abstract-only, no PDF read).",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL039",
+      "evidence_id": "EV039",
+      "text": "Paper about calibration, under, covariate, shift (abstract-only, no PDF read).",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL040",
+      "evidence_id": "EV040",
+      "text": "Paper about temperature, estimated, uncertainty, fiber (abstract-only, no PDF read).",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL041",
+      "evidence_id": "EV041",
+      "text": "Paper about soil, sensor, moisture, real (abstract-only, no PDF read).",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL042",
+      "evidence_id": "EV042",
+      "text": "Paper about learning, exact, posteriors, shift (abstract-only, no PDF read).",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL043",
+      "evidence_id": "EV043",
+      "text": "Paper about frequency, startup, calibration, fast (abstract-only, no PDF read).",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL044",
+      "evidence_id": "EV044",
+      "text": "Paper about benchmarking, clinical, reasoning, large (abstract-only, no PDF read).",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL045",
+      "evidence_id": "EV045",
+      "text": "Paper about adaptation, model, systems, digital (abstract-only, no PDF read).",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL046",
+      "evidence_id": "EV046",
+      "text": "Paper about uncertainty, calibration, neural, models (abstract-only, no PDF read).",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL047",
+      "evidence_id": "EV047",
+      "text": "Paper about human, intent, risk, human-robot (abstract-only, no PDF read).",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    }
+  ],
+  "links": [
+    {
+      "from": "EV001",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: Integration of all research components into a single automated pipeline that can iteratively develop ideas and add them to a growing knowledge archive, mimicking the human scientific community."
+    },
+    {
+      "from": "EV002",
+      "relation": "suggests_gap",
+      "to": "Potential framework for automating hypothesis generation in calibration-aware active learning"
+    },
+    {
+      "from": "EV003",
+      "relation": "suggests_gap",
+      "to": "Automated research assistance using LLMs"
+    },
+    {
+      "from": "EV004",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: The Log-MAE metric that provides equal weight to improvements across different scalar coupling types, with a floor of '1e-9' for MAE and theoretical minimum score of approximately -20.7232 for perfect predictions."
+    },
+    {
+      "from": "EV005",
+      "relation": "suggests_gap",
+      "to": "Integrating calibration techniques into agent-based model building"
+    },
+    {
+      "from": "EV006",
+      "relation": "suggests_gap",
+      "to": "A new approach to active learning that leverages self-reflection"
+    },
+    {
+      "from": "EV007",
+      "relation": "suggests_gap",
+      "to": "Self-refinement techniques for tabular data"
+    },
+    {
+      "from": "EV008",
+      "relation": "suggests_gap",
+      "to": "Methods for lifelong learning in non-embodied domains"
+    },
+    {
+      "from": "EV009",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: Multi-environment design capturing diverse agent capabilities (reasoning, decision-making, instruction following) beyond traditional benchmarks, revealing critical failure modes in LLM agents."
+    },
+    {
+      "from": "EV010",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: The agent-computer interface (ACI) designed with LM-friendly commands and feedback formats that align with LM agents' capabilities."
+    },
+    {
+      "from": "EV011",
+      "relation": "suggests_gap",
+      "to": "The abstract does not specify how the uncertainty estimates are used within the active learning loop to select new data for annotation."
+    },
+    {
+      "from": "EV012",
+      "relation": "suggests_gap",
+      "to": "The study focuses on short-term nowcasting and does not explore the application of this hybrid framework for longer-term hydrologic forecasting."
+    },
+    {
+      "from": "EV013",
+      "relation": "suggests_gap",
+      "to": "Research on adapting probabilistic embeddings to non-vision domains"
+    },
+    {
+      "from": "EV014",
+      "relation": "suggests_gap",
+      "to": "The abstract does not specify the exact mechanism or threshold for dynamically switching between typical and low-confidence sampling strategies."
+    },
+    {
+      "from": "EV015",
+      "relation": "suggests_gap",
+      "to": "The stability of cost-aware selection methods across diverse linguistic regimes is poorly understood."
+    },
+    {
+      "from": "EV016",
+      "relation": "suggests_gap",
+      "to": "The abstract does not report the performance or effectiveness of the developed workflow."
+    },
+    {
+      "from": "EV017",
+      "relation": "suggests_gap",
+      "to": "The long-term impact of LLMs on programmer cognition and software development practices is not fully understood."
+    },
+    {
+      "from": "EV018",
+      "relation": "suggests_gap",
+      "to": "Provides a baseline for uncertainty-aware learning in small datasets"
+    },
+    {
+      "from": "EV019",
+      "relation": "suggests_gap",
+      "to": "How effective are the two developed methods at actually improving the active learning performance compared to the baseline MEPE algorithm?"
+    },
+    {
+      "from": "EV020",
+      "relation": "suggests_gap",
+      "to": "While the framework quantifies uncertainty, its integration into real-time decision-making systems for flood warning remains an open research area."
+    },
+    {
+      "from": "EV021",
+      "relation": "suggests_gap",
+      "to": "The study focuses on characterizing detected polyps but does not address the initial detection task, which remains a significant challenge."
+    },
+    {
+      "from": "EV022",
+      "relation": "suggests_gap",
+      "to": "A universally robust, calibration-free quantification method for all material types remains an unachieved goal."
+    },
+    {
+      "from": "EV023",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: Using quantum non-determinism through VQC to generate sample-specific probabilistic labels that capture intra-class variability and genuine ambiguity, unlike uniform label smoothing."
+    },
+    {
+      "from": "EV024",
+      "relation": "suggests_gap",
+      "to": "The abstract states the need for simulations to understand detector performance but does not detail the specific techniques used to model or mitigate the high background rates."
+    },
+    {
+      "from": "EV025",
+      "relation": "suggests_gap",
+      "to": "Existing methods for semantic labeling of HRRSIs do not adequately address the severe class imbalance problem."
+    },
+    {
+      "from": "EV026",
+      "relation": "suggests_gap",
+      "to": "Need full PDF reading to identify specific gaps in this paper."
+    },
+    {
+      "from": "EV027",
+      "relation": "suggests_gap",
+      "to": "Need full PDF reading to identify specific gaps in this paper."
+    },
+    {
+      "from": "EV028",
+      "relation": "suggests_gap",
+      "to": "Need full PDF reading to identify specific gaps in this paper."
+    },
+    {
+      "from": "EV029",
+      "relation": "suggests_gap",
+      "to": "Need full PDF reading to identify specific gaps in this paper."
+    },
+    {
+      "from": "EV030",
+      "relation": "suggests_gap",
+      "to": "Need full PDF reading to identify specific gaps in this paper."
+    },
+    {
+      "from": "EV031",
+      "relation": "suggests_gap",
+      "to": "Need full PDF reading to identify specific gaps in this paper."
+    },
+    {
+      "from": "EV032",
+      "relation": "suggests_gap",
+      "to": "Need full PDF reading to identify specific gaps in this paper."
+    },
+    {
+      "from": "EV033",
+      "relation": "suggests_gap",
+      "to": "Need full PDF reading to identify specific gaps in this paper."
+    },
+    {
+      "from": "EV034",
+      "relation": "suggests_gap",
+      "to": "Need full PDF reading to identify specific gaps in this paper."
+    },
+    {
+      "from": "EV035",
+      "relation": "suggests_gap",
+      "to": "Need full PDF reading to identify specific gaps in this paper."
+    },
+    {
+      "from": "EV036",
+      "relation": "suggests_gap",
+      "to": "Need full PDF reading to identify specific gaps in this paper."
+    },
+    {
+      "from": "EV037",
+      "relation": "suggests_gap",
+      "to": "Need full PDF reading to identify specific gaps in this paper."
+    },
+    {
+      "from": "EV038",
+      "relation": "suggests_gap",
+      "to": "Need full PDF reading to identify specific gaps in this paper."
+    },
+    {
+      "from": "EV039",
+      "relation": "suggests_gap",
+      "to": "Need full PDF reading to identify specific gaps in this paper."
+    },
+    {
+      "from": "EV040",
+      "relation": "suggests_gap",
+      "to": "Need full PDF reading to identify specific gaps in this paper."
+    },
+    {
+      "from": "EV041",
+      "relation": "suggests_gap",
+      "to": "Need full PDF reading to identify specific gaps in this paper."
+    },
+    {
+      "from": "EV042",
+      "relation": "suggests_gap",
+      "to": "Need full PDF reading to identify specific gaps in this paper."
+    },
+    {
+      "from": "EV043",
+      "relation": "suggests_gap",
+      "to": "Need full PDF reading to identify specific gaps in this paper."
+    },
+    {
+      "from": "EV044",
+      "relation": "suggests_gap",
+      "to": "Need full PDF reading to identify specific gaps in this paper."
+    },
+    {
+      "from": "EV045",
+      "relation": "suggests_gap",
+      "to": "Need full PDF reading to identify specific gaps in this paper."
+    },
+    {
+      "from": "EV046",
+      "relation": "suggests_gap",
+      "to": "Need full PDF reading to identify specific gaps in this paper."
+    },
+    {
+      "from": "EV047",
+      "relation": "suggests_gap",
+      "to": "Need full PDF reading to identify specific gaps in this paper."
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "problem_addressed": "Limited availability of annotated medical imaging data and the ineffectiveness of transfer learning from natural image domains to medical tasks.",
+  "core_claim": "A lightweight architecture (MAKNet) trained with semi-supervised pseudo-labels achieves superior performance with 60-70% fewer parameters compared to popular architectures.",
+  "key_contributions": [
+    "Proposed MAKNet with mixed asymmetric kernels (MAKConv) for efficient feature extraction",
+    "Semi-supervised learning pipeline using teacher-student framework to generate pseudo-labels from large unlabeled medical dataset",
+    "Demonstrated importance of domain-specific knowledge for effective transfer learning in medical imaging"
+  ],
+  "novelty": "MAKNet introduces mixed asymmetric kernels (k×k, 1×k, k×1, 1×1) in a single conv layer to capture multi-dimensional features efficiently, combined with semi-supervised pseudo-labeling for domain-specific transfer learning.",
+  "method_summary": "MAKNet uses dense blocks with MAKConv layers, followed by standard conv, CBAM attention, and Mish activation. Semi-supervised training employs a teacher network (15 epochs) to generate pseudo-labels (>0.5 confidence) for unlabeled data, training a student network on concatenated labeled/unlabeled batches.",
+  "method_components": [
+    "MAKConv: Mixed asymmetric kernels (spatial, single-dimension, depthwise)",
+    "Dense Blocks: 3-6 connected MAKConv layers with standard conv + CBAM",
+    "Semi-supervised Pipeline: Teacher-student framework with pseudo-label generation",
+    "Preprocessing: HU normalization, background clipping, 3-slice input channels"
+  ],
+  "key_innovation": "Mixed asymmetric kernels (MAKConv) enable comprehensive multi-dimensional feature extraction with significantly reduced parameters, while semi-supervised pseudo-labeling leverages large unlabeled medical datasets for domain-specific knowledge transfer.",
+  "assumptions": [
+    "Unlabeled medical dataset contains sufficient diversity for meaningful pseudo-labels",
+    "Confidence threshold (>0.5) and ontology filtering produce reliable pseudo-labels",
+    "Domain-specific features transfer better than natural image features"
+  ],
+  "theoretical_grounding": "No explicit theoretical proofs or mathematical derivations provided; empirical validation through comparative experiments.",
+  "datasets_used": [
+    "TCIA dataset",
+    "DeepLesion dataset"
+  ],
+  "baselines_compared": [
+    "Teacher network",
+    "LesaNet (ImageNet)",
+    "LesaNet (TCIA)"
+  ],
+  "metrics_used": [
+    "AUC",
+    "F1 score",
+    "Precision",
+    "Recall"
+  ],
+  "hyperparameters": "VGG16 trained on TCIA for 5 epochs; LesaNet fine-tuned on DeepLesion with learning rate 0.001 for 15 epochs",
+  "compute_required": "null",
+  "seeds": "null",
+  "headline_result": "0.9403 AUC on hand-labeled test set for LesaNet (TCIA) on DeepLesion dataset",
+  "results_table": [
+    {
+      "method": "Teacher network",
+      "dataset": "TCIA",
+      "metric": "AUC",
+      "value": "0.9051"
+    },
+    {
+      "method": "Student network (Iteration 5)",
+      "dataset": "TCIA",
+      "metric": "AUC",
+      "value": "0.9112"
+    },
+    {
+      "method": "LesaNet (ImageNet)",
+      "dataset": "DeepLesion",
+      "metric": "AUC",
+      "value": "0.9344"
+    },
+    {
+      "method": "LesaNet (TCIA)",
+      "dataset": "DeepLesion",
+      "metric": "AUC",
+      "value": "0.9331"
+    },
+    {
+      "method": "LesaNet (TCIA)",
+      "dataset": "DeepLesion",
+      "metric": "AUC",
+      "value": "0.9403"
+    }
+  ],
+  "ablations": [
+    "null"
+  ],
+  "improvement_over_baseline": "TCIA pretraining achieves 0.0005 higher AUC than ImageNet on hand-labeled test set",
+  "stated_limitations": [
+    "Knowledge transfer across disparate domains is less effective"
+  ],
+  "unstated_weaknesses": [
+    "No thorough comparison with other lightweight architectures",
+    "Doesn't discuss how pseudo-labels are generated or their quality",
+    "No mention of how the method handles label noise",
+    "Limited discussion on computational trade-offs",
+    "No information on how the method scales with dataset size"
+  ],
+  "threats_to_validity": [
+    "Unspecified medical imaging datasets used",
+    "No information on cross-validation or result validation",
+    "Unclear if domain-specific knowledge transfer was tested across multiple domains",
+    "No discussion of potential overfitting despite lightweight architecture",
+    "Unclear if pseudo-labels were validated for quality"
+  ],
+  "reproducibility": "medium",
+  "open_questions": [
+    "How are pseudo-labels generated and validated?",
+    "What is the exact architecture of MAKNet?",
+    "How does the method perform under different levels of label noise?",
+    "What are the computational trade-offs?",
+    "How does the method scale with dataset size?"
+  ],
+  "future_work": [
+    "Developing more sophisticated domain adaptation techniques",
+    "Improving pseudo-label generation and validation methods"
+  ],
+  "gaps_this_enables": [
+    "Research on lightweight architectures for medical imaging",
+    "Need for better methods of generating and validating pseudo-labels",
+    "Focus on domain-specific knowledge in transfer learning",
+    "Research on trade-offs between model size and performance in medical imaging"
+  ],
+  "relevance_to_topic": "This paper is relevant as it addresses semi-supervised learning for medical imaging, which is a core component of the project, though it doesn't specifically address uncertainty-aware pseudo-label selection or label noise.",
+  "relation_type": "competitor",
+  "can_run_on_macbook": true,
+  "reusable_assets": [
+    "MAKNet architecture",
+    "Semi-supervised learning approach",
+    "Domain-specific transfer learning methodology"
+  ],
+  "code_available": false,
+  "code_url": null,
+  "best_result": "0.9403 AUC on hand-labeled test set for LesaNet (TCIA) on DeepLesion dataset",
+  "key_results": {
+    "TCIA_AUC": "0.9112",
+    "DeepLesion_AUC": "0.9403"
+  },
+  "limitations_stated": [
+    "Knowledge transfer across disparate domains is less effective"
+  ],
+  "evidence_id": "EV014",
+  "title": "Domain-Specific, Semi-Supervised Transfer Learning for Medical Imaging",
+  "year": 2020,
+  "arxiv_id": "2005.11746",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 21707,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 9,
+  "pdf_tables": 3,
+  "pdf_captions": 7
+}

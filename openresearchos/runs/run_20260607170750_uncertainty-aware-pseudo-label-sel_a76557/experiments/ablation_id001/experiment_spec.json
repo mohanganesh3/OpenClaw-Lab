@@ -1,0 +1,40 @@
+{
+  "experiment_id": "ablation_id001",
+  "run_id": "run_20260607170750_uncertainty-aware-pseudo-label-sel_a76557",
+  "idea_id": "ID001",
+  "idea_title": "Uncertainty-calibrated pseudo-label acceptance under label noise",
+  "selected_idea": {
+    "title": "Uncertainty-calibrated pseudo-label acceptance under label noise",
+    "pitch": "The evidence repeatedly studies uncertainty-aware semi-supervised medical imaging, but the selection rule for accepting pseudo-labels under noisy labeled seeds is still under-tested. A local proxy can test whether entropy, margin, and agreement filters reduce noisy pseudo-label promotion compared with naive confidence thresholding.",
+    "mechanism": "Entropy-filtered, class-balanced pseudo-label selection will improve held-out classification accuracy over naive confidence pseudo-labeling when the initial labeled set contains injected label noise.",
+    "testable_hypothesis": "Entropy-filtered, class-balanced pseudo-label selection will improve held-out classification accuracy over naive confidence pseudo-labeling when the initial labeled set contains injected label noise.",
+    "required_dataset": "sklearn:load_digits",
+    "baseline_to_beat": "[EV001] Pseudo-D: Informing Multi-View Uncertainty Estimation with Calibrated Neural Training Dynamics",
+    "source_gap_id": "G01"
+  },
+  "topic": "uncertainty-aware pseudo-label selection for semi-supervised medical image classification under label noise",
+  "level": "ablation",
+  "label": "Ablation",
+  "hypothesis": "Entropy-filtered, class-balanced pseudo-label selection will improve held-out classification accuracy over naive confidence pseudo-labeling when the initial labeled set contains injected label noise.",
+  "method": "Entropy-filtered, class-balanced pseudo-label selection will improve held-out classification accuracy over naive confidence pseudo-labeling when the initial labeled set contains injected label noise.",
+  "metric": "improvement_over_baseline",
+  "baseline": "[EV001] Pseudo-D: Informing Multi-View Uncertainty Estimation with Calibrated Neural Training Dynamics",
+  "ablation_plan": [
+    "proposed method without key component 1",
+    "proposed method without key component 2",
+    "baseline with partial improvement"
+  ],
+  "dataset": "sklearn:load_digits",
+  "expected_result": "The proposed method (Uncertainty-calibrated pseudo-label acceptance under label noise) should beat the baseline on the specified metric.",
+  "failure_interpretation": "A weak or negative margin means the mechanism does not justify promotion and should be revised or killed.",
+  "runtime_budget_minutes": "10-45",
+  "max_disk_mb": 250,
+  "max_dataset_download_gb": 2,
+  "max_reruns": 5,
+  "allowed_network_actions": [
+    "pip install",
+    "dataset download"
+  ],
+  "fixed_seed": 42,
+  "created_at": "2026-06-07T18:33:45.996Z"
+}

@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\nRobust Filter Attention: Self-Attention as Precision-Weighted State Estimation\nPeter Racioppo 1\nAbstract\nWe introduce Robust Filter Attention (RFA), a\nformulation of self-attention as ",
+  "method": "sponds to the special case in which dynamics\nare noiseless (σ2 = 0, η2 = 0), decay is absent (µ = 0),\nand value rotation is omitted. Under these conditions, the\nstate transition matrix reduces to a co",
+  "results": "Appendix Table of Contents\n1. Appendix A: Attention from a Factorized State Estimation Formulation\n13\n• Derives a precision-weighted attention mechanism from a state estimation formulation.\n2. Appendi",
+  "conclusion": "nge with uniform decay per head. SC-RFA assigns each head a distinct spectral band with decay rate coupled to its maximum frequency.\nFigure 6. SC-RFA eigenvalue distribution in log-log space (b = 1.0)"
+}

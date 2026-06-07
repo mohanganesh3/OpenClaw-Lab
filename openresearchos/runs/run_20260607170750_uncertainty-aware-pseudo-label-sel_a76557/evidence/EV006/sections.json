@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\narXiv:2505.12418v1  [eess.IV]  18 May 2025\nMutual Evidential Deep Learning for Medical\nImage Segmentation\n1st Yuanpeng He\nKey Laboratory of High Confidence\nSoftware Technologies (MOE)\n",
+  "method": "in the final\npseudo-labels for the unlabeled data. The predictions of the\ntwo networks for the unlabeled data undergo the same loss\ncalculation process as in the training phase with labeled data.\nUnli",
+  "results": "2 95HD↓ 5.91 6.63 6.76 5.93 5.35 4.79 4.72 3.40 4.26 ASD↓ 1.79 1.98 1.99 1.70 1.67 1.48 1.52 0.97 1.39 | 90.95 83.80 3.84 0.85 |\n|  |  | ive ca GW U amete ed on for it itate e erfor To thi ResNe et. W",
+  "conclusion": "rnational Conference on Acoustics, Speech and\nSignal Processing (ICASSP).\nIEEE, 2025, pp. 1–5.\n[10] L. Li, Y. He, and C.-M. Pun, “Efficient prototype consistency learning\nin semi-supervised medical im"
+}

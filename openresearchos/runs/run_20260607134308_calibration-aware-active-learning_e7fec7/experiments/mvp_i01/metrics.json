@@ -1,0 +1,40 @@
+{
+  "experiment_id": "mvp_i01",
+  "run_id": "run_20260607134308_calibration-aware-active-learning_e7fec7",
+  "idea_id": "I01",
+  "idea_title": "Reflexion-Enhanced Calibration for Medical Tabular Active Learning",
+  "hypothesis": "If we apply Reflexion-style self-reflection to calibration-aware active learning, ECE will decrease by 15% compared to standard entropy sampling on breast_cancer dataset.",
+  "level": "mvp",
+  "task_type": "calibration_aware_active_learning",
+  "dataset": "synthetic_classification_imbalanced_calibration_AL",
+  "seeds": [
+    42,
+    1337,
+    2024,
+    99,
+    7
+  ],
+  "num_seeds": 5,
+  "baseline_name": "Entropy Sampling + Sigmoid Calibration (LogReg)",
+  "proposed_name": "Calib-Weighted Acq + Isotonic Cal (SVC-RBF)",
+  "baseline_accuracy": 0.918945,
+  "baseline_accuracy_std": 0.017491,
+  "accuracy": 0.959141,
+  "accuracy_std": 0.008635,
+  "baseline_f1": 0.8436,
+  "f1": 0.9164,
+  "f1_std": 0.009156,
+  "improvement": {
+    "accuracy": 0.040197
+  },
+  "improvement_pct": 4.02,
+  "better": true,
+  "t_statistic": 3.1337,
+  "p_value": 0.0351,
+  "statistically_significant": true,
+  "duration_seconds": 0.43,
+  "platform": "macOS-26.1-arm64-arm-64bit",
+  "python": "3.12.13",
+  "success": true,
+  "status": "passed"
+}

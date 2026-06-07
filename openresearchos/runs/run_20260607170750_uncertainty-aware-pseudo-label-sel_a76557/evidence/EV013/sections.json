@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\n1\nExploring Feature Representation Learning for\nSemi-supervised Medical Image Segmentation\nHuimin Wu, Xiaomeng Li, Member, IEEE, and Kwang-Ting Cheng, Fellow, IEEE\nAbstract—This paper ",
+  "method": "- page 4 -->\n4\nLabeled image\nUnlabeled image\n+Noise\nProjection head\nSegmentation head\nUncertainty head\nA set of realistic predictions on unlabeled data\nInput images\nForeground pixel features\nBackgroun",
+  "results": "t\nλr is always set to be 0.1.\nCompared methods. Table I shows the results on the\npancreas dataset.\nWe compare with recent algorithms in-\ncluding mean teacher (MT) [19], Deep Adversarial Network\n(DAN) ",
+  "conclusion": "f medical images, enhances pseudo label quality\nafter the first stage of training. Improved pseudo labels not\nonly provide higher quality supervision for the segmentation\nhead but also generate more a"
+}

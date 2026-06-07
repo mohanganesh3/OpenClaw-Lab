@@ -1,0 +1,89 @@
+{
+  "datasets_used": [
+    "ACDC (200 cardiac MRI images from 100 patients)",
+    "ISIC (1838 training images, 756 validation images)",
+    "PROMISE12 (50 patients, converted to 2D slices)"
+  ],
+  "baselines_compared": [
+    "MT, UA-MT, EM, DCT, CCT, CPS, ICT, DAN, URPC, SSNet, ICT-Med, FixMatch, SCPNet, BCP-Net, CTCT, S4CVnet, MedFCT, CnT-B, DiffRect, CPC-SAM"
+  ],
+  "metrics_used": [
+    "Dice Coefficient (DSC)",
+    "95% Hausdorff Distance (95HD)",
+    "Average Symmetric Surface Distance (ASSD)"
+  ],
+  "hyperparameters": "UNet backbone, 224×224 input size, batch size 16, SGD optimizer (weight decay 1e-4, momentum 0.9), 300 epochs, learning rate 0.01, channel dropout 50%, r=1000, τ=0.95, channel dimension D=128",
+  "compute_required": "single GPU",
+  "seeds": "null",
+  "headline_result": "SemSim achieved 0.896 DSC and 2.3mm 95HD on ACDC with 10% labeled data",
+  "results_table": [
+    {
+      "method": "SemSim",
+      "dataset": "ACDC",
+      "metric": "DSC",
+      "value": "0.896"
+    },
+    {
+      "method": "SemSim",
+      "dataset": "ACDC",
+      "metric": "95HD",
+      "value": "2.3mm"
+    },
+    {
+      "method": "SemSim",
+      "dataset": "ISIC",
+      "metric": "DSC",
+      "value": "0.802"
+    },
+    {
+      "method": "SemSim",
+      "dataset": "ISIC",
+      "metric": "95HD",
+      "value": "13.3mm"
+    },
+    {
+      "method": "SemSim",
+      "dataset": "PROMISE12",
+      "metric": "DSC",
+      "value": "0.784"
+    },
+    {
+      "method": "SemSim",
+      "dataset": "PROMISE12",
+      "metric": "ASSD",
+      "value": "1.3mm"
+    }
+  ],
+  "ablations": [
+    "Table IV: All three consistency constraints (intra, cross, unsupervised) needed for optimal performance (0.872 DSC vs 0.844 without cross-image)",
+    "Table V: Optimal sub-regions N=4 (0.896 DSC) vs N=1 (0.888 DSC) on ACDC",
+    "Spatial-aware fusion module (SFM) contributes 0.5% DSC improvement (0.861 vs 0.872)"
+  ],
+  "improvement_over_baseline": "SemSim outperforms CPC-SAM by +0.6% DSC and -0.2mm 95HD on ACDC (10% labeled), +0.8% DSC and -5.6mm 95HD on ISIC (10% labeled), and +5.8% DSC on PROMISE12 (7% labeled)",
+  "best_result": "SemSim achieved 0.896 DSC and 2.3mm 95HD on ACDC with 10% labeled data",
+  "key_results": {
+    "ACDC_DSC": "0.896",
+    "ACDC_95HD": "2.3mm",
+    "ISIC_DSC": "0.802",
+    "ISIC_95HD": "13.3mm",
+    "PROMISE12_DSC": "0.784",
+    "PROMISE12_ASSD": "1.3mm"
+  },
+  "limitations_stated": [],
+  "reproducibility": "low",
+  "evidence_id": "EV008",
+  "title": "SemSim: Revisiting Weak-to-Strong Consistency from a Semantic Similarity Perspective for Semi-supervised Medical Image Segmentation",
+  "year": 2024,
+  "arxiv_id": "2410.13486",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 63229,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 11,
+  "pdf_tables": 18,
+  "pdf_captions": 14
+}

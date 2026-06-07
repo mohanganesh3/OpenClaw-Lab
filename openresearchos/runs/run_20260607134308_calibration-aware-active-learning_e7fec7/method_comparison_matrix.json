@@ -1,0 +1,261 @@
+{
+  "run_id": "run_20260607134308_calibration-aware-active-learning_e7fec7",
+  "topic": "calibration-aware active learning under noisy labels for small medical tabular datasets",
+  "papers_with_full_text": 13,
+  "papers_abstract_only": 34,
+  "method_matrix": [
+    {
+      "evidence_id": "EV002",
+      "title": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
+      "year": 2025,
+      "method": "The AI Scientist-v2 is capable of producing the first entirely AI-generated peer-review-accepted wor",
+      "datasets_used": [
+        "SCAN",
+        "COGS",
+        "IWSLT",
+        "GeoQuery"
+      ],
+      "baselines_compared": [
+        "Standard sequence-to-sequence neural network architectures with attention mechanisms"
+      ],
+      "best_result": "null",
+      "key_results": {},
+      "limitations": [
+        "The abstract doesn't explicitly state limitations"
+      ],
+      "can_run_on_macbook": true,
+      "code_available": "unknown (insufficient information from abstract)",
+      "code_url": "null (insufficient information from abstract)"
+    },
+    {
+      "evidence_id": "EV004",
+      "title": "MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering",
+      "year": 2024,
+      "method": "MLE-bench provides a comprehensive framework for evaluating ML agents on ML engineering tasks, demon",
+      "datasets_used": [
+        "train.csv",
+        "test.csv",
+        "structures.zip",
+        "structures.csv",
+        "dipole_moments.csv",
+        "magnetic_shielding_tensors.csv",
+        "mulliken_charges.csv",
+        "potential_energy.csv",
+        "scalar_coupling_contributions.csv"
+      ],
+      "baselines_compared": [
+        "o1-preview",
+        "gpt-4o-2024-08-06",
+        "llama-3.1-405b-instruct",
+        "claude-3-5-sonnet-20240620"
+      ],
+      "best_result": "o1-preview achieved 34.3% medals in low complexity competitions",
+      "key_results": {
+        "MLE-bench_Any Medal (Low, %)": "19.4 ± 4.9",
+        "MLE-bench_Any Medal (Medium, %)": "8.8 ± 1.1",
+        "MLE-bench_Any Medal (High, %)": "10.0 ± 1.9"
+      },
+      "limitations": [],
+      "can_run_on_macbook": true,
+      "code_available": false,
+      "code_url": null
+    },
+    {
+      "evidence_id": "EV006",
+      "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+      "year": 2023,
+      "method": "Reflexion achieves significant performance improvements in language agents by using verbal reinforce",
+      "datasets_used": [
+        "HumanEval Python",
+        "HotPotQA (100 samples)"
+      ],
+      "baselines_compared": [
+        "Baseline",
+        "CoT (GT)",
+        "ReAct"
+      ],
+      "best_result": "0.80 Pass@1 accuracy on HotPotQA using CoT (GT) with gpt-4",
+      "key_results": {
+        "HumanEval Python_Pass@1": "0.26",
+        "HotPotQA_Pass@1": "0.57"
+      },
+      "limitations": [
+        "Traditional reinforcement learning methods require extensive training samples and expensive model fine-tuning",
+        "Language agents face challenges in quickly and efficiently learning from trial-and-error"
+      ],
+      "can_run_on_macbook": false,
+      "code_available": false,
+      "code_url": null
+    },
+    {
+      "evidence_id": "EV007",
+      "title": "Self-Refine: Iterative Refinement with Self-Feedback",
+      "year": 2023,
+      "method": "SELF-REFINE can improve LLM outputs through iterative self-feedback without requiring supervised tra",
+      "datasets_used": [
+        "CommonGen-Hard (extension of CommonGen)",
+        "Acronym Generation (250 acronyms)",
+        "CodeNet competitive programming (300 examples)",
+        "Human annotator subset (60 examples)"
+      ],
+      "baselines_compared": [
+        "Base GPT-3.5",
+        "Base ChatGPT",
+        "Base GPT-4",
+        "Human annotators (code readability)"
+      ],
+      "best_result": "GPT-4 Acronym Generation: 56.4% (SELF-REFINE) vs 41.6% (Base)",
+      "key_results": {
+        "Acronym Gen_preference eval": "41.6%",
+        "Constrained Gen_coverage": "28.0%",
+        "Code Readability_meaningful variable ratio": "0.653"
+      },
+      "limitations": [],
+      "can_run_on_macbook": true,
+      "code_available": "unknown",
+      "code_url": null
+    },
+    {
+      "evidence_id": "EV008",
+      "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+      "year": 2023,
+      "method": "VOYAGER is the first LLM-powered embodied lifelong learning agent that can continuously explore the ",
+      "datasets_used": [
+        "Minecraft environment"
+      ],
+      "baselines_compared": [
+        "Not explicitly mentioned in the provided text"
+      ],
+      "best_result": "Not provided in the given excerpt",
+      "key_results": {},
+      "limitations": [
+        "Relies on GPT-4 via blackbox queries which may be expensive and have rate limits",
+        "Works specifically in Minecraft environment which may not generalize to other domains",
+        "Limited to the capabilities of GPT-4 without fine-tuning"
+      ],
+      "can_run_on_macbook": false,
+      "code_available": true,
+      "code_url": "https://voyager.minedojo.org"
+    },
+    {
+      "evidence_id": "EV009",
+      "title": "AgentBench: Evaluating LLMs as Agents",
+      "year": 2023,
+      "method": "While top commercial LLMs show strong agent capabilities, significant performance gaps exist with op",
+      "datasets_used": [
+        "FREEBASE-based dataset with 1,663 questions from GrailQA, ComplexWebQuestions, and GraphQuestions",
+        "Text-to-SQL dataset with INSERT, UPDATE, and SELECT operations"
+      ],
+      "baselines_compared": [
+        "gpt-4",
+        "gpt-3.5-turbo"
+      ],
+      "best_result": "null",
+      "key_results": {
+        "Re-annotated data_Score": "SELECT: 0.19, INSERT: 0.19, UPDATE: 0.92",
+        "Original data_Score": "SELECT: 0.21, INSERT: 0.23, UPDATE: 0.66"
+      },
+      "limitations": [],
+      "can_run_on_macbook": true,
+      "code_available": false,
+      "code_url": null
+    },
+    {
+      "evidence_id": "EV010",
+      "title": "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
+      "year": 2024,
+      "method": "LM agents significantly benefit from specially-designed interfaces like SWE-agent's agent-computer i",
+      "datasets_used": [
+        "SWE-bench Lite dataset",
+        "SWE-bench test set (286 trajectories)",
+        "SWE-bench Lite split (35 trajectories)"
+      ],
+      "baselines_compared": [
+        "SWE-agent with GPT-4 on full SWE-bench test set",
+        "SWE-agent with Claude 3 Opus on Lite split"
+      ],
+      "best_result": "Not explicitly stated in provided text",
+      "key_results": {
+        "SWE-bench test set_Action pattern frequency": "python, find_file, open appears 61 times at turns 3-5"
+      },
+      "limitations": [],
+      "can_run_on_macbook": true,
+      "code_available": false,
+      "code_url": null
+    },
+    {
+      "evidence_id": "EV013",
+      "title": "Probabilistic Embeddings for Frozen Vision-Language Models: Uncertainty Quantification with Gaussian Process Latent Variable Models",
+      "year": 2025,
+      "method": "GroVE achieves state-of-the-art uncertainty calibration by learning probabilistic embeddings from fr",
+      "datasets_used": [
+        "COCO",
+        "CUB"
+      ],
+      "baselines_compared": [
+        "KL-Divergence",
+        "JS-Divergence",
+        "Wasserstein-2"
+      ],
+      "best_result": "KL-Divergence achieves 0.79±0.02 for Image to Text on COCO",
+      "key_results": {
+        "COCO_Image to Text": "0.70±0.04",
+        "COCO_Text to Image": "0.59±0.03",
+        "CUB_Image to Text": "0.49±0.05",
+        "CUB_Text to Image": "0.44±0.05"
+      },
+      "limitations": [
+        "Existing approaches require learning probabilistic embeddings during VLM training, which demands large datasets",
+        "The method is designed for vision-language tasks and may not directly apply to tabular data"
+      ],
+      "can_run_on_macbook": false,
+      "code_available": false,
+      "code_url": null
+    },
+    {
+      "evidence_id": "EV018",
+      "title": "Uncertainty-aware phase fraction prediction and active-learning-guided out-of-domain discovery of refractory multi-principal element alloys",
+      "year": 2026,
+      "method": "Refractory multi-principal element alloys (RMPEAs) represent a novel class of alloys characterized b",
+      "datasets_used": [
+        "70,000 compositions from Ti-Fe-Al-V-Ni-Nb-Zr-Mn-Co design space, labeled with phase fractions at 7 temperatures using CALPHAD"
+      ],
+      "baselines_compared": [
+        "Low-uncertainty active learning route",
+        "High-uncertainty active learning route"
+      ],
+      "best_result": "Laves phase R² of 0.99 on 70,000 composition dataset",
+      "key_results": {
+        "70,000 compositions_R²": "0.98 (Liquid)"
+      },
+      "limitations": [
+        "The paper addresses limitations of existing machine learning approaches that rely on deterministic mappings and neglect uncertainty in predictions"
+      ],
+      "can_run_on_macbook": true,
+      "code_available": false,
+      "code_url": null
+    },
+    {
+      "evidence_id": "EV023",
+      "title": "Quantum Probabilistic Label Refining: Enhancing Label Quality for Robust Image Classification",
+      "year": 2025,
+      "method": "Leveraging quantum non-determinism through variational quantum circuits can generate more nuanced, h",
+      "datasets_used": [
+        "MNIST",
+        "Fashion-MNIST"
+      ],
+      "baselines_compared": [
+        "M1",
+        "M2"
+      ],
+      "best_result": "M3 achieves 97.87% accuracy under Gaussian noise (Std=0.1)",
+      "key_results": {
+        "MNIST_accuracy": "98.60%"
+      },
+      "limitations": [],
+      "can_run_on_macbook": true,
+      "code_available": false,
+      "code_url": null
+    }
+  ]
+}

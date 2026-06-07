@@ -1,0 +1,162 @@
+{
+  "problem_addressed": "Existing semi-supervised learning methods do not incorporate uncertainty quantification for pseudo-labels or unlabeled samples, leading to issues with noisy labels and out-of-distribution samples due to strong augmentations.",
+  "core_claim": "Complementing SSL with an uncertainty-aware objective that quantifies both aleatoric and epistemic uncertainty improves performance by aligning uncertainty distributions between labeled and unlabeled domains.",
+  "key_contributions": [
+    "Proposing a novel uncertainty-aware objective incorporating both aleatoric and epistemic uncertainty for SSL",
+    "Implementing the approach by complementing contemporary SSL work with the uncertainty framework",
+    "Achieving state-of-the-art performance on standard SSL benchmarks including CIFAR-100 and Mini-ImageNet"
+  ],
+  "novelty": "This is the first work to estimate and align uncertainty distributions of labeled and unlabeled data in SSL, whereas previous efforts focused solely on consistency regularization without uncertainty quantification.",
+  "method_summary": "The approach proposes an unsupervised uncertainty-aware objective that quantifies aleatoric and epistemic uncertainty to align distributions between labeled and unlabeled domains, complementing existing SSL techniques without requiring computationally expensive graph formation or similarity computations.",
+  "method_components": [
+    "Pseudo-labeling mechanism with confidence thresholding",
+    "Consistency regularization between weakly and strongly augmented samples",
+    "Uncertainty quantification using both aleatoric and epistemic measures"
+  ],
+  "key_innovation": "Incorporating uncertainty quantification into the SSL training process to handle noisy pseudo-labels and out-of-distribution samples by aligning uncertainty distributions between labeled and unlabeled domains.",
+  "assumptions": [
+    "Unlabeled data has similar distribution to labeled data",
+    "Uncertainty quantification can effectively identify problematic samples",
+    "Strong augmentations may introduce out-of-distribution samples"
+  ],
+  "theoretical_grounding": "null",
+  "datasets_used": [
+    "CIFAR-10 (1000/4000 labels)",
+    "SVHN (1000/4000 labels)",
+    "CIFAR-100 (4000 labels)",
+    "Mini-ImageNet (4000 labels)"
+  ],
+  "baselines_compared": [
+    "MeanTeacher",
+    "MixMatch",
+    "ReMixMatch",
+    "FixMatch",
+    "SimPLE",
+    "Label Propagation"
+  ],
+  "metrics_used": [
+    "Top-1 Test Accuracy"
+  ],
+  "hyperparameters": "Confidence threshold τc=0.95; αUE=1, λ=0.1; αUA=75 (CIFAR-10/SVHN), 150 (CIFAR-100), 300 (Mini-ImageNet); SGD optimizer (lr=0.01/0.03, weight decay=5e-4) for CIFAR-10/SVHN/CIFAR-100; AdamW (lr=0.002, weight decay=2e-2) for Mini-ImageNet; Wide-ResNet-28-2 (CIFAR-10/SVHN), WRN-28-8 (CIFAR-100), ResNet-18 (Mini-ImageNet)",
+  "compute_required": "single GPU",
+  "seeds": null,
+  "headline_result": "94.92% on CIFAR-10 with 1000 labels",
+  "results_table": [
+    {
+      "method": "Ours",
+      "dataset": "CIFAR-10",
+      "metric": "acc",
+      "value": "94.92%"
+    },
+    {
+      "method": "Ours",
+      "dataset": "CIFAR-10",
+      "metric": "acc",
+      "value": "95.46%"
+    },
+    {
+      "method": "Ours",
+      "dataset": "SVHN",
+      "metric": "acc",
+      "value": "95.46%"
+    },
+    {
+      "method": "Ours",
+      "dataset": "SVHN",
+      "metric": "acc",
+      "value": "95.46%"
+    },
+    {
+      "method": "Ours",
+      "dataset": "CIFAR-100",
+      "metric": "acc",
+      "value": "97.50%"
+    },
+    {
+      "method": "Ours",
+      "dataset": "CIFAR-100",
+      "metric": "acc",
+      "value": "97.57%"
+    },
+    {
+      "method": "Ours",
+      "dataset": "Mini-ImageNet",
+      "metric": "acc",
+      "value": "66.81%"
+    },
+    {
+      "method": "Ours",
+      "dataset": "Mini-ImageNet",
+      "metric": "acc",
+      "value": "50.75%"
+    }
+  ],
+  "ablations": null,
+  "improvement_over_baseline": "0.08% over SimPLE on CIFAR-10 (1000 labels); 0.07% over SimPLE on CIFAR-100 (4000 labels)",
+  "stated_limitations": [
+    "Existing SSL methods do not incorporate uncertainty of pseudo labels or unlabeled samples",
+    "Issues with noisy labels and out-of-distribution samples due to strong augmentations"
+  ],
+  "unstated_weaknesses": [
+    "Lack of specific details on uncertainty quantification methods used",
+    "No discussion of computational complexity or scalability",
+    "No evaluation on medical imaging datasets",
+    "No comparison with other uncertainty-aware SSL methods"
+  ],
+  "threats_to_validity": [
+    "Assumption of similar distributions between labeled and unlabeled domains may not hold in medical contexts",
+    "Potential challenges with class imbalance and small sample sizes in medical imaging",
+    "Limited evaluation across different types and levels of label noise"
+  ],
+  "reproducibility": "low",
+  "open_questions": [
+    "How does the proposed method perform specifically on medical imaging datasets?",
+    "What is the computational overhead of the uncertainty quantification approach?",
+    "How does the method handle different types of label noise in medical contexts?",
+    "Can the uncertainty-aware objective be adapted for domain-specific medical challenges?"
+  ],
+  "future_work": [
+    "Application to specific medical imaging domains",
+    "Development of domain-specific uncertainty quantification techniques",
+    "Integration with medical imaging preprocessing pipelines"
+  ],
+  "gaps_this_enables": [
+    "Development of uncertainty-aware pseudo-label selection methods for medical imaging",
+    "More robust SSL approaches that account for label noise in medical datasets",
+    "Combination of uncertainty quantification with domain adaptation for medical images"
+  ],
+  "relevance_to_topic": "This paper directly addresses uncertainty quantification in SSL which is fundamental to developing uncertainty-aware pseudo-label selection methods for medical image classification under label noise.",
+  "relation_type": "method_source",
+  "can_run_on_macbook": true,
+  "reusable_assets": [
+    "Uncertainty quantification frameworks",
+    "Semi-supervised learning architectures"
+  ],
+  "code_available": false,
+  "code_url": null,
+  "best_result": "94.92% on CIFAR-10 with 1000 labels",
+  "key_results": {
+    "CIFAR-10_acc": "95.46%",
+    "SVHN_acc": "95.46%",
+    "CIFAR-100_acc": "97.57%"
+  },
+  "limitations_stated": [
+    "Existing SSL methods do not incorporate uncertainty of pseudo labels or unlabeled samples",
+    "Issues with noisy labels and out-of-distribution samples due to strong augmentations"
+  ],
+  "evidence_id": "EV036",
+  "title": "Complementing Semi-Supervised Learning with Uncertainty Quantification",
+  "year": 2022,
+  "arxiv_id": "2207.12131",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 49889,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 10,
+  "pdf_tables": 0,
+  "pdf_captions": 6
+}

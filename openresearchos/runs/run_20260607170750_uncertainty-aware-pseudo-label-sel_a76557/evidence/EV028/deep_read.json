@@ -1,0 +1,164 @@
+{
+  "problem_addressed": "Existing semi-supervised medical image segmentation methods cannot fully utilize region-level shape constraints and boundary-level distance information from unlabeled data.",
+  "core_claim": "An uncertainty-guided mutual consistency learning framework effectively exploits unlabeled data by integrating intra-task and cross-task consistency learning.",
+  "key_contributions": [
+    "Significant performance improvements (4.13% and 9.82% Dice gains) over supervised baselines on left atrium and brain tumor segmentation",
+    "Better performance than other semi-supervised methods under same backbone network and task settings"
+  ],
+  "novelty": "Integration of uncertainty estimation to guide mutual consistency learning between segmentation and regression tasks, enabling selective use of reliable predictions from unlabeled data.",
+  "method_summary": "A dual-task network with segmentation and signed distance regression branches, using Monte Carlo Dropout for uncertainty estimation and enforcing both intra-task (student-teacher) and cross-task (segmentation-regression) consistency losses.",
+  "method_components": [
+    "Backbone network with segmentation and regression branches",
+    "Uncertainty estimation via Monte Carlo Dropout",
+    "Intra-task consistency loss (student-teacher alignment)",
+    "Cross-task consistency loss (segmentation-regression alignment)"
+  ],
+  "key_innovation": "Using predictive entropy from Monte Carlo Dropout to filter unreliable predictions, allowing the model to focus on certain information from unlabeled data for consistency learning.",
+  "assumptions": [
+    "Predictions with lower uncertainty are more reliable",
+    "Cross-task consistency provides complementary geometric information"
+  ],
+  "theoretical_grounding": null,
+  "datasets_used": [
+    "LA dataset",
+    "BraTS 2019 dataset"
+  ],
+  "baselines_compared": [
+    "Supervised baseline",
+    "TCSE [37]",
+    "MT [16]",
+    "UA-MT [17]",
+    "Entropy Mini [52]",
+    "SASS [20]",
+    "DUWM [18]",
+    "URPC [38]",
+    "DTC [21]"
+  ],
+  "metrics_used": [
+    "Dice[%] ↑",
+    "Jaccard[%] ↑",
+    "ASD[voxel] ↓",
+    "95HD[voxel] ↓"
+  ],
+  "hyperparameters": "β = 0.75 (optimal for balancing segmentation and regression tasks), uncertainty threshold ramping from 3/4 Umax to Umax",
+  "compute_required": "Not specified in the text",
+  "seeds": "Not specified in the text",
+  "headline_result": "UG-MCL achieved 90.16% Dice on LA dataset with 16 labeled scans and 64 unlabeled scans",
+  "results_table": [
+    {
+      "method": "UG-MCL (Ours)",
+      "dataset": "LA",
+      "metric": "Dice[%] ↑",
+      "value": "90.16"
+    },
+    {
+      "method": "UG-MCL (Ours)",
+      "dataset": "LA",
+      "metric": "Jaccard[%] ↑",
+      "value": "82.18"
+    },
+    {
+      "method": "UG-MCL (Ours)",
+      "dataset": "LA",
+      "metric": "ASD[voxel] ↓",
+      "value": "1.98"
+    },
+    {
+      "method": "UG-MCL (Ours)",
+      "dataset": "LA",
+      "metric": "95HD[voxel] ↓",
+      "value": "6.50"
+    },
+    {
+      "method": "UG-MCL (Ours)",
+      "dataset": "BraTS",
+      "metric": "Dice[%] ↑",
+      "value": "82.82"
+    },
+    {
+      "method": "UG-MCL (Ours)",
+      "dataset": "BraTS",
+      "metric": "Jaccard[%] ↑",
+      "value": "72.77"
+    },
+    {
+      "method": "UG-MCL (Ours)",
+      "dataset": "BraTS",
+      "metric": "ASD[voxel] ↓",
+      "value": "2.30"
+    },
+    {
+      "method": "UG-MCL (Ours)",
+      "dataset": "BraTS",
+      "metric": "95HD[voxel] ↓",
+      "value": "11.29"
+    }
+  ],
+  "ablations": [
+    "Experiment (1) and (2): Supervised baseline of V-Net trained with only labeled data",
+    "Experiment (3): Only activated classic segmentation branch for consistency learning, regression branch removed",
+    "Experiment (4): Added supervision on distance maps",
+    "Experiment (5): Removed intra-task consistency learning of teacher-student framework"
+  ],
+  "improvement_over_baseline": "On LA dataset: Improved from 86.03% to 90.16% in Dice (4.13% improvement). On BraTS dataset: Improved from 73.00% to 82.82% in Dice (9.82% improvement).",
+  "stated_limitations": [
+    "The method is primarily designed for segmentation tasks and may not directly apply to classification tasks."
+  ],
+  "unstated_weaknesses": [
+    "The method might be computationally expensive due to the mutual consistency learning framework.",
+    "The approach might be sensitive to hyperparameters.",
+    "The effectiveness of the method might be limited in datasets with severe class imbalance."
+  ],
+  "threats_to_validity": [
+    "The method might not generalize well to different medical imaging modalities.",
+    "The performance might degrade on datasets with significant variations in image acquisition protocols."
+  ],
+  "reproducibility": "medium",
+  "open_questions": [
+    "How does the method perform under different levels of label noise?",
+    "Can the uncertainty-guided approach be effectively applied to classification tasks?",
+    "How does the method scale with the amount of unlabeled data?"
+  ],
+  "future_work": [
+    "Extending the method to other medical imaging tasks.",
+    "Exploring its application in classification scenarios."
+  ],
+  "gaps_this_enables": [
+    "Uncertainty-aware pseudo-label selection for semi-supervised learning in medical imaging."
+  ],
+  "relevance_to_topic": "The paper directly addresses uncertainty-guided learning for semi-supervised medical image tasks, which is highly relevant to the project.",
+  "relation_type": "method_source",
+  "can_run_on_macbook": false,
+  "reusable_assets": [
+    "Uncertainty-guided mutual consistency learning framework."
+  ],
+  "code_available": false,
+  "code_url": null,
+  "best_result": "UG-MCL achieved 90.16% Dice on LA dataset with 16 labeled scans and 64 unlabeled scans",
+  "key_results": {
+    "LA_Dice[%] ↑": "90.16",
+    "LA_Jaccard[%] ↑": "82.18",
+    "LA_ASD[voxel] ↓": "1.98",
+    "LA_95HD[voxel] ↓": "6.50",
+    "BraTS_Dice[%] ↑": "82.82",
+    "BraTS_Jaccard[%] ↑": "72.77"
+  },
+  "limitations_stated": [
+    "The method is primarily designed for segmentation tasks and may not directly apply to classification tasks."
+  ],
+  "evidence_id": "EV028",
+  "title": "Uncertainty-Guided Mutual Consistency Learning for Semi-Supervised Medical Image Segmentation",
+  "year": 2021,
+  "arxiv_id": "2112.02508",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 56511,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 19,
+  "pdf_tables": 4,
+  "pdf_captions": 10
+}

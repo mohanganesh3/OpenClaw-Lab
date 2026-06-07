@@ -1,0 +1,10 @@
+# EV008: CAL-Log: Calibration-Aware Logarithmic Cost Modeling for Active Learning in Low-Resource NLP
+
+URL: https://www.semanticscholar.org/paper/328366db9b7b83904d8a0d026f9156f668766c08
+Year: 2026
+Source: semantic_scholar
+Arxiv: n/a
+
+## Abstract
+
+Building robust NLP systems for low-resource languages remains constrained by the high cost of expert annotation rather than model architecture availability. This paper proposes CAL-Log, a cost-calibrated active learning strategy that jointly accounts for (i) human annotation time and (ii) model miscalibration in early rounds, extending our prior framework for costaware active learning [23] to genuinely low-resource multilingual settings. CAL-Log introduces a logarithmic annotation-cost model to avoid the “cost-collapse” behavior of linear utility-pertoken heuristics, coupled with a calibration-aware uncertainty signal. We evaluate on $\mathbf{1 0}$ low-resource text classification datasets spanning 8 languages (Sinhala, Tamil, Hindi, Telugu, Yoruba, Amharic, Swahili, Xhosa) over 3 independent random seeds. Results show that CAL-Log achieves an Efficiency Score of 0.281 F1 per 1,000 minutes (mean ± std: $0.432 \pm 0.217$ F1 at $1,535 ~{\min}$), maintaining robust performance across all datasets. Multi-seed ablation confirms that removing the cost model raises annotation cost by $\mathbf{3 9 \%}(+597 ~{\min})$ and lowers efficiency to 0.180, while removing temperature calibration yields a less stable learning trajectory. Our stability analysis demonstrates that CAL-Log prevents the seed-dependent performance collapse observed in linear cost models (cross-seed std up to $\pm 0.296$ on MasakhaNEWS-sw for CAL-Linear) and achieves superior consistency on morphologically complex tasks such as Sinhala Sentiment $(0.547 \pm 0.033$ vs. $0.422 \pm 0.061)$. To our knowledge, this is the first active learning framework to jointly formalize annotation cost collapse and integrate model calibration error into the acquisition function under realistic human-time constraints for low-resource multilingual NLP.

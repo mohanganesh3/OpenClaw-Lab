@@ -1,0 +1,138 @@
+{
+  "datasets_used": [
+    "Automated Cardiac Diagnosis Challenge (ACDC) dataset (200 annotated short-axis cardiac MR-cine images from 100 patients)"
+  ],
+  "baselines_compared": [
+    "Unet",
+    "E-Net",
+    "Mean-Teacher (MT)",
+    "Uncertainty-Aware Mean Teacher (UA-MT)",
+    "Interpolation Consistency Training (ICT)",
+    "Cross Pseudo Supervision (CPS)",
+    "Uncertainty Rectified Pyramid Conistency (URPC)"
+  ],
+  "metrics_used": [
+    "Dice Coefficient (DSC)",
+    "Hausdorff Distance 95 (HD95)",
+    "Average Surface Distance (ASD)"
+  ],
+  "hyperparameters": "Initial learning rate: 0.01, Polynomial scheduler, Batch size: 24 (12 labeled), Training iterations: 30000, λmax = 0.1, T = 0.2",
+  "compute_required": "Single NVIDIA GTX 1080Ti GPU",
+  "seeds": "null",
+  "headline_result": "EVIL achieves DSC of 89.43% with 30% labeled data",
+  "results_table": [
+    {
+      "method": "Unet",
+      "dataset": "ACDC",
+      "metric": "DSC",
+      "value": "87.07"
+    },
+    {
+      "method": "E-Net (ours)",
+      "dataset": "ACDC",
+      "metric": "DSC",
+      "value": "87.45"
+    },
+    {
+      "method": "MT",
+      "dataset": "ACDC",
+      "metric": "DSC",
+      "value": "87.37"
+    },
+    {
+      "method": "UA-MT",
+      "dataset": "ACDC",
+      "metric": "DSC",
+      "value": "87.53"
+    },
+    {
+      "method": "ICT",
+      "dataset": "ACDC",
+      "metric": "DSC",
+      "value": "87.49"
+    },
+    {
+      "method": "CPS",
+      "dataset": "ACDC",
+      "metric": "DSC",
+      "value": "88.21"
+    },
+    {
+      "method": "URPC",
+      "dataset": "ACDC",
+      "metric": "DSC",
+      "value": "86.99"
+    },
+    {
+      "method": "EVIL (ours)",
+      "dataset": "ACDC",
+      "metric": "DSC",
+      "value": "89.43"
+    }
+  ],
+  "ablations": "E-Net (previous method) vs EVIL (current method) comparison shows improvement",
+  "improvement_over_baseline": "EVIL improves DSC by more than 3% compared with state-of-the-art uncertainty-aware methods (UA-MT and URPC) when only 10% of data are labeled",
+  "stated_limitations": [
+    "The paper mentions that current methods struggle to balance computational cost, estimation accuracy, and theoretical support in a unified framework."
+  ],
+  "unstated_weaknesses": [
+    "The method is designed for segmentation rather than classification tasks",
+    "No explicit handling of label noise in unlabeled data is mentioned",
+    "No comparison with other uncertainty quantification methods is provided",
+    "The abstract is incomplete, limiting full assessment of the methodology"
+  ],
+  "threats_to_validity": [
+    "Domain shift from segmentation to classification may affect performance",
+    "Potential overfitting to specific medical imaging datasets",
+    "Limited information on theoretical guarantees of uncertainty estimation"
+  ],
+  "reproducibility": "medium",
+  "open_questions": [
+    "How does EVIL specifically handle label noise in the unlabeled data?",
+    "What are the computational requirements compared to other methods?",
+    "How does it perform on classification tasks specifically?",
+    "What are the exact theoretical guarantees provided by the DST approach?"
+  ],
+  "future_work": [
+    "Extending EVIL to classification tasks",
+    "Adapting the method for label noise in semi-supervised learning",
+    "Comparing DST-based uncertainty quantification with other approaches"
+  ],
+  "gaps_this_enables": [
+    "Adapting EVIL's uncertainty-aware pseudo-label selection to classification tasks",
+    "Integrating label noise handling into the EVIL framework",
+    "Developing benchmarks for uncertainty quantification in semi-supervised medical image classification"
+  ],
+  "relevance_to_topic": "This paper is directly relevant as it introduces an uncertainty-aware method for pseudo-label selection in semi-supervised medical image analysis.",
+  "relation_type": "method_source",
+  "can_run_on_macbook": true,
+  "reusable_assets": [
+    "DST-based uncertainty quantification approach",
+    "Consistency regularization paradigm",
+    "Pseudo-label generation based on uncertainty"
+  ],
+  "code_available": false,
+  "code_url": null,
+  "best_result": "EVIL achieves DSC of 89.43% with 30% labeled data",
+  "key_results": {
+    "ACDC_DSC": "88.21"
+  },
+  "limitations_stated": [
+    "The paper mentions that current methods struggle to balance computational cost, estimation accuracy, and theoretical support in a unified framework."
+  ],
+  "evidence_id": "EV010",
+  "title": "EVIL: Evidential Inference Learning for Trustworthy Semi-Supervised Medical Image Segmentation",
+  "year": 2023,
+  "arxiv_id": "2307.08988",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 23598,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 5,
+  "pdf_tables": 6,
+  "pdf_captions": 7
+}

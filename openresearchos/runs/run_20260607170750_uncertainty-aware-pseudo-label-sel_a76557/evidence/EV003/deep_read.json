@@ -1,0 +1,459 @@
+{
+  "problem_addressed": "Existing nodule segmentation methods require costly and labor-intensive pixel-level annotations, limiting their practical application in ultrasound imaging.",
+  "core_claim": "A weakly supervised framework leveraging SAM's pseudo-label generation with uncertainty-aware cross-teaching can achieve accurate nodule segmentation using only aspect ratio annotations.",
+  "key_contributions": [
+    "Three types of bounding box prompts generated from clinical shape priors to enhance SAM's segmentation capabilities",
+    "SAM-driven uncertainty estimation method using prediction inconsistencies to identify unreliable regions",
+    "Uncertainty-aware cross-teaching strategy integrating label-space perturbations to mitigate pseudo-label noise"
+  ],
+  "novelty": "Integration of SAM's uncertainty estimation with cross-teaching mechanism using pseudo-labels from shape-prior bounding boxes, specifically designed for ultrasound nodule segmentation under weak supervision.",
+  "method_summary": "The framework first generates three bounding box prompts (tight box, ellipse-based, and circle-based) from clinical annotations to guide SAM in producing pseudo-labels. It then selects optimal pseudo-labels using intersection/union operations and employs uncertainty-aware cross-teaching between two models trained on these labels.",
+  "method_components": [
+    "Box Prompts Generation (BPG) module creating shape-prior bounding boxes",
+    "Pseudo-label selection module using intersection/union operations",
+    "SAM-driven uncertainty estimation computing XOR between intersection and union masks",
+    "Uncertainty-aware cross-teaching with dual models and label-space perturbations"
+  ],
+  "key_innovation": "Using SAM's prediction inconsistencies (via XOR operation between intersection and union of pseudo-labels) to generate uncertainty maps that guide cross-teaching, effectively reducing the impact of pseudo-label inaccuracies during training.",
+  "assumptions": [
+    "Nodules exhibit convex shapes that can be approximated by ellipses and circles",
+    "SAM's predictions, despite prompt sensitivity, contain sufficient signal for uncertainty estimation",
+    "Cross-teaching between two models can effectively leverage complementary pseudo-label information"
+  ],
+  "theoretical_grounding": "None explicitly provided in the text; method relies on empirical validation through experiments on clinical datasets.",
+  "datasets_used": [
+    "Thyroid Ultrasound Dataset (422 left + 422 right images)",
+    "Breast Ultrasound Dataset (604 left + 151 right images)"
+  ],
+  "baselines_compared": [
+    "GrabCut [13]",
+    "Entropy Minimization (EM) [1]",
+    "Total Variation (TV) loss [2]",
+    "Mumford-Shah loss [3]",
+    "GatedCRF Loss [16]",
+    "WSSS [12]",
+    "RECISTSup [11]",
+    "CoTraining [9]",
+    "CoTeaching [17]",
+    "TriNet [18]",
+    "MTCL [19]",
+    "SAM [14]",
+    "Fully Supervised"
+  ],
+  "metrics_used": [
+    "Dice similarity coefficient (DSC)",
+    "95th percentile Hausdorff Distance (HD95)"
+  ],
+  "hyperparameters": "Batch size: 24, Learning rate: 0.01 with poly learning rate strategy, Image size: 256×256 pixels, Data augmentation: random rotation and flipping, Backbone: UNet, λ (weight factor for cross teaching loss)",
+  "compute_required": "NVIDIA RTX 3090 GPU",
+  "seeds": null,
+  "headline_result": "Ours achieved DSC of 73.5±22.2 and HD95 of 32.8±71.5 on Thyroid Ultrasound, and DSC of 75.5±19.8 and HD95 of 52.3±36.5 on Breast Ultrasound",
+  "results_table": [
+    {
+      "method": "EM [1]",
+      "dataset": "Thyroid Ultrasound",
+      "metric": "DSC",
+      "value": "71.7±23.6"
+    },
+    {
+      "method": "EM [1]",
+      "dataset": "Thyroid Ultrasound",
+      "metric": "HD95",
+      "value": "35.6±68.4"
+    },
+    {
+      "method": "TV [2]",
+      "dataset": "Thyroid Ultrasound",
+      "metric": "DSC",
+      "value": "70.7±23.5"
+    },
+    {
+      "method": "TV [2]",
+      "dataset": "Thyroid Ultrasound",
+      "metric": "HD95",
+      "value": "53.4±95.8"
+    },
+    {
+      "method": "Mumford-Shah [3]",
+      "dataset": "Thyroid Ultrasound",
+      "metric": "DSC",
+      "value": "71.7±22.6"
+    },
+    {
+      "method": "Mumford-Shah [3]",
+      "dataset": "Thyroid Ultrasound",
+      "metric": "HD95",
+      "value": "36.3±71.4"
+    },
+    {
+      "method": "GatedCRF [16]",
+      "dataset": "Thyroid Ultrasound",
+      "metric": "DSC",
+      "value": "68.6±25.2"
+    },
+    {
+      "method": "GatedCRF [16]",
+      "dataset": "Thyroid Ultrasound",
+      "metric": "HD95",
+      "value": "39.1±74.6"
+    },
+    {
+      "method": "WSSS [12]",
+      "dataset": "Thyroid Ultrasound",
+      "metric": "DSC",
+      "value": "73.3±21.3"
+    },
+    {
+      "method": "WSSS [12]",
+      "dataset": "Thyroid Ultrasound",
+      "metric": "HD95",
+      "value": "37.2±67.1"
+    },
+    {
+      "method": "RECISTSup [11]",
+      "dataset": "Thyroid Ultrasound",
+      "metric": "DSC",
+      "value": "72.5±21.9"
+    },
+    {
+      "method": "RECISTSup [11]",
+      "dataset": "Thyroid Ultrasound",
+      "metric": "HD95",
+      "value": "37.5±72.9"
+    },
+    {
+      "method": "CoTraining [9]",
+      "dataset": "Thyroid Ultrasound",
+      "metric": "DSC",
+      "value": "73.4±23.7"
+    },
+    {
+      "method": "CoTraining [9]",
+      "dataset": "Thyroid Ultrasound",
+      "metric": "HD95",
+      "value": "39.2±74.0"
+    },
+    {
+      "method": "CoTeaching [17]",
+      "dataset": "Thyroid Ultrasound",
+      "metric": "DSC",
+      "value": "71.2±24.0"
+    },
+    {
+      "method": "CoTeaching [17]",
+      "dataset": "Thyroid Ultrasound",
+      "metric": "HD95",
+      "value": "38.7±72.5"
+    },
+    {
+      "method": "TriNet [18]",
+      "dataset": "Thyroid Ultrasound",
+      "metric": "DSC",
+      "value": "70.8±23.9"
+    },
+    {
+      "method": "TriNet [18]",
+      "dataset": "Thyroid Ultrasound",
+      "metric": "HD95",
+      "value": "35.9±72.4"
+    },
+    {
+      "method": "MTCL [19]",
+      "dataset": "Thyroid Ultrasound",
+      "metric": "DSC",
+      "value": "70.2±25.0"
+    },
+    {
+      "method": "MTCL [19]",
+      "dataset": "Thyroid Ultrasound",
+      "metric": "HD95",
+      "value": "40.1±76.3"
+    },
+    {
+      "method": "Ours",
+      "dataset": "Thyroid Ultrasound",
+      "metric": "DSC",
+      "value": "73.5±22.2"
+    },
+    {
+      "method": "Ours",
+      "dataset": "Thyroid Ultrasound",
+      "metric": "HD95",
+      "value": "32.8±71.5"
+    },
+    {
+      "method": "GrabCut [13]",
+      "dataset": "Thyroid Ultrasound",
+      "metric": "DSC",
+      "value": "68.6±25.3"
+    },
+    {
+      "method": "GrabCut [13]",
+      "dataset": "Thyroid Ultrasound",
+      "metric": "HD95",
+      "value": "48.4±85.2"
+    },
+    {
+      "method": "SAM [14]",
+      "dataset": "Thyroid Ultrasound",
+      "metric": "DSC",
+      "value": "72.1±23.5"
+    },
+    {
+      "method": "SAM [14]",
+      "dataset": "Thyroid Ultrasound",
+      "metric": "HD95",
+      "value": "42.0±78.7"
+    },
+    {
+      "method": "Fully Supervised",
+      "dataset": "Thyroid Ultrasound",
+      "metric": "DSC",
+      "value": "74.7±23.8"
+    },
+    {
+      "method": "Fully Supervised",
+      "dataset": "Thyroid Ultrasound",
+      "metric": "HD95",
+      "value": "35.3±75.3"
+    },
+    {
+      "method": "EM [1]",
+      "dataset": "Breast Ultrasound",
+      "metric": "DSC",
+      "value": "72.4±21.0"
+    },
+    {
+      "method": "EM [1]",
+      "dataset": "Breast Ultrasound",
+      "metric": "HD95",
+      "value": "62.5±43.3"
+    },
+    {
+      "method": "TV [2]",
+      "dataset": "Breast Ultrasound",
+      "metric": "DSC",
+      "value": "73.4±21.0"
+    },
+    {
+      "method": "TV [2]",
+      "dataset": "Breast Ultrasound",
+      "metric": "HD95",
+      "value": "59.3±43.0"
+    },
+    {
+      "method": "Mumford-Shah [3]",
+      "dataset": "Breast Ultrasound",
+      "metric": "DSC",
+      "value": "72.3±24.1"
+    },
+    {
+      "method": "Mumford-Shah [3]",
+      "dataset": "Breast Ultrasound",
+      "metric": "HD95",
+      "value": "57.7±45.0"
+    },
+    {
+      "method": "GatedCRF [16]",
+      "dataset": "Breast Ultrasound",
+      "metric": "DSC",
+      "value": "73.2±20.3"
+    },
+    {
+      "method": "GatedCRF [16]",
+      "dataset": "Breast Ultrasound",
+      "metric": "HD95",
+      "value": "57.7±39.6"
+    },
+    {
+      "method": "WSSS [12]",
+      "dataset": "Breast Ultrasound",
+      "metric": "DSC",
+      "value": "74.7±19.5"
+    },
+    {
+      "method": "WSSS [12]",
+      "dataset": "Breast Ultrasound",
+      "metric": "HD95",
+      "value": "59.8±41.9"
+    },
+    {
+      "method": "RECISTSup [11]",
+      "dataset": "Breast Ultrasound",
+      "metric": "DSC",
+      "value": "72.5±20.8"
+    },
+    {
+      "method": "RECISTSup [11]",
+      "dataset": "Breast Ultrasound",
+      "metric": "HD95",
+      "value": "61.6±41.1"
+    },
+    {
+      "method": "CoTraining [9]",
+      "dataset": "Breast Ultrasound",
+      "metric": "DSC",
+      "value": "68.3±22.0"
+    },
+    {
+      "method": "CoTraining [9]",
+      "dataset": "Breast Ultrasound",
+      "metric": "HD95",
+      "value": "58.9±37.5"
+    },
+    {
+      "method": "CoTeaching [17]",
+      "dataset": "Breast Ultrasound",
+      "metric": "DSC",
+      "value": "72.7±21.8"
+    },
+    {
+      "method": "CoTeaching [17]",
+      "dataset": "Breast Ultrasound",
+      "metric": "HD95",
+      "value": "53.4±37.3"
+    },
+    {
+      "method": "TriNet [18]",
+      "dataset": "Breast Ultrasound",
+      "metric": "DSC",
+      "value": "69.5±22.6"
+    },
+    {
+      "method": "TriNet [18]",
+      "dataset": "Breast Ultrasound",
+      "metric": "HD95",
+      "value": "58.2±38.8"
+    },
+    {
+      "method": "MTCL [19]",
+      "dataset": "Breast Ultrasound",
+      "metric": "DSC",
+      "value": "70.5±22.1"
+    },
+    {
+      "method": "MTCL [19]",
+      "dataset": "Breast Ultrasound",
+      "metric": "HD95",
+      "value": "60.1±38.6"
+    },
+    {
+      "method": "Ours",
+      "dataset": "Breast Ultrasound",
+      "metric": "DSC",
+      "value": "75.5±19.8"
+    },
+    {
+      "method": "Ours",
+      "dataset": "Breast Ultrasound",
+      "metric": "HD95",
+      "value": "52.3±36.5"
+    },
+    {
+      "method": "GrabCut [13]",
+      "dataset": "Breast Ultrasound",
+      "metric": "DSC",
+      "value": "71±23.0"
+    },
+    {
+      "method": "GrabCut [13]",
+      "dataset": "Breast Ultrasound",
+      "metric": "HD95",
+      "value": "59.2±42.7"
+    },
+    {
+      "method": "SAM [14]",
+      "dataset": "Breast Ultrasound",
+      "metric": "DSC",
+      "value": "74.6±20.0"
+    },
+    {
+      "method": "SAM [14]",
+      "dataset": "Breast Ultrasound",
+      "metric": "HD95",
+      "value": "59.2±42.4"
+    },
+    {
+      "method": "Fully Supervised",
+      "dataset": "Breast Ultrasound",
+      "metric": "DSC",
+      "value": "76.4±20.6"
+    },
+    {
+      "method": "Fully Supervised",
+      "dataset": "Breast Ultrasound",
+      "metric": "HD95",
+      "value": "53.2±43.2"
+    }
+  ],
+  "ablations": [
+    "Single model baseline (Fsingle)",
+    "Dual Model with Consistency Regularization (CR)",
+    "Dual Model with Cross Pseudo Supervision (CPS)",
+    "Dual Model with Dynamically Mixed Pseudo Labels Supervision (DMPLS)",
+    "SAM-driven Uncertainty-Aware Cross Teaching (Ours)"
+  ],
+  "improvement_over_baseline": "Thyroid Ultrasound: DSC improvement of 1.4 (73.5 - 72.1), HD95 improvement of -9.2 (32.8 - 42.0). Breast Ultrasound: DSC improvement of 3.4 (75.5 - 72.1), HD95 improvement of -9.7 (52.3 - 42.0)",
+  "stated_limitations": [],
+  "unstated_weaknesses": [
+    "Dependence on SAM foundation model which may not be optimized for medical images",
+    "Limited annotation type (only aspect ratio annotations) may not capture complex nodule shapes",
+    "Single modality focus (ultrasound) raises questions about cross-modality generalization",
+    "Uncertainty estimation mechanism not elaborated in abstract",
+    "Lack of comparison with other weakly supervised methods"
+  ],
+  "threats_to_validity": [
+    "Potential overfitting to specific ultrasound datasets",
+    "SAM's performance on medical images may differ significantly from natural images",
+    "Quality of aspect ratio annotations could significantly impact performance",
+    "Uncertainty estimates may not be calibrated properly for medical applications"
+  ],
+  "reproducibility": "low (limited information in abstract, needs full paper details)",
+  "open_questions": [
+    "How exactly is uncertainty quantified and used in the cross teaching process?",
+    "What is the computational cost of using SAM for pseudo-label generation?",
+    "How does the method perform with different types of nodules or imaging artifacts?",
+    "What is the threshold for pseudo-label selection based on uncertainty?"
+  ],
+  "future_work": [
+    "Extending to other medical imaging modalities",
+    "Incorporating additional weak annotation types",
+    "Improving uncertainty estimation mechanisms",
+    "Comparing with alternative foundation models"
+  ],
+  "gaps_this_enables": [
+    "Framework for uncertainty-aware pseudo-label selection in medical imaging",
+    "Method for leveraging foundation models with minimal annotations",
+    "Cross-teaching paradigm for semi-supervised medical segmentation"
+  ],
+  "relevance_to_topic": "Highly relevant as it directly addresses uncertainty-aware pseudo-label selection for semi-supervised medical image tasks.",
+  "relation_type": "method_source",
+  "can_run_on_macbook": "unknown (depends on SAM model size and computational requirements)",
+  "reusable_assets": [
+    "Uncertainty-aware pseudo-label selection framework",
+    "SAM-based pseudo-label generation approach"
+  ],
+  "code_available": "unknown (not mentioned in abstract)",
+  "code_url": "null",
+  "best_result": "Ours achieved DSC of 73.5±22.2 and HD95 of 32.8±71.5 on Thyroid Ultrasound, and DSC of 75.5±19.8 and HD95 of 52.3±36.5 on Breast Ultrasound",
+  "key_results": {
+    "Thyroid Ultrasound_DSC": "71.7±22.6",
+    "Thyroid Ultrasound_HD95": "36.3±71.4"
+  },
+  "limitations_stated": [],
+  "evidence_id": "EV003",
+  "title": "Sam-Driven Weakly Supervised Nodule Segmentation with Uncertainty-Aware Cross Teaching",
+  "year": 2024,
+  "arxiv_id": "2407.13553",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 23182,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 5,
+  "pdf_tables": 2,
+  "pdf_captions": 5
+}

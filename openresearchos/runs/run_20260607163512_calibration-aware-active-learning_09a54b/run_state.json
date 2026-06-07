@@ -1,0 +1,182 @@
+{
+  "schema_version": 1,
+  "run_id": "run_20260607163512_calibration-aware-active-learning_09a54b",
+  "topic": "calibration-aware active learning under noisy labels for small medical tabular datasets",
+  "created_at": "2026-06-07T16:35:39.969Z",
+  "updated_at": "2026-06-07T16:51:42.122Z",
+  "current_state": "EVIDENCE_LOCKED",
+  "scope_classification": {
+    "label": "local_experiment",
+    "rationale": "The topic can be explored with small simulations, synthetic data, or lightweight local experiments on the Mac.",
+    "feasibility_note": "Yes, this research topic is feasible on your MacBook M4 with 36GB RAM and MPS GPU. Suitable public datasets include the UCI Heart Disease dataset (303 samples), the Breast Cancer Wisconsin dataset (569 samples), and the Diabetes dataset from NIDDK (768 samples), all of which are small tabular medical datasets. Experimentation with calibration-aware active learning algorithms under noisy labels should take approximately 2-4 hours per dataset, including data preprocessing, model training, and eval"
+  },
+  "prior_knowledge": [
+    {
+      "file": "memory/experiment_lessons/experiment_lesson_id004.md",
+      "excerpt": ""
+    },
+    {
+      "file": "memory/experiment_lessons/experiment_lesson_i05.md",
+      "excerpt": ""
+    },
+    {
+      "file": "memory/experiment_lessons/experiment_lesson_i06.md",
+      "excerpt": ""
+    },
+    {
+      "file": "memory/experiment_lessons/experiment_lesson_id006.md",
+      "excerpt": ""
+    },
+    {
+      "file": "memory/experiment_lessons/experiment_lesson_id001.md",
+      "excerpt": ""
+    }
+  ],
+  "search_queries": [
+    "Calibration-aware active learning",
+    "Noisy label correction",
+    "Uncertainty sampling medical",
+    "Semi-supervised medical learning",
+    "Medical diagnosis active learning",
+    "Clinical tabular data",
+    "Healthcare ML calibration",
+    "Small medical datasets",
+    "Active learning benchmarks",
+    "Medical data evaluation",
+    "Noisy label benchmarks",
+    "Active learning limitations",
+    "Noisy label challenges",
+    "Medical tabular datasets",
+    "Active learning surveys"
+  ],
+  "evidence_ids": [
+    "EV001",
+    "EV002",
+    "EV003",
+    "EV004",
+    "EV005",
+    "EV006",
+    "EV007",
+    "EV008",
+    "EV009",
+    "EV010",
+    "EV011",
+    "EV012",
+    "EV013",
+    "EV014",
+    "EV015",
+    "EV016",
+    "EV017",
+    "EV018",
+    "EV019",
+    "EV020",
+    "EV021",
+    "EV022",
+    "EV023",
+    "EV024",
+    "EV025",
+    "EV026",
+    "EV027",
+    "EV028",
+    "EV029",
+    "EV030",
+    "EV031",
+    "EV032",
+    "EV033",
+    "EV034",
+    "EV035",
+    "EV036",
+    "EV037",
+    "EV038",
+    "EV039",
+    "EV040",
+    "EV041",
+    "EV042",
+    "EV043",
+    "EV044",
+    "EV045",
+    "EV046",
+    "EV047",
+    "EV048",
+    "EV049",
+    "EV050",
+    "EV051",
+    "EV052",
+    "EV053",
+    "EV054",
+    "EV055",
+    "EV056",
+    "EV057",
+    "EV058",
+    "EV059",
+    "EV060"
+  ],
+  "parsed_papers": [],
+  "claim_graph": {
+    "claims": [],
+    "links": []
+  },
+  "research_gaps": [],
+  "idea_tree": [],
+  "reviewer_scores": [],
+  "experiment_candidates": [],
+  "approval_status": {},
+  "micro_probe_results": [],
+  "probe_results": [],
+  "ablation_results": [],
+  "mvp_results": [],
+  "failed_ideas": [],
+  "validation_results": [],
+  "paper_readiness_level": "RRL-1",
+  "final_output_path": null,
+  "suppress_telegram": true,
+  "history": [
+    {
+      "at": "2026-06-07T16:35:39.969Z",
+      "state": "TOPIC_SCOPED",
+      "detail": "The topic can be explored with small simulations, synthetic data, or lightweight local experiments on the Mac."
+    },
+    {
+      "at": "2026-06-07T16:35:39.969Z",
+      "state": "SEARCH_PLAN_CREATED",
+      "detail": "15 queries created (LLM-generated)."
+    },
+    {
+      "at": "2026-06-07T16:35:43.870Z",
+      "state": "LITERATURE_DISCOVERY_RUNNING",
+      "detail": "Starting structured literature discovery."
+    },
+    {
+      "at": "2026-06-07T16:42:04.697Z",
+      "state": "PAPER_READINESS_REVIEW",
+      "detail": "research_failure_report_required"
+    },
+    {
+      "at": "2026-06-07T16:42:04.698Z",
+      "state": "PAPER_DRAFTED_OR_STOPPED",
+      "detail": "Failure report produced."
+    },
+    {
+      "at": "2026-06-07T16:42:04.698Z",
+      "state": "VENUE_FIT_DONE",
+      "detail": "Venue fit written."
+    },
+    {
+      "at": "2026-06-07T16:42:04.698Z",
+      "state": "TRACE_EXPORTED",
+      "detail": "Trace export command written."
+    },
+    {
+      "at": "2026-06-07T16:42:43.696Z",
+      "state": "LITERATURE_DISCOVERY_RUNNING",
+      "detail": "Starting structured literature discovery."
+    },
+    {
+      "at": "2026-06-07T16:42:53.439Z",
+      "state": "EVIDENCE_LOCKED",
+      "detail": "60 papers found (target was 50+)."
+    }
+  ],
+  "discovery_errors": [],
+  "hidden_reason": "Interrupted run kept only as evidence-locked partial; not a final Telegram result."
+}

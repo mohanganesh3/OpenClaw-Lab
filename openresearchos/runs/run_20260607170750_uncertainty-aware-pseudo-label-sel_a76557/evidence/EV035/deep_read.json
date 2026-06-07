@@ -1,0 +1,198 @@
+{
+  "problem_addressed": "Surgical phase recognition requires expensive full annotations where surgeons mark precise start/end times for each phase, creating a barrier for practical deployment.",
+  "core_claim": "Timestamp supervision (single timestamp per phase) with uncertainty-aware temporal diffusion achieves competitive performance to full supervision while reducing annotation cost by 74%.",
+  "key_contributions": [
+    "Introduces timestamp supervision paradigm for surgical phase recognition",
+    "Proposes Uncertainty-Aware Temporal Diffusion (UATD) method to generate pseudo labels from timestamps",
+    "Demonstrates loop training strategy to handle long videos and class imbalance"
+  ],
+  "novelty": "UATD uniquely combines temporal diffusion guided by uncertainty estimation to expand single timestamps to high-confidence neighboring frames, avoiding boundary ambiguity while leveraging the consecutive nature of surgical phases.",
+  "method_summary": "Uses Monte Carlo Dropout for uncertainty estimation, diffuses timestamp labels to adjacent low-uncertainty frames, and employs loop training to optimize spatial and temporal extractors separately using only labeled frames.",
+  "method_components": [
+    "Uncertainty estimation via Monte Carlo Dropout",
+    "Temporal diffusion algorithm with uncertainty thresholding",
+    "Loop training decoupling spatial/temporal optimization"
+  ],
+  "key_innovation": "Temporal diffusion stops at high-uncertainty frames (boundaries), ensuring generated pseudo labels are high-confidence and phase-consistent, enabling effective learning from minimal supervision.",
+  "assumptions": [
+    "Surgical phases are long events with consecutive frames",
+    "Uncertainty estimation via Monte Carlo Dropout reliably identifies high-confidence frames",
+    "Surgeons tend to annotate timestamps near phase midpoints"
+  ],
+  "theoretical_grounding": "No formal proofs provided; empirical validation through extensive experiments showing competitive results to full supervision methods.",
+  "datasets_used": [
+    "Cholec80",
+    "M2CAI16"
+  ],
+  "baselines_compared": [
+    "Naive",
+    "Uniform",
+    "Li et al. [14]",
+    "PhaseNet",
+    "EndoNet",
+    "SV-RCNet",
+    "OHFM",
+    "Casual TCN",
+    "TeCNO",
+    "TMRNet",
+    "Trans-SVNet",
+    "TCN*",
+    "SurgSSL",
+    "LRTD"
+  ],
+  "metrics_used": [
+    "AC (%)",
+    "PR (%)",
+    "RE (%)",
+    "JA (%)"
+  ],
+  "hyperparameters": {
+    "uncertainty_threshold": "τ=0.1 (optimal)",
+    "iterations": "2 (loop training)"
+  },
+  "compute_required": "null",
+  "seeds": "10 random seeds for robustness test",
+  "headline_result": {
+    "method": "Ours (UATD)",
+    "dataset": "Cholec80",
+    "metric": "AC",
+    "value": "88.6%"
+  },
+  "results_table": [
+    {
+      "method": "Ours",
+      "dataset": "Cholec80",
+      "metric": "AC",
+      "value": "88.6%"
+    },
+    {
+      "method": "Ours",
+      "dataset": "Cholec80",
+      "metric": "PR",
+      "value": "86.1%"
+    },
+    {
+      "method": "Ours",
+      "dataset": "Cholec80",
+      "metric": "RE",
+      "value": "88.0%"
+    },
+    {
+      "method": "Ours",
+      "dataset": "Cholec80",
+      "metric": "JA",
+      "value": "73.7%"
+    },
+    {
+      "method": "Ours",
+      "dataset": "M2CAI16",
+      "metric": "AC",
+      "value": "86.0%"
+    },
+    {
+      "method": "Ours",
+      "dataset": "M2CAI16",
+      "metric": "PR",
+      "value": "85.0%"
+    },
+    {
+      "method": "Ours",
+      "dataset": "M2CAI16",
+      "metric": "RE",
+      "value": "87.1%"
+    },
+    {
+      "method": "Ours",
+      "dataset": "M2CAI16",
+      "metric": "JA",
+      "value": "71.4%"
+    }
+  ],
+  "ablations": [
+    {
+      "component": "UATD (spatial)",
+      "contribution": "Improves AC from 66.9% to 82.3%"
+    },
+    {
+      "component": "UATD (temporal)",
+      "contribution": "Improves AC from 66.9% to 77.6%"
+    },
+    {
+      "component": "Loop Training (LP)",
+      "contribution": "Adds ~3% improvement"
+    },
+    {
+      "component": "τ=0.1",
+      "contribution": "Optimal trade-off (AC=85.95%)"
+    }
+  ],
+  "improvement_over_baseline": {
+    "vs_Li_et_al": "Cholec80: AC+9.2%, PR+7.4%, RE+2.6%, JA+9.7%; M2CAI16: AC+13.3%, PR+8.5%, RE+6.6%, JA+11.5%"
+  },
+  "stated_limitations": [
+    "The method is specifically designed for surgical videos where phases are long events, which might limit its applicability to other medical image classification tasks."
+  ],
+  "unstated_weaknesses": [
+    "The method's performance under significant label noise is not addressed.",
+    "The method's reliance on temporal information might not be suitable for static medical images.",
+    "The paper doesn't discuss how the method handles variations in surgical procedures or surgeons."
+  ],
+  "threats_to_validity": [
+    "The method's performance might be specific to surgical videos where phases are long events, which might not generalize to other medical imaging scenarios.",
+    "The effectiveness of the method under substantial label noise is not addressed.",
+    "The paper doesn't discuss how the method handles variations in surgical procedures or surgeons."
+  ],
+  "reproducibility": "medium",
+  "open_questions": [
+    "How does the UATD method perform under significant label noise?",
+    "Can the method be adapted for static medical images?",
+    "How does the method handle variations in surgical procedures or surgeons?"
+  ],
+  "future_work": [
+    "Adapting the method for static medical images.",
+    "Evaluating the method's performance under significant label noise.",
+    "Handling variations in surgical procedures or surgeons."
+  ],
+  "gaps_this_enables": [
+    "Developing uncertainty-aware pseudo-label selection methods for semi-supervised learning in medical image classification.",
+    "Exploring timestamp supervision as a cost-effective alternative to full annotations.",
+    "Adapting temporal-based methods to static medical images."
+  ],
+  "relevance_to_topic": "The paper introduces an uncertainty-aware method (UATD) for generating pseudo labels, which aligns with the research project on uncertainty-aware pseudo-label selection for semi-supervised medical image classification under label noise.",
+  "relation_type": "method_source",
+  "can_run_on_macbook": false,
+  "reusable_assets": [],
+  "code_available": false,
+  "best_result": {
+    "method": "Ours (UATD)",
+    "dataset": "Cholec80",
+    "metric": "AC",
+    "value": "88.6%"
+  },
+  "key_results": {
+    "Cholec80_AC": "88.6%",
+    "Cholec80_PR": "86.1%",
+    "Cholec80_RE": "88.0%",
+    "Cholec80_JA": "73.7%",
+    "M2CAI16_AC": "86.0%",
+    "M2CAI16_PR": "85.0%"
+  },
+  "limitations_stated": [
+    "The method is specifically designed for surgical videos where phases are long events, which might limit its applicability to other medical image classification tasks."
+  ],
+  "evidence_id": "EV035",
+  "title": "Less Is More: Surgical Phase Recognition From Timestamp Supervision",
+  "year": 2022,
+  "arxiv_id": "2202.08199",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 81446,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 13,
+  "pdf_tables": 19,
+  "pdf_captions": 11
+}

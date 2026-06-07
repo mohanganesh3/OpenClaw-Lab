@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\nGenotype–Phenotype Integration through\nMachine Learning and\nPersonalised Gene Regulatory Networks for\nCancer Metastasis Prediction\nJiwei Fu1,∗\nChunyu Yang1\n1Nuffield Department of Medi",
+  "method": "e procedure of the PANDA algorithm.\nStep\nDescription\nFormula\n1: Responsibility\nMeasures how well a TF–gene link is\nsupported by the TF’s cooperativity\npartners.\nRij = z\n  P\nk Pik Wkj\n \n2: Availability",
+  "results": "431\nTable 5 reports results for GNN models using the same feature sets.\nUnlike the\ntraditional ML models, the GNN’s AUROC values show limited variation with feature\nset size. Although the top 500-gene",
+  "conclusion": "cription factors: TP53, MYC, STAT3, HIF1A, NFKB1, SOX2, TWIST1,\nSNAI1, and ZEB1 [20, 21, 22, 23, 24, 25, 26, 27, 28] but instead trained on the entire\nnetwork of the top 100 to 1000 ranked genes. This"
+}

@@ -1,0 +1,88 @@
+{
+  "problem_addressed": "Standard self-attention lacks explicit temporal dynamics, with tokens attending independently based on static feature similarity rather than consistent state evolution over time.",
+  "core_claim": "Self-attention can be reformulated as precision-weighted state estimation under a learned linear stochastic dynamical prior, where attention weights are determined by consistency with probabilistic state predictions.",
+  "key_contributions": [
+    "Introduction of Robust Filter Attention (RFA) as a formulation of self-attention as robust state estimation",
+    "Development of Spectrally Coupled RFA (SC-RFA) to address phase wrap-around in long-range extrapolation",
+    "Dynamical interpretation of positional mechanisms connecting rotational embeddings to transport and uncertainty propagation"
+  ],
+  "novelty": "Treats tokens as noisy observations of a latent trajectory governed by linear stochastic differential equations, with attention weights determined by consistency under this model rather than static feature similarity, unlike deterministic geometric approaches (RoPE) or monotonic recency biasing (ALiBi).",
+  "method_summary": "RFA models each token as a noisy observation of a latent trajectory governed by a linear stochastic differential equation. Past keys are propagated to the query position under learned dynamics, with attention weights computed from prediction errors measured under precisions determined by the Differential Lyapunov Equation (DLE).",
+  "method_components": [
+    "Linear stochastic differential equation dynamics for state propagation",
+    "Differential Lyapunov Equation (DLE) for precision calculation",
+    "Power-law robust weighting for attention computation",
+    "Spectrally coupled decay rates in SC-RFA variant"
+  ],
+  "key_innovation": "Attention as precision-weighted state estimation under a stochastic dynamical prior, coupling transport and uncertainty propagation in a principled way where tokens are weighted according to their consistency with learned dynamics.",
+  "assumptions": [
+    "Isotropic noise and decay assumptions",
+    "Linear stochastic dynamics for state evolution",
+    "Gaussian noise models for observations",
+    "Fixed training context window (512 tokens)"
+  ],
+  "theoretical_grounding": "Grounded in stochastic process theory, specifically linear stochastic differential equations and the Differential Lyapunov Equation for uncertainty propagation. The paper provides derivations showing how RFA reduces to standard attention under special cases and connects to existing positional mechanisms.",
+  "datasets_used": [],
+  "baselines_compared": [],
+  "metrics_used": [],
+  "hyperparameters": "null",
+  "compute_required": "null",
+  "seeds": "null",
+  "headline_result": "null",
+  "results_table": [],
+  "ablations": [],
+  "improvement_over_baseline": "null",
+  "stated_limitations": [
+    "Reliance on isotropic noise and decay assumptions for computational complexity matching"
+  ],
+  "unstated_weaknesses": [
+    "Potential sensitivity to hyperparameters in SDE formulation",
+    "Assumption of linear SDEs might limit expressiveness"
+  ],
+  "threats_to_validity": [
+    "Computational complexity claims under specific assumptions",
+    "Limited evaluation to language modeling benchmarks"
+  ],
+  "reproducibility": "medium (code availability not mentioned in abstract)",
+  "open_questions": [
+    "How does RFA perform on tasks other than language modeling?",
+    "What are the optimal hyperparameters for the SDE formulation?"
+  ],
+  "future_work": [
+    "Further exploration of dynamical interpretation of positional embeddings",
+    "Extension to non-linear SDEs"
+  ],
+  "gaps_this_enables": [
+    "Application of state estimation techniques to attention mechanisms",
+    "New perspectives on positional embeddings"
+  ],
+  "relevance_to_topic": "Directly relevant as it proposes an efficient attention mechanism with matching computational complexity",
+  "relation_type": "method_source",
+  "can_run_on_macbook": true,
+  "reusable_assets": [
+    "RFA method",
+    "Dynamical interpretation of positional embeddings"
+  ],
+  "code_available": false,
+  "code_url": null,
+  "best_result": "null",
+  "key_results": {},
+  "limitations_stated": [
+    "Reliance on isotropic noise and decay assumptions for computational complexity matching"
+  ],
+  "evidence_id": "EV016",
+  "title": "Robust Filter Attention: Self-Attention as Precision-Weighted State Estimation",
+  "year": 2025,
+  "arxiv_id": "2509.04154",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 106151,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 37,
+  "pdf_tables": 2,
+  "pdf_captions": 21
+}

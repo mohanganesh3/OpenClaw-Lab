@@ -1,0 +1,180 @@
+{
+  "problem_addressed": "Semi-supervised medical image segmentation suffers from limited labeled data, where existing methods rely on direct pseudo supervision of predictions rather than feature-level learning.",
+  "core_claim": "A two-stage framework using feature representation learning with stage-adaptive contrastive methods and uncertainty-aware pseudo labeling achieves superior segmentation performance by creating compact and well-separated feature spaces.",
+  "key_contributions": [
+    "Stage-adaptive contrastive learning framework with boundary-aware loss (first stage) and prototype-aware loss (second stage)",
+    "Aleatoric Uncertainty Adaptive (AUA) method for generating higher-quality pseudo labels by adaptively regularizing prediction consistency"
+  ],
+  "novelty": "Unlike prior works focusing on consistency regularization and pseudo labeling directly on predictions, this paper explores feature representation learning with labeled and pseudo-labeled images to regularize feature spaces, introducing stage-adaptive contrastive learning and uncertainty-aware pseudo labeling.",
+  "method_summary": "The method employs a two-stage framework: first using boundary-aware contrastive loss on labeled data's boundary pixels to learn features, then applying prototype-aware contrastive loss on all pixels with pseudo labels. AUA estimates aleatoric uncertainty to adaptively weight consistency regularization between student and teacher models.",
+  "method_components": [
+    "Aleatoric Uncertainty Adaptive (AUA) module with uncertainty estimation and adaptive consistency regularization",
+    "Boundary-aware Contrastive Loss (BCL) for first stage on near-boundary pixels",
+    "Prototype-aware Contrastive Loss (PCL) for second stage on all pixels"
+  ],
+  "key_innovation": "The stage-adaptive contrastive learning that progressively refines feature representations - starting with boundary pixels in labeled data and expanding to all pixels with pseudo labels - combined with uncertainty-aware pseudo labeling that adapts consistency regularization based on input ambiguity.",
+  "assumptions": [
+    "Aleatoric uncertainty follows a multi-variant Gaussian distribution around logits",
+    "Low-rank approximation of covariance matrix is computationally feasible",
+    "Pseudo labels become more accurate in the second stage with better feature representations"
+  ],
+  "theoretical_grounding": "The AUA loss is derived from generalized energy distance and log-sum-exp operations, with mathematical formulations for uncertainty estimation (Eq. 3-5) and contrastive losses (Eq. 10). The low-rank covariance approximation reduces complexity from quadratic to linear.",
+  "datasets_used": [
+    "Pancreas dataset (12 labeled, 48 unlabeled scans)",
+    "Colon tumor dataset (5 labeled, 95 unlabeled scans)",
+    "LA dataset (16 labeled, 64 unlabeled scans)"
+  ],
+  "baselines_compared": [
+    "V-Net",
+    "Mean Teacher (MT)",
+    "Deep Adversarial Network (DAN)",
+    "Entropy Minimization",
+    "Uncertainty Aware Mean Teacher (UA-MT)",
+    "Cross-Consistency Training (CCT)",
+    "Shapeaware Adversarial Network (SASSNet)",
+    "Dual-task Consistency (DTC)",
+    "Uncertainty Rectified Pyramid Consistency (URPC)",
+    "Mutual Consistency Network (MC-Net)"
+  ],
+  "metrics_used": [
+    "Dice[%]↑",
+    "Jaccard[%]↑",
+    "ASD[voxel]↓",
+    "95HD[voxel]↓"
+  ],
+  "hyperparameters": {
+    "lambda_r": "0.1",
+    "lambda_c_Colon": "0.03",
+    "lambda_c_LA": "0.09",
+    "PCL_weight": "0.1",
+    "lambda_g_t": "0.15∗e−5(1−t/tmax)2"
+  },
+  "compute_required": "Training takes ~2x time vs single-stage methods; inference time similar to V-Net (4.70s vs 4.67s/sample)",
+  "seeds": "null",
+  "headline_result": "Ours achieves 79.81% Dice on Pancreas dataset (12 labeled, 48 unlabeled), surpassing state-of-the-art by 0.54%",
+  "results_table": [
+    {
+      "method": "Ours",
+      "dataset": "Pancreas",
+      "metric": "Dice[%]",
+      "value": "79.81"
+    },
+    {
+      "method": "Ours",
+      "dataset": "Pancreas",
+      "metric": "Jaccard[%]",
+      "value": "66.82"
+    },
+    {
+      "method": "Ours",
+      "dataset": "Colon",
+      "metric": "Dice[%]",
+      "value": "49.00"
+    },
+    {
+      "method": "Ours",
+      "dataset": "Colon",
+      "metric": "Jaccard[%]",
+      "value": "35.15"
+    },
+    {
+      "method": "Ours",
+      "dataset": "LA",
+      "metric": "Dice[%]",
+      "value": "91.08"
+    },
+    {
+      "method": "Ours",
+      "dataset": "LA",
+      "metric": "Jaccard[%]",
+      "value": "83.67"
+    },
+    {
+      "method": "MC-Net",
+      "dataset": "Pancreas",
+      "metric": "Dice[%]",
+      "value": "79.27"
+    },
+    {
+      "method": "URPC",
+      "dataset": "Pancreas",
+      "metric": "Dice[%]",
+      "value": "78.83"
+    },
+    {
+      "method": "V-Net (Full Supervised)",
+      "dataset": "Pancreas",
+      "metric": "Dice[%]",
+      "value": "81.78"
+    }
+  ],
+  "ablations": [
+    "AUA (adaptive supervision) improves over baseline V-Net by 5.48% Dice (Pancreas) and 14.93% Dice (Colon)",
+    "BCL (boundary-aware contrastive learning) adds +1.02% Dice (Pancreas) and +0.96% Dice (Colon)",
+    "PCL (prototype-aware contrastive learning) adds +0.73% Dice (Pancreas) and +2.25% Dice (Colon)",
+    "Pseudo labeling alone improves baseline by 8.45% Dice (Pancreas) and 12.68% Dice (Colon)",
+    "Full method (AUA+BCL+Pseudo+PCL) achieves best performance"
+  ],
+  "improvement_over_baseline": "Proposed method surpasses previous SOTA by 0.54% (Pancreas), 1.18% (Pancreas 5% labeled), 3.43% (Colon), and matches SOTA (LA)",
+  "stated_limitations": [],
+  "unstated_weaknesses": [
+    "The paper focuses on segmentation rather than classification, which is the focus of the project",
+    "The method relies on pseudo labeling without addressing label noise issues",
+    "No explicit handling of uncertainty in pseudo-label selection",
+    "No evaluation of performance under significant label noise conditions"
+  ],
+  "threats_to_validity": [
+    "Generalizability to different medical imaging modalities is not addressed",
+    "Computational requirements and scalability are not discussed",
+    "Effectiveness under substantial label noise is not evaluated",
+    "Potential bias introduced by pseudo-labeling process"
+  ],
+  "reproducibility": "medium",
+  "open_questions": [
+    "How would the method perform under significant label noise?",
+    "Can the feature representation learning approach be adapted for classification tasks?",
+    "What are the computational requirements for the proposed framework?",
+    "How does the method handle uncertainty in pseudo-label selection?"
+  ],
+  "future_work": [],
+  "gaps_this_enables": [
+    "Research on uncertainty-aware pseudo-label selection for semi-supervised learning",
+    "Adaptation of feature representation learning techniques for classification tasks",
+    "Investigation of robust methods for semi-supervised learning under label noise"
+  ],
+  "relevance_to_topic": "This paper explores feature representation learning for semi-supervised medical image analysis, which provides insights for uncertainty-aware pseudo-label selection in classification under label noise.",
+  "relation_type": "method_source",
+  "can_run_on_macbook": false,
+  "reusable_assets": [
+    "Stage-adaptive contrastive learning method",
+    "Boundary-aware contrastive loss",
+    "Prototype-aware contrastive loss"
+  ],
+  "code_available": false,
+  "code_url": null,
+  "best_result": "Ours achieves 79.81% Dice on Pancreas dataset (12 labeled, 48 unlabeled), surpassing state-of-the-art by 0.54%",
+  "key_results": {
+    "Pancreas_Dice[%]": "79.81",
+    "Pancreas_Jaccard[%]": "66.82",
+    "Colon_Dice[%]": "49.00",
+    "Colon_Jaccard[%]": "35.15",
+    "LA_Dice[%]": "91.08",
+    "LA_Jaccard[%]": "83.67"
+  },
+  "limitations_stated": [],
+  "evidence_id": "EV013",
+  "title": "Exploring Feature Representation Learning for Semi-Supervised Medical Image Segmentation",
+  "year": 2021,
+  "arxiv_id": "2111.10989",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 74124,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 13,
+  "pdf_tables": 8,
+  "pdf_captions": 5
+}

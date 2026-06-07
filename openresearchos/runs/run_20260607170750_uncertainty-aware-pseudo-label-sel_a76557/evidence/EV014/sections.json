@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\nDomain Speciﬁc, Semi-Supervised Transfer\nLearning for Medical Imaging\nJitender Singh Virk and Deepti R. Bathula\nIndian Institute of Technology Ropar\nkrivsj@gmail.com\nbathula@iitrpr.ac.",
+  "method": "tions and perturbations, (iii) Global Concatenate\n\n\n<!-- page 3 -->\nDomain Speciﬁc, Semi-Supervised Transfer Learning for Medical Imaging\n3\nPooling layer (GCP) [16] - concatenates the results of both ",
+  "results": "but eﬀective semi-supervised\ntraining approach. As depicted in Fig 2, it consists of a teacher and a student\nnetwork. First, the teacher network is trained on a small labeled dataset and is\nsubsequent",
+  "conclusion": "ed on ImageNet\n\n\n<!-- page 7 -->\nDomain Speciﬁc, Semi-Supervised Transfer Learning for Medical Imaging\n7\nFig. 3. Examples are showing the integrated gradients with top 5 predicted labels and\ncorrespon"
+}

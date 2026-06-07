@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\nUncertainty-Aware Semi-Supervised Few Shot Segmentation\nSoopil Kim, Philip Chikontwe, Sang Hyun Park\nDepartment of Robotics Engineering, DGIST\nsoopilkim, philipchicco, shpark13135@dgis",
+  "method": "uncertainty can be quantiﬁed based on variational in-\nference of output. Since the posterior of NNs is intractable,\nvarious approximations have been proposed (Louizos et al.\n2016; Blundell et al. 2015",
+  "results": "ity considers both the initial predic-\ntion and uncertainty estimate together. Even though the ini-\ntial probability of a pixel is high, if its uncertainty is also\nhigh, we can obtain µ′ with lower va",
+  "conclusion": "ang et al. 2020) PPNet* (Liu et al. 2020b) PFENet (Tian et al. 2020) SAGNN (Xie et al. 2021) ASGNet (Li et al. 2021) Ours Ours* | RN 50 | 55.4 56.0 55.2 52.3 60.8 62.1 59.3 53.6 56.7 | 57.1 58.5 56.8 "
+}

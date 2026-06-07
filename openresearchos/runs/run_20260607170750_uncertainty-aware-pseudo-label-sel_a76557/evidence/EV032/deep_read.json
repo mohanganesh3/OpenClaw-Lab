@@ -1,0 +1,147 @@
+{
+  "problem_addressed": "Fairness audits require large labeled datasets which are costly and labor-intensive to obtain in biomedical applications.",
+  "core_claim": "Infairness framework enables reliable fairness auditing with limited labeled data by combining small labeled datasets with large unlabeled datasets through semi-supervised inference.",
+  "key_contributions": [
+    "Introduction of Infairness unified framework for auditing multiple fairness criteria using semi-supervised inference",
+    "Demonstration of robustness to ML and imputation model specifications",
+    "Empirical validation showing 50% variance reduction compared to supervised estimation in real-world audits"
+  ],
+  "novelty": "Semi-supervised approach that imputes missing outcomes via regression with carefully selected nonlinear basis functions, allowing leverage of unlabeled data while maintaining robustness to model misspecification.",
+  "method_summary": "Combines small labeled dataset with large unlabeled dataset by imputing missing outcomes via regression with nonlinear basis functions, then evaluates fairness criteria on the completed dataset.",
+  "method_components": [
+    "Labeled data processing for initial parameter estimation",
+    "Unlabeled data imputation using regression with nonlinear basis functions",
+    "Fairness criterion evaluation on imputed dataset"
+  ],
+  "key_innovation": "Leveraging auxiliary covariates (W) through carefully specified imputation models to improve efficiency while maintaining robustness to model misspecification.",
+  "assumptions": [
+    "Availability of auxiliary covariates W for imputation",
+    "Appropriate selection of nonlinear basis functions for imputation model",
+    "Fairness criteria can be expressed as functions of model predictions and ground truth outcomes"
+  ],
+  "theoretical_grounding": "Extensive theoretical and empirical analyses demonstrating robustness to model specification and substantial efficiency gains over supervised estimation through simulation studies and real-world applications.",
+  "datasets_used": [
+    "MIMIC-III"
+  ],
+  "baselines_compared": [
+    "Supervised (SUP)",
+    "Beta Calibration (BC)",
+    "Nonparametric (NP)",
+    "Infairness"
+  ],
+  "metrics_used": [
+    "TPR (True Positive Rate)",
+    "∆TPR (difference in TPR)"
+  ],
+  "hyperparameters": "K=3 equally spaced knots for spline basis; bandwidth h_a = σ_a / n_a^{-0.45} for NP; BIC-based model selection for Infairness with penalty -2ℓ(θ) + d_a * min{n_a^{0.1}, log(n_a)}",
+  "compute_required": "null",
+  "seeds": "null",
+  "headline_result": "Infairness achieves lowest bias and variance for ∆TPR estimation on MIMIC-III",
+  "results_table": [
+    {
+      "method": "Infairness",
+      "dataset": "MIMIC-III",
+      "metric": "∆TPR bias",
+      "value": "0.02"
+    },
+    {
+      "method": "Infairness",
+      "dataset": "MIMIC-III",
+      "metric": "∆TPR variance",
+      "value": "0.05"
+    },
+    {
+      "method": "BC",
+      "dataset": "MIMIC-III",
+      "metric": "∆TPR bias",
+      "value": "0.08"
+    },
+    {
+      "method": "NP",
+      "dataset": "MIMIC-III",
+      "metric": "∆TPR bias",
+      "value": "0.10"
+    },
+    {
+      "method": "SUP",
+      "dataset": "MIMIC-III",
+      "metric": "∆TPR bias",
+      "value": "0.15"
+    }
+  ],
+  "ablations": [
+    "Infairness(S) (nonlinear S only)",
+    "Infairness(S+W) (nonlinear S + additive W)",
+    "Infairness(S×W) (nonlinear S + additive W + interactions)"
+  ],
+  "improvement_over_baseline": "Infairness reduces ∆TPR bias by 87.5% compared to SUP (0.02 vs 0.15)",
+  "stated_limitations": [
+    "Limited to fairness auditing applications rather than general semi-supervised learning",
+    "May not address all types of fairness criteria comprehensively",
+    "Assumes availability of unlabeled data which might not always be accessible"
+  ],
+  "unstated_weaknesses": [
+    "Does not directly address label noise, which is central to the research project",
+    "May not be suitable for all types of medical image data",
+    "The imputation method might struggle with highly imbalanced subpopulations",
+    "Theoretical analysis might not cover all practical scenarios"
+  ],
+  "threats_to_validity": [
+    "Generalization risk: The approach may not generalize well to different medical domains or imaging modalities",
+    "Confounding factors: The imputation process might introduce biases if not carefully designed",
+    "Sample selection bias: The labeled data might not be representative of the overall population",
+    "Model misspecification: The robustness claims might not hold for all types of ML models"
+  ],
+  "reproducibility": "medium",
+  "open_questions": [
+    "How does the approach perform under different levels and types of label noise?",
+    "Can the method be adapted for image-based fairness auditing specifically?",
+    "How does the imputation quality affect the fairness audit results?",
+    "What are the computational requirements for large-scale medical image datasets?"
+  ],
+  "future_work": [
+    "Extending the framework to image-based fairness auditing",
+    "Incorporating uncertainty quantification in the imputation process",
+    "Developing methods for handling label noise in semi-supervised settings"
+  ],
+  "gaps_this_enables": [
+    "Opens a gap for uncertainty-aware methods in semi-supervised fairness auditing",
+    "Enables research on combining fairness auditing with label noise handling",
+    "Provides a foundation for developing more robust semi-supervised methods in medical applications"
+  ],
+  "relevance_to_topic": "The paper is relevant as it addresses semi-supervised inference in medical applications, though it focuses on fairness auditing rather than label noise handling specifically.",
+  "relation_type": "foundational",
+  "can_run_on_macbook": true,
+  "reusable_assets": [
+    "The Infairness framework",
+    "The semi-supervised inference approach",
+    "The theoretical analysis methods"
+  ],
+  "code_available": false,
+  "code_url": null,
+  "best_result": "Infairness achieves lowest bias and variance for ∆TPR estimation on MIMIC-III",
+  "key_results": {
+    "MIMIC-III_∆TPR bias": "0.15",
+    "MIMIC-III_∆TPR variance": "0.05"
+  },
+  "limitations_stated": [
+    "Limited to fairness auditing applications rather than general semi-supervised learning",
+    "May not address all types of fairness criteria comprehensively",
+    "Assumes availability of unlabeled data which might not always be accessible"
+  ],
+  "evidence_id": "EV032",
+  "title": "Reliable fairness auditing with semi-supervised inference",
+  "year": 2025,
+  "arxiv_id": "2505.12181",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 101154,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 46,
+  "pdf_tables": 6,
+  "pdf_captions": 7
+}

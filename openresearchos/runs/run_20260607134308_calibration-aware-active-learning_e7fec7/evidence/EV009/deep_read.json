@@ -1,0 +1,92 @@
+{
+  "problem_addressed": "Lack of comprehensive quantitative evaluation for LLMs acting as agents in interactive environments.",
+  "core_claim": "While top commercial LLMs show strong agent capabilities, significant performance gaps exist with open-source models, primarily due to poor long-term reasoning, decision-making, and instruction following abilities.",
+  "key_contributions": [
+    "AGENTBENCH: A multi-dimensional benchmark with 8 distinct environments for evaluating LLM-as-Agent capabilities",
+    "Extensive evaluation of 29 API-based and open-source LLMs revealing performance disparities",
+    "Identification of key failure modes and obstacles in LLM agent development"
+  ],
+  "novelty": "First comprehensive benchmark specifically designed for evaluating LLMs as agents across diverse interactive environments, unlike prior work focusing on single-task evaluations.",
+  "method_summary": "AGENTBENCH creates 8 simulated interactive environments (Operating System, Database, Knowledge, Graph, Digital Card Game, Lateral Thinking Puzzle, House-holding, Web) where LLMs perform agent tasks, with performance measured through automated evaluation.",
+  "method_components": [
+    "Eight distinct interactive environments covering different agent challenges",
+    "Automated evaluation framework measuring task completion success",
+    "Comparative analysis across API-based and open-source LLMs"
+  ],
+  "key_innovation": "Multi-environment design capturing diverse agent capabilities (reasoning, decision-making, instruction following) beyond traditional benchmarks, revealing critical failure modes in LLM agents.",
+  "assumptions": [
+    "Simulated environments adequately represent real-world agent challenges",
+    "LLM outputs can be objectively evaluated through automated metrics",
+    "Performance gaps reflect fundamental limitations rather than evaluation artifacts"
+  ],
+  "theoretical_grounding": "None presented; relies on empirical analysis of performance data and failure patterns across environments.",
+  "datasets_used": [
+    "FREEBASE-based dataset with 1,663 questions from GrailQA, ComplexWebQuestions, and GraphQuestions",
+    "Text-to-SQL dataset with INSERT, UPDATE, and SELECT operations"
+  ],
+  "baselines_compared": [
+    "gpt-4",
+    "gpt-3.5-turbo"
+  ],
+  "metrics_used": [
+    "F1 score",
+    "Exact Match",
+    "Executability"
+  ],
+  "hyperparameters": "null",
+  "compute_required": "null",
+  "seeds": "null",
+  "headline_result": "null",
+  "results_table": [
+    {
+      "method": "gpt-4",
+      "dataset": "Re-annotated data",
+      "metric": "Score",
+      "value": "SELECT: 0.32, INSERT: 0.27, UPDATE: 0.66"
+    },
+    {
+      "method": "gpt-3.5-turbo",
+      "dataset": "Re-annotated data",
+      "metric": "Score",
+      "value": "SELECT: 0.19, INSERT: 0.19, UPDATE: 0.92"
+    },
+    {
+      "method": "gpt-4",
+      "dataset": "Original data",
+      "metric": "Score",
+      "value": "SELECT: 0.32, INSERT: 0.32, UPDATE: 0.32"
+    },
+    {
+      "method": "gpt-3.5-turbo",
+      "dataset": "Original data",
+      "metric": "Score",
+      "value": "SELECT: 0.21, INSERT: 0.23, UPDATE: 0.66"
+    }
+  ],
+  "ablations": [
+    "null"
+  ],
+  "improvement_over_baseline": "null",
+  "best_result": "null",
+  "key_results": {
+    "Re-annotated data_Score": "SELECT: 0.19, INSERT: 0.19, UPDATE: 0.92",
+    "Original data_Score": "SELECT: 0.21, INSERT: 0.23, UPDATE: 0.66"
+  },
+  "limitations_stated": [],
+  "reproducibility": "low",
+  "evidence_id": "EV009",
+  "title": "AgentBench: Evaluating LLMs as Agents",
+  "year": 2023,
+  "arxiv_id": "2308.03688",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 182651,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 58,
+  "pdf_tables": 6,
+  "pdf_captions": 16
+}

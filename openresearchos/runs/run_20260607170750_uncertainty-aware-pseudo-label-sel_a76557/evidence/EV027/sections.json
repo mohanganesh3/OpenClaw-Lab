@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\narXiv:2108.11986v2  [eess.IV]  2 Dec 2024\nAnomaly Detection in Medical Imaging - A Mini\nReview\nMaximilian E. Tschuchnig∗† and Michael Gadermayr∗\n∗Information Technology and Systems Man",
+  "method": "ction III.\nIII. RESULTS\nThe semi-exhaustive literature review resulted in 45 re-\nsearch items, from which further 6 were removed due to not\ncontaining applications in medical imaging (only exemplar\nst",
+  "results": "]\nfundus image\nanomly localization (glaucoma)\nadversarial attention guided VAE\n[11]\nMSI\noutlier removal to improve burn\ndetection\nz-score based outlier detection to improve SVM and KNN\n[12]\nMSI\noutlie",
+  "conclusion": "2009.\n[18] A. Krizhevsky, I. Sutskever, and G. Hinton, “2012 alexnet,” pp. 1–9,\n2012.\n[19] O. Ronneberger, P. Fischer, and T. Brox, “U-net: Convolutional net-\nworks for biomedical image segmentation,”"
+}

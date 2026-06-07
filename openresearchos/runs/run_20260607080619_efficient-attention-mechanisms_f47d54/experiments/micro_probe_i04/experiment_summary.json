@@ -1,0 +1,16 @@
+{
+  "idea_id": "I04",
+  "idea_title": "Context-Aware Attention for Embodied Classification",
+  "level": "micro",
+  "decision": "FIX_AND_RETRY",
+  "decision_reason": "Experiment failed after 3 attempts.",
+  "success": false,
+  "metrics": null,
+  "review": "",
+  "reviewer_council": null,
+  "revision_suggestion": null,
+  "attempts": 3,
+  "duration_ms": 1962,
+  "expDir": "/Users/mohanganesh/OpenClaw-Lab/openresearchos/runs/run_20260607080619_efficient-attention-mechanisms_f47d54/experiments/micro_probe_i04",
+  "timestamp": "2026-06-07T09:07:57.309Z"
+}

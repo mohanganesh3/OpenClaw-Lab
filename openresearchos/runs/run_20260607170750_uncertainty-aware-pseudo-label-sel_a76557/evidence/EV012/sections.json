@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\nSemi-supervised learning for medical image\nclassiﬁcation using imbalanced training data\nTri Huynha,∗, Aiden Nibalia, Zhen Hea\naDepartment of Computer Science and Information Technology",
+  "method": "training\ndata. Secondly they do not target a blend of OSP and ASP but instead always\ntarget OSP only, and thus do not exploit the augmented example to improve\nthe model’s behaviour for the original ex",
+  "results": "examples in\nembedding space. ABCL assumes in cases 3 and 4 of Tab. 1 (one of the pre-\ndictions belongs to a major class and the other belongs to a minor class), it\nis more likely the actual class is t",
+  "conclusion": "ms poorly for\nhigh γ values, especially for the major class NV. ABCL improves the model’s\nperformance on minor classes by compensating more towards minor classes. As\na consequence, in case 2 of Tab. 1"
+}

@@ -1,0 +1,38 @@
+{
+  "experiment_id": "probe_id001",
+  "run_id": "run_20260607170750_uncertainty-aware-pseudo-label-sel_a76557",
+  "idea_id": "ID001",
+  "idea_title": "Uncertainty-calibrated pseudo-label acceptance under label noise",
+  "hypothesis": "Entropy-filtered, class-balanced pseudo-label selection will improve held-out classification accuracy over naive confidence pseudo-labeling when the initial labeled set contains injected label noise.",
+  "level": "probe",
+  "task_type": "uncertainty_aware_pseudo_label_ssl",
+  "dataset": "sklearn_digits_medical_image_ssl_proxy_label_noise",
+  "seeds": [
+    42,
+    1337,
+    2024
+  ],
+  "num_seeds": 3,
+  "baseline_name": "Naive confidence pseudo-labeling (LogReg)",
+  "proposed_name": "Entropy-filtered class-balanced pseudo-labeling (RF)",
+  "baseline_accuracy": 0.507407,
+  "baseline_accuracy_std": 0.013858,
+  "accuracy": 0.632593,
+  "accuracy_std": 0.025809,
+  "baseline_f1": 0.497756,
+  "f1": 0.610414,
+  "f1_std": 0.018344,
+  "improvement": {
+    "accuracy": 0.125185
+  },
+  "improvement_pct": 12.519,
+  "better": true,
+  "t_statistic": 9.206,
+  "p_value": 0.0116,
+  "statistically_significant": true,
+  "duration_seconds": 0.76,
+  "platform": "macOS-26.1-arm64-arm-64bit",
+  "python": "3.12.13",
+  "success": true,
+  "status": "passed"
+}

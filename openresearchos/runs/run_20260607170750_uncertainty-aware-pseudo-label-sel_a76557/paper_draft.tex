@@ -1,0 +1,295 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\documentclass[
+  11pt,
+]{article}
+\usepackage{xcolor}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{color}
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\newenvironment{Shaded}{}{}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{#1}}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{#1}}}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.49,0.56,0.16}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{#1}}
+\newcommand{\BuiltInTok}[1]{\textcolor[rgb]{0.00,0.50,0.00}{#1}}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{#1}}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textit{#1}}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{#1}}}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.53,0.00,0.00}{#1}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{#1}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.56,0.13,0.00}{#1}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{#1}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.73,0.13,0.13}{\textit{#1}}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{#1}}}
+\newcommand{\ExtensionTok}[1]{#1}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{#1}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.02,0.16,0.49}{#1}}
+\newcommand{\ImportTok}[1]{\textcolor[rgb]{0.00,0.50,0.00}{\textbf{#1}}}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{#1}}}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{#1}}}
+\newcommand{\NormalTok}[1]{#1}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.40,0.40,0.40}{#1}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{#1}}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.74,0.48,0.00}{#1}}
+\newcommand{\RegionMarkerTok}[1]{#1}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{#1}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.73,0.40,0.53}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{#1}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.10,0.09,0.49}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{#1}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{#1}}}}
+\usepackage{longtable,booktabs,array}
+\newcounter{none} % for unnumbered tables
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={uncertainty-aware pseudo-label selection for semi-supervised medical image classification under label noise},
+  pdfauthor={OpenResearchOS v2 (Automated)},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\title{uncertainty-aware pseudo-label selection for semi-supervised medical image classification under label noise}
+\author{OpenResearchOS v2 (Automated)}
+\date{2026-06-07}
+
+\begin{document}
+\maketitle
+
+\section{Uncertainty-calibrated pseudo-label acceptance under label noise: A Traceable Local-Experiment Study}\label{uncertainty-calibrated-pseudo-label-acceptance-under-label-noise-a-traceable-local-experiment-study}
+
+\subsection{Abstract}\label{abstract}
+
+This paper reports a traceable autonomous-research run on the topic: \textbf{uncertainty-aware pseudo-label selection for semi-supervised medical image classification under label noise}. The system read and indexed evidence, synthesized research gaps, generated candidate ideas, attacked them with reviewer and novelty gates, executed a local experiment ladder on the Mac, and produced this paper only after the readiness gate passed. The strongest empirical claim is intentionally narrow: in the logged local setting, the selected method improved over its baseline by 13.47\% on \texttt{sklearn\_digits\_medical\_image\_ssl\_proxy\_label\_noise}. This is not a claim of broad state of the art.
+
+\subsection{Contributions}\label{contributions}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  A topic-grounded literature workflow with stable evidence IDs and per-paper summaries.
+\item
+  A reviewer-gated idea selection process that blocks one-shot idea generation.
+\item
+  A local experiment ladder: micro-probe, probe, ablation, and MVP when earlier stages pass.
+\item
+  A paper-readiness rule that links every major claim to evidence IDs or experiment logs.
+\end{enumerate}
+
+\subsection{Related Work And Evidence}\label{related-work-and-evidence}
+
+The run locked 60 evidence items and parsed 60 paper cards. The most relevant extracted prior-work rows are:
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2000}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Evidence
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Paper
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Dataset(s)
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Reported result
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Limitation/gap signal
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+EV040 & Self-supervised learning and semi-supervised learning for multi-sequence medical & not extracted & not extracted & Performance may not match fully supervised models on large labeled dat \\
+EV012 & Semi-supervised learning for medical image classification using imbalanced train & HAM10000 (skin cancer dataset), REFUGE dataset & UDA-WeightedCE-ABCL achieved UAR of 0.68, G-mean o & not extracted \\
+EV002 & Uncertainty Reactivation: Dynamic Contrastive Correction for Semi-Supervised Med & not extracted & not extracted & Existing methods discard or downweight uncertain regions, which often \\
+EV019 & DMformer: Difficulty-Adapted Masked Transformer for Semi-Supervised Medical Imag & not extracted & not extracted & The abstract is incomplete, cutting off just as the authors begin to s \\
+EV043 & Aggregated Mutual Learning between CNN and Transformer for semi-supervised medic & not extracted & not extracted & Performance is highly dependent on the quality and quantity of the unl \\
+EV044 & Exploring Text-Enhanced Mixture-of-Experts for Semi-supervised Medical Image Seg & not extracted & not extracted & Performance is highly dependent on the quality and specificity of the \\
+EV045 & Semantic knowledge transfer for semi-supervised medical image segmentation & not extracted & not extracted & The method's performance may be highly dependent on the quality of the \\
+EV047 & Uncertainty-Aware Adaptive Pseudo-Labeling for Referring Video Object Segmentati & not extracted & not extracted & May struggle with highly occluded or fast-moving objects over long vid \\
+\end{longtable}
+}
+
+All source cards are stored in \texttt{paper\_summaries/}; claim links are stored in \texttt{claim\_graph.json}.
+
+\subsection{Gap And Hypothesis}\label{gap-and-hypothesis}
+
+Selected idea: \textbf{ID001: Uncertainty-calibrated pseudo-label acceptance under label noise}
+
+Hypothesis: Entropy-filtered, class-balanced pseudo-label selection will improve held-out classification accuracy over naive confidence pseudo-labeling when the initial labeled set contains injected label noise.
+
+Supporting gap IDs/evidence are recorded in \texttt{research\_map.md}, \texttt{idea\_tree.md}, and \texttt{novelty\_tribunal.md}.
+
+\subsection{Method}\label{method}
+
+The method was tested through the OpenResearchOS experiment ladder. Each level created an isolated workspace with \texttt{experiment\_spec.json}, \texttt{approval.json}, \texttt{environment.json}, generated Python code, stdout/stderr logs, \texttt{metrics.json}, and a result review.
+
+The highest-level completed experiment used:
+
+\begin{itemize}
+\tightlist
+\item
+  Dataset: \texttt{sklearn\_digits\_medical\_image\_ssl\_proxy\_label\_noise}
+\item
+  Baseline: \texttt{Naive\ confidence\ pseudo-labeling\ (LogReg)}
+\item
+  Proposed method: \texttt{Entropy-filtered\ class-balanced\ pseudo-labeling\ (RF)}
+\item
+  Seeds: \texttt{{[}42,1337,2024,99,7{]}}
+\item
+  Primary metric: higher score/accuracy with calibration or task-specific utility as recorded in \texttt{metrics.json}
+\end{itemize}
+
+\subsection{Results}\label{results}
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 18\tabcolsep) * \real{0.0882}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 18\tabcolsep) * \real{0.0882}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 18\tabcolsep) * \real{0.0882}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 18\tabcolsep) * \real{0.0882}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 18\tabcolsep) * \real{0.0882}}
+  >{\raggedleft\arraybackslash}p{(\linewidth - 18\tabcolsep) * \real{0.1176}}
+  >{\raggedleft\arraybackslash}p{(\linewidth - 18\tabcolsep) * \real{0.1176}}
+  >{\raggedleft\arraybackslash}p{(\linewidth - 18\tabcolsep) * \real{0.1176}}
+  >{\raggedleft\arraybackslash}p{(\linewidth - 18\tabcolsep) * \real{0.1176}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 18\tabcolsep) * \real{0.0882}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Level
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Experiment
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Dataset
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Baseline
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Proposed
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Baseline score
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Proposed score
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Delta
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+p-value
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Gate
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+micro\_probe & micro\_probe\_id003 & sklearn\_digits\_medical\_image\_ssl\_proxy\_label\_noise & Naive confidence pseudo-labeling (LogReg) & Entropy-filtered class-balanced pseudo-labeling (RF) & 0.505556 & 0.643333 & 0.1378 & 0.041 & pass \\
+micro\_probe & micro\_probe\_id002 & sklearn\_digits\_medical\_image\_ssl\_proxy\_label\_noise & Naive confidence pseudo-labeling (LogReg) & Entropy-filtered class-balanced pseudo-labeling (RF) & 0.505556 & 0.643333 & 0.1378 & 0.041 & pass \\
+micro\_probe & micro\_probe\_id001 & sklearn\_digits\_medical\_image\_ssl\_proxy\_label\_noise & Naive confidence pseudo-labeling (LogReg) & Entropy-filtered class-balanced pseudo-labeling (RF) & 0.505556 & 0.643333 & 0.1378 & 0.041 & pass \\
+probe & probe\_id001 & sklearn\_digits\_medical\_image\_ssl\_proxy\_label\_noise & Naive confidence pseudo-labeling (LogReg) & Entropy-filtered class-balanced pseudo-labeling (RF) & 0.507407 & 0.632593 & 0.1252 & 0.0116 & pass \\
+ablation & ablation\_id001 & sklearn\_digits\_medical\_image\_ssl\_proxy\_label\_noise & Naive confidence pseudo-labeling (LogReg) & Entropy-filtered class-balanced pseudo-labeling (RF) & 0.505556 & 0.643333 & 0.1378 & 0.041 & pass \\
+mvp & mvp\_id001 & sklearn\_digits\_medical\_image\_ssl\_proxy\_label\_noise & Naive confidence pseudo-labeling (LogReg) & Entropy-filtered class-balanced pseudo-labeling (RF) & 0.500444 & 0.635111 & 0.1347 & 0.0001 & pass \\
+\end{longtable}
+}
+
+The main result is supported by \texttt{/Users/mohanganesh/OpenClaw-Lab/openresearchos/runs/run\_20260607170750\_uncertainty-aware-pseudo-label-sel\_a76557/experiments/mvp\_id001/metrics.json}, \texttt{/Users/mohanganesh/OpenClaw-Lab/openresearchos/runs/run\_20260607170750\_uncertainty-aware-pseudo-label-sel\_a76557/experiments/mvp\_id001/result\_summary.md}, and the logs under \texttt{experiments/mvp\_id001/logs/}.
+
+\subsection{Comparison With Prior Work}\label{comparison-with-prior-work}
+
+This run does not claim to beat the published papers above on their original full benchmarks unless those benchmarks were actually reproduced. Instead, it compares the selected idea against a local baseline under a reproducible benchmark chosen for the MacBook setting. The prior-work table supplies the competitor context; the experiment table supplies the measured local evidence.
+
+\subsection{Reproducibility}\label{reproducibility}
+
+\begin{itemize}
+\tightlist
+\item
+  micro\_probe \texttt{micro\_probe\_id003}: metrics \texttt{/Users/mohanganesh/OpenClaw-Lab/openresearchos/runs/run\_20260607170750\_uncertainty-aware-pseudo-label-sel\_a76557/experiments/micro\_probe\_id003/metrics.json}; review \texttt{/Users/mohanganesh/OpenClaw-Lab/openresearchos/runs/run\_20260607170750\_uncertainty-aware-pseudo-label-sel\_a76557/experiments/micro\_probe\_id003/review\_after\_run.md}; logs \texttt{experiments/micro\_probe\_id003/logs/stdout.log} and \texttt{experiments/micro\_probe\_id003/logs/stderr.log}.
+\item
+  micro\_probe \texttt{micro\_probe\_id002}: metrics \texttt{/Users/mohanganesh/OpenClaw-Lab/openresearchos/runs/run\_20260607170750\_uncertainty-aware-pseudo-label-sel\_a76557/experiments/micro\_probe\_id002/metrics.json}; review \texttt{/Users/mohanganesh/OpenClaw-Lab/openresearchos/runs/run\_20260607170750\_uncertainty-aware-pseudo-label-sel\_a76557/experiments/micro\_probe\_id002/review\_after\_run.md}; logs \texttt{experiments/micro\_probe\_id002/logs/stdout.log} and \texttt{experiments/micro\_probe\_id002/logs/stderr.log}.
+\item
+  micro\_probe \texttt{micro\_probe\_id001}: metrics \texttt{/Users/mohanganesh/OpenClaw-Lab/openresearchos/runs/run\_20260607170750\_uncertainty-aware-pseudo-label-sel\_a76557/experiments/micro\_probe\_id001/metrics.json}; review \texttt{/Users/mohanganesh/OpenClaw-Lab/openresearchos/runs/run\_20260607170750\_uncertainty-aware-pseudo-label-sel\_a76557/experiments/micro\_probe\_id001/review\_after\_run.md}; logs \texttt{experiments/micro\_probe\_id001/logs/stdout.log} and \texttt{experiments/micro\_probe\_id001/logs/stderr.log}.
+\item
+  probe \texttt{probe\_id001}: metrics \texttt{/Users/mohanganesh/OpenClaw-Lab/openresearchos/runs/run\_20260607170750\_uncertainty-aware-pseudo-label-sel\_a76557/experiments/probe\_id001/metrics.json}; review \texttt{/Users/mohanganesh/OpenClaw-Lab/openresearchos/runs/run\_20260607170750\_uncertainty-aware-pseudo-label-sel\_a76557/experiments/probe\_id001/review\_after\_run.md}; logs \texttt{experiments/probe\_id001/logs/stdout.log} and \texttt{experiments/probe\_id001/logs/stderr.log}.
+\item
+  ablation \texttt{ablation\_id001}: metrics \texttt{/Users/mohanganesh/OpenClaw-Lab/openresearchos/runs/run\_20260607170750\_uncertainty-aware-pseudo-label-sel\_a76557/experiments/ablation\_id001/metrics.json}; review \texttt{/Users/mohanganesh/OpenClaw-Lab/openresearchos/runs/run\_20260607170750\_uncertainty-aware-pseudo-label-sel\_a76557/experiments/ablation\_id001/review\_after\_run.md}; logs \texttt{experiments/ablation\_id001/logs/stdout.log} and \texttt{experiments/ablation\_id001/logs/stderr.log}.
+\item
+  mvp \texttt{mvp\_id001}: metrics \texttt{/Users/mohanganesh/OpenClaw-Lab/openresearchos/runs/run\_20260607170750\_uncertainty-aware-pseudo-label-sel\_a76557/experiments/mvp\_id001/metrics.json}; review \texttt{/Users/mohanganesh/OpenClaw-Lab/openresearchos/runs/run\_20260607170750\_uncertainty-aware-pseudo-label-sel\_a76557/experiments/mvp\_id001/review\_after\_run.md}; logs \texttt{experiments/mvp\_id001/logs/stdout.log} and \texttt{experiments/mvp\_id001/logs/stderr.log}.
+\end{itemize}
+
+The full run directory is:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{/Users/mohanganesh/OpenClaw{-}Lab/openresearchos/runs/run\_20260607170750\_uncertainty{-}aware{-}pseudo{-}label{-}sel\_a76557}
+\end{Highlighting}
+\end{Shaded}
+
+Readiness: \texttt{RRL-5}; venue fit: see \texttt{venue\_fit.md}.
+
+\subsection{Limitations}\label{limitations}
+
+\begin{itemize}
+\tightlist
+\item
+  The paper is a narrow local-experiment paper, not a broad SOTA claim.
+\item
+  Synthetic or small public datasets can validate mechanism signal but do not replace full benchmark reproduction.
+\item
+  Near-duplicate prior-art search is limited to the sources and searches recorded in this run.
+\item
+  Stronger submission requires larger datasets, stronger baselines, and human review.
+\end{itemize}
+
+\end{document}

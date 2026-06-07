@@ -1,0 +1,263 @@
+[
+  {
+    "idea_id": "I01",
+    "average_score": 3,
+    "decision": "revise",
+    "next_action": "REVISE_IDEA",
+    "fatal_flaws": [],
+    "fixable_flaws": [
+      "The idea is an incremental combination of existing techniques without a clear novel theoretical contribution.",
+      "The hypothesis is a straightforward application and lacks a surprising or counter-intuitive prediction.",
+      "The proposal lacks a plan for reproducibility, specifically mentioning the use of multiple random seeds.",
+      "The evaluation relies on a single baseline (entropy sampling), which is insufficient to demonstrate the method's superiority against other active learning strategies.",
+      "The computational cost of running Reflexion is not addressed, which is a significant practical consideration."
+    ],
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 2,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "The idea is an incremental combination of existing techniques without a clear novel theoretical contribution.",
+          "The hypothesis is a straightforward application and lacks a surprising or counter-intuitive prediction."
+        ],
+        "decision": "reject",
+        "justification": "The proposal combines two existing techniques, Reflexion and calibration-aware active learning, in a straightforward manner without introducing a novel theoretical framework. This incremental combination lacks the significant novelty required for acceptance as it does not fundamentally advance the field."
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 4,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "The proposal lacks a plan for reproducibility, specifically mentioning the use of multiple random seeds.",
+          "The evaluation relies on a single baseline (entropy sampling), which is insufficient to demonstrate the method's superiority against other active learning strategies.",
+          "The computational cost of running Reflexion is not addressed, which is a significant practical consideration."
+        ],
+        "decision": "revise",
+        "justification": "The core idea is promising but the proposed experimental setup is insufficiently rigorous. The revision must include multiple random seeds for reproducibility and a more comprehensive set of baselines to properly validate the claimed improvements."
+      }
+    ]
+  },
+  {
+    "idea_id": "I02",
+    "average_score": 3.5,
+    "decision": "reject",
+    "next_action": "RUN_ADDITIONAL_SEARCH",
+    "fatal_flaws": [
+      "Hypothesis lacks specificity - unclear what 'd' refers to and no justification for 20% improvement target",
+      "Dataset mismatch - using 'digits' dataset contradicts stated goal of working on 'tabular medical data'",
+      "Missing critical experimental details - no seeds, compute requirements, or complete methodology"
+    ],
+    "fixable_flaws": [
+      "Need to select appropriate medical dataset for evaluation",
+      "Should include multiple relevant baselines beyond least confidence sampling",
+      "Require detailed computational resource information and random seed handling"
+    ],
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 5,
+        "fatal_flaws": [],
+        "fixable_flaws": [],
+        "decision": "revise",
+        "justification": "Review unavailable (budget/parse)."
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 2,
+        "fatal_flaws": [
+          "Hypothesis lacks specificity - unclear what 'd' refers to and no justification for 20% improvement target",
+          "Dataset mismatch - using 'digits' dataset contradicts stated goal of working on 'tabular medical data'",
+          "Missing critical experimental details - no seeds, compute requirements, or complete methodology"
+        ],
+        "fixable_flaws": [
+          "Need to select appropriate medical dataset for evaluation",
+          "Should include multiple relevant baselines beyond least confidence sampling",
+          "Require detailed computational resource information and random seed handling"
+        ],
+        "decision": "reject",
+        "justification": "The proposed work lacks methodological rigor with dataset inconsistency, undefined parameters, and missing experimental controls."
+      }
+    ]
+  },
+  {
+    "idea_id": "I03",
+    "average_score": 6.5,
+    "decision": "reject",
+    "next_action": "RUN_ADDITIONAL_SEARCH",
+    "fatal_flaws": [
+      "Lack of information on seeds for reproducibility",
+      "No clear justification for why margin sampling is the appropriate baseline"
+    ],
+    "fixable_flaws": [
+      "Hypothesis lacks specificity about what constitutes 'AI Scientist-style automated hypothesis generation' for calibration",
+      "No clear differentiation from existing automated calibration methods mentioned in prior work",
+      "Need to specify computational requirements",
+      "Could benefit from additional baselines for comparison",
+      "Should provide more details on the experimental setup"
+    ],
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 6,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Hypothesis lacks specificity about what constitutes 'AI Scientist-style automated hypothesis generation' for calibration",
+          "No clear differentiation from existing automated calibration methods mentioned in prior work"
+        ],
+        "decision": "revise",
+        "justification": "The hypothesis applies AI Scientist framework to calibration tasks but lacks specificity about the novel approach and doesn't clearly differentiate from existing automated methods."
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 7,
+        "fatal_flaws": [
+          "Lack of information on seeds for reproducibility",
+          "No clear justification for why margin sampling is the appropriate baseline"
+        ],
+        "fixable_flaws": [
+          "Need to specify computational requirements",
+          "Could benefit from additional baselines for comparison",
+          "Should provide more details on the experimental setup"
+        ],
+        "decision": "revise",
+        "justification": "The hypothesis is falsifiable and the baseline is reasonable, but the proposal lacks important details on reproducibility (seeds) and computational requirements. Adding these details and potentially expanding the baseline comparison would strengthen the proposal."
+      }
+    ]
+  },
+  {
+    "idea_id": "I04",
+    "average_score": 4.5,
+    "decision": "reject",
+    "next_action": "RUN_ADDITIONAL_SEARCH",
+    "fatal_flaws": [
+      "Hypothesis is incomplete and doesn't specify expected outcomes",
+      "No clear evaluation metrics or experimental setup provided"
+    ],
+    "fixable_flaws": [
+      "Need to provide more specific evidence of novelty compared to existing work",
+      "Complete the hypothesis with specific expected improvements",
+      "Add more baselines for comparison",
+      "Specify compute requirements and experimental setup",
+      "Include reproducibility measures (seeds, etc.)"
+    ],
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 6,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Need to provide more specific evidence of novelty compared to existing work"
+        ],
+        "decision": "revise",
+        "justification": "The idea combines Agent Laboratory with calibration-aware active learning, but it's unclear if this specific combination hasn't been explored in prior work like The AI Scientist or AIBuildAI-2."
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 3,
+        "fatal_flaws": [
+          "Hypothesis is incomplete and doesn't specify expected outcomes",
+          "No clear evaluation metrics or experimental setup provided"
+        ],
+        "fixable_flaws": [
+          "Complete the hypothesis with specific expected improvements",
+          "Add more baselines for comparison",
+          "Specify compute requirements and experimental setup",
+          "Include reproducibility measures (seeds, etc.)"
+        ],
+        "decision": "reject",
+        "justification": "The proposal combines Agent Laboratory with calibration-aware active learning but lacks a complete hypothesis, clear evaluation metrics, and sufficient experimental details to assess feasibility or expected outcomes."
+      }
+    ]
+  },
+  {
+    "idea_id": "I05",
+    "average_score": 5.5,
+    "decision": "reject",
+    "next_action": "RUN_ADDITIONAL_SEARCH",
+    "fatal_flaws": [
+      "Incomplete hypothesis statement",
+      "Limited to single dataset (breast_cancer)",
+      "Missing key baselines (uncertainty sampling, other AL methods)"
+    ],
+    "fixable_flaws": [
+      "The hypothesis needs more specific details about the calibration-aware active learning methodology and expected improvements",
+      "No mention of random seeds or reproducibility measures",
+      "No computational requirements specified",
+      "Needs to clearly articulate novelty vs existing work"
+    ],
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 8,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "The hypothesis needs more specific details about the calibration-aware active learning methodology and expected improvements"
+        ],
+        "decision": "revise",
+        "justification": "The idea shows novelty by applying MLE-bench's comprehensive evaluation framework to calibration-aware active learning, which isn't addressed in the cited works. However, the proposal requires more technical details about the specific methodology and implementation approach."
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 3,
+        "fatal_flaws": [
+          "Incomplete hypothesis statement",
+          "Limited to single dataset (breast_cancer)",
+          "Missing key baselines (uncertainty sampling, other AL methods)"
+        ],
+        "fixable_flaws": [
+          "No mention of random seeds or reproducibility measures",
+          "No computational requirements specified",
+          "Needs to clearly articulate novelty vs existing work"
+        ],
+        "decision": "revise",
+        "justification": "The proposal has a promising direction combining MLE-bench with calibration-aware active learning, but requires substantial revisions including completing the hypothesis, adding proper baselines, expanding datasets, and addressing reproducibility concerns before experimental evaluation."
+      }
+    ]
+  },
+  {
+    "idea_id": "I06",
+    "average_score": 5.5,
+    "decision": "reject",
+    "next_action": "RUN_ADDITIONAL_SEARCH",
+    "fatal_flaws": [
+      "No mention of seeds or reproducibility considerations",
+      "Dataset 'digits' may not be appropriate for medical data applications"
+    ],
+    "fixable_flaws": [
+      "The evaluation methodology needs more detail beyond just mentioning Brier score",
+      "The novelty could be strengthened by more comprehensive literature review to ensure no similar combinations exist in broader literature",
+      "Baseline 'query-by-committee' may not be the most appropriate comparison",
+      "No computational requirements specified",
+      "Could benefit from additional evaluation metrics beyond Brier score"
+    ],
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 6,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "The evaluation methodology needs more detail beyond just mentioning Brier score",
+          "The novelty could be strengthened by more comprehensive literature review to ensure no similar combinations exist in broader literature"
+        ],
+        "decision": "revise",
+        "justification": "The combination of Voyager-style embodied calibration learning with Self-Refine for medical data appears novel based on provided evidence, but requires more comprehensive literature review and clearer evaluation methodology."
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 5,
+        "fatal_flaws": [
+          "No mention of seeds or reproducibility considerations",
+          "Dataset 'digits' may not be appropriate for medical data applications"
+        ],
+        "fixable_flaws": [
+          "Baseline 'query-by-committee' may not be the most appropriate comparison",
+          "No computational requirements specified",
+          "Could benefit from additional evaluation metrics beyond Brier score"
+        ],
+        "decision": "revise",
+        "justification": "The hypothesis is falsifiable but lacks methodological rigor in experimental design. The proposed combination of techniques shows promise but needs proper reproducibility measures and appropriate dataset selection for medical applications."
+      }
+    ]
+  }
+]

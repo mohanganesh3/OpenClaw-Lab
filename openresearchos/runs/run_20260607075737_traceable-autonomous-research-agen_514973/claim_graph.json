@@ -1,0 +1,45 @@
+{
+  "claims": [
+    {
+      "claim_id": "CL001",
+      "evidence_id": "EV001",
+      "text": "Paper about automated, scientific, discovery, scientist (abstract-only, no PDF read).",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL002",
+      "evidence_id": "EV002",
+      "text": "Paper about automated, scientific, discovery, search (abstract-only, no PDF read).",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL003",
+      "evidence_id": "EV003",
+      "text": "Paper about research, agent, laboratory, agents (abstract-only, no PDF read).",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    }
+  ],
+  "links": [
+    {
+      "from": "EV001",
+      "relation": "suggests_gap",
+      "to": "Need full PDF reading to identify specific gaps in this paper."
+    },
+    {
+      "from": "EV002",
+      "relation": "suggests_gap",
+      "to": "Need full PDF reading to identify specific gaps in this paper."
+    },
+    {
+      "from": "EV003",
+      "relation": "suggests_gap",
+      "to": "Need full PDF reading to identify specific gaps in this paper."
+    }
+  ]
+}

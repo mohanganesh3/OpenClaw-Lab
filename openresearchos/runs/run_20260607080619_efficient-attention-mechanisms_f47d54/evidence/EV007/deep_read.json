@@ -1,0 +1,109 @@
+{
+  "problem_addressed": "Large language models often produce suboptimal outputs on their first attempt, especially for tasks with complex requirements or poorly defined objectives.",
+  "core_claim": "SELF-REFINE can significantly improve LLM outputs through iterative self-feedback without requiring additional training, data, or reinforcement learning.",
+  "key_contributions": [
+    "A novel approach for iterative refinement using self-feedback within a single LLM",
+    "Demonstrated effectiveness across 7 diverse tasks with ~20% absolute improvement in task performance"
+  ],
+  "novelty": "Unlike prior approaches that require training data, refinement models, or reinforcement learning, SELF-REFINE uses a single LLM as the generator, refiner, and feedback provider.",
+  "method_summary": "SELF-REFINE generates an initial output using an LLM, then has the same LLM provide feedback for its output and use it to refine itself iteratively.",
+  "method_components": [
+    "Initial output generation",
+    "Self-feedback generation",
+    "Iterative refinement"
+  ],
+  "key_innovation": "Using a single LLM to both generate feedback and refine its own outputs without any additional training or data.",
+  "assumptions": [
+    "The LLM can provide useful feedback for its own outputs",
+    "Iterative refinement will lead to improvements in output quality"
+  ],
+  "theoretical_grounding": "null",
+  "datasets_used": [
+    "CommonGen-Hard",
+    "Acronym Generation (250 acronyms)",
+    "CodeNet (300 examples)"
+  ],
+  "baselines_compared": [
+    "GPT-3.5",
+    "ChatGPT",
+    "GPT-4"
+  ],
+  "metrics_used": [
+    "GPT-4-based preference evaluation",
+    "percentage of programs optimized",
+    "solve rate",
+    "coverage percentage",
+    "meaningful variable ratio",
+    "comment per line",
+    "function units"
+  ],
+  "hyperparameters": "T=0.0 and T=0.7 for decoding, N=5 iterations, InstructGPT model (text-davinci-003)",
+  "compute_required": "null",
+  "seeds": "null",
+  "headline_result": "GPT-4 with SELF-REFINE on Constrained Generation: 45.0% (from 15.0% base)",
+  "results_table": [
+    {
+      "method": "GPT-3.5 + SELF-REFINE",
+      "dataset": "Sentiment Reversal",
+      "metric": "GPT-4-based preference",
+      "value": "30.4%"
+    },
+    {
+      "method": "GPT-3.5",
+      "dataset": "Sentiment Reversal",
+      "metric": "GPT-4-based preference",
+      "value": "8.8%"
+    },
+    {
+      "method": "GPT-4 + SELF-REFINE",
+      "dataset": "Constrained Gen.",
+      "metric": "coverage percentage",
+      "value": "45.0%"
+    },
+    {
+      "method": "GPT-4",
+      "dataset": "Constrained Gen.",
+      "metric": "coverage percentage",
+      "value": "15.0%"
+    },
+    {
+      "method": "ChatGPT + SELF-REFINE",
+      "dataset": "Code Readability",
+      "metric": "GPT-4-based preference",
+      "value": "63.1%"
+    },
+    {
+      "method": "ChatGPT",
+      "dataset": "Code Readability",
+      "metric": "GPT-4-based preference",
+      "value": "27.7%"
+    }
+  ],
+  "ablations": [
+    "Error analysis shows model robustness to bad feedback (60%) and issues like ignoring feedback (25%)"
+  ],
+  "improvement_over_baseline": "Varies by task; e.g., GPT-4 Constrained Gen. improved by 30.0 percentage points",
+  "best_result": "GPT-4 with SELF-REFINE on Constrained Generation: 45.0% (from 15.0% base)",
+  "key_results": {
+    "Sentiment Reversal_GPT-4-based preference": "8.8%",
+    "Constrained Gen._coverage percentage": "15.0%",
+    "Code Readability_GPT-4-based preference": "27.7%"
+  },
+  "limitations_stated": [],
+  "reproducibility": "low",
+  "evidence_id": "EV007",
+  "title": "Self-Refine: Iterative Refinement with Self-Feedback",
+  "year": 2023,
+  "arxiv_id": "2303.17651",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 143128,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 54,
+  "pdf_tables": 21,
+  "pdf_captions": 61
+}

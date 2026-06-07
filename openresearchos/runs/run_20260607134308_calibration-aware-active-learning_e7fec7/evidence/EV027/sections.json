@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\narXiv:2505.09089v2  [cs.LG]  15 May 2025\nGenerating time-consistent dynamics\nwith discriminator-guided image diffusion models\nPhilipp Hess1,2,\nMaximilian Gelbrecht1,2,\nChristof Schötz1",
+  "method": "tions).\n2D Navier-Stokes turbulence.\nA qualitative comparison of samples is shown in Fig. 9 for the first\nfive and last time frames of the ground truth and generated simulations. A video of the genera",
+  "results": ".\n11\n\n\n<!-- page 12 -->\n[15] Yang Song and Stefano Ermon. Generative Modeling by Estimating Gradients of the Data\nDistribution. In Advances in Neural Information Processing Systems, volume 32. Curran\n",
+  "conclusion": "doi/pdf/10.1111/j.2153-3490.1949.tb01260.x.\n[81] Tilmann Gneiting, Fadoua Balabdaoui, and Adrian E. Raftery. Probabilistic forecasts, calibra-\ntion and sharpness. Journal of the Royal Statistical Soci"
+}

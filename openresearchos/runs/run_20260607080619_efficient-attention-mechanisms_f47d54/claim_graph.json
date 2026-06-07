@@ -1,0 +1,126 @@
+{
+  "claims": [
+    {
+      "claim_id": "CL001",
+      "evidence_id": "EV001",
+      "text": "The AI Scientist enables frontier large language models to perform research independently and communicate their findings through a comprehensive framework for fully automated scientific discovery.",
+      "support": "full_pdf_read_confirmed"
+    },
+    {
+      "claim_id": "CL002",
+      "evidence_id": "EV002",
+      "text": "The AI Scientist-v2 demonstrates that an autonomous AI system can produce peer-reviewed workshop papers, marking the first instance of a fully AI-generated paper successfully navigating peer review.",
+      "support": "full_pdf_read_confirmed"
+    },
+    {
+      "claim_id": "CL003",
+      "evidence_id": "EV003",
+      "text": "Agent Laboratory is an autonomous LLM-based framework that can complete the entire research process from idea to results while reducing costs by 84%.",
+      "support": "full_pdf_read_confirmed"
+    },
+    {
+      "claim_id": "CL004",
+      "evidence_id": "EV004",
+      "text": "MLE-bench provides a standardized benchmark for assessing the capabilities of ML agents in performing ML engineering tasks",
+      "support": "full_pdf_read_confirmed"
+    },
+    {
+      "claim_id": "CL005",
+      "evidence_id": "EV005",
+      "text": "AIBuildAI-2, a knowledge-enhanced agent with an evolving hierarchical knowledge system, can autonomously build AI models at a level comparable to expert human practitioners.",
+      "support": "full_pdf_read_confirmed"
+    },
+    {
+      "claim_id": "CL006",
+      "evidence_id": "EV006",
+      "text": "Reflexion demonstrates that language agents can be effectively reinforced through verbal feedback and reflection rather than weight updates, achieving significant performance improvements across diverse tasks.",
+      "support": "full_pdf_read_confirmed"
+    },
+    {
+      "claim_id": "CL007",
+      "evidence_id": "EV007",
+      "text": "SELF-REFINE can significantly improve LLM outputs through iterative self-feedback without requiring additional training, data, or reinforcement learning.",
+      "support": "full_pdf_read_confirmed"
+    },
+    {
+      "claim_id": "CL008",
+      "evidence_id": "EV008",
+      "text": "VOYAGER is the first LLM-powered embodied lifelong learning agent in Minecraft that can continuously explore the world, acquire diverse skills, and make novel discoveries without human intervention.",
+      "support": "full_pdf_read_confirmed"
+    },
+    {
+      "claim_id": "CL009",
+      "evidence_id": "EV009",
+      "text": "Top commercial LLMs demonstrate strong agent capabilities while open-source models show significant performance gaps, with poor long-term reasoning, decision-making, and instruction following identified as main obstacles.",
+      "support": "full_pdf_read_confirmed"
+    },
+    {
+      "claim_id": "CL010",
+      "evidence_id": "EV010",
+      "text": "LM agents require specially-built interfaces to effectively perform software engineering tasks, similar to how humans need IDEs.",
+      "support": "full_pdf_read_confirmed"
+    },
+    {
+      "claim_id": "CL011",
+      "evidence_id": "EV011",
+      "text": "This paper proposes a learning method for Radio Frequency Fingerprint (RFF) identification in the Internet of Vehicles (IoV) to address authentication challenges.",
+      "support": "abstract_only_pending_pdf"
+    },
+    {
+      "claim_id": "CL012",
+      "evidence_id": "EV012",
+      "text": "Recurrent Neural Networks (RNNs) and Long Short-Term Memory (LSTM) networks have become research focal points due to their effectiveness in modeling non-linear, time-variant hydrological systems.",
+      "support": "abstract_only_pending_pdf"
+    },
+    {
+      "claim_id": "CL013",
+      "evidence_id": "EV013",
+      "text": "This paper introduces a novel Transformer attention mechanism inspired by the Kolmogorov-Arnold representation theorem.",
+      "support": "abstract_only_pending_pdf"
+    },
+    {
+      "claim_id": "CL014",
+      "evidence_id": "EV014",
+      "text": "Expression-based ML models can serve as cost-efficient screening tools in resource-limited contexts, while personalized gene regulatory networks analyzed with graph neural networks can capture patient-specific regulatory patterns for metastasis prediction.",
+      "support": "full_pdf_read_confirmed"
+    },
+    {
+      "claim_id": "CL015",
+      "evidence_id": "EV015",
+      "text": "The proposed Multisize Patched Spatial-Temporal Transformer Network effectively addresses the challenges of both short- and long-term urban crowd flow prediction.",
+      "support": "abstract_only_pending_pdf"
+    }
+  ],
+  "links": [
+    {
+      "from": "EV005",
+      "relation": "suggests_gap",
+      "to": "G01"
+    },
+    {
+      "from": "EV008",
+      "relation": "suggests_gap",
+      "to": "G02"
+    },
+    {
+      "from": "EV009",
+      "relation": "suggests_gap",
+      "to": "G03"
+    },
+    {
+      "from": "EV006",
+      "relation": "suggests_gap",
+      "to": "G04"
+    },
+    {
+      "from": "EV007",
+      "relation": "suggests_gap",
+      "to": "G05"
+    },
+    {
+      "from": "EV010",
+      "relation": "suggests_gap",
+      "to": "G06"
+    }
+  ]
+}

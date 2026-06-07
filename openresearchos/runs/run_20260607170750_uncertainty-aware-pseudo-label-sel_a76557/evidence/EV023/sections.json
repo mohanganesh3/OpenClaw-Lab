@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\nDRIVE: DUAL-ROBUSTNESS VIA INFORMATION VARIABILITY\nAND ENTROPIC CONSISTENCY IN SOURCE-FREE UNSUPERVISED\nDOMAIN ADAPTATION\nRuiqiang Xiao∗\nHKUST(GZ)\nruiqiangxiao@hkust-gz.edu.cn\nSongning",
+  "method": "y reducing uncertainties in the target domain [23, 24, 25, 16]. Additionally, approaches such as CPGA [26]\nand BAIT [27] employ contrastive learning frameworks to align samples with category-wise prot",
+  "results": "oposed framework, DRIVE, on four benchmark datasets for domain adaptation: Office-31\n[35], Office-Home [36], and DomainNet-126 [31]. These datasets offer varying levels of complexity, from small-scale",
+  "conclusion": "ment in performance,\nparticularly on the A →D and D →W tasks, demonstrating the importance of exploring the feature space more\ncomprehensively.\nDynamic Perturbation Adjustment. The Dynamic Perturbatio"
+}

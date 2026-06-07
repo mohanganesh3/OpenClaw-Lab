@@ -1,0 +1,784 @@
+{
+  "schema_version": 1,
+  "run_id": "run_20260607075254_traceable-autonomous-research-agen_5b5ce9",
+  "topic": "traceable autonomous research agents smoke fb81ce",
+  "created_at": "2026-06-07T07:52:56.711Z",
+  "updated_at": "2026-06-07T07:55:46.926Z",
+  "current_state": "MICRO_PROBE_RUNNING",
+  "scope_classification": {
+    "label": "local_experiment",
+    "rationale": "The topic can be explored with small simulations, synthetic data, or lightweight local experiments on the Mac.",
+    "feasibility_note": "Offline smoke mode: feasibility uses keyword triage only."
+  },
+  "prior_knowledge": [
+    {
+      "file": "memory/experiment_lessons/experiment_lesson_id001.md",
+      "excerpt": ""
+    },
+    {
+      "file": "memory/experiment_lessons/experiment_lesson_id004.md",
+      "excerpt": ""
+    },
+    {
+      "file": "memory/failed_ideas/venue-fit_assessment_module.md",
+      "excerpt": ""
+    },
+    {
+      "file": "memory/failed_ideas/venue-aware_claim_narrowing_for_traceable_autonomous_research.md",
+      "excerpt": ""
+    },
+    {
+      "file": "memory/failed_ideas/venue-aware_claim_narrowing_for_efficient_attention_mechanisms.md",
+      "excerpt": ""
+    }
+  ],
+  "search_queries": [
+    "traceable autonomous research agents",
+    "traceable autonomous agent LLM",
+    "traceable autonomous automated research paper",
+    "traceable autonomous experiment benchmark",
+    "traceable autonomous failure limitations",
+    "AI scientist automated discovery",
+    "research agent LLM code execution",
+    "automated machine learning research",
+    "language model experiment evaluation",
+    "agent AI reproducibility science"
+  ],
+  "evidence_ids": [
+    "EV001",
+    "EV002",
+    "EV003",
+    "EV004",
+    "EV005",
+    "EV006",
+    "EV007",
+    "EV008",
+    "EV009",
+    "EV010"
+  ],
+  "parsed_papers": [
+    {
+      "evidence_id": "EV001",
+      "title": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery",
+      "year": 2024,
+      "url": "https://arxiv.org/abs/2408.06292",
+      "core_claim": "The paper introduces an automated pipeline capable of generating ideas, writing code, running experiments, and drafting papers for scientific discovery.",
+      "method_or_focus": [
+        "idea_generation",
+        "code_generation",
+        "experiment_execution",
+        "paper_writing"
+      ],
+      "limitations": [
+        "Limits in evaluation",
+        "Limits in reliability"
+      ],
+      "possible_gap": "The paper highlights the lack of robust methods for evaluating the quality and reliability of AI-generated scientific discoveries.",
+      "full_text_tool": "abstract_only",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null,
+      "key_contributions": [],
+      "method_components": [],
+      "assumptions": [],
+      "metrics_used": [],
+      "results_table": [],
+      "ablations": [],
+      "unstated_weaknesses": [],
+      "threats_to_validity": [],
+      "open_questions": [],
+      "future_work": [],
+      "gaps_this_enables": [],
+      "reusable_assets": []
+    },
+    {
+      "evidence_id": "EV002",
+      "title": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
+      "year": 2025,
+      "url": "https://arxiv.org/abs/2504.08066",
+      "core_claim": "The AI Scientist-v2 extends automated scientific discovery by implementing stronger search and review-like iteration to enforce stricter gates for novelty, experiment quality, and paper readiness.",
+      "method_or_focus": [
+        "Stronger search",
+        "Review-like iteration"
+      ],
+      "limitations": [
+        "Not mentioned in the provided text"
+      ],
+      "possible_gap": "The paper's focus on internal 'stricter gates' for paper readiness leaves open the question of whether the generated work can successfully pass external, human-led peer review.",
+      "full_text_tool": "abstract_only",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null,
+      "key_contributions": [],
+      "method_components": [],
+      "assumptions": [],
+      "metrics_used": [],
+      "results_table": [],
+      "ablations": [],
+      "unstated_weaknesses": [],
+      "threats_to_validity": [],
+      "open_questions": [],
+      "future_work": [],
+      "gaps_this_enables": [],
+      "reusable_assets": []
+    },
+    {
+      "evidence_id": "EV003",
+      "title": "Agent Laboratory: Using LLM Agents as Research Assistants",
+      "year": 2025,
+      "url": "https://arxiv.org/abs/2501.04227",
+      "core_claim": "The paper demonstrates the use of LLM agents as research assistants for tasks like literature review, experimentation, and report writing.",
+      "method_or_focus": [
+        "literature review",
+        "experimentation",
+        "report writing"
+      ],
+      "limitations": [
+        "need for human oversight",
+        "need for reproducibility controls"
+      ],
+      "possible_gap": "The paper identifies a gap in creating fully autonomous and reproducible research workflows, as current systems still require substantial human oversight.",
+      "full_text_tool": "abstract_only",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null,
+      "key_contributions": [],
+      "method_components": [],
+      "assumptions": [],
+      "metrics_used": [],
+      "results_table": [],
+      "ablations": [],
+      "unstated_weaknesses": [],
+      "threats_to_validity": [],
+      "open_questions": [],
+      "future_work": [],
+      "gaps_this_enables": [],
+      "reusable_assets": []
+    }
+  ],
+  "claim_graph": {
+    "claims": [
+      {
+        "claim_id": "CL001",
+        "evidence_id": "EV001",
+        "text": "The paper introduces an automated pipeline capable of generating ideas, writing code, running experiments, and drafting papers for scientific discovery.",
+        "support": "abstract_only_pending_pdf",
+        "datasets": [],
+        "best_result": null
+      },
+      {
+        "claim_id": "CL002",
+        "evidence_id": "EV002",
+        "text": "The AI Scientist-v2 extends automated scientific discovery by implementing stronger search and review-like iteration to enforce stricter gates for novelty, experiment quality, and paper readiness.",
+        "support": "abstract_only_pending_pdf",
+        "datasets": [],
+        "best_result": null
+      },
+      {
+        "claim_id": "CL003",
+        "evidence_id": "EV003",
+        "text": "The paper demonstrates the use of LLM agents as research assistants for tasks like literature review, experimentation, and report writing.",
+        "support": "abstract_only_pending_pdf",
+        "datasets": [],
+        "best_result": null
+      }
+    ],
+    "links": [
+      {
+        "from": "EV001",
+        "relation": "suggests_gap",
+        "to": "The paper highlights the lack of robust methods for evaluating the quality and reliability of AI-generated scientific discoveries."
+      },
+      {
+        "from": "EV002",
+        "relation": "suggests_gap",
+        "to": "The paper's focus on internal 'stricter gates' for paper readiness leaves open the question of whether the generated work can successfully pass external, human-led peer review."
+      },
+      {
+        "from": "EV003",
+        "relation": "suggests_gap",
+        "to": "The paper identifies a gap in creating fully autonomous and reproducible research workflows, as current systems still require substantial human oversight."
+      }
+    ]
+  },
+  "research_gaps": [
+    {
+      "gap_id": "G01",
+      "gap_title": "Traceability Mechanisms in Autonomous Research Pipelines",
+      "text": "EV001 and EV003 introduce autonomous research agents but lack mechanisms for tracing and verifying the reasoning process, making it difficult to audit and validate agent decisions.",
+      "testable_hypothesis": "If traceability mechanisms are implemented, ECE reduction in agent decision-making will be at least 20% compared to baseline.",
+      "suggested_dataset": "breast_cancer",
+      "baseline_paper": null,
+      "keywords": [],
+      "evidence_ids": [
+        "EV001",
+        "EV003"
+      ],
+      "testable": true,
+      "difficulty": "medium",
+      "source": "llm",
+      "validation": {
+        "ran": true,
+        "signal": false,
+        "value": 0,
+        "verdict": "no_signal"
+      }
+    },
+    {
+      "gap_id": "G02",
+      "gap_title": "Sample Efficiency Optimization",
+      "text": "EV001 and EV002 describe automated pipelines but don't optimize for sample efficiency, potentially requiring more data than necessary for effective research.",
+      "testable_hypothesis": "If sample efficiency is optimized, the sample efficiency ratio will improve by at least 30% compared to current implementations.",
+      "suggested_dataset": "digits",
+      "baseline_paper": null,
+      "keywords": [],
+      "evidence_ids": [
+        "EV001",
+        "EV002"
+      ],
+      "testable": true,
+      "difficulty": "medium",
+      "source": "llm",
+      "validation": {
+        "ran": true,
+        "signal": true,
+        "value": 4.815,
+        "verdict": "confirmed"
+      }
+    },
+    {
+      "gap_id": "G03",
+      "gap_title": "Reproducibility of Autonomous Research Findings",
+      "text": "EV002 mentions workshop-level work but doesn't address reproducibility, making it difficult to verify and build upon agent-generated research.",
+      "testable_hypothesis": "If reproducibility mechanisms are implemented, the accuracy delta between original and reproduced results will be less than 5%.",
+      "suggested_dataset": "breast_cancer",
+      "baseline_paper": null,
+      "keywords": [],
+      "evidence_ids": [
+        "EV002"
+      ],
+      "testable": true,
+      "difficulty": "hard",
+      "source": "llm",
+      "validation": {
+        "ran": true,
+        "signal": false,
+        "value": 0,
+        "verdict": "no_signal"
+      }
+    },
+    {
+      "gap_id": "G04",
+      "gap_title": "Scalability of Autonomous Research Agents",
+      "text": "EV001 and EV003 discuss agents but don't address scalability, limiting their applicability to larger, more complex research problems.",
+      "testable_hypothesis": "If scalability improvements are implemented, the time complexity scaling factor will be reduced by at least 25% compared to baseline.",
+      "suggested_dataset": "digits",
+      "baseline_paper": null,
+      "keywords": [],
+      "evidence_ids": [
+        "EV001",
+        "EV003"
+      ],
+      "testable": true,
+      "difficulty": "hard",
+      "source": "llm"
+    },
+    {
+      "gap_id": "G05",
+      "gap_title": "External Knowledge Integration",
+      "text": "EV003 mentions LLM agents but doesn't address how they effectively integrate external knowledge, limiting their research capabilities.",
+      "testable_hypothesis": "If external knowledge integration is improved, knowledge integration accuracy will increase by at least 15% compared to baseline.",
+      "suggested_dataset": "breast_cancer",
+      "baseline_paper": null,
+      "keywords": [],
+      "evidence_ids": [
+        "EV003"
+      ],
+      "testable": true,
+      "difficulty": "medium",
+      "source": "llm"
+    },
+    {
+      "gap_id": "G06",
+      "gap_title": "Standardized Evaluation Metrics",
+      "text": "EV001, EV002, and EV003 don't establish standardized evaluation metrics, making it difficult to compare and assess different autonomous research agents.",
+      "testable_hypothesis": "If standardized evaluation metrics are implemented, metric consistency across different agent implementations will improve by at least 20%.",
+      "suggested_dataset": "digits",
+      "baseline_paper": null,
+      "keywords": [],
+      "evidence_ids": [
+        "EV001",
+        "EV002",
+        "EV003"
+      ],
+      "testable": true,
+      "difficulty": "medium",
+      "source": "llm"
+    }
+  ],
+  "idea_tree": [
+    {
+      "idea_id": "ID001",
+      "title": "Sample Efficiency Optimization",
+      "source_gap_id": "G02",
+      "scope": "method",
+      "pitch": "EV001 and EV002 describe automated pipelines but don't optimize for sample efficiency, potentially requiring more data than necessary for effective research.",
+      "mechanism": "If sample efficiency is optimized, the sample efficiency ratio will improve by at least 30% compared to current implementations.",
+      "testable_hypothesis": "If sample efficiency is optimized, the sample efficiency ratio will improve by at least 30% compared to current implementations.",
+      "metric": "improvement_over_baseline",
+      "has_clear_metric": true,
+      "experiment_sketch": null,
+      "novelty_claim": null,
+      "risk": "medium",
+      "required_dataset": "digits",
+      "baseline_to_beat": null,
+      "evidence_support": 0.6000000000000001,
+      "local_feasibility": 1,
+      "novelty_risk": 0.034,
+      "base_score": 6.2,
+      "gap_validated": true,
+      "keywords": [
+        "sample",
+        "efficiency",
+        "optimization",
+        "ev001",
+        "ev002",
+        "describe"
+      ],
+      "status": "shortlisted",
+      "corpus_overlap_hash": "c1c5a07212",
+      "source": "gap_derived",
+      "reviewer_average": 7.44,
+      "reviewer_decision": "accept",
+      "next_action": "RUN_MICRO_PROBE"
+    },
+    {
+      "idea_id": "ID002",
+      "title": "Scalability of Autonomous Research Agents",
+      "source_gap_id": "G04",
+      "scope": "method",
+      "pitch": "EV001 and EV003 discuss agents but don't address scalability, limiting their applicability to larger, more complex research problems.",
+      "mechanism": "If scalability improvements are implemented, the time complexity scaling factor will be reduced by at least 25% compared to baseline.",
+      "testable_hypothesis": "If scalability improvements are implemented, the time complexity scaling factor will be reduced by at least 25% compared to baseline.",
+      "metric": "improvement_over_baseline",
+      "has_clear_metric": true,
+      "experiment_sketch": null,
+      "novelty_claim": null,
+      "risk": "high",
+      "required_dataset": "digits",
+      "baseline_to_beat": null,
+      "evidence_support": 0.6000000000000001,
+      "local_feasibility": 1,
+      "novelty_risk": 0.065,
+      "base_score": 5.2,
+      "gap_validated": false,
+      "keywords": [
+        "scalability",
+        "research",
+        "agents",
+        "autonomous",
+        "ev001",
+        "ev003"
+      ],
+      "status": "shortlisted",
+      "corpus_overlap_hash": "9e7070ddd6",
+      "source": "gap_derived",
+      "reviewer_average": 6.44,
+      "reviewer_decision": "accept",
+      "next_action": "RUN_MICRO_PROBE"
+    },
+    {
+      "idea_id": "ID003",
+      "title": "External Knowledge Integration",
+      "source_gap_id": "G05",
+      "scope": "method",
+      "pitch": "EV003 mentions LLM agents but doesn't address how they effectively integrate external knowledge, limiting their research capabilities.",
+      "mechanism": "If external knowledge integration is improved, knowledge integration accuracy will increase by at least 15% compared to baseline.",
+      "testable_hypothesis": "If external knowledge integration is improved, knowledge integration accuracy will increase by at least 15% compared to baseline.",
+      "metric": "improvement_over_baseline",
+      "has_clear_metric": true,
+      "experiment_sketch": null,
+      "novelty_claim": null,
+      "risk": "medium",
+      "required_dataset": "breast_cancer",
+      "baseline_to_beat": null,
+      "evidence_support": 0.5,
+      "local_feasibility": 1,
+      "novelty_risk": 0.065,
+      "base_score": 5.2,
+      "gap_validated": false,
+      "keywords": [
+        "external",
+        "knowledge",
+        "integration",
+        "ev003",
+        "mentions",
+        "agents"
+      ],
+      "status": "shortlisted",
+      "corpus_overlap_hash": "edd1468dea",
+      "source": "gap_derived",
+      "reviewer_average": 6.44,
+      "reviewer_decision": "accept",
+      "next_action": "RUN_MICRO_PROBE"
+    }
+  ],
+  "reviewer_scores": [
+    {
+      "idea_id": "ID001",
+      "average_score": 7.44,
+      "decision": "accept",
+      "next_action": "RUN_MICRO_PROBE",
+      "reviewers": [
+        {
+          "reviewer": "Novelty Reviewer",
+          "score": 7.6,
+          "fatal_flaws": [],
+          "fixable_flaws": [
+            "Add direct competitor comparison and search query log."
+          ],
+          "required_experiments": [
+            "Run novelty tribunal before any paper claim."
+          ],
+          "missing_related_work": [
+            "EV001",
+            "EV002",
+            "EV003"
+          ]
+        },
+        {
+          "reviewer": "Experimental Reviewer",
+          "score": 8.2,
+          "fatal_flaws": [],
+          "fixable_flaws": [
+            "Add baseline and ablation before MVP claims."
+          ],
+          "required_experiments": [
+            "Micro-probe with random baseline.",
+            "Probe with evidence-weighted baseline."
+          ],
+          "missing_related_work": []
+        },
+        {
+          "reviewer": "Theory/Mechanism Reviewer",
+          "score": 7.4,
+          "fatal_flaws": [],
+          "fixable_flaws": [
+            "Tighten mechanism into falsifiable prediction."
+          ],
+          "required_experiments": [
+            "Test whether the mechanism improves selection utility under controlled noise."
+          ],
+          "missing_related_work": []
+        },
+        {
+          "reviewer": "Reproducibility Reviewer",
+          "score": 7,
+          "fatal_flaws": [],
+          "fixable_flaws": [
+            "Record seed, command, environment, stdout, stderr, and metrics."
+          ],
+          "required_experiments": [
+            "Run with fixed seed and persist config."
+          ],
+          "missing_related_work": []
+        },
+        {
+          "reviewer": "Venue Reviewer",
+          "score": 7,
+          "fatal_flaws": [],
+          "fixable_flaws": [
+            "Position as workshop candidate until stronger empirical evidence exists."
+          ],
+          "required_experiments": [
+            "Add venue-fit checklist after results."
+          ],
+          "missing_related_work": []
+        }
+      ]
+    },
+    {
+      "idea_id": "ID002",
+      "average_score": 6.44,
+      "decision": "accept",
+      "next_action": "RUN_MICRO_PROBE",
+      "reviewers": [
+        {
+          "reviewer": "Novelty Reviewer",
+          "score": 6.6,
+          "fatal_flaws": [],
+          "fixable_flaws": [
+            "Add direct competitor comparison and search query log."
+          ],
+          "required_experiments": [
+            "Run novelty tribunal before any paper claim."
+          ],
+          "missing_related_work": [
+            "EV001",
+            "EV002",
+            "EV003"
+          ]
+        },
+        {
+          "reviewer": "Experimental Reviewer",
+          "score": 7.2,
+          "fatal_flaws": [],
+          "fixable_flaws": [
+            "Add baseline and ablation before MVP claims."
+          ],
+          "required_experiments": [
+            "Micro-probe with random baseline.",
+            "Probe with evidence-weighted baseline."
+          ],
+          "missing_related_work": []
+        },
+        {
+          "reviewer": "Theory/Mechanism Reviewer",
+          "score": 6.4,
+          "fatal_flaws": [],
+          "fixable_flaws": [
+            "Tighten mechanism into falsifiable prediction."
+          ],
+          "required_experiments": [
+            "Test whether the mechanism improves selection utility under controlled noise."
+          ],
+          "missing_related_work": []
+        },
+        {
+          "reviewer": "Reproducibility Reviewer",
+          "score": 6,
+          "fatal_flaws": [],
+          "fixable_flaws": [
+            "Record seed, command, environment, stdout, stderr, and metrics."
+          ],
+          "required_experiments": [
+            "Run with fixed seed and persist config."
+          ],
+          "missing_related_work": []
+        },
+        {
+          "reviewer": "Venue Reviewer",
+          "score": 6,
+          "fatal_flaws": [],
+          "fixable_flaws": [
+            "Position as workshop candidate until stronger empirical evidence exists."
+          ],
+          "required_experiments": [
+            "Add venue-fit checklist after results."
+          ],
+          "missing_related_work": []
+        }
+      ]
+    },
+    {
+      "idea_id": "ID003",
+      "average_score": 6.44,
+      "decision": "accept",
+      "next_action": "RUN_MICRO_PROBE",
+      "reviewers": [
+        {
+          "reviewer": "Novelty Reviewer",
+          "score": 6.6,
+          "fatal_flaws": [],
+          "fixable_flaws": [
+            "Add direct competitor comparison and search query log."
+          ],
+          "required_experiments": [
+            "Run novelty tribunal before any paper claim."
+          ],
+          "missing_related_work": [
+            "EV001",
+            "EV002",
+            "EV003"
+          ]
+        },
+        {
+          "reviewer": "Experimental Reviewer",
+          "score": 7.2,
+          "fatal_flaws": [],
+          "fixable_flaws": [
+            "Add baseline and ablation before MVP claims."
+          ],
+          "required_experiments": [
+            "Micro-probe with random baseline.",
+            "Probe with evidence-weighted baseline."
+          ],
+          "missing_related_work": []
+        },
+        {
+          "reviewer": "Theory/Mechanism Reviewer",
+          "score": 6.4,
+          "fatal_flaws": [],
+          "fixable_flaws": [
+            "Tighten mechanism into falsifiable prediction."
+          ],
+          "required_experiments": [
+            "Test whether the mechanism improves selection utility under controlled noise."
+          ],
+          "missing_related_work": []
+        },
+        {
+          "reviewer": "Reproducibility Reviewer",
+          "score": 6,
+          "fatal_flaws": [],
+          "fixable_flaws": [
+            "Record seed, command, environment, stdout, stderr, and metrics."
+          ],
+          "required_experiments": [
+            "Run with fixed seed and persist config."
+          ],
+          "missing_related_work": []
+        },
+        {
+          "reviewer": "Venue Reviewer",
+          "score": 6,
+          "fatal_flaws": [],
+          "fixable_flaws": [
+            "Position as workshop candidate until stronger empirical evidence exists."
+          ],
+          "required_experiments": [
+            "Add venue-fit checklist after results."
+          ],
+          "missing_related_work": []
+        }
+      ]
+    }
+  ],
+  "experiment_candidates": [
+    {
+      "idea_id": "ID001",
+      "title": "Sample Efficiency Optimization",
+      "level": "probe",
+      "status": "planned",
+      "metric": "improvement_over_baseline",
+      "micro_probe_improvement": null,
+      "micro_probe_dataset": null,
+      "baseline": "to_be_determined"
+    },
+    {
+      "idea_id": "ID002",
+      "title": "Scalability of Autonomous Research Agents",
+      "level": "probe",
+      "status": "planned",
+      "metric": "improvement_over_baseline",
+      "micro_probe_improvement": null,
+      "micro_probe_dataset": null,
+      "baseline": "to_be_determined"
+    },
+    {
+      "idea_id": "ID003",
+      "title": "External Knowledge Integration",
+      "level": "probe",
+      "status": "planned",
+      "metric": "improvement_over_baseline",
+      "micro_probe_improvement": null,
+      "micro_probe_dataset": null,
+      "baseline": "to_be_determined"
+    }
+  ],
+  "approval_status": {
+    "approved": true,
+    "approved_at": "2026-06-07T07:55:46.436Z",
+    "approved_by": "smoke",
+    "idea_id": "ID001",
+    "level": "micro_probe",
+    "experiment_id": "micro_probe_id001",
+    "approval_path": "/Users/mohanganesh/OpenClaw-Lab/openresearchos/runs/run_20260607075254_traceable-autonomous-research-agen_5b5ce9/experiments/micro_probe_id001/approval.json",
+    "skip_codegen": true
+  },
+  "micro_probe_results": [],
+  "probe_results": [],
+  "ablation_results": [],
+  "mvp_results": [],
+  "failed_ideas": [],
+  "validation_results": [],
+  "paper_readiness_level": "RRL-2",
+  "final_output_path": null,
+  "history": [
+    {
+      "at": "2026-06-07T07:52:56.711Z",
+      "state": "TOPIC_SCOPED",
+      "detail": "The topic can be explored with small simulations, synthetic data, or lightweight local experiments on the Mac."
+    },
+    {
+      "at": "2026-06-07T07:52:56.711Z",
+      "state": "SEARCH_PLAN_CREATED",
+      "detail": "10 queries created (LLM-generated)."
+    },
+    {
+      "at": "2026-06-07T07:53:00.490Z",
+      "state": "LITERATURE_DISCOVERY_RUNNING",
+      "detail": "Starting structured literature discovery."
+    },
+    {
+      "at": "2026-06-07T07:53:00.492Z",
+      "state": "EVIDENCE_LOCKED",
+      "detail": "10 papers found (target was 50+)."
+    },
+    {
+      "at": "2026-06-07T07:53:52.252Z",
+      "state": "PAPERS_PARSED",
+      "detail": "3 papers read (0 via full PDF)."
+    },
+    {
+      "at": "2026-06-07T07:53:52.252Z",
+      "state": "CLAIM_GRAPH_BUILT",
+      "detail": "3 evidence-linked claims created."
+    },
+    {
+      "at": "2026-06-07T07:54:14.732Z",
+      "state": "RESEARCH_MAP_READY",
+      "detail": "Research map generated."
+    },
+    {
+      "at": "2026-06-07T07:54:14.732Z",
+      "state": "GAPS_IDENTIFIED",
+      "detail": "6 gaps identified."
+    },
+    {
+      "at": "2026-06-07T07:55:45.917Z",
+      "state": "IDEA_TREE_GENERATED",
+      "detail": "Generating grounded ideas from method comparison matrix."
+    },
+    {
+      "at": "2026-06-07T07:55:45.939Z",
+      "state": "REVIEWER_PASS_1_RUNNING",
+      "detail": "Budgeted reviewer council started."
+    },
+    {
+      "at": "2026-06-07T07:55:45.939Z",
+      "state": "IDEAS_REVISED_OR_REJECTED",
+      "detail": "0 ideas rejected; 3 candidates retained."
+    },
+    {
+      "at": "2026-06-07T07:55:45.939Z",
+      "state": "NOVELTY_TRIBUNAL_RUNNING",
+      "detail": "Near-duplicate comparison completed against evidence index and Semantic Scholar."
+    },
+    {
+      "at": "2026-06-07T07:55:45.939Z",
+      "state": "IDEAS_SHORTLISTED",
+      "detail": "3 ideas available for experiment planning (validated by real micro-probes)."
+    },
+    {
+      "at": "2026-06-07T07:55:45.939Z",
+      "state": "MICRO_PROBE_REVIEWED",
+      "detail": "0 ideas tested on Mac terminal. 0 show real signal."
+    },
+    {
+      "at": "2026-06-07T07:55:46.436Z",
+      "state": "AWAITING_HUMAN_APPROVAL",
+      "detail": "Approval recorded for micro_probe_id001."
+    },
+    {
+      "at": "2026-06-07T07:55:46.926Z",
+      "state": "MICRO_PROBE_RUNNING",
+      "detail": "Running micro_probe_id001."
+    }
+  ],
+  "discovery_errors": [],
+  "method_matrix": []
+}

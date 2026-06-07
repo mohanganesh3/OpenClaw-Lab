@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\nAddressing Data Scarcity in 3D Trauma Detection\nthrough Self-Supervised and Semi-Supervised\nLearning with Vertex Relative Position Encoding\nShivam Chaudhary\nPattern Recognition Lab\nFAU",
+  "method": "e each series contains a sequence of MRI\nslices stored in DICOM (.dcm) format. The complete dataset\ncontains 4,711 distinct series from different patients, with each\nseries potentially containing anyw",
+  "results": "ns sufficient for identifying\ngeneral organ locations, fine-tuning sharpens these features\nto detect exact injury boundaries and subtle abnormalities\nrequired for accurate detection.\nTo leverage the a",
+  "conclusion": "ION PERFORMANCE COMPARISON ON VALIDATION SET.\nMetric\nVDETR (no SSL)\nVDETR + SSL\nGain\nBest Epoch\n5\n99\n–\nmAP@0.10\n27.27%\n56.57%\n+107%\nmAP@0.25\n27.27%\n56.57%\n+107%\nmAP@0.50\n26.36%\n56.57%\n+115%\nmAP@0.75\n6"
+}

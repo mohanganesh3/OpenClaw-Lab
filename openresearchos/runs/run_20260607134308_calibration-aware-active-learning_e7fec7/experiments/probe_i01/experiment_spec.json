@@ -1,0 +1,40 @@
+{
+  "experiment_id": "probe_i01",
+  "run_id": "run_20260607134308_calibration-aware-active-learning_e7fec7",
+  "idea_id": "I01",
+  "idea_title": "Reflexion-Enhanced Calibration for Medical Tabular Active Learning",
+  "selected_idea": {
+    "title": "Reflexion-Enhanced Calibration for Medical Tabular Active Learning",
+    "pitch": "EV006 introduces Reflexion for active learning but doesn't evaluate its performance on calibration-aware scenarios. This idea adapts Reflexion's self-reflection mechanism to improve model calibration in medical tabular active learning.",
+    "mechanism": "Implement Reflexion-style self-reflection where the model generates predictions, evaluates its own calibration confidence, and iteratively refines its approach based on reflection feedback before selecting new samples.",
+    "testable_hypothesis": "If we apply Reflexion-style self-reflection to calibration-aware active learning, ECE will decrease by 15% compared to standard entropy sampling on breast_cancer dataset.",
+    "required_dataset": "sklearn:load_breast_cancer",
+    "baseline_to_beat": "entropy sampling",
+    "source_gap_id": "G03"
+  },
+  "topic": "calibration-aware active learning under noisy labels for small medical tabular datasets",
+  "level": "probe",
+  "label": "Probe",
+  "hypothesis": "If we apply Reflexion-style self-reflection to calibration-aware active learning, ECE will decrease by 15% compared to standard entropy sampling on breast_cancer dataset.",
+  "method": "Implement Reflexion-style self-reflection where the model generates predictions, evaluates its own calibration confidence, and iteratively refines its approach based on reflection feedback before selecting new samples.",
+  "metric": "ECE",
+  "baseline": "entropy sampling",
+  "ablation_plan": [
+    "proposed method without key component 1",
+    "proposed method without key component 2",
+    "baseline with partial improvement"
+  ],
+  "dataset": "sklearn:load_breast_cancer",
+  "expected_result": "The proposed method (Reflexion-Enhanced Calibration for Medical Tabular Active Learning) should beat the baseline on the specified metric.",
+  "failure_interpretation": "A weak or negative margin means the mechanism does not justify promotion and should be revised or killed.",
+  "runtime_budget_minutes": "5-20",
+  "max_disk_mb": 250,
+  "max_dataset_download_gb": 2,
+  "max_reruns": 5,
+  "allowed_network_actions": [
+    "pip install",
+    "dataset download"
+  ],
+  "fixed_seed": 42,
+  "created_at": "2026-06-07T16:07:59.858Z"
+}

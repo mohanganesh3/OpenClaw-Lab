@@ -1,0 +1,9 @@
+{
+  "run_id": "run_20260607163512_calibration-aware-active-learning_09a54b",
+  "topic": "calibration-aware active learning under noisy labels for small medical tabular datasets",
+  "kept": 60,
+  "dropped_count": 0,
+  "judged_by": "deterministic_topic_relevance",
+  "dropped": [],
+  "note": "LLM relevance gate skipped by default to avoid discover-stage stalls. Use --llm-relevance for a slow audit."
+}

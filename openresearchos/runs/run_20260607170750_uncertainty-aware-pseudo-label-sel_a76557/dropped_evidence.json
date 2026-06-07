@@ -1,0 +1,9 @@
+{
+  "run_id": "run_20260607170750_uncertainty-aware-pseudo-label-sel_a76557",
+  "topic": "uncertainty-aware pseudo-label selection for semi-supervised medical image classification under label noise",
+  "kept": 60,
+  "dropped_count": 0,
+  "judged_by": "deterministic_topic_relevance",
+  "dropped": [],
+  "note": "LLM relevance gate skipped by default to avoid discover-stage stalls. Use --llm-relevance for a slow audit."
+}

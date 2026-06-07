@@ -1,0 +1,45 @@
+{
+  "claims": [
+    {
+      "claim_id": "CL001",
+      "evidence_id": "EV001",
+      "text": "The paper introduces an automated pipeline capable of performing the entire scientific discovery process, from generating ideas to drafting papers.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL002",
+      "evidence_id": "EV002",
+      "text": "The AI Scientist-v2 extends automated scientific discovery to the workshop level by introducing stronger search and a review-like iteration process with stricter quality gates.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL003",
+      "evidence_id": "EV003",
+      "text": "LLM agents can be used as research assistants to automate tasks like literature review, experimentation, and report writing.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    }
+  ],
+  "links": [
+    {
+      "from": "EV001",
+      "relation": "suggests_gap",
+      "to": "A key gap is the development of robust and standardized evaluation frameworks for fully automated scientific discovery systems."
+    },
+    {
+      "from": "EV002",
+      "relation": "suggests_gap",
+      "to": "The paper opens the gap of how to effectively operationalize and automate the evaluation of novelty, experiment quality, and paper readiness at scale."
+    },
+    {
+      "from": "EV003",
+      "relation": "suggests_gap",
+      "to": "The paper does not detail how the system itself ensures reproducibility or minimizes the need for extensive human intervention."
+    }
+  ]
+}

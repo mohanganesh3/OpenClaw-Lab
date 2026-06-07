@@ -1,0 +1,402 @@
+{
+  "problem_addressed": "Learning with one-hot labels in deep learning leads to overconfident predictions and poor robustness, while existing solutions like label smoothing fail to account for sample-specific ambiguity.",
+  "core_claim": "Leveraging quantum non-determinism through variational quantum circuits can generate more nuanced, human-like uncertainty representations in labels, improving robustness and calibration in image classification.",
+  "key_contributions": [
+    "A hybrid quantum-classical framework using VQC to extract probabilistic soft labels from quantum measurements",
+    "Demonstrating up to 50% higher accuracy under noise while maintaining competitive clean-data accuracy",
+    "Enhanced model calibration and interpretability with CNN outputs better reflecting quantum-derived uncertainty"
+  ],
+  "novelty": "Unlike uniform label smoothing, this method generates sample-specific probabilistic labels using quantum non-determinism, bridging quantum measurement with classical deep learning for robust training without architectural changes.",
+  "method_summary": "The method employs a variational quantum circuit (VQC) to encode each input image into a multi-qubit quantum state using entanglement and superposition. The quantum state is measured via the Born rule to extract a probabilistic soft label distribution that reflects input-specific uncertainty, which then trains a classical CNN with soft-target cross-entropy loss.",
+  "method_components": [
+    "Variational quantum circuit (VQC) that encodes inputs into quantum states",
+    "Born rule measurement to extract probabilistic soft labels",
+    "Classical CNN training with soft-target cross-entropy loss"
+  ],
+  "key_innovation": "Using quantum non-determinism through VQC to generate sample-specific probabilistic labels that capture intra-class variability and genuine ambiguity, unlike uniform label smoothing.",
+  "assumptions": [
+    "The VQC can effectively encode image inputs into quantum states that capture relevant feature correlations",
+    "Quantum measurements via the Born rule can produce meaningful probabilistic labels",
+    "The quantum-derived labels provide better supervision signals than one-hot labels for training classical CNNs"
+  ],
+  "theoretical_grounding": "The method is grounded in quantum mechanics principles (Born rule for measurement, superposition and entanglement for state encoding) and standard cross-entropy loss minimization, though no specific proofs or bounds are provided.",
+  "datasets_used": [
+    "MNIST",
+    "Fashion-MNIST"
+  ],
+  "baselines_compared": [
+    "M1",
+    "M2"
+  ],
+  "metrics_used": [
+    "accuracy"
+  ],
+  "hyperparameters": null,
+  "compute_required": null,
+  "seeds": null,
+  "headline_result": "M3 achieves 97.87% accuracy under Gaussian noise (Std=0.1)",
+  "results_table": [
+    {
+      "method": "M1",
+      "dataset": "MNIST",
+      "metric": "accuracy",
+      "value": "99.14%"
+    },
+    {
+      "method": "M2",
+      "dataset": "MNIST",
+      "metric": "accuracy",
+      "value": "99.30%"
+    },
+    {
+      "method": "M3",
+      "dataset": "MNIST",
+      "metric": "accuracy",
+      "value": "97.87%"
+    },
+    {
+      "method": "M4",
+      "dataset": "MNIST",
+      "metric": "accuracy",
+      "value": "97.95%"
+    },
+    {
+      "method": "M1",
+      "dataset": "MNIST",
+      "metric": "accuracy",
+      "value": "98.12%"
+    },
+    {
+      "method": "M2",
+      "dataset": "MNIST",
+      "metric": "accuracy",
+      "value": "98.60%"
+    },
+    {
+      "method": "M3",
+      "dataset": "MNIST",
+      "metric": "accuracy",
+      "value": "97.35%"
+    },
+    {
+      "method": "M4",
+      "dataset": "MNIST",
+      "metric": "accuracy",
+      "value": "97.82%"
+    },
+    {
+      "method": "M1",
+      "dataset": "MNIST",
+      "metric": "accuracy",
+      "value": "85.50%"
+    },
+    {
+      "method": "M2",
+      "dataset": "MNIST",
+      "metric": "accuracy",
+      "value": "73.51%"
+    },
+    {
+      "method": "M3",
+      "dataset": "MNIST",
+      "metric": "accuracy",
+      "value": "95.76%"
+    },
+    {
+      "method": "M4",
+      "dataset": "MNIST",
+      "metric": "accuracy",
+      "value": "96.05%"
+    },
+    {
+      "method": "M1",
+      "dataset": "MNIST",
+      "metric": "accuracy",
+      "value": "62.59%"
+    },
+    {
+      "method": "M2",
+      "dataset": "MNIST",
+      "metric": "accuracy",
+      "value": "51.01%"
+    },
+    {
+      "method": "M3",
+      "dataset": "MNIST",
+      "metric": "accuracy",
+      "value": "81.34%"
+    },
+    {
+      "method": "M4",
+      "dataset": "MNIST",
+      "metric": "accuracy",
+      "value": "80.66%"
+    },
+    {
+      "method": "M1",
+      "dataset": "MNIST",
+      "metric": "accuracy",
+      "value": "37.68%"
+    },
+    {
+      "method": "M2",
+      "dataset": "MNIST",
+      "metric": "accuracy",
+      "value": "23.32%"
+    },
+    {
+      "method": "M3",
+      "dataset": "MNIST",
+      "metric": "accuracy",
+      "value": "70.13%"
+    },
+    {
+      "method": "M4",
+      "dataset": "MNIST",
+      "metric": "accuracy",
+      "value": "52.82%"
+    },
+    {
+      "method": "M1",
+      "dataset": "MNIST",
+      "metric": "accuracy",
+      "value": "95.24%"
+    },
+    {
+      "method": "M2",
+      "dataset": "MNIST",
+      "metric": "accuracy",
+      "value": "96.81%"
+    },
+    {
+      "method": "M3",
+      "dataset": "MNIST",
+      "metric": "accuracy",
+      "value": "91.56%"
+    },
+    {
+      "method": "M4",
+      "dataset": "MNIST",
+      "metric": "accuracy",
+      "value": "92.18%"
+    },
+    {
+      "method": "M1",
+      "dataset": "MNIST",
+      "metric": "accuracy",
+      "value": "91.58%"
+    },
+    {
+      "method": "M2",
+      "dataset": "MNIST",
+      "metric": "accuracy",
+      "value": "91.15%"
+    },
+    {
+      "method": "M3",
+      "dataset": "MNIST",
+      "metric": "accuracy",
+      "value": "90.74%"
+    },
+    {
+      "method": "M4",
+      "dataset": "MNIST",
+      "metric": "accuracy",
+      "value": "91.14%"
+    },
+    {
+      "method": "M1",
+      "dataset": "MNIST",
+      "metric": "accuracy",
+      "value": "79.52%"
+    },
+    {
+      "method": "M2",
+      "dataset": "MNIST",
+      "metric": "accuracy",
+      "value": "60.04%"
+    },
+    {
+      "method": "M3",
+      "dataset": "MNIST",
+      "metric": "accuracy",
+      "value": "85.52%"
+    },
+    {
+      "method": "M4",
+      "dataset": "MNIST",
+      "metric": "accuracy",
+      "value": "83.71%"
+    },
+    {
+      "method": "M1",
+      "dataset": "MNIST",
+      "metric": "accuracy",
+      "value": "36.03%"
+    },
+    {
+      "method": "M2",
+      "dataset": "MNIST",
+      "metric": "accuracy",
+      "value": "26.21%"
+    },
+    {
+      "method": "M3",
+      "dataset": "MNIST",
+      "metric": "accuracy",
+      "value": "76.57%"
+    },
+    {
+      "method": "M4",
+      "dataset": "MNIST",
+      "metric": "accuracy",
+      "value": "66.20%"
+    },
+    {
+      "method": "M1",
+      "dataset": "MNIST",
+      "metric": "accuracy",
+      "value": "31.14%"
+    },
+    {
+      "method": "M2",
+      "dataset": "MNIST",
+      "metric": "accuracy",
+      "value": "24.83%"
+    },
+    {
+      "method": "M3",
+      "dataset": "MNIST",
+      "metric": "accuracy",
+      "value": "61.03%"
+    },
+    {
+      "method": "M4",
+      "dataset": "MNIST",
+      "metric": "accuracy",
+      "value": "58.35%"
+    },
+    {
+      "method": "M1",
+      "dataset": "Fashion-MNIST",
+      "metric": "accuracy",
+      "value": "91.32%"
+    },
+    {
+      "method": "M2",
+      "dataset": "Fashion-MNIST",
+      "metric": "accuracy",
+      "value": "91.94%"
+    },
+    {
+      "method": "M3",
+      "dataset": "Fashion-MNIST",
+      "metric": "accuracy",
+      "value": "88.92%"
+    },
+    {
+      "method": "M4",
+      "dataset": "Fashion-MNIST",
+      "metric": "accuracy",
+      "value": "83.51%"
+    },
+    {
+      "method": "M1",
+      "dataset": "Fashion-MNIST",
+      "metric": "accuracy",
+      "value": "84.55%"
+    },
+    {
+      "method": "M2",
+      "dataset": "Fashion-MNIST",
+      "metric": "accuracy",
+      "value": "73.36%"
+    },
+    {
+      "method": "M3",
+      "dataset": "Fashion-MNIST",
+      "metric": "accuracy",
+      "value": "87.53%"
+    },
+    {
+      "method": "M4",
+      "dataset": "Fashion-MNIST",
+      "metric": "accuracy",
+      "value": "82.97%"
+    },
+    {
+      "method": "M1",
+      "dataset": "Fashion-MNIST",
+      "metric": "accuracy",
+      "value": "70.88%"
+    },
+    {
+      "method": "M2",
+      "dataset": "Fashion-MNIST",
+      "metric": "accuracy",
+      "value": "65.24%"
+    },
+    {
+      "method": "M3",
+      "dataset": "Fashion-MNIST",
+      "metric": "accuracy",
+      "value": "81.80%"
+    },
+    {
+      "method": "M4",
+      "dataset": "Fashion-MNIST",
+      "metric": "accuracy",
+      "value": "81.73%"
+    },
+    {
+      "method": "M1",
+      "dataset": "Fashion-MNIST",
+      "metric": "accuracy",
+      "value": "49.80%"
+    },
+    {
+      "method": "M2",
+      "dataset": "Fashion-MNIST",
+      "metric": "accuracy",
+      "value": "40.09%"
+    },
+    {
+      "method": "M3",
+      "dataset": "Fashion-MNIST",
+      "metric": "accuracy",
+      "value": "70.92%"
+    },
+    {
+      "method": "M4",
+      "dataset": "Fashion-MNIST",
+      "metric": "accuracy",
+      "value": "72.41%"
+    }
+  ],
+  "ablations": [
+    "M3 uses quantum-derived probabilistic labels across all training samples",
+    "M4 uses quantum-derived probabilistic labels but only on high-confidence samples (~91.5% of dataset)"
+  ],
+  "improvement_over_baseline": "M3 and M4 show significantly better robustness under noise and rotation compared to M1 and M2, with M3 maintaining 95.76% accuracy under Std=0.3 noise vs M1's 85.50% and M2's 73.51%",
+  "best_result": "M3 achieves 97.87% accuracy under Gaussian noise (Std=0.1)",
+  "key_results": {
+    "MNIST_accuracy": "98.60%"
+  },
+  "limitations_stated": [],
+  "reproducibility": "low",
+  "evidence_id": "EV023",
+  "title": "Quantum Probabilistic Label Refining: Enhancing Label Quality for Robust Image Classification",
+  "year": 2025,
+  "arxiv_id": "2510.00528",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 57495,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 11,
+  "pdf_tables": 6,
+  "pdf_captions": 12
+}

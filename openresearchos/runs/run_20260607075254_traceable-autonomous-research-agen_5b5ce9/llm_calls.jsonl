@@ -1,0 +1,3 @@
+{"ts":"2026-06-07T07:55:12.354Z","label":"gap_probe_codegen:G01","ok":true,"ms":57621,"calls":1}
+{"ts":"2026-06-07T07:55:26.681Z","label":"gap_probe_codegen:G02","ok":true,"ms":10596,"calls":2}
+{"ts":"2026-06-07T07:55:42.219Z","label":"gap_probe_codegen:G03","ok":true,"ms":13184,"calls":3}

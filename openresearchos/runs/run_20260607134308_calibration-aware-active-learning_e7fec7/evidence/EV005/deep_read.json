@@ -1,0 +1,87 @@
+{
+  "problem_addressed": "Developing AI models remains a heavily manual process requiring specialized expertise, and existing AI development agents have limited performance due to static, outdated, and sparse knowledge in their underlying large language models.",
+  "core_claim": "AIBuildAI-2, a knowledge-enhanced agent with an external, evolving knowledge system, significantly improves AI model development capabilities to match expert human practitioners.",
+  "key_contributions": [
+    "AIBuildAI-2 introduces a hierarchical knowledge system organizing curated AI development knowledge into high-level instructions and low-level documents",
+    "The system evolves from the agent's own experience by distilling completed runs into structured takeaways written back into the knowledge system",
+    "Achieves state-of-the-art performance on MLE-Bench (70.7% medal rate) and competes at top-tier human levels in real-world Kaggle competitions"
+  ],
+  "novelty": "The external, evolving knowledge system that grounds design decisions in concrete, externally verifiable expertise, unlike prior agents with static knowledge bases or web-search retrieval.",
+  "method_summary": "AIBuildAI-2 uses a hierarchical knowledge system that dynamically loads relevant context based on task state and current progress, with knowledge continuously evolving from completed runs through structured distillation.",
+  "method_components": [
+    "Hierarchical knowledge system with topical categories and curated documents",
+    "Dynamic context loading mechanism based on task state and requirements",
+    "Experience distillation process converting completed runs into structured knowledge takeaways"
+  ],
+  "key_innovation": "The continuously evolving external knowledge system that addresses the static knowledge limitation of prior agents by learning from its own experience and maintaining up-to-date expertise.",
+  "assumptions": [
+    "AI development knowledge can be effectively organized into hierarchical categories",
+    "Experience distillation yields structured, reusable knowledge components",
+    "Relevant knowledge can be dynamically identified and loaded based on task context"
+  ],
+  "theoretical_grounding": "Empirical validation through benchmark results and competition performance rather than formal theoretical proofs.",
+  "datasets_used": [],
+  "baselines_compared": [],
+  "metrics_used": [],
+  "hyperparameters": null,
+  "compute_required": null,
+  "seeds": null,
+  "headline_result": null,
+  "results_table": [],
+  "ablations": [],
+  "improvement_over_baseline": null,
+  "stated_limitations": [
+    "Performance limited by parametric knowledge of underlying large language models"
+  ],
+  "unstated_weaknesses": [
+    "No specific handling for medical tabular data",
+    "No mention of noisy label handling",
+    "No discussion of calibration",
+    "Scalability for small datasets not addressed"
+  ],
+  "threats_to_validity": [
+    "Limited generalization to medical tabular datasets",
+    "Performance variance based on LLM knowledge quality"
+  ],
+  "reproducibility": "unknown (depends on code and LLM accessibility)",
+  "open_questions": [
+    "How does the agent handle noisy labels?",
+    "Can the agent ensure calibration?",
+    "How effective is the agent for small medical tabular datasets?"
+  ],
+  "future_work": [
+    "Not mentioned in abstract"
+  ],
+  "gaps_this_enables": [
+    "Integrating calibration techniques into agent-based model building",
+    "Developing methods for handling noisy labels within an agent framework"
+  ],
+  "relevance_to_topic": "The paper introduces an agent for automatic model building, which could potentially be extended to address calibration-aware active learning under noisy labels for medical tabular datasets, but it doesn't directly address these specific challenges.",
+  "relation_type": "tangential",
+  "can_run_on_macbook": "unknown",
+  "reusable_assets": [
+    "Agent framework for automated model building"
+  ],
+  "code_available": "unknown",
+  "code_url": null,
+  "best_result": null,
+  "key_results": {},
+  "limitations_stated": [
+    "Performance limited by parametric knowledge of underlying large language models"
+  ],
+  "evidence_id": "EV005",
+  "title": "AIBuildAI-2: Scalable Agentic AI Research and Engineering",
+  "year": 2026,
+  "arxiv_id": "2605.27873",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 69106,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 12,
+  "pdf_tables": 0,
+  "pdf_captions": 4
+}

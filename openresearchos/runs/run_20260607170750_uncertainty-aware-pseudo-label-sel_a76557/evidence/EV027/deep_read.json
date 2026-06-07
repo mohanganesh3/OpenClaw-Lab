@@ -1,0 +1,66 @@
+{
+  "problem_addressed": "The difficulty of obtaining reliable labeled data for supervised machine learning in medical imaging, necessitating semi-supervised or unsupervised approaches like anomaly detection.",
+  "core_claim": "Anomaly detection methods effectively address medical imaging tasks like classification and segmentation by leveraging semi-supervised and unsupervised learning, reducing dependence on costly labeled data.",
+  "key_contributions": [
+    "Semi-exhaustive literature review of 120 papers on anomaly detection in medical imaging, clustered into applications (ocular, chest X-ray/mammography, CT/fMRI, brain MRI, mixed domains).",
+    "Identification of dominant research trends: brain MRI applications (53.85% of papers), prevalence of deviation-based methods using autoencoders/GANs (69.23%), and dataset-driven research bias.",
+    "Demonstration of successful applications in tumor detection (7/15 brain MRI papers), pneumonia/COVID-19 detection in chest X-rays, and retina lesion segmentation in OCT."
+  ],
+  "novelty": "Synthesis of lessons learned from 120 papers to establish domain-specific trends, methodological preferences (e.g., AEs/GANs), and practical advice for anomaly detection in medical imaging, highlighting the link between data availability and research focus.",
+  "method_summary": "Qualitative literature review using Google Scholar and 4 search terms, filtering 120 papers to 45 relevant research items, then clustering by imaging modality and analyzing applications, methods, and motivations.",
+  "method_components": [
+    "Semi-exhaustive literature search and filtering",
+    "Categorization of papers by imaging modality (Tables I-V)",
+    "Analysis of applied methods (e.g., AEs, GANs, CNNs)",
+    "Identification of research motivations (e.g., labeled data scarcity)"
+  ],
+  "key_innovation": "The systematic clustering of anomaly detection applications across medical imaging domains, revealing the dominance of brain MRI research and deviation-based methods, and linking research trends to dataset availability.",
+  "assumptions": [
+    "Anomalies in medical images can be defined as deviations from normal/healthy samples.",
+    "Publicly available datasets drive research focus in specific imaging domains.",
+    "Semi-supervised/unsupervised methods can effectively replace supervised approaches where labels are scarce."
+  ],
+  "theoretical_grounding": "None explicitly provided; the paper is a qualitative review without mathematical proofs or derivations.",
+  "datasets_used": [
+    "Brain MRI",
+    "Chest X-ray",
+    "Mammography",
+    "OCT",
+    "CT scans of skeleton or spines",
+    "Histological data"
+  ],
+  "baselines_compared": [
+    "AE (Autoencoders)",
+    "GAN (Generative Adversarial Networks)",
+    "Gaussian mixture models",
+    "Hidden Markov models",
+    "CNNs with specific feature extractors"
+  ],
+  "metrics_used": [],
+  "hyperparameters": null,
+  "compute_required": null,
+  "seeds": null,
+  "headline_result": "No specific headline result provided",
+  "results_table": [],
+  "ablations": [],
+  "improvement_over_baseline": null,
+  "best_result": "No specific headline result provided",
+  "key_results": {},
+  "limitations_stated": [],
+  "reproducibility": "low",
+  "evidence_id": "EV027",
+  "title": "Anomaly Detection in Medical Imaging - A Mini Review",
+  "year": 2021,
+  "arxiv_id": "2108.11986",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 35780,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 7,
+  "pdf_tables": 0,
+  "pdf_captions": 0
+}

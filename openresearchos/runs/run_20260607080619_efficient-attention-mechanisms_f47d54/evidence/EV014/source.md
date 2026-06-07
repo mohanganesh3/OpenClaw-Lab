@@ -1,0 +1,10 @@
+# EV014: Genotype-Phenotype Integration through Machine Learning and Personalized Gene Regulatory Networks for Cancer Metastasis Prediction
+
+URL: https://www.semanticscholar.org/paper/007b08a8850a72f858991cf8802be794ad4153d0
+Year: 2025
+Source: semantic_scholar
+Arxiv: 2510.23620
+
+## Abstract
+
+Metastasis is the leading cause of cancer-related mortality, yet most predictive models rely on shallow architectures and neglect patient-specific regulatory mechanisms. Here, we integrate classical machine learning and deep learning to predict metastatic potential across multiple cancer types. Gene expression profiles from the Cancer Cell Line Encyclopedia were combined with a transcription factor-target prior from DoRothEA, focusing on nine metastasis-associated regulators. After selecting differential genes using the Kruskal-Wallis test, ElasticNet, Random Forest, and XGBoost models were trained for benchmarking. Personalized gene regulatory networks were then constructed using PANDA and LIONESS and analyzed through a graph attention neural network (GATv2) to learn topological and expression-based representations. While XGBoost achieved the highest AUROC (0.7051), the GNN captured non-linear regulatory dependencies at the patient level. These results demonstrate that combining traditional machine learning with graph-based deep learning enables a scalable and interpretable framework for metastasis risk prediction in precision oncology.

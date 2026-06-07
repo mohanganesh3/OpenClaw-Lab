@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "run_id": "run_20260607072543_traceable-autonomous-research-agen_b31048",
+  "topic": "traceable autonomous research agents smoke aaf8d5",
+  "created_at": "2026-06-07T07:26:03.211Z",
+  "updated_at": "2026-06-07T07:26:06.802Z",
+  "current_state": "EVIDENCE_LOCKED",
+  "scope_classification": {
+    "label": "local_experiment",
+    "rationale": "The topic can be explored with small simulations, synthetic data, or lightweight local experiments on the Mac.",
+    "feasibility_note": "The topic is feasible on a MacBook M4 with 36GB RAM and MPS GPU, especially with offline capability after dataset download. Suitable public datasets include: 1) ArXiv academic papers (1.9M papers) for scientific research tasks, 2) Common Crawl web data (100GB subset) for general knowledge exploration, and 3) CodeSearchNet for programming research capabilities. Experimentation would likely take 2-4 weeks for initial implementation, with each agent iteration requiring 4-8 hours for training and ev"
+  },
+  "prior_knowledge": [
+    {
+      "file": "memory/experiment_lessons/experiment_lesson_id001.md",
+      "excerpt": ""
+    },
+    {
+      "file": "memory/experiment_lessons/experiment_lesson_id004.md",
+      "excerpt": ""
+    },
+    {
+      "file": "memory/failed_ideas/venue-fit_assessment_module.md",
+      "excerpt": ""
+    },
+    {
+      "file": "memory/failed_ideas/venue-aware_claim_narrowing_for_traceable_autonomous_research.md",
+      "excerpt": ""
+    },
+    {
+      "file": "memory/failed_ideas/venue-aware_claim_narrowing_for_efficient_attention_mechanisms.md",
+      "excerpt": ""
+    }
+  ],
+  "search_queries": [
+    "traceable autonomous agents",
+    "autonomous research methods",
+    "transparent AI research",
+    "autonomous research applications",
+    "AI research automation",
+    "autonomous discovery systems",
+    "autonomous agent benchmarks",
+    "research agent evaluation",
+    "comparative agent studies",
+    "autonomous agent limitations",
+    "research agent challenges",
+    "traceability issues",
+    "autonomous research alternatives",
+    "agent comparison methods",
+    "smoke aaf8d5 survey"
+  ],
+  "evidence_ids": [
+    "EV001",
+    "EV002",
+    "EV003",
+    "EV004",
+    "EV005",
+    "EV006",
+    "EV007",
+    "EV008",
+    "EV009",
+    "EV010"
+  ],
+  "parsed_papers": [],
+  "claim_graph": {
+    "claims": [],
+    "links": []
+  },
+  "research_gaps": [],
+  "idea_tree": [],
+  "reviewer_scores": [],
+  "experiment_candidates": [],
+  "approval_status": {},
+  "micro_probe_results": [],
+  "probe_results": [],
+  "ablation_results": [],
+  "mvp_results": [],
+  "failed_ideas": [],
+  "validation_results": [],
+  "paper_readiness_level": "RRL-0",
+  "final_output_path": null,
+  "history": [
+    {
+      "at": "2026-06-07T07:26:03.211Z",
+      "state": "TOPIC_SCOPED",
+      "detail": "The topic can be explored with small simulations, synthetic data, or lightweight local experiments on the Mac."
+    },
+    {
+      "at": "2026-06-07T07:26:03.211Z",
+      "state": "SEARCH_PLAN_CREATED",
+      "detail": "15 queries created (LLM-generated)."
+    },
+    {
+      "at": "2026-06-07T07:26:06.799Z",
+      "state": "LITERATURE_DISCOVERY_RUNNING",
+      "detail": "Starting structured literature discovery."
+    },
+    {
+      "at": "2026-06-07T07:26:06.802Z",
+      "state": "EVIDENCE_LOCKED",
+      "detail": "10 papers found (target was 50+)."
+    }
+  ],
+  "discovery_errors": []
+}

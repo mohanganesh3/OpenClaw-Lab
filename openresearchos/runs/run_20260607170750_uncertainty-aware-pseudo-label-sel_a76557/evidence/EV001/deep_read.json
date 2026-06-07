@@ -1,0 +1,203 @@
+{
+  "problem_addressed": "Current computer-aided diagnosis systems use oversimplified one-hot labels that ignore diagnostic uncertainty, forcing models to make overconfident predictions especially with noisy or ambiguous medical images.",
+  "core_claim": "Leveraging neural network training dynamics to generate calibrated uncertainty-aware pseudo-labels improves multi-view uncertainty estimation and robustness in medical image classification.",
+  "key_contributions": [
+    "Introducing a framework that uses neural network training dynamics (NNTD) to assess sample difficulty and generate uncertainty-aware pseudo-labels",
+    "Developing calibrated pseudo-label methods (Pseudo-T and Pseudo-D) that improve model calibration through temperature scaling and Dirichlet calibration",
+    "Demonstrating superior performance on echocardiography classification tasks with improved calibration, selective classification, and multi-view fusion"
+  ],
+  "novelty": "Unlike prior works that use simple temperature scaling or ensemble approaches, this method specifically leverages the evolution of model predictions across training epochs to quantify sample difficulty and generate uncertainty-aware pseudo-labels, with Pseudo-D introducing class-wise scaling rather than global temperature scaling.",
+  "method_summary": "The method records model predictions across training epochs for each sample, aggregates these predictions into pseudo-labels representing model uncertainty, calibrates these pseudo-labels using validation data through temperature scaling or Dirichlet calibration, and trains models on these uncertainty-aware pseudo-labels to enhance robustness.",
+  "method_components": [
+    "Neural network training dynamics (NNTD) aggregation using averaged logits across epochs",
+    "Temperature scaling (Pseudo-T) for basic calibration using validation cross-entropy minimization",
+    "Dirichlet calibration (Pseudo-D) with class-wise scaling matrix and bias using regularization"
+  ],
+  "key_innovation": "Using the evolution of model predictions during training (rather than just final predictions) to quantify sample difficulty and generate uncertainty-aware pseudo-labels that reflect the ambiguity encountered during learning.",
+  "assumptions": [
+    "The model's predictions during training reflect the inherent difficulty of each sample",
+    "Calibration on validation set generalizes to training set",
+    "Averaging logits across epochs provides a stable representation of model uncertainty"
+  ],
+  "theoretical_grounding": "The method builds on prior work in knowledge distillation and calibration, using cross-entropy minimization for temperature scaling and regularization terms to prevent overfitting in Dirichlet calibration. No explicit theoretical proofs are provided in the abstract/intro sections.",
+  "datasets_used": [
+    "aortic stenosis classification dataset (ultrasound videos)"
+  ],
+  "baselines_compared": [
+    "Vanilla",
+    "Abstention [6]",
+    "TMC [12]",
+    "RT4U [9]",
+    "Pseudo-T (ours)",
+    "Pseudo-D (ours)"
+  ],
+  "metrics_used": [
+    "MAE",
+    "ACC",
+    "ECE",
+    "AURC"
+  ],
+  "hyperparameters": "R(2+1)D model with Kinetics400 initialization, ADAM optimizer, learning rate 1e-4 for 20 epochs, random rotation ±15°, cropping ratio 0.7, temperature parameters γ, A, b tuned via SGD (lr 0.01, λ1=λ2=1)",
+  "compute_required": "single GPU (implied by 3D CNN training)",
+  "seeds": "null",
+  "headline_result": "Pseudo-D achieves best study-level AURC of 0.885 and MAE of 0.180",
+  "results_table": [
+    {
+      "method": "Vanilla",
+      "dataset": "aortic stenosis",
+      "metric": "video_mae",
+      "value": "0.257"
+    },
+    {
+      "method": "Vanilla",
+      "dataset": "aortic stenosis",
+      "metric": "video_acc",
+      "value": "0.765"
+    },
+    {
+      "method": "Vanilla",
+      "dataset": "aortic stenosis",
+      "metric": "video_ece",
+      "value": "0.170"
+    },
+    {
+      "method": "Vanilla",
+      "dataset": "aortic stenosis",
+      "metric": "video_aurc",
+      "value": "0.804"
+    },
+    {
+      "method": "Vanilla",
+      "dataset": "aortic stenosis",
+      "metric": "study_mae",
+      "value": "0.224"
+    },
+    {
+      "method": "Vanilla",
+      "dataset": "aortic stenosis",
+      "metric": "study_acc",
+      "value": "0.790"
+    },
+    {
+      "method": "Vanilla",
+      "dataset": "aortic stenosis",
+      "metric": "study_ece",
+      "value": "0.138"
+    },
+    {
+      "method": "Vanilla",
+      "dataset": "aortic stenosis",
+      "metric": "study_aurc",
+      "value": "0.852"
+    },
+    {
+      "method": "Pseudo-D",
+      "dataset": "aortic stenosis",
+      "metric": "video_mae",
+      "value": "0.220"
+    },
+    {
+      "method": "Pseudo-D",
+      "dataset": "aortic stenosis",
+      "metric": "video_acc",
+      "value": "0.787"
+    },
+    {
+      "method": "Pseudo-D",
+      "dataset": "aortic stenosis",
+      "metric": "video_ece",
+      "value": "0.096"
+    },
+    {
+      "method": "Pseudo-D",
+      "dataset": "aortic stenosis",
+      "metric": "video_aurc",
+      "value": "0.793"
+    },
+    {
+      "method": "Pseudo-D",
+      "dataset": "aortic stenosis",
+      "metric": "study_mae",
+      "value": "0.180"
+    },
+    {
+      "method": "Pseudo-D",
+      "dataset": "aortic stenosis",
+      "metric": "study_acc",
+      "value": "0.820"
+    },
+    {
+      "method": "Pseudo-D",
+      "dataset": "aortic stenosis",
+      "metric": "study_ece",
+      "value": "0.071"
+    },
+    {
+      "method": "Pseudo-D",
+      "dataset": "aortic stenosis",
+      "metric": "study_aurc",
+      "value": "0.885"
+    }
+  ],
+  "ablations": [
+    "Pseudo-T vs Pseudo-D comparison shows Pseudo-D's class-wise calibration improves performance"
+  ],
+  "improvement_over_baseline": "Pseudo-D improves study-level MAE by 19.6% (0.224→0.180) and AURC by 3.3% (0.852→0.885) over Vanilla baseline",
+  "stated_limitations": [],
+  "unstated_weaknesses": [
+    "Lack of specificity on how neural network training dynamics are quantified and aggregated",
+    "No mention of computational efficiency or scalability",
+    "No discussion of performance across different medical imaging modalities"
+  ],
+  "threats_to_validity": [
+    "Potential overfitting to specific types of medical images or conditions",
+    "Uncertainty estimates might not generalize across different medical domains",
+    "Method's performance under varying levels of label noise isn't specified"
+  ],
+  "reproducibility": "unknown",
+  "open_questions": [
+    "How does the method perform with different neural network architectures?",
+    "What is the computational overhead compared to standard pseudo-labeling methods?",
+    "How does the method scale with larger datasets?"
+  ],
+  "future_work": [
+    "Extending to other medical imaging modalities",
+    "Integrating with active learning frameworks"
+  ],
+  "gaps_this_enables": [
+    "More nuanced pseudo-labeling in semi-supervised medical image classification",
+    "Better handling of diagnostic uncertainty in medical AI systems",
+    "Potential for more robust models under label noise conditions"
+  ],
+  "relevance_to_topic": "Directly relevant as it introduces uncertainty-aware pseudo-labels for medical image classification",
+  "relation_type": "method_source",
+  "can_run_on_macbook": "unknown",
+  "reusable_assets": [],
+  "code_available": "unknown",
+  "code_url": null,
+  "best_result": "Pseudo-D achieves best study-level AURC of 0.885 and MAE of 0.180",
+  "key_results": {
+    "aortic stenosis_video_mae": "0.257",
+    "aortic stenosis_video_acc": "0.765",
+    "aortic stenosis_video_ece": "0.170",
+    "aortic stenosis_video_aurc": "0.804",
+    "aortic stenosis_study_mae": "0.224",
+    "aortic stenosis_study_acc": "0.790"
+  },
+  "limitations_stated": [],
+  "evidence_id": "EV001",
+  "title": "Pseudo-D: Informing Multi-View Uncertainty Estimation with Calibrated Neural Training Dynamics",
+  "year": 2025,
+  "arxiv_id": "2509.11800",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 29119,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 11,
+  "pdf_tables": 1,
+  "pdf_captions": 5
+}

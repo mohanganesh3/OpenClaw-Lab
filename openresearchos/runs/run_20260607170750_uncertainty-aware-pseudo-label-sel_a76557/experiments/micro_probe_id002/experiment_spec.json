@@ -1,0 +1,37 @@
+{
+  "experiment_id": "micro_probe_id002",
+  "run_id": "run_20260607170750_uncertainty-aware-pseudo-label-sel_a76557",
+  "idea_id": "ID002",
+  "idea_title": "Class-balanced pseudo-labeling for scarce medical labels",
+  "selected_idea": {
+    "title": "Class-balanced pseudo-labeling for scarce medical labels",
+    "pitch": "Several papers report gains from SSL, but small medical datasets can amplify class imbalance and confirmation bias. The gap is whether pseudo-label selection should explicitly balance classes instead of only using max probability.",
+    "mechanism": "Class-balanced low-entropy selection will reduce minority-class collapse and improve macro/weighted F1 against max-confidence selection.",
+    "testable_hypothesis": "Class-balanced low-entropy selection will reduce minority-class collapse and improve macro/weighted F1 against max-confidence selection.",
+    "required_dataset": "sklearn_digits SSL proxy with small labeled-per-class budget; remote follow-up: imbalanced medical image classification dataset.",
+    "baseline_to_beat": "[EV001] Pseudo-D: Informing Multi-View Uncertainty Estimation with Calibrated Neural Training Dynamics",
+    "source_gap_id": "G02"
+  },
+  "topic": "uncertainty-aware pseudo-label selection for semi-supervised medical image classification under label noise",
+  "level": "micro_probe",
+  "label": "Micro-Probe",
+  "hypothesis": "Class-balanced low-entropy selection will reduce minority-class collapse and improve macro/weighted F1 against max-confidence selection.",
+  "method": "Class-balanced low-entropy selection will reduce minority-class collapse and improve macro/weighted F1 against max-confidence selection.",
+  "metric": "improvement_over_baseline",
+  "baseline": "[EV001] Pseudo-D: Informing Multi-View Uncertainty Estimation with Calibrated Neural Training Dynamics",
+  "ablation_plan": [
+    "proposed method without key component 1",
+    "proposed method without key component 2",
+    "baseline with partial improvement"
+  ],
+  "dataset": "sklearn_digits SSL proxy with small labeled-per-class budget; remote follow-up: imbalanced medical image classification dataset.",
+  "expected_result": "The proposed method (Class-balanced pseudo-labeling for scarce medical labels) should beat the baseline on the specified metric.",
+  "failure_interpretation": "A weak or negative margin means the mechanism does not justify promotion and should be revised or killed.",
+  "runtime_budget_minutes": "1-5",
+  "max_disk_mb": 250,
+  "max_dataset_download_gb": 0,
+  "max_reruns": 5,
+  "allowed_network_actions": [],
+  "fixed_seed": 42,
+  "created_at": "2026-06-07T18:30:00.814Z"
+}

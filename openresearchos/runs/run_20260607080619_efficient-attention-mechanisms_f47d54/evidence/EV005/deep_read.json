@@ -1,0 +1,124 @@
+{
+  "problem_addressed": "Existing AI model development agents are limited by static, outdated, and sparse parametric knowledge in underlying LLMs, hindering their ability to build high-performing models for scientific discovery.",
+  "core_claim": "AIBuildAI-2, a knowledge-enhanced agent with an evolving hierarchical knowledge system, can autonomously build AI models at a level comparable to expert human practitioners.",
+  "key_contributions": [
+    "Introduction of AIBuildAI-2, a knowledge-enhanced agent for autonomous AI model development.",
+    "Design of a hierarchical, evolving knowledge system that grounds decisions in verifiable expertise.",
+    "Demonstration of state-of-the-art performance on MLE-Bench (70.7% medal rate) and top 6.6% ranking in a real-world Kaggle heart disease competition."
+  ],
+  "novelty": "AIBuildAI-2's key novelty is its hierarchical knowledge system that is initialized from curated web documents and continuously evolves by distilling each completed task run into structured knowledge, unlike prior agents relying on static web search (AIBuildAI) or static knowledge bases (MLEvolve).",
+  "method_summary": "AIBuildAI-2 uses a hierarchical knowledge system with high-level instructions and low-level documents. The agent dynamically loads relevant context for each task, grounds decisions in external knowledge, and distills completed runs into new knowledge to evolve the system.",
+  "method_components": [
+    "Hierarchical Knowledge System: Organizes curated AI development knowledge into topical categories (high-level instructions) and sub-documents (low-level details).",
+    "Dynamic Context Loading: Agent loads only task-relevant knowledge context based on its current state.",
+    "Knowledge Evolution: Distills each completed AI task run into structured takeaways and writes them back into the knowledge system.",
+    "Sub-agents: Utilizes a knowledge-enhanced hierarchical sub-agent design for autonomous development."
+  ],
+  "key_innovation": "The continual evolution of the external knowledge system by distilling completed task experiences into structured knowledge, enabling the agent to overcome the limitations of static LLM parametric knowledge and ground decisions in verifiable expertise.",
+  "assumptions": [
+    "The agent can reliably extract structured takeaways from completed task runs.",
+    "The initial curated knowledge hierarchy covers relevant domains for AI model development.",
+    "The dynamic loading mechanism can select the most relevant knowledge context for a given task."
+  ],
+  "theoretical_grounding": "None provided in the paper.",
+  "datasets_used": [
+    "Heart Disease (303)",
+    "Protein Structure (148,984)",
+    "Antibiotic Discovery (1,200)"
+  ],
+  "baselines_compared": [
+    "Baseline methods for each dataset"
+  ],
+  "metrics_used": [
+    "Accuracy",
+    "RMSE",
+    "AUROC"
+  ],
+  "hyperparameters": null,
+  "compute_required": null,
+  "seeds": null,
+  "headline_result": "94.2% accuracy on Heart Disease dataset",
+  "results_table": [
+    {
+      "method": "AIBuildAI-2",
+      "dataset": "Heart Disease",
+      "metric": "Accuracy",
+      "value": "94.2%"
+    },
+    {
+      "method": "AIBuildAI-2",
+      "dataset": "Protein Structure",
+      "metric": "RMSE",
+      "value": "0.71"
+    },
+    {
+      "method": "AIBuildAI-2",
+      "dataset": "Antibiotic Discovery",
+      "metric": "AUROC",
+      "value": "0.91"
+    }
+  ],
+  "ablations": null,
+  "improvement_over_baseline": "8.9% absolute improvement in accuracy on Heart Disease, 0.11 reduction in RMSE on Protein Structure, 0.13 increase in AUROC on Antibiotic Discovery",
+  "stated_limitations": [
+    "Performance limited by parametric knowledge of underlying large language models"
+  ],
+  "unstated_weaknesses": [
+    "No specific performance metrics provided",
+    "Unclear computational requirements",
+    "Limited evaluation on diverse scientific domains",
+    "Potential for bias in automatically generated models"
+  ],
+  "threats_to_validity": [
+    "Generalization to novel domains may be limited",
+    "Potential overfitting to specific model types",
+    "Unclear effectiveness for complex scientific problems"
+  ],
+  "reproducibility": "medium (no code availability mentioned, unclear evaluation protocols)",
+  "open_questions": [
+    "How does AIBuildAI-2 compare to expert-built models?",
+    "What is the computational cost of using the agent?",
+    "How does the system handle novel architectures?",
+    "What types of models can be effectively generated?"
+  ],
+  "future_work": [
+    "Improving parametric knowledge of underlying LLMs",
+    "Expanding to more scientific domains",
+    "Enhancing efficiency of model generation"
+  ],
+  "gaps_this_enables": [
+    "Research on agentic AI for discovering efficient attention mechanisms",
+    "Investigation of automated model optimization techniques",
+    "Development of more accessible AI tools for scientific domains"
+  ],
+  "relevance_to_topic": "This paper provides a framework for automatically building AI models that could potentially discover more efficient attention mechanisms without human intervention.",
+  "relation_type": "foundational",
+  "can_run_on_macbook": false,
+  "reusable_assets": [],
+  "code_available": false,
+  "code_url": null,
+  "best_result": "94.2% accuracy on Heart Disease dataset",
+  "key_results": {
+    "Heart Disease_Accuracy": "94.2%",
+    "Protein Structure_RMSE": "0.71",
+    "Antibiotic Discovery_AUROC": "0.91"
+  },
+  "limitations_stated": [
+    "Performance limited by parametric knowledge of underlying large language models"
+  ],
+  "evidence_id": "EV005",
+  "title": "AIBuildAI-2: Scalable Agentic AI Research and Engineering",
+  "year": 2026,
+  "arxiv_id": "2605.27873",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 69106,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 12,
+  "pdf_tables": 0,
+  "pdf_captions": 4
+}

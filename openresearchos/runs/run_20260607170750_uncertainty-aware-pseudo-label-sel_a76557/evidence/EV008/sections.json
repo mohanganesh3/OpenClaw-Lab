@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\nIEEE TRANSACTIONS AND JOURNALS TEMPLATE\n1\nSemSim: Revisiting Weak-to-Strong Consistency\nfrom a Semantic Similarity Perspective for\nSemi-supervised Medical Image Segmentation\nShiao Xie,",
+  "method": "unlabeled data. The prediction pw of\nan unlabeled image xu with weak perturbation Aw is used\nto constrain the prediction ps of the same image with strong\naugmentation As. A custom segmentation network",
+  "results": "od, including ACDC\ndataset [39], ISIC dataset [40] and PROMISE12 dataset [41].\n(i) ACDC dataset is a cardiac MRI dataset that contains 200\nannotated short-axis cardiac MRI images from 100 patients\nwit",
+  "conclusion": "with limited labeled data (#3), our method can still\nachieve competitive performance (DSC: 0.824, 95HD: 5.5mm),\nwhich validates the effectiveness of Lcross. By combining\nthese two types of consistency"
+}

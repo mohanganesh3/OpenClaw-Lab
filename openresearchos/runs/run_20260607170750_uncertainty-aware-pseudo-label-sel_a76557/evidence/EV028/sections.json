@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\nUncertainty-Guided Mutual Consistency Learning for Semi-Supervised Medical\nImage Segmentation\nYichi Zhanga, Rushi Jiaoa, Qingcheng Liaoa, Dongyang Lia, Jicong Zhanga,b,c,∗\naSchool of B",
+  "method": "ed to further exploit the unlabeled data and has been applied to many semi-\nsupervised medical image segmentation tasks [17, 18]. Wang et al. [43] found that Monte Carlo dropout perform\nbetter for unc",
+  "results": "eriments to evaluate the selection of β in our mutual\nconsistency learning framework. The quantitative results are shown in Table 2. When β = 1 or 0, the model achieves\nlower performance because the e",
+  "conclusion": "exploit unlabeled data for\ntraining, our framework integrates intra-task consistency learning from up-to-date predictions for self-ensembling and\ncross-task consistency learning from task-level regula"
+}

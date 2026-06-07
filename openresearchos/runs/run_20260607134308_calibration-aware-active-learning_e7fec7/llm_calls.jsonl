@@ -1,0 +1,23 @@
+{"ts":"2026-06-07T13:43:59.442Z","label":"relevance:0-8","ok":true,"ms":9567,"calls":1}
+{"ts":"2026-06-07T13:44:07.899Z","label":"relevance:8-16","ok":true,"ms":8456,"calls":2}
+{"ts":"2026-06-07T13:44:26.992Z","label":"relevance:16-24","ok":true,"ms":19092,"calls":3}
+{"ts":"2026-06-07T13:44:46.597Z","label":"relevance:24-32","ok":true,"ms":19603,"calls":4}
+{"ts":"2026-06-07T13:44:52.509Z","label":"relevance:32-40","ok":true,"ms":5911,"calls":5}
+{"ts":"2026-06-07T13:45:00.155Z","label":"relevance:40-48","ok":true,"ms":7646,"calls":6}
+{"ts":"2026-06-07T13:46:59.583Z","label":"relevance:48-56","ok":false,"error":"timeout after 90000ms","ms":119426}
+{"ts":"2026-06-07T13:47:24.870Z","label":"relevance:56-60","ok":true,"ms":11954,"calls":8}
+{"ts":"2026-06-07T14:29:41.683Z","label":"gap_probe_codegen:G01","ok":true,"ms":29096,"calls":1}
+{"ts":"2026-06-07T14:31:32.871Z","label":"gap_probe_fix:G01:1","ok":false,"error":"timeout after 90000ms","ms":107607}
+{"ts":"2026-06-07T14:33:34.631Z","label":"gap_probe_codegen:G02","ok":true,"ms":83622,"calls":3}
+{"ts":"2026-06-07T14:35:21.557Z","label":"review:I01:Novelty Reviewer","ok":true,"ms":16215,"calls":1}
+{"ts":"2026-06-07T14:35:39.225Z","label":"review:I01:Experimental Reviewer","ok":true,"ms":17661,"calls":2}
+{"ts":"2026-06-07T14:37:27.993Z","label":"review:I02:Novelty Reviewer","ok":false,"error":"timeout after 90000ms","ms":108764}
+{"ts":"2026-06-07T14:37:35.961Z","label":"review:I02:Experimental Reviewer","ok":true,"ms":7967,"calls":4}
+{"ts":"2026-06-07T14:38:03.074Z","label":"review:I03:Novelty Reviewer","ok":true,"ms":8901,"calls":5}
+{"ts":"2026-06-07T14:39:33.043Z","label":"review:I03:Experimental Reviewer","ok":true,"ms":89968,"calls":6}
+{"ts":"2026-06-07T14:40:25.228Z","label":"review:I04:Novelty Reviewer","ok":true,"ms":52182,"calls":7}
+{"ts":"2026-06-07T14:40:33.985Z","label":"review:I04:Experimental Reviewer","ok":true,"ms":8757,"calls":8}
+{"ts":"2026-06-07T14:40:38.979Z","label":"review:I05:Novelty Reviewer","ok":true,"ms":4991,"calls":9}
+{"ts":"2026-06-07T14:40:43.942Z","label":"review:I05:Experimental Reviewer","ok":true,"ms":4963,"calls":10}
+{"ts":"2026-06-07T14:40:53.495Z","label":"review:I06:Novelty Reviewer","ok":true,"ms":9550,"calls":11}
+{"ts":"2026-06-07T14:41:00.852Z","label":"review:I06:Experimental Reviewer","ok":true,"ms":7356,"calls":12}

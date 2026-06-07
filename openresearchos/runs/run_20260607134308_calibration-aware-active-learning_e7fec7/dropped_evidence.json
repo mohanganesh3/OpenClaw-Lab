@@ -1,0 +1,124 @@
+{
+  "run_id": "run_20260607134308_calibration-aware-active-learning_e7fec7",
+  "topic": "calibration-aware active learning under noisy labels for small medical tabular datasets",
+  "kept": 47,
+  "dropped_count": 23,
+  "judged_by": "llm",
+  "dropped": [
+    {
+      "title": "GenAI-supported portfolio assessment for complex thinking: a GPT-based innovation in business education",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "AI-Enabled Electrochemical Glucose Sensing: Towards Intelligent and Modernized Health Monitoring",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "UAV Hyperspectral Characterization of Vegetation Using Entropy-Based Active Sampling for Partial Least Square Regression Models",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "Uncertainty Estimation for Deep Reconstruction in Actuatic Disaster Scenarios with Autonomous Vehicles",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "Novel Ransomware Detection Exploiting Uncertainty and Calibration Quality Measures Using Deep Learning",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "Mobile-Seed: Joint Semantic Segmentation and Boundary Detection for Mobile Robots",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "Securing the Floor and Raising the Ceiling: A Merging-based Paradigm for Multi-modal Search Agents",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "CAL-Log: Calibration-Aware Logarithmic Cost Modeling for Active Learning in Low-Resource NLP",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "Context-Aware Online Conformal Anomaly Detection with Prediction-Powered Data Acquisition",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "Bayesian Active Learning-Based Soft Data Space Calibration for System-Wise Aggregate Flexibility Characterization",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "AL-X0: Cost-Aware Active Learning for Cloud-Scale NLP via Zero-Shot Proxy Valuation",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "RewardUQ: A Unified Framework for Uncertainty-Aware Reward Models",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "Bayesian E(3)-Equivariant Interatomic Potential with Iterative Restratification of Many-body Message Passing",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "A Risk-Tiered Validation Framework for Artificial Intelligence in Drug Discovery: From Reproducibility to Clinical Translation",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "CLASSIFICATION OF ARTIFICIAL INTELLIGENCE TOOLING IN ARCHITECTURE. PROCESS-CYCLE DIMENSION",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "Uncertainty-Guided Dual-Domain Learning for Reliable Skin Lesion Segmentation",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "Small Business Innovation Research Program",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "Revisiting Unknowns: Towards Effective and Efficient Open-Set Active Learning",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "OmniDP: Beyond-FOV Large-Workspace Humanoid Manipulation with Omnidirectional 3D Perception",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "Physics-guided big-data reflectance spectroscopy learning framework for industrial surface state recognition",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "Weapon Detection Using Deep Learning: A Systematic Review",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "MOSE: A Monotonic Selectivity Estimator Using Learned CDF",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "Bayesian Uncertainty Quantification with Anchored Ensembles for Robust EV Power Consumption Prediction",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    }
+  ]
+}

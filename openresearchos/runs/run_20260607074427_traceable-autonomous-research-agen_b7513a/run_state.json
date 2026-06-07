@@ -1,0 +1,256 @@
+{
+  "schema_version": 1,
+  "run_id": "run_20260607074427_traceable-autonomous-research-agen_b7513a",
+  "topic": "traceable autonomous research agents smoke 90cde7",
+  "created_at": "2026-06-07T07:44:42.437Z",
+  "updated_at": "2026-06-07T07:45:46.930Z",
+  "current_state": "CLAIM_GRAPH_BUILT",
+  "scope_classification": {
+    "label": "local_experiment",
+    "rationale": "The topic can be explored with small simulations, synthetic data, or lightweight local experiments on the Mac.",
+    "feasibility_note": "The research topic on traceable autonomous research agents is feasible on your MacBook M4 with 36GB RAM, though the MPS GPU may limit training speed compared to dedicated GPUs. Suitable public datasets include the ArXiv academic paper dataset, Microsoft Academic Graph, and the CodeSearchNet dataset for code-based research capabilities. Expect initial experiments to take approximately 2-4 hours for smaller models and 8-12 hours for more complex architectures, with longer times for fine-tuning and"
+  },
+  "prior_knowledge": [
+    {
+      "file": "memory/experiment_lessons/experiment_lesson_id001.md",
+      "excerpt": ""
+    },
+    {
+      "file": "memory/experiment_lessons/experiment_lesson_id004.md",
+      "excerpt": ""
+    },
+    {
+      "file": "memory/failed_ideas/venue-fit_assessment_module.md",
+      "excerpt": ""
+    },
+    {
+      "file": "memory/failed_ideas/venue-aware_claim_narrowing_for_traceable_autonomous_research.md",
+      "excerpt": ""
+    },
+    {
+      "file": "memory/failed_ideas/venue-aware_claim_narrowing_for_efficient_attention_mechanisms.md",
+      "excerpt": ""
+    }
+  ],
+  "search_queries": [
+    "autonomous research methods",
+    "autonomous research applications",
+    "autonomous research benchmarks",
+    "autonomous research limitations",
+    "autonomous research alternatives",
+    "autonomous research datasets",
+    "autonomous research surveys",
+    "traceable autonomous agents",
+    "research agent evaluation",
+    "autonomous agent architectures",
+    "agent-based research tools",
+    "autonomous learning systems",
+    "research agent comparisons",
+    "agent transparency methods",
+    "autonomous agent challenges"
+  ],
+  "evidence_ids": [
+    "EV001",
+    "EV002",
+    "EV003",
+    "EV004",
+    "EV005",
+    "EV006",
+    "EV007",
+    "EV008",
+    "EV009",
+    "EV010"
+  ],
+  "parsed_papers": [
+    {
+      "evidence_id": "EV001",
+      "title": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery",
+      "year": 2024,
+      "url": "https://arxiv.org/abs/2408.06292",
+      "core_claim": "The paper introduces an automated pipeline capable of performing the entire scientific discovery process, from generating ideas to drafting papers.",
+      "method_or_focus": [
+        "generates ideas",
+        "writes code",
+        "runs experiments",
+        "drafts papers"
+      ],
+      "limitations": [
+        "limits in evaluation and reliability"
+      ],
+      "possible_gap": "A key gap is the development of robust and standardized evaluation frameworks for fully automated scientific discovery systems.",
+      "full_text_tool": "abstract_only",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null,
+      "key_contributions": [],
+      "method_components": [],
+      "assumptions": [],
+      "metrics_used": [],
+      "results_table": [],
+      "ablations": [],
+      "unstated_weaknesses": [],
+      "threats_to_validity": [],
+      "open_questions": [],
+      "future_work": [],
+      "gaps_this_enables": [],
+      "reusable_assets": []
+    },
+    {
+      "evidence_id": "EV002",
+      "title": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
+      "year": 2025,
+      "url": "https://arxiv.org/abs/2504.08066",
+      "core_claim": "The AI Scientist-v2 extends automated scientific discovery to the workshop level by introducing stronger search and a review-like iteration process with stricter quality gates.",
+      "method_or_focus": [
+        "stronger search",
+        "review-like iteration",
+        "stricter quality gates"
+      ],
+      "limitations": [
+        "The system's effectiveness is constrained by the difficulty of consistently meeting the stricter gates for novelty, experiment quality, and paper readiness."
+      ],
+      "possible_gap": "The paper opens the gap of how to effectively operationalize and automate the evaluation of novelty, experiment quality, and paper readiness at scale.",
+      "full_text_tool": "abstract_only",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null,
+      "key_contributions": [],
+      "method_components": [],
+      "assumptions": [],
+      "metrics_used": [],
+      "results_table": [],
+      "ablations": [],
+      "unstated_weaknesses": [],
+      "threats_to_validity": [],
+      "open_questions": [],
+      "future_work": [],
+      "gaps_this_enables": [],
+      "reusable_assets": []
+    },
+    {
+      "evidence_id": "EV003",
+      "title": "Agent Laboratory: Using LLM Agents as Research Assistants",
+      "year": 2025,
+      "url": "https://arxiv.org/abs/2501.04227",
+      "core_claim": "LLM agents can be used as research assistants to automate tasks like literature review, experimentation, and report writing.",
+      "method_or_focus": [
+        "Development and application of the Agent Laboratory system"
+      ],
+      "limitations": [
+        "Requires significant human oversight and lacks inherent reproducibility controls."
+      ],
+      "possible_gap": "The paper does not detail how the system itself ensures reproducibility or minimizes the need for extensive human intervention.",
+      "full_text_tool": "abstract_only",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null,
+      "key_contributions": [],
+      "method_components": [],
+      "assumptions": [],
+      "metrics_used": [],
+      "results_table": [],
+      "ablations": [],
+      "unstated_weaknesses": [],
+      "threats_to_validity": [],
+      "open_questions": [],
+      "future_work": [],
+      "gaps_this_enables": [],
+      "reusable_assets": []
+    }
+  ],
+  "claim_graph": {
+    "claims": [
+      {
+        "claim_id": "CL001",
+        "evidence_id": "EV001",
+        "text": "The paper introduces an automated pipeline capable of performing the entire scientific discovery process, from generating ideas to drafting papers.",
+        "support": "abstract_only_pending_pdf",
+        "datasets": [],
+        "best_result": null
+      },
+      {
+        "claim_id": "CL002",
+        "evidence_id": "EV002",
+        "text": "The AI Scientist-v2 extends automated scientific discovery to the workshop level by introducing stronger search and a review-like iteration process with stricter quality gates.",
+        "support": "abstract_only_pending_pdf",
+        "datasets": [],
+        "best_result": null
+      },
+      {
+        "claim_id": "CL003",
+        "evidence_id": "EV003",
+        "text": "LLM agents can be used as research assistants to automate tasks like literature review, experimentation, and report writing.",
+        "support": "abstract_only_pending_pdf",
+        "datasets": [],
+        "best_result": null
+      }
+    ],
+    "links": [
+      {
+        "from": "EV001",
+        "relation": "suggests_gap",
+        "to": "A key gap is the development of robust and standardized evaluation frameworks for fully automated scientific discovery systems."
+      },
+      {
+        "from": "EV002",
+        "relation": "suggests_gap",
+        "to": "The paper opens the gap of how to effectively operationalize and automate the evaluation of novelty, experiment quality, and paper readiness at scale."
+      },
+      {
+        "from": "EV003",
+        "relation": "suggests_gap",
+        "to": "The paper does not detail how the system itself ensures reproducibility or minimizes the need for extensive human intervention."
+      }
+    ]
+  },
+  "research_gaps": [],
+  "idea_tree": [],
+  "reviewer_scores": [],
+  "experiment_candidates": [],
+  "approval_status": {},
+  "micro_probe_results": [],
+  "probe_results": [],
+  "ablation_results": [],
+  "mvp_results": [],
+  "failed_ideas": [],
+  "validation_results": [],
+  "paper_readiness_level": "RRL-0",
+  "final_output_path": null,
+  "history": [
+    {
+      "at": "2026-06-07T07:44:42.437Z",
+      "state": "TOPIC_SCOPED",
+      "detail": "The topic can be explored with small simulations, synthetic data, or lightweight local experiments on the Mac."
+    },
+    {
+      "at": "2026-06-07T07:44:42.437Z",
+      "state": "SEARCH_PLAN_CREATED",
+      "detail": "15 queries created (LLM-generated)."
+    },
+    {
+      "at": "2026-06-07T07:44:46.178Z",
+      "state": "LITERATURE_DISCOVERY_RUNNING",
+      "detail": "Starting structured literature discovery."
+    },
+    {
+      "at": "2026-06-07T07:44:46.180Z",
+      "state": "EVIDENCE_LOCKED",
+      "detail": "10 papers found (target was 50+)."
+    },
+    {
+      "at": "2026-06-07T07:45:46.929Z",
+      "state": "PAPERS_PARSED",
+      "detail": "3 papers read (0 via full PDF)."
+    },
+    {
+      "at": "2026-06-07T07:45:46.929Z",
+      "state": "CLAIM_GRAPH_BUILT",
+      "detail": "3 evidence-linked claims created."
+    }
+  ],
+  "discovery_errors": [],
+  "method_matrix": []
+}

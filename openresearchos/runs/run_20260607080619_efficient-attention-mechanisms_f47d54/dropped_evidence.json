@@ -1,0 +1,64 @@
+{
+  "run_id": "run_20260607080619_efficient-attention-mechanisms_f47d54",
+  "topic": "efficient attention mechanisms",
+  "kept": 59,
+  "dropped_count": 11,
+  "judged_by": "llm",
+  "dropped": [
+    {
+      "title": "Improving Commonsense Question Answering by Graph-based Iterative Retrieval over Multiple Knowledge Sources",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "Higher Order Polynomial Transformer for Fine-Grained Freezing of Gait Detection",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "SMNet: Multi-Drone Detection and Classification via Monitoring Flight Control Signals on Spectrograms",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "NOMA Attack Prediction in Large-Scale Networks Using Non-Linear Chaotic Belief Mechanism",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "Analysis Model of Terrorist Attacks Based on Big Data",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "Learning to Allocate Time-Bound and Dynamic Tasks to Multiple Robots Using Covariant Attention Neural Networks",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "Spiking Vision Transformer with Saccadic Attention",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "Formation mechanism of user stickiness in live e-commerce: the hybrid PLS-SEM and ANN approach",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "Improved Two-stream Network for Action Recognition in Complex Scenes",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "Reply to the comments of Anonymous Referee #2",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    },
+    {
+      "title": "DeepFuzzy-ANDO: ammonium nitrate and dissolved oxygen based water quality forecasting using generative Attention-based fuzzy neural network",
+      "source": "semantic_scholar",
+      "reason": "off-topic"
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "problem_addressed": "Deterministic embeddings from standard Vision-Language Models struggle to capture uncertainties arising from ambiguities in visual and textual descriptions and multiple possible correspondences between images and texts.",
+  "core_claim": "GroVE achieves state-of-the-art uncertainty calibration by learning probabilistic embeddings from frozen VLMs using Gaussian Process Latent Variable Models without requiring VLM retraining.",
+  "key_contributions": [
+    "Proposes GroVE as a post-hoc approach to obtain probabilistic embeddings from frozen VLMs",
+    "Develops a unified latent space using GPLVM with single-modal reconstruction and cross-modal alignment objectives",
+    "Demonstrates superior uncertainty calibration across cross-modal retrieval, VQA, and active learning tasks"
+  ],
+  "novelty": "GroVE is the first post-hoc approach that leverages GPLVM to model uncertainty in frozen VLMs, avoiding the need for large datasets and VLM retraining required by prior probabilistic embedding methods.",
+  "method_summary": "GroVE builds on Gaussian Process Latent Variable Models to learn a shared low-dimensional latent space where image and text inputs are mapped to unified representations, optimized through single-modal embedding reconstruction and cross-modal alignment objectives.",
+  "method_components": [
+    "Gaussian Process Latent Variable Model (GPLVM)",
+    "Single-modal embedding reconstruction objective",
+    "Cross-modal alignment objective"
+  ],
+  "key_innovation": "Using GPLVM to model uncertainty in the latent space while maintaining cross-modal alignment, allowing the model to capture uncertainties from both latent space uncertainty and inherent prediction noise.",
+  "assumptions": [
+    "Frozen VLM provides meaningful initial embeddings",
+    "Low-dimensional latent space can capture essential structure",
+    "Gaussian Processes appropriately model uncertainty"
+  ],
+  "theoretical_grounding": "The predictive distribution p(g*) = ∫ p(g*|x*)p(x*|z*, zM)dx* is derived from latent space uncertainty and inherent noise, with uncertainty captured by Σ* accounting for variance contributions from both sources.",
+  "datasets_used": [
+    "COCO",
+    "CUB"
+  ],
+  "baselines_compared": [
+    "KL-Divergence",
+    "JS-Divergence",
+    "Wasserstein-2"
+  ],
+  "metrics_used": [
+    "KL-Divergence",
+    "JS-Divergence",
+    "Wasserstein-2"
+  ],
+  "hyperparameters": "null",
+  "compute_required": "null",
+  "seeds": "null",
+  "headline_result": "KL-Divergence achieves 0.79±0.02 for Image to Text on COCO",
+  "results_table": [
+    {
+      "method": "KL-Divergence",
+      "dataset": "COCO",
+      "metric": "Image to Text",
+      "value": "0.79±0.02"
+    },
+    {
+      "method": "KL-Divergence",
+      "dataset": "COCO",
+      "metric": "Text to Image",
+      "value": "0.65±0.02"
+    },
+    {
+      "method": "KL-Divergence",
+      "dataset": "CUB",
+      "metric": "Image to Text",
+      "value": "0.49±0.05"
+    },
+    {
+      "method": "KL-Divergence",
+      "dataset": "CUB",
+      "metric": "Text to Image",
+      "value": "0.44±0.05"
+    },
+    {
+      "method": "JS-Divergence",
+      "dataset": "COCO",
+      "metric": "Image to Text",
+      "value": "0.70±0.04"
+    },
+    {
+      "method": "JS-Divergence",
+      "dataset": "COCO",
+      "metric": "Text to Image",
+      "value": "0.59±0.03"
+    },
+    {
+      "method": "JS-Divergence",
+      "dataset": "CUB",
+      "metric": "Image to Text",
+      "value": "0.48±0.02"
+    },
+    {
+      "method": "JS-Divergence",
+      "dataset": "CUB",
+      "metric": "Text to Image",
+      "value": "0.44±0.05"
+    },
+    {
+      "method": "Wasserstein-2",
+      "dataset": "COCO",
+      "metric": "Image to Text",
+      "value": "0.59±0.04"
+    },
+    {
+      "method": "Wasserstein-2",
+      "dataset": "COCO",
+      "metric": "Text to Image",
+      "value": "0.60±0.02"
+    },
+    {
+      "method": "Wasserstein-2",
+      "dataset": "CUB",
+      "metric": "Image to Text",
+      "value": "0.39±0.04"
+    },
+    {
+      "method": "Wasserstein-2",
+      "dataset": "CUB",
+      "metric": "Text to Image",
+      "value": "0.43±0.04"
+    }
+  ],
+  "ablations": [
+    "Choice of probabilistic distance metric (KL-Divergence outperforms JS-Divergence and Wasserstein-2)",
+    "Noise level impact on uncertainty prediction (GroVE's uncertainty rises with increased noise)"
+  ],
+  "improvement_over_baseline": "GroVE achieves superior cross-modal alignment using KL-Divergence compared to JS-Divergence and Wasserstein-2 metrics",
+  "stated_limitations": [
+    "Existing approaches require learning probabilistic embeddings during VLM training, which demands large datasets",
+    "The method is designed for vision-language tasks and may not directly apply to tabular data"
+  ],
+  "unstated_weaknesses": [
+    "No evaluation on medical data or noisy label scenarios",
+    "No discussion of computational complexity for small datasets",
+    "No analysis of how the method handles label noise",
+    "No adaptation for tabular data format"
+  ],
+  "threats_to_validity": [
+    "The method is designed for vision-language tasks, not tabular data",
+    "No evaluation on the specific domain (medical)",
+    "No consideration for the small data regime mentioned in the project",
+    "No analysis of how the method handles label noise"
+  ],
+  "reproducibility": "medium",
+  "open_questions": [
+    "How would this method adapt to tabular data?",
+    "How does it perform with noisy labels?",
+    "What are the computational requirements for small datasets?",
+    "Can the GPLVM approach be effectively applied to tabular data?"
+  ],
+  "future_work": [
+    "Adapting the method to tabular data",
+    "Evaluating the method on medical datasets with noisy labels",
+    "Investigating computational requirements for small datasets"
+  ],
+  "gaps_this_enables": [
+    "Research on adapting probabilistic embeddings to non-vision domains",
+    "Research on applying GPLVM to tabular data",
+    "Research on uncertainty quantification for tabular data"
+  ],
+  "relevance_to_topic": "This paper is tangential to the project as it focuses on vision-language models rather than medical tabular data.",
+  "relation_type": "tangential",
+  "can_run_on_macbook": false,
+  "reusable_assets": [],
+  "code_available": false,
+  "code_url": null,
+  "best_result": "KL-Divergence achieves 0.79±0.02 for Image to Text on COCO",
+  "key_results": {
+    "COCO_Image to Text": "0.70±0.04",
+    "COCO_Text to Image": "0.59±0.03",
+    "CUB_Image to Text": "0.49±0.05",
+    "CUB_Text to Image": "0.44±0.05"
+  },
+  "limitations_stated": [
+    "Existing approaches require learning probabilistic embeddings during VLM training, which demands large datasets",
+    "The method is designed for vision-language tasks and may not directly apply to tabular data"
+  ],
+  "evidence_id": "EV013",
+  "title": "Probabilistic Embeddings for Frozen Vision-Language Models: Uncertainty Quantification with Gaussian Process Latent Variable Models",
+  "year": 2025,
+  "arxiv_id": "2505.05163",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 81602,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 22,
+  "pdf_tables": 11,
+  "pdf_captions": 27
+}

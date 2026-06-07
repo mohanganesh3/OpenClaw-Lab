@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\nReliable fairness auditing with semi-supervised inference\nJianhui Gao and Jessica Gronsbell∗\nDepartment of Statistics, University of Toronto, Toronto, ON, Canada\nMay 19, 2026\nAbstract\n",
+  "method": "× W)). Further details regarding the\nimplementation of each method are provided in Section S1.3.\nWe assess bias, coverage probability (CP), and relative efficiency (RE). Bias is evaluated\nby comparing",
+  "results": "2016.\nURL https://proceedings.neurips.cc/paper/2016/file/\n9d2682367c3935defcb1f9e247a97c0d-Paper.pdf.\nDisi Ji, Padhraic Smyth, and Mark Steyvers. Can I trust my fairness metric? assessing fair-\nness w",
+  "conclusion": "thin group A = 0 depends on W. The parameters of the group-\nspecific beta distributions are summarized in 5.\nA\nW\nY\nαawy\nβawy\n0\n0\n1\n14.0\n4.0\n0\n1\n1\n4.5\n10.0\n0\n0\n0\n2.5\n10.0\n0\n1\n0\n7.0\n5.0\n1\n0, 1\n1\n7\n5\n1\n0"
+}

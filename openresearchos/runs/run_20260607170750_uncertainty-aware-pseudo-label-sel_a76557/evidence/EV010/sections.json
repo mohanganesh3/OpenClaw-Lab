@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\nEVIL: EVIDENTIAL INFERENCE LEARNING FOR TRUSTWORTHY SEMI-SUPERVISED\nMEDICAL IMAGE SEGMENTATION\nYingyu Chen1\nZiyuan Yang1\nChenyu Shen1\nZhiwen Wang1\nYang Qin1\nYi Zhang2,1, Senior Member,",
+  "method": "S-Net is optimized\nwith traditional joint cross-entropy loss and dice loss, while\nE-Net models a Dirichlet distribution and is optimized with\nevidential segmentation loss. P1, P2 are the segmentation\n",
+  "results": "he balancing parameter. We use Gaussian ramp-\nup function λ(t) = λmax ∗e−5(1.0−\nt\ntmax )\n2\nand λmax = 0.1.\nThe supervision loss is formulated as:\nLsup = LEseg(F1(x), y) + LSseg(F2(x), y),\n(10)\nwhere L",
+  "conclusion": "rest.\n\n\n**[Table p4.1]**\n| Method | 10% DSC ↑ HD ↓ ASD ↓ 95 | 20% DSC ↑ HD ↓ ASD ↓ 95 | 30% DSC ↑ HD ↓ ASD ↓ 95 |\n| --- | --- | --- | --- |\n| Unet E-Net (ours) | 80.05 7.41 2.38 81.05 11.17 3.26 | 84."
+}

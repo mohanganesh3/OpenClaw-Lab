@@ -1,0 +1,842 @@
+{
+  "schema_version": 1,
+  "run_id": "run_20260607123616_traceable-autonomous-research-agen_f6415d",
+  "topic": "traceable autonomous research agents smoke d6a386",
+  "created_at": "2026-06-07T12:36:19.941Z",
+  "updated_at": "2026-06-07T12:37:17.098Z",
+  "current_state": "TRACE_EXPORTED",
+  "scope_classification": {
+    "label": "local_experiment",
+    "rationale": "The topic can be explored with small simulations, synthetic data, or lightweight local experiments on the Mac.",
+    "feasibility_note": "Offline smoke mode: feasibility uses keyword triage only."
+  },
+  "prior_knowledge": [
+    {
+      "file": "memory/experiment_lessons/experiment_lesson_id001.md",
+      "excerpt": ""
+    },
+    {
+      "file": "memory/experiment_lessons/experiment_lesson_id004.md",
+      "excerpt": ""
+    },
+    {
+      "file": "memory/experiment_lessons/experiment_lesson_i06.md",
+      "excerpt": ""
+    },
+    {
+      "file": "memory/failed_ideas/verbal_reflection-guided_attention_weight_optimization.md",
+      "excerpt": ""
+    },
+    {
+      "file": "memory/failed_ideas/venue-fit_assessment_module.md",
+      "excerpt": ""
+    }
+  ],
+  "search_queries": [
+    "traceable autonomous research agents",
+    "traceable autonomous agent LLM",
+    "traceable autonomous automated research paper",
+    "traceable autonomous experiment benchmark",
+    "traceable autonomous failure limitations",
+    "AI scientist automated discovery",
+    "research agent LLM code execution",
+    "automated machine learning research",
+    "language model experiment evaluation",
+    "agent AI reproducibility science"
+  ],
+  "evidence_ids": [
+    "EV001",
+    "EV002",
+    "EV003",
+    "EV004",
+    "EV005",
+    "EV006",
+    "EV007",
+    "EV008",
+    "EV009",
+    "EV010"
+  ],
+  "parsed_papers": [
+    {
+      "evidence_id": "EV001",
+      "title": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery",
+      "year": 2024,
+      "url": "https://arxiv.org/abs/2408.06292",
+      "core_claim": "Paper about automated, scientific, discovery, scientist (abstract-only, no PDF read).",
+      "method_or_focus": [
+        "automated",
+        "scientific",
+        "discovery",
+        "scientist",
+        "fully",
+        "open-ended"
+      ],
+      "limitations": [
+        "Abstract only — full PDF not read."
+      ],
+      "possible_gap": "Need full PDF reading to identify specific gaps in this paper.",
+      "full_text_tool": "offline_keyword_fallback",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null,
+      "key_contributions": [],
+      "method_components": [],
+      "assumptions": [],
+      "metrics_used": [],
+      "results_table": [],
+      "ablations": [],
+      "unstated_weaknesses": [],
+      "threats_to_validity": [],
+      "open_questions": [],
+      "future_work": [],
+      "gaps_this_enables": [],
+      "reusable_assets": []
+    },
+    {
+      "evidence_id": "EV002",
+      "title": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
+      "year": 2025,
+      "url": "https://arxiv.org/abs/2504.08066",
+      "core_claim": "Paper about automated, scientific, discovery, search (abstract-only, no PDF read).",
+      "method_or_focus": [
+        "automated",
+        "scientific",
+        "discovery",
+        "search",
+        "scientist-v2",
+        "workshop-level"
+      ],
+      "limitations": [
+        "Abstract only — full PDF not read."
+      ],
+      "possible_gap": "Need full PDF reading to identify specific gaps in this paper.",
+      "full_text_tool": "offline_keyword_fallback",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null,
+      "key_contributions": [],
+      "method_components": [],
+      "assumptions": [],
+      "metrics_used": [],
+      "results_table": [],
+      "ablations": [],
+      "unstated_weaknesses": [],
+      "threats_to_validity": [],
+      "open_questions": [],
+      "future_work": [],
+      "gaps_this_enables": [],
+      "reusable_assets": []
+    },
+    {
+      "evidence_id": "EV003",
+      "title": "Agent Laboratory: Using LLM Agents as Research Assistants",
+      "year": 2025,
+      "url": "https://arxiv.org/abs/2501.04227",
+      "core_claim": "Paper about research, agent, laboratory, agents (abstract-only, no PDF read).",
+      "method_or_focus": [
+        "research",
+        "agent",
+        "laboratory",
+        "agents",
+        "assistants",
+        "describes"
+      ],
+      "limitations": [
+        "Abstract only — full PDF not read."
+      ],
+      "possible_gap": "Need full PDF reading to identify specific gaps in this paper.",
+      "full_text_tool": "offline_keyword_fallback",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "key_results": {},
+      "best_result": null,
+      "key_contributions": [],
+      "method_components": [],
+      "assumptions": [],
+      "metrics_used": [],
+      "results_table": [],
+      "ablations": [],
+      "unstated_weaknesses": [],
+      "threats_to_validity": [],
+      "open_questions": [],
+      "future_work": [],
+      "gaps_this_enables": [],
+      "reusable_assets": []
+    }
+  ],
+  "claim_graph": {
+    "claims": [
+      {
+        "claim_id": "CL001",
+        "evidence_id": "EV001",
+        "text": "Paper about automated, scientific, discovery, scientist (abstract-only, no PDF read).",
+        "support": "abstract_only_pending_pdf",
+        "datasets": [],
+        "best_result": null
+      },
+      {
+        "claim_id": "CL002",
+        "evidence_id": "EV002",
+        "text": "Paper about automated, scientific, discovery, search (abstract-only, no PDF read).",
+        "support": "abstract_only_pending_pdf",
+        "datasets": [],
+        "best_result": null
+      },
+      {
+        "claim_id": "CL003",
+        "evidence_id": "EV003",
+        "text": "Paper about research, agent, laboratory, agents (abstract-only, no PDF read).",
+        "support": "abstract_only_pending_pdf",
+        "datasets": [],
+        "best_result": null
+      }
+    ],
+    "links": [
+      {
+        "from": "EV001",
+        "relation": "suggests_gap",
+        "to": "Need full PDF reading to identify specific gaps in this paper."
+      },
+      {
+        "from": "EV002",
+        "relation": "suggests_gap",
+        "to": "Need full PDF reading to identify specific gaps in this paper."
+      },
+      {
+        "from": "EV003",
+        "relation": "suggests_gap",
+        "to": "Need full PDF reading to identify specific gaps in this paper."
+      }
+    ]
+  },
+  "research_gaps": [
+    {
+      "gap_id": "G01",
+      "text": "Traceability gap: agents may produce ideas without an auditable chain from source evidence to experiment decision.",
+      "keywords": [
+        "paper",
+        "automated",
+        "scientific",
+        "discovery",
+        "research",
+        "agents"
+      ],
+      "evidence_ids": [
+        "EV001",
+        "EV002",
+        "EV003",
+        "EV004",
+        "EV005"
+      ],
+      "testable": true,
+      "difficulty": "medium",
+      "source": "template"
+    },
+    {
+      "gap_id": "G02",
+      "text": "Review gap: simulated reviewer feedback is often generated after the fact instead of controlling whether an idea proceeds.",
+      "keywords": [
+        "discovery",
+        "research",
+        "agents",
+        "about",
+        "abstract-only",
+        "read"
+      ],
+      "evidence_ids": [
+        "EV002",
+        "EV003",
+        "EV004",
+        "EV005",
+        "EV006"
+      ],
+      "testable": true,
+      "difficulty": "medium",
+      "source": "template"
+    },
+    {
+      "gap_id": "G03",
+      "text": "Experiment timing gap: many research agents run experiments late, after committing to an idea, rather than using cheap probes during ideation.",
+      "keywords": [
+        "about",
+        "abstract-only",
+        "read",
+        "need",
+        "full",
+        "reading"
+      ],
+      "evidence_ids": [
+        "EV003",
+        "EV004",
+        "EV005",
+        "EV006",
+        "EV007"
+      ],
+      "testable": true,
+      "difficulty": "medium",
+      "source": "template"
+    },
+    {
+      "gap_id": "G04",
+      "text": "Failure memory gap: rejected ideas and failed probes are often lost instead of shaping the next search iteration.",
+      "keywords": [
+        "need",
+        "full",
+        "reading",
+        "identify",
+        "specific",
+        "gaps"
+      ],
+      "evidence_ids": [
+        "EV004",
+        "EV005",
+        "EV006",
+        "EV007",
+        "EV008"
+      ],
+      "testable": true,
+      "difficulty": "medium",
+      "source": "template"
+    },
+    {
+      "gap_id": "G05",
+      "text": "Venue-fit gap: agent outputs often lack explicit comparison to workshop and conference expectations.",
+      "keywords": [
+        "identify",
+        "specific",
+        "gaps",
+        "scientist",
+        "search",
+        "agent"
+      ],
+      "evidence_ids": [
+        "EV005",
+        "EV006",
+        "EV007",
+        "EV008",
+        "EV009"
+      ],
+      "testable": true,
+      "difficulty": "medium",
+      "source": "template"
+    }
+  ],
+  "idea_tree": [
+    {
+      "idea_id": "ID001",
+      "title": "Traceability gap: agents may produce ideas without an auditable chain from sourc",
+      "source_gap_id": "G01",
+      "scope": "method",
+      "pitch": "Traceability gap: agents may produce ideas without an auditable chain from source evidence to experiment decision.",
+      "mechanism": "Traceability gap: agents may produce ideas without an auditable chain from source evidence to experiment decision.",
+      "testable_hypothesis": null,
+      "metric": "improvement_over_baseline",
+      "has_clear_metric": true,
+      "experiment_sketch": null,
+      "novelty_claim": null,
+      "risk": "medium",
+      "required_dataset": null,
+      "baseline_to_beat": null,
+      "evidence_support": 0.9,
+      "local_feasibility": 1,
+      "novelty_risk": 0.071,
+      "base_score": 5.2,
+      "gap_validated": false,
+      "keywords": [
+        "traceability",
+        "agents",
+        "produce",
+        "ideas",
+        "auditable",
+        "chain"
+      ],
+      "status": "shortlisted",
+      "corpus_overlap_hash": "5d437ef6cb",
+      "source": "gap_derived",
+      "reviewer_average": 6.44,
+      "reviewer_decision": "accept",
+      "next_action": "RUN_MICRO_PROBE"
+    },
+    {
+      "idea_id": "ID002",
+      "title": "Review gap: simulated reviewer feedback is often generated after the fact instea",
+      "source_gap_id": "G02",
+      "scope": "method",
+      "pitch": "Review gap: simulated reviewer feedback is often generated after the fact instead of controlling whether an idea proceeds.",
+      "mechanism": "Review gap: simulated reviewer feedback is often generated after the fact instead of controlling whether an idea proceeds.",
+      "testable_hypothesis": null,
+      "metric": "improvement_over_baseline",
+      "has_clear_metric": true,
+      "experiment_sketch": null,
+      "novelty_claim": null,
+      "risk": "medium",
+      "required_dataset": null,
+      "baseline_to_beat": null,
+      "evidence_support": 0.9,
+      "local_feasibility": 1,
+      "novelty_risk": 0.038,
+      "base_score": 5.2,
+      "gap_validated": false,
+      "keywords": [
+        "review",
+        "simulated",
+        "reviewer",
+        "feedback",
+        "often",
+        "generated"
+      ],
+      "status": "shortlisted",
+      "corpus_overlap_hash": "4b728bbd8d",
+      "source": "gap_derived",
+      "reviewer_average": 6.44,
+      "reviewer_decision": "accept",
+      "next_action": "RUN_MICRO_PROBE"
+    },
+    {
+      "idea_id": "ID003",
+      "title": "Experiment timing gap: many research agents run experiments late, after committi",
+      "source_gap_id": "G03",
+      "scope": "method",
+      "pitch": "Experiment timing gap: many research agents run experiments late, after committing to an idea, rather than using cheap probes during ideation.",
+      "mechanism": "Experiment timing gap: many research agents run experiments late, after committing to an idea, rather than using cheap probes during ideation.",
+      "testable_hypothesis": null,
+      "metric": "improvement_over_baseline",
+      "has_clear_metric": true,
+      "experiment_sketch": null,
+      "novelty_claim": null,
+      "risk": "medium",
+      "required_dataset": null,
+      "baseline_to_beat": null,
+      "evidence_support": 0.9,
+      "local_feasibility": 1,
+      "novelty_risk": 0.067,
+      "base_score": 5.2,
+      "gap_validated": false,
+      "keywords": [
+        "experiment",
+        "timing",
+        "many",
+        "research",
+        "agents",
+        "experiments"
+      ],
+      "status": "shortlisted",
+      "corpus_overlap_hash": "7048c276ae",
+      "source": "gap_derived",
+      "reviewer_average": 6.44,
+      "reviewer_decision": "accept",
+      "next_action": "RUN_MICRO_PROBE"
+    }
+  ],
+  "reviewer_scores": [
+    {
+      "idea_id": "ID001",
+      "average_score": 6.44,
+      "decision": "accept",
+      "next_action": "RUN_MICRO_PROBE",
+      "reviewers": [
+        {
+          "reviewer": "Novelty Reviewer",
+          "score": 6.6,
+          "fatal_flaws": [],
+          "fixable_flaws": [
+            "Add direct competitor comparison and search query log."
+          ],
+          "required_experiments": [
+            "Run novelty tribunal before any paper claim."
+          ],
+          "missing_related_work": [
+            "EV001",
+            "EV002",
+            "EV003"
+          ]
+        },
+        {
+          "reviewer": "Experimental Reviewer",
+          "score": 7.2,
+          "fatal_flaws": [],
+          "fixable_flaws": [
+            "Add baseline and ablation before MVP claims."
+          ],
+          "required_experiments": [
+            "Micro-probe with random baseline.",
+            "Probe with evidence-weighted baseline."
+          ],
+          "missing_related_work": []
+        },
+        {
+          "reviewer": "Theory/Mechanism Reviewer",
+          "score": 6.4,
+          "fatal_flaws": [],
+          "fixable_flaws": [
+            "Tighten mechanism into falsifiable prediction."
+          ],
+          "required_experiments": [
+            "Test whether the mechanism improves selection utility under controlled noise."
+          ],
+          "missing_related_work": []
+        },
+        {
+          "reviewer": "Reproducibility Reviewer",
+          "score": 6,
+          "fatal_flaws": [],
+          "fixable_flaws": [
+            "Record seed, command, environment, stdout, stderr, and metrics."
+          ],
+          "required_experiments": [
+            "Run with fixed seed and persist config."
+          ],
+          "missing_related_work": []
+        },
+        {
+          "reviewer": "Venue Reviewer",
+          "score": 6,
+          "fatal_flaws": [],
+          "fixable_flaws": [
+            "Position as workshop candidate until stronger empirical evidence exists."
+          ],
+          "required_experiments": [
+            "Add venue-fit checklist after results."
+          ],
+          "missing_related_work": []
+        }
+      ]
+    },
+    {
+      "idea_id": "ID002",
+      "average_score": 6.44,
+      "decision": "accept",
+      "next_action": "RUN_MICRO_PROBE",
+      "reviewers": [
+        {
+          "reviewer": "Novelty Reviewer",
+          "score": 6.6,
+          "fatal_flaws": [],
+          "fixable_flaws": [
+            "Add direct competitor comparison and search query log."
+          ],
+          "required_experiments": [
+            "Run novelty tribunal before any paper claim."
+          ],
+          "missing_related_work": [
+            "EV001",
+            "EV002",
+            "EV003"
+          ]
+        },
+        {
+          "reviewer": "Experimental Reviewer",
+          "score": 7.2,
+          "fatal_flaws": [],
+          "fixable_flaws": [
+            "Add baseline and ablation before MVP claims."
+          ],
+          "required_experiments": [
+            "Micro-probe with random baseline.",
+            "Probe with evidence-weighted baseline."
+          ],
+          "missing_related_work": []
+        },
+        {
+          "reviewer": "Theory/Mechanism Reviewer",
+          "score": 6.4,
+          "fatal_flaws": [],
+          "fixable_flaws": [
+            "Tighten mechanism into falsifiable prediction."
+          ],
+          "required_experiments": [
+            "Test whether the mechanism improves selection utility under controlled noise."
+          ],
+          "missing_related_work": []
+        },
+        {
+          "reviewer": "Reproducibility Reviewer",
+          "score": 6,
+          "fatal_flaws": [],
+          "fixable_flaws": [
+            "Record seed, command, environment, stdout, stderr, and metrics."
+          ],
+          "required_experiments": [
+            "Run with fixed seed and persist config."
+          ],
+          "missing_related_work": []
+        },
+        {
+          "reviewer": "Venue Reviewer",
+          "score": 6,
+          "fatal_flaws": [],
+          "fixable_flaws": [
+            "Position as workshop candidate until stronger empirical evidence exists."
+          ],
+          "required_experiments": [
+            "Add venue-fit checklist after results."
+          ],
+          "missing_related_work": []
+        }
+      ]
+    },
+    {
+      "idea_id": "ID003",
+      "average_score": 6.44,
+      "decision": "accept",
+      "next_action": "RUN_MICRO_PROBE",
+      "reviewers": [
+        {
+          "reviewer": "Novelty Reviewer",
+          "score": 6.6,
+          "fatal_flaws": [],
+          "fixable_flaws": [
+            "Add direct competitor comparison and search query log."
+          ],
+          "required_experiments": [
+            "Run novelty tribunal before any paper claim."
+          ],
+          "missing_related_work": [
+            "EV001",
+            "EV002",
+            "EV003"
+          ]
+        },
+        {
+          "reviewer": "Experimental Reviewer",
+          "score": 7.2,
+          "fatal_flaws": [],
+          "fixable_flaws": [
+            "Add baseline and ablation before MVP claims."
+          ],
+          "required_experiments": [
+            "Micro-probe with random baseline.",
+            "Probe with evidence-weighted baseline."
+          ],
+          "missing_related_work": []
+        },
+        {
+          "reviewer": "Theory/Mechanism Reviewer",
+          "score": 6.4,
+          "fatal_flaws": [],
+          "fixable_flaws": [
+            "Tighten mechanism into falsifiable prediction."
+          ],
+          "required_experiments": [
+            "Test whether the mechanism improves selection utility under controlled noise."
+          ],
+          "missing_related_work": []
+        },
+        {
+          "reviewer": "Reproducibility Reviewer",
+          "score": 6,
+          "fatal_flaws": [],
+          "fixable_flaws": [
+            "Record seed, command, environment, stdout, stderr, and metrics."
+          ],
+          "required_experiments": [
+            "Run with fixed seed and persist config."
+          ],
+          "missing_related_work": []
+        },
+        {
+          "reviewer": "Venue Reviewer",
+          "score": 6,
+          "fatal_flaws": [],
+          "fixable_flaws": [
+            "Position as workshop candidate until stronger empirical evidence exists."
+          ],
+          "required_experiments": [
+            "Add venue-fit checklist after results."
+          ],
+          "missing_related_work": []
+        }
+      ]
+    }
+  ],
+  "experiment_candidates": [
+    {
+      "idea_id": "ID001",
+      "title": "Traceability gap: agents may produce ideas without an auditable chain from sourc",
+      "level": "probe",
+      "status": "planned",
+      "metric": "improvement_over_baseline",
+      "micro_probe_improvement": null,
+      "micro_probe_dataset": null,
+      "baseline": "to_be_determined"
+    },
+    {
+      "idea_id": "ID002",
+      "title": "Review gap: simulated reviewer feedback is often generated after the fact instea",
+      "level": "probe",
+      "status": "planned",
+      "metric": "improvement_over_baseline",
+      "micro_probe_improvement": null,
+      "micro_probe_dataset": null,
+      "baseline": "to_be_determined"
+    },
+    {
+      "idea_id": "ID003",
+      "title": "Experiment timing gap: many research agents run experiments late, after committi",
+      "level": "probe",
+      "status": "planned",
+      "metric": "improvement_over_baseline",
+      "micro_probe_improvement": null,
+      "micro_probe_dataset": null,
+      "baseline": "to_be_determined"
+    }
+  ],
+  "approval_status": {
+    "approved": true,
+    "approved_at": "2026-06-07T12:36:31.511Z",
+    "approved_by": "smoke",
+    "idea_id": "ID001",
+    "level": "micro_probe",
+    "experiment_id": "micro_probe_id001",
+    "approval_path": "/Users/mohanganesh/OpenClaw-Lab/openresearchos/runs/run_20260607123616_traceable-autonomous-research-agen_f6415d/experiments/micro_probe_id001/approval.json",
+    "skip_codegen": true
+  },
+  "micro_probe_results": [
+    {
+      "experiment_id": "micro_probe_id001",
+      "idea_id": "ID001",
+      "level": "micro_probe",
+      "metrics_path": "/Users/mohanganesh/OpenClaw-Lab/openresearchos/runs/run_20260607123616_traceable-autonomous-research-agen_f6415d/experiments/micro_probe_id001/metrics.json",
+      "result_summary_path": "/Users/mohanganesh/OpenClaw-Lab/openresearchos/runs/run_20260607123616_traceable-autonomous-research-agen_f6415d/experiments/micro_probe_id001/result_summary.md",
+      "review_path": "/Users/mohanganesh/OpenClaw-Lab/openresearchos/runs/run_20260607123616_traceable-autonomous-research-agen_f6415d/experiments/micro_probe_id001/review_after_run.md",
+      "next_action": "PROMOTE_TO_NEXT_LEVEL",
+      "success": true,
+      "completed_at": "2026-06-07T12:37:14.060Z"
+    }
+  ],
+  "probe_results": [],
+  "ablation_results": [],
+  "mvp_results": [],
+  "failed_ideas": [],
+  "validation_results": [
+    {
+      "experiment_id": "micro_probe_id001",
+      "idea_id": "ID001",
+      "level": "micro_probe",
+      "metrics_path": "/Users/mohanganesh/OpenClaw-Lab/openresearchos/runs/run_20260607123616_traceable-autonomous-research-agen_f6415d/experiments/micro_probe_id001/metrics.json",
+      "result_summary_path": "/Users/mohanganesh/OpenClaw-Lab/openresearchos/runs/run_20260607123616_traceable-autonomous-research-agen_f6415d/experiments/micro_probe_id001/result_summary.md",
+      "review_path": "/Users/mohanganesh/OpenClaw-Lab/openresearchos/runs/run_20260607123616_traceable-autonomous-research-agen_f6415d/experiments/micro_probe_id001/review_after_run.md",
+      "next_action": "PROMOTE_TO_NEXT_LEVEL",
+      "success": true,
+      "completed_at": "2026-06-07T12:37:14.060Z",
+      "decision": {
+        "next_action": "PROMOTE_TO_NEXT_LEVEL",
+        "rationale": "Proposed method improved over baseline by accuracy: +1.01% (p=0.8184, not significant ⚠️).",
+        "required_next_step": "Plan a probe experiment with explicit baseline reproduction and one ablation."
+      }
+    }
+  ],
+  "paper_readiness_level": "RRL-3",
+  "final_output_path": "/Users/mohanganesh/OpenClaw-Lab/openresearchos/runs/run_20260607123616_traceable-autonomous-research-agen_f6415d/research_failure_report.md",
+  "history": [
+    {
+      "at": "2026-06-07T12:36:19.941Z",
+      "state": "TOPIC_SCOPED",
+      "detail": "The topic can be explored with small simulations, synthetic data, or lightweight local experiments on the Mac."
+    },
+    {
+      "at": "2026-06-07T12:36:19.941Z",
+      "state": "SEARCH_PLAN_CREATED",
+      "detail": "10 queries created (LLM-generated)."
+    },
+    {
+      "at": "2026-06-07T12:36:24.314Z",
+      "state": "LITERATURE_DISCOVERY_RUNNING",
+      "detail": "Starting structured literature discovery."
+    },
+    {
+      "at": "2026-06-07T12:36:24.317Z",
+      "state": "EVIDENCE_LOCKED",
+      "detail": "10 papers found (target was 50+)."
+    },
+    {
+      "at": "2026-06-07T12:36:29.225Z",
+      "state": "PAPERS_PARSED",
+      "detail": "3 papers read (0 via full PDF)."
+    },
+    {
+      "at": "2026-06-07T12:36:29.225Z",
+      "state": "CLAIM_GRAPH_BUILT",
+      "detail": "3 evidence-linked claims created."
+    },
+    {
+      "at": "2026-06-07T12:36:29.865Z",
+      "state": "RESEARCH_MAP_READY",
+      "detail": "Research map generated."
+    },
+    {
+      "at": "2026-06-07T12:36:29.865Z",
+      "state": "GAPS_IDENTIFIED",
+      "detail": "5 gaps identified."
+    },
+    {
+      "at": "2026-06-07T12:36:30.993Z",
+      "state": "IDEA_TREE_GENERATED",
+      "detail": "Generating grounded ideas from method comparison matrix."
+    },
+    {
+      "at": "2026-06-07T12:36:31.018Z",
+      "state": "REVIEWER_PASS_1_RUNNING",
+      "detail": "Budgeted reviewer council started."
+    },
+    {
+      "at": "2026-06-07T12:36:31.019Z",
+      "state": "IDEAS_REVISED_OR_REJECTED",
+      "detail": "0 ideas rejected; 3 candidates retained."
+    },
+    {
+      "at": "2026-06-07T12:36:31.019Z",
+      "state": "NOVELTY_TRIBUNAL_RUNNING",
+      "detail": "Near-duplicate comparison completed against evidence index and Semantic Scholar."
+    },
+    {
+      "at": "2026-06-07T12:36:31.019Z",
+      "state": "IDEAS_SHORTLISTED",
+      "detail": "3 ideas available for experiment planning (validated by real micro-probes)."
+    },
+    {
+      "at": "2026-06-07T12:36:31.019Z",
+      "state": "MICRO_PROBE_REVIEWED",
+      "detail": "0 ideas tested on Mac terminal. 0 show real signal."
+    },
+    {
+      "at": "2026-06-07T12:36:31.511Z",
+      "state": "AWAITING_HUMAN_APPROVAL",
+      "detail": "Approval recorded for micro_probe_id001."
+    },
+    {
+      "at": "2026-06-07T12:36:31.986Z",
+      "state": "MICRO_PROBE_RUNNING",
+      "detail": "Running micro_probe_id001."
+    },
+    {
+      "at": "2026-06-07T12:37:14.061Z",
+      "state": "MICRO_PROBE_REVIEWED",
+      "detail": "PROMOTE_TO_NEXT_LEVEL"
+    },
+    {
+      "at": "2026-06-07T12:37:15.689Z",
+      "state": "PAPER_READINESS_REVIEW",
+      "detail": "research_failure_report_required"
+    },
+    {
+      "at": "2026-06-07T12:37:15.693Z",
+      "state": "PAPER_DRAFTED_OR_STOPPED",
+      "detail": "Failure report produced."
+    },
+    {
+      "at": "2026-06-07T12:37:15.693Z",
+      "state": "VENUE_FIT_DONE",
+      "detail": "Venue fit written."
+    },
+    {
+      "at": "2026-06-07T12:37:15.693Z",
+      "state": "TRACE_EXPORTED",
+      "detail": "Trace export command written."
+    }
+  ],
+  "discovery_errors": [],
+  "method_matrix": []
+}
