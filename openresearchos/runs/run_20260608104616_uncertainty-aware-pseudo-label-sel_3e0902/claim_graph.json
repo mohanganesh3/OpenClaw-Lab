@@ -1,0 +1,840 @@
+{
+  "claims": [
+    {
+      "claim_id": "CL001",
+      "evidence_id": "EV001",
+      "text": "A novel weakly supervised framework effectively utilizes SAM to generate pseudo-labels from aspect ratio annotations for automatic nodule segmentation.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL002",
+      "evidence_id": "EV002",
+      "text": "This article proposes a physics-informed, uncertainty-aware dynamic balancing learning framework for UUDG bearing fault diagnosis scenarios.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL003",
+      "evidence_id": "EV003",
+      "text": "By leveraging neural network training dynamics to generate calibrated uncertainty-aware pseudo-labels, we can improve uncertainty estimation and robustness in medical image classification.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "aortic stenosis classification dataset (ultrasound videos of same patient)"
+      ],
+      "best_result": "Pseudo-D achieves best performance: Study-level MAE ↓ 0.180, ACC ↑ 0.820, ECE ↓ 0.071, AURC ↑ 0.885"
+    },
+    {
+      "claim_id": "CL004",
+      "evidence_id": "EV004",
+      "text": "Investigating and improving labeled data quality through data characterization and selection significantly enhances pseudo-labeling performance.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "MNIST (100 labeled, 60000 unlabeled)",
+        "FashionMNIST (100 labeled, 60000 unlabeled)",
+        "SVHN (100 labeled, 73257 unlabeled)",
+        "CIFAR-10 (4000 labeled, 45000 unlabeled)",
+        "CIFAR-100 (4000 labeled, 45000 unlabeled)",
+        "Tiny-ImageNet (500 labeled, 100000 unlabeled)"
+      ],
+      "best_result": "DIPS achieved 94.2% accuracy on CIFAR-10 with 20% label noise"
+    },
+    {
+      "claim_id": "CL005",
+      "evidence_id": "EV005",
+      "text": "This paper introduces a method for class-incremental semantic segmentation of 3D point clouds to enable continual learning of new categories.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL006",
+      "evidence_id": "EV006",
+      "text": "To overcome this limitation, we propose a federated semi-supervised learning (FSSL) approach that jointly uses labeled and unlabeled data distributed across both server and clients.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL007",
+      "evidence_id": "EV007",
+      "text": "The paper proposes a consistency regularization-based semi-supervised blood cell detection method, CRS-YOLOv5-ALT, built on YOLOv5-ALT, to reduce reliance on large amounts of manually annotated data.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL008",
+      "evidence_id": "EV008",
+      "text": "We propose a novel two-stage framework to address scale ambiguity and domain gaps in metric depth and pose estimation for colonoscopy.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL009",
+      "evidence_id": "EV009",
+      "text": "A client-level fault-tolerant approach is proposed for federated semi-supervised learning to mitigate errors from pseudo-labels and noisy data in IoV applications.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL010",
+      "evidence_id": "EV010",
+      "text": "CPATTA achieves annotation-efficient ATTA by introducing principled, coverage-guaranteed uncertainty through conformal prediction, consistently outperforming state-of-the-art methods by ~5% in accuracy.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "PACS (4 domains, 7 categories)",
+        "VLCS (4 domains, 5 classes)",
+        "Tiny-ImageNet-C (200 classes, corruption severity 5)"
+      ],
+      "best_result": "CPATTA with α=0.2 achieves 87.13% post-adaptation accuracy on PACS, improving over SimATTA by nearly 9%"
+    },
+    {
+      "claim_id": "CL011",
+      "evidence_id": "EV011",
+      "text": "This paper addresses the challenges of Specific Emitter Identification (SEI) when faced with limited labeled data and labeling noise.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL012",
+      "evidence_id": "EV012",
+      "text": "We propose EPCSF, a novel method that enhances prediction confidence in multi-source source-free domain adaptation for fault diagnosis.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL013",
+      "evidence_id": "EV013",
+      "text": "Dynamic node classification is critical for modeling evolving systems like financial transactions and academic collaborations. In such systems, dynamically capturing node information changes is critic",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "Wikipedia",
+        "Reddit",
+        "Dsub",
+        "CoOAG"
+      ],
+      "best_result": "87.97% AUC (PTCL with TGN backbone on Wikipedia)"
+    },
+    {
+      "claim_id": "CL014",
+      "evidence_id": "EV014",
+      "text": "This paper proposes a novel framework combining uncertainty-guided alignment optimization and pseudo-label refinement to improve cross-domain sentiment analysis.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL015",
+      "evidence_id": "EV015",
+      "text": "A weakly supervised framework using only four extreme points as annotations can achieve performance comparable to or surpassing fully supervised approaches while significantly reducing annotation costs.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "Breast UltraSound Images (BUSI) dataset",
+        "Ultrasound Nerve Segmentation (UNS) dataset (2,323 image-mask pairs)"
+      ],
+      "best_result": "BUSI dataset: 67.70% IoU / 76.89% Dice (exceeding fully supervised 66.71% IoU / 76.01% Dice); UNS dataset: 67.39% IoU / 79.12% Dice (comparable to fully supervised 67.54% IoU / 79.08% Dice)"
+    },
+    {
+      "claim_id": "CL016",
+      "evidence_id": "EV016",
+      "text": "We propose a Dynamic Contrastive Correction Network (DCCN) that corrects uncertain regions in semi-supervised medical image segmentation, rather than discarding them, to improve performance.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL017",
+      "evidence_id": "EV017",
+      "text": "The proposed semi-supervised Inf-Net framework enhances CT-based lung nodule analysis with minimal annotation and provides a conceptual foundation for genomic integration.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "LUNA16 dataset (annotated CT volumes for pulmonary nodules)"
+      ],
+      "best_result": "Semi-Inf-Net with 0.784 accuracy on 20,000 images (labeled + pseudo-labeled)"
+    },
+    {
+      "claim_id": "CL018",
+      "evidence_id": "EV018",
+      "text": "This study proposes a semi-supervised learning framework to address the high annotation costs and data scarcity in UAV-based succulent plant classification.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL019",
+      "evidence_id": "EV019",
+      "text": "We propose a semi-supervised learning framework for YOLO to enable efficient few-sample target detection.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL020",
+      "evidence_id": "EV020",
+      "text": "FedDSSL is a decentralized federated semi-supervised learning method that addresses the limitations of centralized approaches.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL021",
+      "evidence_id": "EV021",
+      "text": "We propose a novel method for semi-supervised domain generalization using a lightweight vision MLP and pseudo-labeling.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL022",
+      "evidence_id": "EV022",
+      "text": "This study proposes and compares shallow learning and deep learning models as innovative alternatives to the standard FAO-56PM method for predicting daily reference evapotranspiration.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL023",
+      "evidence_id": "EV023",
+      "text": "This paper proposes a new unsupervised domain adaptation method to improve the performance of polyp segmentation models on imaging devices from unseen domains.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL024",
+      "evidence_id": "EV024",
+      "text": "A new transfer learning method called TLSDA, involving sub-domain adaptation followed by fine-tuning, was proposed to address OCT retinopathy classification when only a small number of labeled images are available in a private domain.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL025",
+      "evidence_id": "EV025",
+      "text": "CRMSP achieves state-of-the-art performance in semi-supervised KIE by combining Class-Rebalancing Pseudo-Labeling and Merged Semantic Pseudo-Labeling modules to address long-tailed distribution challenges.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "FUNSD (149 train/50 test)",
+        "CORD (800/100/100 train/val/test)",
+        "CIFAR10-LT",
+        "CIFAR100-LT",
+        "STL10-LT"
+      ],
+      "best_result": "CRMSP achieved 91.30% F1-score on CORD with 10% labeled data using LayoutLMv3, close to fully-supervised result of 93.30%"
+    },
+    {
+      "claim_id": "CL026",
+      "evidence_id": "EV026",
+      "text": "DRIVE, a dual-model framework leveraging information variability and entropic consistency, improves robustness and generalization in Source-Free Unsupervised Domain Adaptation by capturing diverse target domain characteristics.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "Office-31",
+        "Office-Home",
+        "DomainNet-126"
+      ],
+      "best_result": "DRIVE achieves 92.7% mean accuracy on Office-31"
+    },
+    {
+      "claim_id": "CL027",
+      "evidence_id": "EV027",
+      "text": "DenseNet provides an accuracy of 86% for classifying nematode images to identify effective antiparasitic drug candidates.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL028",
+      "evidence_id": "EV028",
+      "text": "This paper proposes a novel data-driven framework, SuPer, for detecting faults and attacks in power monitoring systems.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL029",
+      "evidence_id": "EV029",
+      "text": "Existing pseudo-labeling strategies using uncalibrated confidence or heuristics are unreliable for imbalanced SSL; SEVAL addresses this through statistical analysis-based optimization of refinement and thresholds.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "CIFAR-10 (n1=1500, n1=500)",
+        "CIFAR-100 (n1=50)",
+        "STL-10"
+      ],
+      "best_result": "ReMixMatch with SEVAL: 86.7% on CIFAR-100 n1=50"
+    },
+    {
+      "claim_id": "CL030",
+      "evidence_id": "EV030",
+      "text": "FedCPSL achieves fast convergence and high performance by combining pseudo-labeling and interpolation-based personalization with adaptive variance reduction.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "MNIST",
+        "CIFAR-10"
+      ],
+      "best_result": "FedCPSL achieves 98.2% accuracy on MNIST (m=0.1N) and 80.7% on CIFAR-10 (m=0.1N)"
+    },
+    {
+      "claim_id": "CL031",
+      "evidence_id": "EV031",
+      "text": "We propose a semi-supervised semantic segmentation method for remote sensing images that reduces the reliance on large, labeled datasets.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL032",
+      "evidence_id": "EV032",
+      "text": "Semi-supervised learning with pseudo-labeling can improve deep learning performance for pancreatic cancer detection when labeled data is scarce.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL033",
+      "evidence_id": "EV033",
+      "text": "This paper proposes a parallel open-world object detection framework that mitigates uncertainty.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL034",
+      "evidence_id": "EV034",
+      "text": "This work investigates the quality of the pseudo-labels for musical instrument family classification and acoustic sc...",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL035",
+      "evidence_id": "EV035",
+      "text": "Entity Matching (EM), which aims to identify whether two entity records from two relational tables refer to the same real-world entity, is one of the fundamental problems in data management. Tradition",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "REL-HETER",
+        "SEMI-HOMO",
+        "SEMI-HETER",
+        "SEMI-REL",
+        "SEMI-TEXT-c",
+        "SEMI-TEXT-w",
+        "REL-TEXT",
+        "GEO-HETER"
+      ],
+      "best_result": "PromptEM achieves 100% F1-score on REL-HETER and REL-TEXT datasets"
+    },
+    {
+      "claim_id": "CL036",
+      "evidence_id": "EV036",
+      "text": "We propose a fully automatic pixel-wise semantic segmentation method based on pseudo-labels.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL037",
+      "evidence_id": "EV037",
+      "text": "We propose a robust self-training strategy to address the limitations of existing methods.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL038",
+      "evidence_id": "EV038",
+      "text": "Complementing SSL with an uncertainty-aware objective that quantifies both aleatoric and epistemic uncertainty improves performance without adding computational overhead.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "CIFAR-10",
+        "SVHN",
+        "CIFAR-100",
+        "Mini-ImageNet"
+      ],
+      "best_result": "79.23% on CIFAR-100 with 4000 labels"
+    },
+    {
+      "claim_id": "CL039",
+      "evidence_id": "EV039",
+      "text": "We propose a simple semi-supervised FSL approach to exploit unlabeled data accompanying the few-shot task to improve FSL performance.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL040",
+      "evidence_id": "EV040",
+      "text": "A lightweight architecture (MAKNet) combined with semi-supervised learning for domain-specific transfer learning can provide better classification performance with 60-70% fewer parameters than popular architectures.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "TCIA dataset",
+        "DeepLesion dataset"
+      ],
+      "best_result": "LesaNet (TCIA) on hand-labeled test set: AUC 0.9403, F1 0.4972, Precision 0.4754, Recall 0.7531"
+    },
+    {
+      "claim_id": "CL041",
+      "evidence_id": "EV041",
+      "text": "Reliable Source Approximation (RSA) can generate source-like and structure-preserved images from the target domain for updating model parameters and adapting domain shifts.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "Public vestibular schwannoma dataset with ceT1 and hrT2 MRI sequences from 242 patients (1599 source training images, 1493 target training images, and 423 target testing images)"
+      ],
+      "best_result": "Ours with centralized fine-tuning achieved Dice of 77.83 ± 0.98 and ASSD of 1.24 ± 0.11"
+    },
+    {
+      "claim_id": "CL042",
+      "evidence_id": "EV042",
+      "text": "Wasserstein Gradient Boosting (WGBoost) is a novel extension of gradient boosting that directly learns distributional estimates of response parameters rather than point estimates, enabling superior uncertainty quantification.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL043",
+      "evidence_id": "EV043",
+      "text": "A self-learning semi-supervised approach that uses two networks to generate high-consistency pseudo-labels, improving semantic segmentation accuracy for remote sensing images with limited labeled data.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL044",
+      "evidence_id": "EV044",
+      "text": "Graph-based Adaptive Betweenness Clustering (G-ABC) achieves superior categorical domain alignment by constructing and refining a reliable heterogeneous graph for semantic propagation.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "Office-31",
+        "DomainNet",
+        "Office-Home"
+      ],
+      "best_result": "G-ABC achieved 72.02% mean accuracy on Office-31 3-shot"
+    },
+    {
+      "claim_id": "CL045",
+      "evidence_id": "EV045",
+      "text": "The proposed TDNet with dual consistency constraints (USPC and MPCC) achieves state-of-the-art performance in scribble-supervised abdominal organ segmentation.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "WORD dataset (cervical cancer patients before radiotherapy, 100 training, 20 validation, 30 testing)"
+      ],
+      "best_result": "Average DSC of 85.74±5.22% on WORD testing set"
+    },
+    {
+      "claim_id": "CL046",
+      "evidence_id": "EV046",
+      "text": "A contrastive learning-based approach can improve automatic chord recognition performance on large vocabularies by effectively utilizing unlabeled data.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL047",
+      "evidence_id": "EV047",
+      "text": "This paper presents a deep semi-supervised clustering method that uses active learning to overcome the limitations of existing approaches.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL048",
+      "evidence_id": "EV048",
+      "text": "This paper introduces a robust natural language-based vehicle retrieval system to address the domain bias problem caused by unseen scenarios and multi-view multi-camera vehicle tracks.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL049",
+      "evidence_id": "EV049",
+      "text": "A two-stage transfer learning method using pre-trained conditional generative models can effectively transfer knowledge without requiring label overlap, source dataset access, or architecture consistency.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL050",
+      "evidence_id": "EV050",
+      "text": "Their semi-supervised learning method with a reference model and pseudo labels significantly improves voice quality for test data with limited target data, achieving naturalness and robustness in speech synthesis.",
+      "support": "full_pdf_read_confirmed",
+      "datasets": [
+        "target dataset with sizes: 30, 300, 500, 1000, 2000 recordings"
+      ],
+      "best_result": "Best result with ω = 0.1 and 2000 recordings achieving MOS of 4.14 ± 0.02 and WER of 0.2%"
+    },
+    {
+      "claim_id": "CL051",
+      "evidence_id": "EV051",
+      "text": "The paper proposes a Semi-Supervised Contrastive Learning (SSCL) framework to improve deep model performance in text classification when labeled data is scarce.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL052",
+      "evidence_id": "EV052",
+      "text": "This paper proposes a semi-supervised classification method that detects a potential separation boundary and incorporates its information into a Laplacian SVM.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL053",
+      "evidence_id": "EV053",
+      "text": "GCNs exhibit unsatisfying performance on low-degree nodes when labeled data are limited.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL054",
+      "evidence_id": "EV054",
+      "text": "Our method uses uncertainty measures instead of logits and is free of thresholds for point-supervised scene parsing.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL055",
+      "evidence_id": "EV055",
+      "text": "The paper proposes a new method for Open-World DeepFake Attribution by leveraging Multi-perspective Sensory Learning to handle unknown deepfake types.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL056",
+      "evidence_id": "EV056",
+      "text": "The paper introduces a novel method called truncated Gaussian aggregation to improve federated semi-supervised learning.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL057",
+      "evidence_id": "EV057",
+      "text": "This paper challenges the conventional application of weak-to-strong augmentation in source-free domain adaptive object detection, proposing a novel and more effective strategy.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL058",
+      "evidence_id": "EV058",
+      "text": "The paper proposes M-MSSEU, a method for source-free domain adaptation to perform multi-modal stroke lesion segmentation.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    },
+    {
+      "claim_id": "CL059",
+      "evidence_id": "EV059",
+      "text": "Progressive Domain Adaptation from a Source Pre-trained Model.",
+      "support": "abstract_only_pending_pdf",
+      "datasets": [],
+      "best_result": null
+    }
+  ],
+  "links": [
+    {
+      "from": "EV001",
+      "relation": "suggests_gap",
+      "to": "Research on more efficient adaptation of foundation models to medical imaging"
+    },
+    {
+      "from": "EV002",
+      "relation": "suggests_gap",
+      "to": "The reliance on pseudo-labels, even with noise reduction, may still limit performance in extremely noisy or data-scarce scenarios."
+    },
+    {
+      "from": "EV003",
+      "relation": "suggests_gap",
+      "to": "New research directions in uncertainty-aware pseudo-labeling for medical imaging"
+    },
+    {
+      "from": "EV004",
+      "relation": "suggests_gap",
+      "to": "Research on considering labeled data quality in pseudo-labeling."
+    },
+    {
+      "from": "EV005",
+      "relation": "suggests_gap",
+      "to": "The abstract is incomplete, failing to describe how the proposed method specifically addresses the disordered and unstructured nature of 3D point clouds."
+    },
+    {
+      "from": "EV006",
+      "relation": "suggests_gap",
+      "to": "The abstract is cut off, so the full method details and evaluation metrics are missing, but a likely gap is the lack of discussion on the model's communication overhead or computational complexity."
+    },
+    {
+      "from": "EV007",
+      "relation": "suggests_gap",
+      "to": "The abstract does not discuss the model's performance on data from different imaging devices or populations."
+    },
+    {
+      "from": "EV008",
+      "relation": "suggests_gap",
+      "to": "The effectiveness of the proposed framework may be limited by the quality and diversity of the synthetic data used for pre-training."
+    },
+    {
+      "from": "EV009",
+      "relation": "suggests_gap",
+      "to": "Existing federated semi-supervised learning approaches are vulnerable to errors introduced by pseudo-labels and noisy data, which hinders their performance in safety-critical applications."
+    },
+    {
+      "from": "EV010",
+      "relation": "suggests_gap",
+      "to": "More principled uncertainty quantification in ATTA"
+    },
+    {
+      "from": "EV011",
+      "relation": "suggests_gap",
+      "to": "There is a need for a robust SEI method that can perform effectively despite limited labeled data and the presence of labeling noise."
+    },
+    {
+      "from": "EV012",
+      "relation": "suggests_gap",
+      "to": "The abstract is incomplete, leaving the full mechanism for stabilizing pseudo-labels unclear."
+    },
+    {
+      "from": "EV013",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: See deep_read.json"
+    },
+    {
+      "from": "EV014",
+      "relation": "suggests_gap",
+      "to": "The method's performance on domains with extreme vocabulary or style shifts, beyond those tested, remains an open question."
+    },
+    {
+      "from": "EV015",
+      "relation": "suggests_gap",
+      "to": "Using extreme point annotations in weakly supervised segmentation."
+    },
+    {
+      "from": "EV016",
+      "relation": "suggests_gap",
+      "to": "The method focuses on correcting uncertain regions but may not be robust to pseudo-labels that are fundamentally incorrect rather than just uncertain."
+    },
+    {
+      "from": "EV017",
+      "relation": "suggests_gap",
+      "to": "Framework could be extended with uncertainty-aware pseudo-label selection"
+    },
+    {
+      "from": "EV018",
+      "relation": "suggests_gap",
+      "to": "The potential for error propagation from pseudo-labels generated by the teacher model, especially if the initial labeled set is not representative."
+    },
+    {
+      "from": "EV019",
+      "relation": "suggests_gap",
+      "to": "The paper does not address the potential computational overhead or the quality control of the generated pseudo-labels."
+    },
+    {
+      "from": "EV020",
+      "relation": "suggests_gap",
+      "to": "There is a need for a decentralized federated semi-supervised learning method that is privacy-preserving, avoids negative transfer, and is lightweight."
+    },
+    {
+      "from": "EV021",
+      "relation": "suggests_gap",
+      "to": "The reliance on pseudo-labeling may lead to error propagation, and the lightweight MLP architecture might limit performance on complex visual tasks."
+    },
+    {
+      "from": "EV022",
+      "relation": "suggests_gap",
+      "to": "The study does not yet confirm whether the proposed models can effectively overcome the data limitations of the FAO-56PM method in practice."
+    },
+    {
+      "from": "EV023",
+      "relation": "suggests_gap",
+      "to": "There is a gap in existing UDA methods that fail to model the interactions between different domains or classes effectively."
+    },
+    {
+      "from": "EV024",
+      "relation": "suggests_gap",
+      "to": "The potential for error accumulation from pseudo-labels in the semi-supervised approach."
+    },
+    {
+      "from": "EV025",
+      "relation": "suggests_gap",
+      "to": "Integration of uncertainty-aware techniques into the pseudo-labeling process"
+    },
+    {
+      "from": "EV026",
+      "relation": "suggests_gap",
+      "to": "Opens the possibility of using dual-robustness approaches in SFUDA."
+    },
+    {
+      "from": "EV027",
+      "relation": "suggests_gap",
+      "to": "The abstract is incomplete and does not specify what the 'extended approach' entails."
+    },
+    {
+      "from": "EV028",
+      "relation": "suggests_gap",
+      "to": "The abstract does not specify the real-world validation of the proposed SuPer framework or its comparative performance against existing baselines."
+    },
+    {
+      "from": "EV029",
+      "relation": "suggests_gap",
+      "to": "The paper may identify gaps in current pseudo-label refinement approaches for imbalanced SSL"
+    },
+    {
+      "from": "EV030",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: Adaptive client variance reduction with control variables that correct local updates while accommodating momentum and heterogeneous local updates, enabling stable convergence."
+    },
+    {
+      "from": "EV031",
+      "relation": "suggests_gap",
+      "to": "The abstract does not discuss how the method mitigates confirmation bias, where the teacher and student models might reinforce each other's prediction errors."
+    },
+    {
+      "from": "EV032",
+      "relation": "suggests_gap",
+      "to": "The application of semi-supervised learning with pseudo-labeling to pancreatic cancer detection remains an open challenge."
+    },
+    {
+      "from": "EV033",
+      "relation": "suggests_gap",
+      "to": "The paper implies that even Open-World Object Detection methods have unresolved challenges, suggesting a need for more advanced continual learning techniques."
+    },
+    {
+      "from": "EV034",
+      "relation": "suggests_gap",
+      "to": "There remains a gap between SSL methods and fully supervised baselines trained with all available labels."
+    },
+    {
+      "from": "EV035",
+      "relation": "suggests_gap",
+      "to": "Uncertainty-aware pseudo-label selection for GEM"
+    },
+    {
+      "from": "EV036",
+      "relation": "suggests_gap",
+      "to": "The method's applicability to other types of histopathological stains beyond HE is not addressed."
+    },
+    {
+      "from": "EV037",
+      "relation": "suggests_gap",
+      "to": "Existing self-training methods generate pseudo labels that are not sufficiently accurate for molecular biology tasks."
+    },
+    {
+      "from": "EV038",
+      "relation": "suggests_gap",
+      "to": "New direction for uncertainty-aware SSL"
+    },
+    {
+      "from": "EV039",
+      "relation": "suggests_gap",
+      "to": "The paper does not explore how its semi-supervised approach compares to or could be integrated with the dominant meta-learning paradigm when many training tasks are available."
+    },
+    {
+      "from": "EV040",
+      "relation": "suggests_gap",
+      "to": "Research on uncertainty-aware pseudo-label selection for medical imaging"
+    },
+    {
+      "from": "EV041",
+      "relation": "suggests_gap",
+      "to": "SFUDA methods specifically designed for medical image segmentation"
+    },
+    {
+      "from": "EV042",
+      "relation": "suggests_gap",
+      "to": "New direction for distribution-valued learning using Wasserstein gradients"
+    },
+    {
+      "from": "EV043",
+      "relation": "suggests_gap",
+      "to": "The study could be extended to explore the effectiveness of this approach with different network architectures beyond UNet and DeepLabV3."
+    },
+    {
+      "from": "EV044",
+      "relation": "suggests_gap",
+      "to": "Based on full paper reading: The integration of confidence-based node removal and prediction dissimilarity-based edge pruning to create a reliable graph structure before semantic propagation, addressing the unreliability of initial graph connectivity."
+    },
+    {
+      "from": "EV045",
+      "relation": "suggests_gap",
+      "to": "Uncertainty-aware pseudo-label selection for weakly supervised segmentation"
+    },
+    {
+      "from": "EV046",
+      "relation": "suggests_gap",
+      "to": "The abstract is incomplete, so the full contribution and effectiveness of the teacher-student network component remain unclear."
+    },
+    {
+      "from": "EV047",
+      "relation": "suggests_gap",
+      "to": "The core gap is that existing deep semi-supervised clustering methods use passive or random selection for supervised information, which is inefficient and can degrade performance."
+    },
+    {
+      "from": "EV048",
+      "relation": "suggests_gap",
+      "to": "The abstract is incomplete and does not detail the specific mechanism for the proposed novel domain adaptation technique."
+    },
+    {
+      "from": "EV049",
+      "relation": "suggests_gap",
+      "to": "New approach to pseudo-label generation without label space overlap"
+    },
+    {
+      "from": "EV050",
+      "relation": "suggests_gap",
+      "to": "Opens research into uncertainty-aware pseudo-label selection for TTS"
+    },
+    {
+      "from": "EV051",
+      "relation": "suggests_gap",
+      "to": "The abstract doesn't detail the quality or potential error propagation from the pseudo-label generation strategy, which is a critical aspect of semi-supervised learning."
+    },
+    {
+      "from": "EV052",
+      "relation": "suggests_gap",
+      "to": "The paper's reliance on creating linear separable partitions might limit its effectiveness on highly complex, non-linear datasets."
+    },
+    {
+      "from": "EV053",
+      "relation": "suggests_gap",
+      "to": "While some prior work analyze successes and failures of GCNs on the entire model level, profiling GCNs on individual node level is still underexplored."
+    },
+    {
+      "from": "EV054",
+      "relation": "suggests_gap",
+      "to": "The paper does not discuss the potential for error propagation from the uncertainty-based pseudo-label generation process."
+    },
+    {
+      "from": "EV055",
+      "relation": "suggests_gap",
+      "to": "There is a gap in existing DeepFake attribution methods that fail to generalize to unseen or novel deepfake generation techniques in an open-world scenario."
+    },
+    {
+      "from": "EV056",
+      "relation": "suggests_gap",
+      "to": "The title does not specify the performance or effectiveness of the proposed method compared to existing state-of-the-art approaches."
+    },
+    {
+      "from": "EV057",
+      "relation": "suggests_gap",
+      "to": "Future work could explore other augmentation techniques beyond the weak-to-strong paradigm or develop more sophisticated ways to apply it."
+    },
+    {
+      "from": "EV058",
+      "relation": "suggests_gap",
+      "to": "A potential research gap is the application of source-free domain adaptation to other complex medical imaging segmentation tasks beyond stroke lesions."
+    },
+    {
+      "from": "EV059",
+      "relation": "suggests_gap",
+      "to": "The provided title and abstract do not contain enough information to identify a specific research gap."
+    }
+  ]
+}

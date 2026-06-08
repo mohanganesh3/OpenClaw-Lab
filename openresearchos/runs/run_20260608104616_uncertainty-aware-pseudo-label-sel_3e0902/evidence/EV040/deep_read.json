@@ -1,0 +1,262 @@
+{
+  "problem_addressed": "Limited availability of annotated medical imaging data poses a challenge for deep learning algorithms, with transfer learning from natural image datasets to medical tasks offering limited performance gain.",
+  "core_claim": "A lightweight architecture (MAKNet) combined with semi-supervised learning for domain-specific transfer learning can provide better classification performance with 60-70% fewer parameters than popular architectures.",
+  "key_contributions": [
+    "A novel lightweight architecture with prudently selected modules to capture rich medical imaging features",
+    "Leveraging semi-supervised learning to generate pseudo-labels for a large medical dataset to assist with domain-specific transfer learning",
+    "Demonstrating improved performance with 60-70% fewer parameters than popular architectures"
+  ],
+  "novelty": "MAKNet introduces mixed asymmetric kernels (MAKConv) that combine four different kernel types in a single conv layer to capture features from various aspects of the input data, along with a semi-supervised learning approach for generating pseudo-labels.",
+  "method_summary": "The authors propose MAKNet, a lightweight architecture using mixed asymmetric kernels (MAKConv) to reduce parameters. They train this architecture using semi-supervised learning to provide pseudo-labels for a large medical dataset to assist with transfer learning.",
+  "method_components": [
+    "MAKConv: Combination of four asymmetric kernel types in a single conv layer",
+    "Dense blocks: Each containing MAKConv layers, followed by standard conv layer and CBAM attention",
+    "Semi-supervised learning: Using a teacher-student approach with pseudo-labels for unlabeled data"
+  ],
+  "key_innovation": "The MAKConv mechanism that combines different kernel types to capture features from various aspects of the input data, allowing for better feature representation with fewer parameters.",
+  "assumptions": [
+    "Smaller architectures can learn more meaningful features and avoid overparameterization",
+    "Domain-specific knowledge is important for effective transfer learning",
+    "Pseudo-labels with confidence > 0.5 among top 15 predictions can be used for semi-supervised learning"
+  ],
+  "theoretical_grounding": "The paper doesn't provide explicit formal proofs or theoretical derivations. The grounding is empirical, based on experimental results comparing MAKNet with VGG16 and ResNet18.",
+  "datasets_used": [
+    "TCIA dataset",
+    "DeepLesion dataset"
+  ],
+  "baselines_compared": [
+    "Teacher network",
+    "LesaNet with ImageNet pre-training",
+    "LesaNet with TCIA pre-training"
+  ],
+  "metrics_used": [
+    "AUC",
+    "F1 score",
+    "Precision",
+    "Recall"
+  ],
+  "hyperparameters": "VGG16 pre-trained for 5 epochs, LesaNet fine-tuned for 15 epochs with learning rate 0.001, 50 steps for Integrated Gradients, data augmentation (rotation/translation/cropping) and dropout for student training",
+  "compute_required": "null",
+  "seeds": "null",
+  "headline_result": "LesaNet (TCIA) on hand-labeled test set: AUC 0.9403, F1 0.4972, Precision 0.4754, Recall 0.7531",
+  "results_table": [
+    {
+      "method": "Teacher Network",
+      "dataset": "Text-mined test set",
+      "metric": "AUC",
+      "value": "0.9051"
+    },
+    {
+      "method": "Teacher Network",
+      "dataset": "Text-mined test set",
+      "metric": "F1 score",
+      "value": "0.2078"
+    },
+    {
+      "method": "Teacher Network",
+      "dataset": "Text-mined test set",
+      "metric": "Precision",
+      "value": "0.4696"
+    },
+    {
+      "method": "Teacher Network",
+      "dataset": "Text-mined test set",
+      "metric": "Recall",
+      "value": "0.4744"
+    },
+    {
+      "method": "Teacher Network",
+      "dataset": "Hand-labeled test set",
+      "metric": "AUC",
+      "value": "0.9101"
+    },
+    {
+      "method": "Teacher Network",
+      "dataset": "Hand-labeled test set",
+      "metric": "F1 score",
+      "value": "0.2755"
+    },
+    {
+      "method": "Teacher Network",
+      "dataset": "Hand-labeled test set",
+      "metric": "Precision",
+      "value": "0.4638"
+    },
+    {
+      "method": "Teacher Network",
+      "dataset": "Hand-labeled test set",
+      "metric": "Recall",
+      "value": "0.5780"
+    },
+    {
+      "method": "Student Network Iteration 4",
+      "dataset": "Text-mined test set",
+      "metric": "AUC",
+      "value": "0.9064"
+    },
+    {
+      "method": "Student Network Iteration 4",
+      "dataset": "Text-mined test set",
+      "metric": "F1 score",
+      "value": "0.2108"
+    },
+    {
+      "method": "Student Network Iteration 4",
+      "dataset": "Text-mined test set",
+      "metric": "Precision",
+      "value": "0.1554"
+    },
+    {
+      "method": "Student Network Iteration 4",
+      "dataset": "Text-mined test set",
+      "metric": "Recall",
+      "value": "0.7042"
+    },
+    {
+      "method": "Student Network Iteration 4",
+      "dataset": "Hand-labeled test set",
+      "metric": "AUC",
+      "value": "0.9164"
+    },
+    {
+      "method": "Student Network Iteration 4",
+      "dataset": "Hand-labeled test set",
+      "metric": "F1 score",
+      "value": "0.2904"
+    },
+    {
+      "method": "Student Network Iteration 4",
+      "dataset": "Hand-labeled test set",
+      "metric": "Precision",
+      "value": "0.2226"
+    },
+    {
+      "method": "Student Network Iteration 4",
+      "dataset": "Hand-labeled test set",
+      "metric": "Recall",
+      "value": "0.8273"
+    },
+    {
+      "method": "LesaNet (ImageNet)",
+      "dataset": "Hand-labeled test set",
+      "metric": "AUC",
+      "value": "0.9398"
+    },
+    {
+      "method": "LesaNet (ImageNet)",
+      "dataset": "Hand-labeled test set",
+      "metric": "F1 score",
+      "value": "0.4344"
+    },
+    {
+      "method": "LesaNet (ImageNet)",
+      "dataset": "Hand-labeled test set",
+      "metric": "Precision",
+      "value": "0.4737"
+    },
+    {
+      "method": "LesaNet (ImageNet)",
+      "dataset": "Hand-labeled test set",
+      "metric": "Recall",
+      "value": "0.5274"
+    },
+    {
+      "method": "LesaNet (TCIA)",
+      "dataset": "Hand-labeled test set",
+      "metric": "AUC",
+      "value": "0.9403"
+    },
+    {
+      "method": "LesaNet (TCIA)",
+      "dataset": "Hand-labeled test set",
+      "metric": "F1 score",
+      "value": "0.4972"
+    },
+    {
+      "method": "LesaNet (TCIA)",
+      "dataset": "Hand-labeled test set",
+      "metric": "Precision",
+      "value": "0.4754"
+    },
+    {
+      "method": "LesaNet (TCIA)",
+      "dataset": "Hand-labeled test set",
+      "metric": "Recall",
+      "value": "0.7531"
+    }
+  ],
+  "ablations": [
+    "Student network iterations vs teacher baseline",
+    "Domain-specific transfer learning (TCIA) vs generic transfer learning (ImageNet)"
+  ],
+  "improvement_over_baseline": "LesaNet (TCIA) improves Recall by 0.2257 and F1 score by 0.0628 over LesaNet (ImageNet) on hand-labeled test set",
+  "stated_limitations": [
+    "Knowledge transfer across disparate domains is shown to be less effective",
+    "Smaller architectures were found to be more compelling in learning better features"
+  ],
+  "unstated_weaknesses": [
+    "No details provided about specific medical imaging tasks or datasets used",
+    "No information about how pseudo-labels are generated or validated",
+    "Potential biases in the semi-supervised approach not discussed",
+    "Lack of evaluation metrics and experimental setup details"
+  ],
+  "threats_to_validity": [
+    "Unclear evaluation metrics and experimental setup raise questions about reported improvements",
+    "No discussion of how domain-specific knowledge is incorporated into transfer learning",
+    "Potential overfitting or underfitting issues not addressed",
+    "Limited information about generalization across different medical imaging modalities"
+  ],
+  "reproducibility": "low",
+  "open_questions": [
+    "How exactly are the pseudo-labels generated and validated?",
+    "What specific domain-specific knowledge is incorporated into the transfer learning process?",
+    "How does the uncertainty of pseudo-labels affect the transfer learning performance?",
+    "What are the specific evaluation metrics and experimental setup used?"
+  ],
+  "future_work": [
+    "Exploring domain-specific transfer learning further",
+    "Investigating the impact of uncertainty-aware pseudo-label selection"
+  ],
+  "gaps_this_enables": [
+    "Research on uncertainty-aware pseudo-label selection for medical imaging",
+    "Exploration of lightweight architectures for medical imaging tasks",
+    "Investigation of domain-specific knowledge in transfer learning"
+  ],
+  "relevance_to_topic": "This paper directly addresses pseudo-label selection in medical imaging using semi-supervised learning, which is highly relevant to uncertainty-aware pseudo-label selection.",
+  "relation_type": "method_source",
+  "can_run_on_macbook": true,
+  "reusable_assets": [
+    "MAKNet architecture",
+    "Semi-supervised approach for pseudo-labeling"
+  ],
+  "code_available": false,
+  "code_url": null,
+  "best_result": "LesaNet (TCIA) on hand-labeled test set: AUC 0.9403, F1 0.4972, Precision 0.4754, Recall 0.7531",
+  "key_results": {
+    "Text-mined test set_AUC": "0.9051",
+    "Text-mined test set_F1 score": "0.2078",
+    "Text-mined test set_Precision": "0.4696",
+    "Text-mined test set_Recall": "0.4744",
+    "Hand-labeled test set_AUC": "0.9101",
+    "Hand-labeled test set_F1 score": "0.2755"
+  },
+  "limitations_stated": [
+    "Knowledge transfer across disparate domains is shown to be less effective",
+    "Smaller architectures were found to be more compelling in learning better features"
+  ],
+  "evidence_id": "EV040",
+  "title": "Domain-Specific, Semi-Supervised Transfer Learning for Medical Imaging",
+  "year": 2020,
+  "arxiv_id": "2005.11746",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 21707,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 9,
+  "pdf_tables": 3,
+  "pdf_captions": 7
+}

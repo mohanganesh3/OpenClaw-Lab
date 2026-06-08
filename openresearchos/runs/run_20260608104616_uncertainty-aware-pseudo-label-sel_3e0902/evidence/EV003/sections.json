@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\nPseudo-D: Informing Multi-View Uncertainty\nEstimation with Calibrated Neural Training\nDynamics\nAng Nan Gu[0000−0001−8926−2397]1, Michael Tsang2, Hooman Vaseli1, Purang\nAbolmaesumi1, an",
+  "method": "gregated using Dempster’s Rule of Combination, a mathematically\nrigorous method for combining multiple predictions [12].\n\n[CAPTION] Fig. 1. We augment the training phase by first recording the history",
+  "results": "classification task. We pre-compute the set of thresholds T\nat the percentiles of coverage ranging uniformly from 50% to 100%.\nWe use multi-view fusion to aggregate video-level predictions to study-le",
+  "conclusion": "blished in: Uncer-\ntainty for Safe Utilization of Machine Learning in Medical Imaging (UNSURE)\nWorkshop at the International Conference on Medical Image Computing and\nComputer-Assisted Intervention (M"
+}

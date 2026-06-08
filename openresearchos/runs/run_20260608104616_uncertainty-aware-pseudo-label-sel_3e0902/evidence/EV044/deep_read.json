@@ -1,0 +1,194 @@
+{
+  "problem_addressed": "Semi-supervised domain adaptation (SSDA) struggles with scarce semantic label information in target domains, limiting performance of existing approaches.",
+  "core_claim": "Graph-based Adaptive Betweenness Clustering (G-ABC) achieves superior categorical domain alignment by constructing and refining a reliable heterogeneous graph for semantic propagation.",
+  "key_contributions": [
+    "Heterogeneous graph construction connecting labeled source/target samples with unlabeled target samples",
+    "Connectivity refinement via Confidence Uncertainty based Node Removal (CUNR) and Prediction Dissimilarity based Edge Pruning (PDEP)",
+    "Adaptive Betweenness Clustering for semantic transfer using pairwise label similarity"
+  ],
+  "novelty": "Unlike prior SSDA methods that directly use noisy graphs for semantic alignment, G-ABC introduces explicit graph refinement strategies to degrade unreliable connectivity before clustering.",
+  "method_summary": "Constructs a heterogeneous graph between labeled source/target samples and unlabeled target samples, refines it using CUNR and PDEP to remove noisy nodes/edges, then applies Adaptive Betweenness Clustering for semantic propagation.",
+  "method_components": [
+    "Graph Construction with pairwise label similarity",
+    "Connectivity Refinement (CUNR + PDEP)",
+    "Adaptive Betweenness Clustering with binary cross-entropy loss"
+  ],
+  "key_innovation": "The integration of confidence-based node removal and prediction dissimilarity-based edge pruning to create a reliable graph structure before semantic propagation, addressing the unreliability of initial graph connectivity.",
+  "assumptions": [
+    "Labeled samples across domains have trustworthy ground-truth labels",
+    "Features and labels vary smoothly over graph edges",
+    "High prediction confidence indicates reliable unlabeled samples"
+  ],
+  "theoretical_grounding": "Uses binary cross-entropy loss for clustering but provides no formal proofs or theoretical bounds.",
+  "datasets_used": [
+    "Office-31",
+    "DomainNet",
+    "Office-Home"
+  ],
+  "baselines_compared": [
+    "S+T [23]",
+    "DANN [23]",
+    "MME [23]",
+    "Meta-MME [62]",
+    "BiAT [66]",
+    "APE [24]",
+    "PAC [68]",
+    "Relaxed-cGAN [31]",
+    "DECOTA [64]",
+    "ECACL-T [30]",
+    "ECACL-P [30]",
+    "S3D [84]",
+    "UODAv2 [87]",
+    "MCL [88]",
+    "CLDA [85]",
+    "CDAC [25]"
+  ],
+  "metrics_used": [
+    "accuracy (%)"
+  ],
+  "hyperparameters": "ξ0 (initial learning rate), α=0.03, β=25.0, τ=0.95, τ'=0.975, κ=0.20, temperature=0.05 (model), temperature=0.85 (sharpening), T (epochs, varies by dataset, common=100)",
+  "compute_required": null,
+  "seeds": "3 trials",
+  "headline_result": "G-ABC achieved 72.02% mean accuracy on Office-31 3-shot",
+  "results_table": [
+    {
+      "method": "G-ABC",
+      "dataset": "Office-31",
+      "metric": "mean",
+      "value": "72.02%"
+    },
+    {
+      "method": "G-ABC",
+      "dataset": "Office-31",
+      "metric": "W→A",
+      "value": "67.9±1.26%"
+    },
+    {
+      "method": "G-ABC",
+      "dataset": "Office-31",
+      "metric": "D→A",
+      "value": "70.97±0.48%"
+    },
+    {
+      "method": "G-ABC",
+      "dataset": "Office-31",
+      "metric": "C→S",
+      "value": "65.73±1.03%"
+    },
+    {
+      "method": "G-ABC",
+      "dataset": "Office-31",
+      "metric": "S→P",
+      "value": "73.06±0.35%"
+    },
+    {
+      "method": "G-ABC",
+      "dataset": "DomainNet",
+      "metric": "mean",
+      "value": "76.5%"
+    },
+    {
+      "method": "G-ABC",
+      "dataset": "DomainNet",
+      "metric": "R→C",
+      "value": "82.2%"
+    },
+    {
+      "method": "G-ABC",
+      "dataset": "DomainNet",
+      "metric": "C→S",
+      "value": "73.4%"
+    },
+    {
+      "method": "G-ABC",
+      "dataset": "DomainNet",
+      "metric": "S→P",
+      "value": "76.3%"
+    },
+    {
+      "method": "G-ABC",
+      "dataset": "DomainNet",
+      "metric": "R→S",
+      "value": "74.3%"
+    },
+    {
+      "method": "G-ABC",
+      "dataset": "Office-Home",
+      "metric": "mean",
+      "value": "72.02%"
+    },
+    {
+      "method": "G-ABC",
+      "dataset": "Office-Home",
+      "metric": "W→A",
+      "value": "67.9±1.26%"
+    },
+    {
+      "method": "G-ABC",
+      "dataset": "Office-Home",
+      "metric": "D→A",
+      "value": "70.97±0.48%"
+    },
+    {
+      "method": "G-ABC",
+      "dataset": "Office-Home",
+      "metric": "C→S",
+      "value": "65.73±1.03%"
+    },
+    {
+      "method": "G-ABC",
+      "dataset": "Office-Home",
+      "metric": "S→P",
+      "value": "73.06±0.35%"
+    }
+  ],
+  "ablations": [
+    {
+      "component": "Lwdbc loss",
+      "impact": "Removing reduces mean accuracy from 76.5% to 72.1% on DomainNet 3-shot"
+    },
+    {
+      "component": "Perturbations in samples",
+      "impact": "Removing (denoted †) reduces mean accuracy from 76.5% to 75.4% on DomainNet 3-shot"
+    },
+    {
+      "component": "Pseudo-labeled target samples",
+      "impact": "Removing (denoted ‡) reduces mean accuracy from 76.5% to 75.9% on DomainNet 3-shot"
+    },
+    {
+      "component": "First positive term (sij log(pT i pj))",
+      "impact": "Removing (denoted ♣) reduces mean accuracy from 76.5% to 75.6% on DomainNet 3-shot"
+    },
+    {
+      "component": "Second negative term ((1−sij) log(1−pT i pj))",
+      "impact": "Removing (denoted ♠) reduces mean accuracy from 76.5% to 74.9% on DomainNet 3-shot"
+    }
+  ],
+  "improvement_over_baseline": "G-ABC improves ECACL-T by 2.3% (AlexNet) and 3.1% (ResNet-34) on DomainNet 1-shot; outperforms MCL by 2.08% (ResNet-34) on DomainNet 3-shot",
+  "best_result": "G-ABC achieved 72.02% mean accuracy on Office-31 3-shot",
+  "key_results": {
+    "Office-31_mean": "72.02%",
+    "Office-31_W→A": "67.9±1.26%",
+    "Office-31_D→A": "70.97±0.48%",
+    "Office-31_C→S": "65.73±1.03%",
+    "Office-31_S→P": "73.06±0.35%",
+    "DomainNet_mean": "76.5%"
+  },
+  "limitations_stated": [],
+  "reproducibility": "low",
+  "evidence_id": "EV044",
+  "title": "Adaptive Betweenness Clustering for Semi-Supervised Domain Adaptation",
+  "year": 2023,
+  "arxiv_id": "2401.11448",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 104620,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 16,
+  "pdf_tables": 7,
+  "pdf_captions": 9
+}

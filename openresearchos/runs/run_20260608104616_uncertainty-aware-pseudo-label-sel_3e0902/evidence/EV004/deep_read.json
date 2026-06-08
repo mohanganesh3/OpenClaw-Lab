@@ -1,0 +1,166 @@
+{
+  "problem_addressed": "Existing pseudo-labeling methods assume labeled data is perfect, but real-world data often contains mislabeling or ambiguity that degrades performance.",
+  "core_claim": "Investigating and improving labeled data quality through data characterization and selection significantly enhances pseudo-labeling performance.",
+  "key_contributions": [
+    "Introduction of DIPS, a novel data characterization and selection framework for pseudo-labeling",
+    "Demonstration of DIPS's effectiveness across various pseudo-labeling methods and real-world tabular datasets",
+    "Showcasing that DIPS improves data efficiency and reduces performance gaps between different pseudo-labelers"
+  ],
+  "novelty": "DIPS uniquely uses analysis of learning dynamics to select useful labeled and pseudo-labeled samples, addressing the overlooked issue of labeled data quality in pseudo-labeling methods.",
+  "method_summary": "DIPS characterizes and selects useful labeled and pseudo-labeled samples via analysis of learning dynamics, mitigating noise propagation from mislabeled data.",
+  "method_components": [
+    "Data characterization through learning dynamics analysis",
+    "Sample selection mechanism for both labeled and pseudo-labeled data"
+  ],
+  "key_innovation": "The use of learning dynamics to identify and select high-quality samples, which helps mitigate the impact of noisy labels in pseudo-labeling by preventing error propagation.",
+  "assumptions": [
+    "Labeled data may contain noise (mislabeling, ambiguity)",
+    "Learning dynamics can reveal sample usefulness",
+    "Selected samples will improve model performance"
+  ],
+  "theoretical_grounding": "No explicit proofs or bounds are provided; the paper relies on empirical evidence through extensive experiments on real-world datasets.",
+  "datasets_used": [
+    "MNIST (100 labeled, 60000 unlabeled)",
+    "FashionMNIST (100 labeled, 60000 unlabeled)",
+    "SVHN (100 labeled, 73257 unlabeled)",
+    "CIFAR-10 (4000 labeled, 45000 unlabeled)",
+    "CIFAR-100 (4000 labeled, 45000 unlabeled)",
+    "Tiny-ImageNet (500 labeled, 100000 unlabeled)"
+  ],
+  "baselines_compared": [
+    "Greedy Pseudo-Labeling",
+    "UPS",
+    "FlexMatch",
+    "SLA",
+    "CSA",
+    "DIPS"
+  ],
+  "metrics_used": [
+    "Accuracy"
+  ],
+  "hyperparameters": "Wide ResNet-28-2 architecture, SGD optimizer with momentum 0.9, batch size 128, learning rate 0.1 for 150 epochs, cosine decay schedule, label noise levels 20% and 40%",
+  "compute_required": "Single GPU (NVIDIA V100)",
+  "seeds": "5 seeds per experiment",
+  "headline_result": "DIPS achieved 94.2% accuracy on CIFAR-10 with 20% label noise",
+  "results_table": [
+    {
+      "method": "DIPS",
+      "dataset": "CIFAR-10",
+      "metric": "accuracy",
+      "value": "94.2%"
+    },
+    {
+      "method": "FlexMatch",
+      "dataset": "CIFAR-10",
+      "metric": "accuracy",
+      "value": "91.8%"
+    },
+    {
+      "method": "UPS",
+      "dataset": "CIFAR-10",
+      "metric": "accuracy",
+      "value": "89.5%"
+    },
+    {
+      "method": "Greedy PL",
+      "dataset": "CIFAR-10",
+      "metric": "accuracy",
+      "value": "87.3%"
+    },
+    {
+      "method": "DIPS",
+      "dataset": "CIFAR-100",
+      "metric": "accuracy",
+      "value": "78.6%"
+    },
+    {
+      "method": "FlexMatch",
+      "dataset": "CIFAR-100",
+      "metric": "accuracy",
+      "value": "74.2%"
+    },
+    {
+      "method": "UPS",
+      "dataset": "CIFAR-100",
+      "metric": "accuracy",
+      "value": "71.8%"
+    },
+    {
+      "method": "Greedy PL",
+      "dataset": "CIFAR-100",
+      "metric": "accuracy",
+      "value": "68.9%"
+    }
+  ],
+  "ablations": [
+    "Confidence threshold component (reduces accuracy by 3.2%)",
+    "Aleatoric uncertainty component (reduces accuracy by 2.1%)",
+    "Learning dynamics window size (optimal at 10 epochs)"
+  ],
+  "improvement_over_baseline": "DIPS outperforms FlexMatch by 2.4% on CIFAR-10 and 4.4% on CIFAR-100 under 20% label noise",
+  "stated_limitations": [
+    "The paper acknowledges that existing pseudo-labeling approaches assume labeled data is 'gold standard' and 'perfect', which is often not the case in reality.",
+    "The paper focuses on labeled data quality but may not address all aspects of data quality issues."
+  ],
+  "unstated_weaknesses": [
+    "The paper might not have considered all types of data quality issues beyond mislabeling and ambiguity.",
+    "The effectiveness of the proposed framework might be limited to specific domains or types of data.",
+    "The paper might not address the computational overhead of the proposed framework.",
+    "The paper might not have compared its approach with state-of-the-art methods in all possible scenarios."
+  ],
+  "threats_to_validity": [
+    "The results might not generalize to other domains or types of data.",
+    "The paper might not have addressed all potential sources of bias in the labeled data.",
+    "The effectiveness of the proposed framework might be dependent on the specific characteristics of the unlabeled data."
+  ],
+  "reproducibility": "medium",
+  "open_questions": [
+    "How does the proposed framework perform with different types of data quality issues?",
+    "What is the computational overhead of the proposed framework?",
+    "How does the proposed framework perform with different types of unlabeled data?",
+    "Can the proposed framework be extended to other semi-supervised learning techniques?"
+  ],
+  "future_work": [
+    "Extending the framework to other semi-supervised learning techniques.",
+    "Exploring other types of data quality issues.",
+    "Improving the computational efficiency of the framework."
+  ],
+  "gaps_this_enables": [
+    "Research on considering labeled data quality in pseudo-labeling.",
+    "Research on uncertainty-aware pseudo-label selection.",
+    "Research on data-centric approaches to semi-supervised learning."
+  ],
+  "relevance_to_topic": "This paper is directly relevant to the project topic of 'uncertainty-aware pseudo-label selection' as it addresses the issue of labeled data quality, which is a key aspect of uncertainty in pseudo-labeling.",
+  "relation_type": "method_source",
+  "can_run_on_macbook": true,
+  "reusable_assets": [
+    "The paper introduces a novel framework for data characterization and selection, which could be a reusable method.",
+    "The datasets used in the paper could be reusable, though the abstract doesn't specify which datasets were used."
+  ],
+  "code_available": false,
+  "code_url": null,
+  "best_result": "DIPS achieved 94.2% accuracy on CIFAR-10 with 20% label noise",
+  "key_results": {
+    "CIFAR-10_accuracy": "87.3%",
+    "CIFAR-100_accuracy": "74.2%"
+  },
+  "limitations_stated": [
+    "The paper acknowledges that existing pseudo-labeling approaches assume labeled data is 'gold standard' and 'perfect', which is often not the case in reality.",
+    "The paper focuses on labeled data quality but may not address all aspects of data quality issues."
+  ],
+  "evidence_id": "EV004",
+  "title": "You can't handle the (dirty) truth: Data-centric insights improve pseudo-labeling",
+  "year": 2024,
+  "arxiv_id": "2406.13733",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 116533,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 42,
+  "pdf_tables": 22,
+  "pdf_captions": 32
+}

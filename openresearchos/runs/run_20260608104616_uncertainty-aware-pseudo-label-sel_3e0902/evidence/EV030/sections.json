@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\n1\nTowards Fast Personalized Semi-Supervised\nFederated Learning in Edge Networks:\nAlgorithm Design and Theoretical Guarantee\nShuai Wang, Yanqing Xu, Yanli Yuan, and Tony Q. S. Quek\nAbst",
+  "method": "his section, we develop an efficient FL algorithm for problem (6), termed FedCPSL. The proposed\nFL algorithm allows simultaneous training of all the optimization variables to spead up the learning\npro",
+  "results": "n the FL literature, and is acknowledged to be sufficient for performance evaluation. Then, we\nrandomly extract 20% of data samples from each edge device as its test data for performance evaluation.\nS",
+  "conclusion": "0\n(br\ni )t\neQr\ni\n(gi(eθr,t\ni , eνr+1\ni\n) + cr −cr\ni )\n \n= eη\nN\nX\ni=1\nωiE\n  Qr\ni −1\nX\nt=0\n(br\ni )t\neQr\ni\n(∇θfi(eθr,t\ni , eνr+1\ni\n) + cr −cr\ni )\n \n(108)\n= eη\nN\nX\ni=1\nωiE\n  Qr\ni −1\nX\nt=0\n(br\ni )t\neQr\ni\n∇"
+}

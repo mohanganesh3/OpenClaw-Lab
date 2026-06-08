@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\nSemi-Supervised Learning Based on Reference\nModel for Low-resource TTS\nXulong Zhang, Jianzong Wang∗, Ning Cheng, Jing Xiao\nPing An Technology (Shenzhen) Co., Ltd.\nAbstract—Most previou",
+  "method": "ng the appropriate trade-\noff parameter ω, where the reference model is ﬁxed during\nthe training iteration process and the ﬁne-tuned model is ﬁne-\ntuned based on a copied initial reference model. We i",
+  "results": "e-off parameter ω is set as 0, 0.1, 0.5, and 1.0 for the\ntraining of the different data size target dataset.\nC. Subjective Evaluation\nWe conducted the evaluation of robustness and naturalness\nof the ﬁ",
+  "conclusion": "2019, pp. 6706–6713.\n[2] Z. Zeng, J. Wang, N. Cheng, T. Xia, and J. Xiao, “Aligntts: Efﬁcient\nfeed-forward text-to-speech system without explicit alignment,” in 2020\nIEEE International Conference on A"
+}

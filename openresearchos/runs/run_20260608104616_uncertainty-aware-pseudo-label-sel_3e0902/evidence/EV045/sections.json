@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\nScribble-based 3D Multiple Abdominal Organ\nSegmentation via Triple-branch Multi-dilated\nNetwork with Pixel- and Class-wise Consistency\nMeng Han1, Xiangde Luo1, Wenjun Liao2, Shichuan Z",
+  "method": "a\nnovel 3D Triple-branch multi-Dilated network called TDNet for scribble-supervised\nsegmentation. By equipping with varying dilation rates, the network can better\nleverage multi-scale context for deal",
+  "results": "r cervical cancer before radiotherapy. Each CT volume contains\n159-330 slices of 512×512 pixels, with an in-plane resolution of 0.976 × 0.976 mm\nand slice spacing of 2.5-3.0 mm. We aimed to segment se",
+  "conclusion": "each decoders with different dilation rates, the model’s\nperformance is further improved, especially in terms of ASD and HD95, which\nproves our hypothesis that learning features from different scales "
+}

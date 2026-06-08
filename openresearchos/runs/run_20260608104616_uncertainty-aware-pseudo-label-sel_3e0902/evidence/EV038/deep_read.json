@@ -1,0 +1,261 @@
+{
+  "problem_addressed": "Existing semi-supervised learning methods rely on thresholded pseudo labeling but fail to incorporate uncertainty from noisy labels or out-of-distribution samples due to strong augmentations.",
+  "core_claim": "Complementing SSL with an uncertainty-aware objective that quantifies both aleatoric and epistemic uncertainty improves performance without adding computational overhead.",
+  "key_contributions": [
+    "Novel uncertainty-aware objective incorporating aleatoric and epistemic uncertainty to align uncertainty distributions of labeled and unlabeled domains",
+    "Computationally lightweight framework that avoids label propagation graphs and similarity computations",
+    "State-of-the-art results on complex datasets like CIFAR-100 (79.32% accuracy) and Mini-ImageNet"
+  ],
+  "novelty": "First effort to estimate and align uncertainty distributions of labeled and unlabeled data in SSL, unlike prior work focused only on consistency regularization",
+  "method_summary": "Proposes an unsupervised uncertainty-aware loss function that quantifies aleatoric and epistemic uncertainty during pseudo labeling, complementing existing SSL methods without requiring ensembles or graph constructions.",
+  "method_components": [
+    "Pseudo labeling mechanism using weak/strong augmentations with confidence thresholding",
+    "Uncertainty quantification for both aleatoric (data) and epistemic (model) uncertainty",
+    "Loss function that applies only to high-confidence pseudo labels (max(fθ(xi)) > τc)"
+  ],
+  "key_innovation": "Aligning uncertainty distributions between labeled and unlabeled domains to handle noisy pseudo labels and out-of-distribution samples efficiently",
+  "assumptions": [
+    "Unlabeled data shares similar distribution with labeled data",
+    "Uncertainty can be quantified efficiently without Bayesian methods",
+    "Aligning uncertainty distributions improves SSL generalization"
+  ],
+  "theoretical_grounding": "None provided; paper focuses on empirical evaluation over theoretical analysis",
+  "datasets_used": [
+    "CIFAR-10",
+    "SVHN",
+    "CIFAR-100",
+    "Mini-ImageNet"
+  ],
+  "baselines_compared": [
+    "MeanTeacher",
+    "MixMatch",
+    "ReMixMatch",
+    "FixMatch",
+    "SimPLE",
+    "Label Propagation"
+  ],
+  "metrics_used": [
+    "Top-1 Test Accuracy"
+  ],
+  "hyperparameters": {
+    "confidence_threshold": 0.95,
+    "loss_weights": {
+      "alpha_UE": 1,
+      "lambda": 0.1,
+      "alpha_UA": {
+        "CIFAR-10": 75,
+        "SVHN": 75,
+        "CIFAR-100": 150,
+        "Mini-ImageNet": 300
+      }
+    },
+    "optimizers": {
+      "SGD": {
+        "learning_rate": 0.03,
+        "weight_decay": 0.0005,
+        "scheduler": "cosine decay with factor 0.5"
+      },
+      "AdamW": {
+        "learning_rate": 0.002,
+        "weight_decay": 0.02
+      }
+    },
+    "architectures": {
+      "CIFAR-10/SVHN": "Wide-ResNet-28-2",
+      "CIFAR-100": "Wide-ResNet-28-8",
+      "Mini-ImageNet": [
+        "Wide-ResNet-28-2",
+        "ResNet-18"
+      ]
+    }
+  },
+  "compute_required": "not specified",
+  "seeds": "not specified",
+  "headline_result": "79.23% on CIFAR-100 with 4000 labels",
+  "results_table": [
+    {
+      "method": "MeanTeacher",
+      "dataset": "CIFAR-10",
+      "metric": "Top-1 Accuracy",
+      "value": "82.68%"
+    },
+    {
+      "method": "MixMatch",
+      "dataset": "CIFAR-10",
+      "metric": "Top-1 Accuracy",
+      "value": "92.25%"
+    },
+    {
+      "method": "ReMixMatch",
+      "dataset": "CIFAR-10",
+      "metric": "Top-1 Accuracy",
+      "value": "94.27%"
+    },
+    {
+      "method": "FixMatch",
+      "dataset": "CIFAR-10",
+      "metric": "Top-1 Accuracy",
+      "value": "95.69%"
+    },
+    {
+      "method": "SimPLE",
+      "dataset": "CIFAR-10",
+      "metric": "Top-1 Accuracy",
+      "value": "94.84%"
+    },
+    {
+      "method": "Ours",
+      "dataset": "CIFAR-10",
+      "metric": "Top-1 Accuracy",
+      "value": "94.92%"
+    },
+    {
+      "method": "MeanTeacher",
+      "dataset": "CIFAR-100",
+      "metric": "Top-1 Accuracy",
+      "value": "96.25%"
+    },
+    {
+      "method": "MixMatch",
+      "dataset": "CIFAR-100",
+      "metric": "Top-1 Accuracy",
+      "value": "96.73%"
+    },
+    {
+      "method": "ReMixMatch",
+      "dataset": "CIFAR-100",
+      "metric": "Top-1 Accuracy",
+      "value": "97.17%"
+    },
+    {
+      "method": "FixMatch",
+      "dataset": "CIFAR-100",
+      "metric": "Top-1 Accuracy",
+      "value": "97.64%"
+    },
+    {
+      "method": "SimPLE",
+      "dataset": "CIFAR-100",
+      "metric": "Top-1 Accuracy",
+      "value": "97.54%"
+    },
+    {
+      "method": "Ours",
+      "dataset": "CIFAR-100",
+      "metric": "Top-1 Accuracy",
+      "value": "97.50%"
+    },
+    {
+      "method": "Ours",
+      "dataset": "CIFAR-100",
+      "metric": "Top-1 Accuracy",
+      "value": "79.23%"
+    },
+    {
+      "method": "MixMatch",
+      "dataset": "Mini-ImageNet",
+      "metric": "Top-1 Accuracy",
+      "value": "55.47%"
+    },
+    {
+      "method": "SimPLE",
+      "dataset": "Mini-ImageNet",
+      "metric": "Top-1 Accuracy",
+      "value": "66.55%"
+    },
+    {
+      "method": "Ours",
+      "dataset": "Mini-ImageNet",
+      "metric": "Top-1 Accuracy",
+      "value": "66.81%"
+    },
+    {
+      "method": "Label Propagation",
+      "dataset": "Mini-ImageNet",
+      "metric": "Top-1 Accuracy",
+      "value": "29.71%"
+    },
+    {
+      "method": "SimPLE",
+      "dataset": "Mini-ImageNet",
+      "metric": "Top-1 Accuracy",
+      "value": "49.39%"
+    },
+    {
+      "method": "Ours",
+      "dataset": "Mini-ImageNet",
+      "metric": "Top-1 Accuracy",
+      "value": "50.75%"
+    }
+  ],
+  "ablations": [
+    "Diagonal covariance matrix assumption",
+    "Exponential moving average for pseudo labels",
+    "Orthogonal certificates for epistemic uncertainty"
+  ],
+  "improvement_over_baseline": "0.65% over SimPLE on CIFAR-10 (94.92% vs 94.27%), 0.03% over SimPLE on CIFAR-100 (97.50% vs 97.54%), 0.26% over SimPLE on Mini-ImageNet (50.75% vs 49.39%)",
+  "stated_limitations": [
+    "Existing SSL methods do not incorporate uncertainty of pseudo-labels or unlabeled samples",
+    "Current approaches don't account for uncertainty due to noisy labels or out-of-distribution samples",
+    "Thresholded pseudo-labeling methods lack uncertainty consideration"
+  ],
+  "unstated_weaknesses": [
+    "Potential computational overhead from uncertainty quantification",
+    "May require additional hyperparameters for uncertainty estimation",
+    "Scalability concerns for large datasets",
+    "Limited evaluation on diverse datasets might question generalizability"
+  ],
+  "threats_to_validity": [
+    "Distribution shift between labeled and unlabeled data might affect uncertainty estimates",
+    "Strong augmentations could introduce uncertainty not captured by the method",
+    "Potential overfitting to specific uncertainty patterns in training data"
+  ],
+  "reproducibility": "unknown (insufficient information about code availability and experimental details)",
+  "open_questions": [
+    "What specific uncertainty quantification techniques are used for aleatoric and epistemic uncertainty?",
+    "How does the uncertainty-aware objective integrate with existing SSL frameworks?",
+    "What is the computational overhead of the proposed method?",
+    "How does the method balance uncertainty with pseudo-label confidence?"
+  ],
+  "future_work": [
+    "Not specified in the abstract",
+    "Likely includes extending to more SSL scenarios or other uncertainty types"
+  ],
+  "gaps_this_enables": [
+    "New direction for uncertainty-aware SSL",
+    "More robust pseudo-label selection mechanisms",
+    "Integration of uncertainty quantification into SSL pipelines"
+  ],
+  "relevance_to_topic": "This paper directly addresses uncertainty quantification in SSL, which is highly relevant to uncertainty-aware pseudo-label selection.",
+  "relation_type": "method_source",
+  "can_run_on_macbook": "unknown (insufficient information about computational requirements)",
+  "reusable_assets": [
+    "Unknown without seeing full paper"
+  ],
+  "code_available": "unknown (insufficient information)",
+  "code_url": "null",
+  "best_result": "79.23% on CIFAR-100 with 4000 labels",
+  "key_results": {
+    "CIFAR-10_Top-1 Accuracy": "94.92%"
+  },
+  "limitations_stated": [
+    "Existing SSL methods do not incorporate uncertainty of pseudo-labels or unlabeled samples",
+    "Current approaches don't account for uncertainty due to noisy labels or out-of-distribution samples",
+    "Thresholded pseudo-labeling methods lack uncertainty consideration"
+  ],
+  "evidence_id": "EV038",
+  "title": "Complementing Semi-Supervised Learning with Uncertainty Quantification",
+  "year": 2022,
+  "arxiv_id": "2207.12131",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 49889,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 10,
+  "pdf_tables": 0,
+  "pdf_captions": 6
+}

@@ -1,0 +1,40 @@
+{
+  "experiment_id": "mvp_i05",
+  "run_id": "run_20260608104616_uncertainty-aware-pseudo-label-sel_3e0902",
+  "idea_id": "I05",
+  "idea_title": "Ensemble Uncertainty Estimation Combining SAM and ATTA",
+  "hypothesis": "If we combine SAM and ATTA, ECE will reduce by 25% compared to using either method alone on breast_cancer dataset.",
+  "level": "mvp",
+  "task_type": "uncertainty_aware_pseudo_label_ssl",
+  "dataset": "sklearn_digits_medical_image_ssl_proxy_label_noise",
+  "seeds": [
+    42,
+    1337,
+    2024,
+    99,
+    7
+  ],
+  "num_seeds": 5,
+  "baseline_name": "Naive confidence pseudo-labeling (LogReg)",
+  "proposed_name": "Entropy-filtered class-balanced pseudo-labeling (RF)",
+  "baseline_accuracy": 0.500444,
+  "baseline_accuracy_std": 0.042337,
+  "accuracy": 0.635111,
+  "accuracy_std": 0.0474,
+  "baseline_f1": 0.497451,
+  "f1": 0.615102,
+  "f1_std": 0.04201,
+  "improvement": {
+    "accuracy": 0.134667
+  },
+  "improvement_pct": 13.467,
+  "better": true,
+  "t_statistic": 14.1045,
+  "p_value": 0.0001,
+  "statistically_significant": true,
+  "duration_seconds": 1.25,
+  "platform": "macOS-26.1-arm64-arm-64bit",
+  "python": "3.12.13",
+  "success": true,
+  "status": "passed"
+}

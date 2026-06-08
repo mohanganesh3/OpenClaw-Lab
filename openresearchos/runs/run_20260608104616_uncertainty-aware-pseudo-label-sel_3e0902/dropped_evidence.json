@@ -1,0 +1,9 @@
+{
+  "run_id": "run_20260608104616_uncertainty-aware-pseudo-label-sel_3e0902",
+  "topic": "uncertainty-aware pseudo-label selection",
+  "kept": 59,
+  "dropped_count": 0,
+  "judged_by": "deterministic_topic_relevance",
+  "dropped": [],
+  "note": "LLM relevance gate skipped by default to avoid discover-stage stalls. Use --llm-relevance for a slow audit."
+}

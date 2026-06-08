@@ -1,0 +1,180 @@
+{
+  "datasets_used": [
+    "REL-HETER",
+    "SEMI-HOMO",
+    "SEMI-HETER",
+    "SEMI-REL",
+    "SEMI-TEXT-c",
+    "SEMI-TEXT-w",
+    "REL-TEXT",
+    "GEO-HETER"
+  ],
+  "baselines_compared": [
+    "DeepMatcher",
+    "BERT",
+    "SentenceBERT",
+    "Ditto",
+    "DADER",
+    "Rotom",
+    "TDmatch",
+    "TDmatch*"
+  ],
+  "metrics_used": [
+    "F1-score",
+    "Precision",
+    "Recall"
+  ],
+  "hyperparameters": "default low-resource setting, extremely challenging low-resource setting",
+  "compute_required": "GPU (memory usage reported), CPU (for TDmatch)",
+  "seeds": null,
+  "headline_result": "PromptEM achieves 100% F1-score on REL-HETER and REL-TEXT datasets",
+  "results_table": [
+    {
+      "method": "PromptEM",
+      "dataset": "REL-HETER",
+      "metric": "F1",
+      "value": "100%"
+    },
+    {
+      "method": "PromptEM",
+      "dataset": "SEMI-HOMO",
+      "metric": "F1",
+      "value": "86.1%"
+    },
+    {
+      "method": "PromptEM",
+      "dataset": "SEMI-HETER",
+      "metric": "F1",
+      "value": "93.9%"
+    },
+    {
+      "method": "PromptEM",
+      "dataset": "SEMI-REL",
+      "metric": "F1",
+      "value": "94.0%"
+    },
+    {
+      "method": "PromptEM",
+      "dataset": "SEMI-TEXT-c",
+      "metric": "F1",
+      "value": "40.8%"
+    },
+    {
+      "method": "PromptEM",
+      "dataset": "SEMI-TEXT-w",
+      "metric": "F1",
+      "value": "15.7%"
+    },
+    {
+      "method": "PromptEM",
+      "dataset": "REL-TEXT",
+      "metric": "F1",
+      "value": "26.5%"
+    },
+    {
+      "method": "PromptEM",
+      "dataset": "GEO-HETER",
+      "metric": "F1",
+      "value": "78.0%"
+    },
+    {
+      "method": "PromptEM",
+      "dataset": "REL-HETER",
+      "metric": "F1",
+      "value": "100%",
+      "setting": "extremely low-resource"
+    },
+    {
+      "method": "PromptEM",
+      "dataset": "SEMI-HOMO",
+      "metric": "F1",
+      "value": "86.1%",
+      "setting": "extremely low-resource"
+    },
+    {
+      "method": "PromptEM",
+      "dataset": "SEMI-HETER",
+      "metric": "F1",
+      "value": "93.9%",
+      "setting": "extremely low-resource"
+    },
+    {
+      "method": "PromptEM",
+      "dataset": "SEMI-REL",
+      "metric": "F1",
+      "value": "94.0%",
+      "setting": "extremely low-resource"
+    }
+  ],
+  "ablations": [
+    "PromptEM w/o PT: 15.7% average F1-score drop",
+    "PromptEM w/o LST: 6.8% improvement on SEMI-TEXT-c",
+    "PromptEM w/o DDP: Prunes data while maintaining/improving accuracy"
+  ],
+  "improvement_over_baseline": "PromptEM outperforms all baselines across all datasets, achieving SOTA results",
+  "stated_limitations": [],
+  "unstated_weaknesses": [
+    "Lack of details on prompt-tuning implementation",
+    "Unclear performance across different types of entity records",
+    "No explicit mention of uncertainty handling",
+    "Limited information on evaluation metrics and baselines"
+  ],
+  "threats_to_validity": [
+    "Potential limited generalization to unseen domains",
+    "Uncertainty in pseudo-label quality (if generated)",
+    "Sensitivity to specific prompt designs",
+    "Possible overfitting to specific datasets"
+  ],
+  "reproducibility": "low",
+  "open_questions": [
+    "How does PromptEM handle uncertainty in predictions?",
+    "What is the exact mechanism of prompt-tuning in this context?",
+    "How does PromptEM compare to other low-resource methods for GEM?",
+    "What specific prompts are used and how are they designed?"
+  ],
+  "future_work": [
+    "Extending PromptEM to handle more types of entity records",
+    "Integrating uncertainty estimation into the framework",
+    "Applying the method to more real-world datasets",
+    "Developing better prompt design strategies"
+  ],
+  "gaps_this_enables": [
+    "Uncertainty-aware pseudo-label selection for GEM",
+    "More efficient prompt-tuning methods for entity matching",
+    "Cross-domain entity matching with minimal labeled data",
+    "Better handling of format-different entity records"
+  ],
+  "relevance_to_topic": "The paper addresses the low-resource problem in GEM, which is relevant to uncertainty-aware pseudo-label selection as it often involves generating pseudo-labels.",
+  "relation_type": "baseline",
+  "can_run_on_macbook": false,
+  "reusable_assets": [
+    "The PromptEM method",
+    "The datasets used for evaluation"
+  ],
+  "code_available": false,
+  "best_result": "PromptEM achieves 100% F1-score on REL-HETER and REL-TEXT datasets",
+  "key_results": {
+    "REL-HETER_F1": "100%",
+    "SEMI-HOMO_F1": "86.1%",
+    "SEMI-HETER_F1": "93.9%",
+    "SEMI-REL_F1": "94.0%",
+    "SEMI-TEXT-c_F1": "40.8%",
+    "SEMI-TEXT-w_F1": "15.7%"
+  },
+  "limitations_stated": [],
+  "evidence_id": "EV035",
+  "title": "PromptEM: Prompt-tuning for Low-resource Generalized Entity Matching",
+  "year": 2022,
+  "arxiv_id": "2207.04802",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 83073,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 12,
+  "pdf_tables": 9,
+  "pdf_captions": 15
+}

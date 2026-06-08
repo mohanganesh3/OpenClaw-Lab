@@ -1,0 +1,37 @@
+{
+  "experiment_id": "micro_probe_i04",
+  "run_id": "run_20260608104616_uncertainty-aware-pseudo-label-sel_3e0902",
+  "idea_id": "I04",
+  "idea_title": "ATTA Adaptation for Regression-Based Pseudo-Labeling",
+  "selected_idea": {
+    "title": "ATTA Adaptation for Regression-Based Pseudo-Labeling",
+    "pitch": "EV010 notes unclear generalization of ATTA beyond classification. We adapt ATTA for regression tasks in pseudo-label selection.",
+    "mechanism": "Modify ATTA framework to work with regression outputs by using distance-based uncertainty estimation instead of classification entropy.",
+    "testable_hypothesis": "If we adapt ATTA for regression, AUC will reach 0.85 compared to baseline of 0.75 on digits dataset (regression version).",
+    "required_dataset": "sklearn:load_digits",
+    "baseline_to_beat": "entropy sampling",
+    "source_gap_id": "G04"
+  },
+  "topic": "uncertainty-aware pseudo-label selection",
+  "level": "micro_probe",
+  "label": "Micro-Probe",
+  "hypothesis": "If we adapt ATTA for regression, AUC will reach 0.85 compared to baseline of 0.75 on digits dataset (regression version).",
+  "method": "Modify ATTA framework to work with regression outputs by using distance-based uncertainty estimation instead of classification entropy.",
+  "metric": "AUC",
+  "baseline": "entropy sampling",
+  "ablation_plan": [
+    "proposed method without key component 1",
+    "proposed method without key component 2",
+    "baseline with partial improvement"
+  ],
+  "dataset": "sklearn:load_digits",
+  "expected_result": "The proposed method (ATTA Adaptation for Regression-Based Pseudo-Labeling) should beat the baseline on the specified metric.",
+  "failure_interpretation": "A weak or negative margin means the mechanism does not justify promotion and should be revised or killed.",
+  "runtime_budget_minutes": "1-5",
+  "max_disk_mb": 250,
+  "max_dataset_download_gb": 0,
+  "max_reruns": 5,
+  "allowed_network_actions": [],
+  "fixed_seed": 42,
+  "created_at": "2026-06-08T12:21:28.284Z"
+}

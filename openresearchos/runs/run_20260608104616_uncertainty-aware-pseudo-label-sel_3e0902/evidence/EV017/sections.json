@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\nA Semi-Supervised Inf-Net Framework for \nCT-Based Lung Nodule Analysis with a \nConceptual \nExtension \nToward \nGenomic \nIntegration \nFateme Mobinia, Mohammad Reza Hedyehzadeha, \nMahdi Y",
+  "method": "a CT-driven semi-supervised \nframework utilizing the Inf-Net architecture to \nenhance lung nodule detection and classification in \nscenarios with limited annotations. Inf-Net, initially \ndeveloped for",
+  "results": "learning rate of \n1e-4, β₁ set to 0.9, β₂ set to 0.999, and a batch size of \n8. \n4.1 Backbone Network Evaluation \nWe evaluated ResNet50, Res2Net50, and ResNet101 \nto find the best backbone network for",
+  "conclusion": "dmb2) | 0.676 |\n| 20 | M5LCADThreshold0.3 (atraverso) | 0.608 |\n| 21 | lance (lancesy) | 0.543 |\n|  | Our Inf-Net (10,000 Images) | 0.825 |\n|  | Our Semi-Inf-Net (20,000 Images) | 0.784 |\n\n[CAPTION] T"
+}

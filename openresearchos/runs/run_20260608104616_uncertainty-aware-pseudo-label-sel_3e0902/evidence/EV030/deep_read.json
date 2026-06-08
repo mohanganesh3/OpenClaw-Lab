@@ -1,0 +1,150 @@
+{
+  "problem_addressed": "Label deficiency and device heterogeneity in federated learning cause slow convergence and poor performance in edge networks.",
+  "core_claim": "FedCPSL achieves fast convergence and high performance by combining pseudo-labeling and interpolation-based personalization with adaptive variance reduction.",
+  "key_contributions": [
+    "Novel FedCPSL algorithm for personalized semi-supervised FL",
+    "Theoretical guarantee of sublinear convergence under heterogeneity",
+    "Three acceleration strategies: momentum, variance reduction, normalized aggregation"
+  ],
+  "novelty": "First to integrate pseudo-labeling with interpolation-based personalization in FL while addressing heterogeneity through adaptive variance reduction and normalized aggregation.",
+  "method_summary": "FedCPSL simultaneously optimizes global model θ, pseudo-labels νi, and local models θi,lc via alternating minimization and local SGD with three acceleration strategies.",
+  "method_components": [
+    "Pseudo-labeling for unlabeled data",
+    "Interpolation-based personalization",
+    "Adaptive client variance reduction",
+    "Local momentum SGD",
+    "Normalized global aggregation"
+  ],
+  "key_innovation": "Adaptive client variance reduction with control variables that correct local updates while accommodating momentum and heterogeneous local updates, enabling stable convergence.",
+  "assumptions": [
+    "Partial client participation (PCP) with small fixed-size subsets",
+    "Time-varying heterogeneous local updates (HLU)",
+    "Non-IID data distribution across devices"
+  ],
+  "theoretical_grounding": "Proves sublinear convergence rate for FedCPSL under both statistical and system heterogeneity, with resilience to client drift and objective inconsistency.",
+  "datasets_used": [
+    "MNIST",
+    "CIFAR-10"
+  ],
+  "baselines_compared": [
+    "FedSHVR",
+    "FedSHVRP",
+    "APFL1",
+    "APFSL"
+  ],
+  "metrics_used": [
+    "test accuracy"
+  ],
+  "hyperparameters": {
+    "labeled_ratio": "ϵ=0.9 (default)",
+    "test_split": "20% per device",
+    "batch_size": {
+      "labeled": 32,
+      "unlabeled": 32
+    },
+    "participation": "10% or 20% devices per round",
+    "local_epochs": "E=2 (or [1,5] with HLU)",
+    "learning_rate": {
+      "MNIST": {
+        "no_HLU": 0.005,
+        "with_HLU": 0.002
+      },
+      "CIFAR-10": {
+        "no_HLU": 0.002,
+        "with_HLU": 0.001
+      }
+    },
+    "βi": "0.75 (optimal)",
+    "γ": "0.8 (optimal)",
+    "stopping_rounds": 100
+  },
+  "compute_required": "Not specified",
+  "seeds": "Not specified",
+  "headline_result": "FedCPSL achieves 98.2% accuracy on MNIST (m=0.1N) and 80.7% on CIFAR-10 (m=0.1N)",
+  "results_table": [
+    {
+      "method": "FedCPSL",
+      "dataset": "MNIST",
+      "metric": "accuracy",
+      "value": "98.2%",
+      "condition": "m=0.1N"
+    },
+    {
+      "method": "FedCPSL",
+      "dataset": "MNIST",
+      "metric": "accuracy",
+      "value": "98.8%",
+      "condition": "m=0.2N"
+    },
+    {
+      "method": "FedCPSL",
+      "dataset": "CIFAR-10",
+      "metric": "accuracy",
+      "value": "80.7%",
+      "condition": "m=0.1N"
+    },
+    {
+      "method": "FedCPSL",
+      "dataset": "CIFAR-10",
+      "metric": "accuracy",
+      "value": "80.8%",
+      "condition": "m=0.2N"
+    },
+    {
+      "method": "FedCPSL (HLU)",
+      "dataset": "MNIST",
+      "metric": "accuracy",
+      "value": "97.5%",
+      "condition": "m=0.1N"
+    },
+    {
+      "method": "FedCPSL (HLU)",
+      "dataset": "CIFAR-10",
+      "metric": "accuracy",
+      "value": "79.5%",
+      "condition": "m=0.1N"
+    },
+    {
+      "method": "APFSL",
+      "dataset": "CIFAR-10",
+      "metric": "accuracy",
+      "value": "74.9%",
+      "condition": "m=0.1N"
+    },
+    {
+      "method": "FedSHVR",
+      "dataset": "MNIST",
+      "metric": "accuracy",
+      "value": "94.3%",
+      "condition": "m=0.1N"
+    }
+  ],
+  "ablations": [
+    "βi study: βi=0.75 optimal for personalization (Fig 1)",
+    "γ study: γ=0.8 optimal for momentum (Fig 2)",
+    "HLU robustness: FedCPSL degrades least under HLU (Fig 5, Table I)"
+  ],
+  "improvement_over_baseline": "FedCPSL reduces communication rounds to reach 95% accuracy by up to 60% compared to APFL/APFSL (30 rounds vs 80+). Under HLU, FedCPSL outperforms FedSHVR by 24.5% on MNIST (97.5% vs 73.0%).",
+  "best_result": "FedCPSL achieves 98.2% accuracy on MNIST (m=0.1N) and 80.7% on CIFAR-10 (m=0.1N)",
+  "key_results": {
+    "MNIST_accuracy": "97.5%",
+    "CIFAR-10_accuracy": "79.5%"
+  },
+  "limitations_stated": [],
+  "reproducibility": "low",
+  "evidence_id": "EV030",
+  "title": "Toward Fast Personalized Semi-Supervised Federated Learning in Edge Networks: Algorithm Design and Theoretical Guarantee",
+  "year": 2023,
+  "arxiv_id": "2306.04155",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 107520,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 47,
+  "pdf_tables": 4,
+  "pdf_captions": 5
+}

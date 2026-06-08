@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\nReliable Source Approximation: Source-Free\nUnsupervised Domain Adaptation for Vestibular\nSchwannoma MRI Segmentation\nHongye Zeng1, Ke Zou2, Zhihao Chen3, Rui Zheng1,4, and Huazhu Fu5\n1",
+  "method": "innovatively uses\nedge-guided image translation to generate source-like and structure-preserved\nimages from the target domain. To obtain the most reliable generated images\nand their pseudo-labels, an ",
+  "results": "fine-tuning We offer two fine-tuning methods\nhere. Batch-based fine-tuning solely utilizes the current batch to train the model\nand directly predicts the results for the current batch. Batch-based fin",
+  "conclusion": "5 69.88 65.33 | 278 706 910 1064 1226 | 77.47 77.63 76.55 73.11 72.06 | 1.49 1.53 1.46 1.62 1.61 |\n\n[CAPTION] Table 1 presents quantitative comparison results. There is a huge perfor-\n\n[CAPTION] Table"
+}

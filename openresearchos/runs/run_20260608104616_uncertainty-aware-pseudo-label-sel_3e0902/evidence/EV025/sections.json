@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\nGraphical Abstract\nCRMSP: A Semi-supervised Approach for Key Information Ex-\ntraction with Class-Rebalancing and Merged Semantic Pseudo-\nLabeling\nQi Zhang, Yonghong Song, Pengcheng Guo",
+  "method": "plex\ndynamic threshold strategies.\n2.3. Imbalanced learning\nClass-imbalanced supervised learning is of great interest both in theory\nand in practice. Recent works include resampling [23, 24] and rewei",
+  "results": "(ˆpb, ps\nb);\n11\n{Contrastive Learning};\n12\nzw\nb = g ◦f(Aw(ub)), zs\nb = g ◦f(As(ub));\n13\nQ = {Qi}C\ni=1, Qi ←(zb, yb);\n14\nC = {ˆci}N\ni=1 ←the average of the features Q;\n15\nsw\nb = sort(pw\nb , descending)",
+  "conclusion": "base model.\n4.4.1. Effectiveness of Reweighting Pseudo-Labels\nTo verify the effectiveness of RP, By comparing Experiment 2 and Ex-\nperiment 5 in Table 4, we can observe that the RP improves the f1-sco"
+}

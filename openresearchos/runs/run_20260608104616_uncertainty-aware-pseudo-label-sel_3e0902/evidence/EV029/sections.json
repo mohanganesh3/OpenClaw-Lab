@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\nLearning Label Refinement and Threshold Adjustment for\nImbalanced Semi-Supervised Learning\nZeju Li ∗\nzeju.li@ndcn.ox.ac.uk\nFMRIB Centre, Wellcome Centre for Integrative Neuroimaging, U",
+  "method": "have an approximation of Precision, we can feasibly tune\nthe pseudo-label accuracy by controlling the sampling strategies based on class-specific\nthresholds τ. However, it is not possible with\nP ˆU(y ",
+  "results": "s.\nBoth sample-wise accuracy and class-wise accuracy are\ncrucial measures for evaluating the quality of pseudo-labels. A low sample-specific accuracy can\nlead to noisier pseudo-labels, adversely affec",
+  "conclusion": "d small weight to the majority classes. Then we replace all the\n1ic with ωV\nyi1ic in Eq. 7, obtaining:\nτ ∗\nc =\n(\narg minτc\n   1\nsc\nPK\ni=1 ωV\nyi1ic1(yi = c)1(maxj(pV\nij) > τc) −t\n  \nif\nt < αc\n0\notherwi"
+}

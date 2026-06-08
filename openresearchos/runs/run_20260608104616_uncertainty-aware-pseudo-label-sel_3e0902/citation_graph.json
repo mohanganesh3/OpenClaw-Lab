@@ -1,0 +1,300 @@
+{
+  "nodes": [
+    {
+      "id": "EV001",
+      "title": "Sam-Driven Weakly Supervised Nodule Segmentation with Uncertainty-Aware Cross Teaching",
+      "year": 2024
+    },
+    {
+      "id": "EV002",
+      "title": "Physics-Informed Uncertainty-Aware Dynamic Balancing Learning Framework for Unsupervised Universal Domain Generalization Diagnosis Scenario",
+      "year": 2025
+    },
+    {
+      "id": "EV003",
+      "title": "Pseudo-D: Informing Multi-View Uncertainty Estimation with Calibrated Neural Training Dynamics",
+      "year": 2025
+    },
+    {
+      "id": "EV004",
+      "title": "You can't handle the (dirty) truth: Data-centric insights improve pseudo-labeling",
+      "year": 2024
+    },
+    {
+      "id": "EV005",
+      "title": "Geometry and Uncertainty-Aware 3D Point Cloud Class-Incremental Semantic Segmentation",
+      "year": 2023
+    },
+    {
+      "id": "EV006",
+      "title": "FSSL-UC: Federated Semi-Supervised Learning Model With Uncertainty and Consistency",
+      "year": 2026
+    },
+    {
+      "id": "EV007",
+      "title": "Consistency Regularization and Semi-Supervised Blood Cell Detection Algorithm Based on YOLOv5-ALT",
+      "year": 2026
+    },
+    {
+      "id": "EV008",
+      "title": "MetricCol: Metric Depth and Pose Estimation in Colonoscopy via Geometric Consistency and Domain Adaptation",
+      "year": 2025
+    },
+    {
+      "id": "EV009",
+      "title": "Client-Level Fault-Tolerant Federated Semi-Supervised Learning for Unlabeled Clients in Internet of Vehicles",
+      "year": 2025
+    },
+    {
+      "id": "EV010",
+      "title": "Annotation-Efficient Active Test-Time Adaptation with Conformal Prediction",
+      "year": 2025
+    },
+    {
+      "id": "EV011",
+      "title": "Robust Specific Emitter Identification Under Label Noise and Quantity Limitations in Intelligent Transportation Systems",
+      "year": 2025
+    },
+    {
+      "id": "EV012",
+      "title": "Enhancing Prediction Confidence in Multi-Source Source-Free Domain Adaptation for Fault Diagnosis",
+      "year": 2025
+    },
+    {
+      "id": "EV013",
+      "title": "PTCL: Pseudo-Label Temporal Curriculum Learning for Label-Limited Dynamic Graph",
+      "year": 2025
+    },
+    {
+      "id": "EV014",
+      "title": "Uncertainty-guided alignment optimization and pseudo-label refinement for cross-domain few-shot object detection",
+      "year": 2025
+    },
+    {
+      "id": "EV015",
+      "title": "Uncertainty-Aware Extreme Point Tracing for Weakly Supervised Ultrasound Image Segmentation",
+      "year": 2025
+    },
+    {
+      "id": "EV016",
+      "title": "Uncertainty Reactivation: Dynamic Contrastive Correction for Semi-Supervised Medical Image Segmentation",
+      "year": 2025
+    },
+    {
+      "id": "EV017",
+      "title": "A Semi-Supervised Inf-Net Framework for CT-Based Lung Nodule Analysis with a Conceptual Extension Toward Genomic Integration",
+      "year": 2025
+    },
+    {
+      "id": "EV018",
+      "title": "Semi-Supervised UAV-Based Succulent Plants Classification Detection with Efficient Teacher-Student Framework",
+      "year": 2025
+    },
+    {
+      "id": "EV019",
+      "title": "Semi-Supervised Learning-Driven New Strategy for YOLO Sample Less Target Detection",
+      "year": 2025
+    },
+    {
+      "id": "EV020",
+      "title": "FedDSSL: Decentralized Federated Semi-Supervised Learning for Limitedly Annotated Data",
+      "year": 2025
+    },
+    {
+      "id": "EV021",
+      "title": "Semi-Supervised Domain Generalization with Lightweight Vision MLP Architecture",
+      "year": 2025
+    },
+    {
+      "id": "EV022",
+      "title": "Innovative approach for predicting daily reference evapotranspiration using improved shallow and deep learning models in a coastal region: A comparative study.",
+      "year": 2024
+    },
+    {
+      "id": "EV023",
+      "title": "Domain-Interactive Contrastive Learning and Prototype-Guided Self-Training for Cross-Domain Polyp Segmentation",
+      "year": 2024
+    },
+    {
+      "id": "EV024",
+      "title": "OCT Retinopathy Classification via a Semi-Supervised Pseudo-Label Sub-Domain Adaptation and Fine-Tuning Method",
+      "year": 2024
+    },
+    {
+      "id": "EV025",
+      "title": "CRMSP: A Semi-supervised Approach for Key Information Extraction with Class-Rebalancing and Merged Semantic Pseudo-Labeling",
+      "year": 2024
+    },
+    {
+      "id": "EV026",
+      "title": "DRIVE: Dual-Robustness via Information Variability and Entropic Consistency in Source-Free Unsupervised Domain Adaptation",
+      "year": 2024
+    },
+    {
+      "id": "EV027",
+      "title": "Supervised and semisupervised methods of nematode images classification for drug discovery",
+      "year": 2024
+    },
+    {
+      "id": "EV028",
+      "title": "Detection of Faults and Attacks in Power Monitoring System via Semi-Supervised Learning with Pseudo Label Refinery",
+      "year": 2024
+    },
+    {
+      "id": "EV029",
+      "title": "Learning Label Refinement and Threshold Adjustment for Imbalanced Semi-Supervised Learning",
+      "year": 2024
+    },
+    {
+      "id": "EV030",
+      "title": "Toward Fast Personalized Semi-Supervised Federated Learning in Edge Networks: Algorithm Design and Theoretical Guarantee",
+      "year": 2023
+    },
+    {
+      "id": "EV031",
+      "title": "Semi-Supervised Semantic Segmentation of Remote Sensing Images Based on Dual Cross-Entropy Consistency",
+      "year": 2023
+    },
+    {
+      "id": "EV032",
+      "title": "Semi-Supervised Learning with Pseudo-Labeling for Pancreatic Cancer Detection on CT Scans",
+      "year": 2023
+    },
+    {
+      "id": "EV033",
+      "title": "A Parallel Open-World Object Detection Framework with Uncertainty Mitigation for Campus Monitoring",
+      "year": 2023
+    },
+    {
+      "id": "EV034",
+      "title": "Uncertainty in Semi-Supervised Audio Classification – A Novel Extension for FixMatch",
+      "year": 2023
+    },
+    {
+      "id": "EV035",
+      "title": "PromptEM: Prompt-tuning for Low-resource Generalized Entity Matching",
+      "year": 2022
+    },
+    {
+      "id": "EV036",
+      "title": "Segmentation of HE-stained meningioma pathological images based on pseudo-labels",
+      "year": 2022
+    },
+    {
+      "id": "EV037",
+      "title": "Robust self-training strategy for various molecular biology prediction tasks",
+      "year": 2022
+    },
+    {
+      "id": "EV038",
+      "title": "Complementing Semi-Supervised Learning with Uncertainty Quantification",
+      "year": 2022
+    },
+    {
+      "id": "EV039",
+      "title": "Semi-Supervised Few-Shot Learning from A Dependency-Discriminant Perspective",
+      "year": 2022
+    },
+    {
+      "id": "EV040",
+      "title": "Domain-Specific, Semi-Supervised Transfer Learning for Medical Imaging",
+      "year": 2020
+    },
+    {
+      "id": "EV041",
+      "title": "Reliable Source Approximation: Source-Free Unsupervised Domain Adaptation for Vestibular Schwannoma MRI Segmentation",
+      "year": 2024
+    },
+    {
+      "id": "EV042",
+      "title": "Wasserstein Gradient Boosting: A Framework for Distribution-Valued Supervised Learning",
+      "year": 2024
+    },
+    {
+      "id": "EV043",
+      "title": "Semi-Supervised Remote Sensing Image Semantic Segmentation Method Based on Deep Learning",
+      "year": 2023
+    },
+    {
+      "id": "EV044",
+      "title": "Adaptive Betweenness Clustering for Semi-Supervised Domain Adaptation",
+      "year": 2023
+    },
+    {
+      "id": "EV045",
+      "title": "Scribble-based 3D Multiple Abdominal Organ Segmentation via Triple-branch Multi-dilated Network with Pixel- and Class-wise Consistency",
+      "year": 2023
+    },
+    {
+      "id": "EV046",
+      "title": "Deep Semi-Supervised Learning With Contrastive Learning in Large Vocabulary Automatic Chord Recognition",
+      "year": 2023
+    },
+    {
+      "id": "EV047",
+      "title": "Deep Constrained Clustering with Active Learning",
+      "year": 2023
+    },
+    {
+      "id": "EV048",
+      "title": "Tracked-Vehicle Retrieval by Natural Language Descriptions With Domain Adaptive Knowledge",
+      "year": 2022
+    },
+    {
+      "id": "EV049",
+      "title": "Transfer learning with pre-trained conditional generative models",
+      "year": 2022
+    },
+    {
+      "id": "EV050",
+      "title": "Semi-Supervised Learning Based on Reference Model for Low-resource TTS",
+      "year": 2022
+    },
+    {
+      "id": "EV051",
+      "title": "Few-Shot Text Classification via Semi-Supervised Contrastive Learning",
+      "year": 2022
+    },
+    {
+      "id": "EV052",
+      "title": "A Laplacian SVM Based Semi‐Supervised Classification Using Multi‐Local Linear Model",
+      "year": 2021
+    },
+    {
+      "id": "EV053",
+      "title": "Investigating and Mitigating Degree-Related Biases in Graph Convoltuional Networks",
+      "year": 2020
+    },
+    {
+      "id": "EV054",
+      "title": "Pointly-supervised scene parsing with uncertainty mixture",
+      "year": 2020
+    },
+    {
+      "id": "EV055",
+      "title": "Rethinking Open-World DeepFake Attribution with Multi-perspective Sensory Learning",
+      "year": 2024
+    },
+    {
+      "id": "EV056",
+      "title": "Federated semi-supervised learning based on truncated Gaussian aggregation",
+      "year": 2024
+    },
+    {
+      "id": "EV057",
+      "title": "Rethinking Weak-to-Strong Augmentation in Source-Free Domain Adaptive Object Detection",
+      "year": 2024
+    },
+    {
+      "id": "EV058",
+      "title": "M-MSSEU: source-free domain adaptation for multi-modal stroke lesion segmentation using shadowed sets and evidential uncertainty",
+      "year": 2023
+    },
+    {
+      "id": "EV059",
+      "title": "Progressive Domain Adaptation from a Source Pre-trained Model.",
+      "year": 2020
+    }
+  ],
+  "edges": []
+}

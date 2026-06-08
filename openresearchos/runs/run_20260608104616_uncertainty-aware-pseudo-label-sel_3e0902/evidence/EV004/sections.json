@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\nJournal of Data-centric Machine Learning Research (2024)\nSubmitted 3/24; Revised 5/24; Published 6/24\nYou can’t handle the (dirty) truth:\nData-centric insights improve pseudo-labeling\n",
+  "method": "ter assumption inherent to the success of semi-\nsupervised learning (Chapelle et al., 2006).\n9\n\n\n<!-- page 10 -->\nSeedat, Huynh, Imrie and van der Schaar\nUnlabeled\nClass 1\nClass 2\n(a) PL: The inherent",
+  "results": "e of pseudo-labeling: An\nuncertainty-aware pseudo-label selection framework for semi-supervised learning.\nIn\nInternational Conference on Learning Representations, 2021.\nN. Sambasivan, S. Kapania, H. H",
+  "conclusion": "ost important features (1) Treatment: Primary\n\n\n<!-- page 33 -->\nYou can’t handle the (dirty) truth: Data-centric insights improve pseudo-labeling\nDIPS\nVanilla\nVanilla does \nnot match \nTest well\nDIPS "
+}

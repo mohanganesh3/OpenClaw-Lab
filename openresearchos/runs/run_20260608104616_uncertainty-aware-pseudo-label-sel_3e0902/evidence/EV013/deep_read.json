@@ -1,0 +1,141 @@
+{
+  "datasets_used": [
+    "Wikipedia",
+    "Reddit",
+    "Dsub",
+    "CoOAG"
+  ],
+  "baselines_compared": [
+    "CFT",
+    "DLS",
+    "NPL",
+    "PTCL-2D",
+    "SEM",
+    "Ours (PTCL)",
+    "Naive",
+    "CST",
+    "EST"
+  ],
+  "metrics_used": [
+    "AUC",
+    "ACC"
+  ],
+  "hyperparameters": null,
+  "compute_required": null,
+  "seeds": null,
+  "headline_result": "87.97% AUC (PTCL with TGN backbone on Wikipedia)",
+  "results_table": [
+    {
+      "method": "PTCL",
+      "dataset": "Wikipedia",
+      "backbone": "TGAT",
+      "metric": "AUC",
+      "value": "85.52%"
+    },
+    {
+      "method": "PTCL",
+      "dataset": "Wikipedia",
+      "backbone": "TGN",
+      "metric": "AUC",
+      "value": "87.97%"
+    },
+    {
+      "method": "PTCL",
+      "dataset": "Dsub",
+      "backbone": "TGAT",
+      "metric": "AUC",
+      "value": "65.07%"
+    },
+    {
+      "method": "PTCL",
+      "dataset": "Dsub",
+      "backbone": "TGN",
+      "metric": "AUC",
+      "value": "OOM"
+    },
+    {
+      "method": "PTCL",
+      "dataset": "Dsub",
+      "backbone": "GraphMixer",
+      "metric": "AUC",
+      "value": "69.76%"
+    },
+    {
+      "method": "PTCL",
+      "dataset": "Dsub",
+      "backbone": "DyGFormer",
+      "metric": "AUC",
+      "value": "72.39%"
+    },
+    {
+      "method": "PTCL",
+      "dataset": "Wikipedia",
+      "backbone": "TCL",
+      "metric": "AUC",
+      "value": "82.27%"
+    },
+    {
+      "method": "PTCL",
+      "dataset": "Reddit",
+      "backbone": "TGAT",
+      "metric": "AUC",
+      "value": "89.05%"
+    },
+    {
+      "method": "PTCL",
+      "dataset": "Reddit",
+      "backbone": "TGN",
+      "metric": "AUC",
+      "value": "86.71%"
+    },
+    {
+      "method": "PTCL",
+      "dataset": "Dsub",
+      "backbone": "TGAT",
+      "metric": "ACC",
+      "value": "89.05%"
+    },
+    {
+      "method": "PTCL",
+      "dataset": "Reddit",
+      "backbone": "DyGFormer",
+      "metric": "ACC",
+      "value": "74.85%"
+    },
+    {
+      "method": "PTCL",
+      "dataset": "Dsub",
+      "backbone": "DyGFormer",
+      "metric": "ACC",
+      "value": "72.39%"
+    }
+  ],
+  "ablations": [
+    "Pseudo-label supervision: PTCL pseudo-labels outperform original labels by 0.96% AUC average",
+    "Temporal Curriculum Learning: PTCL outperforms Naive, CST, and EST strategies across all backbones/datasets",
+    "Baseline comparisons: PTCL significantly exceeds CFT, DLS, NPL, PTCL-2D, and SEM"
+  ],
+  "improvement_over_baseline": "Up to 11.23% AUC/ACC gain over baselines (e.g., TGAT: 85.52% vs CFT 76.27% on Wikipedia)",
+  "best_result": "87.97% AUC (PTCL with TGN backbone on Wikipedia)",
+  "key_results": {
+    "Wikipedia_AUC": "87.97%",
+    "Dsub_AUC": "72.39%"
+  },
+  "limitations_stated": [],
+  "reproducibility": "low",
+  "evidence_id": "EV013",
+  "title": "PTCL: Pseudo-Label Temporal Curriculum Learning for Label-Limited Dynamic Graph",
+  "year": 2025,
+  "arxiv_id": "2504.17641",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 74592,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 13,
+  "pdf_tables": 6,
+  "pdf_captions": 12
+}

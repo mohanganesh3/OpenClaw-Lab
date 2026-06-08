@@ -1,0 +1,340 @@
+[
+  {
+    "idea_id": "I01",
+    "average_score": 6.5,
+    "decision": "reject",
+    "next_action": "RUN_ADDITIONAL_SEARCH",
+    "fatal_flaws": [
+      "No mention of random seeds for reproducibility",
+      "No compute requirements specified"
+    ],
+    "fixable_flaws": [
+      "The hypothesis lacks justification for the specific 15% ECE reduction target",
+      "The idea doesn't specify how domain adaptation would be implemented",
+      "The idea doesn't specify how ECE would be measured",
+      "Baseline selection needs justification",
+      "More baselines should be considered for fair comparison"
+    ],
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 8,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "The hypothesis lacks justification for the specific 15% ECE reduction target",
+          "The idea doesn't specify how domain adaptation would be implemented",
+          "The idea doesn't specify how ECE would be measured"
+        ],
+        "decision": "accept",
+        "justification": "The proposed domain-adapted SAM approach addresses a gap in existing work by specifically targeting domain shift in medical image pseudo-labeling, which is not covered in the cited prior work."
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 5,
+        "fatal_flaws": [
+          "No mention of random seeds for reproducibility",
+          "No compute requirements specified"
+        ],
+        "fixable_flaws": [
+          "Baseline selection needs justification",
+          "More baselines should be considered for fair comparison"
+        ],
+        "decision": "revise",
+        "justification": "The hypothesis is falsifiable but lacks reproducibility details and proper baseline justification."
+      }
+    ]
+  },
+  {
+    "idea_id": "I02",
+    "average_score": 6,
+    "decision": "reject",
+    "next_action": "RUN_ADDITIONAL_SEARCH",
+    "fatal_flaws": [
+      "The idea doesn't specify how temperature scaling would be implemented in the context of pseudo-labeling."
+    ],
+    "fixable_flaws": [
+      "The hypothesis is quite ambitious (20% decrease in Brier score), which might be unrealistic without strong evidence.",
+      "The idea could benefit from a more detailed explanation of how temperature scaling would be applied to pseudo-labeling.",
+      "The idea could provide more context on why temperature scaling is expected to be effective for uncertainty calibration in this specific context."
+    ],
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 7,
+        "fatal_flaws": [
+          "The idea doesn't specify how temperature scaling would be implemented in the context of pseudo-labeling."
+        ],
+        "fixable_flaws": [
+          "The hypothesis is quite ambitious (20% decrease in Brier score), which might be unrealistic without strong evidence.",
+          "The idea could benefit from a more detailed explanation of how temperature scaling would be applied to pseudo-labeling.",
+          "The idea could provide more context on why temperature scaling is expected to be effective for uncertainty calibration in this specific context."
+        ],
+        "decision": "revise",
+        "justification": "The idea proposes a novel application of temperature scaling for uncertainty calibration in pseudo-labeling, addressing a gap identified in prior work. However, it needs more detail on implementation to be fully convincing."
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 5,
+        "fatal_flaws": [],
+        "fixable_flaws": [],
+        "decision": "revise",
+        "justification": "Review unavailable (budget/parse)."
+      }
+    ]
+  },
+  {
+    "idea_id": "I03",
+    "average_score": 4.5,
+    "decision": "revise",
+    "next_action": "REVISE_IDEA",
+    "fatal_flaws": [],
+    "fixable_flaws": [
+      "The hypothesis is ambiguous; the 'baseline DIPS' and the '10% improvement' (absolute vs. relative) need clarification and justification.",
+      "The baseline comparison is not fair; include at least one other standard data cleaning method to contextualize DIPS's contribution.",
+      "The plan lacks reproducibility details; random seeds and compute requirements must be specified.",
+      "A 10% absolute accuracy improvement is an unrealistically high target for the breast cancer dataset without strong prior evidence."
+    ],
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 5,
+        "fatal_flaws": [],
+        "fixable_flaws": [],
+        "decision": "revise",
+        "justification": "Review unavailable (budget/parse)."
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 4,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "The hypothesis is ambiguous; the 'baseline DIPS' and the '10% improvement' (absolute vs. relative) need clarification and justification.",
+          "The baseline comparison is not fair; include at least one other standard data cleaning method to contextualize DIPS's contribution.",
+          "The plan lacks reproducibility details; random seeds and compute requirements must be specified.",
+          "A 10% absolute accuracy improvement is an unrealistically high target for the breast cancer dataset without strong prior evidence."
+        ],
+        "decision": "revise",
+        "justification": "The core idea is promising but the proposed experiment lacks methodological rigor. The hypothesis is poorly specified, baselines are insufficient, and key reproducibility details are missing."
+      }
+    ]
+  },
+  {
+    "idea_id": "I04",
+    "average_score": 6.74,
+    "decision": "accept",
+    "next_action": "RUN_MICRO_PROBE",
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 6.9,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add direct competitor comparison and search query log."
+        ],
+        "required_experiments": [
+          "Run novelty tribunal before any paper claim."
+        ],
+        "missing_related_work": [
+          "EV001",
+          "EV002",
+          "EV003"
+        ]
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 7.5,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add baseline and ablation before MVP claims."
+        ],
+        "required_experiments": [
+          "Micro-probe with random baseline.",
+          "Probe with evidence-weighted baseline."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Theory/Mechanism Reviewer",
+        "score": 6.7,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Tighten mechanism into falsifiable prediction."
+        ],
+        "required_experiments": [
+          "Test whether the mechanism improves selection utility under controlled noise."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Reproducibility Reviewer",
+        "score": 6.3,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Record seed, command, environment, stdout, stderr, and metrics."
+        ],
+        "required_experiments": [
+          "Run with fixed seed and persist config."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Venue Reviewer",
+        "score": 6.3,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Position as workshop candidate until stronger empirical evidence exists."
+        ],
+        "required_experiments": [
+          "Add venue-fit checklist after results."
+        ],
+        "missing_related_work": []
+      }
+    ]
+  },
+  {
+    "idea_id": "I05",
+    "average_score": 6.72,
+    "decision": "accept",
+    "next_action": "RUN_MICRO_PROBE",
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 6.8,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add direct competitor comparison and search query log."
+        ],
+        "required_experiments": [
+          "Run novelty tribunal before any paper claim."
+        ],
+        "missing_related_work": [
+          "EV001",
+          "EV002",
+          "EV003"
+        ]
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 7.5,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add baseline and ablation before MVP claims."
+        ],
+        "required_experiments": [
+          "Micro-probe with random baseline.",
+          "Probe with evidence-weighted baseline."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Theory/Mechanism Reviewer",
+        "score": 6.7,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Tighten mechanism into falsifiable prediction."
+        ],
+        "required_experiments": [
+          "Test whether the mechanism improves selection utility under controlled noise."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Reproducibility Reviewer",
+        "score": 6.3,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Record seed, command, environment, stdout, stderr, and metrics."
+        ],
+        "required_experiments": [
+          "Run with fixed seed and persist config."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Venue Reviewer",
+        "score": 6.3,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Position as workshop candidate until stronger empirical evidence exists."
+        ],
+        "required_experiments": [
+          "Add venue-fit checklist after results."
+        ],
+        "missing_related_work": []
+      }
+    ]
+  },
+  {
+    "idea_id": "I06",
+    "average_score": 6.74,
+    "decision": "accept",
+    "next_action": "RUN_MICRO_PROBE",
+    "reviewers": [
+      {
+        "reviewer": "Novelty Reviewer",
+        "score": 6.9,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add direct competitor comparison and search query log."
+        ],
+        "required_experiments": [
+          "Run novelty tribunal before any paper claim."
+        ],
+        "missing_related_work": [
+          "EV001",
+          "EV002",
+          "EV003"
+        ]
+      },
+      {
+        "reviewer": "Experimental Reviewer",
+        "score": 7.5,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Add baseline and ablation before MVP claims."
+        ],
+        "required_experiments": [
+          "Micro-probe with random baseline.",
+          "Probe with evidence-weighted baseline."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Theory/Mechanism Reviewer",
+        "score": 6.7,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Tighten mechanism into falsifiable prediction."
+        ],
+        "required_experiments": [
+          "Test whether the mechanism improves selection utility under controlled noise."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Reproducibility Reviewer",
+        "score": 6.3,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Record seed, command, environment, stdout, stderr, and metrics."
+        ],
+        "required_experiments": [
+          "Run with fixed seed and persist config."
+        ],
+        "missing_related_work": []
+      },
+      {
+        "reviewer": "Venue Reviewer",
+        "score": 6.3,
+        "fatal_flaws": [],
+        "fixable_flaws": [
+          "Position as workshop candidate until stronger empirical evidence exists."
+        ],
+        "required_experiments": [
+          "Add venue-fit checklist after results."
+        ],
+        "missing_related_work": []
+      }
+    ]
+  }
+]

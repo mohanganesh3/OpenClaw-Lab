@@ -1,0 +1,632 @@
+{
+  "run_id": "run_20260608104616_uncertainty-aware-pseudo-label-sel_3e0902",
+  "topic": "uncertainty-aware pseudo-label selection",
+  "generated_at": "2026-06-08T12:07:02.227Z",
+  "papers_with_deep_read": 20,
+  "macbook_friendly": 11,
+  "with_code": 3,
+  "method_matrix": [
+    {
+      "evidence_id": "EV001",
+      "title": "Sam-Driven Weakly Supervised Nodule Segmentation with Uncertainty-Aware Cross Teaching",
+      "year": 2024,
+      "method": "The framework generates three types of bounding box prompts (tight, ellipse-based, circle-based) from clinical annotations, uses SAM to create pseudo-labels, selects from these through intersection/union operations, estimates uncertainty via XOR operations, and employs cross-teaching between two models with label-space perturbations.",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [
+        "The paper assumes aspect ratio annotations are more readily available than pixel-level annotations",
+        "The method may have limitations in handling nodules with irregular shapes or sizes",
+        "There might be limitations in the generalizability of SAM to medical images despite its impressive performance on natural images"
+      ],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": false,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV003",
+      "title": "Pseudo-D: Informing Multi-View Uncertainty Estimation with Calibrated Neural Training Dynamics",
+      "year": 2025,
+      "method": "The method leverages neural network training dynamics to assess sample difficulty by aggregating model predictions over training epochs, then generates uncertainty-aware pseudo-labels using temperature scaling and Dirichlet calibration approaches.",
+      "datasets_used": [
+        "aortic stenosis classification dataset (ultrasound videos of same patient)"
+      ],
+      "baselines_compared": [
+        "Vanilla",
+        "Abstention [6]",
+        "TMC [12]",
+        "RT4U [9]",
+        "Pseudo-T (ours)",
+        "Pseudo-D (ours)"
+      ],
+      "best_result": "Pseudo-D achieves best performance: Study-level MAE ↓ 0.180, ACC ↑ 0.820, ECE ↓ 0.071, AURC ↑ 0.885",
+      "key_results": {
+        "aortic stenosis classification_MAE": "0.224 (study-level)",
+        "aortic stenosis classification_ACC": "0.790 (study-level)",
+        "aortic stenosis classification_ECE": "0.170 (video-level)",
+        "aortic stenosis classification_AURC": "0.804 (video-level)"
+      },
+      "limitations": [
+        "Focus is limited to medical images, which may limit generalizability to other domains",
+        "Relies on neural network training dynamics, which might be computationally expensive"
+      ],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": false,
+      "compute_required": "not specified"
+    },
+    {
+      "evidence_id": "EV004",
+      "title": "You can't handle the (dirty) truth: Data-centric insights improve pseudo-labeling",
+      "year": 2024,
+      "method": "DIPS characterizes and selects useful labeled and pseudo-labeled samples via analysis of learning dynamics, mitigating noise propagation from mislabeled data.",
+      "datasets_used": [
+        "MNIST (100 labeled, 60000 unlabeled)",
+        "FashionMNIST (100 labeled, 60000 unlabeled)",
+        "SVHN (100 labeled, 73257 unlabeled)",
+        "CIFAR-10 (4000 labeled, 45000 unlabeled)",
+        "CIFAR-100 (4000 labeled, 45000 unlabeled)",
+        "Tiny-ImageNet (500 labeled, 100000 unlabeled)"
+      ],
+      "baselines_compared": [
+        "Greedy Pseudo-Labeling",
+        "UPS",
+        "FlexMatch",
+        "SLA",
+        "CSA",
+        "DIPS"
+      ],
+      "best_result": "DIPS achieved 94.2% accuracy on CIFAR-10 with 20% label noise",
+      "key_results": {
+        "CIFAR-10_accuracy": "87.3%",
+        "CIFAR-100_accuracy": "74.2%"
+      },
+      "limitations": [
+        "The paper acknowledges that existing pseudo-labeling approaches assume labeled data is 'gold standard' and 'perfect', which is often not the case in reality.",
+        "The paper focuses on labeled data quality but may not address all aspects of data quality issues."
+      ],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "Single GPU (NVIDIA V100)"
+    },
+    {
+      "evidence_id": "EV010",
+      "title": "Annotation-Efficient Active Test-Time Adaptation with Conformal Prediction",
+      "year": 2025,
+      "method": "CPATTA employs two complementary conformal predictors (pretrained and real-time adapted models) to compute top-K certainty scores for sample selection, uses adaptive weighting based on pseudo coverage to maintain coverage guarantees, implements domain-shift detection to adjust annotation budgets, and applies staged updates with human-labeled data prioritized over model-labeled data.",
+      "datasets_used": [
+        "PACS (4 domains, 7 categories)",
+        "VLCS (4 domains, 5 classes)",
+        "Tiny-ImageNet-C (200 classes, corruption severity 5)"
+      ],
+      "baselines_compared": [
+        "Tent [7]",
+        "CoTTA [9]",
+        "CEMA [12]",
+        "SimATTA [11]",
+        "EATTA [13]"
+      ],
+      "best_result": "CPATTA with α=0.2 achieves 87.13% post-adaptation accuracy on PACS, improving over SimATTA by nearly 9%",
+      "key_results": {
+        "PACS_Real-Time Accuracy": "65.99%",
+        "PACS_Post-Adapt Accuracy": "87.13%",
+        "VLCS_Real-Time Accuracy": "64.96%",
+        "VLCS_Post-Adapt Accuracy": "77.72%",
+        "Tiny-ImageNet-C_Post-Adapt Accuracy": "44.59%"
+      },
+      "limitations": [],
+      "code_available": true,
+      "code_url": null,
+      "can_run_on_macbook": false,
+      "compute_required": "single GPU"
+    },
+    {
+      "evidence_id": "EV013",
+      "title": "PTCL: Pseudo-Label Temporal Curriculum Learning for Label-Limited Dynamic Graph",
+      "year": 2025,
+      "method": "Dynamic node classification is critical for modeling evolving systems like financial transactions and academic collaborations. In such systems, dynamically capturing node information changes is critic",
+      "datasets_used": [
+        "Wikipedia",
+        "Reddit",
+        "Dsub",
+        "CoOAG"
+      ],
+      "baselines_compared": [
+        "CFT",
+        "DLS",
+        "NPL",
+        "PTCL-2D",
+        "SEM",
+        "Ours (PTCL)",
+        "Naive",
+        "CST",
+        "EST"
+      ],
+      "best_result": "87.97% AUC (PTCL with TGN backbone on Wikipedia)",
+      "key_results": {
+        "Wikipedia_AUC": "87.97%",
+        "Dsub_AUC": "72.39%"
+      },
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV015",
+      "title": "Uncertainty-Aware Extreme Point Tracing for Weakly Supervised Ultrasound Image Segmentation",
+      "year": 2025,
+      "method": "The framework first uses four extreme points to generate bounding boxes, which serve as prompts for SAM2 to create initial pseudo labels. These are then refined through an enhanced FGEPM algorithm that combines gradient and uncertainty information in a cost matrix for boundary tracing, with uncertainty-aware scale consistency loss and box alignment loss during training.",
+      "datasets_used": [
+        "Breast UltraSound Images (BUSI) dataset",
+        "Ultrasound Nerve Segmentation (UNS) dataset (2,323 image-mask pairs)"
+      ],
+      "baselines_compared": [
+        "BoxInst",
+        "WeakPolyp",
+        "BTBB",
+        "Deep Geodesics",
+        "PAplusNet",
+        "Fully supervision"
+      ],
+      "best_result": "BUSI dataset: 67.70% IoU / 76.89% Dice (exceeding fully supervised 66.71% IoU / 76.01% Dice); UNS dataset: 67.39% IoU / 79.12% Dice (comparable to fully supervised 67.54% IoU / 79.08% Dice)",
+      "key_results": {
+        "BUSI_IoU(%)": "59.53",
+        "BUSI_Dice(%)": "70.11",
+        "UNS_IoU(%)": "67.54",
+        "UNS_Dice(%)": "79.08"
+      },
+      "limitations": [
+        "The paper relies on only four extreme points as annotations, which might limit its applicability to complex anatomical structures.",
+        "The performance might be dependent on the quality of the initial pseudo labels generated by SAM2."
+      ],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": false,
+      "compute_required": "not specified"
+    },
+    {
+      "evidence_id": "EV017",
+      "title": "A Semi-Supervised Inf-Net Framework for CT-Based Lung Nodule Analysis with a Conceptual Extension Toward Genomic Integration",
+      "year": 2025,
+      "method": "The framework utilizes Inf-Net architecture with Parallel Partial Decoder (PPD), Reverse Attention (RA), and Edge Attention (EA) modules, implementing pseudo-labeling to incorporate unlabeled CT slices into training iterations on LUNA16 dataset subsets.",
+      "datasets_used": [
+        "LUNA16 dataset (annotated CT volumes for pulmonary nodules)"
+      ],
+      "baselines_compared": [
+        "ResNet50",
+        "Res2Net50",
+        "ResNet101",
+        "CNN baseline",
+        "semi-supervised SVM"
+      ],
+      "best_result": "Semi-Inf-Net with 0.784 accuracy on 20,000 images (labeled + pseudo-labeled)",
+      "key_results": {
+        "LUNA16_accuracy": "0.536"
+      },
+      "limitations": [
+        "The abstract is cut off before discussing limitations",
+        "No explicit limitations mentioned in the provided text"
+      ],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": false,
+      "compute_required": "not explicitly stated"
+    },
+    {
+      "evidence_id": "EV025",
+      "title": "CRMSP: A Semi-supervised Approach for Key Information Extraction with Class-Rebalancing and Merged Semantic Pseudo-Labeling",
+      "year": 2024,
+      "method": "CRMSP utilizes a base model with labeled/unlabeled data processing, where CRP reweights pseudo-labels using EMA-based class distribution estimates and β factor, while MSP generates merged semantic pseudo-labels via Merged Prototypes and contrastive loss.",
+      "datasets_used": [
+        "FUNSD (149 train/50 test)",
+        "CORD (800/100/100 train/val/test)",
+        "CIFAR10-LT",
+        "CIFAR100-LT",
+        "STL10-LT"
+      ],
+      "baselines_compared": [
+        "FixMatch",
+        "Dash",
+        "FlexMatch",
+        "SimMatch",
+        "FreeMatch",
+        "DARP",
+        "CReST",
+        "DASO"
+      ],
+      "best_result": "CRMSP achieved 91.30% F1-score on CORD with 10% labeled data using LayoutLMv3, close to fully-supervised result of 93.30%",
+      "key_results": {
+        "FUNSD_F1-score": "90.33%",
+        "CORD_F1-score": "91.30%",
+        "CIFAR10-LT_Accuracy": "78.91%",
+        "CIFAR100-LT_Accuracy": "86.35%",
+        "STL10-LT_Accuracy": "90.5% (C6)"
+      },
+      "limitations": [
+        "The paper does not explicitly state limitations in the provided abstract and highlights."
+      ],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "NVIDIA Tesla V100 GPU"
+    },
+    {
+      "evidence_id": "EV026",
+      "title": "DRIVE: Dual-Robustness via Information Variability and Entropic Consistency in Source-Free Unsupervised Domain Adaptation",
+      "year": 2024,
+      "method": "DRIVE employs a dual-model architecture with one model exposed to PGD perturbations guided by mutual information, using mutual information consistency loss and entropy-aware pseudo-labeling in a two-stage process with dynamic perturbation adjustment.",
+      "datasets_used": [
+        "Office-31",
+        "Office-Home",
+        "DomainNet-126"
+      ],
+      "baselines_compared": [
+        "Source",
+        "DAPL",
+        "PADCLIP",
+        "ADCLIP",
+        "DIFO",
+        "SHOT",
+        "NRC",
+        "TPDS"
+      ],
+      "best_result": "DRIVE achieves 92.7% mean accuracy on Office-31",
+      "key_results": {
+        "Office-31_Mean": "92.7%",
+        "Office-31_A →D": "97.4%",
+        "Office-31_A →W": "96.0%",
+        "Office-31_D →A": "83.5%",
+        "Office-31_D →W": "96.9%",
+        "Office-31_W →A": "83.1%"
+      },
+      "limitations": [
+        "Existing SFUDA methods often rely on single-model architectures, which can struggle with uncertainty.",
+        "Adapting models to new domains without labeled data can lead to issues such as overfitting, underfitting, and poor generalization due to domain discrepancies and noise."
+      ],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": false,
+      "compute_required": "Not specified"
+    },
+    {
+      "evidence_id": "EV029",
+      "title": "Learning Label Refinement and Threshold Adjustment for Imbalanced Semi-Supervised Learning",
+      "year": 2024,
+      "method": "SEVAL optimizes logit offsets π to minimize cross-entropy on validation data and learns thresholds τ to achieve target per-class accuracy, using a balanced validation subset separate from training data.",
+      "datasets_used": [
+        "CIFAR-10 (n1=1500, n1=500)",
+        "CIFAR-100 (n1=50)",
+        "STL-10"
+      ],
+      "baselines_compared": [
+        "DARP",
+        "LA",
+        "FixMatch",
+        "FlexMatch",
+        "FreeMatch",
+        "Mean-Teacher",
+        "MixMatch",
+        "ReMixMatch",
+        "DASO"
+      ],
+      "best_result": "ReMixMatch with SEVAL: 86.7% on CIFAR-100 n1=50",
+      "key_results": {
+        "CIFAR10-LT_test accuracy": "higher than DARP/LA",
+        "CIFAR-10_test accuracy": "85.3%",
+        "CIFAR-100_test accuracy": "51.4%",
+        "CIFAR-10_Correctness": "highest among FixMatch/FlexMatch/FreeMatch"
+      },
+      "limitations": [
+        "The abstract doesn't explicitly state limitations of the approach"
+      ],
+      "code_available": "unknown",
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "null"
+    },
+    {
+      "evidence_id": "EV030",
+      "title": "Toward Fast Personalized Semi-Supervised Federated Learning in Edge Networks: Algorithm Design and Theoretical Guarantee",
+      "year": 2023,
+      "method": "FedCPSL simultaneously optimizes global model θ, pseudo-labels νi, and local models θi,lc via alternating minimization and local SGD with three acceleration strategies.",
+      "datasets_used": [
+        "MNIST",
+        "CIFAR-10"
+      ],
+      "baselines_compared": [
+        "FedSHVR",
+        "FedSHVRP",
+        "APFL1",
+        "APFSL"
+      ],
+      "best_result": "FedCPSL achieves 98.2% accuracy on MNIST (m=0.1N) and 80.7% on CIFAR-10 (m=0.1N)",
+      "key_results": {
+        "MNIST_accuracy": "97.5%",
+        "CIFAR-10_accuracy": "79.5%"
+      },
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "Not specified"
+    },
+    {
+      "evidence_id": "EV035",
+      "title": "PromptEM: Prompt-tuning for Low-resource Generalized Entity Matching",
+      "year": 2022,
+      "method": "Entity Matching (EM), which aims to identify whether two entity records from two relational tables refer to the same real-world entity, is one of the fundamental problems in data management. Tradition",
+      "datasets_used": [
+        "REL-HETER",
+        "SEMI-HOMO",
+        "SEMI-HETER",
+        "SEMI-REL",
+        "SEMI-TEXT-c",
+        "SEMI-TEXT-w",
+        "REL-TEXT",
+        "GEO-HETER"
+      ],
+      "baselines_compared": [
+        "DeepMatcher",
+        "BERT",
+        "SentenceBERT",
+        "Ditto",
+        "DADER",
+        "Rotom",
+        "TDmatch",
+        "TDmatch*"
+      ],
+      "best_result": "PromptEM achieves 100% F1-score on REL-HETER and REL-TEXT datasets",
+      "key_results": {
+        "REL-HETER_F1": "100%",
+        "SEMI-HOMO_F1": "86.1%",
+        "SEMI-HETER_F1": "93.9%",
+        "SEMI-REL_F1": "94.0%",
+        "SEMI-TEXT-c_F1": "40.8%",
+        "SEMI-TEXT-w_F1": "15.7%"
+      },
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": false,
+      "compute_required": "GPU (memory usage reported), CPU (for TDmatch)"
+    },
+    {
+      "evidence_id": "EV038",
+      "title": "Complementing Semi-Supervised Learning with Uncertainty Quantification",
+      "year": 2022,
+      "method": "Proposes an unsupervised uncertainty-aware loss function that quantifies aleatoric and epistemic uncertainty during pseudo labeling, complementing existing SSL methods without requiring ensembles or graph constructions.",
+      "datasets_used": [
+        "CIFAR-10",
+        "SVHN",
+        "CIFAR-100",
+        "Mini-ImageNet"
+      ],
+      "baselines_compared": [
+        "MeanTeacher",
+        "MixMatch",
+        "ReMixMatch",
+        "FixMatch",
+        "SimPLE",
+        "Label Propagation"
+      ],
+      "best_result": "79.23% on CIFAR-100 with 4000 labels",
+      "key_results": {
+        "CIFAR-10_Top-1 Accuracy": "94.92%"
+      },
+      "limitations": [
+        "Existing SSL methods do not incorporate uncertainty of pseudo-labels or unlabeled samples",
+        "Current approaches don't account for uncertainty due to noisy labels or out-of-distribution samples",
+        "Thresholded pseudo-labeling methods lack uncertainty consideration"
+      ],
+      "code_available": "unknown (insufficient information)",
+      "code_url": "null",
+      "can_run_on_macbook": true,
+      "compute_required": "not specified"
+    },
+    {
+      "evidence_id": "EV040",
+      "title": "Domain-Specific, Semi-Supervised Transfer Learning for Medical Imaging",
+      "year": 2020,
+      "method": "The authors propose MAKNet, a lightweight architecture using mixed asymmetric kernels (MAKConv) to reduce parameters. They train this architecture using semi-supervised learning to provide pseudo-labels for a large medical dataset to assist with transfer learning.",
+      "datasets_used": [
+        "TCIA dataset",
+        "DeepLesion dataset"
+      ],
+      "baselines_compared": [
+        "Teacher network",
+        "LesaNet with ImageNet pre-training",
+        "LesaNet with TCIA pre-training"
+      ],
+      "best_result": "LesaNet (TCIA) on hand-labeled test set: AUC 0.9403, F1 0.4972, Precision 0.4754, Recall 0.7531",
+      "key_results": {
+        "Text-mined test set_AUC": "0.9051",
+        "Text-mined test set_F1 score": "0.2078",
+        "Text-mined test set_Precision": "0.4696",
+        "Text-mined test set_Recall": "0.4744",
+        "Hand-labeled test set_AUC": "0.9101",
+        "Hand-labeled test set_F1 score": "0.2755"
+      },
+      "limitations": [
+        "Knowledge transfer across disparate domains is shown to be less effective",
+        "Smaller architectures were found to be more compelling in learning better features"
+      ],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "null"
+    },
+    {
+      "evidence_id": "EV041",
+      "title": "Reliable Source Approximation: Source-Free Unsupervised Domain Adaptation for Vestibular Schwannoma MRI Segmentation",
+      "year": 2024,
+      "method": "RSA deploys a conditional diffusion model to generate multiple source-like images under the guidance of varying edges of one target image, uses an uncertainty estimation module to predict and refine reliable pseudo labels, and employs prediction consistency to select the most reliable generations.",
+      "datasets_used": [
+        "Public vestibular schwannoma dataset with ceT1 and hrT2 MRI sequences from 242 patients (1599 source training images, 1493 target training images, and 423 target testing images)"
+      ],
+      "baselines_compared": [
+        "Source-only",
+        "Target-only",
+        "TENT[8]",
+        "EATA[9]",
+        "SAR[10]",
+        "COTTA[17]",
+        "FSM[22]"
+      ],
+      "best_result": "Ours with centralized fine-tuning achieved Dice of 77.83 ± 0.98 and ASSD of 1.24 ± 0.11",
+      "key_results": {
+        "Vestibular Schwannoma_Dice": "26.52 ± 4.83"
+      },
+      "limitations": [
+        "Current SFUDA approaches cannot tackle complex segmentation tasks across different MRI sequences"
+      ],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "NVIDIA A100 GPU with PyTorch platform"
+    },
+    {
+      "evidence_id": "EV042",
+      "title": "Wasserstein Gradient Boosting: A Framework for Distribution-Valued Supervised Learning",
+      "year": 2024,
+      "method": "WGBoost extends gradient boosting by using Wasserstein gradients of KL divergence loss functionals as pseudo residuals. It employs kernel smoothing to compute approximate Wasserstein gradients and Hessians, enabling a second-order optimization approach that works with individual-level posteriors as output distributions.",
+      "datasets_used": [],
+      "baselines_compared": [],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [
+        "Not explicitly stated in the abstract"
+      ],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV044",
+      "title": "Adaptive Betweenness Clustering for Semi-Supervised Domain Adaptation",
+      "year": 2023,
+      "method": "Constructs a heterogeneous graph between labeled source/target samples and unlabeled target samples, refines it using CUNR and PDEP to remove noisy nodes/edges, then applies Adaptive Betweenness Clustering for semantic propagation.",
+      "datasets_used": [
+        "Office-31",
+        "DomainNet",
+        "Office-Home"
+      ],
+      "baselines_compared": [
+        "S+T [23]",
+        "DANN [23]",
+        "MME [23]",
+        "Meta-MME [62]",
+        "BiAT [66]",
+        "APE [24]",
+        "PAC [68]",
+        "Relaxed-cGAN [31]",
+        "DECOTA [64]",
+        "ECACL-T [30]",
+        "ECACL-P [30]",
+        "S3D [84]",
+        "UODAv2 [87]",
+        "MCL [88]",
+        "CLDA [85]",
+        "CDAC [25]"
+      ],
+      "best_result": "G-ABC achieved 72.02% mean accuracy on Office-31 3-shot",
+      "key_results": {
+        "Office-31_mean": "72.02%",
+        "Office-31_W→A": "67.9±1.26%",
+        "Office-31_D→A": "70.97±0.48%",
+        "Office-31_C→S": "65.73±1.03%",
+        "Office-31_S→P": "73.06±0.35%",
+        "DomainNet_mean": "76.5%"
+      },
+      "limitations": [],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV045",
+      "title": "Scribble-based 3D Multiple Abdominal Organ Segmentation via Triple-branch Multi-dilated Network with Pixel- and Class-wise Consistency",
+      "year": 2023,
+      "method": "TDNet uses a shared encoder feeding three decoders with dilation rates 1/3/6. Decoder outputs are averaged into soft pseudo labels, weighted by uncertainty (entropy) via USPC loss, and class affinity matrices are aligned across multi-view projections via MPCC loss, supervised alongside partial cross-entropy on scribbles.",
+      "datasets_used": [
+        "WORD dataset (cervical cancer patients before radiotherapy, 100 training, 20 validation, 30 testing)"
+      ],
+      "baselines_compared": [
+        "pCE [12]",
+        "Total Variation Loss (TV) [9]",
+        "USTM [13]",
+        "EM [8]",
+        "DMPLS [15]",
+        "FullySup [3]"
+      ],
+      "best_result": "Average DSC of 85.74±5.22% on WORD testing set",
+      "key_results": {
+        "WORD testing_DSC": "85.82±4.19%"
+      },
+      "limitations": [
+        "Performance gap between weakly-supervised and fully supervised methods",
+        "Limited annotation efficiency compared to fully supervised approaches",
+        "Potential challenges with very small or anatomically complex organs"
+      ],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": false,
+      "compute_required": "single GPU (NVIDIA 2080Ti with 11GB memory)"
+    },
+    {
+      "evidence_id": "EV049",
+      "title": "Transfer learning with pre-trained conditional generative models",
+      "year": 2022,
+      "method": "The approach synthesizes artificial target datasets using a pre-trained source conditional generative model (e.g., BigGAN) and trains the target architecture via pseudo pre-training. Pseudo semi-supervised learning then refines the model using both real labeled target data and unlabeled pseudo samples generated by conditioning the source classifier on target samples.",
+      "datasets_used": [],
+      "baselines_compared": [
+        "fine-tuning"
+      ],
+      "best_result": null,
+      "key_results": {},
+      "limitations": [
+        "Assumes access to conditional source generative models",
+        "Quality of pseudo-labels depends on synthetic data quality",
+        "May not work well with significant domain gaps between source and target tasks"
+      ],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": true,
+      "compute_required": "unknown"
+    },
+    {
+      "evidence_id": "EV050",
+      "title": "Semi-Supervised Learning Based on Reference Model for Low-resource TTS",
+      "year": 2022,
+      "method": "The method involves pre-training a reference model based on FastSpeech2 with abundant source data, then fine-tuning this model on a limited target dataset while using pseudo labels generated by the original reference model to guide training, with a total loss composed of hard loss (MSE between model output and ground truth) and reference loss (MSE between model output and reference model output).",
+      "datasets_used": [
+        "target dataset with sizes: 30, 300, 500, 1000, 2000 recordings"
+      ],
+      "baselines_compared": [
+        "baseline model (ω = 0)"
+      ],
+      "best_result": "Best result with ω = 0.1 and 2000 recordings achieving MOS of 4.14 ± 0.02 and WER of 0.2%",
+      "key_results": {
+        "30 recordings_MOS": "3.18 ± 0.04",
+        "30 recordings_WER %": "1.5",
+        "300 recordings_MOS": "3.60 ± 0.05",
+        "300 recordings_WER %": "1.0",
+        "500 recordings_MOS": "3.96 ± 0.04",
+        "500 recordings_WER %": "0.2"
+      },
+      "limitations": [
+        "The paper does not explicitly state any limitations in the abstract"
+      ],
+      "code_available": false,
+      "code_url": null,
+      "can_run_on_macbook": false,
+      "compute_required": "not specified"
+    }
+  ]
+}

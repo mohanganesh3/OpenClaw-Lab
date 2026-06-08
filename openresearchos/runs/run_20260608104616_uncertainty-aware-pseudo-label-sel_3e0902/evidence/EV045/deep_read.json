@@ -1,0 +1,190 @@
+{
+  "problem_addressed": "Closing the performance gap between weakly-supervised scribble-based and fully-supervised methods for 3D abdominal organ segmentation in CT images.",
+  "core_claim": "The proposed TDNet with dual consistency constraints (USPC and MPCC) achieves state-of-the-art performance in scribble-supervised abdominal organ segmentation.",
+  "key_contributions": [
+    "A novel 3D Triple-branch Multi-dilated Network (TDNet) with one encoder and three decoders using dilation rates of 1, 3, and 6 to capture complementary multi-scale features.",
+    "Uncertainty-weighted Soft Pseudo label Consistency (USPC) loss to rectify noisy pseudo labels using voxel-wise entropy-based uncertainty weighting.",
+    "Multi-view Projection-based Class-similarity Consistency (MPCC) loss to enforce class relationship consistency across axial, sagittal, and coronal views."
+  ],
+  "novelty": "Combines multi-scale feature extraction via TDNet with dual-level consistency constraints (pixel-wise uncertainty weighting and class-wise multi-view projection) to stabilize weakly-supervised learning and improve segmentation accuracy.",
+  "method_summary": "TDNet uses a shared encoder feeding three decoders with dilation rates 1/3/6. Decoder outputs are averaged into soft pseudo labels, weighted by uncertainty (entropy) via USPC loss, and class affinity matrices are aligned across multi-view projections via MPCC loss, supervised alongside partial cross-entropy on scribbles.",
+  "method_components": [
+    "Triple-branch Multi-dilated Network (TDNet) with dilation rates 1, 3, 6",
+    "Uncertainty-weighted Soft Pseudo label Consistency (USPC) loss using entropy-based weights",
+    "Multi-view Projection-based Class-similarity Consistency (MPCC) loss using class affinity matrices",
+    "Partial Cross-Entropy (pCE) loss for scribble supervision"
+  ],
+  "key_innovation": "Voxel-wise uncertainty weighting in USPC loss to suppress unreliable pseudo labels and multi-view projection in MPCC loss to leverage inter-class relationships, jointly stabilizing pseudo-label generation and improving segmentation.",
+  "assumptions": [
+    "Different dilation rates capture complementary multi-scale features",
+    "Class affinity matrices computed via multi-view projection encode meaningful inter-class relationships",
+    "Entropy-based uncertainty estimation effectively identifies unreliable pseudo labels"
+  ],
+  "theoretical_grounding": "None explicitly provided; relies on empirical validation of loss functions and architecture on WORD dataset.",
+  "datasets_used": [
+    "WORD dataset (cervical cancer patients before radiotherapy, 100 training, 20 validation, 30 testing)"
+  ],
+  "baselines_compared": [
+    "pCE [12]",
+    "Total Variation Loss (TV) [9]",
+    "USTM [13]",
+    "EM [8]",
+    "DMPLS [15]",
+    "FullySup [3]"
+  ],
+  "metrics_used": [
+    "Dice Similarity Coefficient (DSC)",
+    "95% Hausdorff Distance (HD95)",
+    "Average Surface Distance (ASD)"
+  ],
+  "hyperparameters": "SGD optimizer (momentum 0.9, weight decay 10−4), α=10.0, β=1.0, batch size 1, patch size [80, 96, 96], max iterations 6×104, sliding window inference",
+  "compute_required": "single GPU (NVIDIA 2080Ti with 11GB memory)",
+  "seeds": null,
+  "headline_result": "Average DSC of 85.74±5.22% on WORD testing set",
+  "results_table": [
+    {
+      "method": "Ours",
+      "dataset": "WORD testing",
+      "metric": "DSC",
+      "value": "85.74±5.22%"
+    },
+    {
+      "method": "Ours",
+      "dataset": "WORD testing",
+      "metric": "DSC",
+      "value": "93.31±0.85%",
+      "organ": "Liver"
+    },
+    {
+      "method": "Ours",
+      "dataset": "WORD testing",
+      "metric": "DSC",
+      "value": "91.77±3.19%",
+      "organ": "Spleen"
+    },
+    {
+      "method": "Ours",
+      "dataset": "WORD testing",
+      "metric": "DSC",
+      "value": "92.34±2.30%",
+      "organ": "Left Kidney"
+    },
+    {
+      "method": "Ours",
+      "dataset": "WORD testing",
+      "metric": "DSC",
+      "value": "92.54±1.95%",
+      "organ": "Right Kidney"
+    },
+    {
+      "method": "Ours",
+      "dataset": "WORD testing",
+      "metric": "DSC",
+      "value": "85.82±4.19%",
+      "organ": "Stomach"
+    },
+    {
+      "method": "Ours",
+      "dataset": "WORD testing",
+      "metric": "DSC",
+      "value": "69.01±16.53%",
+      "organ": "Gallbladder"
+    },
+    {
+      "method": "Ours",
+      "dataset": "WORD testing",
+      "metric": "DSC",
+      "value": "75.40±7.51%",
+      "organ": "Pancreas"
+    },
+    {
+      "method": "Ours",
+      "dataset": "WORD testing",
+      "metric": "HD95",
+      "value": "7.84±5.84mm"
+    },
+    {
+      "method": "Ours",
+      "dataset": "WORD testing",
+      "metric": "ASD",
+      "value": "2.33±1.76mm"
+    }
+  ],
+  "ablations": [
+    "Triple-branch with different dilation rates improved DSC by 7.70% over baseline",
+    "Adding LUSP C improved DSC by 2.24% (82.57% to 84.21%)",
+    "Adding LMP CC further improved DSC by 0.54% (84.21% to 84.75%)",
+    "Different dilation rates contributed to better performance than same dilation rates"
+  ],
+  "improvement_over_baseline": "Average DSC improved by 11.04 percentage points (74.70% to 85.74%), ASD reduced by 23.18mm (25.51mm to 2.33mm), HD95 reduced by 72.14mm (79.98mm to 7.84mm)",
+  "stated_limitations": [
+    "Performance gap between weakly-supervised and fully supervised methods",
+    "Limited annotation efficiency compared to fully supervised approaches",
+    "Potential challenges with very small or anatomically complex organs"
+  ],
+  "unstated_weaknesses": [
+    "Limited ablation studies on individual components of the triple-branch network",
+    "Potential overfitting to specific dataset characteristics",
+    "Lack of comparison with more recent weakly supervised methods",
+    "Unclear computational complexity and training requirements"
+  ],
+  "threats_to_validity": [
+    "Dataset bias - method may not generalize to different CT scanners or protocols",
+    "Annotation bias - scribbles may not capture all relevant anatomical variations",
+    "Domain shift challenges when applied to different patient populations"
+  ],
+  "reproducibility": "medium",
+  "open_questions": [
+    "How does the method perform with different levels of scribble annotation quality?",
+    "What is the minimum amount of scribble information needed for acceptable performance?",
+    "Can the approach be effectively adapted to other imaging modalities beyond CT?",
+    "How does the method handle cases with significant anatomical variations?"
+  ],
+  "future_work": [
+    "Incorporating uncertainty estimation into the scribble-based framework",
+    "Developing more efficient architectures for clinical deployment",
+    "Extending the method to other anatomical regions beyond the abdomen",
+    "Exploring adaptive scribble generation strategies"
+  ],
+  "gaps_this_enables": [
+    "Uncertainty-aware pseudo-label selection for weakly supervised segmentation",
+    "Methods to balance pixel- and class-wise consistency in multi-organ segmentation",
+    "Approaches to reduce the performance gap between weakly and fully supervised methods",
+    "Techniques for handling annotation uncertainty in medical image segmentation"
+  ],
+  "relevance_to_topic": "This paper directly relates to uncertainty-aware pseudo-label selection by addressing the challenge of generating reliable segmentation from weakly supervised scribble annotations.",
+  "relation_type": "method_source",
+  "can_run_on_macbook": false,
+  "reusable_assets": [
+    "Triple-branch multi-dilated network architecture",
+    "Pixel- and class-wise consistency loss functions",
+    "Scribble-based annotation framework",
+    "Multi-organ segmentation pipeline for abdominal CT"
+  ],
+  "code_available": false,
+  "code_url": null,
+  "best_result": "Average DSC of 85.74±5.22% on WORD testing set",
+  "key_results": {
+    "WORD testing_DSC": "85.82±4.19%"
+  },
+  "limitations_stated": [
+    "Performance gap between weakly-supervised and fully supervised methods",
+    "Limited annotation efficiency compared to fully supervised approaches",
+    "Potential challenges with very small or anatomically complex organs"
+  ],
+  "evidence_id": "EV045",
+  "title": "Scribble-based 3D Multiple Abdominal Organ Segmentation via Triple-branch Multi-dilated Network with Pixel- and Class-wise Consistency",
+  "year": 2023,
+  "arxiv_id": "2309.09730",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 29786,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 10,
+  "pdf_tables": 2,
+  "pdf_captions": 7
+}

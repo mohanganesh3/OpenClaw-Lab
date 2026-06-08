@@ -1,0 +1,163 @@
+{
+  "problem_addressed": "Semi-supervised key information extraction faces underestimation of tail class confidence in long-tailed distributions and difficulty achieving intra-class compactness and inter-class separability of tail features.",
+  "core_claim": "CRMSP achieves state-of-the-art performance in semi-supervised KIE by combining Class-Rebalancing Pseudo-Labeling and Merged Semantic Pseudo-Labeling modules to address long-tailed distribution challenges.",
+  "key_contributions": [
+    "Class-Rebalancing Pseudo-Labeling (CRP) module introduces reweighting factor to rebalance pseudo-labels, increasing attention to tail classes",
+    "Merged Semantic Pseudo-Labeling (MSP) module clusters tail features using Merged Prototypes to improve semantic pseudo-labeling",
+    "Overall framework achieves 3.24% F1-score improvement over state-of-the-art on CORD benchmark"
+  ],
+  "novelty": "Direct rebalancing of pseudo-labels based on class distributions (vs. complex reweighting losses in prior work) and Merged Prototypes approach for tail feature clustering (vs. unrepresentative prototypes in DASO)",
+  "method_summary": "CRMSP utilizes a base model with labeled/unlabeled data processing, where CRP reweights pseudo-labels using EMA-based class distribution estimates and β factor, while MSP generates merged semantic pseudo-labels via Merged Prototypes and contrastive loss.",
+  "method_components": [
+    "Class-Rebalancing Pseudo-Labeling (CRP) module",
+    "Merged Semantic Pseudo-Labeling (MSP) module"
+  ],
+  "key_innovation": "Reweighting factor β that reverses class distribution predictions (β = Normalize(M(˜p))) to boost tail class confidence during pseudo-label filtering",
+  "assumptions": [
+    "Smoothness assumption: close data points in high-density regions have similar outputs",
+    "Unlabeled data distribution correlates with labeled data distribution"
+  ],
+  "theoretical_grounding": "null",
+  "datasets_used": [
+    "FUNSD (149 train/50 test)",
+    "CORD (800/100/100 train/val/test)",
+    "CIFAR10-LT",
+    "CIFAR100-LT",
+    "STL10-LT"
+  ],
+  "baselines_compared": [
+    "FixMatch",
+    "Dash",
+    "FlexMatch",
+    "SimMatch",
+    "FreeMatch",
+    "DARP",
+    "CReST",
+    "DASO"
+  ],
+  "metrics_used": [
+    "Precision",
+    "Recall",
+    "F1-score",
+    "Top-1 accuracy"
+  ],
+  "hyperparameters": "Batch size=4, µ=1.0, Learning rate=1e-5, Tproto=1.0, EMA momentum=0.999, λun=0.1, λctr=0.1, τ=0.95, K=5, Training epoch=256, Batch size=64, Learning rate=0.03, Weight decay=5e-4",
+  "compute_required": "NVIDIA Tesla V100 GPU",
+  "seeds": null,
+  "headline_result": "CRMSP achieved 91.30% F1-score on CORD with 10% labeled data using LayoutLMv3, close to fully-supervised result of 93.30%",
+  "results_table": [
+    {
+      "method": "CRMSP",
+      "dataset": "FUNSD",
+      "metric": "F1-score",
+      "value": "90.33%"
+    },
+    {
+      "method": "CRMSP",
+      "dataset": "CORD",
+      "metric": "F1-score",
+      "value": "91.30%"
+    },
+    {
+      "method": "CRMSP",
+      "dataset": "CIFAR10-LT",
+      "metric": "Accuracy",
+      "value": "78.91%"
+    },
+    {
+      "method": "CRMSP",
+      "dataset": "CIFAR100-LT",
+      "metric": "Accuracy",
+      "value": "86.35%"
+    },
+    {
+      "method": "CRMSP",
+      "dataset": "STL10-LT",
+      "metric": "Accuracy",
+      "value": "73.8% (C5)"
+    },
+    {
+      "method": "CRMSP",
+      "dataset": "STL10-LT",
+      "metric": "Accuracy",
+      "value": "90.5% (C6)"
+    },
+    {
+      "method": "CRMSP",
+      "dataset": "STL10-LT",
+      "metric": "Accuracy",
+      "value": "87.1% (C9)"
+    }
+  ],
+  "ablations": [
+    "RP (Reweighting Pseudo-Labels) improved F1-score from 66.56% to 67.21% on FUNSD and 84.05% to 84.76% on CORD",
+    "Lctr (Contrastive Loss) further improved F1-score to 67.75% on FUNSD and 85.36% on CORD",
+    "MP (Merged Prototypes) achieved final improvement to 71.12% on FUNSD and 89.59% on CORD",
+    "RP significantly improved F1-score for tail classes on CORD, especially for classes with smaller sample sizes"
+  ],
+  "improvement_over_baseline": "CRMSP improved F1-score by 5.81% compared to FixMatch on FUNSD with 5% labeled data using LayoutLMv2, improved F1-score by 4.32% compared to FixMatch on CORD with 10% labeled data using LayoutLMv3, and improved F1-score by 1.20% compared to SimMatch on FUNSD with 5% labeled data using LayoutLMv2",
+  "stated_limitations": [
+    "The paper does not explicitly state limitations in the provided abstract and highlights."
+  ],
+  "unstated_weaknesses": [
+    "No explicit discussion of uncertainty quantification in the pseudo-labeling process",
+    "Limited information on handling varying degrees of label noise in unlabeled data",
+    "No details on how the approach performs with high uncertainty scenarios",
+    "Unclear how the method handles uncertainty in feature space for tail classes"
+  ],
+  "threats_to_validity": [
+    "Potential sensitivity to hyperparameters related to pseudo-labeling thresholds",
+    "Limited evaluation on datasets with different uncertainty characteristics",
+    "Unclear generalizability to domains with different uncertainty patterns"
+  ],
+  "reproducibility": "medium (paper appears to be recent with arXiv reference, but no information on code/data availability)",
+  "open_questions": [
+    "How does the uncertainty in pseudo-labels affect the model's performance?",
+    "What is the optimal way to quantify and utilize uncertainty in the pseudo-labeling process?",
+    "How does the approach perform when the uncertainty in unlabeled data is high?",
+    "Can the method be extended to explicitly model uncertainty in the pseudo-label selection?"
+  ],
+  "future_work": [
+    "The paper does not explicitly mention future work in the provided abstract and highlights."
+  ],
+  "gaps_this_enables": [
+    "Integration of uncertainty-aware techniques into the pseudo-labeling process",
+    "Development of methods to explicitly model uncertainty in semi-supervised learning for long-tailed distributions",
+    "Research on uncertainty quantification in merged semantic pseudo-labeling"
+  ],
+  "relevance_to_topic": "While CRMSP addresses pseudo-labeling challenges in semi-supervised learning, it lacks explicit uncertainty-aware mechanisms that are central to the project topic.",
+  "relation_type": "baseline",
+  "can_run_on_macbook": "unknown",
+  "reusable_assets": [
+    "Class-Rebalancing Pseudo-Labeling (CRP) module",
+    "Merged Semantic Pseudo-Labeling (MSP) module"
+  ],
+  "code_available": false,
+  "code_url": null,
+  "best_result": "CRMSP achieved 91.30% F1-score on CORD with 10% labeled data using LayoutLMv3, close to fully-supervised result of 93.30%",
+  "key_results": {
+    "FUNSD_F1-score": "90.33%",
+    "CORD_F1-score": "91.30%",
+    "CIFAR10-LT_Accuracy": "78.91%",
+    "CIFAR100-LT_Accuracy": "86.35%",
+    "STL10-LT_Accuracy": "90.5% (C6)"
+  },
+  "limitations_stated": [
+    "The paper does not explicitly state limitations in the provided abstract and highlights."
+  ],
+  "evidence_id": "EV025",
+  "title": "CRMSP: A Semi-supervised Approach for Key Information Extraction with Class-Rebalancing and Merged Semantic Pseudo-Labeling",
+  "year": 2024,
+  "arxiv_id": "2407.15873",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 46797,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 26,
+  "pdf_tables": 3,
+  "pdf_captions": 16
+}

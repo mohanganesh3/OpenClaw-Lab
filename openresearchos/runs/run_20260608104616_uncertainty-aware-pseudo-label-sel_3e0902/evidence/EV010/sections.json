@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\nANNOTATION-EFFICIENT ACTIVE TEST-TIME ADAPTATION WITH CONFORMAL\nPREDICTION\nTingyu Shi1\nFan Lyu2\nShaoliang Peng3∗\n1 Computer Science and Engineering, University of California San Diego\n",
+  "method": "Prediction (CP) offers a classical framework to\nquantify model uncertainty and guide sample selection. CP aug-\nments a predictor with prediction sets by leveraging a small-size\nlabeled calibration set",
+  "results": "st data, but depends on stable model predictions. In ATTA,\nthe model is continuously updated and errors accumulate, making\nthese scores unreliable and the resulting coverage unstable.\nIn contrast, CPA",
+  "conclusion": "le p4.1]**\n| Method | PACS |  | VLCS |  | Tiny-ImageNet-C |  |\n| --- | --- | --- | --- | --- | --- | --- |\n|  | Real-Time A C S Acc | Post-Adapt Acc | Real-Time L S V Acc | Post-Adapt Acc | Real-Time "
+}

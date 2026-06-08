@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\nWasserstein Gradient Boosting: A Framework for\nDistribution-Valued Supervised Learning\nTakuo Matsubara\nThe University of Edinburgh\ntakuo.matsubara@ed.ac.uk\nAbstract\nGradient boosting i",
+  "method": "rnel smoothing approach is that the approximate\nWasserstein Hessian is available, with which Section 3.4 establishes a second-order WGBoost algorithm\nsimilarly to modern gradient-boosting libraries.\n3",
+  "results": "le-based approximation of an output distribution assigned at each input. We focused on\napplication of WGBoost to evidential learning, for which we provided the setting to implement a second-order\nWGBo",
+  "conclusion": "he ‘smoothed’ Wasserstein gradient can be derived by restricting the transform map T to a more regulated\nHilbert space than L2(µ). A reproducing kernel Hilbert space (RKHS) H associated with a kernel "
+}

@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\nTRANSFER LEARNING WITH PRE-TRAINED\nCONDITIONAL GENERATIVE MODELS\nShin’ya Yamaguchi†‡, Sekitoshi Kanai†, Atsutoshi Kumagai†, Daiki Chijiwa†, Hisashi Kashima‡\nshinya.yamaguchi.mw@hco.ntt",
+  "method": "study (Xie et al., 2020) (see Appendix B.4 for more detailed protocol).\nThat is, if Ds←t achieves lower FID than Ds or D′\ns, then Ds←t can approximate Dt well.\nTable 2 shows the FID scores when Ds is ",
+  "results": "avoine. Explicit inductive bias for transfer learning with\nconvolutional networks. In International Conference on Machine Learning, 2018.\nJian Liang, Dapeng Hu, and Jiashi Feng. Do we really need to a",
+  "conclusion": "))\n\n\n<!-- page 19 -->\nTable 12: Performance comparison of classifiers on multiple target datasets (Top-1 Acc. (%))\nCaltech-256-60\nCUB-200-2011\nDTD\nFGVC-Aircraft\nIndoor67\nOxfordFlower\nOxfordPets\nStanfo"
+}

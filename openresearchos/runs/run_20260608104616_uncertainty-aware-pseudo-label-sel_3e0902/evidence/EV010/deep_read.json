@@ -1,0 +1,181 @@
+{
+  "problem_addressed": "Existing Active Test-Time Adaptation (ATTA) methods use heuristic uncertainty measures and suffer from low data selection efficiency, wasting human annotation budget during deployment under domain shift.",
+  "core_claim": "CPATTA achieves annotation-efficient ATTA by introducing principled, coverage-guaranteed uncertainty through conformal prediction, consistently outperforming state-of-the-art methods by ~5% in accuracy.",
+  "key_contributions": [
+    "Smoothed conformal scores with top-K certainty measure for fine-grained uncertainty quantification",
+    "Online weight-update algorithm driven by pseudo coverage to maintain valid coverage under domain shift",
+    "Domain-shift detector that dynamically adjusts human annotation budget based on detected shifts",
+    "Staged update scheme balancing human-labeled and model-labeled data with different learning rates"
+  ],
+  "novelty": "First application of conformal prediction to ATTA, addressing exchangeability violation through dynamic weighting mechanism that uses pseudo coverage as online feedback for self-calibration under evolving domains.",
+  "method_summary": "CPATTA employs two complementary conformal predictors (pretrained and real-time adapted models) to compute top-K certainty scores for sample selection, uses adaptive weighting based on pseudo coverage to maintain coverage guarantees, implements domain-shift detection to adjust annotation budgets, and applies staged updates with human-labeled data prioritized over model-labeled data.",
+  "method_components": [
+    "Smoothed conformal scores with top-K certainty measure",
+    "Online weight-update algorithm using pseudo coverage feedback",
+    "Domain-shift detector (DSS) for adapting human supervision",
+    "Staged update scheme with buffer-specific learning rates"
+  ],
+  "key_innovation": "Adaptive weighting mechanism that uses pseudo coverage as online feedback to self-calibrate conformal predictors under evolving domains, maintaining valid coverage guarantees despite exchangeability violation.",
+  "assumptions": [
+    "Availability of small source-domain calibration set for initial conformal predictor setup",
+    "Real-time model predictions can serve as reliable pseudo labels for coverage estimation",
+    "Domain shifts are gradual enough for pseudo coverage to provide meaningful feedback"
+  ],
+  "theoretical_grounding": "Weighted conformal prediction coverage bound proof showing 1-α - w/(nw+1) Σ dTV(Z,Zi) ≤ P(x∈C(x)) ≤ 1-α + 1/(nw+1) + w/(nw+1) Σ dTV(Z,Zi), where pseudo coverage serves as online correction signal to maintain coverage near target level.",
+  "datasets_used": [
+    "PACS (4 domains, 7 categories)",
+    "VLCS (4 domains, 5 classes)",
+    "Tiny-ImageNet-C (200 classes, corruption severity 5)"
+  ],
+  "baselines_compared": [
+    "Tent [7]",
+    "CoTTA [9]",
+    "CEMA [12]",
+    "SimATTA [11]",
+    "EATTA [13]"
+  ],
+  "metrics_used": [
+    "Real-Time Accuracy",
+    "Post-Adaptation Accuracy",
+    "Coverage Gap",
+    "Annotation Efficiency (EffH, EffM)"
+  ],
+  "hyperparameters": "K=1 for top-K certainty score, ResNet-18 backbone, human annotation budget: 300 (PACS/VLCS), 3000 (Tiny-ImageNet-C), α values: 0.1, 0.2, 0.3",
+  "compute_required": "single GPU",
+  "seeds": "null",
+  "headline_result": "CPATTA with α=0.2 achieves 87.13% post-adaptation accuracy on PACS, improving over SimATTA by nearly 9%",
+  "results_table": [
+    {
+      "method": "CPATTA(Ours, α = 0.2)",
+      "dataset": "PACS",
+      "metric": "Real-Time Accuracy",
+      "value": "75.26%"
+    },
+    {
+      "method": "CPATTA(Ours, α = 0.2)",
+      "dataset": "PACS",
+      "metric": "Post-Adapt Accuracy",
+      "value": "87.13%"
+    },
+    {
+      "method": "CPATTA(Ours, α = 0.2)",
+      "dataset": "VLCS",
+      "metric": "Real-Time Accuracy",
+      "value": "64.96%"
+    },
+    {
+      "method": "CPATTA(Ours, α = 0.2)",
+      "dataset": "VLCS",
+      "metric": "Post-Adapt Accuracy",
+      "value": "77.72%"
+    },
+    {
+      "method": "CPATTA(Ours, α = 0.3)",
+      "dataset": "Tiny-ImageNet-C",
+      "metric": "Post-Adapt Accuracy",
+      "value": "44.59%"
+    },
+    {
+      "method": "SimATTA",
+      "dataset": "PACS",
+      "metric": "Real-Time Accuracy",
+      "value": "65.99%"
+    },
+    {
+      "method": "SimATTA",
+      "dataset": "PACS",
+      "metric": "Post-Adapt Accuracy",
+      "value": "71.97%"
+    },
+    {
+      "method": "CEMA",
+      "dataset": "VLCS",
+      "metric": "Real-Time Accuracy",
+      "value": "55.18%"
+    },
+    {
+      "method": "CEMA",
+      "dataset": "VLCS",
+      "metric": "Post-Adapt Accuracy",
+      "value": "63.93%"
+    },
+    {
+      "method": "EATTA",
+      "dataset": "VLCS",
+      "metric": "Real-Time Accuracy",
+      "value": "44.56%"
+    },
+    {
+      "method": "EATTA",
+      "dataset": "VLCS",
+      "metric": "Post-Adapt Accuracy",
+      "value": "54.22%"
+    }
+  ],
+  "ablations": [
+    "Random Selection (RS) vs CP+GD vs CP+AW",
+    "CP+AW (adaptive weighting) shows 0.95% improvement over CP+GD on PACS real-time accuracy",
+    "Selection with CP improves performance over random selection by 7.1% on PACS real-time accuracy"
+  ],
+  "improvement_over_baseline": "CPATTA achieves roughly 5% higher accuracy than SOTA ATTA methods",
+  "stated_limitations": [],
+  "unstated_weaknesses": [
+    "Unclear generalization to tasks beyond classification",
+    "Potential computational overhead of conformal prediction",
+    "Limited discussion on performance with extremely low annotation budgets",
+    "No assessment of method's performance with different model architectures"
+  ],
+  "threats_to_validity": [
+    "Evaluation may not cover a wide range of domain shifts",
+    "Conformal prediction assumptions may not hold for all data distributions",
+    "Limited discussion on model architecture independence"
+  ],
+  "reproducibility": "medium",
+  "open_questions": [
+    "How does the method perform with different levels of domain shift?",
+    "What is the computational cost of the method compared to existing ATTA approaches?",
+    "How does the method scale with larger models and datasets?",
+    "Can the method be extended to other types of tasks beyond classification?"
+  ],
+  "future_work": [],
+  "gaps_this_enables": [
+    "More principled uncertainty quantification in ATTA",
+    "Potential for combining conformal prediction with other uncertainty estimation techniques",
+    "Research on more efficient conformal prediction methods for ATTA"
+  ],
+  "relevance_to_topic": "The paper directly addresses uncertainty-aware pseudo-label selection by using conformal prediction to provide principled uncertainty estimates for active learning during test-time adaptation.",
+  "relation_type": "method_source",
+  "can_run_on_macbook": false,
+  "reusable_assets": [
+    "Method of using conformal prediction for ATTA",
+    "Top-K certainty measure",
+    "Online weight-update algorithm driven by pseudo coverage",
+    "Staged update scheme"
+  ],
+  "code_available": true,
+  "code_url": null,
+  "best_result": "CPATTA with α=0.2 achieves 87.13% post-adaptation accuracy on PACS, improving over SimATTA by nearly 9%",
+  "key_results": {
+    "PACS_Real-Time Accuracy": "65.99%",
+    "PACS_Post-Adapt Accuracy": "87.13%",
+    "VLCS_Real-Time Accuracy": "64.96%",
+    "VLCS_Post-Adapt Accuracy": "77.72%",
+    "Tiny-ImageNet-C_Post-Adapt Accuracy": "44.59%"
+  },
+  "limitations_stated": [],
+  "evidence_id": "EV010",
+  "title": "Annotation-Efficient Active Test-Time Adaptation with Conformal Prediction",
+  "year": 2025,
+  "arxiv_id": "2509.25692",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 30752,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 5,
+  "pdf_tables": 4,
+  "pdf_captions": 7
+}

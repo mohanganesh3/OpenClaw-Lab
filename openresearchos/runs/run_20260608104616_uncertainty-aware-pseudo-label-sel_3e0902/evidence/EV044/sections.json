@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\nIEEE TRANSACTIONS ON IMAGE PROCESSING, VOL. XX, 202X\n1\nAdaptive Betweenness Clustering for\nSemi-Supervised Domain Adaptation\nJichang Li, Guanbin Li, Member, IEEE, and Yizhou Yu, Fellow",
+  "method": "detail, we first construct a heterogeneous\ngraph to depict the pairwise associations between labeled\nsamples from both domains and unlabeled examples from the\ntarget domain. Then, to degrade the noisy",
+  "results": "ration set as follows:\nξt =\nξ0\n(1 + 0.0001 × t)0.75 ,\n(15)\nwhere ξ0 represents the initial learning rate. To balance numer-\nous loss terms, we set α and β in Eq. (14) to 0.03 and 25.0.\nThen, based on ",
+  "conclusion": "5.0\n87.5\n90.0\n92.5\n95.0\n97.5\nAccuracy (%)\n(a) “R→S” on DomainNet\n0\n20\n40\n60\n80\n100\nEpoch\n0.5\n1.0\n1.5\n2.0\n2.5\n# of pseudo-labels (×10\n3\n)\n# when τ\n′\n=\n.975\n# when τ\n′\n=\n.950\n% when τ\n′\n=\n.975\n% when τ\n"
+}

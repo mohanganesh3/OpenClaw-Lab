@@ -1,0 +1,6 @@
+{
+  "introduction": "<!-- page 1 -->\nSAM-DRIVEN WEAKLY SUPERVISED NODULE SEGMENTATION WITH\nUNCERTAINTY-AWARE CROSS TEACHING\nXingyue Zhao1, Peiqi Li1, Xiangde Luo2,3, Meng Yang5, Shi Chang4∗, Zhongyu Li1∗\n1School of Softwa",
+  "method": "r concern that bounding boxes generated di-\nrectly from clinical annotations may not fully encompass\nnodules, especially since nodules often have a convex shape\n[15] (see Fig. 1). To overcome the limi",
+  "results": "do-labels Yint\ni\n, while F2\nis trained using the union of pseudo-labels Yuni\ni\n. The super-\nvised loss function is a composite of two commonly employed\nloss functions in segmentation tasks, which are ",
+  "conclusion": "pact of different values of the\nhyper-parameter λ. Specifically, we evaluated our method\nacross different settings of λ ∈{0.1, 0.3, 0.5, 1}. Addition-\nally, we also explored a dynamic approach to sett"
+}

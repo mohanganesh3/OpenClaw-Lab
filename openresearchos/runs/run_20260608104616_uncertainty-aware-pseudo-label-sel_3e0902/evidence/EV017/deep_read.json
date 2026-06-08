@@ -1,0 +1,144 @@
+{
+  "problem_addressed": "Deep learning methods for lung nodule detection are limited by scarce annotated data and variability across imaging centers.",
+  "core_claim": "The proposed semi-supervised Inf-Net framework enhances CT-based lung nodule analysis with minimal annotation and provides a conceptual foundation for genomic integration.",
+  "key_contributions": [
+    "A semi-supervised Inf-Net framework incorporating multi-scale feature aggregation, Reverse Attention refinement, and pseudo-labeling for efficient utilization of unlabeled CT slices",
+    "A conceptual framework for integrating genomic biomarkers with CT-derived features to develop future multimodal CAD systems"
+  ],
+  "novelty": "Combines Inf-Net architecture's multi-scale feature aggregation and refinement mechanisms with semi-supervised pseudo-labeling, and proposes a conceptual CT-genomic fusion pipeline for future biologically informed diagnostics.",
+  "method_summary": "The framework utilizes Inf-Net architecture with Parallel Partial Decoder (PPD), Reverse Attention (RA), and Edge Attention (EA) modules, implementing pseudo-labeling to incorporate unlabeled CT slices into training iterations on LUNA16 dataset subsets.",
+  "method_components": [
+    "Parallel Partial Decoder (PPD) for multi-scale high-level feature aggregation",
+    "Reverse Attention (RA) modules for iterative refinement of uncertain regions",
+    "Edge Attention (EA) mechanism for boundary precision enhancement",
+    "Semi-supervised pseudo-labeling strategy with confidence threshold filtering"
+  ],
+  "key_innovation": "The integration of Inf-Net's Reverse Attention refinement mechanism with semi-supervised pseudo-labeling to enable effective utilization of unlabeled CT data while maintaining high segmentation accuracy.",
+  "assumptions": [
+    "Pseudo-labels with confidence above threshold are reliable for training",
+    "LUNA16 dataset subsets are representative for evaluating the framework",
+    "Future datasets will contain matched genomic biomarkers for the conceptual extension"
+  ],
+  "theoretical_grounding": "No explicit theoretical proof or mathematical derivation provided; evaluation based on empirical performance comparisons on LUNA16 dataset subsets.",
+  "datasets_used": [
+    "LUNA16 dataset (annotated CT volumes for pulmonary nodules)"
+  ],
+  "baselines_compared": [
+    "ResNet50",
+    "Res2Net50",
+    "ResNet101",
+    "CNN baseline",
+    "semi-supervised SVM"
+  ],
+  "metrics_used": [
+    "accuracy"
+  ],
+  "hyperparameters": "learning rate: 1e-4, β₁: 0.9, β₂: 0.999, batch size: 8",
+  "compute_required": "not explicitly stated",
+  "seeds": "null",
+  "headline_result": "Semi-Inf-Net with 0.784 accuracy on 20,000 images (labeled + pseudo-labeled)",
+  "results_table": [
+    {
+      "method": "Inf-Net (supervised)",
+      "dataset": "LUNA16",
+      "metric": "accuracy",
+      "value": "0.825"
+    },
+    {
+      "method": "Semi-Inf-Net",
+      "dataset": "LUNA16",
+      "metric": "accuracy",
+      "value": "0.784"
+    },
+    {
+      "method": "Inf-Net (Test 3)",
+      "dataset": "LUNA16",
+      "metric": "accuracy",
+      "value": "0.825"
+    },
+    {
+      "method": "Inf-Net (Test 2)",
+      "dataset": "LUNA16",
+      "metric": "accuracy",
+      "value": "0.792"
+    },
+    {
+      "method": "Inf-Net (Test 1)",
+      "dataset": "LUNA16",
+      "metric": "accuracy",
+      "value": "0.536"
+    }
+  ],
+  "ablations": [
+    "Backbone network comparison (ResNet50 vs Res2Net50 vs ResNet101)",
+    "Supervised vs semi-supervised learning"
+  ],
+  "improvement_over_baseline": "Semi-Inf-Net (0.784) > supervised Inf-Net (0.755) on Test 1; Inf-Net (0.825) > traditional methods (max 0.951 in Table 3)",
+  "stated_limitations": [
+    "The abstract is cut off before discussing limitations",
+    "No explicit limitations mentioned in the provided text"
+  ],
+  "unstated_weaknesses": [
+    "No uncertainty quantification in pseudo-labeling process",
+    "Limited information on pseudo-label selection criteria",
+    "Framework appears domain-specific to lung nodules",
+    "No details on how pseudo-labels are validated or refined",
+    "Lacks information on model uncertainty handling"
+  ],
+  "threats_to_validity": [
+    "Dataset (LUNA16) may not represent diverse clinical settings",
+    "No cross-validation or external validation mentioned",
+    "Limited implementation details provided",
+    "No information on training hyperparameters",
+    "Abstract incomplete - missing key methodological details"
+  ],
+  "reproducibility": "low (insufficient implementation details, no code information, missing hyperparameters)",
+  "open_questions": [
+    "How are pseudo-labels generated and validated?",
+    "What uncertainty measures are used in pseudo-labeling?",
+    "How does the model handle uncertain pseudo-labels?",
+    "What is the performance of the semi-supervised variant?",
+    "How does the framework perform on external datasets?"
+  ],
+  "future_work": [
+    "Conceptual extension toward genomic integration (mentioned but not detailed)"
+  ],
+  "gaps_this_enables": [
+    "Framework could be extended with uncertainty-aware pseudo-label selection",
+    "Pseudo-labeling mechanism could be enhanced with uncertainty quantification",
+    "Multi-scale feature aggregation and Reverse Attention could be adapted for uncertainty estimation"
+  ],
+  "relevance_to_topic": "This paper presents a semi-supervised framework using pseudo-labeling for medical imaging, providing a foundation for developing uncertainty-aware pseudo-label selection methods.",
+  "relation_type": "method_source",
+  "can_run_on_macbook": false,
+  "reusable_assets": [
+    "Inf-Net architecture",
+    "Multi-scale feature aggregation mechanism",
+    "Reverse Attention refinement"
+  ],
+  "code_available": false,
+  "code_url": null,
+  "best_result": "Semi-Inf-Net with 0.784 accuracy on 20,000 images (labeled + pseudo-labeled)",
+  "key_results": {
+    "LUNA16_accuracy": "0.536"
+  },
+  "limitations_stated": [
+    "The abstract is cut off before discussing limitations",
+    "No explicit limitations mentioned in the provided text"
+  ],
+  "evidence_id": "EV017",
+  "title": "A Semi-Supervised Inf-Net Framework for CT-Based Lung Nodule Analysis with a Conceptual Extension Toward Genomic Integration",
+  "year": 2025,
+  "arxiv_id": "2512.07912",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 46915,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 10,
+  "pdf_tables": 4,
+  "pdf_captions": 13
+}

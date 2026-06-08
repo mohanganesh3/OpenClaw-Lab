@@ -1,0 +1,411 @@
+{
+  "problem_addressed": "Computer-aided diagnosis systems are trained on oversimplified one-hot labels that ignore diagnostic uncertainty, leading to overconfident predictions especially for noisy, ambiguous, or artifact-laden medical images.",
+  "core_claim": "By leveraging neural network training dynamics to generate calibrated uncertainty-aware pseudo-labels, we can improve uncertainty estimation and robustness in medical image classification.",
+  "key_contributions": [
+    "Introduction of a framework that brings uncertainty back into the label space using neural network training dynamics",
+    "Development of calibrated pseudo-label generation methods (Pseudo-T and Pseudo-D)",
+    "Demonstration of superior performance on echocardiography classification benchmark"
+  ],
+  "novelty": "Using neural network training dynamics (model predictions over time during training) to assess sample difficulty and generate uncertainty-aware pseudo-labels, rather than relying on traditional hard labels.",
+  "method_summary": "The method leverages neural network training dynamics to assess sample difficulty by aggregating model predictions over training epochs, then generates uncertainty-aware pseudo-labels using temperature scaling and Dirichlet calibration approaches.",
+  "method_components": [
+    "Neural Network Training Dynamics (NNTD) - recording and aggregating model predictions over training epochs",
+    "Pseudo-label generation using averaged softmax predictions",
+    "Calibration of pseudo-labels using temperature scaling and Dirichlet calibration"
+  ],
+  "key_innovation": "Using the temporal evolution of model predictions during training (training dynamics) as a source of information about sample difficulty and uncertainty, which is then encoded into calibrated pseudo-labels.",
+  "assumptions": [
+    "Model predictions over training epochs reflect sample difficulty",
+    "Aggregated predictions can serve as a proxy for uncertainty",
+    "Calibration on validation set will generalize to training set"
+  ],
+  "theoretical_grounding": "The paper references prior work showing that training on soft targets improves resistance to label noise and enhances uncertainty estimation. The calibration methods (temperature scaling and Dirichlet calibration) are based on established techniques in the literature.",
+  "datasets_used": [
+    "aortic stenosis classification dataset (ultrasound videos of same patient)"
+  ],
+  "baselines_compared": [
+    "Vanilla",
+    "Abstention [6]",
+    "TMC [12]",
+    "RT4U [9]",
+    "Pseudo-T (ours)",
+    "Pseudo-D (ours)"
+  ],
+  "metrics_used": [
+    "accuracy (ACC)",
+    "expected calibration error (ECE)",
+    "mean average error (MAE)",
+    "area under the reliability curve (AURC)"
+  ],
+  "hyperparameters": "R(2+1)D model with Kinetics400 initialization, ADAM optimizer, learning rate 1e-4 for 20 epochs, random rotation ±15°, cropping ratio 0.7, temperature parameters γ, A and b tuned using SGD with learning rate 0.01 and λ1 = λ2 = 1",
+  "compute_required": "not specified",
+  "seeds": "not specified",
+  "headline_result": "Pseudo-D achieves best performance: Study-level MAE ↓ 0.180, ACC ↑ 0.820, ECE ↓ 0.071, AURC ↑ 0.885",
+  "results_table": [
+    {
+      "method": "Vanilla",
+      "dataset": "aortic stenosis classification",
+      "metric": "MAE",
+      "value": "0.257 (video-level)"
+    },
+    {
+      "method": "Vanilla",
+      "dataset": "aortic stenosis classification",
+      "metric": "ACC",
+      "value": "0.765 (video-level)"
+    },
+    {
+      "method": "Vanilla",
+      "dataset": "aortic stenosis classification",
+      "metric": "ECE",
+      "value": "0.170 (video-level)"
+    },
+    {
+      "method": "Vanilla",
+      "dataset": "aortic stenosis classification",
+      "metric": "AURC",
+      "value": "0.804 (video-level)"
+    },
+    {
+      "method": "Vanilla",
+      "dataset": "aortic stenosis classification",
+      "metric": "MAE",
+      "value": "0.224 (study-level)"
+    },
+    {
+      "method": "Vanilla",
+      "dataset": "aortic stenosis classification",
+      "metric": "ACC",
+      "value": "0.790 (study-level)"
+    },
+    {
+      "method": "Vanilla",
+      "dataset": "aortic stenosis classification",
+      "metric": "ECE",
+      "value": "0.138 (study-level)"
+    },
+    {
+      "method": "Vanilla",
+      "dataset": "aortic stenosis classification",
+      "metric": "AURC",
+      "value": "0.852 (study-level)"
+    },
+    {
+      "method": "Abstention [6]",
+      "dataset": "aortic stenosis classification",
+      "metric": "MAE",
+      "value": "0.250 (video-level)"
+    },
+    {
+      "method": "Abstention [6]",
+      "dataset": "aortic stenosis classification",
+      "metric": "ACC",
+      "value": "0.769 (video-level)"
+    },
+    {
+      "method": "Abstention [6]",
+      "dataset": "aortic stenosis classification",
+      "metric": "ECE",
+      "value": "0.130 (video-level)"
+    },
+    {
+      "method": "Abstention [6]",
+      "dataset": "aortic stenosis classification",
+      "metric": "AURC",
+      "value": "0.820 (video-level)"
+    },
+    {
+      "method": "Abstention [6]",
+      "dataset": "aortic stenosis classification",
+      "metric": "MAE",
+      "value": "0.216 (study-level)"
+    },
+    {
+      "method": "Abstention [6]",
+      "dataset": "aortic stenosis classification",
+      "metric": "ACC",
+      "value": "0.794 (study-level)"
+    },
+    {
+      "method": "Abstention [6]",
+      "dataset": "aortic stenosis classification",
+      "metric": "ECE",
+      "value": "0.094 (study-level)"
+    },
+    {
+      "method": "Abstention [6]",
+      "dataset": "aortic stenosis classification",
+      "metric": "AURC",
+      "value": "0.881 (study-level)"
+    },
+    {
+      "method": "TMC [12]",
+      "dataset": "aortic stenosis classification",
+      "metric": "MAE",
+      "value": "0.252 (video-level)"
+    },
+    {
+      "method": "TMC [12]",
+      "dataset": "aortic stenosis classification",
+      "metric": "ACC",
+      "value": "0.771 (video-level)"
+    },
+    {
+      "method": "TMC [12]",
+      "dataset": "aortic stenosis classification",
+      "metric": "ECE",
+      "value": "0.213 (video-level)"
+    },
+    {
+      "method": "TMC [12]",
+      "dataset": "aortic stenosis classification",
+      "metric": "AURC",
+      "value": "0.746 (video-level)"
+    },
+    {
+      "method": "TMC [12]",
+      "dataset": "aortic stenosis classification",
+      "metric": "MAE",
+      "value": "0.205 (study-level)"
+    },
+    {
+      "method": "TMC [12]",
+      "dataset": "aortic stenosis classification",
+      "metric": "ACC",
+      "value": "0.808 (study-level)"
+    },
+    {
+      "method": "TMC [12]",
+      "dataset": "aortic stenosis classification",
+      "metric": "ECE",
+      "value": "0.163 (study-level)"
+    },
+    {
+      "method": "TMC [12]",
+      "dataset": "aortic stenosis classification",
+      "metric": "AURC",
+      "value": "0.777 (study-level)"
+    },
+    {
+      "method": "RT4U [9]",
+      "dataset": "aortic stenosis classification",
+      "metric": "MAE",
+      "value": "0.246 (video-level)"
+    },
+    {
+      "method": "RT4U [9]",
+      "dataset": "aortic stenosis classification",
+      "metric": "ACC",
+      "value": "0.773 (video-level)"
+    },
+    {
+      "method": "RT4U [9]",
+      "dataset": "aortic stenosis classification",
+      "metric": "ECE",
+      "value": "0.105 (video-level)"
+    },
+    {
+      "method": "RT4U [9]",
+      "dataset": "aortic stenosis classification",
+      "metric": "AURC",
+      "value": "0.804 (video-level)"
+    },
+    {
+      "method": "RT4U [9]",
+      "dataset": "aortic stenosis classification",
+      "metric": "MAE",
+      "value": "0.171 (study-level)"
+    },
+    {
+      "method": "RT4U [9]",
+      "dataset": "aortic stenosis classification",
+      "metric": "ACC",
+      "value": "0.836 (study-level)"
+    },
+    {
+      "method": "RT4U [9]",
+      "dataset": "aortic stenosis classification",
+      "metric": "ECE",
+      "value": "0.073 (study-level)"
+    },
+    {
+      "method": "RT4U [9]",
+      "dataset": "aortic stenosis classification",
+      "metric": "AURC",
+      "value": "0.877 (study-level)"
+    },
+    {
+      "method": "Pseudo-T (ours)",
+      "dataset": "aortic stenosis classification",
+      "metric": "MAE",
+      "value": "0.234 (video-level)"
+    },
+    {
+      "method": "Pseudo-T (ours)",
+      "dataset": "aortic stenosis classification",
+      "metric": "ACC",
+      "value": "0.786 (video-level)"
+    },
+    {
+      "method": "Pseudo-T (ours)",
+      "dataset": "aortic stenosis classification",
+      "metric": "ECE",
+      "value": "0.097 (video-level)"
+    },
+    {
+      "method": "Pseudo-T (ours)",
+      "dataset": "aortic stenosis classification",
+      "metric": "AURC",
+      "value": "0.838 (video-level)"
+    },
+    {
+      "method": "Pseudo-T (ours)",
+      "dataset": "aortic stenosis classification",
+      "metric": "MAE",
+      "value": "0.192 (study-level)"
+    },
+    {
+      "method": "Pseudo-T (ours)",
+      "dataset": "aortic stenosis classification",
+      "metric": "ACC",
+      "value": "0.808 (study-level)"
+    },
+    {
+      "method": "Pseudo-T (ours)",
+      "dataset": "aortic stenosis classification",
+      "metric": "ECE",
+      "value": "0.089 (study-level)"
+    },
+    {
+      "method": "Pseudo-T (ours)",
+      "dataset": "aortic stenosis classification",
+      "metric": "AURC",
+      "value": "0.874 (study-level)"
+    },
+    {
+      "method": "Pseudo-D (ours)",
+      "dataset": "aortic stenosis classification",
+      "metric": "MAE",
+      "value": "0.220 (video-level)"
+    },
+    {
+      "method": "Pseudo-D (ours)",
+      "dataset": "aortic stenosis classification",
+      "metric": "ACC",
+      "value": "0.787 (video-level)"
+    },
+    {
+      "method": "Pseudo-D (ours)",
+      "dataset": "aortic stenosis classification",
+      "metric": "ECE",
+      "value": "0.096 (video-level)"
+    },
+    {
+      "method": "Pseudo-D (ours)",
+      "dataset": "aortic stenosis classification",
+      "metric": "AURC",
+      "value": "0.793 (video-level)"
+    },
+    {
+      "method": "Pseudo-D (ours)",
+      "dataset": "aortic stenosis classification",
+      "metric": "MAE",
+      "value": "0.180 (study-level)"
+    },
+    {
+      "method": "Pseudo-D (ours)",
+      "dataset": "aortic stenosis classification",
+      "metric": "ACC",
+      "value": "0.820 (study-level)"
+    },
+    {
+      "method": "Pseudo-D (ours)",
+      "dataset": "aortic stenosis classification",
+      "metric": "ECE",
+      "value": "0.071 (study-level)"
+    },
+    {
+      "method": "Pseudo-D (ours)",
+      "dataset": "aortic stenosis classification",
+      "metric": "AURC",
+      "value": "0.885 (study-level)"
+    }
+  ],
+  "ablations": [
+    "Comparison between Pseudo-T and Pseudo-D shows that class-wise calibration parameters improve performance",
+    "Pseudo-D includes class-specific scaling factors while Pseudo-T lacks class-wise calibration"
+  ],
+  "improvement_over_baseline": "Pseudo-D improves over Vanilla baseline: Study-level MAE reduced by 19.6% (0.224→0.180), ACC increased by 3.8% (0.790→0.820), ECE reduced by 48.6% (0.138→0.071), AURC increased by 3.9% (0.852→0.885); Video-level MAE reduced by 14.4% (0.257→0.220), ACC increased by 2.9% (0.765→0.787), ECE reduced by 43.5% (0.170→0.096), AURC increased by 1.4% (0.804→0.793)",
+  "stated_limitations": [
+    "Focus is limited to medical images, which may limit generalizability to other domains",
+    "Relies on neural network training dynamics, which might be computationally expensive"
+  ],
+  "unstated_weaknesses": [
+    "Lack of details on specific calibration methods used",
+    "No comparison with existing uncertainty estimation techniques",
+    "No discussion of computational efficiency or scalability",
+    "Lack of information about specific types of medical images used",
+    "No mention of how the method handles class imbalance in medical datasets"
+  ],
+  "threats_to_validity": [
+    "Generalization risk: may not work well for different types of images",
+    "Potential bias from training data",
+    "Effectiveness depends on how well neural network training dynamics reflect true uncertainty",
+    "No mention of how uncertainty is evaluated or validated"
+  ],
+  "reproducibility": "low",
+  "open_questions": [
+    "How does the method perform across different medical imaging modalities?",
+    "What is the computational overhead of incorporating neural network training dynamics?",
+    "How does the method compare to other uncertainty estimation approaches?",
+    "What are the optimal aggregation and calibration strategies for different types of medical data?"
+  ],
+  "future_work": [
+    "Extending the method to other medical imaging modalities",
+    "Developing more efficient computational approaches",
+    "Comparing with other uncertainty estimation techniques",
+    "Incorporating domain knowledge into the uncertainty estimation process"
+  ],
+  "gaps_this_enables": [
+    "New research directions in uncertainty-aware pseudo-labeling for medical imaging",
+    "Potential for more reliable computer-aided diagnosis systems",
+    "Opportunities to improve model calibration in medical applications",
+    "Possibility of integrating expert knowledge into the uncertainty estimation process"
+  ],
+  "relevance_to_topic": "This paper directly addresses how to generate pseudo-labels that account for uncertainty in medical imaging, which is a key aspect of uncertainty-aware pseudo-label selection.",
+  "relation_type": "method_source",
+  "can_run_on_macbook": false,
+  "reusable_assets": [
+    "Method for assessing sample difficulty using neural network training dynamics",
+    "Approach for aggregating and calibrating model predictions",
+    "Framework for generating uncertainty-aware pseudo-labels"
+  ],
+  "code_available": false,
+  "code_url": null,
+  "best_result": "Pseudo-D achieves best performance: Study-level MAE ↓ 0.180, ACC ↑ 0.820, ECE ↓ 0.071, AURC ↑ 0.885",
+  "key_results": {
+    "aortic stenosis classification_MAE": "0.224 (study-level)",
+    "aortic stenosis classification_ACC": "0.790 (study-level)",
+    "aortic stenosis classification_ECE": "0.170 (video-level)",
+    "aortic stenosis classification_AURC": "0.804 (video-level)"
+  },
+  "limitations_stated": [
+    "Focus is limited to medical images, which may limit generalizability to other domains",
+    "Relies on neural network training dynamics, which might be computationally expensive"
+  ],
+  "evidence_id": "EV003",
+  "title": "Pseudo-D: Informing Multi-View Uncertainty Estimation with Calibrated Neural Training Dynamics",
+  "year": 2025,
+  "arxiv_id": "2509.11800",
+  "full_text_tool": "pymupdf_full",
+  "full_text_chars": 29119,
+  "sections_found": [
+    "introduction",
+    "method",
+    "results",
+    "conclusion"
+  ],
+  "pdf_pages": 11,
+  "pdf_tables": 1,
+  "pdf_captions": 5
+}
