@@ -1,0 +1,21 @@
+node_modules/
+.DS_Store
+
+# ─── Experiment heavy artifacts ───────────────────────────────────────────
+# Python virtual environments (100s of MBs each)
+runs/**/experiments/**/.venv/
+runs/**/experiments/**/venv/
+# Cloned repos
+runs/**/experiments/**/repo/
+# Downloaded datasets
+runs/**/experiments/**/data/
+# Python cache
+runs/**/experiments/**/__pycache__/
+runs/**/experiments/**/*.egg-info/
+# UV lock files (regenerated)
+runs/**/experiments/**/uv.lock
+# PDF downloads
+runs/**/pdfs/
+# Test artifacts
+runs/_pdf_test*/
+runs/_pdf_test2*/

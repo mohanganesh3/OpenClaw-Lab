@@ -1,0 +1,57 @@
+# ─── Dependencies ──────────────────────────────────────────────────────────────
+node_modules/
+.pnp
+.pnp.js
+
+# ─── Secrets & Keys ───────────────────────────────────────────────────────────
+.openclaw/secrets/
+*.key
+*.pem
+*api-key*
+*secret*
+telegram_allowlist.json
+
+# ─── Environment ──────────────────────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ─── OS Files ─────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# ─── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+*.egg
+
+# ─── Build & Logs ─────────────────────────────────────────────────────────────
+*.log
+logs/
+dist/
+build/
+
+# ─── Research Runs (large artifacts) ──────────────────────────────────────────
+# Keep the runs directory structure but exclude massive binary data
+openresearchos/runs/*/experiments/*/data/
+openresearchos/runs/*/experiments/*/.venv/
+openresearchos/runs/*/experiments/*/repo/
+openresearchos/runs/*/pdfs/
+*.pdf
+
+# ─── Trajectory Exports (keep manifests, skip heavy payloads) ─────────────────
+openresearchos/.openclaw/trajectory-exports/
+
+# ─── Daemon State (regenerated at runtime) ────────────────────────────────────
+openresearchos/daemon_state.json
+openresearchos/bot_flags.json
+
+# ─── Temp Files ───────────────────────────────────────────────────────────────
+openresearchos/tmp/
+*.tmp
