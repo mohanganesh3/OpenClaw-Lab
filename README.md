@@ -1,43 +1,43 @@
-<![CDATA[<p align="center">
+<div align="center">
 
-```
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=8B5CF6&center=true&vCenter=true&width=800&lines=OpenClaw+Lab;An+Autonomous+Research+Operating+System;Reads+Papers,+Generates+Ideas;Runs+Experiments,+Writes+Reports" alt="Typing SVG" />
+
+</div>
+
+```text
                                                                                     
-   ╔═══════════════════════════════════════════════════════════════════════════╗
-   ║                                                                         ║
-   ║     ██████╗ ██████╗ ███████╗███╗   ██╗ ██████╗██╗      █████╗ ██╗    ██╗║
-   ║    ██╔═══██╗██╔══██╗██╔════╝████╗  ██║██╔════╝██║     ██╔══██╗██║    ██║║
-   ║    ██║   ██║██████╔╝█████╗  ██╔██╗ ██║██║     ██║     ███████║██║ █╗ ██║║
-   ║    ██║   ██║██╔═══╝ ██╔══╝  ██║╚██╗██║██║     ██║     ██╔══██║██║███╗██║║
-   ║    ╚██████╔╝██║     ███████╗██║ ╚████║╚██████╗███████╗██║  ██║╚███╔███╔╝║
-   ║     ╚═════╝ ╚═╝     ╚══════╝╚═╝  ╚═══╝ ╚═════╝╚══════╝╚═╝  ╚═╝ ╚══╝╚══╝ ║
-   ║                         L    A    B                                     ║
-   ║                                                                         ║
-   ║          An Autonomous Research Operating System                        ║
-   ║          That Reads Papers, Generates Ideas, Runs Experiments,          ║
-   ║          and Writes Reports — All From Your Terminal.                   ║
-   ║                                                                         ║
-   ╚═══════════════════════════════════════════════════════════════════════════╝
+         ╔═══════════════════════════════════════════════════════════════════════════╗
+         ║                                                                         ║
+         ║     ██████╗ ██████╗ ███████╗███╗   ██╗ ██████╗██╗      █████╗ ██╗    ██╗║
+         ║    ██╔═══██╗██╔══██╗██╔════╝████╗  ██║██╔════╝██║     ██╔══██╗██║    ██║║
+         ║    ██║   ██║██████╔╝█████╗  ██╔██╗ ██║██║     ██║     ███████║██║ █╗ ██║║
+         ║    ██║   ██║██╔═══╝ ██╔══╝  ██║╚██╗██║██║     ██║     ██╔══██║██║███╗██║║
+         ║    ╚██████╔╝██║     ███████╗██║ ╚████║╚██████╗███████╗██║  ██║╚███╔███╔╝║
+         ║     ╚═════╝ ╚═╝     ╚══════╝╚═╝  ╚═══╝ ╚═════╝╚══════╝╚═╝  ╚═╝ ╚══╝╚══╝ ║
+         ║                         L    A    B                                     ║
+         ║                                                                         ║
+         ╚═══════════════════════════════════════════════════════════════════════════╝
 
 ```
 
-</p>
+<div align="center">
 
-<p align="center">
-  <a href="#-what-is-openclaw-lab"><img src="https://img.shields.io/badge/What_Is_This-↓_Read_Below-8B5CF6?style=for-the-badge" alt="What Is This"/></a>
-  <a href="#-architecture"><img src="https://img.shields.io/badge/Architecture-View_Diagram-06B6D4?style=for-the-badge" alt="Architecture"/></a>
-  <a href="#-quickstart"><img src="https://img.shields.io/badge/Quickstart-Get_Started-10B981?style=for-the-badge" alt="Quickstart"/></a>
-  <a href="#-research-runs"><img src="https://img.shields.io/badge/Research_Runs-82_Completed-F59E0B?style=for-the-badge" alt="Research Runs"/></a>
-</p>
+[![What Is This](https://img.shields.io/badge/What_Is_This-↓_Read_Below-8B5CF6?style=for-the-badge)](#-what-is-openclaw-lab)
+[![Architecture](https://img.shields.io/badge/Architecture-View_Diagram-06B6D4?style=for-the-badge)](#-architecture)
+[![Quickstart](https://img.shields.io/badge/Quickstart-Get_Started-10B981?style=for-the-badge)](#-quickstart)
+[![Research Runs](https://img.shields.io/badge/Research_Runs-82_Completed-F59E0B?style=for-the-badge)](#-research-runs)
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Node.js-24.x-339933?style=flat-square&logo=node.js&logoColor=white" alt="Node.js"/>
-  <img src="https://img.shields.io/badge/Python-3.11-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/LLM-Sarvam_105B-FF6B35?style=flat-square" alt="Sarvam"/>
-  <img src="https://img.shields.io/badge/Platform-macOS_M4-000000?style=flat-square&logo=apple&logoColor=white" alt="macOS"/>
-  <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="License"/>
-  <img src="https://img.shields.io/badge/Papers_Read-800+-blue?style=flat-square" alt="Papers"/>
-  <img src="https://img.shields.io/badge/Experiments_Run-300+-orange?style=flat-square" alt="Experiments"/>
-</p>
+<br>
+
+<img src="https://img.shields.io/badge/Node.js-24.x-339933?style=flat-square&logo=node.js&logoColor=white" alt="Node.js"/>
+<img src="https://img.shields.io/badge/Python-3.11-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+<img src="https://img.shields.io/badge/LLM-Sarvam_105B-FF6B35?style=flat-square" alt="Sarvam"/>
+<img src="https://img.shields.io/badge/Platform-macOS_M4-000000?style=flat-square&logo=apple&logoColor=white" alt="macOS"/>
+<img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="License"/>
+<img src="https://img.shields.io/badge/Papers_Read-800+-blue?style=flat-square" alt="Papers"/>
+<img src="https://img.shields.io/badge/Experiments_Run-300+-orange?style=flat-square" alt="Experiments"/>
+
+</div>
 
 ---
 
@@ -65,74 +65,49 @@ Give it a research topic, and it will:
 
 ## 🏗️ Architecture
 
-```
-╔══════════════════════════════════════════════════════════════════════════════════╗
-║                          OpenClaw Lab — System Architecture                     ║
-╠══════════════════════════════════════════════════════════════════════════════════╣
-║                                                                                 ║
-║  ┌─────────────────┐    ┌──────────────────┐    ┌────────────────────────────┐  ║
-║  │   USER INPUT     │    │  TELEGRAM BOT    │    │     VOICE (Sarvam)        │  ║
-║  │  Terminal / CLI  │    │  /start_research │    │  STT → Command → TTS      │  ║
-║  └────────┬────────┘    └────────┬─────────┘    └──────────┬─────────────────┘  ║
-║           │                      │                          │                    ║
-║           ▼                      ▼                          ▼                    ║
-║  ┌───────────────────────────────────────────────────────────────────────────┐   ║
-║  │                        COMMAND ROUTER                                     │   ║
-║  │              channels/command_router.mjs                                  │   ║
-║  │   /start_research  /status  /approve  /summarize  /export_trace          │   ║
-║  └──────────────────────────────┬────────────────────────────────────────────┘   ║
-║                                 │                                                ║
-║                                 ▼                                                ║
-║  ┌───────────────────────────────────────────────────────────────────────────┐   ║
-║  │                                                                           │   ║
-║  │                    ╔═══════════════════════════╗                          │   ║
-║  │                    ║   RESEARCH COORDINATOR    ║                          │   ║
-║  │                    ║   openresearch.mjs         ║                          │   ║
-║  │                    ╚═══════════╤═══════════════╝                          │   ║
-║  │                                │                                          │   ║
-║  │         ┌──────────────────────┼──────────────────────┐                  │   ║
-║  │         ▼                      ▼                      ▼                  │   ║
-║  │  ┌─────────────┐   ┌───────────────────┐   ┌──────────────────┐         │   ║
-║  │  │ LLM CLIENT  │   │ EXPERIMENT SANDBOX │   │  RESEARCH DAEMON │         │   ║
-║  │  │             │   │                   │   │                  │         │   ║
-║  │  │ • ask()     │   │ • micro_probe     │   │ • watch mode     │         │   ║
-║  │  │ • review()  │   │ • probe           │   │ • auto-resume    │         │   ║
-║  │  │ • design()  │   │ • ablation        │   │ • PM2 managed    │         │   ║
-║  │  │ • write()   │   │ • mvp             │   │ • heartbeat      │         │   ║
-║  │  └──────┬──────┘   └────────┬──────────┘   └────────┬─────────┘         │   ║
-║  │         │                   │                        │                    │   ║
-║  │         ▼                   ▼                        ▼                    │   ║
-║  │  ┌──────────────────────────────────────────────────────────────────┐    │   ║
-║  │  │                     INFRASTRUCTURE LAYER                         │    │   ║
-║  │  │                                                                  │    │   ║
-║  │  │  ┌──────────┐  ┌───────────┐  ┌──────────┐  ┌───────────────┐  │    │   ║
-║  │  │  │ OpenClaw │  │ Terminal  │  │  Memory  │  │   Engineer    │  │    │   ║
-║  │  │  │ Bridge   │  │ Engine   │  │  Bridge  │  │   (Resource)  │  │    │   ║
-║  │  │  │          │  │          │  │          │  │               │  │    │   ║
-║  │  │  │ • infer  │  │ • run()  │  │ • save   │  │ • plan deps  │  │    │   ║
-║  │  │  │ • search │  │ • python │  │ • load   │  │ • clone repo │  │    │   ║
-║  │  │  │ • fetch  │  │ • curl   │  │ • search │  │ • download   │  │    │   ║
-║  │  │  │ • embed  │  │ • git    │  │ • index  │  │ • provision  │  │    │   ║
-║  │  │  └──────────┘  └───────────┘  └──────────┘  └───────────────┘  │    │   ║
-║  │  └──────────────────────────────────────────────────────────────────┘    │   ║
-║  │                                                                           │   ║
-║  │                       OpenResearchOS Core                                │   ║
-║  └───────────────────────────────────────────────────────────────────────────┘   ║
-║                                                                                 ║
-║  ┌───────────────────────────────────────────────────────────────────────────┐   ║
-║  │                        EXTERNAL SERVICES                                  │   ║
-║  │                                                                           │   ║
-║  │  ┌──────────────┐  ┌──────────────┐  ┌────────────┐  ┌───────────────┐  │   ║
-║  │  │ Sarvam 105B  │  │ Semantic     │  │   arXiv    │  │   Telegram    │  │   ║
-║  │  │ (120K ctx)   │  │ Scholar API  │  │   API      │  │   Bot API     │  │   ║
-║  │  └──────────────┘  └──────────────┘  └────────────┘  └───────────────┘  │   ║
-║  │  ┌──────────────┐  ┌──────────────┐  ┌────────────┐  ┌───────────────┐  │   ║
-║  │  │ DuckDuckGo   │  │ EmbedGemma   │  │  marker    │  │   Sarvam      │  │   ║
-║  │  │ Web Search   │  │ (300M local) │  │  PDF→MD    │  │   TTS / STT   │  │   ║
-║  │  └──────────────┘  └──────────────┘  └────────────┘  └───────────────┘  │   ║
-║  └───────────────────────────────────────────────────────────────────────────┘   ║
-║                                                                                 ║
-╚══════════════════════════════════════════════════════════════════════════════════╝
+```mermaid
+graph TD
+    %% Styling
+    classDef user fill:#8B5CF6,stroke:#fff,stroke-width:2px,color:#fff
+    classDef router fill:#06B6D4,stroke:#fff,stroke-width:2px,color:#fff
+    classDef core fill:#10B981,stroke:#fff,stroke-width:2px,color:#fff
+    classDef infra fill:#F59E0B,stroke:#fff,stroke-width:2px,color:#fff
+    classDef ext fill:#374151,stroke:#fff,stroke-width:2px,color:#fff
+
+    %% User Inputs
+    CLI(Terminal / CLI):::user
+    BOT(Telegram Bot):::user
+    VOICE(Voice / Sarvam):::user
+
+    %% Router
+    ROUTER{Command Router}:::router
+    CLI --> ROUTER
+    BOT --> ROUTER
+    VOICE --> ROUTER
+
+    %% Core
+    COORD[Research Coordinator <br> 28-State Machine]:::core
+    ROUTER --> COORD
+
+    subgraph OpenResearchOS Core
+        COORD --> LLM[LLM Client <br> ask, review, write]:::core
+        COORD --> SANDBOX[Experiment Sandbox <br> probe, ablation, MVP]:::core
+        COORD --> DAEMON[Research Daemon <br> watch, resume, PM2]:::core
+    end
+
+    %% Infrastructure
+    subgraph Infrastructure Layer
+        LLM --> BRIDGE[OpenClaw Bridge <br> infer, search, embed]:::infra
+        SANDBOX --> TERM[Terminal Engine <br> shell, git, curl]:::infra
+        COORD --> MEMORY[Memory Bridge <br> save, load, index]:::infra
+        COORD --> ENGIN[Engineer <br> plan deps, provision]:::infra
+    end
+
+    %% External
+    BRIDGE -.-> EXT_SAR[Sarvam 105B]:::ext
+    BRIDGE -.-> EXT_SEM[Semantic Scholar]:::ext
+    BRIDGE -.-> EXT_ARX[arXiv API]:::ext
+    TERM -.-> EXT_GIT[GitHub Repos]:::ext
 ```
 
 ---
@@ -141,7 +116,7 @@ Give it a research topic, and it will:
 
 The core of OpenResearchOS is a **28-state research pipeline**. Every research run walks through these states, and the system can resume from any checkpoint if interrupted.
 
-```
+```text
                                  THE RESEARCH STATE MACHINE
                                  
      ╭────────────╮
@@ -230,7 +205,7 @@ The core of OpenResearchOS is a **28-state research pipeline**. Every research r
 
 Not all experiments are equal. OpenClaw Lab uses a **progressive experiment ladder** — cheap tests first, expensive only when warranted:
 
-```
+```text
                     THE EXPERIMENT LADDER
                     
     ╔══════════════════════════════════════════════════╗
@@ -275,7 +250,7 @@ Not all experiments are equal. OpenClaw Lab uses a **progressive experiment ladd
 
 After **every** experiment, the system must choose exactly **one** next action:
 
-```
+```text
 ┌──────────────────────────────────────────────────────────────┐
 │  PROMOTE_TO_NEXT_LEVEL  │  ADD_BASELINE    │  ADD_ABLATION  │
 │  FIX_BUG_AND_RERUN      │  CHANGE_METRIC   │  CHANGE_DATASET│
@@ -292,7 +267,7 @@ No experiment can produce only "promising" or "interesting." Every result **must
 
 Every idea is attacked by **5 simulated reviewers** before experiments begin:
 
-```
+```text
                     ╔═══════════════════════════════╗
                     ║       REVIEWER COUNCIL        ║
                     ╠═══════════════════════════════╣
@@ -328,7 +303,7 @@ The council runs **three times**: once on ideas, once on results, and once on th
 
 ## 📁 Project Structure
 
-```
+```text
 OpenClaw-Lab/
 │
 ├── openresearchos/                    # ← The research operating system
@@ -439,7 +414,7 @@ node src/openresearch.mjs demo --topic "calibration-aware active learning"
 
 ### 5. Monitor via Telegram
 
-```
+```text
 /start_research calibration-aware active learning for medical imaging
 /status run_20260608104616
 /approve_micro_probe run_20260608104616 i04
@@ -486,7 +461,7 @@ OpenClaw Lab has completed **82 autonomous research runs** across **17 distinct 
 
 An idea only advances if it passes these **hard gates** — no shortcuts:
 
-```
+```text
 ┌──────────────────────────────────────────────────────────────────────┐
 │                         QUALITY GATES                                │
 │                                                                      │
@@ -533,7 +508,7 @@ An idea only advances if it passes these **hard gates** — no shortcuts:
 
 OpenClaw Lab integrates **Sarvam AI** for a multilingual voice research interface:
 
-```
+```text
                     VOICE RESEARCH FLOW
                     
     🗣️  User speaks          Sarvam STT          OpenClaw
@@ -559,7 +534,7 @@ OpenClaw Lab integrates **Sarvam AI** for a multilingual voice research interfac
 
 Failed ideas aren't deleted — they're **saved to memory** so the system learns:
 
-```
+```text
 ~/.openclaw/workspace/memory/
 ├── failed_ideas/         # Ideas that failed reviewer or experiment gates
 │   ├── attention_pruning_v2.md
@@ -576,7 +551,7 @@ Before generating new ideas, the system **checks memory** via Jaccard similarity
 
 ## 📈 Paper Readiness Levels
 
-```
+```text
     RRL-0  ░░░░░░░░░░  Vague idea
     RRL-1  ██░░░░░░░░  Evidence-backed gap
     RRL-2  ████░░░░░░  Novelty survives prior-art search
@@ -633,7 +608,7 @@ node tools/sarvam_cli.mjs stt --file audio.wav --mode transcribe
 
 ## 🗓️ Development Timeline
 
-```
+```text
     MAY 31 ─────────────────── Sarvam Voice CLI + API integration
          │
     JUN 01 ─────────────────── OpenResearchOS v1: core pipeline, state machine,
@@ -680,9 +655,9 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 
 ---
 
-<p align="center">
+<div align="center">
 
-```
+```text
 
     Built with obsession through June 2026
     82 research runs  ·  17 topics  ·  800+ papers read  ·  300+ experiments
@@ -694,9 +669,8 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 
 ```
 
-</p>
+<br>
 
-<p align="center">
-  <sub>Made with 🧠 by <b>Mohan Ganesh</b> — Powered by <b>OpenClaw</b> + <b>Sarvam AI</b></sub>
-</p>
-]]>
+<sub>Made with 🧠 by <b>Mohan Ganesh</b> — Powered by <b>OpenClaw</b> + <b>Sarvam AI</b></sub>
+
+</div>
